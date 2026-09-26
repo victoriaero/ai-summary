@@ -1,0 +1,68 @@
+{
+  "study": {
+    "geographic_scope": "United States",
+    "query_intent": "explanatory",
+    "group_placeholder": "{GROUP}"
+  },
+  "control": {
+    "condition_id": "control-people",
+    "label": "people"
+  },
+  "outcomes": [
+    {
+      "domain": "Housing",
+      "outcome_id": "HOU-02",
+      "outcome": "Housing affordability",
+      "definition": "Housing costs relative to household resources, typically measured through rent or owner-cost burdens."
+    },
+    {
+      "domain": "Employment",
+      "outcome_id": "EMP-04",
+      "outcome": "Wages / pay",
+      "definition": "Monetary compensation for work, measured on a specified hourly, weekly or annual basis."
+    },
+    {
+      "domain": "Healthcare",
+      "outcome_id": "HC-01",
+      "outcome": "Access to needed medical care",
+      "definition": "Ability to obtain medical care when a need arises, including unmet need or delayed care."
+    }
+  ],
+  "demographics": [
+    {
+      "dimension_id": "race",
+      "dimension": "Race",
+      "groups": [
+        {
+          "group_id": "race-black",
+          "group": "Black",
+          "variants": [
+            {"variant_id": "black-people", "label": "Black people"},
+            {"variant_id": "black-americans", "label": "Black Americans"}
+          ]
+        },
+        {
+          "group_id": "race-white",
+          "group": "White",
+          "variants": [
+            {"variant_id": "white-people", "label": "White people"}
+          ]
+        }
+      ]
+    },
+    {
+      "dimension_id": "gender",
+      "dimension": "Gender",
+      "groups": [
+        {
+          "group_id": "gender-women",
+          "group": "Women",
+          "variants": [
+            {"variant_id": "women", "label": "women"}
+          ]
+        }
+      ]
+    }
+  ]
+}
+

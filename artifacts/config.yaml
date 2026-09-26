@@ -1,0 +1,31 @@
+# Paths are resolved relative to this file.
+paths:
+  study_input: study_input.example.json
+  system_prompt: prompts/system_prompt.txt
+  user_prompt: prompts/user_prompt.txt
+  runs_dir: runs
+
+pipeline:
+  prompt_version: v1
+  candidates_per_outcome: 5
+
+# Fill in the chosen Hugging Face model before running generation.
+model:
+  id: null
+  revision: null
+  tokenizer_id: null
+  tokenizer_revision: null
+  device: auto
+  dtype: auto
+  trust_remote_code: false
+  tokenizer_use_fast: true
+
+generation:
+  seed: 42
+  parameters:
+    do_sample: true
+    temperature: 0.7
+    top_p: 0.9
+    repetition_penalty: 1.0
+    max_new_tokens: 768
+
