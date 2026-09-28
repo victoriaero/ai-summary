@@ -1,0 +1,62 @@
+GUIDELINES FOR MANUAL QUERY DATA COLLECTION
+
+This document describes the standardized procedure for manually collecting queries for the Google AI Overview experiment.
+The goal is to reduce, as much as possible, the influence of factors external to the experimental condition,
+especially geographic location, recent browsing history, cookies, and previously authenticated browser profiles.
+All data collectors must follow the same procedure exactly.
+
+1. Environment preparation
+
+Data collection must be performed on a computer using the Google Chrome browser.
+Do not use a personal Chrome profile and do not sign in to a Google Account during data collection.
+Do not keep more than one data-collection session open at the same time.
+Data collection must be conducted using Chrome Guest mode. When a Guest session is fully closed, Chrome removes the browsing history, cookies, and site data associated with that session from the computer. For this reason, each query must be executed in a new Guest session.
+
+2. Installing and using the VPN
+
+Windscribe will be used to control the apparent geographic location of the connection during data collection.
+
+Official download page:
+https://windscribe.com/download
+
+Before starting any data collection:
+- Open Windscribe.
+- Sign in to the account provided for the project, when applicable.
+- Select the city corresponding to the folder being collected.
+- Confirm that the VPN is connected before opening the Chrome Guest session.
+
+The folder-to-location mapping is:
+
+v1_dallas -> Dallas
+v2_ny -> New York
+v3_la -> Los Angeles
+
+It is essential not to mix locations. A file from the v1_dallas folder must be collected while connected to Dallas; a file from v2_ny must be collected while connected to New York; and a file from v3_la must be collected while connected to Los Angeles.
+If the VPN connection is interrupted, changes location, or behaves unexpectedly during data collection, stop the procedure and do not record the query until the correct location has been restored.
+
+3. Downloading files from remote machine
+
+The files containing the queries and the fields to be completed will be stored on the remote machine.
+Before starting data collection, download to your local computer only the files/folders assigned to you.
+Do not change the names of folders, files, columns, or existing fields.
+The files must be completed locally, once it's not possible to stay connected on the remote machine while using the VPN on.
+
+4. Unexpected situations
+
+If Google AI Overview does not appear, do not try to force it to appear by modifying the query or performing related searches.
+
+Record the situation in the corresponding field, when available, and continue according to the project protocol.
+
+If a CAPTCHA, additional verification step, temporary block, or other unusual message appears:
+- do not modify the query;
+- do not make repeated attempts in quick succession;
+- record what occurred;
+- follow the instructions of the research team before continuing if the issue persists.
+
+If the VPN disconnects while the search is loading, discard that attempt and repeat the query only after restoring the correct location, using a new Guest session.
+
+5. Main rule
+
+The experimental condition should change only according to what is already specified in the data-collection file. The collector must not introduce additional changes in the browser, geographic location, query wording, or procedure between observations.
+
+If any situation arises that is not covered by this document, stop collecting that item and contact the team before making a decision that could affect data comparability.
