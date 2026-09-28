@@ -1,128 +1,79 @@
-# AIO como mecanismo de governança da informação
+# Google AI Overview Study
 
-Pipeline auditável para gerar templates de busca neutros, congelar uma escolha humana e criar condições demográficas pareadas. A geração usa o placeholder literal `{GROUP}` e nunca recebe o catálogo de grupos.
+Este repositório organiza a seleção de outcomes, a geração determinística de queries e a coleta manual de respostas do Google AI Overview. Não há uso de LLM no pipeline.
+
+A query usada em todas as condições é:
+
+```text
+What factors influence [OUTCOME] for [GROUP] in [DOMAIN]?
+```
 
 ## Estrutura
 
-- `artifacts/config.yaml`: configuração operacional e caminhos do pipeline.
-- `artifacts/study_input.example.json`: outcomes e catálogo demográfico de exemplo.
-- `artifacts/prompts/`: system prompt e template do user prompt.
-- `artifacts/runs/<run_id>/`: artefatos imutáveis de cada execução.
-- `scripts/`: geração, congelamento e expansão.
+```text
+.
+├── artifacts/
+│   ├── annotation_inputs/       # planilhas originais dos anotadores
+│   └── annotation_results/      # concordância e top 3 por domínio
+├── annotations/
+│   ├── annotator_1/
+│   │   └── google_aio_collection/
+│   ├── annotator_2/
+│   │   └── google_aio_collection/
+│   └── annotator_3/
+│       └── google_aio_collection/
+├── google_aio_collection/       # fonte original preservada
+├── scripts/
+│   ├── generate_queries.py      # gera os formulários das três coletas
+│   └── gwet.py                  # calcula concordância e seleciona outcomes
+└── requirements.txt
+```
 
-O arquivo `study_input.example.json` demonstra o contrato, mas não representa o catálogo final do estudo.
+Cada pasta `google_aio_collection` contém uma subpasta por grupo, 21 arquivos de coleta por grupo e um `query_manifest.csv`. São 273 queries para cada anotador: 13 grupos/condições × 7 domínios × 3 outcomes.
+
+A pasta `google_aio_collection/` da raiz é mantida como fonte original. A coleta manual deve ser feita somente nas três cópias dentro de `annotations/`.
 
 ## Instalação
 
-Requer Python 3.10 ou mais recente:
+Requer Python 3.10 ou mais recente.
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-Execute os comandos a partir da raiz do repositório.
+Os scripts resolvem os caminhos a partir da raiz do repositório e podem ser executados de qualquer diretório.
 
-## Configuração
+## 1. Concordância e seleção dos outcomes
 
-Todos os comandos usam `artifacts/config.yaml`. Caminhos relativos são resolvidos a partir da pasta em que o YAML está salvo, independentemente do diretório corrente.
-
-Antes da primeira geração:
-
-1. copie ou renomeie `study_input.example.json` quando os dados finais estiverem disponíveis;
-2. ajuste `paths.study_input`;
-3. preencha `model.id` com o ID do modelo instruction/chat no Hugging Face;
-4. preferencialmente fixe `model.revision` em um commit para reprodução.
-
-Os principais campos são:
-
-```yaml
-paths:
-  study_input: study_input.example.json
-  system_prompt: prompts/system_prompt.txt
-  user_prompt: prompts/user_prompt.txt
-  runs_dir: runs
-
-pipeline:
-  prompt_version: v1
-  candidates_per_outcome: 5
-
-model:
-  id: null  # preencher antes da geração
-  revision: null
-  tokenizer_id: null  # null reutiliza model.id
-  tokenizer_revision: null
-  device: auto
-  dtype: auto
-  trust_remote_code: false
-  tokenizer_use_fast: true
-
-generation:
-  seed: 42
-  parameters:
-    do_sample: true
-    temperature: 0.7
-    top_p: 0.9
-    repetition_penalty: 1.0
-    max_new_tokens: 768
-```
-
-`trust_remote_code` deve permanecer `false`, exceto quando o modelo escolhido realmente exigir código customizado e esse código tiver sido revisado.
-
-O template de user prompt usa variáveis no formato `$nome`. As variáveis disponíveis são `$candidate_count`, `$domain`, `$outcome_id`, `$outcome`, `$definition`, `$geographic_scope`, `$query_intent`, `$candidate_id_start` e `$candidate_id_end`. O placeholder demográfico continua sendo o texto literal `{GROUP}`.
-
-## 1. Gerar candidatos
+Os CSVs originais ficam em `artifacts/annotation_inputs/`. Para recalcular a concordância e selecionar os três outcomes de cada domínio:
 
 ```bash
-python -m scripts.generate_candidates \
-  --config artifacts/config.yaml \
-  --run-id pilot-001
+python scripts/gwet.py
 ```
 
-A execução grava `manifest.json`, `raw_generations.jsonl`, `candidates.jsonl`, `candidates.csv` e um esqueleto de `selection.json`. O manifesto preserva snapshots do YAML e do JSON, caminhos dos prompts, modelo, tokenizer, revisions, hiperparâmetros e versões das dependências. Os prompts renderizados também ficam registrados em cada geração.
+O script grava:
 
-Se a resposta do modelo for inválida, a resposta bruta permanece em `raw_generations.jsonl`, o manifesto marca a geração como falha e o comando termina com erro.
+- `artifacts/annotation_results/annotator_agreement_full.csv`;
+- `artifacts/annotation_results/selected_top3_outcomes.csv`.
 
-## 2. Selecionar e congelar
-
-Edite `artifacts/runs/pilot-001/selection.json` e informe exatamente um candidato por outcome:
-
-```json
-{
-  "outcome_id": "HOU-02",
-  "selected_candidate_id": "HOU-02-Q01",
-  "final_template": null,
-  "notes": "Formulação mais natural e neutra."
-}
-```
-
-Com `final_template: null`, o texto original é mantido. Para uma correção manual, informe o texto completo preservando exatamente um `{GROUP}`.
+## 2. Preparar a coleta manual
 
 ```bash
-python -m scripts.freeze_templates \
-  --config artifacts/config.yaml \
-  --run-id pilot-001
+python scripts/generate_queries.py
 ```
 
-## 3. Expandir condições
+O script prepara três cópias independentes em `annotations/annotator_1`, `annotator_2` e `annotator_3`. Arquivos `.txt` já existentes são preservados para não apagar coleta manual; apenas arquivos ausentes são criados. O manifesto de cada anotador é atualizado com a lista completa de queries.
 
-```bash
-python -m scripts.expand_queries \
-  --config artifacts/config.yaml \
-  --run-id pilot-001
-```
+Cada arquivo contém a query, 15 espaços para links, uma área para o texto do AI Overview, dados da sessão de coleta e metadados que não devem ser editados.
 
-O comando produz `queries.jsonl` e `queries.csv`. Cada variação linguística gera uma condição distinta; o controle `people` aparece uma única vez por outcome.
+## Fluxo recomendado
 
-## Limites desta versão
+1. Mantenha as planilhas originais em `artifacts/annotation_inputs/`.
+2. Execute `gwet.py` quando precisar recalcular a seleção de outcomes.
+3. Execute `generate_queries.py` antes do início da coleta.
+4. Distribua uma pasta de `annotations/annotator_N/` para cada anotador.
+5. Durante a coleta, edite somente a cópia correspondente ao anotador.
 
-O pipeline verifica integridade estrutural: YAML/JSON válidos, cinco candidatos com IDs esperados, um `{GROUP}` por template, uma seleção por outcome e substituição completa. Neutralidade e equivalência semântica continuam sendo decisões de pesquisa. A consolidação e concordância dos CSVs de anotadores também ficam fora do escopo.
-
-## Testes
-
-Os testes usam um gerador simulado e não baixam modelos:
-
-```bash
-pytest -q
-```
+Evite copiar pastas manualmente depois que a coleta começar. O gerador não sobrescreve arquivos existentes, mas cada pasta deve continuar atribuída a uma única pessoa.

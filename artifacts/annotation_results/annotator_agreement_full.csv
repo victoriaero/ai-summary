@@ -1,0 +1,63 @@
+Domain,Outcome,score_1,concern_1,score_2,concern_2,mean_score,min_score,abs_difference,any_comparability_concern,both_comparability_concern
+Healthcare,Person-centered care,3,False,5,False,4.0,3,2,False,False
+Healthcare,Patient safety,5,False,4,False,4.5,4,1,False,False
+Healthcare,Preventive care,4,False,5,False,4.5,4,1,False,False
+Healthcare,Usual source of care,2,False,3,False,2.5,2,1,False,False
+Healthcare,Affordability,2,True,4,True,3.0,2,2,True,True
+Healthcare,Insurance coverage,5,False,3,False,4.0,3,2,False,False
+Healthcare,Access to needed medical care,5,False,2,False,3.5,2,3,False,False
+Employment,Hiring,5,False,5,False,5.0,5,0,False,False
+Employment,Job retention,5,False,1,False,3.0,1,4,False,False
+Employment,Labor-force participation,5,False,3,False,4.0,3,2,False,False
+Employment,Employment status,3,False,1,False,2.0,1,2,False,False
+Employment,Career advancement,4,False,5,False,4.5,4,1,False,False
+Employment,Access to workplace accommodations,3,False,4,False,3.5,3,1,False,False
+Employment,Workplace harassment,5,False,5,False,5.0,5,0,False,False
+Employment,Wages / pay,5,False,4,False,4.5,4,1,False,False
+Employment,Employment benefits,4,False,5,False,4.5,4,1,False,False
+Education,Academic performance,3,False,4,False,3.5,3,1,False,False
+Education,College access/admission,4,False,5,False,4.5,4,1,False,False
+Education,Educational attainment,4,False,2,False,3.0,2,2,False,False
+Education,Educational opportunity/access,5,False,5,False,5.0,5,0,False,False
+Education,Student discipline,3,False,5,False,4.0,3,2,False,False
+Education,Advanced-course access,4,False,2,False,3.0,2,2,False,False
+Education,Completion/graduation,5,False,4,False,4.5,4,1,False,False
+Education,Harassment/bullying,5,False,5,False,5.0,5,0,False,False
+Education,Retention/persistence,5,False,3,False,4.0,3,2,False,False
+Housing,Rental access,2,False,5,False,3.5,2,3,False,False
+Housing,Housing affordability,5,False,2,False,3.5,2,3,False,False
+Housing,Eviction risk,5,False,3,False,4.0,3,2,False,False
+Housing,Access to housing,5,False,4,True,4.5,4,1,True,False
+Housing,Housing quality/adequacy,3,False,1,False,2.0,1,2,False,False
+Housing,Neighborhood quality,4,False,4,False,4.0,4,0,False,False
+Housing,Housing stability,4,False,4,False,4.0,4,0,False,False
+Housing,Homelessness,5,False,4,False,4.5,4,1,False,False
+Housing,Homeownership,4,False,1,False,2.5,1,3,False,False
+Credit & Financial Services,Mortgage approval,5,False,2,True,3.5,2,3,True,False
+Credit & Financial Services,Credit/loan approval,5,False,4,False,4.5,4,1,False,False
+Credit & Financial Services,Access to banking services,4,False,4,False,4.0,4,0,False,False
+Credit & Financial Services,Mainstream vs alternative credit use,3,False,3,False,3.0,3,0,False,False
+Credit & Financial Services,Access to credit,4,False,4,False,4.0,4,0,False,False
+Credit & Financial Services,Credit record availability / credit invisibility,4,False,1,False,2.5,1,3,False,False
+Credit & Financial Services,Bank account ownership,4,False,2,False,3.0,2,2,False,False
+Credit & Financial Services,Credit terms / cost of borrowing,5,False,2,False,3.5,2,3,False,False
+Credit & Financial Services,Credit score,5,False,2,False,3.5,2,3,False,False
+Credit & Financial Services,Use of alternative financial services,3,False,1,False,2.0,1,2,False,False
+Criminal Justice,Incarceration,5,False,5,False,5.0,5,0,False,False
+Criminal Justice,Traffic/street stops,5,False,5,False,5.0,5,0,False,False
+Criminal Justice,Conviction / adjudication outcome,3,False,2,False,2.5,2,1,False,False
+Criminal Justice,Pretrial detention / release,4,False,5,False,4.5,4,1,False,False
+Criminal Justice,Police-initiated contact,5,False,5,False,5.0,5,0,False,False
+Criminal Justice,Sentencing outcomes,5,False,5,False,5.0,5,0,False,False
+Criminal Justice,Police use of force,5,False,5,False,5.0,5,0,False,False
+Criminal Justice,Probation/parole supervision,3,False,2,False,2.5,2,1,False,False
+Criminal Justice,Charging / prosecution decisions,4,False,3,False,3.5,3,1,False,False
+Criminal Justice,Arrest / detention by police,5,False,5,False,5.0,5,0,False,False
+Government Benefits,Administrative burden,3,False,4,False,3.5,3,1,False,False
+Government Benefits,Awareness of benefits,2,False,1,False,1.5,1,1,False,False
+Government Benefits,Benefit eligibility,4,False,2,False,3.0,2,2,False,False
+Government Benefits,Program participation / receipt,4,False,2,False,3.0,2,2,False,False
+Government Benefits,Application/approval,5,False,4,False,4.5,4,1,False,False
+Government Benefits,Access to government benefits,5,False,4,False,4.5,4,1,False,False
+Government Benefits,Timeliness of benefit determination,4,False,1,False,2.5,1,3,False,False
+Government Benefits,Benefit retention / renewal,4,False,4,False,4.0,4,0,False,False

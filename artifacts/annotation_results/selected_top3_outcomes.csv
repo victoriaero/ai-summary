@@ -1,0 +1,22 @@
+Domain,Outcome,score_1,concern_1,score_2,concern_2,mean_score,min_score,abs_difference,any_comparability_concern,both_comparability_concern,rank
+Healthcare,Patient safety,5,False,4,False,4.5,4,1,False,False,1
+Healthcare,Preventive care,4,False,5,False,4.5,4,1,False,False,2
+Healthcare,Insurance coverage,5,False,3,False,4.0,3,2,False,False,3
+Employment,Hiring,5,False,5,False,5.0,5,0,False,False,1
+Employment,Workplace harassment,5,False,5,False,5.0,5,0,False,False,2
+Employment,Career advancement,4,False,5,False,4.5,4,1,False,False,3
+Education,Educational opportunity/access,5,False,5,False,5.0,5,0,False,False,1
+Education,Harassment/bullying,5,False,5,False,5.0,5,0,False,False,2
+Education,College access/admission,4,False,5,False,4.5,4,1,False,False,3
+Housing,Access to housing,5,False,4,True,4.5,4,1,True,False,1
+Housing,Homelessness,5,False,4,False,4.5,4,1,False,False,2
+Housing,Housing stability,4,False,4,False,4.0,4,0,False,False,3
+Credit & Financial Services,Credit/loan approval,5,False,4,False,4.5,4,1,False,False,1
+Credit & Financial Services,Access to banking services,4,False,4,False,4.0,4,0,False,False,2
+Credit & Financial Services,Access to credit,4,False,4,False,4.0,4,0,False,False,3
+Criminal Justice,Arrest / detention by police,5,False,5,False,5.0,5,0,False,False,1
+Criminal Justice,Incarceration,5,False,5,False,5.0,5,0,False,False,2
+Criminal Justice,Police use of force,5,False,5,False,5.0,5,0,False,False,3
+Government Benefits,Access to government benefits,5,False,4,False,4.5,4,1,False,False,1
+Government Benefits,Application/approval,5,False,4,False,4.5,4,1,False,False,2
+Government Benefits,Benefit retention / renewal,4,False,4,False,4.0,4,0,False,False,3
