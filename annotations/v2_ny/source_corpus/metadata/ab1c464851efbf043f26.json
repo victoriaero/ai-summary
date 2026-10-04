@@ -1,0 +1,28 @@
+{
+  "source_id": "ab1c464851efbf043f26",
+  "normalized_url": "https://archive.news.ufl.edu/articles/2016/12/the-disturbing-connection-between-bullying-and-sexual-harassment-1.html",
+  "fetch_timestamp_utc": "2026-10-04T02:46:27.693563+00:00",
+  "registrable_domain": "ufl.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://archive.news.ufl.edu/articles/2016/12/the-disturbing-connection-between-bullying-and-sexual-harassment-1.html",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 31585,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ab1c464851efbf043f26.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ab1c464851efbf043f26.txt",
+  "text_chars": 6271,
+  "text_words": 973,
+  "extraction_status": "success",
+  "page_title": "The disturbing connection between bullying and sexual harassment",
+  "page_author": "Dorothy Espelage Author",
+  "page_date": "2016-12-05",
+  "site_name": "archive.news.ufl.edu",
+  "canonical_url": "https://archive.news.ufl.edu/articles/2016/12/the-disturbing-connection-between-bullying-and-sexual-harassment-1.html"
+}

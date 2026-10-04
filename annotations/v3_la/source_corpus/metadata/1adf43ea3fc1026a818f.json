@@ -1,0 +1,28 @@
+{
+  "source_id": "1adf43ea3fc1026a818f",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9989558",
+  "fetch_timestamp_utc": "2026-10-04T03:32:46.186635+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9989558/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 317830,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/1adf43ea3fc1026a818f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/1adf43ea3fc1026a818f.txt",
+  "text_chars": 92437,
+  "text_words": 14460,
+  "extraction_status": "success",
+  "page_title": "College Choice Revisited: Socioeconomic Differences in College Transfer Destinations Among Four-Year College Entrants",
+  "page_author": "George Spencer; Amy Stich",
+  "page_date": "2023-03-07",
+  "site_name": "Research in Higher Education",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9989558/"
+}

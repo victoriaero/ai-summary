@@ -1,0 +1,62 @@
+Final-paper script set
+======================
+
+RUN.py
+RUN.sh
+    Orchestrates Dallas (v1_dallas), NYC (v2_ny), and LA (v3_la).
+
+consistency.py
+    Original collection validator from the uploaded scripts folder.
+
+link_count_analysis.py
+    Based on test_links.py.
+    Made location-configurable and added 20,000 paired-outcome bootstrap CIs
+    to focal-vs-comparison dimension and aggregate effects.
+
+source_overlap_analysis.py
+    Based on links_quadrant.py.
+    Made location-configurable; retains sign-flip tests, bootstrap CIs,
+    Wilcoxon checks, effect sizes, Holm correction, and source-set diagnostics.
+
+semantic_displacement_analysis.py
+    Based on embedding.py.
+    Made location-configurable; retains primary, robustness, sentence-level,
+    global, and post-hoc analyses.
+
+collect_cited_sources.py
+    Based on coletalinks.py.
+    Made location-configurable; remains resumable and stores a separate source
+    corpus for each collection version.
+
+evidence_synthesis_analysis.py
+    Based on evidence_synthesis.py.
+    Made location-configurable; reads the matching overlap/semantic results for
+    each city and retains 40–80% coverage sensitivity plus blocked correlations.
+
+query_selection_agreement.py
+    Based on gwet.py.
+    Adds machine-readable agreement_summary.json and selected-set descriptives.
+
+summarize_three_locations.py
+    New convenience script collecting the primary per-city effect estimates,
+    CIs, corrected p-values, collection quality, and pipeline correlations.
+
+pooled_three_location_secondary.py
+    New OPTIONAL secondary pooled robustness analysis. It averages geographic
+    repetitions within outcome before inference so the three locations are not
+    treated as independent outcomes. It is not a replacement for the primary
+    per-location analysis.
+
+requirements.txt
+README.md
+
+Deliberately excluded from this package
+---------------------------------------
+- source_type_analysis.py
+- claim_survival_analysis.py
+- epistemic/hedging/veridicality exploratory branches
+- legacy claim-extraction scripts
+
+Reason: these are not needed for the current main-paper Sections 4.2–4.5, and
+source-type/claim-survival analyses would require additional validation before
+being used as primary evidence.

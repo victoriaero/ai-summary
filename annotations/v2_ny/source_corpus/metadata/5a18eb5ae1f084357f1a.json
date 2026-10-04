@@ -1,0 +1,28 @@
+{
+  "source_id": "5a18eb5ae1f084357f1a",
+  "normalized_url": "https://census.gov/library/working-papers/2025/adrm/CES-WP-25-45.html",
+  "fetch_timestamp_utc": "2026-10-04T02:39:47.515602+00:00",
+  "registrable_domain": "census.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-45.html",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 346182,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5a18eb5ae1f084357f1a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5a18eb5ae1f084357f1a.txt",
+  "text_chars": 3031,
+  "text_words": 409,
+  "extraction_status": "success",
+  "page_title": "Credit Access in the United States",
+  "page_author": "US Census Bureau",
+  "page_date": "2026-02-12",
+  "site_name": "Census.gov",
+  "canonical_url": "https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-45.html"
+}

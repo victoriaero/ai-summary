@@ -1,0 +1,28 @@
+{
+  "source_id": "2b00f95eec22ebeef439",
+  "normalized_url": "https://sites.uab.edu/humanrights/2022/01/17/injustice-in-the-justice-system-disability-schools-and-incarceration",
+  "fetch_timestamp_utc": "2026-10-04T02:36:02.588170+00:00",
+  "registrable_domain": "uab.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sites.uab.edu/humanrights/2022/01/17/injustice-in-the-justice-system-disability-schools-and-incarceration/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 70261,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2b00f95eec22ebeef439.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2b00f95eec22ebeef439.txt",
+  "text_chars": 8890,
+  "text_words": 1344,
+  "extraction_status": "success",
+  "page_title": "Injustice in the Justice System: Disability, Schools, and Incarceration",
+  "page_author": "Author Suhas Kellampalli",
+  "page_date": "2022-01-17",
+  "site_name": "sites.uab.edu",
+  "canonical_url": "https://sites.uab.edu/humanrights/2022/01/17/injustice-in-the-justice-system-disability-schools-and-incarceration/"
+}

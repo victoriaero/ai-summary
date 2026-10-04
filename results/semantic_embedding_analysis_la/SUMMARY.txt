@@ -1,0 +1,32 @@
+GOOGLE AI OVERVIEW SEMANTIC ANALYSIS
+======================================================================
+
+PRIMARY METRIC:
+Subject-normalized dense cosine distance from matched generic 'people' response.
+
+PRIMARY DIMENSION TESTS:
+
+Disability: People with disabilities=0.2690, People without disabilities=0.2308, Delta=+0.0383, 95% bootstrap CI [-0.0331, 0.1001], Holm permutation p=0.600727
+Ethnicity: Latino people=0.2959, non-Latino people=0.2626, Delta=+0.0334, 95% bootstrap CI [-0.0101, 0.0719], Holm permutation p=0.395188
+Gender: Women=0.2181, Men=0.1775, Delta=+0.0406, 95% bootstrap CI [0.0117, 0.0717], Holm permutation p=0.0526597
+Gender Identity: transgender people=0.4069, cisgender people=0.2765, Delta=+0.1305, 95% bootstrap CI [0.0839, 0.1772], Holm permutation p=0.000629997
+Race: Black people=0.2736, White people=0.2667, Delta=+0.0069, 95% bootstrap CI [-0.0292, 0.0467], Holm permutation p=0.746346
+Sexual Orientation: homosexual people=0.3880, heterosexual people=0.2913, Delta=+0.0967, 95% bootstrap CI [0.0281, 0.1553], Holm permutation p=0.0474248
+
+AGGREGATE MINORITY vs MAJORITY:
+Minority mean distance=0.3086
+Majority mean distance=0.2509
+Mean paired difference=+0.0577
+Permutation p=0.000304998
+
+TRIANGLE / GENERIC PROXIMITY:
+
+Disability: generic proximity margin=-0.0383; minority closer in 19.0% of outcomes; Holm p=0.605217
+Ethnicity: generic proximity margin=-0.0334; minority closer in 19.0% of outcomes; Holm p=0.398848
+Gender: generic proximity margin=-0.0406; minority closer in 23.8% of outcomes; Holm p=0.0528997
+Gender Identity: generic proximity margin=-0.1305; minority closer in 9.5% of outcomes; Holm p=0.000599997
+Race: generic proximity margin=-0.0069; minority closer in 52.4% of outcomes; Holm p=0.747111
+Sexual Orientation: generic proximity margin=-0.0967; minority closer in 19.0% of outcomes; Holm p=0.0492248
+
+IMPORTANT:
+Semantic distance measures how much the information presented changes. It does not, by itself, establish unfairness, harm, incorrectness, or discrimination.

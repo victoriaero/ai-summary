@@ -1,0 +1,5 @@
+component,variance_estimate_untruncated,variance_estimate_nonnegative,share_of_nonnegative_total_variance,sum_of_squares,degrees_of_freedom,mean_square,location_handling,n_row_levels,n_column_levels,n_location_replicates_per_cell
+Outcome,1.5911579161579166,1.5911579161579166,0.11416933815030267,1595.0207570207572,20,79.75103785103786,fixed additive location mean removed before decomposition,21,13,3
+Query Condition,1.959330484330485,1.959330484330485,0.14058658939011462,1693.6043956043961,12,141.13369963369968,fixed additive location mean removed before decomposition,21,13,3
+Outcome × Query Condition,3.6547720052298804,3.6547720052298804,0.262238522455956,4247.010989010989,240,17.69587912087912,fixed additive location mean removed before decomposition,21,13,3
+Cross-location residual + unresolved error,6.731563105189478,6.731563105189478,0.48300555000362666,3675.433455433455,546,6.731563105189478,fixed additive location mean removed before decomposition,21,13,3

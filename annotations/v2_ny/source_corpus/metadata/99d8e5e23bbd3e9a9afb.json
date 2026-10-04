@@ -1,0 +1,28 @@
+{
+  "source_id": "99d8e5e23bbd3e9a9afb",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1865113",
+  "fetch_timestamp_utc": "2026-10-04T02:44:57.856565+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1865113/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 222732,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/99d8e5e23bbd3e9a9afb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/99d8e5e23bbd3e9a9afb.txt",
+  "text_chars": 63290,
+  "text_words": 9895,
+  "extraction_status": "success",
+  "page_title": "Workplace Harassment Patterning, Gender, and Utilization of Professional Services: Findings from a US National Study",
+  "page_author": "Mrs Candice A Shannon; Kathleen M Rospenda; Judith A Richman",
+  "page_date": "2006-12-12",
+  "site_name": "Social science & medicine (1982)",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1865113/"
+}

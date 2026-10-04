@@ -1,0 +1,28 @@
+{
+  "source_id": "843479b7342d14d3e40c",
+  "normalized_url": "https://brossfrankel.com/blog",
+  "fetch_timestamp_utc": "2026-10-04T02:43:11.257516+00:00",
+  "registrable_domain": "brossfrankel.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://brossfrankel.com/blog/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 139792,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/843479b7342d14d3e40c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/843479b7342d14d3e40c.txt",
+  "text_chars": 7075,
+  "text_words": 1028,
+  "extraction_status": "success",
+  "page_title": "Recent News | Bross & Frankel, P.A.",
+  "page_author": null,
+  "page_date": "2026-05-15",
+  "site_name": "Bross & Frankel, P.A.",
+  "canonical_url": "https://brossfrankel.com/blog/"
+}

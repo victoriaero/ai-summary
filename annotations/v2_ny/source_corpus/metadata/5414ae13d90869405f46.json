@@ -1,0 +1,28 @@
+{
+  "source_id": "5414ae13d90869405f46",
+  "normalized_url": "https://ballardbrief.byu.edu/issue-briefs/mass-incarceration-in-the-united-states",
+  "fetch_timestamp_utc": "2026-10-04T02:39:20.288836+00:00",
+  "registrable_domain": "byu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ballardbrief.byu.edu/issue-briefs/mass-incarceration-in-the-united-states",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 335661,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5414ae13d90869405f46.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5414ae13d90869405f46.txt",
+  "text_chars": 54701,
+  "text_words": 8498,
+  "extraction_status": "success",
+  "page_title": "Mass Incarceration in the United States - Ballard Brief",
+  "page_author": "Alex Resney",
+  "page_date": "2019-01-08",
+  "site_name": "The Ballard Center for Social Impact",
+  "canonical_url": "https://ballardbrief.byu.edu/issue-briefs/mass-incarceration-in-the-united-states"
+}

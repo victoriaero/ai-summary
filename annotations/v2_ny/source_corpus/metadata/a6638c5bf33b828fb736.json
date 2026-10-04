@@ -1,0 +1,28 @@
+{
+  "source_id": "a6638c5bf33b828fb736",
+  "normalized_url": "https://youtube.com/shorts/nomALgQGD-c",
+  "fetch_timestamp_utc": "2026-10-04T02:46:01.135419+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/shorts/nomALgQGD-c",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1401274,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a6638c5bf33b828fb736.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a6638c5bf33b828fb736.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Out or Not Gay Men Speak on How Being Gay Impacts Their Careers",
+  "page_author": null,
+  "page_date": "2025-11-10",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/shorts/nomALgQGD-c"
+}

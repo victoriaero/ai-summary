@@ -1,0 +1,28 @@
+{
+  "source_id": "b7e2f6009fd7080a669b",
+  "normalized_url": "https://kff.org/medicaid/a-look-at-medicaid-and-chip-eligibility-enrollment-and-renewal-policies-during-the-unwinding-of-continuous-enrollment-and-beyond",
+  "fetch_timestamp_utc": "2026-10-04T03:44:34.294226+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/medicaid/a-look-at-medicaid-and-chip-eligibility-enrollment-and-renewal-policies-during-the-unwinding-of-continuous-enrollment-and-beyond/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 578713,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b7e2f6009fd7080a669b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b7e2f6009fd7080a669b.txt",
+  "text_chars": 59270,
+  "text_words": 9005,
+  "extraction_status": "success",
+  "page_title": "A Look at Medicaid and CHIP Eligibility, Enrollment, and Renewal Policies During the Unwinding of Continuous Enrollment and Beyond | KFF",
+  "page_author": "Tricia Brooks; Jennifer Tolbert; Allexa Gardner; Bradley Corallo; Sophia Moreno; Anna Mudumala",
+  "page_date": "2024-06-20",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/medicaid/a-look-at-medicaid-and-chip-eligibility-enrollment-and-renewal-policies-during-the-unwinding-of-continuous-enrollment-and-beyond/"
+}

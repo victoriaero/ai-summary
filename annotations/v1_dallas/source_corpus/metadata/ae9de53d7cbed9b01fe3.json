@@ -1,0 +1,22 @@
+{
+  "source_id": "ae9de53d7cbed9b01fe3",
+  "normalized_url": "https://ed.gov/sites/ed/files/about/inits/list/hispanic-initiative/winning-the-future-improving-education-latino-community.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:36:08.852085+00:00",
+  "registrable_domain": "ed.gov",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.ed.gov/sites/ed/files/about/inits/list/hispanic-initiative/winning-the-future-improving-education-latino-community.pdf",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:36:12 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "11797",
+    "Connection": "close",
+    "x-azure-ref": "20260929T193612Z-r165b7c4cd8rgskthC1SAOkndw000000016000000000c7g0",
+    "X-Cache": "CONFIG_NOCACHE"
+  },
+  "downloaded_bytes": 11797,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

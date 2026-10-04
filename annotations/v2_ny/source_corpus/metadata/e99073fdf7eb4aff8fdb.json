@@ -1,0 +1,28 @@
+{
+  "source_id": "e99073fdf7eb4aff8fdb",
+  "normalized_url": "https://highereddive.com/news/transgender-college-student-supports-trump/746381",
+  "fetch_timestamp_utc": "2026-10-04T02:51:11.491080+00:00",
+  "registrable_domain": "highereddive.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.highereddive.com/news/transgender-college-student-supports-trump/746381/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 234480,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e99073fdf7eb4aff8fdb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e99073fdf7eb4aff8fdb.txt",
+  "text_chars": 12727,
+  "text_words": 1940,
+  "extraction_status": "success",
+  "page_title": "How colleges can support transgender students amid the Trump administration",
+  "page_author": "Danielle McLean",
+  "page_date": "2025-04-28",
+  "site_name": "Higher Ed Dive",
+  "canonical_url": "https://www.highereddive.com/news/transgender-college-student-supports-trump/746381/"
+}

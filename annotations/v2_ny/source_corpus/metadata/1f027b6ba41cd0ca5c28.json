@@ -1,0 +1,28 @@
+{
+  "source_id": "1f027b6ba41cd0ca5c28",
+  "normalized_url": "https://insidehighered.com/admissions/article/2021/12/06/study-shows-ways-white-students-have-advantages-admissions",
+  "fetch_timestamp_utc": "2026-10-04T02:35:09.748624+00:00",
+  "registrable_domain": "insidehighered.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.insidehighered.com/admissions/article/2021/12/06/study-shows-ways-white-students-have-advantages-admissions",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 143722,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1f027b6ba41cd0ca5c28.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1f027b6ba41cd0ca5c28.txt",
+  "text_chars": 5674,
+  "text_words": 933,
+  "extraction_status": "success",
+  "page_title": "Study shows ways white students have advantages in admissions",
+  "page_author": "Scott Jaschik",
+  "page_date": "2021-12-06",
+  "site_name": "Inside Higher Ed | Higher Education News, Events and Jobs",
+  "canonical_url": "https://www.insidehighered.com/admissions/article/2021/12/06/study-shows-ways-white-students-have-advantages-admissions"
+}

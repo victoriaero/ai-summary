@@ -1,0 +1,28 @@
+{
+  "source_id": "430f8b43b38b4d624c90",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10811440",
+  "fetch_timestamp_utc": "2026-10-04T02:37:47.197385+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10811440/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 170431,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/430f8b43b38b4d624c90.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/430f8b43b38b4d624c90.txt",
+  "text_chars": 33835,
+  "text_words": 4708,
+  "extraction_status": "success",
+  "page_title": "Enhancing Patient Safety Culture in Hospitals",
+  "page_author": "Isha U Mistri; Ankit Badge; Shivani Shahu",
+  "page_date": "2023-12-27",
+  "site_name": "Cureus",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10811440/"
+}

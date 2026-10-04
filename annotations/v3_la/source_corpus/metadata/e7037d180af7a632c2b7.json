@@ -1,0 +1,28 @@
+{
+  "source_id": "e7037d180af7a632c2b7",
+  "normalized_url": "https://youtube.com/watch?t=30&v=Lih6wkmQTs0",
+  "fetch_timestamp_utc": "2026-10-04T03:48:10.252799+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=30&v=Lih6wkmQTs0",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1120433,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e7037d180af7a632c2b7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e7037d180af7a632c2b7.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Bullying 101: The Basics",
+  "page_author": null,
+  "page_date": "2022-03-30",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=Lih6wkmQTs0"
+}

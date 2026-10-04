@@ -1,0 +1,28 @@
+{
+  "source_id": "e816143f36909595c6cc",
+  "normalized_url": "https://naceweb.org/job-market/trends-and-predictions/early-career-talent-and-the-effects-of--gender",
+  "fetch_timestamp_utc": "2026-10-04T03:48:18.644290+00:00",
+  "registrable_domain": "naceweb.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://naceweb.org/job-market/trends-and-predictions/early-career-talent-and-the-effects-of--gender",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 70647,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e816143f36909595c6cc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e816143f36909595c6cc.txt",
+  "text_chars": 9320,
+  "text_words": 1489,
+  "extraction_status": "success",
+  "page_title": "Early Career Talent and the Effects of Gender",
+  "page_author": "Mary Gatta; Sasha Patil",
+  "page_date": "2025-05-05",
+  "site_name": "Default",
+  "canonical_url": "https://naceweb.org/job-market/trends-and-predictions/07f1b4cf-1f61-4693-9410-c74cd22c80c0"
+}

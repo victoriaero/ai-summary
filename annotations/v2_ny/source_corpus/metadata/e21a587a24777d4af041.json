@@ -1,0 +1,28 @@
+{
+  "source_id": "e21a587a24777d4af041",
+  "normalized_url": "https://chegg.com/homework-help/questions-and-answers/factors-play-significant-role-influencing-officers-arrest-decisions-even-police-officer-pc-q93538296",
+  "fetch_timestamp_utc": "2026-10-04T02:50:33.565637+00:00",
+  "registrable_domain": "chegg.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.chegg.com:443/homework-help/questions-and-answers/factors-play-significant-role-influencing-officers-arrest-decisions-even-police-officer-pc-q93538296",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 306228,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e21a587a24777d4af041.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e21a587a24777d4af041.txt",
+  "text_chars": 1717,
+  "text_words": 275,
+  "extraction_status": "success",
+  "page_title": "Question: What factors play the most significant role in influencing officers' arrest decisions? Even if a police officer has PC, do they have to arrest someone just because they can? Discuss why or why not? Regarding police discretion, what is a decision? Discuss what factors are considered in the decision-making process.",
+  "page_author": null,
+  "page_date": "2022-03-05",
+  "site_name": "Chegg.com",
+  "canonical_url": "https://www.chegg.com:443/homework-help/questions-and-answers/factors-play-significant-role-influencing-officers-arrest-decisions-even-police-officer-pc-q93538296"
+}

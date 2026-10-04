@@ -1,0 +1,16 @@
+{
+  "source_id": "3175b4102a7b8b4425cf",
+  "normalized_url": "https://ssa.gov/policy/docs/ssb/v67n2/v67n2p73.html",
+  "fetch_timestamp_utc": "2026-10-04T03:34:14.672524+00:00",
+  "registrable_domain": "ssa.gov",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 60,
+  "http_status": 0,
+  "final_url": "https://ssa.gov/policy/docs/ssb/v67n2/v67n2p73.html",
+  "content_type": "",
+  "error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

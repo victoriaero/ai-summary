@@ -1,0 +1,28 @@
+{
+  "source_id": "c753747c82241151ec69",
+  "normalized_url": "https://wdsu.com/article/medicaid-transgender-minors-gender-affirming-care/73411004",
+  "fetch_timestamp_utc": "2026-10-04T03:45:38.840187+00:00",
+  "registrable_domain": "wdsu.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.wdsu.com/article/medicaid-transgender-minors-gender-affirming-care/73411004",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 466402,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c753747c82241151ec69.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c753747c82241151ec69.txt",
+  "text_chars": 3402,
+  "text_words": 525,
+  "extraction_status": "success",
+  "page_title": "Medicaid says it will stop paying for some gender-affirming care for transgender minors",
+  "page_author": "Associated Press",
+  "page_date": "2026-08-12",
+  "site_name": "WDSU",
+  "canonical_url": "https://www.wdsu.com/article/medicaid-transgender-minors-gender-affirming-care/73411004"
+}

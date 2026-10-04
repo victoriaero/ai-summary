@@ -1,0 +1,28 @@
+{
+  "source_id": "67c1d192c581586c36eb",
+  "normalized_url": "https://bullyingnoway.gov.au/understand/risk-factors",
+  "fetch_timestamp_utc": "2026-10-04T02:40:47.445843+00:00",
+  "registrable_domain": "bullyingnoway.gov.au",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.bullyingnoway.gov.au/understand/risk-factors",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 75327,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/67c1d192c581586c36eb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/67c1d192c581586c36eb.txt",
+  "text_chars": 15673,
+  "text_words": 2008,
+  "extraction_status": "success",
+  "page_title": "Risk factors",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "bullyingnoway.gov.au",
+  "canonical_url": "https://www.bullyingnoway.gov.au/understand/risk-factors/"
+}

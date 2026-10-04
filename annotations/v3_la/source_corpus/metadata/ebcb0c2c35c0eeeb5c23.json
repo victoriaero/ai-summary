@@ -1,0 +1,20 @@
+{
+  "source_id": "ebcb0c2c35c0eeeb5c23",
+  "normalized_url": "https://psnet.ahrq.gov/perspective/equity-patient-safety",
+  "fetch_timestamp_utc": "2026-10-04T03:48:38.615110+00:00",
+  "registrable_domain": "ahrq.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://psnet.ahrq.gov/perspective/equity-patient-safety",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 986,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

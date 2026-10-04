@@ -1,0 +1,28 @@
+{
+  "source_id": "8c3dfe0587e687b22c00",
+  "normalized_url": "https://binghamton.edu/news/story/6105/people-in-need-of-disability-benefits-are-facing-new-barriers-and-government-cuts-and-overhauls-are-to-blame",
+  "fetch_timestamp_utc": "2026-10-04T03:41:21.561981+00:00",
+  "registrable_domain": "binghamton.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.binghamton.edu/news/story/6105/people-in-need-of-disability-benefits-are-facing-new-barriers-and-government-cuts-and-overhauls-are-to-blame",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 25912,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8c3dfe0587e687b22c00.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8c3dfe0587e687b22c00.txt",
+  "text_chars": 5225,
+  "text_words": 795,
+  "extraction_status": "success",
+  "page_title": "People in need of disability benefits are facing new barriers – and government cuts and overhauls are to blame - Binghamton News",
+  "page_author": "John Brhel",
+  "page_date": "2026-03-09",
+  "site_name": "People in need of disability benefits are facing new barriers – and government cuts and overhauls are to blame | Binghamton News - Binghamton University",
+  "canonical_url": "https://www.binghamton.edu/news/story/6105/people-in-need-of-disability-benefits-are-facing-new-barriers-and-government-cuts-and-overhauls-are-to-blame"
+}

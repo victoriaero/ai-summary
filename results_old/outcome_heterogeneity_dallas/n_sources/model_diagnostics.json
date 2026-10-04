@@ -1,0 +1,13 @@
+{
+  "outcome_random_variance": 0.22793666172959356,
+  "residual_variance": 18.870476045442423,
+  "ICC_outcome": 0.011934848472721329,
+  "tau_outcome": 0.47742712714046065,
+  "bootstrap_CI_tau": [
+    3.9932753533549655e-05,
+    1.5433705348165163
+  ],
+  "convergence_status": "converged",
+  "singular_fit": false,
+  "singular_fit_definition": "outcome_random_variance / residual_variance <= 1e-06"
+}

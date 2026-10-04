@@ -1,0 +1,20 @@
+{
+  "source_id": "650d2f0a47e875e45fcd",
+  "normalized_url": "https://nytimes.com/2021/07/29/business/economy/hiring-racial-discrimination.html",
+  "fetch_timestamp_utc": "2026-10-04T02:40:35.569539+00:00",
+  "registrable_domain": "nytimes.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.nytimes.com/2021/07/29/business/economy/hiring-racial-discrimination.html",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 771,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "2512d209e8135ffdd345",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4802845",
+  "fetch_timestamp_utc": "2026-10-04T02:35:41.031769+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4802845/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 138480,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2512d209e8135ffdd345.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2512d209e8135ffdd345.txt",
+  "text_chars": 18236,
+  "text_words": 2549,
+  "extraction_status": "success",
+  "page_title": "Barriers to Health Care for Transgender Individuals",
+  "page_author": "Joshua D Safer; Eli Coleman; Jamie Feldman; Robert Garofalo; Wylie Hembree; Asa Radix; Jae Sevelius",
+  "page_date": "2016-04-01",
+  "site_name": "Current opinion in endocrinology, diabetes, and obesity",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4802845/"
+}

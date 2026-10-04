@@ -1,0 +1,1582 @@
+source_id,normalized_url,registrable_domain,final_url,page_title,site_name,text_path,extraction_status,hostname,source_excerpt,source_type,classification_confidence,classification_method,classification_status,classification_rationale,classifier_raw_output
+f9d8e01ca33e94a7d898,https://psycnet.apa.org/fulltext/2023-54964-013.html,apa.org,,,,,not_extracted,psycnet.apa.org,,Academic/Research,high,llm,llm_valid,"The hostname psycnet.apa.org is associated with the American Psychological Association, which is an academic/research institution.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname psycnet.apa.org is associated with the American Psychological Association, which is an academic/research institution.""
+}"
+ccbc56a5be40930ff7b0,https://apa.org/ed/schools/primer/gender-identity,apa.org,https://www.apa.org/ed/schools/primer/gender-identity,,apa.org,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/ccbc56a5be40930ff7b0.txt,success,apa.org,Request unsuccessful. Incapsula incident ID: 1696000050378808051-329014814475026809,Academic/Research,high,llm,llm_valid,"apa.org is the American Psychological Association, a scholarly organization","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""apa.org is the American Psychological Association, a scholarly organization""
+}"
+98950a50d1ccbc545f46,https://apa.org/topics/lgbtq/lgbtq-inclusive-curricula,apa.org,https://www.apa.org/topics/lgbtq/lgbtq-inclusive-curricula,,apa.org,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/98950a50d1ccbc545f46.txt,empty_text,apa.org,,NGO/Advocacy,high,llm,llm_valid,APA (American Psychological Association) is a nonprofit organization primarily engaged in public advocacy and professional psychology.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""APA (American Psychological Association) is a nonprofit organization primarily engaged in public advocacy and professional psychology.""
+}"
+c368cb941c2f5df5696d,https://apa.org/education-career/k12/bullying,apa.org,https://www.apa.org/education-career/k12/bullying,,apa.org,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/c368cb941c2f5df5696d.txt,empty_text,apa.org,,NGO/Advocacy,high,llm,llm_valid,APA (American Psychological Association) is a nonprofit organization primarily engaged in public advocacy and education.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""APA (American Psychological Association) is a nonprofit organization primarily engaged in public advocacy and education.""
+}"
+9ef3f2795864b6de90e3,https://appliedpolicebriefings.com/index.php/APB/article/download/5577/3941/17920,appliedpolicebriefings.com,,,,,not_extracted,appliedpolicebriefings.com,,Commercial/Professional,high,llm,llm_valid,The hostname appliedpolicebriefings.com suggests a professional or commercial entity focused on police briefings.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname appliedpolicebriefings.com suggests a professional or commercial entity focused on police briefings.""
+}"
+20433332632286a68fa5,https://appliedpolicebriefings.com/index.php/APB/article/view/5577,appliedpolicebriefings.com,,,,,not_extracted,appliedpolicebriefings.com,,News/Media,high,llm,llm_valid,The hostname suggests a news or media publication focused on police briefings.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname suggests a news or media publication focused on police briefings.""
+}"
+dbdcbdda8be5a21e11da,https://cgap.org/research/publication/invisible-barriers-how-gender-norms-impact-financial-inclusion,cgap.org,https://www.cgap.org/research/publication/invisible-barriers-how-gender-norms-impact-financial-inclusion,Invisible Barriers: How Gender Norms Impact Financial Inclusion,CGAP,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/dbdcbdda8be5a21e11da.txt,success,cgap.org,"Read Time:
+Highlights
+- Gender norms are constantly evolving, and financial sector actors have a powerful opportunity to actively shape this transformation. By becoming agents of positive change, they can help create inclusive systems that unlock women's potential and drive broader economic growth. This Focus Note offers a practical framework to help development and market actors understand and act on gender norms that restrict women's financial inclusion (WFI) and women's economic empowerment (WEE).
+- Drawing on diagnostic research in Rwanda, Tanzania, and Uganda, the note classifies gender norms by their strength and prevalence across market actors—including FSPs, regulators, and community influencers—revealing four norm types. Based on a desk review of a range of interventions aimed to advancing WFI and WEE the focus note proposes tailored intervention strategies for each norm type:
+ - Deeply Entrenched Norms (high strength, high prevalence) require ""Circumvent Norms"" strategies that work around constraints through technology, alternative delivery models, and regulatory innovations.
+ - Shifting Norms (high and variable strength, low prevalence) call for ""Align Expectations"" stra",Academic/Research,high,llm,llm_valid,CGAP is a research institute focused on providing knowledge and support to financial sector development.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""CGAP is a research institute focused on providing knowledge and support to financial sector development.""
+}"
+9fa57b22a07bfda13c4d,https://cgap.org/topics/collections/addressing-gender-norms,cgap.org,https://www.cgap.org/topics/collections/addressing-gender-norms,Addressing Gender Norms for Lasting Transformation,CGAP,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/9fa57b22a07bfda13c4d.txt,success,cgap.org,"Gender norms affect everyone in the financial sector, shaping how women are perceived and treated, influencing everything from policies to business practices. These collectively held expectations and perceived rules for behavior based on gender identity are often the root cause of women’s financial exclusion.
+For consumers of financial services, gender norms can form barriers to women’s mobility, economic engagement, financial decision-making, control or ownership of assets, and access to mobile phones. For financial services providers, they often lead to biases in algorithms, inappropriate product offerings, and inadequate delivery channels. In many cases, these barriers prevent women from accessing financial services at all.
+Gender norms often influence rules within financial systems—for example, requiring women to obtain their husband’s signature when opening a savings account or applying for a loan, requiring collateral or identification that women may be hampered from obtaining, or inheritance laws that favor men over women. Collectively, these barriers limit women women’s access to and use of financial services for generating livelihoods, accessing essential services, or impr",NGO/Advocacy,high,llm,llm_valid,CGAP is a non-governmental organization focused on advocacy and research in financial services for the poor.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""CGAP is a non-governmental organization focused on advocacy and research in financial services for the poor.""
+}"
+2db28efb47b99329f09e,https://cgap.org/blog/banking-on-change-enabling-womens-access-to-financial-services,cgap.org,https://www.cgap.org/blog/banking-on-change-enabling-womens-access-to-financial-services,Banking on Change: Enabling Women’s Access to Financial Services,CGAP,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/2db28efb47b99329f09e.txt,success,cgap.org,"To what extent do laws and regulations systematically constrain women from accessing financial services and participating in the formal economy? In a recent post on this blog, Mayada El-Zoghbi of CGAP provided an overview of five ways in which seemingly gender-neutral regulations could operate differentially with regard to men and women, creating barriers to (as well as opportunities for) the increased use of financial services by unbanked women in developing countries. The recently released ""Women, Business and the Law 2016: Getting to Equal"" report by the World Bank provides new data that can extend this analysis by quantifying barriers that women may face in proving their identity, travelling to a bank, opening an account and building a credit score.
+The report is based on a global dataset created by the World Bank in 2009 that tracks common indicators across countries and over time to measure women’s access to institutions, use of property, ease in getting a job, incentives to work, ability to build credit, and power to obtain legal remedies and protection against violence. The headline finding of the report is that 155 of the 173 countries surveyed have at least one law that d",NGO/Advocacy,high,llm,llm_valid,CGAP is a non-governmental organization focused on advocacy and research in financial services for the poor.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""CGAP is a non-governmental organization focused on advocacy and research in financial services for the poor.""
+}"
+79996a69fc1145d07c8e,https://digitalgovernmenthub.org/library/the-experience-of-administrative-burdens-in-snap-and-medicaid-new-evidence-from-a-nationally-representative-survey-of-low-wage-workers,digitalgovernmenthub.org,,,,,not_extracted,digitalgovernmenthub.org,,Government/Public Agency,medium,llm,llm_valid,The hostname suggests a government-related hub.,"{
+  ""category"": ""Government/Public Agency"",
+  ""confidence"": ""medium"",
+  ""rationale"": ""The hostname suggests a government-related hub.""
+}"
+58c2273d36096f902eb2,https://digitalgovernmenthub.org/wp-content/uploads/2025/12/Racial-and-Ethnic-Differences-in-Experiencing-Administrative-Burd.pdf,digitalgovernmenthub.org,https://digitalgovernmenthub.org/wp-content/uploads/2025/12/Racial-and-Ethnic-Differences-in-Experiencing-Administrative-Burd.pdf,,,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/58c2273d36096f902eb2.txt,success,digitalgovernmenthub.org,"Racial and Ethnic Differences in Experiencing 
+Administrative Burdens in Public Benefit Programs
+Stephen Roll, Mathieu Despard, Yung Chun, and Kourtney Gilbert
+Y e a r s
+Building Knowledge—Creating Impact
+3
+O v e r
+Since the Civil Rights Act of 1964, eliminating discrimination 
+from government programs and services has been an 
+aspirational principle of U.S. society. An extensive network of 
+laws and regulations prohibits discrimination based on race, 
+national origin, sex, ability status, age, and other protected 
+characteristics; however, researchers and advocates have 
+CSD RESEARCH BRIEF 25-55
+November 2025
+expressed concern about the potential for government 
+agencies and bureaucrats to discriminate in less explicit ways. 
+For example, one experimental study found that local election 
+officials were less likely to respond to emails concerning voter 
+ID laws if the messages came from individuals with Latino-
+sounding names.1
+Highlights
+Enrolling in or maintaining eligibility for many public programs ofen imposes 
+burdens on recipients, including diﬀiculties in learning about program 
+requirements, complying with those requirements, and navigating negative 
+experiences with progr",Government/Public Agency,medium,llm,llm_valid,"The URL suggests a digital government hub, indicating a government or public agency function.","{
+  ""category"": ""Government/Public Agency"",
+  ""confidence"": ""medium"",
+  ""rationale"": ""The URL suggests a digital government hub, indicating a government or public agency function.""
+}"
+07f365dab35a937791bf,https://digitalgovernmenthub.org/library/racial-and-ethnic-differences-in-experiencing-administrative-burdens-in-public-benefit-programs,digitalgovernmenthub.org,,,,,not_extracted,digitalgovernmenthub.org,,NGO/Advocacy,medium,llm,llm_valid,"The hostname suggests a hub or repository focused on digital government issues, likely operated by a non-governmental organization.","{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""medium"",
+  ""rationale"": ""The hostname suggests a hub or repository focused on digital government issues, likely operated by a non-governmental organization.""
+}"
+0599a3a23397a3e29b19,https://emerald.com/pijpsm/article-abstract/38/1/56/320109/Factors-that-affect-the-arrest-decision-in?redirectedFrom=fulltext,emerald.com,https://www.emerald.com/pijpsm/article-abstract/38/1/56/320109/Factors-that-affect-the-arrest-decision-in?redirectedFrom=fulltext,,,,not_extracted,emerald.com,,Academic/Research,high,llm,llm_valid,Emerald is a scholarly publisher,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Emerald is a scholarly publisher""
+}"
+29cbf66fad9d61074133,https://emerald.com/sc/article/14/4/183/342705/Policing-uncontrollable-banshees-factors,emerald.com,https://www.emerald.com/sc/article/14/4/183/342705/Policing-uncontrollable-banshees-factors,,,,not_extracted,emerald.com,,Academic/Research,high,llm,llm_valid,Emerald is a scholarly publisher,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Emerald is a scholarly publisher""
+}"
+6f0d7b02835acddfd719,https://emerald.com/pijpsm/article/38/1/56/320109/Factors-that-affect-the-arrest-decision-in,emerald.com,https://www.emerald.com/pijpsm/article/38/1/56/320109/Factors-that-affect-the-arrest-decision-in,,,,not_extracted,emerald.com,,Academic/Research,high,llm,llm_valid,Emerald is a scholarly publisher of academic journals.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Emerald is a scholarly publisher of academic journals.""
+}"
+5ec85ab129a005065e59,https://emerald.com/pijpsm/article/47/1/31/1223819/Police-use-of-force-and-race-a-focal-concerns?searchresult=1,emerald.com,https://www.emerald.com/pijpsm/article/47/1/31/1223819/Police-use-of-force-and-race-a-focal-concerns?searchresult=1,,,,not_extracted,emerald.com,,Academic/Research,high,llm,llm_valid,Emerald is a scholarly publisher of academic journals.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Emerald is a scholarly publisher of academic journals.""
+}"
+7ab6e7b00352c3ff8726,https://emerald.com/books/edited-volume/21168/chapter-abstract/109220791/Bullying-and-Harassment-in-Academic-Life?redirectedFrom=fulltext,emerald.com,https://www.emerald.com/books/edited-volume/21168/chapter-abstract/109220791/Bullying-and-Harassment-in-Academic-Life?redirectedFrom=fulltext,,,,not_extracted,emerald.com,,Commercial/Professional,high,llm,llm_valid,Emerald is a commercial publisher of academic journals and books.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Emerald is a commercial publisher of academic journals and books.""
+}"
+801a28453709aa103c6f,https://emerald.com/ijm/article/39/4/581/148816/What-drives-hiring-discrimination-against,emerald.com,https://www.emerald.com/ijm/article/39/4/581/148816/What-drives-hiring-discrimination-against,,,,not_extracted,emerald.com,,Commercial/Professional,high,llm,llm_valid,Emerald is a commercial publisher of academic journals.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Emerald is a commercial publisher of academic journals.""
+}"
+a1eaaae5ed8c41b2afd5,https://emerald.com/cpoib/article/doi/10.1108/cpoib-10-2025-0221/1381219/Women-fintech-and-financial-inclusion-lessons-from,emerald.com,https://www.emerald.com/cpoib/article/doi/10.1108/cpoib-10-2025-0221/1381219/Women-fintech-and-financial-inclusion-lessons-from,,,,not_extracted,emerald.com,,Commercial/Professional,high,llm,llm_valid,Emerald is a commercial publisher of academic journals and books.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Emerald is a commercial publisher of academic journals and books.""
+}"
+f0442fee0a1d5a25af6a,https://emerald.com/jsm/article/38/8/994/1236166/Low-income-consumers-informal-and-formal-financial,emerald.com,https://www.emerald.com/jsm/article/38/8/994/1236166/Low-income-consumers-informal-and-formal-financial,,,,not_extracted,emerald.com,,Commercial/Professional,high,llm,llm_valid,Emerald is a commercial publisher of academic journals.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Emerald is a commercial publisher of academic journals.""
+}"
+b934157df7b8d5def47c,https://epi.org/publication/racial-representation-prof-occ,epi.org,https://epi.org/publication/racial-representation-prof-occ,,,,not_extracted,epi.org,,Academic/Research,high,llm,llm_valid,"epi.org is hosted by the Economic Policy Institute, a research institute","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""epi.org is hosted by the Economic Policy Institute, a research institute""
+}"
+f4ed77128ae6a6f08b44,https://epi.org/unequalpower/publications/understanding-black-white-disparities-in-labor-market-outcomes,epi.org,https://epi.org/unequalpower/publications/understanding-black-white-disparities-in-labor-market-outcomes,,,,not_extracted,epi.org,,NGO/Advocacy,high,llm,llm_valid,epi.org is hosted by an organization focused on public policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""epi.org is hosted by an organization focused on public policy research and advocacy.""
+}"
+16737f1f9f84c9af64c8,https://epi.org/publication/chasing-the-dream-of-equity,epi.org,https://epi.org/publication/chasing-the-dream-of-equity,,,,not_extracted,epi.org,,NGO/Advocacy,high,llm,llm_valid,"epi.org is a registered domain for the Economic Policy Institute, a nonprofit organization focused on public policy advocacy.","{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""epi.org is a registered domain for the Economic Policy Institute, a nonprofit organization focused on public policy advocacy.""
+}"
+ff80a8bc1c518e0eee36,https://ewa.org/data-research-tips/how-black-girls-are-harmed-in-schools,ewa.org,https://ewa.org/data-research-tips/how-black-girls-are-harmed-in-schools,How Black Girls Are Harmed in Schools,ewa.org,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/ff80a8bc1c518e0eee36.txt,success,ewa.org,"Research shows Black girls experience gender and race-based stereotypes and adultification bias. Experts, including a Black girlhood studies scholar, and a journalist explain how to better cover Black girls.
+Photo credits: monkeybusinessimages/Bigstock; James Minichello of AASA for EWA
+For many students, the most anticipated part of a new school year is finding the perfect back-to-school outfit. But for Black girls, what to wear on the first day of school is an especially fraught decision. They arefar more likely to be suspended for school dress code or hair violations. And, they reporthigher rates of sexual harassment than Hispanic and white girls—some 67% of Black girls say they have been touched or grabbed sexually by someone in school. Every choice of clothing, hairstyle, or makeup is a high-stakes gamble as Black girls return to schools across the country. Yet the dual burden they face – namely, the ways that racial discrimination and gender bias intersect to create barriers to education and safety – remains a widely underreported story in education journalism. While racial disparities impacting Black students generally have been thoroughly documented and reported, Black girls",NGO/Advocacy,high,llm,llm_valid,"The hostname ewa.org is associated with the Education Writers Association, a nonprofit organization focused on improving education journalism.","{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname ewa.org is associated with the Education Writers Association, a nonprofit organization focused on improving education journalism.""
+}"
+a667b37e064ad7c02fb5,https://ewa.org/issues/higher-ed/what-are-some-of-the-barriers-to-college-access,ewa.org,https://ewa.org/issues/higher-ed/what-are-some-of-the-barriers-to-college-access,What Are Some of the Barriers to College Access - ewa.org,ewa.org,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/a667b37e064ad7c02fb5.txt,success,ewa.org,"What Are Some of the Barriers to College Access
+Photo credit: Chaliya/Adobe Stock
+The 2019 Varsity Blues scandal highlighted the illegal ways that significant wealth can secure a student’s spot at an elite college. It was just the latest in a long and tawdry history of money, influence and connections overriding academic readiness in some students’ college acceptances.
+But a student doesn’t have to come from a wealthy or prestigious family to have an advantage in the admissions process. Middle-class students have access to resources that can help students move more easily through the system, such as SAT and ACT preparation classes, college counseling beyond a school’s guidance counselors, and paid help with admissions essays. (This EWA Radio episode discusses whether colleges should focus on recruiting well-rounded students rather than those with padded resumes, based on a plea from admissions leaders at several top schools.)
+Low-income students generally don’t have the same resources. This EWA Radio episode shows reporters how to “examine the underlying societal and institutional factors that fuel admissions inequities.”
+Nationally, the ratio of school counselors to students avera",News/Media,high,llm,llm_valid,ewa.org is a news/media organization focused on education reporting.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ewa.org is a news/media organization focused on education reporting.""
+}"
+0c36f53b9e4f8590c5c7,https://facebook.com/StarHealth/videos/ever-wonder-how-much-health-insurance-is-enoughvarious-factors-like-your-income-/905954415384272,facebook.com,,,,,not_extracted,facebook.com,,Commercial/Professional,high,llm,llm_valid,"The source is hosted on a commercial social media platform, likely promoting a health insurance service.","{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The source is hosted on a commercial social media platform, likely promoting a health insurance service.""
+}"
+4d22274831e76539b591,https://facebook.com/lalgbtcenter/posts/a-new-study-found-that-lgbtq-people-experience-housing-insecurity-at-a-higher-ra/10158858422451429,facebook.com,,,,,not_extracted,facebook.com,,Community/Lived Experience,high,llm,llm_valid,The source is hosted on a social media platform used for community discussion.,"{
+  ""category"": ""Community/Lived Experience"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The source is hosted on a social media platform used for community discussion.""
+}"
+7e1203e03f1f497dc8b6,https://facebook.com/weareunidosus/posts/31-of-latinos-reported-experiencing-discrimination-at-some-point-when-looking-fo/10155192628286247,facebook.com,,,,,not_extracted,facebook.com,,Community/Lived Experience,high,llm,llm_valid,"The source is hosted on a social media platform, specifically a community page focused on lived experiences and discussions.","{
+  ""category"": ""Community/Lived Experience"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The source is hosted on a social media platform, specifically a community page focused on lived experiences and discussions.""
+}"
+a0c2dc44bbfb5c3e5937,https://facebook.com/NationalDisability/posts/every-customer-deserves-to-feel-respected-understood-and-supportedhere-are-three/1166575638836980,facebook.com,,,,,not_extracted,facebook.com,,Community/Lived Experience,high,llm,llm_valid,"The source is hosted on a social media platform, which primarily functions as a community discussion site.","{
+  ""category"": ""Community/Lived Experience"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The source is hosted on a social media platform, which primarily functions as a community discussion site.""
+}"
+881d734e83120d694166,https://facebook.com/MUTUmlazi/posts/accelerating-womens-success-in-higher-education/1463386219155644,facebook.com,,,,,not_extracted,facebook.com,,Community/Lived Experience,high,llm,llm_valid,"The source is hosted on a social media platform, which primarily functions as a discussion forum and community space.","{
+  ""category"": ""Community/Lived Experience"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The source is hosted on a social media platform, which primarily functions as a discussion forum and community space.""
+}"
+ccf04d056f61e53de517,https://facebook.com/NLIHCDC/posts/fact-of-the-week-homelessness-impacts-different-racial-and-ethnic-groups-at-rate/823452499810086,facebook.com,,,,,not_extracted,facebook.com,,NGO/Advocacy,high,llm,llm_valid,"The URL indicates a post from the National Low Income Housing Coalition, which is a nonprofit organization focused on advocacy.","{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL indicates a post from the National Low Income Housing Coalition, which is a nonprofit organization focused on advocacy.""
+}"
+2f42085118d9e78397cf,https://facebook.com/ABCNewsLive/videos/abc-news-analysis-of-police-arrests-nationwide-reveals-stark-racial-disparity/258961532198745,facebook.com,,,,,not_extracted,facebook.com,,News/Media,high,llm,llm_valid,"The page is hosted by ABC News Live, a news media organization.","{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The page is hosted by ABC News Live, a news media organization.""
+}"
+08b7fd8fcb0c48ddcf3c,https://facebook.com/10NewsSyd/posts/older-women-become-homeless-due-to-a-range-of-factors-including-illness-family-s/10156916838530259,facebook.com,,,,,not_extracted,facebook.com,,News/Media,high,llm,llm_valid,The source is hosted on a news media organization's Facebook page.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The source is hosted on a news media organization's Facebook page.""
+}"
+45c5c25e374508e154eb,https://fiveable.me/sociology-of-education/unit-2/gender-educational-opportunities/study-guide/xfDWjXtpSezzdYpg,fiveable.me,https://fiveable.me/sociology-of-education/unit-2/gender-educational-opportunities/study-guide/xfDWjXtpSezzdYpg,Gender and educational opportunities | Sociology of Education Class Notes | Fiveable,Fiveable,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/45c5c25e374508e154eb.txt,success,fiveable.me,"2.3 Gender and educational opportunities
+Updated August 2024Fiveable Content Team
+👥Sociology of Education Unit 2 Review
+2.3 Gender and educational opportunities
+👥 Sociology of Education
+Unit 2 – Social Inequality in Education
+Gender disparities in education persist, affecting opportunities and outcomes for males and females. These differences stem from societal norms, cultural practices, and systemic inequalities. Understanding these disparities is crucial for promoting gender equality in education.
+Addressing gender disparities involves challenging stereotypes, creating inclusive learning environments, and implementing targeted policies. Strategies include gender-responsive pedagogy, mentorship programs, and initiatives that consider intersections with race, ethnicity, and socioeconomic status. Achieving gender equality in education has far-reaching benefits for individuals and society.
+Gender disparities in education
+- Gender disparities in education refer to the differences in educational opportunities, experiences, and outcomes between males and females
+- These disparities can manifest in various forms, such as access to education, academic performance, subject choices, and edu",Commercial/Professional,high,llm,llm_valid,"Fiveable is an educational platform that provides study guides and resources, fitting the description of a commercial/professional service provider.","{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Fiveable is an educational platform that provides study guides and resources, fitting the description of a commercial/professional service provider.""
+}"
+2e8c8398c9077c09eb32,https://fiveable.me/criminal-justice/unit-5/police-discretion-decision-making/study-guide/n68gnxMUnHVfFsuc,fiveable.me,https://fiveable.me/criminal-justice/unit-5/police-discretion-decision-making/study-guide/n68gnxMUnHVfFsuc,Police Discretion and Decision-Making | Criminal Justice Class Notes | Fiveable,Fiveable,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/2e8c8398c9077c09eb32.txt,success,fiveable.me,"5.4 Police Discretion and Decision-Making
+Updated July 2024Fiveable Content Team
+👨🏻⚖️Criminal Justice Unit 5 Review
+5.4 Police Discretion and Decision-Making
+👨🏻⚖️ Criminal Justice
+Unit 5 – Policing Strategies and Practices
+Police discretion gives officers the power to make judgment calls in the field. It's a crucial tool that allows for flexibility in law enforcement, but it can also lead to inconsistencies and potential abuse. Understanding how cops make decisions is key to grasping modern policing.
+Factors like the severity of the crime, department policies, and community context all play a role in shaping officer choices. These decisions have big impacts, from who gets arrested to how communities view the police. It's a complex issue at the heart of many debates about fair and effective law enforcement.
+Police discretion in the justice system
+Definition and scope of police discretion
+- Police discretion grants law enforcement officers authority to make decisions based on judgment in specific situations
+- Allows flexible interpretation and application of laws considering unique circumstances of each encounter
+- Occurs at various levels including street interactions, investigation",News/Media,high,llm,llm_valid,Fiveable is a news/media organization providing study guides and educational content.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""Fiveable is a news/media organization providing study guides and educational content.""
+}"
+f86d50fbc65fc2adf8be,https://kff.org/racial-equity-and-health-policy/lgbt-adults-experiences-with-discrimination-and-health-care-disparities-findings-from-the-kff-survey-of-racism-discrimination-and-health,kff.org,https://www.kff.org/racial-equity-and-health-policy/lgbt-adults-experiences-with-discrimination-and-health-care-disparities-findings-from-the-kff-survey-of-racism-discrimination-and-health/,"LGBT Adults’ Experiences with Discrimination and Health Care Disparities: Findings from the KFF Survey of Racism, Discrimination, and Health | KFF","KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/f86d50fbc65fc2adf8be.txt,success,kff.org,"LGBT Adults’ Experiences with Discrimination and Health Care Disparities: Findings from the KFF Survey of Racism, Discrimination, and Health
+Findings
+Introduction
+LGBT adults in the U.S. are a growing population who have historically experienced health disparities. Past research shows that LGBT adults face increased challenges when it comes to mental health outcomes and access to care, experiences with serious mental health issues (particularly among trans adults), their physical health (including higher rates of disability among younger LGBT adults), and barriers to accessing and affording needed care. These negative experiences often occur at higher rates among LGBT adults who are younger, lower income, women, or report chronic illness or disability (for more detail on the demographics of LGBT adults, see Appendix). The Biden administration has issued recent executive orders aimed at combatting discrimination and disparities affecting LGBT adults, however, an increasing number of states have enacted policies seeking to restrict access to certain types of care for LGBT people, with youth access to gender affirming care being particularly impacted.
+This report focuses on LGBT adult",Academic/Research,high,llm,llm_valid,KFF is a research organization focused on health policy.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a research organization focused on health policy.""
+}"
+cda4d5fd39f133b6d56e,https://kff.org/womens-health-policy/update-on-medicaid-coverage-of-gender-affirming-health-services,kff.org,https://www.kff.org/womens-health-policy/update-on-medicaid-coverage-of-gender-affirming-health-services/,A Look at Medicaid Coverage of Gender-Affirming Health Services in 2021 | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/cda4d5fd39f133b6d56e.txt,success,kff.org,"A Look at Medicaid Coverage of Gender-Affirming Health Services in 2021
+This brief reflects an assessment of state policies in place in 2021. Since then, some states may have changed their coverage policies. Additionally, about half of states have enacted policies restricting access to gender affirming care for youth which would override Medicaid coverage. Finally, a final federal rule issued by Trump Administration in August 2026 prohibits federal Medicaid/CHIP funds from covering core gender affirming care services for young people.
+Issue Brief
+Transgender and nonbinary adults often face challenges and barriers to accessing needed health services and face worse health outcomes than their cisgender peers. Transgender adults are more likely than cisgender adults to be uninsured, report poor health, have lower household incomes, and face barriers to care due to cost. Given their lower incomes, Medicaid plays an important role in health coverage for transgender people. A 2019 report by the Williams Institute estimated that among the 1.4 million transgender adults living in the United States, approximately 152,000 had Medicaid coverage.
+Medicaid is the country’s health coverage progra",Academic/Research,high,llm,llm_valid,KFF is known for health policy research and polling.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is known for health policy research and polling.""
+}"
+5d2d15e1b4a5b8d83766,https://kff.org/medicaid/medicaid-efforts-to-address-racial-health-disparities,kff.org,https://www.kff.org/medicaid/medicaid-efforts-to-address-racial-health-disparities/,Medicaid Efforts to Address Racial Health Disparities | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/5d2d15e1b4a5b8d83766.txt,success,kff.org,"Medicaid Efforts to Address Racial Health Disparities
+Racial and ethnic disparities in health remain persistent in the United States, driven by inequities in access to and utilization of health care and social and economic factors that drive health, often referred to as social determinants of health (SDOH), that are rooted in historic and ongoing racism and discrimination. As a major source of health coverage for people of color, Medicaid programs are an important potential mechanism to address racial health disparities. Recent coverage gains across racial and ethnic groups between 2019-2022 were largely driven by increases in Medicaid enrollment as disenrollments were paused for three years during the pandemic related continuous enrollment provision. However, unwinding of the continuous enrollment provision could have disproportionate effects on people of color.
+The federal government and many states have identified advancing health equity and addressing health disparities as a key priority. This includes President Biden’s Executive Order 13985 that directs federal agencies to take steps to advance racial equity. Other key efforts including improving collection and reporting of ra",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+7b79548a363fff99a19e,https://kff.org/racial-equity-and-health-policy/health-coverage-by-race-and-ethnicity,kff.org,https://www.kff.org/racial-equity-and-health-policy/health-coverage-by-race-and-ethnicity/,"Health Coverage by Race and Ethnicity, 2010-2024 | KFF","KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/7b79548a363fff99a19e.txt,success,kff.org,"Health Coverage by Race and Ethnicity, 2010-2024
+Summary
+Health coverage plays a major role in enabling people to access health care and protecting families from high medical costs. There have been longstanding racial and ethnic disparities in health coverage that contribute to disparities in health. Due to Medicaid and Affordable Care Act (ACA) cuts in the 2025 reconciliation law and the expiration of the ACA’s enhanced premium tax credits, the number of uninsured is expected to increase by more than 14 million by 2034, potentially exacerbating racial disparities in coverage. This brief examines trends in health coverage by race and ethnicity from 2010 through 2024 and discusses the implications for health disparities. It is based on KFF analysis of American Community Survey (ACS) data for people under age 65. All noted differences between groups and years described in the text are statistically significant at the p<0.05 level. Key takeaways include:
+Since 2010, there have been large gains in health coverage across racial and ethnic groups but racial and ethnic disparities in coverage persisted. The largest gains occurred after implementation of the ACA coverage expansions in 2014",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+5091ca16b09c59dd4bce,https://kff.org/racial-equity-and-health-policy/how-present-day-health-disparities-for-black-people-are-linked-to-past-policies-and-events,kff.org,https://www.kff.org/racial-equity-and-health-policy/how-present-day-health-disparities-for-black-people-are-linked-to-past-policies-and-events/,How Present-Day Health Disparities for Black People Are Linked to Past Policies and Events | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/5091ca16b09c59dd4bce.txt,success,kff.org,"How Present-Day Health Disparities for Black People Are Linked to Past Policies and Events
+Today’s health and health care disparities are rooted in a long history of U.S. policies and events and reflect the ongoing impacts of racism at multiple levels, including in systems, structures, policies, and interpersonal interactions. Understanding this past and how it shapes present-day disparities can help inform and guide efforts to address them. It also is important to recognize the resilience of marginalized people in the face of these challenges and disparities and to consider how to build on their strengths by prioritizing community engagement and leadership to mitigate disparities and improve overall health and well-being. This brief examines how past policies and events are linked to present-day disparities among Black people in health care and health outcomes. It is based on KFF’s interactive timeline of How History Has Shaped Racial and Ethnic Health Disparities and KFF’s 2023 Racism, Discrimination, and Health Survey.
+Today, Black people face persistent disparities in health care and health outcomes. These include higher uninsured rates, being more likely to go without care due",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+5b60a7aba176e73f0677,https://kff.org/womens-health-policy/womens-health-care-utilization-and-costs-findings-from-the-2020-kff-womens-health-survey,kff.org,https://www.kff.org/womens-health-policy/womens-health-care-utilization-and-costs-findings-from-the-2020-kff-womens-health-survey/,Women’s Health Care Utilization and Costs: Findings from the 2020 KFF Women’s Health Survey | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/5b60a7aba176e73f0677.txt,success,kff.org,"Women’s Health Care Utilization and Costs: Findings from the 2020 KFF Women’s Health Survey
+Issue Brief
+Key Takeaways
+Health Status
+- Large shares of lower-income women and women with Medicaid report being in fair or poor health. One in five Black (20%) and Hispanic (19%) women report being in fair or poor health compared to 12% of White women and 9% of Asian women.
+- Six in ten (61%) women ages 50-64 and almost half of White women (48%) and women with Medicaid (47%) report having a chronic health condition that requires regular monitoring, medical care, or medication.
+Health Care Utilization
+- More than nine in ten (93%) women have seen a doctor or health care provider in the past two years, but a smaller share has had a general check-up or well-woman visit (73%).
+- One in ten (10%) women with an ongoing health condition do not have a regular doctor or health care provider.
+- Most women obtain their care at doctors’ offices, but many uninsured women, those with Medicaid, and Black and Hispanic women visit health centers or clinics.
+- Nearly half (46%) of women who usually visit a health center or clinic for their care go to a walk-in clinic such as an urgent care facility or clini",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+9e78830e1b3edd468c7a,https://files.kff.org/attachment/Issue-Brief-Health-and-Access-to-Care-and-Coverage-for-LGBT-Individuals-in-the-US,kff.org,https://files.kff.org/attachment/Issue-Brief-Health-and-Access-to-Care-and-Coverage-for-LGBT-Individuals-in-the-US,,,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/9e78830e1b3edd468c7a.txt,success,files.kff.org,"UPDATED: May 2018 | Issue Brief
+Health and Access to Care and Coverage for 
+Lesbian, Gay, Bisexual, and Transgender 
+Individuals in the U.S. 
+Jen Kates, Usha Ranji, Adara Beamesderfer, Alina Salganicoff, and Lindsey Dawson 
+Executive Summary 
+Lesbian, gay, bisexual, and transgender (LGBT) individuals often face challenges and barriers to 
+accessing needed health services and, as a result, can experience worse health outcomes. These 
+challenges can include stigma, discrimination, violence, and rejection by families and communities, as 
+well as other barriers, such as inequality in the workplace and health insurance sectors, the provision of 
+substandard care, and outright denial of care because of an individual’s sexual orientation or gender 
+identity.1,2,3 
+While LGBT individuals have many of the same health concerns as the general population, they 
+experience certain health challenges at higher rates, and also face several unique health challenges. In 
+particular, research suggests that some subgroups of the LGBT community are more likely to suffer from 
+certain chronic conditions and face higher prevalence and earlier onset of disabilities compared to 
+heterosexuals. Other major ",NGO/Advocacy,high,llm,llm_valid,kff.org is a well-known nonprofit organization focused on health policy analysis and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""kff.org is a well-known nonprofit organization focused on health policy analysis and advocacy.""
+}"
+e4c343dbfd5521214647,https://kff.org/affordable-care-act/health-care-access-and-coverage-for-the-lesbian-gay-bisexual-and-transgender-lgbt-community-in-the-united-states-opportunities-and-challenges-in-a-new-era,kff.org,https://www.kff.org/affordable-care-act/health-care-access-and-coverage-for-the-lesbian-gay-bisexual-and-transgender-lgbt-community-in-the-united-states-opportunities-and-challenges-in-a-new-era/,"Health Care Access and Coverage for the Lesbian, Gay, Bisexual, and Transgender (LGBT) Community in the United States: Opportunities and Challenges in a New Era | KFF","KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/e4c343dbfd5521214647.txt,success,kff.org,"Health Care Access and Coverage for the Lesbian, Gay, Bisexual, and Transgender (LGBT) Community in the United States: Opportunities and Challenges in a New Era
+By many measures, societal acceptance and support of LGBT rights in the United States have increased significantly in the last decade, especially in the last couple of years. Perhaps most notably has been the increase in public support for legalization of same-sex marriage, as well as gains in legal recognition, including the June 2013 Supreme Court decision which overturned a major portion of the Defense of Marriage Act (DOMA), resulting in federal recognition of same-sex marriage in the U.S.
+At the same time, however, a majority of states continue to impose bans on same-sex marriage and most offer no protections based on sexual orientation and gender identity in the areas of employment and housing, and many LGBT individuals report having experienced some form of discrimination based on their sexual orientation or gender identity. Ongoing discrimination, violence, and stigma compromise access to needed health services by LGBT individuals.
+In a new issue brief from the Kaiser Family Foundation, we examine what is known abou",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+96e1aa5d1d8f5d57c814,https://kff.org/racial-equity-and-health-policy/health-and-access-to-care-and-coverage-for-lesbian-gay-bisexual-and-transgender-individuals-in-the-u-s,kff.org,https://www.kff.org/racial-equity-and-health-policy/health-and-access-to-care-and-coverage-for-lesbian-gay-bisexual-and-transgender-individuals-in-the-u-s/,"Health and Access to Care and Coverage for Lesbian, Gay, Bisexual, and Transgender (LGBT) Individuals in the U.S. | KFF","KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/96e1aa5d1d8f5d57c814.txt,success,kff.org,"Health and Access to Care and Coverage for Lesbian, Gay, Bisexual, and Transgender (LGBT) Individuals in the U.S.
+Executive Summary
+Lesbian, gay, bisexual, and transgender (LGBT) individuals often face challenges and barriers to accessing needed health services and, as a result, can experience worse health outcomes. These challenges can include stigma, discrimination, violence, and rejection by families and communities, as well as other barriers, such as inequality in the workplace and health insurance sectors, the provision of substandard care, and outright denial of care because of an individual’s sexual orientation or gender identity.1 ,2 ,3
+While LGBT individuals have many of the same health concerns as the general population, they experience certain health challenges at higher rates, and also face several unique health challenges. In particular, research suggests that some subgroups of the LGBT community are more likely to suffer from certain chronic conditions and face higher prevalence and earlier onset of disabilities compared to heterosexuals. Other major health concerns include HIV/AIDS, mental illness, substance use, and sexual and physical violence. In addition to the h",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+3250d2e42a290fc5a3a8,https://kff.org/lgbtq/health-policy-101-lgbtq-health-policy,kff.org,https://www.kff.org/lgbtq/health-policy-101-lgbtq-health-policy/,LGBTQ+ Health Policy | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/3250d2e42a290fc5a3a8.txt,success,kff.org,"The share of individuals identifying as LGBTQ+ in the United States has increased over time, rising from just 4% in 2012 to 8% in 2023. In addition, support for same-sex marriage has also grown (27% in 1996 v. 69% as of 2024) and fewer believe there should be less acceptance for LGBTQ+ people (26% in 2001 v. 8% in 2020). Increases in identity and acceptance have been punctuated by several Supreme Court decisions providing new civil rights for LGBTQ+ people. Still, widespread stigma and discrimination persist for many LGBTQ+ people, including in health care as well as across a range of social institutions. These experiences can fuel significant health care disparities among LGBTQ+ people, challenging well-being and affecting health outcomes. Further, LGBTQ+ rights and health care access have become increasingly politicized at the federal and state levels, especially when it comes to young people.
+All people’s health and health care experiences are informed by the socioeconomic context in which they live, including the policy environment. Federal and state policy can facilitate or impede access to health care for LGBTQ+ people. At the federal level, there have been both expansions as",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental nonprofit organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental nonprofit organization focused on health policy research and advocacy.""
+}"
+2a7b6962bf1172b8d55e,https://kff.org/racial-equity-and-health-policy/most-hispanic-immigrants-say-lives-are-better-in-the-us,kff.org,https://www.kff.org/racial-equity-and-health-policy/most-hispanic-immigrants-say-lives-are-better-in-the-us/,Most Hispanic Immigrants Say Their Lives Are Better In The U.S. But Face Financial And Health Care Challenges: The 2023 KFF/LA Times Survey of Immigrants | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/2a7b6962bf1172b8d55e.txt,success,kff.org,"Most Hispanic Immigrants Say Their Lives Are Better In The U.S. But Face Financial And Health Care Challenges: The 2023 KFF/LA Times Survey of Immigrants
+Findings
+Note: This content was updated on February 14, 2024 to correct the description of how states were classified in terms of expansiveness of coverage for immigrants.
+Executive Summary
+Hispanic immigrants comprise the largest share of the immigrant population in the U.S., and about a third of Hispanic or Latino adults in the U.S. are immigrants. This report provides an in-depth look at the varied experiences of Hispanic immigrants living in the U.S. and highlights the unique challenges many face, as Hispanic immigrants are more likely than other immigrant groups to have limited English proficiency (LEP), be noncitizens, have lower household incomes, be uninsured, and have lower levels of educational attainment. This report details how these factors affect the experiences of Hispanic immigrants, including at work, in their communities, and in accessing health care and other services.
+Despite these challenges, this report also highlights the resiliency and optimism of the Hispanic immigrant population. It reveals that, regardle",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+565dd0843a513414cdaa,https://kff.org/immigrant-health/implementation-of-medicaid-immigrant-eligibility-restrictions-under-the-2025-reconciliation-law-issues-to-consider,kff.org,https://www.kff.org/immigrant-health/implementation-of-medicaid-immigrant-eligibility-restrictions-under-the-2025-reconciliation-law-issues-to-consider/,Implementation of Medicaid Immigrant Eligibility Restrictions Under the 2025 Reconciliation Law: Issues to Consider | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/565dd0843a513414cdaa.txt,success,kff.org,"Implementation of Medicaid Immigrant Eligibility Restrictions Under the 2025 Reconciliation Law: Issues to Consider
+Introduction
+The 2025 reconciliation law includes new eligibility restrictions for many lawfully present immigrants for federally-funded health programs, including Medicaid and the Children’s Health Insurance Program (CHIP), subsidized Affordable Care Act (ACA) Marketplace, and Medicare coverage. The eligibility restrictions for Medicaid and CHIP become effective October 1, 2026. These restrictions will eliminate eligibility for many groups of lawfully present immigrants, including refugees and asylees without a green card, among others. Under longstanding federal policy, undocumented immigrants already are ineligible for federally funded health coverage. The Congressional Budget Office (CBO) estimates that eligibility restrictions in Medicaid or CHIP will reduce federal spending by $6.2 billion and lead to an additional 100,000 individuals becoming uninsured by 2034.
+The Centers for Medicare & Medicaid Services (CMS) released guidance and an implementation toolkit for states to implement the eligibility changes. Beyond those losing coverage because they are no longer",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+cf4634cb4263facaa3e2,https://kff.org/uninsured/characteristics-of-remaining-uninsured-men-and-potential-strategies-to-reach-and-enroll-them-in-health-coverage,kff.org,https://www.kff.org/uninsured/characteristics-of-remaining-uninsured-men-and-potential-strategies-to-reach-and-enroll-them-in-health-coverage/,Characteristics of Remaining Uninsured Men and Potential Strategies to Reach and Enroll them in Health Coverage | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/cf4634cb4263facaa3e2.txt,success,kff.org,"Characteristics of Remaining Uninsured Men and Potential Strategies to Reach and Enroll them in Health Coverage
+Issue Brief
+Summary
+This brief provides information on remaining nonelderly uninsured men ages 19-64, provides national estimates of their eligibility for ACA coverage options, and discusses strategies for reaching and enrolling them into health coverage. Data and figures presented in this brief are based on Kaiser Family Foundation analysis of the 2015 Current Population Survey data for nonelderly adults.1 Key findings include:
+- In 2014, nearly 15 million nonelderly adult men were uninsured, accounting for slightly more than half of remaining uninsured adults. Men are more likely to be uninsured than women and less likely to have Medicaid or other public coverage. This pattern reflects the fact that many men were not eligible for Medicaid prior to the ACA, since the program excluded non-disabled adults without dependent children. Nonelderly uninsured men include many young childless adults, but also include fathers and older men. Most (76%) nonelderly uninsured men live in a household with at least one full-time worker, but more than half are low-income. Nearly one-thir",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+fd49b882d7318ce94f6a,https://kff.org/medicaid/recent-medicaid-chip-enrollment-declines-and-barriers-to-maintaining-coverage,kff.org,https://www.kff.org/medicaid/recent-medicaid-chip-enrollment-declines-and-barriers-to-maintaining-coverage/,Recent Medicaid/CHIP Enrollment Declines and Barriers to Maintaining Coverage | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/fd49b882d7318ce94f6a.txt,success,kff.org,"Recent Medicaid/CHIP Enrollment Declines and Barriers to Maintaining Coverage
+Issue Brief
+Key Takeaways
+- Recently there have been declines in Medicaid and CHIP enrollment, with substantial reductions in some states. Some of this decline may reflect people moving to other coverage due to the improving economy. However, survey data show a rise in the uninsured rate between 2017 and 2018, driven by decreases in Medicaid and CHIP coverage.
+- While there may be a variety of factors contributing to recent Medicaid and CHIP enrollment declines, one possible factor is barriers associated with maintaining coverage in some states. While the majority of states have implemented streamlined renewal processes under the ACA, eligible individuals may still face barriers to maintaining coverage due to difficulties completing renewal processes. Further, a growing number of states have implemented periodic eligibility checks between renewals that can increase barriers to maintaining coverage and coverage gaps or churn in coverage.
+- The Trump administration has encouraged use of periodic eligibility checks as a program integrity strategy and indicated it plans to increase requirements related to eli",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+bcfb486240470019d4d2,https://kff.org/medicaid/5-key-facts-about-medicaid-coverage-for-people-with-disabilities,kff.org,https://www.kff.org/medicaid/5-key-facts-about-medicaid-coverage-for-people-with-disabilities/,5 Key Facts About Medicaid Coverage for People with Disabilities | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/bcfb486240470019d4d2.txt,success,kff.org,"5 Key Facts About Medicaid Coverage for People with Disabilities
+Options under consideration in Congress to reduce Medicaid spending by up to $2.3 trillion, nearly one-third over ten years, could have major implications for people with disabilities. Medicaid is the primary program providing comprehensive health and long-term care coverage to one in three with disabilities, including 2.3 million children, 8.8 million working-age adults, and 4.4 million adults ages 65 and older. Although some people with disabilities qualify for Medicaid because they receive Supplemental Security Income, most are eligible for Medicaid through other pathways, including the Affordable Care Act (ACA) expansion group.
+Policy changes under consideration include imposing a per capita cap on federal Medicaid spending, reducing the federal government’s share of costs for the ACA expansion group, and imposing Medicaid work requirements, among other changes. Such policy changes would fundamentally alter how Medicaid financing works and federal spending reductions of this magnitude would put states at significant financial risk, forcing them to make tough choices about reducing the number of people covered, cov",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+2f629286eb047844b1ef,https://kff.org/uninsured/health-policy-101-the-uninsured-population-and-health-coverage,kff.org,https://www.kff.org/uninsured/health-policy-101-the-uninsured-population-and-health-coverage/,The Uninsured Population and Health Coverage | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/2f629286eb047844b1ef.txt,success,kff.org,"Health coverage in the United States is marked by a blend of private and public insurance options that leaves about 8% of the population uninsured. This coverage system has evolved over the years, most recently with the implementation of the Affordable Care Act (ACA), which aimed to reduce the uninsured rate by expanding Medicaid, creating health insurance Marketplaces for individuals, and providing subsidies to make the coverage more affordable. Many factors, including economic conditions, federal and state policy changes, and significant health crises, such as the COVID-19 pandemic, influence the uninsured rate. The ACA and policy changes designed to protect coverage during the pandemic led to increased health coverage overall; however, passage of the 2025 Federal Budget Reconciliation Bill (referred to as the One Big Beautiful Bill Act) along with other policy changes are expected to increase significantly the number of people who are uninsured over the next ten years.
+The Uninsured Population and Health Coverage
+Published: October 8, 2025
+Health Policy 101:
+Table of Contents
+Introduction
+What is the Landscape of Health Care Coverage in the United States?
+Health coverage in the ",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+1a81d141e05c6b2434ee,https://kff.org/womens-health-policy/medicaid-coverage-for-women,kff.org,https://www.kff.org/womens-health-policy/medicaid-coverage-for-women/,Medicaid Coverage for Women | KFF,"KFF - The independent source for health policy research, polling, and news",/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/1a81d141e05c6b2434ee.txt,success,kff.org,"Medicaid Coverage for Women
+Introduction
+Medicaid, the nation’s health coverage program for people with low incomes, provides more than 39 million women across the nation with health and long-term care coverage. Women comprise the majority of the adult Medicaid population and the program offers coverage of a wide range of primary, preventive, specialty, and long-term care services that are important to women across their lifespans. Given the importance of the program for women and their families, changes to the program, such as the 2025 federal policy changes to Medicaid and the enactment of new work requirements for the Medicaid expansion population, will have significant implications for low-income women’s access to coverage and care. This data note presents key data points describing the current state of the Medicaid program as it affects women.
+Who is Eligible for Coverage?
+In 2023 adult women comprised 37% of the overall Medicaid population and the majority of adults on the program (Figure 1).1 Prior to the 2010 Affordable Care Act (ACA), women were more likely to qualify for Medicaid than men because of their lower incomes and because they were more likely to belong to one of",NGO/Advocacy,high,llm,llm_valid,KFF is a non-governmental organization focused on health policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""KFF is a non-governmental organization focused on health policy research and advocacy.""
+}"
+20e9656ebc2b963fc7be,https://researchgate.net/publication/227923149_Gender_Police_Arrest_Decisions_and_Notions_of_Chivalry,researchgate.net,https://www.researchgate.net/publication/227923149_Gender_Police_Arrest_Decisions_and_Notions_of_Chivalry,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+46af0609ffb546ab3580,https://researchgate.net/publication/235307817_Women_on_patrol_an_analysis_of_differences_in_officer_arrest_behavior,researchgate.net,https://www.researchgate.net/publication/235307817_Women_on_patrol_an_analysis_of_differences_in_officer_arrest_behavior,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,researchgate.net is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""researchgate.net is a platform primarily used for academic research and publication.""
+}"
+eea119079a5abfa7bc9c,https://researchgate.net/publication/380119192_The_Relation_between_Sexual_Orientation_and_Employment,researchgate.net,https://www.researchgate.net/publication/380119192_The_Relation_between_Sexual_Orientation_and_Employment,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+0d52312915a2b828074f,https://researchgate.net/publication/361396815_Bullying_and_Harassment_Prevention_in_the_Lives_of_Latina_and_Latino_Students,researchgate.net,https://www.researchgate.net/publication/361396815_Bullying_and_Harassment_Prevention_in_the_Lives_of_Latina_and_Latino_Students,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+03306ce64dffbb25ac8b,https://researchgate.net/publication/225650664_Men_accessing_education_Masculinities_class_and_choice,researchgate.net,https://www.researchgate.net/publication/225650664_Men_accessing_education_Masculinities_class_and_choice,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+f7eeeea3287f18db6ed0,https://researchgate.net/publication/388770161_What_Factors_Influence_Patient_Measures_of_Safety_Among_Adults,researchgate.net,https://www.researchgate.net/publication/388770161_What_Factors_Influence_Patient_Measures_of_Safety_Among_Adults,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+7e70d3a420d39c0e9016,https://researchgate.net/publication/388827138_The_Dynamics_of_Bullying_in_Schools_Causes_Impacts_and_Prevention_Strategies,researchgate.net,https://www.researchgate.net/publication/388827138_The_Dynamics_of_Bullying_in_Schools_Causes_Impacts_and_Prevention_Strategies,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,researchgate.net is a scientific and academic networking site.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""researchgate.net is a scientific and academic networking site.""
+}"
+f2de25f454a5b959491f,https://researchgate.net/publication/331300225_Major_Determinants_of_Career_Development_Employees'_Perception,researchgate.net,https://www.researchgate.net/publication/331300225_Major_Determinants_of_Career_Development_Employees'_Perception,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,researchgate.net is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""researchgate.net is a platform primarily used for academic research and publication.""
+}"
+66bbac889c86d6b0cf39,https://researchgate.net/publication/11248933_Influence_of_Usual_Source_of_Care_on_Differences_by_RaceEthnicity_in_Receipt_of_Preventive_Services?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbCwic3ViUGFnZSI6bnVsbH19,researchgate.net,https://www.researchgate.net/publication/11248933_Influence_of_Usual_Source_of_Care_on_Differences_by_RaceEthnicity_in_Receipt_of_Preventive_Services?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbCwic3ViUGFnZSI6bnVsbH19,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,researchgate.net is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""researchgate.net is a platform primarily used for academic research and publication.""
+}"
+cc8d258e67ff44b3bb7c,https://researchgate.net/publication/354341007_Impact_of_gender_on_access_to_finance_in_developing_countries,researchgate.net,https://www.researchgate.net/publication/354341007_Impact_of_gender_on_access_to_finance_in_developing_countries,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+908f5bbf41bc212e2653,https://researchgate.net/publication/374152531_Women's_financial_inclusion,researchgate.net,https://www.researchgate.net/publication/374152531_Women's_financial_inclusion,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+52149d5ff09c8f9290be,https://researchgate.net/publication/366837930_Banks'_risk_taking_in_credit_decisions_influences_of_loan_officers'_personality_traits_and_financial_risk_preference_versus_bank-contextual_factors,researchgate.net,https://www.researchgate.net/publication/366837930_Banks'_risk_taking_in_credit_decisions_influences_of_loan_officers'_personality_traits_and_financial_risk_preference_versus_bank-contextual_factors,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+daf71a49148572be9cf9,https://researchgate.net/publication/273791030_High_School_Grades_Admissions_Policies_and_the_Gender_Gap_in_College_Enrollment,researchgate.net,https://www.researchgate.net/publication/273791030_High_School_Grades_Admissions_Policies_and_the_Gender_Gap_in_College_Enrollment,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+594385d2d8b5dffdf7ac,https://researchgate.net/publication/384839000_Status_and_associated_factors_of_health_insurance_enrollment_among_women_in_Nepal,researchgate.net,https://www.researchgate.net/publication/384839000_Status_and_associated_factors_of_health_insurance_enrollment_among_women_in_Nepal,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+e4aac489e0113e853bd4,https://researchgate.net/publication/392863097_Exploring_Women's_Housing_Challenges_Legal_and_Policy_Solutions_for_Women's_Access_to_Adequate_Housing,researchgate.net,https://www.researchgate.net/publication/392863097_Exploring_Women's_Housing_Challenges_Legal_and_Policy_Solutions_for_Women's_Access_to_Adequate_Housing,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+8480eba5c175f89f99f2,https://researchgate.net/publication/325297956_Predictors_of_Housing_Instability_in_Women_Who_Have_Experienced_Intimate_Partner_Violence,researchgate.net,https://www.researchgate.net/publication/325297956_Predictors_of_Housing_Instability_in_Women_Who_Have_Experienced_Intimate_Partner_Violence,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,ResearchGate is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a platform primarily used for academic research and publication.""
+}"
+08d7215e33d964974049,https://researchgate.net/publication/387532491_Factors_Associated_with_Housing_Stability_Among_Individuals_with_Co-Occurring_Serious_Mental_Illness_and_Substance_Use_Disorders_Receiving_Assertive_Community_Treatment_Services,researchgate.net,https://www.researchgate.net/publication/387532491_Factors_Associated_with_Housing_Stability_Among_Individuals_with_Co-Occurring_Serious_Mental_Illness_and_Substance_Use_Disorders_Receiving_Assertive_Community_Treatment_Services,,,,not_extracted,researchgate.net,,Academic/Research,high,llm,llm_valid,researchgate.net is a platform primarily used for academic research and publication.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""researchgate.net is a platform primarily used for academic research and publication.""
+}"
+562908e64596cdbb9260,https://researchgate.net/publication/374999877_Review_of_Research_on_Influencing_Factors_of_Personnel_Recruitment,researchgate.net,https://www.researchgate.net/publication/374999877_Review_of_Research_on_Influencing_Factors_of_Personnel_Recruitment,,,,not_extracted,researchgate.net,,Commercial/Professional,high,llm,llm_valid,ResearchGate is a commercial platform for researchers.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""ResearchGate is a commercial platform for researchers.""
+}"
+2166352a3684df11d5b7,https://share.google/WL4B9mlnloF38BtQj,share.google,https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0290016&type=printable,,,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/2166352a3684df11d5b7.txt,success,share.google,"RESEARCH ARTICLE
+“If he has education, there will not be any
+problem”: Factors affecting access to
+education for children with disabilities in
+Tamil Nadu, India
+Kumudha AruldasID1‡*, Lena Morgon Banks2‡, Guru Nagarajan3, Reeba Roshan4,
+Jabaselvi Johnson1, David Musendo2, Isaac ArpudharangamID1, Judd L. WalsonID5,6,
+Tom Shakespeare2, Sitara S. R. Ajjampur1
+1 The Wellcome Trust Research Laboratory, Division of Gastrointestinal Sciences, Christian Medical
+College, Vellore, Tamil Nadu, India, 2 International Centre for Evidence in Disability, London School of
+Hygiene & Tropical Medicine, London, United Kingdom, 3 Department of Physical Medicine and
+Rehabilitation, Christian Medical College, Vellore, Tamil Nadu, India, 4 Department of Developmental
+Paediatrics, Christian Medical College, Vellore, Tamil Nadu, India, 5 Departments of Global Health, Medicine,
+Pediatrics, and Epidemiology, University of Washington, Seattle, Washington, United States of America,
+6 The DeWorm3 Project, University of Washington, Seattle, Washington, United States of America
+‡ KA and LMB are co-lead authors on this work.
+* kumudha.aruldas@gmail.com
+Abstract
+This study explores factors affecting children with di",Academic/Research,high,llm,llm_valid,The page is hosted by a research institution and authored by academics.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The page is hosted by a research institution and authored by academics.""
+}"
+85f2f28250519fb7f81f,https://share.google/1bstSGQx2WNo6lKWw,share.google,https://scholarsarchive.library.albany.edu/cgi/viewcontent.cgi?filename=0&article=1030&context=institutionsandsocietiesgsc&type=additional,,,,not_extracted,share.google,,Other/Unclear,low,llm,llm_valid,The hostname and registrable domain do not provide sufficient information to classify the publisher.,"{
+  ""category"": ""Other/Unclear"",
+  ""confidence"": ""low"",
+  ""rationale"": ""The hostname and registrable domain do not provide sufficient information to classify the publisher.""
+}"
+ca29ea4b81421de617f8,https://theconversation.com/children-facing-racist-bullying-at-school-need-support-from-teachers-but-many-dont-get-it-196180,theconversation.com,https://theconversation.com/children-facing-racist-bullying-at-school-need-support-from-teachers-but-many-dont-get-it-196180,Children facing racist bullying at school need support from teachers – but many don’t get it,The Conversation,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/ca29ea4b81421de617f8.txt,success,theconversation.com,"In the academic year 2020-21, there were 1,198 instances of racially motivated bullying reported in Scottish schools – up from 409 in 2016-17. These are the highest recorded figures to date.
+My research, carried out with colleagues, explores the impact of racist bullying like this – bullying motivated by prejudice against someone’s race, ethnicity, culture, citizenship or religion.
+We conducted what is known as a systematic review: examining existing research studies to look for trends and patterns. We pulled together the results of 73 existing research studies on racist bullying from around the world. We wanted to know more about what happens to young people who experience racist bullying.
+We found that racist bullying increases the risk of poor mental health. It can cause loneliness and lead children to drop out of school. It can result in alcohol and substance misuse.
+We also found that young people feel their teachers are dismissive of racist biases and stereotypes. The way teachers handle complaints about racism could be critical for children and young people’s mental health.
+Trying to cope
+Children and young people often try to cope with racist bullying by “filtering out” inc",Academic/Research,high,llm,llm_valid,The Conversation is a scholarly publication platform.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The Conversation is a scholarly publication platform.""
+}"
+c29aa95b5b498c0290b7,https://theconversation.com/how-ethnic-minorities-face-higher-levels-of-financial-exclusion-71960,theconversation.com,https://theconversation.com/how-ethnic-minorities-face-higher-levels-of-financial-exclusion-71960,How ethnic minorities face higher levels of financial exclusion,The Conversation,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/c29aa95b5b498c0290b7.txt,success,theconversation.com,"Access to financial services and credit is generally regarded as a necessity to lead a normal life. Whether it is basic bank and saving accounts, a mortgage to buy a house or loan to start a business, these are some of the essential components of the modern economy – and modern living.
+Yet financial exclusion – the inability to access these financial services – is a problem for many people. And there is mounting research to show that certain sections of society are affected more than others. There are two main areas where access to finance is needed: consumer credit and mortgages. In both areas, there is a large amount of evidence to show that ethnic minorities are worse off than white households.
+Financial exclusion plays a critical role in increasing poverty and limiting prosperity for all. The link between ability to access finance and prosperity is a simple one. Take, for example, consumer credit. It enables spending that exceeds our monthly budgets and gives us the ability to stretch the cost of big (and often important) purchases over time. Credit allows us to smooth our income and broaden investment opportunities. This can lead to, for instance, better housing or further edu",News/Media,high,llm,llm_valid,The Conversation is a news/media organization that publishes articles by academics and experts.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The Conversation is a news/media organization that publishes articles by academics and experts.""
+}"
+f445de95ace940fe9789,https://theconversation.com/the-disturbing-connection-between-bullying-and-sexual-harassment-68033,theconversation.com,https://theconversation.com/the-disturbing-connection-between-bullying-and-sexual-harassment-68033,The disturbing connection between bullying and sexual harassment,The Conversation,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/f445de95ace940fe9789.txt,success,theconversation.com,"Over the past two decades, the national media has given considerable attention to disturbing stories of youth suicides that have resulted in part from bullying.
+The subject of bullying has also been a plot line in movies such as “Bully” and some popular TV shows.
+As a result of the greater awareness, scientists have gained a better understanding of what constitutes bullying, why some youth bully and why others are victimized. There is also a better understanding of the short- and long-term effects of bullying.
+However, in spite of all these efforts, intervention programs to reduce bullying have had limited success.
+Why that should be so is what interests me as a prevention scientist and psychologist. Two headline results are these: Bullying prevention programs fail to take into account a number of factors, including the fact that youth who bully in middle school tend to be popular and powerful. And it turns out, sexual harassment among adolescents is directly related to bullying.
+How bullying is linked to sexual harassment
+I conducted a five-year study where I was the lead researcher who followed youth from middle to high school in Illinois to examine risk factors of bullying and s",News/Media,high,llm,llm_valid,The Conversation is a news/media organization that publishes articles on various topics including social issues.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The Conversation is a news/media organization that publishes articles on various topics including social issues.""
+}"
+fdc5162f04030936a19d,https://theconversation.com/how-to-tell-if-your-college-is-trans-inclusive-158348,theconversation.com,https://theconversation.com/how-to-tell-if-your-college-is-trans-inclusive-158348,How to tell if your college is trans-inclusive,The Conversation,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/fdc5162f04030936a19d.txt,success,theconversation.com,"High school can be especially challenging for the 2%-3% of U.S. teens who identify as transgender, or trans. They disproportionately experience harassment and victimization by their peers and rejection by family members.
+Entering an affirming and inclusive college environment can help set trans youth on a path of personal, academic and professional success.
+A trans-affirming college can also be transformative for trans students who did not feel comfortable being out in high school, as well as those who do not begin to explore their gender identity until college.
+My research with 507 trans and gender-nonconforming students – 75% undergraduate, 25% graduate – examined which college policies and supports trans students most valued. I also looked at how these policies created a sense of belonging on campus.
+I found that religiously affiliated colleges and community colleges tended to be less inclusive of trans students. Also, knowing that a school had trans-inclusive policies and supports led to a greater feeling of belonging and better perception of the campus climate. The students listed gender-inclusive restrooms, nondiscrimination policies that include gender identity and the abili",News/Media,high,llm,llm_valid,The Conversation is a news/media organization that publishes articles on various topics including academic research.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The Conversation is a news/media organization that publishes articles on various topics including academic research.""
+}"
+1b637dbfce2146a8848d,https://theconversation.com/white-men-who-have-been-mistreated-at-work-are-more-likely-to-notice-and-report-harassment-new-research-234528,theconversation.com,https://theconversation.com/white-men-who-have-been-mistreated-at-work-are-more-likely-to-notice-and-report-harassment-new-research-234528,White men who have been mistreated at work are more likely to notice and report harassment − new research,The Conversation,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/1b637dbfce2146a8848d.txt,success,theconversation.com,"White men who have personally experienced mistreatment at work, such as bullying, are more likely to realize that their organization does not always operate fairly. And that makes them more likely to recognize and report race and gender bias against their co-workers, I found in a recent study.
+As a sociologist who researches workplace inequality, I wondered whether the way white men in the U.S. are treated at work might be related to whether they recognize sexist and racist incidents that harm their colleagues.
+To find out, I analyzed data from over 11,000 federal employees, including 5,011 white men employed by 28 government agencies, collected for a survey that measures the government’s progress toward eliminating personnel policy violations.
+I found that although white men are mistreated less often than women and people of color, about 1 in 3 of them experienced some instance of bullying, intimidation or other form of harassment in the two years prior to the study. In comparison, 44% of white women, 49% of women of color and 35% of men of color experienced some form of harassment.
+It turned out that white men who were targets of harassment were 70% more likely than other white m",News/Media,high,llm,llm_valid,The Conversation is a news/media organization that publishes articles on various topics including research.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The Conversation is a news/media organization that publishes articles on various topics including research.""
+}"
+3ab2c9e0cad5c30257b8,https://unesco.org/en/articles/what-you-need-know-about-school-violence-and-bullying,unesco.org,https://www.unesco.org/en/articles/what-you-need-know-about-school-violence-and-bullying,What you need to know about school violence and bullying,UNESCO,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/3ab2c9e0cad5c30257b8.txt,success,unesco.org,"Article
+What you need to know about school violence and bullying
+Bullying in schools deprives millions of children and young people of their fundamental right to education. A recent UNESCO report revealed that more than 30% of the world's students have been victims of bullying, with devastating consequences on academic achievement, school dropout, and physical and mental health.
+The world is marking the first International Day against Violence and Bullying at School Including Cyberbullying, on 5 November. Here is what you need to know about school violence and bullying.
+What is school violence?
+School violence refers to all forms of violence that takes place in and around schools and is experienced by students and perpetrated by other students, teachers and other school staff. This includes bullying and cyberbullying. Bullying is one of the most pervasive forms of school violence, affecting 1 in 3 young people.
+What forms may school violence take?
+Based on existing international surveys that collect data on violence in schools, UNESCO recognizes the following forms of school violence:
+- Physical violence, which is any form of physical aggression with intention to hurt perpetrated b",Academic/Research,high,llm,llm_valid,UNESCO is a research and educational institution.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""UNESCO is a research and educational institution.""
+}"
+2636390fa210b21c5b17,https://unesco.org/en/articles/school-violence-and-bullying-major-global-issue-new-unesco-publication-finds,unesco.org,https://www.unesco.org/en/articles/school-violence-and-bullying-major-global-issue-new-unesco-publication-finds,"School violence and bullying a major global issue, new UNESCO",UNESCO,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/2636390fa210b21c5b17.txt,success,unesco.org,"Article
+School violence and bullying a major global issue, new UNESCO publication finds
+A new UNESCO report confirms that school violence and bullying are major problems worldwide. The Behind the numbers: Ending school violence and bullying publication, is being released at the world’s largest gathering of education and skills Ministers, the 2019 Education World Forum taking place in London (UK) today. It demonstrates that despite the gravity of the problem, some countries have made significant progress towards reducing, or containing, school violence and bullying.
+The publication presents the most up to date and comprehensive evidence on school violence and bullying, analyzing global and regional prevalence and trends, the nature and impact of the issue, and successful national responses. It brings together quantitative and qualitative data from a range of global and regional surveys, covering 144 countries and territories in all regions.
+Almost one in three students (32%) has been bullied by their peers at school at least once in the last month and a similar proportion are affected by physical violence, according to the publication. Physical bullying is the most frequent type of ",Government/Public Agency,high,llm,llm_valid,UNESCO is an official government agency,"{
+  ""category"": ""Government/Public Agency"",
+  ""confidence"": ""high"",
+  ""rationale"": ""UNESCO is an official government agency""
+}"
+0878eb8525e2cea01264,https://urban.org/urban-wire/how-local-differences-race-and-place-affect-mortgage-lending,urban.org,https://www.urban.org/urban-wire/how-local-differences-race-and-place-affect-mortgage-lending,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is hosted by an organization focused on research and policy analysis.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on research and policy analysis.""
+}"
+ea3e950c2f7323d71673,https://urban.org/urban-wire/unpacking-early-trends-racial-diversity-elite-college-admissions-following-supreme-court,urban.org,https://www.urban.org/urban-wire/unpacking-early-trends-racial-diversity-elite-college-admissions-following-supreme-court,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The URL is hosted by urban.org, which is known to be an academic and research institution.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL is hosted by urban.org, which is known to be an academic and research institution.""
+}"
+a852bc004953417cabe9,https://urban.org/urban-wire/breaking-down-black-white-homeownership-gap,urban.org,https://www.urban.org/urban-wire/breaking-down-black-white-homeownership-gap,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is hosted by an organization focused on research and policy analysis.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on research and policy analysis.""
+}"
+619eb5929638344771fd,https://urban.org/urban-wire/three-ways-improving-housing-stability-can-make-long-term-progress-toward-racial-equity,urban.org,https://www.urban.org/urban-wire/three-ways-improving-housing-stability-can-make-long-term-progress-toward-racial-equity,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is hosted by an organization focused on research and policy analysis.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on research and policy analysis.""
+}"
+6b6f1f00596dcb2f0875,https://urban.org/urban-wire/three-trends-lgbtq-homeownership-gaps-underscore-research-and-policy-needs,urban.org,https://www.urban.org/urban-wire/three-trends-lgbtq-homeownership-gaps-underscore-research-and-policy-needs,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+06233dcc7cf9f0bf09e1,https://archive-housingmatters.urban.org/research-summary/transgender-and-gender-nonconforming-people-experiencing-housing-insecurity-rely,urban.org,https://archive-housingmatters.urban.org/research-summary/transgender-and-gender-nonconforming-people-experiencing-housing-insecurity-rely,,,,not_extracted,archive-housingmatters.urban.org,,Academic/Research,high,llm,llm_valid,The URL indicates a research summary hosted by an urban policy research organization.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL indicates a research summary hosted by an urban policy research organization.""
+}"
+3e823021c0e3a6e02a57,https://archive-housingmatters.urban.org/articles/five-facts-about-housing-access-lgbt-people,urban.org,https://archive-housingmatters.urban.org/articles/five-facts-about-housing-access-lgbt-people,,,,not_extracted,archive-housingmatters.urban.org,,Academic/Research,high,llm,llm_valid,The URL indicates that the content is hosted by an urban research organization focused on housing and social issues.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL indicates that the content is hosted by an urban research organization focused on housing and social issues.""
+}"
+76a6212482e1e9e96dbd,https://urban.org/urban-wire/five-reasons-mass-incarceration-queer-issue,urban.org,https://www.urban.org/urban-wire/five-reasons-mass-incarceration-queer-issue,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+f8e194c57b48c03e906b,https://urban.org/sites/default/files/publication/89236/same_sex_marriage_0.pdf,urban.org,https://www.urban.org/sites/default/files/publication/89236/same_sex_marriage_0.pdf,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is a research institute focused on policy and social issues,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is a research institute focused on policy and social issues""
+}"
+9f983c14d9f5c79c2f1f,https://urban.org/research/publication/why-are-there-gaps-lgbtq-homeownership,urban.org,https://www.urban.org/research/publication/why-are-there-gaps-lgbtq-homeownership,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+fd671b6e0608b9cf2e0b,https://urban.org/urban-wire/how-can-we-reduce-housing-instability-among-lgbtq-americans,urban.org,https://www.urban.org/urban-wire/how-can-we-reduce-housing-instability-among-lgbtq-americans,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+6afd5427af2aac11d72f,https://urban.org/urban-wire/creating-avenues-financial-inclusion-latino-families,urban.org,https://www.urban.org/urban-wire/creating-avenues-financial-inclusion-latino-families,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is hosted by an organization focused on research and policy analysis.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on research and policy analysis.""
+}"
+9065dc668396db3d6456,https://urban.org/sites/default/files/2024-04/How_Do_Financial_Attitudes_and_Preferences_Vary_among_Latine_Consumers.pdf,urban.org,https://www.urban.org/sites/default/files/2024-04/How_Do_Financial_Attitudes_and_Preferences_Vary_among_Latine_Consumers.pdf,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is a research institute focused on policy and social issues,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is a research institute focused on policy and social issues""
+}"
+e9718c8d61bc478e8ab2,https://apps.urban.org/features/latino-criminal-justice-data,urban.org,https://apps.urban.org/features/latino-criminal-justice-data/,The Alarming Lack of Data on Latinos in the Criminal Justice System,Urbaninstitute,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/e9718c8d61bc478e8ab2.txt,success,apps.urban.org,": :
+Share on facebook
+Share on twitter
+Share on email
+Compartir en facebook
+Compartir en Twitter
+Compartir por correo electrónico",Academic/Research,high,llm,llm_valid,"The URL is hosted by the Urban Institute, which is an academic/research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL is hosted by the Urban Institute, which is an academic/research organization.""
+}"
+082256847a9dfc55ede5,https://urban.org/urban-wire/how-can-we-advance-latino-homeownership-and-housing-stability,urban.org,https://www.urban.org/urban-wire/how-can-we-advance-latino-homeownership-and-housing-stability,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is hosted by an organization focused on research and policy analysis.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on research and policy analysis.""
+}"
+e7ee35e8768cc98b3be8,https://urban.org/urban-wire/improving-homebuying-opportunities-latino-families-would-benefit-entire-housing-market,urban.org,https://www.urban.org/urban-wire/improving-homebuying-opportunities-latino-families-would-benefit-entire-housing-market,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is hosted by an organization focused on research and policy analysis.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on research and policy analysis.""
+}"
+118003e321aa210c8edb,https://urban.org/urban-wire/what-will-it-take-help-latina-moms-hold-homeownership-gains,urban.org,https://www.urban.org/urban-wire/what-will-it-take-help-latina-moms-hold-homeownership-gains,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+b7631880e713c9874778,https://urban.org/research/publication/hispanic-homeowners-and-physical-inadequacy-properties,urban.org,https://www.urban.org/research/publication/hispanic-homeowners-and-physical-inadequacy-properties,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+cab70c6cd5488a2612ee,https://upward-mobility.urban.org/framework/neighborhoods/stability,urban.org,https://upward-mobility.urban.org/framework/neighborhoods/stability,,,,not_extracted,upward-mobility.urban.org,,Academic/Research,high,llm,llm_valid,The URL indicates a research framework hosted by an organization focused on urban policy and research.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL indicates a research framework hosted by an organization focused on urban policy and research.""
+}"
+669391f18662c52dc0ff,https://urban.org/urban-wire/young-adults-credit-trajectories-vary-widely-race-and-ethnicity,urban.org,https://www.urban.org/urban-wire/young-adults-credit-trajectories-vary-widely-race-and-ethnicity,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is hosted by an organization focused on research and policy analysis.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on research and policy analysis.""
+}"
+bc98944e69030adfe352,https://urban.org/urban-wire/more-frequent-medicaid-redeterminations-would-reduce-health-insurance-coverage-and,urban.org,https://www.urban.org/urban-wire/more-frequent-medicaid-redeterminations-would-reduce-health-insurance-coverage-and,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+0160efba3cb39e900e90,https://urban.org/research/publication/improving-health-coverage-working-people-disabilities,urban.org,https://www.urban.org/research/publication/improving-health-coverage-working-people-disabilities,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The URL is hosted on urban.org, which is known for publishing research from the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL is hosted on urban.org, which is known for publishing research from the Urban Institute, a research organization.""
+}"
+f0a17de66346b422c1d0,https://urban.org/research/publication/people-disabilities-living-us-face-urgent-barriers-housing,urban.org,https://www.urban.org/research/publication/people-disabilities-living-us-face-urgent-barriers-housing,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The URL is hosted on urban.org, which is known for publishing research from the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL is hosted on urban.org, which is known for publishing research from the Urban Institute, a research organization.""
+}"
+95e23011c3ababc6a7c9,https://urban.org/urban-wire/disability-justice-isnt-possible-without-housing-justice,urban.org,https://www.urban.org/urban-wire/disability-justice-isnt-possible-without-housing-justice,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,urban.org is hosted by an organization focused on research and policy analysis.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on research and policy analysis.""
+}"
+8fc8459f46000eeae2d8,https://urban.org/urban-wire/three-obstacles-federally-assisted-housing-programs-need-overcome-better-serve-residents-disabilities,urban.org,https://www.urban.org/urban-wire/three-obstacles-federally-assisted-housing-programs-need-overcome-better-serve-residents-disabilities,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The URL is hosted on urban.org, which is known to be an Urban Institute site, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The URL is hosted on urban.org, which is known to be an Urban Institute site, a research organization.""
+}"
+77473644c04c4e36eda2,https://housingmatters.urban.org/research-summary/transgender-and-gender-nonconforming-people-experiencing-housing-insecurity-rely,urban.org,https://housingmatters.urban.org/research-summary/transgender-and-gender-nonconforming-people-experiencing-housing-insecurity-rely,,,,not_extracted,housingmatters.urban.org,,Academic/Research,high,llm,llm_valid,The hostname indicates a research-oriented website.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname indicates a research-oriented website.""
+}"
+c712ead47dbb9fac8b52,https://urban.org/urban-wire/about-12-million-households-receive-both-medicaid-and-snap-reconciliation-bill-puts-them,urban.org,https://www.urban.org/urban-wire/about-12-million-households-receive-both-medicaid-and-snap-reconciliation-bill-puts-them,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+4fc88972130a13acd8fb,https://urban.org/urban-wire/what-explains-homeownership-gap-between-black-and-white-young-adults,urban.org,https://www.urban.org/urban-wire/what-explains-homeownership-gap-between-black-and-white-young-adults,,,,not_extracted,urban.org,,Academic/Research,high,llm,llm_valid,"The hostname urban.org is associated with the Urban Institute, a research organization.","{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname urban.org is associated with the Urban Institute, a research organization.""
+}"
+9fe580c39d4dd212b1b1,https://urban.org/racial-equity-analytics-lab/structural-racism-explainer-collection/causes-and-consequences-separate-and-unequal-neighborhoods,urban.org,https://www.urban.org/racial-equity-analytics-lab/structural-racism-explainer-collection/causes-and-consequences-separate-and-unequal-neighborhoods,,,,not_extracted,urban.org,,NGO/Advocacy,high,llm,llm_valid,urban.org is hosted by an organization focused on public policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on public policy research and advocacy.""
+}"
+66a64a7ebcadd2568298,https://urban.org/sites/default/files/2023-01/Strategies%20for%20Improving%20Public%20Benefits%20Access%20and%20Retention.pdf,urban.org,https://www.urban.org/sites/default/files/2023-01/Strategies%20for%20Improving%20Public%20Benefits%20Access%20and%20Retention.pdf,,,,not_extracted,urban.org,,NGO/Advocacy,high,llm,llm_valid,urban.org is hosted by an organization focused on policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on policy research and advocacy.""
+}"
+bf90e3b3bba7319379f8,https://urban.org/urban-wire/no-cops-pride-how-criminal-justice-system-harms-lgbtq-people,urban.org,https://www.urban.org/urban-wire/no-cops-pride-how-criminal-justice-system-harms-lgbtq-people,,,,not_extracted,urban.org,,NGO/Advocacy,high,llm,llm_valid,urban.org is hosted by an organization focused on public policy research and advocacy.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""urban.org is hosted by an organization focused on public policy research and advocacy.""
+}"
+1edd9fa05ac71e54ccbe,https://apps.urban.org/features/latino-financial-needs-community-lending,urban.org,https://apps.urban.org/features/latino-financial-needs-community-lending/,How Latino-Serving CDFIs Can Shape a Thriving American Economy,Urban Institute,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/1edd9fa05ac71e54ccbe.txt,success,apps.urban.org,"Building thriving communities goes beyond individual opportunities—it’s about equipping entire neighborhoods with the resources they need to flourish. Latinos, one of the fastest-growing demographic groups in the nation, are poised to strengthen the foundation of the country’s economy.
+Latinos are already driving social, political, and economic change. They’re starting businesses at record rates, shaping the workforce, and contributing more than ever to the nation’s economy. By 2060, the US Census Bureau projects that Latinos will grow from 19 percent of the population today to nearly 30 percent, intrinsically connecting their prosperity to America’s overall success.
+Community development financial institutions (CDFIs)—specialized banks, credit unions, loan funds, and venture capital funds that provide credit, capital, and financial services to communities and families—can help support this economic growth. CDFIs specialize in delivering services to households that have lacked access to traditional financing, such as issuing microloans and funding the infrastructure that benefits neighborhoods.
+Today, more and more CDFIs are focused on serving Latino communities—but many Latinos st",NGO/Advocacy,high,llm,llm_valid,The Urban Institute is a nonprofit organization primarily engaged in public advocacy and research.,"{
+  ""category"": ""NGO/Advocacy"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The Urban Institute is a nonprofit organization primarily engaged in public advocacy and research.""
+}"
+9ebbff37fe07a5b14a24,https://money.usnews.com/credit-cards/articles/how-race-affects-your-credit-score,usnews.com,https://money.usnews.com/credit-cards/articles/how-race-affects-your-credit-score,,money.usnews.com,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/9ebbff37fe07a5b14a24.txt,success,money.usnews.com,"Powered and protected by
+Privacy",Commercial/Professional,high,llm,llm_valid,US News & World Report is a commercial news and media organization.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""US News & World Report is a commercial news and media organization.""
+}"
+aa4929f885a8eaf3049f,https://usnews.com/education/best-colleges/applying/articles/how-does-affirmative-action-affect-college-admissions,usnews.com,https://www.usnews.com/education/best-colleges/applying/articles/how-does-affirmative-action-affect-college-admissions,What the Supreme Court's Affirmative Action Ban Means for College Admissions,US News & World Report,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/aa4929f885a8eaf3049f.txt,success,usnews.com,"Key Takeaways:
+- The U.S. Supreme Court ruled against the use of race in college admissions in June 2023.
+- Colleges are finding new ways to reach underrepresented communities of color.
+- Some colleges are reevaluating legacy admissions policies and athletic recruiting.
+Whether colleges and universities should consider race or ethnicity as part of the admissions process has been widely debated in higher education for decades.
+However, the fate of affirmative action based on race was officially sealed June 29, 2023 after the U.S. Supreme Court ruled against the deliberate use of race by schools in college admissions by deeming such practices at both Harvard University in Massachusetts and the University of North Carolina at Chapel Hill unconstitutional.
+The high court originally heard these challenges to race-conscious admissions in October 2022 in two cases: Students for Fair Admissions v. President and Fellows of Harvard College, and Students for Fair Admissions v. University of North Carolina. The lawsuits argued that admissions policies taking race into consideration discriminated against Asian American applicants and, in the case of UNC, also white students.
+Experts say the rul",News/Media,high,llm,llm_valid,US News & World Report is a news and media organization.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""US News & World Report is a news and media organization.""
+}"
+28fe0fbf7473c323ca45,https://documents1.worldbank.org/curated/en/505551587106658623/pdf/Her-Home-Housing-Finance-for-Women.pdf,worldbank.org,https://documents1.worldbank.org/curated/en/505551587106658623/pdf/Her-Home-Housing-Finance-for-Women.pdf,,,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/28fe0fbf7473c323ca45.txt,success,documents1.worldbank.org,"Her Home 
+HOUSING FINANCE FOR WOMEN
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+
+ACKNOWLEDGEMENTS
+This report was supported by the Umbrella Facility for Gender Equality (UFGE), a multi-donor trust fund administered 
+by the World Bank to advance gender equality and women’s empowerment through experimentation and knowledge 
+creation to help governments and the private sector focus policy and programs on scalable solutions with sustainable 
+outcomes. The UFGE is supported with generous contributions from Australia, Canada, Denmark, Finland, Germany, 
+Iceland, Latvia, the Netherlands, Norway, Spain, Sweden, Switzerland, United Kingdom, United States, and the Bill & 
+Melinda Gates Foundation.
+This publication was prepared by an International Finance Corporation and World Bank team led by Henriette Kolb, 
+Nathalie Hoffmann, William Britt Gwinner, Jessica Schnabel, Montserrat Ganuza, Friedemann Roy, Jose Felix Etchegoyen, 
+Zahia Msuya Lolila, Carol Tejero, Roshin Mathai Joseph, Joanna Romero, Heather Mae Kipnis, Aphichoke Kotikula, Sharmila 
+Hardi, Henry Pulizzi, Rob Wright, Bhattiprolu Balachandra Murti, and by the A",Academic/Research,high,llm,llm_valid,The document is hosted on the World Bank's research repository.,"{
+  ""category"": ""Academic/Research"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The document is hosted on the World Bank's research repository.""
+}"
+8e4e07442f8bc4509992,https://blogs.worldbank.org/en/opendata/more-women-have-financial-accounts--yet-equal-access-and-use-rem,worldbank.org,https://blogs.worldbank.org/en/opendata/more-women-have-financial-accounts--yet-equal-access-and-use-rem,"Women’s Financial Inclusion Is Rising, but Equal Access and Use Still Lag",World Bank Blogs,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/8e4e07442f8bc4509992.txt,success,blogs.worldbank.org,"More women have financial accounts, yet equal access and use remain works in progress
+Women's financial inclusion is experiencing a remarkable transformation. The Global Findex 2025 report finds that as of 2024, 73% of women in low- and middle-income economies (LMICs) have a financial account, a 7-percentage point increase from 2021.
+Account ownership can unlock access to financial products. The latest round of the Global Findex finds that across LMICs more women are using accounts to save formally (36% in 2024, up from 22% in 2021) and make or receive digital payments (58% from 50%), including making digital merchant payments (38% from 32%).
+But behind these gains lies a persistent challenge: about 700 million women worldwide still do not have a financial account, precluding them from using financial services and harnessing them for greater financial health and resilience. In this blog we look beyond the headline numbers to explore how to reach these remaining women and leverage digital financial services to improve women’s financial lives.
+Barriers to women’s account ownership persist…
+Understanding barriers to account ownership can help uncover opportunities to reach unbanked wo",Commercial/Professional,high,llm,llm_valid,World Bank is a commercial professional organization,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""World Bank is a commercial professional organization""
+}"
+a575603616dc049fb90e,https://openknowledge.worldbank.org/entities/publication/5ea85f7a-fdf5-5945-bbc4-6d1d08f4bf59,worldbank.org,https://openknowledge.worldbank.org/entities/publication/5ea85f7a-fdf5-5945-bbc4-6d1d08f4bf59,Open Knowledge Repository,openknowledge.worldbank.org,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/a575603616dc049fb90e.txt,success,openknowledge.worldbank.org,"Publication: Banking Services for Everyone? Barriers to Bank Access and Use around the World
+Loading...
+Published
+2006-12
+ISSN
+Date
+2012-06-22
+Author(s)
+Editor(s)
+Abstract
+Using information from 193 banks in 58 countries, the authors develop and analyze indicators of physical access, affordability, and eligibility barriers to deposit, loan, and payment services. They find substantial cross-country variation in barriers to banking and show that in many countries these barriers can potentially exclude a significant share of the population from using banking services. Correlations with bank- and country-level variables show that bank size and the availability of physical infrastructure are the most robust predictors of barriers. Further, the authors find evidence that in more competitive, open, and transparent economies, and in countries with better contractual and informational frameworks, banks impose lower barriers. Finally, though foreign banks seem to charge higher fees than other banks, in foreign dominated banking systems fees are lower and it is easier to open bank accounts and to apply for loans. On the other hand, in systems that are predominantly government-owned, customers",Commercial/Professional,high,llm,llm_valid,The World Bank is a global financial institution.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The World Bank is a global financial institution.""
+}"
+9fc7410a3371a7412646,https://openknowledge.worldbank.org/entities/publication/a6d11cb5-5081-5c71-a5fd-0acd8f1c6d47,worldbank.org,https://openknowledge.worldbank.org/entities/publication/a6d11cb5-5081-5c71-a5fd-0acd8f1c6d47,Open Knowledge Repository,openknowledge.worldbank.org,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/9fc7410a3371a7412646.txt,success,openknowledge.worldbank.org,"Publication: Banking Services for Everyone? Barriers to Bank Access and Use around the World
+Loading...
+Files in English
+ 2,659 downloads 
+Published
+2008-12-01
+ISSN
+1564-698X
+Date
+2012-03-30
+Author(s)
+Editor(s)
+Abstract
+Information from 209 banks in 62 countries is used to develop new indicators of barriers to banking services around the world, show their correlation with measures of outreach, and explore their association with bank and country characteristics suggested by theory as potential determinants. Barriers such as minimum account and loan balances, account fees, and required documents are associated with lower levels of banking outreach. While country characteristics linked with financial depth, such as the effectiveness of creditor rights, contract enforcement mechanisms, and credit information systems, are weakly correlated with barriers, strong associations are found between barriers and measures of restrictions on bank activities and entry, bank disclosure practices and media freedom, and development of physical infrastructure. In particular, barriers are higher in countries where there are more stringent restrictions on bank activities and entry, less disclosure and m",Commercial/Professional,high,llm,llm_valid,The World Bank is a commercial professional organization.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The World Bank is a commercial professional organization.""
+}"
+a9d286ddba82123557a0,https://digitalforwomen.worldbank.org/access-finance,worldbank.org,https://digitalforwomen.worldbank.org/access-finance,Access to Finance,digitalforwomen.worldbank.org,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/a9d286ddba82123557a0.txt,success,digitalforwomen.worldbank.org,"Persistent barriers limit women’s access to financial services. Women continue to be less likely than men to have access to financial institutions or to possess a bank account. In spite of recent rapid increases in financial services between 2014 and 2017 — men’s bank account ownership in developing countries increased from 60 percent to 67 percent, while women’s ownership grew from 51 percent to 59 percent (Demirguc Kunt et al., 2018) — the gender gap has stubbornly remained at 9 percentage points in emerging markets since 2011 (Demirguc Kunt et al., 2018).
+In an IFC study of developing economies, female-owned businesses accounted for 33 percent or US$1.5 trillion of the total SME finance gap, defined as the difference between the available supply and potential demand that could be met by financial institutions (International Finance Corporation 2017). Many women entrepreneurs do not even apply for loans because of low financial literacy, risk aversion, or fear of failure (Morsy 2020). Among those who do seek financing, lack of collateral is the most commonly cited impediment. The World Bank’s Enterprise Surveys reveal that 78 percent of the assets of a typical business in the dev",Government/Public Agency,high,llm,llm_valid,The hostname and registrable domain indicate a World Bank publication.,"{
+  ""category"": ""Government/Public Agency"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The hostname and registrable domain indicate a World Bank publication.""
+}"
+a9f56dbbcbe863d609a4,https://digitalfinance.worldbank.org/topics/gender/action-1,worldbank.org,https://digitalfinance.worldbank.org/topics/gender/action-1,,,,not_extracted,digitalfinance.worldbank.org,,Government/Public Agency,high,llm,llm_valid,The World Bank is a government-affiliated international organization.,"{
+  ""category"": ""Government/Public Agency"",
+  ""confidence"": ""high"",
+  ""rationale"": ""The World Bank is a government-affiliated international organization.""
+}"
+a77fce306642d686912e,https://youtube.com/watch?t=35s&v=QRbxbnkgkU8,youtube.com,https://www.youtube.com/watch?t=35s&v=QRbxbnkgkU8,Behind The Screen - Why Do People Bully Based on a Person's Race and Culture?,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/a77fce306642d686912e.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+e9a6b787384761329225,https://youtube.com/shorts/SU2kO_TkKis,youtube.com,https://www.youtube.com/shorts/SU2kO_TkKis,How workplace success differs across gender and race,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/e9a6b787384761329225.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+e94101cef2dd037141fd,https://youtube.com/shorts/bma-nImTFsQ,youtube.com,https://www.youtube.com/shorts/bma-nImTFsQ,Who Gets Welfare | Demographics of Welfare #SOC119 #Welfare,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/e94101cef2dd037141fd.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+37b8d38bea157c1ca737,https://youtube.com/watch?t=5s&v=m6GNJ5sBK6Q,youtube.com,https://www.youtube.com/watch?t=5s&v=m6GNJ5sBK6Q,Home ownership | Why Race Matters,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/37b8d38bea157c1ca737.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+ea1d619047c160c3d173,https://youtube.com/watch?t=22s&v=fw4FEPAfKH0,youtube.com,https://www.youtube.com/watch?t=22s&v=fw4FEPAfKH0,Homeownership gap between White and Black families reaches all-time high,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/ea1d619047c160c3d173.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+c8c84c25a46ca55711c2,https://youtube.com/watch?t=23s&v=09Ks_25Saao,youtube.com,https://www.youtube.com/watch?t=23s&v=09Ks_25Saao,The Sociology of Sexual Harassment: Gender Dynamics at Work,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/c8c84c25a46ca55711c2.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+954fccd465dd91e5829f,https://youtube.com/watch?t=306s&v=Z-aKvwOpIV8,youtube.com,https://www.youtube.com/watch?t=306s&v=Z-aKvwOpIV8,The Gender Gap in Prison Populations Worldwide ~ Why There Are More Men Than Women in Prisons,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/954fccd465dd91e5829f.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+06c3d8aa521ae1f7a657,https://youtube.com/watch?t=2s&v=bT4TU4Scx7c,youtube.com,https://www.youtube.com/watch?t=2s&v=bT4TU4Scx7c,What causes homelessness?,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/06c3d8aa521ae1f7a657.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+ccd6be36ca4b7272bdd3,https://youtube.com/watch?v=-5eVm_6rB9c,youtube.com,https://www.youtube.com/watch?v=-5eVm_6rB9c,What causes homelessness? A survey says there's one major factor,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/ccd6be36ca4b7272bdd3.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+d091dcd65547a7816900,https://youtube.com/watch?t=390s&v=XhZxwOdnzS4,youtube.com,https://www.youtube.com/watch?t=390s&v=XhZxwOdnzS4,Sexual Orientation and Work,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/d091dcd65547a7816900.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+f97137cf62b07d7dbde2,https://youtube.com/shorts/y5ZF6EAu3hY,youtube.com,https://www.youtube.com/shorts/y5ZF6EAu3hY,Navigating the health care system in the LGBTQ+ community,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/f97137cf62b07d7dbde2.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+0ff804ea59d70600851e,https://youtube.com/watch?t=7s&v=sDcpDlKdQV4,youtube.com,https://www.youtube.com/watch?t=7s&v=sDcpDlKdQV4,How Latinas Can Respond to Bias at Work,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/0ff804ea59d70600851e.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+9c81b82c150d8c502c52,https://youtube.com/watch?t=15s&v=o7yuBCVaX8Q,youtube.com,https://www.youtube.com/watch?t=15s&v=o7yuBCVaX8Q,Crime vs. Class: Unveiling the U.S. Prison System,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/9c81b82c150d8c502c52.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+f2af32c724aa840ec6ff,https://youtube.com/watch?v=pD4ZvhxAMY4,youtube.com,https://www.youtube.com/watch?v=pD4ZvhxAMY4,How Mass Incarceration Impacts Black Communities,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/f2af32c724aa840ec6ff.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+cc05d39907ee81694cd2,https://youtube.com/watch?v=68yf3xouXc8,youtube.com,https://www.youtube.com/watch?v=68yf3xouXc8,Understanding Police Use of Deadly Force,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/cc05d39907ee81694cd2.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+3635a8aa554af5264dbc,https://youtube.com/shorts/XqtPlNWoPNQ,youtube.com,https://www.youtube.com/shorts/XqtPlNWoPNQ,How are men impacting college enrollment?,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/3635a8aa554af5264dbc.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+142d3fc38bdf21f16c0c,https://youtube.com/watch?v=EKKkC5G9Nm4,youtube.com,https://www.youtube.com/watch?v=EKKkC5G9Nm4,Why Men Are Disappearing From College Campuses,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/142d3fc38bdf21f16c0c.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+31c78b2677ddfefe88e1,https://youtube.com/watch?t=76s&v=2eqk_2ZRybY,youtube.com,https://www.youtube.com/watch?t=76s&v=2eqk_2ZRybY,Addressing bullying and violence in schools,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/31c78b2677ddfefe88e1.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+ca7fff8f4a2a0636cf33,https://youtube.com/watch?v=rcRCzpkny4U,youtube.com,https://www.youtube.com/watch?v=rcRCzpkny4U,The Hidden Causes | Bullying and Cyberbullying (engl.),YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/ca7fff8f4a2a0636cf33.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+32336d048c03d7c982f9,https://youtube.com/watch?v=6yvLY2oCuaQ,youtube.com,https://www.youtube.com/watch?v=6yvLY2oCuaQ,"Violence against educators on the rise, study finds",YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/32336d048c03d7c982f9.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+dbef6ae4ff4729b5e7c7,https://youtube.com/watch?t=72s&v=iSC_9HIV06M,youtube.com,https://www.youtube.com/watch?t=72s&v=iSC_9HIV06M,What Gives Police Probable Cause to Arrest?,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/dbef6ae4ff4729b5e7c7.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+8fce4b9c40f10cc66ac3,https://youtube.com/watch?t=73s&v=OP_yU8WLyhI,youtube.com,https://www.youtube.com/watch?t=73s&v=OP_yU8WLyhI,Justice Disorder — Mental Health and Incarceration in the United States | NEJM,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/8fce4b9c40f10cc66ac3.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+d6620c9bfbc6ab0091e0,https://youtube.com/watch?t=332s&v=1Dvrm_ofe4o,youtube.com,https://www.youtube.com/watch?t=332s&v=1Dvrm_ofe4o,Medicaid and SNAP Cuts—How We're Fighting Back,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/d6620c9bfbc6ab0091e0.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+d161a64f494c7557dd01,https://youtube.com/watch?t=1419s&v=EYnXTuHdOEk,youtube.com,https://www.youtube.com/watch?t=1419s&v=EYnXTuHdOEk,Academic Training Webinar: Policing and People with Developmental Disabilities,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/d161a64f494c7557dd01.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+78da4c957178f01a7bc7,https://youtube.com/watch?v=93TA06gnhdg,youtube.com,https://www.youtube.com/watch?v=93TA06gnhdg,Why police still lack training to effectively respond to people with disabilities,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/78da4c957178f01a7bc7.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+9ad78ce97758a2ea4a4e,https://youtube.com/watch?t=169s&v=iuzDLci1wF4,youtube.com,https://www.youtube.com/watch?t=169s&v=iuzDLci1wF4,Why Your Student With a Disability Is Being Bullied (And What You're Missing),YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/9ad78ce97758a2ea4a4e.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+52fe2c9deb38da47eda3,https://youtube.com/watch?t=2s&v=nSXCOrEQu2k,youtube.com,https://www.youtube.com/watch?t=2s&v=nSXCOrEQu2k,5 Signs That You Will Be Approved for Disability,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/52fe2c9deb38da47eda3.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+21090998136ccda19db8,https://youtube.com/watch?t=4s&v=6RK4AcpNugk,youtube.com,https://www.youtube.com/watch?t=4s&v=6RK4AcpNugk,Webinar: Implications of the Medicaid Renewal Process for People with Disabilities and Older Adults,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/21090998136ccda19db8.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+3c89033100c1ca466737,https://youtube.com/watch?v=un3LK77DZdg,youtube.com,https://www.youtube.com/watch?v=un3LK77DZdg,Health equity for people with disabilities,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/3c89033100c1ca466737.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+c7981730bec2a2492351,https://youtube.com/watch?t=481&v=sIDoSDzuo-M,youtube.com,https://www.youtube.com/watch?t=481&v=sIDoSDzuo-M,Understanding the Realities of Incarcerated Transgender Men,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/c7981730bec2a2492351.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+d501bdec8ad1bcc83e0e,https://youtube.com/watch?t=2&v=6AxFFSavJug,youtube.com,https://www.youtube.com/watch?t=2&v=6AxFFSavJug,"Supreme Court Rules In Favor of LGBTQ Employees, But Trans Workers Still Face Obstacles",YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/d501bdec8ad1bcc83e0e.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+48ad2b1fc8f2eb9cb283,https://youtube.com/watch?t=41&v=_TUydUMazkc,youtube.com,https://www.youtube.com/watch?t=41&v=_TUydUMazkc,"Trans health care & gender-diverse patient considerations with Kameryn J. Lee, MD",YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/48ad2b1fc8f2eb9cb283.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+10aebff4b40e57c6f9e9,https://youtube.com/watch?t=19s&v=KOeHVIqCX2I,youtube.com,https://www.youtube.com/watch?t=19s&v=KOeHVIqCX2I,Applying While Black: How Racial Differences in Work Histories Impact Hiring Outcomes,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/10aebff4b40e57c6f9e9.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+cef7ff650d561834a964,https://youtube.com/watch?t=67&v=n0urFzhWTZ4,youtube.com,https://www.youtube.com/watch?t=67&v=n0urFzhWTZ4,How policewomen make communities safer | Ivonne Roman,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/cef7ff650d561834a964.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+f22e482585235b940b58,https://youtube.com/watch?t=186&v=09Ks_25Saao,youtube.com,https://www.youtube.com/watch?t=186&v=09Ks_25Saao,The Sociology of Sexual Harassment: Gender Dynamics at Work,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/f22e482585235b940b58.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+8ab8ab59885422aa4755,https://youtube.com/watch?v=XkAb2gqDzOQ,youtube.com,https://www.youtube.com/watch?v=XkAb2gqDzOQ,5 Things Every Woman MUST Know About Social Security—Don’t Miss Out!,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/8ab8ab59885422aa4755.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform operated by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform operated by Google LLC.""
+}"
+97c86398779a908977e2,https://youtube.com/watch?t=11&v=U1XvFSoUhWI,youtube.com,https://www.youtube.com/watch?t=11&v=U1XvFSoUhWI,Gender Bias Creates A Culture Of Disbelief For Female Patients | Colene Arnold | TEDxPortsmouth,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/97c86398779a908977e2.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Commercial/Professional,high,llm,llm_valid,YouTube is a commercial platform owned by Google LLC.,"{
+  ""category"": ""Commercial/Professional"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a commercial platform owned by Google LLC.""
+}"
+c8c89b7e3e1939ea0ade,https://youtube.com/watch?t=132&v=vA4j6PvMwT4,youtube.com,https://www.youtube.com/watch?t=132&v=vA4j6PvMwT4,Health Care Guidelines for Gender-Affirming Care,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/c8c89b7e3e1939ea0ade.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Community/Lived Experience,medium,llm,llm_valid,YouTube is a user-generated platform where individuals and communities share their experiences.,"{
+  ""category"": ""Community/Lived Experience"",
+  ""confidence"": ""medium"",
+  ""rationale"": ""YouTube is a user-generated platform where individuals and communities share their experiences.""
+}"
+b5512c1329baedf33991,https://youtube.com/watch?t=27&v=7qOlZ3tG3R0,youtube.com,https://www.youtube.com/watch?t=27&v=7qOlZ3tG3R0,Preventative care for transgender and gender non-conforming patients,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/b5512c1329baedf33991.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",Community/Lived Experience,medium,llm,llm_valid,YouTube is a user-generated platform for sharing videos and experiences.,"{
+  ""category"": ""Community/Lived Experience"",
+  ""confidence"": ""medium"",
+  ""rationale"": ""YouTube is a user-generated platform for sharing videos and experiences.""
+}"
+4f56fb2641b96667eb9b,https://youtube.com/watch?t=667s&v=jSqF4hs6910,youtube.com,https://www.youtube.com/watch?t=667s&v=jSqF4hs6910,One in Five: Ending Mass Incarceration and its Racial Disparities,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/4f56fb2641b96667eb9b.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",News/Media,high,llm,llm_valid,"YouTube is a platform primarily used for hosting and distributing video content, which includes news and media.","{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a platform primarily used for hosting and distributing video content, which includes news and media.""
+}"
+855b1786e434f5d3c79f,https://youtube.com/watch?t=55s&v=0Y8nkKlxvzE,youtube.com,https://www.youtube.com/watch?t=55s&v=0Y8nkKlxvzE,How anti-gay laws reach beyond criminal justice | Coffee break research at LSE,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/855b1786e434f5d3c79f.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",News/Media,high,llm,llm_valid,"YouTube is a video-sharing platform that hosts a wide range of content, including news and media.","{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a video-sharing platform that hosts a wide range of content, including news and media.""
+}"
+5355154cfefb217ec349,https://youtube.com/shorts/n_F9dn5SIok,youtube.com,https://www.youtube.com/shorts/n_F9dn5SIok,Understanding the Key Difference Between Arrest and Detention,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/5355154cfefb217ec349.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",News/Media,high,llm,llm_valid,YouTube is a platform primarily used for hosting and distributing news and media content.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a platform primarily used for hosting and distributing news and media content.""
+}"
+199ce25cee1b3a1eb1ad,https://youtube.com/watch?t=68s&v=_X1Yd5UFUvk,youtube.com,https://www.youtube.com/watch?t=68s&v=_X1Yd5UFUvk,Report finds racial disparities in police use of force,YouTube,/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/199ce25cee1b3a1eb1ad.txt,success,youtube.com,"About
+Press
+Copyright
+Contact us
+Creators
+Advertise
+Developers
+Terms
+Privacy
+Policy & Safety
+How YouTube works
+Test new features
+© 2026 Google LLC",News/Media,high,llm,llm_valid,YouTube is a platform primarily used for news publishing and media distribution.,"{
+  ""category"": ""News/Media"",
+  ""confidence"": ""high"",
+  ""rationale"": ""YouTube is a platform primarily used for news publishing and media distribution.""
+}"

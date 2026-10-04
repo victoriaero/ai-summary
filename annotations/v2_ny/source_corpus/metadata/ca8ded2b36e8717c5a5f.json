@@ -1,0 +1,28 @@
+{
+  "source_id": "ca8ded2b36e8717c5a5f",
+  "normalized_url": "https://workforceedge.com/blog/creating-career-growth-opportunities-employees",
+  "fetch_timestamp_utc": "2026-10-04T02:48:38.097508+00:00",
+  "registrable_domain": "workforceedge.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.workforceedge.com/blog/creating-career-growth-opportunities-employees/",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 44172,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ca8ded2b36e8717c5a5f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ca8ded2b36e8717c5a5f.txt",
+  "text_chars": 13240,
+  "text_words": 2025,
+  "extraction_status": "success",
+  "page_title": "Planning for Growth: How to Guide and Support Employee Development",
+  "page_author": null,
+  "page_date": "2025-01-10",
+  "site_name": "Workforce Edge",
+  "canonical_url": "https://www.workforceedge.com/blog/creating-career-growth-opportunities-employees/"
+}

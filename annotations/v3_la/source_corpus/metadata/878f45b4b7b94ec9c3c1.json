@@ -1,0 +1,28 @@
+{
+  "source_id": "878f45b4b7b94ec9c3c1",
+  "normalized_url": "https://researchmgt.monash.edu/ws/portalfiles/portal/519056876/483077505_oa.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:41:00.860658+00:00",
+  "registrable_domain": "monash.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://researchmgt.monash.edu/ws/portalfiles/portal/519056876/483077505_oa.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 1100438,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/878f45b4b7b94ec9c3c1.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/878f45b4b7b94ec9c3c1.txt",
+  "text_chars": 108780,
+  "text_words": 15126,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

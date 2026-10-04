@@ -1,0 +1,28 @@
+{
+  "source_id": "8e4e07442f8bc4509992",
+  "normalized_url": "https://blogs.worldbank.org/en/opendata/more-women-have-financial-accounts--yet-equal-access-and-use-rem",
+  "fetch_timestamp_utc": "2026-10-04T03:41:32.002398+00:00",
+  "registrable_domain": "worldbank.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://blogs.worldbank.org/en/opendata/more-women-have-financial-accounts--yet-equal-access-and-use-rem",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 75158,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8e4e07442f8bc4509992.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8e4e07442f8bc4509992.txt",
+  "text_chars": 5523,
+  "text_words": 890,
+  "extraction_status": "success",
+  "page_title": "Women’s Financial Inclusion Is Rising, but Equal Access and Use Still Lag",
+  "page_author": "Anna Tabitha Bonfert; Alexandra Norris",
+  "page_date": "2025-11-11",
+  "site_name": "World Bank Blogs",
+  "canonical_url": "https://blogs.worldbank.org/en/opendata/more-women-have-financial-accounts--yet-equal-access-and-use-rem"
+}

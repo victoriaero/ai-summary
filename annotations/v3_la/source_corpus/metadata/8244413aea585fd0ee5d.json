@@ -1,0 +1,28 @@
+{
+  "source_id": "8244413aea585fd0ee5d",
+  "normalized_url": "https://educationsupport.org.uk/resources/for-individuals/guides/bullying-and-harassment",
+  "fetch_timestamp_utc": "2026-10-04T03:40:29.888340+00:00",
+  "registrable_domain": "educationsupport.org.uk",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.educationsupport.org.uk/resources/for-individuals/guides/bullying-and-harassment/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 679202,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8244413aea585fd0ee5d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8244413aea585fd0ee5d.txt",
+  "text_chars": 14738,
+  "text_words": 2364,
+  "extraction_status": "success",
+  "page_title": "Bullying and harassment of teachers and education staff",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "educationsupport.org.uk",
+  "canonical_url": "https://www.educationsupport.org.uk/resources/for-individuals/guides/bullying-and-harassment/"
+}

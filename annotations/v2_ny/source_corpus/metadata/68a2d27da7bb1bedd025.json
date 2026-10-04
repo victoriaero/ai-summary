@@ -1,0 +1,28 @@
+{
+  "source_id": "68a2d27da7bb1bedd025",
+  "normalized_url": "https://pt.nclrights.org/our-work/racial-economic-justice/criminalization-incarceration",
+  "fetch_timestamp_utc": "2026-10-04T02:40:54.033404+00:00",
+  "registrable_domain": "nclrights.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pt.nclrights.org/our-work/racial-economic-justice/criminalization-incarceration/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 167110,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/68a2d27da7bb1bedd025.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/68a2d27da7bb1bedd025.txt",
+  "text_chars": 2994,
+  "text_words": 439,
+  "extraction_status": "success",
+  "page_title": "Criminalização e encarceramento",
+  "page_author": null,
+  "page_date": "2020-03-27",
+  "site_name": "National Center for LGBTQ Rights",
+  "canonical_url": "https://pt.nclrights.org/our-work/racial-economic-justice/criminalization-incarceration/"
+}

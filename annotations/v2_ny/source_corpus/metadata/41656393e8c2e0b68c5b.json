@@ -1,0 +1,28 @@
+{
+  "source_id": "41656393e8c2e0b68c5b",
+  "normalized_url": "https://brookings.edu/articles/the-male-college-crisis-is-not-just-in-enrollment-but-completion",
+  "fetch_timestamp_utc": "2026-10-04T02:37:37.821731+00:00",
+  "registrable_domain": "brookings.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.brookings.edu/articles/the-male-college-crisis-is-not-just-in-enrollment-but-completion/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 201176,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/41656393e8c2e0b68c5b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/41656393e8c2e0b68c5b.txt",
+  "text_chars": 9306,
+  "text_words": 1548,
+  "extraction_status": "success",
+  "page_title": "The male college crisis is not just in enrollment, but completion | Brookings",
+  "page_author": "Ted Piccone; Diana Paz García; Bruce Jones; Valerie Wirtschafter; Emily Markovich Morris; Carolina Campos",
+  "page_date": "2022-03-09",
+  "site_name": "Brookings",
+  "canonical_url": "https://www.brookings.edu/articles/the-male-college-crisis-is-not-just-in-enrollment-but-completion/"
+}

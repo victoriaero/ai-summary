@@ -1,0 +1,28 @@
+{
+  "source_id": "22ab20355e00520e497f",
+  "normalized_url": "https://cew.georgetown.edu/cew-reports/raceandgoodjobs",
+  "fetch_timestamp_utc": "2026-10-04T03:33:17.743649+00:00",
+  "registrable_domain": "georgetown.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://cew.georgetown.edu/cew-reports/raceandgoodjobs/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 438693,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/22ab20355e00520e497f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/22ab20355e00520e497f.txt",
+  "text_chars": 468,
+  "text_words": 79,
+  "extraction_status": "success",
+  "page_title": "The Unequal Race for Good Jobs: How Whites Made Outsized Gains in Education and Good Jobs Compared to Blacks and Latinos - CEW Georgetown",
+  "page_author": null,
+  "page_date": "2024-08-13",
+  "site_name": "CEW Georgetown",
+  "canonical_url": "https://cew.georgetown.edu/cew-reports/raceandgoodjobs/"
+}

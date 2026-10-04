@@ -1,0 +1,28 @@
+{
+  "source_id": "6f898772d594f3db32a5",
+  "normalized_url": "https://bannerbank.com/financial-resources/blog/five-things-that-make-up-your-credit-score",
+  "fetch_timestamp_utc": "2026-10-04T03:39:05.401443+00:00",
+  "registrable_domain": "bannerbank.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.bannerbank.com/financial-resources/blog/five-things-that-make-up-your-credit-score",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 174122,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6f898772d594f3db32a5.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6f898772d594f3db32a5.txt",
+  "text_chars": 3832,
+  "text_words": 671,
+  "extraction_status": "success",
+  "page_title": "5 things that make up your credit score",
+  "page_author": "Dawn Holden; SVP; Director",
+  "page_date": "2026-01-01",
+  "site_name": "Facebook",
+  "canonical_url": "https://www.bannerbank.com/financial-resources/blog/five-things-that-make-up-your-credit-score"
+}

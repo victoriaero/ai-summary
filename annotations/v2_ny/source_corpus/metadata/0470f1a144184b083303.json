@@ -1,0 +1,28 @@
+{
+  "source_id": "0470f1a144184b083303",
+  "normalized_url": "https://texashealth.org/areyouawellbeing/Mens-Health/The-Importance-of-Preventive-Care-for-Men",
+  "fetch_timestamp_utc": "2026-10-04T02:32:45.781051+00:00",
+  "registrable_domain": "texashealth.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.texashealth.org/areyouawellbeing/Mens-Health/The-Importance-of-Preventive-Care-for-Men",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 269175,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0470f1a144184b083303.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0470f1a144184b083303.txt",
+  "text_chars": 5889,
+  "text_words": 911,
+  "extraction_status": "success",
+  "page_title": "The Importance of Preventive Care for Men",
+  "page_author": null,
+  "page_date": "2025-04-21",
+  "site_name": "texashealth.org",
+  "canonical_url": "https://www.texashealth.org/areyouawellbeing/Mens-Health/The-Importance-of-Preventive-Care-for-Men"
+}

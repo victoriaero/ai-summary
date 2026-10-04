@@ -1,0 +1,28 @@
+{
+  "source_id": "e792e5f8024dbb33ba8f",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4554714",
+  "fetch_timestamp_utc": "2026-10-04T03:48:16.811735+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4554714/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 270073,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e792e5f8024dbb33ba8f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e792e5f8024dbb33ba8f.txt",
+  "text_chars": 81529,
+  "text_words": 13026,
+  "extraction_status": "success",
+  "page_title": "Interventions That Affect Gender Bias in Hiring: A Systematic Review",
+  "page_author": "Dr Carol Isaac; Dr Barbara Lee; Dr Molly Carnes",
+  "page_date": "2008-06-29",
+  "site_name": "Academic medicine : journal of the Association of American Medical Colleges",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4554714/"
+}

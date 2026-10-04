@@ -1,0 +1,28 @@
+{
+  "source_id": "f59887fad6a0e592b422",
+  "normalized_url": "https://betsylehmancenterma.gov/news/racial-bias-can-affect-how-patient-safety-events-are-reported",
+  "fetch_timestamp_utc": "2026-10-04T02:51:53.304175+00:00",
+  "registrable_domain": "betsylehmancenterma.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://betsylehmancenterma.gov/news/racial-bias-can-affect-how-patient-safety-events-are-reported",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 241002,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f59887fad6a0e592b422.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f59887fad6a0e592b422.txt",
+  "text_chars": 4520,
+  "text_words": 696,
+  "extraction_status": "success",
+  "page_title": "Racial bias can affect how patient safety events are reported",
+  "page_author": null,
+  "page_date": "2022-04-20",
+  "site_name": "Betsy Lehman Center",
+  "canonical_url": "https://betsylehmancenterma.gov/news/racial-bias-can-affect-how-patient-safety-events-are-reported"
+}

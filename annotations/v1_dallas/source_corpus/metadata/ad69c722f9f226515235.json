@@ -1,0 +1,30 @@
+{
+  "source_id": "ad69c722f9f226515235",
+  "normalized_url": "https://thehill.com/policy/healthcare/5245488-gender-affirming-care-medicaid",
+  "fetch_timestamp_utc": "2026-09-29T19:35:59.033504+00:00",
+  "registrable_domain": "thehill.com",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://thehill.com/policy/healthcare/5245488-gender-affirming-care-medicaid",
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "6522",
+    "Server": "Varnish",
+    "Retry-After": "0",
+    "Content-Type": "text/html",
+    "Accept-Ranges": "bytes",
+    "Date": "Tue, 29 Sep 2026 19:36:02 GMT",
+    "Via": "1.1 varnish",
+    "X-Served-By": "cache-gru-sbgr1930025-GRU",
+    "X-Cache": "MISS",
+    "X-Cache-Hits": "0",
+    "Strict-Transport-Security": "max-age=300; includeSubDomains",
+    "nxs-debug": "state=ERROR,vcl=14",
+    "Set-Cookie": "_pxhd=51e1d4e16a4f99b8b0cc663bba15cedfdf223917bb32bf1f1cd596f87013b43c:0132986f-bc3d-11f1-9856-bc65f16b3cd4; Max-Age=31536000; path=/; SameSite=Lax"
+  },
+  "downloaded_bytes": 6522,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

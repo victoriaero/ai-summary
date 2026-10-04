@@ -1,0 +1,28 @@
+{
+  "source_id": "a49272df19025b655a64",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10260689",
+  "fetch_timestamp_utc": "2026-10-04T02:45:48.562470+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10260689/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 184868,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a49272df19025b655a64.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a49272df19025b655a64.txt",
+  "text_chars": 45875,
+  "text_words": 7422,
+  "extraction_status": "success",
+  "page_title": "Understanding the factors influencing low-income caregivers’ perceived value of a federal nutrition programme, the Special Supplemental Nutrition Program for Women, Infants and Children (WIC)",
+  "page_author": "Summer Joy Weber; Jana Wichelecki; Noel Chavez; Stephanie Bess; LaShon Reese; Angela Odoms-Young",
+  "page_date": "2018-12-07",
+  "site_name": "Public Health Nutrition",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10260689/"
+}

@@ -1,0 +1,28 @@
+Why some residents with disabilities are losing Medicaid and SNAP before they apply
+COMMENTARY | Government websites are littered with accessibility issues, and with a federal deadline looming, the time is right for them to catch up.
+Picture a blind resident trying to recertify for Medicaid by the Friday deadline. The recertification page won't work with her screen reader. She can't find the submit button, can't tell which fields have errors, and can't complete the form. She doesn't lose her benefits because she's ineligible. She loses them because the digital front door was locked.
+That is not a rare edge case. It is a growing category of preventable denial, and most state agencies aren't tracking it.
+Why This Matters Now
+States are under real pressure. Medicaid and Supplementary Nutritional Assistance Program eligibility rules are tightening, agencies are working to cut payment error rates, and most are doing it with fewer staff than they had three years ago.
+The response has been to push residents toward digital-only services. That works well for most people. It quietly fails the residents who most depend on the safety net: people with disabilities.
+When a benefits system can't be operated without a mouse, or a form can't be read aloud, the result looks the same as an eligibility denial. The resident goes without food or medical coverage. The state records it as a closed case. Nobody logs it as an access failure because nothing in the system is built to detect it.
+What Does the ADA Title II Deadline Actually Require?
+The ADA Title II rule requires state and local governments to make their websites and mobile apps conform to a specific technical standard: the Web Content Accessibility Guidelines version 2.1, Level AA. WCAG is the international standard for making digital content usable by people with disabilities. Level AA is the tier most laws reference.
+In April 2026, the U.S. Department of Justice pushed the deadlines back by a year through an interim final rule. Governments serving populations of 50,000 or more now have until April 26, 2027 to comply, while smaller governments and special districts have until April 26, 2028. WCAG 2.2 is now the current version, and building to 2.2 AA is the safer target for any agency looking to do the work once.
+The extra year is not a reprieve. It is barely enough time to fix systems as large and complex as a state eligibility platform.
+Where Benefits Portals Fail Residents With Disabilities
+The failures cluster in a few predictable places, and most are invisible to a sighted staffer testing on a laptop:
+- Forms that screen readers can't parse. Fields without labels, error messages that never get announced, and required fields a blind user can't identify. Enrollment and recertification forms are the highest-stakes offenders.
+- Pages that can't be navigated by keyboard. Many people with motor or visual disabilities never use a mouse. If a user can't tab through a page and reach the submit button, the transaction is dead.
+- Documents that aren't accessible. Benefit determination letters and notices delivered as untagged PDFs are unreadable to assistive technology.
+- Time-outs and CAPTCHAs. Session limits that assume fast input, and image-based CAPTCHAs with no alternative, lock out users who need more time or can't see the image.
+According to AudioEye's 2026 Digital Accessibility Index, the average webpage had 62 accessibility issues, and the most common involve exactly these elements: forms, links, images, and keyboard operation. On a benefits system, each one maps to a resident who can't complete an application.
+What Does the Legal Exposure Look Like?
+The exposure runs on two tracks. The first is the Title II deadline itself: after it passes, non-conforming state and local digital services are out of step with a federal requirement, which invites both DOJ enforcement and private complaints.
+The second is older and easy to miss. Long before the web rule, the ADA already required state and local governments to give people with disabilities equal access to their programs and services. Benefits enrollment is one of those services. So an inaccessible portal can be challenged as disability discrimination right now, whether or not the 2027 deadline has passed.
+Where Should States Start?
+Start by testing the transactions that matter most, not the homepage. Run your Medicaid and SNAP enrollment and recertification flows the way a resident with a disability would: navigate them with a keyboard only, then with a free screen reader like NVDA or VoiceOver. You will find the worst problems in minutes.
+Automated scans catch a meaningful share of problems, but not all of them, so pair the scan with expert testing on your highest-traffic flows.
+Then fix the eligibility path first. Prioritize the forms, documents, and pages that stand between a resident and their benefits. That is where the legal risk concentrates, and it's where a fix does the most human good.
+The efficiency case and the equity case point in the same direction here. A portal that works for a screen reader user works better for everyone, and a resident who can finish an application online is one fewer call your short-staffed office has to field. The digital front door was supposed to widen access. With a year on the clock, states still have time to ensure it opens to everyone.
+Mike Barton is VP of Communications at AudioEye, where he focuses on digital accessibility and what it means for organizations working to serve the public. Through his work with AudioEye's product and accessibility teams, he has a firsthand view of the practical challenges involved in making digital services usable for everyone.

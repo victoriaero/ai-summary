@@ -1,0 +1,28 @@
+{
+  "source_id": "e17947afab94b93e7d0b",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12412225",
+  "fetch_timestamp_utc": "2026-10-04T03:47:37.402443+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12412225/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 144736,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e17947afab94b93e7d0b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e17947afab94b93e7d0b.txt",
+  "text_chars": 24167,
+  "text_words": 3519,
+  "extraction_status": "success",
+  "page_title": "Risk factors of homelessness among sexual and gender minorities in the Southeastern U.S",
+  "page_author": "Amanda A Draheim; Matthew M Kridel; Ryan E Flinn; Naganavya Ravoori; Susan Brands; Cameron Mosley; Christopher F Drescher; Lara M Stepleman",
+  "page_date": "2023-11-03",
+  "site_name": "Journal of social distress and the homeless",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12412225/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "a2bbdbc6ea1853bdfdff",
+  "normalized_url": "https://ncsl.org/civil-and-criminal-justice/conditions-and-rights-for-women-in-jails",
+  "fetch_timestamp_utc": "2026-10-04T02:45:42.214123+00:00",
+  "registrable_domain": "ncsl.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://ncsl.org/civil-and-criminal-justice/conditions-and-rights-for-women-in-jails",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5834,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

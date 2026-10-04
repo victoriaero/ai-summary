@@ -1,0 +1,28 @@
+{
+  "source_id": "39d5b990d19e7633dd0b",
+  "normalized_url": "https://chartspan.com/blog/preventive-care-for-women-how-to-overcome-barriers",
+  "fetch_timestamp_utc": "2026-10-04T02:36:56.250876+00:00",
+  "registrable_domain": "chartspan.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.chartspan.com/blog/preventive-care-for-women-how-to-overcome-barriers/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 2005129,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/39d5b990d19e7633dd0b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/39d5b990d19e7633dd0b.txt",
+  "text_chars": 15903,
+  "text_words": 2341,
+  "extraction_status": "success",
+  "page_title": "Preventive Care for Women: How to Overcome Barriers",
+  "page_author": "Grace",
+  "page_date": "2025-10-01",
+  "site_name": "ChartSpan",
+  "canonical_url": "https://www.chartspan.com/blog/preventive-care-for-women-how-to-overcome-barriers/"
+}

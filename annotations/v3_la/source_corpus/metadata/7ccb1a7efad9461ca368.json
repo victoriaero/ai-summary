@@ -1,0 +1,28 @@
+{
+  "source_id": "7ccb1a7efad9461ca368",
+  "normalized_url": "https://them.us/story/fighting-lgbtq-workplace-harassment",
+  "fetch_timestamp_utc": "2026-10-04T03:40:07.313186+00:00",
+  "registrable_domain": "them.us",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.them.us/story/fighting-lgbtq-workplace-harassment",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 424127,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/7ccb1a7efad9461ca368.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/7ccb1a7efad9461ca368.txt",
+  "text_chars": 10890,
+  "text_words": 1723,
+  "extraction_status": "success",
+  "page_title": "What You Need to Know About LGBTQ+ Workplace Harassment — And How to Fight It",
+  "page_author": "Ari Ezra Waldman",
+  "page_date": "2021-02-12",
+  "site_name": "Them",
+  "canonical_url": "https://www.them.us/story/fighting-lgbtq-workplace-harassment"
+}

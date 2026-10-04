@@ -1,0 +1,28 @@
+{
+  "source_id": "3f68c50bd6853c3d3cae",
+  "normalized_url": "http://ghlf.org/chronic-illness/insurance-health-care-rights-lgbtq",
+  "fetch_timestamp_utc": "2026-10-04T02:37:28.966923+00:00",
+  "registrable_domain": "ghlf.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ghlf.org/chronic-illness/insurance-health-care-rights-lgbtq/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 181813,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3f68c50bd6853c3d3cae.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3f68c50bd6853c3d3cae.txt",
+  "text_chars": 11714,
+  "text_words": 1776,
+  "extraction_status": "success",
+  "page_title": "Navigating Insurance and Health Care Rights for LGBTQ+ Patients",
+  "page_author": "Kelsey Kloss",
+  "page_date": "2024-06-13",
+  "site_name": "Global Healthy Living Foundation",
+  "canonical_url": "https://ghlf.org/chronic-illness/insurance-health-care-rights-lgbtq/"
+}

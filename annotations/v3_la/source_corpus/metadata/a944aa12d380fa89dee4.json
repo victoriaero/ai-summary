@@ -1,0 +1,28 @@
+{
+  "source_id": "a944aa12d380fa89dee4",
+  "normalized_url": "https://feed.georgetown.edu/access-affordability/declining-male-enrollment-has-left-many-schools-seeking-gender-parity",
+  "fetch_timestamp_utc": "2026-10-04T03:43:41.278842+00:00",
+  "registrable_domain": "georgetown.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://feed.georgetown.edu/access-affordability/declining-male-enrollment-has-left-many-schools-seeking-gender-parity/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 162010,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a944aa12d380fa89dee4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a944aa12d380fa89dee4.txt",
+  "text_chars": 5735,
+  "text_words": 859,
+  "extraction_status": "success",
+  "page_title": "Colleges weigh options as fewer men apply - THE FEED",
+  "page_author": "Jk",
+  "page_date": "2023-09-22",
+  "site_name": "THE FEED",
+  "canonical_url": "https://feed.georgetown.edu/access-affordability/declining-male-enrollment-has-left-many-schools-seeking-gender-parity/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "cef3cf56f30c17ebf1cc",
+  "normalized_url": "https://blog.neogov.com/are-asian-and-hispanic-applicants-less-likely-to-land-certain-government-jobs-due-to-bias",
+  "fetch_timestamp_utc": "2026-10-04T03:46:12.753817+00:00",
+  "registrable_domain": "neogov.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://blog.neogov.com/are-asian-and-hispanic-applicants-less-likely-to-land-certain-government-jobs-due-to-bias",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 137317,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/cef3cf56f30c17ebf1cc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/cef3cf56f30c17ebf1cc.txt",
+  "text_chars": 4604,
+  "text_words": 738,
+  "extraction_status": "success",
+  "page_title": "Is Bias Hurting Asian & Hispanic Applicants? | NEOGOV",
+  "page_author": "NEOGOV",
+  "page_date": "2021-05-13",
+  "site_name": "NEOGOV",
+  "canonical_url": "https://blog.neogov.com/are-asian-and-hispanic-applicants-less-likely-to-land-certain-government-jobs-due-to-bias"
+}

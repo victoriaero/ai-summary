@@ -1,0 +1,28 @@
+{
+  "source_id": "c994b855a0e1ec20ec70",
+  "normalized_url": "https://onpointcu.com/blog/lending-discrimination-part-1-what-you-need-to-know-about-credit-and-lending-discrimination",
+  "fetch_timestamp_utc": "2026-10-04T02:48:34.717093+00:00",
+  "registrable_domain": "onpointcu.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.onpointcu.com/blog/lending-discrimination-part-1-what-you-need-to-know-about-credit-and-lending-discrimination/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 165188,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c994b855a0e1ec20ec70.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c994b855a0e1ec20ec70.txt",
+  "text_chars": 6759,
+  "text_words": 1002,
+  "extraction_status": "success",
+  "page_title": "Lending discrimination part 1: what you need to know about credit and lending discrimination",
+  "page_author": null,
+  "page_date": "2023-02-28",
+  "site_name": "OnPoint Community Credit Union",
+  "canonical_url": "https://www.onpointcu.com/blog/lending-discrimination-part-1-what-you-need-to-know-about-credit-and-lending-discrimination/"
+}

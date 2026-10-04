@@ -1,0 +1,28 @@
+{
+  "source_id": "26c02486301836775dfa",
+  "normalized_url": "https://womensworldbanking.org/insights/policy-handbook-for-womens-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T03:33:33.147347+00:00",
+  "registrable_domain": "womensworldbanking.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.womensworldbanking.org/insights/policy-handbook-for-womens-financial-inclusion/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 184835,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/26c02486301836775dfa.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/26c02486301836775dfa.txt",
+  "text_chars": 4518,
+  "text_words": 566,
+  "extraction_status": "success",
+  "page_title": "Policy Handbook for Women's Financial Inclusion - Women's World Banking",
+  "page_author": "Women's World Banking",
+  "page_date": "2026-03-05",
+  "site_name": "Women's World Banking",
+  "canonical_url": "https://www.womensworldbanking.org/insights/policy-handbook-for-womens-financial-inclusion/"
+}

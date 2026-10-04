@@ -1,0 +1,28 @@
+{
+  "source_id": "5ae2eef5d0180c2b5809",
+  "normalized_url": "https://federalgrants.com/federal-grants-for-women.html",
+  "fetch_timestamp_utc": "2026-10-04T02:39:50.019481+00:00",
+  "registrable_domain": "federalgrants.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://federalgrants.com/federal-grants-for-women.html",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 15854,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5ae2eef5d0180c2b5809.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5ae2eef5d0180c2b5809.txt",
+  "text_chars": 6111,
+  "text_words": 945,
+  "extraction_status": "success",
+  "page_title": "Grants for Women",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "FederalGrants.com",
+  "canonical_url": "https://www.federalgrants.com/"
+}

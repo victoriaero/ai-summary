@@ -1,0 +1,29 @@
+{
+  "source_id": "9faf994dc772d645259f",
+  "normalized_url": "https://medstarhealth.org/quality-and-patient-safety",
+  "fetch_timestamp_utc": "2026-09-29T19:34:08.465437+00:00",
+  "registrable_domain": "medstarhealth.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://medstarhealth.org/quality-and-patient-safety",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:34:11 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=aQfgyDzK6oLOQ73FxPTtBRSTeDKK1%2Fd8rq4Hb8EfBlp3quf%2Bx0HnekF6lq1Y1AsgglIruHSthiesg9QP28HqEbwLdTRZz4qSw%2BrzXuf2Sp8DCYRA5egV4fRJ6LMy%2FkUzL9Zuag%3D%3D\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d6c81edb63236-GRU"
+  },
+  "downloaded_bytes": 7211,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

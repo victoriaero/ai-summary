@@ -1,0 +1,28 @@
+{
+  "source_id": "48bdc8153a8577bce0fa",
+  "normalized_url": "https://sentencingproject.org/press-releases/new-report-three-causes-of-racial-inequity-in-the-criminal-legal-system",
+  "fetch_timestamp_utc": "2026-10-04T02:38:20.091038+00:00",
+  "registrable_domain": "sentencingproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sentencingproject.org/press-releases/new-report-three-causes-of-racial-inequity-in-the-criminal-legal-system/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 80949,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/48bdc8153a8577bce0fa.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/48bdc8153a8577bce0fa.txt",
+  "text_chars": 4193,
+  "text_words": 620,
+  "extraction_status": "success",
+  "page_title": "New Report: Three Causes of Racial Inequity in the Criminal Legal System – The Sentencing Project",
+  "page_author": "Breanna Bishop",
+  "page_date": "2023-12-07",
+  "site_name": "The Sentencing Project",
+  "canonical_url": "https://www.sentencingproject.org/press-releases/new-report-three-causes-of-racial-inequity-in-the-criminal-legal-system/"
+}

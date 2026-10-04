@@ -1,0 +1,20 @@
+{
+  "source_id": "ceaae4f8b0c7affb4b99",
+  "normalized_url": "https://onlinelibrary.wiley.com/doi/10.1111/puar.13497",
+  "fetch_timestamp_utc": "2026-10-04T03:46:10.892866+00:00",
+  "registrable_domain": "wiley.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://onlinelibrary.wiley.com/doi/10.1111/puar.13497",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5765,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

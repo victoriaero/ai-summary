@@ -1,0 +1,28 @@
+{
+  "source_id": "c6fe6da5ad2da156d1e0",
+  "normalized_url": "https://hks.harvard.edu/faculty-research/policy-topics/social-policy/does-reducing-stigma-increase-participation-benefit",
+  "fetch_timestamp_utc": "2026-10-04T03:45:37.344882+00:00",
+  "registrable_domain": "harvard.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hks.harvard.edu/faculty-research/policy-topics/social-policy/does-reducing-stigma-increase-participation-benefit",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 67998,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c6fe6da5ad2da156d1e0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c6fe6da5ad2da156d1e0.txt",
+  "text_chars": 5285,
+  "text_words": 782,
+  "extraction_status": "success",
+  "page_title": "Does reducing stigma increase participation in benefit programs? Research suggests so.",
+  "page_author": "Nora Delaney",
+  "page_date": "2022-12-07",
+  "site_name": "Kennedy_School",
+  "canonical_url": "https://www.hks.harvard.edu/faculty-research/policy-topics/social-policy/does-reducing-stigma-increase-participation-benefit"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "6b3f39c4ffbdcae00fe6",
+  "normalized_url": "https://youtube.com/watch?t=92s&v=UZJ4BPaFpdI",
+  "fetch_timestamp_utc": "2026-10-04T02:41:07.414397+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=92s&v=UZJ4BPaFpdI",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1450558,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6b3f39c4ffbdcae00fe6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6b3f39c4ffbdcae00fe6.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "5 Factors that Accelerate Career Growth💼🚀 | Reasons Why Some People Progress Faster in Their Careers",
+  "page_author": null,
+  "page_date": "2026-01-11",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=UZJ4BPaFpdI"
+}

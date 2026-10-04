@@ -1,0 +1,28 @@
+{
+  "source_id": "f58ceb907d706868c38b",
+  "normalized_url": "https://right-to-education.org/girlswomen",
+  "fetch_timestamp_utc": "2026-10-04T02:51:52.445226+00:00",
+  "registrable_domain": "right-to-education.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.right-to-education.org/girlswomen",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 148265,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f58ceb907d706868c38b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f58ceb907d706868c38b.txt",
+  "text_chars": 61440,
+  "text_words": 9393,
+  "extraction_status": "success",
+  "page_title": "Women and girls",
+  "page_author": null,
+  "page_date": "2025-07-28",
+  "site_name": "Right to Education Initiative",
+  "canonical_url": "https://www.right-to-education.org/girlswomen"
+}

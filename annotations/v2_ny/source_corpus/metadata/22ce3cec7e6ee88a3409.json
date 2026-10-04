@@ -1,0 +1,28 @@
+{
+  "source_id": "22ce3cec7e6ee88a3409",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7322061",
+  "fetch_timestamp_utc": "2026-10-04T02:35:25.144992+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7322061/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 144339,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/22ce3cec7e6ee88a3409.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/22ce3cec7e6ee88a3409.txt",
+  "text_chars": 22552,
+  "text_words": 3457,
+  "extraction_status": "success",
+  "page_title": "Gender differences in the pathways to higher education",
+  "page_author": "Gijsbert Stoet; David C Geary",
+  "page_date": "2020-06-08",
+  "site_name": "Proceedings of the National Academy of Sciences of the United States of America",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7322061/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "e678e76cf83ed517e62a",
+  "normalized_url": "https://ucdavis.edu/blog/curiosity/how-do-students-disabilities-achieve-success-college",
+  "fetch_timestamp_utc": "2026-10-04T03:48:04.278534+00:00",
+  "registrable_domain": "ucdavis.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ucdavis.edu/blog/curiosity/how-do-students-disabilities-achieve-success-college",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 122928,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e678e76cf83ed517e62a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e678e76cf83ed517e62a.txt",
+  "text_chars": 5854,
+  "text_words": 831,
+  "extraction_status": "success",
+  "page_title": "How Do Students with Disabilities Achieve Success in College?",
+  "page_author": "Karen Michele Nikos-Rose",
+  "page_date": "2025-10-07",
+  "site_name": "UC Davis",
+  "canonical_url": "https://www.ucdavis.edu/blog/curiosity/how-do-students-disabilities-achieve-success-college"
+}

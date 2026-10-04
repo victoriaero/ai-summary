@@ -1,0 +1,28 @@
+{
+  "source_id": "73d473292be84136e0f4",
+  "normalized_url": "https://ncld.org/understand-the-issues",
+  "fetch_timestamp_utc": "2026-10-04T02:41:59.991878+00:00",
+  "registrable_domain": "ncld.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ncld.org/understand-the-issues/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 187492,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/73d473292be84136e0f4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/73d473292be84136e0f4.txt",
+  "text_chars": 2155,
+  "text_words": 298,
+  "extraction_status": "success",
+  "page_title": "Understand the Issues - National Center for Learning Disabilities",
+  "page_author": null,
+  "page_date": "2025-06-24",
+  "site_name": "National Center for Learning Disabilities",
+  "canonical_url": "https://ncld.org/understand-the-issues/"
+}

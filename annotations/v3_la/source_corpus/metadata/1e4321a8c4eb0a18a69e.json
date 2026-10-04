@@ -1,0 +1,20 @@
+{
+  "source_id": "1e4321a8c4eb0a18a69e",
+  "normalized_url": "https://finca.org/5-reasons-why-more-women-need-financial-services",
+  "fetch_timestamp_utc": "2026-10-04T03:32:56.982223+00:00",
+  "registrable_domain": "finca.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://finca.org/5-reasons-why-more-women-need-financial-services",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5693,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

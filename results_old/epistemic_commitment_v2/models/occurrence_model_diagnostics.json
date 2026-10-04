@@ -1,0 +1,7 @@
+{
+  "method": "occurrence OLS with outcome-cluster robust SE (mixed-model fallback)",
+  "n_occurrences": 422,
+  "n_responses": 204,
+  "response_intercept_variance": null,
+  "warning": "Mixed model failed: LinAlgError: Singular matrix"
+}

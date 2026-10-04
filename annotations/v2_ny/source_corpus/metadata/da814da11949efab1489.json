@@ -1,0 +1,28 @@
+{
+  "source_id": "da814da11949efab1489",
+  "normalized_url": "https://prisonpolicy.org/research/disability",
+  "fetch_timestamp_utc": "2026-10-04T02:49:47.873291+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/research/disability/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 49778,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/da814da11949efab1489.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/da814da11949efab1489.txt",
+  "text_chars": 6316,
+  "text_words": 924,
+  "extraction_status": "success",
+  "page_title": "Disability",
+  "page_author": "Prison Policy Initiative",
+  "page_date": "2026-01-01",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/research/disability/"
+}

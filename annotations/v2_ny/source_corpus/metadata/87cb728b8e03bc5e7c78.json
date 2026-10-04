@@ -1,0 +1,16 @@
+{
+  "source_id": "87cb728b8e03bc5e7c78",
+  "normalized_url": "https://canada.ca/en/women-gender-equality/gender-equality/facts-stats-impact.html",
+  "fetch_timestamp_utc": "2026-10-04T02:43:26.968459+00:00",
+  "registrable_domain": "canada.ca",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 92,
+  "http_status": 302,
+  "final_url": "https://www.canada.ca/en/women-gender-equality/gender-equality/facts-stats-impact.html",
+  "content_type": "",
+  "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

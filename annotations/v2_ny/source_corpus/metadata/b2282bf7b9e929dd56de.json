@@ -1,0 +1,28 @@
+{
+  "source_id": "b2282bf7b9e929dd56de",
+  "normalized_url": "https://gov-grants.org/grants-for-women",
+  "fetch_timestamp_utc": "2026-10-04T02:46:55.534061+00:00",
+  "registrable_domain": "gov-grants.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://gov-grants.org/grants-for-women",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 63449,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b2282bf7b9e929dd56de.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b2282bf7b9e929dd56de.txt",
+  "text_chars": 9349,
+  "text_words": 1571,
+  "extraction_status": "success",
+  "page_title": "Grants for Women: What Is Real, What Is Not, and What Pays",
+  "page_author": null,
+  "page_date": "2026-09-23",
+  "site_name": "Gov-Grants.org",
+  "canonical_url": "https://gov-grants.org"
+}

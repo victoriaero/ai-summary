@@ -1,0 +1,20 @@
+{
+  "source_id": "c4ca4f1281a58c8b052a",
+  "normalized_url": "https://commonwealthfund.org/publications/issue-briefs/2023/mar/inequities-coverage-access-black-hispanic-adults",
+  "fetch_timestamp_utc": "2026-10-04T03:45:27.205555+00:00",
+  "registrable_domain": "commonwealthfund.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://commonwealthfund.org/publications/issue-briefs/2023/mar/inequities-coverage-access-black-hispanic-adults",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5916,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

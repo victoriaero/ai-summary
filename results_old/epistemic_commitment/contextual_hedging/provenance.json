@@ -1,0 +1,19 @@
+{
+  "model_version": "bioscope-context-logreg-v1",
+  "seed": 20260930,
+  "spacy_version": "3.8.16",
+  "spacy_model": "en_core_web_sm",
+  "threshold_selection": "maximize exact cue-span F1 on held-out BioScope validation documents",
+  "document_split": {
+    "train": 14229,
+    "validation": 3145,
+    "test": 3550
+  },
+  "feature_description": "spaCy token/morphology/shape and \u00b12-token context features; logistic regression; no manual lexical lists",
+  "cue_family_sensitivity": "not run: BioScope does not provide cue-family labels, and no manually assigned families were introduced",
+  "leave_one_cue_out": {
+    "selection": "top cue forms by frequency in training split",
+    "cues": []
+  },
+  "manual_validation": "blind annotation rows and key are separate files; key must not be shared with annotators"
+}

@@ -1,0 +1,264 @@
+Abstract
+Objectives
+Universal health coverage is the goal of China’s healthcare system reform. However, with the growth of the gig economy, problems such as the failure of non-standard workers to participate in basic medical insurance continue to arise. Consequently, we investigated the factors that influence non-standard workers’ medical insurance participation and satisfaction, with the goal of improving their participation.
+Methods
+This study collected data on insurance participation among non-standard workers through 635 questionnaire surveys. Based on Andersen’s model and logistic regression analysis, this study examined the factors influencing their insurance enrollment and analyzed the satisfaction level with medical insurance policies among those who participated.
+Results
+The majority of non-standard workers were young healthy men, whose utilization of health services was low. The coverage rate of basic medical insurance for non-standard workers was 38.4%, which is relatively low. Those who were young with a high monthly income, participated in commercial or other medical insurance, and self-rated their health status as good were inclined to opt out of basic medical insurance. Non-standard workers’ satisfaction with the basic medical insurance policy was 2.5 points on average. Those who were male, highly educated, floating population members, lacked an understanding of the basic medical insurance policy, and self-rated their health status as poor were more likely to have low satisfaction with the basic medical insurance policy.
+Conclusion
+The insurance participation rate of non-standard workers needs to be improved. To do so, it is necessary to intensify the publicity concerning medical insurance policies; raise the awareness of non-standard workers, especially young healthy non-standard workers, about insurance; and improve the insurance policies of non-standard workers according to their industry particularities.
+Supplementary Information
+The online version contains supplementary material available at 10.1186/s12913-025-13078-w.
+Keywords: Non-standard workers, Basic medical insurance, Insurance participation status, Satisfaction with insurance policy
+Introduction
+Non-standard forms of employment include temporary work, part-time jobs, agency labor, subcontracting, dependent self-employment. In recent decades, the number of non-standard workers has been growing rapidly due to globalization, automation, technological advances, and sociodemographic changes [1]. The rise of the gig economy has created “flexible” work, changing employment contracts and working hours, and exacerbating the de-standardization of work [2, 3]. However, that “flexibility” also leads to the exclusion of many non-standard workers from the social security support system, which intensifies the insecurity and vulnerability of employment [4]. Current research on non-standard workers’ access to social security has primarily focused on developed economies, with limited attention to the unique institutional and socioeconomic contexts of developing countries like China. Few studies have systematically analyzed the factors influencing their insurance participation using a theoretical framework like Andersen’s model. Therefore, This study aims to bridge this gap by examining the insurance participation status of non-standard workers in China and analyzing the factors affecting their insurance participation based on Andersen’s model. This study mainly answers the following three research questions: First, what is the insurance status of non-standard workers in China? Second, what are the factors that affect the participation of non-standard Chinese workers in basic medical insurance? Third, what factors affect the satisfaction of non-standard workers with medical insurance policies? By doing so, it provides a theoretical and empirical foundation for policymakers to design targeted interventions that enhance social security coverage for this vulnerable group.
+Literature review
+Basic medical security is a major institutional arrangement, reduces the burden of medical treatment for the populace, improves people’s well-being, and maintains social harmony and stability. Yet previous studies show that workers in non-standard work arrangements are more likely than standard workers to have no medical insurance coverage [5], while residence in a Medicaid expansion state is associated with lower uninsured rates for all categories of workers [6]. The social protection represented by medical insurance is very important for non-standard workers [7]. Such workers get little social security regardless of their skill level, which is not conducive to the equitable development of society [8, 9]. Reasonable social security is necessary for non-standard workers, who are faced with greater pressures in life due to unstable incomes and are highly likely to suffer work-related injuries and diseases. Therefore, it is necessary to establish a protection mechanism for such workers [10–12]. In China, the number of non-standard workers has risen in recent years as well. According to the results of the ninth National survey of the All-China Federation of Trade Unions, the total number of workers in China is about 402 million, of which 84 million are non-standard workers, accounting for 21% of the total number of workers [13]. Simultaneously, the labor relations, forms of employment, and employment methods of non-standard workers have changed, which is seriously incompatible with the traditional forms of basic insurance participation in China [14]. Therefore, many non-standard workers in China face difficulties in participating in basic health insurance coverage.
+China’s basic medical insurance system is an important means to deal with potential risks in the future, as those who do not participate in the basic medical insurance may face a situation of no monthly living expenses after retirement [15]. China’s current basic medical insurance is divided into Urban Employee Basic Medical Insurance (UEBMI) and Urban Resident Basic Medical Insurance (URBMI). Urban employees are able to participate in UEBMI, while unemployed residents, minors, and others can participate in URBMI. Participation in UEBMI is affected by labor relations, and the premiums are based on an individual’s salary rather than fixed. The premiums for UEBMI are comprised of individual and unit contributions, with the state compelling employers and individuals to each pay a portion of the premiums. In contrast, participation in URBMI is related to the household registration system, and the premiums are fixed, based on the annual per capita disposable income of the region. The premiums for URBMI are composed of individual contributions and subsidies from the local government, and participation is non-compulsory. Overall, the premiums for URBMI are lower than those for UEBMI, but the level of protection is less than that for UEBMI. Commercial health insurance is voluntary, with individuals paying premiums to insurance companies. Through the implementation of various rates and products, commercial health insurance offers customers a wider range of choices to cater to the diverse needs of different social classes. Basic medical insurance operates on the principle of “fairness”, emphasizing “protection” and “universal coverage”, while commercial health insurance focuses on “compensation” and “on-demand purchasing”. Basic medical insurance and commercial insurance each have their own approaches and complement one another. Basic medical insurance and commercial medical insurance complement each other.
+In China, the coverage rate of basic medical insurance for non-standard workers is seriously insufficient [16], due to unclear labor relations and the restrictions of the household registration system [17]. Wang and Yin studied the basic medical insurance participation rate of non-standard workers through a questionnaire survey, and the results also confirms this view [18, 19]. Based on an analysis of the China Family Panel Studies, the China Health and Nutrition Survey, and other multiple micro-databases, Zhu concluded that the people who do not participate in any form of medical insurance are mainly floating population and non-standard workers [20]. To sum up, non-standard workers in China still face certain obstacles to participating in insurance. Although China’s basic medical insurance coverage rate has reached 95.3%, with an uncovered rate of only about 5% in 2022, China has a large population base and a large absolute number of uninsured people. Furthermore, in the past two years, the number of people participating in basic medical insurance has shown a downward trend.
+Methods
+Samples
+China’s non-standard workers are mainly take-out delivery workers, express delivery workers, and online car drivers [13]. Therefore, this study took this group as the investigation object. This study employed specialized software to distribute structured online questionnaires to participants. The survey collected comprehensive data including demographic characteristics, socioeconomic profiles, employment conditions, and willingness to participate in social insurance programs. A total of 756 questionnaires were sent out and 635 questionnaires were returned, for a response rate of 84.0%.
+Statistics
+Descriptive statistics were used to analyze the insurance participation of non-standard workers and their satisfaction with existing medical insurance policies. Based on Andersen’s model, we analyzed the factors affecting the insurance participation and satisfaction using logistic regression. Andersen’s model, known as “The Behavioral Model of Health Services Use (BMHSU)”, was established by the American scholar Dr. Andersen. The model has been continuously revised and supplemented over the years, gradually becoming a classic model for assessing the use of medical and health services that is recognized in the field of international health services [21]. This study used Andersen’s model as a theoretical framework for analyzing the factors influencing medical insurance participation along three dimensions: predisposing factors, enabling factors, and need factors. Predisposition factors refer to the inherent characteristics of individuals before they use health services, and these characteristics influence whether they seek health services. It mainly includes: demographic characteristics, social structure characteristics, etc. Enabling factors refer to an individual’s ability to access health services, including economic and social resources, such as income, health insurance status, etc. Need factors refer to an individual’s actual demand for health services, including perceived health needs and actual health problems. Such as self-reported health status, chronic disease, etc. In addition, our research questionnaire investigated the reasons why non-standard workers are uninsured. Data analyses were performed using Stata 16.0. It mainly includes: demographic characteristics, social structure characteristics, etc.
+Measures
+The dependent variables in our study were “Participate in basic medical insurance or not” and “Satisfaction with medical insurance policy”. The independent variables in our study were drawn from specific factors in the three dimensions: predisposing factors, enabling factors, and need factors. Predisposing factors mainly included age [22], gender [22], education level [22], type of household registration [23], floating population [23], and mobility duration [23]. Enabling factors mainly included monthly income [22], and participation in commercial or other medical insurance [23]. Need factors primarily included hospitalization within one year [24], outpatient treatment within two weeks [24], self-rated health status [22], and chronic disease [22]. The variable assignment is shown in Table 1.
+Table 1.
+| Variable | Encode | 
+|---|---|
+| Age | 20–29 years old = 1, 30–39 years old = 2, 40–49 years old = 3, 50–59 years old = 4 | 
+| Gender | Male = 1, Female = 2 | 
+| Education level | Primary school and below = 1, junior high school = 2, senior high school or technical secondary school = 3, undergraduate or junior college = 4, postgraduate or above = 5 | 
+| Types of household registration | Urban registration = 1, rural registration = 2 | 
+| Floating population | no = 0, yes = 1 | 
+| Mobility duration | Non-floating population = 1, < 0.5year = 2, 0.5–1 year = 3, 1–5 years = 4, 5–10 years = 5, ≥10 years = 6 | 
+| Monthly income | < 4000 yuan = 1, 4000–8000 yuan = 2, 8,000–12,000 yuan = 3, 12,000–16,000 yuan = 4, 16,000–20,000 yuan = 5, > 20,000 yuan = 6 | 
+| Participated in commercial or other medical insurance | no = 0, yes = 1 | 
+| Hospitalization within a year | no = 0, yes = 1 | 
+| Outpatient visits in the last two weeks | no = 0, yes = 1 | 
+| Self-assessment of health status | Unhealthy = 1, sub-healthy = 2, healthy = 3 | 
+| Chronic disease | no = 0, yes = 1 | 
+| Participated in basic medical insurance | no = 0, yes = 1 | 
+| Satisfaction with the existing basic medical insurance | Satisfied = 1, more satisfied = 2, generally = 3, less satisfied = 4, dissatisfied = 5 | 
+| Knowledge of medical insurance policy | Very well understood = 1, fairly well understood = 2, generally = 3, not very well understood = 4, not at all understood = 5 | 
+In this study three models are considered simultaneously. A comparison of the different models can reveal the influence degree of each model, while the influence size of specific factors can be obtained separately. The three specific models are as follows:
+- Model 1: f1(p)=α1 + β1 predisposing characteristics + ε1;
+- Model 2: f2(p)=α2 + β21 predisposing characteristics + β22 enabling factors + ε2;
+- Model 3: f3(p)=α3 + β31 predisposing characteristics + β32 enabling factors + β33 need variables + ε3.
+Results
+Descriptive analysis
+The participation rates of non-standard workers and the satisfaction levels of insured non-standard workers with their insurance are shown in Table 2. Six-hundred thirty-five (635) samples were included in the analysis of insurance participation. The demographic characteristics of the survey respondents were male, 30–39 years old, with a high-school education or above, registered in rural households. The respondents were members of the floating population, and their income level was mostly between 4000 and 8000 yuan. Their utilization of health services was low, and the prevalence of chronic diseases among them was also low. Of them, 246 people participated in basic medical insurance, for a participation rate of 38.4%, which is significantly lower than that of China’s basic medical insurance (95%) [25]. The insured people were mainly male, aged 40–59 years old, with a high-school education. The social and economic characteristics of the insured non-standard workers were as follows: they were mainly registered in rural households, members of the floating population, with a mobility duration of 1–5 years and a monthly income of 4000–8000 yuan, and non-participants in commercial insurance.
+Table 2.
+| Variable | Sample size | Insured number | Mean of satisfaction | 
+|---|---|---|---|
+| Age (years old) |  |  |  | 
+| 20–29 | 124 (19.5%) | 27 (21.8%) | 2.4 | 
+| 30–39 | 347 (54.6%) | 115 (33.1%) | 2.6 | 
+| 40–49 | 129 (20.3%) | 80 (62.0%) | 2.4 | 
+| 50–59 | 35 (5.5%) | 24 (68.8%) | 2.5 | 
+| Gender |  |  |  | 
+| Male | 504 (79.4%) | 213 (42.3%) | 2.4 | 
+| Female | 131 (20.6%) | 33 (25.2%) | 3.1 | 
+| Education level |  |  |  | 
+| Primary school and below | 13 (2.0%) | 7 (53.8%) | 2.6 | 
+| Junior high school | 190 (29.9%) | 99 (52.1%) | 2.4 | 
+| Senior high school or technical secondary school | 199 (31.3%) | 82 (41.2%) | 2.4 | 
+| Undergraduate or junior college | 222 (35.0%) | 56 (25.2%) | 2.8 | 
+| Postgraduate or above | 11 (1.7%) | 2 (18.2%) | 1.5 | 
+| Types of household registration |  |  |  | 
+| Urban registration | 255 (40.2%) | 84 (32.9%) | 2.8 | 
+| Rural registration | 380 (59.8%) | 162 (42.6%) | 2.4 | 
+| Floating population |  |  |  | 
+| No | 197 (31.0%) | 49 (24.9%) | 3.1 | 
+| Yes | 438 (69.0%) | 197 (45.0%) | 2.4 | 
+| Mobility duration (year) |  |  |  | 
+| Non-floating population | 197 (31.0%) | 49 (24.9%) | 3.1 | 
+| < 0.5 | 33(5.2%) | 21 (63.6%) | 2.1 | 
+| 0.5–1 | 32(5.0%) | 16 (50.0%) | 2.3 | 
+| 1–5 | 175 (27.6%) | 63 (36.0%) | 2.5 | 
+| 5–10 | 96 (15.1%) | 35 (36.5%) | 2.2 | 
+| ≥ 10 | 102 (16.1%) | 62 (60.8%) | 2.4 | 
+| Monthly income (yuan) |  |  |  | 
+| < 4,000 | 128 (20.2%) | 70 (54.7%) | 2.5 | 
+| 4,000–8,000 | 296 (46.6%) | 127 (42.9%) | 2.5 | 
+| 8,000–12,000 | 154 (24.3%) | 40 (26.0%) | 2.5 | 
+| 12,000–16,000 | 37(5.8%) | 8 (21.6%) | 2.0 | 
+| 16,000–20,000 | 14(2.2%) | 0 (0.0%) | —— | 
+| > 20,000 | 6(0.9%) | 1 (16.7%) | 3.0 | 
+| Participated in basic medical insurance |  |  |  | 
+| No | 389 (61.3%) | —— | —— | 
+| Yes | 246 (37.2%) | —— | 2.5 | 
+| Participated in commercial or other medical insurance |  |  |  | 
+| No | 561 (88.3%) | 243 (43.3%) | 2.5 | 
+| Yes | 74 (11.7%) | 3 (4.1%) | 3.7 | 
+| Knowledge of medical insurance policy |  |  |  | 
+| Very well understood | 41 (16.7%) | —— | 3.5 | 
+| Fairly well understood | 46 (18.7%) | —— | 2.9 | 
+| Generally | 94 (38.2%) | —— | 2.2 | 
+| Not very well understood | 46 (18.7%) | —— | 2.1 | 
+| Not at all understood | 19 (7.7%) | —— | 1.7 | 
+| Hospitalization within a year |  |  |  | 
+| No | 575 (90.6%) | 227 (39.5%) | 2.5 | 
+| Yes | 60 (9.4%) | 19 (31.7%) | 2.4 | 
+| Outpatient visits in the last two weeks |  |  |  | 
+| No | 538 (84.7%) | 221 (41.1%) | 2.5 | 
+| Yes | 97 (15.3%) | 25 (25.8%) | 2.7 | 
+| Self-assessment of health status |  |  |  | 
+| Unhealthy | 37 (5.8%) | 14 (37.8%) | 1.9 | 
+| Sub-healthy | 187 (29.4%) | 64 (34.2%) | 2.4 | 
+| Healthy | 411 (64.7%) | 168 (40.9%) | 2.6 | 
+| Chronic disease |  |  |  | 
+| No | 512 (80.6%) | 194 (37.9%) | 2.5 | 
+| Yes | 123 (19.4%) | 52 (42.3%) | 2.6 | 
+The ratio is given in parentheses, with satisfaction increasing from 1 to 5
+According to our analysis, the overall satisfaction of the 246 insured non-standard workers with their policy was 2.5 points on average (The total score was 5 points). Among them, those workers who were male, highly educated, and members of the floating population; lacked an understanding of the basic medical insurance policy; and self-rated their health status as poor were more likely to have low satisfaction with their insurance policy.
+Analysis of non-participation in basic medical insurance
+We investigated the reasons that non-standard workers did not participate in medical insurance, and the results are shown in Fig. 1. Among the reasons given, “economic difficulties” was the primary factor that led to the refusal of non-standard workers to participate in insurance. Furthermore, 21.8% of the respondents believed that economic factors are the primary reason that restricts continuous participation in insurance. In addition, cognitive factors such as “Not sure how to participate in insurance” (14.2%) and “In good health and don’t need insurance” (13.0%) were important factors limiting participation in basic medical insurance. In terms of medical insurance policies, respondents identified “Insurance reimbursement is not convenient” (12.4%), “The proportion of reimbursement of basic medical insurances is too low” (11.7%), and “Already participate in other health insurance” (9.8%) as factors that prevent non-standard workers from participating in insurance. Thus, economic factors, cognitive factors of the insured individuals, and factors relating to the design of medical insurance policies have an impact on the willingness of non-standard workers to participate.
+Analysis of factors influencing insurance participation
+As shown in Table 3, our analysis revealed that the factors that influence whether non-standard workers choose to participate in basic medical insurance are age (P < 0.01), monthly income (P < 0.01), participation in commercial or other medical insurance (P < 0.01), and self-rated health status (P < 0.05). Non-standard workers who were young, with a high monthly income; participated in commercial or other medical insurance; and self-rated their health status as good were inclined to opt out of basic medical insurance.
+Table 3.
+| Dimensionality | Variable | Model 1 | Model 2 | Model 3 | 
+|---|---|---|---|---|
+| Propensity factor | Age | 2.1038*** (5.80) | 1.8874*** (4.88) | 1.8658*** (4.71) | 
+|  | Gender | 0.6643* (–1.65) | 0.6857 (–1.45) | 0.7009 (–1.35) | 
+|  | Education level | 0.7723** (–2.04) | 0.8968 (–0.84) | 0.9502 (–0.38) | 
+|  | Types of household registration | 0.8577 (–0.67) | 0.7844 (–1.04) | 0.7713 (–1.09) | 
+|  | Floating population | 2.3986** (2.25) | 1.6698 (1.30) | 1.5620 (1.12) | 
+|  | Mobility duration | 0.9280 (–0.83) | 0.9923 (–0.08) | 1.0142 (0.15) | 
+| Enabling factor | Monthly income |  | 0.6917*** (–3.34) | 0.6567*** (–3.72) | 
+|  | Participated in commercial or other medical insurance |  | 0.1052*** (–3.70) | 0.0955*** (–3.84) | 
+| Need factor | Hospitalization within a year |  |  | 0.7608 (–0.80) | 
+|  | Outpatient visits in the last two weeks |  |  | 0.8037 (–0.74) | 
+|  | Self-assessment of health status |  |  | 1.5134** (2.55) | 
+|  | Chronic disease |  |  | 1.2354 (0.88) | 
+| —— | Pseudo R 2 | 0.1008 | 0.1509 | 0.1614 | 
+|  | N | 635 | 635 | 635 | 
+*P < 0.1, **P < 0.05, ***P < 0.01, OR value in the table, t value in parentheses
+Analysis of factors influencing insurance satisfaction
+Finally, we conducted further research with those non-standard workers who participated in basic medical insurance. Our analysis focused on the factors influencing their satisfaction levels with the medical insurance policies, as shown in Table 4. According to the analysis, gender (P < 0.05), education level (P < 0.01), floating population member (P < 0.1), degree of understanding of the medical insurance policy (P < 0.01), and self-rated health status (P < 0.05) were the factors that influenced insured workers’ degrees of satisfaction with their medical insurance policies.
+Table 4.
+| Dimensionality | Variable | Model 1 | Model 2 | Model 3 | 
+|---|---|---|---|---|
+| Propensity factor | Age | 1.2296 (1.31) | 1.3757* (1.89) | 1.3235 (1.63) | 
+|  | Gender | 0.4316** (–2.21) | 0.4327** (−2.13) | 0.3660** (–2.47) | 
+|  | Education level | 1.1957 (1.05) | 1.6378*** (2.71) | 1.6539*** (2.72) | 
+|  | Types of household registration | 1.9075** (2.05) | 1.3982 (1.03) | 1.4755 (1.17) | 
+|  | Floating population | 3.4200** (2.39) | 2.5149* (1.73) | 2.7803* (1.89) | 
+|  | mobility duration | 0.9393 (–0.57) | 1.0023 (0.02) | 0.9883 (–0.10) | 
+| Enabling factor | Monthly income |  | 0.9801 (−0.13) | 1.0789 (0.47) | 
+|  | Degree of understanding of the medical insurance policy |  | 2.8531*** (7.47) | 2.8053*** (7.28) | 
+| Need factor | Hospitalization within a year |  |  | 2.1669 (1.58) | 
+|  | Outpatient visits in the last two weeks |  |  | 0.7833 (–0.55) | 
+|  | Self-assessment of health status |  |  | 0.5606** (–2.46) | 
+|  | Chronic disease |  |  | 0.7263 (–0.94) | 
+| —— | Pseudo R 2 | 0.0462 | 0.1421 | 0.1549 | 
+|  | N | 246 | 246 | 246 | 
+*P < 0.1, **P < 0.05, ***P < 0.01, OR value in the table, t value in parentheses
+Robustness check
+To avoid spurious results, this study conducted robustness checks to ensure the reliability of the findings [26]. Given the constraints of the data, robustness checks in this study were conducted by substituting alternative models. This study employs a Probit model for robustness checks, which shares similar characteristics and objectives with the logistic regression models. The results in Table 5 show that the statistical significance of the explanatory variables in the model remained unchanged, the results obtained from the Probit model are consistent with those from the Logistic model, confirming the robustness of the findings.
+Table 5.
+| Dimensionality | Variable | Model 1 | Model 2 | Model 3 | 
+|---|---|---|---|---|
+| Propensity factor | Age | 0.4510*** | 0.3875*** | 0.3784*** | 
+|  | Gender | −0.2505* | −0.2273 | −0.2088 | 
+|  | Education level | −0.1589** | −0.0647 | −0.0324 | 
+|  | Types of household registration | −0.0925 | −0.1555 | −0.1619 | 
+|  | Floating population | −0.5356** | −0.3216 | −0.2910 | 
+|  | Mobility duration | 0.0449 | −0.0025 | 0.0082 | 
+| Enabling factor | Monthly income |  | −0.2316*** | −0.2610*** | 
+|  | Participated in commercial or other medical insurance |  | −1.2174*** | −1.2579*** | 
+| Need factor | Hospitalization within a year |  |  | −0.1516 | 
+|  | Outpatient visits in the last two weeks |  |  | −0.1234 | 
+|  | Self-assessment of health status |  |  | 0.2456** | 
+|  | Chronic disease |  |  | 0.1367 | 
+| —— | Pseudo R 2 | 0.1015 | 0.1526 | 0.1625 | 
+|  | N | 635 | 635 | 635 | 
+*P < 0.1, **P < 0.05, ***P < 0.01
+Discussion
+At present, difficulties in covering the basic medical security of non-standard workers are being faced in many parts of the world. Previous studies have pointed out that the main reasons why non-standard workers are not covered by basic medical security are, in addition to the failure of government to provide security, a basic misunderstanding of social security, dissatisfaction with the scope of social security, income instability, and low economic level, which leads to their inability to afford the premiums of basic security [27, 28]. China’s unique household registration system adds another layer of complexity, limiting non-standard workers’ access to social security. Due to restrictions imposed by the household registration system, many non-standard workers can only enroll in basic health insurance in their hometowns rather than their workplaces. However, to be eligible for insurance reimbursement for healthcare at the work place, one has to get pre-approval and also apply for reimbursement at their hometown (as opposed to where treatment happens). Such a cumbersome procedure often results in poor protection for the floating population at their work places [29].
+The results of our study showed that the participation rate of non-standard workers was low. Furthermore, we found that economic concerns, cognitive factors, and related policies affect the participation of non-standard workers in basic medical insurance, which is consistent with previous studies [29, 30].
+Factors influencing participation
+Our study of the factors influencing participation in insurance found that, among the predisposing factors, older non-standard workers had a higher probability of participating. This finding may be due to the health vulnerabilities faced by workers as they age, which leads them to pay more attention to their health and participate in medical security as a defense against the economic burden of disease [31]. However, the incentive and constraint of insurance participation are insufficient, young people are generally in good health, paying less attention to their health and making less use of health services, and are therefore less concerned with medical insurance. In addition, many young non-standard workers have unstable incomes and are unwilling to spend money for basic medical insurance, so they choose not to participate or delay their participation [32].
+Among the enabling factors, non-standard workers with low monthly incomes who do not participate in commercial or other medical insurance have a high probability of participating in basic medical insurance. This finding may be because basic medical insurance can help people with middle or lower incomes, who typically work in risky environments, avoid poverty due to illness [33]. To avoid falling into poverty due to illness, lower-income groups need compensation from medical insurance more than non-standard workers with higher monthly incomes. However, low-income groups can not afford commercial insurance, so low-income groups are more inclined to participate in basic medical insurance. While high-income workers can afford commercial insurance, and basic medical insurance has no significant effect on their to avoid falling into poverty due to illness, so they pay relatively little attention to basic medical insurance [34]. Commercial or other medical insurance plays an alternative role to basic medical insurance to some extent. Due to the special nature of the work of non-standard workers, the unstable labor relationship, and the obstacles to participation, non-standard workers do not know how to participate in basic medical insurance. Furthermore, they lack awareness of the necessity of basic medical insurance. Therefore, they choose commercial medical insurance, which is relatively easy to participate in.
+Among the need factors, as opposed to the general population, non-standard workers who self-rate their health as good have a high probability of participating in insurance. This finding may be due to the fact that people who self-rate their health status as better generally have higher health awareness [35]. Health awareness is an important factor affecting insurance participation rate, and improving health awareness has a significant positive impact on participation in medical insurance [36]. Therefore, non-standard workers with better self-rated health statuses have a higher probability of participating in basic medical insurance.
+Factors influencing satisfaction
+Our study of the factors influencing the satisfaction levels found that, among the predisposing factors, insured non-standard workers who were male, highly-educated, and members of the floating population were more likely to have low satisfaction with the basic medical insurance policy, which is consistent with the results of previous research [37]. This result indicates that the floating population’s satisfaction with the current medical insurance policy needs to be improved and, correspondingly, that the medical insurance policy for the floating population needs to be further improved.
+Among the enabling factors, non-standard workers who understand the medical insurance policy are more satisfied with basic medical insurance, while those who lack an equivalent understanding have lower levels of satisfaction. This finding may be because people who do not understand the medical insurance policy will have psychological expectations of it that are too high, thus reducing their satisfaction with the policy [38].
+Among the need factors, non-standard workers who self-rated their health status as good have higher satisfaction with medical insurance. Personal health level has a significant positive impact on an individual’s satisfaction with medical insurance. Specifically, people with good self-rated health status have higher health cognition, are less troubled by diseases, seek medical treatment less frequently, and are relatively less economically burdened by disease, so they are more likely to accept the current medical insurance policy [39].
+Study limitations
+This study had some limitations. In terms of methodology, The cross-sectional design of the study limits our ability to capture temporal changes or the dynamic effects of policy evolution. Future studies could incorporate panel data analysis to address this limitation. Respondents may have been influenced by social expectations during the survey, especially regarding their satisfaction with medical insurance. Future studies could use mixed methods, including qualitative interviews, to triangulate results and reduce bias.
+In terms of research samples, the sample size of this study was limited. In future studies, the scope of investigation can be expanded to improve the comprehensiveness and reliability of the research results. Most of the non-standard workers surveyed were take-out delivery workers, express delivery workers, or online car drivers, and most were male. Therefore, this study did not analyze specific occupations. This may affect the robustness and consistency of the results to some extent. Future studies can be conducted with different types of occupations, and future studies should also include more females in the sample to make the study more representative, and should include robustness tests in future studies to further verify the robustness and consistency of the results. Non-standard workers often do not have a fixed organization and work irregular hours, making it difficult to obtain survey data, so this study only obtained this more valuable first-hand data with the help of enterprises. Despite these limitations, this study investigates the status quo of non-standard workers’ participation in basic medical insurance and analyzes the influencing factors of nonstandard workers’ participation in basic medical insurance. At the same time, this study also investigated the satisfaction of non-standard workers with basic medical insurance, and analyzed the influencing factors of the satisfaction of them with medical insurance, which can be used as a basis for formulating policies in the future to help improve the insurance coverage of non-standard workers.
+Conclusions
+The participation rate of non-standard workers in basic health insurance, which has yet to improve, is affected by a number of factors. At present, non-standard occupations are encouraged by China; thus, the number of non-standard workers will increase significantly in the future. However, the non-participation of non-standard workers in basic medical insurance, and their corresponding lack of basic security, leaves them open to the phenomena of “poverty due to illness” and “return to poverty due to illness”, which are not conducive to stable social operations. Therefore, we should pay attention to the participation of non-standard workers in medical insurance. Specifically, the special nature of the industry and the characteristics of non-standard workers should be considered. The publicity of health insurance policies should be strengthened to raise the awareness of non-standard workers. Examples include the use of mobile apps and social media platforms to push policy information to non-standard workers [26], particularly young, healthy individuals who may be less aware of the benefits of basic medical insurance. Improve the insurance policy for non-standard workers, for example, by simplifying procedures to reduce the obstacles for non-standard workers to participate in medical insurance, provide subsidies or preferential treatment for low-income non-standard workers, and encourage them to participate in basic medical insurance [40], so as to increase the participation rate of non-standard workers.
+Supplementary Information
+Acknowledgements
+The authors thank the companies that assisted in the distribution of the questionnaires and data collection for this study, as well as the respondents of the questionnaires for providing data for this study.
+Abbreviations
+- UEBMI
+- Urban Employee Basic Medical Insurance
+- URBMI
+- Urban Resident Basic Medical Insurance
+- BMHSU
+- The Behavioral Model of Health Services Use
+Authors’ contributions
+All authors have contributed to the development of the research ideas. YBZ created the questionnaire and collected the questionnaire data, WQW organized the questionnaire data, performed the data analysis and drafted the manuscript. All authors commented on the manuscript.
+Funding
+This work was supported by the National Natural Science Foundations of China (NO. 72474143) and the Humanities and Social Sciences Programme, Ministry of Education (NO. 23YJAZH010). The funders had no role in the study design, data collection and analysis, decision to publish or preparation of the manuscript.
+Data availability
+The data that support the findings of this study are available from questionnaire survey conducted by the research group. The datasets used and analysed during the current study are available from the corresponding author on reasonable request.
+Declarations
+Ethics approval and consent to participate
+This study was performed in line with the ethical principles of the Declaration of Helsinki. This study was approved by the Medical Ethics Committee of the Capital Medical University on December 5, 2023 (No.Z2023SY140). In addition, all subjects provided informed consent.
+Consent for publication
+Not applicable.
+Competing interests
+The authors declare no competing interests.
+Footnotes
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+References
+- 1.Behrendt C, Nguyen QA. Ensuring universal social protection for the future of work. Transfer: Eur Rev Labour Res. 2019;25(2):205–19. [Google Scholar]
+- 2.Bajwa U, Gastaldo D, Di Ruggiero E, et al. The health of workers in the global gig economy. Glob Health. 2018;14(1):124. [DOI] [PMC free article] [PubMed]
+- 3.Myhill K, Richards J, Sang K. Job quality, fair work and gig work: the lived experience of gig workers. Int J Hum Res Manage. 2021;32(19):4110–35. [Google Scholar]
+- 4.Khan TH, MacEachen E. Examining the health and wellness of solo self-employed workers through narratives of precarity: a qualitative study. BMC Public Health. 2024;24(1):717. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 5.Su CP, Asfaw A, Tamers SL, et al. Health insurance coverage among U.S. workers: differences by work arrangements in 2010 and 2015. Am J Prev Med. 2019;56(5):673–9. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 6.Berdahl TA, Moriya AS. Insurance coverage for Non-standard workers: experiences of temporary workers, freelancers, and Part-time workers in the USA, 2010–2017. J Gen Intern Med. 2021;36(7):1997–2003. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 7.Randolph SA. Gig workers. Workplace Health Saf. 2019;67(8):439–40. [DOI] [PubMed] [Google Scholar]
+- 8.Mamatha SV. Stickiness: an unspoken chapter in the gig world. NHRD Netw J. 2020;13(2):220–5. [Google Scholar]
+- 9.Friedman GC. Workers without employers: shadow corporations and the rise of the gig economy. Rev Keynes Econ. 2014;2(2):171–88. [Google Scholar]
+- 10.Alfers L, Lund F, Moussié R. Approaches to social protection for informal workers: aligning productivist and human rights-based approaches. Int Social Secur Rev. 2017;70(4):67–85. [Google Scholar]
+- 11.Michele C, Chiara S. Workers in the crowd: the labor market impact of the online platform economy. Ind Corp Change. 2021;30(6):1429–58. [Google Scholar]
+- 12.Schmidt G, Philip J, Van Dellen S, et al. Gig worker organizing: toward an adapted attraction-selection-attrition framework. J Managerial Psychol. 2023;38(1):47–59. [Google Scholar]
+- 13.People’s Daily. The number of newly employed workers reached 84 million.(2023-03-27)[2025-02-01]. https://data.people.com.cn/pd/rmrb/detail.html?id=33252e9e22d44e2493b84713ad3ba3a7.
+- 14.Liu T. The social protection in the digital age: the new economy and the intangible welfare-an example from the German industry 4.0. Social Policy Res. 2018;2:67–78. [Google Scholar]
+- 15.Chen S, Li RYM, Tang CH. Health, insurance, and social capital’s impact on housing debt and assets using a partial least squares structural equation modeling technique. Buildings. 2024;14(11):3540. [Google Scholar]
+- 16.Guan B, Zhu XY. The main constraints and suggestions for equal participation of new technology, new economy and new-type workers in social insurance: A typical survey based on 320 three new workers. Hum Resource Dev China. 2018;35(12):88–94. [Google Scholar]
+- 17.Ran XX, Qiu YL. Identity attribution and medical insurance segmentation: the dilemma and the way out for platform employees. Chin J Health Policy. 2019;16(3):9–15. [Google Scholar]
+- 18.Wang ZQ, Qiu YL. Adverse selection or institution flaw: research on the unstable insurance participant under the universal health insurance. Lanzhou Acad J. 2021;6:124–38. [Google Scholar]
+- 19.Yin Q, Yuan MH, Xu DN, et al. Research on medical insurance for flexible employees in Qilin district, Qujing City. Labor Secur World. 2019;2:36–7. [Google Scholar]
+- 20.Zhu ML, Hu Q, Zhao YQ. Some reflections on achieving universal coverage of basic medical insurance. Chin Health Econ. 2019;40(1):45–8. [Google Scholar]
+- 21.Li YE, Lu S. The development, application and implications of the Anderson model in the field of healthcare. Chin J Health Policy. 2017;10(11):77–82. [Google Scholar]
+- 22.Andersen RM. National health surveys and the behavioral model of health services use. Med Care. 2008;46(7):647–53. [DOI] [PubMed] [Google Scholar]
+- 23.Alkhawaldeh A, ALBashtawy M, Rayan A, et al. Application and use of andersen’s behavioral model as theoretical framework: a systematic literature review from 2012–2021. Iran J Public Health. 2023;52(7):1346–54. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 24.Doherty AS, Miller R, Mallett J, et al. Heterogeneity in longitudinal healthcare utilisation by older adults: a latent transition analysis of the Irish longitudinal study on ageing. J Aging Health. 2022;34(2):253–65. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 25.Yu XD, Zhang KR, Wang HB. Research on the participation mechanism of basic medical insurance for platform workers: international experiences and implications for China. Chin J Health Policy. 2024;17(4):30–7. [Google Scholar]
+- 26.Shao XF, Zhong YF, Liu W, et al. Modeling the effect of green technology innovation and renewable energy on carbon neutrality in N-11 countries? Evidence from advance panel estimations. J Environ Manage. 2021;296:113189. [DOI] [PubMed] [Google Scholar]
+- 27.Bosmans K, Vignola EF, Álvarez-López V, et al. Experiences of insecurity among non-standard workers across different welfare states: a qualitative cross-country study. Soc Sci Med. 2023;327:115970. [DOI] [PubMed] [Google Scholar]
+- 28.Khan TH, MacEachen E, Premji S, et al. Self-employment, illness, and the social security system: a qualitative study of the experiences of solo self-employed workers in ontario, Canada. BMC Public Health. 2023;23(1):643. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 29.Ma C, Zhang Y, Li Y, et al. Healthcare, insurance, and medical expenditure of the floating population in beijing, China. Front Public Health. 2020;8:375. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 30.Wu X, Wang J, Jiang J. Insurance and the gig economy: analyzing Chinese platform workers’ participation in work-related injury insurance. Acta Psychol (Amst). 2025;256:105016. [DOI] [PubMed] [Google Scholar]
+- 31.Zhang YK, Zhang X, Xue HY. The impact of basic Old-Age insurance and basic medical insurance on the identification of the flexible employment. J Jiangxi Univ Finance Econ. 2023;4:51–65. [Google Scholar]
+- 32.Long Y. "Study on improving the endowment insurance policy for flexible employees in dalian’s main urban area," M.S. thesis, Dalian Maritime University, Dalian, China, 2 020. 10.26989/d.cnki.gdlhu.2020.001745.
+- 33.Zhang GK, Zheng ZY. The effect and approach of employee medical insurance to alleviate vulnerability to relative poverty. J Zhongnan Univ Econ Law. 2023;4:53–69. [Google Scholar]
+- 34.Guo Q, Wu Z. Study on the effectiveness of basic medical insurance for urban and rural residents in promoting health and preventing poverty among floating population based on PSM-DID model. Chin J Health Stat. 2022;39(2):234–237242. [Google Scholar]
+- 35.Xu H, Ma XJ. Study on cognition, preference and utilization of community health management services in Beijing based on the theory of knowledge, belief and practice. Chin Prim Health Care. 2022;36(9):34–8. [Google Scholar]
+- 36.Hu YK, Cheng WJ. Study on the influence of individual health consciousness on commercial health insurance participation. New Silk Road Horizon. 2023;4:35–7. [Google Scholar]
+- 37.Gu ZY, Tan H. Farmers’ satisfaction with basic medical insurance for urban and rural residents and its influencing factors: based on the empirical analysis of five cities in Hunan Province. J Hunan Agricultural Univ (Social Sciences). 2019;21(6):56–65. [Google Scholar]
+- 38.Wang ZR, Song Y. Investigation and analysis of basic medical insurance participation of flexible employment personnel in new business forms. China Health Insurance. 2023;5:110–5. [Google Scholar]
+- 39.Zhang HJ, Zhang J, Shi QY. Study of satisfaction and influencing factors of medical insurance for urban residents in Taiyuan City. Chin J Hosp Adm. 2019;35(6):514–8.
+- 40.Chen T, Song W, Song J, et al. Measuring well-being of migrant gig workers: exampled as Hangzhou City in China. Behav Sci (Basel). 2022;12(10):365. [DOI] [PMC free article] [PubMed] [Google Scholar]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Supplementary Materials
+Data Availability Statement
+The data that support the findings of this study are available from questionnaire survey conducted by the research group. The datasets used and analysed during the current study are available from the corresponding author on reasonable request.

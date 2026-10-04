@@ -1,0 +1,28 @@
+{
+  "source_id": "44b427d69ece22b7ea4a",
+  "normalized_url": "https://blog.csba.org/majority-report",
+  "fetch_timestamp_utc": "2026-10-04T03:35:42.534711+00:00",
+  "registrable_domain": "csba.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://blog.csba.org/majority-report/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 125725,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/44b427d69ece22b7ea4a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/44b427d69ece22b7ea4a.txt",
+  "text_chars": 4108,
+  "text_words": 610,
+  "extraction_status": "success",
+  "page_title": "Recent report highlights opportunity gaps for Latino students – CSBA Blog",
+  "page_author": "Kerry Macklin",
+  "page_date": "2017-12-13",
+  "site_name": "California School Boards Association",
+  "canonical_url": "https://blog.csba.org/majority-report/"
+}

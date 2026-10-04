@@ -1,0 +1,28 @@
+{
+  "source_id": "ba6a55ac11d4e3ce0434",
+  "normalized_url": "https://experian.com/blogs/ask-experian/what-do-mortgage-lenders-look-for",
+  "fetch_timestamp_utc": "2026-10-04T02:47:33.361723+00:00",
+  "registrable_domain": "experian.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.experian.com/blogs/ask-experian/what-do-mortgage-lenders-look-for",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 230521,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ba6a55ac11d4e3ce0434.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ba6a55ac11d4e3ce0434.txt",
+  "text_chars": 11301,
+  "text_words": 1897,
+  "extraction_status": "success",
+  "page_title": "What Factors Do Mortgage Lenders Consider?",
+  "page_author": "Emily Starbuck Gerson",
+  "page_date": "2026-09-22",
+  "site_name": "Experian",
+  "canonical_url": "https://www.experian.com/blogs/ask-experian/what-do-mortgage-lenders-look-for/"
+}

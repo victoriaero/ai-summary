@@ -1,0 +1,118 @@
+BACKGROUND
+U.S. adults aged 50–64 must navigate a myriad of challenging decisions about their health, health insurance, and employment as they approach Medicare eligibility at age 65. Compared with their predecessors, baby boomers are experiencing more chronic health conditions, healthcare costs, and personal debt.1 Uncertainty about federal health policy has also produced concern about future healthcare coverage among this population.2 All these factors contribute to medical costs and health insurance affordability being top concerns about retirement among U.S. adults aged 50–64.1, 3 Prior research with this age group has demonstrated that concern about affording health insurance in the future is associated with delaying retirement due to a desire to maintain employer-sponsored health insurance coverage and also delaying or forgoing needed medical care.4, 5 Such avoidance of care could negatively affect long-term health.6 The objective of this study was to identify factors associated with concern about ability to afford health insurance in the future among U.S. adults aged 50–64.
+METHODS
+A nationally representative, cross-sectional sample of community-dwelling U.S. adults aged 50–64 (N = 1028; completion rate = 62%) was recruited via Ipsos KnowledgePanel® to complete an online survey during October 2018 as part of the University of Michigan National Poll on Healthy Aging (NPHA). Post-stratification survey weights were applied to reflect the U.S. population. Each survey item had ≤ 2% missing responses; percentages reported are among those who responded to the item.
+This study’s primary outcome were two items measuring adults’ (aged 50–64) confidence in being able to afford the cost of health insurance and out-of-pocket healthcare costs (1) over the next year and (2) when they retire. Predictor variables included age, gender, race/ethnicity, income, employment, education, health status, and health insurance literacy. Health insurance literacy was measured via three items: confidence in ability to (a) understand health insurance terms, (b) identify healthcare services covered by their insurance prior to receiving a service, and (c) find out out-of-pocket costs before receiving a healthcare service.
+Responses to the health insurance affordability and literacy items were dichotomized into not confident (“not at all confident” and “slightly confident” responses) and confident (“moderately confident” and “very confident” responses). A single measure of health insurance affordability concern was created; respondents were classified as concerned if they had a “not confident” response to either health insurance affordability item or not concerned if they were “confident” on both items. We regressed health insurance affordability concern on the health insurance literacy items, age, gender, race/ethnicity, income, employment, education, and health status. Two-sided tests with p < 0.05 were considered statistically significant. All analyses were conducted with Stata version 15 (StataCorp, College Station, TX).
+RESULTS
+Estimates of population characteristics are presented in Table 1. Respondents were more likely than non-respondents to be male (49.2% vs. 40.8%, p = 0.001) or non-Hispanic White (74.1% vs. 60.3%, p < 0.001), but were not significantly different regarding age, education, income, or employment status (ps > 0.10).
+Table 1.
+|  | N = 1028 |  | 
+|---|---|---|
+|  | n | Weighted % (95% CI) | 
+| Age |  |  | 
+| 50–54 | 305 | 33.3 (30.2, 36.5) | 
+| 55–59 | 393 | 34.6 (31.7, 37.6) | 
+| 60–64 | 330 | 32.1 (29.2, 35.2) | 
+| Gender |  |  | 
+| Male | 506 | 48.2 (45.0, 51.4) | 
+| Female | 522 | 51.8 (48.6, 55.0) | 
+| Race/ethnicity |  |  | 
+| White, non-Hispanic | 762 | 68.4 (65.1, 71.5) | 
+| Black, non-Hispanic | 93 | 11.7 (9.6, 14.1) | 
+| Hispanic | 101 | 12.9 (10.7, 15.5) | 
+| Other, non-Hispanic | 72 | 7.0 (5.4, 9.1) | 
+| Education |  |  | 
+| ≤ High school | 342 | 40.4 (37.2, 43.7) | 
+| Some college | 340 | 27.0 (24.5, 29.8) | 
+| ≥ Bachelor’s degree | 346 | 32.6 (29.7, 35.6) | 
+| Total annual household income |  |  | 
+| ≤ $30,000 | 151 | 17.9 (15.4, 20.8) | 
+| $30,000–$59,999 | 194 | 19.7 (17.2, 22.4) | 
+| ≥ $60,000 | 683 | 62.4 (59.2, 65.5) | 
+| Employment status |  |  | 
+| Employed | 732 | 69.1 (66.0, 72.1) | 
+| Retired | 146 | 14.4 (12.3, 16.8) | 
+| Not working | 150 | 16.5 (14.1, 19.2) | 
+| Health status |  |  | 
+| Excellent/very good | 448 | 42.9 (39.8, 46.1) | 
+| Good | 417 | 40.5 (37.4, 43.6) | 
+| Fair/poor | 159 | 16.7 (14.3, 19.3) | 
+| Insurance type |  |  | 
+| Employer-sponsored | 679 | 63.2 (60.0, 66.3) | 
+| Medicaid or other government plan | 89 | 10.8 (8.8, 13.2) | 
+| Medicare | 88 | 8.8 (7.1, 10.9) | 
+| Individual private insurance | 84 | 8.5 (6.9, 10.5) | 
+| Retiree health plan | 43 | 4.0 (2.9, 5.3) | 
+| Military healthcare | 41 | 3.6 (2.6, 4.9) | 
+| Medicare Advantage or supplemental plan | 34 | 3.3 (2.3, 4.7) | 
+| VA/CHAMPA | 21 | 1.9 (1.2, 3.0) | 
+| Other | 12 | 1.4 (0.8, 2.6) | 
+| None | 36 | 4.1 (2.9, 5.7) | 
+| Not confident in ability to afford health insurance* |  |  | 
+| Over the next year | 268 | 27.4 (24.6, 30.4) | 
+| When retired | 453 | 44.6 (41.4, 47.8) | 
+| Either | 475 | 47.3 (44.1, 50.5) | 
+| Not confident in health insurance literacy* |  |  | 
+| Understanding terms | 200 | 21.3 (18.7, 24.1) | 
+| Identifying covered services | 239 | 24.3 (21.6, 27.2) | 
+| Calculating out-of-pocket costs | 237 | 29.5 (26.3, 32.9) | 
+*Respondents who were slightly or not at all confident
+Over a quarter of respondents were not confident in their ability to afford health insurance in the next year (27.4%) or when they retire (44.6%), nor in their ability to understand health insurance terms (21.3%), coverage (24.2%), or out-of-pocket costs (29.5%). Lower health insurance literacy—measured via confidence knowing health insurance terms (aOR = 1.78, p = 0.035), identifying covered services (aOR = 1.81, p = 0.038), and finding out service costs (aOR = 2.69, p < 0.001)—female gender (aOR = 1.73, p = 0.001), and fair/poor health (aOR = 1.88, p = 0.020) were significantly associated with increased odds of health insurance affordability concern, while higher income (aOR = 0.34, p < 0.001) or identifying as non-Hispanic Black (aOR = 0.55, p = 0.038) or with other non-Hispanic minority groups (aOR = 0.45, p = 0.026) was significantly associated with decreased odds of affordability concern (Table 2).
+Table 2.
+|  | Adjusted odds ratio (95% CI) | 
+|---|---|
+| Health insurance literacy |  | 
+| Confidence in understanding terms | 1.78 (1.04, 3.04) | 
+| Confidence in identifying services | 1.81 (1.03, 3.17) | 
+| Confidence in calculating costs | 2.69 (1.64, 4.40) | 
+| Age |  | 
+| 50–54 | ref | 
+| 55–59 | 0.79 (0.54, 1.14) | 
+| 60–64 | 0.74 (0.49, 1.13) | 
+| Female gender | 1.73 (1.25, 2.40) | 
+| Race/ethnicity |  | 
+| White, non-Hispanic | ref | 
+| Black, non-Hispanic | 0.55 (0.31, 0.97) | 
+| Hispanic | 0.71 (0.41, 1.25) | 
+| Other, non-Hispanic | 0.45 (0.22, 0.91) | 
+| Income |  | 
+| < $30K | ref | 
+| $30K–$60K | 0.74 (0.40, 1.39) | 
+| $60K+ | 0.34 (0.20, 0.60) | 
+| Employment status |  | 
+| Employed | ref | 
+| Retired | 1.47 (0.42, 5.23) | 
+| Not working | 0.64 (0.38, 1.08) | 
+| Education |  | 
+| ≤ High school | ref | 
+| Some college | 1.46 (0.96, 2.22) | 
+| ≥ Bachelor’s degree | 1.36 (0.89, 2.07) | 
+| Health |  | 
+| Excellent/very good | ref | 
+| Good | 1.34 (0.95, 1.90) | 
+| Fair/poor | 1.88 (1.10, 3.21) | 
+| Constant | 0.98 (0.52, 1.85) | 
+Respondents with low confidence in health insurance affordability either in the next year or in retirement
+DISCUSSION
+Around half of U.S. adults aged 50–64 were concerned about their ability to afford future health insurance, with higher concern among women and participants with lower health insurance literacy or fair/poor health. It is notable that health insurance affordability concern was higher for those in fair/poor health, given the association between affordability concern with delayed/foregone healthcare. While the cross-sectional design of this study does not permit causal inferences, these results suggest that improving the health insurance literacy of adults approaching retirement may be one approach to reducing health insurance affordability concerns, improving healthcare utilization, and projected costs among this age group.
+Acknowledgments
+We gratefully acknowledge the contributions of other members of the National Poll on Healthy Aging Team: Dianne Singer, MPH, Sarah J. Clark, MPH, Eileen Kostanecki, MA, Trish Meyer, EdM, Kara Gavin, MS, Christina Camilli-Whisenhunt, MPA, Mark Lubin, MS, Emily Smith, MA. These individuals were not compensated beyond their usual salary.
+Compliance with Ethical Standards
+Conflict of Interest
+Dr. Kullgren has received consulting fees from SeeChange Health, HealthMine, and the Kaiser Permanente Washington Health Research Institute; and honoraria from the Robert Wood Johnson Foundation, AbilTo, Inc., the Kansas City Area Life Sciences Institute, and the American Diabetes Association.
+Role of the Funder/Sponsor
+The funding sources had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.
+Disclaimer
+The views expressed in this article are those of the authors and do not necessarily reflect the position or policy of the Department of Veterans Affairs or the U.S. government.
+Footnotes
+Prior Presentations Preliminary results of this analysis were presented as an abstract at the Gerontological Society of America 2019 meeting, Austin, TX, November 13, 2019.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+References
+- 1.Employee Benefit Research Institute Inc. 2019 RCS fact sheet #1: Retirement confidence. 2019.
+- 2.National Poll on Healthy Aging. Health insurance decision-making near retirement full report. 2019.
+- 3.Franklin Templeton. Retirement Income Strategies and Expectations (RISE) Survey. 2019.
+- 4.Tipirneni R, Solway E, Malani P, Luster J, Kullgren JT, Kirch M, et al. Health insurance affordability concern and health care avoidance among US adults approaching retirement. JAMA Netw Open. 2020;3(2):e1920647. doi: 10.1001/jamanetworkopen.2019.20647. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 5.Employee Benefit Research Institute Inc. 2019 RCS fact sheet #2: Expectations about retirement. 2019.
+- 6.Woolhandler S, Himmelstein DU. The relationship of health insurance and mortality: Is lack of insurance deadly? Ann Intern Med. 2017;167(6):424–31. doi: 10.7326/M17-1403. [DOI] [PubMed] [Google Scholar]

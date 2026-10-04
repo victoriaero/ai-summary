@@ -1,0 +1,28 @@
+{
+  "source_id": "6ab6ee490135359196fe",
+  "normalized_url": "https://theiacp.org/sites/default/files/2018-08/CPRP_Deconstructing%20the%20Power%20to%20Arrest_FINAL.PDF",
+  "fetch_timestamp_utc": "2026-10-04T02:41:05.977820+00:00",
+  "registrable_domain": "theiacp.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.theiacp.org/sites/default/files/2018-08/CPRP_Deconstructing%20the%20Power%20to%20Arrest_FINAL.PDF",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 1264446,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6ab6ee490135359196fe.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6ab6ee490135359196fe.txt",
+  "text_chars": 532987,
+  "text_words": 75611,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

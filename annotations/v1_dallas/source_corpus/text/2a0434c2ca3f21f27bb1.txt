@@ -1,0 +1,1523 @@
+Abstract
+Prevention is critical to optimizing health, yet most people do not receive all recommended preventive services. As the complexity of preventive recommendations increases, there is a need for new measurements to capture the degree to which a person is up to date, and identify individual-level barriers and facilitators to receiving needed preventive care. We used electronic health record data from a national network of community health centers (CHCs) in the United States (US) during 2014–2017 to measure patient-level up-to-date status with preventive ratios (measuring up-to-date person-time denoted as a percent) for 12 preventive services and an aggregate preventive index. We use negative binomial regression to identify factors associated with up-to-date preventive care. We assessed 267,767 patients across 165 primary care clinics. Mean preventive ratios ranged from 8.7% for Hepatitis C screening to 83.3% for blood pressure screening. The mean aggregate preventive index was 43%. Lack of health insurance, smoking, and homelessness were associated with lower preventive ratios for most cancer and cardiovascular screenings (p<0.05). Having more ambulatory visits, better continuity of care, and enrollment in the patient portal were positively associated with the aggregate preventive index (p<0.05) and higher preventive ratios for all services (p<0.05) except chlamydia and HIV screening. Overall, receipt of preventive services was low. CHC patients experience many barriers to receiving needed preventive care, but certain healthcare behaviors – regular visits, usual provider continuity, and patient portal enrollment – were consistently associated with more up-to-date preventive care. These associations should inform future efforts to improve preventive care delivery.
+INTRODUCTION:
+Preventive care is critically important to health. In the US, this widely recognized importance has led to structural supports aimed at improving preventive service utilization, including Affordable Care Act (ACA)-mandated insurance coverage without out-of-pocket cost for Medicare and Marketplace plans1 and widespread use of performance-based reimbursement metrics for preventive care identified by National Quality Forum, National Committee for Quality Assurance, and others.2,3 With increasing complexity of guidelines4 and performance-based reimbursement in primary care, it is critical to accurately measure preventive care delivery and understand barriers and facilitators to receipt of preventive care.
+Preventive care is greatly underutilized – slightly over half of recommended services in the US are estimated to be received.5–7 Consistently, the literature shows disparities in care by race/ethnicity, preferred language, gender, age, and income.8–11 In particular, having stable health insurance and/or having a usual source of care is consistently associated with better receipt of preventive care,12–14 while individuals who have limited access to health care receive less recommended preventive care. Individual health characteristics also seem to impact receipt of care, though studies of obesity, smoking, and mental and physical comorbidity are mixed.15–18 Similarly, clinic factors such as presence of prompts to remind providers to order preventive care and care coordination are associated with better delivery of preventive care.15,19 To adequately improve receipt of preventive care and address systematic barriers preventing individuals from receiving it, it will be important to consider preventive care delivery as a whole, rather than strictly as individual services. Further, it is critical to examine the barriers to preventive care among populations presumed to be at high risk of care disruption, such as patients of community health centers (CHCs) and other safety net clinics (sites that provide primary care for individuals who may otherwise experience barriers to receiving care).
+The electronic health record (EHR) provides opportunities to track delivery of preventive care accurately and include populations (such as individuals without health insurance coverage) that are sometimes missed in health services research. Previously, assessment of preventive care utilization has often relied on self-report from surveys or claims data. Respectively, these data sources are limited by recall bias and inability to track care among patients without insurance. Though EHR data may miss some preventive care, previous work has demonstrated good concordance between EHR data, manual chart review, and health insurance claims data.20
+Detailed data from the EHR also provide an opportunity to capture nuance in the timing of care delivery. Prior studies have used estimates to determine when preventive care is needed (for example, asking if screening was delivered at all, not whether it was delivered on time and repeated at the appropriate intervals). Newer aggregate measures of preventive care, like care gap ratios measure the presence of gaps in receipt of recommended preventive care.18,21 Preventive ratios go one step further to measure the total person-time an individual is up to date with a particular service over the total person-time an individual is due for that service, capturing details about screening intervals. Further, these ratios can be aggregated into a singular preventive index measuring the degree to which an individual is up to date with all recommended preventive care.13,22,23 As delivery of preventive care becomes more complex and clinics work to improve multiple metrics at once, aggregate measurements like this may help clinics and researchers identify meaningful trends in preventive service delivery that reflect big picture changes in care.
+We used EHR data from a large national network of CHCs to measure receipt of preventive care using preventive ratios and an aggregate preventive index, and identify patient-level factors associated with receipt of needed preventive care.
+METHODS:
+This project was a retrospective longitudinal cohort study of patients who visited a primary care clinic within the OCHIN (not an acronym) network of CHCs during a four-year study period, January 1, 2014 – December 31, 2017. Preventive ratios (time up to date with a preventive service / time due for a preventive service) were calculated for 12 preventive services as well as an aggregate preventive index to serve as a measure of overall receipt of needed preventive care.
+Study population and data source:
+OCHIN is a nonprofit organization that provides a fully hosted instance of the Epic® EHR to CHCs and other safety net clinics.24–26 EHR data are managed centrally at OCHIN, including regular validation and cleaning. Clinics (N=165) were located in 13 states from all major geographic regions of the U.S. and were included if they were active on the OCHIN EHR for the entire study period and provided primary care. Included patients were non-pregnant adults with ≥1 primary care visit within the OCHIN network during the study period (2014–2017) and during a two-year baseline period (2012–2013) to ensure some historical health records were available for all participants during the study period.
+Outcome Variables:
+The primary outcome was receipt of preventive care – measured by preventive ratios for 12 preventive services and an unweighted aggregate preventive index. A preventive ratio is the total person-time an individual is up to date for a particular preventive service, divided by the total person-time they are due for that service. This calculation results in a percentage of time up to date for a preventive service which ranges from 0–100%, where 0% represents not receiving a service that was due for the entire study period and 100% represents being completely up to date for the entire study period. We also calculated an aggregate preventive index to measure the degree to which an individual is up to date with all recommended preventive care. This index is an unweighted average of the preventive ratios for each service and reflects the aggregate degree to which an individual is up to date with all recommended preventive care. Preventive ratios and aggregate preventive indices were developed in managed care22,23 and we have previously used them to measure preventive care in the safety net population.13 The 12 preventive services measured included USPSTF grade A and B recommended preventive services which could be readily measured in the EHR.27,28 The USPSTF is an independent panel of experts that performs systematic literature review for a large number of health services and provides recommendations on an A-D scale, where level A and B recommendations have high certainty that the net benefit of the service is moderate or substantial, and therefore the service is recommended.29 For each measure, we identified individuals due for screening based on sex, age, and comorbidity as specified in USPSTF guidelines. For individual measures, we excluded patients for whom the screening was not recommended based on special circumstances (e.g., women with a history of total hysterectomy were excluded from cervical cancer screening); see Appendix Table 1 for complete measure specifications.
+Services were recorded as ‘received’ if the service had been ‘resulted’ within the EHR. Resulted services were identified through procedure codes, diagnosis codes, lab/imaging/scanned results, active problem lists, and longitudinal ‘health maintenance’ records. Inclusion of data from longitudinal health maintenance records allowed for inclusion of services that patients or staff noted to have been received outside the OCHIN clinical network. In OCHIN’s EHR, services that are ordered by primary care providers, but performed outside the CHC (e.g., colonoscopy) can be documented as received directly in a result, or indirectly within health maintenance records. Services that were ordered but not verified as received were not counted as completed. Previous assessment of preventive service data within the OCHIN network shows good agreement between automated EHR data extraction, chart review, and claims data, though agreement varies some by type of service.20,30
+Independent Variables:
+We obtained patient-level characteristics from EHR data during the study period with selection guided by the Aday-Andersen Behavioral Model of health care utilization,31 previous studies, and availability within the EHR. Variables included: sex, race/ethnicity, rurality of patient residence (based on rural-urban commuting area codes at the ZIP code level), household income (dichotomized as <138% of the Federal Poverty Limit [FPL] vs ≥138% FPL as this reflects eligibility for public health insurance in the US), lack of health insurance at any visit during the study period, obesity [defined as body mass index (BMI)≥30 or weight >250 pounds for patients without documented height], homelessness at any point during the study period, enrollment in EHR patient portal (i.e., Epic MyChart, an online application for secure healthcare communication between patients and clinicians), smoking status (current/former/never), number of visits within the 4-year study period, Charlson Comorbidity Index (CCI)—a weighted index of comorbid health conditions where higher index is associated with higher mortality32, and Usual Provider Continuity (UPC) Index—a ratio of number of visits with primary care provider over number of total visits.33 Because number of visits was conceptualized to be associated with both health insurance status and comorbidity, we assessed interaction terms for health insurance and number of visits as well as CCI and number of visits.
+Analysis:
+Because the preventive ratio is defined by a numerator (total person-time covered for a particular preventive service) divided by a denominator (total person-time due for a particular service), we used negative binomial regression to examine relationships between patient characteristics and preventive ratios for each preventive service.34 The negative binomial regression model was preferred over a Poisson model because it accounts for over-dispersion while avoiding standard error estimates that might otherwise be underestimated.35
+For each preventive outcome, we first conducted univariable analysis to identify independent variables that were consistently associated with receipt of preventive services. Analysis of aggregate preventive index was stratified by age because different age groups have different quantities of recommended preventive services.36 Multivariable models were created for each preventive outcome, and included all independent variables as they were all associated with the preventive outcomes. Models were the same for each preventive outcome, with the exception of exclusion of sex and smoking status for outcomes, in which these characteristics were part of criteria for screening indication (e.g., abdominal aortic aneurysm screening is only recommended among patients who smoke or have smoked). Finally, we performed multivariable modeling using the aggregate preventive index, and these results are reported stratified by age. These models also included interaction terms for health insurance X number of ambulatory visits as well as CCI X number of ambulatory visits in the age strata for which they achieved significance. Statistical significance was defined as p<0.05.
+All analyses were conducted using SAS software, version 9.4 (SAS Institute Inc., Cary, NC, USA). This study was approved by the Institutional Review Board at Oregon Health & Science University (IRB00009862).
+RESULTS:
+Receipt of preventive care was assessed for 267,767 patients across 165 clinics. Because OCHIN is a network of safety net clinics, the majority (63%) of patients were from households below 138% of the FPL, 35% of patients had at least 1 uninsured visit during the study period, and nearly 8% of patients experienced homelessness during the study period (Table 1).
+Table 1.
+| Patient Characteristics | N | % | 
+|---|---|---|
+| Sex |  |  | 
+| Male | 108,098 | 40.4 | 
+| Female | 159,669 | 59.6 | 
+| Race/Ethnicity |  |  | 
+| Asian and Pacific Islander | 8,265 | 3.1 | 
+| Black | 38,219 | 14.3 | 
+| Hispanic | 61,862 | 23.1 | 
+| Non-Hispanic White | 153,339 | 57.3 | 
+| Other/Unknown | 6,082 | 2.3 | 
+| Residential location |  |  | 
+| Rural | 79,431 | 29.7 | 
+| Urban | 188,336 | 70.3 | 
+| Household income |  |  | 
+| <138%FPL | 168,120 | 62.8 | 
+| ≥138%FPL | 38,848 | 14.5 | 
+| Missing | 60,799 | 22.7 | 
+| Health insurance |  |  | 
+| ≥1 uninsured visit | 94,779 | 35.4 | 
+| No uninsured visits | 172,988 | 64.6 | 
+| Obesity |  |  | 
+| Obese | 106,671 | 39.8 | 
+| Not obese | 161,096 | 60.2 | 
+| Housing Status |  |  | 
+| Homeless | 20,974 | 7.8 | 
+| Not homeless | 246,793 | 92.2 | 
+| Smoking Status |  |  | 
+| Current | 70,732 | 26.4 | 
+| Former | 54,080 | 20.2 | 
+| Never | 132,790 | 49.6 | 
+| Unknown | 10,165 | 3.8 | 
+| Charlson Comorbidity Index |  |  | 
+| 0 to 5 | 245,230 | 91.6 | 
+| ≥6 | 22,537 | 8.4 | 
+| Healthcare utilization characteristics |  |  | 
+| Patient Portal |  |  | 
+| Enrolled | 62,595 | 23.4 | 
+| Not Enrolled | 205,172 | 76.6 | 
+| Number of Ambulatory Visits |  |  | 
+| 1 to 3 | 71,530 | 26.7 | 
+| 4 to 10 | 90,253 | 33.7 | 
+| ≥11 | 105,984 | 39.6 | 
+| Usual Provider Continuity Index |  |  | 
+| 0 | 45,424 | 17.0 | 
+| 0.01 to 0.49 | 61,050 | 22.8 | 
+| 0.50 to 0.99 | 121,166 | 45.3 | 
+| 1 | 40,127 | 15.0 | 
+The degree to which patients were up to date with preventive care varied widely with preventive index ranging from 0–100% -- meaning that some patients received no preventive screenings and others received all needed preventive screenings on time. The mean aggregate preventive index for the population was 43% (SD=19.2). Stratified by age, the oldest group (which was due for fewer services) had a slightly higher preventive index (56%) compared to the full population. The overall mean preventive ratios for each service ranged from 8.7% for Hepatitis C screening to 83.3% for blood pressure screening (Table 2).
+Table 2.
+| Mean Preventive Ratio | Standard Deviation | Mean Preventive Ratio | Standard Deviation | Mean Preventive Ratio | Standard Deviation | Mean Preventive Ratio | Standard Deviation |  | 
+|---|---|---|---|---|---|---|---|---|
+| Cancer screen |  |  |  |  |  |  |  |  | 
+| Breast Cancer | 41.5 | 38.0 | n/a | n/a | 41.5 | 38.0 | n/a | n/a | 
+| Cervical Cancer | 51.9 | 40.8 | 52.0 | 39.8 | 51.9 | 41.6 | n/a | n/a | 
+| Colorectal Cancer | 36.8 | 40.7 | n/a | n/a | 36.8 | 40.7 | n/a | n/a | 
+| Cardiovascular health screenings: |  |  |  |  |  |  |  |  | 
+| Abdominal Aortic Aneurism | 15.0 | 32.5 | n/a | n/a | 15.0 | 32.5 | n/a | n/a | 
+| Blood Pressure | 83.3 | 25.0 | 94.3 | 16.8 | 76.5 | 26.8 | 81.2 | 25.1 | 
+| Diabetes | 52.6 | 35.9 | 35.6 | 38.5 | 55.0 | 34.9 | n/a | n/a | 
+| Lipid | 75.2 | 39.2 | 51.3 | 46.5 | 77.9 | 37.2 | 79.8 | 36.6 | 
+| Infectious disease screenings: |  |  |  |  |  |  |  |  | 
+| Chlamydia | 26.3 | 32.6 | 26.3 | 32.6 | n/a | n/a | n/a | n/a | 
+| Hepatitis C | 8.7 | 26.3 | n/a | n/a | 8.7 | 26.3 | n/a | n/a | 
+| HIV | 13.5 | 33.3 | 19.2 | 38.4 | 9.3 | 28.3 | n/a | n/a | 
+| Behavioral health screenings: |  |  |  |  |  |  |  |  | 
+| Depression | 24.8 | 25.6 | 21.0 | 23.9 | 27.3 | 26.5 | 24.3 | 24.1 | 
+| Substance Abuse | 29.8 | 30.5 | 23.8 | 27.5 | 33.1 | 31.5 | 36.5 | 33.0 | 
+| Aggregate Preventive Ratio* | 43.0 | 19.2 | 41.9 | 16.9 | 42.9 | 20.0 | 56.2 | 21.8 | 
+Aggregate preventive ratio is a non-weighted average of each recommended preventive screening for an individual’s age, sex, and health characteristics
+n/a: Screening not applicable because it is not recommended in this age group
+Univariable and multivariable models for each preventive service are reported in the Appendix, Tables 2a–2l and 3a–3l, respectively. To succinctly summarize the data and highlight the directionality of observed associations between patient characteristics and receipt of individual preventive services, data are summarized in Table 3 to indicate a positive (+) or negative (−) association of statistical significance (p<0.05) based on the multivariable models. Blank cells denote the absence of a statistically significant relationship (p≥0.05). Multivariable models summarized in Table 3 show that most patient characteristics were associated with receipt of some, but not all preventive services, and there were a few consistent patterns in these associations. Identifying as Asian/Pacific Islander or Hispanic was associated with being more up to date in 7 of 12 domains including screening for breast and cervical cancer, diabetes, and hyperlipidemia. Having one or more uninsured visit during the study period was negatively associated with up-to-date rates of most preventive services, including all cancer screenings (p<0.05). Though homelessness was negatively associated with being up to date with cancer and cardiovascular screenings, it was associated with higher up-to-date rates of Hepatis C screening (p<0.05). Similarly, current smoking status was associated with lower rates of being up to date for all cancer and cardiovascular screenings, but was associated with higher up-to-date rates for Hepatitis C, HIV, and depression (p<0.05). All three patient-level healthcare utilization measures (UPC index, number of ambulatory visits, enrollment in patient portal) were associated with significantly higher up-to-date screening rates (p<0.05) for all services except for chlamydia and HIV screenings.
+Table 3.
+|  | Preventive Services |  |  |  |  |  |  |  |  |  |  |  | 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|  | Cancer Screenings |  |  | Cardiovascular Screenings |  |  |  | Infectious Disease Screenings |  |  | Behavioral Health Screenings |  | 
+|  | Breast Cancer | Cervical Cancer | Colorectal Cancer | Abdominal Aortic Aneurysm | Blood Pressure | Diabetes | Lipid | Chlamydia | Hepatitis C | HIV | Depression | Substance Use | 
+| Patient Characteristics |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Sex (ref female) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Male | n/a | n/a |  | n/a |  | + |  | n/a | + | − | − | + | 
+| Race (ref Non-Hispanic, white) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Asian/Pacific Islander | + | + |  |  | + | + | + |  | + |  | − | + | 
+| Black |  |  |  |  |  | + | + | + |  | + |  |  | 
+| Hispanic | + | + |  |  |  | + | + |  | + | + |  | + | 
+| Other | − |  |  |  |  |  |  |  |  |  |  |  | 
+| Residential location (ref urban) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Rural | + |  | + |  | + | − | − | − |  |  | − |  | 
+| Household income (ref ≥138% FPL) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| <138% FPL | − | − | − |  | − |  |  |  | + | + |  |  | 
+| Health insurance (ref 0 uninsured visits) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| ≥1 uninsured visits | − | − | − | − | − |  | − |  |  |  |  | − | 
+| Obesity (ref not obese) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Obese | − | − | − |  | − | + | + | − | − | − | + | + | 
+| Housing status (ref not homeless) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Homeless | − |  | − |  | − | − |  | − | + |  |  |  | 
+| Smoking status (ref never smoker) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Current smoker | − | − | − | n/a | − | − | − |  | + | + | + |  | 
+| Former smoker |  |  |  |  | − | − |  |  | + | + | + |  | 
+| Charlson Comorbidity Index (ref 0–5) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| ≥6 |  |  | + |  | − | + | + |  | + | + | + |  | 
+| Age (years, continuous) | + | − | + | + | − | + | + | + | − | − |  |  | 
+| Healthcare Utilization Characteristics |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Patient portal (ref not enrolled) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Enrolled in patient portal | + | + | + | + | + | + | + | + | + |  | + | + | 
+| Number of ambulatory visits (ref 1–3) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| 4–10 visits | + | + | + | + | + | + | + | + | + |  | + | + | 
+| ≥11 visits | + | + | + | + | + | + | + | + | + | + | + | + | 
+| Usual Provider Continuity Index (ref 0) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| 0.01 to 0.49 | + | + | + | + | + | + | + |  | + |  | + | + | 
+| 0.50 to 0.99 | + | + | + | + | + | + | + |  | + |  | + | + | 
+| 1 | + | + | + | + | + | + | + |  | + |  | + | + | 
+indicates positive association in multivariable model with p-value <0.05, complete model including incidence rate ratios, confidence intervals, and p-values included in the appendix (Tables 2a–2l)
+indicates negative association in multivariable model with p-value <0.05
+blank box indicates no statistically significant relationship in the multivariable model
+HIV=Human Immunodeficiency Virus; FPL=Federal Poverty Limit
+n/a=Not applicable because the screening is not recommended in this group and/or the characteristic is a criterion for screening indication
+The aggregate preventive index was associated with several individual patient characteristics (Table 4). Identifying as Hispanic was significantly associated with higher preventive index among younger and middle age groups (RR 1.10 and 1.11, respectively) but the association did not achieve statistical significance among older adults. Patient-level healthcare utilization characteristics (UPC index and patient portal enrollment) were consistently associated with a higher preventive index and these associations showed larger magnitude of effect and achieved statistical significance across all age groups (p<0.05). The interaction term for ambulatory visits (‘visits’) X health insurance was significant in the strata for younger and middle age patients. Having more visits was associated with higher preventive index and the magnitude of this effect was similar regardless of insurance status – for uninsured patients, RR 1.24 (1.22–1.26) and RR 1.47 (1.44–1.50) for 4–10 visits and ≥11 visits compared to 0–3 visits; and for insured patients, RR 1.21 (1.19–1.23) and RR 1.46 (1.43–1.49) for 4–10 visits and ≥11 visits compared to 0–3 visits. An interaction term did not achieve significance in the model for older adults, but lack of health insurance and number of visits were independently associated with lower (RR 0.96, 0.93–0.99) and higher (RR 1.61, 1.54–1.68 for 4–10 visits; and RR 2.13, 2.04–2.23 for ≥11 visits) preventive indices, respectively. Similarly, among patients in the middle age stratum, the interaction term between Charlson Comorbidity Index X number of visits was significant – having more visits was positively associated with higher preventive index among patients regardless of their level of comorbidity.
+Table 4.
+|  | Age 19–39 (N=99,805) |  |  |  | Ages 40–75 (N=158,199) |  |  |  | Ages 76+ (N=9,763) |  |  |  | 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|  | RR* | 95% confidence interval |  | P-value | RR* | 95% confidence interval |  | P-value | RR* | 95% confidence interval |  | P-value | 
+| Patient Characteristics |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Sex |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Female | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| Male | 0.95 | 0.93 | 0.97 | <0.01 | 1.00 | 0.99 | 1.01 | 0.86 | 0.99 | 0.97 | 1.00 | 0.08 | 
+| Race/Ethnicity |  |  |  |  |  |  |  |  |  |  |  |  | 
+| White, Non-Hispanic | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| Asian/Pacific Islander | 1.01 | 0.98 | 1.04 | 0.65 | 1.09 | 1.05 | 1.13 | <0.01 | 1.04 | 1.00 | 1.09 | 0.07 | 
+| Black | 1.06 | 1.00 | 1.13 | 0.06 | 1.06 | 0.99 | 1.13 | 0.07 | 1.03 | 0.98 | 1.08 | 0.26 | 
+| Hispanic | 1.10 | 1.07 | 1.14 | <0.01 | 1.11 | 1.08 | 1.14 | <0.01 | 1.01 | 0.97 | 1.04 | 0.79 | 
+| Other | 0.98 | 0.95 | 1.01 | 0.29 | 0.99 | 0.97 | 1.01 | 0.21 | 1.01 | 0.95 | 1.07 | 0.83 | 
+| Rurality |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Urban | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| Rural | 0.96 | 0.92 | 1.00 | 0.03 | 0.99 | 0.95 | 1.02 | 0.47 | 0.99 | 0.93 | 1.06 | 0.82 | 
+| Household Income |  |  |  |  |  |  |  |  |  |  |  |  | 
+| ≥138%FPL | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| <138%FPL | 1.00 | 0.98 | 1.01 | 0.65 | 0.99 | 0.97 | 1.01 | 0.25 | 1.02 | 0.99 | 1.06 | 0.18 | 
+| Missing | 0.91 | 0.87 | 0.96 | <0.01 | 0.92 | 0.88 | 0.96 | <0.01 | 0.97 | 0.91 | 1.04 | 0.45 | 
+| Health insurance |  |  |  |  |  |  |  |  |  |  |  |  | 
+| No uninsured visit | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| ≥1 uninsured visit | 0.98 | 0.96 | 0.99 | <0.01 | 0.94 | 0.92 | 0.96 | <0.01 | 0.96 | 0.93 | 0.99 | <0.01 | 
+| Obesity |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Non-Obese | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| Obese | 1.01 | 1.00 | 1.02 | 0.13 | 1.04 | 1.04 | 1.05 | <0.01 | 1.04 | 1.03 | 1.06 | <0.01 | 
+| Housing status |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Not Homeless | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| Homeless | 1.01 | 0.98 | 1.03 | 0.69 | 0.97 | 0.93 | 1.00 | 0.08 | 0.98 | 0.94 | 1.03 | 0.46 | 
+| Smoking Status |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Never | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| Current | 1.02 | 1.01 | 1.03 | <0.01 | 0.94 | 0.93 | 0.96 | <0.01 | 1.00 | 0.97 | 1.03 | 0.86 | 
+| Former | 1.04 | 1.03 | 1.05 | <0.01 | 1.00 | 0.99 | 1.01 | 0.64 | 1.00 | 0.98 | 1.02 | 0.95 | 
+| Unknown | 0.79 | 0.75 | 0.82 | <0.01 | 0.73 | 0.68 | 0.78 | <0.01 | 0.68 | 0.61 | 0.76 | <0.01 | 
+| Charlson Comorbidity Index (CCI) |  |  |  |  |  |  |  |  |  |  |  |  | 
+| 0–5 | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| ≥6 | 1.02 | 0.99 | 1.06 | 0.17 | 1.08 | 1.05 | 1.10 | <0.01 | 1.00 | 0.98 | 1.02 | 0.86 | 
+| Age in years | 1.00 | 1.00 | 1.00 | 0.83 | 1.00 | 1.00 | 1.00 | <0.01 | 0.99 | 0.99 | 0.99 | <0.01 | 
+| Healthcare Utilization Characteristics |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Patient Portal |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Not enrolled | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| Enrolled | 1.08 | 1.05 | 1.10 | <0.01 | 1.11 | 1.10 | 1.12 | <0.01 | 1.03 | 1.00 | 1.05 | 0.05 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  |  |  |  |  |  | 
+| 1–3 visits | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| 4–10 visits | 1.22 | 1.21 | 1.24 | <0.01 | 1.56 | 1.52 | 1.60 | <0.01 | 1.61 | 1.54 | 1.68 | <0.01 | 
+| ≥11 visits | 1.47 | 1.44 | 1.49 | <0.01 | 2.13 | 2.07 | 2.19 | <0.01 | 2.13 | 2.04 | 2.23 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  |  |  |  |  |  | 
+| 0 | ref |  |  |  | ref |  |  |  | ref |  |  |  | 
+| 0.01 to 0.49 | 1.17 | 1.14 | 1.20 | <0.01 | 1.43 | 1.39 | 1.47 | <0.01 | 1.44 | 1.34 | 1.55 | <0.01 | 
+| 0.50 to 0.99 | 1.19 | 1.15 | 1.22 | <0.01 | 1.54 | 1.49 | 1.59 | <0.01 | 1.56 | 1.43 | 1.71 | <0.01 | 
+| 1 | 1.10 | 1.07 | 1.13 | <0.01 | 1.45 | 1.38 | 1.53 | <0.01 | 1.52 | 1.39 | 1.66 | <0.01 | 
+| Interaction terms |  |  |  |  |  |  |  |  |  |  |  |  | 
+| Health Insurance X Ambulatory visits |  |  |  |  |  |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit, 1–3 visits | ref |  |  |  | ref |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit, 4–10visits | 1.24 | 1.22 | 1.26 | <0.01 | 1.58 | 1.53 | 1.62 | <0.01 |  |  |  |  | 
+| ≥1 uninsured visit, ≥11 visits | 1.47 | 1.44 | 1.50 | <0.01 | 2.18 | 2.09 | 2.27 | <0.01 |  |  |  |  | 
+| No uninsured visit, 1–3 visits | ref |  |  |  | ref |  |  |  |  |  |  |  | 
+| No uninsured visit, 4–10 visits | 1.21 | 1.19 | 1.23 | <0.01 | 1.55 | 1.50 | 1.59 | <0.01 |  |  |  |  | 
+| No uninsured visit, ≥11 visits | 1.46 | 1.43 | 1.49 | <0.01 | 2.08 | 2.03 | 2.14 | <0.01 |  |  |  |  | 
+| CCI X Ambulatory visits |  |  |  |  |  |  |  |  |  |  |  |  | 
+| CCI 0–5, 1–3 visits |  |  |  |  | ref |  |  |  |  |  |  |  | 
+| CCI 0–5, 4–10 visits |  |  |  |  | 1.65 | 1.61 | 1.69 | <0.01 |  |  |  |  | 
+| CCI 0–5, ≥11 visits |  |  |  |  | 2.17 | 2.11 | 2.24 | <0.01 |  |  |  |  | 
+| CCI ≥6, 1–3 visits |  |  |  |  | ref |  |  |  |  |  |  |  | 
+| CCI ≥6, 4–10 visits |  |  |  |  | 1.48 | 1.43 | 1.53 | <0.01 |  |  |  |  | 
+| CCI ≥6, ≥11 visits |  |  |  |  | 2.09 | 2.02 | 2.17 | <0.01 |  |  |  |  | 
+Aggregate preventive index: Unweighted average of preventive ratios from 12 preventive services including: Abdominal Aortic Aneurysm Screening, Colorectal Cancer Screening, Cervical Cancer Screening, Breast Cancer Screening, Diabetes Screening, Lipid Screening, Blood Pressure Screening, Depression Screening, Substance Use Screening, HIV screening, Hepatitis C Screening, and Chlamydia Screening
+RR=Rate Ratio; FPL=Federal Poverty Level
+DISCUSSION:
+Individual patient factors significantly impacted the degree to which CHC patients receive and keep up to date with preventive care. In particular, having continuous health insurance, having continuity of care with a primary care provider, having more ambulatory visits, and enrolling in an EHR-based patient portal were consistently associated with better receipt of preventive care across age groups and types of services. This is consistent with prior studies showing that both health insurance and a usual source of care are critical to improving health,12,14 and a recent review that demonstrated improvement in receipt of preventive care among users of a patient portal.37 The positive association between having health insurance and more up-to-date receipt of preventive care was true both for services with an associated additional charge (beyond care received in the context of an office visit), such as mammography, and services routinely included in an office visit with no additional charge, such as depression and blood pressure screening. This highlights the role of health insurance gaps as a significant barrier to receiving recommended preventive care.
+The finding that higher visit frequency was associated with more up-to-date receipt of preventive care is intuitive (as there are more opportunities) and supports the concept of regular clinic visits to complete needed health screenings. Even modest utilization of primary care (4–10 visits over the study period which equates to 1–2 visits per year) was strongly associated with better up-to-date status of preventive care. This is consistent with previous studies that have shown value of a regular preventive visit in completing needed preventive services.38,39 Though higher visit frequency was associated with comorbidity and with insurance coverage, the association between more visits and more complete receipt of preventive care persisted at high and low levels of comorbidity and among patients who were both insured and uninsured. This latter finding may be related to the unique structure of CHCs which provide care to patients regardless of insurance status and ability to pay.
+While these associations were seen consistently across age strata, other factors, such as race, homelessness, and comorbidity were only significantly associated with more up-to-date prevention in some age strata. This may be related to unmeasured barriers, as well as differences in acceptability of the preventive service and barriers among certain subgroups, and warrants additional study.
+Some services were more complete among individuals who may have had higher perceived or actual risk of the screening condition– for example, obesity was positively associated with screening for diabetes and hyperlipidemia, and homelessness was associated with more screening for HIV, Hepatitis C, and substance use. While current and former smoking status was associated with better screening for some conditions (Hepatitis C, HIV, and depression), being a smoker was associated with lower screening rates for all cancers (cervical, breast, and colorectal). For individuals who smoke, this trend toward lower cancer screening rates has been shown elsewhere40 and is concerning because of the population’s higher risk for many types of cancer. More research is needed to assess population-specific barriers to cancer screening in this group.
+The aggregate preventive index of 43% demonstrates an overall low rate of preventive service utilization among CHC patients. Though a direct comparison to national screening rates outside of CHCs is difficult with different methodology, the value found in this study is similar to other assessments of preventive service utilization among American adults.13,18,41,42 Hepatitis C screening had the lowest up-do-date rate, likely because of the newness of this recommendation (USPSTF released this recommendation in 2013), while the higher up-to-date rate for blood pressure screening is likely related to the standardization of this assessment during routine ambulatory visit workflows.
+Still, it is clear that there is room for improvement in the delivery of preventive care and this study highlights some starting points. First and foremost, stable health insurance, a usual source of primary care, and regular visits were strongly and consistently associated with better receipt of preventive care. Future interventions should prioritize improving care access and continuity, even in the primary care safety net where there may be fewer perceived barriers to accessing care. Further, some populations may experience inordinate barriers to preventive care and this may be related to the characteristics and acceptability of the preventive service or the ways in which the care is recommended. More study is needed to develop and assess strategies to improve care among vulnerable populations. Finally, utilization of a patient portal may be a promising strategy to improve engagement with preventive care and warrants additional study, particularly among vulnerable populations like those seeking care in the safety net who may have more limited access to technology.
+Limitations:
+Findings from this study are limited to the patients that visited CHCs within the OCHIN network and may not be reflective of the broader population of patients at safety net clinics or to the population at large. The measured preventive outcomes in the EHR are limited to those received within the OCHIN network or documented explicitly in a patient’s history. Prior studies have shown good agreement between these outcomes in the EHR compared to insurance claims and chart review, but it is possible that the EHR misses some services received elsewhere. This misclassification may impact some services, like colonoscopy that are more likely to be received outside of CHCs, more than others like diabetes screening that can be more easily completed onsite.
+EHR data have the advantage of standardization and being free from typical recall biases. While most fields (e.g., race/ethnicity) are nearly complete, some fields (e.g., household income) have more missing data and this may be more common at particular health centers or within certain populations. This makes it difficult to know if observations between preventive outcomes and missing/unknown categories reflect individual differences or differences in data collection, but likely reflect confounding from unmeasured factors.
+During the study period, the EHR field for sex included only male/female options. Another field is available for gender which includes ‘transgender’ and ‘other’ categories but it was not widely enough populated to be used for analysis. The receipt of preventive services among people with gender-diverse identities is an important topic for future study.
+CONCLUSIONS:
+Overall, receipt of preventive services was low. CHC patients experience many barriers to receiving preventive care, but certain individual factors – regular visits, usual provider continuity, stable health insurance, and patient portal enrollment – were consistently associated with more up-to-date preventive care. This finding calls for timely development and assessment of interventions addressing these factors in the pursuit of more comprehensive preventive care delivery. CHCs provide the frontline of primary care to Americans with limited resources and provide a critical access point for these preventive services.
+Highlights.
+- Many adult patients at US health centers do not receive timely preventive care
+- A preventive index measures aggregate receipt of preventive services over time
+- Primary care visits and care continuity are linked to more complete preventive care
+- Using an electronic patient portal is associated with more complete preventive care
+- Community health centers provide critical access to preventive care in the US
+ACKNOWLEDGEMENTS:
+This work was supported by the Agency for Healthcare Research and Quality (grant number R01HS025155), the National Cancer Institute (grant numbers R01CA204267 and R01CA181452), the National Heart, Lung, and Blood Institute (grant number R01HL136575), and these study supporters did not have a role in the collection, analysis, or interpretation of data; nor in the writing or decision to submit this report for publication.
+APPENDIX:
+Appendix Table 1.
+| Servicea | Inclusion Criteria | Exclusion Criteria | Interval | Test | 
+|---|---|---|---|---|
+| Breast cancer screening | Female, and Age 50–74 | History of bilateral mastectomy | 2 years | Mammography | 
+| Cervical cancer screening | Female, and Age 21–65 | History of hysterectomy | 3 years (cytology alone) 5 years (age 30–65 + co-testing with HPV) | PAP or PAP+HPV | 
+| Colorectal cancer screening | Age 50–75 | None | 1 year (occult) 5 years (sigmoid) 10 years (colonoscopy) | Fecal occult Sigmoidoscopy Colonoscopy | 
+| Blood pressure screening | Age ≥19 | None | 5 years (age 19–39) Annually (age 40+) | Blood pressure | 
+| Diabetes screening | Age 40–70, and overweightb | None | Annually | A1c Fasting glucose Glucose tolerance test | 
+| Lipid screening | Female: age ≥45, and increased risk (diabetes, CAD, PVD, AAA, carotid stenosis, tobacco, HTN, obesity) Male: age ≥35 | None | 5 years | Lipid panel Direct LDL | 
+| Abdominal aortic aneurysm (AAA) screening | Male, and Age ≥65, and Current or ever smoker | None | Once | Aortic Ultrasound | 
+| Chlamydia screening | Female, and Age <25, and Indication of sexual activityc | None | Annually | Urine GC/CT GC/CT swab GC/CT culture | 
+| Hepatitis C screening | Date of birth 1945–1965 | Prior diagnosis of hepatitis C | Once | Hepatitis C Ab | 
+| HIV screening | Age 19–65 | Prior diagnosis of HIV | Once | HIV Ab, Rapid HIV, HIV RNA | 
+| Depression screening | Age ≥19 | None | Annually | PHQ2/PHQ9 | 
+| Substance use screeninge | Age ≥19 | None | Annually | SBIRT | 
+| Aggregate preventive indexf | Age ≥19 | None | N/A | All of the above | 
+Note: AAA=Abdominal aortic aneurysm; Ab=Antibody; BMI=Body mass index; CAD= coronary artery disease; GC/CT=Gonorrhea/Chlamydia; HIV=Human immunodeficiency virus; HPV=Human papilloma virus; HTN=Hypertension; LDL= low-density lipoprotien; PAP=Papanicolaou test; PVD=peripheral vascular disease; RNA=ribonucleic acid; PHQ2= Patient Health Questionnaire-2; SBIRT=Screening, Brief Intervention, and Referral to Treatment.
+Patients were considered up to date for each preventive services when services were documented as received as opposed to ordered only.
+Overweight identified as BMI>25, weight>220, or active diagnosis of obesity
+Sexual activity was inferred from procedures, diagnoses, lab tests, and medications considered in Meaningful Use reporting to indicate sexually active women, and include history of pregnancy, sexually transmitted disease, and contraceptive devices and medications.
+Substance use screening is captured starting in the 2015 calendar year because 2014 was the first full year for which substance screening history was available in OCHIN’s electronic health record.
+Appendix Table 2a:
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.50 | 1.09 | 2.08 | 0.01 | 0.23 | 0.17 | 0.31 | 
+| Black | 0.82 | 0.55 | 1.22 | 0.32 | 0.12 | 0.08 | 0.18 | 
+| Hispanic | 1.12 | 0.92 | 1.36 | 0.26 | 0.17 | 0.14 | 0.20 | 
+| Other | 0.80 | 0.58 | 1.10 | 0.16 | 0.12 | 0.09 | 0.17 | 
+| White | ref | ref | ref | ref | 0.15 | 0.13 | 0.18 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 1.00 | 0.76 | 1.30 | 0.98 | 0.15 | 0.13 | 0.18 | 
+| Urban | ref | ref | ref | ref | 0.15 | 0.12 | 0.19 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.06 | 0.89 | 1.27 | 0.50 | 0.16 | 0.14 | 0.19 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.15 | 0.13 | 0.18 | 
+| Missing | 0.92 | 0.71 | 1.20 | 0.55 | 0.14 | 0.11 | 0.18 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 0.80 | 0.69 | 0.94 | <0.01 | 0.16 | 0.14 | 0.18 | 
+| No uninsured visit | ref | ref | ref | ref | 0.13 | 0.11 | 0.15 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 1.05 | 0.95 | 1.15 | 0.37 | 0.15 | 0.13 | 0.17 | 
+| Non-Obese | ref | ref | ref | ref | 0.16 | 0.13 | 0.18 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 0.92 | 0.62 | 1.36 | 0.66 | 0.15 | 0.13 | 0.18 | 
+| Not Homeless | ref | ref | ref | ref | 0.14 | 0.09 | 0.21 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.44 | 1.25 | 1.66 | <0.01 | 0.20 | 0.17 | 0.23 | 
+| Not enrolled | ref | ref | ref | ref | 0.14 | 0.12 | 0.16 | 
+| Charlson Comorbidity Index |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.15 | 0.13 | 0.17 | 
+| 6+ | 1.23 | 1.07 | 1.42 | <0.01 | 0.18 | 0.15 | 0.21 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.04 | 0.03 | 0.06 | 
+| 4 to 10 | 2.63 | 2.09 | 3.29 | <0.01 | 0.11 | 0.09 | 0.13 | 
+| 11+ | 5.09 | 3.96 | 6.55 | <0.01 | 0.21 | 0.18 | 0.24 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.03 | 0.02 | 0.05 | 
+| >0 to <0.5 | 4.40 | 2.76 | 7.03 | <0.01 | 0.14 | 0.12 | 0.17 | 
+| ≥0.5 to <1.0 | 5.65 | 3.52 | 9.06 | <0.01 | 0.18 | 0.16 | 0.21 | 
+| 1 | 3.56 | 2.11 | 6.02 | <0.01 | 0.11 | 0.09 | 0.15 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.09 | 1.08 | 1.11 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=65 | ref | ref | ref | ref | 0.13 | 0.11 | 0.15 | 
+| Estimated PR, Age=70 | ref | ref | ref | ref | 0.20 | 0.17 | 0.24 | 
+Note: PR=Preventive Ratio.
+RR=Rate Ratio.
+ref=referent
+Appendix Table 2b:
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.07 | 0.99 | 1.16 | 0.09 | 0.43 | 0.40 | 0.46 | 
+| Black | 0.97 | 0.75 | 1.24 | 0.79 | 0.39 | 0.30 | 0.50 | 
+| Hispanic | 1.23 | 1.14 | 1.34 | <0.01 | 0.49 | 0.46 | 0.53 | 
+| Other | 0.85 | 0.79 | 0.91 | <0.01 | 0.34 | 0.32 | 0.37 | 
+| White | ref | ref | ref | ref | 0.40 | 0.38 | 0.42 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 1.13 | 1.03 | 1.24 | 0.01 | 0.40 | 0.37 | 0.43 | 
+| Urban | ref | ref | ref | ref | 0.45 | 0.42 | 0.48 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 0.93 | 0.86 | 1.00 | 0.05 | 0.40 | 0.38 | 0.43 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.44 | 0.40 | 0.48 | 
+| Missing | 0.99 | 0.89 | 1.09 | 0.76 | 0.43 | 0.39 | 0.47 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 0.90 | 0.84 | 0.96 | <0.01 | 0.43 | 0.40 | 0.46 | 
+| No uninsured visit | ref | ref | ref | ref | 0.39 | 0.35 | 0.42 | 
+| Obese |  |  |  |  |  |  |  | 
+| Obese | 1.09 | 1.05 | 1.12 | <0.01 | 0.40 | 0.38 | 0.42 | 
+| Non-Obese | ref | ref | ref | ref | 0.43 | 0.40 | 0.47 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 0.95 | 0.83 | 1.09 | 0.48 | 0.42 | 0.39 | 0.44 | 
+| Not Homeless | ref | ref | ref | ref | 0.40 | 0.35 | 0.46 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.36 | 1.27 | 1.45 | <0.01 | 0.51 | 0.49 | 0.54 | 
+| Not enrolled | ref | ref | ref | ref | 0.38 | 0.35 | 0.41 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 0.77 | 0.73 | 0.82 | <0.01 | 0.34 | 0.32 | 0.37 | 
+| Former | 1.00 | 0.96 | 1.05 | 0.90 | 0.45 | 0.42 | 0.47 | 
+| Never | ref | ref | ref | ref | 0.45 | 0.42 | 0.48 | 
+| Unknown | 0.48 | 0.42 | 0.54 | <0.01 | 0.21 | 0.19 | 0.24 | 
+| Charlson Comorbidity Index |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.42 | 0.39 | 0.45 | 
+| 6+ | 0.96 | 0.92 | 1.01 | 0.09 | 0.40 | 0.38 | 0.42 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.15 | 0.14 | 0.17 | 
+| 4 to 10 | 2.36 | 2.20 | 2.52 | <0.01 | 0.36 | 0.33 | 0.39 | 
+| 11+ | 3.54 | 3.28 | 3.82 | <0.01 | 0.54 | 0.51 | 0.57 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.16 | 0.13 | 0.20 | 
+| >0 to <0.5 | 2.83 | 2.29 | 3.50 | <0.01 | 0.45 | 0.42 | 0.48 | 
+| ≥0.5 to <1.0 | 3.03 | 2.43 | 3.80 | <0.01 | 0.48 | 0.46 | 0.51 | 
+| 1 | 1.78 | 1.37 | 2.32 | <0.01 | 0.28 | 0.24 | 0.33 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.01 | 1.01 | 1.01 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=40 | ref | ref | ref | ref | 0.35 | 0.33 | 0.38 | 
+| Estimated PR, Age=50 | ref | ref | ref | ref | 0.39 | 0.36 | 0.41 | 
+RR=Rate Ratio
+PR=Preventive Ratio
+Appendix Table 2c.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Sex |  |  |  |  |  |  |  | 
+| Female | ref | ref | ref | ref | 0.85 | 0.84 | 0.86 | 
+| Male | 0.95 | 0.94 | 0.97 | <0.01 | 0.81 | 0.79 | 0.83 | 
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.01 | 0.99 | 1.02 | 0.41 | 0.84 | 0.82 | 0.85 | 
+| Black | 0.97 | 0.91 | 1.03 | 0.35 | 0.81 | 0.76 | 0.86 | 
+| Hispanic | 1.03 | 1.01 | 1.04 | <0.01 | 0.85 | 0.84 | 0.86 | 
+| Other | 1.00 | 0.99 | 1.02 | 0.54 | 0.83 | 0.82 | 0.85 | 
+| White | ref | ref | ref | ref | 0.83 | 0.82 | 0.84 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 1.02 | 1.00 | 1.05 | 0.03 | 0.83 | 0.81 | 0.84 | 
+| Urban | ref | ref | ref | ref | 0.85 | 0.84 | 0.86 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.02 | 1.00 | 1.03 | 0.07 | 0.84 | 0.82 | 0.85 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.82 | 0.81 | 0.84 | 
+| Missing | 1.01 | 0.99 | 1.03 | 0.29 | 0.83 | 0.82 | 0.84 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 1.01 | 1.00 | 1.03 | 0.14 | 0.83 | 0.82 | 0.84 | 
+| No uninsured visit | ref | ref | ref | ref | 0.84 | 0.82 | 0.86 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 1.03 | 1.01 | 1.04 | <0.01 | 0.82 | 0.81 | 0.84 | 
+| Non-Obese | ref | ref | ref | ref | 0.85 | 0.84 | 0.85 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 1.00 | 0.98 | 1.03 | 0.88 | 0.83 | 0.82 | 0.84 | 
+| Not Homeless | ref | ref | ref | ref | 0.83 | 0.81 | 0.86 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.10 | 1.09 | 1.12 | <0.01 | 0.90 | 0.89 | 0.90 | 
+| Not enrolled | ref | ref | ref | ref | 0.81 | 0.80 | 0.83 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 0.97 | 0.96 | 0.98 | <0.01 | 0.83 | 0.82 | 0.84 | 
+| Former | 0.99 | 0.98 | 0.99 | <0.01 | 0.84 | 0.83 | 0.85 | 
+| Never | ref | ref | ref | ref | 0.85 | 0.84 | 0.86 | 
+| Unknown | 0.67 | 0.54 | 0.83 | <0.01 | 0.57 | 0.46 | 0.71 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.83 | 0.82 | 0.85 | 
+| 6+ | 1.00 | 0.98 | 1.02 | 0.86 | 0.83 | 0.82 | 0.85 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.66 | 0.64 | 0.69 | 
+| 4 to 10 | 1.25 | 1.22 | 1.29 | <0.01 | 0.83 | 0.82 | 0.84 | 
+| 11+ | 1.43 | 1.39 | 1.48 | <0.01 | 0.95 | 0.95 | 0.95 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.71 | 0.67 | 0.75 | 
+| >0 to <0.5 | 1.25 | 1.19 | 1.32 | <0.01 | 0.89 | 0.89 | 0.90 | 
+| ≥0.5 to <1.0 | 1.25 | 1.19 | 1.32 | <0.01 | 0.89 | 0.88 | 0.90 | 
+| 1 | 1.00 | 0.95 | 1.06 | 0.97 | 0.71 | 0.70 | 0.73 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.00 | 0.99 | 1.00 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=45 | ref | ref | ref | ref | 0.83 | 0.82 | 0.85 | 
+| Estimated PR, Age=55 | ref | ref | ref | ref | 0.80 | 0.78 | 0.81 | 
+RR=Rate Ratio
+PR=Preventive Ratio
+Appendix Table 2d.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.16 | 1.10 | 1.23 | <0.01 | 0.55 | 0.52 | 0.58 | 
+| Black | 1.05 | 0.94 | 1.17 | 0.42 | 0.50 | 0.44 | 0.56 | 
+| Hispanic | 1.33 | 1.26 | 1.42 | <0.01 | 0.63 | 0.60 | 0.67 | 
+| Other | 0.92 | 0.85 | 1.00 | 0.06 | 0.44 | 0.40 | 0.48 | 
+| White | ref | ref | ref | ref | 0.47 | 0.45 | 0.49 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 0.89 | 0.81 | 0.97 | 0.01 | 0.54 | 0.51 | 0.56 | 
+| Urban | ref | ref | ref | ref | 0.47 | 0.44 | 0.51 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.00 | 0.96 | 1.05 | 0.89 | 0.54 | 0.51 | 0.56 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.53 | 0.50 | 0.57 | 
+| Missing | 0.86 | 0.75 | 0.97 | 0.02 | 0.46 | 0.41 | 0.52 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 1.08 | 1.03 | 1.12 | <0.01 | 0.51 | 0.48 | 0.53 | 
+| No uninsured visit | ref | ref | ref | ref | 0.54 | 0.51 | 0.58 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 1.04 | 1.02 | 1.07 | <0.01 | 0.51 | 0.49 | 0.54 | 
+| Non-Obese | ref | ref | ref | ref | 0.53 | 0.51 | 0.56 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 1.00 | 0.91 | 1.09 | 0.93 | 0.52 | 0.50 | 0.55 | 
+| Not Homeless | ref | ref | ref | ref | 0.52 | 0.47 | 0.57 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.17 | 1.12 | 1.23 | <0.01 | 0.58 | 0.56 | 0.61 | 
+| Not enrolled | ref | ref | ref | ref | 0.50 | 0.47 | 0.53 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 0.88 | 0.84 | 0.92 | <0.01 | 0.48 | 0.46 | 0.50 | 
+| Former | 0.96 | 0.93 | 1.00 | 0.06 | 0.53 | 0.51 | 0.55 | 
+| Never | ref | ref | ref | ref | 0.55 | 0.52 | 0.58 | 
+| Unknown | 0.50 | 0.45 | 0.56 | <0.01 | 0.28 | 0.25 | 0.31 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.52 | 0.50 | 0.55 | 
+| 6+ | 0.98 | 0.92 | 1.04 | 0.48 | 0.51 | 0.48 | 0.54 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.35 | 0.33 | 0.38 | 
+| 4 to 10 | 1.52 | 1.47 | 1.58 | <0.01 | 0.54 | 0.51 | 0.56 | 
+| 11+ | 1.77 | 1.68 | 1.86 | <0.01 | 0.62 | 0.60 | 0.65 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.36 | 0.32 | 0.39 | 
+| >0 to <0.5 | 1.69 | 1.55 | 1.83 | <0.01 | 0.60 | 0.58 | 0.63 | 
+| ≥0.5 to <1.0 | 1.61 | 1.47 | 1.76 | <0.01 | 0.57 | 0.55 | 0.60 | 
+| 1 | 1.15 | 1.03 | 1.27 | 0.01 | 0.41 | 0.38 | 0.44 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.00 | 1.00 | 1.00 | 0.93 | ref | ref | ref | 
+| Estimated PR, Age=35 | ref | ref | ref | ref | 0.52 | 0.50 | 0.54 | 
+| Estimated PR, Age=45 | ref | ref | ref | ref | 0.52 | 0.50 | 0.55 | 
+PR=Preventive Ratio.
+RR=Rate Ratio
+Appendix Table 2e.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.01 | 0.82 | 1.24 | 0.92 | 0.23 | 0.19 | 0.28 | 
+| Black | 1.62 | 1.41 | 1.86 | <0.01 | 0.37 | 0.34 | 0.41 | 
+| Hispanic | 1.16 | 1.04 | 1.28 | 0.01 | 0.27 | 0.24 | 0.29 | 
+| Other | 0.90 | 0.76 | 1.08 | 0.26 | 0.21 | 0.17 | 0.25 | 
+| White | ref | ref | ref | ref | 0.23 | 0.21 | 0.26 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 0.70 | 0.60 | 0.83 | <0.01 | 0.28 | 0.26 | 0.31 | 
+| Urban | ref | ref | ref | ref | 0.20 | 0.17 | 0.23 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.10 | 1.00 | 1.22 | 0.06 | 0.27 | 0.25 | 0.30 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.25 | 0.21 | 0.29 | 
+| Missing | 0.93 | 0.79 | 1.09 | 0.35 | 0.23 | 0.20 | 0.26 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 1.15 | 1.05 | 1.25 | <0.01 | 0.25 | 0.23 | 0.27 | 
+| No uninsured visit | ref | ref | ref | ref | 0.28 | 0.25 | 0.32 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 0.99 | 0.92 | 1.06 | 0.75 | 0.26 | 0.24 | 0.29 | 
+| Non-Obese | ref | ref | ref | ref | 0.26 | 0.24 | 0.28 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 1.02 | 0.91 | 1.13 | 0.76 | 0.26 | 0.24 | 0.29 | 
+| Not Homeless | ref | ref | ref | ref | 0.27 | 0.24 | 0.30 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.40 | 1.29 | 1.52 | <0.01 | 0.34 | 0.31 | 0.37 | 
+| Not enrolled | ref | ref | ref | ref | 0.24 | 0.22 | 0.26 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 0.97 | 0.92 | 1.03 | 0.29 | 0.25 | 0.23 | 0.28 | 
+| Former | 1.01 | 0.95 | 1.09 | 0.67 | 0.26 | 0.24 | 0.29 | 
+| Never | ref | ref | ref | ref | 0.26 | 0.24 | 0.28 | 
+| Unknown | 1.17 | 0.82 | 1.65 | 0.39 | 0.30 | 0.21 | 0.43 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.26 | 0.24 | 0.29 | 
+| 6+ | 1.13 | 0.96 | 1.35 | 0.15 | 0.30 | 0.25 | 0.35 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.18 | 0.15 | 0.21 | 
+| 4 to 10 | 1.61 | 1.48 | 1.76 | <0.01 | 0.29 | 0.26 | 0.32 | 
+| 11+ | 2.18 | 1.94 | 2.44 | <0.01 | 0.39 | 0.36 | 0.42 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.21 | 0.17 | 0.27 | 
+| >0 to <0.5 | 1.57 | 1.29 | 1.91 | <0.01 | 0.34 | 0.31 | 0.36 | 
+| ≥0.5 to <1.0 | 1.33 | 1.06 | 1.66 | 0.01 | 0.28 | 0.26 | 0.31 | 
+| 1 | 0.83 | 0.65 | 1.05 | 0.12 | 0.18 | 0.16 | 0.20 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.06 | 1.04 | 1.08 | <0.01 | . | . | . | 
+| Estimated PR, Age=19 | ref | ref | ref | ref | 0.23 | 0.21 | 0.25 | 
+| Estimated PR, Age=24 | ref | ref | ref | ref | 0.30 | 0.27 | 0.33 | 
+PR=Preventive Ratio.
+RR=Rate Ratio
+Appendix Table 2f.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Sex |  |  |  |  |  |  |  | 
+| Female | ref | ref | ref | ref | 0.38 | 0.36 | 0.41 | 
+| Male | 0.92 | 0.90 | 0.95 | <0.01 | 0.35 | 0.33 | 0.38 | 
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.11 | 0.94 | 1.30 | 0.21 | 0.42 | 0.36 | 0.50 | 
+| Black | 0.85 | 0.70 | 1.05 | 0.13 | 0.33 | 0.26 | 0.41 | 
+| Hispanic | 0.92 | 0.83 | 1.02 | 0.12 | 0.35 | 0.32 | 0.39 | 
+| Other | 0.86 | 0.80 | 0.92 | <0.01 | 0.33 | 0.30 | 0.36 | 
+| White | ref | ref | ref | ref | 0.38 | 0.36 | 0.41 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 1.24 | 1.10 | 1.39 | <0.01 | 0.34 | 0.31 | 0.38 | 
+| Urban | ref | ref | ref | ref | 0.42 | 0.39 | 0.46 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 0.85 | 0.78 | 0.92 | <0.01 | 0.34 | 0.32 | 0.37 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.41 | 0.37 | 0.45 | 
+| Missing | 1.01 | 0.92 | 1.11 | 0.87 | 0.41 | 0.38 | 0.44 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 0.80 | 0.75 | 0.84 | <0.01 | 0.40 | 0.37 | 0.42 | 
+| No uninsured visit | ref | ref | ref | ref | 0.31 | 0.29 | 0.34 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 1.05 | 1.02 | 1.09 | <0.01 | 0.36 | 0.34 | 0.39 | 
+| Non-Obese | ref | ref | ref | ref | 0.38 | 0.35 | 0.41 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 0.81 | 0.68 | 0.95 | 0.01 | 0.38 | 0.35 | 0.40 | 
+| Not Homeless | ref | ref | ref | ref | 0.30 | 0.25 | 0.36 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.52 | 1.43 | 1.61 | <0.01 | 0.50 | 0.47 | 0.53 | 
+| Not Enrolled | ref | ref | ref | ref | 0.33 | 0.30 | 0.35 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 0.77 | 0.73 | 0.82 | <0.01 | 0.30 | 0.28 | 0.33 | 
+| Former | 1.12 | 1.07 | 1.16 | <0.01 | 0.43 | 0.41 | 0.46 | 
+| Never | ref | ref | ref | ref | 0.39 | 0.36 | 0.42 | 
+| Unknown | 0.44 | 0.37 | 0.52 | <0.01 | 0.17 | 0.14 | 0.20 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.37 | 0.34 | 0.39 | 
+| 6+ | 1.11 | 1.05 | 1.17 | <0.01 | 0.40 | 0.38 | 0.43 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.14 | 0.13 | 0.16 | 
+| 4 to 10 | 2.31 | 2.16 | 2.46 | <0.01 | 0.32 | 0.30 | 0.35 | 
+| 11+ | 3.48 | 3.19 | 3.79 | <0.01 | 0.49 | 0.46 | 0.52 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.14 | 0.11 | 0.19 | 
+| >0 to <0.5 | 2.62 | 2.02 | 3.41 | <0.01 | 0.38 | 0.35 | 0.41 | 
+| ≥0.5 to <1.0 | 3.05 | 2.28 | 4.08 | <0.01 | 0.44 | 0.41 | 0.47 | 
+| 1 | 1.92 | 1.41 | 2.61 | <0.01 | 0.28 | 0.24 | 0.32 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.03 | 1.03 | 1.03 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=50 | ref | ref | ref | ref | 0.29 | 0.27 | 0.31 | 
+| Estimated PR, Age=60 | ref | ref | ref | ref | 0.39 | 0.37 | 0.42 | 
+PR=Preventive Ratio.
+RR=Rate Ratio
+Appendix Table 2g.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Sex |  |  |  |  |  |  |  | 
+| Female | ref | ref | ref | ref | 0.26 | 0.24 | 0.29 | 
+| Male | 0.86 | 0.82 | 0.90 | <0.01 | 0.23 | 0.21 | 0.25 | 
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 0.77 | 0.68 | 0.87 | <0.01 | 0.19 | 0.17 | 0.22 | 
+| Black | 1.03 | 0.82 | 1.29 | 0.80 | 0.26 | 0.21 | 0.32 | 
+| Hispanic | 0.93 | 0.83 | 1.05 | 0.22 | 0.24 | 0.21 | 0.26 | 
+| Other | 0.95 | 0.83 | 1.08 | 0.43 | 0.24 | 0.21 | 0.28 | 
+| White | ref | ref | ref | ref | 0.25 | 0.23 | 0.28 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 0.79 | 0.64 | 0.96 | 0.02 | 0.26 | 0.24 | 0.29 | 
+| Urban | ref | ref | ref | ref | 0.21 | 0.17 | 0.25 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.10 | 1.04 | 1.16 | <0.01 | 0.27 | 0.25 | 0.29 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.25 | 0.23 | 0.26 | 
+| Missing | 0.75 | 0.59 | 0.95 | 0.02 | 0.19 | 0.15 | 0.24 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 1.11 | 1.05 | 1.18 | <0.01 | 0.24 | 0.22 | 0.26 | 
+| No uninsured visit | ref | ref | ref | ref | 0.27 | 0.24 | 0.29 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 1.28 | 1.21 | 1.35 | <0.01 | 0.22 | 0.20 | 0.25 | 
+| Non-Obese | ref | ref | ref | ref | 0.29 | 0.26 | 0.31 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 1.14 | 1.04 | 1.26 | 0.01 | 0.25 | 0.22 | 0.27 | 
+| Not Homeless | ref | ref | ref | ref | 0.28 | 0.25 | 0.31 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.35 | 1.25 | 1.46 | <0.01 | 0.31 | 0.28 | 0.34 | 
+| Not Enrolled | ref | ref | ref | ref | 0.23 | 0.21 | 0.25 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 1.19 | 1.11 | 1.28 | <0.01 | 0.28 | 0.25 | 0.30 | 
+| Former | 1.19 | 1.13 | 1.25 | <0.01 | 0.28 | 0.25 | 0.30 | 
+| Never | ref | ref | ref | ref | 0.23 | 0.21 | 0.25 | 
+| Unknown | 0.53 | 0.41 | 0.68 | <0.01 | 0.12 | 0.09 | 0.16 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.24 | 0.22 | 0.26 | 
+| 6+ | 1.49 | 1.36 | 1.62 | <0.01 | 0.35 | 0.32 | 0.39 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.08 | 0.07 | 0.09 | 
+| 4 to 10 | 2.59 | 2.44 | 2.76 | <0.01 | 0.21 | 0.19 | 0.23 | 
+| 11+ | 4.79 | 4.40 | 5.22 | <0.01 | 0.39 | 0.36 | 0.42 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.07 | 0.06 | 0.08 | 
+| >0 to <0.5 | 4.46 | 3.89 | 5.11 | <0.01 | 0.30 | 0.27 | 0.33 | 
+| ≥0.5 to <1.0 | 4.80 | 4.06 | 5.69 | <0.01 | 0.32 | 0.30 | 0.35 | 
+| 1 | 2.32 | 1.91 | 2.82 | <0.01 | 0.16 | 0.14 | 0.18 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.01 | 1.01 | 1.01 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=45 | ref | ref | ref | ref | 0.24 | 0.22 | 0.27 | 
+| Estimated PR, Age=55 | ref | ref | ref | ref | 0.26 | 0.24 | 0.29 | 
+PR=Preventive Ratio.
+RR=Rate Ratio
+Appendix Table 2h.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Sex |  |  |  |  |  |  |  | 
+| Female | ref | ref | ref | ref | 0.53 | 0.51 | 0.55 | 
+| Male | 0.99 | 0.97 | 1.01 | 0.34 | 0.52 | 0.50 | 0.54 | 
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.19 | 1.13 | 1.26 | <0.01 | 0.60 | 0.57 | 0.63 | 
+| Black | 1.15 | 1.07 | 1.24 | <0.01 | 0.58 | 0.53 | 0.63 | 
+| Hispanic | 1.07 | 1.03 | 1.12 | <0.01 | 0.54 | 0.53 | 0.56 | 
+| Other | 0.98 | 0.94 | 1.03 | 0.47 | 0.50 | 0.47 | 0.52 | 
+| White | ref | ref | ref | ref | 0.50 | 0.49 | 0.53 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 0.93 | 0.87 | 1.00 | 0.03 | 0.54 | 0.52 | 0.56 | 
+| Urban | ref | ref | ref | ref | 0.50 | 0.47 | 0.54 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.01 | 0.96 | 1.05 | 0.80 | 0.55 | 0.53 | 0.56 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.54 | 0.51 | 0.57 | 
+| Missing | 0.85 | 0.78 | 0.92 | <0.01 | 0.46 | 0.42 | 0.50 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 1.02 | 0.98 | 1.05 | 0.37 | 0.52 | 0.50 | 0.55 | 
+| No uninsured visit | ref | ref | ref | ref | 0.53 | 0.52 | 0.55 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 1.19 | 1.16 | 1.22 | <0.01 | 0.48 | 0.46 | 0.50 | 
+| Non-Obese | ref | ref | ref | ref | 0.57 | 0.55 | 0.59 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 1.01 | 0.95 | 1.07 | 0.77 | 0.53 | 0.51 | 0.55 | 
+| Not Homeless | ref | ref | ref | ref | 0.53 | 0.50 | 0.56 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.21 | 1.16 | 1.26 | <0.01 | 0.61 | 0.58 | 0.64 | 
+| Not Enrolled | ref | ref | ref | ref | 0.50 | 0.48 | 0.52 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 0.94 | 0.91 | 0.97 | <0.01 | 0.50 | 0.48 | 0.51 | 
+| Former | 1.08 | 1.05 | 1.10 | <0.01 | 0.57 | 0.55 | 0.59 | 
+| Never | ref | ref | ref | ref | 0.53 | 0.51 | 0.55 | 
+| Unknown | 0.72 | 0.64 | 0.81 | <0.01 | 0.38 | 0.34 | 0.43 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.51 | 0.49 | 0.53 | 
+| 6+ | 1.25 | 1.19 | 1.32 | <0.01 | 0.64 | 0.62 | 0.67 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.18 | 0.17 | 0.19 | 
+| 4 to 10 | 2.55 | 2.47 | 2.64 | <0.01 | 0.45 | 0.43 | 0.48 | 
+| 11+ | 4.09 | 3.92 | 4.27 | <0.01 | 0.73 | 0.71 | 0.74 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.16 | 0.15 | 0.17 | 
+| >0 to <0.5 | 3.49 | 3.18 | 3.83 | <0.01 | 0.56 | 0.54 | 0.58 | 
+| ≥0.5 to <1.0 | 4.01 | 3.64 | 4.41 | <0.01 | 0.64 | 0.62 | 0.66 | 
+| 1 | 2.35 | 2.07 | 2.67 | <0.01 | 0.37 | 0.34 | 0.41 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.02 | 1.02 | 1.02 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=45 | ref | ref | ref | ref | 0.46 | 0.44 | 0.48 | 
+| Estimated PR, Age=55 | ref | ref | ref | ref | 0.56 | 0.54 | 0.58 | 
+PR=Preventive Ratio.
+RR=Rate Ratio.
+Appendix Table 2i.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Sex |  |  |  |  |  |  |  | 
+| Female | ref | ref | ref | ref | 0.08 | 0.06 | 0.09 | 
+| Male | 1.30 | 1.14 | 1.47 | <0.01 | 0.10 | 0.08 | 0.12 | 
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.15 | 0.80 | 1.65 | 0.44 | 0.10 | 0.07 | 0.15 | 
+| Black | 1.18 | 0.77 | 1.81 | 0.44 | 0.11 | 0.07 | 0.17 | 
+| Hispanic | 0.60 | 0.48 | 0.74 | <0.01 | 0.05 | 0.04 | 0.07 | 
+| Other | 1.25 | 1.07 | 1.46 | 0.01 | 0.11 | 0.09 | 0.14 | 
+| White | ref | ref | ref | ref | 0.09 | 0.07 | 0.11 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 0.72 | 0.48 | 1.07 | 0.10 | 0.10 | 0.08 | 0.12 | 
+| Urban | ref | ref | ref | ref | 0.07 | 0.05 | 0.10 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.55 | 1.31 | 1.82 | <0.01 | 0.11 | 0.09 | 0.13 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.07 | 0.05 | 0.09 | 
+| Missing | 0.61 | 0.47 | 0.79 | <0.01 | 0.04 | 0.04 | 0.05 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 0.96 | 0.82 | 1.12 | 0.60 | 0.09 | 0.07 | 0.11 | 
+| No uninsured visit | ref | ref | ref | ref | 0.08 | 0.07 | 0.11 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 0.85 | 0.77 | 0.93 | <0.01 | 0.09 | 0.08 | 0.11 | 
+| Non-Obese | ref | ref | ref | ref | 0.08 | 0.06 | 0.10 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 1.72 | 1.38 | 2.13 | <0.01 | 0.08 | 0.07 | 0.10 | 
+| Not Homeless | ref | ref | ref | ref | 0.14 | 0.11 | 0.18 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.23 | 1.04 | 1.45 | 0.02 | 0.10 | 0.08 | 0.13 | 
+| Not Enrolled | ref | ref | ref | ref | 0.08 | 0.07 | 0.10 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 2.16 | 1.94 | 2.40 | <0.01 | 0.13 | 0.10 | 0.15 | 
+| Former | 1.69 | 1.54 | 1.86 | <0.01 | 0.10 | 0.08 | 0.12 | 
+| Never | ref | ref | ref | ref | 0.06 | 0.05 | 0.07 | 
+| Unknown | 0.73 | 0.55 | 0.97 | 0.03 | 0.04 | 0.03 | 0.06 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.07 | 0.06 | 0.08 | 
+| 6+ | 3.19 | 2.52 | 4.04 | <0.01 | 0.22 | 0.17 | 0.28 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.05 | 0.04 | 0.06 | 
+| 4 to 10 | 1.46 | 1.31 | 1.64 | <0.01 | 0.07 | 0.06 | 0.08 | 
+| 11+ | 2.44 | 2.13 | 2.81 | <0.01 | 0.11 | 0.09 | 0.14 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.04 | 0.03 | 0.05 | 
+| >0 to <0.5 | 2.32 | 1.91 | 2.81 | <0.01 | 0.10 | 0.08 | 0.12 | 
+| ≥0.5 to <1.0 | 2.45 | 1.96 | 3.05 | <0.01 | 0.10 | 0.08 | 0.12 | 
+| 1 | 1.46 | 1.14 | 1.88 | <0.01 | 0.06 | 0.05 | 0.08 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 0.97 | 0.96 | 0.98 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=50 | ref | ref | ref | ref | 0.11 | 0.09 | 0.13 | 
+| Estimated PR, Age=60 | ref | ref | ref | ref | 0.08 | 0.06 | 0.09 | 
+PR=Preventive Ratio
+RR=Rate Ratio
+Appendix Table 2j.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Sex |  |  |  |  |  |  |  | 
+| Female | ref | ref | ref | ref | 0.15 | 0.12 | 0.18 | 
+| Male | 0.78 | 0.64 | 0.95 | 0.01 | 0.12 | 0.09 | 0.15 | 
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 0.74 | 0.50 | 1.10 | 0.14 | 0.09 | 0.06 | 0.14 | 
+| Black | 1.64 | 0.98 | 2.77 | 0.06 | 0.19 | 0.12 | 0.33 | 
+| Hispanic | 1.23 | 0.89 | 1.69 | 0.21 | 0.14 | 0.11 | 0.19 | 
+| Other | 1.11 | 0.98 | 1.27 | 0.10 | 0.13 | 0.10 | 0.17 | 
+| White | ref | ref | ref | ref | 0.12 | 0.09 | 0.15 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 0.96 | 0.59 | 1.55 | 0.85 | 0.14 | 0.11 | 0.17 | 
+| Urban | ref | ref | ref | ref | 0.13 | 0.08 | 0.20 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.35 | 1.14 | 1.61 | <0.01 | 0.15 | 0.12 | 0.19 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.11 | 0.09 | 0.15 | 
+| Missing | 0.78 | 0.50 | 1.23 | 0.29 | 0.09 | 0.06 | 0.14 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 1.02 | 0.85 | 1.23 | 0.82 | 0.13 | 0.11 | 0.17 | 
+| No uninsured visit | ref | ref | ref | ref | 0.14 | 0.11 | 0.18 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 0.83 | 0.72 | 0.95 | 0.01 | 0.15 | 0.12 | 0.18 | 
+| Non-Obese | ref | ref | ref | ref | 0.12 | 0.10 | 0.15 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 1.15 | 0.91 | 1.44 | 0.24 | 0.13 | 0.11 | 0.17 | 
+| Not Homeless | ref | ref | ref | ref | 0.15 | 0.12 | 0.20 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.10 | 0.90 | 1.36 | 0.36 | 0.15 | 0.11 | 0.19 | 
+| Not Enrolled | ref | ref | ref | ref | 0.13 | 0.10 | 0.17 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 1.26 | 1.07 | 1.49 | 0.01 | 0.15 | 0.12 | 0.18 | 
+| Former | 1.14 | 0.97 | 1.34 | 0.11 | 0.14 | 0.11 | 0.17 | 
+| Never | ref | ref | ref | ref | 0.12 | 0.09 | 0.15 | 
+| Unknown | 1.85 | 0.67 | 5.09 | 0.23 | 0.22 | 0.08 | 0.60 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.13 | 0.11 | 0.17 | 
+| 6+ | 1.15 | 0.89 | 1.47 | 0.29 | 0.15 | 0.11 | 0.21 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.13 | 0.10 | 0.17 | 
+| 4 to 10 | 1.01 | 0.84 | 1.22 | 0.90 | 0.13 | 0.11 | 0.16 | 
+| 11+ | 1.10 | 0.86 | 1.42 | 0.44 | 0.14 | 0.11 | 0.18 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.15 | 0.10 | 0.22 | 
+| >0 to <0.5 | 1.09 | 0.78 | 1.52 | 0.60 | 0.16 | 0.13 | 0.20 | 
+| ≥0.5 to <1.0 | 0.86 | 0.59 | 1.25 | 0.43 | 0.13 | 0.10 | 0.16 | 
+| 1 | 0.70 | 0.48 | 1.03 | 0.07 | 0.10 | 0.08 | 0.13 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 0.94 | 0.93 | 0.96 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=50 | ref | ref | ref | ref | 0.14 | 0.11 | 0.18 | 
+| Estimated PR, Age=60 | ref | ref | ref | ref | 0.08 | 0.06 | 0.11 | 
+PR=Preventive Ratio.
+RR=Rate Ratio
+Appendix Table 2k.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Sex |  |  |  |  |  |  |  | 
+| Female | ref | ref | ref | ref | 0.80 | 0.78 | 0.82 | 
+| Male | 0.88 | 0.86 | 0.90 | <0.01 | 0.71 | 0.68 | 0.74 | 
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.15 | 1.10 | 1.20 | <0.01 | 0.83 | 0.80 | 0.87 | 
+| Black | 1.08 | 1.01 | 1.15 | 0.03 | 0.78 | 0.73 | 0.84 | 
+| Hispanic | 1.09 | 1.05 | 1.14 | <0.01 | 0.80 | 0.77 | 0.82 | 
+| Other | 0.97 | 0.93 | 1.00 | 0.07 | 0.70 | 0.68 | 0.73 | 
+| White | ref | ref | ref | ref | 0.73 | 0.70 | 0.75 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 0.91 | 0.85 | 0.97 | <0.01 | 0.77 | 0.75 | 0.80 | 
+| Urban | ref | ref | ref | ref | 0.70 | 0.66 | 0.75 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 0.99 | 0.97 | 1.02 | 0.61 | 0.78 | 0.75 | 0.80 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.78 | 0.76 | 0.80 | 
+| Missing | 0.86 | 0.79 | 0.94 | <0.01 | 0.67 | 0.62 | 0.74 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 0.96 | 0.94 | 0.99 | 0.01 | 0.76 | 0.74 | 0.79 | 
+| No uninsured visit | ref | ref | ref | ref | 0.74 | 0.71 | 0.76 | 
+| Obese (BMI≥30 or weight >250 lbs.) |  |  |  |  |  |  |  | 
+| Obese | 1.17 | 1.14 | 1.20 | <0.01 | 0.70 | 0.67 | 0.73 | 
+| Non-Obese | ref | ref | ref | ref | 0.82 | 0.80 | 0.83 | 
+| Homeless |  |  |  |  |  |  |  | 
+| Homeless | 0.96 | 0.91 | 1.02 | 0.17 | 0.76 | 0.73 | 0.78 | 
+| Not Homeless | ref | ref | ref | ref | 0.73 | 0.69 | 0.77 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.12 | 1.08 | 1.15 | <0.01 | 0.82 | 0.79 | 0.85 | 
+| Not Enrolled | ref | ref | ref | ref | 0.73 | 0.71 | 0.76 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 0.92 | 0.89 | 0.94 | <0.01 | 0.71 | 0.69 | 0.73 | 
+| Former | 1.03 | 1.01 | 1.05 | <0.01 | 0.80 | 0.78 | 0.82 | 
+| Never | ref | ref | ref | ref | 0.78 | 0.75 | 0.80 | 
+| Unknown | 0.49 | 0.38 | 0.64 | <0.01 | 0.38 | 0.30 | 0.50 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.74 | 0.72 | 0.77 | 
+| 6+ | 1.15 | 1.11 | 1.18 | <0.01 | 0.85 | 0.83 | 0.87 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.51 | 0.48 | 0.55 | 
+| 4 to 10 | 1.43 | 1.38 | 1.48 | <0.01 | 0.74 | 0.71 | 0.76 | 
+| 11+ | 1.69 | 1.62 | 1.78 | <0.01 | 0.87 | 0.85 | 0.89 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.39 | 0.36 | 0.43 | 
+| >0 to <0.5 | 1.97 | 1.82 | 2.14 | <0.01 | 0.78 | 0.75 | 0.80 | 
+| ≥0.5 to <1.0 | 2.13 | 1.94 | 2.34 | <0.01 | 0.84 | 0.82 | 0.85 | 
+| 1 | 1.80 | 1.63 | 1.99 | <0.01 | 0.71 | 0.68 | 0.74 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.01 | 1.01 | 1.01 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=50 | ref | ref | ref | ref | 0.68 | 0.66 | 0.71 | 
+| Estimated PR, Age=60 | ref | ref | ref | ref | 0.75 | 0.73 | 0.78 | 
+PR=Preventive Ratio.
+RR=Rate Ratio
+Appendix Table 2l.
+| Variable | RR | Lower 95% CI | Upper 95% CI | P | Estimated PR | Lower 95% CI | Upper 95% CI | 
+|---|---|---|---|---|---|---|---|
+| Sex |  |  |  |  |  |  |  | 
+| Female | ref | ref | ref | ref | 0.31 | 0.27 | 0.34 | 
+| Male | 0.92 | 0.88 | 0.96 | <0.01 | 0.28 | 0.25 | 0.32 | 
+| Race/Ethnicity |  |  |  |  |  |  |  | 
+| Asian/NH | 1.19 | 0.99 | 1.43 | 0.07 | 0.36 | 0.29 | 0.44 | 
+| Black | 0.78 | 0.56 | 1.10 | 0.16 | 0.24 | 0.16 | 0.34 | 
+| Hispanic | 1.07 | 0.92 | 1.24 | 0.37 | 0.32 | 0.28 | 0.37 | 
+| Other | 0.98 | 0.86 | 1.13 | 0.83 | 0.30 | 0.26 | 0.34 | 
+| White | ref | ref | ref | ref | 0.30 | 0.27 | 0.34 | 
+| Urban/Rural |  |  |  |  |  |  |  | 
+| Rural | 0.93 | 0.75 | 1.14 | 0.47 | 0.30 | 0.27 | 0.35 | 
+| Urban | ref | ref | ref | ref | 0.28 | 0.23 | 0.34 | 
+| % of Federal Poverty Level |  |  |  |  |  |  |  | 
+| <138%FPL | 1.00 | 0.91 | 1.10 | 0.98 | 0.31 | 0.28 | 0.35 | 
+| ≥138%FPL | ref | ref | ref | ref | 0.31 | 0.28 | 0.35 | 
+| Missing | 0.78 | 0.61 | 1.00 | 0.05 | 0.24 | 0.19 | 0.32 | 
+| Health insurance |  |  |  |  |  |  |  | 
+| ≥1 uninsured visit | 0.96 | 0.89 | 1.05 | 0.37 | 0.30 | 0.27 | 0.34 | 
+| No uninsured visit | ref | ref | ref | ref | 0.29 | 0.26 | 0.33 | 
+| Obesity |  |  |  |  |  |  |  | 
+| Obese | 1.23 | 1.16 | 1.31 | <0.01 | 0.27 | 0.24 | 0.31 | 
+| Non-Obese | ref | ref | ref | ref | 0.34 | 0.30 | 0.37 | 
+| Housing status |  |  |  |  |  |  |  | 
+| Homeless | 1.16 | 1.03 | 1.30 | 0.01 | 0.29 | 0.26 | 0.33 | 
+| Not Homeless | ref | ref | ref | ref | 0.34 | 0.31 | 0.38 | 
+| Patient Portal |  |  |  |  |  |  |  | 
+| Enrolled | 1.37 | 1.24 | 1.50 | <0.01 | 0.37 | 0.33 | 0.43 | 
+| Not Enrolled | ref | ref | ref | ref | 0.27 | 0.24 | 0.31 | 
+| Smoking Status as of Jan 01 2014 |  |  |  |  |  |  |  | 
+| Current | 0.94 | 0.87 | 1.03 | 0.17 | 0.28 | 0.26 | 0.31 | 
+| Former | 1.11 | 1.04 | 1.18 | <0.01 | 0.33 | 0.30 | 0.37 | 
+| Never | ref | ref | ref | ref | 0.30 | 0.27 | 0.34 | 
+| Unknown | 0.50 | 0.36 | 0.68 | <0.01 | 0.15 | 0.11 | 0.21 | 
+| Charlson Comorbidity Index Score |  |  |  |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 0.29 | 0.26 | 0.33 | 
+| 6+ | 1.25 | 1.10 | 1.42 | <0.01 | 0.36 | 0.32 | 0.42 | 
+| Number of Ambulatory Visits |  |  |  |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 0.08 | 0.07 | 0.10 | 
+| 4 to 10 | 3.24 | 3.00 | 3.48 | <0.01 | 0.27 | 0.24 | 0.30 | 
+| 11+ | 5.69 | 5.09 | 6.36 | <0.01 | 0.47 | 0.43 | 0.51 | 
+| Usual Provider Continuity Index |  |  |  |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 0.07 | 0.05 | 0.09 | 
+| >0 to <0.5 | 5.17 | 4.29 | 6.24 | <0.01 | 0.35 | 0.31 | 0.39 | 
+| ≥0.5 to <1.0 | 5.94 | 4.72 | 7.47 | <0.01 | 0.40 | 0.36 | 0.44 | 
+| 1 | 2.69 | 2.03 | 3.57 | <0.01 | 0.18 | 0.15 | 0.22 | 
+| Age in years |  |  |  |  |  |  |  | 
+|  | 1.01 | 1.01 | 1.01 | <0.01 | ref | ref | ref | 
+| Estimated PR, Age=50 | ref | ref | ref | ref | 0.30 | 0.27 | 0.34 | 
+| Estimated PR, Age=60 | ref | ref | ref | ref | 0.33 | 0.30 | 0.37 | 
+PR=Preventive Ratio.
+RR=Rate Ratio
+Appendix Table 3a.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.33 | 0.98 | 1.82 | 0.07 | 
+| Black | 0.85 | 0.59 | 1.24 | 0.41 | 
+| Hispanic | 1.11 | 0.92 | 1.34 | 0.29 | 
+| Other | 1.05 | 0.53 | 2.05 | 0.90 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 1.07 | 0.83 | 1.37 | 0.62 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 1.19 | 0.99 | 1.44 | 0.07 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 1.02 | 0.77 | 1.34 | 0.91 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.82 | 0.70 | 0.96 | 0.01 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 0.97 | 0.87 | 1.08 | 0.55 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 0.95 | 0.62 | 1.46 | 0.83 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.40 | 1.20 | 1.64 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 1.08 | 0.92 | 1.27 | 0.33 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 2.68 | 2.06 | 3.49 | <0.01 | 
+| 11+ | 5.13 | 3.85 | 6.84 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 2.00 | 1.26 | 3.17 | <0.01 | 
+| ≥0.5 to <1.0 | 2.66 | 1.70 | 4.16 | <0.01 | 
+| 1+ | 2.83 | 1.66 | 4.81 | <0.01 | 
+| Age in years | 1.11 | 1.09 | 1.13 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3b.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.09 | 1.02 | 1.17 | 0.01 | 
+| Black | 1.04 | 0.85 | 1.28 | 0.69 | 
+| Hispanic | 1.37 | 1.26 | 1.48 | <0.01 | 
+| Other | 0.87 | 0.81 | 0.93 | <0.01 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 1.15 | 1.07 | 1.23 | <0.01 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 0.91 | 0.86 | 0.95 | <0.01 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 1.00 | 0.92 | 1.07 | 0.93 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.84 | 0.80 | 0.88 | <0.01 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 0.97 | 0.95 | 1.00 | 0.02 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 0.88 | 0.81 | 0.96 | 0.01 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.25 | 1.20 | 1.30 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 0.81 | 0.76 | 0.86 | <0.01 | 
+| Former | 0.98 | 0.93 | 1.02 | 0.34 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 0.59 | 0.52 | 0.66 | <0.01 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 0.98 | 0.94 | 1.02 | 0.39 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 1.98 | 1.83 | 2.15 | <0.01 | 
+| 11+ | 2.96 | 2.73 | 3.21 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.68 | 1.54 | 1.83 | <0.01 | 
+| ≥0.5 to <1.0 | 1.84 | 1.69 | 2.01 | <0.01 | 
+| 1+ | 1.70 | 1.50 | 1.92 | <0.01 | 
+| Age in years | 1.00 | 1.00 | 1.01 | 0.02 | 
+RR=Rate Ratio
+Appendix Table 3c.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Sex |  |  |  |  | 
+| Male | 0.99 | 0.98 | 1.00 | 0.09 | 
+| Female | ref | ref | ref | ref | 
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.03 | 1.01 | 1.04 | <0.01 | 
+| Black | 0.99 | 0.96 | 1.03 | 0.72 | 
+| Hispanic | 1.01 | 1.00 | 1.01 | 0.30 | 
+| Other | 1.00 | 0.98 | 1.01 | 0.60 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 1.04 | 1.02 | 1.05 | <0.01 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 0.98 | 0.97 | 1.00 | 0.01 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 1.03 | 1.02 | 1.05 | <0.01 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.97 | 0.96 | 0.98 | <0.01 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 0.98 | 0.98 | 0.99 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 0.98 | 0.97 | 0.99 | <0.01 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.01 | 1.00 | 1.01 | 0.02 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 0.96 | 0.95 | 0.97 | <0.01 | 
+| Former | 1.00 | 0.99 | 1.00 | 0.47 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 0.71 | 0.59 | 0.85 | <0.01 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 0.98 | 0.97 | 0.98 | <0.01 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 1.28 | 1.26 | 1.30 | <0.01 | 
+| 11+ | 1.54 | 1.51 | 1.57 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.05 | 1.02 | 1.07 | <0.01 | 
+| ≥0.5 to <1.0 | 1.11 | 1.08 | 1.13 | <0.01 | 
+| 1+ | 1.05 | 1.02 | 1.08 | <0.01 | 
+| Age in years | 0.99 | 0.99 | 0.99 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3d.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.15 | 1.10 | 1.21 | <0.01 | 
+| Black | 1.07 | 0.97 | 1.18 | 0.19 | 
+| Hispanic | 1.35 | 1.27 | 1.43 | <0.01 | 
+| Other | 0.95 | 0.89 | 1.01 | 0.07 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 0.93 | 0.87 | 1.01 | 0.07 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 0.94 | 0.91 | 0.98 | <0.01 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 0.85 | 0.78 | 0.93 | <0.01 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.94 | 0.91 | 0.98 | <0.01 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 0.96 | 0.94 | 0.98 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 0.94 | 0.87 | 1.01 | 0.08 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.15 | 1.12 | 1.19 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 0.95 | 0.92 | 0.98 | <0.01 | 
+| Former | 1.02 | 0.99 | 1.05 | 0.17 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 0.57 | 0.52 | 0.63 | <0.01 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 0.97 | 0.93 | 1.02 | 0.23 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 1.40 | 1.35 | 1.45 | <0.01 | 
+| 11+ | 1.58 | 1.52 | 1.65 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.27 | 1.18 | 1.36 | <0.01 | 
+| ≥0.5 to <1.0 | 1.26 | 1.17 | 1.37 | <0.01 | 
+| 1+ | 1.16 | 1.06 | 1.27 | <0.01 | 
+| Age in years | 1.00 | 1.00 | 1.00 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3e.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.02 | 0.81 | 1.28 | 0.89 | 
+| Black | 1.56 | 1.35 | 1.80 | <0.01 | 
+| Hispanic | 1.10 | 0.99 | 1.23 | 0.09 | 
+| Other | 0.93 | 0.80 | 1.07 | 0.31 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 0.76 | 0.64 | 0.90 | <0.01 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 1.01 | 0.93 | 1.11 | 0.78 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 0.94 | 0.81 | 1.09 | 0.42 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.98 | 0.92 | 1.05 | 0.56 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 0.89 | 0.85 | 0.94 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 0.89 | 0.85 | 0.94 | <0.01 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.20 | 1.12 | 1.30 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 0.97 | 0.92 | 1.02 | 0.26 | 
+| Former | 0.96 | 0.90 | 1.03 | 0.25 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 1.14 | 0.88 | 1.48 | 0.31 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 0.90 | 0.79 | 1.02 | 0.11 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 1.56 | 1.46 | 1.68 | <0.01 | 
+| 11+ | 2.02 | 1.86 | 2.20 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.12 | 0.95 | 1.33 | 0.17 | 
+| ≥0.5 to <1.0 | 1.04 | 0.86 | 1.26 | 0.68 | 
+| 1+ | 0.87 | 0.73 | 1.05 | 0.14 | 
+| Age in years | 1.07 | 1.05 | 1.09 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3f.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Sex |  |  |  |  | 
+| Male | 0.98 | 0.95 | 1.01 | 0.14 | 
+| Female | ref | ref | ref | ref | 
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.18 | 0.98 | 1.42 | 0.08 | 
+| Black | 1.00 | 0.84 | 1.18 | 1.00 | 
+| Hispanic | 1.06 | 0.99 | 1.14 | 0.12 | 
+| Other | 0.94 | 0.87 | 1.01 | 0.08 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 1.14 | 1.04 | 1.26 | 0.01 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 0.89 | 0.84 | 0.94 | <0.01 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 1.02 | 0.95 | 1.11 | 0.55 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.81 | 0.77 | 0.85 | <0.01 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 0.96 | 0.93 | 0.98 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 0.82 | 0.74 | 0.91 | <0.01 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.32 | 1.27 | 1.35 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 0.81 | 0.77 | 0.85 | <0.01 | 
+| Former | 1.02 | 0.98 | 1.06 | 0.30 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 0.54 | 0.46 | 0.62 | <0.01 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 1.13 | 1.08 | 1.18 | <0.01 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 1.96 | 1.82 | 2.10 | <0.01 | 
+| 11+ | 3.02 | 2.79 | 3.27 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.60 | 1.42 | 1.81 | <0.01 | 
+| ≥0.5 to <1.0 | 1.83 | 1.62 | 2.07 | <0.01 | 
+| 1+ | 1.76 | 1.54 | 2.02 | <0.01 | 
+| Age in years | 1.02 | 1.02 | 1.02 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3g.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Sex |  |  |  |  | 
+| Male | 0.93 | 0.89 | 0.97 | <0.01 | 
+| Female | ref | ref | ref | ref | 
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 0.77 | 0.68 | 0.86 | <0.01 | 
+| Black | 0.99 | 0.81 | 1.22 | 0.94 | 
+| Hispanic | 0.95 | 0.85 | 1.05 | 0.30 | 
+| Other | 0.92 | 0.83 | 1.03 | 0.14 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 0.77 | 0.65 | 0.92 | <0.01 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 1.02 | 0.97 | 1.07 | 0.51 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 0.80 | 0.64 | 1.00 | 0.05 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 1.03 | 0.98 | 1.08 | 0.24 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 1.09 | 1.05 | 1.12 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 1.02 | 0.92 | 1.12 | 0.75 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.09 | 1.03 | 1.15 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 1.14 | 1.09 | 1.20 | <0.01 | 
+| Former | 1.08 | 1.04 | 1.12 | <0.01 | 
+| Never | ref | ref | ref | ref | 
+| Unkown | 0.74 | 0.61 | 0.91 | <0.01 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 1.09 | 1.03 | 1.15 | <0.01 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 2.01 | 1.89 | 2.14 | <0.01 | 
+| 11+ | 3.32 | 3.05 | 3.61 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 2.13 | 1.86 | 2.44 | <0.01 | 
+| ≥0.5 to <1.0 | 2.37 | 2.01 | 2.80 | <0.01 | 
+| 1+ | 2.04 | 1.71 | 2.42 | <0.01 | 
+| Age in years | 1.00 | 1.00 | 1.00 | 0.28 | 
+RR=Rate Ratio
+Appendix Table 3h.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Sex |  |  |  |  | 
+| Male | 1.10 | 1.08 | 1.12 | <0.01 | 
+| Female | ref | ref | ref | ref | 
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.24 | 1.20 | 1.29 | <0.01 | 
+| Black | 1.19 | 1.14 | 1.25 | <0.01 | 
+| Hispanic | 1.19 | 1.15 | 1.24 | <0.01 | 
+| Other | 1.00 | 0.97 | 1.03 | 0.99 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 0.96 | 0.92 | 1.00 | 0.03 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 0.98 | 0.96 | 1.01 | 0.14 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 0.87 | 0.83 | 0.91 | <0.01 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 1.00 | 0.98 | 1.01 | 0.62 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 1.12 | 1.10 | 1.14 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 0.95 | 0.91 | 0.99 | 0.02 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.12 | 1.10 | 1.15 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 0.94 | 0.92 | 0.95 | <0.01 | 
+| Former | 0.98 | 0.97 | 0.99 | <0.01 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 0.94 | 0.88 | 1.02 | 0.14 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 1.11 | 1.07 | 1.14 | <0.01 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 2.15 | 2.08 | 2.23 | <0.01 | 
+| 11+ | 3.24 | 3.10 | 3.38 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.76 | 1.66 | 1.87 | <0.01 | 
+| ≥0.5 to <1.0 | 2.00 | 1.88 | 2.13 | <0.01 | 
+| 1+ | 1.93 | 1.79 | 2.09 | <0.01 | 
+| Age in years | 1.02 | 1.02 | 1.02 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3i.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Sex |  |  |  |  | 
+| Male | 1.21 | 1.11 | 1.31 | <0.01 | 
+| Female | ref | ref | ref | ref | 
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.43 | 1.05 | 1.95 | 0.02 | 
+| Black | 1.08 | 0.71 | 1.65 | 0.71 | 
+| Hispanic | 0.67 | 0.55 | 0.82 | <0.01 | 
+| Other | 1.03 | 0.87 | 1.23 | 0.72 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 0.84 | 0.62 | 1.13 | 0.24 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 1.33 | 1.16 | 1.53 | <0.01 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 0.69 | 0.55 | 0.86 | <0.01 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.91 | 0.81 | 1.03 | 0.12 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 0.82 | 0.78 | 0.88 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 1.27 | 1.07 | 1.50 | 0.01 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.28 | 1.16 | 1.41 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 1.47 | 1.34 | 1.61 | <0.01 | 
+| Former | 1.40 | 1.30 | 1.52 | <0.01 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 0.80 | 0.56 | 1.13 | 0.20 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 2.26 | 1.87 | 2.74 | <0.01 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 1.45 | 1.28 | 1.64 | <0.01 | 
+| 11+ | 2.11 | 1.82 | 2.45 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.42 | 1.20 | 1.67 | <0.01 | 
+| ≥0.5 to <1.0 | 1.48 | 1.24 | 1.76 | <0.01 | 
+| 1+ | 1.25 | 1.02 | 1.55 | 0.04 | 
+| Age in years | 0.97 | 0.97 | 0.98 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3j.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Sex |  |  |  |  | 
+| Male | 0.84 | 0.73 | 0.95 | 0.01 | 
+| Female | ref | ref | ref | ref | 
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 0.96 | 0.65 | 1.44 | 0.86 | 
+| Black | 1.93 | 1.25 | 3.00 | <0.01 | 
+| Hispanic | 1.48 | 1.10 | 1.98 | 0.01 | 
+| Other | 1.05 | 0.92 | 1.20 | 0.51 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 1.15 | 0.73 | 1.82 | 0.55 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 1.17 | 1.00 | 1.36 | 0.05 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 0.67 | 0.44 | 1.00 | 0.05 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.90 | 0.77 | 1.04 | 0.15 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 0.82 | 0.76 | 0.89 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 1.21 | 0.97 | 1.50 | 0.09 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.14 | 0.98 | 1.32 | 0.09 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 1.36 | 1.23 | 1.49 | <0.01 | 
+| Former | 1.34 | 1.24 | 1.44 | <0.01 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 1.56 | 0.68 | 3.57 | 0.30 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 1.43 | 1.16 | 1.76 | <0.01 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 1.08 | 0.99 | 1.16 | 0.07 | 
+| 11+ | 1.33 | 1.18 | 1.50 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.12 | 0.96 | 1.30 | 0.14 | 
+| ≥0.5 to <1.0 | 1.05 | 0.87 | 1.28 | 0.59 | 
+| 1+ | 0.92 | 0.72 | 1.16 | 0.47 | 
+| Age in years | 0.96 | 0.96 | 0.97 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3k.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Sex |  |  |  |  | 
+| Male | 0.99 | 0.98 | 1.00 | 0.12 | 
+| Female | ref | ref | ref | ref | 
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.15 | 1.11 | 1.18 | <0.01 | 
+| Black | 1.09 | 1.04 | 1.14 | <0.01 | 
+| Hispanic | 1.15 | 1.11 | 1.18 | <0.01 | 
+| Other | 0.99 | 0.96 | 1.02 | 0.37 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 0.92 | 0.88 | 0.96 | <0.01 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 1.00 | 0.98 | 1.02 | 0.81 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 0.87 | 0.82 | 0.91 | <0.01 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.96 | 0.94 | 0.98 | <0.01 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 1.13 | 1.11 | 1.15 | <0.01 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 0.97 | 0.93 | 1.00 | 0.08 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.10 | 1.08 | 1.12 | <0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 0.96 | 0.95 | 0.98 | <0.01 | 
+| Former | 1.01 | 1.00 | 1.02 | 0.05 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 0.58 | 0.46 | 0.72 | <0.01 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 1.10 | 1.08 | 1.13 | <0.01 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 1.27 | 1.24 | 1.30 | <0.01 | 
+| 11+ | 1.40 | 1.36 | 1.45 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 1.52 | 1.42 | 1.62 | <0.01 | 
+| ≥0.5 to <1.0 | 1.60 | 1.49 | 1.72 | <0.01 | 
+| 1+ | 1.62 | 1.50 | 1.75 | <0.01 | 
+| Age in years | 1.01 | 1.01 | 1.01 | <0.01 | 
+RR=Rate Ratio
+Appendix Table 3l.
+| Variable | RR* | RR Lower CI | RR Upper CI | P-value | 
+|---|---|---|---|---|
+| Sex |  |  |  |  | 
+| Male | 1.04 | 1.00 | 1.09 | 0.04 | 
+| Female | ref | ref | ref | ref | 
+| Race/Ethnicity |  |  |  |  | 
+| Asian/NH | 1.19 | 1.01 | 1.41 | 0.04 | 
+| Black | 0.77 | 0.57 | 1.06 | 0.11 | 
+| Hispanic | 1.17 | 1.04 | 1.32 | 0.01 | 
+| Other | 1.02 | 0.91 | 1.14 | 0.75 | 
+| White | ref | ref | ref | ref | 
+| Rural/Urban |  |  |  |  | 
+| Rural | 0.93 | 0.77 | 1.11 | 0.41 | 
+| Urban | ref | ref | ref | ref | 
+| % of Federal Poverty Level |  |  |  |  | 
+| <138%FPL | 0.96 | 0.89 | 1.04 | 0.30 | 
+| ≥138%FPL | ref | ref | ref | ref | 
+| Missing | 0.78 | 0.62 | 0.97 | 0.03 | 
+| Health insurance |  |  |  |  | 
+| ≥1 uninsured visit | 0.90 | 0.84 | 0.97 | <0.01 | 
+| No uninsured visit | ref | ref | ref | ref | 
+| Obese |  |  |  |  | 
+| Obese | 1.04 | 1.00 | 1.08 | 0.03 | 
+| Non-Obese | ref | ref | ref | ref | 
+| Housing status |  |  |  |  | 
+| Homeless | 1.10 | 0.98 | 1.25 | 0.12 | 
+| Not Homeless | ref | ref | ref | ref | 
+| Enrolled in patient portal |  |  |  |  | 
+| Enrolled | 1.11 | 1.03 | 1.19 | 0.01 | 
+| Not enrolled | ref | ref | ref | ref | 
+| Smoking Status |  |  |  |  | 
+| Current | 0.96 | 0.91 | 1.02 | 0.18 | 
+| Former | 0.99 | 0.95 | 1.03 | 0.53 | 
+| Never | ref | ref | ref | ref | 
+| Unknown | 0.74 | 0.58 | 0.94 | 0.01 | 
+| Charlson Comorbidity Index |  |  |  |  | 
+| 0–5 | ref | ref | ref | ref | 
+| 6+ | 0.94 | 0.85 | 1.03 | 0.19 | 
+| Number of Ambulatory Visits |  |  |  |  | 
+| 1 to 3 | ref | ref | ref | ref | 
+| 4 to 10 | 2.41 | 2.20 | 2.64 | <0.01 | 
+| 11+ | 3.87 | 3.45 | 4.34 | <0.01 | 
+| Usual Provider Continuity Index |  |  |  |  | 
+| 0 | ref | ref | ref | ref | 
+| >0 to <0.5 | 2.35 | 1.94 | 2.83 | <0.01 | 
+| ≥0.5 to <1.0 | 2.78 | 2.23 | 3.47 | <0.01 | 
+| 1+ | 2.24 | 1.78 | 2.83 | <0.01 | 
+| Age in years | 1.00 | 1.00 | 1.00 | 0.51 | 
+RR=Rate Ratio
+Footnotes
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+Financial disclosures: No financial disclosures were reported by the authors of this paper.
+CRediT Author Statement:
+Brigit Hatch: Conceptualization, investigation, writing original draft
+Carrie Tillotson: Methodology, data curation, formal analysis, writing review and editing
+Megan Hoopes: Methodology, writing review and editing
+Nathalie Huguet: Conceptualization, writing review and editing
+Miguel Marino: Methodology, supervision, writing review and editing
+Jennifer DeVoe: Funding acquisition, conceptualization, writing review and editing
+Conflict of Interest
+The authors have no financial conflicts of interest to disclose.
+REFERENCES:
+- 1.Coverage of Certain Preventive Services Under the Affordable Care Act. Final rules. Federal register. 2015;80(134):41317–41347. [PubMed] [Google Scholar]
+- 2.National Committee for Quality Assurance. 2016 State of Health Care Quality. 2016.
+- 3.National Quality Forum NQ. NQF Projects. http://www.qualityforum.org/projectlisting.aspx. Published 2017. Accessed July, 2020.
+- 4.Yarnall KS, Pollak KI, Østbye T, Krause KM, Michener JL. Primary care: is there enough time for prevention? Am J Public Health. 2003;93(4):635–641. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 5.Asch SM, Kerr EA, Keesey J, et al. Who is at greatest risk for receiving poor-quality health care? The New England journal of medicine. 2006;354(11):1147–1156. [DOI] [PubMed] [Google Scholar]
+- 6.McGlynn EA, Asch SM, Adams J, et al. The quality of health care delivered to adults in the United States. The New England journal of medicine. 2003;348(26):2635–2645. [DOI] [PubMed] [Google Scholar]
+- 7.Stange KC, Flocke SA, Goodwin MA, Kelly RB, Zyzanski SJ. Direct Observation of Rates of Preventive Service Delivery in Community Family Practice. Preventive Medicine. 2000;31(2):167–176. [DOI] [PubMed] [Google Scholar]
+- 8.Heintzman J, Bailey SR, Cowburn S, Dexter E, Carroll J, Marino M. Pneumococcal Vaccination in Low-Income Latinos: An Unexpected Trend in Oregon Community Health Centers. Journal of health care for the poor and underserved. 2016;27(4):1733–1744. [DOI] [PubMed] [Google Scholar]
+- 9.Heintzman J, Hatch B, Coronado G, et al. Role of Race/Ethnicity, Language, and Insurance in Use of Cervical Cancer Prevention Services Among Low-Income Hispanic Women, 2009–2013. Preventing chronic disease. 2018;15:E25. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 10.Cowburn S, Carlson MJ, Lapidus JA, DeVoe JE. The association between insurance status and cervical cancer screening in community health centers: exploring the potential of electronic health records for population-level surveillance, 2008–2010. Preventing chronic disease. 2013;10:E173. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 11.McMorrow S, Long SK, Fogel A. Primary Care Providers Ordered Fewer Preventive Services For Women With Medicaid Than For Women With Private Coverage. Health affairs (Project Hope). 2015;34(6):1001–1009. [DOI] [PubMed] [Google Scholar]
+- 12.DeVoe JE, Fryer GE, Phillips R, Green L. Receipt of preventive care among adults: insurance status and usual source of care. Am J Public Health. 2003;93(5):786–791. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 13.Hatch BA, Tillotson CJ, Huguet N, Hoopes MJ, Marino M, DeVoe JE. Use of a Preventive Index to Examine Clinic-Level Factors Associated With Delivery of Preventive Care. American Journal of Preventive Medicine. 2019;57(2):241–249. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 14.Farley JF, Kumar A, Urick BY, Domino ME. Patient-centered medical homes and preventive service use. Am J Manag Care. 2019;25(5):e153–e159. [PubMed] [Google Scholar]
+- 15.Flocke SA, Stange KC, Zyzanski SJ. The Association of Attributes of Primary Care With the Delivery of Clinical Preventive Services. Medical Care. 1998;36(8):AS21–AS30. [DOI] [PubMed] [Google Scholar]
+- 16.Horner-Johnson W, Dobbertin K, Lee JC, Andresen EM, Disability tEPo, Disparities H. Disparities in Health Care Access and Receipt of Preventive Services by Disability Type: Analysis of the Medical Expenditure Panel Survey. Health Services Research. 2014;49(6):1980–1999. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 17.Ukhanova MA, Tillotson CJ, Marino M, et al. Uptake of Preventive Services Among Patients With and Without Multimorbidity. American journal of preventive medicine. 2020;59(5):621–629. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 18.Yarborough BJH, Perrin NA, Stumbo SP, Muench J, Green CA. Preventive Service Use Among People With and Without Serious Mental Illnesses. American journal of preventive medicine. 2018;54(1):1–9. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 19.Dexheimer JW, Talbot TR, Sanders DL, Rosenbloom ST, Aronsky D. Prompting Clinicians about Preventive Care Measures: A Systematic Review of Randomized Controlled Trials. Journal of the American Medical Informatics Association : JAMIA. 2008;15(3):311–320. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 20.Bailey SR, Heintzman JD, Marino M, et al. Measuring preventive service delivery: comparing rates across three data sources. American Journal of Preventive Medicine. 2016;51(5):752–761. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 21.Yarborough BJH, Stumbo SP, Perrin NA, Hanson GC, Muench J, Green CA. Effects of primary care clinician beliefs and perceived organizational facilitators on the delivery of preventive care to individuals with mental illnesses. BMC Fam Pract. 2018;19(1):16. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 22.Vogt TM, Aickin M, Ahmed F, Schmidt M. The Prevention Index: Using Technology to Improve Quality Assessment. Health Services Research. 2004;39(3):511–530. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 23.Vogt TM, Feldstein AC, Aickin M, Hu WR, Uchida AR. Electronic Medical Records and Prevention Quality. American Journal of Preventive Medicine. 2004;33(4):291–296. [DOI] [PubMed] [Google Scholar]
+- 24.Devoe JE, Gold R, Spofford M, et al. Developing a network of community health centers with a common electronic health record: description of the Safety Net West Practice-based Research Network (SNW-PBRN). Journal of the American Board of Family Medicine : JABFM. 2011;24(5):597–604. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 25.DeVoe JE, Likumahuwa S, Eiff MP, et al. Developing a new Practice-based Research Network (PBRN): lessons learned and challenges ahead. Journal of the American Board of Family Medicine : JABFM. 2012;25(5):560–564. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 26.Wallace LS, Angier H, Huguet N, et al. Patterns of Electronic Portal Use among Vulnerable Patients in a Nationwide Practice-based Research Network: From the OCHIN Practice-based Research Network (PBRN). Journal of the American Board of Family Medicine : JABFM. 2016;29(5):592–603. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 27.Centers for Disease Control and Prevention. Recommended Immunization Schedule for Adults Aged 19 Years or Older, United States, 2017. https://www.cdc.gov/vaccines/schedules/downloads/adult/adult-combined-schedule.pdf. Published 2017. Accessed 2018.
+- 28.US Preventive Services Task Force. USPSTF Grade A and B recommendations. https://www.uspreventiveservicestaskforce.org/Page/Name/uspstf-a-and-b-recommendations/. Published 2017. Accessed 12/7/27.
+- 29.US Prerventive Services Task Force. Grade Definitions. https://www.uspreventiveservicestaskforce.org/uspstf/about-uspstf/methods-and-processes/grade-definitions. Published 2018. Accessed2021.
+- 30.Heintzman J, Bailey SR, Hoopes MJ, et al. Agreement of Medicaid claims and electronic health records for assessing preventive care quality among adults. Journal of the American Medical Informatics Association : JAMIA. 2014;21(4):720–724. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 31.Aday LA AR, Anderson OW. Social surveys and health policy implications for national health insurance. Public Health Rep. 1977;92(6):508–517. [PMC free article] [PubMed] [Google Scholar]
+- 32.Sundararajan V, Henderson T, Perry C, Muggivan A, Quan H, Ghali WA. New ICD-10 version of the Charlson comorbidity index predicted in-hospital mortality. Journal of Clinical Epidemiology. 2004;57(12):1288–1294. [DOI] [PubMed] [Google Scholar]
+- 33.Jee SH, Cabana MD. Indices for continuity of care: a systematic review of the literature. Med Care Res Rev. 2006;63(2):158–188. [DOI] [PubMed] [Google Scholar]
+- 34.Lawless JF. Negative binomial and mixed Poisson regression. Can J Statistics. 1987;15(3):209–225. [Google Scholar]
+- 35.Agresti A Categorical data analysis. Vol 482: John Wiley & Sons.; 2003. [Google Scholar]
+- 36.Schwarz G Estimating the Dimension of a Model. Annals of Statistics. 1978;6:461–464. [Google Scholar]
+- 37.Han HR, Gleason KT, Sun CA, et al. Using Patient Portals to Improve Patient Outcomes: Systematic Review. JMIR Hum Factors. 2019;6(4):e15038. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 38.Camacho F, Yao NA, Anderson R. The Effectiveness of Medicare Wellness Visits in Accessing Preventive Screening. Journal of primary care & community health. 2017;8(4):247–255. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 39.Birtwhistle R, Bell NR, Thombs BD, Grad R, Dickinson JA. Periodic preventive health visits: a more appropriate approach to delivering preventive services: From the Canadian Task Force on Preventive Health Care. Can Fam Physician. 2017;63(11):824–826. [PMC free article] [PubMed] [Google Scholar]
+- 40.Sanford NN, Sher DJ, Butler S, et al. Cancer Screening Patterns Among Current, Former, and Never Smokers in the United States, 2010–2015. JAMA Network Open. 2019;2(5):e193759–e193759. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 41.Song S, White A, Kucik JE. Use of Selected Recommended Clinical Preventive Services - Behavioral Risk Factor Surveillance System, United States, 2018. MMWR Morbidity and mortality weekly report. 2021;70(13):461–466. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 42.Borsky A, Zhan C, Miller T, Ngo-Metzger Q, Bierman AS, Meyers D. Few Americans Receive All High-Priority, Appropriate Clinical Preventive Services. Health affairs (Project Hope). 2018;37(6):925–928. [DOI] [PubMed] [Google Scholar]

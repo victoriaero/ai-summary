@@ -1,0 +1,28 @@
+{
+  "source_id": "b47aa01f8cbd0aad17d4",
+  "normalized_url": "https://levelaccess.com/blog/ada-financial-institutions",
+  "fetch_timestamp_utc": "2026-10-04T02:47:08.734965+00:00",
+  "registrable_domain": "levelaccess.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.levelaccess.com/blog/ada-financial-institutions/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 246415,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b47aa01f8cbd0aad17d4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b47aa01f8cbd0aad17d4.txt",
+  "text_chars": 9165,
+  "text_words": 1296,
+  "extraction_status": "success",
+  "page_title": "ADA Banking Requirements | Insights on Compliance",
+  "page_author": "Level Access",
+  "page_date": "2025-01-24",
+  "site_name": "Level Access",
+  "canonical_url": "https://www.levelaccess.com/blog/ada-financial-institutions/"
+}

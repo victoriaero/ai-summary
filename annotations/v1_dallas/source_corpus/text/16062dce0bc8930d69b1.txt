@@ -1,0 +1,148 @@
+Abstract
+Background
+Little is known about how health insurance payer types differ between transgender and gender diverse (TGD) people and cisgender people. Much of what is known about insurance coverage among TGD adults has been based on research from claims and electronic health record data, which excludes individuals who have not accessed gender-affirming care. Research designed to understand how TGD populations pay for healthcare to best inform care interventions and public insurance policies is lacking.
+Objectives
+To examine differences in prevalence of public and private health insurance between transgender and cisgender adults.
+Methods
+Using data from the Behavioral Risk Factor Surveillance System, this study estimated prevalence of health insurance coverage among TGD and cisgender adults residing in 22 states that administered the Sexual Orientation and Gender Identity module and the Healthcare Access module from 2014 to 2019. This study estimated the odds of health insurance coverage (no insurance, private insurance, public insurance) among cisgender adults compared to TGD adults.
+Results
+TGD people had greater odds of being uninsured, compared to cisgender women. Among non-disabled, non-elderly respondents, TGD adults had lower odds of having private insurance and higher odds of public insurance compared to cisgender men. Among respondents who were likely Medicaid eligible, TGD respondents had lower odds of having public insurance and higher odds of being uninsured compared to cisgender women.
+Conclusions
+These findings provide foundational information about the payer mix among TGD people and provide insight into barriers to health insurance that TGD adults may face.
+Keywords: Transgender Persons, Health Services for Transgender Persons, Medicaid, Insurance, Sexual and Gender Minorities
+Introduction
+Transgender and gender diverse (TGD) populations have poorer health compared to cisgender populations.1 This may be exacerbated by lower rates of health insurance compared to cisgender people.2 Adequate insurance coverage is critical to addressing health inequities among TGD populations,3 yet it is unknown whether differences in rates of uninsurance, or being uninsured, are driven by inequitable access to public, private, or both types of insurance.
+TGD populations may have higher rates of uninsurance due to reduced access to employer-sponsored insurance (ESI). TGD adults face wide-spread employment discrimination, limiting access to jobs that provide ESI.4 Furthermore, TGD adults, who are more likely than cisgender adults to identify as sexual minorities and be in same-sex relationships, may have had less access to ESI prior to marriage equality in 2015.2 While marriage equality had a substantial positive impact on ESI,5 disparities remain.6
+Differences in uninsurance rates between TGD and cisgender adults may also be attributed to lower rates of enrollment in public insurance (including Medicare and Medicaid) among TGD adults. While recent evidence shows an increase in gender-affirming surgeries covered by Medicaid or Medicare,7 few studies have examined prevalence of public insurance among the broader TGD population (including those who have not accessed hormone therapy, surgeries, and other gender-affirming care). Despite experiencing high rates of poverty and disability,6 increasing Medicaid and Medicare eligibility, access to public insurance may be limited for TGD adults. Until May 2021, TGD adults were unprotected from discrimination based on gender identity by federal programs.8 The absence of protections for TGD adults may have resulted in reduced enrollment in public insurance.
+Knowledge of which types of insurance TGD adults are enrolled in may help to explain why some TGD adults face inconsistent coverage for gender-affirming care. For example, ESI coverage of gender-affirming care is increasing3, yet TGD adults are less likely to have full-time employment than cisgender adults2. Medicaid programs cover gender-affirming hormones in 34 states, and gender-affirming surgeries in 25 states,9 while Medicare covers gender-affirming care on a case-by-case basis.10
+To reduce health inequalities and improve access to care, it is important to understand how TGD adults pay for health care. Limited research has explored differences in public and private insurance coverage between cisgender and TGD adults, irrespective of their gender-affirming care utilization. We address this using representative survey data to describe the payer mix among TGD individuals and examine differences in insurance coverage between TGD and cisgender adults.
+This study hypothesized that TGD-identified adults will be more likely to be uninsured, more likely to have public insurance, and less likely to have private insurance compared to cisgender adults.
+Methods
+This study used data from the Behavioral Risk Factor Surveillance System (BRFSS) 2014, 2016, 2017, 2018, and 2019 surveys downloaded in December of 2020. The 2015 survey did not include insurance information and was therefore excluded. Individual states can elect to include specific modules, including gender identity and health insurance coverage modules. Data were collected from TGD-identified and cisgender adults residing in 22 states that included the Sexual Orientation and Gender Identity module and the Healthcare Access module during the study period (see Table, Supplemental Digital Content 1 for included states).
+Measures.
+Gender identity.
+Respondents were asked: Do you consider yourself to be transgender? Those who responded yes were categorized as TGD-identified. Respondents who responded no were considered cisgender women if female sex, and cisgender men if male sex. Respondents were excluded if they were unsure or refused (n = 3,573).
+Primary health insurance.
+Respondents were asked: What is the primary source of your health care coverage? Those who had “a plan purchased through an employer or union,” “a plan that you or another family member buys on your own,” or “TRICARE, VA, or Military” were considered to have private insurance. Those with Medicare, Medicaid or other state programs were considered to have public insurance. Those with no coverage or Tribal Health Services were considered uninsured 11.
+Covariates.
+Demographics included age; race/ethnicity (non-Hispanic white, non-Hispanic black, Hispanic, other/multiple); educational attainment (did not complete high school, high school graduate, some college/technical school, college/technical school graduate); percent of the federal poverty line (FPL) (calculated based on year and state thresholds using median household income and number of adults and children in the household); employment status (employed, unemployed, not looking, retired, unable to work); marital status; presence of children in the household; and residence in a Medicaid expansion state. Disability status was assessed based on the presence of at least one functional disability including disability in mobility, cognition, independent living, vision, or self-care.2
+Statistical Analysis
+Data were pooled and reweighted to be representative of each state in the sample. Survey weights in each year were multiplied by the number of all respondents that year divided by the number of respondents surveyed from 2014–2019.
+The weighted prevalence of demographic and insurance variables was estimated for each group (TGD-identified, cisgender women, cisgender men); Pearson chi-square tests were used to compare weighted group frequencies.
+Three multivariable-adjusted logit models assessed the relationship between insurance outcome (no insurance, private insurance, public insurance) and gender identity (cisgender women and men compared to TGD-identified respondents) controlling for all covariates listed above. To understand how insurance varied among subgroups, these same three models were run among three different subsets of respondents: 1) likely not Medicare-eligible (non-elderly, non-disabled); likely Medicare-eligible (65+ or at least 1 disability); and likely Medicaid-eligible (under 250% of the FPL). Analyses were conducted using StataMP 15 in December of 2020.
+Results
+Descriptive.
+The sample consisted of 256,136 respondents (0.4% TGD-identified adults, 42.2% cisgender women, 57.4% cisgender men) (Table 1). Compared to cisgender women and men, a lower proportion of TGD-identified respondents were 65+ and retired, while a higher proportion were disabled, unable to work, and under 250% of the FPL. Employment was higher among cisgender men, compared to both cisgender women and TGD-identified respondents. A lower proportion of TGD-identified adults were married compared to cisgender respondents, yet a similar proportion of TGD-identified adults and cisgender men had a child in their household. All groups had similar rates of residence in a Medicaid expansion state.
+Table 1.
+|  | Transgender Individuals |  | Cisgender Men |  | Cisgender Women |  | 
+|---|---|---|---|---|---|---|
+|  | n =1,106 |  | n = 108,097 |  | n = 146,933 |  | 
+|  | n | % | n | % | n | % | 
+| Age Group1 |  |  |  |  |  |  | 
+| 18–24 | 114 | 10.3 | 7033 | 6.5 | 6053 | 4.1 | 
+| 25–34 | 112 | 10.1 | 10899 | 10.1 | 12462 | 8.5 | 
+| 35–44 | 130 | 11.8 | 12635 | 11.7 | 16374 | 11.1 | 
+| 45–54 | 183 | 16.5 | 18229 | 16.9 | 23851 | 16.2 | 
+| 55–64 | 253 | 22.9 | 24517 | 22.7 | 33172 | 22.6 | 
+| 65+ | 314 | 28.4 | 34784 | 32.2 | 55021 | 37.4 | 
+| Non-Hispanic white1 | 788 | 72.8 | 86833 | 81.7 | 117232 | 80.8 | 
+| Employment Status 1 |  |  |  |  |  |  | 
+| Employed | 484 | 43.8 | 48122 | 56.0 | 64700 | 44.1 | 
+| Unemployed | 78 | 7.1 | 4786 | 4.4 | 5920 | 4.1 | 
+| Retired | 284 | 25.7 | 31555 | 29.2 | 46612 | 31.7 | 
+| Unable to work | 153 | 13.8 | 7553 | 7.0 | 12955 | 8.8 | 
+| Disabled1 | 434 | 39.2 | 25518 | 23.6 | 44492 | 30.3 | 
+| Married1 | 489 | 44.4 | 61244 | 56.9 | 71905 | 49.2 | 
+| Child in Household1 | 240 | 21.9 | 26696 | 24.9 | 38292 | 26.2 | 
+| Under 250% FPL1 | 522 | 58.2 | 33571 | 36.8 | 55196 | 46.3 | 
+| Expansion state2 | 600 | 54.2 | 59615 | 55.1 | 81271 | 55.3 | 
+Pearson chi-square test: p<0.001
+Pearson chi-square test: p=0.577
+Prevalence of primary health insurance (unadjusted).
+TGD-identified adults had the highest prevalence of uninsurance compared to cisgender men and women (23.5%, 16.1%, and 12.8% respectively); this finding was consistent across all subgroups (non-elderly/ non-disabled, likely Medicare-eligible, and likely Medicaid-eligible) (Table 2). The prevalence of public insurance among TGD-identified adults (24.6%) was higher than cisgender men (21.8%) but lower than cisgender women (29.3%).
+Table 2.
+|  | Transgender Individuals |  | Cisgender Men |  | Cisgender Women |  | 
+|---|---|---|---|---|---|---|
+| All Adults | n = 1,106 |  | n = 108,097 |  | n = 146,933 |  | 
+|  | n | % | n | % | n | % | 
+| No insurance | 192 | 23.3 (18.5, 28.8) | 12959 | 16.1 (15.6, 16.6) | 14198 | 12.8 (12.4, 13.2) | 
+| Private insurance | 500 | 48.7 (42.8, 54.6) | 60895 | 59.5 (58.9, 60.1) | 74988 | 55.7 (55.2, 56.2) | 
+| Public insurance | 383 | 24.6 (20.0, 29.9) | 32146 | 21.8 (21.4, 22.3) | 55119 | 29.3 (28.8, 29.7) | 
+| Non-Disabled, Non-Elderly | n = 496 |  | n = 58,534 |  | n = 68,439 |  | 
+|  | n | % | n | % | n | % | 
+| No insurance | 99 | 26.0 (19.1, 34.2) | 8,411 | 17.4 (16.7, 18.0) | 8,060 | 14.0 (13.5, 14.6) | 
+| Private insurance | 317 | 57.8 (49.1, 66.1) | 45,099 | 73.1 (72.4, 73.8) | 52,652 | 72.7 (72.0, 73.4) | 
+| Public insurance | 67 | 12.4 (7.1, 21.1) | 3,958 | 7.1 (6.7, 7.6) | 6,913 | 11.4 (10.9, 11.9) | 
+| Medicare Eligible | n = 610 |  | n = 49,563 |  | n =78,494 |  | 
+|  | n | % | n | % | n | % | 
+| No insurance | 93 | 19.8 (14.0, 27.1) | 4,548 | 13.6 (12.9, 14.4) | 6,138 | 11.1 (10.6,11.6) | 
+| Private insurance | 183 | 36.7 (29.1, 45.2) | 15,796 | 34.2 (33.4, 35.1) | 22,336 | 31.4 (30.7, 32.1) | 
+| Public insurance | 316 | 40.4 (33.3, 47.9) | 28,188 | 49.3 (48.4, 50.2) | 48,205 | 54.7 (54.0, 55.4) | 
+| Under 250% FPL | n = 522 |  | n = 33,571 |  | n = 55,196 |  | 
+|  | n | % | n | % | n | % | 
+| No insurance | 108 | 28.4 (21.1, 36.9) | 6,793 | 26.1 (25.1, 27.1) | 8,378 | 19.4 (18.6, 20.1) | 
+| Private insurance | 175 | 38.5 (29.9, 47.9) | 13,023 | 41.6 (40.5, 42.6) | 18,188 | 37.7 (36.8, 38.6) | 
+| Public insurance | 228 | 31.9 (24.3, 39.9) | 13,016 | 29.8 (28.8, 30.7) | 27,598 | 40.9 (40.0, 41.7) | 
+Note: Unknown/refused categories are not included due to small cell sizes; thus number do not sum to total n. Data are weighted.
+Differences in odds of primary health insurance.
+Compared to TGD-identified adults, cisgender women had lower odds of uninsurance (AOR= 0.703, 95% CI= 0.580, 0.853) and cisgender men had marginally higher odds of having private insurance (AOR= 1.143, 95% CI= 0.975, 1.341) (Table 3). No differences were observed for public insurance. Differences in private insurance were assessed among those not likely Medicare insurance eligible. Compared to TGD-identified adults, cisgender women (AOR= 1.382, 95% CI= 1.081, 1.766), and cisgender men (AOR= 1.303, 95% CI = 1.019, 1.665) had higher odds of having private insurance. Third, the study looked at differences in public insurance among likely Medicare-eligible respondents and no differences were observed. Finally, differences in public insurance among those likely Medicaid-eligible (under 25% FPL) were estimated. Compared to TGD-identified adults, cisgender women had higher odds (AOR= 1.221, 95% CI= 1.006, 1.481), and cisgender men had marginally lower odds, of having public insurance (AOR= 0.840, 95% CI = 0.692, 1.019) of having public insurance.
+Table 3.
+|  |  | No Insurance |  | Private |  | Public |  | 
+|---|---|---|---|---|---|---|---|
+|  |  | OR | 95% CI | OR | 95% CI | OR | 95% CI | 
+| All1 | Cisgender women | 0.703** | 0.580,0.853 | 1.122 | 0.957,1.315 | 1.095 | 0.922,1.299 | 
+|  | Cisgender men | 0.924 | 0.762,1.121 | 1.143+ | 0.975,1.341 | 0.901 | 0.759,1.070 | 
+| Non-Disabled, Non-Elderly2 | Cisgender women | 0.668** | 0.509,0.876 | 1.382** | 1.081,1.766 | 1.069 | 0.769,1.487 | 
+|  | Cisgender men | 0.897 | 0.684,1.177 | 1.303* | 1.019,1.665 | 0.731+ | 0.525,1.018 | 
+| Medicare Eligible3 | Cisgender women | 0.748* | 0.567,0.987 | 0.961 | 0.783,1.180 | 1.138 | 0.937,1.382 | 
+|  | Cisgender men | 0.945 | 0.716,1.248 | 1.058 | 0.861,1.299 | 0.964 | 0.793,1.171 | 
+| Under 250% FPL4 | Cisgender women | 0.794* | 0.633,0.995 | 0.943 | 0.777,1.145 | 1.221* | 1.006,1.481 | 
+|  | Cisgender men | 1.033 | 0.824,1.295 | 1.124 | 0.926,1.365 | 0.840+ | 0.692,1.019 | 
+p< 0.01
+p<0.05
+p<0.10;
+reference group is TGD adults; OR (odds ratio) and CI (confidence interval)
+Adjusted model controls for age, race, ethnicity, 1+ child in the house, any disability, under 250% FPL, residence in Medicaid expansion state, state, year
+Adjusted model controls for age, race, ethnicity, 1+ child in the house, under 250% FPL, residence in Medicaid expansion state, state, year
+Adjusted model controls for race, ethnicity, 1+ child in the house, any disability, under 250% FPL, residence in Medicaid expansion state, state, year
+Adjusted model controls for age, race, ethnicity, 1+ child in the house, any disability, residence in Medicaid expansion state, state, year
+Discussion
+This study is among the first to use a population-based sample to compare the payer mix for insurance coverage between TGD and cisgender adults. Importantly, this study includes TGD adults who have accessed gender-affirming healthcare, through insurance and those who have not.
+Consistent with our hypotheses and supported by previous studies, TGD-identified adults were more likely to be uninsured compared to cisgender adults.2 11 TGD-identified adults have less access to resources and socioeconomic advantage,2 likely creating barriers to insurance, particularly in states with more limited Medicaid eligibility. Without insurance coverage, gender-affirming care, and other health services, may be prohibitively expensive for many TGD adults.
+Contrary to the study hypothesis, analyses adjusted for socioeconomic confounders showed that TGD-identified adults and cisgender men had similar odds of uninsurance. This is not surprising considering prior research that found that men are more likely to be uninsured than women13. Additionally, Medicaid eligibility via pregnancy may create more insurance opportunities for cisgender women. Future research should explore why TGD adults, despite additional, unique health needs,2 face similar uninsurance rates to cisgender men, and more importantly, the specific barriers to insurance access for TGD adults.
+This study also found that TGD-identified adults were less likely to have private insurance, among non-elderly, non-disabled adults. ESI has expanded to cover gender-affirming care,3 however, access to ESI remains restricted for TGD adults due to employment inequities and the previous absence of federal policies banning health insurance discrimination based on gender identity among private insurers. Many states do have laws in place banning private insurers from gender identity-based discrimination, however, even in these states some insurers are exempt from these laws.14 Previous work shows that TGD adults have lower rates of college education, and higher rates of poverty and workplace discrimination, all of which are tied to employment.6 Unit 2020, no federal policies protected TGD adults from workplace discrimination, though a patchwork of laws did exist in some states.14 Additionally, TGD adults may be less likely to have access to ESI through their partner if they are in a same-sex relationship, though marriage equality played an important role in expanding access to ESI for same-sex couples.5
+Differences in private insurance for TGD adults may also result from lack of clarity surrounding access, as many TGD adults are uncertain about gender-affirming healthcare coverage.15 Future studies should examine whether uptake of private insurance among eligible TGD workers is hindered by lack of clear coverage guidelines. Examining access to coverage information may be a tangible way to begin addressing specific barriers for TGD adults seeking gender-affirming care.
+Additionally, public insurance was similar across likely Medicare-eligible adults. However, TGD-identified respondents were more likely to be uninsured than cisgender women in this population. This is concerning considering TGD adults have higher rates of disability..16 Minority stress and systemic oppression can impact the health of TGD people17 and many TGD adults could benefit from Medicare coverage. It is important to explore factors that may prevent TGD adults with disabilities from accessing Medicare coverage. Navigating complex healthcare systems can be difficult for people with disabilities. This may be additionally challenging for disabled TGD adults.18
+Finally, TGD-identified respondents who were Medicaid-eligible were less likely to have public insurance than cisgender women, but levels similar to cisgender men. This may be due, in part, to lower rates of children in the household that afford many cisgender women access to Medicaid 2, or because less than half of state Medicaid programs cover gender-affirming care, impacting who enrolls in Medicaid programs.9 Future research should examine uptake of Medicaid among those eligible to understand TGD-specific barriers.
+Limitations
+In this study, the sample consisted of participants from only 22 states, potentially reducing generalizability. Second, small sample sizes prevented separation of results beyond private and public insurance to examine outcomes for Medicaid, Medicare, and ESI separately. Third, the study likely undercounts gender diverse respondents without utilizing the two-question gender identity assessment method19 and was unable to separate results by gender identity or other intersecting identities (including race) among TGD-identified participants due to small sample sizes.12 19 Fourth, use of probabilistic samples to study TGD populations before 2016 is controversial due to sex-specific ranking and the way sex was collected. 19 20 However, most of our data was collected after 2016. Finally, this study does not explicitly test which explanatory factors contribute to the observed differences in coverage.
+Conclusion
+This study provides some of the first representative estimates of prevalence of private and public insurance among TGD adults. These findings provide foundational information about the payer mix of the broader TGD population and can inform an understanding of TGD-specific barriers to insurance.
+Supplementary Material
+Acknowledgements and Disclosure of Funding:
+Downing’s time for this publication was supported by the Eunice Kennedy Shriver National Institute of Child Health & Human Development of the National Institutes of Health (K12HD043488).
+Footnotes
+Conflicts of Interest: We have no potential conflicts of interest to report.
+References
+- 1.Baker KE. Findings from the behavioral risk factor surveillance system on health-related quality of life among US transgender adults. JAMA International Medicine. 2019;179(8):1141–1144. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 2.Downing JM, Przedworski JM. Health of Transgender Adults in the U.S., 2014–2016. American Journal of Preventive Medicine. 2018;55(3):336–344. doi: 10.1016/j.amepre.2018.04.045 [DOI] [PubMed] [Google Scholar]
+- 3.Padula W v., Baker K. Coverage for Gender-Affirming Care: Making Health Insurance Work for Transgender Americans. LGBT Health. 2017;4(4). doi: 10.1089/lgbt.2016.0099 [DOI] [PubMed] [Google Scholar]
+- 4.Grant JM, Mottet LA, Justin Tanis J, with Jack Harrison Jody Herman DmL, Keisling M. Injustice at Every Turn A Report of the National Transgender Discrimination Survey. www.TheTaskForce.org
+- 5.Downing J, Cha P. Same-Sex Marriage and Gains in Employer-Sponsored Insurance for US Adults, 2008–2017. American Journal of Public Health. 2020;110(4). doi: 10.2105/AJPH.2019.305510 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 6.Carpenter CS, Eppink ST, Gonzales G. Transgender Status, Gender Identity, and Socioeconomic Outcomes in the United States. ILR Review. 2020;73(3). doi: 10.1177/0019793920902776 [DOI] [Google Scholar]
+- 7.Canner JK, Harfouch O, Lau BD, Key Points C. Temporal Trends in Gender-Arming Surgery Among Transgender Patients in the United States. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5875299/ [DOI] [PMC free article] [PubMed]
+- 8.Office for Civil Rights H. Billing Code: XXXX-XX-X Notification of Interpretation and Enforcement of Section 1557 of the Affordable Care Act and Title IX of the Education Amendments of 1972.; 1972. https://www.supremecourt.gov/opinions/19pdf/17-
+- 9.Zaliznyak M, Jung EE, Bresee C, Garcia MM. Which U.S. States’ Medicaid Programs Provide Coverage for Gender-Affirming Hormone Therapy and Gender-Affirming Genital Surgery for Transgender Patients?: A State-by-State Review, and a Study Detailing the Patient Experience to Confirm Coverage of Services. The Journal of Sexual Medicine. 2021;18(2). doi: 10.1016/j.jsxm.2020.11.016 [DOI] [PubMed] [Google Scholar]
+- 10.Jensen TS, Chin J, Rollins J, Koller E. Decision Memo for Gender Dysphoria and Gender Reassignment Surgery (CAG-00446N) Decision Memo. [Google Scholar]
+- 11.Artiga S, Lyons B. Medical Coverage and Access to Care for American Indians and Alaska Natives under the Affordable Care Act. JAMA Internal Medicine. 2016;176(6):860–861. [DOI] [PubMed] [Google Scholar]
+- 12.Gonzales G, Henning-Smith C. Barriers to Care Among Transgender and Gender Nonconforming Adults. The Milbank Quarterly. 2017;95(4). doi: 10.1111/1468-0009.12297 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 13.Hinton E, Artiga S. Characteristics of Remaining Uninsured Men and Potential Strategies to Reach and Enroll Them in Health Coverage Eligibility for ACA Coverage Among Nonelderly Uninsured Men as of 2015 Total = 14.7 Million Nonelderly Uninsured Men Eligible for Financial Assistance 44% Ineligible for Financial Assistance Due to Income or Offer of ESI Ineligible Due to Immigration Status Coverage Gap Medicaid-Eligible Tax Credit Eligible.
+- 14.Movement Advancement Project. Equality Maps: Employment Nondiscrimination Laws. https://www.lgbtmap.org/equality_maps/employment_non_discrimination_laws.
+- 15.Hughto JMW, Meyers DJ, Mimiaga MJ, Reisner SL, Cahill S. Uncertainty and Confusion Regarding Transgender Non-discrimination Policies: Implications for the Mental Health of Transgender Americans. Sexuality Research and Social Policy. Published online June 11, 2021. doi: 10.1007/s13178-021-00602-w [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 16.Recommended Citation James SE, Herman JL, Rankin S, Keisling M, Mottet L, Anafi M. About the National Center for Transgender Equality.; 2016. [Google Scholar]
+- 17.Reisner SL, Poteat T, Keatley J, et al. Global health burden and needs of transgender populations: a review. The Lancet. 2016;388(10042). doi: 10.1016/S0140-6736(16)00684-X [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 18.Progovac AM, Cook BL, Mullin BO, et al. Identifying Gender Minority Patients’ Health And Health Care Needs In Administrative Claims Data. Health Affairs. 2018;37(3). doi: 10.1377/hlthaff.2017.1295 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 19.Lett E, Everhart A. Considerations for Transgender Population Health Research Based on US National Surveys. Annals of Epidemiology. Published online October 28, 2021. doi: 10.1016/J.ANNEPIDEM.2021.10.009 [DOI] [PubMed] [Google Scholar]
+- 20.Cicero EC, Reisner SL, Merwin EI, Humphreys JC, Silva SG Application of Behavioral Risk Factor Surveillance System Sampling Weights to Transgender Health Measurement. Nursing Research. 2020;69(4). doi: 10.1097/NNR.0000000000000428 [DOI] [PMC free article] [PubMed] [Google Scholar]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.

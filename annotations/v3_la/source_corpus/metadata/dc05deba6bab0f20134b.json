@@ -1,0 +1,28 @@
+{
+  "source_id": "dc05deba6bab0f20134b",
+  "normalized_url": "https://sussex.ac.uk/broadcast/read/39309",
+  "fetch_timestamp_utc": "2026-10-04T03:47:08.815909+00:00",
+  "registrable_domain": "sussex.ac.uk",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sussex.ac.uk/broadcast/read/39309",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 28750,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/dc05deba6bab0f20134b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/dc05deba6bab0f20134b.txt",
+  "text_chars": 2855,
+  "text_words": 436,
+  "extraction_status": "success",
+  "page_title": "Female bosses favour gay and lesbian job-seekers, research finds",
+  "page_author": "James Hakner",
+  "page_date": "2017-02-23",
+  "site_name": "The University of Sussex",
+  "canonical_url": "https://www.sussex.ac.uk/broadcast/read/39309"
+}

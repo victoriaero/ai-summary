@@ -1,0 +1,18 @@
+{
+  "n_unique_sources": 1595,
+  "parse_failure_count": 0,
+  "parse_failure_rate": 0.0,
+  "other_count": 2,
+  "other_share": 0.0012539184952978057,
+  "category_counts": {
+    "Government/Public Agency": 370,
+    "Academic/Research": 386,
+    "News/Media": 80,
+    "NGO/Advocacy": 440,
+    "Community/Lived Experience": 30,
+    "Commercial/Professional": 287,
+    "Other/Unclear": 2
+  },
+  "sanity_failures": [],
+  "passed": true
+}

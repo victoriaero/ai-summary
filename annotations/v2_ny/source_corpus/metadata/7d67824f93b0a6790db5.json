@@ -1,0 +1,28 @@
+{
+  "source_id": "7d67824f93b0a6790db5",
+  "normalized_url": "https://bja.ojp.gov/sites/bja/files/Publications/WomensPathwaysToJail.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:42:32.423986+00:00",
+  "registrable_domain": "ojp.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://bja.ojp.gov/sites/bja/files/Publications/WomensPathwaysToJail.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 183210,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7d67824f93b0a6790db5.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7d67824f93b0a6790db5.txt",
+  "text_chars": 15175,
+  "text_words": 2215,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "b5459e925d59811b25fe",
+  "normalized_url": "https://academic.oup.com/esr/article/42/2/301/8317978",
+  "fetch_timestamp_utc": "2026-10-04T02:47:10.423755+00:00",
+  "registrable_domain": "oup.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://academic.oup.com/esr/article/42/2/301/8317978",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5618,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

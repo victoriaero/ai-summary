@@ -1,0 +1,28 @@
+{
+  "source_id": "0a4054d42f284ee36412",
+  "normalized_url": "https://huduser.gov/portal/periodicals/cityscpe/vol23num2/ch7.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:33:16.281437+00:00",
+  "registrable_domain": "huduser.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 202,
+  "final_url": "https://huduser.gov/portal/periodicals/cityscpe/vol23num2/ch7.pdf",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 2407,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0a4054d42f284ee36412.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0a4054d42f284ee36412.txt",
+  "text_chars": 157,
+  "text_words": 26,
+  "extraction_status": "success",
+  "page_title": "JavaScript is disabled",
+  "page_author": null,
+  "page_date": null,
+  "site_name": "huduser.gov",
+  "canonical_url": "https://huduser.gov/portal/periodicals/cityscpe/vol23num2/ch7.pdf"
+}

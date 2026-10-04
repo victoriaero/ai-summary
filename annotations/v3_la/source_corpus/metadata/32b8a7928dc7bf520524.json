@@ -1,0 +1,20 @@
+{
+  "source_id": "32b8a7928dc7bf520524",
+  "normalized_url": "https://humanrights.gov.au/resource-hub/disability-rights/access-education-students-disability",
+  "fetch_timestamp_utc": "2026-10-04T03:34:21.828673+00:00",
+  "registrable_domain": "humanrights.gov.au",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://humanrights.gov.au/resource-hub/disability-rights/access-education-students-disability",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5844,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

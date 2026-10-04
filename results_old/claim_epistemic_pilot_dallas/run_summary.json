@@ -1,0 +1,13 @@
+{
+  "n_claims": 2408,
+  "n_matched_pairs": 8,
+  "n_unique_matched_claims": 12,
+  "n_hedge_span_candidates": 364,
+  "n_claims_with_one_strict_linked_score": 72,
+  "n_strict_occurrences_dallas": 422,
+  "n_strict_occurrences_uniquely_aligned": 417,
+  "n_matched_pairs_with_both_V": 0,
+  "n_matched_pairs_with_H_difference": 8,
+  "source_claim_dir": "/scratch/victoria.estanislau/ai-summary/results/claim_extraction_pilot/microsoft-phi-4",
+  "source_epistemic_dir": "/scratch/victoria.estanislau/ai-summary/results/epistemic_commitment"
+}

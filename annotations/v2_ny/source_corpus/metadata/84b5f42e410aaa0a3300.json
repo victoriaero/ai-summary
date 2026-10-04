@@ -1,0 +1,28 @@
+{
+  "source_id": "84b5f42e410aaa0a3300",
+  "normalized_url": "https://uncf.org/pages/k-12-disparity-facts-and-stats",
+  "fetch_timestamp_utc": "2026-10-04T02:43:12.970605+00:00",
+  "registrable_domain": "uncf.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://uncf.org/pages/k-12-disparity-facts-and-stats",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 84156,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/84b5f42e410aaa0a3300.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/84b5f42e410aaa0a3300.txt",
+  "text_chars": 4000,
+  "text_words": 622,
+  "extraction_status": "success",
+  "page_title": "Education Inequality: K-12 Disparity Facts - UNCF",
+  "page_author": null,
+  "page_date": "2025-07-22",
+  "site_name": "United Negro College Fund",
+  "canonical_url": "https://uncf.org/pages/k-12-disparity-facts-and-stats"
+}

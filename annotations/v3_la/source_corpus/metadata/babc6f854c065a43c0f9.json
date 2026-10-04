@@ -1,0 +1,20 @@
+{
+  "source_id": "babc6f854c065a43c0f9",
+  "normalized_url": "https://commonwealthfund.org/publications/issue-briefs/2025/jun/reducing-medicaid-churn-policies-promote-stable-health-coverage",
+  "fetch_timestamp_utc": "2026-10-04T03:44:45.897783+00:00",
+  "registrable_domain": "commonwealthfund.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://commonwealthfund.org/publications/issue-briefs/2025/jun/reducing-medicaid-churn-policies-promote-stable-health-coverage",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5982,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "4605280859752feda93d",
+  "normalized_url": "https://usafacts.org/articles/what-the-data-shows-about-police-use-of-force-by-race",
+  "fetch_timestamp_utc": "2026-10-04T03:35:48.189239+00:00",
+  "registrable_domain": "usafacts.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://usafacts.org/articles/what-the-data-shows-about-police-use-of-force-by-race/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 173434,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/4605280859752feda93d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/4605280859752feda93d.txt",
+  "text_chars": 2472,
+  "text_words": 405,
+  "extraction_status": "success",
+  "page_title": "What the data shows about police use of force by race | USAFacts",
+  "page_author": null,
+  "page_date": "2023-05-08",
+  "site_name": "USAFacts",
+  "canonical_url": "https://usafacts.org/articles/what-the-data-shows-about-police-use-of-force-by-race/"
+}

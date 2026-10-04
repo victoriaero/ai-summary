@@ -1,0 +1,20 @@
+{
+  "source_id": "e100485c5eeb9b2c92ca",
+  "normalized_url": "https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1061&context=themis",
+  "fetch_timestamp_utc": "2026-10-04T02:50:30.076615+00:00",
+  "registrable_domain": "sjsu.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1061&context=themis",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5774,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

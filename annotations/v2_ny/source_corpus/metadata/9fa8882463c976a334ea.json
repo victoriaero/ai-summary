@@ -1,0 +1,28 @@
+{
+  "source_id": "9fa8882463c976a334ea",
+  "normalized_url": "https://uri.edu/news/2025/10/homelessness-rates-vary-sharply-by-race-uri-paper-shows",
+  "fetch_timestamp_utc": "2026-10-04T02:45:28.726771+00:00",
+  "registrable_domain": "uri.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.uri.edu/news/2025/10/homelessness-rates-vary-sharply-by-race-uri-paper-shows/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 147068,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9fa8882463c976a334ea.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9fa8882463c976a334ea.txt",
+  "text_chars": 3650,
+  "text_words": 509,
+  "extraction_status": "success",
+  "page_title": "Homelessness rates vary sharply by race, URI paper shows",
+  "page_author": null,
+  "page_date": "2025-10-15",
+  "site_name": "Universityofri",
+  "canonical_url": "https://www.uri.edu/news/2025/10/homelessness-rates-vary-sharply-by-race-uri-paper-shows/"
+}

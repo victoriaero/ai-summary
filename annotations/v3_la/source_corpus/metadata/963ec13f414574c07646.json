@@ -1,0 +1,28 @@
+{
+  "source_id": "963ec13f414574c07646",
+  "normalized_url": "https://prisonpolicy.org/blog/2015/04/08/nap-video",
+  "fetch_timestamp_utc": "2026-10-04T03:41:59.036669+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/blog/2015/04/08/nap-video/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 42108,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/963ec13f414574c07646.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/963ec13f414574c07646.txt",
+  "text_chars": 325,
+  "text_words": 48,
+  "extraction_status": "success",
+  "page_title": "National Academies video on US incarceration growth",
+  "page_author": "Aleks Kajstura",
+  "page_date": "2015-04-08",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/blog/2015/04/08/nap-video/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "1a81d141e05c6b2434ee",
+  "normalized_url": "https://kff.org/womens-health-policy/medicaid-coverage-for-women",
+  "fetch_timestamp_utc": "2026-10-04T02:34:42.384594+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/womens-health-policy/medicaid-coverage-for-women/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 197509,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1a81d141e05c6b2434ee.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1a81d141e05c6b2434ee.txt",
+  "text_chars": 16507,
+  "text_words": 2538,
+  "extraction_status": "success",
+  "page_title": "Medicaid Coverage for Women | KFF",
+  "page_author": "Ivette Gomez; Usha Ranji; Alina Salganicoff; Brittni Frederiksen",
+  "page_date": "2026-08-26",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/womens-health-policy/medicaid-coverage-for-women/"
+}

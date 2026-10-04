@@ -1,0 +1,28 @@
+{
+  "source_id": "355e3fb3b51704d88993",
+  "normalized_url": "https://pubmed.ncbi.nlm.nih.gov/38131728",
+  "fetch_timestamp_utc": "2026-10-04T02:36:38.398261+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 203,
+  "final_url": "https://pubmed.ncbi.nlm.nih.gov/38131728/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 5590,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/355e3fb3b51704d88993.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/355e3fb3b51704d88993.txt",
+  "text_chars": 100,
+  "text_words": 14,
+  "extraction_status": "success",
+  "page_title": "Cookies must be enabled",
+  "page_author": null,
+  "page_date": null,
+  "site_name": "pubmed.ncbi.nlm.nih.gov",
+  "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/38131728/"
+}

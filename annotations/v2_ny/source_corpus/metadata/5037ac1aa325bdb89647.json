@@ -1,0 +1,20 @@
+{
+  "source_id": "5037ac1aa325bdb89647",
+  "normalized_url": "https://migrationpolicy.org/explainer/immigrants-and-use-public-benefits-united-states",
+  "fetch_timestamp_utc": "2026-10-04T02:38:55.267275+00:00",
+  "registrable_domain": "migrationpolicy.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://migrationpolicy.org/explainer/immigrants-and-use-public-benefits-united-states",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5876,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "21b4b8f625596c4662f1",
+  "normalized_url": "https://muse.jhu.edu/verify?r=9492787&url=%2Farticle%2F965531%2Fsummary",
+  "fetch_timestamp_utc": "2026-10-04T02:35:23.207182+00:00",
+  "registrable_domain": "jhu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://muse.jhu.edu/verify?r=9492787&url=%2Farticle%2F965531%2Fsummary",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 2240,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/21b4b8f625596c4662f1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/21b4b8f625596c4662f1.txt",
+  "text_chars": 182,
+  "text_words": 29,
+  "extraction_status": "success",
+  "page_title": "Verification required!",
+  "page_author": null,
+  "page_date": null,
+  "site_name": "muse.jhu.edu",
+  "canonical_url": "https://muse.jhu.edu/verify?r=9492787&url=%2Farticle%2F965531%2Fsummary"
+}

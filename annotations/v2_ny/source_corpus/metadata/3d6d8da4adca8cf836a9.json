@@ -1,0 +1,28 @@
+{
+  "source_id": "3d6d8da4adca8cf836a9",
+  "normalized_url": "https://mhanational.org/blog/challenges-being-lgbtq-workplace",
+  "fetch_timestamp_utc": "2026-10-04T02:37:18.517700+00:00",
+  "registrable_domain": "mhanational.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://mhanational.org/blog/challenges-being-lgbtq-workplace/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 136758,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3d6d8da4adca8cf836a9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3d6d8da4adca8cf836a9.txt",
+  "text_chars": 3891,
+  "text_words": 662,
+  "extraction_status": "success",
+  "page_title": "The challenges of being LGBTQ in the workplace | Mental Health America",
+  "page_author": null,
+  "page_date": "2025-02-21",
+  "site_name": "Mental Health America",
+  "canonical_url": "https://mhanational.org/blog/challenges-being-lgbtq-workplace/"
+}

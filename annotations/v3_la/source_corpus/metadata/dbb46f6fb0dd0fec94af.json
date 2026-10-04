@@ -1,0 +1,28 @@
+{
+  "source_id": "dbb46f6fb0dd0fec94af",
+  "normalized_url": "https://motherjones.com/criminal-justice/2016/02/why-are-lgbt-people-overrepresented-prisons-and-jails",
+  "fetch_timestamp_utc": "2026-10-04T03:47:06.531237+00:00",
+  "registrable_domain": "motherjones.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.motherjones.com/criminal-justice/2016/02/why-are-lgbt-people-overrepresented-prisons-and-jails/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 215469,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/dbb46f6fb0dd0fec94af.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/dbb46f6fb0dd0fec94af.txt",
+  "text_chars": 1949,
+  "text_words": 303,
+  "extraction_status": "success",
+  "page_title": "These Charts Show How the Criminal Justice System Targets Sexual Minorities",
+  "page_author": "Samantha Michaels",
+  "page_date": "2016-02-23",
+  "site_name": "Mother Jones",
+  "canonical_url": "https://www.motherjones.com/criminal-justice/2016/02/why-are-lgbt-people-overrepresented-prisons-and-jails/"
+}

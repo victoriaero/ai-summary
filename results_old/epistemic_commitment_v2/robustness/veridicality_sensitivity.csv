@@ -1,0 +1,127 @@
+analysis,variant,metric,dimension,comparison,estimate,ci_low,ci_high,n_pairs,n_outcomes,method
+veridicality_score,strict_mean_primary,mean_veridicality,Race,Minority - People,-0.4428107934205783,-1.067333379679069,0.20345884969018704,14,14,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Race,Majority - People,-0.5696487055983332,-1.3564351056550414,0.20471773069179164,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Race,Minority - Majority,0.054723195238095254,-0.4249613649910714,0.4756949648690476,14,14,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Ethnicity,Minority - People,-0.07150711320384619,-0.6960899989102886,0.6496500169469231,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Ethnicity,Majority - People,0.29624175172878797,-0.38582835933681814,0.946019179137879,11,11,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Ethnicity,Minority - Majority,-0.32585440774358976,-0.743690915575641,0.09478898520833336,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Gender,Minority - People,0.1647040912017262,-0.5010684740698125,0.9373556432517857,8,8,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Gender,Majority - People,-0.20881319811250001,-0.9309584785228818,0.5675951025601736,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Gender,Minority - Majority,-0.09661175120028576,-0.5781492610637714,0.4487572688901499,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Disability,Minority - People,-0.23115102178809524,-1.0191358548648213,0.6238427802485123,7,7,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Disability,Majority - People,-0.0010706332083333197,-0.5101348295674999,0.5559901269920833,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Disability,Minority - Majority,-0.40449167177083334,-0.90417880492875,0.14687339319093762,8,8,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Sexual Orientation,Minority - People,-0.31665947825208335,-0.9201092299517709,0.2688477167121354,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Sexual Orientation,Majority - People,-0.11267875342272728,-0.950591956405,0.9004739005269318,11,11,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Sexual Orientation,Minority - Majority,-0.11044376697569443,-0.7942182305320312,0.5569345690070313,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Gender Identity,Minority - People,-0.07912716744305555,-0.5054084731232291,0.36075552188225707,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Gender Identity,Majority - People,-0.3601930993183334,-1.0431095952787084,0.3196356229303753,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_primary,mean_veridicality,Gender Identity,Minority - Majority,-0.22047569012820506,-0.942584371929487,0.5028437681250003,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Race,Minority - People,-0.40465562998928567,-1.0503213585,0.23742281864616074,14,14,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Race,Majority - People,-0.584604198985,-1.382969015760375,0.211221795515375,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Race,Minority - Majority,0.014630585714285714,-0.5140861351785714,0.46735955898214293,14,14,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Ethnicity,Minority - People,-0.03978032114230772,-0.6846843770560576,0.6868865578285578,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Ethnicity,Majority - People,0.3493251200136364,-0.32389749266852275,0.9833219169723865,11,11,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Ethnicity,Minority - Majority,-0.34759150730769234,-0.7597569421250001,0.06584988111538473,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Gender,Minority - People,0.25700791001874995,-0.40107643000000004,0.9954953538500001,8,8,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Gender,Majority - People,-0.16459508577916665,-0.8485886790840623,0.5829417400197918,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Gender,Minority - Majority,-0.030463619000000018,-0.505928541675,0.47903238642500023,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Disability,Minority - People,-0.10435749426428567,-0.8826037199785713,0.7076119742857144,7,7,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Disability,Majority - People,0.010618554916666653,-0.5408372100395833,0.5936121350208335,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Disability,Minority - Majority,-0.2761782555625,-0.8585612820140625,0.40306484000000004,8,8,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Sexual Orientation,Minority - People,-0.2989307179458333,-0.9152221748086458,0.2925250520958334,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Sexual Orientation,Majority - People,-0.08630676816818182,-0.9387473520678409,0.9281533937276137,11,11,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Sexual Orientation,Minority - Majority,-0.153350199625,-0.8296457959260417,0.5076483980645834,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Gender Identity,Minority - People,-0.09759311082083334,-0.5175432907794791,0.3327487970125003,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Gender Identity,Majority - People,-0.403186901985,-1.0834783156749999,0.28469206167537503,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_median,mean_veridicality,Gender Identity,Minority - Majority,-0.24580644307692315,-0.9604263277115386,0.4643979690769234,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Race,Minority - People,0.2795573780279762,0.06690634571428569,0.49220841034166674,4,4,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Race,Majority - People,0.13227050560555545,-0.9300005133333333,0.66764134015,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Race,Minority - Majority,0.14899410722222226,-0.09698365000000002,0.6254362466666666,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Ethnicity,Minority - People,-0.33704327277,-0.6492698242,-0.014842138170000024,5,5,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Ethnicity,Majority - People,0.40636874920416666,-0.13818443833333327,1.0200130141666666,4,4,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Ethnicity,Minority - Majority,-0.46287154113333334,-0.8351044162000001,-0.11056457900000001,5,5,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Gender,Minority - People,-0.39792896513404763,-0.7632554783783333,0.15459039964285715,4,4,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Gender,Majority - People,-0.14433349413666668,-0.6173872488733333,0.3435572680899999,5,5,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Gender,Minority - Majority,-0.21950054561158727,-0.8065031927311109,0.29464649337999993,6,6,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Disability,Minority - People,0.2476848118,,,1,1,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Disability,Majority - People,-0.3119568927666666,-1.1577712055,0.7102290722000001,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Disability,Minority - Majority,-0.17960127823333338,-0.8106803999999999,0.4514778435333331,2,2,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Sexual Orientation,Minority - People,0.3864676636583333,0.32928546999999997,0.48201830014999997,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Sexual Orientation,Majority - People,-0.4417322458833333,-0.9950928398500002,-0.09701831780000003,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Sexual Orientation,Minority - Majority,1.02154702740625,0.4017148048124999,1.64137925,4,4,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Gender Identity,Minority - People,0.4438365111611111,0.2887592333333335,0.66764134015,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Gender Identity,Majority - People,0.09318962560555555,-0.97935154,0.84487099,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_mean_at_least_two_matches,mean_veridicality,Gender Identity,Minority - Majority,-0.2426179943333333,-0.7866678549999999,0.1459879953333334,5,5,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Race,Minority - People,-0.3973486577062925,-1.032322259509694,0.22873367932147967,14,14,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Race,Majority - People,-0.5060017155983333,-1.279277840419,0.2531591144144584,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Race,Minority - Majority,0.054723195238095254,-0.42496136499107134,0.4756949648690476,14,14,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Ethnicity,Minority - People,-0.02254789012692306,-0.6402310665903846,0.674120904124808,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Ethnicity,Majority - People,0.35410265172878796,-0.3489640330166666,1.0214834279789016,11,11,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Ethnicity,Minority - Majority,-0.32585440774358976,-0.743690915575641,0.09478898520833332,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Gender,Minority - People,0.24426282870172616,-0.387029514195375,0.9706586888955359,8,8,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Gender,Majority - People,-0.15577403977916668,-0.8688865096360762,0.6068195483071182,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Gender,Minority - Majority,-0.09661175120028578,-0.5781492610637715,0.44875726889015005,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Disability,Minority - People,-0.2311510217880952,-1.0191358548648213,0.6238427802485123,7,7,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Disability,Majority - People,0.051968525125,-0.43592293512812497,0.5761201075183334,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Disability,Minority - Majority,-0.3098030335833333,-0.80034995585375,0.2047019245291671,8,8,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Sexual Orientation,Minority - People,-0.26362031991875,-0.8715003059101041,0.32134771129098966,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Sexual Orientation,Majority - People,-0.11267875342272728,-0.950591956405,0.9004739005269318,11,11,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Sexual Orientation,Minority - Majority,-0.11044376697569443,-0.7942182305320312,0.5569345690070314,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Gender Identity,Minority - People,-0.026088009109722216,-0.40936216557291666,0.3815958246987154,12,12,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Gender Identity,Majority - People,-0.29654610931833336,-0.9829650512829581,0.3671005768737083,10,10,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_positive_polarity_only,mean_veridicality,Gender Identity,Minority - Majority,-0.22047569012820506,-0.9425843719294871,0.5028437681250003,13,13,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Race,Minority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Race,Majority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Race,Minority - Majority,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Ethnicity,Minority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Ethnicity,Majority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Ethnicity,Minority - Majority,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Gender,Minority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Gender,Majority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Gender,Minority - Majority,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Disability,Minority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Disability,Majority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Disability,Minority - Majority,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Sexual Orientation,Minority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Sexual Orientation,Majority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Sexual Orientation,Minority - Majority,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Gender Identity,Minority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Gender Identity,Majority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,strict_negative_polarity_only,mean_veridicality,Gender Identity,Minority - Majority,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Race,Minority - People,-0.45489662499999994,-2.03044053,1.12064728,2,2,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Race,Majority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Race,Minority - Majority,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Ethnicity,Minority - People,-1.0506027997,,,1,1,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Ethnicity,Majority - People,0.2054036203,,,1,1,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Ethnicity,Minority - Majority,-1.25600642,,,1,1,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Gender,Minority - People,-0.10344428999999995,-2.00159835,2.4042287,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Gender,Majority - People,-2.1140670296666664,-3.7594012000000006,0.43062131100000006,3,3,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Gender,Minority - Majority,-0.5165758000749999,,,1,1,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Disability,Minority - People,-1.86147427985,-2.39344906,-1.3294994997,2,2,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Disability,Majority - People,-1.031135245,-1.752370585,-0.30989990500000003,4,4,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Disability,Minority - Majority,-2.39344906,,,1,1,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Sexual Orientation,Minority - People,-1.3149777624249999,-2.620290874925,-0.16637489249999993,4,4,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Sexual Orientation,Majority - People,0.7465643875749999,-0.810169977275,2.8946532749999996,4,4,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Sexual Orientation,Minority - Majority,-0.24505680999999999,-0.923368148,0.410247544,5,5,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Gender Identity,Minority - People,0.5879581250000001,-0.5447674999999998,1.72068375,2,2,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Gender Identity,Majority - People,,,,0,0,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_dominant_predicates,mean_veridicality,Gender Identity,Minority - Majority,0.796632985,-0.73296383,2.3262298,2,2,paired difference with outcome-cluster percentile bootstrap
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Race,Minority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Race,Majority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Race,Minority - Majority,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Ethnicity,Minority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Ethnicity,Majority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Ethnicity,Minority - Majority,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Gender,Minority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Gender,Majority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Gender,Minority - Majority,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Disability,Minority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Disability,Majority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Disability,Minority - Majority,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Sexual Orientation,Minority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Sexual Orientation,Majority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Sexual Orientation,Minority - Majority,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Gender Identity,Minority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Gender Identity,Majority - People,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence
+veridicality_score,exclude_low_parser_confidence,mean_veridicality,Gender Identity,Minority - Majority,,,,0,0,not estimable: spaCy parser does not emit calibrated per-occurrence confidence

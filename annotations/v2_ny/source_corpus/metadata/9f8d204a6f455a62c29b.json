@@ -1,0 +1,20 @@
+{
+  "source_id": "9f8d204a6f455a62c29b",
+  "normalized_url": "https://elitelearning.com/resource-center/physicians/creating-a-friendly-healthcare-environment-for-lgbtq-patients",
+  "fetch_timestamp_utc": "2026-10-04T02:45:26.615359+00:00",
+  "registrable_domain": "elitelearning.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.elitelearning.com/resource-center/physicians/creating-a-friendly-healthcare-environment-for-lgbtq-patients/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5921,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

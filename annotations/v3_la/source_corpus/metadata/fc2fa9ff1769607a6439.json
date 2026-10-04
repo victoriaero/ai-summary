@@ -1,0 +1,28 @@
+{
+  "source_id": "fc2fa9ff1769607a6439",
+  "normalized_url": "https://eeoc.gov/youth/disability-discrimination",
+  "fetch_timestamp_utc": "2026-10-04T03:49:35.986977+00:00",
+  "registrable_domain": "eeoc.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.eeoc.gov/youth/disability-discrimination",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 89123,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/fc2fa9ff1769607a6439.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/fc2fa9ff1769607a6439.txt",
+  "text_chars": 566,
+  "text_words": 56,
+  "extraction_status": "success",
+  "page_title": "Disability Discrimination",
+  "page_author": null,
+  "page_date": "2000-01-01",
+  "site_name": "U.S. Equal Employment Opportunity Commission",
+  "canonical_url": "https://www.eeoc.gov/youth/disability-discrimination"
+}

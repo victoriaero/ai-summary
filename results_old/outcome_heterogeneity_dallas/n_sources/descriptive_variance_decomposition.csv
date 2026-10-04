@@ -1,0 +1,4 @@
+component,sum_of_squares,share_of_total_sum_of_squares,interpretation
+outcome,404.7619047619048,0.1585480727082809,Descriptive balanced-ANOVA component.
+social_dimension,261.1190476190476,0.10228215961127742,Descriptive balanced-ANOVA component.
+Outcome × Social Dimension + Unresolved Error,1887.047619047619,0.7391697676804416,"Descriptive only; the residual combines outcome-by-dimension heterogeneity, measurement noise, Google instability, and other unobserved variation."

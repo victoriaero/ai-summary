@@ -1,0 +1,28 @@
+{
+  "source_id": "3c3ced71447fbd5f1165",
+  "normalized_url": "https://undergraduate.northeastern.edu/prehealth/disabilities-in-healthcare-bridging-the-gap-for-inclusive-care",
+  "fetch_timestamp_utc": "2026-10-04T02:37:14.946410+00:00",
+  "registrable_domain": "northeastern.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://undergraduate.northeastern.edu/prehealth/disabilities-in-healthcare-bridging-the-gap-for-inclusive-care/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 38293,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3c3ced71447fbd5f1165.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3c3ced71447fbd5f1165.txt",
+  "text_chars": 2669,
+  "text_words": 372,
+  "extraction_status": "success",
+  "page_title": "Disabilities in Healthcare: Bridging the Gap for Inclusive Care | PreMed and PreHealth Advising Program",
+  "page_author": null,
+  "page_date": "2025-06-30",
+  "site_name": "PreMed and PreHealth Advising Program",
+  "canonical_url": "https://undergraduate.northeastern.edu/prehealth/disabilities-in-healthcare-bridging-the-gap-for-inclusive-care/"
+}

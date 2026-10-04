@@ -1,0 +1,28 @@
+{
+  "source_id": "36a834dfe056a5ab922f",
+  "normalized_url": "https://eeoc.gov/laws/guidance/section-15-race-and-color-discrimination",
+  "fetch_timestamp_utc": "2026-10-04T03:34:36.056382+00:00",
+  "registrable_domain": "eeoc.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.eeoc.gov/laws/guidance/section-15-race-and-color-discrimination",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 287305,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/36a834dfe056a5ab922f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/36a834dfe056a5ab922f.txt",
+  "text_chars": 566,
+  "text_words": 56,
+  "extraction_status": "success",
+  "page_title": "Section 15 Race and Color Discrimination",
+  "page_author": "This guidance document was issued upon approval by vote",
+  "page_date": "2006-04-19",
+  "site_name": "U.S. Equal Employment Opportunity Commission",
+  "canonical_url": "https://www.eeoc.gov/laws/guidance/section-15-race-and-color-discrimination"
+}

@@ -1,0 +1,13 @@
+analysis,metric,dimension,estimate,ci_low,ci_high,n_triplets,n_outcomes,interpretation
+contextual_hedging,contextual_hedged_sentence_rate,Race,-0.049444787320727164,-0.10836089601362155,0.005828409702939796,21,21,positive means People is closer to Minority; negative means closer to Majority
+contextual_hedging,contextual_hedged_sentence_rate,Ethnicity,0.00581406621046162,-0.030851476754976303,0.044265962368364546,21,21,positive means People is closer to Minority; negative means closer to Majority
+contextual_hedging,contextual_hedged_sentence_rate,Gender,0.028188407148947874,-0.03413445855015093,0.09086950817116146,21,21,positive means People is closer to Minority; negative means closer to Majority
+contextual_hedging,contextual_hedged_sentence_rate,Disability,-0.033625609283504033,-0.10322070725501177,0.024603223722114684,21,21,positive means People is closer to Minority; negative means closer to Majority
+contextual_hedging,contextual_hedged_sentence_rate,Sexual Orientation,-0.02877228351383687,-0.11855745763293166,0.05719334257646953,21,21,positive means People is closer to Minority; negative means closer to Majority
+contextual_hedging,contextual_hedged_sentence_rate,Gender Identity,-0.032893752755908126,-0.0713908336543048,0.0044725995023614275,21,21,positive means People is closer to Minority; negative means closer to Majority
+veridicality_score,mean_veridicality,Race,-0.192079100488889,-0.475999358013889,0.054520445745555514,9,9,positive means People is closer to Minority; negative means closer to Majority
+veridicality_score,mean_veridicality,Ethnicity,-0.0375941574481482,-0.43647501018694446,0.3788228965629631,9,9,positive means People is closer to Minority; negative means closer to Majority
+veridicality_score,mean_veridicality,Gender,0.1406921679936905,-0.44838548211861007,0.5994775073939882,8,8,positive means People is closer to Minority; negative means closer to Majority
+veridicality_score,mean_veridicality,Disability,-0.11631554665333335,-0.838645307,0.7156486336266668,5,5,positive means People is closer to Minority; negative means closer to Majority
+veridicality_score,mean_veridicality,Sexual Orientation,0.20283511963055553,-0.3442818670464583,0.8753683659397917,9,9,positive means People is closer to Minority; negative means closer to Majority
+veridicality_score,mean_veridicality,Gender Identity,0.41354259020833334,-0.12692520630729173,1.1227438173281252,8,8,positive means People is closer to Minority; negative means closer to Majority

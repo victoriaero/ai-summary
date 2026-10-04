@@ -1,0 +1,28 @@
+{
+  "source_id": "cb3a903b7d785dfd740f",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12306465",
+  "fetch_timestamp_utc": "2026-10-04T03:45:55.768164+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12306465/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 195493,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/cb3a903b7d785dfd740f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/cb3a903b7d785dfd740f.txt",
+  "text_chars": 52748,
+  "text_words": 7500,
+  "extraction_status": "success",
+  "page_title": "Testing the theory of change for Housing First: a secondary qualitative analysis of gender differences in the experiences of men and women in the AH/CS trial",
+  "page_author": "Samira Alfayumi-Zeadna; Melissa Perri; Cilia Mejia-Lancheros; Julia Woodhall; Maritt Kirst; Margaret Douglin; Chloe Reiser; Patricia O’Campo",
+  "page_date": "2025-07-28",
+  "site_name": "BMJ Open",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12306465/"
+}

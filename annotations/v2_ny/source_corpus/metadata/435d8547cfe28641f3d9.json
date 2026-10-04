@@ -1,0 +1,28 @@
+{
+  "source_id": "435d8547cfe28641f3d9",
+  "normalized_url": "https://scielo.org.za/scielo.php?pid=S0256-01002025000600013&script=sci_arttext",
+  "fetch_timestamp_utc": "2026-10-04T02:37:52.175232+00:00",
+  "registrable_domain": "scielo.org.za",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://scielo.org.za/scielo.php?pid=S0256-01002025000600013&script=sci_arttext",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 103085,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/435d8547cfe28641f3d9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/435d8547cfe28641f3d9.txt",
+  "text_chars": 55920,
+  "text_words": 7541,
+  "extraction_status": "success",
+  "page_title": "Addressing barriers preventing girls and women from accessing education",
+  "page_author": "Du Plessis; Pierre",
+  "page_date": "2025-11-01",
+  "site_name": "South African Journal of Education",
+  "canonical_url": "http://www.scielo.org.za/scielo.php?pid=S0256-01002025000600013&script=sci_arttext"
+}

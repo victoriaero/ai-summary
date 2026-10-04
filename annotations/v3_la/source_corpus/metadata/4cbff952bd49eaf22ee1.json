@@ -1,0 +1,20 @@
+{
+  "source_id": "4cbff952bd49eaf22ee1",
+  "normalized_url": "https://yesmagazine.org/issue/a-new-social-justice/2021/11/15/banking-bipoc-businesses",
+  "fetch_timestamp_utc": "2026-10-04T03:36:24.190221+00:00",
+  "registrable_domain": "yesmagazine.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://yesmagazine.org/issue/a-new-social-justice/2021/11/15/banking-bipoc-businesses",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5805,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "5a7709adaeefd51ddbda",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4899337",
+  "fetch_timestamp_utc": "2026-10-04T02:39:47.848517+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4899337/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 183517,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5a7709adaeefd51ddbda.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5a7709adaeefd51ddbda.txt",
+  "text_chars": 42421,
+  "text_words": 5954,
+  "extraction_status": "success",
+  "page_title": "Race, Medical Mistrust, and Segregation in Primary Care as Usual Source of Care: Findings from the Exploring Health Disparities in Integrated Communities Study",
+  "page_author": "M J Arnett; R J Thorpe; Jr; D J Gaskin; J V Bowie; T A LaVeist",
+  "page_date": "2016-05-18",
+  "site_name": "Journal of Urban Health : Bulletin of the New York Academy of Medicine",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4899337/"
+}

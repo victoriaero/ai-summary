@@ -1,0 +1,20 @@
+{
+  "source_id": "2b1cf811e3c0a8d58940",
+  "normalized_url": "https://ppic.org/publication/police-use-of-force-and-misconduct-in-california",
+  "fetch_timestamp_utc": "2026-10-04T03:33:52.735291+00:00",
+  "registrable_domain": "ppic.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://ppic.org/publication/police-use-of-force-and-misconduct-in-california",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5770,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

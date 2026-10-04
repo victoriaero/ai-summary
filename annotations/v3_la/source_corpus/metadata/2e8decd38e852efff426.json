@@ -1,0 +1,28 @@
+{
+  "source_id": "2e8decd38e852efff426",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/publications/latinx-lgbt-workplace-experiences",
+  "fetch_timestamp_utc": "2026-10-04T03:34:05.577490+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/publications/latinx-lgbt-workplace-experiences/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 128492,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/2e8decd38e852efff426.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/2e8decd38e852efff426.txt",
+  "text_chars": 13433,
+  "text_words": 2063,
+  "extraction_status": "success",
+  "page_title": "Workplace Experiences of Latinx LGBTQ Employees",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2026-05-15",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/publications/latinx-lgbt-workplace-experiences/"
+}

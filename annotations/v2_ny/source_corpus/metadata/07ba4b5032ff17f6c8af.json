@@ -1,0 +1,20 @@
+{
+  "source_id": "07ba4b5032ff17f6c8af",
+  "normalized_url": "https://eji.org/criminal-justice-reform",
+  "fetch_timestamp_utc": "2026-10-04T02:33:01.570010+00:00",
+  "registrable_domain": "eji.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://eji.org/criminal-justice-reform",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5624,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

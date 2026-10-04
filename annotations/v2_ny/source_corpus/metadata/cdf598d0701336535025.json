@@ -1,0 +1,28 @@
+{
+  "source_id": "cdf598d0701336535025",
+  "normalized_url": "https://richmondfed.org/publications/research/econ_focus/2022/q4_district_digest",
+  "fetch_timestamp_utc": "2026-10-04T02:49:00.625250+00:00",
+  "registrable_domain": "richmondfed.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.richmondfed.org/publications/research/econ_focus/2022/q4_district_digest",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 80740,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cdf598d0701336535025.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cdf598d0701336535025.txt",
+  "text_chars": 17486,
+  "text_words": 2758,
+  "extraction_status": "success",
+  "page_title": "Expanding Credit Access through Community Development Financial Institutions",
+  "page_author": "Surekha Carpenter",
+  "page_date": "2022-12-19",
+  "site_name": "Richmondfed",
+  "canonical_url": "https://www.richmondfed.org/publications/research/econ_focus/2022/q4_district_digest"
+}

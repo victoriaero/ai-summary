@@ -1,0 +1,28 @@
+{
+  "source_id": "7dc305148bfd462cc480",
+  "normalized_url": "https://violence.chop.edu/bullying-schools",
+  "fetch_timestamp_utc": "2026-10-04T02:42:37.380357+00:00",
+  "registrable_domain": "chop.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://violence.chop.edu/bullying-schools",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 194165,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7dc305148bfd462cc480.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7dc305148bfd462cc480.txt",
+  "text_chars": 10142,
+  "text_words": 1564,
+  "extraction_status": "success",
+  "page_title": "Bullying in Schools",
+  "page_author": null,
+  "page_date": "2025-07-25",
+  "site_name": "Center for Violence Prevention",
+  "canonical_url": "https://violence.chop.edu/bullying-schools"
+}

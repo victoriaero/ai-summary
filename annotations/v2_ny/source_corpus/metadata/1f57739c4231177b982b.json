@@ -1,0 +1,20 @@
+{
+  "source_id": "1f57739c4231177b982b",
+  "normalized_url": "https://unclenoir.org/news/2020/preventive-health-for-men--why-it-matters",
+  "fetch_timestamp_utc": "2026-10-04T02:35:11.082760+00:00",
+  "registrable_domain": "unclenoir.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.unclenoir.org/news/2020/preventive-health-for-men--why-it-matters",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 458,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,31 @@
+{
+  "source_id": "cfa5b8762afbcf250fc8",
+  "normalized_url": "https://tcf.org/content/report/advancing-health-equity-for-black-communities-through-insurance-reform",
+  "fetch_timestamp_utc": "2026-09-29T19:38:56.283776+00:00",
+  "registrable_domain": "tcf.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://tcf.org/content/report/advancing-health-equity-for-black-communities-through-insurance-reform",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:38:59 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=VMYc85nypaYP%2FjA4Mct%2FHBcvZB1VsYRJMTNAdAUtW0QjfZIyJx3zP5qw%2Fp0hn%2FYXi0TxsCLUHjulT7FDSFzbluLmo5Zby2dKIo0YyOkhnW0%2Ff%2FWEAy1KZlRPH5pyNCUP9VVVMoA%3D\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d7388de85650b-GIG"
+  },
+  "downloaded_bytes": 4857,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

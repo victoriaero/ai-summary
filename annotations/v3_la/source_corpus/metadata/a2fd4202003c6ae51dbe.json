@@ -1,0 +1,28 @@
+{
+  "source_id": "a2fd4202003c6ae51dbe",
+  "normalized_url": "https://transequality.org/issues/police-jails-prisons",
+  "fetch_timestamp_utc": "2026-10-04T03:43:05.894850+00:00",
+  "registrable_domain": "transequality.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://transequality.org/issues/police-jails-prisons",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 119979,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a2fd4202003c6ae51dbe.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a2fd4202003c6ae51dbe.txt",
+  "text_chars": 1952,
+  "text_words": 293,
+  "extraction_status": "success",
+  "page_title": "Police, Jails & Prisons | A4TE",
+  "page_author": null,
+  "page_date": "2023-08-24",
+  "site_name": "A4TE",
+  "canonical_url": "https://transequality.org/issues/police-jails-prisons"
+}

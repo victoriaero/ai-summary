@@ -1,0 +1,28 @@
+{
+  "source_id": "2481dfd0352f9313c61f",
+  "normalized_url": "https://frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1765145/full",
+  "fetch_timestamp_utc": "2026-10-04T02:35:39.924879+00:00",
+  "registrable_domain": "frontiersin.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1765145/full",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 1433980,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2481dfd0352f9313c61f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2481dfd0352f9313c61f.txt",
+  "text_chars": 70715,
+  "text_words": 9312,
+  "extraction_status": "success",
+  "page_title": "Frontiers | Barriers to accessing healthcare for people with disabilities:a systematic review",
+  "page_author": "M Chimienti; G Morlino; D Ndreca; K Stefanidhi; O Zerellari; R Shkreli; S Gjergji; F Leonforte; V Nicosia; A Mistretta; E Buonomo; G Liotta; L Palombi",
+  "page_date": "2026-02-19",
+  "site_name": "Frontiers",
+  "canonical_url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1765145/full"
+}

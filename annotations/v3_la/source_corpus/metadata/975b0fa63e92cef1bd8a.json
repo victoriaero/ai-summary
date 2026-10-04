@@ -1,0 +1,28 @@
+{
+  "source_id": "975b0fa63e92cef1bd8a",
+  "normalized_url": "https://cdaa.org.au/CDAAWebsite/Web/Blog/Posts/Career-Development-of-Transgender-and-Gender-Diverse-People.aspx",
+  "fetch_timestamp_utc": "2026-10-04T03:42:06.002540+00:00",
+  "registrable_domain": "cdaa.org.au",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://cdaa.org.au/CDAAWebsite/Web/Blog/Posts/Career-Development-of-Transgender-and-Gender-Diverse-People.aspx",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 57385,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/975b0fa63e92cef1bd8a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/975b0fa63e92cef1bd8a.txt",
+  "text_chars": 8345,
+  "text_words": 1231,
+  "extraction_status": "success",
+  "page_title": "Career Development of Transgender and Gender Diverse People",
+  "page_author": null,
+  "page_date": "2022-01-17",
+  "site_name": "cdaa.org.au",
+  "canonical_url": "https://cdaa.org.au/CDAAWebsite/Web/Blog/Posts/Career-Development-of-Transgender-and-Gender-Diverse-People.aspx"
+}

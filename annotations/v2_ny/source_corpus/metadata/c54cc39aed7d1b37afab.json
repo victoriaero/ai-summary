@@ -1,0 +1,20 @@
+{
+  "source_id": "c54cc39aed7d1b37afab",
+  "normalized_url": "https://dl.acm.org/doi/full/10.1145/3769994.3770011",
+  "fetch_timestamp_utc": "2026-10-04T02:48:19.624590+00:00",
+  "registrable_domain": "acm.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://dl.acm.org/doi/full/10.1145/3769994.3770011",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5718,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

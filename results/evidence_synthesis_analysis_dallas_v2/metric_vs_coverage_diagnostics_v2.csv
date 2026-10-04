@@ -1,0 +1,9 @@
+metric,predictor,n,spearman_rho,p_raw,p_holm,significant_holm
+evidence_alignment_source_balanced,fetch_coverage,258,0.033733618248431,0.5896352972906302,1.0,False
+evidence_alignment_source_balanced,n_available_sources,258,0.1104713904811661,0.07652044492709643,0.30608177970838574,False
+evidence_semantic_gap_source_balanced,fetch_coverage,258,-0.033733618248431,0.5896352972906302,1.0,False
+evidence_semantic_gap_source_balanced,n_available_sources,258,-0.1104713904811661,0.07652044492709643,0.30608177970838574,False
+answer_support_alignment,fetch_coverage,258,0.2680507862956172,1.2725932815389152e-05,7.635559689233491e-05,True
+answer_support_alignment,n_available_sources,258,0.38263459088861823,2.0195644097272966e-10,1.6156515277818373e-09,True
+answer_support_semantic_gap,fetch_coverage,258,-0.2680507862956172,1.2725932815389152e-05,7.635559689233491e-05,True
+answer_support_semantic_gap,n_available_sources,258,-0.38263459088861823,2.0195644097272966e-10,1.6156515277818373e-09,True

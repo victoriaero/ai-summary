@@ -1,0 +1,28 @@
+{
+  "source_id": "6b990a507fcf3232c4bd",
+  "normalized_url": "https://experian.com/blogs/ask-experian/lgbtq-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T03:38:45.165397+00:00",
+  "registrable_domain": "experian.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.experian.com/blogs/ask-experian/lgbtq-financial-inclusion",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 227649,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6b990a507fcf3232c4bd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6b990a507fcf3232c4bd.txt",
+  "text_chars": 11751,
+  "text_words": 1832,
+  "extraction_status": "success",
+  "page_title": "Financial Inclusion and the LGBTQ+ Community - Experian",
+  "page_author": "Emily Starbuck Gerson",
+  "page_date": "2023-06-14",
+  "site_name": "Experian",
+  "canonical_url": "https://www.experian.com/blogs/ask-experian/lgbtq-financial-inclusion/"
+}

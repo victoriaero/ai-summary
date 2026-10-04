@@ -1,0 +1,20 @@
+{
+  "source_id": "9f6f5d35f02baabf9af0",
+  "normalized_url": "https://nycbar.org/get-legal-help/article/public-benefits/social-security-disability-insurance-supplemental-security-income/typical-reasons-for-denial-of-benefits",
+  "fetch_timestamp_utc": "2026-10-04T02:45:26.545879+00:00",
+  "registrable_domain": "nycbar.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://nycbar.org/get-legal-help/article/public-benefits/social-security-disability-insurance-supplemental-security-income/typical-reasons-for-denial-of-benefits",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 52,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

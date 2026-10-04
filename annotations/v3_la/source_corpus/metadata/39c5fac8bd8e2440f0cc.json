@@ -1,0 +1,28 @@
+{
+  "source_id": "39c5fac8bd8e2440f0cc",
+  "normalized_url": "https://familypromiseanoka.org/blog/disproportionate-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T03:34:47.157910+00:00",
+  "registrable_domain": "familypromiseanoka.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.familypromiseanoka.org/blog/disproportionate-homelessness",
+  "headers": {
+    "Content-Type": "text/html;charset=UTF-8"
+  },
+  "content_type": "text/html;charset=UTF-8",
+  "downloaded_bytes": 401014,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/39c5fac8bd8e2440f0cc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/39c5fac8bd8e2440f0cc.txt",
+  "text_chars": 8163,
+  "text_words": 1185,
+  "extraction_status": "success",
+  "page_title": "Homelessness disproportionately effects people of color.",
+  "page_author": "Gwen Campbell",
+  "page_date": "2022-06-21",
+  "site_name": "Family Promise in Anoka County",
+  "canonical_url": "https://www.familypromiseanoka.org/blog/disproportionate-homelessness"
+}

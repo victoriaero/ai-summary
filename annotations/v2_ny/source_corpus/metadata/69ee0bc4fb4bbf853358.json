@@ -1,0 +1,28 @@
+{
+  "source_id": "69ee0bc4fb4bbf853358",
+  "normalized_url": "https://bhr-navigator.unglobalcompact.org/issues/discrimination",
+  "fetch_timestamp_utc": "2026-10-04T02:41:03.853056+00:00",
+  "registrable_domain": "unglobalcompact.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://bhr-navigator.unglobalcompact.org/issues/discrimination/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 232008,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/69ee0bc4fb4bbf853358.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/69ee0bc4fb4bbf853358.txt",
+  "text_chars": 68569,
+  "text_words": 10011,
+  "extraction_status": "success",
+  "page_title": "Discrimination in the Workplace & Supply Chains | BHR Navigator",
+  "page_author": null,
+  "page_date": "2026-07-08",
+  "site_name": "Business & Human Rights Navigator",
+  "canonical_url": "https://bhr-navigator.unglobalcompact.org/issues/discrimination/"
+}

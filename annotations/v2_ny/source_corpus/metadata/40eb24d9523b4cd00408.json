@@ -1,0 +1,28 @@
+{
+  "source_id": "40eb24d9523b4cd00408",
+  "normalized_url": "https://brookings.edu/articles/the-racial-wealth-gap-financial-aid-and-college-access",
+  "fetch_timestamp_utc": "2026-10-04T02:37:35.497631+00:00",
+  "registrable_domain": "brookings.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.brookings.edu/articles/the-racial-wealth-gap-financial-aid-and-college-access/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 219036,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/40eb24d9523b4cd00408.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/40eb24d9523b4cd00408.txt",
+  "text_chars": 21957,
+  "text_words": 3387,
+  "extraction_status": "success",
+  "page_title": "The racial wealth gap, financial aid, and college access | Brookings",
+  "page_author": "Phillip Levine",
+  "page_date": "2023-10-16",
+  "site_name": "Brookings",
+  "canonical_url": "https://www.brookings.edu/articles/the-racial-wealth-gap-financial-aid-and-college-access/"
+}

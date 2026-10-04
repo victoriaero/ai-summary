@@ -1,0 +1,24 @@
+{
+  "source_id": "1329ff148461994b165b",
+  "normalized_url": "https://uscis.gov/policy-manual/volume-8-part-g-chapter-7",
+  "fetch_timestamp_utc": "2026-09-29T19:21:19.307520+00:00",
+  "registrable_domain": "uscis.gov",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://uscis.gov/policy-manual/volume-8-part-g-chapter-7",
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "426",
+    "Expires": "Tue, 29 Sep 2026 19:21:26 GMT",
+    "Date": "Tue, 29 Sep 2026 19:21:26 GMT",
+    "Connection": "close",
+    "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains ; preload"
+  },
+  "downloaded_bytes": 426,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

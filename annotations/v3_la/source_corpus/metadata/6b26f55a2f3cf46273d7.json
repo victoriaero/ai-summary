@@ -1,0 +1,28 @@
+{
+  "source_id": "6b26f55a2f3cf46273d7",
+  "normalized_url": "https://understandinghouston.org/topic/economic-opportunity/access-to-credit-and-household-debt",
+  "fetch_timestamp_utc": "2026-10-04T03:38:40.899584+00:00",
+  "registrable_domain": "understandinghouston.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.understandinghouston.org/topic/economic-opportunity/access-to-credit-and-household-debt",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 3099,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6b26f55a2f3cf46273d7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6b26f55a2f3cf46273d7.txt",
+  "text_chars": 46,
+  "text_words": 9,
+  "extraction_status": "success",
+  "page_title": "Understanding Houston",
+  "page_author": null,
+  "page_date": null,
+  "site_name": "understandinghouston.org",
+  "canonical_url": "https://www.understandinghouston.org/topic/economic-opportunity/access-to-credit-and-household-debt"
+}

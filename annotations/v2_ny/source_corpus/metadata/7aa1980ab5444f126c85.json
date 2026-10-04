@@ -1,0 +1,28 @@
+{
+  "source_id": "7aa1980ab5444f126c85",
+  "normalized_url": "https://unitedwaynca.org/blog/racial-inequality-in-education",
+  "fetch_timestamp_utc": "2026-10-04T02:42:23.386966+00:00",
+  "registrable_domain": "unitedwaynca.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://unitedwaynca.org/blog/racial-inequality-in-education/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 170895,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7aa1980ab5444f126c85.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7aa1980ab5444f126c85.txt",
+  "text_chars": 18939,
+  "text_words": 2641,
+  "extraction_status": "success",
+  "page_title": "Understanding Racial Inequality in Education: Challenges and Solutions",
+  "page_author": "United Way NCA",
+  "page_date": "2026-03-16",
+  "site_name": "United Way of the National Capital Area",
+  "canonical_url": "https://unitedwaynca.org/blog/racial-inequality-in-education/"
+}

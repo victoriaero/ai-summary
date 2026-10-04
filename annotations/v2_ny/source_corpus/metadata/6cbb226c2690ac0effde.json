@@ -1,0 +1,20 @@
+{
+  "source_id": "6cbb226c2690ac0effde",
+  "normalized_url": "https://weforum.org/stories/financial-and-monetary-systems/women-access-financial-services",
+  "fetch_timestamp_utc": "2026-10-04T02:41:17.408808+00:00",
+  "registrable_domain": "weforum.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.weforum.org:443/stories/financial-and-monetary-systems/women-access-financial-services",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 469,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

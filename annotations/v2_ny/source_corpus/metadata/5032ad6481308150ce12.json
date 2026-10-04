@@ -1,0 +1,28 @@
+{
+  "source_id": "5032ad6481308150ce12",
+  "normalized_url": "https://hechingerreport.org/proof-points-research-on-increasing-diversity-in-college-admissions",
+  "fetch_timestamp_utc": "2026-10-04T02:38:55.049283+00:00",
+  "registrable_domain": "hechingerreport.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hechingerreport.org/proof-points-research-on-increasing-diversity-in-college-admissions/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 279702,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5032ad6481308150ce12.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5032ad6481308150ce12.txt",
+  "text_chars": 7144,
+  "text_words": 1108,
+  "extraction_status": "success",
+  "page_title": "PROOF POINTS: Research on increasing diversity in college admissions",
+  "page_author": "Jill Barshay",
+  "page_date": "2022-10-31",
+  "site_name": "The Hechinger Report",
+  "canonical_url": "https://hechingerreport.org/proof-points-research-on-increasing-diversity-in-college-admissions/"
+}

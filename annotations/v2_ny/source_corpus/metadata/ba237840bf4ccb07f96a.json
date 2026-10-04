@@ -1,0 +1,28 @@
+{
+  "source_id": "ba237840bf4ccb07f96a",
+  "normalized_url": "https://childtrends.org/publications/application-data-can-help-us-understand-hispanic-families-uptake-of-child-care-subsidies",
+  "fetch_timestamp_utc": "2026-10-04T02:47:32.331383+00:00",
+  "registrable_domain": "childtrends.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.childtrends.org/publications/application-data-can-help-us-understand-hispanic-families-uptake-of-child-care-subsidies",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 198947,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ba237840bf4ccb07f96a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ba237840bf4ccb07f96a.txt",
+  "text_chars": 20254,
+  "text_words": 2880,
+  "extraction_status": "success",
+  "page_title": "Application Data Can Help Us Understand Hispanic Families’ Uptake of Child Care Subsidies | Child Trends",
+  "page_author": "Dana Thomson; Katy Falletta; Laura Ramirez; Lina Guzman",
+  "page_date": "2025-10-15",
+  "site_name": "Child Trends",
+  "canonical_url": "https://www.childtrends.org/publications/application-data-can-help-us-understand-hispanic-families-uptake-of-child-care-subsidies"
+}

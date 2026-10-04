@@ -1,0 +1,20 @@
+{
+  "source_id": "db5e25af6b32a2dc326c",
+  "normalized_url": "https://housingmatterssc.org/rise-in-latinx-and-hispanic-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:49:52.298862+00:00",
+  "registrable_domain": "housingmatterssc.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://housingmatterssc.org/rise-in-latinx-and-hispanic-homelessness",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 52,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

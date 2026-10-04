@@ -1,0 +1,28 @@
+{
+  "source_id": "6cb218a3b3f50c959e2b",
+  "normalized_url": "https://endhomelessness.org/blog/homelessness-and-black-history-access-to-housing",
+  "fetch_timestamp_utc": "2026-10-04T02:41:17.098642+00:00",
+  "registrable_domain": "endhomelessness.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://endhomelessness.org/blog/homelessness-and-black-history-access-to-housing",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 343209,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6cb218a3b3f50c959e2b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6cb218a3b3f50c959e2b.txt",
+  "text_chars": 4436,
+  "text_words": 665,
+  "extraction_status": "success",
+  "page_title": "Homelessness and Black History: Access to Housing",
+  "page_author": "NAEH",
+  "page_date": "2025-03-05",
+  "site_name": "National Alliance to End Homelessness",
+  "canonical_url": "https://endhomelessness.org/blog/homelessness-and-black-history-access-to-housing/"
+}

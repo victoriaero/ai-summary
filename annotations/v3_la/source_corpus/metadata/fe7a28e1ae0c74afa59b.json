@@ -1,0 +1,16 @@
+{
+  "source_id": "fe7a28e1ae0c74afa59b",
+  "normalized_url": "https://rsfjournal.org/content/9/5/1",
+  "fetch_timestamp_utc": "2026-10-04T03:49:47.007630+00:00",
+  "registrable_domain": "rsfjournal.org",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 6,
+  "http_status": 0,
+  "final_url": "https://rsfjournal.org/content/9/5/1",
+  "content_type": "",
+  "error": "curl: (6) Could not resolve host: rsfjournal.org\ncurl: (6) Could not resolve host: rsfjournal.org",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

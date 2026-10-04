@@ -1,0 +1,28 @@
+{
+  "source_id": "de97989e2c58b58c1615",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12210411",
+  "fetch_timestamp_utc": "2026-10-04T03:47:25.988328+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12210411/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 314166,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/de97989e2c58b58c1615.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/de97989e2c58b58c1615.txt",
+  "text_chars": 97735,
+  "text_words": 14039,
+  "extraction_status": "success",
+  "page_title": "Causes of bullying among young people and protective mechanisms and preventative factors that promote mental health and well-being: young people’s perspectives",
+  "page_author": "Miia Hästbacka; Søren Harnow Klausen; Heléne Dahlqvist; Yulia Korzhina; Amanda J Sundqvist; Emelie Käcko; Pia Nyman-Kurkiala; Joakim Strindberg; Jessica Hemberg",
+  "page_date": "2025-06-30",
+  "site_name": "International Journal of Qualitative Studies on Health and Well-being",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12210411/"
+}

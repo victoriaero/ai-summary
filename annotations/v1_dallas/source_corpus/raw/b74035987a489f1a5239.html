@@ -1,0 +1,1362 @@
+
+<!doctype html>
+<html lang="en-US">
+<head>
+    <title>Homelessness and Housing Insecurity</title>
+    <link rel="preload" href="/wp-content/themes/psych/dist/fonts/EditorsNoteDisplay-Light.ttf" as="font" type="font/ttf" crossorigin="anonymous"><link rel="preload" href="/wp-content/themes/psych/dist/fonts/EditorsNoteDisplay-Italic.ttf" as="font" type="font/ttf" crossorigin="anonymous"><link rel="preload" href="/wp-content/themes/psych/dist/fonts/EditorsNoteDisplay-Thin.ttf" as="font" type="font/ttf" crossorigin="anonymous"><link rel="preload" href="/wp-content/themes/psych/dist/fonts/EditorsNoteDisplay-ThinItalic.ttf" as="font" type="font/ttf" crossorigin="anonymous">    
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	        <meta name="site_section" content="academic_article">
+	    
+        <meta name="description" content="Individuals who experience homelessness have high rates of medical and psychiatric illness and face barriers to care; vulnerable populations include mothers with dependent children who have experienced domestic violence, runaway adolescents, and veterans."><link rel="canonical" href="https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/">
+            <script>
+			window.dataLayer = window.dataLayer || [];
+				window.dataLayer.push({
+					user_membership_type: null,
+					user_type: "anon",
+					psych_user_id: null,
+					npi_verified: false,
+					npi_provider_type: null,
+					npi_provider_description: null
+				});window.dataLayer = window.dataLayer || [];window.dataLayer.push({"content_access_level":"free","article_id":"230925","categories":["patient care","veterans and military issues","rounds in the general hospital"]});        </script>
+		
+        <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-K8NX5MZ');</script>
+    <!-- End Google Tag Manager -->
+        
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '332726270676586');
+        fbq('track', 'PageView');
+    </script>
+
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=332726270676586&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <script async src="https://aim-tag.hcn.health/js/client.js?dl=aimDataLayer"></script>
+    <script>
+        window.aimDataLayer = window.aimDataLayer || [];
+        function aimTag() { aimDataLayer.push(arguments); }
+
+        // Pageview. Exposed as a helper so single-page-app style layouts (the
+        // infinite-scroll news template) can re-fire a pageview per virtual page
+        // view, the same way the PulsePoint tag does via GTM. Pageview only: the
+        // 'signal' call below (GAM targeting + signal logging) stays one-per-load.
+        window.PPPFireIqviaPageview = function () {
+            aimTag('e3e4b2b5-fb20-4b9c-a469-4677a71fa3fe', 'pageview');
+        };
+        window.PPPFireIqviaPageview();
+
+        // Real-time Signal
+        aimTag('e3e4b2b5-fb20-4b9c-a469-4677a71fa3fe', 'signal', function(err, success) {
+
+            if (err || !success) return;
+
+            const type = success.identity_type;
+
+            // --- REAL-TIME GAM TARGETING ---
+            window.iqviaTargeting = { iqvia_type: type };
+
+            if (type === 'AUT') {
+                if (success.primary_specialty_code)
+                    window.iqviaTargeting.spec = success.primary_specialty_code;
+
+                if (success.state)
+                    window.iqviaTargeting.state = success.state;
+
+                if (success.npi_number)
+                    window.iqviaTargeting.npi = success.npi_number;
+            }
+
+            // Signal that IQVIA targeting is ready
+            window.iqviaTargetingReady = true;
+            window.dispatchEvent(new Event('iqviaTargetingReady'));
+
+            // --- REAL-TIME SIGNAL LOGGING (self-expiring; config/setup/aimxr-logging.php) ---
+            // Runs AFTER the GAM targeting above, in its own try/catch, so it can
+            // never touch ad serving. window.__aimxrLog is only set by PHP while
+            // the logging window is open; identified signals only (skip UNK).
+            try {
+                if (window.__aimxrLog && type && type !== 'UNK') {
+                    const fd = new FormData();
+                    fd.append('action', 'psych_aimxr_log_signal');
+                    fd.append('nonce', window.__aimxrLog.nonce);
+                    fd.append('signal', JSON.stringify(success));
+                    fd.append('page', location.href);
+                    fetch(window.__aimxrLog.url, {
+                        method: 'POST',
+                        body: fd,
+                        keepalive: true,
+                        credentials: 'same-origin'
+                    });
+                }
+            } catch (e) {}
+        });
+    </script>
+
+
+    <!--healthlink tracking code-->
+    <script>var pixel_kwargs=pixel_kwargs||{}; pixel_kwargs.client_id='09e43583-dcac-44d4-8010-0597da6de4b4', pixel_kwargs.site_id='f259de7c-567b-4602-8514-f5c2b7ee5fbb', function(){var e=document.createElement('script'); e.type='text/javascript', e.async=!0, e.crossOrigin=!0, e.src='https://static.icexyz.com/whm/assets/pixel.js'; var a=document.getElementsByTagName('script')[0]; a.parentNode.insertBefore(e,a)}();</script>
+
+    <!--healthlink tracking code2-->
+    <script>
+
+        (function() {
+
+            var script = document.createElement('script');
+
+            script.src = 'https://pixel-script-bucket-prod.s3.us-west-2.amazonaws.com/ae70b358-778e-469f-8241-e9489bd376a9.js';
+
+            script.async = true;
+
+            document.head.appendChild(script);
+
+        })();
+    </script>
+
+	<meta name="pubdate" content="20260813">
+<meta name="pubtype" content="PCC">
+<meta name="google-site-verification" content="z8-egPpqBHcfHQSvJbUEwB-32Myr7VhTpsZfSeklagQ">
+<meta property="og:locale"  content="en_US" />
+<meta property="og:type"  content="article" />
+<meta property="og:title"  content="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" />
+<meta property="og:description"  content="Individuals who experience homelessness have high rates of medical and psychiatric illness and face barriers to care; vulnerable populations include mothers with dependent children who have experienced domestic violence, runaway adolescents, and veterans." />
+<meta property="og:url"  content="https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/" />
+<meta property="og:site_name"  content="Psychiatrist.com" />
+<meta property="og:image"  content="https://www.psychiatrist.com/wp-content/uploads/2026/08/PCC_Homelessness-and-Housing-Insecurity.jpg" />
+<meta property="og:image:width"  content="1200" />
+<meta property="og:image:height"  content="800" />
+<meta property="og:image:type"  content="image/jpeg" />
+<meta property="article:published_time"  content="2026-08-13" />
+<meta property="article:modified_time"  content="2026-08-14" />
+<meta property="article:author"  content="Sofia E. Matta, Luis Velez Figueroa, Margarita Bobonis-Babilonia, Andrea C. DeSimone, Lynne D. Boone, Katherine A. Koh, Theodore A. Stern" />
+<meta property="article:section"  content="Patient Care" />
+<meta property="article:tag"  content="Patient Care, Veterans and Military Issues, Rounds in the General Hospital" />
+<meta  name="twitter:card" content="summary_large_image" />
+<meta  name="twitter:title" content="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" />
+<meta  name="twitter:description" content="Individuals who experience homelessness have high rates of medical and psychiatric illness and face barriers to care; vulnerable populations include mothers with dependent children who have experienced domestic violence, runaway adolescents, and veterans." />
+<meta  name="twitter:url" content="https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/" />
+<meta  name="twitter:site" content="@psychiatristcns" />
+<meta  name="twitter:image" content="https://www.psychiatrist.com/wp-content/uploads/2026/08/PCC_Homelessness-and-Housing-Insecurity.jpg" />
+<meta  name="twitter:image:alt" content="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" />
+<meta  name="twitter:label1" content="Written by" />
+<meta  name="twitter:data1" content="Sofia E. Matta, Luis Velez Figueroa, Margarita Bobonis-Babilonia, Andrea C. DeSimone, Lynne D. Boone, Katherine A. Koh, Theodore A. Stern" />
+<meta  name="twitter:label2" content="Est. reading time" />
+<meta  name="twitter:data2" content="25 min read" />
+<meta property="linkedin:title"  content="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" />
+<meta property="linkedin:description"  content="Individuals who experience homelessness have high rates of medical and psychiatric illness and face barriers to care; vulnerable populations include mothers with dependent children who have experienced domestic violence, runaway adolescents, and veterans." />
+<meta property="linkedin:url"  content="https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/" />
+<meta property="linkedin:image"  content="https://www.psychiatrist.com/wp-content/uploads/2026/08/PCC_Homelessness-and-Housing-Insecurity.jpg" />
+<meta property="linkedin:image:alt"  content="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" />
+
+    
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	
+            <script>
+			var citation = {"ris":"TY  - JOUR\nTI  - Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care\nA1  - Sofia E. Matta\nA1  - Luis Velez Figueroa\nA1  - Margarita Bobonis-Babilonia\nA1  - Andrea C. DeSimone\nA1  - Lynne D. Boone\nA1  - Katherine A. Koh\nA1  - Theodore A. Stern\nJO  - Primary Care Companion for CNS Disorders\nVL  - 28\nIS  - 4\nSP  - 230925\nY1  - 2026\nPB  - Physicians Postgraduate Press, Inc.\nDO  - 10.4088\/PCC.26f04188\nER  - \n","endnote":"%0 Journal Article\n%T Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care\n%A Sofia E. Matta\n%A Luis Velez Figueroa\n%A Margarita Bobonis-Babilonia\n%A Andrea C. DeSimone\n%A Lynne D. Boone\n%A Katherine A. Koh\n%A Theodore A. Stern\n%J Primary Care Companion for CNS Disorders\n%V 28\n%N 4\n%P 230925\n%D 2026\n%I Physicians Postgraduate Press, Inc.\n","bibtex":"@article{cite104088PCC26f04188,\n  title = {Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care},\n  author = {Sofia E. Matta and Luis Velez Figueroa and Margarita Bobonis-Babilonia and Andrea C. DeSimone and Lynne D. Boone and Katherine A. Koh and Theodore A. Stern},\n  journal = {Primary Care Companion for CNS Disorders},\n  volume = {28},\n  year = {2026},\n  number = {4},\n  pages = {230925},\n  doi = {10.4088\/PCC.26f04188},\n}\n","medlars":"PMID- \nTI  - Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care\nFAU - Sofia E. Matta\nFAU - Luis Velez Figueroa\nFAU - Margarita Bobonis-Babilonia\nFAU - Andrea C. DeSimone\nFAU - Lynne D. Boone\nFAU - Katherine A. Koh\nFAU - Theodore A. Stern\nJT  - Primary Care Companion for CNS Disorders\nDP  - 2026\nVI  - 28\nIP  - 4\nPG  - \nLID - 10.4088\/PCC.26f04188\n","full":"Sofia E. Matta, Luis Velez Figueroa, Margarita Bobonis-Babilonia, et al.. Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care. Primary Care Companion for CNS Disorders. Published online August 14, 2026. doi:10.4088\/PCC.26f04188"};        </script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","@id":"https:\/\/www.psychiatrist.com\/#organization","name":"Psychiatrist.com","url":"https:\/\/www.psychiatrist.com\/","logo":"https:\/\/www.psychiatrist.com\/wp-content\/uploads\/2023\/02\/cropped-32x32_psych_favicon-1.png","sameAs":["https:\/\/www.facebook.com\/PsychiatristCNS","https:\/\/www.instagram.com\/clinicalpsychiatrist\/","https:\/\/www.linkedin.com\/company\/the-journal-of-clinical-psychiatry\/","https:\/\/x.com\/psychiatristcns","https:\/\/www.threads.net\/@clinicalpsychiatrist"],"contactPoint":{"@type":"ContactPoint","email":"subscriptions@psychiatrist.com","contactType":"Customer Service"}}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","name":"Psychiatrist.com","url":"https:\/\/www.psychiatrist.com\/","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.psychiatrist.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"ScholarlyArticle","@id":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/#article","url":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/","headline":"Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care","name":"Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care","inLanguage":"en","datePublished":"2026-08-13T04:00:22-05:00","dateModified":"2026-08-14T09:21:57-05:00","mainEntityOfPage":{"@id":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/#webpage"},"publisher":{"@id":"https://www.psychiatrist.com/#organization"},"author":[{"@id":"https://www.psychiatrist.com/author/sofia-e-matta/#person"},{"@id":"https://www.psychiatrist.com/author/luis-velez-figueroa/#person"},{"@id":"https://www.psychiatrist.com/author/margarita-bobonis-babilonia/#person"},{"@id":"https://www.psychiatrist.com/author/andrea-c-desimone/#person"},{"@id":"https://www.psychiatrist.com/author/lynne-d-boone/#person"},{"@id":"https://www.psychiatrist.com/author/katherine-a-koh/#person"},{"@id":"https://www.psychiatrist.com/author/theodore-a-stern/#person"}],"alternativeHeadline":"Homelessness and Housing Insecurity","description":"Individuals who experience homelessness have high rates of medical and psychiatric illness and face barriers to care; vulnerable populations include mothers with dependent children who have experienced domestic violence, runaway adolescents, and veterans.","abstract":"Lessons Learned at the Interface of Medicine and Psychiatry The Psychiatric Consultation Service at Massachusetts General Hospital sees medical and surgical inpatients with comorbid psychiatric symptoms and conditions. During their twice-weekly rounds, Dr Stern and other members of the Consultation Service discuss diagnosis and management of hospitalized patients with complex medical or surgical problems who also demonstrate psychiatric symptoms or conditions. These discussions have given rise to rounds reports that will prove useful for clinicians practicing at the interface of medicine and psychiatry. Prim Care Companion CNS Disord 2026;28(4):26f04188 Author affiliations are listed at the end of this article.","identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.4088/PCC.26f04188"},"sameAs":"https://doi.org/10.4088/PCC.26f04188","image":{"@id":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/#primaryimage"},"isPartOf":{"@type":"PublicationIssue","issueNumber":"4","isPartOf":{"@type":"PublicationVolume","isPartOf":{"@id":"https://www.psychiatrist.com/#periodical-pcc"},"volumeNumber":"28"}},"citation":["Yan H, Gallant JA, Delahunty-Pike A, et al. Addressing housing insecurity as a social determinant of health: a systematic review of interventions in healthcare settings. Soc Sci Med. 2025;384:118557.","Onapa H, Sharpley CF, Bitsika V, et al. The physical and mental health effects of housing homeless people: a systematic review. Health Soc Care Community. 2022;30(2):448–468.","Centers for Disease Control and Prevention. Homelessness and health. 2024. Accessed January 7, 2026. https://www.cdc.gov/homelessness-and-health/about/index.html","Soucy D, Hall A, Moses J. State of Homelessness: 2025 Edition. National Alliance to end homelessness. 2025. Accessed January 7, 2026. https://endhomelessness.org/state-of-homelessness/","Leopold J, Cunningham M, Posey L, et al. Improving Measures of Housing Insecurity: A Path Forward. Urban Institute. 2016. Accessed January 7, 2026. https://www.urban.org/sites/default/files/publication/101608/improving_measures_of_housing_insecurity_2.pdf","Healthy People. Housing instability. Office of Disease Prevention and Health Promotion. US Department of Health and Human Services; 2030. Accessed January 7, 2026. https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/housing-instability","US Department of Housing and Urban Development. CoC and ESG Homeless Eligibility: Four Categories of the Homeless Definition. HUD Exchange. Accessed January 7, 2026. https://www.hudexchange.info/homelessness-assistance/coc-esg-virtual-binders/coc-esg-homeless-eligibility/four-categories/","US Department of Health and Human Services. Definitions of Homelessness for Federal Program Serving Children, Youth, and Families. Accessed March 23, 2026. https://acf.gov/sites/default/files/documents/ecd/homelessness_definition.pdf","de Sousa T, Henry M. The 2024 Annual Homelessness Assessment Report (AHAR) to Congress. US Department of Housing and Urban Development, Office of Community Planning and Development. Published December 2024. Accessed January 7, 2026. https://www.huduser.gov/portal/sites/default/files/pdf/2024-AHAR-Part-1.pdf","Perl L. In Focus: CRS Product IF12985 — Housing; Social Welfare; Veterans. Congressional Research Service; 2025. Accessed January 7, 2026. https://www.congress.gov/crs-product/IF12985","What Is Homelessness in America? National Alliance to end homelessness. Accessed January 7, 2026. https://endhomelessness.org/overview/#what_causes_homelessness","Canoso JJ. Homelessness: cause and effects. Clin Rheumatol. 2021;40(1):1–2.","Colburn G, Aldern CP. Homelessness is a housing problem: How structural factors explain U.S. patterns. University of California Press; 2022.","Harati R, Emmanuel D, Renzi K, et al The gap: a shortage of affordable homes. National Low Income Housing Coalition. 2025. Accessed December 26, 2025. https://nlihc.org/gap","What causes homelessness: a shortage of affordable housing. Natl Alliance End Homelessness. Accessed December 30, 2025. https://endhomelessness.org/a-shortage-of-affordable-housing/","Hargrave AS, Knight KR, Dhatt ZK, et al. The impact of intimate partner violence on homelessness and returns to housing: a qualitative analysis from the California statewide study of people experiencing homelessness. J Interpers Violence. 2025;40(5-6):1248–1270.","Moschion J, van Ours J. Do childhood experiences of parental separation lead to homelessness?. Eur Econ Rev. 2019;111:211–236.","Moschion J, Johnson G. Homelessness and incarceration: a reciprocal relationship?. J Quant Criminol. 2019;35:855–887.","Fowler PJ, Marcal KE, Zhang J, et al. Homelessness and aging out of foster care: a national comparison of child welfare-involved adolescents. Child Youth Serv Rev. 2017;77:27–33.","Koh KA, D’Olympia J, Hooshyar D, et al. Pathways into homelessness and perspectives on prevention: a qualitative study of army veterans. PLoS One. 2026;21(3):e0342060.","Chang DC, Rieb L, Nosova E, et al. Hospitalization among street-involved youth who use illicit drugs in Vancouver, Canada: a longitudinal analysis. Harm Reduct J. 2018;15(1):14.","Garcia C, Doran K, Kushel M. Homelessness and health: factors, evidence, innovations that work, and policy recommendations. Health Aff (Millwood). 2024;43(2):164–171.","Kushel M, Moore T, Birkmeyer J, et al. Toward a New Understanding: The California Statewide Study of People Experiencing Homelessness. UCSF Benioff Homelessness and Housing Initiative; 2023. Accessed January 10, 2026. https://homelessness.ucsf.edu/sites/default/files/2023-06/CASPEH_Report_62023.pdf","Treglia D, Johns EL, Schretzman M, et al. When crises converge: hospital visits before and after shelter use among homeless New Yorkers. Health Aff (Millwood). 2019;38(9):1458–1467.","Homelessness data & trends. United States Interagency Council on homelessness. Accessed December 27, 2025. https://www.usich.gov/guidance-reports-data/data-trends"]},{"@type":"Person","@id":"https://www.psychiatrist.com/author/sofia-e-matta/#person","name":"Sofia E. Matta","url":"https://www.psychiatrist.com/author/sofia-e-matta/","honorificSuffix":"MD","affiliation":{"@type":"Organization","name":"Massachusetts General Hospital/Harvard Medical School, Boston, Massachusetts"}},{"@type":"Person","@id":"https://www.psychiatrist.com/author/luis-velez-figueroa/#person","name":"Luis Velez Figueroa","url":"https://www.psychiatrist.com/author/luis-velez-figueroa/","honorificSuffix":"MD","affiliation":{"@type":"Organization","name":"University of Connecticut, Storrs, Connecticut"}},{"@type":"Person","@id":"https://www.psychiatrist.com/author/margarita-bobonis-babilonia/#person","name":"Margarita Bobonis-Babilonia","url":"https://www.psychiatrist.com/author/margarita-bobonis-babilonia/","honorificSuffix":"MD","affiliation":{"@type":"Organization","name":"James A. Haley Veterans Administration Hospital, Tampa, Florida"}},{"@type":"Person","@id":"https://www.psychiatrist.com/author/andrea-c-desimone/#person","name":"Andrea C. DeSimone","url":"https://www.psychiatrist.com/author/andrea-c-desimone/","honorificSuffix":"DO","affiliation":{"@type":"Organization","name":"Bayhealth Medical Center in Dover, Delaware"}},{"@type":"Person","@id":"https://www.psychiatrist.com/author/lynne-d-boone/#person","name":"Lynne D. Boone","url":"https://www.psychiatrist.com/author/lynne-d-boone/","honorificSuffix":"MD","affiliation":[{"@type":"Organization","name":"Harry S. Truman Veteran’s Administration Hospital, Columbia, Missouri"},{"@type":"Organization","name":"Department of Psychiatry, University of Missouri Medical School, Columbia, Missouri"}]},{"@type":"Person","@id":"https://www.psychiatrist.com/author/katherine-a-koh/#person","name":"Katherine A. Koh","url":"https://www.psychiatrist.com/author/katherine-a-koh/","honorificSuffix":"MD, MSc","affiliation":[{"@type":"Organization","name":"Massachusetts General Hospital/Harvard Medical School, Boston, Massachusetts"},{"@type":"Organization","name":"Boston Health Care for the Homeless Program, Boston, Massachusetts"}]},{"@type":"Person","@id":"https://www.psychiatrist.com/author/theodore-a-stern/#person","name":"Theodore A. Stern","url":"https://www.psychiatrist.com/author/theodore-a-stern/","honorificSuffix":"MD","affiliation":{"@type":"Organization","name":"Massachusetts General Hospital/Harvard Medical School, Boston, Massachusetts"}},{"@type":"BreadcrumbList","@id":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.psychiatrist.com/"},{"@type":"ListItem","position":2,"name":"Primary Care Companion for CNS Disorders","item":"https://www.psychiatrist.com/pcc/"},{"@type":"ListItem","position":3,"name":"Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care","item":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/"}]},{"@type":"ImageObject","@id":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/#primaryimage","url":"https://www.psychiatrist.com/wp-content/uploads/2026/08/PCC_Homelessness-and-Housing-Insecurity.jpg"},{"@type":"Periodical","@id":"https://www.psychiatrist.com/#periodical-pcc","name":"Primary Care Companion for CNS Disorders","publisher":{"@id":"https://www.psychiatrist.com/#organization"}},{"@type":"WebPage","@id":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/#webpage","url":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/","name":"Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care","isPartOf":{"@id":"https://www.psychiatrist.com/#website"},"breadcrumb":{"@id":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/#breadcrumb"},"primaryImageOfPage":{"@id":"https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/#primaryimage"}},{"@type":"Organization","@id":"https://www.psychiatrist.com/#organization","name":"Psychiatrist.com","url":"https://www.psychiatrist.com/"}]}</script><meta name='robots' content='max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel='dns-prefetch' href='//securepubads.g.doubleclick.net' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.psychiatrist.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.psychiatrist.com%2Fpcc%2Fhomelessness-housing-insecurity-challenges-opportunities-improve-care%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.psychiatrist.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.psychiatrist.com%2Fpcc%2Fhomelessness-housing-insecurity-challenges-opportunities-improve-care%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='current-issue-css' href='https://www.psychiatrist.com/wp-content/themes/psych/dist/css/blocks/current-issue.css?ver=1790017134' media='all' />
+<link rel='stylesheet' id='sub-nav-css' href='https://www.psychiatrist.com/wp-content/themes/psych/dist/css/blocks/sub-nav.css?ver=1787770869' media='all' />
+<link rel='stylesheet' id='mp-theme-css' href='https://www.psychiatrist.com/wp-content/plugins/memberpress/css/ui/theme.css?ver=1.12.17' media='all' />
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-11.0.1' media='all' />
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=11.0.1' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=11.0.1' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=11.0.1' media='all' />
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel='stylesheet' id='globals.min-css' href='https://www.psychiatrist.com/wp-content/themes/psych/dist/css/globals.min.css?ver=1790017134' media='all' />
+<link rel='stylesheet' id='article.min-css' href='https://www.psychiatrist.com/wp-content/themes/psych/dist/css/article.min.css?ver=1790280995' media='all' />
+<script id="jquery-core-js" src="https://www.psychiatrist.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.psychiatrist.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script data-wp-strategy="defer" defer id="wc-jquery-blockui-js" src="https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.0.1"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https://www.psychiatrist.com/cart/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wc-add-to-cart-js" src="https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.0.1"></script>
+<script data-wp-strategy="defer" defer id="wc-js-cookie-js" src="https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.0.1"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
+//# sourceURL=woocommerce-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="woocommerce-js" src="https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.0.1"></script>
+<script id="google-publisher-tag-js" async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js?ver=1790183608"></script>
+<script id="gam-init-js-extra">
+var gam = {"page_targeting":"{\"page_name\":\"Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care\",\"site_section\":\"academic_article\",\"post_type\":\"post\",\"post_id\":\"230925\",\"permalink\":\"https:\\/\\/www.psychiatrist.com\\/pcc\\/homelessness-housing-insecurity-challenges-opportunities-improve-care\\/\",\"categories\":[\"patient-care\",\"veterans-health\",\"rounds-in-the-general-hospital\"],\"journal\":\"pcc\"}","static_footer":"1"};
+//# sourceURL=gam-init-js-extra
+</script>
+<script id="gam-init-js" src="https://www.psychiatrist.com/wp-content/themes/psych/dist/js/gam-init.js?ver=1790183608"></script>
+<script id="ajax_operation_script-js-extra">
+var bigdatacloud_key = {"key":""};
+var myAjax = {"ajaxurl":"/wp-admin/admin-ajax.php","nonce":"5b402e6c9f"};
+//# sourceURL=ajax_operation_script-js-extra
+</script>
+<script id="ajax_operation_script-js" src="https://www.psychiatrist.com/wp-content/plugins/woocommerce-anti-fraud/assets/js/geoloc.js?ver=1.0"></script>
+<link rel="https://api.w.org/" href="https://www.psychiatrist.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.psychiatrist.com/wp-json/wp/v2/posts/230925" /><meta name="generator" content="WordPress 7.0.3" />
+<meta name="generator" content="WooCommerce 11.0.1" />
+<link rel='shortlink' href='https://www.psychiatrist.com/?p=230925' />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://www.psychiatrist.com/wp-content/uploads/2023/02/cropped-32x32_psych_favicon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.psychiatrist.com/wp-content/uploads/2023/02/cropped-32x32_psych_favicon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.psychiatrist.com/wp-content/uploads/2023/02/cropped-32x32_psych_favicon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.psychiatrist.com/wp-content/uploads/2023/02/cropped-32x32_psych_favicon-1-270x270.png" />
+</head>
+
+    <body class="wp-singular post-template-default single single-post postid-230925 single-format-standard wp-embed-responsive wp-theme-psych has-footer-ad theme-psych woocommerce-no-js is-article-page">
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8NX5MZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+    
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+    
+    
+<header id="masthead" class="site-header">
+	<nav class="main-navigation" role="navigation" aria-label="Main menu">
+		<div class="main-navigation-header">
+			<button class="menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="Menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<div class="logo-container">
+				<a href="/" class="logo-link">
+					<img src="/wp-content/themes/psych/assets/images/logos/psych.png" alt="Psychiatrist.com Logo">
+				</a>
+			</div>
+			<div id="navigation" class="navigation">
+				<div class="menu-main-navigation-container"><ul id="primary-menu-1" class="menu"><li id="menu-item-186557" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186557"><a href="/jcp/">JCP</a></li>
+<li id="menu-item-186558" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186558"><a href="/pcc/">PCC</a></li>
+<li id="menu-item-186559" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186559"><a href="/insights/">Insights</a></li>
+<li id="menu-item-186561" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186561"><a href="/about/">About</a></li>
+<li id="menu-item-186562" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186562"><a href="/authors/">Authors &#038; Reviewers</a></li>
+<li id="menu-item-186564" class="account-sign-in redirect-parent menu-item menu-item-type-custom menu-item-object-custom menu-item-186564"><a href="/login/">Sign In</a></li>
+<li id="menu-item-186565" class="account-subscribe redirect-parent menu-item menu-item-type-custom menu-item-object-custom menu-item-186565"><a href="/membership/">Subscribe</a></li>
+</ul></div>			</div>
+		</div>
+		<div class="expanded">
+			<div class="expanded-container">
+				<div class="search">
+                    <form id="custom-search-form" onsubmit="return redirectToSearch()">
+						<div class="inputs-wrapper">
+							<label for="search-text" class="visually-hidden">Search</label>
+							<input type="text" name="search-text" id="search-text" placeholder="Enter Keyword" aria-label="Search" />
+							
+							<input type="submit" id="search" name="search" value="Search" />
+						</div>
+                        <a href="/advanced-search/" class="text-link" aria-label="Advanced Search">Advanced Search</a>
+					</form>
+                </div>
+				<div class="expanded-links-container">
+					<div class="menu">
+						<h2>Menu</h2>
+                        <div class="menu-main-navigation-container"><ul id="primary-menu-2" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186557"><a href="/jcp/">JCP</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186558"><a href="/pcc/">PCC</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186559"><a href="/insights/">Insights</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186561"><a href="/about/">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186562"><a href="/authors/">Authors &#038; Reviewers</a></li>
+<li class="account-sign-in redirect-parent menu-item menu-item-type-custom menu-item-object-custom menu-item-186564"><a href="/login/">Sign In</a></li>
+<li class="account-subscribe redirect-parent menu-item menu-item-type-custom menu-item-object-custom menu-item-186565"><a href="/membership/">Subscribe</a></li>
+</ul></div>						                            <a class="mobile-signin redirect-link" href="/login/" aria-label="My Account">Sign in</a>
+                            <a class="mobile-signin redirect-link" href="/membership/" aria-label="My Account">Subscribe</a>
+											</div>
+					<div class="topics">
+						<div class="expanded-menu-heading sub-nav-toggle">
+                            <h2>Clinical Topics</h2>
+							<a href="/topics/" class="topics-view-all">View All
+								<svg xmlns="http://www.w3.org/2000/svg" width="16.567" height="16.567" viewBox="0 0 16.567 16.567">
+									<g id="Arrow_small_red" transform="translate(0.5 0.5)">
+										<path id="Path_2213" data-name="Path 2213" d="M18.567,10.784A7.784,7.784,0,1,1,10.784,3a7.784,7.784,0,0,1,7.784,7.784Z" transform="translate(-3 -3)" fill="none" stroke="#ec4251" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+										<path id="Path_2214" data-name="Path 2214" d="M18,18.227l3.113-3.113L18,12" transform="translate(-10.217 -7.33)" fill="none" stroke="#ec4251" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+										<path id="Path_2215" data-name="Path 2215" d="M12,18h6.227" transform="translate(-7.33 -10.216)" fill="none" stroke="#ec4251" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+									</g>
+								</svg>
+							</a>
+							<button class="sub-menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="Clinical Topics Menu">
+								<svg xmlns="http://www.w3.org/2000/svg" width="28.171" height="28.171" viewBox="0 0 28.171 28.171">
+									<g id="Arrow_large_MOBILE" transform="translate(0.5 0.5)">
+										<path id="Path_2213" data-name="Path 2213" d="M30.171,16.586A13.586,13.586,0,1,1,16.586,3,13.586,13.586,0,0,1,30.171,16.586Z" transform="translate(-3 -3)" fill="none" stroke="#0a1c31" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+										<path id="Path_2214" data-name="Path 2214" d="M18,22.869l5.434-5.434L18,12" transform="translate(-4.414 -3.849)" fill="none" stroke="#0a1c31" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+										<path id="Path_2215" data-name="Path 2215" d="M12,18H22.869" transform="translate(-3.848 -4.414)" fill="none" stroke="#0a1c31" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+									</g>
+								</svg>
+							</button>
+						</div>
+						<div class="menu-clinical-topics-container"><ul id="secondary-menu-1" class="menu"><li id="menu-item-186499" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186499"><a href="/addiction/">Addiction</a></li>
+<li id="menu-item-200734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-200734"><a href="/adhd/">ADHD</a></li>
+<li id="menu-item-221057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-221057"><a href="/alzheimers/">Alzheimer&#8217;s Disease</a></li>
+<li id="menu-item-186500" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186500"><a href="/anxiety/">Anxiety</a></li>
+<li id="menu-item-186501" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186501"><a href="/bipolar-disorder/">Bipolar Disorder</a></li>
+<li id="menu-item-186502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186502"><a href="/depression/">Depression</a></li>
+<li id="menu-item-198195" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198195"><a href="/movement-disorders/">Movement Disorders</a></li>
+<li id="menu-item-186505" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186505"><a href="/neurology/">Neurology</a></li>
+<li id="menu-item-186506" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186506"><a href="/ocd/">OCD</a></li>
+<li id="menu-item-186507" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186507"><a href="/psychopharmacology/">Psychopharmacology</a></li>
+<li id="menu-item-186508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186508"><a href="/collection/ptsd-trauma/">PTSD and Trauma</a></li>
+<li id="menu-item-198194" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-198194"><a href="/schizophrenia/">Schizophrenia/Schizoaffective Disorders</a></li>
+<li id="menu-item-200735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-200735"><a href="/sleep/">Sleep</a></li>
+<li id="menu-item-186510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186510"><a href="/tardive-dyskinesia/">Tardive Dyskinesia</a></li>
+<li id="menu-item-186511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186511"><a href="/categories/">View All</a></li>
+</ul></div>					</div>
+                    <div class="columns">
+                        <div class="expanded-menu-heading">
+							                            <h2>Collections</h2>
+                            <a href="/collections/" class="topics-view-all">View All
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16.567" height="16.567" viewBox="0 0 16.567 16.567">
+                                    <g id="Arrow_small_red" transform="translate(0.5 0.5)">
+                                        <path id="Path_2213" data-name="Path 2213" d="M18.567,10.784A7.784,7.784,0,1,1,10.784,3a7.784,7.784,0,0,1,7.784,7.784Z" transform="translate(-3 -3)" fill="none" stroke="#ec4251" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                        <path id="Path_2214" data-name="Path 2214" d="M18,18.227l3.113-3.113L18,12" transform="translate(-10.217 -7.33)" fill="none" stroke="#ec4251" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                        <path id="Path_2215" data-name="Path 2215" d="M12,18h6.227" transform="translate(-7.33 -10.216)" fill="none" stroke="#ec4251" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                    </g>
+                                </svg>
+                            </a>
+                            <button class="sub-menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="More Collections Menu">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28.171" height="28.171" viewBox="0 0 28.171 28.171">
+                                    <g id="Arrow_large_MOBILE" transform="translate(0.5 0.5)">
+                                        <path id="Path_2213" data-name="Path 2213" d="M30.171,16.586A13.586,13.586,0,1,1,16.586,3,13.586,13.586,0,0,1,30.171,16.586Z" transform="translate(-3 -3)" fill="none" stroke="#0a1c31" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                        <path id="Path_2214" data-name="Path 2214" d="M18,22.869l5.434-5.434L18,12" transform="translate(-4.414 -3.849)" fill="none" stroke="#0a1c31" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                        <path id="Path_2215" data-name="Path 2215" d="M12,18H22.869" transform="translate(-3.848 -4.414)" fill="none" stroke="#0a1c31" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+						<div class="menu-collections-container"><ul id="secondary-menu-2" class="menu"><li id="menu-item-186524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186524"><a href="/article-type/academic-highlights/">Academic Highlights</a></li>
+<li id="menu-item-186528" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186528"><a href="/article-type/clinical-and-practical-psychopharmacology/">Clinical &#038; Practical Psychopharmacology</a></li>
+<li id="menu-item-186529" class="menu-item menu-item-type-post_type menu-item-object-collection menu-item-186529"><a href="https://www.psychiatrist.com/collection/early-career-psychiatrists/">Early Career Psychiatrists</a></li>
+<li id="menu-item-186527" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186527"><a href="/collection/evolving-psychedelic-paradigm/">Evolving Psychedelic Paradigm</a></li>
+<li id="menu-item-186530" class="menu-item menu-item-type-post_type menu-item-object-collection menu-item-186530"><a href="https://www.psychiatrist.com/collection/focus-on-childhood-and-adolescent-mental-health/">Focus on Childhood and Adolescent Mental Health</a></li>
+<li id="menu-item-186531" class="menu-item menu-item-type-post_type menu-item-object-collection menu-item-186531"><a href="https://www.psychiatrist.com/collection/focus-on-geriatric-psychiatry/">Focus on Geriatric Psychiatry</a></li>
+<li id="menu-item-186532" class="menu-item menu-item-type-post_type menu-item-object-collection menu-item-186532"><a href="https://www.psychiatrist.com/collection/focus-on-psychotherapy/">Focus on Psychotherapy</a></li>
+<li id="menu-item-186533" class="menu-item menu-item-type-post_type menu-item-object-collection menu-item-186533"><a href="https://www.psychiatrist.com/collection/focus-on-suicide/">Focus on Suicide</a></li>
+<li id="menu-item-186535" class="menu-item menu-item-type-post_type menu-item-object-collection menu-item-186535"><a href="https://www.psychiatrist.com/collection/focus-on-psychosis/">Focus on Psychosis</a></li>
+<li id="menu-item-186536" class="menu-item menu-item-type-post_type menu-item-object-collection menu-item-186536"><a href="https://www.psychiatrist.com/collection/focus-on-womens-mental-health/">Focus on Women’s Mental Health</a></li>
+<li id="menu-item-227027" class="menu-item menu-item-type-taxonomy menu-item-object-article-type menu-item-227027"><a href="https://www.psychiatrist.com/article-type/podcast/">JCP Podcast</a></li>
+<li id="menu-item-186537" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186537"><a href="/article-type/rounds-in-the-general-hospital/">Rounds in the General Hospital</a></li>
+<li id="menu-item-186538" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186538"><a href="/collections/">View All</a></li>
+</ul></div>                    </div>
+				</div>
+			</div>
+		</div>
+	</nav><!-- #site-navigation -->
+</header><!-- #masthead -->	
+	<main id="main" class="main article pcc">
+		
+<section     class="block sub-nav"
+        data-article-type=""
+        data-article-type-slug=""
+        data-post-id="230925"
+        data-post-title="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care"
+>
+    <div class="site-container">
+        <div class="wrapper">
+            <div class="mobile-top-container">
+                <a href="#" class="top">Back to top</a>
+                <a href="#" class="open">
+                    <span class="menu-text">Open menu</span>
+                    <span class="arrow"><img src="/wp-content/themes/psych/assets/images/icons/arrow-large-right.svg" alt="arrow" /></span>
+                </a>
+            </div>
+
+            <div class="menu-items">
+                                    
+                                            <!-- Regular link -->
+                        <a href="/pdf/homelessness-and-housing-insecurity-challenges-and-opportunities-to-improve-care-pdf"
+                           class="sub-nav-item track-button purchase-pdf btn"
+                           data-nav-label="Purchase PDF"
+                           data-nav-type="link"
+                                data-event-category="pdf click" data-event-action="purchase" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" data-event-value="user type: anon" >
+                            Purchase PDF                        </a>
+
+                                                        
+                                            <!-- Action button (Save, Share, Cite) -->
+                        <button type="button"
+                                class="sub-nav-item track-button toggle-article save-article"
+                                data-nav-label="Save"
+                                data-nav-type="action"
+                                data-event-category="save article click" data-event-action="save" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" data-event-value="user type: anon" data-post-id="230925" data-user-id="" data-logged-in="false" data-saved="false" >
+                                                        <span class="tag">Save</span>
+                        </button>
+
+                                                        
+                                            <!-- Action button (Save, Share, Cite) -->
+                        <button type="button"
+                                class="sub-nav-item track-button share-article"
+                                data-nav-label="Share"
+                                data-nav-type="action"
+                                data-event-category="share article click" data-event-action="share" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" data-event-value="user type: anon" >
+                                                        <span class="tag">Share</span>
+                        </button>
+
+                                                        
+                                            <!-- Action button (Save, Share, Cite) -->
+                        <button type="button"
+                                class="sub-nav-item track-button cite-article"
+                                data-nav-label="Cite"
+                                data-nav-type="action"
+                                data-event-category="cite article click" data-event-action="cite" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" data-event-value="user type: anon" >
+                                                        <span class="tag">Cite</span>
+                        </button>
+
+                                                        
+                                            <!-- Regular link -->
+                        <a href="/reprints-and-permissions/"
+                           class="sub-nav-item track-button reprints-link"
+                           data-nav-label="Reprints"
+                           data-nav-type="link"
+                                data-event-category="reprints click" data-event-action="view" data-event-label="Reprints and Permissions" data-event-value="user type: anon" >
+                            Reprints                        </a>
+
+                                                        
+                                                                    <div class="sub-nav-item dropdown">
+                            <button type="button"
+                                    class="dropdown-toggle sub-nav-item dropdown-toggle"
+                                    aria-expanded="false"
+                                    aria-controls="dropdown-628ea9ad8d2a2b6ec80b3f93ef1b4635"
+                                    data-nav-label="Sections"
+                                    data-nav-type="dropdown"
+                                    data-event-category="sections click" data-event-action="view" data-event-label="Sections Dropdown" data-event-value="user type: anon" >
+                                Sections                            </button>
+                            <div id="dropdown-628ea9ad8d2a2b6ec80b3f93ef1b4635" class="dropdown-menu" hidden>
+                                                                    <a href="#case-vignette"
+                                       data-nav-label="CASE VIGNETTE"
+                                       data-nav-type="dropdown-item"
+                                       data-parent-dropdown="Sections">
+                                        CASE VIGNETTE                                    </a>
+                                                                    <a href="#discussion"
+                                       data-nav-label="DISCUSSION"
+                                       data-nav-type="dropdown-item"
+                                       data-parent-dropdown="Sections">
+                                        DISCUSSION                                    </a>
+                                                                    <a href="#conclusions"
+                                       data-nav-label="CONCLUSIONS"
+                                       data-nav-type="dropdown-item"
+                                       data-parent-dropdown="Sections">
+                                        CONCLUSIONS                                    </a>
+                                                                    <a href="#article-information"
+                                       data-nav-label="Article Information"
+                                       data-nav-type="dropdown-item"
+                                       data-parent-dropdown="Sections">
+                                        Article Information                                    </a>
+                                                                    <a href="#clinical-points"
+                                       data-nav-label="Clinical Points"
+                                       data-nav-type="dropdown-item"
+                                       data-parent-dropdown="Sections">
+                                        Clinical Points                                    </a>
+                                                            </div>
+                        </div>
+                                                </div>
+        </div>
+    </div>
+</section>
+                        <div id="mobile-action-pills" class="mobile-action-pills" role="toolbar" aria-label="Article Actions">
+            <div class="pills-track" id="pills-track">
+                                                    <a href="/pdf/homelessness-and-housing-insecurity-challenges-and-opportunities-to-improve-care-pdf" class="action-pill track-button purchase-pdf btn" data-event-category="pdf click" data-event-action="purchase" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" data-event-value="user type: anon" data-pill-title="PDF">
+                        PDF                    </a>
+                                                                    <button type="button" class="action-pill track-button toggle-article save-article" data-event-category="save article click" data-event-action="save" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" data-event-value="user type: anon" data-post-id="230925" data-user-id="" data-logged-in="false" data-saved="false" data-pill-title="Save">
+                        Save                    </button>
+                                                                    <button type="button" class="action-pill track-button share-article" data-event-category="share article click" data-event-action="share" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" data-event-value="user type: anon" data-pill-title="Share">
+                        Share                    </button>
+                                                                    <button type="button" class="action-pill track-button cite-article" data-event-category="cite article click" data-event-action="cite" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care" data-event-value="user type: anon" data-pill-title="Cite">
+                        Cite                    </button>
+                                                                    <a href="/reprints-and-permissions/" class="action-pill track-button reprints-link" data-event-category="reprints click" data-event-action="view" data-event-label="Reprints and Permissions" data-event-value="user type: anon" data-pill-title="Reprints">
+                        Reprints                    </a>
+                                                                    <button type="button" class="action-pill dropdown-toggle" data-event-category="sections click" data-event-action="view" data-event-label="Sections Dropdown" data-event-value="user type: anon" data-pill-title="Sections" data-dropdown-items="[{&quot;title&quot;:&quot;CASE VIGNETTE&quot;,&quot;url&quot;:&quot;#case-vignette&quot;},{&quot;title&quot;:&quot;DISCUSSION&quot;,&quot;url&quot;:&quot;#discussion&quot;},{&quot;title&quot;:&quot;CONCLUSIONS&quot;,&quot;url&quot;:&quot;#conclusions&quot;},{&quot;title&quot;:&quot;Article Information&quot;,&quot;url&quot;:&quot;#article-information&quot;},{&quot;title&quot;:&quot;Clinical Points&quot;,&quot;url&quot;:&quot;#clinical-points&quot;}]">
+                        Sections                    </button>
+                                                <button type="button" class="action-pill pill-more-btn" id="pill-more-btn" aria-label="More options" aria-haspopup="true" aria-expanded="false">
+                    <span aria-hidden="true">&middot;&middot;&middot;</span>
+                </button>
+            </div>
+            <div class="pill-overflow-menu" id="pill-overflow-menu" role="menu" hidden></div>
+        </div>
+        
+        <div class="site-container">
+            <section id="pre-header">
+                
+<div class="journal-name-container  light-bg">
+	<a href="/pcc">
+        <div class="journal-name pcc">
+            <img class="light-bg" src="/wp-content/themes/psych/assets/images/icons/psych-icon-dark-body-light-head.png" alt="">
+            <img class="dark-bg" src="/wp-content/themes/psych/assets/images/icons/psych-icon-white-body-light-head.png" alt="">
+            <div class="text-container">
+                <p>The Primary<br />Care Companion<span>for CNS Disorders</span></p>
+            </div>
+        </div>
+	</a>
+</div>                                    <div class="access-categories-container">
+						                            <div class="access">
+                                <img src="/wp-content/themes/psych/assets/images/icons/unlocked.svg" alt="Free access">
+                            </div>
+												
+						                            <div class="categories">
+                                <div>
+									                                        <a href="/patient-care/" class="category tag">Patient Care</a>
+									                                        <a href="/veterans-health/" class="category tag">Veterans and Military Issues</a>
+									                                </div>
+                            </div>
+						                    </div>
+                            </section>
+
+            <section id="article-header">
+                <p class="journal-name-header tag">Primary Care Companion for CNS Disorders</p>
+				                    <p class="details tag">
+						                            <a class="detail" href="/article-type/rounds-in-the-general-hospital/">Rounds in the General Hospital</a>						                            <span class="detail">August 13, 2026</span>						                    </p>
+				                <h1>Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care</h1>
+                <p class="author">
+        <a rel="author" class="author" href="/author/sofia-e-matta/">Sofia E. Matta, MD</a>; 
+        <a rel="author" class="author" href="/author/luis-velez-figueroa/">Luis Velez Figueroa, MD</a>; 
+        <a rel="author" class="author" href="/author/margarita-bobonis-babilonia/">Margarita Bobonis-Babilonia, MD</a>; 
+        <a rel="author" class="author" href="/author/andrea-c-desimone/">Andrea C. DeSimone, DO</a>; 
+        <a rel="author" class="author" href="/author/lynne-d-boone/">Lynne D. Boone, MD</a>; 
+        <a rel="author" class="author" href="/author/katherine-a-koh/">Katherine A. Koh, MD, MSc</a>; 
+        <a rel="author" class="author" href="/author/theodore-a-stern/">Theodore A. Stern, MD</a></p>
+                <p class="citation">Prim Care Companion CNS Disord 2026;28(4):26f04188</p>
+            </section>
+        </div><!-- /.site-container (pre-header + article-header) -->
+
+                                        <section id="article-tabs" class="article-tabs">
+            <div class="tabs-header" role="tablist">
+                                                                <button class="tab-btn" role="tab" data-tab="more-from" aria-selected="false" aria-controls="tab-more-from">
+                    Related Articles<svg class="tab-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>                </button>
+                                                <button type="button" class="tab-btn figures-tab-btn js-open-figures" aria-label="View 1 graphic">
+                    Graphics<span class="figures-tab-count">1</span>
+                </button>
+                            </div>
+                                    <div class="tab-panel" id="tab-more-from" role="tabpanel">
+                                <a href="https://www.psychiatrist.com/pcc/decision-making-capacity-high-acuity-operative-setting/" class="related-article-card">
+                    <div class="related-article-body">
+                        <span class="related-article-title">Decision-Making Capacity in the Operating Room</span>
+                                                <span class="related-article-type">Case Report</span>
+                                            </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                </a>
+                                <a href="https://www.psychiatrist.com/pcc/meaning-monitoring-patients-families-critical-care-units/" class="related-article-card">
+                    <div class="related-article-body">
+                        <span class="related-article-title">The Meaning of Monitoring to Patients and their Families in Critical Care Units</span>
+                                                <span class="related-article-type">Rounds in the General Hospital</span>
+                                            </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                </a>
+                                <a href="https://www.psychiatrist.com/pcc/communicating-intubated-patients-providers-patients-family/" class="related-article-card">
+                    <div class="related-article-body">
+                        <span class="related-article-title">Communicating With Intubated Patients</span>
+                                                <span class="related-article-type">Rounds in the General Hospital</span>
+                                            </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                </a>
+                            </div>
+                    </section>
+        
+        <div class="site-container"><!-- re-open for article body -->
+
+            <section id="content">
+                                
+                <div class="content-container">
+                    <div class="left">
+
+                        
+
+                        
+                                                    <div class="abstract">
+                                                                <p><h2><strong>Lessons Learned at the Interface of Medicine and Psychiatry</strong></h2>
+<p>The Psychiatric Consultation Service at Massachusetts General Hospital sees medical and surgical inpatients with comorbid psychiatric symptoms and conditions. During their twice-weekly rounds, Dr Stern and other members of the Consultation Service discuss diagnosis and management of hospitalized patients with complex medical or surgical problems who also demonstrate psychiatric symptoms or conditions. These discussions have given rise to rounds reports that will prove useful for clinicians practicing at the interface of medicine and psychiatry.</p>
+<p><em>Prim Care Companion CNS Disord</em><em> 2026;28(4):26f04188</em></p>
+<p><em>Author affiliations are listed at the end of this article.</em></p>
+</p>
+                            </div>
+
+						
+                                                                        <div class="inline-related-articles">
+                            <p class="inline-related-heading">Also from PCC</p>
+                                                        <a href="https://www.psychiatrist.com/pcc/decision-making-capacity-high-acuity-operative-setting/"
+                               class="inline-related-link"
+                               data-rail-label="Inline Related 1"
+                               data-rail-type="inline-related">
+                                <span class="inline-related-title">Decision-Making Capacity in the Operating Room</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                            </a>
+                                                        <a href="https://www.psychiatrist.com/pcc/meaning-monitoring-patients-families-critical-care-units/"
+                               class="inline-related-link"
+                               data-rail-label="Inline Related 2"
+                               data-rail-type="inline-related">
+                                <span class="inline-related-title">The Meaning of Monitoring to Patients and their Families in Critical Care Units</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                            </a>
+                                                        <a href="https://www.psychiatrist.com/pcc/communicating-intubated-patients-providers-patients-family/"
+                               class="inline-related-link"
+                               data-rail-label="Inline Related 3"
+                               data-rail-type="inline-related">
+                                <span class="inline-related-title">Communicating With Intubated Patients</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                            </a>
+                                                    </div>
+                        
+                                                                                                                                                                                                <div class="rail-promo mobile-promo-inline mobile-promo-inline--media mobile-promo-inline--pair" data-nosnippet>
+                            <p class="rail-section-heading">From the Editors</p>
+                            <a href="https://events.teams.microsoft.com/event/2ca0fa55-9cf8-41d3-8193-76ad3136cf7f@b83f3f26-aa42-4226-819e-40f721ff12c0"
+                               class="rail-promo-card track-button"
+                               data-rail-type="promo"
+                               data-rail-label="JCP Webinar"
+                               data-event-category="featured content click"
+                               data-event-action="click"
+                               data-event-label="JCP Webinar GLP-1 Kidney BD Mobile"
+                               aria-label="Register for the free JCP webinar on GLP-1 receptor agonists for long-term kidney protection in bipolar disorder">
+                                <div class="rail-promo-image">
+                                    <img
+                                        src="https://www.psychiatrist.com/wp-content/themes/psych/assets/images/webinar/glp1-webinar-speakers.png"
+                                        alt=""
+                                        width="424"
+                                        height="240"
+                                        loading="lazy"
+                                        decoding="async"
+                                    />
+                                </div>
+                                <div class="rail-promo-body">
+                                    <span class="tag rail-promo-kicker">Live Webinar · Oct 12</span>
+                                    <span class="rail-promo-title">GLP-1 Receptor Agonists for Long-Term Kidney Protection</span>
+                                    <span class="rail-promo-desc">Dr. Balwinder Singh (Mayo Clinic) and Dr. Raman Baweja (Penn State) review emerging evidence on whether GLP-1 RAs may protect kidney function in adults with bipolar disorder and mild-to-moderate CKD. Free, Monday, October 12, 2:00&nbsp;PM ET.</span>
+                                    <span class="rail-promo-cta">Register now <span class="rail-promo-arrow" aria-hidden="true">→</span></span>
+                                </div>
+                            </a>
+                        </div>
+                                                                        
+                                                    <div id="full-body-content" class="content-open">
+                                <p><strong>H</strong>ave you ever wondered how people who are faced with housing insecurity and homelessness manage to cope? Have you considered how such individuals can maintain their resilience and what such individuals need to remain optimistic and functional? Have you been unsure what resources are available to those with past and present financial and social challenges? If you have, the following case vignette and discussion should prove useful.</p>
+<h2><strong>CASE VIGNETTE</strong></h2>
+<p>Mr A, a 51-year-old homeless US Army veteran, presented to the primary care clinic within the Boston Health Care for the Homeless Program for the evaluation of worsening redness, swelling, and pain of his right leg. Over the past few days, he noticed increasing warmth and tenderness that extended from his ankle to mid-calf, with difficulty ambulating due to pain. He denied fever, chills, or other systemic symptoms but noted increased fatigue and poor sleep.</p>
+<p>Mr A was well known to the Boston homeless health care system. He received intermittent longitudinal primary care through the Boston Health Care for the Homeless Program and cycled in and out of transitional housing at the New England Center and Home for Veterans, with periods of being homeless. He was also intermittently connected to the Veterans Affairs (VA) Boston Health Care System, although he reported having difficulty maintaining consistent follow-up due to transportation barriers, mistrust of institutions, and discomfort in crowded clinical settings.</p>
+<p>His medical history was notable for coronary artery disease, a myocardial infarction, hypertension, type 2 diabetes mellitus, obesity, and a chronic bilateral lower extremity peripheral neuropathy. He described persistent burning pain and numbness in both feet, which was worse at night and interfered with his sleep and mobility. He believed that this neuropathic pain was one of the primary drivers of his drinking alcohol, explaining that alcohol “takes the edge off” when the pain becomes intolerable.</p>
+<p>Mr A’s psychiatric history included combat-related posttraumatic stress disorder (PTSD), manifested by chronic hypervigilance, flashbacks, mistrust of others, and a marked difficulty being in crowds or around people he did not know. He avoided busy waiting rooms when possible and described feeling “on edge” when in enclosed or noisy environments. He denied having had psychiatric hospitalizations or suicide attempts, although he had been treated with psychiatric medications but was unable to recall their specific names.</p>
+<p>Mr A had been diagnosed with an alcohol use disorder (AUD); he drank alcohol (primarily beer) on a regular basis, with intermittent episodes of heavier use. He was treated in emergency departments (EDs) on multiple occasions for alcohol intoxication and uncomplicated alcohol withdrawal but denied having had delirium tremens, withdrawal seizures, or intensive care unit admissions. He had trials of oral naltrexone (with variable adherence) and extended-release injectable naltrexone (Vivitrol), which reduced cravings when his housing situation was more stable.</p>
+<p>On examination in the clinic, Mr A appeared older than his stated age; he was cooperative and engaged. His right leg was diffusely erythematous, warm, and edematous, without fluctuance or drainage, which was consistent with cellulitis. Sensory examination revealed a decreased perception to light touch and pinprick bilaterally, in a stocking distribution. He felt “tired but hopeful” and had a constricted, but appropriate, affect. He denied having thoughts of suicide and was frustrated by his recurrent medical visits that focused on his acute medical issues but failed to address the problems that most affected his daily functioning.</p>
+<p>During his visit, Mr A asked whether treatments were available (eg, gabapentin) that could help his chronic neuropathic pain and his alcohol use, noting that others he knew found it helpful. He was willing to reengage in care if his pain could be managed better and if treatment could be coordinated in a way that felt more predictable, trauma-informed, and responsive to his medical, psychiatric, and housing-related needs.</p>
+<h2>DISCUSSION</h2>
+<h3><strong>What Does It Mean to Have Housing Insecurity or to Be Homeless?</strong></h3>
+<p>Housing stability is widely recognized as a fundamental social determinant of health and well-being.<sup>1 </sup>Individuals who experience homelessness are disproportionately affected by food insecurity, poverty, and poor overall health. Homelessness is strongly associated with an increased mortality rate and multimorbidity (including malnutrition, poor hygiene and oral health, respiratory illnesses, dermatologic and infectious diseases, mental illnesses, AUD, and other substance use disorders [SUDs]). Structural factors (eg, low income, lack of affordable housing, and discriminatory policies) further exacerbate housing instability and have contributed to the recent and steady rise in homelessness in the United States.<sup>2–4</sup></p>
+<p>Housing insecurity exists along a continuum, ranging from stable housing to homelessness as its most severe manifestation. It encompasses multiple challenges, including overcrowding, substandard housing conditions, difficulty paying rent, frequent relocations, excessive housing costs relative to income, and residence in unsafe neighborhoods, with limited access to transportation, employment, quality education, and essential services.<sup>5,6 </sup>Homelessness, as defined by the US Department of Housing and Urban Development (HUD), falls into 4 primary categories: (1) individuals or families who lack a fixed, regular, and adequate nighttime residence, including those residing in places not intended for human habitation (eg, cars, public parks, abandoned buildings, camp grounds); (2) individuals or families who are at imminent risk of losing their primary residence within the next 14 days; (3) unaccompanied youth under the age of 25 years or families with children who meet alternate federal definitions of homelessness; and (4) individuals or families who are fleeing or attempting to flee from domestic violence or other life-threatening circumstances.<sup>7 </sup>HUD also partnered with the Department of Education in 1987 under the McKinney-Bento Act to provide an “alternate definition of homelessness” for children and youths up to age 21, the so-called “education definition.” It expanded the definition of homelessness to include the situation of sheltering in hotels and motels, trailer parks, or camping grounds if it was due to the lack of “alternative adequate accommodation.” The other expanded category of homelessness included when staying with others or “doubling up” and “if it is due to loss of housing, economic hardship, or a similar situation (within the definition of lacking fixed, regular, and adequate situations).”<sup>8 </sup>It should be noted, however, that this Act has been targeted for possible spending cuts in 2026, and these definitions may be revised.</p>
+<h3><strong>How Many Individuals and Families Are Homeless?</strong></h3>
+<p>In 2024, homelessness in the United States reached its highest recorded level. The HUD Annual Homeless Assessment Report (AHAR) Point-in-Time (PIT) count estimated that 771,480 individuals were homeless; that figure represented an increase of 18% over the prior year. Of those, 497,256 were sheltered and 274,224 were unsheltered. Nearly all population groups reached record levels, including a 39% increase among families with children and a 33% increase among children under the age of 18 years. People identifying as black, African American, or African were disproportionately affected, and roughly 60% of homeless individuals were men or boys. Contributing factors included the expiration of eviction moratoria following the COVID-19 pandemic, a persistent shortage of affordable housing, climate-related displacement, and increased migration to the United States.<sup>4,9,10</sup></p>
+<p>The PIT count, conducted on a single night in January 2024, captured individuals who met the legal definition of homelessness and provided critical data on key subpopulations, including those who were chronically homeless, unaccompanied youth, or veterans. Chronically homeless individuals—defined as persons with a disability (including serious mental illness or SUD), who reside in places not meant for human habitation—rose to 77,886 in 2024. The number of unaccompanied homeless youth increased to 38,170, and that figure has continued to rise annually since the COVID-19 pandemic, with disproportionately high representation among Asian, indigenous, and native Hawaiian youth. In contrast, homelessness among veterans declined to its lowest level since data collection began in 2009, with 32,882 veterans experiencing homelessness in 2024, reflecting the impact of sustained federal investment in housing and health care programs for veterans.<sup>9,10</sup></p>
+<p>The AHAR further indicated that adults aged 25–64 who were living in households without children constituted the largest group of homeless individuals (512,007 individuals), with approximately two-thirds of them identifying as men. Families with children accounted for 259,473 individuals, 90% of whom were sheltered. Among families experiencing homelessness, women and girls comprised 58%, and 38% identified as black, African American, or African (including 4% who identified as both black and Hispanic).<sup>9,10</sup></p>
+<h3><strong>Why Do People Become Homeless?</strong></h3>
+<p>Homelessness in the United States is driven primarily by structural and economic factors rather than by individual issues, such as substance use or mental illness.<sup>11,12 </sup>The central cause of homelessness is a lack of affordable housing.<sup>13 </sup>This is exacerbated by poverty, often the result of economic instability, including job loss and low or unstable wages.<sup>14 </sup>Other structural factors include inadequate social safety net programs or discrimination in housing, employment, education, wages, and the justice system.<sup>15</sup></p>
+<p>Family, relational, or social disruptions also play a significant role. Experiences, such as domestic violence,<sup>16 </sup>family conflict, parental separation,<sup>17 </sup>and divorce, can reduce financial stability and housing security. In addition, individuals who age out of the foster care system, exit incarceration, or leave the army without adequate transitional support face a heightened risk of homelessness.<sup>18–21</sup></p>
+<p>Finally, individual issues, particularly when untreated or unaddressed (eg, substance use, mental illness, and childhood adversity), perpetuate homelessness.<sup>22 </sup>Health-related factors are closely connected to homelessness, and they operate in a bidirectional relationship; health challenges can be both a cause and a symptom of homelessness.<sup>12 </sup>Physical health conditions, mental health challenges, and substance-related disorders can contribute to homelessness and be exacerbated by it.<sup>21 </sup>These conditions may limit an individual’s ability to maintain employment or manage medical expenses, increasing the likelihood of poverty and housing instability.<sup>22</sup></p>
+<h3><strong>What Types of Medical and Psychiatric Problems Are Prevalent in Homeless Individuals?</strong></h3>
+<p>Individuals who experience homelessness have disproportionately high rates of medical and psychiatric illness. These disparities are in part attributable to barriers such as limited access to preventive and primary care, difficulty maintaining a healthy lifestyle, inability to safely store medications, lack of transportation, and challenges scheduling or attending appointments.<sup>15,23 </sup>In addition, acute and chronic health conditions may contribute to the onset of homelessness, creating a bidirectional relationship between health and housing instability.<sup>24</sup></p>
+<p>As a result of these barriers, individuals experiencing homelessness face markedly worse health outcomes and increased mortality rates. Mean age of death is reduced by nearly 30 years compared to the general population, and all-cause mortality is approximately 3.5 times higher overall, with rates rising to as much as 9.5 times higher among young adults up to age 44.<sup>25,26 </sup>Drug overdose is the leading cause of death among homeless individuals. Among older homeless adults, cardiovascular disease, cancer, and drug overdose are the most common causes of death.<sup>26</sup></p>
+<p>Chronic medical illnesses are highly prevalent in this population and are often inadequately managed. Common illnesses (eg, diabetes mellitus, asthma, hypertension, and cardiovascular disease) require consistent access to health care, medication storage, and regular follow-up, which are frequently unavailable to individuals who lack stable housing.<sup>23 </sup>The absence of reliable transportation, telephone communication, and a permanent address further complicates continuity of care. Consequently, many chronic illnesses progress to disabling conditions, either through the natural course of disease or due to insufficient treatment. Cognitive impairment further exacerbates this issue, as it increases the risk of becoming homeless and contributes to the persistence of homelessness.<sup>27</sup></p>
+<p>In addition to chronic disease, homeless individuals are at increased risk for acute and environment-related health concerns. Prolonged exposure to adverse conditions and unmet basic needs contribute to higher rates of dermatologic, respiratory, and dental infections, as well as foot disorders related to prolonged ambulation and inadequate footwear. Sleep deprivation is also common and negatively affects mood, cognitive functioning, and immune response. Untreated injuries, malnutrition, vitamin deficiencies, and dehydration further compound health risks. Moreover, many individuals experience repeated physical or emotional trauma, including a high prevalence of intimate partner violence.</p>
+<p>These health vulnerabilities are further compounded by increased risk for infectious diseases. Engagement in survival-based activities, such as sex work, is more common among homeless individuals, particularly within the LGBTQ+ populations. This elevated risk underscores the importance of routine screening for sexually transmitted infections and the provision of preventive interventions, including HIV preexposure prophylaxis.<sup>28</sup></p>
+<p>Mental health conditions are also highly prevalent among individuals experiencing homelessness and frequently co-occur with medical comorbidities. A meta-analysis showed that 14% of homeless individuals have psychotic disorders, and 8% have bipolar disorder, with 67% having any mental health disorder.<sup>29 </sup>Studies also suggest that up to one-fifth of individuals with schizophrenia have been homeless.<sup>30 </sup>Common psychiatric disorders in this population (eg, major depressive disorder, anxiety disorders, PTSD, bipolar disorder, and schizophrenia) often predate homelessness.</p>
+<p>SUDs are also closely intertwined with both medical and psychiatric illness. Substance use may precede homelessness and contribute to housing instability or develop as a maladaptive coping strategy in response to stress, trauma, sleep deprivation, insomnia, hunger pangs, or untreated mental illness.<sup>23 </sup>Roughly one-third (35%) of people who experience homelessness reported regular recreational substance use, and approximately one-fourth (28%) indicated that their substance use increased during periods of homelessness.<sup>23</sup></p>
+<h3><strong>How Do Homeless Individuals and Families Muster the Resources to Feed and Clothe Themselves and Obtain Shelter?</strong></h3>
+<p>Throughout the United States, homeless individuals and families benefit from resources for food, clothing, and shelter that are offered by 3 main entities: federal programs, nonprofit organizations, and charitable community groups. Specific federal programs (including the Supplemental Nutrition Assistance Program, which provides food benefits to eligible low-income individuals and families) have been formed to address the nutrition needs of vulnerable populations. The early-intervention program, Women, Infants, and Children, also provides nutritious foods, education, and health referrals for pregnant women, infants, and young children (up to 5 years old). However, people must apply to receive these benefits, and some homeless individuals may need the assistance of their care teams to complete paperwork and successfully receive these services.</p>
+<p>Accessing food when homeless can be a complex task, with resources varying depending on one’s geographic region. However, even in rural areas, local food pantries and soup kitchens often partner with national nonprofit organizations to serve scheduled hot meals and distribute groceries. One well-known program includes several chain restaurants that redistribute unused food through the nonprofit group Feeding America.<sup>31</sup></p>
+<p>There are also frequently employed, but less reliable, sources of food, including panhandling in populated areas and foraging in dumpsters, primarily outside grocery stores and restaurants. Rural areas also provide some sustenance through cultivated crops and wild resources, such as nuts, berries, and wildlife. Relying on these resources, however, poses serious concerns. The lack of potable water and inadequate sanitation, combined with a high potential for injuries, often necessitates hospitalization and, in some cases, a lengthy course of intravenous antibiotics.<sup>32</sup></p>
+<p>Clothing is likely the easiest resource to obtain, as multiple organizations accept community donations and redistribute them either free or on a heavily discounted basis. In colder climates, seasonal items like jackets, gloves, and blankets are often the collection focus of charitable community groups, especially during the winter holidays. These resources are frequently offered with food at soup kitchens and homeless shelters.</p>
+<p>Understandably, the most complex resource to obtain is housing. Shelter needs are stratified into 3 levels: immediate, temporary, and long-term options, with some organizations offering a continuum among the 3. The federal HUD Department attempts to address immediate housing needs by facilitating the “Dial 211” campaign, which connects unsheltered persons with local social services that can refer to emergency housing.</p>
+<p>Some of the most vulnerable homeless populations include families (usually a mother with dependent children) who need emergent shelter after a domestic violence incident. Often, specific shelters for these situations can house families temporarily at a safe and undisclosed location, sometimes facilitated by a police department referral.<sup>33</sup></p>
+<p>Other vulnerable populations include runaway adolescents, who are in continual danger of exploitation and trafficking. HUD offers the National Runaway Safeline (1-800-RUNAWAY) for live support, which provides free transportation either to their home or to other safe, stable housing.<sup>34</sup></p>
+<p>Veterans comprise another population that frequently experiences homelessness. The VA offers specialized programs for this situation through a hotline referral system that can provide immediate shelter (often through a cooperation with local hotels). The VA also partners with HUD for veteran-assisted housing, a program that reimburses local landlords to provide temporary to permanent housing for veterans in need.<sup>35</sup></p>
+<p>It is important to consider that the access of available services is often impeded by the burden of disease, particularly neurocognitive impairment and substance abuse. While these also afflict those in the general population, they can be life-threatening to these marginalized people who must rely on the effective awareness of community services for their survival.<sup>36</sup></p>
+<h3><strong>How Can Individuals Maintain Their Resilience and Remain Optimistic and Functional?</strong></h3>
+<p>Homelessness conveys an extraordinary burden of trauma and adversity. A recent meta-analysis suggested that 90% of homeless people have endured an adverse childhood experience (eg, physical, sexual, or emotional abuse and neglect), and more than half have experienced 4 or more such events.<sup>37</sup></p>
+<p>However, despite this adversity, homeless individuals find ways to wake up each day and attempt to move their life forward. This can result in small successes, like achieving days of sobriety or attending a medical appointment, or bigger ones, such as getting housed and maintaining stability. How, then, can individuals succeed in the face of daily hardships and profound psychological scars? The answer lies in a combination of internal strength, social supports, and structural factors.</p>
+<p><strong>Internal strength. </strong>Qualitative interviews suggest that homeless individuals find personal strength through a determination to survive after seeing others’ successful exits from homelessness, courage to succeed for their children or for other family members, and religious/spiritual beliefs.<sup>38 </sup>Homeless individuals frequently describe themselves as “survivors” who have relied on their resilience to overcome daily challenges while homeless. Homeless individuals also see their best survival strategies as resourcefulness and self-reliance, such as finding income-generating activities, including loading and pushing trucks, loading buses, doing construction work, and selling goods.<sup>38 </sup>Although the jobs have not been their ideal employment, they reported that the small income they received has helped them gain some control over their lives. Others have noted that God is a source of their strength, when family, friends, and the government have let them down, with some saying that God has helped in their recovery from alcohol use.<sup>38</sup></p>
+<p><strong>Social supports. </strong>The social networks of homeless individuals have also been identified as major sources of resilience. Although it may not be readily apparent to others, a tremendous community often forms on the streets, and street dwellers identify the benefits of community as providing support, protection, and shared resources. For instance, community supports help homeless individuals find jobs or share jobs among homeless individuals<strong>.</strong><sup>38 </sup>Homeless individuals in shelters and rehabilitation centers appreciate the encouragement, advice, comfort, and leadership they receive from those who have transitioned from the streets to being housed. In emergency shelters, for example, many women encourage other homeless women to end domestic violence and problematic substance use.<sup>38 </sup>Social connections also provide reciprocal aid, such as “couch surfing” or sharing meals.</p>
+<p><strong>Structural factors. </strong>Finally, community-based services (eg, shelters, food, case management, and health care) also create paths toward stability and resilience. Support from outreach workers and community organizations includes provision of food, clothing, toiletries, bedsheets, health screening, and heath care.<sup>38 </sup>Community organizations can enhance peoples’ skills and provide vocational training (eg, baking, craftsmanship, and carpentry). One homeless individual noted that being acknowledged and finding support from a service had a cascading effect that allowed “the hope to grow.”<sup>39 </sup>Community spaces, outreach programs, and service hubs often promote belonging, participation, and positive relationships that foster resilience.</p>
+<p>These findings suggest that although the homeless population is often viewed through a deficit lens, the resilience of this group, despite facing chronic and acute adversity, is remarkable. Helping individuals see their strengths and derive motivation from within can move their goals forward. Fostering peer relationships, such as through peer groups and faith-based programs, often amplifies the strengths of homeless individuals. Role modeling, including modeling from peer specialists who have exited homelessness, can be a powerful motivation. Finally, community-based services should be robust, proactive, and trauma-informed.</p>
+<h3><strong>What Makes It Challenging for Homeless Individuals to Store Medications?</strong></h3>
+<p>Homeless adults in the United States face daunting obstacles when attempting to access medical care and adhere to medical treatments, due in large part to their unstable living conditions. The absence of reliable refrigeration, secure storage, and safe environments impedes the safe storage of essential medications (eg, insulin, antiretrovirals, and psychotropic agents). In addition to storage challenges, homeless individuals often confront transportation barriers, lack identification documents, and distrust health care institutions, which further constrains their access to health care.<sup>40,41</sup></p>
+<h3><strong>What Types of Services Are Available to Help People Overcome Homelessness?</strong></h3>
+<p>In most urban settings, care for homeless adults is delivered through Federally Qualified Health Centers and Health Care for the Homeless programs, which receive federal funding to provide integrated, low-cost, services. These centers offer primary care and treatment for behavioral health problems and SUDs and connect patients to social services.<sup>40,42 </sup>Many such centers also operate mobile health units (MHUs) and staff street medicine teams that bring health care, including mental health services,<sup>43 </sup>directly to shelters and encampments. Multidisciplinary teams (with pharmacists, case managers, and social workers) improve outcomes for those who need to manage chronic diseases.<sup>40 </sup>Medication regimens that reduce daily dosing and do not require refrigeration improve adherence to treatment regimens, while clinics that provide refrigerated storage help to support continuity of treatment for those that lack electricity.<sup>40</sup></p>
+<p>In rural settings, clinicians in private practice or in small group practice settings often rely on a combination of community action agencies, law enforcement, and county health departments to assist their patients who are experiencing homelessness. The role that local law enforcement plays is complex, as they may be involved in immediate crisis situations but are also bound to enforce ordinances and laws surrounding homelessness. This may exacerbate the problem and fracture the clinician’s therapeutic relationship with their patients.<sup>44 </sup>Community action agencies, however, are usually well-known and trusted in the local area. They frequently assist with procuring and maintaining housing and offer vouchers for food and clothing. These agencies are often bundled under the auspices of the United Way and are accessible by dialing 211.<sup>45 </sup>Small group practices can request informational posters and pamphlets promoting community agencies from their local health department and hand out resource lists from their city or county’s website.</p>
+<p>Telehealth has further expanded access to health care. Programs such as Boston Health Care for the Homeless report that attendance for visits for HIV infection was higher using telehealth relative to in person visits before the pandemic, as well as high use of telehealth for behavioral health visits even 5 years postpandemic.<sup>46 </sup>Telehealth eliminates major transportation barriers and can improve the continuity of care.<sup>46 </sup>Still, many homeless individuals rely upon costly EDs for episodic treatment, a strategy that highlights the need for preventive, community-based systems.<sup>41 </sup>Given that homelessness is widespread and problematic, solutions require the implementation of comprehensive strategies that address housing and co-occurring health and social challenges.</p>
+<p>The Housing First approach, which offers permanent housing without preconditions, has been the most effective model for reducing chronic homelessness and lowering homeless-related health care costs.<sup>47,48 </sup>Stable housing facilitates the engagement with primary care, mental health services, and employment. Individuals in Housing First programs result in more durable housing stability and often fewer ED visits and hospitalizations than do traditional shelter-based interventions.<sup>47 </sup>Permanent supportive housing that combines rent subsidies, case management, and ongoing social services has been especially effective for individuals with complex medical or psychiatric needs.<sup>48 </sup>Transitional programs, such as intensive case management, assertive community treatment, and critical time intervention, have been successful in reducing psychiatric symptoms, decreasing substance use, and enhancing housing stability.<sup>48</sup></p>
+<p>Peer navigator programs (that employ individuals who have lived experience of homelessness helping others to navigate the health and housing systems) foster trust and facilitate continuity of care. These peer-based interventions improve engagement, yield lower relapse rates, and enhance mental health outcomes.<sup>48 </sup>Ultimately, successful interventions to reduce homelessness require cross-sector collaboration and sustainable funding. Integration of health care, housing, and social support services is critical to achieving long-term recovery and community reintegration.<sup>41,48</sup></p>
+<h3><strong>How Can Health Care Systems Provide Better Care to Homeless Individuals?</strong></h3>
+<p>Health care systems can shift from providing episodic and crisis management to integrated, trauma-informed, and equity-focused care. Existing models often perpetuate repeated ED visits, hospitalizations, and subsequent discharges into homelessness. Therefore, the integration of medical, behavioral, and social services through team-based care that is rooted in community partnerships can improve outcomes and reduce costs.<sup>40,41 </sup>Colocating primary care, pharmacy, case management, and mental health and addiction services within shelters or community clinics enhances patient satisfaction and adherence and can reduce the use of EDs.<sup>40,42</sup></p>
+<p>MHUs and application of telehealth visits could be central components of health care reform. MHUs deliver preventive and mental health services directly to communities where homeless individuals reside, while telehealth removes transportation barriers and supports the continuity of care between visits.<sup>42,46 </sup>A “one-stop” care model increases engagement and builds trust, particularly among those with negative health care experiences.<sup>40</sup></p>
+<p>Comprehensive health care reform for homeless individuals requires recognizing that homelessness occurs within a context that shapes health. Systems must be flexible, compassionate, and structurally responsive, while adapting to instability instead of requiring stability as a prerequisite for care.<sup>41</sup></p>
+<h3><strong>What Resources Are Available to Clinicians Caring for Individuals Experiencing Homelessness, and How Can They Be Accessed?</strong></h3>
+<p>Clinicians caring for individuals experiencing homelessness can access a range of federal, local, nonprofit, and clinical resources, including health care, housing, food assistance, and treatment referral services, as summarized in <a href="https://www.psychiatrist.com/wp-content/uploads/2026/08/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1.png" target="_blank" rel="noopener">Table 1</a>.</p>
+<p><a class="wp-colorbox-image" href="https://www.psychiatrist.com/wp-content/uploads/2026/08/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1.png" data-lightbox="gallery"><img loading="lazy" decoding="async" class="alignnone size-full wp-image-230923" src="https://www.psychiatrist.com/wp-content/uploads/2026/08/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1.png" alt="Table listing resources to aid clinical care amid housing insecurity" width="1042" height="830" srcset="https://www.psychiatrist.com/wp-content/uploads/2026/08/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1.png 1042w, https://www.psychiatrist.com/wp-content/uploads/2026/08/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1-300x239.png 300w, https://www.psychiatrist.com/wp-content/uploads/2026/08/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1-1024x816.png 1024w, https://www.psychiatrist.com/wp-content/uploads/2026/08/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1-768x612.png 768w, https://www.psychiatrist.com/wp-content/uploads/2026/08/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1-600x478.png 600w" sizes="auto, (max-width: 1042px) 100vw, 1042px" /></a></p>
+<h3><strong>What Happened to Mr A?</strong></h3>
+<p>Mr A agreed to initiate gabapentin (starting at 300 mg orally 3 times daily and titrated to 600 mg 3 times daily), with reported improvement in his chronic peripheral neuropathic pain. He also noted a reduction in his alcohol cravings, which facilitated greater engagement with care. He also began seeing a psychiatrist in the Boston Health Care for the Homeless Program clinic and received sertraline (starting at 50 mg and titrated to 200 mg) and trauma-focused therapy to treat his PTSD. As his pain, alcohol use, and PTSD symptoms improved, he became more receptive to housing support efforts and returned to the New England Center and Home for Veterans, where he worked with a case manager to apply for permanent supportive housing. He restarted oral naltrexone and subsequently transitioned to monthly extended-release naltrexone injections (Vivitrol) once his pain was better controlled with gabapentin. Although he remained somewhat socially withdrawn, he expressed appreciation for the coordinated support addressing his housing instability, medical comorbidities, mental health, and substance use. He also reported improved glycemic control following cessation of alcohol use.</p>
+<h2>CONCLUSIONS</h2>
+<p>The main cause of homelessness in the United States is a lack of affordable housing. However, other systemic factors (eg, inadequate social safety net programs as well as discrimination in housing, employment, education, wages, and the justice system), family disruptions, and individual issues (eg, substance use, mental illness, health-related factors, and childhood adversity) also create barriers to economic and housing stability and perpetuate homelessness.</p>
+<p>Many homeless individuals have endured repeated physical or emotional trauma, including a high prevalence of intimate partner violence. Individuals who experience homelessness have worse health outcomes and higher mortality rates; the mean age of death of those who are homeless is nearly 30 years less than those in the general population. Despite this adversity, homeless individuals often remain resilient and functional through using internal strength, social supports, and community-based services.</p>
+<p>Though housing insecurity and homelessness remain a major problem in the United States, resources are available to help individuals and families meet their basic needs of food, clothing, and shelter. Clinicians should help patients connect to these needed resources and use their services to enhance care. Health care systems must shift from providing episodic and crisis management to proactive, trauma-informed, and integrated care to improve health and ultimately transition patients to home.</p>
+<h2><strong>Article Information</strong></h2>
+<p><strong>Published Online: </strong>August 13, 2026. <a href="https://doi.org/10.4088/PCC.26f04188" target="_blank" rel="noopener">https://doi.org/10.4088/PCC.26f04188</a><br />
+© 2026 Physicians Postgraduate Press, Inc.<br />
+<strong>Submitted: </strong>January 15, 2026; accepted April 15, 2026.<br />
+<strong>To Cite: </strong>Matta SE, Figueroa LV, Bobonis-Babilonia M, et al. Homelessness and housing insecurity: challenges and opportunities to improve care. <em>Prim Care Companion CNS Disord </em>2026;28(4):26f04188.<br />
+<strong>Author Affiliations: </strong>Massachusetts General Hospital/Harvard Medical School, Boston, Massachusetts (Matta, Koh, Stern); University of Connecticut, Storrs, Connecticut (Figueroa); Bayhealth Medical Center in Dover, Delaware (DeSimone); Department of Mental Health and Behavioral Sciences, James A. Haley Veterans Administration Hospital, Tampa, Florida (Bobonis Babilonia); Harry S. Truman Veteran’s Administration Hospital, Columbia, Missouri (Boone); Department of Psychiatry, University of Missouri Medical School, Columbia, Missouri (Boone); Boston Health Care for the Homeless Program, Boston, Massachusetts (Koh).<br />
+Matta, Velez Figueroa, Bobonis-Babilonia, DeSimone, Boone, and Koh are co-first authors; Stern is the senior author.<br />
+<strong>Corresponding Author: </strong>Theodore A. Stern, MD, Massachusetts General Hospital/Harvard Medical School, Boston, Massachusetts (<a href="/cdn-cgi/l/email-protection#96e2e5e2f3e4f8d6fbf1feb8fef7e4e0f7e4f2b8f3f2e3" target="_blank" rel="noopener"><span class="__cf_email__" data-cfemail="7c080f08190e123c111b1452141d0e0a1d0e1852191809">[email&#160;protected]</span></a>).<br />
+<strong>Financial Disclosure: </strong>Dr Stern has received royalties from Elsevier for editing textbooks on psychiatry. The other authors report no conflicts of interest.<br />
+<strong>Funding/Support: </strong>None</p>
+<h2>Clinical Points</h2>
+<ul>
+<li>Individuals who experience homelessness have disproportionately high rates of medical and psychiatric illness and face barriers to care (such as limited access to preventive and primary care, difficulty maintaining a healthy lifestyle, inability to safely store medications, lack of transportation, and challenges scheduling or attending appointments).</li>
+<li>Research suggests that 67% of homeless individuals have a mental health disorder, with 14% of homeless individuals having psychotic disorders and 8% having bipolar disorder.</li>
+<li>Some of the most vulnerable homeless populations include families (usually a mother with dependent children who need emergent shelter after a domestic violence incident), runaway adolescents (who are in continual danger of exploitation and trafficking), and veterans.</li>
+<li>Despite facing adversity (adverse childhood experience, eg, physical, sexual, or emotional abuse and neglect, mental and medical illnesses, and incarceration), homeless individuals often find ways to cope and move their lives forward; they frequently see themselves as survivors who identify their best survival strategies as resourcefulness and self-reliance.</li>
+<li>Medication regimens that reduce daily dosing and that do not require refrigeration improve adherence to treatment regimens, while clinics can provide refrigerated storage to support continuity of treatment for those who lack electricity.</li>
+<li>Colocating primary care, pharmacy, case management, and mental health and addiction services within shelters or community clinics can enhance patient satisfaction and adherence and reduce the use of emergency departments.</li>
+</ul>
+                            </div>
+                        
+                        
+                        
+                        
+						
+						                            <div class="affiliations-and-references">
+                                								
+								                                    <div class="references">
+                                        <h2 class="collapsed" onclick="toggleSection('reference')">
+                                            References (48)
+                                            <img src="/wp-content/themes/psych/assets/images/icons/arrow-large-right.svg" alt="Toggle Arrow" />
+                                        </h2>
+                                        <ol id="reference-list">
+											                                                <li>Yan H, Gallant JA, Delahunty-Pike A, et al. Addressing housing insecurity as a social determinant of health: a systematic review of interventions in healthcare settings. <em>Soc Sci Med</em>. 2025;384:118557. <a href="https://doi.org/10.1016/j.socscimed.2025.118557">CrossRef</a></li>
+											                                                <li>Onapa H, Sharpley CF, Bitsika V, et al. The physical and mental health effects of housing homeless people: a systematic review. <em>Health Soc Care Community</em>. 2022;30(2):448–468. <a href="https://doi.org/10.1111/hsc.13486">CrossRef</a></li>
+											                                                <li>Centers for Disease Control and Prevention. Homelessness and health. 2024. Accessed January 7, 2026. <a href="https://www.cdc.gov/homelessness-and-health/about/index.html" target="_blank" rel="noopener">https://www.cdc.gov/homelessness-and-health/about/index.html</a></li>
+											                                                <li>Soucy D, Hall A, Moses J. State of Homelessness: 2025 Edition. National Alliance to end homelessness. 2025. Accessed January 7, 2026. <a href="https://endhomelessness.org/state-of-homelessness/" target="_blank" rel="noopener">https://endhomelessness.org/state-of-homelessness/</a></li>
+											                                                <li>Leopold J, Cunningham M, Posey L, et al. Improving Measures of Housing Insecurity: A Path Forward. Urban Institute. 2016. Accessed January 7, 2026. <a href="https://www.urban.org/sites/default/files/publication/101608/improving_measures_of_housing_insecurity_2.pdf" target="_blank" rel="noopener">https://www.urban.org/sites/default/files/publication/101608/improving_measures_of_housing_insecurity_2.pdf</a></li>
+											                                                <li>Healthy People. Housing instability. Office of Disease Prevention and Health Promotion. US Department of Health and Human Services; 2030. Accessed January 7, 2026. <a href="https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/housing-instability" target="_blank" rel="noopener">https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/housing-instability</a></li>
+											                                                <li>US Department of Housing and Urban Development. CoC and ESG Homeless Eligibility: Four Categories of the Homeless Definition. HUD Exchange. Accessed January 7, 2026. <a href="https://www.hudexchange.info/homelessness-assistance/coc-esg-virtual-binders/coc-esg-homeless-eligibility/four-categories/" target="_blank" rel="noopener">https://www.hudexchange.info/homelessness-assistance/coc-esg-virtual-binders/coc-esg-homeless-eligibility/four-categories/</a></li>
+											                                                <li>US Department of Health and Human Services. Definitions of Homelessness for Federal Program Serving Children, Youth, and Families. Accessed March 23, 2026. <a href="https://acf.gov/sites/default/files/documents/ecd/homelessness_definition.pdf" target="_blank" rel="noopener">https://acf.gov/sites/default/files/documents/ecd/homelessness_definition.pdf</a></li>
+											                                                <li>de Sousa T, Henry M. <em>The 2024 Annual Homelessness Assessment Report (AHAR) to Congress</em>. US Department of Housing and Urban Development, Office of Community Planning and Development. Published December 2024. Accessed January 7, 2026. <a href="https://www.huduser.gov/portal/sites/default/files/pdf/2024-AHAR-Part-1.pd" target="_blank" rel="noopener">https://www.huduser.gov/portal/sites/default/files/pdf/2024-AHAR-Part-1.pd</a>f</li>
+											                                                <li>Perl L. <em>In Focus: CRS Product IF12985 — Housing; Social Welfare; Veterans</em>. Congressional Research Service; 2025. Accessed January 7, 2026. <a href="https://www.congress.gov/crs-product/IF12985" target="_blank" rel="noopener">https://www.congress.gov/crs-product/IF12985</a></li>
+											                                                <li>What Is Homelessness in America? National Alliance to end homelessness. Accessed January 7, 2026. <a href="https://endhomelessness.org/overview/#what_causes_homelessness" target="_blank" rel="noopener">https://endhomelessness.org/overview/#what_causes_homelessness</a></li>
+											                                                <li>Canoso JJ. Homelessness: cause and effects. <em>Clin Rheumatol</em>. 2021;40(1):1–2.</li>
+											                                                <li>Colburn G, Aldern CP. <em>Homelessness is a housing problem: How structural factors explain U.S. patterns</em>. University of California Press; 2022.</li>
+											                                                <li>Harati R, Emmanuel D, Renzi K, et al The gap: a shortage of affordable homes. <em>National Low Income Housing Coalition</em>. 2025. Accessed December 26, 2025. <a href="https://nlihc.org/gap" target="_blank" rel="noopener">https://nlihc.org/gap</a></li>
+											                                                <li>What causes homelessness: a shortage of affordable housing. <em>Natl Alliance End Homelessness</em>. Accessed December 30, 2025. <a href="https://endhomelessness.org/a-shortage-of-affordable-housing/" target="_blank" rel="noopener">https://endhomelessness.org/a-shortage-of-affordable-housing/</a></li>
+											                                                <li>Hargrave AS, Knight KR, Dhatt ZK, et al. The impact of intimate partner violence on homelessness and returns to housing: a qualitative analysis from the California statewide study of people experiencing homelessness. <em>J Interpers Violence</em>. 2025;40(5-6):1248–1270. <a href="https://doi.org/10.1177/08862605241259006">CrossRef</a></li>
+											                                                <li>Moschion J, van Ours J. Do childhood experiences of parental separation lead to homelessness?. <em>Eur Econ Rev</em>. 2019;111:211–236.</li>
+											                                                <li>Moschion J, Johnson G. Homelessness and incarceration: a reciprocal relationship?. <em>J Quant Criminol</em>. 2019;35:855–887.</li>
+											                                                <li>Fowler PJ, Marcal KE, Zhang J, et al. Homelessness and aging out of foster care: a national comparison of child welfare-involved adolescents. <em>Child Youth Serv Rev</em>. 2017;77:27–33. <a href="https://doi.org/10.1016/j.childyouth.2017.03.017">CrossRef</a></li>
+											                                                <li>Koh KA, D’Olympia J, Hooshyar D, et al. Pathways into homelessness and perspectives on prevention: a qualitative study of army veterans. <em>PLoS One</em>. 2026;21(3):e0342060.</li>
+											                                                <li>Chang DC, Rieb L, Nosova E, et al. Hospitalization among street-involved youth who use illicit drugs in Vancouver, Canada: a longitudinal analysis. <em>Harm Reduct J</em>. 2018;15(1):14. <a href="https://pubmed.ncbi.nlm.nih.gov/29558943/">PubMed</a> <a href="https://doi.org/10.1186/s12954-018-0223-0">CrossRef</a></li>
+											                                                <li>Garcia C, Doran K, Kushel M. Homelessness and health: factors, evidence, innovations that work, and policy recommendations. <em>Health Aff (Millwood)</em>. 2024;43(2):164–171. <a href="https://doi.org/10.1377/hlthaff.2023.01049">CrossRef</a></li>
+											                                                <li>Kushel M, Moore T, Birkmeyer J, et al. <em>Toward a New Understanding: The California Statewide Study of People Experiencing Homelessness</em>. UCSF Benioff Homelessness and Housing Initiative; 2023. Accessed January 10, 2026.  <a href="https://homelessness.ucsf.edu/sites/default/files/2023-06/CASPEH_Report_62023.pdf" target="_blank" rel="noopener">https://homelessness.ucsf.edu/sites/default/files/2023-06/CASPEH_Report_62023.pdf</a></li>
+											                                                <li>Treglia D, Johns EL, Schretzman M, et al. When crises converge: hospital visits before and after shelter use among homeless New Yorkers. <em>Health Aff (Millwood)</em>. 2019;38(9):1458–1467. <a href="https://pubmed.ncbi.nlm.nih.gov/31479375/">PubMed</a> <a href="https://doi.org/10.1377/hlthaff.2018.05308">CrossRef</a></li>
+											                                                <li>Homelessness data &amp; trends. United States Interagency Council on homelessness. Accessed December 27, 2025. <a href="https://www.usich.gov/guidance-reports-data/data-trends" target="_blank" rel="noopener">https://www.usich.gov/guidance-reports-data/data-trends</a></li>
+											                                                <li>Brown RT, Evans JL, Valle K, et al. Factors associated with mortality among homeless older adults in California: the HOPE HOME Study. <em>JAMA Intern Med</em>. 2022;182(10):1052–1060.</li>
+											                                                <li>Stone B, Dowling S, Cameron A. Cognitive impairment and homelessness: a scoping review. <em>Health Soc Care Community</em>. 2019;27(4):e125–e142.</li>
+											                                                <li>Fraser B, Pierse N, Chisholm E, et al. LGBTIQ+ homelessness: a review of the literature. <em>Int J Environ Res Public Health</em>. 2019;16(15):2677.</li>
+											                                                <li>Barry R, Anderson J, Tran L, et al. Prevalence of mental health disorders among individuals experiencing homelessness: a systematic review and meta-analysis. <em>JAMA Psychiatry</em>. 2024 Jul 1;81(7):691–699.</li>
+											                                                <li>Lewczyk J. Homelessness and first-episode psychosis: an integrative review. <em>J Am Psychiatr Nurses Assoc</em>. 2025;31(4):349–361.</li>
+											                                                <li>Darden Restaurants. Fighting hunger. Accessed January 3, 2026. <a href="https://www.darden.com/our-impact/communities/giving-back/fighting-hunger" target="_blank" rel="noopener">https://www.darden.com/our-impact/communities/giving-back/fighting-hunger</a></li>
+											                                                <li>Richards J, Kuhn R. Unsheltered homelessness and health: a literature review. <em>AJPM Focus</em>. 2022;2(1):100043. <a href="https://pubmed.ncbi.nlm.nih.gov/37789936/">PubMed</a></li>
+											                                                <li>Stulz V, Francis L, Naidu A, et al. Women escaping domestic violence to achieve safe housing: an integrative review. <em>BMC Womens Health</em>. 2024;24(1):314. <a href="https://pubmed.ncbi.nlm.nih.gov/38822284/">PubMed</a></li>
+											                                                <li>Family and Youth Services Bureau. <em>Runaway and homeless youth. Administration for Children and Families</em>, US Department of Health and Human Services. 2025. Accessed January 3, 2026. <a href="https://acf.gov/fysb/programs/runaway-homeless-youth" target="_blank" rel="noopener">https://acf.gov/fysb/programs/runaway-homeless-youth</a></li>
+											                                                <li>US Department of Veterans Affairs. <em>VA Homeless Veterans</em>. Last updated November 18, 2025. Accessed January 10, 2026. <a href="https://www.va.gov/homeless/" target="_blank" rel="noopener">https://www.va.gov/homeless/</a></li>
+											                                                <li>Mahmood Z, Vella L, Maye JE, et al. Rates of cognitive and functional impairments among sheltered adults experiencing homelessness. <em>Psychiatr Serv</em>. 2021;72(3):333–337. <a href="https://pubmed.ncbi.nlm.nih.gov/33397143/">PubMed</a></li>
+											                                                <li>Liu M, Luong L, Lachaud J, et al. Adverse childhood experiences and related outcomes among adults experiencing homelessness: a systematic review and meta-analysis. <em>Lancet Public Health</em>. 2021;6(11):e836–e847. <a href="https://pubmed.ncbi.nlm.nih.gov/34599894/">PubMed</a></li>
+											                                                <li>Aisbey BO, Marjadi B, Conroy E. Surviving against the odds: a qualitative exploration of the resilience of adults experiencing homelessness in Accra, Ghana. <em>BMC Public Health</em>. 2025;25:3520. <a href="https://pubmed.ncbi.nlm.nih.gov/41107864/">PubMed</a></li>
+											                                                <li>Phipps M, Dalton L, Maxwell H, et al. A qualitative exploration of women’s resilience in the face of homelessness. <em>Community Psychol</em>. 2021;49(5):1212–1227.</li>
+											                                                <li>Hird R, Radhakrishnan R, Tsai J. A systematic review of approaches to improve medication adherence in homeless adults with psychiatric disorders. <em>Front Psychiatry</em>. 2023;14:1339801. <a href="https://pubmed.ncbi.nlm.nih.gov/38260790/">PubMed</a></li>
+											                                                <li>Lanham JS, White P, Gaffney B. Care of people experiencing homelessness. <em>Am Fam Physician</em>. 2022;106(6):684–693. <a href="https://pubmed.ncbi.nlm.nih.gov/36521466/">PubMed</a></li>
+											                                                <li>Fields JD, Assaf RD, Nguyen KH, et al. Health care access and use among adults experiencing homelessness. <em>JAMA Health Forum</em>. 2025;6(5):e250820. <a href="https://doi.org/10.1001/jamahealthforum.2025.0820">CrossRef</a></li>
+											                                                <li>Koh KA, Reilly EC. Street Psychiatry: a clinical approach. <em>Psychiatr Serv</em>. 2026;77(3):261–264. <a href="https://pubmed.ncbi.nlm.nih.gov/41408538/">PubMed</a></li>
+											                                                <li>Justice Center. The Council for state governments. Planning, implementing and Assessing. In: <em>Law Enforcement Responses to Homelessness</em>. Accessed March 23, 2026. <a href="https://csgjusticecenter.org/wp-content/uploads/2025/08/JC_Brief_PolicingHomelessness_508-revised.pdf" target="_blank" rel="noopener">https://csgjusticecenter.org/wp-content/uploads/2025/08/JC_Brief_PolicingHomelessness_508-revised.pdf</a></li>
+											                                                <li>Bolen SD, Lever J, Mundorf C, et al. The impact of a bidirectional clinic to community social care referral program. <em>Med Care</em>. 2025;63(6):449–457. <a href="https://pubmed.ncbi.nlm.nih.gov/40266648/">PubMed</a></li>
+											                                                <li>Koh KA, Baggett TP, De Las Nueces D, et al. Telehealth for patients experiencing homelessness: an unexpected opportunity. <em>JAMA Intern Med</em>. 2025:2837196.</li>
+											                                                <li>Baxter AJ, Tweed EJ, Katikireddi SV, et al. Effects of housing first approaches on health and well-being of adults who are homeless or at risk of homelessness. <em>J Epidemiol Community Health</em>. 2019;73(5):379–387. <a href="https://pubmed.ncbi.nlm.nih.gov/30777888/">PubMed</a></li>
+											                                                <li>Stergiopoulos V, Gozdzik A, Misir V, et al. Effectiveness of housing first with intensive case management in an ethnically diverse sample of homeless adults with mental illness: a randomized controlled trial. <em>PLoS One</em>. 2015;10(7):e0130281. <a href="https://pubmed.ncbi.nlm.nih.gov/26176621/">PubMed</a></li>
+											                                        </ol>
+                                    </div>
+								
+								                            </div>
+						
+                                                        <section class="article-authors-block authors-block">
+                                    <h2 class="section-heading">About the Authors</h2>
+                                                                        <ul class="list">
+                                                                                                                                <li class="item">
+                                                <a class="card" href="/author/sofia-e-matta/">
+                                                    <div class="photo" style="background-image: url('https://www.psychiatrist.com/wp-content/themes/psych/assets/images/icons/generic-headshot.png');"></div>
+                                                    <div class="info">
+                                                        <div class="name">Sofia E. Matta, MD</div>
+                                                                                                                                                                                    <div class="affiliation">Massachusetts General Hospital/Harvard Medical School, Boston, Massachusetts</div>
+                                                                                                                                                                            <div class="text-link">View full profile</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                                                                                                                <li class="item">
+                                                <a class="card" href="/author/luis-velez-figueroa/">
+                                                    <div class="photo" style="background-image: url('https://www.psychiatrist.com/wp-content/themes/psych/assets/images/icons/generic-headshot.png');"></div>
+                                                    <div class="info">
+                                                        <div class="name">Luis Velez Figueroa, MD</div>
+                                                                                                                                                                                    <div class="affiliation">University of Connecticut, Storrs, Connecticut</div>
+                                                                                                                                                                            <div class="text-link">View full profile</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                                                                                                                <li class="item">
+                                                <a class="card" href="/author/margarita-bobonis-babilonia/">
+                                                    <div class="photo" style="background-image: url('https://www.psychiatrist.com/wp-content/themes/psych/assets/images/icons/generic-headshot.png');"></div>
+                                                    <div class="info">
+                                                        <div class="name">Margarita Bobonis-Babilonia, MD</div>
+                                                                                                                                                                                    <div class="affiliation">James A. Haley Veterans Administration Hospital, Tampa, Florida</div>
+                                                                                                                                                                            <div class="text-link">View full profile</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                                                                                                                <li class="item">
+                                                <a class="card" href="/author/andrea-c-desimone/">
+                                                    <div class="photo" style="background-image: url('https://www.psychiatrist.com/wp-content/themes/psych/assets/images/icons/generic-headshot.png');"></div>
+                                                    <div class="info">
+                                                        <div class="name">Andrea C. DeSimone, DO</div>
+                                                                                                                                                                                    <div class="affiliation">Bayhealth Medical Center in Dover, Delaware</div>
+                                                                                                                                                                            <div class="text-link">View full profile</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                                                                                                                <li class="item">
+                                                <a class="card" href="/author/lynne-d-boone/">
+                                                    <div class="photo" style="background-image: url('https://www.psychiatrist.com/wp-content/themes/psych/assets/images/icons/generic-headshot.png');"></div>
+                                                    <div class="info">
+                                                        <div class="name">Lynne D. Boone, MD</div>
+                                                                                                                                                                                    <div class="affiliation">Harry S. Truman Veteran’s Administration Hospital, Columbia, Missouri</div>
+                                                                                                                            <div class="affiliation">Department of Psychiatry, University of Missouri Medical School, Columbia, Missouri</div>
+                                                                                                                                                                            <div class="text-link">View full profile</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                                                                                                                <li class="item">
+                                                <a class="card" href="/author/katherine-a-koh/">
+                                                    <div class="photo" style="background-image: url('https://www.psychiatrist.com/wp-content/themes/psych/assets/images/icons/generic-headshot.png');"></div>
+                                                    <div class="info">
+                                                        <div class="name">Katherine A. Koh, MD, MSc</div>
+                                                                                                                                                                                    <div class="affiliation">Massachusetts General Hospital/Harvard Medical School, Boston, Massachusetts</div>
+                                                                                                                            <div class="affiliation">Boston Health Care for the Homeless Program, Boston, Massachusetts</div>
+                                                                                                                                                                            <div class="text-link">View full profile</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                                                                                                                <li class="item">
+                                                <a class="card" href="/author/theodore-a-stern/">
+                                                    <div class="photo" style="background-image: url('https://www.psychiatrist.com/wp-content/uploads/2025/01/PCC_Stern.jpg');"></div>
+                                                    <div class="info">
+                                                        <div class="name">Theodore A. Stern, MD</div>
+                                                                                                                                                                                    <div class="affiliation">Massachusetts General Hospital/Harvard Medical School, Boston, Massachusetts</div>
+                                                                                                                            <div class="affiliation">Corresponding Author: Theodore A. Stern, MD, Massachusetts General Hospital/ Harvard Medical School, Boston, Massachusetts (<span class="__cf_email__" data-cfemail="e195929584938fa18c8689cf89809397809385cf848594">[email&#160;protected]</span>).</div>
+                                                                                                                                                                            <div class="text-link">View full profile</div>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                                                            </ul>
+                                </section>
+                            
+                    </div>
+
+                    <div class="right"
+                         data-article-type=""
+                         data-article-type-slug=""
+                         data-post-id="230925"
+                         data-post-title="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care">
+                        <div class="rail-sticky-duo">
+
+								
+                        <div class="subscription-panel">
+							                                <div class="pdf-section">
+									<a class="btn pdf purchase track-button" data-event-category="pdf download click" data-event-action="purchase" data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care PDF" data-event-value="user type: anon" href="/pdf/homelessness-and-housing-insecurity-challenges-and-opportunities-to-improve-care-pdf">Buy PDF for $40</a><p class="italics">Please <a href="/login/">sign in</a> or purchase this PDF for $40.</p>                                </div>
+							
+                            <div class="actions">
+								
+<button type="button"
+        class="toggle-article track-button"
+        data-post-id="230925"
+        data-user-id=""
+        data-logged-in="false"
+        data-saved="false"
+        data-event-category="save article click"
+        data-event-action="save"
+        data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care"
+        data-event-value="user type: anon"
+        data-rail-label="Save Article"
+        data-rail-type="action">
+    <img src="/wp-content/themes/psych/assets/images/icons/bookmark-white.svg" alt="" aria-hidden="true">
+    <span class="tag">Save</span>
+</button>
+                                <button type="button"
+                                        class="share-article track-button"
+                                        data-event-category="share article click"
+                                        data-event-action="share"
+                                        data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care"
+                                        data-event-value="user type: anon"
+                                        data-rail-label="Share"
+                                        data-rail-type="action"
+                                        onclick="showSocialShareModal()">
+                                    <img src="/wp-content/themes/psych/assets/images/icons/share.svg" alt="" aria-hidden="true">
+                                    <span class="tag">Share</span>
+                                </button>
+
+                                
+                                    <button type="button"
+                                            class="cite-article track-button"
+                                            data-event-category="cite article click"
+                                            data-event-action="cite"
+                                            data-event-label="Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care"
+                                            data-event-value="user type: anon"
+                                            data-rail-label="Cite"
+                                            data-rail-type="action"
+                                            onclick="showCitationModal()">
+                                        <img src="/wp-content/themes/psych/assets/images/icons/quote.svg" alt="" aria-hidden="true">
+                                        <span class="tag">Cite</span>
+                                    </button>
+                                                            </div>
+							
+							                        </div>
+
+                        
+                                                
+                        <div id="related-articles-sidebar">
+									<div class="block advertisement-container ad-square-or-rectangle hide-on-mobile">
+			<div class="wrapper">
+				<div id="sidebar-bottom" class="gam-ad-slot"></div>
+			</div>
+		</div>
+	                        </div>
+                        </div><!-- .rail-sticky-duo -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+                            <section  class="block current-issue bg-primary"  >
+            <div class="site-container">
+                <div class="image-container">
+					                        <a href="/pcc/archive/2026/28/4/" aria-label="Go to the current issue">
+							<img width="373" height="499" src="https://www.psychiatrist.com/wp-content/uploads/2026/09/Cover1_PCC_28-4-600x803.png" class="attachment-373x0 size-373x0" alt="The Primary Care Companion cover with articles on screen time, gaming disorder, and NMDA receptor antagonists" decoding="async" loading="lazy" srcset="https://www.psychiatrist.com/wp-content/uploads/2026/09/Cover1_PCC_28-4-600x803.png 600w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Cover1_PCC_28-4-224x300.png 224w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Cover1_PCC_28-4-765x1024.png 765w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Cover1_PCC_28-4-768x1028.png 768w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Cover1_PCC_28-4-1148x1536.png 1148w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Cover1_PCC_28-4-1530x2048.png 1530w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Cover1_PCC_28-4-scaled.png 1913w" sizes="auto, (max-width: 373px) 100vw, 373px" />                        </a>
+					                </div>
+
+                <div class="content-container">
+                    <p class="brow">Vol 28 • 2026 • Number 4</p>
+                    <h2>Read the <nobr><i>Current Issue</i></nobr></h2>
+
+                    <div class="article-container">
+						                                <a class="mini-article-card" href="https://www.psychiatrist.com/pcc/children-borderline-iq-parent-mediated-screen-time-usage-module/">
+                                    <p class="brow">Original Research</p>
+                                    <h3>Reducing Screen Time in Children With Borderline IQ</h3>
+                                </a>
+								                                <a class="mini-article-card" href="https://www.psychiatrist.com/pcc/health-care-providers-internet-gaming-disorder/">
+                                    <p class="brow">Original Research</p>
+                                    <h3>Clinical Perspectives on Internet Gaming Disorder</h3>
+                                </a>
+								                                <a class="mini-article-card" href="https://www.psychiatrist.com/pcc/comorbid-cardiovascular-disease-ptsd-older-us-veterans/">
+                                    <p class="brow">Original Research</p>
+                                    <h3>Cardiovascular Disease and PTSD in Older Veterans</h3>
+                                </a>
+								                                <a class="mini-article-card" href="https://www.psychiatrist.com/pcc/nmda-receptor-antagonists-pediatric-autism/">
+                                    <p class="brow">Systematic Review</p>
+                                    <h3>NMDA Receptor Antagonists in Pediatric Autism</h3>
+                                </a>
+								                                <a class="mini-article-card" href="https://www.psychiatrist.com/pcc/generative-artificial-intelligence-mental-health-primary-care-providers/">
+                                    <p class="brow">Rounds in the General Hospital</p>
+                                    <h3>Generative AI in Mental Health</h3>
+                                </a>
+								                                <a class="mini-article-card" href="https://www.psychiatrist.com/pcc/combining-clozapine-xanomeline-trospium-chloride-catatonia/">
+                                    <p class="brow">Rounds in the General Hospital</p>
+                                    <h3>Clozapine, Xanomeline-Trospium, and Catatonia</h3>
+                                </a>
+								                    </div>
+
+                    <div class="button-container">
+                        <a class="btn" href="/pcc/archive/2026/28/4/">View current Issue</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+	                
+        <section id="related-articles-type">
+            <div class="site-container">
+                <h2><i>Related</i> Articles</h2>
+                <div class="related-articles">
+                    <div class="article-card ">
+    <div class="article-card-wrapper">
+        <div class="image-container">
+			                <div class="journal-label"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="41" viewBox="0 0 68 41">
+  <g id="PCC_bubble" transform="translate(-890.553 -325)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="68" height="41" rx="20.5" transform="translate(890.553 325)" fill="#a4ddf1"/>
+    <text id="PCC" transform="translate(907.777 350.5)" fill="#0b1c32" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">PCC</tspan></text>
+  </g>
+</svg>
+</div>
+						
+			                <a href="https://www.psychiatrist.com/pcc/patient-perspectives-long-acting-injectable-psychiatric-hospitalization/">
+                    <img src="https://www.psychiatrist.com/wp-content/uploads/2023/06/EHR-veteran.jpg" alt="Inpatient Perspectives on LAIs">
+                </a>
+			
+        </div>
+
+        <div class="content-container">
+			                <a class="brow article-type" href="https://www.psychiatrist.com/article-type/original-research/">Original Research</a>
+						
+            <a href="https://www.psychiatrist.com/pcc/patient-perspectives-long-acting-injectable-psychiatric-hospitalization/" class="headline-wrapper">
+                <h3>Inpatient Perspectives on LAIs</h3>
+            </a>
+
+            <p class="published">
+				                September 24, 2026</p>
+			
+			                        <a href="https://www.psychiatrist.com/pcc/patient-perspectives-long-acting-injectable-psychiatric-hospitalization/">
+                        <div class="excerpt">In this pilot sample, patient perspectives on LAI medications during psychiatric hospitalization were heterogeneous and characterized by substantial openness and uncertainty rather than fixed resistance.</div>
+                    </a>
+                
+            <div class="authors">
+            
+        <a rel="author" class="author" href="/author/tanya-alim/">Tanya Alim</a>, 
+        <a rel="author" class="author" href="/author/allea-frazier/">Allea Frazier</a>, 
+        <a rel="author" class="author" href="/author/michelle-brooks/">Michelle Brooks</a>, et al            </div>
+           
+
+        </div>
+    </div>
+</div><div class="article-card ">
+    <div class="article-card-wrapper">
+        <div class="image-container">
+			                <div class="journal-label"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="41" viewBox="0 0 68 41">
+  <g id="PCC_bubble" transform="translate(-890.553 -325)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="68" height="41" rx="20.5" transform="translate(890.553 325)" fill="#a4ddf1"/>
+    <text id="PCC" transform="translate(907.777 350.5)" fill="#0b1c32" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">PCC</tspan></text>
+  </g>
+</svg>
+</div>
+						
+			                <a href="https://www.psychiatrist.com/pcc/practicing-resource-limited-siloed-settings/">
+                    <img src="https://www.psychiatrist.com/wp-content/uploads/2026/04/JCP_Catatonia_Decision_Making-scaled.jpg" alt="Practicing in Siloed Settings">
+                </a>
+			
+        </div>
+
+        <div class="content-container">
+			                <a class="brow article-type" href="https://www.psychiatrist.com/article-type/rounds-in-the-general-hospital/">Rounds in the General Hospital</a>
+						
+            <a href="https://www.psychiatrist.com/pcc/practicing-resource-limited-siloed-settings/" class="headline-wrapper">
+                <h3>Practicing in Siloed Settings</h3>
+            </a>
+
+            <p class="published">
+				                September 22, 2026</p>
+			
+			                        <a href="https://www.psychiatrist.com/pcc/practicing-resource-limited-siloed-settings/">
+                        <div class="excerpt">Effective countermeasures against isolation and burnout include peer support programs, small-group physician meetings, professional coaching, and informal consultation networks.</div>
+                    </a>
+                
+            <div class="authors">
+            
+        <a rel="author" class="author" href="/author/sofia-e-matta/">Sofia E. Matta</a>, 
+        <a rel="author" class="author" href="/author/julian-j-raffoul/">Julian J. Raffoul</a>, 
+        <a rel="author" class="author" href="/author/lynne-boone/">Lynne Boone</a>, et al            </div>
+           
+
+        </div>
+    </div>
+</div><div class="article-card ">
+    <div class="article-card-wrapper">
+        <div class="image-container">
+			                <div class="journal-label"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="41" viewBox="0 0 68 41">
+  <g id="PCC_bubble" transform="translate(-890.553 -325)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="68" height="41" rx="20.5" transform="translate(890.553 325)" fill="#a4ddf1"/>
+    <text id="PCC" transform="translate(907.777 350.5)" fill="#0b1c32" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">PCC</tspan></text>
+  </g>
+</svg>
+</div>
+						
+			                <a href="https://www.psychiatrist.com/pcc/reactions-coping-medical-errors-disfigurement-loss-function/">
+                    <img src="https://www.psychiatrist.com/wp-content/uploads/2026/09/PCC_Loss-of-Function.jpg" alt="When Medical Mistakes Leave Lasting Damage">
+                </a>
+			
+        </div>
+
+        <div class="content-container">
+			                <a class="brow article-type" href="https://www.psychiatrist.com/article-type/rounds-in-the-general-hospital/">Rounds in the General Hospital</a>
+						
+            <a href="https://www.psychiatrist.com/pcc/reactions-coping-medical-errors-disfigurement-loss-function/" class="headline-wrapper">
+                <h3>When Medical Mistakes Leave Lasting Damage</h3>
+            </a>
+
+            <p class="published">
+				                September 8, 2026</p>
+			
+			                        <a href="https://www.psychiatrist.com/pcc/reactions-coping-medical-errors-disfigurement-loss-function/">
+                        <div class="excerpt">After a medical error, tone and nonverbal cues matter; clinicians should give patients ample time to ask questions.</div>
+                    </a>
+                
+            <div class="authors">
+            
+        <a rel="author" class="author" href="/author/daniel-powell/">Daniel Powell</a>, 
+        <a rel="author" class="author" href="/author/david-wilkerson/">David Wilkerson</a>, 
+        <a rel="author" class="author" href="/author/gregg-robbins-welty/">Gregg Robbins-Welty</a>, et al            </div>
+           
+
+        </div>
+    </div>
+</div>                </div>
+            </div>
+                                
+        </section>
+    </main>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/json" id="psych-figures-data">{"figures":[{"index":1,"href":"https:\/\/www.psychiatrist.com\/wp-content\/uploads\/2026\/08\/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1.png","src":"https:\/\/www.psychiatrist.com\/wp-content\/uploads\/2026\/08\/homelessness-housing-insecurity-challenges-opportunities-improve-care-PCC-t1.png","caption":"Table listing resources to aid clinical care amid housing insecurity","post_id":230923}],"is_logged_in":false,"login_url":"https:\/\/www.psychiatrist.com\/login\/?redirect_to=https%3A%2F%2Fwww.psychiatrist.com%2Fpcc%2Fhomelessness-housing-insecurity-challenges-opportunities-improve-care%2F","register_url":"https:\/\/www.psychiatrist.com\/register\/","zip_nonce":"97a51815d9","zip_url":"https:\/\/www.psychiatrist.com\/wp-json\/psych\/v1\/figures\/zip","post_id":"230925"}</script>
+
+
+
+
+<div class="footer internal-promo">
+    <div class="site-container">
+        <div class="content-container">
+			                <h2><i>Insightful.</i> Evidence-based. Human-centered.</h2>
+			
+                            <a class="text-link track-button" href="/jcp/ep22-regulatory-maze-ketamine-psychedelics-benjamin-brody/" data-event-category="homepage_footer_promo" data-event-action="click" data-event-label="/jcp/ep22-regulatory-maze-ketamine-psychedelics-benjamin-brody/">Listen Now</a>
+                    </div>
+		
+		            <a href="/jcp/ep22-regulatory-maze-ketamine-psychedelics-benjamin-brody/">
+                <img width="671" height="447" src="https://www.psychiatrist.com/wp-content/uploads/2026/09/Benjamin-Brody_1200x800-768x512.jpg" class="internal-promo-img track-button" alt="The Journal of Clinical Psychiatry podcast cover with Benjamin Brody, MD" sizes="auto, (max-width: 1200px) 100vw, 671px" data-event-category="homepage_footer_promo" data-event-action="click" data-event-label="/jcp/ep22-regulatory-maze-ketamine-psychedelics-benjamin-brody/" decoding="async" loading="lazy" srcset="https://www.psychiatrist.com/wp-content/uploads/2026/09/Benjamin-Brody_1200x800-768x512.jpg 768w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Benjamin-Brody_1200x800-300x200.jpg 300w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Benjamin-Brody_1200x800-1024x683.jpg 1024w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Benjamin-Brody_1200x800-600x400.jpg 600w, https://www.psychiatrist.com/wp-content/uploads/2026/09/Benjamin-Brody_1200x800.jpg 1200w" />            </a>
+		    </div>
+</div>
+    <div class="footer subscribe site-container">
+        <div class="content-container">
+            <h2>Subscribe <i>to read</i><br />more articles</h2>
+            <a class="btn" href="/pricing/">Subscribe</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="site-container">
+            <div class="main-footer">
+                <div class="wrap">
+                    <div class="left-area">
+                        <div class="full-width">
+                            <div class="footer-logo">
+                            <svg id="psych-white-footer" xmlns="http://www.w3.org/2000/svg" width="359" height="60.444" viewBox="0 0 359 60.444">
+                                <path id="Path_1" data-name="Path 1" d="M354.8,298.857V264.706c0-2.72-1.39-3.868-4.594-4.231v-.725h18.5c8.523,0,14.02,4.11,14.02,11.182S376.561,282.6,364.535,282.6h-3.687v16.259c0,2.72,1.511,3.868,4.775,4.171v.725H350.21v-.725c3.2-.363,4.594-1.511,4.594-4.171Zm9.308-17.347c8.4,0,11.968-2.6,11.968-10.036,0-6.951-3.748-10.7-8.4-10.7h-2.236c-3.083,0-4.594,1.148-4.594,3.929v16.8h3.264Z" transform="translate(-350.21 -256.544)" fill="#fff"/>
+                                <path id="Path_2" data-name="Path 2" d="M479.68,338.91v-8.523h.6c1.934,6.286,6.1,10.036,10.457,10.036,3.324,0,5.319-1.874,5.319-5.077,0-6.951-15.836-9.852-15.836-18.194,0-4.292,3.2-7.253,9.308-7.253,2.78,0,7.132.967,8.885,2.116l-.846,7.676h-.6c-1.874-6.1-5.138-8.885-8.22-8.885a3.633,3.633,0,0,0-3.808,3.989c0,6.347,15.474,9.248,15.474,18.375,0,4.412-3.687,8.16-10.276,8.16-4.412,0-8.764-1.148-10.457-2.418Z" transform="translate(-445.655 -293.514)" fill="#fff"/>
+                                <path id="Path_3" data-name="Path 3" d="M561.78,351.955a2.642,2.642,0,0,1,2.66-2.9c2.3,0,3.324,2.478,5.379,2.478,1.934,0,4.412-3.748,7.011-9.792l-10.759-25.81a4.813,4.813,0,0,0-4.05-3.022v-.725h14.083v.725c-3.083.484-4.231,1.572-3.445,3.687l7.072,18.68c2.478-6.168,4.956-11.3,6.891-17.773.665-2.3-.181-3.926-3.385-4.594v-.725h10.517v.665c-2.176.423-3.869,1.753-5.44,5.259-2.72,6.1-5.621,12.756-8.4,19.463-4.654,11.182-8.643,18.073-13.9,18.073a3.962,3.962,0,0,1-4.231-3.687Z" transform="translate(-506.179 -295.195)" fill="#fff"/>
+                                <path id="Path_4" data-name="Path 4" d="M677.45,324.994c0-9.734,6.1-15.114,13.237-15.114s11.243,3.324,11.243,6.649a2.767,2.767,0,0,1-2.781,3.022c-4.533,0-2.478-8.764-8.825-8.764-4.171,0-6.951,4.775-6.951,13.177,0,9.55,4.473,14.144,9.913,14.144a9.829,9.829,0,0,0,7.979-4.05l.544.363a11.662,11.662,0,0,1-11,6.891c-7.616,0-13.358-5.742-13.358-16.32Z" transform="translate(-591.451 -293.5)" fill="#fff"/>
+                                <path id="Path_5" data-name="Path 5" d="M792.07,267.016a7.276,7.276,0,0,0-6.528,3.748V290.77c0,1.572,1.508,2.962,4.171,3.264v.725h-13.6v-.725c2.6-.363,3.989-1.753,3.989-3.264V254.322c0-1.511-.907-2.6-3.989-3.143v-.725l8.885-2.9.3.3v22.062a10.634,10.634,0,0,1,9.188-5.984c5.8,0,9.19,2.841,9.19,11.182v15.655c0,1.572,1.511,2.962,4.171,3.264v.725h-13.6v-.725c2.6-.363,3.989-1.753,3.989-3.264v-13.6c0-8.281-1.995-10.155-6.165-10.155Z" transform="translate(-664.184 -247.55)" fill="#fff"/>
+                                <path id="Path_6" data-name="Path 6" d="M905.2,303.155v-19.04c0-1.511-.907-2.962-3.989-3.143v-.725l8.764-4.05.665.423v26.535c0,1.572,1.511,2.962,4.17,3.264v.725h-13.6v-.725C903.809,306.056,905.2,304.666,905.2,303.155Zm2.357-38.8a3.506,3.506,0,1,1-3.506,3.506A3.548,3.548,0,0,1,907.557,264.35Z" transform="translate(-756.407 -259.935)" fill="#fff"/>
+                                <path id="Path_7" data-name="Path 7" d="M976.858,336.045a12.684,12.684,0,0,1-10.094,5.259,5.659,5.659,0,0,1-5.984-5.923c0-4.05,2.418-7.193,15.776-11.424l.058-4.473c.182-6.347-1.571-8.7-4.352-8.7-3.385,0-4.05,2.72-4.9,5.863-.907,3.322-2.478,4.11-3.687,4.11s-2.237-1.209-2.237-2.9c0-3.929,5.259-7.981,11.666-7.981,6.044,0,9.127,2.115,8.946,8.764-.061,3.2-.182,7.072-.121,11.3.058,7.495.484,8.4,2.055,8.4a2.029,2.029,0,0,0,1.692-.846l.665.3c-.967,2.176-2.237,3.2-4.654,3.2s-4.11-1.209-4.835-4.956Zm-6.168,2.176a7.8,7.8,0,0,0,6.044-3.264,25.342,25.342,0,0,1-.242-3.929l.06-6.1c-7.679,2.418-9.973,4.9-9.973,8.583C966.58,336.408,968.031,338.221,970.69,338.221Z" transform="translate(-800.322 -293.492)" fill="#fff"/>
+                                <path id="Path_8" data-name="Path 8" d="M1060.481,311.17V291.345h-2.9v-.6a25.465,25.465,0,0,0,7.676-8.22l.665.181v7.676c1.934,0,6.165-.121,7.979-.121v1.33c-1.39,0-5.863-.242-7.979-.242v17.771c0,6.951,1.813,8.885,4.9,8.885a5.141,5.141,0,0,0,3.324-1.269l.544.544a7.673,7.673,0,0,1-6.709,3.868C1063.685,321.144,1060.481,318.968,1060.481,311.17Z" transform="translate(-871.684 -273.33)" fill="#fff"/>
+                                <path id="Path_9" data-name="Path 9" d="M1131.012,336.388V317.65c0-2.72-1.269-4.352-3.99-4.352v-.725l8.644-3.143.665.423v6.528c2.78-3.687,6.407-6.83,9.127-6.83s4.533,1.269,4.533,3.508a2.749,2.749,0,0,1-2.962,2.78c-1.995,0-2.6-1.511-5.44-1.511-1.693,0-3.566,1.33-5.138,3.264v18.8c0,1.572,1.509,2.962,4.171,3.264v.725h-13.6v-.725c2.6-.363,3.989-1.753,3.989-3.264Z" transform="translate(-922.875 -293.168)" fill="#fff"/>
+                                <path id="Path_10" data-name="Path 10" d="M1224,303.155v-19.04c0-1.511-.907-2.962-3.989-3.143v-.725l8.764-4.05.665.423v26.535c0,1.572,1.508,2.962,4.17,3.264v.725h-13.6v-.725c2.6-.363,3.989-1.753,3.989-3.264Zm2.357-38.8a3.506,3.506,0,1,1-3.506,3.506A3.548,3.548,0,0,1,1226.359,264.35Z" transform="translate(-991.427 -259.935)" fill="#fff"/>
+                                <path id="Path_11" data-name="Path 11" d="M1281.04,338.91v-8.523h.6c1.934,6.286,6.1,10.036,10.457,10.036,3.324,0,5.319-1.874,5.319-5.077,0-6.951-15.836-9.852-15.836-18.194,0-4.292,3.2-7.253,9.308-7.253,2.78,0,7.132.967,8.885,2.116l-.846,7.676h-.6c-1.874-6.1-5.137-8.885-8.22-8.885a3.633,3.633,0,0,0-3.808,3.989c0,6.347,15.474,9.248,15.474,18.375,0,4.412-3.687,8.16-10.275,8.16-4.412,0-8.764-1.148-10.457-2.418Z" transform="translate(-1036.418 -293.514)" fill="#fff"/>
+                                <path id="Path_12" data-name="Path 12" d="M1370.951,311.17V291.345h-2.9v-.6a25.472,25.472,0,0,0,7.677-8.22l.665.181v7.676c1.934,0,6.165-.121,7.979-.121v1.33c-1.39,0-5.863-.242-7.979-.242v17.771c0,6.951,1.813,8.885,4.9,8.885a5.141,5.141,0,0,0,3.324-1.269l.544.544a7.674,7.674,0,0,1-6.709,3.868C1374.155,321.144,1370.951,318.968,1370.951,311.17Z" transform="translate(-1100.562 -273.33)" fill="#fff"/>
+                                <path id="Path_13" data-name="Path 13" d="M1448.11,413.394a2.433,2.433,0,1,1,2.433,2.434A2.455,2.455,0,0,1,1448.11,413.394Z" transform="translate(-1159.583 -368.016)" fill="#fff"/>
+                                <path id="Path_14" data-name="Path 14" d="M1474.76,365.722c0-5.939,3.724-9.222,8.078-9.222s6.859,2.029,6.859,4.058a1.69,1.69,0,0,1-1.7,1.845c-2.767,0-1.514-5.348-5.385-5.348-2.544,0-4.242,2.914-4.242,8.042,0,5.829,2.731,8.63,6.047,8.63a6,6,0,0,0,4.87-2.47l.331.221a7.116,7.116,0,0,1-6.712,4.2c-4.649,0-8.152-3.5-8.152-9.958Z" transform="translate(-1179.229 -327.868)" fill="#fff"/>
+                                <path id="Path_15" data-name="Path 15" d="M1537.06,366.276c0-5.9,3.1-9.776,8.41-9.776s8.3,3.8,8.3,9.516-3.025,9.663-8.263,9.663-8.446-3.8-8.446-9.406Zm8.741,8.851c2.951,0,4.352-3.653,4.352-8.667,0-5.571-1.585-9.406-4.906-9.406-3.1,0-4.573,3.653-4.573,8.888S1542.334,375.127,1545.8,375.127Z" transform="translate(-1225.156 -327.868)" fill="#fff"/>
+                                <path id="Path_16" data-name="Path 16" d="M1625.8,358.175a4.056,4.056,0,0,0-3.687,2.694c.037.665.074,1.474.074,2.25v9.553c0,.959.922,1.808,2.544,1.992v.444h-8.3v-.444c1.585-.221,2.434-1.07,2.434-1.992v-8.3c0-5.054-1.217-6.2-3.393-6.2a4.081,4.081,0,0,0-3.614,2.47v12.026c0,.959.922,1.808,2.544,1.992v.444h-8.3v-.444c1.585-.221,2.434-1.07,2.434-1.992V361.237c0-1.661-.773-2.654-2.434-2.654v-.444l5.274-1.918.4.258v3.209l.037.074a6.266,6.266,0,0,1,5.127-3.466,4.58,4.58,0,0,1,4.943,3.984,6.387,6.387,0,0,1,5.385-3.984c3.172,0,5.238,1.734,5.238,6.825v9.553c0,.959.922,1.808,2.544,1.992v.444h-8.3v-.444c1.585-.221,2.433-1.07,2.433-1.992v-8.3c0-5.054-1.217-6.2-3.4-6.2Z" transform="translate(-1276.053 -327.662)" fill="#fff"/>
+                            </svg>
+                            </div>
+                            <div class="footer-text">
+                                The Journal of Clinical Psychiatry<br />
+                                The Primary Care Companion for CNS Disorders
+                            </div>
+                        </div>
+                        <div class="full-width">
+                            <section class="footerwidget elsewhere">
+                                <h3>ELSEWHERE:</h3>
+                                <ul>
+                                    <li><a href="/about">ABOUT</a></li>
+                                    <li><a href="/information-for-advertisers/">ADVERTISERS</a></li>
+                                    <li><a href="/media-relations/">MEDIA RELATIONS</a></li>
+                                    <li><a href="/reprints-and-permissions/">REPRINTS & PERMISSIONS</a></li>
+                                    <li><a href="/contact-us/">CONTACT US</a></li>
+                                    <li><a href="/customer-service/">CUSTOMER SUPPORT</a></li>
+                                </ul>
+                            </section>
+    
+                            <section class="footerwidget follow">
+                                <h3>FOLLOW US:</h3>
+                                <ul>
+                                    <li><a href="https://x.com/psychiatristcns">X</a></li>
+                                    <li><a href="https://www.facebook.com/PsychiatristCNS">FACEBOOK</a></li>
+                                    <li><a href="https://www.instagram.com/clinicalpsychiatrist/">INSTAGRAM</a></li>
+                                    <li><a href="https://www.linkedin.com/company/the-journal-of-clinical-psychiatry/">LINKEDIN</a></li>
+                                    <li><a href="https://www.threads.net/@clinicalpsychiatrist">THREADS</a></li>
+                                    <li><a href="https://bsky.app/profile/psychiatristcns.bsky.social">BLUESKY</a></li>
+                                </ul>
+                            </section>
+    
+                            <section class="footerwidget subscribe">
+                                <ul class="lastLink">
+                                    <li><a class="redirect-link"  href="/login/">SIGN IN</a></li><br />
+                                    <li><a class="redirect-link" href="/register/essentials/">JOIN THE EMAIL LIST</a></li>
+                                </ul><br /><br />
+                                <div class="subscribe-wrap">
+                                    <a class="redirect-link"  href="/login/" class="subscribe-btn">SUBSCRIBE NOW</a>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+    
+                    <div class="right-area">
+                        <img src="/wp-content/themes/psych/assets/images/logos/mark-footer.png" alt="An image of the Psychiatrist.com logo mark"/>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="bottom-footer">
+                <div class="wrap">
+                    <div class="leftside">
+                        <center>
+                            <ul class="navfooter">
+                                <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                                <li><a href="/terms-of-use/">Terms of Use</a></li>
+                                <li>Physicians Postgraduate Press, Inc.</li>
+                                <li>JCP ISSN: Online 1555-2101, Print 0160-6689</li>
+                                <li>PCC ISSN: Online 2155-7780, Print 2155-7772</li>
+                                <li>MedFair.com US Patent No. 684794</li>
+                                <li><nobr>© Copyright 2026 | Physicians Postgraduate Press, Inc. | LifeLong Learning For Clinicians</nobr></li>
+                                <li><a href="/sitemap_index.xml/">Sitemap</a></li>
+                            </ul>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+            <div id="footer-ad-container" class="block advertisement-container ad-banner">
+            <div class="wrapper">
+                <div id="static-footer" class="gam-ad-slot" data-ad-name="static-footer" data-ad-type="banner" data-ad-position="static-footer">
+                    <script>googletag.cmd = googletag.cmd || []; googletag.cmd.push(function(){ googletag.display("static-footer"); });</script>
+                </div>
+                <button class="ad-dismiss" aria-label="Dismiss advertisement">×</button>
+            </div>
+        </div>
+    
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/psych/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script type="text/javascript">
+            // Wait for Klaviyo to load, then add custom properties
+            document.addEventListener('DOMContentLoaded', function() {
+                // Add custom properties to Klaviyo tracking
+                if (typeof klaviyo !== 'undefined') {
+                    // Method A: Set custom properties on the profile
+                    klaviyo.identify({
+                        '$email': '',
+                        // Add page-specific properties
+						                        'page_therapeutics': ["Patient Care","Veterans and Military Issues"],
+						                        'primary_therapeutic': "Patient Care",
+						                        'page_topics': ["Patient Care","Veterans and Military Issues"],
+						                        'page_topics_count': 2,
+						                        'page_id': "230925",
+						                        'page_author': "TNQ Technologies",
+						                        'page_publish_date': "2026-08-13T04:00:22-05:00",
+						                        'journal': "PCC",
+						                        'last_page_view': '2026-09-29T14:36:43-05:00'
+                    });
+
+                    // Method B: Track a custom event with page categories
+                    klaviyo.track('Viewed Content', {
+                        'page_title': 'Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care',
+                        'page_url': 'https://www.psychiatrist.com/pcc/homelessness-housing-insecurity-challenges-opportunities-improve-care/',
+                        'page_type': 'post',
+						                        'page_therapeutics': ["Patient Care","Veterans and Military Issues"],
+						                        'primary_therapeutic': "Patient Care",
+						                        'page_topics': ["Patient Care","Veterans and Military Issues"],
+						                        'page_topics_count': 2,
+						                        'page_id': "230925",
+						                        'page_author': "TNQ Technologies",
+						                        'page_publish_date': "2026-08-13T04:00:22-05:00",
+						                        'journal': "PCC",
+						                        'timestamp': '2026-09-29T14:36:43-05:00'
+                    });
+                }
+            });
+		</script>
+			<script>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script id="sub-nav-js-extra">
+var ajax = {"url":"https://www.psychiatrist.com/wp-admin/admin-ajax.php","nonce":"b6a5772ce7","user":{"isLoggedIn":false,"user_type":"anon","membership_level":null,"subscribed_lists":[]},"klaviyo_lists":[0,1,2,3,4,5]};
+//# sourceURL=sub-nav-js-extra
+</script>
+<script id="sub-nav-js" src="https://www.psychiatrist.com/wp-content/themes/psych/dist/js/blocks/sub-nav.js?ver=1787770869"></script>
+<script id="sourcebuster-js-js" src="https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.0.1"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https://www.psychiatrist.com/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+</script>
+<script id="wc-order-attribution-js" src="https://www.psychiatrist.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.0.1"></script>
+<script id="globals.min-js-extra">
+var psych_ajax = {"url":"https://www.psychiatrist.com/wp-admin/admin-ajax.php","nonce":"b6a5772ce7","assets":{"spinner":"/wp-content/themes/psych/assets/images/spinner.gif","checkmark_white":"/wp-content/themes/psych/assets/images/icons/check-white.svg","checkmark_tertiary":"/wp-content/themes/psych/assets/images/icons/check-tertiary.svg","share":"/wp-content/themes/psych/assets/images/icons/share.svg","quote":"/wp-content/themes/psych/assets/images/icons/quote.svg","bookmark":"/wp-content/themes/psych/assets/images/icons/bookmark-white.svg","bookmark_tertiary":"/wp-content/themes/psych/assets/images/icons/bookmark-tertiary.svg"}};
+//# sourceURL=globals.min-js-extra
+</script>
+<script id="globals.min-js" src="https://www.psychiatrist.com/wp-content/themes/psych/dist/js/globals.min.js?ver=1787770869"></script>
+<script id="article.min-js-extra">
+var psych_ajax = {"url":"https://www.psychiatrist.com/wp-admin/admin-ajax.php","nonce":"b6a5772ce7","assets":{"spinner":"/wp-content/themes/psych/assets/images/spinner.gif","checkmark_white":"/wp-content/themes/psych/assets/images/icons/check-white.svg","checkmark_tertiary":"/wp-content/themes/psych/assets/images/icons/check-tertiary.svg","share":"/wp-content/themes/psych/assets/images/icons/share.svg","quote":"/wp-content/themes/psych/assets/images/icons/quote.svg","bookmark":"/wp-content/themes/psych/assets/images/icons/bookmark-white.svg","bookmark_tertiary":"/wp-content/themes/psych/assets/images/icons/bookmark-tertiary.svg"}};
+//# sourceURL=article.min-js-extra
+</script>
+<script id="article.min-js" src="https://www.psychiatrist.com/wp-content/themes/psych/dist/js/article.min.js?ver=1789076489"></script>
+<script id="advertisement-js-extra">
+var ajax = {"url":"https://www.psychiatrist.com/wp-admin/admin-ajax.php","nonce":"b6a5772ce7","user":{"isLoggedIn":false,"user_type":"anon","membership_level":null,"subscribed_lists":[]},"klaviyo_lists":[0,1,2,3,4,5]};
+var block = {"obj":"{\"terms\":[],\"dynamic_ads\":[{\"advertisement_gam_id\":\"sidebar-bottom\",\"ad_class\":\"gam-ad-slot\",\"mobile_hide_on\":true,\"mobile_max_width\":\"874\",\"desktop_hide_on\":null,\"desktop_min_width\":null,\"div_id\":\"sidebar-bottom\",\"type\":\"square-or-rectangle\",\"slot_targeting\":{\"position\":null,\"type\":\"square-or-rectangle\"}}],\"config\":{\"ad-banner\":{\"type\":\"Banner\",\"slug\":\"ad-banner\",\"sizes\":{\"small-banner\":{\"label\":\"Small Banner\",\"slug\":\"small-banner\",\"size\":{\"width\":320,\"height\":50}},\"medium-banner\":{\"label\":\"Medium Banner\",\"slug\":\"medium-banner\",\"size\":{\"width\":728,\"height\":90}}}},\"ad-square\":{\"type\":\"Square\",\"slug\":\"ad-square\",\"sizes\":{\"square\":{\"label\":\"Square\",\"slug\":\"square\",\"size\":{\"width\":300,\"height\":250}}}},\"ad-banner-square\":{\"type\":\"Banner \\/ Square (mobile \\/ desktop)\",\"slug\":\"ad-banner-square\",\"sizes\":{\"banner-square\":{\"label\":\"Banner \\/ Square (mobile \\/ desktop)\",\"slug\":\"banner-square\",\"size\":{\"width\":300,\"height\":250}}}},\"ad-rectangle\":{\"type\":\"Rectangle\",\"slug\":\"ad-rectangle\",\"sizes\":{\"rectangle\":{\"label\":\"Rectangle\",\"slug\":\"rectangle\",\"size\":{\"width\":300,\"height\":600}}}}},\"page_targeting\":{\"page_name\":\"Homelessness and Housing Insecurity: Challenges and Opportunities to Improve Care\",\"site_section\":\"academic_article\",\"post_type\":\"post\",\"post_id\":\"230925\",\"permalink\":\"https:\\/\\/www.psychiatrist.com\\/pcc\\/homelessness-housing-insecurity-challenges-opportunities-improve-care\\/\",\"categories\":[\"patient-care\",\"veterans-health\",\"rounds-in-the-general-hospital\"],\"journal\":\"pcc\"},\"page_ads\":[]}"};
+//# sourceURL=advertisement-js-extra
+</script>
+<script id="advertisement-js" src="https://www.psychiatrist.com/wp-content/themes/psych/dist/js/blocks/advertisement.js?ver=1787770869"></script>
+
+    <script>
+		window.userContext = {
+					isLoggedIn: false,
+					hasEmail: false,
+					userType: 'anon'
+				};    </script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"9d7dbec51e75401cb34d90f6e0ce5f14","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a42d70325ae9639c',t:'MTc5MDcxMDYwMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+

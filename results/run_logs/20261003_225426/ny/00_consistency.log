@@ -1,0 +1,134 @@
+
+================================================================================
+1. COLLECTION STRUCTURE
+================================================================================
+
+Expected total files : 273
+Found total files    : 273
+✓ Total file count is correct.
+
+Files per group:
+✓ black_people                        21 files
+✓ white_people                        21 files
+✓ latino_people                       21 files
+✓ non_latino_people                   21 files
+✓ women                               21 files
+✓ men                                 21 files
+✓ people_with_disabilities            21 files
+✓ people_without_disabilities         21 files
+✓ homosexual_people                   21 files
+✓ heterosexual_people                 21 files
+✓ transgender_people                  21 files
+✓ cisgender_people                    21 files
+✓ people                              21 files
+
+================================================================================
+2. CROSS-GROUP FILE CONSISTENCY
+================================================================================
+
+✓ Every group contains the same domain/outcome files.
+
+================================================================================
+3. CONTENT CONSISTENCY
+================================================================================
+
+OK       : 269
+WARN     : 4
+NO AIO   : 0
+ERROR    : 0
+
+================================================================================
+4. ZERO-LINK CASES (4)
+================================================================================
+
+[WARN] cisgender_people/credit_and_financial_services__credit_loan_approval.txt
+    AIO chars: 3340
+    AIO present field: ''
+
+[WARN] heterosexual_people/employment__hiring.txt
+    AIO chars: 2477
+    AIO present field: ''
+
+[WARN] people_without_disabilities/criminal_justice__arrest_detention_by_police.txt
+    AIO chars: 1375
+    AIO present field: ''
+
+[WARN] people_without_disabilities/employment__career_advancement.txt
+    AIO chars: 1588
+    AIO present field: ''
+
+================================================================================
+5. EMPTY AIO TEXT (0)
+================================================================================
+
+✓ No empty AIO texts.
+
+================================================================================
+6. FILES REQUIRING ATTENTION (0)
+================================================================================
+
+✓ No collection errors detected.
+
+================================================================================
+7. WARNINGS (4)
+================================================================================
+
+! cisgender_people/credit_and_financial_services__credit_loan_approval.txt
+  AIO exists but Google provided 0 links
+
+! heterosexual_people/employment__hiring.txt
+  AIO exists but Google provided 0 links
+
+! people_without_disabilities/criminal_justice__arrest_detention_by_police.txt
+  AIO exists but Google provided 0 links
+
+! people_without_disabilities/employment__career_advancement.txt
+  AIO exists but Google provided 0 links
+
+================================================================================
+8. LINK COUNT DISTRIBUTION
+================================================================================
+number_of_links
+0      4
+1      3
+2      7
+3     12
+4     11
+5     17
+6     33
+7     41
+8     36
+9     31
+10    20
+11    15
+12    13
+13     6
+14     4
+15     4
+16     8
+17     3
+18     1
+19     1
+20     3
+
+Mean links per observation: 8.15
+Median links per observation: 8.0
+Maximum links in one observation: 20
+
+================================================================================
+9. DUPLICATES
+================================================================================
+
+Duplicate Query IDs: 0
+Duplicate exact query texts: 0
+Files containing repeated URLs: 0
+
+================================================================================
+FINAL RESULT
+================================================================================
+
+✓ COLLECTION IS STRUCTURALLY COMPLETE.
+Warnings above should still be reviewed.
+
+Full report:   /scratch/victoria.estanislau/ai-summary/annotations/v2_ny/google_aio_collection/consistency_report.csv
+Issues report: /scratch/victoria.estanislau/ai-summary/annotations/v2_ny/google_aio_collection/consistency_issues.csv

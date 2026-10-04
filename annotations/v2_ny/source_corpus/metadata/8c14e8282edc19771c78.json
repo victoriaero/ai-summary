@@ -1,0 +1,16 @@
+{
+  "source_id": "8c14e8282edc19771c78",
+  "normalized_url": "https://spero.academy/news/01gg8h7ys8dqvya21rbs5gxkrk/bullying-in-special-education-what-it-is-and-how-to-help",
+  "fetch_timestamp_utc": "2026-10-04T02:43:44.814046+00:00",
+  "registrable_domain": "spero.academy",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 60,
+  "http_status": 0,
+  "final_url": "https://spero.academy/news/01gg8h7ys8dqvya21rbs5gxkrk/bullying-in-special-education-what-it-is-and-how-to-help",
+  "content_type": "",
+  "error": "curl: (60) SSL: no alternative certificate subject name matches target host name 'spero.academy'\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

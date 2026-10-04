@@ -1,0 +1,28 @@
+{
+  "source_id": "43baddc9a3adb4f406b4",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4764796",
+  "fetch_timestamp_utc": "2026-10-04T03:35:34.869493+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4764796/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 219267,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/43baddc9a3adb4f406b4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/43baddc9a3adb4f406b4.txt",
+  "text_chars": 46159,
+  "text_words": 7043,
+  "extraction_status": "success",
+  "page_title": "Bullying Victimization among School-Aged Immigrant Youth in the United States",
+  "page_author": "Brandy R Maynard; Michael G Vaughn; Christopher P Salas-Wright; Sharon R Vaughn",
+  "page_date": "2023-08-12",
+  "site_name": "The Journal of adolescent health : official publication of the Society for Adolescent Medicine",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4764796/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "2c03a46630219fb22868",
+  "normalized_url": "https://emerald.com/jsm/article-split/39/5/531/1254237/Unveiling-barriers-and-opportunities-for-LGBTQIA",
+  "fetch_timestamp_utc": "2026-10-04T03:33:55.653265+00:00",
+  "registrable_domain": "emerald.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.emerald.com/jsm/article-split/39/5/531/1254237/Unveiling-barriers-and-opportunities-for-LGBTQIA",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5910,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

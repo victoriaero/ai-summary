@@ -1,0 +1,28 @@
+{
+  "source_id": "8dd648368634b56c910d",
+  "normalized_url": "https://evidencebasedliving.human.cornell.edu/blog/what-we-know-about-trans-youth-and-bullying",
+  "fetch_timestamp_utc": "2026-10-04T02:43:53.542735+00:00",
+  "registrable_domain": "cornell.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://evidencebasedliving.human.cornell.edu/blog/what-we-know-about-trans-youth-and-bullying/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 70747,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/8dd648368634b56c910d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/8dd648368634b56c910d.txt",
+  "text_chars": 4031,
+  "text_words": 599,
+  "extraction_status": "success",
+  "page_title": "Leave a Reply Cancel reply",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "evidencebasedliving.human.cornell.edu",
+  "canonical_url": "https://evidencebasedliving.human.cornell.edu/blog/what-we-know-about-trans-youth-and-bullying/"
+}

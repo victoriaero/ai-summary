@@ -1,0 +1,20 @@
+{
+  "source_id": "fb8b1f823b432a9f612a",
+  "normalized_url": "https://scholars.org/brief/how-federal-government-policies-have-helped-women-earn-college-degrees",
+  "fetch_timestamp_utc": "2026-10-04T02:52:17.901387+00:00",
+  "registrable_domain": "scholars.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://scholars.org/brief/how-federal-government-policies-have-helped-women-earn-college-degrees",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5844,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

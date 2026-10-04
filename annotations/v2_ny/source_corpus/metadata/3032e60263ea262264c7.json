@@ -1,0 +1,28 @@
+{
+  "source_id": "3032e60263ea262264c7",
+  "normalized_url": "https://hispanicresearchcenter.org/research-resources/highlights-decade-research-supports-economic-self-sufficiency-latino-families-children?print=print",
+  "fetch_timestamp_utc": "2026-10-04T02:36:20.551202+00:00",
+  "registrable_domain": "hispanicresearchcenter.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hispanicresearchcenter.org/research-resources/highlights-decade-research-supports-economic-self-sufficiency-latino-families-children?print=print",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 173472,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3032e60263ea262264c7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3032e60263ea262264c7.txt",
+  "text_chars": 15452,
+  "text_words": 2191,
+  "extraction_status": "success",
+  "page_title": "Highlights From a Decade of the Center’s Research on Supports for Economic Self-sufficiency Among Latino Families With Children",
+  "page_author": "Author",
+  "page_date": "2025-03-20",
+  "site_name": "hispanicresearchcenter.org",
+  "canonical_url": "https://www.hispanicresearchcenter.org/research-resources/highlights-decade-research-supports-economic-self-sufficiency-latino-families-children?print=print"
+}

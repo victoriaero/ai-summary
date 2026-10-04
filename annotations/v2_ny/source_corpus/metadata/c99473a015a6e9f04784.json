@@ -1,0 +1,28 @@
+{
+  "source_id": "c99473a015a6e9f04784",
+  "normalized_url": "https://youtube.com/watch?t=339s&v=hC0ZgtIKe48",
+  "fetch_timestamp_utc": "2026-10-04T02:48:34.449806+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=339s&v=hC0ZgtIKe48",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1285232,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c99473a015a6e9f04784.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c99473a015a6e9f04784.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Why Black Neighborhoods Have More Police Than Others",
+  "page_author": null,
+  "page_date": "2020-12-16",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=hC0ZgtIKe48"
+}

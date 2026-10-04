@@ -1,0 +1,28 @@
+{
+  "source_id": "78d086521ed6af3cc131",
+  "normalized_url": "https://disabilityadvice.org/ssdi/approval-process/approval-by-age",
+  "fetch_timestamp_utc": "2026-10-04T02:42:16.469864+00:00",
+  "registrable_domain": "disabilityadvice.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://disabilityadvice.org/ssdi/approval-process/approval-by-age/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 630258,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/78d086521ed6af3cc131.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/78d086521ed6af3cc131.txt",
+  "text_chars": 7306,
+  "text_words": 1162,
+  "extraction_status": "success",
+  "page_title": "SSDI Approval Rates by Age (2025 Update) - Disability Advice",
+  "page_author": null,
+  "page_date": "2025-10-06",
+  "site_name": "Disability Advice",
+  "canonical_url": "https://disabilityadvice.org/ssdi/approval-process/approval-by-age/"
+}

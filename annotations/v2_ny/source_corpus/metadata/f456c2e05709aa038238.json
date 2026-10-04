@@ -1,0 +1,20 @@
+{
+  "source_id": "f456c2e05709aa038238",
+  "normalized_url": "https://repositories.lib.utexas.edu/items/17ba30b4-025e-4d71-af1c-6f1d988445d1",
+  "fetch_timestamp_utc": "2026-10-04T02:51:48.895146+00:00",
+  "registrable_domain": "utexas.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://repositories.lib.utexas.edu/items/17ba30b4-025e-4d71-af1c-6f1d988445d1",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 919,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

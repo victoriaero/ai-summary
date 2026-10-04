@@ -1,0 +1,28 @@
+{
+  "source_id": "1498feb07652571de5fc",
+  "normalized_url": "https://nationalhomeless.org/homelessness-in-the-us",
+  "fetch_timestamp_utc": "2026-10-04T02:34:11.915866+00:00",
+  "registrable_domain": "nationalhomeless.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nationalhomeless.org/homelessness-in-the-us/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 117832,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1498feb07652571de5fc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1498feb07652571de5fc.txt",
+  "text_chars": 3393,
+  "text_words": 528,
+  "extraction_status": "success",
+  "page_title": "Homelessness in the US - National Coalition for the Homeless",
+  "page_author": null,
+  "page_date": "2022-12-26",
+  "site_name": "National Coalition for the Homeless - Building a movement to End Homelessness",
+  "canonical_url": "https://nationalhomeless.org/homelessness-in-the-us/"
+}

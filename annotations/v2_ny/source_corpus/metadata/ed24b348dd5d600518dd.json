@@ -1,0 +1,28 @@
+{
+  "source_id": "ed24b348dd5d600518dd",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9707003",
+  "fetch_timestamp_utc": "2026-10-04T02:51:25.339211+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9707003/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 245168,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ed24b348dd5d600518dd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ed24b348dd5d600518dd.txt",
+  "text_chars": 68432,
+  "text_words": 10053,
+  "extraction_status": "success",
+  "page_title": "Policing sexuality: Sexual minority youth, police contact, and health inequity",
+  "page_author": "Gabriel L Schwartz; Jaquelyn L Jahn; Amanda Geller",
+  "page_date": "2022-11-17",
+  "site_name": "SSM - Population Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9707003/"
+}

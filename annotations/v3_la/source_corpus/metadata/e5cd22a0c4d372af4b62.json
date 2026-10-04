@@ -1,0 +1,20 @@
+{
+  "source_id": "e5cd22a0c4d372af4b62",
+  "normalized_url": "https://aeaweb.org/forum/2421/factors-affecting-household-access-banking-services-issues",
+  "fetch_timestamp_utc": "2026-10-04T03:48:01.656428+00:00",
+  "registrable_domain": "aeaweb.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 500,
+  "final_url": "https://www.aeaweb.org/cgi-bin/php82.cgi/forum/index.php?qa-rewrite=2421/factors-affecting-household-access-banking-services-issues",
+  "headers": {
+    "Content-Type": "text/html; charset=iso-8859-1"
+  },
+  "content_type": "text/html; charset=iso-8859-1",
+  "downloaded_bytes": 570,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

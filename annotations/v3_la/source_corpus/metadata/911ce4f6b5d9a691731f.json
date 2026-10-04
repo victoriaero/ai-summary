@@ -1,0 +1,28 @@
+{
+  "source_id": "911ce4f6b5d9a691731f",
+  "normalized_url": "https://bcm.edu/research/research-centers/center-for-research-on-women-with-disabilities/a-to-z-directory/health-care/health-insurance",
+  "fetch_timestamp_utc": "2026-10-04T03:41:41.871978+00:00",
+  "registrable_domain": "bcm.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.bcm.edu/research/research-centers/center-for-research-on-women-with-disabilities/a-to-z-directory/health-care/health-insurance",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 320240,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/911ce4f6b5d9a691731f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/911ce4f6b5d9a691731f.txt",
+  "text_chars": 4100,
+  "text_words": 612,
+  "extraction_status": "success",
+  "page_title": "Health Insurance and Women with Disabilities",
+  "page_author": null,
+  "page_date": "2026-09-01",
+  "site_name": "Baylor College of Medicine",
+  "canonical_url": "https://www.bcm.edu/research/research-centers/center-for-research-on-women-with-disabilities/a-to-z-directory/health-care/health-insurance"
+}

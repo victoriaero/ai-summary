@@ -1,0 +1,28 @@
+{
+  "source_id": "a9f3d565f7ef7ef5596d",
+  "normalized_url": "https://pathward.com/news/the-five-cs-of-credit",
+  "fetch_timestamp_utc": "2026-10-04T02:46:21.343934+00:00",
+  "registrable_domain": "pathward.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.pathward.com/news/the-five-cs-of-credit",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 101137,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a9f3d565f7ef7ef5596d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a9f3d565f7ef7ef5596d.txt",
+  "text_chars": 547,
+  "text_words": 91,
+  "extraction_status": "success",
+  "page_title": "The 5 C's of Credit: What A Lender Looks For",
+  "page_author": null,
+  "page_date": "2025-06-25",
+  "site_name": "The 5 Cs Of Credit Banks Consider When You Apply For A Loan | Pathward",
+  "canonical_url": "https://www.pathward.com/news/the-five-cs-of-credit/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "830390aa4c6cb5fd2725",
+  "normalized_url": "https://justice.gov/ovw/media/1443986/dl",
+  "fetch_timestamp_utc": "2026-10-04T03:40:41.221982+00:00",
+  "registrable_domain": "justice.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.justice.gov/ovw/media/1443986/dl",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 387715,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/830390aa4c6cb5fd2725.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/830390aa4c6cb5fd2725.txt",
+  "text_chars": 19196,
+  "text_words": 2667,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

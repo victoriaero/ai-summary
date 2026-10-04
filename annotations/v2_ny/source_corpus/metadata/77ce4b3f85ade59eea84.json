@@ -1,0 +1,28 @@
+{
+  "source_id": "77ce4b3f85ade59eea84",
+  "normalized_url": "https://hispanicresearchcenter.org/research-resources/state-tanf-policies-practices-overview-administrative-burdens-latino-families",
+  "fetch_timestamp_utc": "2026-10-04T02:42:10.744187+00:00",
+  "registrable_domain": "hispanicresearchcenter.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hispanicresearchcenter.org/research-resources/state-tanf-policies-practices-overview-administrative-burdens-latino-families/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 324048,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/77ce4b3f85ade59eea84.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/77ce4b3f85ade59eea84.txt",
+  "text_chars": 36493,
+  "text_words": 5319,
+  "extraction_status": "success",
+  "page_title": "State TANF Policies and Practices, Administrative Burdens, and Latino Families - Hispanic Research Center",
+  "page_author": "Authors",
+  "page_date": "2025-05-07",
+  "site_name": "Hispanic Research Center",
+  "canonical_url": "https://www.hispanicresearchcenter.org/research-resources/state-tanf-policies-practices-overview-administrative-burdens-latino-families/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "13c8dd3dfb30bd964e02",
+  "normalized_url": "https://theatlantavoice.com/education/black-students-bullied-more-than-other-races-according-to-u-s-department-of-education-report-fd0bbab4",
+  "fetch_timestamp_utc": "2026-10-04T03:32:13.615928+00:00",
+  "registrable_domain": "theatlantavoice.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.theatlantavoice.com/education/black-students-bullied-more-than-other-races-according-to-u-s-department-of-education-report-fd0bbab4",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 919,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

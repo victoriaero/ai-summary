@@ -1,0 +1,28 @@
+{
+  "source_id": "5d1471f5d8020140a98c",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9565787",
+  "fetch_timestamp_utc": "2026-10-04T02:39:59.292834+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9565787/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 198363,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5d1471f5d8020140a98c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5d1471f5d8020140a98c.txt",
+  "text_chars": 41388,
+  "text_words": 5962,
+  "extraction_status": "success",
+  "page_title": "Access and Participation of Students with Disabilities: The Challenge for Higher Education",
+  "page_author": "José María Fernández-Batanero; Marta Montenegro-Rueda; José Fernández-Cerero",
+  "page_date": "2022-09-21",
+  "site_name": "International Journal of Environmental Research and Public Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9565787/"
+}

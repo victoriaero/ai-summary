@@ -1,0 +1,28 @@
+{
+  "source_id": "e8e4f30441bc3743c7b9",
+  "normalized_url": "https://nefe.org/news/2022/06/lgbtqia-discrimination-in-financial-services.aspx",
+  "fetch_timestamp_utc": "2026-10-04T02:51:04.194245+00:00",
+  "registrable_domain": "nefe.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nefe.org/news/2022/06/lgbtqia-discrimination-in-financial-services.aspx",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 80154,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e8e4f30441bc3743c7b9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e8e4f30441bc3743c7b9.txt",
+  "text_chars": 5813,
+  "text_words": 855,
+  "extraction_status": "success",
+  "page_title": "Nearly 1 in 3 LGBTQIA+ Respondents Say They’ve Experienced Discrimination, Bias in Financial Services",
+  "page_author": "Beth Bean; Senior Vice President; Research; Policy",
+  "page_date": "2022-06-24",
+  "site_name": "NEFE_org",
+  "canonical_url": "https://www.nefe.org/news/2022/06/lgbtqia-discrimination-in-financial-services"
+}

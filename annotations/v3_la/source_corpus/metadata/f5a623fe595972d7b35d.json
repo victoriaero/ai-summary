@@ -1,0 +1,16 @@
+{
+  "source_id": "f5a623fe595972d7b35d",
+  "normalized_url": "https://sk.sagepub.com/ency/edvol/download/counseling/chpt/career-counseling-latinos.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:49:13.834071+00:00",
+  "registrable_domain": "sagepub.com",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 47,
+  "http_status": 302,
+  "final_url": "https://sso.sagepub.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DSK.Web%26redirect_uri%3Dhttps%253A%252F%252Fsk.sagepub.com%252Fsignin-oidc%252Fautologin%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520%2520profile%2520%2520institution%2520%2520cache-management-api%26code_challenge%3DumYwP16tfCOD8qM87iJznT-G_NqgV88dOytjK6tthCY%26code_challenge_method%3DS256%26nonce%3D639266825544387505.MTY5NTZjZWMtNGYzNC00ZmIwLWE2NGQtNjI0NWI3N2I2NjY4OGJkYWJkYWItYTIzOC00MDIxLTllZTctZDZmYmRhNGYyZGVm%26acr_values%3D%2520actualRedirect%253A%252Fency%252Fedvol%252Fdownload%252Fcounseling%252Fchpt%252Fcareer-counseling-latinos.pdf%26state%3DCfDJ8EdummnHKiRLptkZUqatBdk_Y4rTv5AQVt4jylxvyI8lt7rN6rJceVmTTLKDkCfvzEjuN-vpQBw1Kp1NgMQQ5e75XttPojWIus4AFYQk1K6unln_NpZy7JIce6b-E4Qw_IcLA-987Jei2NEoPcTK33xZN8kgm3C4OIpCH91VHk5abiLJQmgLsx5j4AHyLxGqMC7cnyr-A2ykzQKMKKOFDRAJmMFlI_MWUsR4YqdVKuRH1Qif7IL3M_cufoO-IAKwcV9NFLSgeK9YN1ehIapE8cWRM4GvEYsoaX1ZFI8w181X6m5u4TaII0-kh7otNBBDKPBSW4B6uDETXw62hAy_Mgn0tVna1ogilhKcm500rEyiKDDYsVYXjT5Cwu4bSg4tGrhiHaeoA14H22f-RISuf-LLEY2n4taxxoYH3mj8usScXhpIXmlHu88RzBU1iyztI7OpWzg_bRr7pCLVh0V88Qk%26x-client-SKU%3DID_NET10_0%26x-client-ver%3D8.16.0.0",
+  "content_type": "",
+  "error": "curl: (47) Maximum (50) redirects followed",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

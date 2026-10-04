@@ -1,0 +1,28 @@
+{
+  "source_id": "25d68855a05a396f341a",
+  "normalized_url": "https://preventcancer.org/news/u-s-adults-are-still-behind-on-routine-cancer-screenings-but-reasons-why-vary-by-race",
+  "fetch_timestamp_utc": "2026-10-04T02:35:46.772145+00:00",
+  "registrable_domain": "preventcancer.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://preventcancer.org/news/u-s-adults-are-still-behind-on-routine-cancer-screenings-but-reasons-why-vary-by-race/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 115032,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/25d68855a05a396f341a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/25d68855a05a396f341a.txt",
+  "text_chars": 5857,
+  "text_words": 920,
+  "extraction_status": "success",
+  "page_title": "U.S. adults are still behind on routine cancer screenings—but reasons why vary by race - Prevent Cancer Foundation",
+  "page_author": "Made",
+  "page_date": "2024-08-16",
+  "site_name": "Prevent Cancer Foundation",
+  "canonical_url": "https://preventcancer.org/news/u-s-adults-are-still-behind-on-routine-cancer-screenings-but-reasons-why-vary-by-race/"
+}

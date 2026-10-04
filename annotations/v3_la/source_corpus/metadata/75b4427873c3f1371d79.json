@@ -1,0 +1,28 @@
+{
+  "source_id": "75b4427873c3f1371d79",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12218944",
+  "fetch_timestamp_utc": "2026-10-04T03:39:35.886292+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12218944/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 196067,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/75b4427873c3f1371d79.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/75b4427873c3f1371d79.txt",
+  "text_chars": 56384,
+  "text_words": 8479,
+  "extraction_status": "success",
+  "page_title": "Characteristics of healthcare providers, healthcare systems, and patient strategies related to medical mistrust among black and African Americans",
+  "page_author": "Kelly W Gagnon; Katherine Quinn; Jennifer L Walsh; Yuri A Amirkhanian; Jeffrey A Kelly",
+  "page_date": "2025-07-02",
+  "site_name": "BMC Primary Care",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12218944/"
+}

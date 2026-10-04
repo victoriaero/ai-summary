@@ -1,0 +1,28 @@
+{
+  "source_id": "32071746a95da5bc9476",
+  "normalized_url": "https://ojp.gov/ncjrs/virtual-library/abstracts/investigative-detention-constitutional-constraints-police-use-force",
+  "fetch_timestamp_utc": "2026-10-04T03:34:18.814700+00:00",
+  "registrable_domain": "ojp.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/investigative-detention-constitutional-constraints-police-use-force",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 55699,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/32071746a95da5bc9476.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/32071746a95da5bc9476.txt",
+  "text_chars": 2612,
+  "text_words": 403,
+  "extraction_status": "success",
+  "page_title": "NCJRS Virtual Library",
+  "page_author": "Author J C Hall",
+  "page_date": "1996-01-01",
+  "site_name": "ojp.gov",
+  "canonical_url": "https://www.ojp.gov/ncjrs/virtual-library/abstracts/investigative-detention-constitutional-constraints-police-use-force"
+}

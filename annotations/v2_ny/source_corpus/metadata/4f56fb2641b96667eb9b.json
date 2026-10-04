@@ -1,0 +1,28 @@
+{
+  "source_id": "4f56fb2641b96667eb9b",
+  "normalized_url": "https://youtube.com/watch?t=667s&v=jSqF4hs6910",
+  "fetch_timestamp_utc": "2026-10-04T02:38:51.335962+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=667s&v=jSqF4hs6910",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1245045,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/4f56fb2641b96667eb9b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/4f56fb2641b96667eb9b.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "One in Five: Ending Mass Incarceration and its Racial Disparities",
+  "page_author": null,
+  "page_date": "2024-02-08",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=jSqF4hs6910"
+}

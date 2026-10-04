@@ -1,0 +1,433 @@
+Abstract
+Stable and adequate housing is critical to sound public health responses in the midst of a pandemic. This study explores the disproportionate impact of the COVID-19 pandemic on housing-related hardships across racial/ethnic groups in the USA as well as the extent to which these disparities are mediated by households’ broader economic circumstances, which we operationalized in terms of prepandemic liquid assets and pandemic-related income losses. Using a longitudinal national survey with more than 23,000 responses, we found that Black and Hispanic respondents were more vulnerable to housing-related hardships during the pandemic than white respondents. These impacts were particularly pronounced in low- and moderate-income households. We found that liquid assets acted as a strong mediator of the housing hardship disparities between white and Black/Hispanic households. Our findings imply that housing became less stable for minority groups as a result of the pandemic, particularly those households with limited liquid assets. Such housing-related disparities demonstrate the need for policies and practices that target support to economically marginalized groups and families of color in particular.
+Keywords: COVID-19, Race, Ethnicity, Housing, Liquid assets, Employment
+Introduction
+The COVID-19 pandemic has had unprecedented economic effects in the USA. In April 2020 alone, an estimated 20.5 million Americans lost their jobs, increasing the unemployment rate to 14.7% (Bureau of Labor Statistics, 2020). Just as COVID-19 mortality and hospitalization rates have disproportionately burdened racial and ethnic minorities (Shah et al. 2020; Townsend et al. 2020), so too have the economic effects of the pandemic. Early data show racial/ethnic disparities in unemployment during the pandemic, with Hispanic workers suffering especially high job losses (Fairlie et al. 2020; Karpman et al. 2020). Compounding these disproportionate employment impacts, racial and ethnic minorities tended to hold much lower levels of emergency savings prior to the pandemic. A recent study of nearly 1 million bank accounts found that in the years prior to the pandemic white1 account owners held roughly 2 and 3 times as much in liquid savings as Hispanic and Black account owners, respectively (Farrell et al. 2020). Thus, even as the economic and health burdens of the pandemic fell disproportionately on Black and Hispanic families, these groups were also in a worse position to withstand them financially. As economic burdens and housing hardship frequently go hand in hand, housing impacts may also have fallen unequally across racial and ethnic lines.
+This study aims to explore and explain the evolution of disparities in housing-related hardships across racial/ethnic groups over the course of the pandemic. Though researchers have examined the relationships between both race/ethnicity and socioeconomic status on housing instability (Desmond 2012; Heflin 2017; Medina et al. 2020; Niedt and Martin 2013; Pilkauskas et al. 2012), our work builds on this research by (a) examining how racial/ethnic disparities in housing instability manifest and evolve in the context of a broad-based and acute economic shock like the COVID-19 pandemic and (b) by conducting an explanatory analysis of the extent to which housing-related disparities are driven by disparities in economic circumstances.
+Leveraging a novel, national longitudinal survey conducted throughout the first year of the pandemic, we found that between May and August, 2020, non-Hispanic Black (hereafter Black) and Hispanic respondents disproportionately experienced eviction, mortgage/rent delinquency, and utility bill payment delays compared to non-Hispanic white respondents (hereafter white). These disproportionate impacts were particularly pronounced among lower-income respondents within these minority groups. In the fall of 2020, as white respondents began to increasingly experience housing instability, the gap between racial/ethnic groups narrowed. As the US economy entered the recovery stage of the pandemic due to the development and distribution of COVID-19 vaccines in early 2021, housing instability levels lowered across all racial/ethnic groups.
+Building upon empirical evidence from previous research linking racial and ethnic disparities in liquid assets, income, and employment to disparities in housing hardships, we also explore whether disparities in liquid assets and employment shocks explain the impact of the pandemic on Black and Hispanic populations. We found that prepandemic liquid asset amounts mediated the disparities in housing-related hardships between white and Black/Hispanic respondents. However, we find limited evidence that employment shocks during the pandemic explain the disproportionate impacts across racial/ethnic groups.
+Thus far, the media as well as the academia have reported racial and ethnic disparities in housing stability before and during the pandemic. However, to our knowledge, this study is the first attempt to examine a connection between racial and ethnic disparities in housing instability and financial/employment attributes during an exogenous shock. Focusing on the nationwide (and worldwide) COVID-19 pandemic, our findings add that the connection is not a local problem, but a nationwide issue of the housing market.
+The remainder of this paper is structured as follows. The first section reviews the literature on disproportionate housing-related hardships across racial/ethnic groups and presents our research questions. The second and third sections describe our data sources and empirical strategy, respectively. The fourth section includes a detailed examination of our results. We conclude with a discussion of the implications for scholars and practitioners.
+Theoretical Expectations
+Disproportionate Housing Hardships Across Racial/Ethnic Groups
+Large disparities exist in the experience of housing hardship across racial and ethnic groups. Black and Hispanic households are more likely to experience housing hardships, such as eviction (Desmond, 2012; Greenberg et al. 2016; Medina et al. 2020) and delays in mortgage, rent, and utility bill payments (Heflin, 2017) compared to white households even after controlling for education and household resources. Medina et al. (2020) used a spatial data analysis model to demonstrate that evictions were clustered in minority-dominant neighborhoods and that residents in these neighborhoods were 66% more likely to be evicted than residents of other neighborhoods. Based on the Survey of Income and Program Participation (SIPP) data, Heflin (2017) found that both Black and Hispanic respondents were more likely to fall behind on rent or mortgage payments than white respondents.
+External financial shocks generally increase housing hardship, especially for households that are already financially strapped. Financially distressed homeowners are more likely to experience foreclosure than financially nondistressed homeowners (Niedt & Martin, 2013; Pilkauskas et al. 2012). For example, Niedt and Martin (2013) found that those who reported their finances had recently worsened were approximately 1.5 times more likely to experience foreclosure than those in a comparison group, and more than half of those who had experienced foreclosure had also lost a job in the prior 2 years. At the macrolevel, Pilkauskas et al. (2012) found that a 1% increase in unemployment rate was associated with 13% and 16% increases in the probability of a rent/mortgage/utility bill payment delay and having utilities cut off, respectively.
+Recent evidence from the global financial crisis in the late 2000s suggests that Black and Hispanic households are also disproportionately vulnerable to external shocks. In an analysis of national SIPP data from 2009 to 2011, Zhang and Lerman (2019) found that in the years immediately following the Great Recession Black households were 16.5%p and Hispanic households were 9.5%p more likely to be behind on housing, utility, or other bills than white households. Black-dominant neighborhoods experienced steep property value declines during that economic crisis and relatively slow recovery compared to white-dominant neighborhoods (Raymond et al. 2016).
+Recent data identified similar patterns of racial and ethnic hardship during the COVID-19 pandemic. Based on a nationally representative sample, Lopez et al. (2020) found disproportionate impacts of the pandemic on minority groups in the first months with respect to employment, rainy day funds, and monthly bill payments. Choi and Pang (2020) used Census Pulse data to estimate delinquency rates across racial and ethnic groups and found, as of July 2020, Black and Hispanic homeowners were more than twice as likely to experience mortgage delinquency than white homeowners. Media reports also indicated that minority groups were more at risk for utility shutoffs during the pandemic (Duster, 2020; Kowalski, 2020; Tomich et al. 2020).
+Linking Racial and Ethnic Disparities in Liquid Assets, Income, and Employment to Disparities in Housing Hardships
+Racial and ethnic disparities in housing hardship reflect racial and ethnic disparities in other areas, including access to liquid assets2 and stable, high-quality jobs. Due to the legacies of codified violence and discrimination—including slavery, Jim Crow laws, and more recently redlining, racial steering, and racially biased mortgage and hiring practices—Blacks and Hispanics often live in racially and ethnically segregated neighborhoods with poor housing stock and a lack of access to quality education and job opportunities. As a result, members of these minority groups have been systematically limited from building wealth and transferring money and other assets across generations (Pattillo, 2013; Rich et al. 1993; Rothstein, 2017; Sharkey, 2013). Bayer et al. (2016) suggested that households with lower levels of savings and wealth may face an increased risk of mortgage delinquency and foreclosure during economic shocks, compounding their financial hardships. Likewise, Ren (2020) found that much of the widening in the Black–white homeownership gap during the foreclosure crisis could be explained by accounting for racial differences in liquid wealth.
+In addition to having less wealth, Black and Hispanic households are overrepresented in low-wage, less secure, and precarious jobs (Grodsky & Pager, 2001; Huffman & Cohen, 2004; McCall, 2001; Pager & Shepherd, 2008), leaving these populations continually vulnerable to economic instability. Bayer et al. (2016) found that Black and Hispanic homeowners were disproportionately exposed to surging unemployment rates, which made them more vulnerable to foreclosure. This finding is consistent with other researchers’ conclusions, who found that Black employees are frequently the “first fired” during economic downturns (Brown & Pagán, 1998; Couch & Fairlie, 2010; Freeman et al. 1973). Taken together, this research indicates that a large-scale economic shock like the COVID-19 pandemic can have far-reaching economic consequences for racial and ethnic minority households that can lead to further disparities in housing hardships within these groups.
+Theoretical Framework
+We assumed the current COVID-19 pandemic was an exogenous financial shock that has led to massive housing-related hardships among US households. Building upon the evidence of previous empirical research, we posited four hypotheses regarding the pandemic’s disproportionate impacts on housing-related hardships across racial and ethnic groups (Fig. 1):
+[Hypothesis 1] The disproportionate housing-related hardship experiences across racial/ethnic groups vary over the course of the pandemic.
+[Hypothesis 2] The disproportionate impacts of the pandemic across racial/ethnic groups are stronger among lower-income respondents.
+[Hypothesis 3] Liquid assets mediate the disproportionate impacts of the pandemic across racial/ethnic groups.
+[Hypothesis 4] Job and income losses mediate the disproportionate impacts of the pandemic across racial/ethnic groups.
+Data
+Data for this study come from the longitudinal Socioeconomic Impacts of COVID-19 Survey (SEICS), administered by the Social Policy Institute at Washington University in St. Louis (Roll et al. 2021). The five-wave longitudinal survey was distributed by a large online-panel provider at quarterly intervals between April 2020 and June 2021. Figure 2 illustrates the administration periods for each survey wave, along with reference information on COVID infections, vaccines, and key social and political events that occurred during the administration period (e.g., stimulus check disbursal).3 More than 5000 respondents from all 50 US states and Washington, D.C. completed each wave of the survey. The survey sample was developed using quota sampling techniques to ensure that the sample represented US demographic characteristics with respect to age, gender, race/ethnicity, and income.4, 5 The survey response rate was 9.6%, with 71,800 adults entering the survey. Of these respondents, 46,842 were excluded because they either failed to meet quota requirements to ensure national representativeness on the established sampling criteria, or failed quality checks embedded in the survey. After these exclusions, 24,958 completed surveys composed the sample. Additional checks on the characteristics of this sample revealed that they approximated the US population in terms of the state of residence, homeownership, and other key demographic and financial criteria. For the purposes of this study, respondents who did not provide a response to any item used in this analysis were excluded using listwise deletion. The final analytical sample comprised 22,939 white, Black, Asian/other (non-Hispanic), and Hispanic respondents.
+Methods
+Measures
+Varying definitions of housing hardship exist. Some researchers use the term to focus on a family’s lack of their own place to live (Neckerman et al. 2016) or issues with the quality of the physical dwelling (e.g., pests, leaks, broken windows, overcrowding; Eamon & Wu, 2011), whereas some use the term to denote problems in making housing-related payments (Heflin, 2017), and others use it to refer to a combination of these problems (Caswell & Zuckerman, 2018; Long, 2003). Often, conceptualizations of housing hardship that focus on housing-related payments, such as missing a rent/mortgage payment or late/skipped payment of a utility bill, are examined as one of the areas within the broader concept of material hardship (Despard et al. 2018; Gjertson, 2016; Heflin, 2016; McKernan et al. 2009). In this paper, we measure housing-related hardships (e.g., eviction and foreclosure, mortgage and rent delinquency, and utility bill payments) during the pandemic using the following survey questions:
+- [Eviction/foreclosure] In the past 3 months, was anyone in your household forced to move by a landlord or bank when you did not want to?
+- [Rent/mortgage delinquency] In the past 3 months, have you or someone in your household not paid the full amount of the rent or mortgage because you could not afford it?
+- [Utility payment delay] In the past 3 months, have you or someone in your household skipped paying a bill or paid a bill late due to not having enough money?
+To examine the relationship between race/ethnicity, income, and housing hardships, the survey asked respondents to indicate if they identified as white/Caucasian, Black/African American, Asian, Native American/Pacific Islander, or some other race. Respondents could select multiple options. The survey also asked whether a respondent considered themself Hispanic or Latino/a/x. Of the two survey questions, the one regarding Hispanic origin was dominant over the race question—those who consider themselves Hispanic or Latino/a/x were coded as Hispanic or Latino/a/x regardless of their racial identity.
+To measure income, the survey asked respondents to report their total pretax household income from all sources in 2019. This question allowed us to identify households’ income prior to any income fluctuations caused by the COVID-19 pandemic. Because the cost of living varies across geography and family size, we constructed our measure of income as a function of households’ total income in 2019, household size, and the US Department of Housing and Urban Development’s (2020) measure of area median income (AMI) at the county level. Therefore, income indicates the proportion of AMI adjusted for household size. For ease of reporting, we measured the marginal effects at 30%, 50%, 80%, 120%, and 170% of AMI to represent extremely low-income, very low-income, low-income, moderate-income, middle-income, and high-income thresholds, respectively.6
+To construct the liquid asset amount indicator, we used self-reported asset measures from the survey. Specifically, we defined liquid assets as the sum of assets held in checking accounts (or money market accounts), savings accounts, and cash (or pre-paid cards); our liquid asset measure is, therefore, the sum of assets held in these forms. We asked respondents to report the value of their liquid assets currently and the value of these assets 3 months ago. We used the retrospective liquid asset measure (e.g., liquid assets 3 months prior) to construct our liquid asset variable. To address extreme outliers, we winsorized asset amounts at the upper 99th percentile. To construct our measure of employment shocks during the pandemic, we used three survey questions: (a) “Have you lost a job or lost income as a result of the COVID-19 pandemic?”; (b) “Has your spouse lost a job or lost income as a result of the COVID-19 pandemic?”; and (c) “Has anyone else in your household lost a job or lost income as a result of the COVID-19 pandemic?”. If a respondent answered “yes” to any of these questions, they were considered to have experienced a household-level employment shock.
+In addition to the measures of race/ethnicity, income, liquid asset amount, and employment shocks during the pandemic, our empirical models accounted for housing status (whether respondents own their home with or without a mortgage or pay rent) and demographic characteristics (gender, age, marital status, educational attainment, and the number of dependents). We also include two policy variables as controls—receipt of the Economic Impact Payments offered through the CARES Act and the presence of state-level eviction moratoria.7, 8
+Empirical Model Design
+Disproportionate Housing Hardships During the Pandemic
+The housing-related hardship variables, including eviction/foreclosure risk, rent/mortgage delinquency, utility bill payment delay, and any of the three hardship experiences, are binary. Thus, we employed a set of logistic regression models as follows:
+|  | 1 | 
+where the probability of a given housing hardship for an individual ,, was a function of race/ethnicity,, income,, and the interaction of race/ethnicity and income indicators as well as a set of covariates including demographic characteristics (gender, age, marital status, number of dependents), socioeconomic attributes (educational attainment, homeownership), and the receipt of the first stimulus check. To account for the geographic heterogeneity of the economic impacts of the pandemic, each empirical model also considered geographic (division, and time (wave,) fixed effects, as well as robust standard errors. For simplicity, we report the predicted housing hardships of each combination of race/ethnicity and income.9
+Mediation Effects of Liquid Assets and Employment Shocks
+Building upon evidence from previous empirical studies, we assumed that the pandemic’s disproportionate impacts on housing hardships across racial/ethnic groups are at least partly associated with varying liquid assets of these groups. To measure the mediation impacts of liquid assets and employment shocks, we employ Buis’ (2010) model to estimate direct and indirect effects in a logit model. Using the model, we decompose the total effects of racial/ethnic attributes on housing hardships into direct (i.e., race/ethnicity to housing hardships) and indirect (i.e., race/ethnicity to liquid asset amount/employment shocks to housing hardships) effects as follows10:
+- 
+A.Mediation effect of liquid asset amount
+- 
+B.Mediation effect of employment shocks
+The indirect effect estimates the relative odds of predicted housing hardship risk of a given minority group over the counterfactual housing hardship risk of that minority group if it had the asset (or employment shock) distribution of white respondents. For example, in the first equation in model A, the denominator, , is the odds of having experienced a housing hardship for white respondents. The numerator, , is the counterfactual odds of a housing hardship experience for white respondents if they had the same distribution of assets as the group. The relative odds ratio, , represents the indirect effect of assets on the disparity in housing hardship among Black respondents compared to white respondents; if the odds ratio is greater than 1, the asset amounts positively mediate the association between race/ethnicity and housing hardship. To compute standard errors for the decomposed effects, we used a bootstrapping procedure with 999 iterations. In addition to the decomposed effects, we also estimated the size of the indirect effect relative to the total effect. All the mediation models in this study also controlled for all the covariates in the logistic models above, as well as the AMI and family size adjusted annual household income in 2019.
+To enhance the external validity of the analysis,11 we weighted our analytic sample with respect to age, gender, race and ethnicity, marital status, number of dependents, educational attainment, income, and geography (division), based on the Census Bureau’s American Community Survey (ACS) 2018 Public Use Microdata Sample (PUMS). The data analysis in this study was conducted using Stata (Version 16; StataCorp, 2019), and we used a threshold of p < 0.05 to assess statistical significance.
+Empirical Findings
+Descriptive Analysis
+Table 1 presents summary statistics on model variables for the entire sample as well as by racial/ethnic group. Overall, these findings indicate that the pandemic worsened housing problems in the USA. In August 2020, during the nationwide lockdown, 6.3% of respondents were forced to move by a bank or a landlord, 11.1% were having difficulty keeping up with their mortgage or rent payments, and 14.4% skipped paying a utility bill or paid a bill late in the prior 3 months. These measures of housing instability peaked in the fall of 2020, when 7.3%, 11.8%, and 15.2% of the respondents experienced eviction/foreclosure risk, rent/mortgage payment delay, and utility bill payment delay, respectively. Though these aspects of housing instability decreased in 2021, the levels for each were still higher than before the pandemic.12
+Table 1.
+|  | All | By race/ethnicity |  |  |  | 
+|---|---|---|---|---|---|
+|  |  | White | Black | Hispanic | Asian/other | 
+|  | (1) | (2) | (3) | (4) | (5) | 
+| Any housing hardships |  |  |  |  |  | 
+| Wave 1 | 14.8% | 13.2% | 20.5% | 17.9% | 11.8% | 
+| Wave 2 | 19.2% | 15.6% | 29.5% | 26.9% | 14.2% | 
+| Wave 3 | 20.7% | 21.6% | 21.2% | 23.6% | 8.2% | 
+| Wave 4 | 16.4% | 14.5% | 22.1% | 22.0% | 11.1% | 
+| Wave 5 | 15.0% | 12.2% | 20.8% | 23.9% | 11.4% | 
+| Eviction/foreclosure |  |  |  |  |  | 
+| Wave 1 | 3.1% | 3.2% | 1.8% | 4.2% | 1.5% | 
+| Wave 2 | 6.3% | 5.2% | 8.7% | 10.3% | 2.8% | 
+| Wave 3 | 7.3% | 7.9% | 6.1% | 8.7% | 1.5% | 
+| Wave 4 | 4.7% | 4.3% | 5.3% | 6.5% | 3.3% | 
+| Wave 5 | 4.2% | 3.5% | 5.4% | 7.5% | 2.1% | 
+| Rent/mortgage delinquency |  |  |  |  |  | 
+| Wave 1 | 7.3% | 6.6% | 9.1% | 9.4% | 5.9% | 
+| Wave 2 | 11.1% | 8.6% | 16.6% | 17.3% | 7.9% | 
+| Wave 3 | 11.8% | 12.0% | 12.8% | 14.6% | 3.3% | 
+| Wave 4 | 8.7% | 8.0% | 10.1% | 11.7% | 5.6% | 
+| Wave 5 | 9.1% | 6.9% | 12.4% | 16.4% | 6.3% | 
+| Utility bill payment delay |  |  |  |  |  | 
+| Wave 1 | 11.5% | 10.1% | 16.7% | 13.9% | 8.9% | 
+| Wave 2 | 14.4% | 12.1% | 21.3% | 19.7% | 10.7% | 
+| Wave 3 | 15.2% | 16.2% | 15.2% | 16.6% | 5.6% | 
+| Wave 4 | 12.4% | 11.4% | 16.3% | 15.4% | 8.2% | 
+| Wave 5 | 12.0% | 9.8% | 15.8% | 20.1% | 8.4% | 
+| Liquid assets |  |  |  |  |  | 
+| Wave 1 | $24,862.2 | $27,596.4 | $14,371.0 | $19,631.5 | $31,005.9 | 
+| Wave 2 | $24,282.3 | $27,841.4 | $12,120.3 | $17,863.4 | $29,865.7 | 
+| Wave 3 | $24,597.1 | $25,995.0 | $15,312.6 | $22,022.2 | $32,570.0 | 
+| Wave 4 | $25,856.2 | $29,124.3 | $13,096.1 | $20,784.5 | $30,697.1 | 
+| Wave 5 | $27,118.7 | $30,613.2 | $15,047.4 | $21,170.1 | $29,468.0 | 
+| Job/income shock |  |  |  |  |  | 
+| Wave 1 | 28.6% | 29.9% | 22.6% | 29.7% | 26.0% | 
+| Wave 2 | 30.3% | 28.4% | 30.2% | 38.2% | 29.1% | 
+| Wave 3 | 29.7% | 29.5% | 25.1% | 35.3% | 26.6% | 
+| Wave 4 | 27.1% | 24.2% | 29.6% | 36.5% | 24.9% | 
+| Wave 5 | 24.5% | 20.9% | 23.5% | 35.8% | 29.2% | 
+Housing-related hardships during the pandemic varied somewhat depending upon racial/ethnic identity and income. Table 1 indicates that families in minority groups were more vulnerable to housing-related hardships than white families during the earlier stages of the pandemic. In August 2020, Black respondents were 1.7 times as likely to be forced to move, 1.9 times as likely to be delinquent on housing payments, and 1.8 times as likely to be delinquent on utility bill payments compared with white respondents. In the same period, Hispanic respondents were 2.0 times as likely to have had an eviction/foreclosure risk, 2.0 times as likely to have missed a housing payment, and 1.6 times as likely to have missed paying a utility bill. In contrast, the Asian/other group experienced fewer housing hardships than white respondents throughout the pandemic.
+As with housing-related hardships, more Black and Hispanic respondents reported experiencing financial instability during the pandemic than those in the white and Asian/other groups. Black and Hispanic groups held much smaller amounts of liquid assets than white respondents. In particular, Black respondents reported the lowest liquid assets; the average liquid asset amount of Black respondents was almost half that of white respondents throughout the pandemic. Also, Hispanic families exhibited higher levels of job/income shocks than the other three groups. Throughout the pandemic, more than a third of the Hispanic respondents reported a loss of income/job due to COVID-19.
+Explanatory Analysis
+Disproportionate Pandemic Impacts on Household Hardship over Time
+To address potential bias due to heterogeneity in the cohort, we employed a set of logistic regression models to control for demographic characteristics and geography at the Census division level. Figure 3 shows that housing instability measures varied over the course of the pandemic. In the early stages of the pandemic, white respondents exhibited the lowest levels of housing instability compared to respondents of color. In the first 3 months of the pandemic (Wave 1, March to May 2020), white respondents were significantly less likely to experience any housing-related hardships than Black respondents (p < 0.05).
+In the next survey wave (wave 2, June to August 2020), the housing hardship gap between white and Black/Hispanic respondents widened and remained significant; 15.3% of white respondents experienced housing-related hardship between June and August 2020, 22.6% of Black and 21.9% of Hispanic respondents experienced housing instability during the same period (p < 0.01).
+After June and August of 2020, housing inequality declined. Some of this decline was due to an increase in housing stability for Black and Hispanic households; however, white respondents increasingly experienced housing hardships, and that increase was larger than the relative decrease among Black and Hispanic households. From wave 2 to wave 3 (November to December 2020), the proportion of white respondents who experienced housing hardships increased by 4.0%p. In contrast, housing hardship decreased in Black and Asian/other respondents by 2.3 and 2.8%p, respectively. During the same period, the housing instability of Hispanic respondents slightly increased by 0.6%p.
+Differences in housing hardships widened again in wave 4 (February to March 2021) as the proportion of white respondents with housing instability rapidly decreased by 4.3%p. However, the housing instability gap narrowed in the final survey wave (wave 5, May 2021), as the proportions of Black and Hispanic respondents with housing hardships decreased by 4.9%p each.
+In sum, we found that Black and Hispanic respondents were hit faster, harder, and longer than white respondents during the pandemic. White respondents experienced lower rates of housing hardship than Black and Hispanic respondents, their housing hardships increased later in the pandemic, and they recovered more quickly after their hardship rates peaked. Notably, Asians exhibited a steady decline in hardships throughout the study period after their peak in the first wave of the study.
+Disproportionate Pandemic Impacts on Household Hardship across Income Cohorts
+Next, we explore how housing inequality varied across income cohorts. Here, we focus on the wave 2 survey administered in August 2020 when housing inequality peaked due to the nationwide lockdown. Figure 4 displays significant disparities between white and Black/Hispanic families in low- and moderate-income cohorts. Families with 30 to 120% AMI exhibited significant disparities in housing hardship between the two racial/ethnic groups. Compared to white respondents, Black and Hispanic respondents at 80% AMI were 1.5 and 1.6 times more likely to have experienced housing hardship, respectively (p < 0.01). Specifically, Black respondents were 2.3 times more likely to be forced to move (4.4% vs. 10.2%, p < 0.01), 1.9 times more likely to fall behind on housing payments (8.6% vs. 16.6%, p < 0.01), and 1.2 times more likely to miss utility bill payments (12.8% vs. 15.7%, not significant). Similarly, Hispanic respondents were 1.8 times more likely to be forced to move (4.4% vs. 8.1%, p < 0.01), 1.9 more likely to miss a rent/mortgage payment (8.6% vs. 16.3%, p < 0.001), and 1.3 more likely to miss a utility bill payment (12.8% vs. 15.7%, not significant). In extremely high- and low-income groups, the risks of these three housing hardship indicators were not significantly different at the 0.05 level across the racial/ethnic groups after controlling for covariates. There was no significant disparity in housing instability between white and Asian/other groups overall and across income cohorts.
+It is worth noting that we observed significant positive associations between housing instability and Economic Impact Payments receipt at the individual level (odds ratio = 1.607; p < 0.001). Though this positive association is contrary to our expectations, it might be due to potential selection bias in who qualified to receive these payments (Roll and Grinstein-Weiss 2020).13 The presence of a state-level eviction moratorium was not significantly associated with housing hardship experiences.
+Mediation Effects of Liquid Assets and Employment Shocks
+Race and ethnicity alone do not determine housing hardship. Rather, we hypothesized that preexisting disparities in liquid asset amounts prior to the pandemic and employment shocks during the pandemic could be two key pathways in the relationship between race/ethnicity and housing hardship risks. Panel A in Table 2 shows the estimated indirect mediation effects of liquid asset amount on the association between race/ethnicity and housing hardships. Notably, the indirect effects of race/ethnicity through the liquid asset pathway were highly significant in the models comparing white and Black respondents. The indirect effects via liquid assets explain 32%, 24.3%, and 34.9% of the estimated disproportionate pandemic impacts on eviction risk, mortgage/rent delinquency, and utility bill payment delay, respectively (p < 0.001). On the other hand, the indirect effects are somewhat smaller and less significant when comparing white and Hispanic respondents. The indirect effects represent 24.0% (p < 0.05.), 17.0% (p < 0.01), and 28.3% (p < 0.001) of the total effects on eviction risk, mortgage/rent delinquency, and utility bill payment delinquency, respectively.
+Table 2.
+|  | Black to white |  |  | Hispanic to white |  |  | Asian/other to white |  |  | 
+|---|---|---|---|---|---|---|---|---|---|
+|  | Eviction | Rent/mortgage | Utility | Eviction | Rent/mortgage | Utility | Eviction | Rent/mortgage | Utility | 
+|  | (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) | 
+| Panel A: liquid asset amount |  |  |  |  |  |  |  |  |  | 
+| Total effectodds ratio | 2.346*** | 2.252*** | 1.725*** | 2.125*** | 2.121** | 1.541*** | 0.856 | 1.265 | 1.222 | 
+|  | (0.390) | (0.320) | (0.287) | (0.470) | (0.550) | (0.181) | (0.283) | (0.384) | (0.235) | 
+| Indirect effectodds ratio | 1.314*** | 1.218*** | 1.210*** | 1.198*** | 1.136*** | 1.130*** | 0.946 | 0.963 | 0.965 | 
+|  | (0.085) | (0.056) | (0.033) | (0.054) | (0.033) | (0.026) | (0.041) | (0.032) | (0.028) | 
+| Direct effectodds ratio | 1.786*** | 1.849*** | 1.426* | 1.774* | 1.867* | 1.363** | 0.905 | 1.313 | 1.266 | 
+|  | (0.281) | (0.290) | (0.232) | (0.411) | (0.481) | (0.138) | (0.300) | (0.373) | (0.241) | 
+| Indirect effect/total effect | 32.0%*** | 24.3%*** | 34.9%*** | 24.0%* | 17.0%* | 28.3%*** | 36.0% | − 16.1% | − 17.9% | 
+| Panel B: job/income loss |  |  |  |  |  |  |  |  |  | 
+| Total effectodds ratio | 2.194*** | 2.104*** | 1.575** | 2.169** | 2.068** | 1.466** | 0.811 | 1.194 | 1.154 | 
+|  | (0.373) | (0.342) | (0.259) | (0.625) | (0.554) | (0.181) | (0.260) | (0.392) | (0.241) | 
+| Indirect effectodds ratio | 1.040 | 1.031 | 1.029 | 1.218*** | 1.171*** | 1.161*** | 1.016 | 1.012 | 1.012 | 
+|  | (0.034) | (0.034) | (0.033) | (0.052) | (0.040) | (0.045) | (0.044) | (0.033) | (0.034) | 
+| Direct effectodds ratio | 2.109*** | 2.040*** | 1.530** | 1.780* | 1.765* | 1.262* | 0.798 | 1.180 | 1.140 | 
+|  | (0.368) | (0.335) | (0.242) | (0.509) | (0.482) | (0.149) | (0.258) | (0.397) | (0.234) | 
+| Indirect effect/total effect | 5.0% | 4.2% | 6.4% | 25.5%* | 21.8% | 39.1%** | − 7.5% | 6.9% | 8.0% | 
+Gender, marital status, number of dependents, educational attainment, homeownership, pre-pandemic annual income (2019) and division and survey wave fixed effects are controlled. Exponentiated coefficients for total/indirect/direct effects. Bootstrap standard errors in parentheses
+*p < 0.05, **p < 0.01, ***p < 0.001
+Panel B in Table 2 presents the estimated indirect mediation effects of job and/or income losses during the pandemic. The indirect effects of race/ethnicity through the job/income loss pathway were not significant in the models comparing white and Black respondents. Across the three housing hardships, the indirect effect was less than 10%. However, the mediation effects of job and income loss on white and Hispanic disparities for the three measured housing hardships were highly and positively significant in eviction risk (25.5%, p < 0.05) and utility bill payment delay (39.1%, p < 0.01).
+Discussion
+The results of our study indicate that the pandemic disproportionately affected the housing stability of minority groups. Although the entire US population faced increased housing risk, Black and Hispanic populations bore these risks disproportionately, especially during the early stages of the pandemic. Though these groups were more vulnerable to the pandemic’s impacts on housing hardships, the temporal dynamics of housing instability varied. White respondents experienced a slight lag when the housing-related shock of the pandemic hit, but they then rapidly recovered. Those in the Asian/other group were immediately affected by the pandemic shock but recovered quickly. Black respondents were immediately affected by the pandemic shock and recovered very slowly. Hispanic respondents’ exhibited both a slow response to the pandemic shock and a slow recovery.
+These observed inequalities across racial/ethnic groups were particularly prevalent for those with low or moderate incomes. This finding might be due to various associations between income and housing instability across racial/ethnic groups. For white families in our sample, housing instability during the pandemic was inversely correlated with their income before the pandemic. The probability of experiencing housing-related hardship dropped by more than half for respondents with income measures between 30 and 120% AMI. On the other hand, housing instability levels were relatively stable across income levels for Black and Hispanic families. The risk of housing hardship decreased by 30% in households with income between 30 and 120% AMI. In other words, income was a strong predictor of housing instability for white people but not for people of color.
+Our findings do not mean that the pandemic created disparities in housing instability among minority groups. As our literature review clearly demonstrates, racial disparities in the housing market existed well before the pandemic. Instead, the racial and income gaps between wave 1 and wave 2 of our study indicate that the pandemic exacerbated these disparities.
+Our mediation models suggest that the mechanisms contributing to housing instability during the pandemic varied between Black and Hispanic groups. Disparities in prepandemic liquid assets explain the relatively high housing risks among Black and Hispanic families. The partial mediation effect of prepandemic liquid assets on the disproportionate housing hardships faced by Black and Hispanic families implies that the current disparities are to some extent a function of preexisting economic inequities. Over decades, wage disparities, homeownership disparities, unequal access to affordable financial products and services, and myriad other factors have left Black families less able to build up the type of emergency savings buffers that are the lynchpin of economic security. The disparate exposure to housing hardships during large-scale economic crises like the COVID-19 pandemic is just one result of this intergenerational economic inequality.
+In addition to preexisting disparities, COVID-19-related employment/income shocks explain why Hispanic families were more likely to experience some housing-related hardships during the pandemic. Recent evidence shows that Black and Hispanic workers were more vulnerable to employment shocks in the early stages of the pandemic as they are disproportionately concentrated in so-called essential industries that were the first and hardest hit by the economic downturn (Klein and Shiro 2020; Williams 2020). Our results corroborate these findings and show that Hispanic families experienced the highest level of job/income loss among the three racial/ethnic groups (white—26.7%, Black—26.3%, Hispanic—35.0%, Asian/other—27.1%). Though we do not examine them in this study, historical and contemporary forms of racial/ethnic discrimination in the labor market, as well as discrimination by immigration status, may also contribute to the housing hardship disparities we observed among Hispanic households. In particular, Hispanic families may have been in vulnerable housing situations prior to the pandemic, which could be a function of discriminatory mortgage lending practices, characteristics specific to the communities where Hispanic families live, or other individual or societal factors. Lack of access to government services may be another reason for their disproportionate housing hardship experiences during the pandemic. Poor access to social services in the Hispanic population has been attributed to the immigration status of the population, a lack of adequate information due to language barriers, and discrimination at both institutional and individual levels (Einstein and Glick 2017).
+We also found that those in the Asian/other group had unique experiences of housing stability during the pandemic. Except for the very early months of the pandemic, the Asian/other group displayed more housing stability than other minority groups and exhibited a pattern similar to that of the white group. Although they exhibited the highest level of housing instability immediately after the outbreak of the pandemic, that level steadily declined. This uniqueness of the Asian/other population, as well as varying mediation effects of unemployment on the Black and the Hispanic groups, calls for more sophisticated approaches in exploring housing inequality in minority groups.
+Last, we observed that racial and ethnic disparities in housing instability also varied by hardship type (i.e., eviction/foreclosure, rent/mortgage delinquency, and utility payment delay). In the summer of 2020, the disparity in utility payment delay across the four groups was not statistically significant. However, Black and Hispanic respondents exhibited significantly higher risks of eviction/foreclosure and rent/mortgage delinquency than white respondents during the same time frame. This difference might be simply related to families’ priorities once hardship hit a family. More plausibly, these disparities could represent the systemic discriminatory nature of the US housing market and its related policies. Once hardship hits families, housing stability is one of the first things that families of color lose due to this discrimination (Rothstein 2017).
+Limitations
+Although our study offers novel contributions to the field, it is not without limitations. First, this study was limited by the absence of a prepandemic study wave. As our panel survey was conducted after the COVID-19 pandemic began, we were limited in asking retrospective questions about prepandemic experiences.14 In this regard, the results in wave 1 might partly represent the prepandemic housing disparities as well as at the beginning of the pandemic. However, the purpose of this study was not to examine the extent to which housing hardships occurred because of the pandemic but rather to explore how disparities evolved over the course of the pandemic and how these disparities were mediated by households’ financial endowment and financial shocks due to the pandemic.
+A second limitation of the study stems from relying on online surveys. The fact that our survey was conducted online introduces potential sampling bias as we did not include those without access to a stable Internet connection in the study sample. Survey responses may also reflect some degree of measurement error; for example, our financial variables may be subject to errors stemming from an inability (or unwillingness) to accurately report income or assets. We minimize this error in several ways: (a) assuring respondents that their answers were confidential; (b) eliciting a commitment from respondents that they would provide their best answers to survey questions and eliminating anyone from the survey who did not answer this question affirmatively; (c) paying an additional fee to our survey panel provider to engage in a data cleaning procedure that identified and eliminated respondents with suspicious response patterns and other indicators of low-quality responses (e.g., improbable completion times); (d) asking respondents about the value of their checking accounts, savings accounts, and cash on hand separately to help them calculate the value of these accounts more easily (rather than having to aggregate them mentally); and (e) excluding suspicious asset amount reports and winsorizing the asset amount at the 99th percentile to minimize the impact of extreme asset amounts.
+A final limitation concerns the level of detail captured in the survey. Our measure of employment shock due to the pandemic only captures whether households lost any job or income as a result of the pandemic, rather than capturing how many jobs or the percent of income they lost, and so on. As such, some measures used in this study are relatively coarse and may not capture the full details of households’ economic experiences during the pandemic.
+Conclusion
+In addition to highlighting potentially long-lasting implications for inequality in the housing market during the COVID-19 pandemic, the findings from this study make unique contributions to the current literature. First, this study is the first attempt to integrate the racial and ethnic disparities in housing instability and financial/employment attributes during an exogenous shock like the pandemic. Although previous empirical studies explored individual sets of associations between the same variables we examined—exogenous shocks and housing hardships (e.g., Niedt and Martin 2013; Pilkauskas et al. 2012), race/ethnicity and housing hardships (e.g., Heflin 2017; Medina et al. 2020), or race/ethnicity and wealth (e.g., Bayer et al. 2016)—they have not considered all of these components together due to the lack of comprehensive data. Our comprehensive survey allowed us to explore the mediation effects of liquid assets and income shocks on racial disparities in housing issues at the family level. In particular, the observed mediation effect of liquid assets calls for proactive and fundamental remedies beyond the Economic Impact Payments offered through the CARES Act and eviction moratorium policies. Going forward, identifying and addressing the causes of liquid asset gaps across racial and ethnic groups will be essential to helping these families better withstand future economic shocks.
+Secondly, our empirical study of the COVID-19 pandemic implies that disparities in housing instability in response to shocks can occur nationwide. Previous external shocks to the housing market, such as Hurricane Katrina in 2005 and the mortgage crisis of the late 2000s, tended to be concentrated in certain geographic areas. Thus, much of the research on prior shocks focused on specific local housing markets and had external validity limitations. The COVID-19 pandemic differs from previous shocks in that it was global, and its onset was almost simultaneous regardless of geography. By using a nationally representative survey, our study offers a broader understanding of housing market dynamics and racial issues.
+Our findings indicate that large minority groups in the USA are not only exposed to all the hardships that accompany housing instability, but also have likely faced the disproportionately high risks of COVID-19 infection that accompany the inability to effectively shelter in place. Understanding the particular needs of these groups and taking positive steps to address both the disparate burdens placed on them during the pandemic and the prepandemic inequities that led to these disparities, will be essential to forming effective pandemic responses both now and in the future.
+Though always important, stable and adequate housing is even more critical in the midst of a pandemic to maintain public health. Stay-at-home orders have been a core component of the public health response to COVID-19 in the USA. Without housing, individuals and families cannot shelter in place to prevent the spread of disease (Ellen et al. 2020). An increase in residential evictions increases the demand for services at homeless shelters, which may become overcrowded, thereby facilitating viral spread. Housing hardship may also cause families to double up, increasing overcrowding in residential units and making all residents more vulnerable to infection. Early research supports these theories; the end of eviction moratoria and the corresponding increase in evictions were associated with further spread of COVID-19 (Jowers et al. 2021; Pan et al. 2020). In addition, housing hardship, even without culminating in eviction, may operate as a form of chronic stress and weaken immune system responses (Jelleyman and Spencer 2008; Ross and Squires 2011). Understanding and combating housing hardship among vulnerable populations is therefore essential to a sound public health response.
+Appendix 1 Table 3
+Table 3.
+|  | All | By race/ethnicity |  |  |  | 
+|---|---|---|---|---|---|
+|  |  | White | Black | Hispanic | Asian/other | 
+|  | (1) | (2) | (3) | (4) | (5) | 
+| Race/ethnicity |  |  |  |  |  | 
+| White | 61.4% | 100% | - | - | - | 
+| Black | 12.5% | - | 100% | - |  | 
+| Hispanic | 16.8% | - | - | 100% | - | 
+| Asian/other | 9.3% | - | - | - | 100% | 
+| Incomea |  |  |  |  |  | 
+| Very low income, AMI = [0, 50) | 25.4% | 22.7% | 34.5% | 30.6% | 21.1% | 
+| Low income, AMI = [50, 80) | 18.7% | 18.6% | 20.5% | 18.8% | 17.0% | 
+| Moderate income, AMI = [80, 120) | 20.5% | 20.2% | 20.1% | 21.7% | 21.1% | 
+| Middle income, AMI = [120, 170) | 16.0% | 16.9% | 12.7% | 14.8% | 17.5% | 
+| High income, AMI = [170,.) | 19.3% | 21.6% | 12.2% | 14.1% | 23.3% | 
+| Gender |  |  |  |  |  | 
+| Female | 50.3% | 47.4% | 59.5% | 54.1% | 50.6% | 
+| Age |  |  |  |  |  | 
+| 18–25 | 9.8% | 11.1% | 9.9% | 8.2% | 4.2% | 
+| 25–34 | 18.9% | 20.9% | 14.6% | 18.0% | 12.9% | 
+| 35–44 | 16.5% | 14.0% | 18.9% | 23.0% | 18.3% | 
+| 45–54 | 17.9% | 17.3% | 19.4% | 18.4% | 19.5% | 
+| 55 + | 36.8% | 36.7% | 37.2% | 32.4% | 45.2% | 
+| Marital status |  |  |  |  |  | 
+| Married | 53.1% | 55.4% | 34.6% | 55.6% | 58.3% | 
+| Single, never married | 32.9% | 31.5% | 44.4% | 31.1% | 29.7% | 
+| Single, separated, divorced, widowed | 14.0% | 13.1% | 21.0% | 13.3% | 12.0% | 
+| Dependents |  |  |  |  |  | 
+| No dependents | 72.5% | 73.6% | 73.6% | 65.3% | 77.0% | 
+| 1 | 13.4% | 12.4% | 15.5% | 16.5% | 11.8% | 
+| 2 | 10.6% | 10.8% | 7.8% | 12.7% | 9.2% | 
+| 3 | 3.5% | 3.3% | 3.1% | 5.5% | 2.0% | 
+| Educational attainment |  |  |  |  |  | 
+| High school/GED or lower | 13.9% | 13.7% | 17.1% | 16.2% | 6.8% | 
+| Some college/certificate/associate’s degree | 29.7% | 28.4% | 36.3% | 34.4% | 20.3% | 
+| Bachelor’s degree | 30.5% | 30.6% | 26.4% | 29.6% | 36.8% | 
+| Graduate or professional degree | 26.0% | 27.3% | 20.2% | 19.8% | 36.1% | 
+| Homeownership |  |  |  |  |  | 
+| Own home, with mortgage | 37.7% | 37.2% | 36.1% | 39.5% | 40.4% | 
+| Own home, without mortgage | 30.7% | 33.4% | 21.1% | 25.7% | 34.8% | 
+| Rent home | 26.5% | 24.3% | 37.0% | 29.5% | 21.7% | 
+| Neither rent nor own home | 5.1% | 5.2% | 5.8% | 5.3% | 3.1% | 
+| First stimulus check receipt |  |  |  |  |  | 
+| Received the first stimulus check | 66.5% | 68.0% | 66.4% | 65.9% | 57.7% | 
+| Eviction moratorium (state level) |  |  |  |  |  | 
+| Enacted/recommended | 71.4% | 70.8% | 61.5% | 76.7% | 78.9% | 
+Reference groups are underlined
+aArea median income (AMI) was estimated in 2019 at the country level; in the regression analysis, we treated the adjusted income variable as continuous (a household’s proportion of AMI adjusting for household size)
+bIn the regression analysis, liquid asset amounts are winsorized at upper 99th percentile
+Appendix 2 Full logit model results Table 4 and Table 5
+Table 4.
+|  | Any hardships | Eviction | Rent/mortgage | Utility | 
+|---|---|---|---|---|
+|  | (1) | (2) | (3) | (4) | 
+| Black | 1.864*** | 1.342 | 1.509+ | 1.715** | 
+|  | (0.344) | (0.525) | (0.356) | (0.332) | 
+| Hispanic | 1.376+ | 2.302** | 1.576* | 1.227 | 
+|  | (0.242) | (0.691) | (0.346) | (0.235) | 
+| Asian/other | 1.895* | 0.692 | 1.967+ | 1.934* | 
+|  | (0.512) | (0.335) | (0.759) | (0.613) | 
+| Wave 2 | 1.129 | 1.752** | 1.327* | 1.093 | 
+|  | (0.120) | (0.331) | (0.183) | (0.125) | 
+| Wave 3 | 1.578*** | 2.203*** | 1.665*** | 1.428** | 
+|  | (0.164) | (0.415) | (0.229) | (0.160) | 
+| Wave 4 | 1.106 | 1.324 | 1.217 | 1.103 | 
+|  | (0.122) | (0.268) | (0.178) | (0.132) | 
+| Wave 5 | 0.994 | 1.253 | 1.165 | 1.008 | 
+|  | (0.119) | (0.273) | (0.185) | (0.130) | 
+| Wave 2 × Black | 0.951 | 2.138+ | 1.401 | 0.721 | 
+|  | (0.224) | (0.960) | (0.404) | (0.178) | 
+| Wave 2 × Hispanic | 1.225 | 0.868 | 1.195 | 1.063 | 
+|  | (0.271) | (0.305) | (0.321) | (0.257) | 
+| Wave 2 × Asian/other | 0.638 | 1.847 | 0.706 | 0.541 | 
+|  | (0.213) | (1.211) | (0.325) | (0.207) | 
+| Wave 3 × Black | 0.577* | 1.216 | 0.992 | 0.515** | 
+|  | (0.137) | (0.574) | (0.296) | (0.131) | 
+| Wave 3 × Hispanic | 0.917 | 0.818 | 0.9 | 0.775 | 
+|  | (0.205) | (0.312) | (0.251) | (0.192) | 
+| Wave 3 × Asian/other | 0.357** | 1.378 | 0.209** | 0.302** | 
+|  | (0.126) | (0.951) | (0.107) | (0.130) | 
+| Wave 4 × Black | 0.857 | 1.649 | 0.962 | 0.763 | 
+|  | (0.212) | (0.842) | (0.310) | (0.206) | 
+| Wave 4 × Hispanic | 1.234 | 0.947 | 0.793 | 1.129 | 
+|  | (0.292) | (0.385) | (0.235) | (0.294) | 
+| Wave 4 × Asian/other | 0.377** | 1.282 | 0.355* | 0.336** | 
+|  | (0.130) | (0.780) | (0.167) | (0.134) | 
+| Wave 5 × Black | 0.645+ | 0.91 | 0.958 | 0.595+ | 
+|  | (0.164) | (0.441) | (0.306) | (0.160) | 
+| Wave 5 × Hispanic | 0.937 | 0.543 | 1.034 | 1.095 | 
+|  | (0.226) | (0.209) | (0.303) | (0.285) | 
+| Wave 5 × Asian/other | 0.369** | 0.771 | 0.425+ | 0.315** | 
+|  | (0.126) | (0.512) | (0.199) | (0.125) | 
+| Gender: female | 0.897* | 0.500*** | 0.762*** | 0.972 | 
+|  | (0.048) | (0.047) | (0.052) | (0.057) | 
+| Age = [25,35) | 0.702*** | 0.520*** | 0.822+ | 0.802* | 
+|  | (0.061) | (0.073) | (0.090) | (0.075) | 
+| Age = [35,45) | 0.461*** | 0.336*** | 0.614*** | 0.561*** | 
+|  | (0.043) | (0.052) | (0.070) | (0.056) | 
+| Age = [45,55) | 0.367*** | 0.138*** | 0.413*** | 0.486*** | 
+|  | (0.036) | (0.027) | (0.053) | (0.051) | 
+| Age = 55 or more | 0.128*** | 0.026*** | 0.153*** | 0.159*** | 
+|  | (0.015) | (0.009) | (0.025) | (0.021) | 
+| Marital status: single, never married | 0.871+ | 0.81 | 0.893 | 0.945 | 
+|  | (0.065) | (0.108) | (0.081) | (0.077) | 
+| Marital status: separated/divorced/widowed | 1.200* | 0.707+ | 1.127 | 1.186+ | 
+|  | (0.103) | (0.146) | (0.130) | (0.112) | 
+| Education: some college/certificate/associate's degree | 1.117+ | 1.114 | 0.955 | 1.112 | 
+|  | (0.072) | (0.137) | (0.080) | (0.076) | 
+| Education: bachelor’s degree | 0.789** | 1.322* | 0.825+ | 0.704*** | 
+|  | (0.060) | (0.184) | (0.082) | (0.059) | 
+| Education: graduate or professional degree | 0.967 | 2.271*** | 1.013 | 0.882 | 
+|  | (0.084) | (0.358) | (0.116) | (0.085) | 
+| # kid[s]: 1 | 1.889*** | 2.394*** | 2.016*** | 1.770*** | 
+|  | (0.139) | (0.287) | (0.176) | (0.144) | 
+| # kid[s]: 2 | 1.921*** | 2.777*** | 1.817*** | 1.816*** | 
+|  | (0.157) | (0.369) | (0.176) | (0.161) | 
+| # kid[s]: 3 + | 2.042*** | 2.303*** | 2.111*** | 2.089*** | 
+|  | (0.234) | (0.485) | (0.293) | (0.253) | 
+| Income, AMI and family size adjusted | 0.992*** | 0.994*** | 0.994*** | 0.992*** | 
+|  | (0.001) | (0.001) | (0.001) | (0.001) | 
+| Own home free and clear | 0.927 | 1.218+ | 0.739** | 0.849+ | 
+|  | (0.069) | (0.136) | (0.071) | (0.073) | 
+| Pay rent | 1.239** | 0.479*** | 0.824* | 1.288*** | 
+|  | (0.085) | (0.063) | (0.070) | (0.097) | 
+| Neither own home nor pay rent | 0.523*** | 0.293*** | 0.315*** | 0.627*** | 
+|  | (0.066) | (0.067) | (0.056) | (0.084) | 
+| Public benefits | 1.202** | 1.603*** | 1.210* | 1.319*** | 
+|  | (0.070) | (0.169) | (0.090) | (0.085) | 
+| Eviction moratorium: enacted | 1.026 | 1.095 | 0.984 | 1.029 | 
+|  | (0.075) | (0.142) | (0.092) | (0.082) | 
+| Constant | 0.503*** | 0.099*** | 0.250*** | 0.318*** | 
+|  | (0.102) | (0.034) | (0.066) | (0.072) | 
+| Observations | 22,939 | 22,939 | 22,939 | 22,939 | 
+| Pseudo R2 | 0.172 | 0.22 | 0.136 | 0.161 | 
+| AIC | 8.52E + 08 | 3.11E + 08 | 5.94E + 08 | 7.42E + 08 | 
+| BIC | 8.52E + 08 | 3.11E + 08 | 5.94E + 08 | 7.42E + 08 | 
+Exponentiated coefficients; standard errors in parentheses. Std. Err. adjusted for 9 clusters in division (division FE omitted)
++ p < 0.10, *p < 0.05, **p < 0.01, ***p < 0.001
+Table 5.
+|  | Any hardships | Eviction | Rent/mortgage | Utility | 
+|---|---|---|---|---|
+|  | (1) | (2) | (3) | (4) | 
+| Black | 1.344 | 2.510** | 1.503 | 1.063 | 
+|  | (0.296) | (0.875) | (0.402) | (0.248) | 
+| Hispanic | 1.403 | 2.854** | 1.917* | 1.021 | 
+|  | (0.324) | (1.024) | (0.518) | (0.253) | 
+| Asian/other | 1.020 | 1.397 | 1.123 | 0.607 | 
+|  | (0.420) | (1.554) | (0.688) | (0.294) | 
+| Income, AMI, and family size adjusted | 0.990*** | 0.995* | 0.991*** | 0.988*** | 
+|  | (0.002) | (0.003) | (0.002) | (0.002) | 
+| Black × income, AMI, and family size adjusted | 1.004 | 1.002 | 1.006+ | 1.002 | 
+|  | (0.003) | (0.004) | (0.003) | (0.003) | 
+| Hispanic × income, AMI, and family size adjusted | 1.004 | 0.996 | 1.002 | 1.004 | 
+|  | (0.002) | (0.004) | (0.003) | (0.003) | 
+| Asian/other × income, AMI, and family size adjusted | 1.003 | 1.001 | 1.004 | 1.006 | 
+|  | (0.004) | (0.008) | (0.005) | (0.005) | 
+| Gender: female | 0.783* | 0.508*** | 0.553*** | 0.926 | 
+|  | (0.088) | (0.101) | (0.077) | (0.115) | 
+| Age = [25,35) | 0.621** | 0.420*** | 0.777 | 0.708+ | 
+|  | (0.105) | (0.107) | (0.155) | (0.129) | 
+| Age = [35,45) | 0.384*** | 0.224*** | 0.422*** | 0.484*** | 
+|  | (0.070) | (0.063) | (0.092) | (0.093) | 
+| Age = [45,55) | 0.408*** | 0.127*** | 0.436** | 0.529** | 
+|  | (0.082) | (0.060) | (0.116) | (0.112) | 
+| Age = 55 or more | 0.106*** | 0.014*** | 0.098*** | 0.139*** | 
+|  | (0.025) | (0.008) | (0.029) | (0.035) | 
+| Marital status: single, never married | 0.999 | 0.821 | 0.954 | 0.952 | 
+|  | (0.146) | (0.191) | (0.170) | (0.147) | 
+| Marital status: separated/divorced/widowed | 1.195 | 0.544 | 1.207 | 1.179 | 
+|  | (0.215) | (0.209) | (0.285) | (0.227) | 
+| Education: some college/certificate/associate’s degree | 1.290+ | 1.165 | 0.889 | 1.510** | 
+|  | (0.168) | (0.285) | (0.145) | (0.210) | 
+| Education: bachelor’s degree | 0.869 | 1.275 | 0.720 | 0.915 | 
+|  | (0.138) | (0.386) | (0.146) | (0.157) | 
+| Education: graduate or professional degree | 1.085 | 2.131* | 0.955 | 1.074 | 
+|  | (0.194) | (0.738) | (0.218) | (0.211) | 
+| # kid[s]: 1 | 1.939*** | 2.939*** | 2.316*** | 1.559** | 
+|  | (0.271) | (0.652) | (0.390) | (0.239) | 
+| # kid[s]: 2 | 1.894*** | 2.938*** | 2.275*** | 1.676** | 
+|  | (0.343) | (0.789) | (0.477) | (0.316) | 
+| # kid[s]: 3 + | 1.854* | 4.055*** | 2.218** | 1.615+ | 
+|  | (0.476) | (1.578) | (0.635) | (0.438) | 
+| Own home free and clear | 0.754+ | 1.215 | 0.733+ | 0.607** | 
+|  | (0.111) | (0.251) | (0.128) | (0.102) | 
+| Pay rent | 0.994 | 0.367*** | 0.643* | 1.092 | 
+|  | (0.139) | (0.089) | (0.111) | (0.163) | 
+| Neither own home nor pay rent | 0.354*** | 0.225** | 0.197*** | 0.429** | 
+|  | (0.095) | (0.103) | (0.078) | (0.123) | 
+| RECODE of ben_gov_cares_ever (Has your HH received the second relief payment) = 1 | 1.607*** | 1.396 | 1.417* | 1.891*** | 
+|  | (0.201) | (0.322) | (0.217) | (0.269) | 
+| Eviction modratorium: enacted | 0.869 | 0.928 | 0.793 | 0.893 | 
+|  | (0.127) | (0.230) | (0.142) | (0.145) | 
+| Constant | 0.793 | 0.313* | 0.531 | 0.377* | 
+|  | (0.314) | (0.167) | (0.259) | (0.161) | 
+| Observations | 4805 | 4805 | 4805 | 4805 | 
+| Pseudo R2 | 0.192 | 0.257 | 0.184 | 0.179 | 
+| AIC | 1.82E + 08 | 7.56E + 07 | 1.32E + 08 | 1.56E + 08 | 
+| BIC | 1.82E + 08 | 7.56E + 07 | 1.32E + 08 | 1.56E + 08 | 
+Exponentiated coefficients; standard errors in parentheses. Std. Err. adjusted for 9 clusters in division (division FE omitted)
++ p < 0.10, *p < 0.05, **p < 0.01, ***p < 0.001
+Data Availability
+The datasets generated during and/or analyzed during the current study are available from the corresponding author upon reasonable request.
+Declarations
+Conflict of Interest
+The authors declare no competing interests.
+Footnotes
+We capitalize “Black” and “Hispanic” in a racial, ethnic or cultural sense, conveying an essential and shared sense of history, identity and community among people who identify as Black, including those in the African diaspora and within Africa. The lowercase black indicates a color not a person. On the other hand, we do not capitalize “white” as they generally do not share the same history and culture or the experience of being discriminated against because of skin color (see Dumas 2016; Kolchin 2002).
+In this study, we define liquid assets as cash in hand or assets that can easily be converted into cash in a short amount of time, such as assets in checking and savings accounts.
+Although it was not originally intended to do so, most survey waves corresponded to important social event(s) during the pandemic. The wave 1 survey was administered approximately 3 months after the pandemic outbreak when the first stimulus checks from the government (Economic Impact Payments) had just been distributed. The wave 2 survey was implemented when the Black Lives Matter movement peaked. The Wave 3 survey was distributed a day after the US presidential election (and Pfizer announced its vaccine candidate a week after survey administration began). By wave 4, the COVID-19 infection cases had sharply decreased due to the COVID-19 vaccines and the infection level remained low in wave 5.
+Research has demonstrated that online, nonprobability samples using Qualtrics panels generate samples that closely approximate those of the General Social Survey, which uses a probability sampling design, which is the gold standard in survey administration (Zack et al. 2019).
+Although the Washington University in St. Louis institutional review board (IRB) established that this study was not human subject research, researchers still obtained informed consent from participants prior to administering the survey.
+The use of this relative income measure has several advantages over the use of the absolute dollar amount. First, it allows us to account for the cost of living in an area. $100 K in San Francisco County, for instance, is not equal to $100 K in McDowell County, West Virginia. The use of this measure also allows us to create categories that correspond to policy-relevant income groups, in this case following HUD’s income classification system to determine Fair Market Rents and Sect. 8 qualifications. However, we ran another set of analyses using absolute dollar amounts (and a control for median income at the county level) instead of relative dollar amounts and confirm that the results are consistent and robust.
+States handled eviction restrictions in a wide variety of different ways, with a wide variety of start and end dates. We code states as 1 if they put any restrictions on residential evictions or foreclosures over and above what was included in the CARES Act for any length of time between March 1 (start of the pandemic) and August 10 (start of the survey) in 2020, and as 0 if they did not.
+Summary statistics of the covariates in our empirical models are available in Appendix 1.
+Full logistic regression model results are available in Appendix 2.
+To estimate the mediation effect of liquid asset amount (at 3 months prior to the survey) and employment shocks (in 3 months prior to the survey), we used the housing hardship experiences within 3 months prior to the survey instead of the hardship experiences during the pandemic.
+Though our analytic sample is nationally representative, each racial/ethnic group is not well balanced (for instance, more than 70% of the Black respondents were female). To make each racial/ethnic group as well as each income cohort be representative, therefore, we employed a weighting scheme.
+These figures are much higher than in 2019 when according to CoreLogic’s report (2019), 0.4% of homeowners were foreclosed upon. The mortgage or rent delinquency rate in our survey is also notable, as this is much higher than the 4.5% delinquency rate in 2019 (CoreLogic, 2019).
+Appendix 2 presents the full regression output. In addition to the main findings of this paper, these models show that, younger respondents, male respondents, and those with dependents were more likely to experience the measured housing hardships. Interestingly, these models show that renters were less likely to experience eviction than those who own a home with a mortgage, and that those with graduate/professional degrees were more likely to experience eviction than those with a high school degree or less. However, these associations are a function of controlling for other variables such as income, which is correlated with homeownership status, education, and our outcomes of interest. When examining these relationships in isolation, renters are more likely, and graduate degree holders less likely, to experience eviction.
+Each survey is retrospective, asking for each hardship experience in the 3 months prior to the survey. For those interviewed at the earliest time (April 27), 3 months earlier started January 27; for those interviewed at the latest time, 3 months earlier started on February 12. Because the pandemic did not start having a large effect on the economy until mid-March, the data capture at least 1 month prepandemic.
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+References
+- Bayer P, Ferreira F, Ross SL. The vulnerability of minority homeowners in the housing boom and bust. Am Econ J Econ Pol. 2016;8(1):1–27. doi: 10.1257/pol.20140074. [DOI] [Google Scholar]
+- Brown CJ, Pagán JA. Changes in employment status across demographic groups during the 1990–1991 recession. Appl Econ. 1998;30(12):1571–1583. doi: 10.1080/000368498324652. [DOI] [Google Scholar]
+- Buis ML. Direct and indirect effects in a logit model. Stata Journal. 2010;10(1):11–29. doi: 10.1177/1536867x1001000104. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- Bureau of Labor Statistics, U.S. Department of Labor, The Economics Daily, Unemployment rate rises to record high 14.7 percent in April 2020 at https://www.bls.gov/opub/ted/2020/unemployment-rate-rises-to-record-high-14-point-7-percent-in-april-2020.htm (visited November 29, 2022).
+- Caswell KJ, Zuckerman S. Food insecurity, housing hardship, and medical care utilization. Urban Institute. 2018
+- Choi JH, Pang D. Six facts you should know about current mortgage forbearances. Urban Institute. 2020.
+- Couch KA, Fairlie R. Last hired, first fired? Black-white unemployment and the business cycle. Demography. 2010;47(1):227–247. doi: 10.1353/dem.0.0086. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- Desmond M. Eviction and the reproduction of urban poverty. Am J Sociol. 2012;118(1):88–133. doi: 10.1086/666082. [DOI] [Google Scholar]
+- Despard MR, Grinstein-Weiss M, Guo S, Taylor S, Russell B. Financial shocks, liquid assets, and material hardship in low- and moderate-income households: Differences by race. J Econ, Race, Policy. 2018;1(4):205–216. doi: 10.1007/s41996-018-0011-y. [DOI] [Google Scholar]
+- Dumas MJ. Against the dark: Antiblackness in education policy and discourse. Theory Pract. 2016;55(1):11–9.
+- Duster C. Utility shutoffs threaten a fresh crisis for low-income and Black families as Covid surges again. CNN Politics. 2020. https://www.cnn.com/2020/07/12/politics/utility-shutoffs-coronavirus/index.html. Accessed 16 May 2022
+- Eamon MK, Wu CF. Effects of unemployment and underemployment on material hardship in single-mother families. Child Youth Serv Rev. 2011;33(2):233–241. doi: 10.1016/j.childyouth.2010.09.006. [DOI] [Google Scholar]
+- Einstein KL, Glick DM. Does race affect access to government services? An experiment exploring street-level bureaucrats and access to public housing. Am J Political Sci. 2017;61(1):100–16.
+- Ellen I, Graves E, O’Regan K, Schuetz J. Strategies for increasing affordable housing amid the COVID-19 economic crisis. Brookings Institution, Washington, DC. 2020. https://www.brookings.edu/research/strategies-for-increasing-affordable-housing-amid-the-covid-19-economic-crisis/
+- Fairlie RW, Couch KA, Xu H, Fairlie Kenneth Couch Huanan Xu RW, Robert Fairlie MW, Couch KA, Xu H, Fairlie RW, and Xu Judd H. The impacts of COVID-19 on minority unemployment: First evidence from April 2020 CPS microdata. In NBER Work Paper Ser. 2020. 10.2139/ssrn.3604814
+- Farrell D, Greig F, Wheat C, Liebeskind M, Ganong P, Noel P, Jones D. Racial gaps in financial outcomes: Big data evidence. SSRN Electron J. 2020. 10.2139/ssrn.3582557.
+- Freeman RB, Gordon RA, Bell D, Hall RE. Changes market in the for labor black. Brook Pap Econ Act. 1973;1973(1):67–131. doi: 10.2307/2534085. [DOI] [Google Scholar]
+- Gjertson L. Emergency saving and household hardship. J Fam Econ Issues. 2016;37(1):1–17. doi: 10.1007/s10834-014-9434-z. [DOI] [Google Scholar]
+- Greenberg D, Gershenson C, Desmond M. Discrimination in evictions: empirical evidence and legal challenges. Harv CR-CLL Rev. 2016;51:115. [Google Scholar]
+- Grodsky E, Pager D. The structure of disadvantage: Individual and occupational determinants of the black-white wage gap. Am Sociol Rev. 2001;66(4):542–567. doi: 10.2307/3088922. [DOI] [Google Scholar]
+- Heflin C. Family instability and material hardship: Results from the 2008 Survey of Income and Program Participation. J Fam Econ Issues. 2016;37(3):359–372. doi: 10.1007/s10834-016-9503-6. [DOI] [Google Scholar]
+- Heflin C. The role of social positioning in observed patterns of material hardship: New evidence from the 2008 Survey of Income and Program Participation. Soc Probl. 2017;64(4):513–531. doi: 10.1093/socpro/spw041. [DOI] [Google Scholar]
+- Huffman ML, Cohen PN. Racial wage inequality: Job segregation and devaluation across U.S. labor markets. Ame J Sociol. 2004;109(4):902–936. doi: 10.1086/378928. [DOI] [Google Scholar]
+- Jelleyman T, Spencer N. Residential mobility in childhood and health outcomes: a systematic review. J Epidemiol Community Health. 2008;62(7):584–592. doi: 10.1136/jech.2007.060103. [DOI] [PubMed] [Google Scholar]
+- Jowers K, Timmins C, Bhavsar N, Hu Q, and Marshall J. Housing precarity & the covid-19 pandemic: Impacts of utility disconnection and eviction moratoria on infections and deaths across us counties. Nat Bureau Econ Res. 2021. 10.3386/w28394
+- Karpman M, Zuckerman S, Gonzalez D, and Kenney GM. The COVID-19 pandemic is straining families’ abilities to afford basic needs: Low-income and hispanic families the hardest hit. 2020. Washington, DC: Urban Institute.
+- Klein A, Shiro AG. The COVID-19 recession hit Latino workers hard Here’s what we need to do. Brookings Institute; 2020. [Google Scholar]
+- Kolchin P. Whiteness studies: The new history of race in America. J Am His. 2002;89(1):154–173. doi: 10.2307/2700788. [DOI] [Google Scholar]
+- Kowalski KM. Racial disparities persist in electric service. Is ‘willful blindness’ to blame? Energy News Net. 2020. https://energynews.us/2020/07/01/racial-disparities-persist-in-electric-service-is-willful-blindness-to-blame/
+- Long SK. Hardship among the uninsured: Choosing among food, housing, and health insurance. Urban Inst Ser B. 2003;B–54. https://webarchive.urban.org/UploadedPDF/310775_B-54.pdf
+- Lopez MH, Rainie L, and Budiman A. Financial and health impacts of COVID-19 vary widely by race and ethnicity. Pew Research Center. 2020. https://www.pewresearch.org/fact-tank/2020/05/05/financial-and-health-impacts-of-covid-19-vary-widely-by-race-and-ethnicity/
+- McCall L. Sources of racial wage inequality in metropolitan labor markets: Racial, ethnic, and gender differences. Am Sociol Rev. 2001;66(4):520–541. doi: 10.2307/3088921. [DOI] [Google Scholar]
+- McKernan S, Ratcliffe C, and Vinopal K. Do assets help families cope with adverse events? In Washington, DC: Urban Institute. 2009.
+- Medina RM, Byrne K, Brewer S, and Nicolosi EA. Housing inequalities: Eviction patterns in Salt Lake County, Utah. Cities. 2020;104. 10.1016/j.cities.2020.102804
+- Neckerman KM, Garfinkel I, Teitler JO, Waldfogel J, Wimer C. Beyond Income Poverty : Measuring Disadvantage in Terms of Material Hardship and Health. Acad Pediatr. 2016;16(3):S52–S59. doi: 10.1016/j.acap.2016.01.015. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- Niedt C, Martin IW. Who are the foreclosed? A statistical portrait of america in crisis. Hous Policy Deb. 2013;23(1):159–176. doi: 10.1080/10511482.2012.702119. [DOI] [Google Scholar]
+- Pager D, Shepherd H. The sociology of discrimination: Racial discrimination in employment, housing, credit, and consumer markets. Ann Rev Sociol. 2008;34:181–209. doi: 10.1146/annurev.soc.33.040406.131740. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- Pan WK, Tyrovolas S, Iago G-V, Dasgupta RR, Daniel F, Zaitchik B, Lantos PM, Woods CW. Covid-19: Effectiveness of non-pharmaceutical interventions in the United States before phased removal of social distancing protections varies by region. MedRxiv. 2020;69:458. [Google Scholar]
+- Pattillo M. Black picket fences, second edition: Privilege and peril among the Black middle class. University of Chicago Press. 2013.
+- Pilkauskas NV, Currie JM, Garfinkel I. The great recession, public transfers, and material hardship. Social Serv Rev. 2012;86(3):401–427. doi: 10.1086/667993. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- Raymond E, Wang K, Immergluck D. Race and uneven recovery: neighborhood home value trajectories in Atlanta before and after the housing crisis. Hous Stud. 2016;31(3):324–339. doi: 10.1080/02673037.2015.1080821. [DOI] [Google Scholar]
+- Ren C. A Framework for Explaining Black – White Inequality in Homeownership Sustainability In CSD Working Papers. Demogr. 2020;57:1297. doi: 10.1007/s13524-020-00894-4. [DOI] [PubMed] [Google Scholar]
+- Rich WC, Massey DS, Denton NA. American apartheid: Segregation and the making of the underclass. Political Sci Quar. 1993;108(3):574. doi: 10.2307/2151725. [DOI] [Google Scholar]
+- Roll S, Bufe S, Chun Y, and Grinstein-Weiss M. The socioeconomic impacts of COVID-19 study: Survey methodology report. In Social Policy Institute Research. Social Policy Institute, Washington University in St. Louis. 2021. 10.7936/r4cj-5041. Accessed 16 May 2022
+- Roll S, and Grinstein-Weiss M.Did CARES Act benefits reach vulnerable Americans? Evidence from a national survey. Brookings. 2020. https://www.brookings.edu/research/did-cares-act-benefits-reach-vulnerable-americans-evidence-from-a-national-survey/
+- Ross LM, Squires GD. The personal costs of subprime lending and the foreclosure crisis: a matter of trust, insecurity, and institutional deception. Soc Sci Q. 2011;92(1):140–163. doi: 10.1111/j.1540-6237.2011.00761.x. [DOI] [Google Scholar]
+- Rothstein R. The color of law: A forgotten history of how our government segregated America. Liveright Publishing; 2017. [Google Scholar]
+- Shah M, Sachdeva M, Dodiuk-Gad RP. COVID-19 and racial disparities. J Am Acad Dermatol. 2020;83(1):e35. doi: 10.1016/j.jaad.2020.04.046. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- Sharkey P. Stuck in place: Urban neighborhoods and the end of progress toward racial equality. University of Chicago Press. 2013.
+- StataCorp . Stata Statistical Software: Release 16 (Version 16) StataCorp LLC; 2019. [Google Scholar]
+- Tomich J, Klump E, Swartz KE, and Skibell A. Pandemic, unpaid bills test utilities’ social justice vows. E&E News. 2020. https://www.eenews.net/articles/pandemic-unpaid-bills-test-utilities-social-justice-vows/
+- Townsend MJ, Kyle TK, Stanford FC. Outcomes of COVID-19: disparities in obesity and by ethnicity/race. Int J Obes. 2020;1–3:1807. doi: 10.1038/s41366-020-0635-2. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- Williams J. Laid off more, hired less: Black workers in the COVID-19 recession. RAND; 2020. [Google Scholar]
+- Zack ES, Kennedy J, Long JS. Can nonprobability samples be used for social science research? A cautionary tale. Surv Res Meth. 2019;13(2):215–227. [Google Scholar]
+- Zhang S, Lerman RI. Does homeownership protect individuals from economic hardship during housing busts? Hous Policy Debate. 2019;29(4):522–541. doi: 10.1080/10511482.2018.1532447. [DOI] [Google Scholar]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Data Availability Statement
+The datasets generated during and/or analyzed during the current study are available from the corresponding author upon reasonable request.

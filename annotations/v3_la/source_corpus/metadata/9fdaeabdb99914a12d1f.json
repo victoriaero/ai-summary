@@ -1,0 +1,28 @@
+{
+  "source_id": "9fdaeabdb99914a12d1f",
+  "normalized_url": "https://niot.org/blog/gender-related-bullying-and-harassment-growing-trend",
+  "fetch_timestamp_utc": "2026-10-04T03:42:53.949986+00:00",
+  "registrable_domain": "niot.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.niot.org/blog/gender-related-bullying-and-harassment-growing-trend",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 35052,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/9fdaeabdb99914a12d1f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/9fdaeabdb99914a12d1f.txt",
+  "text_chars": 4432,
+  "text_words": 642,
+  "extraction_status": "success",
+  "page_title": "Gender-Related Bullying and Harassment: A Growing Trend",
+  "page_author": "Sanders",
+  "page_date": "2013-05-31",
+  "site_name": "Notinourtown",
+  "canonical_url": "https://www.niot.org/blog/gender-related-bullying-and-harassment-growing-trend"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "6571fad7ffffd86e4b3f",
+  "normalized_url": "https://study.com/learn/lesson/video/use-of-force-continuum.html",
+  "fetch_timestamp_utc": "2026-10-04T02:40:36.696929+00:00",
+  "registrable_domain": "study.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://study.com/learn/lesson/video/use-of-force-continuum.html",
+  "headers": {
+    "Content-Type": "text/html;charset=UTF-8"
+  },
+  "content_type": "text/html;charset=UTF-8",
+  "downloaded_bytes": 150938,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6571fad7ffffd86e4b3f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6571fad7ffffd86e4b3f.txt",
+  "text_chars": 1246,
+  "text_words": 188,
+  "extraction_status": "success",
+  "page_title": "Use of Force Continuum | Definition, Model & Examples - Video | Study.com",
+  "page_author": null,
+  "page_date": "2014-12-10",
+  "site_name": "study.com",
+  "canonical_url": "https://study.com/learn/lesson/video/use-of-force-continuum.html"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "99950653ffee46f2cd50",
+  "normalized_url": "https://generalicentrallife.com/blog/life-insurance/how-health-insurance-premium-varies-by-gender",
+  "fetch_timestamp_utc": "2026-10-04T03:42:17.083231+00:00",
+  "registrable_domain": "generalicentrallife.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://generalicentrallife.com/blog/life-insurance/how-health-insurance-premium-varies-by-gender",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 474,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "626a9e1e982742fb64b4",
+  "normalized_url": "https://ed.gov/media/document/report-factors-related-college-enrollment-1998-54909.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:40:24.607068+00:00",
+  "registrable_domain": "ed.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.ed.gov/media/document/report-factors-related-college-enrollment-1998-54909.pdf",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 11677,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "5d2d15e1b4a5b8d83766",
+  "normalized_url": "https://kff.org/medicaid/medicaid-efforts-to-address-racial-health-disparities",
+  "fetch_timestamp_utc": "2026-10-04T02:39:59.486351+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/medicaid/medicaid-efforts-to-address-racial-health-disparities/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 160068,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5d2d15e1b4a5b8d83766.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5d2d15e1b4a5b8d83766.txt",
+  "text_chars": 18127,
+  "text_words": 2626,
+  "extraction_status": "success",
+  "page_title": "Medicaid Efforts to Address Racial Health Disparities | KFF",
+  "page_author": "Akash Pillai; Elizabeth Hinton; Robin Rudowitz; Samantha Artiga",
+  "page_date": "2024-07-01",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/medicaid/medicaid-efforts-to-address-racial-health-disparities/"
+}

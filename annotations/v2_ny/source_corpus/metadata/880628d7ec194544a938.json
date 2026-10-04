@@ -1,0 +1,28 @@
+{
+  "source_id": "880628d7ec194544a938",
+  "normalized_url": "https://alis.alberta.ca/tools-and-resources/resources-for-women/career-advancement-strategies-for-women",
+  "fetch_timestamp_utc": "2026-10-04T02:43:26.978398+00:00",
+  "registrable_domain": "alberta.ca",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://alis.alberta.ca/tools-and-resources/resources-for-women/career-advancement-strategies-for-women",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 111223,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/880628d7ec194544a938.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/880628d7ec194544a938.txt",
+  "text_chars": 8166,
+  "text_words": 1291,
+  "extraction_status": "success",
+  "page_title": "Career Advancement Strategies for Women - alis",
+  "page_author": null,
+  "page_date": "2025-09-23",
+  "site_name": "Alis",
+  "canonical_url": "https://alis.alberta.ca/tools-and-resources/resources-for-women/career-advancement-strategies-for-women/"
+}

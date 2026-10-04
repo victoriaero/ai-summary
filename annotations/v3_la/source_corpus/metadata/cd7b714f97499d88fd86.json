@@ -1,0 +1,28 @@
+{
+  "source_id": "cd7b714f97499d88fd86",
+  "normalized_url": "https://crownschool.uchicago.edu/student-life/advocates-forum/workplace-discrimination-and-undocumented-first-generation-latinx",
+  "fetch_timestamp_utc": "2026-10-04T03:46:07.155351+00:00",
+  "registrable_domain": "uchicago.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://crownschool.uchicago.edu/student-life/advocates-forum/workplace-discrimination-and-undocumented-first-generation-latinx",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 142220,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/cd7b714f97499d88fd86.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/cd7b714f97499d88fd86.txt",
+  "text_chars": 21733,
+  "text_words": 3078,
+  "extraction_status": "success",
+  "page_title": "Workplace Discrimination and Undocumented First-Generation Latinx Immigrants",
+  "page_author": null,
+  "page_date": "2023-05-18",
+  "site_name": "Crown Family School of Social Work, Policy, and Practice",
+  "canonical_url": "https://crownschool.uchicago.edu/student-life/advocates-forum/workplace-discrimination-and-undocumented-first-generation-latinx"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "77104fe421bc68a94cc4",
+  "normalized_url": "https://ppic.org/publication/racial-disparities-in-law-enforcement-stops",
+  "fetch_timestamp_utc": "2026-10-04T02:42:09.997206+00:00",
+  "registrable_domain": "ppic.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://ppic.org/publication/racial-disparities-in-law-enforcement-stops",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5755,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

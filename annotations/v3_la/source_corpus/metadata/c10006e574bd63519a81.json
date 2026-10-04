@@ -1,0 +1,16 @@
+{
+  "source_id": "c10006e574bd63519a81",
+  "normalized_url": "https://search.proquest.com/openview/14d68d4ac7af20552d3c10b328887aff/1?cbl=48144&pq-origsite=gscholar",
+  "fetch_timestamp_utc": "2026-10-04T03:45:12.862876+00:00",
+  "registrable_domain": "proquest.com",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 47,
+  "http_status": 302,
+  "final_url": "https://www.proquest.com/intermediateredirectforezproxy",
+  "content_type": "text/html",
+  "error": "curl: (47) Maximum (50) redirects followed",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "037ee118127c7562560f",
+  "normalized_url": "https://scholarworks.waldenu.edu/dissertations/11774",
+  "fetch_timestamp_utc": "2026-10-04T02:32:42.250711+00:00",
+  "registrable_domain": "waldenu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://scholarworks.waldenu.edu/dissertations/11774/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 36736,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/037ee118127c7562560f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/037ee118127c7562560f.txt",
+  "text_chars": 2135,
+  "text_words": 296,
+  "extraction_status": "success",
+  "page_title": "Factors for LGBT College Students That Predict Academic Success",
+  "page_author": "Jonathan McCormick",
+  "page_date": "2023-05-26",
+  "site_name": "ScholarWorks",
+  "canonical_url": "https://scholarworks.waldenu.edu/dissertations/11774"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "f354d0e216bfca988dd4",
+  "normalized_url": "https://nwlc.org/resource/by-the-numbers-data-on-key-programs-for-the-well-being-of-women-lgbtqi-people-and-their-families",
+  "fetch_timestamp_utc": "2026-10-04T02:51:45.563847+00:00",
+  "registrable_domain": "nwlc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nwlc.org/resource/by-the-numbers-data-on-key-programs-for-the-well-being-of-women-lgbtqi-people-and-their-families/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 350376,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f354d0e216bfca988dd4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f354d0e216bfca988dd4.txt",
+  "text_chars": 21761,
+  "text_words": 3238,
+  "extraction_status": "success",
+  "page_title": "BY THE NUMBERS: Data on Key Programs for the Well-Being of Women, LGBTQI+ People, and Their Families - National Women's Law Center",
+  "page_author": null,
+  "page_date": "2026-03-09",
+  "site_name": "National Women's Law Center",
+  "canonical_url": "https://nwlc.org/resource/by-the-numbers-data-on-key-programs-for-the-well-being-of-women-lgbtqi-people-and-their-families/"
+}

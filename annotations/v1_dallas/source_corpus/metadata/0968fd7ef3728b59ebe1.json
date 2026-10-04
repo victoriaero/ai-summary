@@ -1,0 +1,27 @@
+{
+  "source_id": "0968fd7ef3728b59ebe1",
+  "normalized_url": "https://borgenproject.org/lack-of-access-to-education",
+  "fetch_timestamp_utc": "2026-09-29T19:18:45.462058+00:00",
+  "registrable_domain": "borgenproject.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://borgenproject.org/lack-of-access-to-education",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:18:49 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+    "ki-edge": "v=28.5.0;mv=99.9.9",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=i9OZNlSIuBAhynrX%2Ff%2B%2FCGn9zDD%2FMKOL1oWtRpLndRFJZYSSBNLGSknZuhLHS1B63fRb49XmcO59lPYYA5rxak3R5WZyeL9ICZ2foTtUga7JGM681u0O7q0rzTbOxXjo2Pqc\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d55fd5c3729b4-GRU",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 103,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

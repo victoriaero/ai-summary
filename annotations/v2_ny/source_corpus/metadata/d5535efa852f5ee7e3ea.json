@@ -1,0 +1,28 @@
+{
+  "source_id": "d5535efa852f5ee7e3ea",
+  "normalized_url": "https://hope.temple.edu/newsroom/hope-blog/securing-basic-needs-transgender-students",
+  "fetch_timestamp_utc": "2026-10-04T02:49:31.928040+00:00",
+  "registrable_domain": "temple.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hope.temple.edu/newsroom/hope-blog/securing-basic-needs-transgender-students",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 84425,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/d5535efa852f5ee7e3ea.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/d5535efa852f5ee7e3ea.txt",
+  "text_chars": 12428,
+  "text_words": 1871,
+  "extraction_status": "success",
+  "page_title": "Securing the Basic Needs of Transgender Students",
+  "page_author": null,
+  "page_date": "2023-03-13",
+  "site_name": "The Hope Center for Student Basic Needs",
+  "canonical_url": "https://hope.temple.edu/newsroom/hope-blog/securing-basic-needs-transgender-students"
+}

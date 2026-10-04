@@ -1,0 +1,28 @@
+{
+  "source_id": "3c09b5bf0261923823c2",
+  "normalized_url": "https://thearc.org/blog/whats-happening-at-the-social-security-administration-heres-what-people-with-disabilities-need-to-know",
+  "fetch_timestamp_utc": "2026-10-04T02:37:11.160871+00:00",
+  "registrable_domain": "thearc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://thearc.org/blog/whats-happening-at-the-social-security-administration-heres-what-people-with-disabilities-need-to-know",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 197346,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3c09b5bf0261923823c2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3c09b5bf0261923823c2.txt",
+  "text_chars": 15252,
+  "text_words": 2418,
+  "extraction_status": "success",
+  "page_title": "What’s Happening at the Social Security Administration? Here’s What People with Disabilities Need to Know.",
+  "page_author": "Jackie Dilworth",
+  "page_date": "2025-04-02",
+  "site_name": "The Arc of the United States",
+  "canonical_url": "https://thearc.org/blog/whats-happening-at-the-social-security-administration-heres-what-people-with-disabilities-need-to-know/"
+}

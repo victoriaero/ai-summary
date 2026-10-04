@@ -1,0 +1,28 @@
+{
+  "source_id": "0ed5632df95229327249",
+  "normalized_url": "https://icjia.illinois.gov/researchhub/articles/examining-the-experiences-of-women-police-leaders-in-illinois",
+  "fetch_timestamp_utc": "2026-10-04T02:33:44.109750+00:00",
+  "registrable_domain": "illinois.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://icjia.illinois.gov/researchhub/articles/examining-the-experiences-of-women-police-leaders-in-illinois",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 7228,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0ed5632df95229327249.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0ed5632df95229327249.txt",
+  "text_chars": 103,
+  "text_words": 12,
+  "extraction_status": "success",
+  "page_title": "ICJIA | Illinois Criminal Justice Information Authority",
+  "page_author": "Illinois Criminal Justice Information Authority",
+  "page_date": "2026-03-26",
+  "site_name": "Illinois Criminal Justice Information Authority",
+  "canonical_url": "https://icjia.illinois.gov/"
+}

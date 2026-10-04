@@ -1,0 +1,28 @@
+{
+  "source_id": "6550f72882e81d532038",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530172",
+  "fetch_timestamp_utc": "2026-10-04T02:40:35.974811+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530172/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 228960,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6550f72882e81d532038.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6550f72882e81d532038.txt",
+  "text_chars": 64680,
+  "text_words": 9348,
+  "extraction_status": "success",
+  "page_title": "County- and state-level immigration policies are associated with Supplemental Nutrition Assistance Program (SNAP) participation among Latino households",
+  "page_author": "M Pia Chaparro; Amy H Auchincloss; Sofia Argibay; Dominic Ruggiero; Jonathan Purtle; Brent A Langellier",
+  "page_date": "2023-08-06",
+  "site_name": "Social science & medicine (1982)",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10530172/"
+}

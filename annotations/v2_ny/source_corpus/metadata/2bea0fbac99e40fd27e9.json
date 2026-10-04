@@ -1,0 +1,28 @@
+{
+  "source_id": "2bea0fbac99e40fd27e9",
+  "normalized_url": "https://news.unitedforequity.org/federal-snap-cuts-have-denied-millions-of-latinos-and-other-americans-help-paying-for-food",
+  "fetch_timestamp_utc": "2026-10-04T02:36:03.106476+00:00",
+  "registrable_domain": "unitedforequity.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://news.unitedforequity.org/federal-snap-cuts-have-denied-millions-of-latinos-and-other-americans-help-paying-for-food/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 239776,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2bea0fbac99e40fd27e9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2bea0fbac99e40fd27e9.txt",
+  "text_chars": 17927,
+  "text_words": 3645,
+  "extraction_status": "success",
+  "page_title": "Federal SNAP cuts have denied millions of Latinos and other Americans help paying for food - United for Equity",
+  "page_author": "United",
+  "page_date": "2026-06-16",
+  "site_name": "United for Equity News",
+  "canonical_url": "https://news.unitedforequity.org/federal-snap-cuts-have-denied-millions-of-latinos-and-other-americans-help-paying-for-food/"
+}

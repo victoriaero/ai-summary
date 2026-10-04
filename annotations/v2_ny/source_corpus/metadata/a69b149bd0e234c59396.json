@@ -1,0 +1,28 @@
+{
+  "source_id": "a69b149bd0e234c59396",
+  "normalized_url": "https://minorityhealth.hhs.gov/hispaniclatino-health",
+  "fetch_timestamp_utc": "2026-10-04T02:46:06.131744+00:00",
+  "registrable_domain": "hhs.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://minorityhealth.hhs.gov/hispaniclatino-health",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 179305,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a69b149bd0e234c59396.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a69b149bd0e234c59396.txt",
+  "text_chars": 5560,
+  "text_words": 821,
+  "extraction_status": "success",
+  "page_title": "Hispanic/Latino Health",
+  "page_author": null,
+  "page_date": "2026-02-02",
+  "site_name": "Office of Minority Health",
+  "canonical_url": "https://minorityhealth.hhs.gov/hispaniclatino-health"
+}

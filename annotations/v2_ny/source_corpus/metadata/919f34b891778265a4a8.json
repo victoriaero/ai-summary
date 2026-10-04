@@ -1,0 +1,28 @@
+{
+  "source_id": "919f34b891778265a4a8",
+  "normalized_url": "https://synchrony.com/blog/bank/financial-literacy-hispanic-communities",
+  "fetch_timestamp_utc": "2026-10-04T02:44:10.902104+00:00",
+  "registrable_domain": "synchrony.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.synchrony.com/blog/bank/financial-literacy-hispanic-communities",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 145278,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/919f34b891778265a4a8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/919f34b891778265a4a8.txt",
+  "text_chars": 9249,
+  "text_words": 1347,
+  "extraction_status": "success",
+  "page_title": "How to Empower Financial Literacy in Hispanic Communities",
+  "page_author": "Alex Soto Published Sep",
+  "page_date": "2023-09-26",
+  "site_name": "synchrony.com",
+  "canonical_url": "https://www.synchrony.com/blog/bank/financial-literacy-hispanic-communities"
+}

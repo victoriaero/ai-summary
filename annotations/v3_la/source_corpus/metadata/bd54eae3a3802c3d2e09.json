@@ -1,0 +1,28 @@
+{
+  "source_id": "bd54eae3a3802c3d2e09",
+  "normalized_url": "https://ebsco.com/research-starters/politics-and-government/housing-stability",
+  "fetch_timestamp_utc": "2026-10-04T03:44:55.161573+00:00",
+  "registrable_domain": "ebsco.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ebsco.com/research-starters/politics-and-government/housing-stability",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 169651,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/bd54eae3a3802c3d2e09.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/bd54eae3a3802c3d2e09.txt",
+  "text_chars": 26288,
+  "text_words": 3777,
+  "extraction_status": "success",
+  "page_title": "Housing stability | Politics and Government | Research Starters | EBSCOhost",
+  "page_author": null,
+  "page_date": "2022-04-29",
+  "site_name": "EBSCO",
+  "canonical_url": "https://www.ebsco.com/"
+}

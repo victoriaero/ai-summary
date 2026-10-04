@@ -1,0 +1,28 @@
+{
+  "source_id": "5f064bace74f61b96458",
+  "normalized_url": "https://indigo.uic.edu/articles/poster/Los_Encarcelados_Assessing_the_Increasing_Rate_of_Latinos_in_American_Prisons/27919005",
+  "fetch_timestamp_utc": "2026-10-04T03:37:47.661500+00:00",
+  "registrable_domain": "uic.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 202,
+  "final_url": "https://indigo.uic.edu/articles/poster/Los_Encarcelados_Assessing_the_Increasing_Rate_of_Latinos_in_American_Prisons/27919005",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 2009,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5f064bace74f61b96458.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5f064bace74f61b96458.txt",
+  "text_chars": 157,
+  "text_words": 26,
+  "extraction_status": "success",
+  "page_title": "JavaScript is disabled",
+  "page_author": null,
+  "page_date": null,
+  "site_name": "indigo.uic.edu",
+  "canonical_url": "https://indigo.uic.edu/articles/poster/Los_Encarcelados_Assessing_the_Increasing_Rate_of_Latinos_in_American_Prisons/27919005"
+}

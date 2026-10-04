@@ -1,0 +1,28 @@
+{
+  "source_id": "83114d179c1b944e8ca2",
+  "normalized_url": "https://unesco.org/en/articles/qa-role-teachers-preventing-and-addressing-school-violence",
+  "fetch_timestamp_utc": "2026-10-04T03:40:41.785755+00:00",
+  "registrable_domain": "unesco.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.unesco.org/en/articles/qa-role-teachers-preventing-and-addressing-school-violence",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 100541,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/83114d179c1b944e8ca2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/83114d179c1b944e8ca2.txt",
+  "text_chars": 9436,
+  "text_words": 1397,
+  "extraction_status": "success",
+  "page_title": "Q&A: The role of teachers in preventing and addressing school",
+  "page_author": "UNESCO",
+  "page_date": "2022-10-27",
+  "site_name": "UNESCO",
+  "canonical_url": "https://www.unesco.org/en/articles/qa-role-teachers-preventing-and-addressing-school-violence"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "430f8b43b38b4d624c90",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10811440",
+  "fetch_timestamp_utc": "2026-10-04T03:35:32.353193+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10811440",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 21372,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/430f8b43b38b4d624c90.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/430f8b43b38b4d624c90.txt",
+  "text_chars": 131,
+  "text_words": 18,
+  "extraction_status": "success",
+  "page_title": "Checking your browser",
+  "page_author": null,
+  "page_date": "2026-09-11",
+  "site_name": "google.com",
+  "canonical_url": "https://www.google.com/recaptcha/challengepage"
+}

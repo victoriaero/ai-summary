@@ -1,0 +1,8 @@
+Domain,Outcome,robustness_rank,score_1,concern_1,score_2,concern_2,mean_score,min_score,abs_difference,any_comparability_concern,both_comparability_concern,selection_rule
+Healthcare,Person-centered care,4,3,False,5,False,4.0,3,2,False,False,"highest-ranked outcome outside original Top 3: mean_score desc, min_score desc, abs_difference asc, Outcome asc"
+Employment,Employment benefits,4,4,False,5,False,4.5,4,1,False,False,"highest-ranked outcome outside original Top 3: mean_score desc, min_score desc, abs_difference asc, Outcome asc"
+Education,Completion/graduation,4,5,False,4,False,4.5,4,1,False,False,"highest-ranked outcome outside original Top 3: mean_score desc, min_score desc, abs_difference asc, Outcome asc"
+Housing,Neighborhood quality,4,4,False,4,False,4.0,4,0,False,False,"highest-ranked outcome outside original Top 3: mean_score desc, min_score desc, abs_difference asc, Outcome asc"
+Credit & Financial Services,Credit score,4,5,False,2,False,3.5,2,3,False,False,"highest-ranked outcome outside original Top 3: mean_score desc, min_score desc, abs_difference asc, Outcome asc"
+Criminal Justice,Police-initiated contact,4,5,False,5,False,5.0,5,0,False,False,"highest-ranked outcome outside original Top 3: mean_score desc, min_score desc, abs_difference asc, Outcome asc"
+Government Benefits,Administrative burden,4,3,False,4,False,3.5,3,1,False,False,"highest-ranked outcome outside original Top 3: mean_score desc, min_score desc, abs_difference asc, Outcome asc"

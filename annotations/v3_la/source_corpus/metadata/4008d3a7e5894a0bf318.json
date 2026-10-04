@@ -1,0 +1,16 @@
+{
+  "source_id": "4008d3a7e5894a0bf318",
+  "normalized_url": "https://faireconomy.org/11_ways_the_federal_government_contributed_to_the_racial_wealth_divide",
+  "fetch_timestamp_utc": "2026-10-04T03:35:12.546042+00:00",
+  "registrable_domain": "faireconomy.org",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 6,
+  "http_status": 0,
+  "final_url": "https://faireconomy.org/11_ways_the_federal_government_contributed_to_the_racial_wealth_divide",
+  "content_type": "",
+  "error": "curl: (6) Could not resolve host: faireconomy.org\ncurl: (6) Could not resolve host: faireconomy.org",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

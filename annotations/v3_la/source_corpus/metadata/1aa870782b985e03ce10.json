@@ -1,0 +1,28 @@
+{
+  "source_id": "1aa870782b985e03ce10",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12009860",
+  "fetch_timestamp_utc": "2026-10-04T03:32:44.936458+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12009860/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 234232,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/1aa870782b985e03ce10.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/1aa870782b985e03ce10.txt",
+  "text_chars": 73526,
+  "text_words": 10781,
+  "extraction_status": "success",
+  "page_title": "Protected grounds of discrimination and the risk of workplace bullying",
+  "page_author": "Michael Rosander; Helge Hoel; Stefan Blomberg",
+  "page_date": "2025-04-07",
+  "site_name": "Frontiers in Psychology",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12009860/"
+}

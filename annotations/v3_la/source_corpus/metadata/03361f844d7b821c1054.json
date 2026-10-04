@@ -1,0 +1,20 @@
+{
+  "source_id": "03361f844d7b821c1054",
+  "normalized_url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1135&context=gradprojects",
+  "fetch_timestamp_utc": "2026-10-04T03:30:53.552038+00:00",
+  "registrable_domain": "gvsu.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1135&context=gradprojects",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5792,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

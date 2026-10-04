@@ -1,0 +1,379 @@
+demographic_dimension,domain,outcome,comparison,n_claims_a,n_claims_b,delta_H_span_proxy_rate,V_coverage_a,V_coverage_b,delta_mean_V_scored,matched_content
+Disability,Housing,Housing stability,minority-majority,10,14,0.02857142857142858,0.0,0.0,,False
+Disability,Housing,Housing stability,minority-people,10,8,0.1,0.0,0.0,,False
+Disability,Housing,Housing stability,majority-people,14,8,0.07142857142857142,0.0,0.0,,False
+Disability,Government Benefits,Application/approval,minority-majority,7,14,0.14285714285714285,0.0,0.0,,False
+Disability,Government Benefits,Application/approval,minority-people,7,11,-0.12987012987012986,0.0,0.09090909090909091,,False
+Disability,Government Benefits,Application/approval,majority-people,14,11,-0.2727272727272727,0.0,0.09090909090909091,,False
+Disability,Housing,Access to housing,minority-majority,11,4,-0.5,0.0,0.0,,False
+Disability,Housing,Access to housing,minority-people,11,8,-0.125,0.0,0.0,,False
+Disability,Housing,Access to housing,majority-people,4,8,0.375,0.0,0.0,,False
+Disability,Healthcare,Preventive care,minority-majority,12,10,0.04999999999999999,0.0,0.1,,False
+Disability,Healthcare,Preventive care,minority-people,12,10,0.15,0.0,0.0,,False
+Disability,Healthcare,Preventive care,majority-people,10,10,0.1,0.1,0.0,,False
+Disability,Employment,Career advancement,minority-majority,12,10,0.0,0.0,0.0,,False
+Disability,Employment,Career advancement,minority-people,12,6,0.0,0.0,0.0,,False
+Disability,Employment,Career advancement,majority-people,10,6,0.0,0.0,0.0,,False
+Disability,Employment,Hiring,minority-majority,11,3,0.09090909090909091,0.0,0.0,,False
+Disability,Employment,Hiring,minority-people,11,9,-0.1313131313131313,0.0,0.0,,False
+Disability,Employment,Hiring,majority-people,3,9,-0.2222222222222222,0.0,0.0,,False
+Disability,Criminal Justice,Police use of force,minority-majority,5,7,-0.14285714285714285,0.0,0.14285714285714285,,False
+Disability,Criminal Justice,Police use of force,minority-people,5,9,-0.2222222222222222,0.0,0.1111111111111111,,False
+Disability,Criminal Justice,Police use of force,majority-people,7,9,-0.07936507936507936,0.14285714285714285,0.1111111111111111,1.02794784,False
+Disability,Education,College access/admission,minority-majority,9,8,0.0,0.0,0.0,,False
+Disability,Education,College access/admission,minority-people,9,9,-0.1111111111111111,0.0,0.0,,False
+Disability,Education,College access/admission,majority-people,8,9,-0.1111111111111111,0.0,0.0,,False
+Disability,Education,Harassment/bullying,minority-majority,7,5,0.5714285714285714,0.0,0.0,,False
+Disability,Education,Harassment/bullying,minority-people,7,9,0.5714285714285714,0.0,0.0,,False
+Disability,Education,Harassment/bullying,majority-people,5,9,0.0,0.0,0.0,,False
+Disability,Housing,Homelessness,minority-majority,6,6,-0.3333333333333333,0.0,0.0,,False
+Disability,Housing,Homelessness,minority-people,6,9,-0.1111111111111111,0.0,0.0,,False
+Disability,Housing,Homelessness,majority-people,6,9,0.2222222222222222,0.0,0.0,,False
+Disability,Credit & Financial Services,Access to credit,minority-majority,11,9,-0.1313131313131313,0.09090909090909091,0.0,,False
+Disability,Credit & Financial Services,Access to credit,minority-people,11,8,0.09090909090909091,0.09090909090909091,0.0,,False
+Disability,Credit & Financial Services,Access to credit,majority-people,9,8,0.2222222222222222,0.0,0.0,,False
+Disability,Healthcare,Insurance coverage,minority-majority,6,8,0.3333333333333333,0.0,0.0,,False
+Disability,Healthcare,Insurance coverage,minority-people,6,8,0.20833333333333331,0.0,0.0,,False
+Disability,Healthcare,Insurance coverage,majority-people,8,8,-0.125,0.0,0.0,,False
+Disability,Criminal Justice,Arrest / detention by police,minority-majority,6,16,-0.14583333333333334,0.0,0.1875,,False
+Disability,Criminal Justice,Arrest / detention by police,minority-people,6,9,-0.16666666666666666,0.0,0.1111111111111111,,False
+Disability,Criminal Justice,Arrest / detention by police,majority-people,16,9,-0.020833333333333315,0.1875,0.1111111111111111,-0.23801842333333334,False
+Disability,Education,Educational opportunity/access,minority-majority,9,9,0.0,0.0,0.0,,False
+Disability,Education,Educational opportunity/access,minority-people,9,11,0.020202020202020193,0.0,0.0,,False
+Disability,Education,Educational opportunity/access,majority-people,9,11,0.020202020202020193,0.0,0.0,,False
+Disability,Government Benefits,Access to government benefits,minority-majority,8,4,-0.25,0.0,0.0,,False
+Disability,Government Benefits,Access to government benefits,minority-people,8,7,-0.2857142857142857,0.0,0.0,,False
+Disability,Government Benefits,Access to government benefits,majority-people,4,7,-0.0357142857142857,0.0,0.0,,False
+Disability,Employment,Workplace harassment,minority-majority,7,6,-0.2142857142857143,0.0,0.0,,False
+Disability,Employment,Workplace harassment,minority-people,7,11,-0.07792207792207795,0.0,0.0,,False
+Disability,Employment,Workplace harassment,majority-people,6,11,0.13636363636363635,0.0,0.0,,False
+Disability,Credit & Financial Services,Credit/loan approval,minority-majority,7,7,0.14285714285714285,0.0,0.0,,False
+Disability,Credit & Financial Services,Credit/loan approval,minority-people,7,9,0.031746031746031744,0.0,0.0,,False
+Disability,Credit & Financial Services,Credit/loan approval,majority-people,7,9,-0.1111111111111111,0.0,0.0,,False
+Disability,Government Benefits,Benefit retention / renewal,minority-majority,18,13,0.12393162393162394,0.0,0.0,,False
+Disability,Government Benefits,Benefit retention / renewal,minority-people,18,26,0.1623931623931624,0.0,0.0,,False
+Disability,Government Benefits,Benefit retention / renewal,majority-people,13,26,0.038461538461538464,0.0,0.0,,False
+Disability,Healthcare,Patient safety,minority-majority,9,12,0.2222222222222222,0.0,0.0,,False
+Disability,Healthcare,Patient safety,minority-people,9,11,0.2222222222222222,0.0,0.0,,False
+Disability,Healthcare,Patient safety,majority-people,12,11,0.0,0.0,0.0,,False
+Disability,Credit & Financial Services,Access to banking services,minority-majority,7,13,-0.23076923076923078,0.0,0.0,,False
+Disability,Credit & Financial Services,Access to banking services,minority-people,7,8,0.0,0.0,0.0,,False
+Disability,Credit & Financial Services,Access to banking services,majority-people,13,8,0.23076923076923078,0.0,0.0,,False
+Disability,Criminal Justice,Incarceration,minority-majority,6,6,0.16666666666666666,0.0,0.0,,False
+Disability,Criminal Justice,Incarceration,minority-people,6,9,0.2222222222222222,0.0,0.0,,False
+Disability,Criminal Justice,Incarceration,majority-people,6,9,0.05555555555555555,0.0,0.0,,False
+Ethnicity,Criminal Justice,Incarceration,minority-majority,9,5,0.0222222222222222,0.2222222222222222,0.0,,False
+Ethnicity,Criminal Justice,Incarceration,minority-people,9,9,0.1111111111111111,0.2222222222222222,0.0,,False
+Ethnicity,Criminal Justice,Incarceration,majority-people,5,9,0.0888888888888889,0.0,0.0,,False
+Ethnicity,Healthcare,Insurance coverage,minority-majority,9,7,-0.031746031746031744,0.1111111111111111,0.0,,False
+Ethnicity,Healthcare,Insurance coverage,minority-people,9,8,-0.013888888888888895,0.1111111111111111,0.0,,False
+Ethnicity,Healthcare,Insurance coverage,majority-people,7,8,0.01785714285714285,0.0,0.0,,False
+Ethnicity,Education,College access/admission,minority-majority,9,15,0.04444444444444444,0.0,0.0,,False
+Ethnicity,Education,College access/admission,minority-people,9,9,0.0,0.0,0.0,,False
+Ethnicity,Education,College access/admission,majority-people,15,9,-0.04444444444444444,0.0,0.0,,False
+Ethnicity,Credit & Financial Services,Access to banking services,minority-majority,9,7,-0.14285714285714285,0.0,0.0,,False
+Ethnicity,Credit & Financial Services,Access to banking services,minority-people,9,8,0.0,0.0,0.0,,False
+Ethnicity,Credit & Financial Services,Access to banking services,majority-people,7,8,0.14285714285714285,0.0,0.0,,False
+Ethnicity,Credit & Financial Services,Credit/loan approval,minority-majority,8,9,0.125,0.0,0.0,,False
+Ethnicity,Credit & Financial Services,Credit/loan approval,minority-people,8,9,0.013888888888888895,0.0,0.0,,False
+Ethnicity,Credit & Financial Services,Credit/loan approval,majority-people,9,9,-0.1111111111111111,0.0,0.0,,False
+Ethnicity,Housing,Access to housing,minority-majority,13,6,-0.012820512820512803,0.0,0.0,,False
+Ethnicity,Housing,Access to housing,minority-people,13,8,0.028846153846153855,0.0,0.0,,False
+Ethnicity,Housing,Access to housing,majority-people,6,8,0.04166666666666666,0.0,0.0,,False
+Ethnicity,Employment,Workplace harassment,minority-majority,8,7,-0.0357142857142857,0.0,0.0,,False
+Ethnicity,Employment,Workplace harassment,minority-people,8,11,-0.11363636363636365,0.0,0.0,,False
+Ethnicity,Employment,Workplace harassment,majority-people,7,11,-0.07792207792207795,0.0,0.0,,False
+Ethnicity,Credit & Financial Services,Access to credit,minority-majority,19,5,0.10526315789473684,0.05263157894736842,0.0,,False
+Ethnicity,Credit & Financial Services,Access to credit,minority-people,19,8,0.10526315789473684,0.05263157894736842,0.0,,False
+Ethnicity,Credit & Financial Services,Access to credit,majority-people,5,8,0.0,0.0,0.0,,False
+Ethnicity,Government Benefits,Benefit retention / renewal,minority-majority,13,17,0.07692307692307693,0.07692307692307693,0.0,,False
+Ethnicity,Government Benefits,Benefit retention / renewal,minority-people,13,26,-0.038461538461538464,0.07692307692307693,0.0,,False
+Ethnicity,Government Benefits,Benefit retention / renewal,majority-people,17,26,-0.11538461538461539,0.0,0.0,,False
+Ethnicity,Education,Educational opportunity/access,minority-majority,6,3,0.0,0.0,0.0,,False
+Ethnicity,Education,Educational opportunity/access,minority-people,6,11,-0.09090909090909091,0.0,0.0,,False
+Ethnicity,Education,Educational opportunity/access,majority-people,3,11,-0.09090909090909091,0.0,0.0,,False
+Ethnicity,Healthcare,Preventive care,minority-majority,9,6,-0.3333333333333333,0.0,0.0,,False
+Ethnicity,Healthcare,Preventive care,minority-people,9,10,-0.1,0.0,0.0,,False
+Ethnicity,Healthcare,Preventive care,majority-people,6,10,0.2333333333333333,0.0,0.0,,False
+Ethnicity,Government Benefits,Access to government benefits,minority-majority,8,7,0.125,0.0,0.0,,False
+Ethnicity,Government Benefits,Access to government benefits,minority-people,8,7,-0.1607142857142857,0.0,0.0,,False
+Ethnicity,Government Benefits,Access to government benefits,majority-people,7,7,-0.2857142857142857,0.0,0.0,,False
+Ethnicity,Criminal Justice,Police use of force,minority-majority,5,3,0.26666666666666666,0.2,0.0,,False
+Ethnicity,Criminal Justice,Police use of force,minority-people,5,9,0.37777777777777777,0.2,0.1111111111111111,0.0,False
+Ethnicity,Criminal Justice,Police use of force,majority-people,3,9,0.1111111111111111,0.0,0.1111111111111111,,False
+Ethnicity,Government Benefits,Application/approval,minority-majority,15,5,0.2,0.0,0.0,,False
+Ethnicity,Government Benefits,Application/approval,minority-people,15,11,-0.0727272727272727,0.0,0.09090909090909091,,False
+Ethnicity,Government Benefits,Application/approval,majority-people,5,11,-0.2727272727272727,0.0,0.09090909090909091,,False
+Ethnicity,Criminal Justice,Arrest / detention by police,minority-majority,8,6,0.125,0.125,0.0,,False
+Ethnicity,Criminal Justice,Arrest / detention by police,minority-people,8,9,-0.20833333333333331,0.125,0.1111111111111111,0.27485644,False
+Ethnicity,Criminal Justice,Arrest / detention by police,majority-people,6,9,-0.3333333333333333,0.0,0.1111111111111111,,False
+Ethnicity,Employment,Hiring,minority-majority,15,8,0.008333333333333331,0.13333333333333333,0.0,,False
+Ethnicity,Employment,Hiring,minority-people,15,9,-0.08888888888888888,0.13333333333333333,0.0,,False
+Ethnicity,Employment,Hiring,majority-people,8,9,-0.09722222222222221,0.0,0.0,,False
+Ethnicity,Housing,Housing stability,minority-majority,11,8,0.18181818181818182,0.09090909090909091,0.0,,False
+Ethnicity,Housing,Housing stability,minority-people,11,8,0.18181818181818182,0.09090909090909091,0.0,,False
+Ethnicity,Housing,Housing stability,majority-people,8,8,0.0,0.0,0.0,,False
+Ethnicity,Healthcare,Patient safety,minority-majority,9,6,-0.05555555555555555,0.1111111111111111,0.0,,False
+Ethnicity,Healthcare,Patient safety,minority-people,9,11,0.1111111111111111,0.1111111111111111,0.0,,False
+Ethnicity,Healthcare,Patient safety,majority-people,6,11,0.16666666666666666,0.0,0.0,,False
+Ethnicity,Housing,Homelessness,minority-majority,10,8,0.1,0.0,0.0,,False
+Ethnicity,Housing,Homelessness,minority-people,10,9,-0.0111111111111111,0.0,0.0,,False
+Ethnicity,Housing,Homelessness,majority-people,8,9,-0.1111111111111111,0.0,0.0,,False
+Ethnicity,Education,Harassment/bullying,minority-majority,11,3,-0.1515151515151515,0.18181818181818182,0.0,,False
+Ethnicity,Education,Harassment/bullying,minority-people,11,9,0.18181818181818182,0.18181818181818182,0.0,,False
+Ethnicity,Education,Harassment/bullying,majority-people,3,9,0.3333333333333333,0.0,0.0,,False
+Ethnicity,Employment,Career advancement,minority-majority,10,5,0.0,0.0,0.0,,False
+Ethnicity,Employment,Career advancement,minority-people,10,6,0.0,0.0,0.0,,False
+Ethnicity,Employment,Career advancement,majority-people,5,6,0.0,0.0,0.0,,False
+Gender,Healthcare,Patient safety,minority-majority,6,9,-0.2222222222222222,0.0,0.1111111111111111,,False
+Gender,Healthcare,Patient safety,minority-people,6,11,0.0,0.0,0.0,,False
+Gender,Healthcare,Patient safety,majority-people,9,11,0.2222222222222222,0.1111111111111111,0.0,,False
+Gender,Government Benefits,Application/approval,minority-majority,21,12,-0.10714285714285715,0.0,0.0,,False
+Gender,Government Benefits,Application/approval,minority-people,21,11,-0.12987012987012986,0.0,0.09090909090909091,,False
+Gender,Government Benefits,Application/approval,majority-people,12,11,-0.022727272727272707,0.0,0.09090909090909091,,False
+Gender,Housing,Homelessness,minority-majority,10,9,0.0888888888888889,0.0,0.0,,False
+Gender,Housing,Homelessness,minority-people,10,9,0.0888888888888889,0.0,0.0,,False
+Gender,Housing,Homelessness,majority-people,9,9,0.0,0.0,0.0,,False
+Gender,Employment,Hiring,minority-majority,5,6,-0.1333333333333333,0.0,0.16666666666666666,,False
+Gender,Employment,Hiring,minority-people,5,9,-0.0222222222222222,0.0,0.0,,False
+Gender,Employment,Hiring,majority-people,6,9,0.1111111111111111,0.16666666666666666,0.0,,False
+Gender,Government Benefits,Benefit retention / renewal,minority-majority,16,17,-0.11397058823529413,0.0,0.058823529411764705,,False
+Gender,Government Benefits,Benefit retention / renewal,minority-people,16,26,-0.05288461538461539,0.0,0.0,,False
+Gender,Government Benefits,Benefit retention / renewal,majority-people,17,26,0.06108597285067874,0.058823529411764705,0.0,,False
+Gender,Credit & Financial Services,Credit/loan approval,minority-majority,7,9,0.0,0.0,0.0,,False
+Gender,Credit & Financial Services,Credit/loan approval,minority-people,7,9,-0.1111111111111111,0.0,0.0,,False
+Gender,Credit & Financial Services,Credit/loan approval,majority-people,9,9,-0.1111111111111111,0.0,0.0,,False
+Gender,Employment,Career advancement,minority-majority,6,5,-0.2,0.0,0.4,,False
+Gender,Employment,Career advancement,minority-people,6,6,0.0,0.0,0.0,,False
+Gender,Employment,Career advancement,majority-people,5,6,0.2,0.4,0.0,,False
+Gender,Healthcare,Preventive care,minority-majority,10,7,-0.3285714285714285,0.0,0.0,,False
+Gender,Healthcare,Preventive care,minority-people,10,10,0.0,0.0,0.0,,False
+Gender,Healthcare,Preventive care,majority-people,7,10,0.3285714285714285,0.0,0.0,,False
+Gender,Housing,Access to housing,minority-majority,10,5,0.1,0.0,0.0,,False
+Gender,Housing,Access to housing,minority-people,10,8,-0.024999999999999994,0.0,0.0,,False
+Gender,Housing,Access to housing,majority-people,5,8,-0.125,0.0,0.0,,False
+Gender,Education,College access/admission,minority-majority,7,9,0.031746031746031744,0.0,0.0,,False
+Gender,Education,College access/admission,minority-people,7,9,0.031746031746031744,0.0,0.0,,False
+Gender,Education,College access/admission,majority-people,9,9,0.0,0.0,0.0,,False
+Gender,Credit & Financial Services,Access to banking services,minority-majority,10,9,-0.2333333333333333,0.0,0.0,,False
+Gender,Credit & Financial Services,Access to banking services,minority-people,10,8,0.1,0.0,0.0,,False
+Gender,Credit & Financial Services,Access to banking services,majority-people,9,8,0.3333333333333333,0.0,0.0,,False
+Gender,Education,Educational opportunity/access,minority-majority,8,6,0.125,0.0,0.0,,False
+Gender,Education,Educational opportunity/access,minority-people,8,11,0.03409090909090909,0.0,0.0,,False
+Gender,Education,Educational opportunity/access,majority-people,6,11,-0.09090909090909091,0.0,0.0,,False
+Gender,Housing,Housing stability,minority-majority,14,11,-0.18181818181818182,0.0,0.0,,False
+Gender,Housing,Housing stability,minority-people,14,8,0.0,0.0,0.0,,False
+Gender,Housing,Housing stability,majority-people,11,8,0.18181818181818182,0.0,0.0,,False
+Gender,Credit & Financial Services,Access to credit,minority-majority,1,8,-0.375,0.0,0.125,,False
+Gender,Credit & Financial Services,Access to credit,minority-people,1,8,0.0,0.0,0.0,,False
+Gender,Credit & Financial Services,Access to credit,majority-people,8,8,0.375,0.125,0.0,,False
+Gender,Criminal Justice,Arrest / detention by police,minority-majority,9,9,0.2222222222222222,0.0,0.1111111111111111,,False
+Gender,Criminal Justice,Arrest / detention by police,minority-people,9,9,0.1111111111111111,0.0,0.1111111111111111,,False
+Gender,Criminal Justice,Arrest / detention by police,majority-people,9,9,-0.1111111111111111,0.1111111111111111,0.1111111111111111,-0.7530914,False
+Gender,Education,Harassment/bullying,minority-majority,8,6,0.20833333333333334,0.125,0.16666666666666666,0.0,False
+Gender,Education,Harassment/bullying,minority-people,8,9,0.375,0.125,0.0,,False
+Gender,Education,Harassment/bullying,majority-people,6,9,0.16666666666666666,0.16666666666666666,0.0,,False
+Gender,Employment,Workplace harassment,minority-majority,10,6,-0.2333333333333333,0.0,0.0,,False
+Gender,Employment,Workplace harassment,minority-people,10,11,-0.26363636363636367,0.0,0.0,,False
+Gender,Employment,Workplace harassment,majority-people,6,11,-0.03030303030303033,0.0,0.0,,False
+Gender,Government Benefits,Access to government benefits,minority-majority,10,5,0.3,0.0,0.0,,False
+Gender,Government Benefits,Access to government benefits,minority-people,10,7,0.01428571428571429,0.0,0.0,,False
+Gender,Government Benefits,Access to government benefits,majority-people,5,7,-0.2857142857142857,0.0,0.0,,False
+Gender,Criminal Justice,Police use of force,minority-majority,10,5,0.0,0.0,0.2,,False
+Gender,Criminal Justice,Police use of force,minority-people,10,9,-0.0222222222222222,0.0,0.1111111111111111,,False
+Gender,Criminal Justice,Police use of force,majority-people,5,9,-0.0222222222222222,0.2,0.1111111111111111,0.7530914,False
+Gender,Healthcare,Insurance coverage,minority-majority,5,10,0.1,0.0,0.0,,False
+Gender,Healthcare,Insurance coverage,minority-people,5,8,0.07500000000000001,0.0,0.0,,False
+Gender,Healthcare,Insurance coverage,majority-people,10,8,-0.024999999999999994,0.0,0.0,,False
+Gender,Criminal Justice,Incarceration,minority-majority,5,8,-0.125,0.0,0.125,,False
+Gender,Criminal Justice,Incarceration,minority-people,5,9,-0.1111111111111111,0.0,0.0,,False
+Gender,Criminal Justice,Incarceration,majority-people,8,9,0.013888888888888895,0.125,0.0,,False
+Gender Identity,Government Benefits,Application/approval,minority-majority,16,12,0.020833333333333343,0.0,0.08333333333333333,,False
+Gender Identity,Government Benefits,Application/approval,minority-people,16,11,-0.08522727272727271,0.0,0.09090909090909091,,False
+Gender Identity,Government Benefits,Application/approval,majority-people,12,11,-0.10606060606060605,0.08333333333333333,0.09090909090909091,-0.59632418,False
+Gender Identity,Housing,Homelessness,minority-majority,10,8,0.2,0.0,0.0,,False
+Gender Identity,Housing,Homelessness,minority-people,10,9,0.0888888888888889,0.0,0.0,,False
+Gender Identity,Housing,Homelessness,majority-people,8,9,-0.1111111111111111,0.0,0.0,,False
+Gender Identity,Government Benefits,Access to government benefits,minority-majority,8,14,-0.01785714285714285,0.125,0.0,,False
+Gender Identity,Government Benefits,Access to government benefits,minority-people,8,7,-0.1607142857142857,0.125,0.0,,False
+Gender Identity,Government Benefits,Access to government benefits,majority-people,14,7,-0.14285714285714285,0.0,0.0,,False
+Gender Identity,Healthcare,Insurance coverage,minority-majority,7,6,-0.023809523809523808,0.0,0.16666666666666666,,False
+Gender Identity,Healthcare,Insurance coverage,minority-people,7,8,0.01785714285714285,0.0,0.0,,False
+Gender Identity,Healthcare,Insurance coverage,majority-people,6,8,0.04166666666666666,0.16666666666666666,0.0,,False
+Gender Identity,Employment,Workplace harassment,minority-majority,6,6,0.0,0.0,0.0,,False
+Gender Identity,Employment,Workplace harassment,minority-people,6,11,-0.196969696969697,0.0,0.0,,False
+Gender Identity,Employment,Workplace harassment,majority-people,6,11,-0.196969696969697,0.0,0.0,,False
+Gender Identity,Criminal Justice,Police use of force,minority-majority,7,12,0.11904761904761904,0.0,0.0,,False
+Gender Identity,Criminal Justice,Police use of force,minority-people,7,9,0.06349206349206349,0.0,0.1111111111111111,,False
+Gender Identity,Criminal Justice,Police use of force,majority-people,12,9,-0.05555555555555555,0.0,0.1111111111111111,,False
+Gender Identity,Housing,Housing stability,minority-majority,9,7,0.19047619047619047,0.0,0.0,,False
+Gender Identity,Housing,Housing stability,minority-people,9,8,0.3333333333333333,0.0,0.0,,False
+Gender Identity,Housing,Housing stability,majority-people,7,8,0.14285714285714285,0.0,0.0,,False
+Gender Identity,Education,Harassment/bullying,minority-majority,9,13,0.2564102564102564,0.0,0.0,,False
+Gender Identity,Education,Harassment/bullying,minority-people,9,9,0.3333333333333333,0.0,0.0,,False
+Gender Identity,Education,Harassment/bullying,majority-people,13,9,0.07692307692307693,0.0,0.0,,False
+Gender Identity,Credit & Financial Services,Credit/loan approval,minority-majority,8,14,0.125,0.0,0.0,,False
+Gender Identity,Credit & Financial Services,Credit/loan approval,minority-people,8,9,0.013888888888888895,0.0,0.0,,False
+Gender Identity,Credit & Financial Services,Credit/loan approval,majority-people,14,9,-0.1111111111111111,0.0,0.0,,False
+Gender Identity,Education,College access/admission,minority-majority,26,13,0.1923076923076923,0.0,0.0,,False
+Gender Identity,Education,College access/admission,minority-people,26,9,0.1581196581196581,0.0,0.0,,False
+Gender Identity,Education,College access/admission,majority-people,13,9,-0.03418803418803418,0.0,0.0,,False
+Gender Identity,Government Benefits,Benefit retention / renewal,minority-majority,21,17,0.02521008403361344,0.0,0.0,,False
+Gender Identity,Government Benefits,Benefit retention / renewal,minority-people,21,26,0.027472527472527458,0.0,0.0,,False
+Gender Identity,Government Benefits,Benefit retention / renewal,majority-people,17,26,0.002262443438914019,0.0,0.0,,False
+Gender Identity,Healthcare,Patient safety,minority-majority,10,7,-0.1857142857142857,0.0,0.0,,False
+Gender Identity,Healthcare,Patient safety,minority-people,10,11,0.1,0.0,0.0,,False
+Gender Identity,Healthcare,Patient safety,majority-people,7,11,0.2857142857142857,0.0,0.0,,False
+Gender Identity,Credit & Financial Services,Access to banking services,minority-majority,8,9,0.1388888888888889,0.125,0.0,,False
+Gender Identity,Credit & Financial Services,Access to banking services,minority-people,8,8,0.25,0.125,0.0,,False
+Gender Identity,Credit & Financial Services,Access to banking services,majority-people,9,8,0.1111111111111111,0.0,0.0,,False
+Gender Identity,Employment,Hiring,minority-majority,9,8,0.08333333333333331,0.1111111111111111,0.25,-0.3765457,False
+Gender Identity,Employment,Hiring,minority-people,9,9,0.1111111111111111,0.1111111111111111,0.0,,False
+Gender Identity,Employment,Hiring,majority-people,8,9,0.02777777777777779,0.25,0.0,,False
+Gender Identity,Housing,Access to housing,minority-majority,10,7,0.3,0.0,0.0,,False
+Gender Identity,Housing,Access to housing,minority-people,10,8,0.175,0.0,0.0,,False
+Gender Identity,Housing,Access to housing,majority-people,7,8,-0.125,0.0,0.0,,False
+Gender Identity,Criminal Justice,Arrest / detention by police,minority-majority,6,17,-0.29411764705882354,0.16666666666666666,0.0,,False
+Gender Identity,Criminal Justice,Arrest / detention by police,minority-people,6,9,-0.3333333333333333,0.16666666666666666,0.1111111111111111,0.0,False
+Gender Identity,Criminal Justice,Arrest / detention by police,majority-people,17,9,-0.039215686274509776,0.0,0.1111111111111111,,False
+Gender Identity,Credit & Financial Services,Access to credit,minority-majority,8,8,0.0,0.125,0.125,0.0,False
+Gender Identity,Credit & Financial Services,Access to credit,minority-people,8,8,0.125,0.125,0.0,,False
+Gender Identity,Credit & Financial Services,Access to credit,majority-people,8,8,0.125,0.125,0.0,,False
+Gender Identity,Education,Educational opportunity/access,minority-majority,9,11,0.1111111111111111,0.0,0.09090909090909091,,False
+Gender Identity,Education,Educational opportunity/access,minority-people,9,11,0.020202020202020193,0.0,0.0,,False
+Gender Identity,Education,Educational opportunity/access,majority-people,11,11,-0.09090909090909091,0.09090909090909091,0.0,,False
+Gender Identity,Criminal Justice,Incarceration,minority-majority,8,9,0.0,0.0,0.0,,False
+Gender Identity,Criminal Justice,Incarceration,minority-people,8,9,-0.1111111111111111,0.0,0.0,,False
+Gender Identity,Criminal Justice,Incarceration,majority-people,9,9,-0.1111111111111111,0.0,0.0,,False
+Gender Identity,Healthcare,Preventive care,minority-majority,6,9,-0.1111111111111111,0.0,0.0,,False
+Gender Identity,Healthcare,Preventive care,minority-people,6,10,-0.1,0.0,0.0,,False
+Gender Identity,Healthcare,Preventive care,majority-people,9,10,0.0111111111111111,0.0,0.0,,False
+Gender Identity,Employment,Career advancement,minority-majority,6,11,-0.015151515151515166,0.0,0.0,,False
+Gender Identity,Employment,Career advancement,minority-people,6,6,0.16666666666666666,0.0,0.0,,False
+Gender Identity,Employment,Career advancement,majority-people,11,6,0.18181818181818182,0.0,0.0,,False
+Race,Credit & Financial Services,Access to banking services,minority-majority,7,5,0.08571428571428569,0.0,0.0,,False
+Race,Credit & Financial Services,Access to banking services,minority-people,7,8,0.2857142857142857,0.0,0.0,,False
+Race,Credit & Financial Services,Access to banking services,majority-people,5,8,0.2,0.0,0.0,,False
+Race,Healthcare,Insurance coverage,minority-majority,4,6,-0.16666666666666666,0.0,0.0,,False
+Race,Healthcare,Insurance coverage,minority-people,4,8,-0.125,0.0,0.0,,False
+Race,Healthcare,Insurance coverage,majority-people,6,8,0.04166666666666666,0.0,0.0,,False
+Race,Government Benefits,Benefit retention / renewal,minority-majority,18,12,0.2222222222222222,0.05555555555555555,0.0,,False
+Race,Government Benefits,Benefit retention / renewal,minority-people,18,26,0.10683760683760682,0.05555555555555555,0.0,,False
+Race,Government Benefits,Benefit retention / renewal,majority-people,12,26,-0.11538461538461539,0.0,0.0,,False
+Race,Credit & Financial Services,Access to credit,minority-majority,14,4,0.14285714285714285,0.0,0.0,,False
+Race,Credit & Financial Services,Access to credit,minority-people,14,8,0.14285714285714285,0.0,0.0,,False
+Race,Credit & Financial Services,Access to credit,majority-people,4,8,0.0,0.0,0.0,,False
+Race,Education,Educational opportunity/access,minority-majority,11,7,0.09090909090909091,0.0,0.0,,False
+Race,Education,Educational opportunity/access,minority-people,11,11,0.0,0.0,0.0,,False
+Race,Education,Educational opportunity/access,majority-people,7,11,-0.09090909090909091,0.0,0.0,,False
+Race,Employment,Career advancement,minority-majority,9,4,0.3333333333333333,0.2222222222222222,0.0,,False
+Race,Employment,Career advancement,minority-people,9,6,0.3333333333333333,0.2222222222222222,0.0,,False
+Race,Employment,Career advancement,majority-people,4,6,0.0,0.0,0.0,,False
+Race,Healthcare,Patient safety,minority-majority,6,8,0.20833333333333331,0.0,0.125,,False
+Race,Healthcare,Patient safety,minority-people,6,11,0.3333333333333333,0.0,0.0,,False
+Race,Healthcare,Patient safety,majority-people,8,11,0.125,0.125,0.0,,False
+Race,Housing,Access to housing,minority-majority,8,5,0.0,0.0,0.0,,False
+Race,Housing,Access to housing,minority-people,8,8,-0.125,0.0,0.0,,False
+Race,Housing,Access to housing,majority-people,5,8,-0.125,0.0,0.0,,False
+Race,Employment,Hiring,minority-majority,9,3,-0.3333333333333333,0.1111111111111111,0.0,,False
+Race,Employment,Hiring,minority-people,9,9,-0.2222222222222222,0.1111111111111111,0.0,,False
+Race,Employment,Hiring,majority-people,3,9,0.1111111111111111,0.0,0.0,,False
+Race,Education,College access/admission,minority-majority,9,7,-0.14285714285714285,0.0,0.2857142857142857,,False
+Race,Education,College access/admission,minority-people,9,9,-0.1111111111111111,0.0,0.0,,False
+Race,Education,College access/admission,majority-people,7,9,0.031746031746031744,0.2857142857142857,0.0,,False
+Race,Government Benefits,Access to government benefits,minority-majority,7,9,0.031746031746031744,0.2857142857142857,0.0,,False
+Race,Government Benefits,Access to government benefits,minority-people,7,7,-0.14285714285714285,0.2857142857142857,0.0,,False
+Race,Government Benefits,Access to government benefits,majority-people,9,7,-0.1746031746031746,0.0,0.0,,False
+Race,Criminal Justice,Incarceration,minority-majority,9,4,-0.1388888888888889,0.0,0.0,,False
+Race,Criminal Justice,Incarceration,minority-people,9,9,0.0,0.0,0.0,,False
+Race,Criminal Justice,Incarceration,majority-people,4,9,0.1388888888888889,0.0,0.0,,False
+Race,Education,Harassment/bullying,minority-majority,6,8,0.125,0.0,0.125,,False
+Race,Education,Harassment/bullying,minority-people,6,9,0.5,0.0,0.0,,False
+Race,Education,Harassment/bullying,majority-people,8,9,0.375,0.125,0.0,,False
+Race,Criminal Justice,Arrest / detention by police,minority-majority,6,4,-0.08333333333333334,0.16666666666666666,0.0,,False
+Race,Criminal Justice,Arrest / detention by police,minority-people,6,9,-0.16666666666666666,0.16666666666666666,0.1111111111111111,-0.7530914,False
+Race,Criminal Justice,Arrest / detention by police,majority-people,4,9,-0.08333333333333331,0.0,0.1111111111111111,,False
+Race,Housing,Housing stability,minority-majority,11,6,-0.3333333333333333,0.0,0.16666666666666666,,False
+Race,Housing,Housing stability,minority-people,11,8,0.0,0.0,0.0,,False
+Race,Housing,Housing stability,majority-people,6,8,0.3333333333333333,0.16666666666666666,0.0,,False
+Race,Housing,Homelessness,minority-majority,10,6,-0.06666666666666665,0.1,0.0,,False
+Race,Housing,Homelessness,minority-people,10,9,-0.0111111111111111,0.1,0.0,,False
+Race,Housing,Homelessness,majority-people,6,9,0.05555555555555555,0.0,0.0,,False
+Race,Healthcare,Preventive care,minority-majority,10,5,-0.2,0.0,0.2,,False
+Race,Healthcare,Preventive care,minority-people,10,10,0.1,0.0,0.0,,False
+Race,Healthcare,Preventive care,majority-people,5,10,0.30000000000000004,0.2,0.0,,False
+Race,Credit & Financial Services,Credit/loan approval,minority-majority,10,9,-0.1111111111111111,0.1,0.0,,False
+Race,Credit & Financial Services,Credit/loan approval,minority-people,10,9,-0.1111111111111111,0.1,0.0,,False
+Race,Credit & Financial Services,Credit/loan approval,majority-people,9,9,0.0,0.0,0.0,,False
+Race,Criminal Justice,Police use of force,minority-majority,9,7,-0.031746031746031744,0.0,0.0,,False
+Race,Criminal Justice,Police use of force,minority-people,9,9,-0.1111111111111111,0.0,0.1111111111111111,,False
+Race,Criminal Justice,Police use of force,majority-people,7,9,-0.07936507936507936,0.0,0.1111111111111111,,False
+Race,Employment,Workplace harassment,minority-majority,6,8,-0.16666666666666669,0.0,0.125,,False
+Race,Employment,Workplace harassment,minority-people,6,11,-0.03030303030303033,0.0,0.0,,False
+Race,Employment,Workplace harassment,majority-people,8,11,0.13636363636363635,0.125,0.0,,False
+Race,Government Benefits,Application/approval,minority-majority,6,18,-0.1111111111111111,0.0,0.05555555555555555,,False
+Race,Government Benefits,Application/approval,minority-people,6,11,-0.2727272727272727,0.0,0.09090909090909091,,False
+Race,Government Benefits,Application/approval,majority-people,18,11,-0.1616161616161616,0.05555555555555555,0.09090909090909091,0.27485644,False
+Sexual Orientation,Criminal Justice,Arrest / detention by police,minority-majority,10,18,-0.1222222222222222,0.0,0.05555555555555555,,False
+Sexual Orientation,Criminal Justice,Arrest / detention by police,minority-people,10,9,-0.2333333333333333,0.0,0.1111111111111111,,False
+Sexual Orientation,Criminal Justice,Arrest / detention by police,majority-people,18,9,-0.1111111111111111,0.05555555555555555,0.1111111111111111,0.0,False
+Sexual Orientation,Housing,Housing stability,minority-majority,12,7,-0.11904761904761904,0.0,0.0,,False
+Sexual Orientation,Housing,Housing stability,minority-people,12,8,0.16666666666666666,0.0,0.0,,False
+Sexual Orientation,Housing,Housing stability,majority-people,7,8,0.2857142857142857,0.0,0.0,,False
+Sexual Orientation,Government Benefits,Benefit retention / renewal,minority-majority,13,16,0.1826923076923077,0.0,0.0,,False
+Sexual Orientation,Government Benefits,Benefit retention / renewal,minority-people,13,26,0.19230769230769232,0.0,0.0,,False
+Sexual Orientation,Government Benefits,Benefit retention / renewal,majority-people,16,26,0.009615384615384609,0.0,0.0,,False
+Sexual Orientation,Education,Educational opportunity/access,minority-majority,6,15,-0.3333333333333333,0.0,0.0,,False
+Sexual Orientation,Education,Educational opportunity/access,minority-people,6,11,-0.09090909090909091,0.0,0.0,,False
+Sexual Orientation,Education,Educational opportunity/access,majority-people,15,11,0.2424242424242424,0.0,0.0,,False
+Sexual Orientation,Healthcare,Preventive care,minority-majority,8,9,0.5277777777777778,0.0,0.0,,False
+Sexual Orientation,Healthcare,Preventive care,minority-people,8,10,0.65,0.0,0.0,,False
+Sexual Orientation,Healthcare,Preventive care,majority-people,9,10,0.1222222222222222,0.0,0.0,,False
+Sexual Orientation,Employment,Workplace harassment,minority-majority,6,10,-0.2,0.0,0.0,,False
+Sexual Orientation,Employment,Workplace harassment,minority-people,6,11,-0.36363636363636365,0.0,0.0,,False
+Sexual Orientation,Employment,Workplace harassment,majority-people,10,11,-0.16363636363636364,0.0,0.0,,False
+Sexual Orientation,Criminal Justice,Incarceration,minority-majority,6,8,-0.20833333333333334,0.16666666666666666,0.0,,False
+Sexual Orientation,Criminal Justice,Incarceration,minority-people,6,9,0.05555555555555555,0.16666666666666666,0.0,,False
+Sexual Orientation,Criminal Justice,Incarceration,majority-people,8,9,0.2638888888888889,0.0,0.0,,False
+Sexual Orientation,Education,College access/admission,minority-majority,8,9,0.5,0.0,0.0,,False
+Sexual Orientation,Education,College access/admission,minority-people,8,9,0.3888888888888889,0.0,0.0,,False
+Sexual Orientation,Education,College access/admission,majority-people,9,9,-0.1111111111111111,0.0,0.0,,False
+Sexual Orientation,Housing,Homelessness,minority-majority,4,7,0.2142857142857143,0.0,0.0,,False
+Sexual Orientation,Housing,Homelessness,minority-people,4,9,0.3888888888888889,0.0,0.0,,False
+Sexual Orientation,Housing,Homelessness,majority-people,7,9,0.1746031746031746,0.0,0.0,,False
+Sexual Orientation,Government Benefits,Access to government benefits,minority-majority,4,5,0.0,0.0,0.0,,False
+Sexual Orientation,Government Benefits,Access to government benefits,minority-people,4,7,-0.2857142857142857,0.0,0.0,,False
+Sexual Orientation,Government Benefits,Access to government benefits,majority-people,5,7,-0.2857142857142857,0.0,0.0,,False
+Sexual Orientation,Employment,Career advancement,minority-majority,6,9,0.0,0.16666666666666666,0.0,,False
+Sexual Orientation,Employment,Career advancement,minority-people,6,6,0.0,0.16666666666666666,0.0,,False
+Sexual Orientation,Employment,Career advancement,majority-people,9,6,0.0,0.0,0.0,,False
+Sexual Orientation,Housing,Access to housing,minority-majority,14,18,0.10317460317460317,0.07142857142857142,0.1111111111111111,0.29816209,False
+Sexual Orientation,Housing,Access to housing,minority-people,14,8,0.08928571428571427,0.07142857142857142,0.0,,False
+Sexual Orientation,Housing,Access to housing,majority-people,18,8,-0.013888888888888895,0.1111111111111111,0.0,,False
+Sexual Orientation,Education,Harassment/bullying,minority-majority,6,16,0.08333333333333331,0.0,0.0625,,False
+Sexual Orientation,Education,Harassment/bullying,minority-people,6,9,0.3333333333333333,0.0,0.0,,False
+Sexual Orientation,Education,Harassment/bullying,majority-people,16,9,0.25,0.0625,0.0,,False
+Sexual Orientation,Criminal Justice,Police use of force,minority-majority,2,6,-0.5,0.0,0.16666666666666666,,False
+Sexual Orientation,Criminal Justice,Police use of force,minority-people,2,9,-0.2222222222222222,0.0,0.1111111111111111,,False
+Sexual Orientation,Criminal Justice,Police use of force,majority-people,6,9,0.2777777777777778,0.16666666666666666,0.1111111111111111,0.0,False
+Sexual Orientation,Employment,Hiring,minority-majority,9,5,0.0,0.1111111111111111,0.0,,False
+Sexual Orientation,Employment,Hiring,minority-people,9,9,-0.2222222222222222,0.1111111111111111,0.0,,False
+Sexual Orientation,Employment,Hiring,majority-people,5,9,-0.2222222222222222,0.0,0.0,,False
+Sexual Orientation,Government Benefits,Application/approval,minority-majority,7,10,0.042857142857142844,0.0,0.0,,False
+Sexual Orientation,Government Benefits,Application/approval,minority-people,7,11,-0.12987012987012986,0.0,0.09090909090909091,,False
+Sexual Orientation,Government Benefits,Application/approval,majority-people,10,11,-0.1727272727272727,0.0,0.09090909090909091,,False
+Sexual Orientation,Healthcare,Patient safety,minority-majority,6,8,0.0,0.0,0.0,,False
+Sexual Orientation,Healthcare,Patient safety,minority-people,6,11,0.0,0.0,0.0,,False
+Sexual Orientation,Healthcare,Patient safety,majority-people,8,11,0.0,0.0,0.0,,False
+Sexual Orientation,Credit & Financial Services,Access to credit,minority-majority,7,7,0.14285714285714285,0.0,0.0,,False
+Sexual Orientation,Credit & Financial Services,Access to credit,minority-people,7,8,0.14285714285714285,0.0,0.0,,False
+Sexual Orientation,Credit & Financial Services,Access to credit,majority-people,7,8,0.0,0.0,0.0,,False
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,minority-majority,12,7,0.19047619047619047,0.08333333333333333,0.0,,False
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,minority-people,12,9,0.2222222222222222,0.08333333333333333,0.0,,False
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,majority-people,7,9,0.031746031746031744,0.0,0.0,,False
+Sexual Orientation,Credit & Financial Services,Access to banking services,minority-majority,9,6,0.2222222222222222,0.0,0.0,,False
+Sexual Orientation,Credit & Financial Services,Access to banking services,minority-people,9,8,0.2222222222222222,0.0,0.0,,False
+Sexual Orientation,Credit & Financial Services,Access to banking services,majority-people,6,8,0.0,0.0,0.0,,False
+Sexual Orientation,Healthcare,Insurance coverage,minority-majority,6,4,0.5,0.0,0.25,,False
+Sexual Orientation,Healthcare,Insurance coverage,minority-people,6,8,0.375,0.0,0.0,,False
+Sexual Orientation,Healthcare,Insurance coverage,majority-people,4,8,-0.125,0.25,0.0,,False

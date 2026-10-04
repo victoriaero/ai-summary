@@ -1,0 +1,20 @@
+{
+  "source_id": "348352c77181b74779f4",
+  "normalized_url": "https://americanprogress.org/article/gender-matters",
+  "fetch_timestamp_utc": "2026-10-04T02:36:38.223568+00:00",
+  "registrable_domain": "americanprogress.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.americanprogress.org/article/gender-matters",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5673,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

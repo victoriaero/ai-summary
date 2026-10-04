@@ -1,0 +1,20 @@
+{
+  "source_id": "13102169fdbf1093ca52",
+  "normalized_url": "https://ncsl.org/civil-and-criminal-justice/racial-and-ethnic-disparities-in-the-criminal-justice-system",
+  "fetch_timestamp_utc": "2026-10-04T02:34:03.503135+00:00",
+  "registrable_domain": "ncsl.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://ncsl.org/civil-and-criminal-justice/racial-and-ethnic-disparities-in-the-criminal-justice-system",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5915,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "170e32bf479a2c6a8ebe",
+  "normalized_url": "https://revealnews.org/article/the-secret-bias-hidden-in-mortgage-approval-algorithms",
+  "fetch_timestamp_utc": "2026-10-04T02:34:24.380217+00:00",
+  "registrable_domain": "revealnews.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://revealnews.org/article/the-secret-bias-hidden-in-mortgage-approval-algorithms/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 221476,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/170e32bf479a2c6a8ebe.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/170e32bf479a2c6a8ebe.txt",
+  "text_chars": 24563,
+  "text_words": 3958,
+  "extraction_status": "success",
+  "page_title": "The secret bias hidden in mortgage-approval algorithms - Reveal",
+  "page_author": "Emmanuel Martinez; Lauren Kirchner",
+  "page_date": "2021-08-25",
+  "site_name": "The Center for Investigative Reporting",
+  "canonical_url": "https://revealnews.org/article/the-secret-bias-hidden-in-mortgage-approval-algorithms/"
+}

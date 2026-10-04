@@ -1,0 +1,32 @@
+{
+  "source_id": "7e70d3a420d39c0e9016",
+  "normalized_url": "https://researchgate.net/publication/388827138_The_Dynamics_of_Bullying_in_Schools_Causes_Impacts_and_Prevention_Strategies",
+  "fetch_timestamp_utc": "2026-09-29T19:30:34.093983+00:00",
+  "registrable_domain": "researchgate.net",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.researchgate.net/publication/388827138_The_Dynamics_of_Bullying_in_Schools_Causes_Impacts_and_Prevention_Strategies",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:30:40 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "accept-encoding",
+    "set-cookie": "__cf_bm=K4cC3YaIa7FhDfpTd3NhkHiMEY6dZ1mf7eaMFqzO9kw-1790710240.2320552-1.0.1.1-OT7X8anVb3F3jY6EMEB7un5jqIl2doTG2PkJSV05rNvJN6xg4ONeOJHhLPi1F0KOsDc7I3ub8ZesCdycN98K5sR_b8JiLJwe4R8PwpeMutUzlF4a4KKqIHjz2EITWt9y; HttpOnly; SameSite=None; Secure; Path=/; Domain=researchgate.net; Expires=Tue, 29 Sep 2026 20:00:40 GMT",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d67597c3e2598-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 21138,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

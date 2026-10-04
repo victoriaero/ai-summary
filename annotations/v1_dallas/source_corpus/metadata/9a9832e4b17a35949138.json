@@ -1,0 +1,27 @@
+{
+  "source_id": "9a9832e4b17a35949138",
+  "normalized_url": "https://publichealth.jhu.edu/2026/new-study-identifies-racial-inequality-in-us-hospital-admissions",
+  "fetch_timestamp_utc": "2026-09-29T19:33:23.802003+00:00",
+  "registrable_domain": "jhu.edu",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://publichealth.jhu.edu/2026/new-study-identifies-racial-inequality-in-us-hospital-admissions",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:33:27 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d6b6c5e3cb7cc-GIG"
+  },
+  "downloaded_bytes": 5516,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

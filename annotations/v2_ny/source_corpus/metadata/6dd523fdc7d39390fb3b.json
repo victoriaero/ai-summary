@@ -1,0 +1,28 @@
+{
+  "source_id": "6dd523fdc7d39390fb3b",
+  "normalized_url": "https://share.google/MJICbg8unL0SMVoMF",
+  "fetch_timestamp_utc": "2026-10-04T02:41:28.214410+00:00",
+  "registrable_domain": "share.google",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0344036",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 304017,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6dd523fdc7d39390fb3b.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6dd523fdc7d39390fb3b.txt",
+  "text_chars": 49440,
+  "text_words": 6998,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

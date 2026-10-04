@@ -1,0 +1,28 @@
+{
+  "source_id": "918aa89d0a894b367a37",
+  "normalized_url": "https://edexcelencia.org/research/publications/how-latinos-pay-for-college-2025-national-trends",
+  "fetch_timestamp_utc": "2026-10-04T03:41:43.776146+00:00",
+  "registrable_domain": "edexcelencia.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.edexcelencia.org/research/publications/how-latinos-pay-for-college-2025-national-trends",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 1560094,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/918aa89d0a894b367a37.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/918aa89d0a894b367a37.txt",
+  "text_chars": 2721,
+  "text_words": 412,
+  "extraction_status": "success",
+  "page_title": "How Latinos Pay for College: 2025 National Trends | Excelencia in Education",
+  "page_author": null,
+  "page_date": "2025-03-26",
+  "site_name": "Excelencia Education",
+  "canonical_url": "https://www.edexcelencia.org/research/publications/how-latinos-pay-for-college-2025-national-trends"
+}

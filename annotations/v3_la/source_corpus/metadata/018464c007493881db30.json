@@ -1,0 +1,16 @@
+{
+  "source_id": "018464c007493881db30",
+  "normalized_url": "https://rsfjournal.org/content/11/1/224",
+  "fetch_timestamp_utc": "2026-10-04T03:30:43.035411+00:00",
+  "registrable_domain": "rsfjournal.org",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 6,
+  "http_status": 0,
+  "final_url": "https://rsfjournal.org/content/11/1/224",
+  "content_type": "",
+  "error": "curl: (28) Resolving timed out after 8001 milliseconds\ncurl: (6) Could not resolve host: rsfjournal.org",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

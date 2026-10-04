@@ -1,0 +1,20 @@
+{
+  "source_id": "0a99fc26f38d78231ead",
+  "normalized_url": "https://onemainfinancial.com/personal-loans/resources/credit-score-for-personal-loan",
+  "fetch_timestamp_utc": "2026-10-04T03:31:36.169656+00:00",
+  "registrable_domain": "onemainfinancial.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://onemainfinancial.com/personal-loans/resources/credit-score-for-personal-loan",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "content_type": "application/json",
+  "downloaded_bytes": 55,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

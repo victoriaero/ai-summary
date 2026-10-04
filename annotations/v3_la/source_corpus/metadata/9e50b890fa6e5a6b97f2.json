@@ -1,0 +1,28 @@
+{
+  "source_id": "9e50b890fa6e5a6b97f2",
+  "normalized_url": "https://counciloncj.org/womens-justice-a-preliminary-assessment-of-women-in-the-criminal-justice-system",
+  "fetch_timestamp_utc": "2026-10-04T03:42:41.617553+00:00",
+  "registrable_domain": "counciloncj.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://counciloncj.org/womens-justice-a-preliminary-assessment-of-women-in-the-criminal-justice-system/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 1144004,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/9e50b890fa6e5a6b97f2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/9e50b890fa6e5a6b97f2.txt",
+  "text_chars": 295458,
+  "text_words": 38988,
+  "extraction_status": "success",
+  "page_title": "Women's Justice: A Preliminary Assessment of Women in the Criminal Justice System - Council on Criminal Justice",
+  "page_author": "Rachel Yen",
+  "page_date": "2024-07-09",
+  "site_name": "Council on Criminal Justice",
+  "canonical_url": "https://counciloncj.org/womens-justice-a-preliminary-assessment-of-women-in-the-criminal-justice-system/"
+}

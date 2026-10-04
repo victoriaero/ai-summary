@@ -1,0 +1,28 @@
+{
+  "source_id": "cb3d5dc4205bdaef83c4",
+  "normalized_url": "https://goodwinrecruiting.com/blog/the-positive-impact-of-black-history-month-on-hiring-practices",
+  "fetch_timestamp_utc": "2026-10-04T03:45:56.086901+00:00",
+  "registrable_domain": "goodwinrecruiting.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.goodwinrecruiting.com/blog/the-positive-impact-of-black-history-month-on-hiring-practices",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 817130,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/cb3d5dc4205bdaef83c4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/cb3d5dc4205bdaef83c4.txt",
+  "text_chars": 5760,
+  "text_words": 865,
+  "extraction_status": "success",
+  "page_title": "The Positive Impact of Black History Month on Hiring Practices - Goodwin Recruiting",
+  "page_author": "Goodwin Recruiting",
+  "page_date": "2024-02-04",
+  "site_name": "Goodwin Recruiting",
+  "canonical_url": "https://www.goodwinrecruiting.com/the-positive-impact-of-black-history-month-on-hiring-practices"
+}

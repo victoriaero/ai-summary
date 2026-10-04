@@ -1,0 +1,30 @@
+{
+  "source_id": "d9884bc0e4d5d3c9369d",
+  "normalized_url": "https://ama-assn.org/public-health/population-health/caring-transgender-patients-experts-offer-guidance",
+  "fetch_timestamp_utc": "2026-09-29T19:39:45.879237+00:00",
+  "registrable_domain": "ama-assn.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.ama-assn.org/public-health/population-health/caring-transgender-patients-experts-offer-guidance",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:39:49 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Vary": "accept-encoding",
+    "set-cookie": "__cf_bm=3SYmlX4aUhQvY8vmc9Ik_a1BCLuuO0.b5h.ye1I6vrI-1790710789.3340995-1.0.1.1-cZSLnVF0QamA7nmlIA_UVqFXaVmHBOGu.WwUtk8sW9Q0dt0ZiX3lxYyuJLuyTTnYDjp1.TvgOqM_xqhsEWcBtJDsQn_y9qS1BHqRxSVTeUdLXykjlUKxmd.yN0_OE80n; HttpOnly; SameSite=None; Secure; Path=/; Domain=ama-assn.org; Expires=Tue, 29 Sep 2026 20:09:49 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d74c159d3f237-GRU"
+  },
+  "downloaded_bytes": 5487,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

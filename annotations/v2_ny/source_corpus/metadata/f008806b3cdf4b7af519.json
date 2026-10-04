@@ -1,0 +1,28 @@
+{
+  "source_id": "f008806b3cdf4b7af519",
+  "normalized_url": "https://prisonpolicy.org/blog/2020/06/05/policingfacts",
+  "fetch_timestamp_utc": "2026-10-04T02:51:36.868957+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/blog/2020/06/05/policingfacts/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 56623,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f008806b3cdf4b7af519.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f008806b3cdf4b7af519.txt",
+  "text_chars": 10068,
+  "text_words": 1580,
+  "extraction_status": "success",
+  "page_title": "Ten key facts about policing: Highlights from our work",
+  "page_author": "Prison Policy Initiative",
+  "page_date": "2020-06-05",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/blog/2020/06/05/policingfacts/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "e0ae07bcb8895df89073",
+  "normalized_url": "https://online.uncp.edu/degrees/business/mba/healthcare-administration/insurance-influence-on-policy",
+  "fetch_timestamp_utc": "2026-10-04T02:50:25.611781+00:00",
+  "registrable_domain": "uncp.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://online.uncp.edu/degrees/business/mba/healthcare-administration/insurance-influence-on-policy/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 162016,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e0ae07bcb8895df89073.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e0ae07bcb8895df89073.txt",
+  "text_chars": 4772,
+  "text_words": 677,
+  "extraction_status": "success",
+  "page_title": "Discover How Insurance Companies Influence Healthcare Policies",
+  "page_author": "Cpatete",
+  "page_date": "2024-07-01",
+  "site_name": "UNCP",
+  "canonical_url": "https://online.uncp.edu/degrees/business/mba/healthcare-administration/insurance-influence-on-policy/"
+}

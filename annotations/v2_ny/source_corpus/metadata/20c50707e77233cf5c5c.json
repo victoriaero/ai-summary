@@ -1,0 +1,28 @@
+{
+  "source_id": "20c50707e77233cf5c5c",
+  "normalized_url": "https://aclu.org/press-releases/new-report-finds-harassment-mistreatment-fuels-mistrust-among-lgbtq-people-towards-police",
+  "fetch_timestamp_utc": "2026-10-04T02:35:16.232524+00:00",
+  "registrable_domain": "aclu.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.aclu.org/press-releases/new-report-finds-harassment-mistreatment-fuels-mistrust-among-lgbtq-people-towards-police",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 68519,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/20c50707e77233cf5c5c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/20c50707e77233cf5c5c.txt",
+  "text_chars": 6544,
+  "text_words": 988,
+  "extraction_status": "success",
+  "page_title": "New Report Finds Harassment & Mistreatment Fuels Mistrust Among LGBTQ People Towards Police | American Civil Liberties Union",
+  "page_author": null,
+  "page_date": "2024-04-30",
+  "site_name": "American Civil Liberties Union",
+  "canonical_url": "https://www.aclu.org/press-releases/new-report-finds-harassment-mistreatment-fuels-mistrust-among-lgbtq-people-towards-police"
+}

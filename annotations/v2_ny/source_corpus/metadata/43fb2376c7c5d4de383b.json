@@ -1,0 +1,20 @@
+{
+  "source_id": "43fb2376c7c5d4de383b",
+  "normalized_url": "https://uscis.gov/policy-manual/volume-8-part-g-chapter-5",
+  "fetch_timestamp_utc": "2026-10-04T02:37:55.791175+00:00",
+  "registrable_domain": "uscis.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://uscis.gov/policy-manual/volume-8-part-g-chapter-5",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 426,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

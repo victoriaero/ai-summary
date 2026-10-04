@@ -1,0 +1,20 @@
+{
+  "source_id": "0c55a513766c080a8ac5",
+  "normalized_url": "https://osmosis.org/blog/preventive-health-screenings-for-lgbtq-patients-what-you-need-to-know",
+  "fetch_timestamp_utc": "2026-10-04T02:33:31.862134+00:00",
+  "registrable_domain": "osmosis.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://osmosis.org/blog/preventive-health-screenings-for-lgbtq-patients-what-you-need-to-know",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5837,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

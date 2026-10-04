@@ -1,0 +1,15 @@
+{
+  "source_id": "7f1f54904d34251b89de",
+  "normalized_url": "https://everycrsreport.com/reports/R45979.html",
+  "fetch_timestamp_utc": "2026-10-04T02:42:39.978780+00:00",
+  "registrable_domain": "everycrsreport.com",
+  "success": false,
+  "status": "hard_timeout",
+  "curl_returncode": 28,
+  "http_status": 0,
+  "final_url": "https://everycrsreport.com/reports/R45979.html",
+  "error": "curl: (28) Failed to connect to everycrsreport.com port 443 after 8002 ms: Timeout was reached\ncurl: (28) Failed to connect to everycrsreport.com port 443 after 8003 ms: Timeout was reached",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

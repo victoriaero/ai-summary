@@ -1,0 +1,20 @@
+{
+  "source_id": "e92a17f3a579109e4461",
+  "normalized_url": "https://emerald.com/edi/article/45/5/781/1270096/A-three-dimensional-perspective-on-factors",
+  "fetch_timestamp_utc": "2026-10-04T03:48:25.012530+00:00",
+  "registrable_domain": "emerald.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.emerald.com/edi/article/45/5/781/1270096/A-three-dimensional-perspective-on-factors",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5853,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

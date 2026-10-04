@@ -1,0 +1,28 @@
+{
+  "source_id": "871e4477e40072f47568",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11812675",
+  "fetch_timestamp_utc": "2026-10-04T02:43:24.901256+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11812675/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 169564,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/871e4477e40072f47568.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/871e4477e40072f47568.txt",
+  "text_chars": 38124,
+  "text_words": 5598,
+  "extraction_status": "success",
+  "page_title": "What Factors Influence Patient Measures of Safety Among Adults?",
+  "page_author": "Yujeong Kim; Eunhee Nam",
+  "page_date": "2025-02-07",
+  "site_name": "Risk Management and Healthcare Policy",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11812675/"
+}

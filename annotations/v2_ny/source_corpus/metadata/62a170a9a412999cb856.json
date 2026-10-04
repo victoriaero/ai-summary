@@ -1,0 +1,28 @@
+{
+  "source_id": "62a170a9a412999cb856",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/publications/law-enforcement-lgbtq-people",
+  "fetch_timestamp_utc": "2026-10-04T02:40:26.504936+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/publications/law-enforcement-lgbtq-people/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 122627,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/62a170a9a412999cb856.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/62a170a9a412999cb856.txt",
+  "text_chars": 14882,
+  "text_words": 2284,
+  "extraction_status": "success",
+  "page_title": "Law Enforcement and LGBTQ People",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2026-07-16",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/publications/law-enforcement-lgbtq-people/"
+}

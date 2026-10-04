@@ -1,0 +1,27 @@
+{
+  "source_id": "8d20998821e1f4ab37c0",
+  "normalized_url": "https://archwaycommunities.org/the-importance-of-housing-stability",
+  "fetch_timestamp_utc": "2026-09-29T19:32:17.496074+00:00",
+  "registrable_domain": "archwaycommunities.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://archwaycommunities.org/the-importance-of-housing-stability",
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 29 Sep 2026 19:32:21 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "ETag": "W/\"6a98b880-34\"",
+    "Host-Header": "8441280b0c35cbc1147f8ba998a563a7",
+    "X-Proxy-Cache-Info": "DT:1",
+    "X-CDN-C": "static",
+    "Content-Encoding": "gzip"
+  },
+  "downloaded_bytes": 52,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,3 @@
+replica_id,n_responses,n_outcomes,n_complete_outcomes,included_in_models,reason
+v1_dallas,273,21,21,True,all 21 outcomes have all 13 unique conditions
+v3_la,21,21,0,False,incomplete paired collection

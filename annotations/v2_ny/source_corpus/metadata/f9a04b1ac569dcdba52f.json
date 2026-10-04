@@ -1,0 +1,20 @@
+{
+  "source_id": "f9a04b1ac569dcdba52f",
+  "normalized_url": "https://mdpi.com/1660-4601/19/8/4502",
+  "fetch_timestamp_utc": "2026-10-04T02:52:12.248749+00:00",
+  "registrable_domain": "mdpi.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://mdpi.com/1660-4601/19/8/4502",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 391,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

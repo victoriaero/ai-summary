@@ -1,0 +1,28 @@
+{
+  "source_id": "e87ec5668ff7b371025c",
+  "normalized_url": "https://youtube.com/watch?t=26&v=YobHZee_XMc",
+  "fetch_timestamp_utc": "2026-10-04T03:48:21.461641+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=26&v=YobHZee_XMc",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1260083,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e87ec5668ff7b371025c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e87ec5668ff7b371025c.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Family and domestic violence leading cause of homlessness for women | ABC News",
+  "page_author": null,
+  "page_date": "2025-01-03",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=YobHZee_XMc"
+}

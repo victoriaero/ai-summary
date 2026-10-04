@@ -1,0 +1,28 @@
+{
+  "source_id": "a9ab5d0d8486765a4ec9",
+  "normalized_url": "https://kff.org/womens-health-policy/lgbt-peoples-health-status-and-access-to-care",
+  "fetch_timestamp_utc": "2026-10-04T02:46:19.993738+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/womens-health-policy/lgbt-peoples-health-status-and-access-to-care/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 241814,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a9ab5d0d8486765a4ec9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a9ab5d0d8486765a4ec9.txt",
+  "text_chars": 30253,
+  "text_words": 4709,
+  "extraction_status": "success",
+  "page_title": "LGBT+ People’s Health Status and Access to Care | KFF",
+  "page_author": "Lindsey Dawson; Michelle Long; Brittni Frederiksen",
+  "page_date": "2023-06-30",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/womens-health-policy/lgbt-peoples-health-status-and-access-to-care/"
+}

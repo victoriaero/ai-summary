@@ -1,0 +1,28 @@
+{
+  "source_id": "a4c40a71d8be0a339feb",
+  "normalized_url": "https://phenom.com/blog/job-application-gender-gap-revealed-univ-pitt-research-study",
+  "fetch_timestamp_utc": "2026-10-04T03:43:14.948732+00:00",
+  "registrable_domain": "phenom.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.phenom.com:443/blog/job-application-gender-gap-revealed-univ-pitt-research-study",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 772885,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a4c40a71d8be0a339feb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a4c40a71d8be0a339feb.txt",
+  "text_chars": 9139,
+  "text_words": 1441,
+  "extraction_status": "success",
+  "page_title": "Potential Job Application Gender Gap Revealed in Early Research Findings from Univ. of Pittsburgh Study",
+  "page_author": "Ilya Goldin Jun",
+  "page_date": "2022-05-19",
+  "site_name": "Phenom Applied AI",
+  "canonical_url": "https://www.phenom.com/blog/job-application-gender-gap-revealed-univ-pitt-research-study"
+}

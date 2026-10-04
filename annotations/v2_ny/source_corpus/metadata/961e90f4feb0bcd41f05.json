@@ -1,0 +1,28 @@
+{
+  "source_id": "961e90f4feb0bcd41f05",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3953783",
+  "fetch_timestamp_utc": "2026-10-04T02:44:37.565784+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3953783/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 211765,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/961e90f4feb0bcd41f05.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/961e90f4feb0bcd41f05.txt",
+  "text_chars": 53967,
+  "text_words": 8704,
+  "extraction_status": "success",
+  "page_title": "The Relation Between Health Insurance and Health Care Disparities Among Adults With Disabilities",
+  "page_author": "Nancy A Miller; Adele Kirk; Michael J Kaiser; Lukas Glos",
+  "page_date": "2014-01-01",
+  "site_name": "American Journal of Public Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3953783/"
+}

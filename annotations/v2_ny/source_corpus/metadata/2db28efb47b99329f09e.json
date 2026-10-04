@@ -1,0 +1,28 @@
+{
+  "source_id": "2db28efb47b99329f09e",
+  "normalized_url": "https://cgap.org/blog/banking-on-change-enabling-womens-access-to-financial-services",
+  "fetch_timestamp_utc": "2026-10-04T02:36:10.155761+00:00",
+  "registrable_domain": "cgap.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cgap.org/blog/banking-on-change-enabling-womens-access-to-financial-services",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 73264,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2db28efb47b99329f09e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2db28efb47b99329f09e.txt",
+  "text_chars": 6717,
+  "text_words": 1060,
+  "extraction_status": "success",
+  "page_title": "Banking on Change: Enabling Women’s Access to Financial Services",
+  "page_author": "Rebecca Mann",
+  "page_date": "2015-11-18",
+  "site_name": "CGAP",
+  "canonical_url": "https://www.cgap.org/blog/banking-on-change-enabling-womens-access-to-financial-services"
+}

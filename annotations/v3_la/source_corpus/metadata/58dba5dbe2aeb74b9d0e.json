@@ -1,0 +1,16 @@
+{
+  "source_id": "58dba5dbe2aeb74b9d0e",
+  "normalized_url": "https://law.georgetown.edu/gender-journal/in-print/volume-xxvi-issue-1-fall-2024/unforgetting-latinas-in-american-prisons-addressing-rising-numbers-and-reduction-strategies",
+  "fetch_timestamp_utc": "2026-10-04T03:37:18.097831+00:00",
+  "registrable_domain": "georgetown.edu",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 6,
+  "http_status": 0,
+  "final_url": "https://law.georgetown.edu/gender-journal/in-print/volume-xxvi-issue-1-fall-2024/unforgetting-latinas-in-american-prisons-addressing-rising-numbers-and-reduction-strategies",
+  "content_type": "",
+  "error": "curl: (28) Resolving timed out after 8001 milliseconds\ncurl: (6) Could not resolve host: law.georgetown.edu",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

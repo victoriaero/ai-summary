@@ -1,0 +1,15 @@
+{
+  "source_id": "a166231099c7b016c673",
+  "normalized_url": "https://law.georgetown.edu/poverty-journal/blog/anti-lgbtq-discrimination-and-barriers-to-accessing-public-benefits",
+  "fetch_timestamp_utc": "2026-10-04T02:45:36.919579+00:00",
+  "registrable_domain": "georgetown.edu",
+  "success": false,
+  "status": "hard_timeout",
+  "curl_returncode": 28,
+  "http_status": 0,
+  "final_url": "https://law.georgetown.edu/poverty-journal/blog/anti-lgbtq-discrimination-and-barriers-to-accessing-public-benefits",
+  "error": "curl: (28) Resolving timed out after 8000 milliseconds\ncurl: (28) Resolving timed out after 8000 milliseconds",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

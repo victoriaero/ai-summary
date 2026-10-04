@@ -1,0 +1,28 @@
+{
+  "source_id": "089e8e67966bcb37af36",
+  "normalized_url": "https://lawreview.uchicago.edu/print-archive/empirical-analysis-sexual-orientation-discrimination",
+  "fetch_timestamp_utc": "2026-10-04T03:31:21.254878+00:00",
+  "registrable_domain": "uchicago.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://lawreview.uchicago.edu/print-archive/empirical-analysis-sexual-orientation-discrimination",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 418696,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/089e8e67966bcb37af36.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/089e8e67966bcb37af36.txt",
+  "text_chars": 179472,
+  "text_words": 28505,
+  "extraction_status": "success",
+  "page_title": "An Empirical Analysis of Sexual Orientation Discrimination",
+  "page_author": "J Shahar Dillbary",
+  "page_date": "2019-02-11",
+  "site_name": "lawreview.uchicago.edu",
+  "canonical_url": "https://lawreview.uchicago.edu/print-archive/empirical-analysis-sexual-orientation-discrimination"
+}

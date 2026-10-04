@@ -1,0 +1,20 @@
+{
+  "source_id": "7c89c2adfae318c12ee9",
+  "normalized_url": "https://forbes.com/sites/michaeltnietzel/2026/02/04/five-things-the-new-data-about-race-conscious-college-admissions-tell-us",
+  "fetch_timestamp_utc": "2026-10-04T02:42:31.351512+00:00",
+  "registrable_domain": "forbes.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://forbes.com/sites/michaeltnietzel/2026/02/04/five-things-the-new-data-about-race-conscious-college-admissions-tell-us",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 773,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

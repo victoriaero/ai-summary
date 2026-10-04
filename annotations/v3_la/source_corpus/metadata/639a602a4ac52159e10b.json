@@ -1,0 +1,20 @@
+{
+  "source_id": "639a602a4ac52159e10b",
+  "normalized_url": "https://cdc.gov/mmwr/volumes/73/su/su7304a6.htm",
+  "fetch_timestamp_utc": "2026-10-04T03:38:06.612578+00:00",
+  "registrable_domain": "cdc.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://cdc.gov/mmwr/volumes/73/su/su7304a6.htm",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 408,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

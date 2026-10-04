@@ -1,0 +1,28 @@
+{
+  "source_id": "26b123cf52f9cf82773d",
+  "normalized_url": "https://news.cornell.edu/stories/2017/11/people-disabilities-more-likely-be-arrested",
+  "fetch_timestamp_utc": "2026-10-04T02:35:49.267660+00:00",
+  "registrable_domain": "cornell.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://news.cornell.edu/stories/2017/11/people-disabilities-more-likely-be-arrested",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 45023,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/26b123cf52f9cf82773d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/26b123cf52f9cf82773d.txt",
+  "text_chars": 3296,
+  "text_words": 519,
+  "extraction_status": "success",
+  "page_title": "People with disabilities more likely to be arrested | Cornell Chronicle",
+  "page_author": "Susan Kelley",
+  "page_date": "2017-11-30",
+  "site_name": "Cornell Chronicle",
+  "canonical_url": "https://news.cornell.edu/stories/2017/11/people-disabilities-more-likely-be-arrested"
+}

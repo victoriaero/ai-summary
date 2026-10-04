@@ -1,0 +1,28 @@
+{
+  "source_id": "f6cb1166c166493108b0",
+  "normalized_url": "https://specialneedsalliance.org/blog/archive/tough-choices-people-with-disabilities-face-housing-crisis",
+  "fetch_timestamp_utc": "2026-10-04T03:49:17.977337+00:00",
+  "registrable_domain": "specialneedsalliance.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.specialneedsalliance.org/blog/archive/tough-choices-people-with-disabilities-face-housing-crisis/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 156110,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f6cb1166c166493108b0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f6cb1166c166493108b0.txt",
+  "text_chars": 5437,
+  "text_words": 790,
+  "extraction_status": "success",
+  "page_title": "Tough Choices: People with Disabilities Face Housing Crisis",
+  "page_author": "SNA Admin",
+  "page_date": "2014-03-06",
+  "site_name": "Special Needs Alliance",
+  "canonical_url": "https://www.specialneedsalliance.org/blog/archive/tough-choices-people-with-disabilities-face-housing-crisis/"
+}

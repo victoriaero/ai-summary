@@ -1,0 +1,28 @@
+{
+  "source_id": "76bb9d3f64c802dbb542",
+  "normalized_url": "https://habitat.org/our-work/impact/literature-review-gender-equity",
+  "fetch_timestamp_utc": "2026-10-04T02:42:08.893521+00:00",
+  "registrable_domain": "habitat.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.habitat.org/our-work/impact/literature-review-gender-equity",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 105871,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/76bb9d3f64c802dbb542.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/76bb9d3f64c802dbb542.txt",
+  "text_chars": 4197,
+  "text_words": 640,
+  "extraction_status": "success",
+  "page_title": "Housing and Gender Equity: A Global Literature Review",
+  "page_author": null,
+  "page_date": "2024-07-01",
+  "site_name": "Habitat for Humanity",
+  "canonical_url": "https://www.habitat.org/our-work/impact/literature-review-gender-equity"
+}

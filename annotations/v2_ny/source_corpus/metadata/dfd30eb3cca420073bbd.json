@@ -1,0 +1,28 @@
+{
+  "source_id": "dfd30eb3cca420073bbd",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/press/lgbt-housing-press-release",
+  "fetch_timestamp_utc": "2026-10-04T02:50:21.075919+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/press/lgbt-housing-press-release/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 102760,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/dfd30eb3cca420073bbd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/dfd30eb3cca420073bbd.txt",
+  "text_chars": 2972,
+  "text_words": 447,
+  "extraction_status": "success",
+  "page_title": "LGBT people are more likely than non-LGBT people to face housing instability",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2020-04-02",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/press/lgbt-housing-press-release/"
+}

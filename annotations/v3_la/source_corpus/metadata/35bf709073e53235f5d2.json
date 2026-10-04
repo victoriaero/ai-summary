@@ -1,0 +1,28 @@
+{
+  "source_id": "35bf709073e53235f5d2",
+  "normalized_url": "https://wbur.org/cognoscenti/2023/10/19/racial-bullying-george-floyd-alexis-rickmers-oren-sellstrom",
+  "fetch_timestamp_utc": "2026-10-04T03:34:33.338055+00:00",
+  "registrable_domain": "wbur.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.wbur.org/cognoscenti/2023/10/19/racial-bullying-george-floyd-alexis-rickmers-oren-sellstrom",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 411046,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/35bf709073e53235f5d2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/35bf709073e53235f5d2.txt",
+  "text_chars": 5394,
+  "text_words": 847,
+  "extraction_status": "success",
+  "page_title": "Racial bullying in schools is on the rise — including here in Mass.",
+  "page_author": "Alexis Rickmers; Oren Sellstrom",
+  "page_date": "2023-10-19",
+  "site_name": "Wbur",
+  "canonical_url": "https://www.wbur.org/cognoscenti/2023/10/19/racial-bullying-george-floyd-alexis-rickmers-oren-sellstrom"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "46f008fdc94d63b3de8b",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6153163",
+  "fetch_timestamp_utc": "2026-10-04T02:38:10.664665+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6153163/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 190015,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/46f008fdc94d63b3de8b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/46f008fdc94d63b3de8b.txt",
+  "text_chars": 41235,
+  "text_words": 6269,
+  "extraction_status": "success",
+  "page_title": "Racial/Ethnic Differential Effects of Medicaid Expansion on Health Care Access",
+  "page_author": "Dahai Yue; Petra W Rasmussen; Ninez A Ponce",
+  "page_date": "2018-02-22",
+  "site_name": "Health Services Research",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6153163/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "3b0935f3835d8b80ef37",
+  "normalized_url": "https://endhomelessness.org/blog/examining-latino-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:37:03.782864+00:00",
+  "registrable_domain": "endhomelessness.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://endhomelessness.org/blog/examining-latino-homelessness",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 344404,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3b0935f3835d8b80ef37.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3b0935f3835d8b80ef37.txt",
+  "text_chars": 3860,
+  "text_words": 572,
+  "extraction_status": "success",
+  "page_title": "Examining Latino Homelessness",
+  "page_author": "Andres Orejuela",
+  "page_date": "2025-03-05",
+  "site_name": "National Alliance to End Homelessness",
+  "canonical_url": "https://endhomelessness.org/blog/examining-latino-homelessness/"
+}

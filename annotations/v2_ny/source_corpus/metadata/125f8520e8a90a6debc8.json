@@ -1,0 +1,20 @@
+{
+  "source_id": "125f8520e8a90a6debc8",
+  "normalized_url": "https://croweshanahan.com/blog/2026/03/what-disqualifies-a-person-from-disability",
+  "fetch_timestamp_utc": "2026-10-04T02:34:00.115473+00:00",
+  "registrable_domain": "croweshanahan.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://croweshanahan.com/blog/2026/03/what-disqualifies-a-person-from-disability",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 52,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

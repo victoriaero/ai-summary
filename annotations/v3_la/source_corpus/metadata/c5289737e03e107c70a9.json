@@ -1,0 +1,20 @@
+{
+  "source_id": "c5289737e03e107c70a9",
+  "normalized_url": "https://stopbullying.gov/bullying/special-needs",
+  "fetch_timestamp_utc": "2026-10-04T03:45:29.319582+00:00",
+  "registrable_domain": "stopbullying.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.stopbullying.gov/bullying/special-needs",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 404,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

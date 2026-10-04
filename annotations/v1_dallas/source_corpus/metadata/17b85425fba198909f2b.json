@@ -1,0 +1,26 @@
+{
+  "source_id": "17b85425fba198909f2b",
+  "normalized_url": "https://media.neliti.com/media/publications/454415-women-access-and-awareness-of-financial-a75063df.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:21:31.189460+00:00",
+  "registrable_domain": "neliti.com",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.neliti.com/publications/454415/",
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Tue, 29 Sep 2026 19:21:39 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "919",
+    "Connection": "keep-alive",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 a9dcb4b8905be891d7518b3fc40d0628.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "GRU1-P7",
+    "Alt-Svc": "h3=\":443\"; ma=86400",
+    "X-Amz-Cf-Id": "TJPBFbco6QA7Y7KJVPRZkHqaOYfTxw1D9AtgwiOpx6ev1Ycx2tFjwg=="
+  },
+  "downloaded_bytes": 919,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "afb880a9fdf0b166e878",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12810827",
+  "fetch_timestamp_utc": "2026-10-04T02:46:47.422175+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12810827/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 516735,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/afb880a9fdf0b166e878.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/afb880a9fdf0b166e878.txt",
+  "text_chars": 130029,
+  "text_words": 18939,
+  "extraction_status": "success",
+  "page_title": "Exploring the association between housing insecurity and mental health among renters: A systematic review of quantitative primary and secondary studies",
+  "page_author": "Mira Talmatzky; Laura Nohr; Christine Knaevelsrud; Helen Niemeyer",
+  "page_date": "2026-01-16",
+  "site_name": "PLOS One",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12810827/"
+}

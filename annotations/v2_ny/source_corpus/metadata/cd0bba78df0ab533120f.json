@@ -1,0 +1,28 @@
+{
+  "source_id": "cd0bba78df0ab533120f",
+  "normalized_url": "https://plaid.com/resources/fintech/financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T02:48:52.550681+00:00",
+  "registrable_domain": "plaid.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://plaid.com/resources/fintech/financial-inclusion/",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 196946,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cd0bba78df0ab533120f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cd0bba78df0ab533120f.txt",
+  "text_chars": 13873,
+  "text_words": 2124,
+  "extraction_status": "success",
+  "page_title": "Financial inclusion: How fintech expands access to all | Plaid",
+  "page_author": "Tom Sullivan",
+  "page_date": "2022-10-03",
+  "site_name": "Plaid",
+  "canonical_url": "https://plaid.com/resources/fintech/financial-inclusion/"
+}

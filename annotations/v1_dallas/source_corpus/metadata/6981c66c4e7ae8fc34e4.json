@@ -1,0 +1,26 @@
+{
+  "source_id": "6981c66c4e7ae8fc34e4",
+  "normalized_url": "https://fna.usda.gov/wic/eligibility",
+  "fetch_timestamp_utc": "2026-09-29T19:28:07.741362+00:00",
+  "registrable_domain": "usda.gov",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.fna.usda.gov:443/wic/eligibility",
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "391",
+    "Expires": "Tue, 29 Sep 2026 19:28:16 GMT",
+    "Date": "Tue, 29 Sep 2026 19:28:16 GMT",
+    "Connection": "close",
+    "Alt-Svc": "h3=\":443\"; ma=93600",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Akamai-GRN": "0.0fc81002.1790710096.13cc5f82"
+  },
+  "downloaded_bytes": 391,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

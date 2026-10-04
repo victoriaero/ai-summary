@@ -1,0 +1,28 @@
+{
+  "source_id": "ffc995d1bb8c677952c9",
+  "normalized_url": "https://hispanicresearchcenter.org/research-resources/national-profile-of-latino-parents-education-attainment-underscores-the-diverse-educational-needs-of-a-fast-growing-population?print=print",
+  "fetch_timestamp_utc": "2026-10-04T02:52:33.867195+00:00",
+  "registrable_domain": "hispanicresearchcenter.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hispanicresearchcenter.org/research-resources/national-profile-of-latino-parents-education-attainment-underscores-the-diverse-educational-needs-of-a-fast-growing-population?print=print",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 219188,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ffc995d1bb8c677952c9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ffc995d1bb8c677952c9.txt",
+  "text_chars": 50041,
+  "text_words": 7471,
+  "extraction_status": "success",
+  "page_title": "National Profile of Latino Parents’ Educational Attainment Underscores the Diverse Educational Needs of a Fast-growing Population",
+  "page_author": "Author",
+  "page_date": "2023-11-08",
+  "site_name": "hispanicresearchcenter.org",
+  "canonical_url": "https://www.hispanicresearchcenter.org/research-resources/national-profile-of-latino-parents-education-attainment-underscores-the-diverse-educational-needs-of-a-fast-growing-population?print=print"
+}

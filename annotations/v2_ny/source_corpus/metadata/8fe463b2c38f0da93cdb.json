@@ -1,0 +1,20 @@
+{
+  "source_id": "8fe463b2c38f0da93cdb",
+  "normalized_url": "https://qz.com/1074565/why-employers-favor-men",
+  "fetch_timestamp_utc": "2026-10-04T02:44:05.034610+00:00",
+  "registrable_domain": "qz.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://qz.com/1074565/why-employers-favor-men",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5639,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "c8790fcbc603a7b1e461",
+  "normalized_url": "https://cavignac.com/blog/risk-factors-for-harassment-in-the-workplace",
+  "fetch_timestamp_utc": "2026-10-04T02:48:27.934830+00:00",
+  "registrable_domain": "cavignac.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://cavignac.com/blog/risk-factors-for-harassment-in-the-workplace",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 183522,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c8790fcbc603a7b1e461.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c8790fcbc603a7b1e461.txt",
+  "text_chars": 1828,
+  "text_words": 281,
+  "extraction_status": "success",
+  "page_title": "Risk Factors for Harassment in the Workplace - Cavignac",
+  "page_author": "Diana Dix",
+  "page_date": "2020-12-22",
+  "site_name": "Cavignac",
+  "canonical_url": "https://cavignac.com/blog/risk-factors-for-harassment-in-the-workplace/"
+}

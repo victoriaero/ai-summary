@@ -1,0 +1,28 @@
+{
+  "source_id": "f3b92c36bbc1c5c1a658",
+  "normalized_url": "https://ojp.gov/pdffiles1/ojjdp/grants/250804.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:49:04.140604+00:00",
+  "registrable_domain": "ojp.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ojp.gov/pdffiles1/ojjdp/grants/250804.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 1386936,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f3b92c36bbc1c5c1a658.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f3b92c36bbc1c5c1a658.txt",
+  "text_chars": 68794,
+  "text_words": 9671,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

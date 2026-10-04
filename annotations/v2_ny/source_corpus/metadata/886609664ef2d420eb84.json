@@ -1,0 +1,28 @@
+{
+  "source_id": "886609664ef2d420eb84",
+  "normalized_url": "https://cbcfinc.org/capstones/economic-opportunity/a-net-with-gapping-holes-unemployment-insurance-and-racial-inequality",
+  "fetch_timestamp_utc": "2026-10-04T02:43:29.030947+00:00",
+  "registrable_domain": "cbcfinc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cbcfinc.org/capstones/economic-opportunity/a-net-with-gapping-holes-unemployment-insurance-and-racial-inequality/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 182730,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/886609664ef2d420eb84.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/886609664ef2d420eb84.txt",
+  "text_chars": 51495,
+  "text_words": 7026,
+  "extraction_status": "success",
+  "page_title": "A Net with Gapping Holes: Unemployment Insurance and Racial Inequality » Congressional Black Caucus Foundation » Advancing the Global Black Community by Developing Leaders Informing Policy and Educating the Public",
+  "page_author": null,
+  "page_date": "2024-11-27",
+  "site_name": "Congressional Black Caucus Foundation, Inc.",
+  "canonical_url": "https://www.cbcfinc.org/capstones/economic-opportunity/a-net-with-gapping-holes-unemployment-insurance-and-racial-inequality/"
+}

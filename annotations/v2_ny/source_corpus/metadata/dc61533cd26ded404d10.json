@@ -1,0 +1,28 @@
+{
+  "source_id": "dc61533cd26ded404d10",
+  "normalized_url": "https://yahoo.com/news/us/article/most-disability-claims-get-denied-heres-why--and-what-social-security-is-actually-looking-for-145517804.html",
+  "fetch_timestamp_utc": "2026-10-04T02:49:57.284680+00:00",
+  "registrable_domain": "yahoo.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.yahoo.com/news/us/article/most-disability-claims-get-denied-heres-why--and-what-social-security-is-actually-looking-for-145517804.html",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 675657,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/dc61533cd26ded404d10.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/dc61533cd26ded404d10.txt",
+  "text_chars": 7614,
+  "text_words": 1190,
+  "extraction_status": "success",
+  "page_title": "Most disability claims get denied. Here's why — and what Social Security is actually looking for.",
+  "page_author": "Jasmine Andersson",
+  "page_date": "2026-09-17",
+  "site_name": "Yahoo News",
+  "canonical_url": "https://www.yahoo.com/news/us/article/most-disability-claims-get-denied-heres-why--and-what-social-security-is-actually-looking-for-145517804.html"
+}

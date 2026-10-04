@@ -1,0 +1,28 @@
+{
+  "source_id": "c534c4f2d9c8bca8d6fe",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10623889",
+  "fetch_timestamp_utc": "2026-10-04T03:45:30.302026+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10623889/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 233773,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c534c4f2d9c8bca8d6fe.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c534c4f2d9c8bca8d6fe.txt",
+  "text_chars": 56277,
+  "text_words": 9213,
+  "extraction_status": "success",
+  "page_title": "Unbanked status and use of alternative financial services among minority populations",
+  "page_author": "Silvia Helena Barcellos; Gema Zamarro",
+  "page_date": "2019-02-28",
+  "site_name": "Journal of pension economics & finance",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10623889/"
+}

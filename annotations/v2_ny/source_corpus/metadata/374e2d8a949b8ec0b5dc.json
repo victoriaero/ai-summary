@@ -1,0 +1,28 @@
+{
+  "source_id": "374e2d8a949b8ec0b5dc",
+  "normalized_url": "https://unwomen.org/en/articles/facts-and-figures/facts-and-figures-economic-empowerment",
+  "fetch_timestamp_utc": "2026-10-04T02:36:42.447985+00:00",
+  "registrable_domain": "unwomen.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-economic-empowerment",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 787571,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/374e2d8a949b8ec0b5dc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/374e2d8a949b8ec0b5dc.txt",
+  "text_chars": 25605,
+  "text_words": 3388,
+  "extraction_status": "success",
+  "page_title": "Facts and figures: Economic empowerment | UN Women – Headquarters",
+  "page_author": null,
+  "page_date": "2024-06-28",
+  "site_name": "UN Women – Headquarters",
+  "canonical_url": "https://www.unwomen.org/en/articles/facts-and-figures/facts-and-figures-economic-empowerment"
+}

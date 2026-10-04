@@ -1,0 +1,28 @@
+{
+  "source_id": "f1cfec8aa4cf51da256f",
+  "normalized_url": "https://navicoresolutions.org/resources/blog/overcoming-barriers-of-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T03:48:58.349168+00:00",
+  "registrable_domain": "navicoresolutions.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://navicoresolutions.org/resources/blog/overcoming-barriers-of-financial-inclusion",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 72662,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f1cfec8aa4cf51da256f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f1cfec8aa4cf51da256f.txt",
+  "text_chars": 7693,
+  "text_words": 1194,
+  "extraction_status": "success",
+  "page_title": "Overcoming Barriers Of Financial Inclusion",
+  "page_author": "Katherine O'Shea",
+  "page_date": "2021-11-23",
+  "site_name": "navicoresolutions.org",
+  "canonical_url": "https://navicoresolutions.org/resources/blog/overcoming-barriers-of-financial-inclusion"
+}

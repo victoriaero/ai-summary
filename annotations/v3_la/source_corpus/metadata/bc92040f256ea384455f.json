@@ -1,0 +1,28 @@
+{
+  "source_id": "bc92040f256ea384455f",
+  "normalized_url": "https://luminafoundation.org/news-and-views/hispanic-students-can-shape-our-future-if-we-reshape-college",
+  "fetch_timestamp_utc": "2026-10-04T03:44:52.995594+00:00",
+  "registrable_domain": "luminafoundation.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.luminafoundation.org/news-and-views/hispanic-students-can-shape-our-future-if-we-reshape-college/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 137823,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/bc92040f256ea384455f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/bc92040f256ea384455f.txt",
+  "text_chars": 6282,
+  "text_words": 938,
+  "extraction_status": "success",
+  "page_title": "Hispanic students can shape our future—if we reshape college",
+  "page_author": "Matthew Jenkins",
+  "page_date": "2023-10-23",
+  "site_name": "Lumina Foundation",
+  "canonical_url": "https://www.luminafoundation.org/news-and-views/hispanic-students-can-shape-our-future-if-we-reshape-college/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "a6bda0cf47851d7913d1",
+  "normalized_url": "https://hechingerreport.org/facts-about-race-and-college-admission",
+  "fetch_timestamp_utc": "2026-10-04T02:46:07.944781+00:00",
+  "registrable_domain": "hechingerreport.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hechingerreport.org/facts-about-race-and-college-admission/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 273147,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a6bda0cf47851d7913d1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a6bda0cf47851d7913d1.txt",
+  "text_chars": 2382,
+  "text_words": 367,
+  "extraction_status": "success",
+  "page_title": "Facts about race and college admission",
+  "page_author": "Jon Marcus",
+  "page_date": "2018-07-06",
+  "site_name": "The Hechinger Report",
+  "canonical_url": "https://hechingerreport.org/facts-about-race-and-college-admission/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "67b5248e81474aa78459",
+  "normalized_url": "https://abc10.com/article/money/nerdwallet/how-latino-credit-unions-clear-banking-barriers/606-3e5fa94f-12aa-4ee5-8395-59a1d175544d",
+  "fetch_timestamp_utc": "2026-10-04T03:38:27.672303+00:00",
+  "registrable_domain": "abc10.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.abc10.com/article/money/nerdwallet/how-latino-credit-unions-clear-banking-barriers/606-3e5fa94f-12aa-4ee5-8395-59a1d175544d",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 540,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

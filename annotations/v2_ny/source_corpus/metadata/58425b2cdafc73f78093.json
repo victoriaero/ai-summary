@@ -1,0 +1,28 @@
+{
+  "source_id": "58425b2cdafc73f78093",
+  "normalized_url": "https://experian.com/blogs/ask-experian/credit-education/score-basics/what-affects-your-credit-scores",
+  "fetch_timestamp_utc": "2026-10-04T02:39:34.749257+00:00",
+  "registrable_domain": "experian.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.experian.com/blogs/ask-experian/credit-education/score-basics/what-affects-your-credit-scores",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 283913,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/58425b2cdafc73f78093.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/58425b2cdafc73f78093.txt",
+  "text_chars": 10531,
+  "text_words": 1778,
+  "extraction_status": "success",
+  "page_title": "What Affects Your Credit Scores?",
+  "page_author": "Jim Akin",
+  "page_date": "2026-09-22",
+  "site_name": "Experian",
+  "canonical_url": "https://www.experian.com/blogs/ask-experian/credit-education/score-basics/what-affects-your-credit-scores/"
+}

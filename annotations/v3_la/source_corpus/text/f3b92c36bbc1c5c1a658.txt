@@ -1,0 +1,1171 @@
+The author(s) shown below used Federal funding provided by the U.S. 
+Department of Justice to prepare the following resource: 
+Document Title: 
+Racial and Ethnic Disparities in the Police 
+Handling of Juvenile Arrests 
+Author(s): 
+Ronald E. Claus, Ph.D., Sarah Vidal, Ph.D., 
+Michele Harmon, Ph.D. 
+Document Number: 250804 
+Date Received:  
+June 2017 
+Award Number:  
+2014-JF-FX-0103 
+This resource has not been published by the U.S. Department of 
+Justice. This resource is being made publically available through the 
+Office of Justice Programs’ National Criminal Justice Reference 
+Service. 
+Opinions or points of view expressed are those of the author(s) and 
+do not necessarily reflect the official position or policies of the U.S. 
+Department of Justice. 
+
+
+ 
+ 
+ 
+Racial and Ethnic Disparities in the Police Handling of Juvenile Arrests 
+ 
+ 
+Ronald E. Claus, PhD 
+Sarah Vidal, PhD 
+Michele Harmon, PhD 
+Westat, Rockville, MD 
+ 
+ 
+ 
+This project was supported by Grant 2014-JF-FX-0103 awarded by the Office of Juvenile 
+Justice and Delinquency Prevention, Office of Justice Programs, U.S. Department of Justice.  The 
+opinions, findings, and conclusions or recommendations expressed in this paper are those of the 
+authors and do not necessarily reflect those of the Department of Justice.   
+ 
+ 
+Correspondence should be directed to Ron Claus, PhD, Westat, 1600 Research Blvd., 
+Rockville, MD 20850, ronaldclaus@westat.com , 301-251-1500  
+ 
+Key Words:  disproportionate minority contact, juvenile justice, race, ethnicity, gender
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+i 
+ 
+Table of Contents 
+Executive Summary ........................................................................................................................ ii 
+Introduction ..................................................................................................................................... 1 
+Theoretical Frameworks for Explaining DMC ........................................................................... 1 
+The Effects of Legal, Extralegal and Contextual Factors on DMC ............................................ 3 
+Limitations of Previous Research and Implications for the Current Study................................. 4 
+Current Study .............................................................................................................................. 6 
+Method ............................................................................................................................................ 7 
+Participants .................................................................................................................................. 8 
+Variables...................................................................................................................................... 8 
+Analytic Approach .................................................................................................................... 10 
+Results ........................................................................................................................................... 11 
+Discussion ..................................................................................................................................... 13 
+Strengths and Limitations.......................................................................................................... 16 
+Conclusions ............................................................................................................................... 17 
+References ..................................................................................................................................... 18 
+Tables ............................................................................................................................................ 24 
+Table 1. Number of Cases by State1 .......................................................................................... 24 
+Table 2.  Demographic and Descriptive Characteristics of Juveniles by Disposition Status.... 25 
+Table 3.  Fixed Effect Estimates (and 95% Confidence Intervals) For Models of Post-Arrest 
+Disposition of Juveniles by Offense Type. ............................................................................... 26 
+Appendix A-1 – NIBRS Group A and B Offenses ....................................................................... 27 
+ 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+ii 
+ 
+  Executive Summary 
+Past research on disproportionate minority contact (DMC) in juvenile justice routinely 
+demonstrates that members of racial and ethnic minority groups are over-represented at multiple 
+stages of the juvenile justice system (Cruchfield, Fernandes, & Martinez 2010; Engen, Steen and 
+Bridges 2002; Leiber 2002; Pope, Lovell, & Hsia 2002; Sampson &Lauritsen 1997). For 
+example, Hispanic/Latino youth are placed in residential facilities at a rate that is 1.3 times 
+greater than their representation in the population. Black representation in juvenile residential 
+placement facilities is nearly three times that of their representation in the population 
+(Puzzachera, Slatdky, & Kang 2013; Sickmund, Sladky, Kang, & Puzzachera 2013). Similar 
+disparities are also seen in earlier stages of the juvenile justice system—Black and 
+Hispanic/Latino adolescents are more likely than Whites to have had contact with the police and 
+to be arrested (Cruchfield, Skinner, Haggarty, McGlynn, & Catalano, 2009). This is troubling 
+given that early contact with the police was found to increase the odds of further contact with the 
+police in later adolescence.  
+Although well-supported empirically, limitations on research design and sampling 
+methodology often restrict the implications of these studies. The present study integrates and 
+extends research findings on DMC in the juvenile justice system by using the National Incident-
+Based Reporting System (NIBRS) to examine the effects of race and ethnicity and contextual 
+factors on post-arrest handling decisions by the police. The structure of NIBRS allows for the 
+exploration of jurisdictional variation in the treatment of juvenile arrestees, as well as an 
+assessment of whether legal characteristics, extralegal factors and social context help to explain 
+ethnic disparities in the police handling of youth.  
+Our findings suggest that: 
+ DMC was related to the type and severity of the charges faced by juveniles.   
+ Individuals with less severe charges faced increased DMC, such that Hispanic/Latino 
+juveniles were 10% more likely to be referred to authorities and White juveniles were 
+16% less likely to be referred.  
+ DMC was not observed for juveniles with more severe charges, including violent, 
+weapons, property, public order, and drug crimes.  
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+iii 
+ 
+ For all charges, the effects of ethnicity and race on juvenile disposition were 
+independent, and no differences between White and non-White Hispanic/Latinos 
+were observed.  
+ Referral of racial and ethnic minority girls to the juvenile justice system varied by severity 
+of the charges. 
+ Hispanic/Latina girls were less likely to be referred to the juvenile justice system 
+compared to girls who were not Hispanic/ Latina, but only for less severe offenses. 
+ Compared to White girls, racial minority girls were less likely to be referred to the 
+juvenile justice system for more serious charges.  
+ DMC varied across counties, but structural disadvantage was not significantly related to 
+disposition. 
+ Juveniles in less advantaged areas were not more likely to be referred to authorities 
+than juveniles in more advantaged areas. 
+These findings contribute to the literature on racial and ethnic disparities in the juvenile 
+justice system by focusing on an early stage in the decision-making process and by broadening 
+the geographic scope of past studies (Duran & Posadas 2013; Freiburger & Burke 2011; 
+Guevara, Boyd, Taylor, & Brown 2011; Moore & Padavic 2010).  The findings highlight the 
+way race and ethnicity influence post-arrest decision-making for less serious charges and point to 
+the ongoing need to strive for equitable treatment of youth. Because even small disparities at this 
+point may accumulate over subsequent levels, these results underscore the need to better 
+understand arresting officer behaviors and attitudes and agency-level intervening processes that 
+result in differential treatment by race and ethnicity.
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+1 
+ 
+Introduction 
+Nearly 30 years after federally supported efforts to address disproportionate minority 
+contact (DMC), the overrepresentation of racial and ethnic minority youth in various stages of 
+juvenile justice processing remains a longstanding issue (Davis & Sorensen, 2013b; Leiber, 
+Bishop, & Chamlin, 2011; Piquero, 2008). For example, although Black youth represent 14% of 
+the youth population in the U.S. in 2013 (Puzzanchera, Sladky, & Kang, 2015), they constitute 
+36% of delinquency cases processed in juvenile courts (Sickmund, Sladky, & Kang, 2015). The 
+relationship between race and ethnicity and contact with the juvenile justice system, however, is 
+complex. Studies show that the effects of race and ethnicity on juvenile justice system contact 
+may vary by extralegal, incident-related, and contextual factors, including age and gender of 
+youth, and social and neighborhood contexts (Bishop, Leiber, & Johnson, 2010; D’Allesio, 
+Stolzenberg, & Eitle, 2002). However, despite the exponential growth in systematically 
+investigating DMC, theoretical and methodological limitations remain, including lack of a 
+credible measure of ethnicity and geographically limited samples of youth (Kempf-Leonard, 
+2007). Few studies have also examined DMC during the early stages of involvement with the 
+law (e.g., post-arrest handling decisions) wherein substantial discretion is exercised by law 
+enforcement actors. In this study, we addressed these critical gaps in the literature by utilizing 
+data from the National Incident Based Reporting System (NIBRS), a reporting system based on 
+the submission of crime information by law enforcement agencies, to examine the effects of race 
+and ethnicity, as well as extralegal and contextual factors on post-arrest handling of juvenile 
+cases by the police.  
+Theoretical Frameworks for Explaining DMC 
+Although the presence of DMC in the juvenile justice system is well-established, the 
+mechanisms by which it exists remain unclear. Two theoretical frameworks generally guide the 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+2 
+ 
+assumptions and propositions associated with DMC. First, according to differential involvement 
+hypothesis, DMC is primarily attributed to minority youth’s involvement in more criminal 
+activity and serious offending (Leiber, 2002; Piquero, 2008; Tillyer & Engel, 2012). Proponents 
+of this framework focus on the social and contextual factors that may contribute to minority 
+youth’s increased involvement in crime. For example, low socioeconomic status, poor 
+educational attainment, lack of employment, and disadvantaged neighborhood are among the 
+common factors associated with greater likelihood of involvement in crime (Cottle, Lee, 
+Heilbrun, 2001; Sampson & Groves, 1989; Kubrin & Wo, 2016). A significant proportion of 
+racial and ethnic minority youth often experience such convergent and cumulative disadvantages, 
+which may place them at an increased risk for offending (Ginwright & Cammarota, 2002). The 
+differential involvement hypothesis, therefore, suggests that accounting for these extralegal and 
+contextual factors would reduce or eliminate racial and ethnic disparities in justice processing 
+(Davis & Sorensen, 2013a). 
+Comprehensive reviews of the literature, however, indicate that social and contextual 
+factors alone cannot account for racial disparities in contact with the juvenile justice system 
+(Bishop, 2005; Leiber 2002). Guided by conflict and social control theories (see Sampson & 
+Groves, 1989), differential selection and processing hypothesis suggests that racial and ethnic 
+stereotypes and profiling lead to disproportionate contact of minorities in the juvenile justice 
+system (Leiber et al., 2011; Piquero, 2008). This framework aligns with the symbolic threat 
+theory, which underscores the importance of perceptions of and attributions to delinquent 
+behavior particularly among racial and ethnic minority youth (Tittle & Curran, 1988). Central to 
+these theories is the notion that minorities are perceived as threats to the political and economic 
+advancement of the dominant group (Blalock, 1967). Consistent with these assumptions are 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+3 
+ 
+findings from experimental and cross-sectional studies that document the effects of race and 
+ethnicity on attributions to and perceptions of offender’s risk to reoffend and dangerousness. 
+These studies indicate that racial and ethnic minority youth’s delinquencies are more likely to be 
+attributed to character flaw and they are more likely to be perceived as dangerous and receive 
+recommendations for harsher punishments (Graham & Lowery, 2005; Bridges & Steen, 1998; 
+Gilliam & Iyengar, 2000).  
+Both the differential involvement and differential selection and processing hypotheses 
+have been considered the backdrop of DMC research and have guided an understanding of how 
+DMC might operate at different stages of juvenile justice processing. Although proposing 
+various competing arguments, central to both frameworks is the notion that the effects of race 
+and ethnicity on contact with the juvenile justice system do not happen in isolation.  
+The Effects of Legal, Extralegal and Contextual Factors on DMC  
+Differential involvement and differential selection and processing hypotheses underscore 
+the importance of examining the contexts in which DMC may operate. For example, the effects 
+of race and ethnicity may vary by legal factors such as crime severity. Research suggests that 
+racial and ethnic disparities may be more evident in less serious crimes than more serious crimes. 
+Black youth are more likely to be formally processed at intake than White youth for drug-related 
+offenses; however, this finding is not true for person or property crimes (Bishop et al., 2010). 
+During disposition, White youth are less likely to receive correctional placement for property 
+crimes than their Black youth counterparts (Bishop et al., 2010).  Scholars posit that these 
+findings could be attributed to the greater decision-making discretion that legal actors typically 
+have for less serious versus more serious offenses (Piquero, 2008). Further, consistent with 
+differential selection and processing hypothesis, perceptions and attitudes of legal actors toward 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+4 
+ 
+racial and ethnic minority youth may influence how they respond to crime (Lurigio & Caroll, 
+1985), which may exacerbate DMC. 
+The extent to which race and ethnicity interact with extralegal factors associated with 
+offending may also contribute to overrepresentation of racial and ethnic minority youth in the 
+juvenile justice system. For example, although some studies suggest that racial and ethnic 
+minority youth receive harsher treatment in the juvenile justice system regardless of gender 
+(Leiber, Brubaker, & Fox, 2009), some studies also show that DMC may be more pronounced 
+among racial and ethnic minority girls. Black girls compared to White girls are more likely to be 
+recommended for formal processing (Bishop et al., 2010) and receive harsher dispositions, 
+including commitment to correctional facility and transfer to adult court (Moore & Padavic, 
+2010). Hispanic/Latino girls also experience more severe dispositions such that they are more 
+likely to be found delinquent than White girls even after accounting for important individual and 
+case characteristics (Freiburger & Burke, 2011). These findings are consistent with the notion 
+that intersecting subordinate identities may create a cumulative disadvantage for members of 
+racial and ethnic minority groups (Samuels & Rose-Sheriff, 2008). Evidence to the contrary 
+suggests, however, that Black girls relative to their White counterparts are less likely to receive 
+court referral at intake (Leiber et al., 2011). In addition, racial and ethnic minority boys, 
+arguably, may be at a greater disadvantage in various stages of juvenile justice processing than 
+racial and ethnic minority girls simply due to the fact that boys compared to girls are more likely 
+to engage in chronic delinquency (Miller, Malone, & Dodge, 2010).  
+Limitations of Previous Research and Implications for the Current Study 
+Although well-supported empirically, limitations on research design and sampling 
+methodology often restrict the implications of these studies. For example, very few studies have 
+specifically focused on exploring DMC among Hispanic/Latino youth. The Uniform Crime 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+5 
+ 
+Reports (UCR), the leading source of crime and arrest statistics in the United States, does not 
+include information about the ethnicity of offenders. Studies utilizing other administrative data 
+sets that do not systematically capture ethnicity are also restricted to racial comparisons between 
+White and Black youth, and in most cases, treat race and ethnicity as a single composite variable 
+(e.g., Chauhan, Reppucci, Burnette, & Reiner, 2010; Peck & Jennings, 2016). This is 
+problematic given that racial and ethnic minority groups may have different experiences of 
+disparities in the justice system. For example, some studies suggest that although racial and 
+ethnic minority youth experience disparities at various decision-making points in juvenile justice 
+processing, such disparities are greater among Black than Hispanic/Latino youth (Bontrager, 
+Bales, & Chiricos, 2005; Leiber, 2016; Wang & Mears, 2010; for counterarguments, see 
+Steffensmeier & Demuth, 2000). However, to our knowledge, no research has examined the 
+intersectionality of race and ethnicity at post-arrest decision-making by the police. Consistent 
+with intersectionality theory (Samuels & Rose-Sheriff, 2008), it is possible that intersecting 
+racial and minority identities would create a greater disadvantage in post-arrest handling 
+decisions than intersecting dominant and minority race and ethnicity.  
+Many of the DMC studies are also geographically limited thereby restricting the 
+generalizability of findings. Currently, NIBRS is the only large scale administrative criminal 
+justice data collection that provides information about the ethnicity of suspects after an arrest has 
+been made. Thus, NIBRS allows for a more nuanced examination of DMC by considering the 
+main and interactive effects of race and ethnicity on post-arrest handling decisions by the police 
+and also allow for the exploration of jurisdictional variation in handling of juvenile arrestees.  
+Finally, DMC research in juvenile justice processing has primarily focused on decisions 
+made within the jurisdiction of a juvenile court (Bishop et al., 2010; Higgins, Ricketts, Griffit, & 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+6 
+ 
+Jirard, 2013; Leiber & Stairs, 1999). However, substantial decision-making discretion occurs 
+even before a case reaches the juvenile court. As the primary source of delinquency referrals to 
+juvenile court (Hockenberry & Puzzanchera, 2015), law enforcement officials (e.g., the police) 
+exercise great discretion in case decision-making during and after an arrest. An arresting officer, 
+for instance, may informally handle the arrest and divert the youth from further processing in the 
+juvenile justice system. In such cases, a youth may be released with a warning or released into 
+the custody of a parent or guardian. Alternatively, a police officer may decide to formally handle 
+the arrest and refer the youth to the juvenile justice system. Thus, arrest marks a critical juncture 
+of a youth’s contact with the legal system. 
+Studies that examined the effects of race and ethnicity on arrests have consistently shown 
+that racial and ethnic minority youth are more likely to be arrested compared to White youth 
+(Tapia, 2010). There is much uncertainty, however, on what happens after an arrest. 
+Surprisingly, the effects of race and ethnicity on post-arrest handling decision by the police have 
+received relatively less empirical attention. Because post-arrest handling decision by the police 
+may determine the extent a youth may become deeply involved in the juvenile justice system, it 
+is critical to examine how race and ethnicity may influence decisions made at this critical 
+decision-making stage. 
+Current Study 
+ 
+This study integrates and extends research findings on DMC in the juvenile justice 
+system. Specifically, we utilized NIBRS to examine the effects of race and ethnicity and 
+contextual factors on post-arrest handling decisions by the police. Consistent with previous 
+research, we hypothesized that racial minority and Hispanic/Latino youth would be more likely 
+referred to the juvenile justice system compared to White and non-Hispanic/Latino youth, 
+respectively, after controlling for extralegal and case-related variables (Bishop et al., 2010; 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+7 
+ 
+Higgins et al., 2013). We also hypothesized that DMC would be less pronounced for those who 
+committed more severe types of crime and, conversely, that DMC would be stronger for less 
+severe types of crime (Bishop et al., 2010; Piquero, 2008). Given the mixed findings on the 
+interactive effects of race, ethnicity, and gender on juvenile justice processing (see Bishop et al., 
+2010; Leiber et al., 2011; Moore & Padavic, 2010), we did not formulate specific hypotheses for 
+these variables. 
+Method 
+The goal of the current study is to investigate the degree of racial and ethnic disparity in the 
+post-arrest handling of juveniles.  The study utilized data from the National Incident-Based 
+Reporting System (NIBRS) and the American Community Survey (ACS).1 Data for NIBRS are 
+submitted by participating law enforcement agencies to the Federal Bureau of Investigation (FBI) 
+on a monthly basis.  Developed as an alternative to the summary Uniform Crime Reports (UCR), 
+NIBRS provides detailed information on the characteristics of crime incidents in participating 
+jurisdictions, including demographic characteristics of the offenders and incident characteristics 
+such as weapon use.  Unlike UCR, NIBRS does not adhere to a hierarchy rule where only 
+information on the most serious offense is collected, but instead gathers information pertaining to 
+offenders and victims for all offenses committed in a criminal incident. The ACS involves monthly 
+data collection through internet, mail, telephone, and personal visit across the United States and 
+Puerto Rico to produce detailed annual information about population and housing characteristics of 
+communities.  The Westat Institutional Review Board granted human subjects approval for the 
+study. 
+                                                          
+1 NIBRS resources and data are available at http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/00128.  ACS 
+resources and data are available at http://www.census.gov/programs-surveys/acs/.  
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+8 
+ 
+Participants   
+The study included juvenile arrestees from 14 states that submitted data from all state 
+jurisdictions from 2010 through 2012 (Arkansas, Idaho, Iowa, Michigan, Montana, New 
+Hampshire, North Dakota, Rhode Island, South Carolina, South Dakota, Tennessee, Vermont, 
+Virginia, and West Virginia). State definitions of juvenile were used to define the age limits for 
+each state (Table 1 lists the number of cases by State). Arrests from one full reporter state 
+(Delaware; n=14,721) were excluded because all were coded as referred to authorities. Arrests 
+were pooled across three years to ensure that the study had sufficient statistical power and enough 
+cases to fit each racial and ethnic category of interest, and to smooth out the potential impact of 
+statistically anomalous arrest characteristics within counties.   
+Variables 
+The dependent variable was the disposition of juvenile arrestees, coded as referred to 
+authorities (e.g., juvenile court, probation, adult court, or welfare agency; 67.9%) or as handled 
+within the police department (e.g., released to parents, released with a warning; 32.1%). With the 
+focus on disparity in disposition, the main independent variables for the study were juvenile race 
+and ethnicity. In the arrestee segment of NIBRS, police agencies are asked to provide 
+information on the race (i.e., White, Black or African American, American Indian or Alaska 
+Native, Asian, Native Hawaiian or Other Pacific Islander) and the Hispanic/Latino origin of each 
+individual, collected separately from the arrestee’s race. This pair of variables allows for greater 
+specificity and is a distinct strength over other official sources of crime data. Overall, 85.2% 
+(n=424,923) of the participants had complete data on ethnicity and race. A comparison of records 
+with missing data on ethnicity (14.3% of the overall sample) and race (1.5% overall) with 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+9 
+ 
+complete-data records found very weak associations with the case disposition (phi < .02) 2 and 
+juvenile-level control variables (phi < .06).  However, missing data were much more likely in 
+certain states (e.g., 84% of cases with missing ethnicity data and 22% of those missing on race 
+were from Michigan jurisdictions).  
+Overall, 7.8% of youth were Hispanic/Latino (see Table 2). Regarding race, most were 
+White (61.8%) or Black (34.7%), with fewer arrestees identified as American Indian-Alaska 
+Native (2.9%) or Asian-Pacific Islander (0.7%). NIBRS specifies 22 offense categories made up 
+of 46 crimes as Group A offenses, which were categorized as violent (18.1% of arrests), property 
+(26.2%), drug (9.8%), public order (0.2%) and weapons (1.4%) crimes. In addition, NIBRS 
+identifies 11 less severe offenses as Group B offenses (e.g., curfew, loitering, vagrancy, 
+disorderly conduct and liquor law violations; 44.3% of arrests) (see Appendix for a complete list 
+of Group A and Group B offenses). Juvenile-level variables also included extralegal 
+characteristics (arrestee gender, arrestee age) and incident characteristics (offense type, arrestee 
+armed). The sample was 15.2 years old on average, about two-thirds were male (67.6%), and 
+only 1.3% of arrestees were armed. 
+Contextual variables were developed using 5-year ACS estimates from 2011 for the 773 
+total counties in the relevant states. A measure of structural disadvantage in each county was 
+constructed by creating a factor score using principal components analysis based on five 
+measures:  1) percent of residents without a high school diploma or equivalent, 2) percent 
+households living below poverty level, 3) percent unemployed, 4) percent of single parent 
+households, and 5) median household income (see Chamberlain & Hipp, 2015; Moak, Thomas, 
+                                                          
+2 The Phi coefficient is a type of correlation between two variables when both are dichotomous (i.e., have two 
+values) as with a 2x2 crosstabulation (Vogt & Johnson, 2015). Phi measures the strength of an association and is 
+equivalent to Pearson’s correlation coefficient. For example, a phi coefficient could be used to compute the 
+correlation between sex (male/female) and employment status. However, it could not be used for age and income 
+because these are not dichotomous variables. 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+10 
+ 
+Walker & Gann, 2012). All variables loaded onto one factor, with the first four loading 
+positively and the last (median household income) loading negatively.  
+Analytic Approach   
+First, descriptive and bivariate analyses allowed an assessment of the extent of disparity in 
+juvenile arrests and the handling of juvenile arrestees. Analyses were conducted to explore whether 
+DMC varied across extralegal characteristics and case specific characteristics. Next, a series of 
+hierarchical generalized linear models were estimated based on the impact of juvenile-level and 
+contextual constructs on the odds of referral (Raudenbush & Bryk, 2002). Because we expected 
+DMC to vary by offense severity, models were tested for all arrestees, juveniles with Group A 
+offenses, and juveniles with Group B offenses. Juvenile-level variables included race, ethnicity, 
+gender, age, offense type, and whether or not an arrestee was armed.  Outcome differences 
+between White and non-White Hispanic/Latinos were tested by adding a race by ethnicity 
+interaction to each model. The age variable in each model was grand mean-centered.   
+Hierarchical linear modeling allows the determination of juvenile outcomes while 
+controlling for the clustering of individuals in geographic units. A particular strength of multilevel 
+modeling is that a randomly varying error term can be specified for juvenile-level variables to 
+explore whether the effects of juvenile characteristics vary across aggregate level (county) units. 
+Here, once a full two-level model was fit, random error terms for the effects of race and ethnicity 
+were added to the model. Results with a significant error term suggested that the effect of race or 
+ethnicity differed across counties. If a significant random effect of race or ethnicity was found, we 
+fit a model exploring whether relevant aggregate level measures of social context help to explain 
+the random variation in the effect. Such a model, in essence, explores whether the effects of 
+ethnicity/race are different at different levels of the social context. Structural disadvantage is the 
+contextual variable of primary interest.  The models meet sample size recommendations to obtain 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+11 
+ 
+unbiased and accurate estimates for fixed effect parameters in hierarchical logistic regression 
+models (Maas & Hox, 2005; Moineddin, Matheson, & Glazier, 2007).  
+Results 
+Chi-square findings showed that disposition differed significantly by race and ethnicity. 
+In these unadjusted tests, Hispanic/Latinos were less likely to be referred to authorities than non-
+Hispanic/Latinos (65.7% vs. 68.1%; χ2=78.9, p < .000). Regarding race, referral was highest for 
+American Indian-Alaska Natives (73.6%), followed by Whites (69.1%), Asian-Pacific Islanders 
+(67.6%), and Blacks (65.3%) (χ2=836.5, p < .000). Notably, juveniles arrested for Group A 
+offenses were more likely to be referred than those with Group B charges (72.4% vs. 62.4%; 
+χ2=4812.9, p < .000). Further, males were slightly more likely than females (68.4% vs. 66.3%, 
+χ2=243.2, p < .000) and juveniles who were armed were more likely than unarmed juveniles to 
+be referred (76.7% vs. 67.8%, χ2=200.9, p < .000).  Referred youth were slightly older (15.22 vs. 
+15.19 years of age), a statistically but not practically different difference, t (424,921) = 5.755, p 
+< .000.   
+ 
+Table 3 presents fixed effect estimates for the multivariate hierarchical generalized linear 
+models predicting the odds of referral for all juveniles (Model 1), individuals with Group A 
+charges (Model 2), and those with Group B charges (Model 3). Consistent with the first 
+hypothesis, Model 1 showed that Hispanic/Latino juveniles were 7% more likely to be referred 
+to authorities, and White juveniles were 8% less likely to be referred. The addition of a race by 
+ethnicity interaction term failed to significantly improve the model fit (not shown), indicating 
+that White and non-White Hispanic/Latinos had similar outcomes.  
+Models 2 and 3 show differences in DMC related to charge severity consistent with the 
+second hypothesis. For the more severe Group A charges, statistical tests of race and ethnicity 
+found no differences in the disposition of minority and Hispanic/Latino youth. For the less 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+12 
+ 
+severe Group B charges, however, DMC effects were observed:  Hispanic/Latino juveniles were 
+10% more likely to be referred than non-Hispanic/Latinos, and White juveniles were 14% less 
+likely to be referred than minority youth. Race by ethnicity interaction terms did not contribute to 
+either model (not shown).  
+For each model, statistically significant random variance terms were found for race and 
+ethnicity, indicating that the effects of race and ethnicity varied across counties. The addition of 
+a structural disadvantage term at the county level, however, did not significantly improve the fit 
+for any of the models. In Models 1 and 2, juveniles charged with violent crimes were the most 
+likely to be referred, followed by those with weapons, property, public order, and drug crimes. 
+Consistent with previous research, males and older juveniles were significantly more likely to be 
+referred to the courts, as were juveniles who were armed and faced more serious charges.  
+Next, the study examined whether DMC differed for boys and girls. Tests of the 
+interaction between gender and ethnicity (not shown in Table 3) found that, for less severe Group 
+B charges, Hispanic/Latino girls were less likely to be referred to authorities (p < .001). 
+Examination of the predicted probabilities showed that Hispanic/Latino girls (52.8%) were less 
+likely to be referred than non-Hispanic/Latino girls (62.4%), non-Hispanic/Latino boys (62.8%), 
+and Hispanic/Latino boys (63.4%). For more serious charges, gender by ethnicity differences 
+were not observed (p > .05). Gender differences by race, on the other hand, were observed only 
+for more serious charges. In these cases, minority girls (69.0%) were slightly less likely to be 
+referred than minority boys (71.5%), White girls (72.4%), and White boys (73.8%) (p < .001). 
+No gender by race differences were found for Group B charges (p > .05).   
+ 
+Finally, to account for unmeasured heterogeneity at the state level and to explore the 
+potential impact of missing data, dummy variables representing the states in which jurisdictions 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+13 
+ 
+were located were added to each model (results available upon request). Although the likelihood of 
+referral to authorities for juveniles differed across states, the odds ratios for race and ethnicity 
+showed no change, providing further support for the DMC findings.   
+Discussion 
+The current study investigated racial and ethnic disparity in the post-arrest handing of 
+juveniles by police and found that DMC was related to the type and severity of the charges faced 
+by juveniles. Individuals with less severe charges faced increased DMC, such that Hispanic/Latino 
+juveniles were 10% more likely to be referred to authorities and White juveniles were 16% less 
+likely to be referred. DMC was not observed for juveniles with more severe charges, including 
+violent, weapons, property, public order, and drug crimes. For all charges, the effects of ethnicity 
+and race on juvenile disposition were independent, and no differences between White and non-
+White Hispanic/Latinos were observed. Contrary to previous research, the study found that when 
+charges were less serious, Hispanic/Latino girls were less likely to be referred to authorities, and 
+when charges were more serious, racial minority girls were slightly less likely to be referred.   
+The findings are noteworthy because formal handling serves as the crucial decision making 
+stage at which youth transition into the court system. Early contact with the police has been found 
+to increase the odds of further contact later in adolescence (Crutchfield, Skinner, Haggarty, 
+McGlynn & Catalano, 2009). Prior research on youth has focused primarily on arrest and 
+adjudication outcomes, and few large studies address the key decision making stage at which youth 
+proceed beyond arrest and toward adjudication, and whether ethnic and racial disparities in rates of 
+referral can be attributed to this decision point. To our knowledge, NIBRS is the only official 
+source of police arrest statistics that systematically collects information on this critical and often 
+undocumented stage of the police handling of youth arrestees, and the only large scale 
+administrative criminal justice data collection that provides information about the ethnicity of 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+14 
+ 
+suspects after an arrest has been made. By drawing upon a large multi-state sample, the findings of 
+ethnic and racial disparity are less susceptible to the effects of stricter local law enforcement or 
+juvenile justice systems unique to a single jurisdiction or State.  
+ 
+Research has frequently described findings of disparity at early decision points in the 
+juvenile justice process (Crutchfield, Fernandez, & Martinez, 2010) and identifies the important 
+role that extralegal and contextual factors play in determining the presence and magnitude of racial 
+and ethnic disparities in youth punishment. Consistent with previous studies, analyses 
+disaggregated by crime severity found that ethnic and racial disparities were more pronounced for 
+less serious offenses, such as status offenses (e.g., Bishop and Frazier, 1996), but after controlling 
+for extralegal and case characteristics, were absent for more severe charges. Males were more 
+likely to be referred regardless of race, ethnicity, and crime severity, a finding that suggests that 
+males are more likely to be involved with chronic antisocial and delinquent behaviors than girls 
+(Miller et al., 2010), and older youth, who may be judged more mature and blameworthy than 
+younger juveniles, were also referred at higher rates.  
+DMC varied across counties, but structural disadvantage was not significantly related to 
+disposition, i.e., juveniles in less advantaged areas were not more likely to be referred to 
+authorities. Similarly, disadvantage does not account for variation in length of juvenile 
+preadjudication detention (Moak et al., 2012) or juvenile intake, adjudication, and disposition 
+outcomes (Leiber, Peck & Rodriquez, 2016). Future research on disposition, however, should 
+explore the relation between community disadvantage and youth race and ethnicity, including 
+empirical advancements that may improve the understanding of these interactions.  
+The findings demonstrate that law enforcement actors are less likely to refer racial and 
+ethnic minority girls to the juvenile justice system, although the context in which these findings 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+15 
+ 
+operate differ: racial minority girls received more lenient treatment for more serious offenses, 
+whereas ethnic minority girls received more lenient treatment for less serious offenses.  
+Hispanic/Latino girls were less likely to be referred to the juvenile justice system compared to 
+non-Hispanic/Latino girls, but only for less severe offenses. Perceptions of legal actors toward 
+Hispanic/Latino girls’ motivations for offending may help explain this finding. Studies have 
+shown that juvenile court actors share similar perceptions about Hispanic/Latino and White girls’ 
+delinquency, which they primarily attribute to low self-esteem and peer pressure (Miller, 1994). 
+Research also suggests that juvenile justice actors’ perceptions of struggles between ethnic and 
+American identities among Hispanic/Latino girls may mitigate harsher dispositions for 
+Hispanic/Latino girls (Gaarder, Rodriguez, & Zatz, 2004). Although these perceptions may elicit 
+leniency for Hispanic/Latino girls who committed less serious offenses, the findings suggest that 
+law enforcement actors may not exercise the same leniency for Hispanic/Latino girls when it 
+comes to more serious offending. Law enforcement officials referred Hispanic/Latino girls to the 
+juvenile justice system at similar rates as non-Hispanic/Latino girls. 
+Compared to White girls, however, racial minority girls were less likely to be referred to 
+the juvenile justice system for more serious charges. These findings contradict previous research 
+suggesting that minority girls are more likely to experience harsher treatment (Bishop et al., 
+2010; Moore & Padavic, 2010) and that intersecting subordinate identities may result to a greater 
+disadvantage for minority girls (Samuels & Rose-Sheriff, 2008). Notably, this finding was 
+significant only for more serious offending—racial minority girls are no more likely to be 
+referred than White girls for less serious offenses. It is possible that because more serious 
+offenses also entail more severe dispositions, including placement in a secure correctional 
+facility, law enforcement officers “correct” for earlier biases in their decisions similar to juvenile 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+16 
+ 
+court actors (Bishop et al., 2010; Leiber, 2009). For example, some scholars suggest that 
+inconsistencies in DMC findings at later stages of juvenile court processing (see Bishop et al., 
+2010; Peck & Jennings, 2016) may be attributed to a “correction effect” wherein juvenile justice 
+decision-makers attempt to remedy disparities at earlier stages of juvenile justice processing 
+(Bishop et al., 2010; Leiber, 2009). Finally, since the study did not control for previous juvenile 
+arrests or delinquency, the impact of differential offending cannot be ruled out, even when 
+differential treatment may be the goal of legal actors. These findings highlight complexities in 
+the intersections of gender with race and ethnicity.  
+Strengths and Limitations 
+The study encompassed a large number of communities with diverse socioeconomic 
+status, rather than focusing on a single State or community. However, while NIBRS covered 
+approximately 30% of the U.S. population when these arrests occurred, many of the full reporter 
+States have small total populations and a large proportion of non-urban residents. Estimates of 
+the handling of juvenile arrestees can only generalize to similar jurisdictions and States. 
+Multilevel analyses incorporated ACS data, which allowed the study to control for county-level 
+correlates of arrest disposition. The study also controlled for key extralegal and incident 
+characteristics, including offense type, but is limited by the absence of information on 
+delinquency and previous juvenile arrests in NIBRS. The present findings are influenced to the 
+extent that an offender’s arrest history directly or indirectly influences referral to authorities. Due 
+to the structure of NIBRS, the study was able to make separate estimates of the effects of race, 
+ethnicity, and their interaction on DMC. Although a sizeable proportion of NIBRS cases had 
+missing information on ethnicity, this deficiency was only weakly associated with the study 
+outcome and control variables. 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+17 
+ 
+Conclusions 
+The findings of this study contribute to the literature on racial and ethnic disparities in the 
+juvenile justice system by focusing on an early stage in the decision-making process and by 
+broadening the geographic scope of past studies (Duran & Posadas 2013; Freiburger & Burke 
+2011; Guevara, Boyd, Taylor, & Brown 2011; Moore & Padavic 2010).  The findings highlight 
+the way race and ethnicity influence post-arrest decision-making for less serious charges and 
+point to the ongoing need to strive for equitable treatment of youth. Because even small 
+disparities at this point may accumulate over subsequent levels, these results underscore the need 
+to better understand arresting officer behaviors and attitudes and agency-level intervening 
+processes that result in differential treatment by race and ethnicity 
+ 
+ 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+18 
+ 
+References 
+Bishop, D. M. (2005).  The role of race and ethnicity in juvenile justice processing. In D. 
+Hawkins & K. Kempf-Leonard (Eds.), Our children, their children: Confronting racial and 
+ethnic differences in American juvenile justice (pp. 23-82). Chicago: The University of 
+Chicago Press. 
+Bishop, D.M. & Frazier, C.E. (1996). Race effects in juvenile justice decision-making: Findings 
+of a state-wide analysis. Journal of Criminal Law and Criminology, 86, 392-414. 
+Bishop, D. M., Leiber, M., & Johnson, J. (2010). Contexts of decision making in the juvenile 
+justice system: An organizational approach to understanding minority overrepresentation. 
+Youth Violence and Juvenile Justice, 8, 213–233. doi.org/10.1177/1541204009361177 
+Blalock, H. M. (1967). Toward a theory of minority-group relations. New York: Wiley. 
+Bridges, G. S., & Steen, S. (1998). Racial disparities in official assessments of juvenile 
+offenders: Attributional stereotypes as mediating mechanisms. American Sociological 
+Review, 63, 554-570. 
+Bontrager, S., Bales, W., & Chiricos, T. (2005). Race, ethnicity, threat and the labeling of 
+convicted felons. Criminology, 43, 589-622. 
+Chamberlain, A. W., & Hipp, J. R. (2015). It's all relative: Concentrated disadvantage within and 
+across neighborhoods and communities, and the consequences for neighborhood crime. 
+Journal of Criminal Justice, 43(6), 431-443. 
+Chauhan, P., Reppucci, N. D., Burnette, M., & Reiner, S. (2010). Race, neighborhood 
+disadvantage, and antisocial behavior among female juvenile offenders. Journal of 
+Community Psychology, 38, 532-540. 
+Cottle, C. C., Lee, R. J., & Heilbrun, K. (2001). The prediction of criminal recidivism in 
+juveniles a meta-analysis. Criminal Justice and Behavior, 28, 367-394. 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+19 
+ 
+Crutchfield, R.D., Fernandes, A., & Martinez, J. (2010). Racial and ethnic disparity and criminal 
+justice: How much is too much?  Journal of Criminal Law and Criminology, 100, 903-932.  
+Crutchfield, R.D., Skinner, M.L., Haggarty, K.P., McGlynn, A. & Catalano, R. F. (2009). Racial 
+disparities in early criminal justice involvement. Race and Social Problems, 1, 218-230. 
+doi:10.1007/s12552-009-9018-y 
+D’Alessio, S.J., Stolzenberg, L., & Eitle, D. (2002). The effect of racial threat on interracial and 
+intraracial crimes. Social Science Research, 31, 392–408. 
+Davis, J., & Sorensen, J.R. (2013a). Disproportionate juvenile minority confinement: a state-
+level assessment of racial threat. Youth Violence and Juvenile Justice, 11, 296–312. 
+doi.org/10.1177/1541204012472349 
+Davis, J., & Sorensen, J.R. (2013b). Disproportionate Minority Confinement of Juveniles A 
+National Examination of Black–White Disparity in Placements, 1997-2006. Crime & 
+Delinquency, 59, 115-139. 
+Demuth, S., & Brown, S.L. (2004). Family structure, family processes, and adolescent 
+delinquency: The significance of parental absence versus parental gender. Journal of 
+Research in Crime and Delinquency, 41, 58–81. doi.org/10.1177/0022427803256236 
+Duran, R.J. & Posadas, C.E. (2013). Disproportionate minority contact in the land of 
+enchantment: Juvenile justice disparities as a reflection of white-over-color ascendancy.  
+Journal of Ethnicity and Criminal Justice, 11, 93-111. 
+Freiburger, T.L., & Burke, A.S. (2011). Status offenders in the juvenile court: the effects of 
+gender, race, and ethnicity on the adjudication decision. Youth Violence and Juvenile 
+Justice, 9, 352–365. doi.org/10.1177/1541204011399933 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+20 
+ 
+Gaarder, E., Rodriguez, N., & Zatz, M.S. (2004). Criers, liars, and manipulators: Probation 
+officers' views of girls. Justice Quarterly, 21, 547-578. 
+Gilliam Jr, F.D., & Iyengar, S. (2000). Prime suspects: The influence of local television news on 
+the viewing public. American Journal of Political Science, 44, 560-573. 
+Ginwright, S., & Cammarota, J. (2002). New terrain in youth development: The promise of a 
+social justice approach. Social Justice, 29, 82-95. 
+Graham, S., & Lowery, B.S. (2004). Priming unconscious racial stereotypes about adolescent 
+offenders. Law and Human Behavior, 28, 483-504. 
+Guevara, L., Boyd, L.M., Taylor, A.P., & Brown, R.A. (2011). Racial disparities in juvenile 
+court outcomes: A test of the liberation hypothesis. Journal of Ethnicity in Criminal Justice, 
+9, 200-217.  
+Higgins, G.E., Ricketts, M.L., Griffith, J.D., & Jirard, S.A. (2013). race and juvenile 
+incarceration: A propensity score matching examination. American Journal of Criminal 
+Justice, 38, 1–12. doi.org/10.1007/s12103-012-9162-6 
+Hockenberry, S., & Puzzanchera, C. (2015). Juvenile court statistics 2013. 
+Kempf-Leonard, K. (2007). Minority youths and juvenile justice: disproportionate minority 
+contact after nearly 20 years of reform efforts. Youth Violence and Juvenile Justice, 5, 71–
+87. doi.org/10.1177/1541204006295159 
+Kubrin, C.E., & Wo, J.C. (2016). Social disorganization theory’s greatest challenge: Linking 
+structural characteristics to crime in socially disorganized communities. In A. Piquero (Ed.) 
+The Handbook of Criminological Theory (pp. 121-136). West Sussex, UK: John Wiley & 
+Sons. 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+21 
+ 
+Leiber, M.J. (2002). Disproportionate minority confinement (DMC) of youth: An analysis of 
+state and federal efforts to address the issue. Crime & Delinquency, 48, 3-45. 
+Leiber, M.J. (2009). Race, pre-and postdetention, and juvenile justice decision making. Crime & 
+Delinquency, 59, 396-418. 
+Leiber, M.J. (2016). Race, prior offending, and juvenile court outcomes. Journal of Crime and 
+Justice, 39, 88-106. 
+Leiber, M., Bishop, D., & Chamlin, M.B. (2011). Juvenile justice decision‐making before and 
+after the implementation of the disproportionate minority contact (DMC) mandate. Justice 
+Quarterly, 28, 460–492. doi.org/10.1080/07418825.2010.516005 
+Leiber, M.J., Brubaker, S.J., & Fox, K.C. (2009). A closer look at the individual and joint effects 
+of gender and race on juvenile justice decision making. Feminist Criminology, 4, 333–358. 
+doi.org/10.1177/1557085109338564 
+Leiber, M.J., Peck, J.H., & Rodriquez, N. (2016). Minority threat and juvenile court outcomes. 
+Crime and Delinquency, 62,54-80. doi:10.1177/0011128713495776 
+Leiber, M.J., & Stairs, J. M. (1999). Race, contexts, and the use of intake diversion. Journal of 
+Research in Crime and Delinquency, 36, 56-86. 
+Lurigio, A.J., & Carroll, J.S. (1985). Probation officers' schemata of offenders: Content, 
+development, and impact on treatment decisions. Journal of Personality and Social 
+Psychology, 48, 1112. 
+Maas, C.J.M., & Hox, J.J. (2005). Sufficient sample sizes for multilevel modeling. Methodology, 1 
+(3), 86-92.  
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+22 
+ 
+Miller, J. (1994). Race, gender and juvenile justice: An examination of disposition 
+decisionmaking for delinquent girls. In M. D. Schwartz & D. Milovanovic (Eds.), The 
+intersection of race, gender and class in criminology (pp. 219-246). New York: Garland. 
+Miller, S., Malone, P.S., Dodge, K.A., & Conduct Problems Prevention Research Group. (2010). 
+Developmental trajectories of boys’ and girls’ delinquency: Sex differences and links to 
+later adolescent outcomes. Journal of Abnormal Child Psychology, 38, 1021-1032. 
+Moak, S.C., Thomas, S.A., Walker, J.T., & Gann, S.M. (2012). The influence of race on 
+preadjudication detention: Applying the symbolic threat hypothesis to disproportionate 
+minority contact. Journal of Juvenile Justice, 2, 73-90.  
+Moineddin, R., Matheson, F.I., & Glazier, R.H. (2007). A simulation study of sample size for 
+multilevel logistic regression models. BMC Research Methodology, 7, 34.  
+Moore, L.D., & Padavic, I. (2010). Racial and ethnic disparities in girls’ sentencing in the 
+juvenile justice system. Feminist Criminology, 5, 263–285. 
+doi.org/10.1177/1557085110380583 
+Peck, J.H., & Jennings, W.G. (2016). A critical examination of “being Black” in the juvenile 
+justice system. Law and Human Behavior, 40, 219–232. doi.org/10.1037/lhb0000180 
+Piquero, A.R. (2008). Disproportionate minority contact. The Future of Children, 18, 59–79. 
+Puzzanchera, C., Sladky, A. & Kang, W. (2015). Easy access to juvenile populations: 1990-
+2014.  http://www.ojjdp.gov/ojstatbb/ezapop/ 
+Raudenbush, S.W., & Bryk, A.S. (2002). Hierarchical linear models: Applications and data 
+analysis methods (2nd ed.). Thousand Oaks, CA: Sage. 
+Sampson, R.J., & Groves, W.B. (1989). Community structure and crime: Testing social-
+disorganization theory. American Journal of Sociology, 94, 774–802. 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+23 
+ 
+Samuels, G.M., & Ross-Sheriff, F. (2008). Identity, oppression, and power: Feminisms and 
+intersectionality theory. Journal of Women and Social Work, 23, 5–9. 
+doi.org/10.1177/0886109907310475 
+Sickmund, M., Sladky, A., & Kang, W. (2015). Easy access to juvenile court statistics: 1985-
+2013. http://www.ojjdp.gov/ojstatbb/ezajcs/ 
+Steffensmeier, D., & Demuth, S. (2000). Ethnicity and sentencing outcomes in US federal 
+courts: Who is punished more harshly? American Sociological Review, 65, 705-729.  
+Tapia, M. (2010). Untangling race and class effects on juvenile arrests. Journal of Criminal 
+Justice, 38, 255-265. 
+Tillyer, R., & Engel, R.S. (2012). Racial differences in speeding patterns: Exploring the 
+differential offending hypothesis. Journal of Criminal Justice, 40, 285–295. 
+http://doi.org/10.1016/j.jcrimjus.2012.04.001 
+Tittle, C.R., & Curran, D.A. (1988). Contingencies for dispositional disparities in juvenile 
+justice. Social Forces, 67, 23-58. 
+Vogt, P. W., and Johnson, B. R. (2015). The SAGE Dictionary of Statistics & Methodology: A 
+Nontechnical Guide for the Social Sciences, Edition 5. Sage Publications: Thousand Oaks, 
+CA. 
+Wang, X., & Mears, D.P. (2010). A multilevel test of minority threat effects on sentencing. 
+Journal of Quantitative Criminology, 26, 191-215. 
+ 
+ 
+ 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+24 
+ 
+Tables 
+Table 1. Number of Cases by State1 
+ 
+State 
+                    n 
+Arkansas 
+28,421 
+Idaho 
+33,751 
+Iowa 
+41,638 
+Michigan 
+8,087 
+Montana 
+19,297 
+New Hampshire 
+11,517 
+North Dakota 
+13,690 
+Rhode Island 
+12,723 
+South Carolina 
+34,516 
+South Dakota 
+15,934 
+Tennessee 
+101,859 
+Vermont 
+33,328 
+Virginia 
+94,545 
+West Virginia 
+5,617 
+1 Youth were included in the analyses if they were at least 10 years old and at or below the upper 
+age of original jurisdiction in a State. The upper age of jurisdiction was typically 17 years old but 
+was 16 during the study period in three states (MI, NH, SC), per the U.S. Department of Justice, 
+http://www.ojjdp.gov/ojstatbb/structure_process/qa04101.asp?qaDate=2015 
+ 
+ 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+25 
+ 
+Table 2.  Demographic and Descriptive Characteristics of Juveniles by 
+Disposition Status.   
+ 
+ 
+Total    
+(n=424,923) 
+Referred 
+(n=288,611) 
+Handled 
+(n=136,312) 
+Hispanic/Latino  
+7.8% 
+7.6% 
+8.4% 
+Race 
+ 
+ 
+ 
+     White  
+61.8% 
+62.9% 
+59.4% 
+     Black 
+34.7% 
+33.3% 
+37.5% 
+     American Indian-Alaska 
+Native 
+2.9% 
+3.1% 
+2.3% 
+     Asian-Pacific Islander 
+0.7% 
+0.7% 
+0.7% 
+Male 
+67.6% 
+68.4% 
+66.0% 
+Age (Mean (SD))  
+15.2 (1.6) 
+15.2 (1.6) 
+15.2 (1.6) 
+One or more weapons 
+1.3% 
+1.5% 
+1.0% 
+Offense Type 
+ 
+ 
+ 
+     Violent 
+18.1% 
+20.0% 
+14.2% 
+     Property 
+26.2% 
+27.6% 
+23.2% 
+     Public Order 
+0.2% 
+0.2% 
+0.2% 
+     Weapons 
+1.4% 
+1.5% 
+1.1% 
+     Drug 
+9.8% 
+10.0% 
+9.3% 
+     Group B 
+44.3% 
+40.7% 
+52.0% 
+Note. Group B offenses include bad checks, curfew/loitering/vagrancy violations, disorder 
+conduct, driving under the influence, drunkenness, nonviolent family offenses, and liquor law 
+violations.  
+ 
+ 
+ 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+26 
+ 
+Table 3.  Fixed Effect Estimates (and 95% Confidence Intervals) For Models of 
+Post-Arrest Disposition of Juveniles by Offense Type.  
+ 
+Odds Ratio (95% CI)  
+Model 1 
+(Groups A and 
+B)  
+Model 2 
+(Group A) 
+Model 3 
+(Group B) 
+Intercept 
+1.64 *** 
+(1.44, 1.87) 
+1.83 *** 
+(1.59, 2.11) 
+1.76 *** 
+(1.53, 2.03) 
+Community-Level Indicator 
+ 
+ 
+ 
+   Structural Disadvantage 
+0.89 Ϯ 
+(0.78, 1.01) 
+0.89 Ϯ 
+(0.78, 1.02) 
+0.88 Ϯ 
+(0.77, 1.01) 
+Juvenile-Level Indicators 
+ 
+ 
+ 
+   Hispanic/Latino (vs. non-Hispanic) 1.07 *** 
+(1.04, 1.10) 
+1.04 Ϯ 
+(1.00, 1.08) 
+1.10 *** 
+(1.06, 1.14) 
+   White (vs. non-White) 
+0.92 *** 
+(0.90, 0.93) 
+0.98 Ϯ 
+(0.96, 1.00) 
+0.86 *** 
+(0.84, 0.89) 
+   Male 
+1.10 *** 
+(1.09, 1.12) 
+1.17 *** 
+(1.14, 1.19) 
+1.06 *** 
+(1.04, 1.08) 
+   Age  
+1.03 *** 
+(1.02, 1.03) 
+1.05 *** 
+(1.04, 1.06) 
+1.01 * 
+(1.00, 1.01) 
+   Armed 
+1.30 *** 
+(1.21, 1.39) 
+1.39 *** 
+(1.29, 1.50) 
+0.97  
+(0.82, 1.15) 
+Offense Type 
+ 
+ 
+ 
+   Violent 
+1.73 *** 
+(1.70, 1.77) 
+1.47 ***  
+(1.43, 1.51) 
+-- 
+   Property 
+1.34 *** 
+(1.32, 1.37) 
+1.13 ***  
+(1.10, 1.16) 
+-- 
+   Public Order 
+1.26 ** 
+(1.09, 1.46) 
+1.02  
+(0.88, 1.19) 
+-- 
+   Weapons 
+1.55 *** 
+(1.46, 1.66) 
+1.28 *** 
+(1.19, 1.37) 
+-- 
+   Drug  
+1.20 *** 
+(1.18, 1.23) 
+(reference) 
+-- 
+   Group B  
+(reference) 
+-- 
+-- 
+Notes.  ***p < .001. **p < .01.  *p < .05.  Ϯp < .10.  Group B offenses include bad checks, 
+curfew/loitering/vagrancy violations, disorder conduct, driving under the influence, drunkenness, 
+nonviolent family offenses, and liquor law violations. 
+ 
+ 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+27 
+ 
+Appendix A-1 – NIBRS Group A and B Offenses 
+ 
+Group A Offenses  
+ 
+1. Arson (Crime Against Property)  
+2. Assault Offenses (Crimes Against Persons)  
+a. Aggravated Assault  
+b. Simple Assault  
+c. Intimidation  
+3. Bribery (Except Sports Bribery) (Crime Against Property)  
+4. Burglary/Breaking and Entering (Crime Against Property)  
+5. Counterfeiting/Forgery (Crime Against Property)  
+6. Destruction/Damage/Vandalism of Property (Except Arson) (Crime Against Property)  
+7. Drug/Narcotic Offenses (Except Driving Under the Influence) (Crimes Against Society)  
+a. Drug/Narcotic Violations  
+b. Drug Equipment Violations  
+8. Embezzlement (Crime Against Property)  
+9. Extortion/Blackmail (Crime Against Property)  
+10. Fraud Offenses (Except Counterfeiting/Forgery and Bad Checks) (Crimes Against Property)  
+a. False Pretenses/Swindle/Confidence Game  
+b. Credit Card/Automatic Teller Machine Fraud  
+c. Impersonation  
+d. Welfare Fraud  
+e. Wire Fraud  
+11. Gambling Offenses (Crimes Against Society)  
+a. Betting/Wagering  
+b. Operating/Promoting/Assisting Gambling  
+c. Gambling Equipment Violations  
+d. Sports Tampering  
+12. Homicide Offenses (Crimes Against Persons)  
+a. Murder and Nonnegligent Manslaughter  
+b. Negligent Manslaughter  
+c. Justifiable Homicide (Not A Crime)  
+13. Kidnaping/Abduction (Crime Against Person)  
+14. Larceny/Theft Offenses (Crimes Against Property)  
+a. Pocket-Picking  
+b. Purse-Snatching  
+c. Shoplifting  
+d. Theft from Building  
+e. Theft from Coin-Operated Machine or Device  
+f. Theft from Motor Vehicle (Except Theft of Motor Vehicle Parts or Accessories)  
+g. Theft of Motor Vehicle Parts or Accessories  
+h. All Other Larceny  
+15. Motor Vehicle Theft (Crime Against Property)  
+16. Pornography/Obscene Material (Crime Against Society)  
+17. Prostitution Offenses (Crimes Against Society)  
+a. Prostitution  
+b. Assisting or Promoting Prostitution  
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.
+
+
+28 
+ 
+18. Robbery (Crime Against Property)  
+19. Sex Offenses, Forcible (Crimes Against Persons)  
+a. Forcible Rape (Except Statutory Rape)  
+b. Forcible Sodomy  
+c. Sexual Assault with an Object  
+d. Forcible Fondling  
+20. Sex Offenses, Nonforcible (Except Prostitution Offenses) (Crimes Against Persons)  
+a. Incest  
+b. Statutory Rape  
+21. Stolen Property Offenses (Crimes Against Property)  
+22. Weapon Law Violations (Crimes Against Society)  
+ 
+Group B Offenses 
+1. Bad Checks (Except Counterfeited Checks or Forged Checks) (Crime Against Property)  
+2. Curfew/Loitering/Vagrancy Violations (Crimes Against Society)  
+3. Disorderly Conduct (Crime Against Society)  
+4. Driving Under the Influence 
+5. Drunkenness (Except for Driving Under the Influence) (Crime Against Society)  
+6. Family Offenses, Nonviolent (Crimes Against Persons and Society)  
+7. Liquor Law Violations (Except Driving Under the Influence and Drunkenness) (Crimes 
+Against Society)  
+8. Peeping Tom (Crime Against Society)  
+9. Runaway (Persons Under Age 18) (Not A Crime)  
+10. Trespass of Real Property (Crime Against Society)  
+11. All Other Offenses (Crimes Against Persons, Property, And Society)  
+ 
+ 
+This document is a research report submitted to the U.S. Department of Justice. This report has not 
+been published by the Department. Opinions or points of view expressed are those of the author(s) 
+and do not necessarily reflect the official position or policies of the U.S. Department of Justice.

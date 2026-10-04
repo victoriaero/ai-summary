@@ -1,0 +1,28 @@
+{
+  "source_id": "0e0910b1590aae74e4d0",
+  "normalized_url": "https://taggd.in/hr-glossary/gender-identity",
+  "fetch_timestamp_utc": "2026-10-04T02:33:36.888606+00:00",
+  "registrable_domain": "taggd.in",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://taggd.in/hr-glossary/gender-identity/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 352776,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0e0910b1590aae74e4d0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0e0910b1590aae74e4d0.txt",
+  "text_chars": 31169,
+  "text_words": 4129,
+  "extraction_status": "success",
+  "page_title": "Gender Identity in the Hiring Process: How to Make It Bias-Free",
+  "page_author": "Team Taggd",
+  "page_date": "2025-07-24",
+  "site_name": "Taggd",
+  "canonical_url": "https://taggd.in/hr-glossary/gender-identity/"
+}

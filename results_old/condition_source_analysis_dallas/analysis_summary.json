@@ -1,0 +1,22 @@
+{
+  "collection_dir": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/google_aio_collection",
+  "n_queries": 273,
+  "aio_present_n": 273,
+  "source_occurrences": 2127,
+  "unique_normalized_sources": 1595,
+  "unique_source_hostnames": 769,
+  "unique_registrable_domains": 720,
+  "condition_pairs": 378,
+  "overlap_rows": 1134,
+  "complete_overlap_rows": 1134,
+  "source_category_counts": {
+    "nonprofit": 822,
+    "government": 476,
+    "commercial": 473,
+    "education": 191,
+    "social_media": 68,
+    "other": 61,
+    "network": 27,
+    "reference": 9
+  }
+}

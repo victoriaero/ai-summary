@@ -1,0 +1,20 @@
+{
+  "source_id": "6c02452fa01801ca2809",
+  "normalized_url": "https://doi.org/10.15781/T2CK6M",
+  "fetch_timestamp_utc": "2026-10-04T03:38:47.928217+00:00",
+  "registrable_domain": "doi.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://repositories.lib.utexas.edu/handle/2152/32110",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 919,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

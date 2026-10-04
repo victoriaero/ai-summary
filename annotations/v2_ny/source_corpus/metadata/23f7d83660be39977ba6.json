@@ -1,0 +1,28 @@
+{
+  "source_id": "23f7d83660be39977ba6",
+  "normalized_url": "https://thinkequitable.com/housing-barriers",
+  "fetch_timestamp_utc": "2026-10-04T02:35:32.800388+00:00",
+  "registrable_domain": "thinkequitable.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://thinkequitable.com/housing-barriers/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 77999,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/23f7d83660be39977ba6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/23f7d83660be39977ba6.txt",
+  "text_chars": 821,
+  "text_words": 111,
+  "extraction_status": "success",
+  "page_title": "Housing Barriers Infographic - The National Center for Disability, Equity, and Intersectionality",
+  "page_author": "Leah Smith",
+  "page_date": "2026-06-15",
+  "site_name": "The National Center for Disability, Equity, and Intersectionality",
+  "canonical_url": "https://thinkequitable.com/housing-barriers/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "802ed60fe784875743bf",
+  "normalized_url": "https://prisonpolicy.org/blog/2024/06/04/lgbt_incarceration",
+  "fetch_timestamp_utc": "2026-10-04T03:40:19.371387+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/blog/2024/06/04/lgbt_incarceration/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 44209,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/802ed60fe784875743bf.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/802ed60fe784875743bf.txt",
+  "text_chars": 3020,
+  "text_words": 498,
+  "extraction_status": "success",
+  "page_title": "6 facts about the mass incarceration of LGBTQ+ people",
+  "page_author": "Wanda Bertram",
+  "page_date": "2024-06-04",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/blog/2024/06/04/lgbt_incarceration/"
+}

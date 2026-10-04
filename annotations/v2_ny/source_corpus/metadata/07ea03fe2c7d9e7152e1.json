@@ -1,0 +1,28 @@
+{
+  "source_id": "07ea03fe2c7d9e7152e1",
+  "normalized_url": "https://cidrap.umn.edu/covid-19/black-hispanic-adults-double-risk-losing-medicaid-after-covid-emergency-ended-study-finds",
+  "fetch_timestamp_utc": "2026-10-04T02:33:03.206918+00:00",
+  "registrable_domain": "umn.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cidrap.umn.edu/covid-19/black-hispanic-adults-double-risk-losing-medicaid-after-covid-emergency-ended-study-finds",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 111260,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/07ea03fe2c7d9e7152e1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/07ea03fe2c7d9e7152e1.txt",
+  "text_chars": 3471,
+  "text_words": 495,
+  "extraction_status": "success",
+  "page_title": "Black, Hispanic adults at double the risk of losing Medicaid after COVID emergency ended, study finds",
+  "page_author": "Mary Van Beusekom; MS",
+  "page_date": "2024-06-12",
+  "site_name": "Center for Infectious Disease Research and Policy",
+  "canonical_url": "https://www.cidrap.umn.edu/covid-19/black-hispanic-adults-double-risk-losing-medicaid-after-covid-emergency-ended-study-finds"
+}

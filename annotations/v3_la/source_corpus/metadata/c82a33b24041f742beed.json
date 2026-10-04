@@ -1,0 +1,28 @@
+{
+  "source_id": "c82a33b24041f742beed",
+  "normalized_url": "https://law.stanford.edu/wp-content/uploads/2024/06/2024-Bias-Criminal-Legal-System.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:45:42.457726+00:00",
+  "registrable_domain": "stanford.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://law.stanford.edu/wp-content/uploads/2024/06/2024-Bias-Criminal-Legal-System.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 399242,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c82a33b24041f742beed.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c82a33b24041f742beed.txt",
+  "text_chars": 51339,
+  "text_words": 7182,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "ee9da6e929e609973792",
+  "normalized_url": "https://nij.ojp.gov/media/video/23801",
+  "fetch_timestamp_utc": "2026-10-04T03:48:46.848306+00:00",
+  "registrable_domain": "ojp.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nij.ojp.gov/media/video/23801",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 126288,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/ee9da6e929e609973792.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/ee9da6e929e609973792.txt",
+  "text_chars": 68897,
+  "text_words": 11956,
+  "extraction_status": "success",
+  "page_title": "Legitimacy and Community Cooperation With Law Enforcement",
+  "page_author": null,
+  "page_date": "2009-08-25",
+  "site_name": "National Institute of Justice",
+  "canonical_url": "https://nij.ojp.gov/media/video/23801"
+}

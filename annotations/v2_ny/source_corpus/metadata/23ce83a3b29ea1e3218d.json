@@ -1,0 +1,28 @@
+{
+  "source_id": "23ce83a3b29ea1e3218d",
+  "normalized_url": "https://cls.ucl.ac.uk/mens-overconfidence-helps-them-reach-top-jobs",
+  "fetch_timestamp_utc": "2026-10-04T02:35:31.086831+00:00",
+  "registrable_domain": "ucl.ac.uk",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://cls.ucl.ac.uk/mens-overconfidence-helps-them-reach-top-jobs/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 76330,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/23ce83a3b29ea1e3218d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/23ce83a3b29ea1e3218d.txt",
+  "text_chars": 4628,
+  "text_words": 757,
+  "extraction_status": "success",
+  "page_title": "Men’s overconfidence helps them reach top jobs | CLS",
+  "page_author": "Ryan Bradshaw",
+  "page_date": "2023-04-23",
+  "site_name": "The Centre For Longitudinal Studies",
+  "canonical_url": "https://cls.ucl.ac.uk/mens-overconfidence-helps-them-reach-top-jobs/"
+}

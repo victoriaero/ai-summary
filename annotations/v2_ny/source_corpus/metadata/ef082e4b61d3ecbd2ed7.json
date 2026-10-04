@@ -1,0 +1,28 @@
+{
+  "source_id": "ef082e4b61d3ecbd2ed7",
+  "normalized_url": "https://serottelaw.com/articles/congress-further-limits-immigrants-access-to-public-benefits",
+  "fetch_timestamp_utc": "2026-10-04T02:51:33.306812+00:00",
+  "registrable_domain": "serottelaw.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://serottelaw.com/articles/congress-further-limits-immigrants-access-to-public-benefits",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 163791,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ef082e4b61d3ecbd2ed7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ef082e4b61d3ecbd2ed7.txt",
+  "text_chars": 6085,
+  "text_words": 874,
+  "extraction_status": "success",
+  "page_title": "Congress Further Limits Immigrants’ Access to Public Benefits",
+  "page_author": "Katja Frommer",
+  "page_date": "2025-07-16",
+  "site_name": "Serotte Immigration Partners",
+  "canonical_url": "https://serottelaw.com/articles/congress-further-limits-immigrants-access-to-public-benefits"
+}

@@ -1,0 +1,25 @@
+{
+  "source_id": "df67d89067008d942c19",
+  "normalized_url": "https://milnepublishing.geneseo.edu/introlgbtqstudies/chapter/education-and-lgbtq-youth",
+  "fetch_timestamp_utc": "2026-09-29T19:40:21.989878+00:00",
+  "registrable_domain": "geneseo.edu",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://milnepublishing.geneseo.edu/introlgbtqstudies/chapter/education-and-lgbtq-youth",
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Tue, 29 Sep 2026 19:40:22 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "919",
+    "Connection": "keep-alive",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 1b15b010d16ab1ca2ccb15b561e05566.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "GRU3-P13",
+    "X-Amz-Cf-Id": "Pe6zy5YIttFJu3_PcN_kHHoOjcgxExnedVb7LOApqkLYyx0gCwkf0A=="
+  },
+  "downloaded_bytes": 919,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

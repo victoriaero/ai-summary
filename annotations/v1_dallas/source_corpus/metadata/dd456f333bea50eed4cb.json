@@ -1,0 +1,25 @@
+{
+  "source_id": "dd456f333bea50eed4cb",
+  "normalized_url": "https://openbooks.library.umass.edu/introwgss/chapter/gender-and-the-us-welfare-state",
+  "fetch_timestamp_utc": "2026-09-29T19:40:10.711233+00:00",
+  "registrable_domain": "umass.edu",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://openbooks.library.umass.edu/introwgss/chapter/gender-and-the-us-welfare-state",
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Tue, 29 Sep 2026 19:40:14 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "919",
+    "Connection": "keep-alive",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 637181d66d3ffe1ed97c30d5412bc9c8.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "GIG51-P1",
+    "X-Amz-Cf-Id": "wclEhPWxiss-Ivepq0_0X7eAJiMhqINsMSZ4aZW3vYaFAr6nd3etKw=="
+  },
+  "downloaded_bytes": 919,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

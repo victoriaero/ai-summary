@@ -1,0 +1,28 @@
+{
+  "source_id": "39fd905e86c79dec4f28",
+  "normalized_url": "https://youtube.com/watch?t=121s&v=n0urFzhWTZ4",
+  "fetch_timestamp_utc": "2026-10-04T02:36:56.845065+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=121s&v=n0urFzhWTZ4",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1272543,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/39fd905e86c79dec4f28.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/39fd905e86c79dec4f28.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "How policewomen make communities safer | Ivonne Roman",
+  "page_author": null,
+  "page_date": "2019-09-09",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=n0urFzhWTZ4"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "d78733a179c389b1d590",
+  "normalized_url": "https://bostonindicators.org/article-pages/2025/july/black-male-workforce",
+  "fetch_timestamp_utc": "2026-10-04T02:49:41.685935+00:00",
+  "registrable_domain": "bostonindicators.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.bostonindicators.org/article-pages/2025/july/black-male-workforce",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 34045,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/d78733a179c389b1d590.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/d78733a179c389b1d590.txt",
+  "text_chars": 8290,
+  "text_words": 1320,
+  "extraction_status": "success",
+  "page_title": "From School to the Labor Market: Identifying Workforce Inequities for Black Men",
+  "page_author": null,
+  "page_date": "2025-07-11",
+  "site_name": "bostonindicators.org",
+  "canonical_url": "https://www.bostonindicators.org/article-pages/2025/july/black-male-workforce"
+}

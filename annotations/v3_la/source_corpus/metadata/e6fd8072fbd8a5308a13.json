@@ -1,0 +1,28 @@
+{
+  "source_id": "e6fd8072fbd8a5308a13",
+  "normalized_url": "https://chicagofed.org/publications/chicago-fed-letter/2026/524",
+  "fetch_timestamp_utc": "2026-10-04T03:48:09.212098+00:00",
+  "registrable_domain": "chicagofed.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.chicagofed.org/publications/chicago-fed-letter/2026/524",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 111850,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e6fd8072fbd8a5308a13.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e6fd8072fbd8a5308a13.txt",
+  "text_chars": 25127,
+  "text_words": 3709,
+  "extraction_status": "success",
+  "page_title": "Bank Branch Access in the Seventh District",
+  "page_author": "Ila Gupta; Jung Sakong; Alexander K Zentefis",
+  "page_date": "2026-01-01",
+  "site_name": "chicagofed.org",
+  "canonical_url": "https://www.chicagofed.org/publications/chicago-fed-letter/2026/524"
+}

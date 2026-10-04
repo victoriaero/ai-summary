@@ -1,0 +1,28 @@
+{
+  "source_id": "11f491da67c66556b068",
+  "normalized_url": "https://d-nb.info/1387925644/34",
+  "fetch_timestamp_utc": "2026-10-04T02:33:57.935582+00:00",
+  "registrable_domain": "d-nb.info",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://d-nb.info/1387925644/34",
+  "headers": {
+    "Content-Type": "application/pdf;charset=base64"
+  },
+  "content_type": "application/pdf;charset=base64",
+  "downloaded_bytes": 1426155,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/11f491da67c66556b068.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/11f491da67c66556b068.txt",
+  "text_chars": 103164,
+  "text_words": 14233,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

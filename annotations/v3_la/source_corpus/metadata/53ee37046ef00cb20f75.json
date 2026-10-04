@@ -1,0 +1,28 @@
+{
+  "source_id": "53ee37046ef00cb20f75",
+  "normalized_url": "https://solarisgroup.com/blog/finance-for-everyone",
+  "fetch_timestamp_utc": "2026-10-04T03:36:57.199042+00:00",
+  "registrable_domain": "solarisgroup.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.solarisgroup.com/blog/finance-for-everyone/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 280682,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/53ee37046ef00cb20f75.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/53ee37046ef00cb20f75.txt",
+  "text_chars": 8404,
+  "text_words": 1322,
+  "extraction_status": "success",
+  "page_title": "Breaking down barriers: Creating inclusive financial services | Blog | Solaris",
+  "page_author": "Hülya Buchwitz",
+  "page_date": "2024-02-22",
+  "site_name": "Solaris SE",
+  "canonical_url": "https://www.solarisgroup.com/blog/finance-for-everyone/"
+}

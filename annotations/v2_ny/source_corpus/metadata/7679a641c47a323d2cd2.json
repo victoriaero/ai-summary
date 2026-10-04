@@ -1,0 +1,28 @@
+{
+  "source_id": "7679a641c47a323d2cd2",
+  "normalized_url": "https://pacer.org/bullying/info/stats",
+  "fetch_timestamp_utc": "2026-10-04T02:42:07.147008+00:00",
+  "registrable_domain": "pacer.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.pacer.org/bullying/info/stats/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 172366,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7679a641c47a323d2cd2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7679a641c47a323d2cd2.txt",
+  "text_chars": 13625,
+  "text_words": 1917,
+  "extraction_status": "success",
+  "page_title": "Bullying Statistics",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "PACER Center",
+  "canonical_url": "https://www.pacer.org/bullying/info/stats/"
+}

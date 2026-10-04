@@ -1,0 +1,28 @@
+{
+  "source_id": "16a8459868b3debbe4f2",
+  "normalized_url": "https://dpeaflcio.org/factsheets/racial-representation-in-professional-occupations-by-the-numbers",
+  "fetch_timestamp_utc": "2026-10-04T03:32:30.807582+00:00",
+  "registrable_domain": "dpeaflcio.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.dpeaflcio.org/factsheets/racial-representation-in-professional-occupations-by-the-numbers",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 281993,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/16a8459868b3debbe4f2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/16a8459868b3debbe4f2.txt",
+  "text_chars": 19336,
+  "text_words": 2798,
+  "extraction_status": "success",
+  "page_title": "Racial Representation in Professional Occupations: By the Numbers — Department for Professional Employees, AFL-CIO",
+  "page_author": "Department; AFL-CIO",
+  "page_date": "2021-06-08",
+  "site_name": "Department for Professional Employees, AFL-CIO",
+  "canonical_url": "https://www.dpeaflcio.org/factsheets/racial-representation-in-professional-occupations-by-the-numbers"
+}

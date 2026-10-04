@@ -1,0 +1,28 @@
+{
+  "source_id": "e09e5b8dea5977b88b68",
+  "normalized_url": "https://library.hbs.edu/working-knowledge/why-employers-favor-men",
+  "fetch_timestamp_utc": "2026-10-04T02:50:24.589076+00:00",
+  "registrable_domain": "hbs.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.library.hbs.edu/working-knowledge/why-employers-favor-men",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 495185,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e09e5b8dea5977b88b68.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e09e5b8dea5977b88b68.txt",
+  "text_chars": 8031,
+  "text_words": 1280,
+  "extraction_status": "success",
+  "page_title": "Why Employers Favor Men | Working Knowledge",
+  "page_author": "Dina Gerdeman",
+  "page_date": "2017-09-11",
+  "site_name": "Harvard Business School",
+  "canonical_url": "https://www.library.hbs.edu/working-knowledge/why-employers-favor-men"
+}

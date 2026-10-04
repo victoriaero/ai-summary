@@ -1,0 +1,28 @@
+{
+  "source_id": "2a89c1d37d47555b9aeb",
+  "normalized_url": "https://jaramilla.com/blog/understanding-systemic-discrimination-in-corporate-hiring-practices",
+  "fetch_timestamp_utc": "2026-10-04T03:33:47.678973+00:00",
+  "registrable_domain": "jaramilla.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.jaramilla.com/blog/understanding-systemic-discrimination-in-corporate-hiring-practices/",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 66287,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/2a89c1d37d47555b9aeb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/2a89c1d37d47555b9aeb.txt",
+  "text_chars": 9691,
+  "text_words": 1286,
+  "extraction_status": "success",
+  "page_title": "Understanding Systemic Discrimination in Corporate Hiring Practices | Toni Jaramilla",
+  "page_author": "Toni Jaramilla",
+  "page_date": "2025-07-18",
+  "site_name": "jaramilla.com",
+  "canonical_url": "http://www.jaramilla.com/blog/understanding-systemic-discrimination-in-corporate-hiring-practices/"
+}

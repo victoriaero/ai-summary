@@ -1,0 +1,28 @@
+{
+  "source_id": "9048acef1bf86fd9400d",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8576989",
+  "fetch_timestamp_utc": "2026-10-04T02:44:06.004459+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8576989/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 188663,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9048acef1bf86fd9400d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9048acef1bf86fd9400d.txt",
+  "text_chars": 48250,
+  "text_words": 7731,
+  "extraction_status": "success",
+  "page_title": "Examining gender differentials and determinants of private health insurance coverage in Zambia",
+  "page_author": "James Mulenga; Mulenga C Mulenga; Katongo M C Musonda; Chilizani Phiri",
+  "page_date": "2021-11-09",
+  "site_name": "BMC Health Services Research",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8576989/"
+}

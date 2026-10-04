@@ -1,0 +1,24 @@
+{
+  "source_id": "00cd8bf9b831c3df6bca",
+  "normalized_url": "https://lulac.org/advocacy/issues/criminal_justice_reform",
+  "fetch_timestamp_utc": "2026-09-29T19:15:30.413561+00:00",
+  "registrable_domain": "lulac.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://lulac.org/advocacy/issues/criminal_justice_reform",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:15:31 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "cf-cache-status": "DYNAMIC",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a42d51296f04f156-GIG"
+  },
+  "downloaded_bytes": 118,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

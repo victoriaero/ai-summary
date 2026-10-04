@@ -1,0 +1,28 @@
+{
+  "source_id": "e2aaa44dbdf03dfcca87",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11024909",
+  "fetch_timestamp_utc": "2026-10-04T02:50:37.069054+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11024909/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 178706,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e2aaa44dbdf03dfcca87.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e2aaa44dbdf03dfcca87.txt",
+  "text_chars": 37774,
+  "text_words": 5218,
+  "extraction_status": "success",
+  "page_title": "Understanding Multiprogram Take-Up of Safety Net Programs Among California Families",
+  "page_author": "Marisa M Tsai; Joseph A Yeb; Kaitlyn E Jackson; Wendi Gosliner; Lia CH Fernald; Rita Hamad",
+  "page_date": "2024-02-28",
+  "site_name": "AJPM Focus",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11024909/"
+}

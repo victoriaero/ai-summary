@@ -1,0 +1,28 @@
+{
+  "source_id": "b084a4d5d37cb7622d1a",
+  "normalized_url": "https://rstreet.org/research/from-victim-to-defendant-how-justice-falls-short-for-women",
+  "fetch_timestamp_utc": "2026-10-04T03:44:08.582145+00:00",
+  "registrable_domain": "rstreet.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.rstreet.org/research/from-victim-to-defendant-how-justice-falls-short-for-women/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 181908,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b084a4d5d37cb7622d1a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b084a4d5d37cb7622d1a.txt",
+  "text_chars": 42077,
+  "text_words": 6040,
+  "extraction_status": "success",
+  "page_title": "From Victim to Defendant: How Justice Falls Short for Women - R Street Institute",
+  "page_author": "Sarah Anderson; Lisel Petis",
+  "page_date": "2025-11-10",
+  "site_name": "R Street Institute",
+  "canonical_url": "https://www.rstreet.org/research/from-victim-to-defendant-how-justice-falls-short-for-women/"
+}

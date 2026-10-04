@@ -1,0 +1,28 @@
+{
+  "source_id": "5cbbb03152da59f8b402",
+  "normalized_url": "https://latinojustice.org/en/news/national-poll-shows-latinos-are-concerned-about-police-violence-feel-less-safe-under-trump",
+  "fetch_timestamp_utc": "2026-10-04T03:37:33.703580+00:00",
+  "registrable_domain": "latinojustice.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.latinojustice.org/en/news/national-poll-shows-latinos-are-concerned-about-police-violence-feel-less-safe-under-trump",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 64897,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5cbbb03152da59f8b402.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5cbbb03152da59f8b402.txt",
+  "text_chars": 5666,
+  "text_words": 885,
+  "extraction_status": "success",
+  "page_title": "National Poll Shows Latinos Are Concerned About Police Violence, Feel Less Safe Under Trump But Insist on Increased Spending on Rehabilitation Instead of More Funding for Prisons or Police",
+  "page_author": null,
+  "page_date": "2017-01-10",
+  "site_name": "latinojustice.org",
+  "canonical_url": "https://www.latinojustice.org/en/news/national-poll-shows-latinos-are-concerned-about-police-violence-feel-less-safe-under-trump"
+}

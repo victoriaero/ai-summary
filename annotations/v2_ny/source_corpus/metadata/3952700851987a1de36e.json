@@ -1,0 +1,28 @@
+{
+  "source_id": "3952700851987a1de36e",
+  "normalized_url": "https://who.int/news-room/fact-sheets/detail/patient-safety",
+  "fetch_timestamp_utc": "2026-10-04T02:36:51.319646+00:00",
+  "registrable_domain": "who.int",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 124898,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3952700851987a1de36e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3952700851987a1de36e.txt",
+  "text_chars": 13968,
+  "text_words": 2022,
+  "extraction_status": "success",
+  "page_title": "Patient safety",
+  "page_author": null,
+  "page_date": "2023-09-11",
+  "site_name": "World Health Organization: WHO",
+  "canonical_url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "7133012652877a696b27",
+  "normalized_url": "https://poverty-action.org/what-we-know-about-womens-access-credit-and-what-ipa-doing-about-it",
+  "fetch_timestamp_utc": "2026-10-04T03:39:12.407197+00:00",
+  "registrable_domain": "poverty-action.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://poverty-action.org/what-we-know-about-womens-access-credit-and-what-ipa-doing-about-it",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 79655,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/7133012652877a696b27.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/7133012652877a696b27.txt",
+  "text_chars": 8059,
+  "text_words": 1166,
+  "extraction_status": "success",
+  "page_title": "What We Know About Women's Access to Credit, and What IPA Is Doing About It | IPA",
+  "page_author": "Daniela Graney Lauren Perlik Elizabeth Koshy Paul Adams",
+  "page_date": "2026-06-29",
+  "site_name": "Innovations for Poverty Action",
+  "canonical_url": "https://poverty-action.org/what-we-know-about-womens-access-credit-and-what-ipa-doing-about-it"
+}

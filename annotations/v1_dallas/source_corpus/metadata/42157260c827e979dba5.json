@@ -1,0 +1,28 @@
+{
+  "source_id": "42157260c827e979dba5",
+  "normalized_url": "https://vitalrecord.tamu.edu/how-race-and-racial-perceptions-shape-public-assistance-policy-opinions",
+  "fetch_timestamp_utc": "2026-09-29T19:24:19.040632+00:00",
+  "registrable_domain": "tamu.edu",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://vitalrecord.tamu.edu/how-race-and-racial-perceptions-shape-public-assistance-policy-opinions",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:24:23 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d5e245dc3e015-GIG"
+  },
+  "downloaded_bytes": 5516,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

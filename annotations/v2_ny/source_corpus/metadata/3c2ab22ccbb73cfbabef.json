@@ -1,0 +1,28 @@
+{
+  "source_id": "3c2ab22ccbb73cfbabef",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5527844",
+  "fetch_timestamp_utc": "2026-10-04T02:37:14.578234+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5527844/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 171729,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3c2ab22ccbb73cfbabef.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3c2ab22ccbb73cfbabef.txt",
+  "text_chars": 34635,
+  "text_words": 5458,
+  "extraction_status": "success",
+  "page_title": "Concerns and Structural Barriers Associated with WIC Participation among WIC-Eligible Women",
+  "page_author": "Cindy H Liu; Heidi Liu",
+  "page_date": "2016-03-09",
+  "site_name": "Public health nursing (Boston, Mass.)",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5527844/"
+}

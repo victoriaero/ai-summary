@@ -1,0 +1,20 @@
+{
+  "source_id": "96ea6f0edd68714182b8",
+  "normalized_url": "https://law.virginia.edu/news/201705/why-arrest",
+  "fetch_timestamp_utc": "2026-10-04T02:44:45.666832+00:00",
+  "registrable_domain": "virginia.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://law.virginia.edu/news/201705/why-arrest",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5630,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "068b0fdcfa40e7da62d9",
+  "normalized_url": "https://ebsco.com/research-starters/education/inequality-and-access-higher-education",
+  "fetch_timestamp_utc": "2026-10-04T02:32:57.409986+00:00",
+  "registrable_domain": "ebsco.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ebsco.com/research-starters/education/inequality-and-access-higher-education",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 223658,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/068b0fdcfa40e7da62d9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/068b0fdcfa40e7da62d9.txt",
+  "text_chars": 60146,
+  "text_words": 8600,
+  "extraction_status": "success",
+  "page_title": "Inequality and Access to Higher Education | Education | Research Starters | EBSCOhost",
+  "page_author": null,
+  "page_date": "2019-05-01",
+  "site_name": "EBSCO",
+  "canonical_url": "https://www.ebsco.com/"
+}

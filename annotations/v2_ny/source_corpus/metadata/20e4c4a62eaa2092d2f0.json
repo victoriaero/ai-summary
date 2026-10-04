@@ -1,0 +1,28 @@
+{
+  "source_id": "20e4c4a62eaa2092d2f0",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3545196",
+  "fetch_timestamp_utc": "2026-10-04T02:35:17.040653+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3545196/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 181981,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/20e4c4a62eaa2092d2f0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/20e4c4a62eaa2092d2f0.txt",
+  "text_chars": 52982,
+  "text_words": 8080,
+  "extraction_status": "success",
+  "page_title": "Popular Criteria for the Welfare Deservingness of Disability Pensioners: The Influence of Structural and Cultural Factors",
+  "page_author": "Marjolein Jeene; Wim van Oorschot; Wilfred Uunk",
+  "page_date": "2011-12-04",
+  "site_name": "Social Indicators Research",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3545196/"
+}

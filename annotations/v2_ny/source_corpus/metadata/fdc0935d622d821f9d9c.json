@@ -1,0 +1,20 @@
+{
+  "source_id": "fdc0935d622d821f9d9c",
+  "normalized_url": "https://equineteurope.org/wp-content/uploads/2021/01/Women-in-Poverty_-Access-to-Education.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:52:27.902178+00:00",
+  "registrable_domain": "equineteurope.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://equineteurope.org/wp-content/uploads/2021/01/Women-in-Poverty_-Access-to-Education.pdf",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5718,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "7de5ea1950da89473ae3",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11319094",
+  "fetch_timestamp_utc": "2026-10-04T02:42:37.389895+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11319094/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 247999,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7de5ea1950da89473ae3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7de5ea1950da89473ae3.txt",
+  "text_chars": 56939,
+  "text_words": 8534,
+  "extraction_status": "success",
+  "page_title": "Disparities in Healthcare-Seeking Behavior and Decision Preference Among Hispanics: A Comparative Study Across Races/Ethnicities, SES, and Provider Types",
+  "page_author": "Cheryl Lin; Alejandra Mella-Velazquez; Wendy E Braund; Pikuei Tu",
+  "page_date": "2024-08-08",
+  "site_name": "Journal of Multidisciplinary Healthcare",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11319094/"
+}

@@ -1,0 +1,31 @@
+dimension,condition,group,domain,outcome,domain_jaccard_similarity,domain_jaccard_distance,domain_shared_n,n_unique_domains,generic_n_unique_domains
+Race,minority,Black people,Credit & Financial Services,Access to banking services,0.0,1.0,0,9,6
+Race,minority,Black people,Credit & Financial Services,Credit/loan approval,0.0,1.0,0,13,7
+Race,minority,Black people,Criminal Justice,Arrest / detention by police,0.0,1.0,0,3,7
+Race,minority,Black people,Employment,Hiring,0.0,1.0,0,10,5
+Race,minority,Black people,Employment,Career advancement,0.0,1.0,0,6,5
+Race,majority,White people,Credit & Financial Services,Credit/loan approval,0.0,1.0,0,6,7
+Race,majority,White people,Education,College access/admission,0.0,1.0,0,5,10
+Race,majority,White people,Criminal Justice,Arrest / detention by police,0.0,1.0,0,1,7
+Race,majority,White people,Credit & Financial Services,Access to banking services,0.0,1.0,0,6,6
+Race,minority,Black people,Government Benefits,Access to government benefits,0.0,1.0,0,6,5
+Race,minority,Black people,Healthcare,Insurance coverage,0.0,1.0,0,7,5
+Race,majority,White people,Employment,Hiring,0.0,1.0,0,4,5
+Ethnicity,minority,Latino people,Credit & Financial Services,Credit/loan approval,0.0,1.0,0,11,7
+Race,majority,White people,Housing,Access to housing,0.0,1.0,0,0,8
+Ethnicity,minority,Latino people,Credit & Financial Services,Access to banking services,0.0,1.0,0,10,6
+Ethnicity,minority,Latino people,Credit & Financial Services,Access to credit,0.0,1.0,0,7,6
+Ethnicity,minority,Latino people,Healthcare,Insurance coverage,0.0,1.0,0,5,5
+Ethnicity,minority,Latino people,Criminal Justice,Arrest / detention by police,0.0,1.0,0,5,7
+Ethnicity,minority,Latino people,Education,College access/admission,0.0,1.0,0,10,10
+Ethnicity,minority,Latino people,Government Benefits,Access to government benefits,0.0,1.0,0,5,5
+Race,majority,White people,Healthcare,Insurance coverage,0.0,1.0,0,5,5
+Race,majority,White people,Government Benefits,Access to government benefits,0.0,1.0,0,6,5
+Race,majority,White people,Employment,Career advancement,0.0,1.0,0,5,5
+Ethnicity,majority,non-Latino people,Employment,Career advancement,0.0,1.0,0,5,5
+Ethnicity,majority,non-Latino people,Government Benefits,Access to government benefits,0.0,1.0,0,5,5
+Ethnicity,majority,non-Latino people,Education,College access/admission,0.0,1.0,0,6,10
+Ethnicity,majority,non-Latino people,Credit & Financial Services,Access to credit,0.0,1.0,0,5,6
+Ethnicity,majority,non-Latino people,Credit & Financial Services,Credit/loan approval,0.0,1.0,0,4,7
+Gender,minority,Women,Healthcare,Insurance coverage,0.0,1.0,0,6,5
+Gender,minority,Women,Housing,Access to housing,0.0,1.0,0,10,8

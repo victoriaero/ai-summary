@@ -1,0 +1,28 @@
+{
+  "source_id": "d44c7238be804aad7a7c",
+  "normalized_url": "https://housingvisions.org/lgbtq-and-fair-housing",
+  "fetch_timestamp_utc": "2026-10-04T03:46:38.956009+00:00",
+  "registrable_domain": "housingvisions.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.housingvisions.org/lgbtq-and-fair-housing/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 57274,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/d44c7238be804aad7a7c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/d44c7238be804aad7a7c.txt",
+  "text_chars": 4106,
+  "text_words": 639,
+  "extraction_status": "success",
+  "page_title": "LGBTQ+ and Fair Housing | Housing Visions",
+  "page_author": null,
+  "page_date": "2023-06-20",
+  "site_name": "Housing Visions",
+  "canonical_url": "https://www.housingvisions.org/lgbtq-and-fair-housing/"
+}

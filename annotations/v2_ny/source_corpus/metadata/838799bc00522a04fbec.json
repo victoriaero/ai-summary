@@ -1,0 +1,28 @@
+{
+  "source_id": "838799bc00522a04fbec",
+  "normalized_url": "https://naacp.org/resources/racial-disparities-medicaid-reenrollment",
+  "fetch_timestamp_utc": "2026-10-04T02:43:06.206690+00:00",
+  "registrable_domain": "naacp.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://naacp.org/resources/racial-disparities-medicaid-reenrollment",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 132376,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/838799bc00522a04fbec.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/838799bc00522a04fbec.txt",
+  "text_chars": 3583,
+  "text_words": 482,
+  "extraction_status": "success",
+  "page_title": "Racial Disparities in Medicaid Reenrollment",
+  "page_author": null,
+  "page_date": "2025-10-18",
+  "site_name": "NAACP",
+  "canonical_url": "https://naacp.org/resources/racial-disparities-medicaid-reenrollment"
+}

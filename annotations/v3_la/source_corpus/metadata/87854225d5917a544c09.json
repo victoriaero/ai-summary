@@ -1,0 +1,20 @@
+{
+  "source_id": "87854225d5917a544c09",
+  "normalized_url": "https://americanprogress.org/article/the-unfair-criminalization-of-gay-and-transgender-youth",
+  "fetch_timestamp_utc": "2026-10-04T03:40:58.227866+00:00",
+  "registrable_domain": "americanprogress.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.americanprogress.org/article/the-unfair-criminalization-of-gay-and-transgender-youth",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5839,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

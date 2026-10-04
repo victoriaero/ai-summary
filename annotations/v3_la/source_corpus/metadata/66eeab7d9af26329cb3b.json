@@ -1,0 +1,28 @@
+{
+  "source_id": "66eeab7d9af26329cb3b",
+  "normalized_url": "https://online.uwsuper.edu/degrees/education/msed/special-education/stop-special-ed-students-being-bullied",
+  "fetch_timestamp_utc": "2026-10-04T03:38:22.691866+00:00",
+  "registrable_domain": "uwsuper.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://online.uwsuper.edu/degrees/education/msed/special-education/stop-special-ed-students-being-bullied/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 173355,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/66eeab7d9af26329cb3b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/66eeab7d9af26329cb3b.txt",
+  "text_chars": 5360,
+  "text_words": 847,
+  "extraction_status": "success",
+  "page_title": "How Can We Stop Special Ed Students From Being Bullied?",
+  "page_author": "Bvorel",
+  "page_date": "2020-03-10",
+  "site_name": "UWSuper",
+  "canonical_url": "https://online.uwsuper.edu/degrees/education/msed/special-education/stop-special-ed-students-being-bullied/"
+}

@@ -1,0 +1,22 @@
+location_slug,location,metric,dimension,n,effect,ci_low,ci_high,p_display,significant,aggregate,rank_biserial
+dallas,Dallas,source_url_jaccard_distance,Disability,21,0.0782170871,0.0322257108,0.1291765856,0.015625,True,False,0.9636363636
+dallas,Dallas,source_url_jaccard_distance,Ethnicity,21,0.0244949919,0.0032723152,0.0507535118,0.09375,False,False,0.7333333333
+dallas,Dallas,source_url_jaccard_distance,Gender,21,0.1431029607,0.0823266141,0.2106884285,0.0007324219,True,False,1.0
+dallas,Dallas,source_url_jaccard_distance,Gender Identity,21,0.022309833,0.0068027211,0.0398577613,0.09375,False,False,1.0
+dallas,Dallas,source_url_jaccard_distance,Race,21,0.0215615539,0.0036810684,0.0428939252,0.09375,False,False,0.7777777778
+dallas,Dallas,source_url_jaccard_distance,Sexual Orientation,21,0.0520887842,0.0254875283,0.082724359,0.009765625,True,False,1.0
+dallas,Dallas,source_url_jaccard_distance,Overall,21,0.0569625352,0.0340115091,0.0820482332,7.6294e-06,True,True,1.0
+ny,New York,source_url_jaccard_distance,Disability,21,0.1007608793,0.0478419794,0.1662847206,0.0029296875,True,False,1.0
+ny,New York,source_url_jaccard_distance,Ethnicity,21,0.0157029478,-0.0012384441,0.0342185592,0.1875,False,False,0.5714285714
+ny,New York,source_url_jaccard_distance,Gender,21,0.1176048332,0.0440906644,0.2016922802,0.025390625,True,False,0.7333333333
+ny,New York,source_url_jaccard_distance,Gender Identity,21,0.0209446174,0.0052910053,0.0385813017,0.125,False,False,1.0
+ny,New York,source_url_jaccard_distance,Race,21,0.0339580637,0.0111111111,0.0601485398,0.09375,False,False,1.0
+ny,New York,source_url_jaccard_distance,Sexual Orientation,21,0.0465686374,0.0217093863,0.0748512492,0.009765625,True,False,1.0
+ny,New York,source_url_jaccard_distance,Overall,21,0.0559233298,0.0356233098,0.0789295608,5e-06,True,True,1.0
+la,Los Angeles,source_url_jaccard_distance,Disability,21,0.0897005772,0.04004329,0.1452024711,0.01953125,True,False,1.0
+la,Los Angeles,source_url_jaccard_distance,Ethnicity,21,0.0188420046,0.0008272349,0.0388842044,0.15625,False,False,0.7857142857
+la,Los Angeles,source_url_jaccard_distance,Gender,21,0.1277653295,0.0732930644,0.1866775843,0.0005493164,True,False,0.9705882353
+la,Los Angeles,source_url_jaccard_distance,Gender Identity,21,0.0127786499,0.0,0.027870225,0.25,False,False,1.0
+la,Los Angeles,source_url_jaccard_distance,Race,21,0.0246431708,0.0055967842,0.048381777,0.09375,False,False,1.0
+la,Los Angeles,source_url_jaccard_distance,Sexual Orientation,21,0.0517819501,0.0188948098,0.0919153576,0.01953125,True,False,1.0
+la,Los Angeles,source_url_jaccard_distance,Overall,21,0.054251947,0.0355018016,0.0743891183,1.99999e-05,True,True,0.9894736842

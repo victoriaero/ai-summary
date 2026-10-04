@@ -1,0 +1,28 @@
+{
+  "source_id": "6aaf24f513c87f078bb3",
+  "normalized_url": "https://iyi.org/resources/how-does-bullying-affect-females-in-school",
+  "fetch_timestamp_utc": "2026-10-04T02:41:03.911838+00:00",
+  "registrable_domain": "iyi.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://iyi.org/resources/how-does-bullying-affect-females-in-school/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 77137,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6aaf24f513c87f078bb3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6aaf24f513c87f078bb3.txt",
+  "text_chars": 1651,
+  "text_words": 256,
+  "extraction_status": "success",
+  "page_title": "How Does Bullying Affect Females in School? - Indiana Youth Institute",
+  "page_author": "Indiana Youth Institute",
+  "page_date": "2024-11-25",
+  "site_name": "Indiana Youth Institute",
+  "canonical_url": "https://iyi.org/resources/how-does-bullying-affect-females-in-school/"
+}

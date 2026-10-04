@@ -1,0 +1,28 @@
+{
+  "source_id": "52fff30dcb28dd238bb3",
+  "normalized_url": "https://careers.bu.edu/videos/racial-discrimination-in-hiring-beat-the-bias-in-your-job-search",
+  "fetch_timestamp_utc": "2026-10-04T02:39:11.418392+00:00",
+  "registrable_domain": "bu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://careers.bu.edu/videos/racial-discrimination-in-hiring-beat-the-bias-in-your-job-search/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 193909,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/52fff30dcb28dd238bb3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/52fff30dcb28dd238bb3.txt",
+  "text_chars": 3864,
+  "text_words": 568,
+  "extraction_status": "success",
+  "page_title": "Racial Discrimination in Hiring – Beat the Bias in Your Job Search",
+  "page_author": "Indeed",
+  "page_date": "2025-02-03",
+  "site_name": "Center for Career Development | Boston University",
+  "canonical_url": "https://careers.bu.edu/videos/racial-discrimination-in-hiring-beat-the-bias-in-your-job-search/"
+}

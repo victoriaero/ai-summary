@@ -1,0 +1,20 @@
+{
+  "source_id": "d08871979fe50398d067",
+  "normalized_url": "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1010&context=coe_dean",
+  "fetch_timestamp_utc": "2026-10-04T02:49:11.584803+00:00",
+  "registrable_domain": "calpoly.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1010&context=coe_dean",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5807,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

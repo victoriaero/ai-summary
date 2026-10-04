@@ -1,0 +1,31 @@
+{
+  "source_id": "e4aac489e0113e853bd4",
+  "normalized_url": "https://researchgate.net/publication/392863097_Exploring_Women's_Housing_Challenges_Legal_and_Policy_Solutions_for_Women's_Access_to_Adequate_Housing",
+  "fetch_timestamp_utc": "2026-09-29T19:40:47.607587+00:00",
+  "registrable_domain": "researchgate.net",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.researchgate.net/publication/392863097_Exploring_Women's_Housing_Challenges_Legal_and_Policy_Solutions_for_Women's_Access_to_Adequate_Housing",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:40:53 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "accept-encoding",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d7653b87c98a5-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 21138,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

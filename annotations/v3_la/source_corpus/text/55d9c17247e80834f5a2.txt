@@ -1,0 +1,1915 @@
+Zachary Parolin is an assistant professor of social policy at Bocconi University in Milan, Italy. Christina J. Cross 
+is an assistant professor of sociology at Harvard University, United States. Rourke O’Brien is an assistant pro-
+fessor of sociology at Yale University, United States.
+© 2023 Russell Sage Foundation. Parolin, Zachary, Christina J. Cross, and Rourke O’Brien. 2023. “Administrative 
+Burdens and Economic Insecurity Among Black, Latino, and White Families.” RSF: The Russell Sage Foundation 
+Journal of the Social Sciences 9(5): 56–75. DOI: 10.7758/RSF.2023.9.5.03. Direct correspondence to Zachary 
+Parolin, at Zachary.parolin@unibocconi.it, Via Roentgen 1, Rm 3.C1.18, 20136 Milano, Italy.
+Open Access Policy: RSF: The Russell Sage Foundation Journal of the Social Sciences is an open access journal. 
+This article is published under a Creative Commons Attribution-­NonCommercial-­NoDerivs 3.0 Unported Li-
+cense.
+ethnicity and across time to understand how 
+differential program coverage affects families’ 
+economic well-­being.
+Specifically, we use the panel component of 
+the U.S. Current Population Survey’s Annual 
+Social and Economic Supplement (CPS ASEC) 
+from 1990 through 2019 to investigate receipt of 
+income transfers after a member of a low-­
+income family unit loses a job, and whether 
+benefit receipt after job loss varies by race-­
+ethnicity. We focus primarily on benefit receipt 
+among families who appear to be eligible to re-
+ceive the given income transfer, isolating (to 
+the extent possible) challenges related to ben-
+Administrative Burdens and 
+Economic Insecurity Among 
+Black, Latino, and  
+White Families
+Zachary Parolin , Christina J. Cross, and  
+Rourke O’Brien
+This study investigates how administrative burdens influence differential receipt of income transfers after a 
+family member loses a job. Using the panel component of the Current Population Survey from 1990 through 
+2019, we find that administrative burdens have increased in the Temporary Assistance for Needy Families 
+and Unemployment Insurance programs but declined for the Supplemental Nutrition Assistance Program. 
+These administrative burden effects generally contribute to lower income replacement rates for Black and 
+Latino families experiencing job loss relative to White families, though results are sensitive to adjustments 
+for benefit underreporting. Moreover, states with higher shares of White residents have smaller administra-
+tive burden effects, on average. Reducing administrative burdens in income transfer programs would likely 
+reduce racial-­ethnic inequalities in economic insecurity.
+Keywords: administrative burdens, welfare state, inequality, poverty
+For low-­income families, or families experienc-
+ing an income shock, government income sup-
+port plays an important role in allowing the 
+family to meet its basic needs. Evidence sug-
+gests, however, that benefits coverage among 
+eligible families is relatively low across income 
+support programs (Elder and Powers 2006; 
+Kroft 2008; Moynihan, Herd, and Harvey 2015; 
+East and Simon 2020). Moreover, access to in-
+come support differs across individuals of dif-
+ferent races and ethnicities and across time, 
+even among those who are eligible to receive 
+the benefit. This study investigates how enroll-
+ment in income transfers varies by race-­
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+57
+1. We take into account, for example, that recent immigrants are often categorically ineligible for social transfers. 
+Their lack of benefit receipt would be attributable to eligibility rules rather than barriers to access among the 
+eligible, which is our primary focus.
+efit access among the eligible from the regula-
+tions that affect eligibility itself.1 We present 
+findings with and without adjustments for po-
+tential underreporting of income transfers in 
+the CPS ASEC using TRIM3, as we elaborate on 
+later.
+We focus on benefit receipt after job loss for 
+two main reasons: first, job loss is a critical 
+event that sharply reduces household income 
+(East and Simon 2020; Couch and Placzek 
+2010), challenging the ability of low-­income 
+families to meet basic needs; moreover, job loss 
+is an experience that often prompts eligibility 
+for income transfer programs or, if a family is 
+already enrolled, an increase in benefit levels. 
+For example, an individual from a low-­income 
+household who loses a job could potentially be 
+eligible for unemployment insurance (UI) ben-
+efits, Supplemental Nutrition Assistance Pro-
+gram (SNAP) benefits, or cash assistance from 
+Temporary Assistance for Needy Families 
+(TANF). In reality, however, many eligible indi-
+viduals do not receive the income support they 
+are entitled to receive, and benefits take-­up dif-
+fers significantly by program type (Kroft 2008; 
+Sommers et al. 2012). We view the share of 
+households that do not receive the benefits 
+they are eligible for in a given state or year as a 
+holistic measure of that program’s administra-
+tive burden. Rather than focusing on first-­order 
+burdens, such as how one policy or procedure 
+affects benefit access, we measure the aggre-
+gate consequences of bundles of first-­order 
+burdens that affect program participation 
+among the eligible. This conceptualization of 
+administrative burden is broader than other 
+uses of the construct, including those used in 
+this double issue, but we believe it is instructive 
+to take benefit receipt among eligible house-
+holds as the default expectation and policy as-
+piration. In turn, we view the share of eligible 
+households not receiving a benefit as a mea-
+sure of administrative burden, be it due to pol-
+icy design, implementation failures, or lack of 
+citizen education.
+Means-­tested transfers, in particular, face 
+lower take-­up rates relative to programs such 
+as Social Security and Medicare, which have 
+near-­perfect take-­up rates among the eligible 
+population (Moynihan, Herd, and Harvey 2015). 
+Receipt of UI, for example, is far from universal. 
+Outside periods of major economic downturn, 
+fewer than half of unemployed workers receive 
+UI, and both those with less education and mi-
+noritized populations are significantly less 
+likely to receive this benefit than highly edu-
+cated persons and White adults (Gould-­Werth 
+and Schaefer 2012; Nichols and Simms 2012; 
+Skandalis, Marinescu, and Massenkoff 2022). 
+One key reason for uneven benefits take-­up is 
+that means-­tested programs require greater ef-
+fort on behalf of public officials and claimants 
+to confirm an individual’s eligibility. In fact, 
+perceived ineligibility is the most cited reason 
+for failure to file for and ultimately receive UI 
+(Gould-­Werth and Schaefer 2012; Vroman 2009; 
+Wandner and Stettner 2000).
+Although research suggests that administra-
+tive burdens are consequential for whether cit-
+izens successfully submit claims (Herd 2015; 
+Herd et al. 2013; Heinrich 2018; Nisar 2018; 
+2018b), few studies holistically investigate how 
+administrative burdens contribute to income 
+replacement rates among low-­income families 
+experiencing a major income shock. Detailing 
+where and when programs achieve near-­
+universal coverage of eligible households is 
+critical to identifying what works, just as map-
+ping where and when benefit take-­up falls 
+short is key to identifying what does not work. 
+Analyzing these trends across places and over 
+time enables us to monitor program perfor-
+mance and determine where to target resources 
+or develop new outreach strategies to ensure 
+vulnerable families receive the benefits they 
+need and deserve. Given the central role of 
+state and local governments in implementing 
+these programs, our holistic measure can also 
+serve as a report card for their performance in 
+connecting eligible families to benefits. At the 
+same time, investigating how administrative 
+burdens broadly shape economic outcomes 
+may yield new insights into the function of 
+the U.S. welfare state. Additionally, exploring 
+
+
+58	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+racial-­ethnic differences in receipt of assis-
+tance may aid us in accounting for the persis-
+tently higher levels of poverty among Black and 
+Latino families than among White families, as 
+well as inform strategies to reduce such in-
+equalities.
+Our study therefore aims to answer two pri-
+mary research questions. First, when a member 
+of a low-­income family loses a job, to what ex-
+tent can they access the government income 
+support they are eligible to receive? How does 
+this vary across time and by race-­ethnicity? Sec-
+ond, what effects do administrative burdens 
+have on the economic well-­being of low-­income 
+families? How does this vary across time and 
+by race-­ethnicity?
+Background
+A robust body of research shows that income 
+support programs have beneficial short-­ and 
+long-­term effects on low-­income families, es-
+pecially those with children. This study focuses 
+on benefits receipt among households encoun-
+tering financial difficulties, with or without mi-
+nors. However, households that include chil-
+dren are more likely to be low income than 
+those without (Shrider et al. 2021) and to be el-
+igible beneficiaries of income transfer pro-
+grams. Indeed, to qualify for TANF, households 
+must have at least one child under the age of 
+eighteen present (U.S. Department of Health 
+and Human Services 2021), and two-­thirds of 
+SNAP benefits go to families with children 
+(Center on Budget and Policy Priorities 2017). 
+Recipients of UI, in contrast, are somewhat less 
+likely to live in a household with a child: 44 per-
+cent of UI recipients coreside with an individ-
+ual under the age of eighteen (Carey et al. 2021). 
+Because most families receiving benefits in-
+clude children, much of the research examin-
+ing the effects of these programs focus on such 
+households.
+Income support programs are influential in 
+reducing poverty in the short run and often re-
+sult in improvements in both health and eco-
+nomic productivity in the long run (Hoynes 
+and Schanzenbach 2018). In 2015, SNAP bene-
+fits alone lifted nearly four million children out 
+of poverty (Hoynes and Schanzenbach 2018; 
+Wheaton and Tran 2018), and the collective 
+value of income transfers and tax credits re-
+moved 7.4 million in 2017 (Hoynes and Schan-
+zenbach 2018; Shapiro and Trisi 2017). Addi-
+tionally, SNAP access during childhood is 
+related to better health outcomes during adult-
+hood (Hoynes, Schanzenbach, and Almond 
+2016).
+The impact of TANF on family well-­being 
+is relatively modest, in part because federal 
+funding has been held at its original 1996 level 
+(Floyd, Pavetti, and Schott 2017). However, re-
+search suggests that sizable increases in total 
+income from higher TANF ($1,000) payments 
+are associated with significant increases in 
+student achievement (Duncan, Morris, and 
+Rodrigues 2011; Hoynes and Schanzenbach 
+2018) and TANF coverage may improve a fam-
+ily’s daily routine and decrease the likelihood 
+that a child repeats a grade (Wang 2015). Dur-
+ing the Great Recession, about 40 percent of 
+households that included a person receiving 
+UI benefits would have been considered poor 
+before accounting for this income transfer 
+(Gabe and Whittaker 2012). During the 
+COVID-­19 pandemic, UI benefits played a piv-
+otal role in reducing hardship among the un-
+employed and stimulating economic activity 
+(Falk et al. 2021).
+Given the importance of income support 
+programs for family and child well-­being, ra-
+cial and ethnic differences in benefit receipt 
+may perpetuate inequalities in economic op-
+portunity. Studies show that unequal access to 
+resources, particularly among families with 
+children, contributes to disparities in health, 
+education, material hardship, and subjective 
+well-­being (Duncan, Morris, and Rodrigues 
+2011; National Academies of Sciences, Engi-
+neering, and Medicine 2019; O’Brien et al. 
+2020; Cross 2020). Black and Latino families in 
+the United States have long faced unequal ac-
+cess to resources relative to White families. Al-
+though labor-­market inequalities influence 
+many of these disparities in income, the de-
+centralization of the American welfare state 
+also tends to perpetuate racial-­ethnic inequal-
+ities (Michener 2018; Soss et al. 2008; Hardy 
+and Logan 2020; Herd and Moynihan 2018). 
+Black families are more likely to live in states 
+that have not expanded Medicaid, have lower 
+minimum wages, do not offer supplements to 
+the federal EITC, spend less on TANF cash as-
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+59
+2. One may argue that applicants who forgo an application process to receive benefits, perhaps due to low po-
+tential benefit value relative to cost of applying, should not be considered as facing an administrative burden. 
+Our perspective argues the contrary: all costs that inhibit benefit receipt among eligible individuals can be 
+conceptualized as a burden. In an auto-­enrollment counterfactual, such costs would not exist.
+sistance, and offer less-­generous UI benefits 
+(Michener 2018).
+Administrative Burdens in 
+the American Welfare State
+Administrative burdens are commonly classi-
+fied into three broad categories: learning costs, 
+psychological costs, and compliance costs 
+(Moynihan, Herd, and Harvey 2015). A learning 
+cost refers to the responsibility imposed on cit-
+izens to learn about a program, ascertain 
+whether they are eligible, and understand the 
+nature of benefits and how to access services. 
+Psychological costs are incurred when citizens 
+have to deal with the stigma associated with 
+participating in an unpopular program; they 
+may also involve a loss of autonomy and in-
+creased stress as a result of navigating program 
+procedures. Compliance costs include the com-
+pletion of applications for enrollment or reen-
+rollment and responding to or avoiding discre-
+tionary bureaucratic requests.
+Typically, researchers focus on specific in-
+stances of administrative burdens: paperwork, 
+extra hurdles for applying to benefits, excessive 
+bureaucratic discretion, and so on. In this 
+study, we adopt a broader conceptualization of 
+administrative burdens: all factors that contrib-
+ute to the lack of benefit receipt among indi-
+viduals who are eligible for the given benefit. 
+We are, in effect, capturing the aggregate con-
+sequences of a series of first-­order burdens that 
+affect program participation among the eligi-
+ble. This broader conceptualization deviates 
+from typical administrative burden analyses 
+that focus on a single burden or a single pro-
+gram; instead, it adopts as a counterfactual 
+that all families eligible to receive a given ben-
+efit should receive the benefit. This counterfac-
+tual is not without precedent. Data from Euro-
+pean countries find near-­universal coverage of 
+unemployment benefits in Germany, Finland, 
+Austria, and Belgium (Thévenot, Maestri, and 
+Maquet 2016). The UK Universal Credit auto-
+matically updates recipients’ benefit values 
+when their earnings change (Coady et al. 2021); 
+in Estonia, thirteen national data registries 
+connect to efficiently identify eligible recipi-
+ents for unemployment benefits and to distrib-
+ute benefits (e-­Estonia 2018; Helmes 2020). We 
+acknowledge that many factors drive the lack 
+of take-­up of benefits—from stigma to low in-
+formation about a given benefit to burdensome 
+application processes. In viewing the counter-
+factual as a near-­automatic distribution of ben-
+efits, however, we can conceptualize each of 
+these broadly as administrative burdens and 
+can investigate how such burdens shape access 
+to resources throughout the past thirty years.2
+Notably, our full-­coverage counterfactual 
+does not attribute residual lack of coverage—
+after accounting for specific administrative 
+burdens—to behavioral differences overall or 
+between subgroups. Historically, the United 
+States has prevented some subgroups from 
+gaining equal access to income support pro-
+grams through a series of policies and practices 
+that give rise to racially discriminatory out-
+comes. For example, TANF’s predecessor, Aid 
+to Families with Dependent Children (AFDC), 
+restricted benefit receipt for African Americans 
+to certain times of the year to guarantee the 
+supply of Black labor for agriculture and do-
+mestic work (Floyd et al. 2021). Thus potential 
+behavioral differences, such as whether to ap-
+ply for benefits, can be conditioned by program 
+and policy design. Adopting a broader concep-
+tualization of administrative burdens ad-
+dresses this potential endogeneity issue and 
+accounts for racist policies and practices within 
+the welfare state that may obstruct program 
+participation. It also allows us to benchmark 
+trends across time and place and offers a tool 
+that can be carried forward in future research 
+to continue monitoring progress using publicly 
+available data.
+Why Focus on Job Loss?
+A primary goal of income support programs is 
+to protect families from negative economic 
+shocks (Figinski 2017). In this analysis, we ex-
+amine receipt of income support from SNAP, 
+
+
+60	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+3. Marianne Bitler, Hilary Hoynes, and Elira Kuka (2017) find that Earned Income Tax Credit (EITC) can mitigate 
+income losses for married couples with children; however, given the CPS ASEC assumes perfect coverage of 
+the EITC, and that the benefit does not mitigate income losses for most recipients, we do not investigate the 
+program in this study.
+4. This is according to the Job Openings and Labor Turnover Survey of the Bureau of Labor Statistics. Given 
+adults who experience job loss often live with other individuals in a family unit, the total number of individuals 
+affected by job loss within the family unit is, by definition, notably larger.
+5. Two related differences between their study and ours include, first, our use of the CPS ASEC rather than SIPP, 
+which allows us to cover a longer time period, to incorporate TRIM3 and identify eligibility for different income 
+transfers, and to adjust for benefit underreporting; and, second, their focus on individuals experiencing a no-­fault 
+layoff versus our broader focus on examining income and benefits coverage of families with a working-­age adult 
+that transitions from employment to nonemployment for any reason (other than retirement or enrollment in 
+education).
+6. Starting in 1990 is necessary because certain income variables necessary for this analysis, such as income 
+received from unemployment benefits, are not available in earlier years. As discussed later, much of our analysis 
+focuses on 1993 through 2017, as we apply benefit adjustments from TRIM3, which are only available during 
+this framework.
+TANF, or UI after a person in a low-­income fam-
+ily experiences job loss.3 Job loss is relatively 
+common: in a typical (that is, nonrecession) 
+year, between 1 and 2 percent of workers are 
+laid off, low-­income and less-­educated workers 
+at even higher rates.4 Past analyses reveal how 
+job loss drives an immediate decline in indi-
+vidual earnings and overall household income 
+(Couch and Placzek 2010; East and Simon 
+2020). For example, Chloe East and David Si-
+mon (2020) find that no-­fault job loss reduces 
+individual earnings by between 49 and 66 per-
+cent over the first six months; after one year, 
+monthly earnings are still 38 percent lower 
+than the month before the layoff event, and 
+negative effects on earnings are traceable more 
+than five years beyond the event (see Couch, 
+Jolly, and Placzek 2011).
+Focusing on job loss in this analysis is a par-
+ticularly useful scope condition for understand-
+ing administrative burdens: as an income shock, 
+it marks a critical moment when low-­income 
+families will generally turn to income transfer 
+programs for support. Relative to other events 
+that may trigger eligibility for income support 
+programs—namely, family transitions such as 
+childbirth, divorce, family member death—job 
+loss is more common and arguably more 
+straightforward to measure in national surveys.
+Research has used job loss as a trigger event 
+to examine the dynamics of the U.S. social 
+safety net. For example, East and Simon (2020) 
+use data from the Survey of Income and Pro-
+gram Participation (SIPP) to examine receipt of 
+major public assistance programs following an 
+involuntary layoff. Consistent with the litera-
+ture (Rothstein and Valletta 2017), they find 
+that UI is the most substantial source of in-
+come support for individuals who lose their 
+jobs, followed by SNAP benefits; they find other 
+income support programs, notably TANF, pro-
+vide less help (see also Bitler, Hoynes, and Kuka 
+2017). Whereas East and Simon (2020) primarily 
+focus on earnings replacement after job loss 
+across the income distribution, this study fo-
+cuses on the consequences of uneven access to 
+income transfers among families that are likely 
+eligible to receive the benefits, focusing on 
+racial-­ethnic and over-­time differences.5
+Data and Methods
+We use the panel component of the CPS ASEC 
+from 1990 to 2019.6 Households in the CPS 
+ASEC sampling frame are sampled for four con-
+secutive months, then are not interviewed for 
+the next eight months, and then are then in-
+cluded in the CPS again for the next four 
+months. As a result, roughly half the respon-
+dents in one year’s CPS ASEC are also featured 
+in the subsequent year’s CPS ASEC. The panel 
+component of the ASEC is not often used (for 
+recent exceptions, see Hardy, Smeeding, and 
+Ziliak 2018; Lundberg 2021) but provides a pow-
+erful source of data to measure year-­on-­year 
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+61
+7. Trends and racial differences are comparable if we limit the sample to those who transition to unemployed 
+and active in the labor market.
+8. If a family receives transfer benefits in both years, but the value of the transfers does not increase after expe-
+riencing job loss, then the given transfer will not contribute to our calculation of the replacement rate.
+9. Our measure of likely eligibility is based on observables within the CPS ASEC and does not encompass all 
+dimensions of eligibility. For example, some states impose drug tests for TANF benefit eligibility; we cannot 
+transitions in employment, poverty, income, 
+benefit receipt, and more. Moreover, it features 
+larger sample sizes and more comprehensive 
+income data relative to other sources of the 
+panel data, such as the SIPP or PSID.
+We first limit our sample to respondents 
+who are observed in consecutive years within 
+the ASEC. Although we use data from both 
+years in which each respondent is observed, 
+we evaluate all outcomes in the second of the 
+two years. This limits our sample to some 
+forty thousand individuals per year who are 
+observed in the ASEC for their second year. 
+Following common practice in the inequality 
+and poverty literature, we focus on outcomes 
+at the family unit level (more specifically, the 
+Supplemental Poverty Measure unit, which is 
+equivalent to the household in more than 95 
+percent of cases). We refer to the family unit 
+as family regardless of whether it includes 
+children.
+Our analytical focus is on families with a 
+working-­age adult that transition from employ-
+ment in year one to nonemployment in year 
+two. Our definition of nonemployment in-
+cludes working-­age adults who are jobless and 
+actively looking for work (unemployed) but also 
+those who are jobless and do not report to be 
+looking for work (nonemployed).7 We do not 
+include as nonemployed any working-­adult 
+adults who are retired or in education. Because 
+we are interested in lower-­income families 
+(those more likely to seek government assis-
+tance in the event of job loss), we limit the sam-
+ple to families with a pretax, pretransfer in-
+come that is below half the national median in 
+the second year in which they are observed. The 
+rationale is that wealthier families experienc-
+ing job loss are less likely to face economic in-
+security relative to lower-­income families that 
+experience job loss. In figures A.2 through A.5, 
+we also present results for the full sample with-
+out cutting based on pretax-­transfer incomes. 
+We focus on pretax-­transfer incomes in the sec-
+ond year (after job loss), rather than the first 
+year, in our primary analysis given that the 
+pretax-­transfer incomes after job loss are more 
+indicative of the family’s potential need for in-
+come transfers. Focusing on pre-­job-­loss in-
+come may capture some families who are bet-
+ter off in the year after job loss if another family 
+member increases work intensity or receives 
+higher wages, and also leads to the possibility 
+of missing families who experience the largest 
+losses in income and might be eligible for 
+higher levels of benefit receipt. We present re-
+sults that cut the sample based on incomes in 
+the year before job loss in figure A.4.
+As to outcomes of interest, among the low-­
+income families with a working-­age adult who 
+experience job loss, we are primarily interested 
+in two sets of outcomes: the lack of receipt of 
+transfer benefits among those who appear to 
+be eligible to receive the transfers, and the re-
+placement rate of transfers. We discuss these 
+in turn.
+First, we measure our primary proxy of ad-
+ministrative burdens: nonreceipt of SNAP, TANF, 
+and UI transfers among families eligible to re-
+ceive the benefits in the year in which a family 
+member becomes jobless. These are binary in-
+dicators of whether at least one member of the 
+family receives a positive value of the given 
+benefit in the second year (regardless of 
+whether the family also received the benefit in 
+the year before job loss). As we document in 
+figure A.1, most families who receive SNAP, 
+TANF, or UI benefits in the year of job loss did 
+not receive the given benefit in the year before 
+job loss.8
+We measure eligibility for SNAP and TANF 
+benefits using indicators from Urban Insti-
+tute’s TRIM3 simulations, which takes into ac-
+count immigration status, family structure and 
+size, state policy rules, and more when identi-
+fying likely eligibility.9 TRIM3 does not provide 
+
+
+62	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+an estimate of eligibility for UI benefits. Thus, 
+we create a proxy of UI eligibility manually in 
+the ASEC based on whether the newly jobless 
+individual worked at least twenty-­six weeks in 
+the prior year; worked at least ten hours per 
+week, on average, in the prior year; and reports 
+being unemployed (jobless and actively search-
+ing for work).
+Our second indicator captures the conse-
+quences of administrative burdens. We mea-
+sure the replacement rate of income transfers 
+as the share of lost market earnings that are 
+compensated by increases in transfer benefits 
+for a family experiencing job loss. For example, 
+if a family loses $20,000 in annual earnings due 
+to lost wages after job loss, but subsequently 
+receives $5,000 in additional social assistance 
+(beyond what the family received in the year 
+prior to job loss), the replacement rate is 25 per-
+cent. We bottom-­code replacement rates at 
+zero (no negative values) and top-­code at 100 
+percent (perfect replacement). Of course, the 
+U.S. legal maximum replacement rate is typi-
+cally below perfect replacement. For example, 
+state laws usually cap the UI maximum benefit 
+amount between 70 and 80 percent of prior in-
+come, just as SNAP recipients are expected to 
+spend 30 percent of their resources on food, 
+limiting the benefit amount to no more than 70 
+percent of their income (D.C. Department of 
+Human Services 2022; Lacoma 2022). Under 
+these restrictions, replacement rates between 
+70 and 80 percent likely represent a best-­case 
+scenario.
+To assess the broader contribution of ad-
+ministrative burdens to economic insecurity, 
+we also use the indicators of program eligibility 
+and benefit receipt to produce a counterfactual 
+replacement rate if all eligible individuals re-
+ceived the benefits they are eligible to receive. 
+To calculate this, we first compute the total 
+sum of transfers that a family unit would re-
+ceive if it indeed received all SNAP, UI, and 
+TANF benefits for which it is eligible. We then 
+substitute this value for the observed value of 
+benefit receipt. We then construct the counter-
+factual replacement rate using these substi-
+tuted benefit values.10
+We supplement our primary results with 
+three sensitivity tests. First, we address the 
+benefit underreporting of TANF and SNAP in 
+the CPS ASEC. Benefit underreporting will 
+likely lead us to underestimate replacement 
+rates. If benefit underreporting has intensified 
+from the 1990s onward, or varies meaningfully 
+by race-­ethnicity, it may alter our conclusions 
+about trends and disparities in benefit access 
+after job loss. To address this issue, we present 
+a set of results in which we adjust for underre-
+porting in TANF and SNAP using Urban Insti-
+tute’s TRIM3 simulations.11 In short, TRIM3 
+uses information about each individual and 
+household in the CPS ASEC to predict the value 
+of benefits that a recipient is likely eligible to 
+receive. The simulations use individual or 
+household data on race, ethnicity, immigration 
+status, marital status, household structure, 
+state of residence, income, state-­level policy 
+rules, and more to estimate program eligibility. 
+One limitation of TRIM3 is that the data are 
+currently available only from 1993 through 
+2017; thus we limit many of our analyses to 
+these years. A second limitation is that TRIM3’s 
+benefit simulations may allocate SNAP and 
+TANF benefits too strongly (relative to admin-
+istrative records) toward households at the bot-
+tom of the income distribution (Stevens, Fox, 
+and Heggeness 2018). As a result, the use of 
+TRIM3 could provide an overoptimistic sce-
+nario of TANF and SNAP benefit receipt among 
+our focal populations. We therefore present re-
+sults both with and without TRIM3 benefit ad-
+identify whether certain individuals in the ASEC may have failed this test and therefore may be falsely identified 
+as eligible to receive TANF in our estimates. This is a limitation of our measure of eligibility.
+10. Given that our measurement of replacement rates captures only changes in income transfers from the prior 
+year in the numerator, it may penalize families that already received the maximum value of SNAP benefits in the 
+year prior to unemployment, and thus saw no change in SNAP benefits after job loss.
+11. TRIM3 has been used in several recent studies on poverty (Falk 2015) and is also used extensively in the 
+recent National Academies of Sciences, Engineering, and Medicine (2019) report on reducing child poverty.
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+63
+justments and evaluate our conclusions in ei-
+ther scenario.
+Second, it could be that different population 
+characteristics across states, rather than ad-
+ministrative burdens, drive incomplete access 
+to benefits. To test this possibility, we also es-
+timate our counterfactual replacement rates 
+after reweighting each state-­year’s population 
+to have the same population characteristics as 
+the United States as a whole. Specifically, we 
+equalize the mean levels of high school gradu-
+ation, college graduation, family structure, em-
+ployment rates, gender, household size, and 
+number of children of each state to match the 
+mean values among all states (see figures A.2 
+through A.5).
+Third, it could be that variation in states’ 
+benefit levels, rather than differential access, 
+could drive any differences we observe in coun-
+terfactual replacement rates. Given that SNAP 
+benefits do not vary across states (other than 
+Alaska and Hawaii), and that UI benefits largely 
+vary depending on an individual’s prior earn-
+ings, it is primarily policy-­driven variation in 
+TANF benefit levels that threaten our analysis. 
+Thus, we also produce estimates of counterfac-
+tual replacement rates after equalizing all 
+states’ TANF benefit levels (see figures A.2 
+through A.5).
+Findings
+Figure 1 presents the share of all family units 
+in the United States with at least one member 
+experiencing a transition from employment to 
+nonemployment by race-­ethnicity and year. In 
+1990, just under 10 percent of all families had 
+one member transition from being employed 
+in 1989 to not employed in 1990. For Whites, the 
+rate was slightly lower than the national mean 
+(around 8 percent); for Blacks and Latinos, it 
+was higher (around 12 percent and 14.5 percent, 
+respectively).
+In the following two decades, the share of 
+families experiencing job loss steadily declined 
+until the onset of the Great Recession, then 
+spiked around 2008 and 2009 before steadily 
+declining again. In 2010, the share of families 
+experiencing job loss from the prior year was 
+just above 5 percent. Across all years, however, 
+racial-­ethnic differences persist. Blacks and La-
+Figure 1. Family Units with at Least One Employment to Nonemployment Transition from Previous Year
+Source: Authors’ calculations from the U.S. Current Population Survey (Flood et al. 2022).
+Note: Error bars represent 95 percent confidence intervals.
+0
+.1
+.2
+Percentage
+1990
+1995
+2000
+2005
+2010
+2015
+2019
+All
+Latino
+Black
+White
+.15
+.05
+
+
+6 4	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+tinos consistently face notably higher rates of 
+family job loss relative to Whites. By 2019, in 
+fact, the share of Blacks or Latinos experienc-
+ing family job loss was around double the rate 
+of that of Whites, around 10 percent to 5 per-
+cent.
+Administrative Burden Effect
+Figure 2 provides descriptive trends in the 
+­nonparticipation of SNAP, UI, and AFDC-­TANF 
+benefit receipt among low-­income families 
+who experience joblessness and are likely eli-
+gible to receive the given benefit. The upper left 
+panel shows that SNAP benefits, the only of 
+these transfers primarily administered at the 
+federal level, have low and declining rates of 
+nonparticipation among likely eligible families 
+experiencing job loss. In 1990, an estimated 45 
+percent of likely eligible SNAP families experi-
+encing job loss did not receive the benefit, 
+though this figure fell to around 20 percent in 
+2019. In many years, Blacks see lower than aver-
+age nonparticipation rates of SNAP benefits 
+among the eligible, whereas Latinos often see 
+higher than average. This may reflect the “chill-
+ing effects” of immigration enforcement that 
+disproportionately affect Latino families (Fried-
+man and Venkataramani 2021) That is, many 
+Latino immigrants who are eligible to receive 
+benefits may forgo them to avoid real or per-
+ceived negative immigration consequences for 
+themselves or those close to them who may be 
+undocumented (Friedman and Venkataramani 
+2021; Watson 2014).
+The upper right panel of figure 2, in con-
+trast, suggests higher nonparticipation rates 
+among the eligible for UI benefits. In 1990, UI 
+missed an estimated 40 percent of likely eligi-
+ble families experiencing job loss. By 2019, this 
+had increased to about 60 percent. Across most 
+years, Black and Latino families experiencing 
+job loss are less likely to receive UI benefits de-
+spite likely being eligible (see also Kuka and 
+Stuart 2021).
+The lower left panel shows steep declines in 
+access for AFDC-­TANF benefit receipt. In 1990, 
+cash assistance from AFDC missed an esti-
+mated 20 percent of likely eligible families ex-
+Figure 2. Administrative Burden Effect
+Source: Authors’ calculations from the US. Current Population Survey (Flood et al. 2022).
+Note: Rates of benefit nonparticipation among low-income families who experience joblessness and 
+are likely eligible to receive the given benefit.
+0
+.2
+.4
+.6
+.8
+1
+Percent eligible not 
+receiving beneﬁt
+1990
+1995
+2000
+2005
+2010
+2015
+SNAP
+0
+.2
+.4
+.6
+.8
+1
+Percent eligible not 
+receiving beneﬁt
+1990
+1995
+2000
+2005
+2010
+2015
+UI
+0
+.2
+.4
+.6
+.8
+1
+Percent eligible not
+ receiving beneﬁt
+1990
+1995
+2000
+2005
+2010
+2015
+AFDC-TANF
+All
+Latino
+Black
+White
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+65
+periencing job loss, outperforming SNAP and 
+UI. In 2019, however, nonparticipation climbed 
+to 80 percent of likely eligible families experi-
+encing job loss. Differences across race-­
+ethnicity are not generally statistically signifi-
+cant in most years, though White families have 
+lower rates of take-­up in more recent years.
+Put simply, administrative barriers and 
+other factors that limit access to benefit re-
+ceipt among the eligible are leaving consider-
+able ­income support undelivered for families 
+experiencing job loss. This is likely to affect the 
+economic insecurity of these families. To con­
+text­ualize the consequences, we visualize coun­
+ter­factual income replacement rates if all fam-
+ilies eligible for the benefits actually receive the 
+benefits.
+The thick solid line in each panel of figure 3 
+shows the estimated increase in replacement 
+rates if families were to access the benefits they 
+are eligible to receive. The dashed line presents 
+the same, but after adding in TRIM3 benefit ad-
+justments. The upper left panel, for example, 
+documents that the average low-­income family 
+experiencing job loss could have had a 13 per-
+centage point higher replacement rate—or 11 
+percentage points with TRIM3 adjustments—
+in 1993 if they received all the transfers for 
+which they were eligible. In 2019, however, the 
+rate declined to 10 percentage points, or 6 per-
+centage points with TRIM3. Thus, families are 
+receiving a larger share of benefits for which 
+they are eligible in more recent years compared 
+to the early 1990s. Subsequent investigation 
+confirms that this trend is driven primarily by 
+rising SNAP participation among eligible fami-
+lies (see figure 2).
+Black families (upper right) and Latino fam-
+ilies (lower left) experienced larger potential 
+increases in replacement rates than White fam-
+ilies if they had received all benefits after job 
+loss, although racial differences mostly even 
+out after TRIM3 adjustments. Recall that 
+TRIM3 over-­allocates some income transfers 
+toward the bottom of the income distribution, 
+so the true replacement rate may be some-
+Figure 3. Percentage Point Increase in Replacement Rates
+Source: Authors’ calculations from the US. Current Population Survey (Flood et al. 2022). 
+Note: No administrative burden effect. Sample limited to households in pre-tax/transfer SPM poverty 
+after experiencing job loss. TRIM3 adjustments applied for SNAP and TANF benefits.
+0.13
+0.10
+0.11
+0.06
+0
+.1
+.2
+.3
+1990
+1995
+2000
+2005
+2010
+2015
+All
+0.16
+0.11
+0.11
+0.08
+0
+.1
+.2
+.3
+1990
+1995
+2000
+2005
+2010
+2015
+Black
+0.19
+0.12
+0.13
+0.04
+0
+.1
+.2
+.3
+1990
+1995
+2000
+2005
+2010
+2015
+Hispanic
+0.11
+0.10
+0.10
+0.06
+0
+.1
+.2
+.3
+1990
+1995
+2000
+2005
+2010
+2015
+White
+Increase in replacement rate if all beneﬁts received
+Increase in replacement rate with TRIM3 beneﬁt adjustments
+Percentage point increase
+Percentage point increase
+Percentage point increase
+Percentage point increase
+
+
+66	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+where between the two lines in figure 3. Figures 
+A.2 through A.5 present results when not cut-
+ting the samples based on income, or when cut-
+ting the sample based on income in the year 
+before job loss. These alternative results offer 
+similar conclusions: the potential increase in 
+replacement rates if families facing job loss re-
+ceived all SNAP, TANF, and UI benefits for 
+which they are eligible has declined over time, 
+and is generally larger for Black and Hispanic 
+families relative to White families, though 
+TRIM3 adjustments continue to narrow or 
+eliminate those racial differences.
+In figures A.2 through A.5, we provide evi-
+dence that variation across time and race-­
+ethnicity in potential increase in replacement 
+rates is primarily driven by benefit access, 
+rather than differences in TANF benefit levels 
+across states or differences in compositional 
+features of states’ populations.
+Characteristics of States 
+with Large Administrative 
+Burden Effects
+Our prior results identify administrative bur-
+den effects across time by the race-­ethnicity of 
+individuals. As a final step, we investigate how 
+the racial-­ethnic composition of place is as­
+sociated with administrative burden effects. 
+Specifically, we identify demographic charac-
+teristics of states with smaller and larger ad-
+ministrative burden effects, measured here as 
+the mean percentage increase in the replace-
+ment rate in a state in the absence of the ad-
+ministrative burden effect (similar to figure 3) 
+averaged over 1993 through 2017. Our assess-
+ments of the state-­level correlates of admin­
+istrative burden effects are purely descriptive 
+associations; the methods we use are not de-
+signed to infer causality.
+Figure 4 plots the mean administrative bur-
+den effect by state, depending on the modeling 
+decisions made: our baseline estimates with 
+no adjustments, with TRIM3 benefit adjust-
+ments, with homogenous state-­level demo-
+graphic characteristics, and with equal state 
+TANF benefit levels. Higher values (darker col-
+ors) represent stronger administrative burden 
+effects or, more precisely, higher percentage 
+point increases in the replacement rate of fam-
+ilies experiencing job loss if they were able to 
+access all benefits for which they are likely eli-
+gible.
+In percentage point terms, the largest ad-
+ministrative burden effects are concentrated in 
+the Southwest, the smallest in the upper Mid-
+west. Arizona, for example, consistently per-
+forms the worst of all states: in our base esti-
+mates, its average increase in replacement 
+rates would be 19 percentage points if its fami-
+lies received all income transfers they are eli-
+gible for after job loss. Arizona was also the first 
+state to reduce its lifetime limit of cash assis-
+tance from TANF to twelve months, down from 
+the national maximum of sixty (Parolin 2021). 
+On the opposite end, Utah is the best perform-
+ing state: the average increase in replacement 
+rates is 8 percentage points.
+These geographic differences are likely to 
+overlap with important demographic differ-
+ences in the administrative burden effect. Con-
+sider, for example, that poor-­performing states 
+such as Arizona and Texas tend to have larger 
+shares of Latino residents than other states. 
+Even if differences in administrative burden ef-
+fects do not vary widely across individuals of 
+different races and ethnicities (see figure 3), we 
+may see more notable disparities across places 
+with higher proportions of Black or Latino res-
+idents.
+Figure 5 investigates this possibility. Specif-
+ically, it displays the bivariate association of a 
+state’s demographic characteristics—race-­
+ethnicity and share of children in single-­parent 
+homes—with the mean administrative burden 
+effect—the percentage point gain in replace-
+ment rates with full transfer receipt—in the 
+state from 1993 through 2017. We again test four 
+variations of the estimates, aligning with the 
+four panels of figure 4. These bivariate associa-
+tions provide us a descriptive view of the char-
+acteristics of states with higher or lower per-
+centage point increases in the counterfactual 
+replacement rate.
+With respect to race-­ethnicity, the findings 
+in figure 5 show that the larger the share of 
+White state residents, the lower the administra-
+tive burden effect. In contrast, states with a 
+larger share of Latino residents, in particular, 
+tend to face larger administrative burden ef-
+fects. States with larger shares of Asian resi-
+dents also experience larger administrative 
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+67
+burden effects, or higher potential increases in 
+replacement rates if families received all in-
+come transfers after job loss. The coefficients 
+for the share of Black parents and single par-
+ents are generally insignificant.
+The findings are consistent whether we ap-
+ply TRIM3 adjustments for benefit underre-
+porting, adjust to match the demographic char-
+acteristics (excluding race-­ethnicity) of states, 
+and equalize TANF benefit levels. In short, fam-
+ilies experiencing job loss in states with higher 
+shares of Latino residents in particular have 
+relatively more to gain if barriers to accessing 
+benefits for which the families are likely eligi-
+ble to receive were fewer.
+Discussion and Conclusion
+Government income support programs play a 
+critical role in reducing hardship and eco-
+nomic insecurity in the event of job loss. How-
+ever, that income support is not provided auto-
+matically. Potential claimants must navigate a 
+myriad of bureaucratic processes to claim the 
+benefits, and many potential recipients either 
+Figure 4. Mean Change in Replacement Rate If Families Received All Income Transfers They Are 
+Eligible to Receive, 1993–2017
+Source: Authors’ calculations from the US. Current Population Survey (Flood et al. 2022). 
+Note: Darker colors indicate a stronger administrative burden effect (defined as percent replacement 
+rate if families received all transfers for which they were eligible minus the observed replacement rate). 
+Homogenous demographics refers to results after reweighting state populations to match the national 
+means of adults with only a high school degree, adults with a college degree or more, household struc-
+ture (single parent with children, single adult without children, two-parents with children, multiple 
+adults without children), number of children in the home, number of adults in the home, female, and 
+employment rates. Equal Benefit Levels refers to an adjustment that alters AFDC-TANF benefit levels 
+in each state-year to match the national median TANF benefit levels among recipients in the given 
+year, effectively eliminating state-variation in TANF generosity (and thus limiting variation primarily to 
+differential access). 
+Base Estimates
+With Homogenous Demographics
+With TRIM3 Adjustments
+With Equal Beneﬁt Levels
+0.16–0.19
+0.14–0.16
+0.13–0.14
+0.12–0.13
+0.11–0.12
+0.08–0.11
+
+
+68	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+do not initiate or complete the process. These 
+administrative burdens lead to large sums of 
+unclaimed income transfers each year. In this 
+article, we examine variation in the receipt of 
+income transfers after a family member expe-
+rienced job loss. We underscore three key find-
+ings.
+First, individuals from low-­income families 
+experiencing job loss and who are eligible to 
+receive income transfers are less likely to re-
+ceive UI or TANF benefits in the late 2010s than 
+in the early 1990s, but more likely to receive 
+SNAP benefits. Thus administrative burdens, 
+broadly defined, have worsened for UI and 
+TANF but not for SNAP.
+Second, and relatedly, individuals currently 
+receive more of the benefits available to them 
+than they used to. In other words, the potential 
+increase in replacement rates for receiving all 
+available TANF, SNAP, and UI transfers is 
+smaller in the late 2010s than in the early 1990s. 
+From this perspective, the contribution of ad-
+ministrative burdens to economic insecurity 
+has decreased, largely due to rising SNAP par-
+ticipation among the eligible. However, some 
+of the trend is also due to declining TANF ben-
+efit levels for the average state. When the value 
+of potential income transfers declines, remov-
+ing all administrative burden effects has less 
+consequence because the income transfers do 
+Figure 5. Bivariate Association of Demographic Characteristic, 1993–2017
+Source: Authors’ tabulation (Flood et al. 2022).
+Note: Mean administrative burden effect, counterfactual increases in replacement rates. The figure 
+plots point estimates and 95 percent confidence intervals from separate bivariate estimates that re-
+gress the mean percentage point increase in a state’s replacement rate should family units receive the 
+transfers for which they are eligible between 1993 to 2017 (administrative burden effect) on the labeled 
+state-level covariate. Homogenous demographics refers to results after reweighting state populations 
+to match the national means of adults with only a high school degree, adults with a college degree or 
+more, household structure (single parent with children, single adult without children, two parents with 
+children, multiple adults without children), number of children in the home, number of adults in the 
+home, female, and employment rates. Equal TANF Benefit Levels refers to an adjustment that alters 
+AFDC-TANF benefit levels in each state-year to match the national median TANF benefit levels among 
+recipients in the given year, effectively eliminating state-variation in TANF generosity (and thus limit-
+ing variation primarily to differential access). 
+−.05
+0
+.1
+Association with administrative 
+burden eﬀect
+Percent 
+Asian
+Percent 
+Black
+Percent 
+Latino
+Percent 
+White
+Percent 
+single parents
+State characteristic
+Base estimates
+With TRIM3 adjustments
+With homogenous state demographics
+With equal TANF beneﬁt levels
+.15
+.05
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+69
+less, by definition, to improve replacement 
+rates.
+Third, our evidence suggests that these 
+trends have not occurred evenly across the pop-
+ulation. Black and Latino families experience 
+job loss at a greater rate than White families, 
+and also generally lower income replacement 
+rates as a result of administrative burden ef-
+fects. However, across all racial-­ethnic groups, 
+administrative burden effects have declined 
+slightly over time, likely due in part to rising 
+accessibility of SNAP benefits. Moreover, the 
+racial-­ethnic differences narrow markedly 
+when adjusting for benefit underreporting with 
+TRIM3. Shifting focus from the race-­ethnicity 
+of individuals to the racial-­ethnic composition 
+of place, we find that states with higher propor-
+tions of White residents tend to have smaller 
+administrative burden effects.
+Our operationalization of administrative 
+burdens shifts focus from specific bureaucratic 
+steps that reduce benefit take-­up to coverage 
+rates among likely eligible individuals more 
+broadly. This approach has several advantages. 
+First, measuring population coverage is rela-
+tively simple and can be readily used to track 
+variation in the intensity of administrative bur-
+dens across programs, places, time, and popu-
+lation subgroups. Cross-­sectional snapshots of 
+coverage rates not only reveal programs or 
+places that should be targeted for policy inter-
+vention, but can also be used to identify as-
+pects of program design or implementation 
+that are effective in boosting enrollment and 
+may be adopted by other programs or jurisdic-
+tions. Second, panel data at the household 
+level, as this study uses, can be used to measure 
+coverage rates after a semi-­exogenous eligibil-
+ity (or benefit level) trigger, such as job loss. 
+This type of data can be useful for tracking 
+trends in program access over time among a set 
+of families experiencing relatively similar in-
+come shocks.
+Beyond these practical and empirical advan-
+tages, our approach also shifts the locus of ac-
+tion away from the household and toward the 
+state. Identifying the learning costs, psycho-
+logical costs, and compliance costs that house-
+holds face is essential to understanding what 
+does and does not work in program design. Yet 
+these behavioral-­ or knowledge-­based explana-
+tions for why households fail to enroll in social 
+programs assume a level of agency with state 
+interactions that may undermine efforts to ex-
+pand coverage. If an eligible household re-
+mains uncovered even after addressing the 
+myriad costs to enrollment, it can be attributed 
+to an affirmative choice to decline assistance. 
+If we instead take universal coverage as the 
+working counterfactual, as this study does, any 
+eligible households not receiving coverage con-
+tinues to be viewed as a failure of the state that 
+motivates additional interventions. This is im-
+portant for two reasons. First, for many fami-
+lies, and particularly Black and Latino families, 
+past discriminatory and unfair interactions 
+with the welfare state may lessen their willing-
+ness to actively pursue the benefits they are en-
+titled to receive. Reducing enrollment costs is 
+not enough to surmount the legacy of exclusion 
+that colors families’ perceptions of government 
+programs. Second, heterogeneity in the capac-
+ity of households to navigate interactions with 
+the state is extreme; an enrollment process 
+deemed low cost or accessible to the median 
+eligible family may still be too difficult for 
+many. Taking full coverage as the goal makes it 
+the explicit responsibility of the state to ensure 
+that all families receive the support they need 
+and deserve, regardless of their cognitive abili-
+ties, language facility, or physical capacities.
+Moving forward, improving data collection 
+is key to measuring administrative burden in-
+tensity and evaluating policy interventions. 
+Data reporting should be standardized and 
+streamlined so that policymakers and the pub-
+lic can quickly evaluate coverage across pro-
+grams and jurisdictions. A dashboard that in-
+cludes basic information, such as coverage 
+rates among eligible individuals, time from ap-
+plication to benefit receipt, success rates from 
+initial application, and so on, would be useful 
+for setting benchmarks to evaluate the perfor-
+mance of state and federal governments. This 
+administrative data can and should be paired 
+with improved qualitative and quantitative data 
+collection at the household level. Household 
+panel surveys, for example, could benefit from 
+incorporating a battery of questions regarding 
+experiences navigating program enrollment: 
+whether the household considered applying for 
+a program, number of attempts, outcome, and 
+
+
+70	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+so on. This information could be used to iden-
+tify which stages of the initial enrollment or 
+recertification process should be targeted for 
+intervention.
+Administrative burdens contribute to lower 
+income replacement rates for families experi-
+encing job loss, our study suggests, particularly 
+for Black and Latino families and in states with 
+large shares of non-­White residents. Improving 
+the evaluation of administrative burden effects, 
+and identifying solutions toward reducing 
+them, may be important for promoting greater 
+economic security and reducing racial-­ethnic 
+inequalities in economic well-­being.
+Figure A.1. SPM Family Units Receiving Benefit Only in Year of Job Loss 
+Source: Authors’ calculations from the U.S. Current Population Survey (Flood et al. 2022). 
+0
+.1
+.2
+.3
+.4
+.5
+.6
+.7
+.8
+.9
+1
+Percent beneﬁciaries receiving only afer job loss
+1990
+1995
+2000
+2005
+2010
+2015
+2019
+SNAP
+AFDC-TANF
+UI
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+71
+Source: Authors’ calculations from the US. Current Population Survey (Flood et al. 2022).
+Note: Percentage point increase in replacement rates if family units received all income 
+transfers for which they are likely eligible (no administrative burden effect). We reweight 
+state populations to match the national means of adults with only a high school degree, 
+adults with a college degree or more, household structure (single parent with children, single 
+adult without children, two parents with children, multiple adults without children), number 
+of children in the home, number of adults in the home, female, and employment rates. 
+Figure A.2. Consistent Compositions Across States
+0
+.1
+.2
+.3
+0.19
+0.20
+Percentage point 
+increase
+0.13
+0.10
+0.13
+0.11
+0
+.1
+.2
+.3
+Percentage point 
+increase
+1990 1995 2000 2005 2010 2015
+All
+0.16
+0.11
+0.16
+0.11
+1990 1995 2000 2005 2010 2015
+Black
+9
+0.12
+0.12
+0
+.1
+.2
+.3
+Percentage point 
+increase
+0
+.1
+.2
+.3
+Percentage point 
+increase
+1990 1995 2000 2005 2010 2015
+Hispanic
+0.11
+0.10
+0.11
+0.10
+1990 1995 2000 2005 2010 2015
+White
+Increase in replacement rate if all beneﬁts received (baseline estimate)
+Increase in replacement rate with homogenous state demographics
+Figure A.3. TANF Benefits Equalized
+Source: Authors’ calculations from the US. Current Population Survey (Flood et al. 2022).
+Note: Percentage point increase in replacement rates if family units received all income 
+transfers for which they are likely eligible (no administrative burden effect). We adjust 
+AFDC/TANF benefit levels in each state-year to match the national median TANF benefit 
+levels among recipients in the given year, effectively eliminating state-variation in TANF 
+generosity (and thus limiting variation primarily to differential access). 
+0
+.1
+.2
+.3
+Percentage point 
+increase
+0
+.1
+.2
+.3
+Percentage point 
+increase
+0
+.1
+.2
+.3
+Percentage point 
+increase
+0
+.1
+.2
+.3
+Percentage point 
+increase
+0.13
+0.10
+0.12
+0.10
+1990 1995 2000 2005 2010 2015
+All
+0.16
+0.11
+0.13
+1990 1995 2000 2005 2010 2015
+Black
+0.19
+0.12
+0.15
+0.11
+1990 1995 2000 2005 2010 2015
+Hispanic
+0.11
+0.10
+0.10
+0.11
+0.10
+1990 1995 2000 2005 2010 2015
+White
+Increase in replacement rate if all beneﬁts received (baseline estimate)
+Increase in replacement rate with TANF beneﬁt levels equalized
+
+
+72	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+Figure A.4. Results for All Family Units Based on Prior-Year Income
+Source: Authors’ calculations from the US. Current Population Survey (Flood et al. 2022). 
+Note: Percentage point increase in replacement rates if family units received all income transfers for 
+which they are likely eligible (no “administrative burden” effect). Sample limited to family units with 
+pre-tax/transfer incomes below half the national median income in the year prior to job loss.
+0.22
+0.18
+0.16
+0.08
+1990
+1995
+2000
+2005
+2010
+2015
+All
+0.23
+0.13
+0.12
+0.08
+0
+.1
+.2
+.3
+.4
+.5
+0
+.1
+.2
+.3
+.4
+.5
+0
+.1
+.2
+.3
+.4
+.5
+0
+.1
+.2
+.3
+.4
+.5
+1990
+1995
+2000
+2005
+2010
+2015
+Black
+0.27
+0.22
+0.14
+0.06
+1990
+1995
+2000
+2005
+2010
+2015
+Hispanic
+0.21
+0.19
+0.19
+0.10
+1990
+1995
+2000
+2005
+2010
+2015
+White
+Increase in replacement rate if all beneﬁts received
+Increase in replacement rate with TRIM3 beneﬁt adjustments
+Percentage point 
+increase
+Percentage point 
+increase
+Percentage point 
+increase
+Percentage point 
+increase
+Figure A.5. Results for All Family Units Regardless of Income 
+Source: Authors’ calculations from the US. Current Population Survey (Flood et al. 2022).
+Note: Percentage point increase in replacement rates if family units received all income transfers for 
+which they are likely eligible (no administrative burden effect).
+0.12
+0.09
+0.10
+0.06
+1990
+1995
+2000
+2005
+2010
+2015
+All
+0.17
+0.11
+0.12
+0.08
+1990
+1995
+2000
+2005
+2010
+2015
+Black
+0.19
+0.11
+0.14
+0.05
+1990
+1995
+2000
+2005
+2010
+2015
+Hispanic
+0.09
+0.08
+0.09
+0.06
+1990
+1995
+2000
+2005
+2010
+2015
+White
+Increase in replacement rate if all beneﬁts received
+Increase in replacement rate with TRIM3 beneﬁt adjustments
+0
+.1
+.2
+.3
+Percentage point 
+increase
+0
+.1
+.2
+.3
+Percentage point 
+increase
+0
+.1
+.2
+.3
+Percentage point 
+increase
+0
+.1
+.2
+.3
+Percentage point 
+increase
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+73
+References
+Bitler, Marianne, Hilary Hoynes, and Elira Kuka. 2017. 
+“Do In-­Work Tax Credits Serve as a Safety Net?” 
+Journal of Human Resources 52(2): 319–50. DOI: 
+10.3368/jhr.52.2.0614-­6433R1.
+Carey, Patrick, Jeffrey A. Groen, Bradley A. Jensen, 
+Thomas J. Krolik, and Anne E. Polivka. 2021. “Ap-
+plying for and Receiving Unemployment Insur-
+ance Benefits During the Coronavirus Pandemic.” 
+Monthly Labor Review, September. Accessed Jan-
+uary 7, 2022. DOI: https://doi.org/10.21916/mlr​
+.2021.19.
+Center on Budget and Policy Priorities. 2017. “SNAP 
+Helps Millions of Children.” Accessed January 7, 
+2022. https://www.cbpp.org/sites/default/files​ 
+/atoms/files/3–2-17fa2.pdf.
+Coady, David, Samir Jahan, Riki Matsumoto, and 
+Baoping Shang. 2021. “Guaranteed Minimum In-
+come Schemes in Europe: Landscape and De-
+sign.” Working Paper no. 21/179. Washington, 
+D.C.: International Monetary Fund.
+Couch, Kenneth A., Nicholas A. Jolly, and Dana W. 
+Placzek. 2011. “Earnings Losses of Displaced 
+Workers and the Business Cycle: An Analysis 
+with Administrative Data.” Economics Letters 
+111(1): 16–19. DOI: https://doi.org/10.1016/j.econ​
+let.2010.12.011.
+Couch, Kenneth A., and Dana W. Placzek. 2010. 
+“Earnings Losses of Displaced Workers Revis-
+ited.” American Economic Review 100(1): 572–89. 
+DOI: https://doi.org/10.1257/aer.100.1.572.
+Cross, Christina J. 2020. “Racial/Ethnic Differences 
+in the Association Between Family Structure and 
+Children’s Education.” Journal of Marriage and 
+Family 82: 691–712.
+D.C. Department of Human Services. 2022. “SNAP 
+Benefits.” Accessed November 21, 2022. https://​
+dhs.dc.gov/service/snap-benefits.
+Duncan, Greg J., Pamela A. Morris, and Chris Ro-
+drigues. 2011. “Does Money Really Matter? 
+­Estimating Impacts of Family Income on Young 
+Children’s Achievement with Data from Random-­
+Assignment Experiments.” Developmental Psy-
+chology 47(5): 1263–79.
+East, Chloe, and David Simon. 2020. “How Well In-
+sured Are Job Losers? Efficacy of the Public 
+Safety Net.” NBER working paper no. 28218. 
+Cambridge, Mass.: National Bureau of Economic 
+Research. Accessed December 22, 2022. https://​
+www.nber.org/system/files/working_papers/w28​
+218/w28218.pdf
+e-­Estonia. 2018. “A Story of Resilience: Tackling Un-
+employment Through Innovation in Estonia.” Ac-
+cessed December 22, 2022. https://e-estonia​
+.com/story-resilience-tackling-unemployment 
+-thr​ough-innovation/.
+Elder, Todd, and Elizabeth Powers. 2006. “The In-
+credible Shrinking Program.” Research on Aging 
+28(3): 341–58. DOI: https://doi.org/10.1177/01640​
+27505285918.
+Falk, Gene. 2015. “Temporary Assistance for Needy 
+Families (TANF): Financing Issues.” Congressio-
+nal Research Service. https://sgp.fas.org/crs 
+/misc/R44188.pdf.
+Falk, Gene, Paul D. Romero, Issac A. Nicchitta, and 
+Emma C. Nyhof. 2021. “Unemployment Rates 
+During the COVID-­19 Pandemic.” CRS Report no. 
+R46554. Washington, D.C.: Congressional Re-
+search Service. Accessed January 10, 2022. 
+https://crsreports.congress.gov/product/pdf​
+/R/R46554.
+Figinski, Theodore. 2017. “The Economic Security of 
+American Households: the Distribution and Evo-
+lution of the Social Safety Net and Social Insur-
+ance Benefits: 1990 to 2014.” Washington: U.S. 
+Department of Treasury, Office of Economic Pol-
+icy. Accessed January 10, 2022. https://home 
+.tre​asury.gov/system/files/226/The-Economic 
+-Secu​rity-of-American-Households-the-Safety 
+-Net.pdf.
+Flood, Sarah, Miriam King, Renae Rodgers, Steven 
+Ruggles, J. Robert Warren, and Michael West-
+berry. 2022. “Integrated Public Use Microdata 
+Series, Current Population Survey: Version 10.0 
+[dataset].” Minneapolis, Minn.: IPUMS. DOI: 
+https://doi.org/10.18128/D030.V10.0.
+Floyd, Ife, Ladonna Pavetti, Laura Meyer, Ali Safawi, 
+and Liz Schott. 2021. “TANF Policies Reflect 
+Racist Legacy of Cash Assistance: Reimagined 
+Program Should Center Black Mothers.” Wash-
+ington, D.C.: Center on Budget and Policy Priori-
+ties. Accessed January 10, 2022. https://www 
+.cb​pp.org/sites/default/files/8-4-21tanf.pdf.
+Friedman, Abigail S., and Atheendar S. Venkarara-
+mani. 2021. “Chilling Effects: US Immigration 
+Enforcement and Health Care Seeking Among 
+Hispanic Adults.” Health Affairs 40(7): 1056–
+65.
+Gabe, Thomas, and Julie Whittaker. 2012. “Antipov-
+erty Effects of Unemployment Insurance.” CRS 
+report no. R41777. Washington, D.C.: Congressio-
+nal Research Service. Accessed January 7, 2022. 
+
+
+74	
+a dm i n i s t r at i v e bu r de n s a n d i n e qua l i t y i n p ol ic y i m pl e m e n tat ion
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+https://crsreports.congress.gov/product/pdf​/R 
+/R41777/20.
+Gould-­Werth, Alix, and H. Luke Schaefer. 2012. “Un-
+employment Insurance Participation by Educa-
+tion and Race and Ethnicity.” Monthly Labor Re-
+view October: 28–41. Accessed December 22, 
+2022. https://www.bls.gov/opub/mlr/2012/10 
+/ar​t3full.pdf.
+Hardy, Bradley, and Trevon Logan. 2020. “Racial 
+Economic Inequality amid the COVID-­19 Crisis.” 
+The Hamilton Project. Washington, D.C.: Brook-
+ings. https://www.brookings.edu/wp-content/up​
+loads/2020/08/EA_HardyLogan_LO_8.12.pdf.
+Hardy, Bradley, Timothy Smeeding, and James P. Zil-
+iak. 2018. “The Changing Safety Net for Low-­
+Income Parents and Their Children: Structural or 
+Cyclical Changes in Income Support Policy?” De-
+mography 55(1): 189–221. DOI: https://doi.org/10​
+.1007/s13524-017-0642-7.
+Heinrich, Carolyn J. 2018. “A Thousand Petty For-
+tresses: Administrative Burden in US Immigra-
+tion Policies and Its Consequences.” Journal of 
+Policy Analysis and Management 37(2): 211–39.
+Helmes. 2020. “Case Study: Digitization of the Esto-
+nian Unemployment Insurance Fund.” Accessed 
+December 22, 2022. https://www.helmes.com 
+/wp-content​/uploads/2021/02/Helmes_CS 
+_EUIF_Digitaliz​ation.pdf.
+Herd, Pamela. 2015. “How Administrative Burdens 
+Are Preventing Access to Critical Income Sup-
+ports for Older Adults: The Case of the Supple-
+mental Nutrition Assistance Program.” Public 
+Policy and Aging Report 25(2): 52–55.
+Herd, Pamela, Thomas DeLeire, Hope Harvey, and 
+Donald Moynihan. 2013. “Shifting Administrative 
+Burden to the State: The Case of Medicaid Take-
+­Up.” Public Administration Review 73 (Suppl 1): 
+69–81.
+Herd, Pamela, and Donald P. Moynihan. 2018. Ad-
+ministrative Burden: Policymaking by Other 
+Means. New York: Russell Sage Foundation.
+Hoynes, Hilary W., and Diane Whitmore Schanzen-
+bach. 2018. “Safety Net Investments in Children.” 
+NBER working paper no. 24594. Cambridge, 
+Mass.: National Bureau of Economic Research. 
+Accessed December 22, 2022. https://www.nber​
+.org/system/files/working_papers/w24594/w24​
+594.pdf
+Hoynes, Hilary W., Diane Whitmore Schanzenbach, 
+and Douglas Almond. 2016. “Long Run Impacts 
+of Childhood Access to the Safety Net.” NBER 
+working paper no. 18535. Cambridge, Mass.: Na-
+tional Bureau of Economic Research. Accessed 
+December 22, 2022. https://www.nber.org/syst​
+em/files/working_papers/w18535/w18535.pdf
+Kroft, Kory. 2008. “Take-­Up, Social Multipliers and 
+Optimal Social Insurance.” Journal of Public Eco-
+nomics 92(3/4): 722–37.
+Kuka, Elira, and Bryan A. Stuart. 2021. “Racial In-
+equality in Unemployment Insurance Receipt and 
+Take-­Up.” NBER working paper no. 29595. Cam-
+bridge, Mass.: National Bureau of Economic Re-
+search.
+Lacoma, Tyler. 2022. “What Percentage of Your Sal-
+ary Does Unemployment Pay?” Sapling. Ac-
+cessed November 21, 2022. https://www.sapling​
+.com/7800308/percentage-salary-unemploy​
+ment-pay.
+Lundberg, Ian. 2021. “Quantifying the Contribution 
+of Occupational Segregation to Racial Disparities 
+in Health: A Gap-­Closing Perspective.” SocArXiv, 
+April 28. DOI: https://doi.org/10.31235/osf.io​
+/x9evk.
+Michener, Jamila. 2018. Fragmented Democracy: 
+Medicaid, Federalism, and Unequal Politics. Cam-
+bridge: Cambridge University Press.
+Moynihan, Donald, Pamela Herd, and Hope Harvey. 
+2015. “Administrative Burden: Learning, Psycho-
+logical, and Compliance Costs in Citizen-­State 
+Interactions.” Journal of Public Administration Re-
+search and Theory 25(1): 43–69.
+National Academies of Sciences, Engineering, and 
+Medicine. 2019. “A Roadmap to Reducing Child 
+Poverty.” Washington, D.C.: The National Acade-
+mies Press. DOI: https://doi.org/10.17226/25246.
+Nichols, Austin, and Margaret Simms. 2012. “Racial 
+and Ethnic Differences in Receipt of Unemploy-
+ment Insurance Benefits During the Great Reces-
+sion.” Brief no. 4. Washington, D.C.: Urban Insti-
+tute. Accessed December 22, 2022. https://www​
+.urban.org/sites/default/files/publication/25541​
+/412596-Racial-and-Ethnic-Differences-in 
+-Recei​pt-of-Unemployment-Insurance-Benefits 
+-During​-the-Great-Recession.PDF.
+Nisar, Muhammad Azfar. 2018. “Children of a Lesser 
+God: Administrative Burden and Social Equity in 
+Citizen–State Interactions.” Journal of Public Ad-
+ministration Research and Theory 28(1): 104–19.
+O’Brien, Rourke, Tiffany Neman, Nathan Seltzer, Lin-
+nea Evans, and Atheendar Venkataramani. 2020. 
+“Structural Racism, Economic Opportunity and 
+Racial Health Disparities: Evidence from U.S. 
+
+
+r sf : t h e rus sel l s age f ou n dat ion jou r n a l of t h e s o ci a l s ci e nce s
+	
+a dm i n i s t r at i v e bu r de n s a n d e c onom ic i n se c u r i t y 	
+75
+Counties.” SSM Population Health 11: 100564. 
+DOI: https://doi.org/10.1016/j.ssmph.2020 
+.100564.
+Parolin, Zachary. 2021. “Decomposing the Decline of 
+Cash Assistance in the United States, 1993 to 
+2016.” Demography 58(3): 1119–41. DOI: https://​
+doi.org/10.1215/00703370-9157471.
+Rothstein, Jesse, and Robert G. Valletta. 2017. 
+“Scraping By: Income and Program Participation 
+After the Loss of Extended Unemployment Bene-
+fits.” Journal of Policy Analysis and Management 
+36: 880–908. DOI: https://doi.org/https://doi 
+.org/10.1002/pam.22018.
+Shapiro, Isaac, and Danilo Trisi. 2017. “Child Poverty 
+Falls to Record Low, Comprehensive Measure 
+Shows Stronger Government Policies Account 
+for Long-­Term Improvement.” Washington, D.C.: 
+Center on Budget and Policy Priorities. Accessed 
+December 22, 2022. https://www.cbpp.org 
+/resea​rch/poverty-and-inequality/child-poverty 
+-falls-to​-record-low-comprehensive-measure 
+-shows.
+Shrider, Emily A., Melissa Kolar, Frances Chen, and 
+Jessica Semega. 2021. “Income and Poverty in 
+the United States: 2020.” Current Population Re-
+ports, series P60, no. 273. Washington: U.S. Cen-
+sus Bureau. Accessed December 22, 2022. 
+https://www.census.gov/content/dam/Census​
+/library/publications/2021/demo/p60-273.pdf.
+Skandalis, Daphné, Ioana Marinescu, and Maxim 
+Massenkoff. 2022. “Racial Inequality in the U.S. 
+Employment Insurance System.” Accessed De-
+cember 22, 2022. https://econ2017.sites.olt.ubc​
+.ca/files/2022/04/Daphne-Skandalis_19Apr.pdf.
+Sommers, Ben, Rick Kronick, Kenneth Finegold, 
+Rosa Po, Karyn Schwartz, and Sherry Glied. 
+2012. “Understanding Participation Rates in 
+Medicaid: Implications for the Affordable Care 
+Act.” Issue Brief. Washington: U.S. Department 
+of Health and Human Services. Accessed De-
+cember 22, 2022. http://aspe.hhs.gov/health 
+/re​ports/2012/medicaidtakeup/ib.shtml.
+Soss, Joe, Richard Fording, and Sanford Schram. 
+2008. “The Color of Devolution: Race, Federal-
+ism, and the Poli§tics of Social Control.” Amer-
+ican Journal of Political Science 52(3): 536-­
+553.
+Stevens, Kathryn, Liana E. Fox, and Misty L. Hegge-
+ness. 2018. “Precision in Measurement: Using 
+State-­Level SNAP Administrative Records and 
+the Transfer Income Model (TRIM3) to Evaluate 
+Poverty Measurement.” Working Paper no. 
+SEHSD-­WP2018-­15. Washington: U.S. Census 
+Bureau.
+Thévenot, Celine, Virginia Maestri, Isabelle Maquet. 
+2016. “The Coverage Rate of Income Support 
+Measures in the EU: Measurement and Chal-
+lenges.” European Commission, Directorate-­
+General for Employment, Social Affairs and In-
+clusion, Publications Office. https://data.europa 
+.eu/doi​/10.2767/098751.
+Vroman, Wayne. 2009. “Unemployment Insurance 
+Recipients and Nonrecipients in the CPS.” 
+Monthly Labor Review 132: 44–53. Accessed De-
+cember 22, 2022. https://www.bls.gov/opub 
+/mlr​/2009/10/art4full.pdf.
+Wandner, Stephen A., and Andrew Stettner. 2000. 
+“Why Are Many Jobless Workers Not Applying 
+for Benefits?” Bureau of Labor Statistics Monthly 
+Labor Review, June. https://www.bls.gov/opub 
+/mlr/2000/article/pdf/why-are-many-jobless 
+-workers-not-applying-for-benefits.pdf. 
+Wang, Julia Shu-­Huah. 2015. “TANF Coverage, State 
+TANF Requirement Stringencies, and Child Well-­
+Being.” Children and Youth Services Review 53: 
+121–29.
+Watson, Tara. 2014. “Inside the Refrigerator: Immi-
+gration Enforcement and Chilling Effects in Med-
+icaid Participation.” American Economic Journal: 
+Economic Policy 6(3): 313–38.
+Wheaton, Laura, and Victoria Tran. 2018. “The Anti-
+poverty Effects of the Supplemental Nutrition 
+Assistance Program.” Washington, D.C.: Urban 
+Institute.
+U.S. Department of Health and Human Services. 
+2021. “What Is Temporary Assistance for Needy 
+Families?” Accessed January 7, 2022. https://​
+www.benefits.gov/benefit/613.

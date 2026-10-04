@@ -1,0 +1,16 @@
+{
+  "source_id": "2bddea9b1b426ebf6578",
+  "normalized_url": "https://pioneerpublisher.com/slj/article/view/1108",
+  "fetch_timestamp_utc": "2026-10-04T03:33:53.477869+00:00",
+  "registrable_domain": "pioneerpublisher.com",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 6,
+  "http_status": 0,
+  "final_url": "https://pioneerpublisher.com/slj/article/view/1108",
+  "content_type": "",
+  "error": "curl: (6) Could not resolve host: pioneerpublisher.com\ncurl: (6) Could not resolve host: pioneerpublisher.com",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

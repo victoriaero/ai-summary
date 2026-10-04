@@ -1,0 +1,5 @@
+component,variance_estimate_untruncated,variance_estimate_nonnegative,share_of_nonnegative_total_variance,sum_of_squares,degrees_of_freedom,mean_square,location_handling,n_row_levels,n_column_levels,n_location_replicates_per_cell
+Outcome,0.23132275132275185,0.23132275132275185,0.010639044919407623,749.6825396825398,20,37.48412698412699,fixed additive location mean removed before decomposition,21,6,3
+Social Dimension,0.9378483245149911,0.9378483245149911,0.0431337185601112,462.0238095238095,5,92.4047619047619,fixed additive location mean removed before decomposition,21,6,3
+Outcome × Social Dimension,6.37333837238599,6.37333837238599,0.293123926819427,3332.0317460317456,100,33.320317460317455,fixed additive location mean removed before decomposition,21,6,3
+Cross-location residual + unresolved error,14.200302343159487,14.200302343159487,0.6531033097010541,3578.476190476191,252,14.200302343159487,fixed additive location mean removed before decomposition,21,6,3

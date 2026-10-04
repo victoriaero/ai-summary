@@ -1,0 +1,20 @@
+{
+  "source_id": "b045cd89b163c8376fef",
+  "normalized_url": "https://lexology.com/library/detail.aspx?g=52f558d3-eb64-4c55-88ae-d07ee3e7114f",
+  "fetch_timestamp_utc": "2026-10-04T03:44:08.020987+00:00",
+  "registrable_domain": "lexology.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://lexology.com/library/detail.aspx?g=52f558d3-eb64-4c55-88ae-d07ee3e7114f",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5869,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

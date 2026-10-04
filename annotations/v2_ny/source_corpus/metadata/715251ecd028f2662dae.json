@@ -1,0 +1,20 @@
+{
+  "source_id": "715251ecd028f2662dae",
+  "normalized_url": "https://disabilityevidence.org/questions-evidence/how-do-we-overcome-barriers-accessing-higher-education-people-disabilities",
+  "fetch_timestamp_utc": "2026-10-04T02:41:44.256552+00:00",
+  "registrable_domain": "disabilityevidence.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.disabilityevidence.org/questions-evidence/how-do-we-overcome-barriers-accessing-higher-education-people-disabilities",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 919,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "1168c6a531a39de19ccf",
+  "normalized_url": "https://ihep.org/press/new-report-higher-education-opportunities-for-students-with-disabilities-a-primer-for-policymakers",
+  "fetch_timestamp_utc": "2026-10-04T03:32:03.905894+00:00",
+  "registrable_domain": "ihep.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ihep.org/press/new-report-higher-education-opportunities-for-students-with-disabilities-a-primer-for-policymakers/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 61607,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/1168c6a531a39de19ccf.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/1168c6a531a39de19ccf.txt",
+  "text_chars": 5247,
+  "text_words": 754,
+  "extraction_status": "success",
+  "page_title": "New Report: \"Higher Education Opportunities for Students With Disabilities: A Primer for Policymakers\"",
+  "page_author": null,
+  "page_date": "2023-01-30",
+  "site_name": "IHEP",
+  "canonical_url": "http://www.ihep.org/press/new-report-higher-education-opportunities-for-students-with-disabilities-a-primer-for-policymakers/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "0069690cbf7616bae686",
+  "normalized_url": "https://naacp.org/resources/affirmative-action-education-matters",
+  "fetch_timestamp_utc": "2026-10-04T02:32:26.165027+00:00",
+  "registrable_domain": "naacp.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://naacp.org/resources/affirmative-action-education-matters",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 131980,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0069690cbf7616bae686.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0069690cbf7616bae686.txt",
+  "text_chars": 2774,
+  "text_words": 414,
+  "extraction_status": "success",
+  "page_title": "Affirmative Action in Education Matters for Equity, Opportunity, and the Nation’s Progress",
+  "page_author": null,
+  "page_date": "2023-06-29",
+  "site_name": "NAACP",
+  "canonical_url": "https://naacp.org/resources/affirmative-action-education-matters"
+}

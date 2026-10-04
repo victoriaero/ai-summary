@@ -1,0 +1,224 @@
+Abstract
+We investigated health, economic, and social disparities among transgender adults (transgender women, men, and nonbinary) aged 18 years and older. Using population-based data from Washington State Behavioral Risk Factor Surveillance System (WA-BRFSS), we pooled 2016 through 2019 data (n= 47,894). We estimated weighted distributions and prevalence by gender identity for background characteristics, economic, social and health indicators. We performed regressions of these indicators on gender identity, including transgender versus cisgender adults and transgender nonbinary adults compared to cisgender adults, followed by subgroup analyses: transgender women and men compared to each cisgender group and to one another, adjusting for covariates. Compared to cisgender adults, transgender adults overall were significantly younger and lower income with less education; more likely single with fewer children; and had several elevated health risks, including poor physical and mental health, and higher rates of chronic conditions and disability. Alternatively, transgender men and women had higher rates of flu vaccination than cisgender men. Between transgender subgroups, transgender men and transgender nonbinary adults were younger than transgender women; transgender men were significantly less likely married or partnered than transgender women; and, transgender women were more likely to live alone than nonbinary respondents. This is one of the first population-based studies to examine both between and within subgroup disparities among cisgender, transgender binary, and transgender nonbinary adults, revealing patterns of inequities across subgroups. More research understanding the mechanisms of these disparities and the development of targeted interventions is needed to address the unique needs of subgroups of transgender people.
+Keywords: transgender, gender nonbinary, health, economic, social inequities
+1. Introduction
+An estimated 0.6% of adults, about 1.4 million, are transgender in the United States [1]. Despite some limited existing evidence [2, 3], relatively few studies have used population-based data to identify health disparities compared to cisgender populations (i.e., those whose sex assigned at birth aligns with their current gender) and even fewer have included comparisons between transgender subgroups [4, 5] while examining a wide range of health, economic, and social outcomes. A recent report by the National Academies of Sciences, Engineering, and Medicine documented health and mental health disparities and associated needs of transgender individuals, and recommended the inclusion of nonbinary and gender diverse adults in gender related disparities research given the rapid expansion of these populations and the gaps that exist in our understanding of their unique health needs [6].
+To address these gaps, this is one of the first studies to explore disparities among binary and nonbinary transgender adults, relative to cisgender comparisons and to each other by investigating differences among transgender subgroups (transgender women, transgender men, and transgender nonbinary adults), utilizing population-based data. Existing population-based research is often limited by methodological considerations, such as merging transgender women, transgender men, and transgender nonbinary individuals into a single transgender group, which can obscure potential differences between subgroups. Downing and Przedworski [7], however, more recently used population-based data to examine health disparities among transgender and nonbinary respondents, as compared to cisgender respondents separately. Lagos [5] also employed population-based data to provide subgroups comparisons in the areas of self-rated health and smoking, specifically. The current study expands upon the existing research by: 1) examining the differences between both transgender and cisgender populations on an array of health indicators, as well as investigating the differences among transgender subgroups (transgender women, transgender men, and transgender nonbinary adults); 2) analyzing the disparities in economic and social indicators via modeling with regression analyses—to include important factors that have been identified as social determinants of health; and, 3) extending the years of data examined (2016-2019). Pooled data permits the exploration of heterogeneity in health, economic, and social outcomes among transgender subgroups relative to cisgender comparisons, as well as compared to each other.
+Our research questions are: Compared to cisgender adults, to what extent do binary and nonbinary transgender adults experience elevated health, economic and social disparities? What differences in these indicators exist among transgender subgroups compared to cisgender subgroups (i.e., transgender women compared to cisgender women and cisgender men; transgender men compared to cisgender men and cisgender women;)? What differences in these indicators exist between transgender subgroups (i.e., transgender women, transgender men, and transgender nonbinary adults) compared to each other?
+2. Materials and methods
+2.1. Data
+We analyzed pooled 2016 – 2019 Washington State Behavioral Risk Factor Surveillance System (WA-BRFSS) data. The WA-BRFSS is the Washington State annual random digit dialed telephone survey of noninstitutionalized individuals aged 18 and older, overseen by the Centers for Disease Control and Prevention (CDC). The CDC requires every state and American protectorate to administer the BRFSS every year. The BRFSS is comprised of 1) a set of core questions required for every state (e.g., basic demographics, health questions – conditions, behaviors, access); 2) CDC-sanctioned optional models, for example, the sexual orientation and gender identity (SOGI) module, and; 3) state added questions that can be included voluntarily on each state’s questionnaire. Findings from both the core questions and CDC-sanctioned optional models are reported back to the CDC. In turn, the CDC then disseminates this information nationally to provide a ‘snapshot’ of the nation’s health. For further information on the BRFSS, including sampling and weighting methodologies see the CDC’s BRFSS Data User Guide [8]. This study included those who completed the survey’s gender identity question (n = 47,894). Weighted estimations revealed that 0.5% (unweighted n=181) self-identified as transgender, including 0.2% (unweighted n = 78) transgender women, 0.1% (unweighted n = 44) transgender men, and 0.2% (unweighted n = 59) transgender nonbinary adults. Among cisgender respondents, 50.6% were women (unweighted n = 25,916) and 48.9% were men (unweighted n = 21,764). See Table 1 for the full description of measures. The institutional review board of the University of Washington approved the current study.
+Table 1.
+| Variables | Description | 
+|---|---|
+| Gender identity | Respondents were asked if they considered themselves to be transgender (yes, no), and if yes, they were asked to select one of the following: male-to-female transgender (transgender women), female-to-male transgender (transgender men), and gender non-conforming (transgender nonbinary). Those who did not indicate a transgender identity were coded as cisgender. | 
+|  |  | 
+| Background characteristics |  | 
+| Age | Self-reported in years. Ages 99 and older were coded as 99 | 
+| Race/ethnicity | Dichotomized as non-Hispanic Whites versus People of Color | 
+|  |  | 
+| Economic indicators |  | 
+| Household income | Calculated to indicate ≤ 200% versus > 200% of federal poverty guidelines [21] | 
+| Education | Dichotomized as high school or less education versus some college or more education | 
+| Employment | Dichotomized as employed for wages or self-employed versus other | 
+|  |  | 
+| Social indicators |  | 
+| Relationship status | Dichotomized as currently married or partnered versus other | 
+| Number of children | Number of children living in the same household (Range: 0 – 12) | 
+| Living arrangement | Calculated to indicate whether respondents are living alone or not | 
+|  |  | 
+| Health behavior |  | 
+| Current smoking | Defined and dichotomized as having smoked 100 or more cigarettes in lifetime and currently smoking some days or more [22] | 
+| Excessive drinking | Excessive drinking was calculated using values for the WA-BRFSS question ‘Are you male or female?’ Defined and dichotomized as females having four or more and males having five or more drinks on one occasion during the past month [23] | 
+| Physical activity | Assessed and dichotomized as meeting the guidelines for American adults, i.e., moderate-intensity (or vigorous equivalent) aerobic activities for 150 minutes or more a week and strengthening exercises for two or more days a week [24] | 
+|  |  | 
+| Health care access | Respondents indicated … | 
+| Health care coverage | if they had any kind of health care coverage including health insurance, prepaid plans, and government plans | 
+| Health care provider | if they had one person they thought of as personal doctor or health care provider | 
+| Financial barrier to care | if there had been a time in the past 12 months when they needed to see a doctor but could not because of cost | 
+|  |  | 
+| Preventive care | Respondents indicated if they had … | 
+| Routine checkup | a routine checkup in the past year | 
+| Flu vaccination | a flu vaccine during the past 12 months | 
+| HIV test | a HIV test in their lifetime | 
+|  |  | 
+| Health outcomes |  | 
+| Poor general health | Respondents self-rated their own health in general, and responses were dichotomized into ‘poor’ or ‘fair’ versus ‘good,’ ‘very good,’ and ‘excellent.’ | 
+| Poor mental health | Dichotomized to indicate respondents’ reporting 14 or more days during the previous 30 days when mental health was not good | 
+| Poor physical health | Dichotomized to indicate respondents’ reporting 14 or more days during the previous 30 days when physical health was not good | 
+|  |  | 
+| Chronic conditions |  | 
+| Number of chronic conditions | Computed by summing the chronic conditions that respondents had ever been told by a doctor, nurse, or other health professional that they have (including arthritis, asthma, diabetes, and cardiovascular disease) in addition to obesity, i.e., the indicator of BMI ≥ 30 (= weight in kg divided by height in m2) [25] | 
+|  |  | 
+| Disability | Defined and dichotomized as having any of the following: (1) deaf or serious difficulty hearing, (2) blind or serious difficulty seeing with glasses, (3) serious difficulty concentrating, remembering, or making decisions because of a physical, mental, or emotional condition, (4) serious difficulty walking or climbing, (5) difficulty dressing or bathing, and (6) difficulty doing errands because of physical, mental, or emotional condition [26] | 
+| Subjective cognitive decline | Respondents indicated if they had or had not experienced, during the past 12 months, confusion or memory loss that was happening more often or was getting worse. Measured in 2016 only. | 
+2.2. Statistical analyses
+We first estimated the weighted distributions of background characteristics, economic and social indicators, and health indicators, including health behaviors, health care access, preventive care, health outcomes, disability, subjective cognitive decline, and average number of chronic conditions for all transgender adults and then by transgender subgroups (i.e., transgender women, transgender men, transgender nonbinary adults) and for all cisgender adults and then for cisgender women and men, separately. Second, we performed linear or logistic regression analyses to test statistical differences in each indicator (1) among all transgender versus cisgender adults, followed by (2) transgender nonbinary versus cisgender adults, and (3) subgroup differences with transgender women and transgender men respectively compared with both cisgender women and cisgender men, and (3) compared transgender women, transgender men, and transgender nonbinary adults to each other. We controlled for age, income, and education in the regression analyses of health indicators.
+We used StataMP 16 for all analyses, generating 10 datasets via multiple imputation, to mitigate potential bias resulting from systemic missing patterns in study variables. Income had the highest missing rate (18.4%), and we identified auxiliary variables based on their significant associations with the income variable, or the missingness of the income variable (e.g., age, race/ethnicity, employment status, and health indicators). We used chained equations for their capacity to define dichotomous bounds on the values, given the binary nature of many study variables [9].
+3. Results
+Table 2 describes the sample characteristics, reporting the weighted prevalence rates or means for background, economic, social, and health indicators. Shown in Table 3 regarding background, economic, social and health characteristics, transgender adults overall (b= −11.7) and transgender nonbinary adults (b= −15.1) were significantly younger than cisgender adults, while racial/ethnic compositions did not differ. Transgender women (b= −5.8) and transgender men (b= −15.8) were both younger compared to cisgender women, while transgender men were also younger relative to cisgender men (b= −14.0). Between subgroups, transgender men (b= −10.0) and transgender nonbinary adults (b= −10.2) were younger than transgender women (data not shown).
+Table 2.
+|  | Cisgender adults (Mean or %) |  |  | Transgender adults (Mean or %) |  |  |  | 
+|---|---|---|---|---|---|---|---|
+|  | All cisgender (n = 47,713) | Cisgender women (n = 25,916) | Cisgender men (n = 21,764) | All transgender (n = 181) | Transgender nonbinary (n = 59) | Transgender women (n = 78) | Transgender men (n = 44) | 
+| Background |  |  |  |  |  |  |  | 
+| Agea | 48.3 | 49.2 | 47.4 | 36.6 | 33.2 | 43.3 | 33.4 | 
+| Non-Hispanic Whiteb | 73.1 | 73.4 | 72.8 | 67.8 | 77.3 | 64.2 | 59.7 | 
+| Economic |  |  |  |  |  |  |  | 
+| Income ≤ 200% of FPL | 34.1 | 37.0 | 31.1 | 56.2 | 49.2 | 52.6 | 69.4 | 
+| High school or less | 33.6 | 31.2 | 36.1 | 50.8 | 48.1 | 47.5 | 58.0 | 
+| Employed | 57.2 | 50.4 | 64.3 | 53.6 | 57.6 | 45.5 | 57.5 | 
+| Social |  |  |  |  |  |  |  | 
+| Married or partnered | 58.9 | 57.6 | 60.1 | 37.7 | 40.5 | 46.1 | 24.4 | 
+| Number of children in householda | 0.7 | 0.7 | 0.6 | 0.5 | 0.5 | 0.3 | 0.5 | 
+| Living alone | 16.2 | 16.6 | 15.8 | 21.6 | 10.5 | 35.9 | 19.7 | 
+| Behaviors |  |  |  |  |  |  |  | 
+| Current smoking | 13.2 | 11.8 | 14.6 | 12.6 | 13.3 | 12.2 | 12.2 | 
+| Excessive drinking | 14.8 | 11.3 | 18.4 | 13.4 | 16.5 | 8.8 | 14.5 | 
+| Physical activity | 24.7 | 23.8 | 25.6 | 19.5 | 26.6 | 16.7 | 15.4 | 
+| Healthcare access |  |  |  |  |  |  |  | 
+| Healthcare coverage | 91.4 | 92.6 | 90.0 | 90.3 | 85.6 | 93.1 | 93.0 | 
+| Healthcare provider | 76.9 | 83.0 | 70.6 | 71.0 | 64.3 | 80.3 | 69.2 | 
+| Financial barrier to care | 11.2 | 12.3 | 10.1 | 20.2 | 19.2 | 15.2 | 27.2 | 
+| Preventive care |  |  |  |  |  |  |  | 
+| Routine checkup | 68.0 | 72.4 | 63.5 | 68.5 | 60.2 | 71.5 | 75.9 | 
+| Flu vaccination | 42.8 | 46.2 | 39.2 | 40.5 | 27.2 | 48.5 | 48.7 | 
+| HIV test | 38.5 | 39.9 | 37.1 | 46.9 | 55.0 | 43.6 | 40.2 | 
+| Health outcomes |  |  |  |  |  |  |  | 
+| Poor general health | 15.8 | 16.0 | 15.7 | 25.3 | 23.7 | 29.9 | 22.2 | 
+| Poor mental health | 12.3 | 14.5 | 10.0 | 43.3 | 47.9 | 40.8 | 40.3 | 
+| Poor physical health | 12.3 | 13.4 | 11.2 | 22.7 | 25.6 | 20.3 | 21.6 | 
+| Number of chronic conditionsa,c | 0.9 | 0.9 | 0.8 | 1.0 | 0.9 | 0.9 | 1.1 | 
+| Disability | 24.0 | 25.6 | 22.3 | 44.0 | 48.3 | 45.8 | 36.1 | 
+| Subjective cognitive declined | 10.9 | 10.4 | 11.4 | 44.8 | 85.1 | 37.6 | 26.2 | 
+Note. All cisgender includes cisgender women and men, and all transgender includes transgender nonbinary people, transgender women, and transgender men.
+Values are the means for age, number of children in household, and number of chronic conditions as opposed to weighted % for the other indicators.
+The numbers of racial and ethnic minority groups were too small to make reliable estimates.
+Includes arthritis, asthma, diabetes, cardiovascular disease, and obesity.
+Available in 2016 only. N’s are unweighted.
+Table 3.
+|  | All transgender (n = 181) | Transgender nonbinary (n = 59) | Transgender women (n = 78) |  | Transgender men (n = 44) |  | 
+|---|---|---|---|---|---|---|
+|  | Ref. All cisgender | Ref. All cisgender | Ref. Cisgender women | Ref. Cisgender men | Ref. Cisgender men | Ref. Cisgender women | 
+| Background |  |  |  |  |  |  | 
+| Agea | −11.7 (−14.8, −8.7)*** | −15.1 (−19.9, −10.4)*** | −5.8 (−10.9, −0.7)* | −4.1 (−9.2, 1.1) | −14.0 (−19.6, −8.8)*** | −15.8 (−21.3, −10.2)*** | 
+|  |  |  |  |  |  |  | 
+| Non-Hispanic Whiteb,d | 0.8 (0.5, 1.1) | 1.3 (0.6, 2.6) | 0.7 (0.4, 1.2) | 0.7 (0.4, 1.2) | 0.6 (0.3, 1.1) | 0.5 (0.3, 1.1) | 
+|  |  |  |  |  |  |  | 
+| Economic |  |  |  |  |  |  | 
+|  |  |  |  |  |  |  | 
+| Income ≥ 200% of FPLb | 2.5 (1.6, 3.8)*** | 1.9 (0.8, 4.2) | 1.9 (1.0, 3.5)* | 2.5 (1.3, 4.5)** | 5.0 (2.3, 11.1)*** | 3.9 (1.7, 8.6)** | 
+|  |  |  |  |  |  |  | 
+| High school or lessb | 2.0 (1.4, 2.9)*** | 1.8 (1.0, 3.5) | 2.0 (1.4, 3.5)* | 1.6 (0.9, 2.8) | 2.4 (1.2, 4.8)* | 3.0 (1.5, 6.0)** | 
+|  |  |  |  |  |  |  | 
+| Employedb | 0.9 (0.6, 1.3) | 1.0 (0.5, 1.9) | 0.8 (0.5, 1.4) | 0.5 (0.3, 0.8)** | 0.8 (0.4, 1.6) | 1.3 (0.6, 2.8) | 
+|  |  |  |  |  |  |  | 
+| Social |  |  |  |  |  |  | 
+|  |  |  |  |  |  |  | 
+| Married or partneredb | 0.4 (0.3, 0.6)*** | 0.5 (0.3, 0.9)* | 0.6 (0.4, 1.1) | 0.6 (0.3, 1.0)* | 0.2 (0.1, 0.5)*** | 0.2 (0.1, 0.5)*** | 
+|  |  |  |  |  |  |  | 
+| Number of children in householda | −0.2 (−0.4, −0.1)* | −0.2 (−0.5, 0.1) | −0.4 (−0.6, −0.2)*** | −0.3 (−0.5, −0.1)** | −0.1 (−0.4, 0.3) | −0.2 (−0.5, 0.2) | 
+|  |  |  |  |  |  |  | 
+| Living aloneb | 1.4 (1.0, 2.1) | 0.6 (0.3, 1.2) | 2.8 (1.6, 5.0)*** | 3.0 (1.7, 5.3)*** | 1.3 (0.5, 3.1) | 1.2 (0.5, 2.9) | 
+|  |  |  |  |  |  |  | 
+| Behaviors |  |  |  |  |  |  | 
+|  |  |  |  |  |  |  | 
+| Current smokingc | 0.7 (0.4, 1.1) | 0.8 (0.3, 1.9) | 0.8 (0.4, 1.8) | 0.6 (0.3, 1.4) | 0.5 (0.2, 1.3) | 0.6 (0.2, 1.7) | 
+|  |  |  |  |  |  |  | 
+| Excessive drinkingc | 0.7 (0.4, 1.2) | 0.8 (0.3, 1.7) | 0.6 (0.3, 1.6) | 0.4 (0.2, 0.9)* | 0.6 (0.2, 1.7) | 1.0 (0.3, 2.9) | 
+|  |  |  |  |  |  |  | 
+| Physical activityc | 0.8 (0.4, 1.6) | 1.1 (0.3, 3.7) | 0.7 (0.2, 2.1) | 0.6 (0.2, 1.9) | 0.6 (0.1, 2.7) | 0.7 (0.2, 3.0) | 
+|  |  |  |  |  |  |  | 
+| Healthcare access |  |  |  |  |  |  | 
+|  |  |  |  |  |  |  | 
+| Healthcare coveragec | 1.8 (0.9, 3.4) | 1.1 (0.4, 2.9) | 1.6 (0.5, 5.2) | 2.2 (0.7, 7.3) | 4.1 (1.1, 15.9)* | 3.0 (0.8, 11.5) | 
+|  |  |  |  |  |  |  | 
+| Healthcare providerc | 1.4 (0.9, 2.1) | 1.1 (0.5, 2.4) | 1.1 (0.5, 2.4) | 2.3 (1.1, 5.0)* | 2.2 (1.0, 4.7) | 1.0 (0.5, 2.3) | 
+|  |  |  |  |  |  |  | 
+| Financial barrier to carec | 1.4 (0.9, 2.2) | 1.3 (0.6, 3.0) | 1.0 (0.5, 2.3) | 1.2 (0.5, 2.8) | 1.9 (0.9, 4.0) | 1.6 (0.8, 3.3) | 
+|  |  |  |  |  |  |  | 
+| Preventive care |  |  |  |  |  |  | 
+|  |  |  |  |  |  |  | 
+| Routine checkupc | 1.4 (1.0, 2.2) | 1.1 (0.5, 2.1) | 1.1 (0.6, 2.2) | 1.9 (0.8, 4.6) | 2.9 (1.2, 6.8)* | 1.9 (0.8, 4.6) | 
+|  |  |  |  |  |  |  | 
+| Flu vaccinationc | 1.4 (0.9, 2.1) | 0.8 (0.3, 1.9) | 1.4 (0.8, 2.6) | 1.8 (1.0, 3.3)* | 2.6 (1.3, 5.3)** | 2.0 (1.0, 4.2) | 
+|  |  |  |  |  |  |  | 
+| HIV testc | 1.2 (0.8, 1.7) | 1.5 (0.7, 3.0) | 1.1 (0.6, 1.9) | 1.2 (0.7, 2.2) | 0.9 (0.4, 1.9) | 0.8 (0.4, 1.6) | 
+|  |  |  |  |  |  |  | 
+| Health outcomes |  |  |  |  |  |  | 
+|  |  |  |  |  |  |  | 
+| Poor general healthc | 1.7 (1.1, 2.7)* | 1.9 (0.8, 4.2) | 2.1 (1.1, 3.9)* | 1.9 (1.0, 3.6)* | 1.3 (0.6, 2.7) | 1.4 (0.7, 2.9) | 
+|  |  |  |  |  |  |  | 
+| Poor mental healthc | 4.0 (2.7, 6.1)*** | 5.0 (2.4, 10.4)*** | 3.4 (1.9, 6.2)*** | 5.2 (2.9, 9.4)*** | 3.7 (1.7, 8.0)** | 2.4 (1.1, 5.3)* | 
+|  |  |  |  |  |  |  | 
+| Poor physical healthc | 2.2 (1.4, 3.5)** | 3.1 (1.4, 6.7)** | 1.6 (0.8, 3.2) | 1.8 (0.8, 3.6) | 2.1 (0.9, 5.1) | 1.9 (0.8, 4.6) | 
+|  |  |  |  |  |  |  | 
+| Number of chronic conditionsa,e | 0.2 (0.1, 0.4)** | 0.3 (−0.0, 0.5) | 0.03 (−0.2, 0.3) | 0.1 (−0.2, 0.3) | 0.4 (0.1, 0.7)** | 0.4 (0.1, 0.7)* | 
+|  |  |  |  |  |  |  | 
+| Disabilityc | 2.9 (1.9, 4.4)*** | 4.3 (2.1, 8.9)*** | 2.6 (1.3, 5.0)** | 2.8 (1.4, 5.5)** | 2.0 (1.0, 4.0) | 1.8 (0.9, 3.6) | 
+|  |  |  |  |  |  |  | 
+| Subjective cognitive declinec,f | 5.7 (1.8, 17.7)** | n/ag | 4.0 (0.8, 20.1) | 3.3 (0.7, 16.9) | 2.5 (0.3, 19.9) | 2.9 (0.4, 23.7) | 
+Note. All cisgender includes cisgender women and men, and all transgender includes transgender nonbinary people, transgender women, and transgender men.
+Linear regressions were conducted for age, number of children in household, and number of chronic conditions (Estimate indicates coefficient B).
+Logistic regressions were conducted and estimates indicate odds ratio (= OR).
+Logistic regressions were performed for all health indicators (behaviors, health care access, preventive care, health outcomes, chronic conditions, disability, and subjective cognitive decline) after adjusting for age, income, and education, and estimates indicate adjusted odds ratios (= AOR).
+The counts of racial and ethnic minority groups were too small to make reliable estimates.
+Includes arthritis, asthma, diabetes, cardiovascular disease, and obesity.
+Available in 2016 only.
+Estimates suppressed due to lack of reliability. N’s are unweighted.
+CI = Confidence Interval. Ref. = reference group.
+p < 0.05
+p < 0.01
+p < 0.001.
+Transgender adults overall had higher odds than their cisgender counterparts for income at or below 200% of the federal poverty level (FPL) (OR=2.5), and high school or less educational levels (OR=2.0), but no significant differences in employment rates. We found no significant differences in economic indicators between transgender nonbinary adults and their cisgender counterparts. Subgroup comparisons found that transgender women had higher odds of being at or below the FPL than both cisgender women (OR=1.9) and cisgender men (OR= 2.5). Meanwhile results showed transgender women had higher odds of having high school or less education levels than cisgender women (OR = 2.0), but lower odds of employment than cisgender men (OR = 0.5). Transgender men also experienced disparities in income and education compared to cisgender men (income OR=5.0; education OR=2.4) and cisgender women (income OR=3.9; education OR=3.0). There were no significant differences in these economic indicators between transgender subgroups.
+Comparisons to cisgender references indicated that transgender adults overall had lower odds of being married or partnered (OR=0.4) and had fewer children (b= −0.2). Transgender nonbinary adults (OR=0.5) had lower odds of being married or partnered as compared to cisgender adults. Transgender women had lower odds of being married or partnered than cisgender men (OR=0.6), had fewer children than both cisgender women (b= −0.4) and cisgender men (b= −0.3), and also had higher odds of living alone compared to both cisgender women (OR=2.8) and men (OR=3.0). Transgender men had lower odds of being married or partnered than both cisgender men (OR=0.2) and cisgender women (OR=0.2), but no differences in number of children or likelihood for living alone were found. Comparisons between transgender subgroups showed that transgender men (OR=0.4) were significantly less likely married or partnered than transgender women, while transgender women were more likely to live alone relative to transgender nonbinary (OR= 4.8) respondents (data not shown).
+Displayed in Table 2, in terms of behavioral health, 12.6% of transgender adults reported using tobacco, and 13.4% excessive drinking. Only about one out of five (19.5%) met CDC recommendations for regular physical activity. While over 20% experienced financial barriers to healthcare, the majority had healthcare coverage (90.3%), and a primary healthcare provider (71.0%). In terms of preventive care, 68.5% had a routine checkup, 40.5% had a flu vaccine in the past year, and 46.9% had a HIV test over their lifetime. No significant differences were found between transgender and cisgender adults overall across the behavioral health, health care access, or preventive care indicators. However, transgender women had lower odds for excessive drinking (AOR=0.4) and higher odds for having a primary provider (AOR=2.3) and a flu vaccine (AOR=1.8) than cisgender men. Transgender men also had higher odds than cisgender men for having healthcare coverage (AOR=4.1) and receiving a routine checkup (AOR=2.9) and a flu vaccine (AOR=2.6). When transgender subgroups were compared to each other, there were no significant differences in any of the behavioral health, health care access, or preventive care indicators.
+The average number of chronic conditions were significantly higher among transgender than cisgender adults (b=0.2), and transgender adults also had higher odds for disability (AOR=2.9) and subjective cognitive decline (AOR=5.7). Transgender nonbinary people had higher odds for disability compared with cisgender adults overall (AOR=4.3). Transgender women had higher odds for disability than cisgender women (AOR=2.6) and cisgender men (AOR=2.8), and transgender men had more chronic conditions than both cisgender men (b=0.4) and cisgender women (b=0.4).
+The odds of adverse health outcomes were significantly higher for transgender adults overall as compared to cisgender adults: poor general health (AOR= 1.7), poor mental health (AOR=4.0), and poor physical health (AOR=2.2). Transgender nonbinary adults had higher odds than cisgender adults overall for poor mental health (AOR=5.0) and poor physical health (AOR=3.1). Separately, transgender women had higher odds, than cisgender women and cisgender men respectively, for poor general health (AOR=2.1 and 1.9) and poor mental health (AOR=3.4 and 5.2). Transgender men also had higher odds for poor mental health than cisgender men and cisgender women (AOR=3.7 and 2.4). No significant differences in any of the health outcomes were found when comparing the transgender subgroups to each other.
+4. Discussion
+Previous research has identified transgender people as an at-risk, yet resilient population [10, 11]. The recent report by the National Academies [6] highlighted the need to investigate health disparities among transgender adults, with an emphasis on better understanding subgroups of transgender people. To date, there is a nearly complete dearth of disparities research on transgender nonbinary populations. This study is among the first to use population-based data to examine the heterogeneity of health, economic, and social outcomes of U.S. adults by gender identity, including transgender women, transgender men, and transgender nonbinary adults vis-a-vis their cisgender counterparts, and to further extend existing research by comparing specific transgender subgroups to each other, across a wide spectrum of key health, economic and social indicators. We found significant and varying constellations of disparities among transgender adults across the gender spectrum, which may compound adverse health outcomes.
+Compared to cisgender women and cisgender men, transgender women had an increased likelihood of socio-economic risks, including lower income (vs. cisgender women and men), less education (vs. cisgender women), and lower employment rate (vs. cisgender men). Many transgender women leave educational settings due to transphobia, which negatively impacts future employment opportunities [12]. High risk of hiring and employment discrimination among transgender women may restrict available work types [13] and hinder workplace performance and career progression, jeopardizing earnings [12]. And, while transgender women were younger than cisgender women, compared to other transgender subgroups (transgender men and transgender nonbinary respondents), transgender women were older, which due to ageism may also impact their ability to secure employment.
+Other forms of social exclusion and/or isolation were experienced by transgender women respondents, including being less likely married or partnered than cisgender men, and being more likely to live alone and have fewer children than both cisgender women and cisgender men. Even when compared to other transgender subgroups, transgender women, were more likely to live alone when compared to transgender nonbinary respondents. Consequences of this social exclusion and/or isolation may include the disparate health outcomes experienced by transgender women such as poor mental and general health, and increased disability rates [10]. Further, structural heterosexism and cissexism (i.e., a system of oppression directed against transgender people), can become internalized, which may cause wear and tear on the body, and increase the risk for adverse health outcomes [10].
+Despite these risks, transgender women also participated in health-promoting help-seeking behaviors. Transgender women, for example, were more likely to have a primary healthcare provider and to receive a flu vaccine compared to cisgender men. In search of affirmative care, many transgender women will choose to receive services from LGBTQ-specific health centers, sites where access to centralized and comprehensive care is often available [14]. Using these sites potentially increases the opportunity that transgender women will be offered auxiliary care, such as a flu shot.
+Transgender men were younger and more likely to be single than cisgender men and women. Chronic social stigma, such as heterosexism has been significantly associated with premature morbidity and mortality among gender minorities [15] and higher rates of suicidality [16]. Transgender men’s pool of potential relationship partners may be limited due structural transphobia in both the general population and within sexual and gender minority communities. Transgender men also reported lower incomes and less education than cisgender men and women. Similar experiences of discrimination and social exclusion could be contributing to these partnership, socio-economic, and educational statuses among transgender men [10, 12, 13]. Despite a younger average age, transgender men demonstrated increased risk of having more chronic conditions compared to cisgender men and women. While transgender men showed higher engagement in some preventive health behaviors that facilitate health (e.g., flu vaccination and routine checkup) and were more likely to have healthcare coverage than cisgender men, the high rates at which they experience overt health care discrimination and interface with doctors with low trans-competence (i.e., higher likelihood than transgender women and nonbinary individuals) may still put them at risk for chronic health conditions. Indeed, these discriminatory health care encounters may expose them to extraneous stress, preclude their full engagement in care, and increase their chances for future forgone care with providers who can identify, track, and treat chronic conditions [17]. Social stigma is a social determinant of health and some research suggests that disparities in chronic health conditions among sexual minorities may in part be explained by internalized heterosexism [18]; the same processes—though related to internalized cissexism—may underlie the increased chronic health conditions among transgender men.
+Transgender nonbinary adults were also younger and more likely single than cisgender adults, which may also be related to chronic social stigma’s relationship to premature morbidity and mortality [15]. However, they had similar levels of income and education, which aligns with other research suggesting that transgender nonbinary individuals may experience lower rates of employment discrimination than transgender women and men [13], a factor that can impact earning consistency and capacity [12]. Considering education, transgender women and transgender men may experience more adverse events in grade school (K-12) environments at higher rates than transgender nonbinary individuals. For example, compared to nonbinary individuals, transgender women and transgender men are more likely to experience physical assaults, and transgender women are more likely to leave school because of mistreatment or expulsion [13]. Protection from these adverse events may permit transgender nonbinary students to finish high school at similar rates as cisgender students. Along with the increased risk of poor mental health, transgender nonbinary respondents had higher rates of poor physical health, and disability than cisgender respondents. Results of the current study also indicated that transgender nonbinary respondents may experience some levels of restricted social connections and isolation (i.e., they were less likely to be married or partnered than cisgender comparisons), a factor potentially impacting their health [19]. Transgender nonbinary people may have lower levels of support from family and friends relative to cisgender counterparts [20]. Though not assessed in the current study, future research is needed to examine if lower family and peer support may contribute to elevated isolation or restricted social connection for transgender nonbinary respondents, which may be associated with decreased wellness.
+5. Limitations and conclusion
+This study is one of the first population-based studies that examines not only health disparities but also economic and social inequities among transgender subgroups relative to cisgender counterparts; it also expands the preliminary findings on the health, economic, and social disparities among transgender nonbinary people and between transgender subgroups compared to each other. However, there are limitations to consider. The small sample sizes of each subgroup might reduce power to detect significant differences, thus absence of statistical significance, including in our analyses comparing subgroups to each other, should not be interpreted as no disparities. Future research should continue to pool data to ensure sample sizes large enough for sufficient power to detect differences among transgender subgroups. Excessive drinking was calculated with values from the WA-BRFSS question ‘Are you male or female’ and thresholds were applied using the National Institute of Alcohol Abuse and Alcoholism guidelines for males and females. Because guidelines rely on natal sex and the WA-BRFSS does not generally clarify if respondents should indicate their sex assigned at birth or current gender, future research might consider establishing guidelines for excessive drinking that are not defined by sex. Further, some non-significant results may be the result of dichotomized groups. Race, for example, was dichotomized as Non-Hispanic White versus People of Color, which may obscure more nuanced outcomes. Future analysis with larger samples of transgender populations is needed to replicate these findings and to further investigate the heterogeneity of the population, including by race and ethnicity, age, and income. Findings reflect data from Washington State and may not generalize nationally or to other states. This study sheds important light on health, economic and social disparities in the transgender population and is one of the first population-based studies to include transgender nonbinary people and investigate differences within the transgender population.
+Supplementary Material
+Funding
+This work was supported by the National Institute on Aging of the National Institutes of Health [grant numbers R01AG026526, R01AG055488, PI, Fredriksen Goldsen], which was not involved in any phases of this study nor the decision to submit this manuscript for publication. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+Footnotes
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+CRediT roles
+Karen I. Fredriksen Goldsen: Conceptualization, Writing - original draft, Writing - review & editing. Meghan Romanelli: Writing - original draft, Writing - review & editing. Charles P. Hoy-Ellis: Writing - original draft, Writing - review & editing. Hailey Jung: Writing - review & editing, Formal analysis
+Declaration of interests
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+References
+- 1.Flores AR, Herman JL, Gates GJ, & Brown T. How many adults identify as transgender in the United States? Los Angeles, CA: The Williams Institute; 2016. [Google Scholar]
+- 2.Conron KJ, Scott G, Stowwell GS, Landers SJ. Transgender health in Massachusetts: results from a household probability sample of adults. Am J Public Health, 2012; 102(1):118–122. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 3.Meyer IH, Brown TNT, Herman JL, Reisner SL, Bocktin WO. Demographic characteristics and health status of transgender adults in select US regions: Behavioral Risk Factor Surveillance System, 2014. Am J Public Health, 2017;107(4):582–589. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 4.Streed CG Jr, McCarthy EP, Haas JS. Self-reported physical and mental health of gender nonconforming transgender adults in the United States. LGBT health, 2018;5(7):443–448. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 5.Lagos D Looking at population health beyond “male” and “female”: Implications of transgender identity and gender nonconformity for population health. Demography, 2018;55(6):2097–2117. [DOI] [PubMed] [Google Scholar]
+- 6.National Academies of Sciences, Engineering, and Medicine. Understanding the Well-Being of LGBTQI+ Populations. Washington, DC: The National Academies Press; 2020. [PubMed] [Google Scholar]
+- 7.Downing JM, Przedworski JM. Health of transgender adults in the US, 2014–2016. Am J Prev Med. 2018;55(3):336–44. [DOI] [PubMed] [Google Scholar]
+- 8.Centers for Disease Control and Prevention. The BRFSS Data User Guide. Atlanta, GA: Department of Health and Human Services; 2013. [Google Scholar]
+- 9.Lee KJ, Carlin JB. Multiple imputation for missing data: fully conditional specification versus multivariate normal imputation. Am J Epidemiol. 2010;171(5):624–632. [DOI] [PubMed] [Google Scholar]
+- 10.Fredriksen-Goldsen KI, et al. Physical and mental health of transgender older adults: An at-risk and underserved population. The Gerontologist, 2013;54(3):488–500. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 11.Hoy-Ellis CP, Fredriksen-Goldsen KI. Depression among transgender older adults: General and minority stress. Am J Community Psychol. 2017;59(3-4):295–305. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 12.McFadden C, Crowley-Henry M. A systematic literature review on trans* careers and workplace experiences. In Kollen T, ed. Sexual orientation and transgender issues in organizations: Global perspectives on LGBT workforce diversity. Springer; 2016: 63–81. [Google Scholar]
+- 13.James S, Herman J, Rankin S, Keisling M, Mottet L, Anafi MA. The Report of the 2015 U.S. Transgender Survey. 2016. Washington, DC: National Center for Transgender Equality. [Google Scholar]
+- 14.Matsuzaka S, Romanelli M, & Hudson KD (2021). “Render a service worthy of me”: A qualitative study of factors influencing access to LGBTQ-specific health services. SSM-Qualitative Research in Health, 1, 100019. [Google Scholar]
+- 15.Hughto JMW, Reisner SL, & Pachankis JE (2015). Transgender stigma and health: A critical review of stigma determinants, mechanisms, and interventions. Social science & medicine, 147, 222–231.. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 16.Perez-Brumer A, Hatzenbuehler ML, Oldenburg CE, & Bockting W (2015). Individual-and structural-level risk factors for suicide attempts among transgender adults. Behavioral Medicine, 41(3), 164–171. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 17.Romanelli M, Lindsey MA. Patterns of healthcare discrimination among transgender help-seekers. Am J Prev Med. 2020; 58(4):e123–e131. [DOI] [PubMed] [Google Scholar]
+- 18.Hoy-Ellis CP, Fredriksen-Goldsen KI. Lesbian, gay, & bisexual older adults: Linking internal minority stressors, chronic health conditions, and depression. Aging Merit Health. 2016; 20(11):1119–1130. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 19.Leigh-Hunt N, Bagguley D, Bash K, Turner V, Turnbull S, Valtorta N, Caan W. An overview of systematic reviews on the public health consequences of social isolation and loneliness. Public Health. 2017;152:157–71. [DOI] [PubMed] [Google Scholar]
+- 20.Scandurra C, Mezza F, Maldonato NM, Bottone M, Bochicchio V, Valerio P, Vitelli R. Health of non-binary and genderqueer people: A systematic review. Frontiers in Psychology. 2019;10:1453. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 21.U.S. Department of Health & Human Services. Prior HHS Poverty Guidelines and Federal Register References, https://aspe.hhs.gov/prior-hhs-poverty-guidelines-and-federal-register-references. Accessed December 15, 2020
+- 22.Cornelius ME, Wang TW, Jamal A, Loretan CG, Neff LJ. Tobacco Product Use Among Adults — United States, 2019. MMWR. 2020;69:1736–1742. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 23.National Institute of Alcohol Abuse and Alcoholism. What is Binge Drinking? 2020; https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/binge-drinking. Accessed December 10, 2020.
+- 24.U.S. Department of Health and Human Services. Physical Activity Guidelines for Americans. In. 2nd ed. Washington, D.C. : U.S. Department of Health and Human Services; 2018. [Google Scholar]
+- 25.Centers for Disease Control and Prevention. Overweight & Obesity: Defining Adult Overweight and Obesity. https://www.cdc.gov/obesity/adult/defining.html. Accessed December 10, 2020
+- 26.U.S. Department of Health and Human Services. Implementation guidance on data collection standards for race, ethnicity, sex, primary language, and disability status. 2011; http://aspe.hhs.gov/datacncl/standards/ACA/4302. Accessed September 9, 2016.
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.

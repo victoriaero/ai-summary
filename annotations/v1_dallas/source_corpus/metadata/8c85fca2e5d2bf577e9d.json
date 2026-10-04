@@ -1,0 +1,31 @@
+{
+  "source_id": "8c85fca2e5d2bf577e9d",
+  "normalized_url": "https://tcf.org/content/commentary/equitable-insurance-coverage-and-access-can-advance-lgbt-health",
+  "fetch_timestamp_utc": "2026-09-29T19:32:16.477604+00:00",
+  "registrable_domain": "tcf.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://tcf.org/content/commentary/equitable-insurance-coverage-and-access-can-advance-lgbt-health",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:32:16 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cyCJLnaFhJAcvTBWq8JrAG25pymuIzRk8Sa5742sg6ImNYR8RmslhoftWD7QhfEulOANNRhysE74AZsbc4a4jAZejGJvypmZIzDX2TjFBnIO%2F2zn9tDMoDivP0Q0l%2F%2BmXGe%2FJvg%3D\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d69b34fce5035-GIG"
+  },
+  "downloaded_bytes": 4857,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "599ec5a5b3cb71d5d66f",
+  "normalized_url": "https://hls.harvard.edu/bibliography/credit-scores-lending-and-psychosocial-disability",
+  "fetch_timestamp_utc": "2026-10-04T03:37:21.653786+00:00",
+  "registrable_domain": "harvard.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hls.harvard.edu/bibliography/credit-scores-lending-and-psychosocial-disability/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 598736,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/599ec5a5b3cb71d5d66f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/599ec5a5b3cb71d5d66f.txt",
+  "text_chars": 2489,
+  "text_words": 354,
+  "extraction_status": "success",
+  "page_title": "Credit Scores, Lending and Psychosocial Disability - Harvard Law School",
+  "page_author": null,
+  "page_date": "2026-08-19",
+  "site_name": "Harvard Law School",
+  "canonical_url": "https://hls.harvard.edu/bibliography/credit-scores-lending-and-psychosocial-disability/"
+}

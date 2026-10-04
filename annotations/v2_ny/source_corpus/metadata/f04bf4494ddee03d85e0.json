@@ -1,0 +1,28 @@
+{
+  "source_id": "f04bf4494ddee03d85e0",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5493509",
+  "fetch_timestamp_utc": "2026-10-04T02:51:38.911981+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5493509/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 276755,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f04bf4494ddee03d85e0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f04bf4494ddee03d85e0.txt",
+  "text_chars": 66176,
+  "text_words": 11407,
+  "extraction_status": "success",
+  "page_title": "The effects of housing status, stability and the social contexts of housing on drug and sexual risk behaviors",
+  "page_author": "Julia Dickson-Gomez; Timothy McAuliffe; Katherine Quinn",
+  "page_date": "2004-02-01",
+  "site_name": "AIDS and behavior",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5493509/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "13124df66a011cdd5b0e",
+  "normalized_url": "https://investopedia.com/terms/f/five-c-credit.asp",
+  "fetch_timestamp_utc": "2026-10-04T02:34:04.268572+00:00",
+  "registrable_domain": "investopedia.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 402,
+  "final_url": "https://www.investopedia.com/terms/f/five-c-credit.asp",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 612,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

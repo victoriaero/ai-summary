@@ -1,0 +1,20 @@
+{
+  "source_id": "410ed6d381cd8d40cc57",
+  "normalized_url": "https://cliniclegal.org/resources/ground-inadmissibility-and-deportability/uscis-expands-public-charge-discretion-what",
+  "fetch_timestamp_utc": "2026-10-04T02:37:35.918643+00:00",
+  "registrable_domain": "cliniclegal.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://cliniclegal.org/resources/ground-inadmissibility-and-deportability/uscis-expands-public-charge-discretion-what",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5943,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

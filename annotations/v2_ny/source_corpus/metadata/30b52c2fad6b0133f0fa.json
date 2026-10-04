@@ -1,0 +1,28 @@
+{
+  "source_id": "30b52c2fad6b0133f0fa",
+  "normalized_url": "https://theconversation.com/bullying-linked-to-gender-and-sexuality-often-goes-unchecked-in-schools-55639",
+  "fetch_timestamp_utc": "2026-10-04T02:36:20.677441+00:00",
+  "registrable_domain": "theconversation.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://theconversation.com/bullying-linked-to-gender-and-sexuality-often-goes-unchecked-in-schools-55639",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 174534,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/30b52c2fad6b0133f0fa.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/30b52c2fad6b0133f0fa.txt",
+  "text_chars": 5276,
+  "text_words": 774,
+  "extraction_status": "success",
+  "page_title": "Bullying linked to gender and sexuality often goes unchecked in schools",
+  "page_author": "Victoria Rawlings",
+  "page_date": "2016-03-03",
+  "site_name": "The Conversation",
+  "canonical_url": "https://theconversation.com/bullying-linked-to-gender-and-sexuality-often-goes-unchecked-in-schools-55639"
+}

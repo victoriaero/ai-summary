@@ -1,0 +1,28 @@
+{
+  "source_id": "47487dd3ccfedb341498",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335036",
+  "fetch_timestamp_utc": "2026-10-04T03:35:55.130051+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335036/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 169215,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/47487dd3ccfedb341498.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/47487dd3ccfedb341498.txt",
+  "text_chars": 39098,
+  "text_words": 5463,
+  "extraction_status": "success",
+  "page_title": "The Links Between Disability, Incarceration, And Social Exclusion",
+  "page_author": "Laurin Bixby; Stacey Bevan; Courtney Boen",
+  "page_date": "2022-08-06",
+  "site_name": "Health affairs (Project Hope)",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335036/"
+}

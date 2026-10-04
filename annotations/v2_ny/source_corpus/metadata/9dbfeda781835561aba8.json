@@ -1,0 +1,28 @@
+{
+  "source_id": "9dbfeda781835561aba8",
+  "normalized_url": "https://policylab.rutgers.edu/publication/understanding-low-insurance-rates-among-the-hispanic-population-in-new-jersey",
+  "fetch_timestamp_utc": "2026-10-04T02:45:15.012844+00:00",
+  "registrable_domain": "rutgers.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://policylab.rutgers.edu/publication/understanding-low-insurance-rates-among-the-hispanic-population-in-new-jersey/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 121143,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9dbfeda781835561aba8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9dbfeda781835561aba8.txt",
+  "text_chars": 4463,
+  "text_words": 641,
+  "extraction_status": "success",
+  "page_title": "Understanding Low Insurance Rates Among the Hispanic Population in New Jersey - New Jersey State Policy Lab",
+  "page_author": "Eric Tuvel",
+  "page_date": "2024-10-25",
+  "site_name": "New Jersey State Policy Lab - The New Jersey State Policy Lab (NJSPL) conducts rigorous, evidence-based policy research for communities in the Garden State.",
+  "canonical_url": "https://policylab.rutgers.edu/publication/understanding-low-insurance-rates-among-the-hispanic-population-in-new-jersey/"
+}

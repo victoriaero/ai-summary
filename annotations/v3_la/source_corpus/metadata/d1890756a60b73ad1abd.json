@@ -1,0 +1,20 @@
+{
+  "source_id": "d1890756a60b73ad1abd",
+  "normalized_url": "https://ama-assn.org/system/files/transgender-coverage-issue-brief.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:46:24.334042+00:00",
+  "registrable_domain": "ama-assn.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.ama-assn.org/system/files/transgender-coverage-issue-brief.pdf",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 4549,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

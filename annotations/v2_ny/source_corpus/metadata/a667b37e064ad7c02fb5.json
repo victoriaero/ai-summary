@@ -1,0 +1,28 @@
+{
+  "source_id": "a667b37e064ad7c02fb5",
+  "normalized_url": "https://ewa.org/issues/higher-ed/what-are-some-of-the-barriers-to-college-access",
+  "fetch_timestamp_utc": "2026-10-04T02:46:02.010698+00:00",
+  "registrable_domain": "ewa.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ewa.org/issues/higher-ed/what-are-some-of-the-barriers-to-college-access",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 173800,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a667b37e064ad7c02fb5.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a667b37e064ad7c02fb5.txt",
+  "text_chars": 6667,
+  "text_words": 1054,
+  "extraction_status": "success",
+  "page_title": "What Are Some of the Barriers to College Access - ewa.org",
+  "page_author": "Non-profit web design by weareimmediate com",
+  "page_date": "2026-07-24",
+  "site_name": "ewa.org",
+  "canonical_url": "https://ewa.org/issues/higher-ed/what-are-some-of-the-barriers-to-college-access"
+}

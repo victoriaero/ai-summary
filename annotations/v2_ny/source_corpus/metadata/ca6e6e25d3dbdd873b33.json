@@ -1,0 +1,28 @@
+{
+  "source_id": "ca6e6e25d3dbdd873b33",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7899057",
+  "fetch_timestamp_utc": "2026-10-04T02:48:37.832896+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7899057/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 162027,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ca6e6e25d3dbdd873b33.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ca6e6e25d3dbdd873b33.txt",
+  "text_chars": 42604,
+  "text_words": 5982,
+  "extraction_status": "success",
+  "page_title": "Orange is the New Asylum: Incarceration of Individuals with Disabilities",
+  "page_author": "Becky Crowe; Christine Drew",
+  "page_date": "2021-02-22",
+  "site_name": "Behavior Analysis in Practice",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7899057/"
+}

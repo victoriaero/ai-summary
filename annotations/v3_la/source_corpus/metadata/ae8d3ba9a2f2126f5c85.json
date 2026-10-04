@@ -1,0 +1,28 @@
+{
+  "source_id": "ae8d3ba9a2f2126f5c85",
+  "normalized_url": "https://equityinhighered.org/",
+  "fetch_timestamp_utc": "2026-10-04T03:44:04.688620+00:00",
+  "registrable_domain": "equityinhighered.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.equityinhighered.org/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 145467,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/ae8d3ba9a2f2126f5c85.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/ae8d3ba9a2f2126f5c85.txt",
+  "text_chars": 4154,
+  "text_words": 630,
+  "extraction_status": "success",
+  "page_title": "Home - Race and Ethnicity in Higher Education",
+  "page_author": null,
+  "page_date": "2024-09-30",
+  "site_name": "Race and Ethnicity in Higher Education",
+  "canonical_url": "https://www.equityinhighered.org/"
+}

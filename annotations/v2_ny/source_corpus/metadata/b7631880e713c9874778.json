@@ -1,0 +1,20 @@
+{
+  "source_id": "b7631880e713c9874778",
+  "normalized_url": "https://urban.org/research/publication/hispanic-homeowners-and-physical-inadequacy-properties",
+  "fetch_timestamp_utc": "2026-10-04T02:47:17.923938+00:00",
+  "registrable_domain": "urban.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.urban.org/research/publication/hispanic-homeowners-and-physical-inadequacy-properties",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5927,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

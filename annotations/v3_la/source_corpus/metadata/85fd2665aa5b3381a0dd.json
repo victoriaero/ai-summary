@@ -1,0 +1,28 @@
+{
+  "source_id": "85fd2665aa5b3381a0dd",
+  "normalized_url": "https://news.gallup.com/opinion/gallup/510323/hispanic-students-feeling-discrimination-school.aspx",
+  "fetch_timestamp_utc": "2026-10-04T03:40:55.479225+00:00",
+  "registrable_domain": "gallup.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://news.gallup.com/opinion/gallup/510323/hispanic-students-feeling-discrimination-school.aspx",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 144910,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/85fd2665aa5b3381a0dd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/85fd2665aa5b3381a0dd.txt",
+  "text_chars": 5235,
+  "text_words": 774,
+  "extraction_status": "success",
+  "page_title": "Hispanic Students Feeling More Discrimination at School",
+  "page_author": "Gallup; Inc; Julie Ray",
+  "page_date": "2023-09-27",
+  "site_name": "Gallup.com",
+  "canonical_url": "https://news.gallup.com/opinion/gallup/510323/hispanic-students-feeling-discrimination-school.aspx"
+}

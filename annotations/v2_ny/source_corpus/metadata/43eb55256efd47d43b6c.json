@@ -1,0 +1,28 @@
+{
+  "source_id": "43eb55256efd47d43b6c",
+  "normalized_url": "https://safetyandjusticechallenge.org/wp-content/uploads/2022/05/LQBTQOverrepresentationReport-1.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:37:55.589286+00:00",
+  "registrable_domain": "safetyandjusticechallenge.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://safetyandjusticechallenge.org/wp-content/uploads/2022/05/LQBTQOverrepresentationReport-1.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 312028,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/43eb55256efd47d43b6c.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/43eb55256efd47d43b6c.txt",
+  "text_chars": 60221,
+  "text_words": 8634,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

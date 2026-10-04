@@ -1,0 +1,28 @@
+{
+  "source_id": "7a898503a0141d0c7000",
+  "normalized_url": "https://news.byu.edu/banks-offer-black-entrepreneurs-inferior-loans-even-when-they-are-better-qualified-than-peers",
+  "fetch_timestamp_utc": "2026-10-04T03:39:55.544709+00:00",
+  "registrable_domain": "byu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://news.byu.edu/banks-offer-black-entrepreneurs-inferior-loans-even-when-they-are-better-qualified-than-peers",
+  "headers": {
+    "Content-Type": "text/html;charset=UTF-8"
+  },
+  "content_type": "text/html;charset=UTF-8",
+  "downloaded_bytes": 119597,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/7a898503a0141d0c7000.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/7a898503a0141d0c7000.txt",
+  "text_chars": 5716,
+  "text_words": 865,
+  "extraction_status": "success",
+  "page_title": "Banks offer Black entrepreneurs inferior loans even when they are better qualified than peers",
+  "page_author": "Todd Hollingshead",
+  "page_date": "2023-06-16",
+  "site_name": "News",
+  "canonical_url": "https://news.byu.edu/banks-offer-black-entrepreneurs-inferior-loans-even-when-they-are-better-qualified-than-peers"
+}

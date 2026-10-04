@@ -1,0 +1,28 @@
+{
+  "source_id": "d26c4b08f15685b3ce67",
+  "normalized_url": "https://nationaldisabilityinstitute.org/financial-resilience-center/benefits",
+  "fetch_timestamp_utc": "2026-10-04T03:46:31.927449+00:00",
+  "registrable_domain": "nationaldisabilityinstitute.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nationaldisabilityinstitute.org/financial-resilience-center/benefits/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 240161,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/d26c4b08f15685b3ce67.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/d26c4b08f15685b3ce67.txt",
+  "text_chars": 22225,
+  "text_words": 3683,
+  "extraction_status": "success",
+  "page_title": "Public Benefits for People with Disabilities | Financial Resilience Center",
+  "page_author": "Katie Auchenbach",
+  "page_date": "2020-04-08",
+  "site_name": "National Disability Institute",
+  "canonical_url": "https://www.nationaldisabilityinstitute.org/financial-resilience-center/benefits/"
+}

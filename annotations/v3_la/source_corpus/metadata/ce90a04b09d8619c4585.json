@@ -1,0 +1,28 @@
+{
+  "source_id": "ce90a04b09d8619c4585",
+  "normalized_url": "https://steinhardt.nyu.edu/metrocenter/research-evaluation/section-3-practices-support-college-access-college-readiness",
+  "fetch_timestamp_utc": "2026-10-04T03:46:09.914005+00:00",
+  "registrable_domain": "nyu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://steinhardt.nyu.edu/metrocenter/research-evaluation/section-3-practices-support-college-access-college-readiness",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 131349,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/ce90a04b09d8619c4585.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/ce90a04b09d8619c4585.txt",
+  "text_chars": 45525,
+  "text_words": 6433,
+  "extraction_status": "success",
+  "page_title": "Section 3: Practices that Support College Access & College Readiness",
+  "page_author": null,
+  "page_date": "2021-11-02",
+  "site_name": "NYU Steinhardt",
+  "canonical_url": "https://steinhardt.nyu.edu/metrocenter/research-evaluation/section-3-practices-support-college-access-college-readiness"
+}

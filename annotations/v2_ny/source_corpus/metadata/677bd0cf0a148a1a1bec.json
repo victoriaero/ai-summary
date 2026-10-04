@@ -1,0 +1,28 @@
+{
+  "source_id": "677bd0cf0a148a1a1bec",
+  "normalized_url": "https://saraharberson.com/blog/hidden-factors-that-influence-who-gets-in",
+  "fetch_timestamp_utc": "2026-10-04T02:40:45.436451+00:00",
+  "registrable_domain": "saraharberson.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.saraharberson.com/blog/hidden-factors-that-influence-who-gets-in",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 68531,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/677bd0cf0a148a1a1bec.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/677bd0cf0a148a1a1bec.txt",
+  "text_chars": 6128,
+  "text_words": 958,
+  "extraction_status": "success",
+  "page_title": "The Hidden Factors That Influence Who Gets In",
+  "page_author": "Sara Harberson",
+  "page_date": "2024-02-29",
+  "site_name": "Sara Harberson",
+  "canonical_url": "https://www.saraharberson.com/blog/hidden-factors-that-influence-who-gets-in"
+}

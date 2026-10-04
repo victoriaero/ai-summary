@@ -1,0 +1,28 @@
+{
+  "source_id": "3570c7ef5743f0852744",
+  "normalized_url": "https://kff.org/medicaid/medicaid-and-chip-eligibility-enrollment-and-renewal-policies-as-states-prepare-for-major-medicaid-policy-changes",
+  "fetch_timestamp_utc": "2026-10-04T03:34:32.569059+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/medicaid/medicaid-and-chip-eligibility-enrollment-and-renewal-policies-as-states-prepare-for-major-medicaid-policy-changes/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 609824,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/3570c7ef5743f0852744.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/3570c7ef5743f0852744.txt",
+  "text_chars": 42295,
+  "text_words": 6424,
+  "extraction_status": "success",
+  "page_title": "Medicaid and CHIP Eligibility, Enrollment, and Renewal Policies as States Prepare for Major Medicaid Policy Changes | KFF",
+  "page_author": "Tricia Brooks; Jennifer Tolbert; Anna Mudumala; Amaya Diana; Yuliya Yafimenka; Antony Lin",
+  "page_date": "2026-04-30",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/medicaid/medicaid-and-chip-eligibility-enrollment-and-renewal-policies-as-states-prepare-for-major-medicaid-policy-changes/"
+}

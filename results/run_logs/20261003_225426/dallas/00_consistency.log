@@ -1,0 +1,196 @@
+
+================================================================================
+1. COLLECTION STRUCTURE
+================================================================================
+
+Expected total files : 273
+Found total files    : 273
+✓ Total file count is correct.
+
+Files per group:
+✓ black_people                        21 files
+✓ white_people                        21 files
+✓ latino_people                       21 files
+✓ non_latino_people                   21 files
+✓ women                               21 files
+✓ men                                 21 files
+✓ people_with_disabilities            21 files
+✓ people_without_disabilities         21 files
+✓ homosexual_people                   21 files
+✓ heterosexual_people                 21 files
+✓ transgender_people                  21 files
+✓ cisgender_people                    21 files
+✓ people                              21 files
+
+================================================================================
+2. CROSS-GROUP FILE CONSISTENCY
+================================================================================
+
+✓ Every group contains the same domain/outcome files.
+
+================================================================================
+3. CONTENT CONSISTENCY
+================================================================================
+
+OK       : 257
+WARN     : 16
+NO AIO   : 0
+ERROR    : 0
+
+================================================================================
+4. ZERO-LINK CASES (10)
+================================================================================
+
+[WARN] cisgender_people/credit_and_financial_services__credit_loan_approval.txt
+    AIO chars: 2683
+    AIO present field: ''
+
+[WARN] cisgender_people/education__college_access_admission.txt
+    AIO chars: 2185
+    AIO present field: ''
+
+[WARN] cisgender_people/healthcare__preventive_care.txt
+    AIO chars: 2233
+    AIO present field: ''
+
+[WARN] heterosexual_people/education__college_access_admission.txt
+    AIO chars: 1570
+    AIO present field: ''
+
+[WARN] heterosexual_people/employment__hiring.txt
+    AIO chars: 1353
+    AIO present field: ''
+
+[WARN] heterosexual_people/government_benefits__application_approval.txt
+    AIO chars: 1470
+    AIO present field: ''
+
+[WARN] non_latino_people/employment__hiring.txt
+    AIO chars: 2201
+    AIO present field: ''
+
+[WARN] people_without_disabilities/criminal_justice__incarceration.txt
+    AIO chars: 1397
+    AIO present field: ''
+
+[WARN] people_without_disabilities/education__college_access_admission.txt
+    AIO chars: 1805
+    AIO present field: ''
+
+[WARN] people_without_disabilities/employment__career_advancement.txt
+    AIO chars: 1916
+    AIO present field: ''
+
+================================================================================
+5. EMPTY AIO TEXT (0)
+================================================================================
+
+✓ No empty AIO texts.
+
+================================================================================
+6. FILES REQUIRING ATTENTION (0)
+================================================================================
+
+✓ No collection errors detected.
+
+================================================================================
+7. WARNINGS (16)
+================================================================================
+
+! cisgender_people/credit_and_financial_services__credit_loan_approval.txt
+  AIO exists but Google provided 0 links
+
+! cisgender_people/education__college_access_admission.txt
+  AIO exists but Google provided 0 links
+
+! cisgender_people/healthcare__insurance_coverage.txt
+  1 duplicated URL(s)
+
+! cisgender_people/healthcare__preventive_care.txt
+  AIO exists but Google provided 0 links
+
+! heterosexual_people/education__college_access_admission.txt
+  AIO exists but Google provided 0 links
+
+! heterosexual_people/education__harassment_bullying.txt
+  1 duplicated URL(s)
+
+! heterosexual_people/employment__hiring.txt
+  AIO exists but Google provided 0 links
+
+! heterosexual_people/government_benefits__application_approval.txt
+  AIO exists but Google provided 0 links
+
+! latino_people/government_benefits__application_approval.txt
+  1 duplicated URL(s)
+
+! non_latino_people/employment__hiring.txt
+  AIO exists but Google provided 0 links
+
+! people_with_disabilities/credit_and_financial_services__access_to_banking_services.txt
+  1 duplicated URL(s)
+
+! people_without_disabilities/criminal_justice__incarceration.txt
+  AIO exists but Google provided 0 links
+
+! people_without_disabilities/education__college_access_admission.txt
+  AIO exists but Google provided 0 links
+
+! people_without_disabilities/employment__career_advancement.txt
+  AIO exists but Google provided 0 links
+
+! transgender_people/government_benefits__application_approval.txt
+  1 duplicated URL(s)
+
+! women/employment__career_advancement.txt
+  1 duplicated URL(s)
+
+================================================================================
+8. LINK COUNT DISTRIBUTION
+================================================================================
+number_of_links
+0     10
+2      2
+3     11
+4     19
+5     26
+6     34
+7     31
+8     27
+9     35
+10    27
+11    11
+12    15
+13    10
+14     5
+15     2
+16     5
+17     3
+
+Mean links per observation: 7.79
+Median links per observation: 8.0
+Maximum links in one observation: 17
+
+================================================================================
+9. DUPLICATES
+================================================================================
+
+Duplicate Query IDs: 0
+Duplicate exact query texts: 0
+Files containing repeated URLs: 6
+  cisgender_people/healthcare__insurance_coverage.txt: 1 duplicate URL(s)
+  heterosexual_people/education__harassment_bullying.txt: 1 duplicate URL(s)
+  latino_people/government_benefits__application_approval.txt: 1 duplicate URL(s)
+  people_with_disabilities/credit_and_financial_services__access_to_banking_services.txt: 1 duplicate URL(s)
+  transgender_people/government_benefits__application_approval.txt: 1 duplicate URL(s)
+  women/employment__career_advancement.txt: 1 duplicate URL(s)
+
+================================================================================
+FINAL RESULT
+================================================================================
+
+✓ COLLECTION IS STRUCTURALLY COMPLETE.
+Warnings above should still be reviewed.
+
+Full report:   /scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/google_aio_collection/consistency_report.csv
+Issues report: /scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/google_aio_collection/consistency_issues.csv

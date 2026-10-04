@@ -1,0 +1,28 @@
+{
+  "source_id": "7a53c957814caa0b14e6",
+  "normalized_url": "https://academybank.com/article/banking-trends-and-the-us-latino-population",
+  "fetch_timestamp_utc": "2026-10-04T02:42:21.900476+00:00",
+  "registrable_domain": "academybank.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.academybank.com/article/banking-trends-and-the-us-latino-population",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 278076,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7a53c957814caa0b14e6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7a53c957814caa0b14e6.txt",
+  "text_chars": 5789,
+  "text_words": 874,
+  "extraction_status": "success",
+  "page_title": "Banking Trends and the US Latino Population",
+  "page_author": "Written by",
+  "page_date": "2023-10-18",
+  "site_name": "academybank.com",
+  "canonical_url": "https://www.academybank.com/article/banking-trends-and-the-us-latino-population"
+}

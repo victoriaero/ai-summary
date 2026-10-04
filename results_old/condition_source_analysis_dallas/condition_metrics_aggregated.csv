@@ -1,0 +1,378 @@
+aggregation_level,dimension,condition,group,n_queries,aio_present_n,aio_present_rate,mean_sources,median_sources,mean_unique_sources,mean_unique_hostnames,mean_unique_domains,mean_aio_chars,median_aio_chars,mean_aio_words,domain,outcome
+social_dimension,Control,control,people,21,21,1.0,8.857142857142858,9.0,8.857142857142858,7.714285714285714,7.571428571428571,1939.4285714285713,1857.0,272.1904761904762,,
+social_dimension,Disability,majority,People without disabilities,21,21,1.0,4.857142857142857,4.0,4.857142857142857,4.0476190476190474,4.0,1889.952380952381,1805.0,266.85714285714283,,
+social_dimension,Disability,minority,People with disabilities,21,21,1.0,9.095238095238095,9.0,9.047619047619047,8.380952380952381,8.238095238095237,2020.5714285714287,1919.0,274.04761904761904,,
+social_dimension,Ethnicity,majority,non-Latino people,21,21,1.0,5.666666666666667,5.0,5.666666666666667,4.714285714285714,4.666666666666667,1822.2380952380952,1649.0,250.28571428571428,,
+social_dimension,Ethnicity,minority,Latino people,21,21,1.0,9.714285714285714,9.0,9.666666666666666,7.9523809523809526,7.666666666666667,2370.0476190476193,2133.0,311.04761904761904,,
+social_dimension,Gender,majority,Men,21,21,1.0,7.0476190476190474,7.0,7.0476190476190474,6.285714285714286,6.238095238095238,1746.142857142857,1677.0,246.14285714285714,,
+social_dimension,Gender,minority,Women,21,21,1.0,8.047619047619047,8.0,8.0,6.714285714285714,6.666666666666667,2130.4761904761904,1977.0,296.57142857142856,,
+social_dimension,Gender Identity,majority,cisgender people,21,21,1.0,7.523809523809524,8.0,7.476190476190476,6.095238095238095,5.857142857142857,2438.285714285714,2233.0,316.0,,
+social_dimension,Gender Identity,minority,transgender people,21,21,1.0,9.238095238095237,8.0,9.19047619047619,8.142857142857142,7.9523809523809526,2419.285714285714,2033.0,326.5238095238095,,
+social_dimension,Race,majority,White people,21,21,1.0,5.761904761904762,5.0,5.761904761904762,5.095238095238095,5.095238095238095,1683.904761904762,1438.0,226.47619047619048,,
+social_dimension,Race,minority,Black people,21,21,1.0,9.80952380952381,9.0,9.80952380952381,8.761904761904763,8.619047619047619,2248.4761904761904,2013.0,283.6190476190476,,
+social_dimension,Sexual Orientation,majority,heterosexual people,21,21,1.0,7.285714285714286,7.0,7.238095238095238,5.9523809523809526,5.714285714285714,2106.4285714285716,1814.0,273.7142857142857,,
+social_dimension,Sexual Orientation,minority,homosexual people,21,21,1.0,8.380952380952381,9.0,8.380952380952381,7.238095238095238,7.0476190476190474,2044.857142857143,1877.0,264.4761904761905,,
+domain,,control,people,3,3,1.0,8.333333333333334,8.0,8.333333333333334,8.0,8.0,1374.0,1368.0,201.66666666666666,Credit & Financial Services,
+domain,,majority,Men,3,3,1.0,7.666666666666667,7.0,7.666666666666667,7.666666666666667,7.666666666666667,1520.0,1649.0,224.66666666666666,Credit & Financial Services,
+domain,,majority,People without disabilities,3,3,1.0,3.6666666666666665,4.0,3.6666666666666665,3.6666666666666665,3.6666666666666665,1651.3333333333333,1463.0,256.6666666666667,Credit & Financial Services,
+domain,,majority,White people,3,3,1.0,5.666666666666667,6.0,5.666666666666667,5.666666666666667,5.666666666666667,1358.0,1253.0,192.0,Credit & Financial Services,
+domain,,majority,cisgender people,3,3,1.0,5.333333333333333,8.0,5.333333333333333,4.666666666666667,4.333333333333333,2153.0,2108.0,286.3333333333333,Credit & Financial Services,
+domain,,majority,heterosexual people,3,3,1.0,7.333333333333333,9.0,7.333333333333333,7.0,6.666666666666667,1441.3333333333333,1514.0,188.0,Credit & Financial Services,
+domain,,majority,non-Latino people,3,3,1.0,3.6666666666666665,4.0,3.6666666666666665,3.6666666666666665,3.6666666666666665,1439.0,1438.0,203.0,Credit & Financial Services,
+domain,,minority,Black people,3,3,1.0,11.666666666666666,12.0,11.666666666666666,11.666666666666666,11.666666666666666,2487.6666666666665,2142.0,328.0,Credit & Financial Services,
+domain,,minority,Latino people,3,3,1.0,11.333333333333334,12.0,11.333333333333334,10.333333333333334,9.666666666666666,2469.0,1955.0,327.6666666666667,Credit & Financial Services,
+domain,,minority,People with disabilities,3,3,1.0,7.666666666666667,7.0,7.333333333333333,7.333333333333333,7.0,2179.3333333333335,1889.0,293.3333333333333,Credit & Financial Services,
+domain,,minority,Women,3,3,1.0,9.0,9.0,9.0,8.0,8.0,1414.0,1187.0,198.66666666666666,Credit & Financial Services,
+domain,,minority,homosexual people,3,3,1.0,6.333333333333333,6.0,6.333333333333333,6.333333333333333,6.333333333333333,2674.3333333333335,2171.0,358.3333333333333,Credit & Financial Services,
+domain,,minority,transgender people,3,3,1.0,7.0,7.0,7.0,6.666666666666667,6.666666666666667,1967.3333333333333,2020.0,274.0,Credit & Financial Services,
+domain,,control,people,3,3,1.0,9.0,9.0,9.0,8.0,7.666666666666667,1856.3333333333333,1914.0,267.0,Criminal Justice,
+domain,,majority,Men,3,3,1.0,8.666666666666666,8.0,8.666666666666666,6.666666666666667,6.333333333333333,1686.3333333333333,1741.0,236.0,Criminal Justice,
+domain,,majority,People without disabilities,3,3,1.0,4.333333333333333,4.0,4.333333333333333,3.0,2.6666666666666665,2091.6666666666665,1621.0,298.3333333333333,Criminal Justice,
+domain,,majority,White people,3,3,1.0,4.0,3.0,4.0,3.3333333333333335,3.3333333333333335,1255.6666666666667,1189.0,175.0,Criminal Justice,
+domain,,majority,cisgender people,3,3,1.0,7.666666666666667,8.0,7.666666666666667,5.666666666666667,5.333333333333333,3136.0,3321.0,422.3333333333333,Criminal Justice,
+domain,,majority,heterosexual people,3,3,1.0,9.333333333333334,7.0,9.333333333333334,7.0,7.0,2417.3333333333335,1973.0,321.0,Criminal Justice,
+domain,,majority,non-Latino people,3,3,1.0,4.666666666666667,5.0,4.666666666666667,3.6666666666666665,3.6666666666666665,1513.3333333333333,1525.0,212.33333333333334,Criminal Justice,
+domain,,minority,Black people,3,3,1.0,8.0,8.0,8.0,6.0,6.0,2054.0,2016.0,251.33333333333334,Criminal Justice,
+domain,,minority,Latino people,3,3,1.0,7.0,6.0,7.0,5.666666666666667,5.333333333333333,2106.0,2138.0,275.3333333333333,Criminal Justice,
+domain,,minority,People with disabilities,3,3,1.0,8.0,8.0,8.0,7.666666666666667,7.666666666666667,1911.6666666666667,2139.0,249.66666666666666,Criminal Justice,
+domain,,minority,Women,3,3,1.0,8.0,9.0,8.0,7.333333333333333,7.333333333333333,1954.3333333333333,1811.0,277.0,Criminal Justice,
+domain,,minority,homosexual people,3,3,1.0,8.0,7.0,8.0,7.333333333333333,7.333333333333333,1546.0,1507.0,198.66666666666666,Criminal Justice,
+domain,,minority,transgender people,3,3,1.0,7.0,7.0,7.0,7.0,7.0,1856.0,1819.0,256.3333333333333,Criminal Justice,
+domain,,control,people,3,3,1.0,8.0,6.0,8.0,7.333333333333333,7.333333333333333,2086.0,2058.0,281.0,Education,
+domain,,majority,Men,3,3,1.0,8.666666666666666,9.0,8.666666666666666,6.666666666666667,6.666666666666667,1786.0,1677.0,240.33333333333334,Education,
+domain,,majority,People without disabilities,3,3,1.0,3.0,3.0,3.0,2.6666666666666665,2.6666666666666665,1617.3333333333333,1676.0,220.66666666666666,Education,
+domain,,majority,White people,3,3,1.0,5.0,5.0,5.0,4.666666666666667,4.666666666666667,2205.6666666666665,2121.0,300.0,Education,
+domain,,majority,cisgender people,3,3,1.0,9.333333333333334,14.0,9.333333333333334,8.666666666666666,8.666666666666666,2654.6666666666665,2682.0,339.0,Education,
+domain,,majority,heterosexual people,3,3,1.0,9.0,10.0,8.666666666666666,7.333333333333333,7.333333333333333,2980.0,3156.0,380.3333333333333,Education,
+domain,,majority,non-Latino people,3,3,1.0,8.666666666666666,8.0,8.666666666666666,7.666666666666667,7.666666666666667,2173.0,1897.0,291.3333333333333,Education,
+domain,,minority,Black people,3,3,1.0,11.333333333333334,12.0,11.333333333333334,11.0,11.0,2349.0,2411.0,287.3333333333333,Education,
+domain,,minority,Latino people,3,3,1.0,9.0,9.0,9.0,8.666666666666666,8.666666666666666,2028.6666666666667,2062.0,244.66666666666666,Education,
+domain,,minority,People with disabilities,3,3,1.0,9.333333333333334,9.0,9.333333333333334,9.0,9.0,1975.6666666666667,1933.0,268.6666666666667,Education,
+domain,,minority,Women,3,3,1.0,5.666666666666667,6.0,5.666666666666667,4.666666666666667,4.666666666666667,1947.3333333333333,1686.0,260.6666666666667,Education,
+domain,,minority,homosexual people,3,3,1.0,9.333333333333334,10.0,9.333333333333334,7.0,7.0,1730.0,1676.0,214.33333333333334,Education,
+domain,,minority,transgender people,3,3,1.0,10.666666666666666,9.0,10.666666666666666,8.666666666666666,8.333333333333334,3460.3333333333335,2680.0,448.3333333333333,Education,
+domain,,control,people,3,3,1.0,8.0,7.0,8.0,6.666666666666667,6.666666666666667,1724.0,1516.0,237.0,Employment,
+domain,,majority,Men,3,3,1.0,5.0,5.0,5.0,5.0,5.0,1584.6666666666667,1595.0,222.0,Employment,
+domain,,majority,People without disabilities,3,3,1.0,1.6666666666666667,2.0,1.6666666666666667,1.6666666666666667,1.6666666666666667,1454.3333333333333,1622.0,190.66666666666666,Employment,
+domain,,majority,White people,3,3,1.0,4.666666666666667,5.0,4.666666666666667,4.333333333333333,4.333333333333333,1480.3333333333333,1232.0,190.0,Employment,
+domain,,majority,cisgender people,3,3,1.0,7.333333333333333,7.0,7.333333333333333,6.666666666666667,6.666666666666667,2169.0,2276.0,277.0,Employment,
+domain,,majority,heterosexual people,3,3,1.0,4.666666666666667,6.0,4.666666666666667,4.666666666666667,4.666666666666667,1742.3333333333333,1814.0,218.66666666666666,Employment,
+domain,,majority,non-Latino people,3,3,1.0,3.0,4.0,3.0,2.6666666666666665,2.6666666666666665,1831.6666666666667,1792.0,244.0,Employment,
+domain,,minority,Black people,3,3,1.0,10.0,10.0,10.0,9.333333333333334,8.666666666666666,2169.0,1934.0,268.3333333333333,Employment,
+domain,,minority,Latino people,3,3,1.0,11.333333333333334,12.0,11.333333333333334,10.666666666666666,10.666666666666666,2518.0,2121.0,320.0,Employment,
+domain,,minority,People with disabilities,3,3,1.0,10.0,10.0,10.0,9.333333333333334,9.333333333333334,1944.0,1919.0,255.33333333333334,Employment,
+domain,,minority,Women,3,3,1.0,6.333333333333333,6.0,6.0,3.6666666666666665,3.6666666666666665,1745.6666666666667,1564.0,240.0,Employment,
+domain,,minority,homosexual people,3,3,1.0,6.333333333333333,6.0,6.333333333333333,6.0,6.0,1809.3333333333333,1604.0,232.66666666666666,Employment,
+domain,,minority,transgender people,3,3,1.0,7.333333333333333,7.0,7.333333333333333,7.0,7.0,1640.6666666666667,1494.0,216.0,Employment,
+domain,,control,people,3,3,1.0,11.666666666666666,12.0,11.666666666666666,11.0,10.666666666666666,2727.0,1742.0,384.6666666666667,Government Benefits,
+domain,,majority,Men,3,3,1.0,6.666666666666667,6.0,6.666666666666667,6.666666666666667,6.666666666666667,2291.3333333333335,2225.0,321.0,Government Benefits,
+domain,,majority,People without disabilities,3,3,1.0,7.666666666666667,5.0,7.666666666666667,6.666666666666667,6.666666666666667,2554.0,3036.0,360.3333333333333,Government Benefits,
+domain,,majority,White people,3,3,1.0,9.333333333333334,8.0,9.333333333333334,8.0,8.0,2689.0,2864.0,355.3333333333333,Government Benefits,
+domain,,majority,cisgender people,3,3,1.0,12.333333333333334,11.0,12.333333333333334,9.333333333333334,9.0,3592.0,3496.0,456.0,Government Benefits,
+domain,,majority,heterosexual people,3,3,1.0,5.333333333333333,6.0,5.333333333333333,5.0,4.666666666666667,2465.3333333333335,1990.0,326.6666666666667,Government Benefits,
+domain,,majority,non-Latino people,3,3,1.0,8.666666666666666,6.0,8.666666666666666,7.333333333333333,7.0,2616.6666666666665,1682.0,352.0,Government Benefits,
+domain,,minority,Black people,3,3,1.0,9.666666666666666,8.0,9.666666666666666,8.666666666666666,8.666666666666666,2624.6666666666665,1995.0,339.3333333333333,Government Benefits,
+domain,,minority,Latino people,3,3,1.0,11.666666666666666,13.0,11.333333333333334,8.666666666666666,8.0,2838.3333333333335,3030.0,369.3333333333333,Government Benefits,
+domain,,minority,People with disabilities,3,3,1.0,12.333333333333334,10.0,12.333333333333334,10.666666666666666,10.666666666666666,2607.0,1990.0,367.3333333333333,Government Benefits,
+domain,,minority,Women,3,3,1.0,10.0,7.0,10.0,7.333333333333333,7.333333333333333,3356.6666666666665,3922.0,471.6666666666667,Government Benefits,
+domain,,minority,homosexual people,3,3,1.0,9.0,9.0,9.0,8.0,8.0,2396.3333333333335,2061.0,303.6666666666667,Government Benefits,
+domain,,minority,transgender people,3,3,1.0,12.333333333333334,14.0,12.0,10.333333333333334,10.333333333333334,3440.3333333333335,3946.0,467.3333333333333,Government Benefits,
+domain,,control,people,3,3,1.0,9.666666666666666,11.0,9.666666666666666,6.0,5.666666666666667,1820.6666666666667,1822.0,253.33333333333334,Healthcare,
+domain,,majority,Men,3,3,1.0,5.0,4.0,5.0,4.333333333333333,4.333333333333333,1653.6666666666667,1796.0,236.33333333333334,Healthcare,
+domain,,majority,People without disabilities,3,3,1.0,5.333333333333333,5.0,5.333333333333333,3.3333333333333335,3.3333333333333335,1820.0,1825.0,247.66666666666666,Healthcare,
+domain,,majority,White people,3,3,1.0,5.0,5.0,5.0,3.6666666666666665,3.6666666666666665,1419.6666666666667,1221.0,186.0,Healthcare,
+domain,,majority,cisgender people,3,3,1.0,3.6666666666666665,4.0,3.3333333333333335,2.6666666666666665,2.0,1709.0,1494.0,216.33333333333334,Healthcare,
+domain,,majority,heterosexual people,3,3,1.0,8.0,7.0,8.0,5.0,4.333333333333333,1616.6666666666667,1513.0,210.0,Healthcare,
+domain,,majority,non-Latino people,3,3,1.0,5.0,4.0,5.0,3.3333333333333335,3.3333333333333335,1531.3333333333333,1553.0,217.33333333333334,Healthcare,
+domain,,minority,Black people,3,3,1.0,7.333333333333333,7.0,7.333333333333333,6.0,5.666666666666667,1991.6666666666667,1933.0,254.0,Healthcare,
+domain,,minority,Latino people,3,3,1.0,9.0,9.0,9.0,5.333333333333333,5.0,1925.3333333333333,1956.0,263.3333333333333,Healthcare,
+domain,,minority,People with disabilities,3,3,1.0,9.0,10.0,9.0,7.666666666666667,7.0,1904.3333333333333,2049.0,258.0,Healthcare,
+domain,,minority,Women,3,3,1.0,7.666666666666667,9.0,7.666666666666667,6.666666666666667,6.333333333333333,1807.6666666666667,1972.0,249.0,Healthcare,
+domain,,minority,homosexual people,3,3,1.0,10.333333333333334,10.0,10.333333333333334,7.0,6.333333333333333,1741.3333333333333,1743.0,226.0,Healthcare,
+domain,,minority,transgender people,3,3,1.0,8.0,9.0,8.0,6.666666666666667,6.333333333333333,2153.6666666666665,2002.0,285.6666666666667,Healthcare,
+domain,,control,people,3,3,1.0,7.333333333333333,7.0,7.333333333333333,7.0,7.0,1988.0,2039.0,280.6666666666667,Housing,
+domain,,majority,Men,3,3,1.0,7.666666666666667,10.0,7.666666666666667,7.0,7.0,1701.0,1693.0,242.66666666666666,Housing,
+domain,,majority,People without disabilities,3,3,1.0,8.333333333333334,8.0,8.333333333333334,7.333333333333333,7.333333333333333,2041.0,1974.0,293.6666666666667,Housing,
+domain,,majority,White people,3,3,1.0,6.666666666666667,6.0,6.666666666666667,6.0,6.0,1379.0,1324.0,187.0,Housing,
+domain,,majority,cisgender people,3,3,1.0,7.0,7.0,7.0,5.0,5.0,1654.3333333333333,1700.0,215.0,Housing,
+domain,,majority,heterosexual people,3,3,1.0,7.333333333333333,8.0,7.333333333333333,5.666666666666667,5.333333333333333,2082.0,1583.0,271.3333333333333,Housing,
+domain,,majority,non-Latino people,3,3,1.0,6.0,6.0,6.0,4.666666666666667,4.666666666666667,1650.6666666666667,1844.0,232.0,Housing,
+domain,,minority,Black people,3,3,1.0,10.666666666666666,12.0,10.666666666666666,8.666666666666666,8.666666666666666,2063.3333333333335,2013.0,257.0,Housing,
+domain,,minority,Latino people,3,3,1.0,8.666666666666666,8.0,8.666666666666666,6.333333333333333,6.333333333333333,2705.0,2526.0,377.0,Housing,
+domain,,minority,People with disabilities,3,3,1.0,7.333333333333333,8.0,7.333333333333333,7.0,7.0,1622.0,1621.0,226.0,Housing,
+domain,,minority,Women,3,3,1.0,9.666666666666666,11.0,9.666666666666666,9.333333333333334,9.333333333333334,2687.6666666666665,2193.0,379.0,Housing,
+domain,,minority,homosexual people,3,3,1.0,9.333333333333334,9.0,9.333333333333334,9.0,8.333333333333334,2416.6666666666665,2520.0,317.6666666666667,Housing,
+domain,,minority,transgender people,3,3,1.0,12.333333333333334,13.0,12.333333333333334,10.666666666666666,10.0,2416.6666666666665,2563.0,338.0,Housing,
+outcome,,control,people,1,1,1.0,8.0,8.0,8.0,8.0,8.0,1368.0,1368.0,180.0,Credit & Financial Services,Access to banking services
+outcome,,majority,Men,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1649.0,1649.0,235.0,Credit & Financial Services,Access to banking services
+outcome,,majority,People without disabilities,1,1,1.0,4.0,4.0,4.0,4.0,4.0,2170.0,2170.0,327.0,Credit & Financial Services,Access to banking services
+outcome,,majority,White people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1226.0,1226.0,166.0,Credit & Financial Services,Access to banking services
+outcome,,majority,cisgender people,1,1,1.0,8.0,8.0,8.0,7.0,6.0,2108.0,2108.0,272.0,Credit & Financial Services,Access to banking services
+outcome,,majority,heterosexual people,1,1,1.0,9.0,9.0,9.0,8.0,7.0,1514.0,1514.0,191.0,Credit & Financial Services,Access to banking services
+outcome,,majority,non-Latino people,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1805.0,1805.0,245.0,Credit & Financial Services,Access to banking services
+outcome,,minority,Black people,1,1,1.0,10.0,10.0,10.0,10.0,10.0,2142.0,2142.0,277.0,Credit & Financial Services,Access to banking services
+outcome,,minority,Latino people,1,1,1.0,9.0,9.0,9.0,9.0,9.0,1955.0,1955.0,258.0,Credit & Financial Services,Access to banking services
+outcome,,minority,People with disabilities,1,1,1.0,11.0,11.0,10.0,10.0,9.0,1889.0,1889.0,255.0,Credit & Financial Services,Access to banking services
+outcome,,minority,Women,1,1,1.0,9.0,9.0,9.0,8.0,8.0,2433.0,2433.0,335.0,Credit & Financial Services,Access to banking services
+outcome,,minority,homosexual people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2171.0,2171.0,269.0,Credit & Financial Services,Access to banking services
+outcome,,minority,transgender people,1,1,1.0,7.0,7.0,7.0,7.0,7.0,2422.0,2422.0,327.0,Credit & Financial Services,Access to banking services
+outcome,,control,people,1,1,1.0,6.0,6.0,6.0,5.0,5.0,1299.0,1299.0,182.0,Credit & Financial Services,Access to credit
+outcome,,majority,Men,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1661.0,1661.0,237.0,Credit & Financial Services,Access to credit
+outcome,,majority,People without disabilities,1,1,1.0,3.0,3.0,3.0,3.0,3.0,1463.0,1463.0,227.0,Credit & Financial Services,Access to credit
+outcome,,majority,White people,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1253.0,1253.0,171.0,Credit & Financial Services,Access to credit
+outcome,,majority,cisgender people,1,1,1.0,8.0,8.0,8.0,7.0,7.0,1668.0,1668.0,207.0,Credit & Financial Services,Access to credit
+outcome,,majority,heterosexual people,1,1,1.0,9.0,9.0,9.0,9.0,9.0,1539.0,1539.0,194.0,Credit & Financial Services,Access to credit
+outcome,,majority,non-Latino people,1,1,1.0,3.0,3.0,3.0,3.0,3.0,1074.0,1074.0,156.0,Credit & Financial Services,Access to credit
+outcome,,minority,Black people,1,1,1.0,13.0,13.0,13.0,13.0,13.0,3367.0,3367.0,448.0,Credit & Financial Services,Access to credit
+outcome,,minority,Latino people,1,1,1.0,13.0,13.0,13.0,11.0,10.0,3697.0,3697.0,500.0,Credit & Financial Services,Access to credit
+outcome,,minority,People with disabilities,1,1,1.0,5.0,5.0,5.0,5.0,5.0,2855.0,2855.0,380.0,Credit & Financial Services,Access to credit
+outcome,,minority,Women,1,1,1.0,8.0,8.0,8.0,8.0,8.0,622.0,622.0,95.0,Credit & Financial Services,Access to credit
+outcome,,minority,homosexual people,1,1,1.0,8.0,8.0,8.0,8.0,8.0,2020.0,2020.0,284.0,Credit & Financial Services,Access to credit
+outcome,,minority,transgender people,1,1,1.0,8.0,8.0,8.0,7.0,7.0,2020.0,2020.0,285.0,Credit & Financial Services,Access to credit
+outcome,,control,people,1,1,1.0,11.0,11.0,11.0,11.0,11.0,1455.0,1455.0,243.0,Credit & Financial Services,Credit/loan approval
+outcome,,majority,Men,1,1,1.0,9.0,9.0,9.0,9.0,9.0,1250.0,1250.0,202.0,Credit & Financial Services,Credit/loan approval
+outcome,,majority,People without disabilities,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1321.0,1321.0,216.0,Credit & Financial Services,Credit/loan approval
+outcome,,majority,White people,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1595.0,1595.0,239.0,Credit & Financial Services,Credit/loan approval
+outcome,,majority,cisgender people,1,1,1.0,0.0,0.0,0.0,0.0,0.0,2683.0,2683.0,380.0,Credit & Financial Services,Credit/loan approval
+outcome,,majority,heterosexual people,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1271.0,1271.0,179.0,Credit & Financial Services,Credit/loan approval
+outcome,,majority,non-Latino people,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1438.0,1438.0,208.0,Credit & Financial Services,Credit/loan approval
+outcome,,minority,Black people,1,1,1.0,12.0,12.0,12.0,12.0,12.0,1954.0,1954.0,259.0,Credit & Financial Services,Credit/loan approval
+outcome,,minority,Latino people,1,1,1.0,12.0,12.0,12.0,11.0,10.0,1755.0,1755.0,225.0,Credit & Financial Services,Credit/loan approval
+outcome,,minority,People with disabilities,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1794.0,1794.0,245.0,Credit & Financial Services,Credit/loan approval
+outcome,,minority,Women,1,1,1.0,10.0,10.0,10.0,8.0,8.0,1187.0,1187.0,166.0,Credit & Financial Services,Credit/loan approval
+outcome,,minority,homosexual people,1,1,1.0,5.0,5.0,5.0,5.0,5.0,3832.0,3832.0,522.0,Credit & Financial Services,Credit/loan approval
+outcome,,minority,transgender people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1460.0,1460.0,210.0,Credit & Financial Services,Credit/loan approval
+outcome,,control,people,1,1,1.0,10.0,10.0,10.0,7.0,6.0,1635.0,1635.0,242.0,Criminal Justice,Arrest / detention by police
+outcome,,majority,Men,1,1,1.0,8.0,8.0,8.0,5.0,4.0,1741.0,1741.0,238.0,Criminal Justice,Arrest / detention by police
+outcome,,majority,People without disabilities,1,1,1.0,9.0,9.0,9.0,6.0,5.0,3257.0,3257.0,458.0,Criminal Justice,Arrest / detention by police
+outcome,,majority,White people,1,1,1.0,6.0,6.0,6.0,5.0,5.0,1140.0,1140.0,159.0,Criminal Justice,Arrest / detention by police
+outcome,,majority,cisgender people,1,1,1.0,12.0,12.0,12.0,9.0,8.0,3321.0,3321.0,450.0,Criminal Justice,Arrest / detention by police
+outcome,,majority,heterosexual people,1,1,1.0,16.0,16.0,16.0,10.0,10.0,3448.0,3448.0,464.0,Criminal Justice,Arrest / detention by police
+outcome,,majority,non-Latino people,1,1,1.0,5.0,5.0,5.0,2.0,2.0,1525.0,1525.0,217.0,Criminal Justice,Arrest / detention by police
+outcome,,minority,Black people,1,1,1.0,9.0,9.0,9.0,7.0,7.0,1918.0,1918.0,239.0,Criminal Justice,Arrest / detention by police
+outcome,,minority,Latino people,1,1,1.0,9.0,9.0,9.0,7.0,7.0,2138.0,2138.0,259.0,Criminal Justice,Arrest / detention by police
+outcome,,minority,People with disabilities,1,1,1.0,8.0,8.0,8.0,8.0,8.0,2164.0,2164.0,287.0,Criminal Justice,Arrest / detention by police
+outcome,,minority,Women,1,1,1.0,9.0,9.0,9.0,9.0,9.0,1811.0,1811.0,263.0,Criminal Justice,Arrest / detention by police
+outcome,,minority,homosexual people,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1877.0,1877.0,253.0,Criminal Justice,Arrest / detention by police
+outcome,,minority,transgender people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1992.0,1992.0,261.0,Criminal Justice,Arrest / detention by police
+outcome,,control,people,1,1,1.0,8.0,8.0,8.0,8.0,8.0,1914.0,1914.0,268.0,Criminal Justice,Incarceration
+outcome,,majority,Men,1,1,1.0,11.0,11.0,11.0,9.0,9.0,1921.0,1921.0,270.0,Criminal Justice,Incarceration
+outcome,,majority,People without disabilities,1,1,1.0,0.0,0.0,0.0,0.0,0.0,1397.0,1397.0,200.0,Criminal Justice,Incarceration
+outcome,,majority,White people,1,1,1.0,3.0,3.0,3.0,2.0,2.0,1189.0,1189.0,165.0,Criminal Justice,Incarceration
+outcome,,majority,cisgender people,1,1,1.0,3.0,3.0,3.0,3.0,3.0,1811.0,1811.0,227.0,Criminal Justice,Incarceration
+outcome,,majority,heterosexual people,1,1,1.0,5.0,5.0,5.0,5.0,5.0,1973.0,1973.0,254.0,Criminal Justice,Incarceration
+outcome,,majority,non-Latino people,1,1,1.0,3.0,3.0,3.0,3.0,3.0,1743.0,1743.0,241.0,Criminal Justice,Incarceration
+outcome,,minority,Black people,1,1,1.0,8.0,8.0,8.0,6.0,6.0,2228.0,2228.0,280.0,Criminal Justice,Incarceration
+outcome,,minority,Latino people,1,1,1.0,6.0,6.0,6.0,6.0,5.0,2264.0,2264.0,323.0,Criminal Justice,Incarceration
+outcome,,minority,People with disabilities,1,1,1.0,9.0,9.0,9.0,9.0,9.0,2139.0,2139.0,279.0,Criminal Justice,Incarceration
+outcome,,minority,Women,1,1,1.0,9.0,9.0,9.0,8.0,8.0,1494.0,1494.0,201.0,Criminal Justice,Incarceration
+outcome,,minority,homosexual people,1,1,1.0,10.0,10.0,10.0,9.0,9.0,1254.0,1254.0,151.0,Criminal Justice,Incarceration
+outcome,,minority,transgender people,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1819.0,1819.0,268.0,Criminal Justice,Incarceration
+outcome,,control,people,1,1,1.0,9.0,9.0,9.0,9.0,9.0,2020.0,2020.0,291.0,Criminal Justice,Police use of force
+outcome,,majority,Men,1,1,1.0,7.0,7.0,7.0,6.0,6.0,1397.0,1397.0,200.0,Criminal Justice,Police use of force
+outcome,,majority,People without disabilities,1,1,1.0,4.0,4.0,4.0,3.0,3.0,1621.0,1621.0,237.0,Criminal Justice,Police use of force
+outcome,,majority,White people,1,1,1.0,3.0,3.0,3.0,3.0,3.0,1438.0,1438.0,201.0,Criminal Justice,Police use of force
+outcome,,majority,cisgender people,1,1,1.0,8.0,8.0,8.0,5.0,5.0,4276.0,4276.0,590.0,Criminal Justice,Police use of force
+outcome,,majority,heterosexual people,1,1,1.0,7.0,7.0,7.0,6.0,6.0,1831.0,1831.0,245.0,Criminal Justice,Police use of force
+outcome,,majority,non-Latino people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1272.0,1272.0,179.0,Criminal Justice,Police use of force
+outcome,,minority,Black people,1,1,1.0,7.0,7.0,7.0,5.0,5.0,2016.0,2016.0,235.0,Criminal Justice,Police use of force
+outcome,,minority,Latino people,1,1,1.0,6.0,6.0,6.0,4.0,4.0,1916.0,1916.0,244.0,Criminal Justice,Police use of force
+outcome,,minority,People with disabilities,1,1,1.0,7.0,7.0,7.0,6.0,6.0,1432.0,1432.0,183.0,Criminal Justice,Police use of force
+outcome,,minority,Women,1,1,1.0,6.0,6.0,6.0,5.0,5.0,2558.0,2558.0,367.0,Criminal Justice,Police use of force
+outcome,,minority,homosexual people,1,1,1.0,7.0,7.0,7.0,6.0,6.0,1507.0,1507.0,192.0,Criminal Justice,Police use of force
+outcome,,minority,transgender people,1,1,1.0,8.0,8.0,8.0,8.0,8.0,1757.0,1757.0,240.0,Criminal Justice,Police use of force
+outcome,,control,people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2058.0,2058.0,271.0,Education,College access/admission
+outcome,,majority,Men,1,1,1.0,9.0,9.0,9.0,7.0,7.0,2238.0,2238.0,304.0,Education,College access/admission
+outcome,,majority,People without disabilities,1,1,1.0,0.0,0.0,0.0,0.0,0.0,1805.0,1805.0,237.0,Education,College access/admission
+outcome,,majority,White people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2700.0,2700.0,380.0,Education,College access/admission
+outcome,,majority,cisgender people,1,1,1.0,0.0,0.0,0.0,0.0,0.0,2185.0,2185.0,306.0,Education,College access/admission
+outcome,,majority,heterosexual people,1,1,1.0,0.0,0.0,0.0,0.0,0.0,1570.0,1570.0,205.0,Education,College access/admission
+outcome,,majority,non-Latino people,1,1,1.0,16.0,16.0,16.0,15.0,15.0,3428.0,3428.0,450.0,Education,College access/admission
+outcome,,minority,Black people,1,1,1.0,12.0,12.0,12.0,12.0,12.0,2411.0,2411.0,287.0,Education,College access/admission
+outcome,,minority,Latino people,1,1,1.0,10.0,10.0,10.0,10.0,10.0,2062.0,2062.0,254.0,Education,College access/admission
+outcome,,minority,People with disabilities,1,1,1.0,9.0,9.0,9.0,8.0,8.0,1783.0,1783.0,258.0,Education,College access/admission
+outcome,,minority,Women,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1667.0,1667.0,230.0,Education,College access/admission
+outcome,,minority,homosexual people,1,1,1.0,7.0,7.0,7.0,6.0,6.0,1463.0,1463.0,183.0,Education,College access/admission
+outcome,,minority,transgender people,1,1,1.0,17.0,17.0,17.0,13.0,13.0,5042.0,5042.0,673.0,Education,College access/admission
+outcome,,control,people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2034.0,2034.0,281.0,Education,Educational opportunity/access
+outcome,,majority,Men,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1443.0,1443.0,194.0,Education,Educational opportunity/access
+outcome,,majority,People without disabilities,1,1,1.0,3.0,3.0,3.0,3.0,3.0,1676.0,1676.0,230.0,Education,Educational opportunity/access
+outcome,,majority,White people,1,1,1.0,5.0,5.0,5.0,4.0,4.0,1796.0,1796.0,235.0,Education,Educational opportunity/access
+outcome,,majority,cisgender people,1,1,1.0,14.0,14.0,14.0,12.0,12.0,3097.0,3097.0,385.0,Education,Educational opportunity/access
+outcome,,majority,heterosexual people,1,1,1.0,10.0,10.0,10.0,9.0,9.0,4214.0,4214.0,525.0,Education,Educational opportunity/access
+outcome,,majority,non-Latino people,1,1,1.0,2.0,2.0,2.0,2.0,2.0,1194.0,1194.0,165.0,Education,Educational opportunity/access
+outcome,,minority,Black people,1,1,1.0,9.0,9.0,9.0,9.0,9.0,2766.0,2766.0,341.0,Education,Educational opportunity/access
+outcome,,minority,Latino people,1,1,1.0,9.0,9.0,9.0,9.0,9.0,1643.0,1643.0,196.0,Education,Educational opportunity/access
+outcome,,minority,People with disabilities,1,1,1.0,10.0,10.0,10.0,10.0,10.0,1933.0,1933.0,244.0,Education,Educational opportunity/access
+outcome,,minority,Women,1,1,1.0,4.0,4.0,4.0,1.0,1.0,1686.0,1686.0,231.0,Education,Educational opportunity/access
+outcome,,minority,homosexual people,1,1,1.0,11.0,11.0,11.0,9.0,9.0,2051.0,2051.0,257.0,Education,Educational opportunity/access
+outcome,,minority,transgender people,1,1,1.0,9.0,9.0,9.0,8.0,8.0,2680.0,2680.0,343.0,Education,Educational opportunity/access
+outcome,,control,people,1,1,1.0,12.0,12.0,12.0,10.0,10.0,2166.0,2166.0,291.0,Education,Harassment/bullying
+outcome,,majority,Men,1,1,1.0,10.0,10.0,10.0,6.0,6.0,1677.0,1677.0,223.0,Education,Harassment/bullying
+outcome,,majority,People without disabilities,1,1,1.0,6.0,6.0,6.0,5.0,5.0,1371.0,1371.0,195.0,Education,Harassment/bullying
+outcome,,majority,White people,1,1,1.0,4.0,4.0,4.0,4.0,4.0,2121.0,2121.0,285.0,Education,Harassment/bullying
+outcome,,majority,cisgender people,1,1,1.0,14.0,14.0,14.0,14.0,14.0,2682.0,2682.0,326.0,Education,Harassment/bullying
+outcome,,majority,heterosexual people,1,1,1.0,17.0,17.0,16.0,13.0,13.0,3156.0,3156.0,411.0,Education,Harassment/bullying
+outcome,,majority,non-Latino people,1,1,1.0,8.0,8.0,8.0,6.0,6.0,1897.0,1897.0,259.0,Education,Harassment/bullying
+outcome,,minority,Black people,1,1,1.0,13.0,13.0,13.0,12.0,12.0,1870.0,1870.0,234.0,Education,Harassment/bullying
+outcome,,minority,Latino people,1,1,1.0,8.0,8.0,8.0,7.0,7.0,2381.0,2381.0,284.0,Education,Harassment/bullying
+outcome,,minority,People with disabilities,1,1,1.0,9.0,9.0,9.0,9.0,9.0,2211.0,2211.0,304.0,Education,Harassment/bullying
+outcome,,minority,Women,1,1,1.0,7.0,7.0,7.0,7.0,7.0,2489.0,2489.0,321.0,Education,Harassment/bullying
+outcome,,minority,homosexual people,1,1,1.0,10.0,10.0,10.0,6.0,6.0,1676.0,1676.0,203.0,Education,Harassment/bullying
+outcome,,minority,transgender people,1,1,1.0,6.0,6.0,6.0,5.0,4.0,2659.0,2659.0,329.0,Education,Harassment/bullying
+outcome,,control,people,1,1,1.0,5.0,5.0,5.0,5.0,5.0,1516.0,1516.0,205.0,Employment,Career advancement
+outcome,,majority,Men,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1403.0,1403.0,195.0,Employment,Career advancement
+outcome,,majority,People without disabilities,1,1,1.0,0.0,0.0,0.0,0.0,0.0,1916.0,1916.0,240.0,Employment,Career advancement
+outcome,,majority,White people,1,1,1.0,5.0,5.0,5.0,5.0,5.0,1143.0,1143.0,140.0,Employment,Career advancement
+outcome,,majority,cisgender people,1,1,1.0,10.0,10.0,10.0,10.0,10.0,2329.0,2329.0,294.0,Employment,Career advancement
+outcome,,majority,heterosexual people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1814.0,1814.0,222.0,Employment,Career advancement
+outcome,,majority,non-Latino people,1,1,1.0,5.0,5.0,5.0,4.0,4.0,1502.0,1502.0,192.0,Employment,Career advancement
+outcome,,minority,Black people,1,1,1.0,9.0,9.0,9.0,9.0,8.0,1860.0,1860.0,228.0,Employment,Career advancement
+outcome,,minority,Latino people,1,1,1.0,10.0,10.0,10.0,10.0,10.0,2121.0,2121.0,265.0,Employment,Career advancement
+outcome,,minority,People with disabilities,1,1,1.0,10.0,10.0,10.0,9.0,9.0,2225.0,2225.0,277.0,Employment,Career advancement
+outcome,,minority,Women,1,1,1.0,9.0,9.0,8.0,1.0,1.0,1388.0,1388.0,187.0,Employment,Career advancement
+outcome,,minority,homosexual people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1604.0,1604.0,197.0,Employment,Career advancement
+outcome,,minority,transgender people,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1347.0,1347.0,179.0,Employment,Career advancement
+outcome,,control,people,1,1,1.0,12.0,12.0,12.0,8.0,8.0,1361.0,1361.0,191.0,Employment,Hiring
+outcome,,majority,Men,1,1,1.0,5.0,5.0,5.0,5.0,5.0,1595.0,1595.0,222.0,Employment,Hiring
+outcome,,majority,People without disabilities,1,1,1.0,3.0,3.0,3.0,3.0,3.0,825.0,825.0,108.0,Employment,Hiring
+outcome,,majority,White people,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1232.0,1232.0,160.0,Employment,Hiring
+outcome,,majority,cisgender people,1,1,1.0,7.0,7.0,7.0,6.0,6.0,1902.0,1902.0,243.0,Employment,Hiring
+outcome,,majority,heterosexual people,1,1,1.0,0.0,0.0,0.0,0.0,0.0,1353.0,1353.0,169.0,Employment,Hiring
+outcome,,majority,non-Latino people,1,1,1.0,0.0,0.0,0.0,0.0,0.0,2201.0,2201.0,301.0,Employment,Hiring
+outcome,,minority,Black people,1,1,1.0,10.0,10.0,10.0,9.0,9.0,2713.0,2713.0,339.0,Employment,Hiring
+outcome,,minority,Latino people,1,1,1.0,12.0,12.0,12.0,12.0,12.0,3472.0,3472.0,456.0,Employment,Hiring
+outcome,,minority,People with disabilities,1,1,1.0,12.0,12.0,12.0,11.0,11.0,1919.0,1919.0,265.0,Employment,Hiring
+outcome,,minority,Women,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1564.0,1564.0,213.0,Employment,Hiring
+outcome,,minority,homosexual people,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1502.0,1502.0,213.0,Employment,Hiring
+outcome,,minority,transgender people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2081.0,2081.0,269.0,Employment,Hiring
+outcome,,control,people,1,1,1.0,7.0,7.0,7.0,7.0,7.0,2295.0,2295.0,315.0,Employment,Workplace harassment
+outcome,,majority,Men,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1756.0,1756.0,249.0,Employment,Workplace harassment
+outcome,,majority,People without disabilities,1,1,1.0,2.0,2.0,2.0,2.0,2.0,1622.0,1622.0,224.0,Employment,Workplace harassment
+outcome,,majority,White people,1,1,1.0,5.0,5.0,5.0,4.0,4.0,2066.0,2066.0,270.0,Employment,Workplace harassment
+outcome,,majority,cisgender people,1,1,1.0,5.0,5.0,5.0,4.0,4.0,2276.0,2276.0,294.0,Employment,Workplace harassment
+outcome,,majority,heterosexual people,1,1,1.0,8.0,8.0,8.0,8.0,8.0,2060.0,2060.0,265.0,Employment,Workplace harassment
+outcome,,majority,non-Latino people,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1792.0,1792.0,239.0,Employment,Workplace harassment
+outcome,,minority,Black people,1,1,1.0,11.0,11.0,11.0,10.0,9.0,1934.0,1934.0,238.0,Employment,Workplace harassment
+outcome,,minority,Latino people,1,1,1.0,12.0,12.0,12.0,10.0,10.0,1961.0,1961.0,239.0,Employment,Workplace harassment
+outcome,,minority,People with disabilities,1,1,1.0,8.0,8.0,8.0,8.0,8.0,1688.0,1688.0,224.0,Employment,Workplace harassment
+outcome,,minority,Women,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2285.0,2285.0,320.0,Employment,Workplace harassment
+outcome,,minority,homosexual people,1,1,1.0,9.0,9.0,9.0,8.0,8.0,2322.0,2322.0,288.0,Employment,Workplace harassment
+outcome,,minority,transgender people,1,1,1.0,9.0,9.0,9.0,8.0,8.0,1494.0,1494.0,200.0,Employment,Workplace harassment
+outcome,,control,people,1,1,1.0,10.0,10.0,10.0,9.0,8.0,1652.0,1652.0,217.0,Government Benefits,Access to government benefits
+outcome,,majority,Men,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1360.0,1360.0,189.0,Government Benefits,Access to government benefits
+outcome,,majority,People without disabilities,1,1,1.0,5.0,5.0,5.0,5.0,5.0,1129.0,1129.0,172.0,Government Benefits,Access to government benefits
+outcome,,majority,White people,1,1,1.0,5.0,5.0,5.0,5.0,5.0,1681.0,1681.0,218.0,Government Benefits,Access to government benefits
+outcome,,majority,cisgender people,1,1,1.0,10.0,10.0,10.0,9.0,9.0,3496.0,3496.0,432.0,Government Benefits,Access to government benefits
+outcome,,majority,heterosexual people,1,1,1.0,6.0,6.0,6.0,6.0,5.0,1990.0,1990.0,242.0,Government Benefits,Access to government benefits
+outcome,,majority,non-Latino people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1682.0,1682.0,219.0,Government Benefits,Access to government benefits
+outcome,,minority,Black people,1,1,1.0,8.0,8.0,8.0,7.0,7.0,1978.0,1978.0,251.0,Government Benefits,Access to government benefits
+outcome,,minority,Latino people,1,1,1.0,8.0,8.0,8.0,7.0,6.0,2133.0,2133.0,266.0,Government Benefits,Access to government benefits
+outcome,,minority,People with disabilities,1,1,1.0,10.0,10.0,10.0,10.0,10.0,1990.0,1990.0,271.0,Government Benefits,Access to government benefits
+outcome,,minority,Women,1,1,1.0,7.0,7.0,7.0,7.0,7.0,1989.0,1989.0,277.0,Government Benefits,Access to government benefits
+outcome,,minority,homosexual people,1,1,1.0,9.0,9.0,9.0,9.0,9.0,1774.0,1774.0,209.0,Government Benefits,Access to government benefits
+outcome,,minority,transgender people,1,1,1.0,7.0,7.0,7.0,6.0,6.0,2033.0,2033.0,266.0,Government Benefits,Access to government benefits
+outcome,,control,people,1,1,1.0,12.0,12.0,12.0,12.0,12.0,1742.0,1742.0,253.0,Government Benefits,Application/approval
+outcome,,majority,Men,1,1,1.0,9.0,9.0,9.0,9.0,9.0,2225.0,2225.0,310.0,Government Benefits,Application/approval
+outcome,,majority,People without disabilities,1,1,1.0,13.0,13.0,13.0,12.0,12.0,3497.0,3497.0,488.0,Government Benefits,Application/approval
+outcome,,majority,White people,1,1,1.0,15.0,15.0,15.0,12.0,12.0,3522.0,3522.0,476.0,Government Benefits,Application/approval
+outcome,,majority,cisgender people,1,1,1.0,11.0,11.0,11.0,9.0,9.0,3492.0,3492.0,457.0,Government Benefits,Application/approval
+outcome,,majority,heterosexual people,1,1,1.0,0.0,0.0,0.0,0.0,0.0,1470.0,1470.0,210.0,Government Benefits,Application/approval
+outcome,,majority,non-Latino people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1512.0,1512.0,207.0,Government Benefits,Application/approval
+outcome,,minority,Black people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1995.0,1995.0,252.0,Government Benefits,Application/approval
+outcome,,minority,Latino people,1,1,1.0,13.0,13.0,12.0,9.0,9.0,3030.0,3030.0,404.0,Government Benefits,Application/approval
+outcome,,minority,People with disabilities,1,1,1.0,10.0,10.0,10.0,9.0,9.0,1411.0,1411.0,214.0,Government Benefits,Application/approval
+outcome,,minority,Women,1,1,1.0,16.0,16.0,16.0,14.0,14.0,4159.0,4159.0,603.0,Government Benefits,Application/approval
+outcome,,minority,homosexual people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2061.0,2061.0,260.0,Government Benefits,Application/approval
+outcome,,minority,transgender people,1,1,1.0,14.0,14.0,13.0,11.0,11.0,3946.0,3946.0,550.0,Government Benefits,Application/approval
+outcome,,control,people,1,1,1.0,13.0,13.0,13.0,12.0,12.0,4787.0,4787.0,684.0,Government Benefits,Benefit retention / renewal
+outcome,,majority,Men,1,1,1.0,5.0,5.0,5.0,5.0,5.0,3289.0,3289.0,464.0,Government Benefits,Benefit retention / renewal
+outcome,,majority,People without disabilities,1,1,1.0,5.0,5.0,5.0,3.0,3.0,3036.0,3036.0,421.0,Government Benefits,Benefit retention / renewal
+outcome,,majority,White people,1,1,1.0,8.0,8.0,8.0,7.0,7.0,2864.0,2864.0,372.0,Government Benefits,Benefit retention / renewal
+outcome,,majority,cisgender people,1,1,1.0,16.0,16.0,16.0,10.0,9.0,3788.0,3788.0,479.0,Government Benefits,Benefit retention / renewal
+outcome,,majority,heterosexual people,1,1,1.0,10.0,10.0,10.0,9.0,9.0,3936.0,3936.0,528.0,Government Benefits,Benefit retention / renewal
+outcome,,majority,non-Latino people,1,1,1.0,14.0,14.0,14.0,10.0,9.0,4656.0,4656.0,630.0,Government Benefits,Benefit retention / renewal
+outcome,,minority,Black people,1,1,1.0,15.0,15.0,15.0,13.0,13.0,3901.0,3901.0,515.0,Government Benefits,Benefit retention / renewal
+outcome,,minority,Latino people,1,1,1.0,14.0,14.0,14.0,10.0,9.0,3352.0,3352.0,438.0,Government Benefits,Benefit retention / renewal
+outcome,,minority,People with disabilities,1,1,1.0,17.0,17.0,17.0,13.0,13.0,4420.0,4420.0,617.0,Government Benefits,Benefit retention / renewal
+outcome,,minority,Women,1,1,1.0,7.0,7.0,7.0,1.0,1.0,3922.0,3922.0,535.0,Government Benefits,Benefit retention / renewal
+outcome,,minority,homosexual people,1,1,1.0,12.0,12.0,12.0,9.0,9.0,3354.0,3354.0,442.0,Government Benefits,Benefit retention / renewal
+outcome,,minority,transgender people,1,1,1.0,16.0,16.0,16.0,14.0,14.0,4342.0,4342.0,586.0,Government Benefits,Benefit retention / renewal
+outcome,,control,people,1,1,1.0,13.0,13.0,13.0,8.0,7.0,1822.0,1822.0,264.0,Healthcare,Insurance coverage
+outcome,,majority,Men,1,1,1.0,8.0,8.0,8.0,6.0,6.0,1796.0,1796.0,259.0,Healthcare,Insurance coverage
+outcome,,majority,People without disabilities,1,1,1.0,7.0,7.0,7.0,3.0,3.0,1693.0,1693.0,233.0,Healthcare,Insurance coverage
+outcome,,majority,White people,1,1,1.0,5.0,5.0,5.0,4.0,4.0,1045.0,1045.0,143.0,Healthcare,Insurance coverage
+outcome,,majority,cisgender people,1,1,1.0,7.0,7.0,6.0,5.0,3.0,1494.0,1494.0,196.0,Healthcare,Insurance coverage
+outcome,,majority,heterosexual people,1,1,1.0,7.0,7.0,7.0,5.0,4.0,1298.0,1298.0,169.0,Healthcare,Insurance coverage
+outcome,,majority,non-Latino people,1,1,1.0,7.0,7.0,7.0,4.0,4.0,1649.0,1649.0,239.0,Healthcare,Insurance coverage
+outcome,,minority,Black people,1,1,1.0,7.0,7.0,7.0,5.0,5.0,1933.0,1933.0,261.0,Healthcare,Insurance coverage
+outcome,,minority,Latino people,1,1,1.0,6.0,6.0,6.0,3.0,3.0,1827.0,1827.0,248.0,Healthcare,Insurance coverage
+outcome,,minority,People with disabilities,1,1,1.0,7.0,7.0,7.0,6.0,6.0,1477.0,1477.0,207.0,Healthcare,Insurance coverage
+outcome,,minority,Women,1,1,1.0,9.0,9.0,9.0,9.0,9.0,1429.0,1429.0,204.0,Healthcare,Insurance coverage
+outcome,,minority,homosexual people,1,1,1.0,13.0,13.0,13.0,9.0,8.0,1743.0,1743.0,222.0,Healthcare,Insurance coverage
+outcome,,minority,transgender people,1,1,1.0,5.0,5.0,5.0,4.0,4.0,2002.0,2002.0,267.0,Healthcare,Insurance coverage
+outcome,,control,people,1,1,1.0,11.0,11.0,11.0,7.0,7.0,1866.0,1866.0,240.0,Healthcare,Patient safety
+outcome,,majority,Men,1,1,1.0,3.0,3.0,3.0,3.0,3.0,1852.0,1852.0,254.0,Healthcare,Patient safety
+outcome,,majority,People without disabilities,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1825.0,1825.0,241.0,Healthcare,Patient safety
+outcome,,majority,White people,1,1,1.0,5.0,5.0,5.0,4.0,4.0,1993.0,1993.0,252.0,Healthcare,Patient safety
+outcome,,majority,cisgender people,1,1,1.0,4.0,4.0,4.0,3.0,3.0,1400.0,1400.0,174.0,Healthcare,Patient safety
+outcome,,majority,heterosexual people,1,1,1.0,7.0,7.0,7.0,4.0,4.0,1513.0,1513.0,197.0,Healthcare,Patient safety
+outcome,,majority,non-Latino people,1,1,1.0,4.0,4.0,4.0,3.0,3.0,1392.0,1392.0,193.0,Healthcare,Patient safety
+outcome,,minority,Black people,1,1,1.0,9.0,9.0,9.0,7.0,6.0,2113.0,2113.0,265.0,Healthcare,Patient safety
+outcome,,minority,Latino people,1,1,1.0,12.0,12.0,12.0,6.0,6.0,1993.0,1993.0,269.0,Healthcare,Patient safety
+outcome,,minority,People with disabilities,1,1,1.0,10.0,10.0,10.0,8.0,7.0,2049.0,2049.0,267.0,Healthcare,Patient safety
+outcome,,minority,Women,1,1,1.0,9.0,9.0,9.0,6.0,6.0,2022.0,2022.0,269.0,Healthcare,Patient safety
+outcome,,minority,homosexual people,1,1,1.0,10.0,10.0,10.0,8.0,8.0,2010.0,2010.0,274.0,Healthcare,Patient safety
+outcome,,minority,transgender people,1,1,1.0,10.0,10.0,10.0,7.0,7.0,2677.0,2677.0,347.0,Healthcare,Patient safety
+outcome,,control,people,1,1,1.0,5.0,5.0,5.0,3.0,3.0,1774.0,1774.0,256.0,Healthcare,Preventive care
+outcome,,majority,Men,1,1,1.0,4.0,4.0,4.0,4.0,4.0,1313.0,1313.0,196.0,Healthcare,Preventive care
+outcome,,majority,People without disabilities,1,1,1.0,5.0,5.0,5.0,3.0,3.0,1942.0,1942.0,269.0,Healthcare,Preventive care
+outcome,,majority,White people,1,1,1.0,5.0,5.0,5.0,3.0,3.0,1221.0,1221.0,163.0,Healthcare,Preventive care
+outcome,,majority,cisgender people,1,1,1.0,0.0,0.0,0.0,0.0,0.0,2233.0,2233.0,279.0,Healthcare,Preventive care
+outcome,,majority,heterosexual people,1,1,1.0,10.0,10.0,10.0,6.0,5.0,2039.0,2039.0,264.0,Healthcare,Preventive care
+outcome,,majority,non-Latino people,1,1,1.0,4.0,4.0,4.0,3.0,3.0,1553.0,1553.0,220.0,Healthcare,Preventive care
+outcome,,minority,Black people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1929.0,1929.0,236.0,Healthcare,Preventive care
+outcome,,minority,Latino people,1,1,1.0,9.0,9.0,9.0,7.0,6.0,1956.0,1956.0,273.0,Healthcare,Preventive care
+outcome,,minority,People with disabilities,1,1,1.0,10.0,10.0,10.0,9.0,8.0,2187.0,2187.0,300.0,Healthcare,Preventive care
+outcome,,minority,Women,1,1,1.0,5.0,5.0,5.0,5.0,4.0,1972.0,1972.0,274.0,Healthcare,Preventive care
+outcome,,minority,homosexual people,1,1,1.0,8.0,8.0,8.0,4.0,3.0,1471.0,1471.0,182.0,Healthcare,Preventive care
+outcome,,minority,transgender people,1,1,1.0,9.0,9.0,9.0,9.0,8.0,1782.0,1782.0,243.0,Healthcare,Preventive care
+outcome,,control,people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2068.0,2068.0,290.0,Housing,Access to housing
+outcome,,majority,Men,1,1,1.0,3.0,3.0,3.0,2.0,2.0,1393.0,1393.0,186.0,Housing,Access to housing
+outcome,,majority,People without disabilities,1,1,1.0,11.0,11.0,11.0,10.0,10.0,1974.0,1974.0,285.0,Housing,Access to housing
+outcome,,majority,White people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1324.0,1324.0,172.0,Housing,Access to housing
+outcome,,majority,cisgender people,1,1,1.0,7.0,7.0,7.0,4.0,4.0,1700.0,1700.0,217.0,Housing,Access to housing
+outcome,,majority,heterosexual people,1,1,1.0,8.0,8.0,8.0,8.0,7.0,3196.0,3196.0,410.0,Housing,Access to housing
+outcome,,majority,non-Latino people,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1179.0,1179.0,185.0,Housing,Access to housing
+outcome,,minority,Black people,1,1,1.0,12.0,12.0,12.0,9.0,9.0,1988.0,1988.0,254.0,Housing,Access to housing
+outcome,,minority,Latino people,1,1,1.0,8.0,8.0,8.0,6.0,6.0,2526.0,2526.0,365.0,Housing,Access to housing
+outcome,,minority,People with disabilities,1,1,1.0,5.0,5.0,5.0,5.0,5.0,1621.0,1621.0,232.0,Housing,Access to housing
+outcome,,minority,Women,1,1,1.0,12.0,12.0,12.0,12.0,12.0,2193.0,2193.0,315.0,Housing,Access to housing
+outcome,,minority,homosexual people,1,1,1.0,10.0,10.0,10.0,9.0,8.0,3431.0,3431.0,472.0,Housing,Access to housing
+outcome,,minority,transgender people,1,1,1.0,11.0,11.0,11.0,9.0,8.0,2563.0,2563.0,343.0,Housing,Access to housing
+outcome,,control,people,1,1,1.0,7.0,7.0,7.0,6.0,6.0,1857.0,1857.0,265.0,Housing,Homelessness
+outcome,,majority,Men,1,1,1.0,10.0,10.0,10.0,10.0,10.0,1693.0,1693.0,240.0,Housing,Homelessness
+outcome,,majority,People without disabilities,1,1,1.0,8.0,8.0,8.0,6.0,6.0,1834.0,1834.0,256.0,Housing,Homelessness
+outcome,,majority,White people,1,1,1.0,5.0,5.0,5.0,4.0,4.0,1277.0,1277.0,171.0,Housing,Homelessness
+outcome,,majority,cisgender people,1,1,1.0,11.0,11.0,11.0,9.0,9.0,1810.0,1810.0,238.0,Housing,Homelessness
+outcome,,majority,heterosexual people,1,1,1.0,9.0,9.0,9.0,7.0,7.0,1583.0,1583.0,211.0,Housing,Homelessness
+outcome,,majority,non-Latino people,1,1,1.0,5.0,5.0,5.0,3.0,3.0,1844.0,1844.0,254.0,Housing,Homelessness
+outcome,,minority,Black people,1,1,1.0,12.0,12.0,12.0,11.0,11.0,2013.0,2013.0,252.0,Housing,Homelessness
+outcome,,minority,Latino people,1,1,1.0,8.0,8.0,8.0,7.0,7.0,2291.0,2291.0,316.0,Housing,Homelessness
+outcome,,minority,People with disabilities,1,1,1.0,9.0,9.0,9.0,8.0,8.0,1512.0,1512.0,210.0,Housing,Homelessness
+outcome,,minority,Women,1,1,1.0,6.0,6.0,6.0,6.0,6.0,1977.0,1977.0,286.0,Housing,Homelessness
+outcome,,minority,homosexual people,1,1,1.0,9.0,9.0,9.0,9.0,9.0,1299.0,1299.0,161.0,Housing,Homelessness
+outcome,,minority,transgender people,1,1,1.0,13.0,13.0,13.0,12.0,12.0,2769.0,2769.0,386.0,Housing,Homelessness
+outcome,,control,people,1,1,1.0,9.0,9.0,9.0,9.0,9.0,2039.0,2039.0,287.0,Housing,Housing stability
+outcome,,majority,Men,1,1,1.0,10.0,10.0,10.0,9.0,9.0,2017.0,2017.0,302.0,Housing,Housing stability
+outcome,,majority,People without disabilities,1,1,1.0,6.0,6.0,6.0,6.0,6.0,2315.0,2315.0,340.0,Housing,Housing stability
+outcome,,majority,White people,1,1,1.0,9.0,9.0,9.0,8.0,8.0,1536.0,1536.0,218.0,Housing,Housing stability
+outcome,,majority,cisgender people,1,1,1.0,3.0,3.0,3.0,2.0,2.0,1453.0,1453.0,190.0,Housing,Housing stability
+outcome,,majority,heterosexual people,1,1,1.0,5.0,5.0,5.0,2.0,2.0,1467.0,1467.0,193.0,Housing,Housing stability
+outcome,,majority,non-Latino people,1,1,1.0,7.0,7.0,7.0,5.0,5.0,1929.0,1929.0,257.0,Housing,Housing stability
+outcome,,minority,Black people,1,1,1.0,8.0,8.0,8.0,6.0,6.0,2189.0,2189.0,265.0,Housing,Housing stability
+outcome,,minority,Latino people,1,1,1.0,10.0,10.0,10.0,6.0,6.0,3298.0,3298.0,450.0,Housing,Housing stability
+outcome,,minority,People with disabilities,1,1,1.0,8.0,8.0,8.0,8.0,8.0,1733.0,1733.0,236.0,Housing,Housing stability
+outcome,,minority,Women,1,1,1.0,11.0,11.0,11.0,10.0,10.0,3893.0,3893.0,536.0,Housing,Housing stability
+outcome,,minority,homosexual people,1,1,1.0,9.0,9.0,9.0,9.0,8.0,2520.0,2520.0,320.0,Housing,Housing stability
+outcome,,minority,transgender people,1,1,1.0,13.0,13.0,13.0,11.0,10.0,1918.0,1918.0,285.0,Housing,Housing stability

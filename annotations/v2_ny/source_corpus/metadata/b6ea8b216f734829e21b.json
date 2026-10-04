@@ -1,0 +1,20 @@
+{
+  "source_id": "b6ea8b216f734829e21b",
+  "normalized_url": "https://homelesshub.ca/collection/population-groups/people-with-disabilities",
+  "fetch_timestamp_utc": "2026-10-04T02:47:14.930732+00:00",
+  "registrable_domain": "homelesshub.ca",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://homelesshub.ca/collection/population-groups/people-with-disabilities",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 52,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

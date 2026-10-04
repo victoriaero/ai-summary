@@ -1,0 +1,22 @@
+{
+  "source_id": "82820c38fe1ee764d716",
+  "normalized_url": "https://ed.gov/media/document/factsheet-supporting-transgender-youth-school-june-2021-112270.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:31:17.833040+00:00",
+  "registrable_domain": "ed.gov",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.ed.gov/media/document/factsheet-supporting-transgender-youth-school-june-2021-112270.pdf",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:31:27 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "11738",
+    "Connection": "close",
+    "x-azure-ref": "20260929T193127Z-159d7fc6cf8h7xsrhC1RIO2s500000001e2g0000000021v4",
+    "X-Cache": "CONFIG_NOCACHE"
+  },
+  "downloaded_bytes": 11738,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

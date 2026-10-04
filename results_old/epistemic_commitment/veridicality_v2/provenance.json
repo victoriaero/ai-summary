@@ -1,0 +1,21 @@
+{
+  "resource": "MegaVeridicality v2.1",
+  "score": "veridicalitynorm",
+  "seed": 20260930,
+  "resource_note": "The normalized TSV encodes frame and polarity; voice is represented in frame strings. It has no separate conditional column, so conditional contexts are unmatched.",
+  "parser": {
+    "spacy": "3.8.16",
+    "model": "en_core_web_sm",
+    "model_version": "3.8.0"
+  },
+  "strict_scored_occurrences": 458,
+  "unmatched_by_reason": {
+    "no_clause_complement": 6547,
+    "predicate_not_in_resource": 616,
+    "frame_unresolved": 299,
+    "eventivity_unresolved": 286,
+    "conditional_context": 96,
+    "ambiguous_surface": 48
+  },
+  "annotation_blindness": "prediction/match labels are kept in validation_key.csv, separate from validation_blind.csv"
+}

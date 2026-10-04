@@ -1,0 +1,28 @@
+{
+  "source_id": "cca9bb423cebd81a0cfb",
+  "normalized_url": "https://pointofpride.org/blog/new-executive-order-targets-transgender-and-non-binary-americans-what-you-need-to-know",
+  "fetch_timestamp_utc": "2026-10-04T02:48:51.558807+00:00",
+  "registrable_domain": "pointofpride.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.pointofpride.org/blog/new-executive-order-targets-transgender-and-non-binary-americans-what-you-need-to-know",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 116426,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cca9bb423cebd81a0cfb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cca9bb423cebd81a0cfb.txt",
+  "text_chars": 4962,
+  "text_words": 738,
+  "extraction_status": "success",
+  "page_title": "New Executive Order Targets Transgender and Non-Binary Americans: What You Need to Know",
+  "page_author": "Point",
+  "page_date": "2025-03-12",
+  "site_name": "Point of Pride",
+  "canonical_url": "https://www.pointofpride.org/blog/new-executive-order-targets-transgender-and-non-binary-americans-what-you-need-to-know"
+}

@@ -1,0 +1,23 @@
+{
+  "source_id": "fb0dfff5ec86ba8d6cd1",
+  "normalized_url": "https://cato.org/sites/cato.org/files/serials/files/cato-journal/1995/11/cj15n2-3-5.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:42:33.690083+00:00",
+  "registrable_domain": "cato.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.cato.org/sites/cato.org/files/serials/files/cato-journal/1995/11/cj15n2-3-5.pdf",
+  "headers": {
+    "Content-Type": "text/html",
+    "Cache-Control": "no-cache, no-store",
+    "Connection": "close",
+    "Content-Length": "882",
+    "X-Iinfo": "51-82816561-0 0NNN RT(1790711004716 21) q(0 -1 -1 62) r(0 -1) B15(4,201,0) U24",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Set-Cookie": "visid_incap_1012442=dT46VSDCRRaI4wvO8AJ9KNwUvGoAAAAAQUIPAAAAAAAlKV5EU6yOBlT4DA1tj5So; expires=Wed, 29 Sep 2027 06:56:39 GMT; HttpOnly; path=/; Domain=.cato.org; Secure; SameSite=None, incap_ses_701_1012442=iwngLgczrGxUSsOvg3S6CdwUvGoAAAAAchREiEJkGnzAQ9p0TFZGYA==; path=/; Domain=.cato.org; Secure; SameSite=None"
+  },
+  "downloaded_bytes": 882,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

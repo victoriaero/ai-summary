@@ -1,0 +1,28 @@
+{
+  "source_id": "52ab46bf21eee6094579",
+  "normalized_url": "https://complyeq.com/resources/articles/transgender-issues-workplace-abuse-hiring-discrimination",
+  "fetch_timestamp_utc": "2026-10-04T03:36:48.425067+00:00",
+  "registrable_domain": "complyeq.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://complyeq.com/resources/articles/transgender-issues-workplace-abuse-hiring-discrimination/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 137574,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/52ab46bf21eee6094579.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/52ab46bf21eee6094579.txt",
+  "text_chars": 11139,
+  "text_words": 1628,
+  "extraction_status": "success",
+  "page_title": "Transgender Issues in the Workplace",
+  "page_author": "Rico Galassi",
+  "page_date": "2018-11-08",
+  "site_name": "Complyeq",
+  "canonical_url": "https://complyeq.com/resources/articles/transgender-issues-workplace-abuse-hiring-discrimination/"
+}

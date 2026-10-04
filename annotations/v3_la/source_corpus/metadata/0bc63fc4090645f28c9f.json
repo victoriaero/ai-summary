@@ -1,0 +1,28 @@
+{
+  "source_id": "0bc63fc4090645f28c9f",
+  "normalized_url": "https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/housing-instability",
+  "fetch_timestamp_utc": "2026-10-04T03:31:46.222837+00:00",
+  "registrable_domain": "health.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/housing-instability",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 59609,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/0bc63fc4090645f28c9f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/0bc63fc4090645f28c9f.txt",
+  "text_chars": 14725,
+  "text_words": 2118,
+  "extraction_status": "success",
+  "page_title": "Housing Instability",
+  "page_author": null,
+  "page_date": "2011-03-01",
+  "site_name": "odphp.health.gov",
+  "canonical_url": "https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/housing-instability"
+}

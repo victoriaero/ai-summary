@@ -1,0 +1,28 @@
+{
+  "source_id": "8638eb11716520c83249",
+  "normalized_url": "https://ndrn.org/resource/ndeam-article-3",
+  "fetch_timestamp_utc": "2026-10-04T03:40:57.436446+00:00",
+  "registrable_domain": "ndrn.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ndrn.org/resource/ndeam-article-3/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 69381,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8638eb11716520c83249.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8638eb11716520c83249.txt",
+  "text_chars": 2967,
+  "text_words": 455,
+  "extraction_status": "success",
+  "page_title": "Disability Rights In the Workplace: The ADA - NDRN",
+  "page_author": null,
+  "page_date": "2022-10-13",
+  "site_name": "National Disability Rights Network",
+  "canonical_url": "https://www.ndrn.org/resource/ndeam-article-3/"
+}

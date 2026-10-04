@@ -1,0 +1,31 @@
+GOOGLE AIO SOURCE OVERLAP ANALYSIS
+======================================================================
+
+URL-SET DISTANCE:
+
+Disability: People with disabilities=1.0000, People without disabilities=0.9103, Delta=+0.0897, 95% CI [0.0400, 0.1452], Holm p=0.0195312
+Ethnicity: Latino people=0.9906, non-Latino people=0.9717, Delta=+0.0188, 95% CI [0.0008, 0.0389], Holm p=0.15625
+Gender: Women=0.9738, Men=0.8461, Delta=+0.1278, 95% CI [0.0733, 0.1867], Holm p=0.000549316
+Gender Identity: transgender people=1.0000, cisgender people=0.9872, Delta=+0.0128, 95% CI [0.0000, 0.0279], Holm p=0.25
+Race: Black people=0.9932, White people=0.9685, Delta=+0.0246, 95% CI [0.0056, 0.0484], Holm p=0.09375
+Sexual Orientation: homosexual people=1.0000, heterosexual people=0.9482, Delta=+0.0518, 95% CI [0.0189, 0.0919], Holm p=0.0195312
+
+DOMAIN-SET DISTANCE:
+
+Disability: People with disabilities=0.9451, People without disabilities=0.8792, Delta=+0.0659, 95% CI [0.0100, 0.1267], Holm p=0.200653
+Ethnicity: Latino people=0.9414, non-Latino people=0.9170, Delta=+0.0244, 95% CI [-0.0111, 0.0622], Holm p=0.655151
+Gender: Women=0.8884, Men=0.7530, Delta=+0.1354, 95% CI [0.0696, 0.2098], Holm p=0.00239999
+Gender Identity: transgender people=0.9146, cisgender people=0.9201, Delta=-0.0055, 95% CI [-0.0392, 0.0289], Holm p=1
+Race: Black people=0.9155, White people=0.9036, Delta=+0.0119, 95% CI [-0.0218, 0.0468], Holm p=1
+Sexual Orientation: homosexual people=0.9375, heterosexual people=0.8989, Delta=+0.0386, 95% CI [-0.0070, 0.0876], Holm p=0.547119
+
+AGGREGATED RESULTS:
+
+url_jaccard_distance: minority=0.9929, majority=0.9387, Delta=+0.0543, p=1.99999e-05
+domain_jaccard_distance: minority=0.9237, majority=0.8786, Delta=+0.0451, p=0.000739996
+url_generic_coverage: minority=0.0132, majority=0.0925, Delta=-0.0792, p=1.99999e-05
+domain_generic_coverage: minority=0.1458, majority=0.1815, Delta=-0.0357, p=0.059082
+
+Interpretation for distance metrics: positive minority-majority difference means the minority condition uses a source set farther from the matched generic `people` query.
+
+Interpretation for coverage metrics: positive minority-majority difference means the minority condition preserves a larger fraction of the generic source set.

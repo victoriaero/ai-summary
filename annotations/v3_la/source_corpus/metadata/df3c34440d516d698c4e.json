@@ -1,0 +1,28 @@
+{
+  "source_id": "df3c34440d516d698c4e",
+  "normalized_url": "https://latinoslead.org/the-growing-influence-of-latino-millennials-in-todays-workplace",
+  "fetch_timestamp_utc": "2026-10-04T03:47:29.481579+00:00",
+  "registrable_domain": "latinoslead.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://latinoslead.org/the-growing-influence-of-latino-millennials-in-todays-workplace/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 142157,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/df3c34440d516d698c4e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/df3c34440d516d698c4e.txt",
+  "text_chars": 1400,
+  "text_words": 209,
+  "extraction_status": "success",
+  "page_title": "The Growing Influence of Latino Millennials in Today’s Workplace",
+  "page_author": "Latino Leadership Institute",
+  "page_date": "2024-03-12",
+  "site_name": "Latino Leadership Institute",
+  "canonical_url": "https://latinoslead.org/the-growing-influence-of-latino-millennials-in-todays-workplace/"
+}

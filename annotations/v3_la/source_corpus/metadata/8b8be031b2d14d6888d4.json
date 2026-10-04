@@ -1,0 +1,28 @@
+{
+  "source_id": "8b8be031b2d14d6888d4",
+  "normalized_url": "https://brennancenter.org/our-work/analysis-opinion/history-mass-incarceration",
+  "fetch_timestamp_utc": "2026-10-04T03:41:15.808843+00:00",
+  "registrable_domain": "brennancenter.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.brennancenter.org/our-work/analysis-opinion/history-mass-incarceration",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 123833,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8b8be031b2d14d6888d4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8b8be031b2d14d6888d4.txt",
+  "text_chars": 5218,
+  "text_words": 831,
+  "extraction_status": "success",
+  "page_title": "The History of Mass Incarceration",
+  "page_author": "James Cullen",
+  "page_date": "2018-07-20",
+  "site_name": "Brennan Center for Justice",
+  "canonical_url": "https://www.brennancenter.org/our-work/analysis-opinion/history-mass-incarceration"
+}

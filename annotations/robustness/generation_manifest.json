@@ -1,0 +1,14 @@
+{
+  "collection_set": "one-new-outcome-per-domain robustness set",
+  "selection_rule": "highest-ranked outcome outside original Top 3: mean_score desc, min_score desc, abs_difference asc, Outcome asc",
+  "n_outcomes": 7,
+  "n_groups": 13,
+  "n_locations": 3,
+  "files_per_location": 91,
+  "locations": [
+    "v1_dallas",
+    "v2_ny",
+    "v3_la"
+  ],
+  "existing_txt_policy": "preserve; never overwrite"
+}

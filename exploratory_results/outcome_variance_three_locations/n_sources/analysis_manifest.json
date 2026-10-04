@@ -1,0 +1,17 @@
+{
+  "status": "exploratory_three_location_variance_analysis",
+  "metric": "n_sources",
+  "locations": [
+    "dallas",
+    "ny",
+    "la"
+  ],
+  "random_seed": 20261004,
+  "bootstrap": {
+    "requested": 500,
+    "successful": 500,
+    "failed": 0,
+    "first_failures": []
+  },
+  "primary_paper_pipeline": false
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "593ad92eec49b45ba5fd",
+  "normalized_url": "https://meetaugust.ai/en/articles/medicaid-renewal",
+  "fetch_timestamp_utc": "2026-10-04T02:39:42.759046+00:00",
+  "registrable_domain": "meetaugust.ai",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.meetaugust.ai/en/articles/medicaid-renewal",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 135377,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/593ad92eec49b45ba5fd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/593ad92eec49b45ba5fd.txt",
+  "text_chars": 10887,
+  "text_words": 1632,
+  "extraction_status": "success",
+  "page_title": "Medicaid Renewal: How to Renew Your Coverage Without Losing It",
+  "page_author": null,
+  "page_date": "2026-05-27",
+  "site_name": "August Health",
+  "canonical_url": "https://www.meetaugust.ai/en/articles/medicaid-renewal"
+}

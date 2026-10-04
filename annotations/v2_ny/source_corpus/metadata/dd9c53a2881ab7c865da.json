@@ -1,0 +1,28 @@
+{
+  "source_id": "dd9c53a2881ab7c865da",
+  "normalized_url": "https://thetrevorproject.org/research-briefs/anti-bullying-policies-in-school-and-lgbtq-young-people",
+  "fetch_timestamp_utc": "2026-10-04T02:50:06.043807+00:00",
+  "registrable_domain": "thetrevorproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.thetrevorproject.org/research-briefs/anti-bullying-policies-in-school-and-lgbtq-young-people/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 124458,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/dd9c53a2881ab7c865da.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/dd9c53a2881ab7c865da.txt",
+  "text_chars": 11161,
+  "text_words": 1629,
+  "extraction_status": "success",
+  "page_title": "Anti-Bullying Policies in School and LGBTQ+ Young People",
+  "page_author": null,
+  "page_date": "2025-10-17",
+  "site_name": "The Trevor Project",
+  "canonical_url": "https://www.thetrevorproject.org/research-briefs/anti-bullying-policies-in-school-and-lgbtq-young-people/"
+}

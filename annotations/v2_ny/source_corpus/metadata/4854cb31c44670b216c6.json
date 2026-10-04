@@ -1,0 +1,28 @@
+{
+  "source_id": "4854cb31c44670b216c6",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9888733",
+  "fetch_timestamp_utc": "2026-10-04T02:38:16.967348+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9888733/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 175470,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/4854cb31c44670b216c6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/4854cb31c44670b216c6.txt",
+  "text_chars": 43836,
+  "text_words": 6000,
+  "extraction_status": "success",
+  "page_title": "Barriers in Healthcare for Latinx Patients with Limited English Proficiency—a Narrative Review",
+  "page_author": "Luis E Escobedo; Lilia Cervantes; Edward Havranek",
+  "page_date": "2023-01-31",
+  "site_name": "Journal of General Internal Medicine",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9888733/"
+}

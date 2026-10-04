@@ -1,0 +1,28 @@
+{
+  "source_id": "9c41a280e48ec02f74f9",
+  "normalized_url": "https://equalrightscenter.org/equal-access-hud-2026",
+  "fetch_timestamp_utc": "2026-10-04T02:45:08.091114+00:00",
+  "registrable_domain": "equalrightscenter.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://equalrightscenter.org/equal-access-hud-2026/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 135284,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9c41a280e48ec02f74f9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9c41a280e48ec02f74f9.txt",
+  "text_chars": 3640,
+  "text_words": 550,
+  "extraction_status": "success",
+  "page_title": "HUD Proposal Endangers Transgender People Experiencing Homelessness",
+  "page_author": "Equal Rights Center",
+  "page_date": "2026-06-04",
+  "site_name": "Equal Rights Center",
+  "canonical_url": "https://equalrightscenter.org/equal-access-hud-2026/"
+}

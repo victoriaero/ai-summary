@@ -1,0 +1,28 @@
+{
+  "source_id": "43d0098e3fb65ccc418b",
+  "normalized_url": "https://usdigitalresponse.org/resources/the-stories-of-medicaid-renewal-insights-from-those-experiencing-it",
+  "fetch_timestamp_utc": "2026-10-04T03:35:36.081148+00:00",
+  "registrable_domain": "usdigitalresponse.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.usdigitalresponse.org/resources/the-stories-of-medicaid-renewal-insights-from-those-experiencing-it",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 57714,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/43d0098e3fb65ccc418b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/43d0098e3fb65ccc418b.txt",
+  "text_chars": 8064,
+  "text_words": 1263,
+  "extraction_status": "success",
+  "page_title": "The Stories of Medicaid Renewal: Insights from Those Experiencing It",
+  "page_author": null,
+  "page_date": "2023-01-01",
+  "site_name": "usdigitalresponse.org",
+  "canonical_url": "https://www.usdigitalresponse.org/resources/the-stories-of-medicaid-renewal-insights-from-those-experiencing-it"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "ee03c8a3d2da9f4ad4f1",
+  "normalized_url": "https://sepsis.org/news/how-does-lgbtq-identity-impact-healthcare-experiences",
+  "fetch_timestamp_utc": "2026-10-04T02:51:28.438312+00:00",
+  "registrable_domain": "sepsis.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sepsis.org/news/how-does-lgbtq-identity-impact-healthcare-experiences/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 180756,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ee03c8a3d2da9f4ad4f1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ee03c8a3d2da9f4ad4f1.txt",
+  "text_chars": 10038,
+  "text_words": 1614,
+  "extraction_status": "success",
+  "page_title": "How Does LGBTQ+ Identity Impact Healthcare Experiences?",
+  "page_author": null,
+  "page_date": "2022-06-28",
+  "site_name": "Sepsis Alliance",
+  "canonical_url": "https://www.sepsis.org/news/how-does-lgbtq-identity-impact-healthcare-experiences/"
+}

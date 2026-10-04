@@ -1,0 +1,28 @@
+{
+  "source_id": "e9123aab8fc77dc6fb16",
+  "normalized_url": "https://pn3policy.org/blog/administrative-burden-blog",
+  "fetch_timestamp_utc": "2026-10-04T03:48:24.437104+00:00",
+  "registrable_domain": "pn3policy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pn3policy.org/blog/administrative-burden-blog",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 332540,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e9123aab8fc77dc6fb16.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e9123aab8fc77dc6fb16.txt",
+  "text_chars": 7800,
+  "text_words": 1153,
+  "extraction_status": "success",
+  "page_title": "Administrative Burden: Everyone Pays when Eligible Families Can't Access Public Assistance - Prenatal-to-3 Policy Impact Center",
+  "page_author": "PN",
+  "page_date": "2023-07-17",
+  "site_name": "Prenatal-to-3 Policy Impact Center",
+  "canonical_url": "https://pn3policy.org/blog/administrative-burden-blog/"
+}

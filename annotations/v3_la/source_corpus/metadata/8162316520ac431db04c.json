@@ -1,0 +1,20 @@
+{
+  "source_id": "8162316520ac431db04c",
+  "normalized_url": "https://upstart.com/learn/personal-loan-disability-income",
+  "fetch_timestamp_utc": "2026-10-04T03:40:23.944063+00:00",
+  "registrable_domain": "upstart.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://upstart.com/learn/personal-loan-disability-income",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5683,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

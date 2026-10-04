@@ -1,0 +1,28 @@
+{
+  "source_id": "e8047f942e7e8872da20",
+  "normalized_url": "https://poverty.ucdavis.edu/post/safety-net-programs-underused-eligible-hispanic-families",
+  "fetch_timestamp_utc": "2026-10-04T02:51:01.788749+00:00",
+  "registrable_domain": "ucdavis.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://poverty.ucdavis.edu/post/safety-net-programs-underused-eligible-hispanic-families",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 159283,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e8047f942e7e8872da20.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e8047f942e7e8872da20.txt",
+  "text_chars": 12933,
+  "text_words": 1900,
+  "extraction_status": "success",
+  "page_title": "Safety-Net Programs Underused by Eligible Hispanic Families - Center for Poverty and Inequality Research",
+  "page_author": null,
+  "page_date": "2012-09-12",
+  "site_name": "Center for Poverty and Inequality Research",
+  "canonical_url": "https://poverty.ucdavis.edu/post/safety-net-programs-underused-eligible-hispanic-families"
+}

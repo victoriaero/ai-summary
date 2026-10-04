@@ -1,0 +1,28 @@
+{
+  "source_id": "fbcb33505aa0787bf0ff",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7794398",
+  "fetch_timestamp_utc": "2026-10-04T02:52:18.002542+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7794398/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 242348,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/fbcb33505aa0787bf0ff.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/fbcb33505aa0787bf0ff.txt",
+  "text_chars": 55122,
+  "text_words": 8346,
+  "extraction_status": "success",
+  "page_title": "The Confluence of Housing Instability and Psychosocial, Mental, and Physical Health in Sexual Minority Young Adults: The P18 Cohort Study",
+  "page_author": "Caleb LoSchiavo; Kristen D Krause; Stuart N Singer; Perry N Halkitis",
+  "page_date": "2005-02-01",
+  "site_name": "Journal of health care for the poor and underserved",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7794398/"
+}

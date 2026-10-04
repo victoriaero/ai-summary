@@ -1,0 +1,175 @@
+analysis,metric,replica_id,item_id,domain,outcome,dimension,distance_to_minority,distance_to_majority,proximity_difference
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Race,0.1818181818181818,0.1666666666666666,-0.015151515151515194
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Race,0.046783625730994094,0.03174603174603169,-0.015037593984962405
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Race,0.0208333333333333,0.1375,0.11666666666666671
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Race,0.008547008547008489,0.16923076923076932,0.16068376068376083
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Race,0.027972027972027996,0.0288461538461538,0.0008741258741258029
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Race,0.1298701298701299,0.0,-0.1298701298701299
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: College access/admission,Education,College access/admission,Race,0.1818181818181818,0.018181818181818216,-0.16363636363636358
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Educational opportunity/access,Education,Educational opportunity/access,Race,0.0913461538461538,0.0625,-0.0288461538461538
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Harassment/bullying,Education,Harassment/bullying,Race,0.3333333333333333,0.2727272727272727,-0.06060606060606061
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Career advancement,Employment,Career advancement,Race,0.3333333333333333,0.0,-0.3333333333333333
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Hiring,Employment,Hiring,Race,0.2012987012987013,0.2272727272727273,0.025974025974025983
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Race,0.0681818181818182,0.15000000000000002,0.08181818181818182
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Access to government benefits,Government Benefits,Access to government benefits,Race,0.175,0.2840909090909091,0.10909090909090913
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Race,0.3636363636363636,0.2057416267942584,-0.1578947368421052
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Race,0.07070707070707069,0.048611111111111105,-0.022095959595959586
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Insurance coverage,Healthcare,Insurance coverage,Race,0.2747252747252747,0.010989010989011005,-0.2637362637362637
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Patient safety,Healthcare,Patient safety,Race,0.3333333333333334,0.03333333333333341,-0.30000000000000004
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Race,0.03571428571428581,0.11904761904761912,0.08333333333333331
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Access to housing,Housing,Access to housing,Race,0.1,0.03333333333333341,-0.0666666666666666
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Homelessness,Housing,Homelessness,Race,0.0909090909090909,0.018181818181818216,-0.07272727272727268
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Housing stability,Housing,Housing stability,Race,0.0769230769230769,0.0897435897435897,0.012820512820512803
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Ethnicity,0.0833333333333333,0.1,0.016666666666666705
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Ethnicity,0.03174603174603169,0.1111111111111111,0.07936507936507942
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Ethnicity,0.2375,0.1041666666666666,-0.1333333333333334
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Ethnicity,0.030769230769230688,0.1398601398601398,0.1090909090909091
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Ethnicity,0.1318681318681319,0.0629370629370629,-0.068931068931069
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Ethnicity,0.2321428571428572,0.1071428571428572,-0.125
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: College access/admission,Education,College access/admission,Ethnicity,0.1048951048951049,0.076555023923445,-0.028340080971659895
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Educational opportunity/access,Education,Educational opportunity/access,Ethnicity,0.0625,0.1041666666666666,0.0416666666666666
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Harassment/bullying,Education,Harassment/bullying,Ethnicity,0.1428571428571428,0.2,0.05714285714285722
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Career advancement,Employment,Career advancement,Ethnicity,0.0625,0.0,-0.0625
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Hiring,Employment,Hiring,Ethnicity,0.1060606060606061,0.2102272727272727,0.1041666666666666
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Ethnicity,0.0681818181818182,0.04999999999999999,-0.018181818181818216
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Access to government benefits,Government Benefits,Access to government benefits,Ethnicity,0.1931818181818182,0.2638888888888889,0.07070707070707069
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Ethnicity,0.16363636363636358,0.196969696969697,0.03333333333333341
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Ethnicity,0.0763888888888889,0.017361111111111105,-0.05902777777777779
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Insurance coverage,Healthcare,Insurance coverage,Ethnicity,0.0705128205128205,0.04615384615384621,-0.024358974358974286
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Patient safety,Healthcare,Patient safety,Ethnicity,0.13333333333333341,0.0761904761904762,-0.05714285714285722
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Ethnicity,0.11428571428571419,0.2857142857142858,0.17142857142857162
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Access to housing,Housing,Access to housing,Ethnicity,0.09411764705882347,0.1,0.005882352941176533
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Homelessness,Housing,Homelessness,Ethnicity,0.027972027972027996,0.1818181818181818,0.1538461538461538
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Housing stability,Housing,Housing stability,Ethnicity,0.1583710407239819,0.013986013986013998,-0.14438502673796788
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Gender,0.375,0.3,-0.07500000000000001
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Gender,0.1388888888888889,0.1616161616161616,0.022727272727272707
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Gender,0.1041666666666666,0.0144230769230769,-0.0897435897435897
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Gender,0.2692307692307693,0.030769230769230688,-0.23846153846153859
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Gender,0.17948717948717952,0.0629370629370629,-0.11655011655011661
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Gender,0.2321428571428572,0.19047619047619052,-0.041666666666666685
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: College access/admission,Education,College access/admission,Gender,0.1038961038961039,0.1048951048951049,0.000999000999000993
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Educational opportunity/access,Education,Educational opportunity/access,Gender,0.0208333333333333,0.1875,0.16666666666666669
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Harassment/bullying,Education,Harassment/bullying,Gender,0.5,0.2222222222222222,-0.2777777777777778
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Career advancement,Employment,Career advancement,Gender,0.0,0.3333333333333333,0.3333333333333333
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Hiring,Employment,Hiring,Gender,0.1060606060606061,0.2272727272727273,0.12121212121212119
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Gender,0.02777777777777779,0.1785714285714285,0.1507936507936507
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Access to government benefits,Government Benefits,Access to government benefits,Gender,0.025000000000000022,0.2321428571428572,0.20714285714285718
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Gender,0.1027667984189723,0.1493506493506494,0.04658385093167711
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Gender,0.031111111111111103,0.0793650793650793,0.0482539682539682
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Insurance coverage,Healthcare,Insurance coverage,Gender,0.012820512820512803,0.0288461538461538,0.016025641025640996
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Patient safety,Healthcare,Patient safety,Gender,0.03333333333333341,0.1833333333333334,0.15
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Gender,0.0857142857142858,0.2857142857142858,0.2
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Access to housing,Housing,Access to housing,Gender,0.04999999999999999,0.07500000000000001,0.025000000000000022
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Homelessness,Housing,Homelessness,Gender,0.15151515151515152,0.0641711229946524,-0.08734402852049912
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Housing stability,Housing,Housing stability,Gender,0.018315018315018305,0.0480769230769231,0.029761904761904795
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Disability,0.1,0.25,0.15
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Disability,0.03174603174603169,0.1196581196581196,0.0879120879120879
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Disability,0.1375,0.008928571428571397,-0.12857142857142861
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Disability,0.0641025641025641,0.10256410256410262,0.03846153846153852
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Disability,0.027972027972027996,0.0961538461538462,0.0681818181818182
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Disability,0.017857142857142794,0.05714285714285722,0.039285714285714424
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: College access/admission,Education,College access/admission,Disability,0.1818181818181818,0.0909090909090909,-0.0909090909090909
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Educational opportunity/access,Education,Educational opportunity/access,Disability,0.1375,0.1041666666666666,-0.03333333333333341
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Harassment/bullying,Education,Harassment/bullying,Disability,0.5454545454545454,0.0,-0.5454545454545454
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Career advancement,Employment,Career advancement,Disability,0.0714285714285714,0.0,-0.0714285714285714
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Hiring,Employment,Hiring,Disability,0.1393939393939394,0.2727272727272727,0.1333333333333333
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Disability,0.0,0.0,0.0
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Access to government benefits,Government Benefits,Access to government benefits,Disability,0.275,0.041666666666666685,-0.23333333333333334
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Disability,0.2803030303030303,0.3110047846889952,0.030701754385964897
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Disability,0.1111111111111111,0.03174603174603169,-0.07936507936507942
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Insurance coverage,Healthcare,Insurance coverage,Disability,0.0961538461538462,0.1538461538461538,0.0576923076923076
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Patient safety,Healthcare,Patient safety,Disability,0.2060606060606061,0.019047619047618994,-0.18701298701298713
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Disability,0.00793650793650802,0.03571428571428581,0.02777777777777779
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Access to housing,Housing,Access to housing,Disability,0.2,0.1333333333333333,-0.06666666666666671
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Homelessness,Housing,Homelessness,Disability,0.1818181818181818,0.1818181818181818,0.0
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Housing stability,Housing,Housing stability,Disability,0.013986013986013998,0.1105769230769231,0.0965909090909091
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Sexual Orientation,0.2727272727272727,0.1428571428571428,-0.1298701298701299
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Sexual Orientation,0.1388888888888889,0.1111111111111111,-0.02777777777777779
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Sexual Orientation,0.2708333333333333,0.0625,-0.20833333333333331
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Sexual Orientation,0.0769230769230769,0.013377926421404701,-0.0635451505016722
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Sexual Orientation,0.042735042735042694,0.24615384615384622,0.20341880341880353
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Sexual Orientation,0.0,0.4821428571428572,0.4821428571428572
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: College access/admission,Education,College access/admission,Sexual Orientation,0.3737373737373738,0.1151515151515152,-0.2585858585858586
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Educational opportunity/access,Education,Educational opportunity/access,Sexual Orientation,0.0144230769230769,0.3375,0.32307692307692315
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Harassment/bullying,Education,Harassment/bullying,Sexual Orientation,0.1818181818181818,0.375,0.1931818181818182
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Career advancement,Employment,Career advancement,Sexual Orientation,0.1666666666666666,0.0,-0.1666666666666666
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Hiring,Employment,Hiring,Sexual Orientation,0.2727272727272727,0.0505050505050505,-0.2222222222222222
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Sexual Orientation,0.16666666666666669,0.08333333333333331,-0.08333333333333337
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Access to government benefits,Government Benefits,Access to government benefits,Sexual Orientation,0.375,0.375,0.0
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Sexual Orientation,0.2525252525252525,0.2727272727272727,0.02020202020202022
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Sexual Orientation,0.12418300653594769,0.0793650793650793,-0.04481792717086838
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Insurance coverage,Healthcare,Insurance coverage,Sexual Orientation,0.2905982905982906,0.1538461538461538,-0.13675213675213682
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Patient safety,Healthcare,Patient safety,Sexual Orientation,0.0666666666666666,0.0666666666666666,0.0
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Sexual Orientation,0.5357142857142858,0.04761904761904759,-0.48809523809523825
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Access to housing,Housing,Access to housing,Sexual Orientation,0.010526315789473578,0.05000000000000002,0.03947368421052644
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Homelessness,Housing,Homelessness,Sexual Orientation,0.1038961038961039,0.018181818181818216,-0.08571428571428569
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Housing stability,Housing,Housing stability,Sexual Orientation,0.1730769230769231,0.2230769230769231,0.04999999999999999
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Gender Identity,0.1538461538461538,0.0833333333333333,-0.0705128205128205
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Gender Identity,0.0888888888888889,0.0888888888888889,0.0
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Gender Identity,0.048611111111111105,0.0625,0.013888888888888895
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Gender Identity,0.1398601398601398,0.08502024291497981,-0.05483989694515998
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Gender Identity,0.0824175824175824,0.053846153846153794,-0.02857142857142861
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Gender Identity,0.19047619047619052,0.010989010989011005,-0.17948717948717952
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: College access/admission,Education,College access/admission,Gender Identity,0.034398034398034405,0.1262626262626263,0.0918645918645919
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Educational opportunity/access,Education,Educational opportunity/access,Gender Identity,0.0913461538461538,0.1041666666666666,0.012820512820512803
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Education :: Harassment/bullying,Education,Harassment/bullying,Gender Identity,0.2307692307692307,0.0714285714285714,-0.1593406593406593
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Career advancement,Employment,Career advancement,Gender Identity,0.2857142857142857,0.1666666666666666,-0.1190476190476191
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Hiring,Employment,Hiring,Gender Identity,0.09090909090909088,0.0727272727272727,-0.018181818181818188
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Gender Identity,0.125,0.08333333333333331,-0.041666666666666685
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Access to government benefits,Government Benefits,Access to government benefits,Gender Identity,0.3083333333333334,0.1607142857142858,-0.1476190476190476
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Gender Identity,0.2247474747474747,0.2207792207792208,-0.003968253968253899
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Gender Identity,0.03703703703703701,0.013888888888888895,-0.023148148148148112
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Insurance coverage,Healthcare,Insurance coverage,Gender Identity,0.0961538461538462,0.0961538461538462,0.0
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Patient safety,Healthcare,Patient safety,Gender Identity,0.0761904761904762,0.2190476190476191,0.1428571428571429
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Gender Identity,0.032467532467532395,0.05844155844155852,0.02597402597402612
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Access to housing,Housing,Access to housing,Gender Identity,0.08571428571428569,0.0888888888888889,0.003174603174603219
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Homelessness,Housing,Homelessness,Gender Identity,0.018181818181818216,0.0909090909090909,0.07272727272727268
+contextual_hedging,contextual_hedged_sentence_rate,v1_dallas,Housing :: Housing stability,Housing,Housing stability,Gender Identity,0.2307692307692308,0.023076923076923106,-0.2076923076923077
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Race,0.3982457555333333,0.32677957780000005,-0.07146617773333325
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Race,2.0260312000000003,1.86926398,-0.15676722000000032
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Race,1.4834090100000001,0.6591706899999998,-0.8242383200000003
+veridicality_score,mean_veridicality,v1_dallas,Education :: College access/admission,Education,College access/admission,Race,1.86926398,0.800376915,-1.068887065
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Hiring,Employment,Hiring,Race,0.5861710651500001,0.66764134015,0.08147027499999993
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Race,1.12064728,1.23527692,0.11462963999999998
+veridicality_score,mean_veridicality,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Race,0.6364699,0.9300005133333333,0.2935306133333333
+veridicality_score,mean_veridicality,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Race,2.3543757999999997,2.3543757999999997,0.0
+veridicality_score,mean_veridicality,v1_dallas,Housing :: Homelessness,Housing,Homelessness,Race,1.6494855,1.55250185,-0.09698364999999987
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Ethnicity,1.7472377222,1.7472377222,0.0
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Ethnicity,0.4722030599999999,0.2330855799999999,-0.23911748
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Ethnicity,0.20864191499999993,1.3111776899999998,1.102535775
+veridicality_score,mean_veridicality,v1_dallas,Education :: College access/admission,Education,College access/admission,Ethnicity,1.36841244,0.57681438,-0.79159806
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Hiring,Employment,Hiring,Ethnicity,0.22793337585,0.40086390014999995,0.17293052429999994
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Ethnicity,2.7473342,1.8053620000000001,-0.9419721999999999
+veridicality_score,mean_veridicality,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Ethnicity,0.858905435,0.6364699,-0.22243553500000002
+veridicality_score,mean_veridicality,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Ethnicity,0.334816408,0.14651898666666657,-0.18829742133333344
+veridicality_score,mean_veridicality,v1_dallas,Housing :: Housing stability,Housing,Housing stability,Ethnicity,1.099657,1.86926398,0.7696069799999998
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Gender,0.27814685,1.1948788799999999,0.9167320299999999
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Gender,0.6164845199999999,0.7351465133333333,0.11866199333333338
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Gender,0.41161537285714284,0.8121360099999999,0.40052063714285707
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Hiring,Employment,Hiring,Gender,1.68065694015,0.03117144014999998,-1.6494855
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Gender,2.0856088699999997,2.7473342,0.6617253300000003
+veridicality_score,mean_veridicality,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Gender,0.8330876000599999,0.7868148102000001,-0.04627278985999983
+veridicality_score,mean_veridicality,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Gender,0.5537591133333334,0.46586448,-0.08789463333333336
+veridicality_score,mean_veridicality,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Gender,0.57877037,1.3903206466666664,0.8115502766666665
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Disability,0.7526578666666668,1.2041357101999999,0.4514778435333331
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Disability,1.7472377222,0.7102290722,-1.03700865
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Arrest / detention by police,Criminal Justice,Arrest / detention by police,Disability,0.98617698,0.4883285449999998,-0.4978484350000002
+veridicality_score,mean_veridicality,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Disability,0.2476848118,1.56016672,1.3124819082
+veridicality_score,mean_veridicality,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Disability,1.6113225999999998,0.8006422,-0.8106803999999999
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Sexual Orientation,0.5807265500000001,1.44530465,0.8645780999999999
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Sexual Orientation,1.01096967,0.0,-1.01096967
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Credit/loan approval,Credit & Financial Services,Credit/loan approval,Sexual Orientation,0.348099220825,0.09701831780000003,-0.25108090302499997
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Sexual Orientation,2.0260312000000003,1.86926398,-0.15676722000000032
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Sexual Orientation,0.6747077899999999,0.0783836100000001,-0.5963241799999999
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Hiring,Employment,Hiring,Sexual Orientation,0.48201830014999997,0.9950928398500001,0.5130745397
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Workplace harassment,Employment,Workplace harassment,Sexual Orientation,1.4743944,3.8595376999999997,2.3851432999999997
+veridicality_score,mean_veridicality,v1_dallas,Government Benefits :: Benefit retention / renewal,Government Benefits,Benefit retention / renewal,Sexual Orientation,0.32928546999999997,0.19908407,-0.13020139999999997
+veridicality_score,mean_veridicality,v1_dallas,Healthcare :: Preventive care,Healthcare,Preventive care,Sexual Orientation,1.98954507,2.19760858,0.2080635099999999
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Access to banking services,Credit & Financial Services,Access to banking services,Gender Identity,0.17236485000000001,1.44530465,1.2729398
+veridicality_score,mean_veridicality,v1_dallas,Credit & Financial Services :: Access to credit,Credit & Financial Services,Access to credit,Gender Identity,1.07302595,0.9648144999999999,-0.10821144999999999
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Incarceration,Criminal Justice,Incarceration,Gender Identity,0.47098609999999996,0.6364699,0.16548380000000007
+veridicality_score,mean_veridicality,v1_dallas,Criminal Justice :: Police use of force,Criminal Justice,Police use of force,Gender Identity,0.8739018100000002,0.84487099,-0.029030820000000235
+veridicality_score,mean_veridicality,v1_dallas,Education :: College access/admission,Education,College access/admission,Gender Identity,0.18189716499999997,0.41841698,0.23651981500000002
+veridicality_score,mean_veridicality,v1_dallas,Employment :: Hiring,Employment,Hiring,Gender Identity,0.66764134015,0.41404942681666657,-0.2535919133333334
+veridicality_score,mean_veridicality,v1_dallas,Government Benefits :: Application/approval,Government Benefits,Application/approval,Gender Identity,1.3895613,0.9793515399999999,-0.4102097600000001
+veridicality_score,mean_veridicality,v1_dallas,Housing :: Housing stability,Housing,Housing stability,Gender Identity,0.10821144999999999,2.5426527,2.43444125

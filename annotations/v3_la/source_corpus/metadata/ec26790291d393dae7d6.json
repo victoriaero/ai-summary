@@ -1,0 +1,20 @@
+{
+  "source_id": "ec26790291d393dae7d6",
+  "normalized_url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1751-9020.2012.00459.x",
+  "fetch_timestamp_utc": "2026-10-04T03:48:39.840242+00:00",
+  "registrable_domain": "wiley.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1751-9020.2012.00459.x",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5837,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

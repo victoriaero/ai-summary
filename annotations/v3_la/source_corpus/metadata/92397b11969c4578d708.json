@@ -1,0 +1,16 @@
+{
+  "source_id": "92397b11969c4578d708",
+  "normalized_url": "https://stlouisfed.org/-/media/project/frbstl/stlouisfed/community-development/financial-well-being/financial-well-being-infographic.pdf?hash=D66FE2DE10D3E3389E9DDEF2DF1E77A6&sc_lang=en",
+  "fetch_timestamp_utc": "2026-10-04T03:41:46.937497+00:00",
+  "registrable_domain": "stlouisfed.org",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 92,
+  "http_status": 0,
+  "final_url": "https://stlouisfed.org/-/media/project/frbstl/stlouisfed/community-development/financial-well-being/financial-well-being-infographic.pdf?hash=D66FE2DE10D3E3389E9DDEF2DF1E77A6&sc_lang=en",
+  "content_type": "",
+  "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

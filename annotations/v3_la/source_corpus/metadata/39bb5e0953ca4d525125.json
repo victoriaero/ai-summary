@@ -1,0 +1,28 @@
+{
+  "source_id": "39bb5e0953ca4d525125",
+  "normalized_url": "https://transequality.org/news/new-report-details-failure-of-nation-s-police-departments-to-protect-and-serve-transgender",
+  "fetch_timestamp_utc": "2026-10-04T03:34:46.779041+00:00",
+  "registrable_domain": "transequality.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://transequality.org/news/new-report-details-failure-of-nation-s-police-departments-to-protect-and-serve-transgender",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 95995,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/39bb5e0953ca4d525125.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/39bb5e0953ca4d525125.txt",
+  "text_chars": 3366,
+  "text_words": 519,
+  "extraction_status": "success",
+  "page_title": "New Report Details Failure of Nation’s Police Departments to Protect and Serve Transgender People | A4TE",
+  "page_author": null,
+  "page_date": "2019-06-14",
+  "site_name": "A4TE",
+  "canonical_url": "https://transequality.org/news/new-report-details-failure-of-nation-s-police-departments-to-protect-and-serve-transgender"
+}

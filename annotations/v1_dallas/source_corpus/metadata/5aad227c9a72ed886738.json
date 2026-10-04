@@ -1,0 +1,30 @@
+{
+  "source_id": "5aad227c9a72ed886738",
+  "normalized_url": "https://oas.org/ext/DesktopModules/MVC/OASDnnModules/Views/Item/Download.aspx?id=1475&lang=1&type=1",
+  "fetch_timestamp_utc": "2026-09-29T19:26:36.211518+00:00",
+  "registrable_domain": "oas.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 500,
+  "final_url": "https://oas.org/ext/DesktopModules/MVC/OASDnnModules/Views/Item/Download.aspx?id=1475&lang=1&type=1",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:26:45 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "x-redirect-reason": "Not Redirected Requested",
+    "x-urlrewriter-500": "Exception",
+    "Set-Cookie": "dnn_IsMobile=False; path=/; HttpOnly",
+    "microsoftofficewebserver": "5.0_Pub",
+    "x-xss-protection": "1; mode=block",
+    "x-frame-options": "SAMEORIGIN",
+    "cf-cache-status": "DYNAMIC",
+    "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=4,cfOrigin;dur=117",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d619acb6bd81f-GIG"
+  },
+  "downloaded_bytes": 2909,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

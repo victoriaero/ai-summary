@@ -1,0 +1,28 @@
+{
+  "source_id": "53a6f9bc73887d6471e6",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11418443",
+  "fetch_timestamp_utc": "2026-10-04T03:36:56.132229+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11418443/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 240371,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/53a6f9bc73887d6471e6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/53a6f9bc73887d6471e6.txt",
+  "text_chars": 55917,
+  "text_words": 8679,
+  "extraction_status": "success",
+  "page_title": "Racial and Ethnic Disparities in Preventive Service Use Among Adults Before and During the COVID-19 Pandemic",
+  "page_author": "Lisa Dubay; Fredric E Blavin; Laura Barrie Smith; Julianna Carlyn Long",
+  "page_date": "2024-09-20",
+  "site_name": "Inquiry: A Journal of Medical Care Organization, Provision and Financing",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11418443/"
+}

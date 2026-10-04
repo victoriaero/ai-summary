@@ -1,0 +1,28 @@
+{
+  "source_id": "d2954b9ed58d0f0ff7db",
+  "normalized_url": "https://mapresearch.org/equality-map/medicaid-coverage-of-transgender-related-health-care",
+  "fetch_timestamp_utc": "2026-10-04T02:49:18.172908+00:00",
+  "registrable_domain": "mapresearch.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://mapresearch.org/equality-map/medicaid-coverage-of-transgender-related-health-care",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 458379,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/d2954b9ed58d0f0ff7db.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/d2954b9ed58d0f0ff7db.txt",
+  "text_chars": 14237,
+  "text_words": 1107,
+  "extraction_status": "success",
+  "page_title": "Medicaid Coverage of Transgender-Related Health Care - Movement Advancement Project",
+  "page_author": null,
+  "page_date": "2026-07-13",
+  "site_name": "Movement Advancement Project",
+  "canonical_url": "https://mapresearch.org/equality-map/medicaid-coverage-of-transgender-related-health-care/"
+}

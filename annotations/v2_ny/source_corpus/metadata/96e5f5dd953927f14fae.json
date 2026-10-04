@@ -1,0 +1,20 @@
+{
+  "source_id": "96e5f5dd953927f14fae",
+  "normalized_url": "https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1132&context=criminaljusticefacpub",
+  "fetch_timestamp_utc": "2026-10-04T02:44:45.271756+00:00",
+  "registrable_domain": "unomaha.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1132&context=criminaljusticefacpub",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5868,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

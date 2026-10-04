@@ -1,0 +1,28 @@
+{
+  "source_id": "22fb8d40da604e2f5dda",
+  "normalized_url": "https://cfr.org/articles/ten-factors-affect-womens-economic-empowerment",
+  "fetch_timestamp_utc": "2026-10-04T02:35:28.600566+00:00",
+  "registrable_domain": "cfr.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cfr.org/articles/ten-factors-affect-womens-economic-empowerment",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 408263,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/22fb8d40da604e2f5dda.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/22fb8d40da604e2f5dda.txt",
+  "text_chars": 5740,
+  "text_words": 818,
+  "extraction_status": "success",
+  "page_title": "Ten Factors That Affect Women’s Economic Empowerment | Council on Foreign Relations",
+  "page_author": null,
+  "page_date": "2016-09-30",
+  "site_name": "Council on Foreign Relations",
+  "canonical_url": "https://www.cfr.org/articles/ten-factors-affect-womens-economic-empowerment"
+}

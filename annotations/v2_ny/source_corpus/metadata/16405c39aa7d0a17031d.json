@@ -1,0 +1,28 @@
+{
+  "source_id": "16405c39aa7d0a17031d",
+  "normalized_url": "https://hssib.org.uk/patient-safety-investigations/caring-for-adults-with-learning-disabilities-in-acute-hospitals/investigation-report",
+  "fetch_timestamp_utc": "2026-10-04T02:34:20.261518+00:00",
+  "registrable_domain": "hssib.org.uk",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hssib.org.uk/patient-safety-investigations/caring-for-adults-with-learning-disabilities-in-acute-hospitals/investigation-report/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 347020,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/16405c39aa7d0a17031d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/16405c39aa7d0a17031d.txt",
+  "text_chars": 136258,
+  "text_words": 20089,
+  "extraction_status": "success",
+  "page_title": "Investigation report: Caring for adults with a learning disability in acute hospitals",
+  "page_author": "Sam Dresti",
+  "page_date": "2023-11-02",
+  "site_name": "HSSIB",
+  "canonical_url": "https://www.hssib.org.uk/patient-safety-investigations/caring-for-adults-with-learning-disabilities-in-acute-hospitals/investigation-report/"
+}

@@ -1,0 +1,32 @@
+GOOGLE AI OVERVIEW SEMANTIC ANALYSIS
+======================================================================
+
+PRIMARY METRIC:
+Subject-normalized dense cosine distance from matched generic 'people' response.
+
+PRIMARY DIMENSION TESTS:
+
+Disability: People with disabilities=0.2865, People without disabilities=0.2161, Delta=+0.0704, 95% bootstrap CI [0.0266, 0.1160], Holm permutation p=0.0168299
+Ethnicity: Latino people=0.3142, non-Latino people=0.2573, Delta=+0.0568, 95% bootstrap CI [0.0404, 0.0752], Holm permutation p=5.99997e-05
+Gender: Women=0.2264, Men=0.2599, Delta=-0.0335, 95% bootstrap CI [-0.0680, -0.0038], Holm permutation p=0.116499
+Gender Identity: transgender people=0.4189, cisgender people=0.2710, Delta=+0.1479, 95% bootstrap CI [0.1054, 0.1923], Holm permutation p=5.99997e-05
+Race: Black people=0.2880, White people=0.2835, Delta=+0.0045, 95% bootstrap CI [-0.0193, 0.0262], Holm permutation p=0.706811
+Sexual Orientation: homosexual people=0.4047, heterosexual people=0.3175, Delta=+0.0872, 95% bootstrap CI [0.0442, 0.1304], Holm permutation p=0.00417998
+
+AGGREGATE MINORITY vs MAJORITY:
+Minority mean distance=0.3231
+Majority mean distance=0.2676
+Mean paired difference=+0.0555
+Permutation p=1.49999e-05
+
+TRIANGLE / GENERIC PROXIMITY:
+
+Disability: generic proximity margin=-0.0704; minority closer in 19.0% of outcomes; Holm p=0.0170999
+Ethnicity: generic proximity margin=-0.0568; minority closer in 9.5% of outcomes; Holm p=7.49996e-05
+Gender: generic proximity margin=+0.0335; minority closer in 57.1% of outcomes; Holm p=0.115939
+Gender Identity: generic proximity margin=-0.1479; minority closer in 4.8% of outcomes; Holm p=5.99997e-05
+Race: generic proximity margin=-0.0045; minority closer in 38.1% of outcomes; Holm p=0.708326
+Sexual Orientation: generic proximity margin=-0.0872; minority closer in 23.8% of outcomes; Holm p=0.00405998
+
+IMPORTANT:
+Semantic distance measures how much the information presented changes. It does not, by itself, establish unfairness, harm, incorrectness, or discrimination.

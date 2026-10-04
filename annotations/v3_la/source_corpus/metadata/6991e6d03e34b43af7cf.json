@@ -1,0 +1,28 @@
+{
+  "source_id": "6991e6d03e34b43af7cf",
+  "normalized_url": "https://chcs.org/medicaid-and-sexual-orientation-and-gender-identity-data-key-factors-for-more-equitable-data-collection",
+  "fetch_timestamp_utc": "2026-10-04T03:38:33.105548+00:00",
+  "registrable_domain": "chcs.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.chcs.org/medicaid-and-sexual-orientation-and-gender-identity-data-key-factors-for-more-equitable-data-collection/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 194751,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6991e6d03e34b43af7cf.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6991e6d03e34b43af7cf.txt",
+  "text_chars": 7636,
+  "text_words": 1134,
+  "extraction_status": "success",
+  "page_title": "Medicaid and Sexual Orientation and Gender Identity Data: Key Factors for More Equitable Data Collection - CHCS Blog",
+  "page_author": "Brandon Petit-Homme",
+  "page_date": "2024-02-06",
+  "site_name": "Center for Health Care Strategies",
+  "canonical_url": "https://www.chcs.org/medicaid-and-sexual-orientation-and-gender-identity-data-key-factors-for-more-equitable-data-collection/"
+}

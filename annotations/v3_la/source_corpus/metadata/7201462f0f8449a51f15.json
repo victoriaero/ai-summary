@@ -1,0 +1,28 @@
+{
+  "source_id": "7201462f0f8449a51f15",
+  "normalized_url": "https://advocate.com/politics/medicaid-snap-lgbtq",
+  "fetch_timestamp_utc": "2026-10-04T03:39:15.845059+00:00",
+  "registrable_domain": "advocate.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.advocate.com/politics/medicaid-snap-lgbtq",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 492124,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/7201462f0f8449a51f15.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/7201462f0f8449a51f15.txt",
+  "text_chars": 11337,
+  "text_words": 1851,
+  "extraction_status": "success",
+  "page_title": "What Medicaid and SNAP cuts mean for LGBTQ+ people",
+  "page_author": "Orion Rummler",
+  "page_date": "2025-07-16",
+  "site_name": "Advocate.com",
+  "canonical_url": "https://www.advocate.com/politics/medicaid-snap-lgbtq"
+}

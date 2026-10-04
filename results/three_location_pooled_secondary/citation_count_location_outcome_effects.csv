@@ -1,0 +1,379 @@
+location,dimension,outcome_id,minority,majority,difference
+dallas,Disability,Credit & Financial Services :: Access to banking services,11.0,4.0,7.0
+dallas,Disability,Credit & Financial Services :: Access to credit,5.0,3.0,2.0
+dallas,Disability,Credit & Financial Services :: Credit/loan approval,7.0,4.0,3.0
+dallas,Disability,Criminal Justice :: Arrest / detention by police,8.0,9.0,-1.0
+dallas,Disability,Criminal Justice :: Incarceration,9.0,0.0,9.0
+dallas,Disability,Criminal Justice :: Police use of force,7.0,4.0,3.0
+dallas,Disability,Education :: College access/admission,9.0,0.0,9.0
+dallas,Disability,Education :: Educational opportunity/access,10.0,3.0,7.0
+dallas,Disability,Education :: Harassment/bullying,9.0,6.0,3.0
+dallas,Disability,Employment :: Career advancement,10.0,0.0,10.0
+dallas,Disability,Employment :: Hiring,12.0,3.0,9.0
+dallas,Disability,Employment :: Workplace harassment,8.0,2.0,6.0
+dallas,Disability,Government Benefits :: Access to government benefits,10.0,5.0,5.0
+dallas,Disability,Government Benefits :: Application/approval,10.0,13.0,-3.0
+dallas,Disability,Government Benefits :: Benefit retention / renewal,17.0,5.0,12.0
+dallas,Disability,Healthcare :: Insurance coverage,7.0,7.0,0.0
+dallas,Disability,Healthcare :: Patient safety,10.0,4.0,6.0
+dallas,Disability,Healthcare :: Preventive care,10.0,5.0,5.0
+dallas,Disability,Housing :: Access to housing,5.0,11.0,-6.0
+dallas,Disability,Housing :: Homelessness,9.0,8.0,1.0
+dallas,Disability,Housing :: Housing stability,8.0,6.0,2.0
+dallas,Ethnicity,Credit & Financial Services :: Access to banking services,9.0,4.0,5.0
+dallas,Ethnicity,Credit & Financial Services :: Access to credit,13.0,3.0,10.0
+dallas,Ethnicity,Credit & Financial Services :: Credit/loan approval,12.0,4.0,8.0
+dallas,Ethnicity,Criminal Justice :: Arrest / detention by police,9.0,5.0,4.0
+dallas,Ethnicity,Criminal Justice :: Incarceration,6.0,3.0,3.0
+dallas,Ethnicity,Criminal Justice :: Police use of force,6.0,6.0,0.0
+dallas,Ethnicity,Education :: College access/admission,10.0,16.0,-6.0
+dallas,Ethnicity,Education :: Educational opportunity/access,9.0,2.0,7.0
+dallas,Ethnicity,Education :: Harassment/bullying,8.0,8.0,0.0
+dallas,Ethnicity,Employment :: Career advancement,10.0,5.0,5.0
+dallas,Ethnicity,Employment :: Hiring,12.0,0.0,12.0
+dallas,Ethnicity,Employment :: Workplace harassment,12.0,4.0,8.0
+dallas,Ethnicity,Government Benefits :: Access to government benefits,8.0,6.0,2.0
+dallas,Ethnicity,Government Benefits :: Application/approval,13.0,6.0,7.0
+dallas,Ethnicity,Government Benefits :: Benefit retention / renewal,14.0,14.0,0.0
+dallas,Ethnicity,Healthcare :: Insurance coverage,6.0,7.0,-1.0
+dallas,Ethnicity,Healthcare :: Patient safety,12.0,4.0,8.0
+dallas,Ethnicity,Healthcare :: Preventive care,9.0,4.0,5.0
+dallas,Ethnicity,Housing :: Access to housing,8.0,6.0,2.0
+dallas,Ethnicity,Housing :: Homelessness,8.0,5.0,3.0
+dallas,Ethnicity,Housing :: Housing stability,10.0,7.0,3.0
+dallas,Gender,Credit & Financial Services :: Access to banking services,9.0,7.0,2.0
+dallas,Gender,Credit & Financial Services :: Access to credit,8.0,7.0,1.0
+dallas,Gender,Credit & Financial Services :: Credit/loan approval,10.0,9.0,1.0
+dallas,Gender,Criminal Justice :: Arrest / detention by police,9.0,8.0,1.0
+dallas,Gender,Criminal Justice :: Incarceration,9.0,11.0,-2.0
+dallas,Gender,Criminal Justice :: Police use of force,6.0,7.0,-1.0
+dallas,Gender,Education :: College access/admission,6.0,9.0,-3.0
+dallas,Gender,Education :: Educational opportunity/access,4.0,7.0,-3.0
+dallas,Gender,Education :: Harassment/bullying,7.0,10.0,-3.0
+dallas,Gender,Employment :: Career advancement,9.0,6.0,3.0
+dallas,Gender,Employment :: Hiring,4.0,5.0,-1.0
+dallas,Gender,Employment :: Workplace harassment,6.0,4.0,2.0
+dallas,Gender,Government Benefits :: Access to government benefits,7.0,6.0,1.0
+dallas,Gender,Government Benefits :: Application/approval,16.0,9.0,7.0
+dallas,Gender,Government Benefits :: Benefit retention / renewal,7.0,5.0,2.0
+dallas,Gender,Healthcare :: Insurance coverage,9.0,8.0,1.0
+dallas,Gender,Healthcare :: Patient safety,9.0,3.0,6.0
+dallas,Gender,Healthcare :: Preventive care,5.0,4.0,1.0
+dallas,Gender,Housing :: Access to housing,12.0,3.0,9.0
+dallas,Gender,Housing :: Homelessness,6.0,10.0,-4.0
+dallas,Gender,Housing :: Housing stability,11.0,10.0,1.0
+dallas,Gender Identity,Credit & Financial Services :: Access to banking services,7.0,8.0,-1.0
+dallas,Gender Identity,Credit & Financial Services :: Access to credit,8.0,8.0,0.0
+dallas,Gender Identity,Credit & Financial Services :: Credit/loan approval,6.0,0.0,6.0
+dallas,Gender Identity,Criminal Justice :: Arrest / detention by police,6.0,12.0,-6.0
+dallas,Gender Identity,Criminal Justice :: Incarceration,7.0,3.0,4.0
+dallas,Gender Identity,Criminal Justice :: Police use of force,8.0,8.0,0.0
+dallas,Gender Identity,Education :: College access/admission,17.0,0.0,17.0
+dallas,Gender Identity,Education :: Educational opportunity/access,9.0,14.0,-5.0
+dallas,Gender Identity,Education :: Harassment/bullying,6.0,14.0,-8.0
+dallas,Gender Identity,Employment :: Career advancement,7.0,10.0,-3.0
+dallas,Gender Identity,Employment :: Hiring,6.0,7.0,-1.0
+dallas,Gender Identity,Employment :: Workplace harassment,9.0,5.0,4.0
+dallas,Gender Identity,Government Benefits :: Access to government benefits,7.0,10.0,-3.0
+dallas,Gender Identity,Government Benefits :: Application/approval,14.0,11.0,3.0
+dallas,Gender Identity,Government Benefits :: Benefit retention / renewal,16.0,16.0,0.0
+dallas,Gender Identity,Healthcare :: Insurance coverage,5.0,7.0,-2.0
+dallas,Gender Identity,Healthcare :: Patient safety,10.0,4.0,6.0
+dallas,Gender Identity,Healthcare :: Preventive care,9.0,0.0,9.0
+dallas,Gender Identity,Housing :: Access to housing,11.0,7.0,4.0
+dallas,Gender Identity,Housing :: Homelessness,13.0,11.0,2.0
+dallas,Gender Identity,Housing :: Housing stability,13.0,3.0,10.0
+dallas,Race,Credit & Financial Services :: Access to banking services,10.0,6.0,4.0
+dallas,Race,Credit & Financial Services :: Access to credit,13.0,7.0,6.0
+dallas,Race,Credit & Financial Services :: Credit/loan approval,12.0,4.0,8.0
+dallas,Race,Criminal Justice :: Arrest / detention by police,9.0,6.0,3.0
+dallas,Race,Criminal Justice :: Incarceration,8.0,3.0,5.0
+dallas,Race,Criminal Justice :: Police use of force,7.0,3.0,4.0
+dallas,Race,Education :: College access/admission,12.0,6.0,6.0
+dallas,Race,Education :: Educational opportunity/access,9.0,5.0,4.0
+dallas,Race,Education :: Harassment/bullying,13.0,4.0,9.0
+dallas,Race,Employment :: Career advancement,9.0,5.0,4.0
+dallas,Race,Employment :: Hiring,10.0,4.0,6.0
+dallas,Race,Employment :: Workplace harassment,11.0,5.0,6.0
+dallas,Race,Government Benefits :: Access to government benefits,8.0,5.0,3.0
+dallas,Race,Government Benefits :: Application/approval,6.0,15.0,-9.0
+dallas,Race,Government Benefits :: Benefit retention / renewal,15.0,8.0,7.0
+dallas,Race,Healthcare :: Insurance coverage,7.0,5.0,2.0
+dallas,Race,Healthcare :: Patient safety,9.0,5.0,4.0
+dallas,Race,Healthcare :: Preventive care,6.0,5.0,1.0
+dallas,Race,Housing :: Access to housing,12.0,6.0,6.0
+dallas,Race,Housing :: Homelessness,12.0,5.0,7.0
+dallas,Race,Housing :: Housing stability,8.0,9.0,-1.0
+dallas,Sexual Orientation,Credit & Financial Services :: Access to banking services,6.0,9.0,-3.0
+dallas,Sexual Orientation,Credit & Financial Services :: Access to credit,8.0,9.0,-1.0
+dallas,Sexual Orientation,Credit & Financial Services :: Credit/loan approval,5.0,4.0,1.0
+dallas,Sexual Orientation,Criminal Justice :: Arrest / detention by police,7.0,16.0,-9.0
+dallas,Sexual Orientation,Criminal Justice :: Incarceration,10.0,5.0,5.0
+dallas,Sexual Orientation,Criminal Justice :: Police use of force,7.0,7.0,0.0
+dallas,Sexual Orientation,Education :: College access/admission,7.0,0.0,7.0
+dallas,Sexual Orientation,Education :: Educational opportunity/access,11.0,10.0,1.0
+dallas,Sexual Orientation,Education :: Harassment/bullying,10.0,17.0,-7.0
+dallas,Sexual Orientation,Employment :: Career advancement,6.0,6.0,0.0
+dallas,Sexual Orientation,Employment :: Hiring,4.0,0.0,4.0
+dallas,Sexual Orientation,Employment :: Workplace harassment,9.0,8.0,1.0
+dallas,Sexual Orientation,Government Benefits :: Access to government benefits,9.0,6.0,3.0
+dallas,Sexual Orientation,Government Benefits :: Application/approval,6.0,0.0,6.0
+dallas,Sexual Orientation,Government Benefits :: Benefit retention / renewal,12.0,10.0,2.0
+dallas,Sexual Orientation,Healthcare :: Insurance coverage,13.0,7.0,6.0
+dallas,Sexual Orientation,Healthcare :: Patient safety,10.0,7.0,3.0
+dallas,Sexual Orientation,Healthcare :: Preventive care,8.0,10.0,-2.0
+dallas,Sexual Orientation,Housing :: Access to housing,10.0,8.0,2.0
+dallas,Sexual Orientation,Housing :: Homelessness,9.0,9.0,0.0
+dallas,Sexual Orientation,Housing :: Housing stability,9.0,5.0,4.0
+ny,Disability,Credit & Financial Services :: Access to banking services,12.0,2.0,10.0
+ny,Disability,Credit & Financial Services :: Access to credit,9.0,7.0,2.0
+ny,Disability,Credit & Financial Services :: Credit/loan approval,5.0,3.0,2.0
+ny,Disability,Criminal Justice :: Arrest / detention by police,5.0,0.0,5.0
+ny,Disability,Criminal Justice :: Incarceration,11.0,3.0,8.0
+ny,Disability,Criminal Justice :: Police use of force,8.0,13.0,-5.0
+ny,Disability,Education :: College access/admission,12.0,1.0,11.0
+ny,Disability,Education :: Educational opportunity/access,13.0,6.0,7.0
+ny,Disability,Education :: Harassment/bullying,6.0,1.0,5.0
+ny,Disability,Employment :: Career advancement,7.0,0.0,7.0
+ny,Disability,Employment :: Hiring,7.0,7.0,0.0
+ny,Disability,Employment :: Workplace harassment,8.0,2.0,6.0
+ny,Disability,Government Benefits :: Access to government benefits,7.0,8.0,-1.0
+ny,Disability,Government Benefits :: Application/approval,9.0,6.0,3.0
+ny,Disability,Government Benefits :: Benefit retention / renewal,14.0,16.0,-2.0
+ny,Disability,Healthcare :: Insurance coverage,7.0,5.0,2.0
+ny,Disability,Healthcare :: Patient safety,13.0,6.0,7.0
+ny,Disability,Healthcare :: Preventive care,8.0,10.0,-2.0
+ny,Disability,Housing :: Access to housing,9.0,10.0,-1.0
+ny,Disability,Housing :: Homelessness,10.0,8.0,2.0
+ny,Disability,Housing :: Housing stability,11.0,6.0,5.0
+ny,Ethnicity,Credit & Financial Services :: Access to banking services,7.0,4.0,3.0
+ny,Ethnicity,Credit & Financial Services :: Access to credit,7.0,3.0,4.0
+ny,Ethnicity,Credit & Financial Services :: Credit/loan approval,9.0,7.0,2.0
+ny,Ethnicity,Criminal Justice :: Arrest / detention by police,5.0,6.0,-1.0
+ny,Ethnicity,Criminal Justice :: Incarceration,9.0,5.0,4.0
+ny,Ethnicity,Criminal Justice :: Police use of force,6.0,7.0,-1.0
+ny,Ethnicity,Education :: College access/admission,8.0,16.0,-8.0
+ny,Ethnicity,Education :: Educational opportunity/access,9.0,6.0,3.0
+ny,Ethnicity,Education :: Harassment/bullying,5.0,6.0,-1.0
+ny,Ethnicity,Employment :: Career advancement,6.0,2.0,4.0
+ny,Ethnicity,Employment :: Hiring,7.0,15.0,-8.0
+ny,Ethnicity,Employment :: Workplace harassment,7.0,2.0,5.0
+ny,Ethnicity,Government Benefits :: Access to government benefits,7.0,8.0,-1.0
+ny,Ethnicity,Government Benefits :: Application/approval,15.0,6.0,9.0
+ny,Ethnicity,Government Benefits :: Benefit retention / renewal,18.0,17.0,1.0
+ny,Ethnicity,Healthcare :: Insurance coverage,4.0,6.0,-2.0
+ny,Ethnicity,Healthcare :: Patient safety,10.0,4.0,6.0
+ny,Ethnicity,Healthcare :: Preventive care,7.0,3.0,4.0
+ny,Ethnicity,Housing :: Access to housing,10.0,5.0,5.0
+ny,Ethnicity,Housing :: Homelessness,9.0,5.0,4.0
+ny,Ethnicity,Housing :: Housing stability,8.0,6.0,2.0
+ny,Gender,Credit & Financial Services :: Access to banking services,11.0,10.0,1.0
+ny,Gender,Credit & Financial Services :: Access to credit,6.0,4.0,2.0
+ny,Gender,Credit & Financial Services :: Credit/loan approval,12.0,9.0,3.0
+ny,Gender,Criminal Justice :: Arrest / detention by police,7.0,7.0,0.0
+ny,Gender,Criminal Justice :: Incarceration,11.0,9.0,2.0
+ny,Gender,Criminal Justice :: Police use of force,9.0,7.0,2.0
+ny,Gender,Education :: College access/admission,13.0,10.0,3.0
+ny,Gender,Education :: Educational opportunity/access,7.0,7.0,0.0
+ny,Gender,Education :: Harassment/bullying,7.0,8.0,-1.0
+ny,Gender,Employment :: Career advancement,7.0,3.0,4.0
+ny,Gender,Employment :: Hiring,8.0,8.0,0.0
+ny,Gender,Employment :: Workplace harassment,8.0,9.0,-1.0
+ny,Gender,Government Benefits :: Access to government benefits,8.0,8.0,0.0
+ny,Gender,Government Benefits :: Application/approval,13.0,7.0,6.0
+ny,Gender,Government Benefits :: Benefit retention / renewal,19.0,3.0,16.0
+ny,Gender,Healthcare :: Insurance coverage,6.0,7.0,-1.0
+ny,Gender,Healthcare :: Patient safety,5.0,12.0,-7.0
+ny,Gender,Healthcare :: Preventive care,4.0,6.0,-2.0
+ny,Gender,Housing :: Access to housing,10.0,9.0,1.0
+ny,Gender,Housing :: Homelessness,11.0,9.0,2.0
+ny,Gender,Housing :: Housing stability,12.0,7.0,5.0
+ny,Gender Identity,Credit & Financial Services :: Access to banking services,8.0,10.0,-2.0
+ny,Gender Identity,Credit & Financial Services :: Access to credit,8.0,9.0,-1.0
+ny,Gender Identity,Credit & Financial Services :: Credit/loan approval,8.0,0.0,8.0
+ny,Gender Identity,Criminal Justice :: Arrest / detention by police,8.0,20.0,-12.0
+ny,Gender Identity,Criminal Justice :: Incarceration,7.0,3.0,4.0
+ny,Gender Identity,Criminal Justice :: Police use of force,8.0,6.0,2.0
+ny,Gender Identity,Education :: College access/admission,16.0,14.0,2.0
+ny,Gender Identity,Education :: Educational opportunity/access,10.0,7.0,3.0
+ny,Gender Identity,Education :: Harassment/bullying,16.0,9.0,7.0
+ny,Gender Identity,Employment :: Career advancement,7.0,15.0,-8.0
+ny,Gender Identity,Employment :: Hiring,6.0,4.0,2.0
+ny,Gender Identity,Employment :: Workplace harassment,11.0,3.0,8.0
+ny,Gender Identity,Government Benefits :: Access to government benefits,8.0,10.0,-2.0
+ny,Gender Identity,Government Benefits :: Application/approval,17.0,13.0,4.0
+ny,Gender Identity,Government Benefits :: Benefit retention / renewal,16.0,14.0,2.0
+ny,Gender Identity,Healthcare :: Insurance coverage,6.0,2.0,4.0
+ny,Gender Identity,Healthcare :: Patient safety,10.0,1.0,9.0
+ny,Gender Identity,Healthcare :: Preventive care,8.0,2.0,6.0
+ny,Gender Identity,Housing :: Access to housing,8.0,4.0,4.0
+ny,Gender Identity,Housing :: Homelessness,9.0,5.0,4.0
+ny,Gender Identity,Housing :: Housing stability,11.0,6.0,5.0
+ny,Race,Credit & Financial Services :: Access to banking services,7.0,8.0,-1.0
+ny,Race,Credit & Financial Services :: Access to credit,12.0,7.0,5.0
+ny,Race,Credit & Financial Services :: Credit/loan approval,12.0,8.0,4.0
+ny,Race,Criminal Justice :: Arrest / detention by police,6.0,6.0,0.0
+ny,Race,Criminal Justice :: Incarceration,9.0,6.0,3.0
+ny,Race,Criminal Justice :: Police use of force,7.0,5.0,2.0
+ny,Race,Education :: College access/admission,4.0,5.0,-1.0
+ny,Race,Education :: Educational opportunity/access,12.0,6.0,6.0
+ny,Race,Education :: Harassment/bullying,14.0,3.0,11.0
+ny,Race,Employment :: Career advancement,10.0,4.0,6.0
+ny,Race,Employment :: Hiring,8.0,6.0,2.0
+ny,Race,Employment :: Workplace harassment,8.0,8.0,0.0
+ny,Race,Government Benefits :: Access to government benefits,11.0,6.0,5.0
+ny,Race,Government Benefits :: Application/approval,9.0,10.0,-1.0
+ny,Race,Government Benefits :: Benefit retention / renewal,12.0,12.0,0.0
+ny,Race,Healthcare :: Insurance coverage,6.0,6.0,0.0
+ny,Race,Healthcare :: Patient safety,8.0,9.0,-1.0
+ny,Race,Healthcare :: Preventive care,10.0,5.0,5.0
+ny,Race,Housing :: Access to housing,11.0,5.0,6.0
+ny,Race,Housing :: Homelessness,9.0,7.0,2.0
+ny,Race,Housing :: Housing stability,11.0,3.0,8.0
+ny,Sexual Orientation,Credit & Financial Services :: Access to banking services,9.0,4.0,5.0
+ny,Sexual Orientation,Credit & Financial Services :: Access to credit,9.0,4.0,5.0
+ny,Sexual Orientation,Credit & Financial Services :: Credit/loan approval,12.0,7.0,5.0
+ny,Sexual Orientation,Criminal Justice :: Arrest / detention by police,20.0,17.0,3.0
+ny,Sexual Orientation,Criminal Justice :: Incarceration,8.0,3.0,5.0
+ny,Sexual Orientation,Criminal Justice :: Police use of force,11.0,15.0,-4.0
+ny,Sexual Orientation,Education :: College access/admission,9.0,20.0,-11.0
+ny,Sexual Orientation,Education :: Educational opportunity/access,9.0,8.0,1.0
+ny,Sexual Orientation,Education :: Harassment/bullying,11.0,16.0,-5.0
+ny,Sexual Orientation,Employment :: Career advancement,9.0,6.0,3.0
+ny,Sexual Orientation,Employment :: Hiring,6.0,0.0,6.0
+ny,Sexual Orientation,Employment :: Workplace harassment,9.0,16.0,-7.0
+ny,Sexual Orientation,Government Benefits :: Access to government benefits,7.0,7.0,0.0
+ny,Sexual Orientation,Government Benefits :: Application/approval,3.0,6.0,-3.0
+ny,Sexual Orientation,Government Benefits :: Benefit retention / renewal,12.0,16.0,-4.0
+ny,Sexual Orientation,Healthcare :: Insurance coverage,7.0,6.0,1.0
+ny,Sexual Orientation,Healthcare :: Patient safety,9.0,5.0,4.0
+ny,Sexual Orientation,Healthcare :: Preventive care,9.0,7.0,2.0
+ny,Sexual Orientation,Housing :: Access to housing,10.0,5.0,5.0
+ny,Sexual Orientation,Housing :: Homelessness,10.0,8.0,2.0
+ny,Sexual Orientation,Housing :: Housing stability,6.0,8.0,-2.0
+la,Disability,Credit & Financial Services :: Access to banking services,11.0,7.0,4.0
+la,Disability,Credit & Financial Services :: Access to credit,7.0,3.0,4.0
+la,Disability,Credit & Financial Services :: Credit/loan approval,11.0,3.0,8.0
+la,Disability,Criminal Justice :: Arrest / detention by police,7.0,1.0,6.0
+la,Disability,Criminal Justice :: Incarceration,9.0,7.0,2.0
+la,Disability,Criminal Justice :: Police use of force,9.0,4.0,5.0
+la,Disability,Education :: College access/admission,10.0,2.0,8.0
+la,Disability,Education :: Educational opportunity/access,13.0,7.0,6.0
+la,Disability,Education :: Harassment/bullying,9.0,1.0,8.0
+la,Disability,Employment :: Career advancement,8.0,0.0,8.0
+la,Disability,Employment :: Hiring,10.0,3.0,7.0
+la,Disability,Employment :: Workplace harassment,10.0,2.0,8.0
+la,Disability,Government Benefits :: Access to government benefits,8.0,7.0,1.0
+la,Disability,Government Benefits :: Application/approval,7.0,0.0,7.0
+la,Disability,Government Benefits :: Benefit retention / renewal,13.0,16.0,-3.0
+la,Disability,Healthcare :: Insurance coverage,10.0,3.0,7.0
+la,Disability,Healthcare :: Patient safety,7.0,6.0,1.0
+la,Disability,Healthcare :: Preventive care,10.0,3.0,7.0
+la,Disability,Housing :: Access to housing,10.0,8.0,2.0
+la,Disability,Housing :: Homelessness,8.0,10.0,-2.0
+la,Disability,Housing :: Housing stability,7.0,7.0,0.0
+la,Ethnicity,Credit & Financial Services :: Access to banking services,10.0,3.0,7.0
+la,Ethnicity,Credit & Financial Services :: Access to credit,11.0,5.0,6.0
+la,Ethnicity,Credit & Financial Services :: Credit/loan approval,12.0,4.0,8.0
+la,Ethnicity,Criminal Justice :: Arrest / detention by police,5.0,6.0,-1.0
+la,Ethnicity,Criminal Justice :: Incarceration,10.0,7.0,3.0
+la,Ethnicity,Criminal Justice :: Police use of force,7.0,4.0,3.0
+la,Ethnicity,Education :: College access/admission,11.0,10.0,1.0
+la,Ethnicity,Education :: Educational opportunity/access,7.0,2.0,5.0
+la,Ethnicity,Education :: Harassment/bullying,6.0,9.0,-3.0
+la,Ethnicity,Employment :: Career advancement,9.0,7.0,2.0
+la,Ethnicity,Employment :: Hiring,9.0,8.0,1.0
+la,Ethnicity,Employment :: Workplace harassment,9.0,3.0,6.0
+la,Ethnicity,Government Benefits :: Access to government benefits,6.0,6.0,0.0
+la,Ethnicity,Government Benefits :: Application/approval,9.0,6.0,3.0
+la,Ethnicity,Government Benefits :: Benefit retention / renewal,11.0,22.0,-11.0
+la,Ethnicity,Healthcare :: Insurance coverage,6.0,5.0,1.0
+la,Ethnicity,Healthcare :: Patient safety,6.0,6.0,0.0
+la,Ethnicity,Healthcare :: Preventive care,10.0,11.0,-1.0
+la,Ethnicity,Housing :: Access to housing,11.0,6.0,5.0
+la,Ethnicity,Housing :: Homelessness,8.0,5.0,3.0
+la,Ethnicity,Housing :: Housing stability,11.0,8.0,3.0
+la,Gender,Credit & Financial Services :: Access to banking services,12.0,9.0,3.0
+la,Gender,Credit & Financial Services :: Access to credit,10.0,3.0,7.0
+la,Gender,Credit & Financial Services :: Credit/loan approval,10.0,5.0,5.0
+la,Gender,Criminal Justice :: Arrest / detention by police,8.0,8.0,0.0
+la,Gender,Criminal Justice :: Incarceration,10.0,8.0,2.0
+la,Gender,Criminal Justice :: Police use of force,8.0,9.0,-1.0
+la,Gender,Education :: College access/admission,13.0,8.0,5.0
+la,Gender,Education :: Educational opportunity/access,9.0,4.0,5.0
+la,Gender,Education :: Harassment/bullying,5.0,8.0,-3.0
+la,Gender,Employment :: Career advancement,9.0,5.0,4.0
+la,Gender,Employment :: Hiring,9.0,8.0,1.0
+la,Gender,Employment :: Workplace harassment,6.0,6.0,0.0
+la,Gender,Government Benefits :: Access to government benefits,6.0,4.0,2.0
+la,Gender,Government Benefits :: Application/approval,21.0,7.0,14.0
+la,Gender,Government Benefits :: Benefit retention / renewal,17.0,12.0,5.0
+la,Gender,Healthcare :: Insurance coverage,9.0,10.0,-1.0
+la,Gender,Healthcare :: Patient safety,4.0,7.0,-3.0
+la,Gender,Healthcare :: Preventive care,5.0,4.0,1.0
+la,Gender,Housing :: Access to housing,10.0,6.0,4.0
+la,Gender,Housing :: Homelessness,9.0,9.0,0.0
+la,Gender,Housing :: Housing stability,8.0,10.0,-2.0
+la,Gender Identity,Credit & Financial Services :: Access to banking services,5.0,7.0,-2.0
+la,Gender Identity,Credit & Financial Services :: Access to credit,5.0,8.0,-3.0
+la,Gender Identity,Credit & Financial Services :: Credit/loan approval,9.0,5.0,4.0
+la,Gender Identity,Criminal Justice :: Arrest / detention by police,8.0,20.0,-12.0
+la,Gender Identity,Criminal Justice :: Incarceration,7.0,4.0,3.0
+la,Gender Identity,Criminal Justice :: Police use of force,19.0,4.0,15.0
+la,Gender Identity,Education :: College access/admission,17.0,0.0,17.0
+la,Gender Identity,Education :: Educational opportunity/access,11.0,12.0,-1.0
+la,Gender Identity,Education :: Harassment/bullying,8.0,10.0,-2.0
+la,Gender Identity,Employment :: Career advancement,11.0,0.0,11.0
+la,Gender Identity,Employment :: Hiring,11.0,0.0,11.0
+la,Gender Identity,Employment :: Workplace harassment,10.0,4.0,6.0
+la,Gender Identity,Government Benefits :: Access to government benefits,9.0,13.0,-4.0
+la,Gender Identity,Government Benefits :: Application/approval,14.0,12.0,2.0
+la,Gender Identity,Government Benefits :: Benefit retention / renewal,13.0,10.0,3.0
+la,Gender Identity,Healthcare :: Insurance coverage,7.0,0.0,7.0
+la,Gender Identity,Healthcare :: Patient safety,13.0,4.0,9.0
+la,Gender Identity,Healthcare :: Preventive care,8.0,3.0,5.0
+la,Gender Identity,Housing :: Access to housing,12.0,4.0,8.0
+la,Gender Identity,Housing :: Homelessness,10.0,8.0,2.0
+la,Gender Identity,Housing :: Housing stability,10.0,4.0,6.0
+la,Race,Credit & Financial Services :: Access to banking services,9.0,7.0,2.0
+la,Race,Credit & Financial Services :: Access to credit,8.0,9.0,-1.0
+la,Race,Credit & Financial Services :: Credit/loan approval,13.0,6.0,7.0
+la,Race,Criminal Justice :: Arrest / detention by police,3.0,1.0,2.0
+la,Race,Criminal Justice :: Incarceration,7.0,3.0,4.0
+la,Race,Criminal Justice :: Police use of force,8.0,5.0,3.0
+la,Race,Education :: College access/admission,8.0,5.0,3.0
+la,Race,Education :: Educational opportunity/access,13.0,6.0,7.0
+la,Race,Education :: Harassment/bullying,20.0,4.0,16.0
+la,Race,Employment :: Career advancement,7.0,5.0,2.0
+la,Race,Employment :: Hiring,10.0,4.0,6.0
+la,Race,Employment :: Workplace harassment,6.0,4.0,2.0
+la,Race,Government Benefits :: Access to government benefits,7.0,6.0,1.0
+la,Race,Government Benefits :: Application/approval,16.0,10.0,6.0
+la,Race,Government Benefits :: Benefit retention / renewal,11.0,9.0,2.0
+la,Race,Healthcare :: Insurance coverage,9.0,5.0,4.0
+la,Race,Healthcare :: Patient safety,8.0,3.0,5.0
+la,Race,Healthcare :: Preventive care,10.0,4.0,6.0
+la,Race,Housing :: Access to housing,13.0,0.0,13.0
+la,Race,Housing :: Homelessness,8.0,6.0,2.0
+la,Race,Housing :: Housing stability,7.0,7.0,0.0
+la,Sexual Orientation,Credit & Financial Services :: Access to banking services,10.0,10.0,0.0
+la,Sexual Orientation,Credit & Financial Services :: Access to credit,9.0,7.0,2.0
+la,Sexual Orientation,Credit & Financial Services :: Credit/loan approval,10.0,6.0,4.0
+la,Sexual Orientation,Criminal Justice :: Arrest / detention by police,8.0,20.0,-12.0
+la,Sexual Orientation,Criminal Justice :: Incarceration,5.0,3.0,2.0
+la,Sexual Orientation,Criminal Justice :: Police use of force,5.0,5.0,0.0
+la,Sexual Orientation,Education :: College access/admission,8.0,15.0,-7.0
+la,Sexual Orientation,Education :: Educational opportunity/access,6.0,12.0,-6.0
+la,Sexual Orientation,Education :: Harassment/bullying,10.0,19.0,-9.0
+la,Sexual Orientation,Employment :: Career advancement,11.0,5.0,6.0
+la,Sexual Orientation,Employment :: Hiring,6.0,0.0,6.0
+la,Sexual Orientation,Employment :: Workplace harassment,6.0,12.0,-6.0
+la,Sexual Orientation,Government Benefits :: Access to government benefits,6.0,7.0,-1.0
+la,Sexual Orientation,Government Benefits :: Application/approval,15.0,0.0,15.0
+la,Sexual Orientation,Government Benefits :: Benefit retention / renewal,15.0,6.0,9.0
+la,Sexual Orientation,Healthcare :: Insurance coverage,9.0,4.0,5.0
+la,Sexual Orientation,Healthcare :: Patient safety,9.0,7.0,2.0
+la,Sexual Orientation,Healthcare :: Preventive care,13.0,8.0,5.0
+la,Sexual Orientation,Housing :: Access to housing,7.0,5.0,2.0
+la,Sexual Orientation,Housing :: Homelessness,10.0,6.0,4.0
+la,Sexual Orientation,Housing :: Housing stability,7.0,7.0,0.0

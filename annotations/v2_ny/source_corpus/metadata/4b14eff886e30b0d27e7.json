@@ -1,0 +1,20 @@
+{
+  "source_id": "4b14eff886e30b0d27e7",
+  "normalized_url": "https://forbes.com/sites/forbeseq/2025/07/08/the-business-benefits-of-hiring-people-with-disabilities",
+  "fetch_timestamp_utc": "2026-10-04T02:38:30.866083+00:00",
+  "registrable_domain": "forbes.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://forbes.com/sites/forbeseq/2025/07/08/the-business-benefits-of-hiring-people-with-disabilities",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 773,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,19 @@
+location,metric_x,metric_y,n_observations,n_blocks,blocked_rank_correlation,ci_low,ci_high,p_raw,p_holm,significant_holm
+Dallas,url_jaccard_distance,dense_distance_subject_normalized,252,21,0.4110702555,0.3107960973,0.505223076,4.99975e-05,0.000299985,True
+Dallas,domain_jaccard_distance,dense_distance_subject_normalized,252,21,0.1338945247,-0.0029655899,0.2765165355,0.0402479876,0.0804959752,False
+Dallas,url_jaccard_distance,evidence_semantic_gap_source_balanced,160,21,-0.2247544286,-0.3738790238,-0.0570043951,0.0199490025,0.0598470076,False
+Dallas,domain_jaccard_distance,evidence_semantic_gap_source_balanced,160,21,-0.0964410183,-0.2473381022,0.0746964589,0.3067346633,0.3067346633,False
+Dallas,evidence_semantic_gap_source_balanced,dense_distance_subject_normalized,160,21,-0.3862031505,-0.4868403044,-0.2780356593,9.9995e-05,0.000499975,True
+Dallas,answer_support_semantic_gap,dense_distance_subject_normalized,160,21,-0.2797392721,-0.4270593865,-0.1070923236,0.0020498975,0.00819959,True
+New York City,url_jaccard_distance,dense_distance_subject_normalized,252,21,0.2809869198,0.1532870105,0.3883639085,4.99975e-05,0.000299985,True
+New York City,domain_jaccard_distance,dense_distance_subject_normalized,252,21,0.2620247994,0.1277377298,0.3887119905,9.9995e-05,0.000499975,True
+New York City,url_jaccard_distance,evidence_semantic_gap_source_balanced,148,21,-0.2388149703,-0.4466974063,-0.0424530025,0.0139493025,0.0418479076,True
+New York City,domain_jaccard_distance,evidence_semantic_gap_source_balanced,148,21,-0.1966451085,-0.3485664745,-0.0676466874,0.0445977701,0.0445977701,True
+New York City,evidence_semantic_gap_source_balanced,dense_distance_subject_normalized,148,21,-0.346361186,-0.4824192332,-0.2025811534,0.0005499725,0.00219989,True
+New York City,answer_support_semantic_gap,dense_distance_subject_normalized,148,21,-0.218328841,-0.3417111973,-0.0754257916,0.0220488976,0.0440977951,True
+Los Angeles,url_jaccard_distance,dense_distance_subject_normalized,252,21,0.4198645031,0.2914026831,0.5276357445,4.99975e-05,0.000299985,True
+Los Angeles,domain_jaccard_distance,dense_distance_subject_normalized,252,21,0.2546365444,0.107535163,0.3957724086,9.9995e-05,0.000499975,True
+Los Angeles,url_jaccard_distance,evidence_semantic_gap_source_balanced,132,20,-0.0544566034,-0.3068454259,0.1633982025,0.6272186391,1.0,False
+Los Angeles,domain_jaccard_distance,evidence_semantic_gap_source_balanced,132,20,-0.0650978991,-0.2521298702,0.0701935036,0.5401229939,1.0,False
+Los Angeles,evidence_semantic_gap_source_balanced,dense_distance_subject_normalized,132,20,-0.3605243991,-0.4950619375,-0.2427019345,0.0004499775,0.00179991,True
+Los Angeles,answer_support_semantic_gap,dense_distance_subject_normalized,132,20,-0.2949745084,-0.4436729766,-0.0781692723,0.0051497425,0.0154492275,True

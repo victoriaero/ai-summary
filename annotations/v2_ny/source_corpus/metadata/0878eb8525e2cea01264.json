@@ -1,0 +1,20 @@
+{
+  "source_id": "0878eb8525e2cea01264",
+  "normalized_url": "https://urban.org/urban-wire/how-local-differences-race-and-place-affect-mortgage-lending",
+  "fetch_timestamp_utc": "2026-10-04T02:33:05.852112+00:00",
+  "registrable_domain": "urban.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.urban.org/urban-wire/how-local-differences-race-and-place-affect-mortgage-lending",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5894,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

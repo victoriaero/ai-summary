@@ -1,0 +1,28 @@
+{
+  "source_id": "27ebba74a46aef5b9374",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7173312",
+  "fetch_timestamp_utc": "2026-10-04T03:33:35.429631+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7173312/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 307820,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/27ebba74a46aef5b9374.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/27ebba74a46aef5b9374.txt",
+  "text_chars": 79585,
+  "text_words": 12552,
+  "extraction_status": "success",
+  "page_title": "Understanding the Racial/Ethnic Gap in Bank Account Ownership among Older Adults",
+  "page_author": "LUISA R BLANCO; MARCO ANGRISANI; EMMA AGUILA; MEI LENG",
+  "page_date": "2018-04-14",
+  "site_name": "The Journal of consumer affairs",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7173312/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "6dc4129a249730451afc",
+  "normalized_url": "https://eeoc.gov/chart-risk-factors-harassment-and-responsive-strategies",
+  "fetch_timestamp_utc": "2026-10-04T03:38:57.529938+00:00",
+  "registrable_domain": "eeoc.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.eeoc.gov/chart-risk-factors-harassment-and-responsive-strategies",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 75996,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6dc4129a249730451afc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6dc4129a249730451afc.txt",
+  "text_chars": 566,
+  "text_words": 56,
+  "extraction_status": "success",
+  "page_title": "Chart of Risk Factors for Harassment and Responsive Strategies",
+  "page_author": null,
+  "page_date": "2000-01-01",
+  "site_name": "U.S. Equal Employment Opportunity Commission",
+  "canonical_url": "https://www.eeoc.gov/chart-risk-factors-harassment-and-responsive-strategies"
+}

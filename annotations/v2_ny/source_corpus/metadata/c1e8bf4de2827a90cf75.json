@@ -1,0 +1,28 @@
+{
+  "source_id": "c1e8bf4de2827a90cf75",
+  "normalized_url": "https://brookings.edu/articles/unequal-opportunity-race-and-education",
+  "fetch_timestamp_utc": "2026-10-04T02:48:05.465037+00:00",
+  "registrable_domain": "brookings.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.brookings.edu/articles/unequal-opportunity-race-and-education/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 183214,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c1e8bf4de2827a90cf75.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c1e8bf4de2827a90cf75.txt",
+  "text_chars": 18088,
+  "text_words": 2687,
+  "extraction_status": "success",
+  "page_title": "Unequal Opportunity: Race and Education | Brookings",
+  "page_author": "Vandita Morarka",
+  "page_date": "2023-06-25",
+  "site_name": "Brookings",
+  "canonical_url": "https://www.brookings.edu/articles/unequal-opportunity-race-and-education/"
+}

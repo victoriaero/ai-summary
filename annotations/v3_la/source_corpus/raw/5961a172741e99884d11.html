@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Visualizing the racial disparities in mass incarceration | Prison Policy Initiative</title>
+	<meta charset="utf-8">
+<link rel="dns-prefetch" href="//static.prisonpolicy.org">
+<link href="https://static.prisonpolicy.org" rel="preconnect" crossorigin>
+	<link href="//static.prisonpolicy.org/css/ppi_gen.css?v=tlxjg2" rel="stylesheet">
+
+
+	<link rel="preload" href="//static.prisonpolicy.org/css/images/sprites.png?v=15" as="image">
+
+	<meta name="description" content="Racial inequality is evident in every stage of the criminal justice system - here are the key statistics compiled into a series of charts. ">
+<meta name="robots" content="max-image-preview:large">
+	<meta property="og:image" content="https://static.prisonpolicy.org/images/jailratesbyracetwittercard.png">
+	<meta property="og:url" content="https://www.prisonpolicy.org/blog/2020/07/27/disparities/">
+	<meta property="og:title" content="Visualizing the racial disparities in mass incarceration">
+	<meta property="og:description" content="Racial inequality is evident in every stage of the criminal justice system - here are the key statistics compiled into a series of charts. ">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="https://www.prisonpolicy.org/blog/2020/07/27/disparities/">
+	<meta name="twitter:title" content="Visualizing the racial disparities in mass incarceration">
+	<meta name="twitter:description" content="Racial inequality is evident in every stage of the criminal justice system - here are the key statistics compiled into a series of charts. ">
+	<meta name="twitter:image:src" content="https://static.prisonpolicy.org/images/jailratesbyracetwittercard.png">
+	<meta name="twitter:site" content="@PrisonPolicy">
+	<meta name="author" content="Prison Policy Initiative">
+	<meta name="dcterms.rights" content="Copyright (c) 2001-2026 Prison Policy Initiative">
+	<link rel="canonical" href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/">
+	<meta name="viewport" content="width=device-width, minimum-scale=1">
+	<meta property="fb:app_id" content="344148358959262">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<link rel="alternate" type="application/rss+xml" title="Prison Policy Initiative What's New RSS feed" href="//www.prisonpolicy.org/feeds/ppi.xml">
+
+	<link rel="icon" href="//static.prisonpolicy.org/favicon.png?v=2">
+
+
+	<style>
+	/* Slidebars 0.10.2 (http://plugins.adchsm.me/slidebars/) written by Adam Smith (http://www.adchsm.me/) released under MIT License (http://plugins.adchsm.me/slidebars/license.txt) */
+.sb-hide,.sb-slidebar{display:none}#sb-site,.sb-site-container,.sb-slidebar,body,html{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body,html{width:100%}html{height:100%}body{min-height:100%;height:auto;position:relative}html.sb-scroll-lock.sb-active:not(.sb-static){overflow:hidden}#sb-site,.sb-site-container{width:100%;position:relative;z-index:1;background-color:#fff}.sb-slidebar{height:100%;overflow-y:auto;position:fixed;top:0;z-index:0;background-color:#222;-webkit-transform:translate(0);width:30%}.sb-left{left:0}.sb-right{right:0}.sb-slidebar.sb-static,html.sb-static .sb-slidebar{position:absolute}.sb-slidebar.sb-active{display:block}.sb-style-overlay{z-index:9999}.sb-momentum-scrolling{-webkit-overflow-scrolling:touch}.sb-width-thin{width:15%}.sb-width-wide{width:45%}@media (max-width:480px){.sb-slidebar{width:70%}.sb-width-thin{width:55%}.sb-width-wide{width:85%}}@media (min-width:481px){.sb-slidebar{width:55%}.sb-width-thin{width:40%}.sb-width-wide{width:70%}}@media (min-width:768px){.sb-slidebar{width:40%}.sb-width-thin{width:25%}.sb-width-wide{width:55%}}@media (min-width:992px){.sb-slidebar{width:30%}.sb-width-thin{width:15%}.sb-width-wide{width:45%}}@media (min-width:1200px){.sb-slidebar{width:20%}.sb-width-thin{width:5%}.sb-width-wide{width:35%}}#sb-site,.sb-site-container,.sb-slide,.sb-slidebar{-webkit-transition:-webkit-transform .4s,left .4s,right .4s;-moz-transition:-moz-transform .4s;-o-transition:-o-transform .4s;transition:transform .4s;-webkit-backface-visibility:hidden}
+#breadcrumb { margin: 0; }
+
+	</style>
+
+	<!--[if lte IE 7]>
+		<link href="//static.prisonpolicy.org/css/ie7.css" rel="stylesheet" media="screen">
+	<![endif]-->
+	<!--[if lte IE 6]>
+		<link href="//static.prisonpolicy.org/css/ie6.css" rel="stylesheet" media="screen">
+	<![endif]-->
+
+	<script defer src="//static.prisonpolicy.org/js/slidebars.min.js?v=s0wdn1"></script>
+	<script>document.addEventListener("DOMContentLoaded",function(){null!=document.querySelectorAll("span.pullquote")&&function e(){let t=document.querySelectorAll("span.pullquote");t.forEach(e=>{var t,l,r,n="";for(e.getAttribute("title")?(r=e.getAttribute("title"),n+=" paraphrase"):r=e.innerText,r=r.replace(/\((.*)\)/gi," "),t=0;t<e.classList.length;++t)"pullquote"!==(l=e.classList.item(t))&&(n+=" "+l);var a=e.parentNode,i=document.createElement("blockquote");i.className="pulledquote"+n,i.innerHTML=r,a.insertBefore(i,a.firstChild)})}()});
+(function () {
+	"use strict";
+	if(!document.querySelector || !("classList" in document.createElement("_")))
+		return;
+	var toggleVisibility = function(elem) {
+		if(elem.style.display === "none") {
+			if(elem.hasAttribute("orig-display"))
+				elem.style.display = elem.getAttribute("orig-display");
+			else
+				elem.style.display = "block";
+		} else {
+			elem.setAttribute("orig-display", elem.style.display);
+			elem.style.display = "none";
+		}
+	};
+	document.addEventListener("DOMContentLoaded", function() {
+		var elem = document.querySelector("#commentform");
+		if(!elem)
+			return;
+		toggleVisibility(elem);
+
+		var leaveCommentHeader = document.querySelector("#leavecomment h3");
+		var a = document.createElement("a");
+		a.setAttribute("href", "#");
+		a.classList.toggle("btn");
+		Array.prototype.forEach.call(leaveCommentHeader.childNodes, function(node) {
+			a.appendChild(node);
+		});
+		a.addEventListener("click", function(ev) {
+			toggleVisibility(elem);
+			Array.prototype.forEach.call(a.childNodes, function(node) {
+				leaveCommentHeader.appendChild(node);
+			});
+			a.parentNode.removeChild(a);
+			ev.preventDefault();
+		});
+		leaveCommentHeader.appendChild(a);
+	});
+}());
+</script>
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://www.prisonpolicy.org/blog/feed/">
+<link rel="alternate" type="text/xml" title="RSS .92" href="https://www.prisonpolicy.org/blog/feed/rss/">
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="https://www.prisonpolicy.org/blog/feed/atom/"><meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.prisonpolicy.org/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.prisonpolicy.org%2Fblog%2F2020%2F07%2F27%2Fdisparities%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.prisonpolicy.org/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.prisonpolicy.org%2Fblog%2F2020%2F07%2F27%2Fdisparities%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel="https://api.w.org/" href="https://www.prisonpolicy.org/blog/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.prisonpolicy.org/blog/wp-json/wp/v2/posts/10386" /><link rel='shortlink' href='https://www.prisonpolicy.org/blog/?p=10386' />
+
+
+<script src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js" defer></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3ZZXPJN7M4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3ZZXPJN7M4');
+</script>
+
+</head>
+
+<body>
+<div class="sb-slidebar sb-left">
+<ul>
+		<li>
+			<a href="/"><span><span>Home</span></span></a>
+		</li>
+		<li>
+			<a href="/about.html"><span><span>About</span></span></a>
+		</li>
+		<li class="current">
+			<a href="/reports.html"><span><span>Publications</span></span></a>
+			<ul>
+				<li>
+					<a href="/reports.html"><span>Reports</span></a>
+				</li>
+				<li class="current">
+					<a href="/briefings/"><span>Briefings</span></a>
+				</li>
+				<li>
+					<a href="/graphs/"><span>Visuals</span></a>
+				</li>
+				<li>
+					<a href="/profiles/"><span>State Profiles</span></a>
+				</li>
+				<li>
+					<a href="/trainings/"><span>Advocacy Toolkit</span></a>
+				</li>
+				<li>
+					<a href="/factsheets.html"><span>Fact Sheets</span></a>
+				</li>
+				<li>
+					<a href="/trainings/journalist.html"><span>Journalist Toolkit</span></a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="/expertise.html"><span><span>Issues</span></span></a>
+		</li>
+		<li>
+			<a href="/data/"><span><span>Data</span></span></a>
+		</li>
+		<li>
+			<a href="/blog/"><span><span>Blog</span></span></a>
+		</li>
+		<li>
+			<a href="/federaltracker.html"><span><span>Trump Tracker</span></span></a>
+		</li>
+		<li>
+			<a href="/contact.html"><span><span>Contact</span></span></a>
+		</li>
+		<li class="mobileonly">
+			<a href="/donate.html"><span><span>Donate</span></span></a>
+		</li>
+</ul>
+</div> 
+<div id="sb-site">
+
+<div id="header"><div id="header-content">
+	<a id="logo" href="/" aria-label="Homepage"><span class="for-acc">Prison Policy Initiative</span></a> <span class="mobileonly" id="mobileheadersearch"><a style="color:white" href="/search.html">Search <span class="search-icon"></span></a></span>
+	<form class="search-form" action="//www.prisonpolicy.org/searchresults.html"
+			id="searchbox_015684313971992382479:a3be84yykbq">
+		<input type="hidden" name="cx" value="015684313971992382479:a3be84yykbq">
+		<input type="hidden" name="cof" value="FORID:11">
+		<input type="text" name="q" placeholder="SEARCH">
+		<button type="submit">Go</button>
+	</form>
+	<div id="social-links">
+		<a id="instagram-link" href="https://www.instagram.com/prisonpolicy/">
+			<span class="for-acc">Instagram</span>
+		</a>
+		<a id="twitter-link" href="https://twitter.com/PrisonPolicy">
+			<span class="for-acc">Twitter</span>
+		</a>
+		<a id="facebook-link" href="https://www.facebook.com/PrisonPolicyInitiative">
+			<span class="for-acc">Facebook</span>
+		</a>
+		<a id="linkedin-link" href="https://www.linkedin.com/company/prison-policy-initiative">
+			<span class="for-acc">LinkedIn</span>
+		</a>
+	</div>
+</div></div>
+
+
+<div id="outer-menu-container">
+<ul id="menu">
+	<li id="show-menu-link">
+		<a href="#" class="sb-toggle-left"><span class="menu-icon"></span>
+			<span><span>Menu</span></span>
+		</a>
+	</li>
+	<li>
+		<a href="/"><span>Home</span></a>
+		<div class="inner-menu-container">
+		<ul>
+		</ul>
+		</div>
+	</li>
+	<li>
+		<a href="/about.html"><span>About</span></a>
+		<div class="inner-menu-container">
+		<ul>
+			<li>
+				<a href="/donate.html"><span>Donate</span></a>
+			</li>
+			<li>
+				<a href="/staff.html"><span>Staff</span></a>
+			</li>
+			<li>
+				<a href="/alums.html"><span>Alums</span></a>
+			</li>
+			<li>
+				<a href="/directors.html"><span>Board</span></a>
+			</li>
+			<li>
+				<a href="/jobs.html"><span>Careers</span></a>
+			</li>
+			<li>
+				<a href="/cases.html"><span>Litigation</span></a>
+			</li>
+			<li>
+				<a href="/news.html"><span>In the News</span></a>
+			</li>
+			<li>
+				<a href="/pressreleases.html"><span>Press Releases</span></a>
+			</li>
+		</ul>
+		</div>
+	</li>
+	<li class="current">
+		<a href="/reports.html"><span>Publications</span></a>
+		<div class="inner-menu-container">
+		<ul>
+			<li>
+				<a href="/reports.html"><span>Reports</span></a>
+			</li>
+			<li class="current">
+				<a href="/briefings/"><span>Briefings</span></a>
+			</li>
+			<li>
+				<a href="/graphs/"><span>Visuals</span></a>
+			</li>
+			<li>
+				<a href="/profiles/"><span>State Profiles</span></a>
+			</li>
+			<li>
+				<a href="/trainings/"><span>Advocacy Toolkit</span></a>
+			</li>
+			<li>
+				<a href="/factsheets.html"><span>Fact Sheets</span></a>
+			</li>
+			<li>
+				<a href="/trainings/journalist.html"><span>Journalist Toolkit</span></a>
+			</li>
+		</ul>
+		</div>
+	</li>
+	<li>
+		<a href="/expertise.html"><span>Issues</span></a>
+		<div class="inner-menu-container">
+		<ul>
+			<li>
+				<a href="/policing.html"><span>Policing</span></a>
+			</li>
+			<li>
+				<a href="/national/"><span>Facts</span></a>
+			</li>
+			<li>
+				<a href="/jails.html"><span>Jails</span></a>
+			</li>
+			<li>
+				<a href="/racialjustice.html"><span>Race</span></a>
+			</li>
+			<li>
+				<a href="/communications.html"><span>Communication</span></a>
+			</li>
+			<li>
+				<a href="/exploitation.html"><span>Exploitation</span></a>
+			</li>
+			<li>
+				<a href="/women.html"><span>Women</span></a>
+			</li>
+		</ul>
+		</div>
+	</li>
+	<li>
+		<a href="/data/"><span>Data</span></a>
+		<div class="inner-menu-container">
+		<ul>
+			<li>
+				<a href="/data#nat"><span>National</span></a>
+			</li>
+			<li>
+				<a href="/data#state"><span>State</span></a>
+			</li>
+			<li>
+				<a href="/research.html"><span>Research Library</span></a>
+			</li>
+			<li>
+				<a href="/contracts/documents.html"><span>Correctional Contracts Archive</span></a>
+			</li>
+		</ul>
+		</div>
+	</li>
+	<li>
+		<a href="/blog/"><span>Blog</span></a>
+		<div class="inner-menu-container">
+		<ul>
+			<li>
+				<a href="/blog/archive/"><span>Archives</span></a>
+			</li>
+			<li>
+				<a href="/blog/category/best-of/"><span>Best of</span></a>
+			</li>
+			<li>
+				<a href="//www.prisonersofthecensus.org/news/"><span>Our other blog: ending prison gerrymandering</span></a>
+			</li>
+		</ul>
+		</div>
+	</li>
+	<li>
+		<a href="/federaltracker.html"><span>Trump Tracker</span></a>
+		<div class="inner-menu-container">
+		<ul>
+			<li>
+				<a href="/federaltracker.html"><span>Policy tracker</span></a>
+			</li>
+			<li>
+				<a href="/blog/2025/06/11/federalism/"><span>Understanding federal authority</span></a>
+			</li>
+			<li>
+				<a href="/reports/jails_immigration.html"><span>Role of jails in deportation</span></a>
+			</li>
+			<li>
+				<a href="/blog/2025/04/17/home-growns-are-next/"><span>Our plan</span></a>
+			</li>
+		</ul>
+		</div>
+	</li>
+	<li>
+		<a href="/contact.html"><span>Contact</span></a>
+		<div class="inner-menu-container">
+		<ul>
+			<li>
+				<a href="/donate.html"><span>Donate</span></a>
+			</li>
+			<li>
+				<a href="/resources/legal/"><span>Legal Resources for the Incarcerated</span></a>
+			</li>
+			<li>
+				<a href="/reprints.html"><span>Reprint Policy</span></a>
+			</li>
+		</ul>
+		</div>
+	</li>
+	<li class="mobileonly">
+		<a href="/donate.html"><span>Donate</span></a>
+		<div class="inner-menu-container">
+		<ul>
+		</ul>
+		</div>
+	</li>
+</ul>
+</div>
+
+<div id="header-menu-spacer"></div>
+
+
+<div id="outer-container">
+	<div id="left-margin"></div>
+
+	<div id="inner-container">
+
+
+
+	<div id="breadcrumb" style="margin-left: 50px">
+	<a href="/">Home Page</a> &gt;  <a href="/briefings/">Briefings</a> &gt; Visualizing the racial disparities in mass incarceration
+	</div>
+
+	<div></div>
+	<div id="sidebar"><div id="sidebar-content">
+<h2>Stay Informed</h2>
+<p style="margin-bottom:0;">Get the latest updates:</p>
+
+<form id="newsletter-signup" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="5B5E7037DA78A748374AD499497E309EF6D0CBD61DA24FAA3E123C328A51AE520FBBA97DE3CDB1A8DB23FE52517D11B8D6DC7C577B76ABD3095B0263BFF757D4">
+
+    <div class="checkboxes" style="text-indent:-15px; margin-left:10px;">
+        <label for="fieldyuhhpl-0"><input id="fieldyuhhpl-0" name="cm-fo-yuhhpl" type="checkbox" value="4001743" checked="checked">Prison Policy Initiative newsletter <a href="//www.prisonpolicy.org/newsletter/archive.html?nl=general">(?)</a></label>
+ <br>
+       <span style="margin-left:-10px;">And our other newsletters:</span>
+
+        <label for="fieldyuhhpl-2"><input id="fieldyuhhpl-2" name="cm-fo-yuhhpl" type="checkbox" checked="checked" value="4001745">Research Library updates <a href="//www.prisonpolicy.org/newsletter/archive.html?nl=research">(?)</a></label>        <label for="fieldyuhhpl-1"><input id="fieldyuhhpl-1" name="cm-fo-yuhhpl" type="checkbox" value="4001744" >Prison gerrymandering campaign <a href="//www.prisonpolicy.org/newsletter/archive.html?nl=gerrymandering">(?)</a></label>
+
+
+    </div>
+
+
+    <label for="Email">Email:</label>
+    <br>
+    <input id="Email" name="email" type="email" class="js-cm-email-input"
+    required>
+    <label for="fieldName">Name <span class="optional">(optional):</span></label>
+    <br>
+    <input id="fieldName" name="cm-name" type="text">
+    <label for="fieldwujuk">State <span class="optional">(optional):</span></label>
+    <br>
+    <input id="fieldwujuk" name="cm-f-wujuk" type="text">
+<br>
+
+		 <div style="text-align:center;"><input type="submit" id="subscribelist" value="Subscribe" style=""></div>
+
+</form>
+
+
+
+
+	<!-- <br> --> <!-- this added for spacing when the donation box is hidden -->
+
+
+ <!--<div class="notpie supershortsidebar">
+<h2>Work with us</h2>
+<p>We are looking for our next <a href="https://www.prisonpolicy.org/jobs.html">Creator-in-Residence</a> to produce engaging and informative social video content about the problems in the American criminal legal system.</p></div>
+
+-->
+
+
+<div class="supershortsidebar">
+		<h2>Support us</h2>
+		<p>Can you make a tax-deductible gift to support our work?</p>
+
+	<p class="center" style="margin-bottom:18px; font-size:15px;"><a class="btn_square" href="//www.prisonpolicy.org/donate.html">Donate</a></p>
+
+
+		<div class="hidemobile"><div class='supershortsidebar eventssection'><h2>Meet us</h2><ul class="events"><li id="s1793059200"><b>October 27, 2026</b>:<br> On October 27, 2026 at 1:30 p.m. EST, join the Prison Policy Initiative for a webinar focused on making public records requests. We&#8217;ll cover the basics of making a request and provide tips and tricks we’ve learned over decades of sending requests to jails, prisons, and other agencies that can make your requests more effective.<br> <br> 
+
+<a href="https://zoom.us/webinar/register/WN_-2xOMiy7RbGV4BjpzpNLDQ">Register here</a> </li></ul><p><b>Not near you?</b><br><a href="//www.prisonpolicy.org/speakers.html">Invite us</a> to your city, college or organization.</p></div></div>
+		
+</div>
+
+	</div></div>
+
+	<div id="body-content">
+
+
+
+		
+
+
+
+
+
+	<div id="page">
+
+<!--			<div class="post">-->
+				<div class="post">
+<h1 class='hassubhead'>Visualizing the racial disparities in mass incarceration </h1>
+<h2 class='subhead'>Racial inequality is evident in every stage of the criminal justice system - here are the key statistics compiled into a series of charts.</h2> 
+<p class="attrib">
+by <a href="https://www.prisonpolicy.org/staff.html#sawyer" title="Visit Wendy Sawyer&#8217;s website" rel="author external">Wendy Sawyer</a>,
+
+July 27, 2020</p>
+
+<p>Recent protests calling for radical changes to American policing have brought much-needed attention to the systemic racism within our criminal justice system. This extends beyond policing, of course: Systemic racism is evident <a href="https://www.washingtonpost.com/graphics/2020/opinions/systemic-racism-police-evidence-criminal-justice-system/">at every stage of the system</a>, from policing to prosecutorial decisions, pretrial release processes, sentencing, correctional discipline, and even reentry. The racism inherent in mass incarceration affects children as well as adults, and is often especially punishing for people of color who are also marginalized along other lines, such as gender and class. </p>
+<p>Because racial disparity data is often frustratingly hard to locate, we&#8217;ve compiled the key data available into a series of charts, arranged into five slideshows focused on <a href="#policing">policing</a>, <a href="#youth">juvenile justice</a>, <a href="#jails">jails</a> and pretrial detention, <a href="#prisons">prisons</a> and sentencing, and <a href="#reentry">reentry</a>. These charts provide a fuller picture of racial inequality in the criminal justice system, and make clear that a broad transformation will be needed to uproot the racial injustice of mass incarceration. </p>
+<p>Following the slideshows, we also address five frequently asked questions about criminal justice race/ethnicity data.</p>
+<h3 id="policing">There are racial disparities in policing and arrests:<link href="//static.prisonpolicy.org/css/slideshow_2022.min.css" rel="stylesheet"><script type="module" src="//static.prisonpolicy.org/js/slideshow_2022.min.mjs?v=rcipux"></script>
+<script type="module" src="//static.prisonpolicy.org/js/slideshow_2022_lib.min.mjs"></script>
+</h3>
+<div class="slideshow-container width800widescreen slideshow-2022" id="slideshow1">
+<div class="slide-wrapper">
+<ul class="slide">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/policestopsandcallsbyrace.webp 1x, //static.prisonpolicy.org/images/policestopsandcallsbyrace-2X.webp 2x"><img fetchpriority="high" decoding="async" src="//static.prisonpolicy.org/images/policestopsandcallsbyrace.png" alt="police contact" width="800" height="410">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/useofforcebyrace.webp 1x, //static.prisonpolicy.org/images/useofforcebyrace-2X.webp 2x"><img decoding="async" src="//static.prisonpolicy.org/images/useofforcebyrace.png" alt="use of force" width="800" height="410">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/numberofarrestsbyrace.webp 1x, //static.prisonpolicy.org/images/numberofarrestsbyrace-2X.webp 2x"><img decoding="async" src="//static.prisonpolicy.org/images/numberofarrestsbyrace.png" alt="number of arrests" width="800" height="410">
+</picture> </li>
+</ul>
+</div>
+<div class="wrap-controls">
+<div class="arrow-nav">
+		<button class="prev"></button>
+	</div>
+<ul class="custom-controls">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/policestopsandcallsbyrace.webp 1x, //static.prisonpolicy.org/images/policestopsandcallsbyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/policestopsandcallsbyrace.png" alt="police contact" width="50" height="38">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/useofforcebyrace.webp 1x, //static.prisonpolicy.org/images/useofforcebyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/useofforcebyrace.png" alt="use of force" width="50" height="38">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/numberofarrestsbyrace.webp 1x, //static.prisonpolicy.org/images/numberofarrestsbyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/numberofarrestsbyrace.png" alt="number of arrests" width="50" height="38">
+</picture> </li>
+</ul>
+<div class="arrow-nav">
+		<button class="next"></button>
+	</div>
+</div>
+</div>
+<div class="slideshow-spacer width800widescreen"></div>
+<h3 id="youth">There are racial disparities in the arrest and confinement of youth:</h3>
+<div class="slideshow-container width800widescreen slideshow-2022" id="slideshow2">
+<div class="slide-wrapper">
+<ul class="slide">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/youtharrestsbyrace2018.webp 1x, //static.prisonpolicy.org/images/youtharrestsbyrace2018-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/youtharrestsbyrace2018.png" alt="youth arrests" width="800" height="410">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/youthconfinementbyrace2017.webp 1x, //static.prisonpolicy.org/images/youthconfinementbyrace2017-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/youthconfinementbyrace2017.png" alt="youth confinement" width="800" height="410">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/lowlevelyouthbyrace.webp 1x, //static.prisonpolicy.org/images/lowlevelyouthbyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/lowlevelyouthbyrace.png" alt="youth confinement for low level offenses" width="800" height="410">
+</picture> </li>
+</ul>
+</div>
+<div class="wrap-controls">
+<div class="arrow-nav">
+		<button class="prev"></button>
+	</div>
+<ul class="custom-controls">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/youtharrestsbyrace2018.webp 1x, //static.prisonpolicy.org/images/youtharrestsbyrace2018-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/youtharrestsbyrace2018.png" alt="youth arrests" width="50" height="38">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/youthconfinementbyrace2017.webp 1x, //static.prisonpolicy.org/images/youthconfinementbyrace2017-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/youthconfinementbyrace2017.png" alt="youth confinement" width="50" height="38">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/lowlevelyouthbyrace.webp 1x, //static.prisonpolicy.org/images/lowlevelyouthbyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/lowlevelyouthbyrace.png" alt="youth confinement for low level offenses" width="50" height="38">
+</picture> </li>
+</ul>
+<div class="arrow-nav">
+		<button class="next"></button>
+	</div>
+</div>
+</div>
+<div class="slideshow-spacer width800widescreen"></div>
+<h3 id="jails">There are racial disparities in local jails and pretrial detention:</h3>
+<div class="slideshow-container width800widescreen slideshow-2022" id="slideshow3">
+<div class="slide-wrapper">
+<ul class="slide">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/jailratesbyrace2018.webp 1x, //static.prisonpolicy.org/images/jailratesbyrace2018-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/jailratesbyrace2018.png" alt="jail incarceration rates" width="800" height="410">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/pretrialgrowthandbyrace.webp 1x, //static.prisonpolicy.org/images/pretrialgrowthandbyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/pretrialgrowthandbyrace.png" alt="pretrial growth" width="800" height="410">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/bailincomebyracesex.webp 1x, //static.prisonpolicy.org/images/bailincomebyracesex-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/bailincomebyracesex.png" alt="incomes of people held pretrial" width="800" height="410">
+</picture> </li>
+</ul>
+</div>
+<div class="wrap-controls">
+<div class="arrow-nav">
+		<button class="prev"></button>
+	</div>
+<ul class="custom-controls">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/jailratesbyrace2018.webp 1x, //static.prisonpolicy.org/images/jailratesbyrace2018-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/jailratesbyrace2018.png" alt="jail incarceration rates" width="50" height="38">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/pretrialgrowthandbyrace.webp 1x, //static.prisonpolicy.org/images/pretrialgrowthandbyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/pretrialgrowthandbyrace.png" alt="pretrial growth" width="50" height="38">
+</picture> </li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/bailincomebyracesex.webp 1x, //static.prisonpolicy.org/images/bailincomebyracesex-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/bailincomebyracesex.png" alt="incomes of people held pretrial" width="50" height="38">
+</picture> </li>
+</ul>
+<div class="arrow-nav">
+		<button class="next"></button>
+	</div>
+</div>
+</div>
+<div class="slideshow-spacer width800widescreen"></div>
+<h3 id="prisons">There are racial disparities in prisons, extreme sentences, and solitary confinement:</h3>
+<div class="slideshow-container width800widescreen slideshow-2022" id="slideshow4">
+<div class="slide-wrapper">
+<ul class="slide">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/prisonratesbyracesex2018.webp 1x, //static.prisonpolicy.org/images/prisonratesbyracesex2018-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/prisonratesbyracesex2018.png" alt="imprisonment rates" width="800" height="410">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/prisonincomeracesex.webp 1x, //static.prisonpolicy.org/images/prisonincomeracesex-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/prisonincomeracesex.png" alt="pre-incarceration incomes of people in prison" width="800" height="410">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/lifesentencesbyrace2016.webp 1x, //static.prisonpolicy.org/images/lifesentencesbyrace2016-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/lifesentencesbyrace2016.png" alt="life sentences" width="800" height="410">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/deathrowbyrace2020.webp 1x, //static.prisonpolicy.org/images/deathrowbyrace2020-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/deathrowbyrace2020.png" alt="death sentences" width="800" height="410">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/solitarybyracesex2018.webp 1x, //static.prisonpolicy.org/images/solitarybyracesex2018-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/solitarybyracesex2018.png" alt="solitary confinement" width="800" height="410">
+</picture></li>
+</ul>
+</div>
+<div class="wrap-controls">
+<div class="arrow-nav">
+		<button class="prev"></button>
+	</div>
+<ul class="custom-controls">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/prisonratesbyracesex2018.webp 1x, //static.prisonpolicy.org/images/prisonratesbyracesex2018-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/prisonratesbyracesex2018.png" alt="imprisonment rates" width="50" height="38">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/prisonincomeracesex.webp 1x, //static.prisonpolicy.org/images/prisonincomeracesex-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/prisonincomeracesex.png" alt="pre-incarceration incomes of people in prison" width="50" height="38">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/lifesentencesbyrace2016.webp 1x, //static.prisonpolicy.org/images/lifesentencesbyrace2016-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/lifesentencesbyrace2016.png" alt="life sentences" width="50" height="38">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/deathrowbyrace2020.webp 1x, //static.prisonpolicy.org/images/deathrowbyrace2020-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/deathrowbyrace2020.png" alt="death sentences" width="50" height="38">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/solitarybyracesex2018.webp 1x, //static.prisonpolicy.org/images/solitarybyracesex2018-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/solitarybyracesex2018.png" alt="solitary confinement" width="50" height="38">
+</picture></li>
+</ul>
+<div class="arrow-nav">
+		<button class="next"></button>
+	</div>
+</div>
+</div>
+<div class="slideshow-spacer width800widescreen"></div>
+<h3 id="reentry">There are racial disparities in homelessness, unemployment, and poverty after release:</h3>
+<div class="slideshow-container width800widescreen slideshow-2022" id="slideshow5">
+<div class="slide-wrapper">
+<ul class="slide">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/unemploymentbyracesex.webp 1x, //static.prisonpolicy.org/images/unemploymentbyracesex-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/unemploymentbyracesex.png" alt="unemployment" width="800" height="410">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/homelessnessbyracesex.webp 1x, //static.prisonpolicy.org/images/homelessnessbyracesex-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/homelessnessbyracesex.png" alt="homelessness" width="800" height="410">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/wealthbyrace.webp 1x, //static.prisonpolicy.org/images/wealthbyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/wealthbyrace.png" alt="wealth accumulation" width="800" height="410">
+</picture></li>
+</ul>
+</div>
+<div class="wrap-controls">
+<div class="arrow-nav">
+		<button class="prev"></button>
+	</div>
+<ul class="custom-controls">
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/unemploymentbyracesex.webp 1x, //static.prisonpolicy.org/images/unemploymentbyracesex-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/unemploymentbyracesex.png" alt="unemployment" width="50" height="38">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/homelessnessbyracesex.webp 1x, //static.prisonpolicy.org/images/homelessnessbyracesex-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/homelessnessbyracesex.png" alt="homelessness" width="50" height="38">
+</picture></li>
+<li><picture><source type="image/webp" srcset="//static.prisonpolicy.org/images/wealthbyrace.webp 1x, //static.prisonpolicy.org/images/wealthbyrace-2X.webp 2x"><img loading="lazy" decoding="async" src="//static.prisonpolicy.org/images/wealthbyrace.png" alt="wealth accumulation" width="50" height="38">
+</picture></li>
+</ul>
+<div class="arrow-nav">
+		<button class="next"></button>
+	</div>
+</div>
+</div>
+<div class="slideshow-spacer width800widescreen"></div>
+<h2>Frequently asked questions about race and ethnicity in criminal justice data</h2>
+<h3>Q: Why are terms used inconsistently, such as &#8220;Hispanic&#8221; and &#8220;Latino/a&#8221;?</h3>
+<p><b>A:</b> Sharp-eyed readers will notice some inconsistency in the terms used in the charts above, and across the literature more generally. For example, the Census Bureau and most national criminal justice data uses the category &#8220;American Indian or Alaska Native&#8221; to describe indigenous people in the U.S., but the juvenile justice system data uses the term &#8220;American Indian.&#8221; Likewise, &#8220;Hispanic&#8221; is used most frequently in various national data sets to refer to those with Spanish-speaking ancestry, but some sources use Latino/a (or Latinx), which specifically refers to those with Latin American ancestry. In these charts (and in most of our publications), we use the terminology of the original data sources.
+</p>
+<h3>Q: Why are some racial/ethnic categories not represented in the data?</h3>
+<p><b>A:</b> The question of how accurately race and ethnicity data reflect justice-involved populations goes beyond inconsistent labels. Most obviously, not all racial or ethnic groups are consistently represented in the data; less populous Census-identified groups, such as Native Hawaiian or other Pacific Islander, Asian, and American Indian or Alaska Native &#8211; as well as the sizable but less specific &#8220;Two or more races&#8221; and &#8220;Some other race&#8221; &#8211; are very often excluded in publications, even when they are collected. Moreover, all of these categories are so broad that they lump together groups with very different experiences with the U.S. justice system. They disregard tribal differences, sweep people of East Asian and South Asian origins into one category, and somehow <a href="https://www.theguardian.com/commentisfree/2019/feb/14/arab-american-census-america-racism">ignore Arab Americans</a> entirely. As a result, our observations of racial and ethnic discrimination are limited to these broad categories and lack any real nuance.</p>
+<h3>Q: Where can I find data about racial disparities in my state&#8217;s criminal justice system?</h3>
+<p><b>A:</b> Unfortunately, the more specific you want to get with race/ethnicity data, the harder it is to find an answer, especially one that&#8217;s up-to-date. State-level race and ethnicity data can be hard to find if you are looking to federal government sources like the Bureau of Justice Statistics (BJS). BJS does publish state-level race and ethnicity data in its annual <i>Prisoners</i> series (<a href="https://www.bjs.gov/content/pub/pdf/p18.pdf#page=36">Appendix Table 2</a> in 2018), but only every 6-7 years in its <i>Jail Inmates</i> series (most recently the 2013 Census of Jails report, <a href="https://www.bjs.gov/content/pub/pdf/cpus15.pdf#page=13">Table 7</a>). The Vera Institute of Justice has attempted to fill this gap with its <a href="http://trends.vera.org/">Incarceration Trends</a> project, by gathering additional data from individual states. Individual state Departments of Correction sometimes collect and/or publish more up-to-date and specific data; it&#8217;s worth checking with your own state&#8217;s agencies.</p>
+<h3>Q: Where can I find criminal justice race/ethnicity data disaggregated by sex?</h3>
+<p><b>A:</b> Disaggregating racial/ethnic data by sex is unfortunately not the norm in reports produced by the federal government (i.e. BJS). For people able to access and analyze the raw data, such analyses are often possible, but most people rely on the reports published by government agencies like BJS. As you can see in the chart showing <a href="https://www.prisonpolicy.org/images/prisonratesbyracesex2018.png">prison incarceration rates</a> by sex and race/ethnicity, BJS does sometimes offer this level of detail. But again, the same level of detail is not available for jails, and an analysis of both race/ethnicity and sex <i>by state</i> is all but unheard-of &#8211; even though it is precisely this level of detail that is most useful for advocates trying to help specific populations in their state.</p>
+<h3>Q: How are the data collected, and how accurate are the data?</h3>
+<p><b>A:</b> Finally, the validity of any data depends on how the data are collected in the first place. And in the case of criminal justice data, race and ethnicity are not always self-reported (which would be ideal). Police officers may report an individual&#8217;s race based on their own perception &#8211; or not report it at all &#8211; and the surveys that report the number of incarcerated people on a given day rely on administrative data, which may not reflect how individuals identify their own race or ethnicity. This is why surveys of incarcerated people themselves are so important, such as the Survey of Inmates in Local Jails and the Survey of Prison Inmates, but those surveys are conducted much less frequently. In fact, it&#8217;s been 18 years since the last Survey of Inmates in Local Jails, which we use to analyze pretrial jail populations,  and 16 years since the last published data from the Survey of Inmates were collected.</p>
+<h2 id="linkingheader">How to link to specific images</h2>
+<p>Because some readers might want to link to specific images in this briefing out of the context of these slideshows, we’ve created these special URLs so you can link directly to a specific image:</p>
+<dl style="margin-left:2em">
+<dt>Black people are disproportionately stopped on the street by police, while white people are much more likely to call the police for help</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities#slideshows/slideshow1/1" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow1/1</a></dd>
+<dt>Among individuals who have any contact with police, people of color disproportionately experience the use of force</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow1/2" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow1/2</a></dd>
+<dt>Black people are disproportionately likely to be arrested, and to be arrested repeatedly in the same year</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow1/3" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow1/3</a></dd>
+<dt>Black youth are arrested far out of proportion to their share of all youth in the U.S.</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow2/1" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow2/1</a></dd>
+<dt>The juvenile justice system confines Black youth at over 4 times the rate of white youth</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow2/2" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow2/2</a></dd>
+<dt>For the lowest level offenses, Black and American Indian youth are confined at rates over 3 times the rate of white youth</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow2/3" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow2/3</a></dd>
+<dt>Racial disparities in local jail incarceration rates</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow3/1" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow3/1</a></dd>
+<dt>Pretrial populations, disproportionately Black and Hispanic, have more than doubled over 15 years</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow3/2" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow3/2</a></dd>
+<dt>People detained pretrial because they can’t pay bail are much poorer than their peers &#8211; and the income gaps are widest for Black people</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow3/3" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow3/3</a></dd>
+<dt>Racial disparities in prison incarceration rates, by sex, 2018</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/1" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/1</a></dd>
+<dt>Most people in prison are poor,  and the poorest are women and people of color</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/2" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/2</a></dd>
+<dt>Black people are disproportionately serving sentences of life, life without parole, or &#8220;virtual life&#8221;</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/3" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/3</a></dd>
+<dt>Black people are overrepresented on death row, while white people are underrepresented</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/4" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/4</a></dd>
+<dt>Black men and women are overrepresented in solitary confinement, when compared to total prison populations</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/5" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow4/5</a></dd>
+<dt>The &#8220;prison penalty&#8221; in unemployment disproportionately punishes formerly incarcerated Black men and women</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow5/1" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow5/1</a></dd>
+<dt>Formerly incarcerated people have very high rates of homelessness, especially women and people of color</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow5/2" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow5/2</a></dd>
+<dt>Incarceration and wealth accumulation, by race and ethnicity</dt>
+<dd><a href="https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow5/3" target="_blank" rel="noopener">https://www.prisonpolicy.org/blog/2020/07/27/disparities/#slideshows/slideshow5/3</a></dd>
+</dl>
+
+
+<p class="post-info-co">
+			</p>
+
+		<!--<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="https://www.prisonpolicy.org/blog/2020/07/27/disparities/"
+    dc:identifier="https://www.prisonpolicy.org/blog/2020/07/27/disparities/"
+    dc:title="Visualizing the racial disparities in mass incarceration"
+    trackback:ping="https://www.prisonpolicy.org/blog/2020/07/27/disparities/trackback/" />
+</rdf:RDF>-->
+	</div>
+<div class="post-footer"><span class="small">
+</span>
+</div>	<p class="source"><i>Wendy Sawyer is the Prison Policy Initiative Research Director.</i> (<a href="/blog/author/wendy/">Other articles</a> | <a href="https://www.prisonpolicy.org/staff.html#sawyer">Full bio</a> | <a href="/contact.html">Contact</a>)  </p> 
+
+<div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-example'>
+<div class="related yarpp-generated"><h3>Related briefings:</h3><ol>
+		<li><span class="head"><a href="https://www.prisonpolicy.org/blog/2015/07/10/staff_disparities/" rel="bookmark">In prisons, Blacks and Latinos do the time while whites get the jobs<span class="yarpp-more-symbol">&nbsp;+</span></a></span></li>
+		<li><span class="head"><a href="https://www.prisonpolicy.org/blog/2014/04/05/hank/" rel="bookmark">VlogBrothers video on Mass Incarceration<span class="yarpp-more-symbol">&nbsp;+</span></a></span></li>
+		<li><span class="head"><a href="https://www.prisonpolicy.org/blog/2018/04/26/probation_update-2/" rel="bookmark">New reports show probation is down, but still a major driver of incarceration<span class="yarpp-more-symbol">&nbsp;+</span></a></span></li>
+	</ol></div>
+</div>
+				
+<!-- You can start editing here. -->
+
+
+  
+	
+
+
+<!--			</div>-->
+		
+
+
+		<p class="center"></p>
+
+
+<div class="blog-nav-links">
+			&nbsp;&nbsp;&mdash; <a href="/blog/archive.html">Blog Archives</a>  &mdash;&nbsp;&nbsp;
+			</div>
+	<!-- t_site: prisonpolicy --></div>
+	</div>
+
+	<div id="clearer"></div>
+
+	</div>
+
+
+
+	<div id="right-margin"></div>
+</div> 
+
+
+<br><br>
+<div class="mobileonly btns clear hideinprint">
+
+<div id="mobilenewsletter">
+<h2>Stay Informed</h2>
+
+<form id="newsletter-signup-mobile2" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="5B5E7037DA78A748374AD499497E309EF6D0CBD61DA24FAA3E123C328A51AE520FBBA97DE3CDB1A8DB23FE52517D11B8D6DC7C577B76ABD3095B0263BFF757D4">
+
+<div class="mobilefields">
+    <label for="Email">Email:</label>
+    <br>
+    <input id="Emailc" name="email" type="email" class="js-cm-email-input" placeholder="username@email.com"
+    required>
+</div>
+
+<p style="margin-bottom:0;margin-top:0">Get the latest updates:</p>
+
+    <div class="checkboxes" style="text-indent:-15px; margin-left:30px;">
+        <label for="fieldyuhhpl-0c"><input id="fieldyuhhpl-0c" name="cm-fo-yuhhpl" type="checkbox" value="4001743" checked="checked">Prison Policy Initiative newsletter <a href="//www.prisonpolicy.org/newsletter/archive.html?nl=general">(?)</a></label>
+<!--
+ <br>
+       <span style="margin-left:-30px;">And our other newsletters:</span>
+ -->
+
+
+        <label for="fieldyuhhpl-2c"><input id="fieldyuhhpl-2c" name="cm-fo-yuhhpl" type="checkbox" checked="checked" value="4001745">Research Library <a href="//www.prisonpolicy.org/newsletter/archive.html?nl=research">(?)</a></label>
+        <label for="fieldyuhhpl-1c"><input id="fieldyuhhpl-1c" name="cm-fo-yuhhpl" type="checkbox" value="4001744" >Prison gerrymandering <a href="//www.prisonpolicy.org/newsletter/archive.html?nl=gerrymandering">(?)</a></label>
+
+    </div>
+
+<!--
+<br>
+ -->
+
+
+		 <div style="text-align:center;"><input type="submit" id="subscribelist3" value="Subscribe" class="btn"></div>
+
+</form>
+<br>
+</div>
+
+
+<br>
+
+<span>
+<a class="btn" href="https://www.twitter.com/intent/tweet?text=%20%20Visualizing%20the%20racial%20disparities%20in%20mass%20incarceration&url=https://www.prisonpolicy.org/blog/2020/07/27/disparities/&via=prisonpolicy">Share on &Xopf;</a>
+
+<!--
+<a class="btn" data-url="" href="https://twitter.com/share?text=%20%20Visualizing%20the%20racial%20disparities%20in%20mass%20incarceration%20https://www.prisonpolicy.org/blog/2020/07/27/disparities/&amp;via=prisonpolicy"><span class="tweet-btn-logo"></span>Tweet this page</a>
+ -->
+<!--
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+-->
+</span>
+
+
+<a class="btn" href="//www.prisonpolicy.org/donate.html">Donate</a>
+
+
+<!--<a class="btn" href="https://www.prisonpolicy.org/jobs.html">Now seeking: <br>Creator-in-Residence</a> -->
+
+
+</div>
+
+
+<br><br>
+
+
+	<div id="footer-container">
+		<div id="footer-top-container">
+			<h1>Recommended Reading:</h1>
+			<div id="footer-separator-origin">
+			<div id="footer-items"><div class="footer-separator-cell"><div class="footer-separator"></div></div><div class="footer-item"><a href="//www.prisonpolicy.org/profiles/">
+			<picture><source type="image/webp" srcset="//static.prisonpolicy.org/css/footer_images/stateprofilesfooter_200x154.webp 1x, //static.prisonpolicy.org/css/footer_images/stateprofilesfooter_200x154-2X.webp 2x"><img src="//static.prisonpolicy.org/css/footer_images/stateprofilesfooter_200x154.png" alt="logo for the 50 state incarceration profiles" width="200" height="154">
+</picture></a><h1><a href="//www.prisonpolicy.org/profiles/">50 state incarceration profiles</a></h1>
+					<p>All of our recent reports about prison/jail growth, racial disparities, and more, re-organized by state.</p></div><div class="footer-separator-cell"><div class="footer-separator"></div></div><div class="footer-item"><a href="//www.prisonpolicy.org/research.html">
+			<picture><source type="image/webp" srcset="//static.prisonpolicy.org/css/footer_images/research_clearinghouse.webp?v=2 1x, //static.prisonpolicy.org/css/footer_images/research_clearinghouse-2X.webp?v=2 2x"><img src="//static.prisonpolicy.org/css/footer_images/research_clearinghouse.png?v=2" alt="logo for the Research Library" width="200" height="154">
+</picture></a><h1><a href="//www.prisonpolicy.org/research.html">Research Library</a></h1>
+					<p>We curate a searchable database of 4,000+ original research reports, organizing each entry by topic and adding brief summaries.</p></div><div class="footer-separator-cell"><div class="footer-separator"></div></div><div class="footer-item"><a href="//www.prisonpolicy.org/reports/pie2026.html">
+			<picture><source type="image/webp" srcset="//static.prisonpolicy.org/css/footer_images/WholePie_200x154.webp 1x, //static.prisonpolicy.org/css/footer_images/WholePie_200x154-2X.webp 2x"><img src="//static.prisonpolicy.org/css/footer_images/WholePie_200x154.png" alt="logo for the Mass Incarceration: The Whole Pie" width="200" height="154">
+</picture></a><h1><a href="//www.prisonpolicy.org/reports/pie2026.html">Mass Incarceration: The Whole Pie</a></h1>
+					<p>The U.S. incarcerates nearly 2 million people. Where are they locked up and why? Read our report.</p></div><div class="footer-separator-cell"><div class="footer-separator"></div></div><div class="footer-item"><a href="//www.prisonpolicy.org/reports/discipline.html">
+			<picture><source type="image/webp" srcset="//static.prisonpolicy.org/css/footer_images/discipline_report_footerimage_200x154.webp 1x, //static.prisonpolicy.org/css/footer_images/discipline_report_footerimage_200x154-2X.webp 2x"><img src="//static.prisonpolicy.org/css/footer_images/discipline_report_footerimage_200x154.png" alt="logo for the Bad Behavior" width="200" height="154">
+</picture></a><h1><a href="//www.prisonpolicy.org/reports/discipline.html">Bad Behavior</a></h1>
+					<p>This national report explains how prison disciplinary policies manufacture misconduct and severly punish incarcerated people.</p></div>
+				<div class="clear"></div>
+			</div>
+			</div>
+		</div>
+		<div id="footer-bottom-container">
+			<div id="footer">
+				<div id="footer-menu">
+					<ul>
+						<li><a href="/">Home</a>
+						<li><a href="/about.html">About</a>
+						<li><a href="/reports.html">Publications</a>
+						<li><a href="/expertise.html">Issues</a>
+						<li><a href="/data/">Data</a>
+						<li><a href="/blog/">Blog</a>
+						<li><a href="/federaltracker.html">Trump Tracker</a>
+						<li><a href="/contact.html">Contact</a>
+						<li><a href="/donate.html">Donate</a>
+					</ul>
+				</div>
+				<div id="footer-contact">
+					<a id="footer-contact-link" href="//www.prisonpolicy.org/contact.html">Contact us online</a>
+					or write us:
+					<div id="footer-address">
+					PO Box 127<br>
+					Northampton, MA 01061
+					</div>
+					<a id="footer-instagram-link"
+					href="https://www.instagram.com/prisonpolicy/">
+						<span class="for-acc">Instagram</span>
+					</a><a id="footer-twitter-link"
+					href="https://twitter.com/PrisonPolicy">
+						<span class="for-acc">Twitter</span>
+					</a><a id="footer-facebook-link"
+					href="https://www.facebook.com/PrisonPolicyInitiative">
+						<span class="for-acc">Facebook</span>
+					</a><a id="footer-linkedin-link"
+			href="https://www.linkedin.com/company/prison-policy-initiative">
+						<span class="for-acc">LinkedIn</span>
+					</a>
+				</div>
+				<div id="footer-donate">
+					<a id="footer-donate-link" href="//www.prisonpolicy.org/donate.html">Donate</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/blog/*"},{"not":{"href_matches":["/blog/wp-*.php","/blog/wp-admin/*","/blog/wp-content/uploads/*","/blog/wp-content/*","/blog/wp-content/plugins/*","/blog/wp-content/themes/PPI092006/*","/blog/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+
+
+
+<div id ="mobilebottom" class="mobileonly"><h2>Events</h2><ul class="events"><li id="sm1793059200"><b>October 27, 2026</b>:<br> On October 27, 2026 at 1:30 p.m. EST, join the Prison Policy Initiative for a webinar focused on making public records requests. We&#8217;ll cover the basics of making a request and provide tips and tricks we’ve learned over decades of sending requests to jails, prisons, and other agencies that can make your requests more effective.<br> <br> 
+
+<a href="https://zoom.us/webinar/register/WN_-2xOMiy7RbGV4BjpzpNLDQ">Register here</a> </li></ul><p><b>Not near you?</b><br><a href="//www.prisonpolicy.org/speakers.html">Invite us</a> to your city,  college or organization.</p></div>
+
+
+
+
+</div> 
+
+
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.068 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-10-03 05:39:23 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

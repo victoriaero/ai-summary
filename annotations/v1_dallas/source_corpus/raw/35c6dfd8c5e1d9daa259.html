@@ -1,0 +1,124 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="default"/><meta name="apple-mobile-web-app-title" content="BenefitKarma"/><meta name="theme-color" content="#1B4D3E"/><link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png"/><meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://www.googleadservices.com https://www.google.com https://www.gstatic.com https://pagead2.googlesyndication.com https://connect.facebook.net https://www.facebook.com https://analytics.tiktok.com https://snap.licdn.com https://*.hs-scripts.com https://*.hs-banner.com https://*.hs-analytics.net https://www.redditstatic.com https://*.supabase.co https://acsbapp.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://acsbapp.com https://cdn.acsbapp.com; font-src 'self' https://fonts.gstatic.com data: https://acsbapp.com https://cdn.acsbapp.com; img-src 'self' data: blob: https: http:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://googleads.g.doubleclick.net https://td.doubleclick.net https://pagead2.googlesyndication.com https://www.googleadservices.com https://www.google.com https://www.facebook.com https://tr.facebook.com https://pixel.facebook.com https://*.run.app https://*.conversionsapigateway.com https://analytics.tiktok.com https://px.ads.linkedin.com https://api.hubapi.com https://www.redditstatic.com https://alb.reddit.com https://events.redditmedia.com https://acsbapp.com https://cdn.acsbapp.com; frame-src 'self' blob: https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com https://platform.twitter.com https://www.tiktok.com https://open.spotify.com https://www.instagram.com https://td.doubleclick.net https://bid.g.doubleclick.net https://acsbapp.com https://cdn.acsbapp.com https://datawrapper.dwcdn.net; object-src blob:; base-uri 'self'; form-action 'self'; upgrade-insecure-requests; "/><title>BenefitKarma — Let's make benefits make sense.</title><meta name="description" content="BenefitKarma is a free subscription platform that helps individuals and families discover, understand, and access benefits with confidence."/><meta name="keywords" content="government programs, federal benefits, benefit eligibility, family assistance, housing programs, food assistance"/><meta name="author" content="BenefitKarma"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link rel="dns-prefetch" href="https://fonts.gstatic.com"/><link rel="preconnect" href="https://pbqfgibbirqfbdgflafh.supabase.co" crossorigin/><link rel="dns-prefetch" href="//pbqfgibbirqfbdgflafh.supabase.co"/><script>try {
+        var __bkPath = location.pathname.replace(/\/+$/, "");
+        var __bkMatch = __bkPath.match(/^\/(?:articles|learn)\/(?:[^/]+\/)?([^/]+)$/);
+        if (__bkMatch && __bkMatch[1]) {
+          var __bkSlug = __bkMatch[1];
+          var __bkBase = "https://pbqfgibbirqfbdgflafh.supabase.co";
+          var __bkKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBicWZnaWJiaXJxZmJkZ2ZsYWZoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ4NzQzMzgsImV4cCI6MjA4MDQ1MDMzOH0.u3M41I1iPm6uIEjKDYUCqsxEwUOWcVAlJ0U5Ngc0jq8";
+          var __bkSelect =
+            "id,slug,title,excerpt,content,featured_image_url,featured_image_alt,author_name," +
+            "read_time_minutes,published_at,updated_at,category_id,meta_title,meta_description," +
+            "og_image_url,focus_keyphrase,related_tool_categories,reviewed_at," +
+            "category:article_categories(id,name,slug,color)," +
+            "author:content_authors!articles_author_id_fkey(slug,display_name,role_title,is_person,is_published,linkedin_url,other_profile_urls)," +
+            "reviewer:content_authors!articles_reviewer_id_fkey(slug,display_name,role_title,is_person,is_published,linkedin_url,other_profile_urls)";
+          window.__BK_ARTICLE_SLUG__ = __bkSlug;
+          window.__BK_ARTICLE__ = fetch(
+            __bkBase +
+              "/rest/v1/articles?select=" + encodeURIComponent(__bkSelect) +
+              "&status=eq.published&limit=1&slug=eq." +
+              encodeURIComponent(__bkSlug),
+            { headers: { apikey: __bkKey, authorization: "Bearer " + __bkKey }, credentials: "omit" }
+          )
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (rows) {
+              var row = rows && rows[0] ? rows[0] : null;
+              try {
+                var src = row && row.featured_image_url;
+                if (src) {
+                  var m = String(src).match(/^(https?:\/\/[^/]+)\/storage\/v1\/object\/public\/(.+)$/);
+                  if (m) {
+                    var path = m[2].split("?")[0];
+                    var variant = function (w) {
+                      return (
+                        m[1] + "/storage/v1/render/image/public/" + path +
+                        "?width=" + w + "&height=" + Math.round(w / (16 / 9)) +
+                        "&quality=75&format=webp&resize=cover"
+                      );
+                    };
+                    if (!document.querySelector('link[rel="preload"][as="image"][data-hero-preload]')) {
+                      var link = document.createElement("link");
+                      link.rel = "preload";
+                      link.as = "image";
+                      link.href = variant(1200);
+                      link.setAttribute(
+                        "imagesrcset",
+                        [640, 960, 1200, 1600].map(function (w) { return variant(w) + " " + w + "w"; }).join(", ")
+                      );
+                      link.setAttribute("imagesizes", "(min-width: 1024px) 800px, 100vw");
+                      link.setAttribute("fetchpriority", "high");
+                      link.setAttribute("data-hero-preload", "1");
+                      document.head.appendChild(link);
+                    }
+                  }
+                }
+              } catch (e) {}
+              return row;
+            })
+            .catch(function () { return null; });
+        }
+
+        // Same trick for a glossary term: its whole row, asked for before any
+        // app JS. The select MUST stay `*` to match GlossaryTerm.tsx.
+        var __bkGlos = __bkPath.match(/^\/glossary\/([^/]+)$/);
+        if (__bkGlos && __bkGlos[1]) {
+          var __bkGSlug = __bkGlos[1];
+          var __bkGBase = "https://pbqfgibbirqfbdgflafh.supabase.co";
+          var __bkGKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBicWZnaWJiaXJxZmJkZ2ZsYWZoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ4NzQzMzgsImV4cCI6MjA4MDQ1MDMzOH0.u3M41I1iPm6uIEjKDYUCqsxEwUOWcVAlJ0U5Ngc0jq8";
+          window.__BK_GLOSSARY_SLUG__ = __bkGSlug;
+          window.__BK_GLOSSARY__ = fetch(
+            __bkGBase + "/rest/v1/glossary_terms?select=*&status=eq.published&limit=1&slug=eq." +
+              encodeURIComponent(__bkGSlug),
+            { headers: { apikey: __bkGKey, authorization: "Bearer " + __bkGKey }, credentials: "omit" }
+          )
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (rows) { return rows && rows[0] ? rows[0] : null; })
+            .catch(function () { return null; });
+        }
+      } catch (e) {}</script><link rel="preconnect" href="https://connect.facebook.net" crossorigin/><link rel="dns-prefetch" href="https://connect.facebook.net"/><link rel="icon" type="image/png" href="/favicon.png"/><link rel="apple-touch-icon" href="/favicon.png"/><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&family=Pacifico&display=swap"/><link rel="stylesheet" id="google-fonts" media="print" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&family=Pacifico&display=swap" onload="this.media='all'"/><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;700&family=Pacifico&display=swap"/></noscript><meta property="og:type" content="website"/><meta property="og:site_name" content="BenefitKarma"/><meta property="og:title" content="BenefitKarma — Let's make benefits make sense."/><meta property="og:description" content="BenefitKarma is a free subscription platform that helps individuals and families discover, understand, and access benefits with confidence."/><meta property="og:image" content="https://benefitkarma.com/og-default.jpg"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="BenefitKarma — Let's make benefits make sense."/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:url" content="https://benefitkarma.com/"/><meta name="twitter:title" content="BenefitKarma — Let's make benefits make sense."/><meta name="twitter:description" content="BenefitKarma is a free subscription platform that helps individuals and families discover, understand, and access benefits with confidence."/><meta name="twitter:image" content="https://benefitkarma.com/og-default.jpg"/><meta name="twitter:image:alt" content="BenefitKarma — Let's make benefits make sense."/><script>window.prerenderReady = false;
+      // Safety net: if a route forgets to mount SEOHead, never let Prerender.io
+      // wait forever. 8s is comfortably above our slowest route hydration.
+      setTimeout(function(){ if(!window.prerenderReady){ window.prerenderReady = true; } }, 8000);</script><meta name="bk-render-state" content="shell"/><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+      gtag('consent','default',{'ad_storage':'denied','ad_user_data':'denied','ad_personalization':'denied','analytics_storage':'granted','functionality_storage':'denied','personalization_storage':'denied','security_storage':'granted','wait_for_update':500});
+      gtag('set','ads_data_redaction',true);
+      try{var __s=localStorage.getItem('bk_consent');if(__s){var __p=JSON.parse(__s);if(__p.version==='1.0'&&__p.status!=='pending'){gtag('consent','update',{'analytics_storage':__p.categories.analytics?'granted':'denied','ad_storage':__p.categories.marketing?'granted':'denied','ad_user_data':__p.categories.marketing?'granted':'denied','ad_personalization':__p.categories.marketing?'granted':'denied','functionality_storage':__p.categories.functional?'granted':'denied','personalization_storage':__p.categories.functional?'granted':'denied'});}}}catch(e){}</script><script>(function (w, d) {
+        var loaded = false;
+        var events = ['pointerdown', 'keydown', 'touchstart', 'scroll'];
+        function cleanup() {
+          for (var i = 0; i < events.length; i++) d.removeEventListener(events[i], load, true);
+        }
+        function load() {
+          if (loaded) return;
+          loaded = true;
+          cleanup();
+          var s = d.createElement('script');
+          s.async = true;
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XF2KGN8EYK';
+          d.head.appendChild(s);
+        }
+        function afterLoad() {
+          // Small extra beat so late lazy chunks land first; hard cap keeps the
+          // tag reliable in backgrounded tabs where idle callbacks never run.
+          if (typeof w.requestIdleCallback === 'function') w.requestIdleCallback(load, { timeout: 2000 });
+          w.setTimeout(load, 2000);
+        }
+        for (var i = 0; i < events.length; i++) d.addEventListener(events[i], load, { capture: true, once: true, passive: true });
+        if (d.readyState === 'complete') afterLoad();
+        else w.addEventListener('load', afterLoad, { once: true });
+        // Absolute backstop: never lose analytics if `load` never fires.
+        w.setTimeout(load, 10000);
+      })(window, document);</script><script defer="defer" src="/scripts/tracking-init.js"></script><script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "BenefitKarma",
+      "description": "Benefits knowledge that changes lives",
+      "url": "https://benefitkarma.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://benefitkarma.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }</script><script type="module" crossorigin src="/assets/index-0LAl0ZZX.js"></script><link rel="modulepreload" crossorigin href="/assets/icons-B-4w_tSx.js"><link rel="modulepreload" crossorigin href="/assets/index-rlV6qY3m.js"><link rel="stylesheet" crossorigin href="/assets/index-DDrT0kdm.css"><link rel="manifest" href="/manifest.webmanifest"><script data-reader-preload>(function(){try{var p=location.pathname.replace(/\/+$/,"")||"/";var m=[{"test":"^/(?:articles|learn)/(?:[^/]+/)?[^/]+$","files":["assets/ArticleDetail-sKx0pLpa.js","assets/index-0LAl0ZZX.js","assets/index-rlV6qY3m.js","assets/icons-B-4w_tSx.js","assets/articleUrls-CikJ4qM8.js","assets/card-CbKVZppo.js","assets/badge-BxUJ_P11.js","assets/breadcrumb-C7f3eiK8.js","assets/useSavedArticles-BA3d7u10.js","assets/useArticleProgress-tRFCrVrW.js","assets/useActivityTracker-Brqv_5EM.js","assets/useMetaEventDispatcher-C36vuz-r.js","assets/articleStats-cs29mfG5.js","assets/sanitize-CXcm3PMC.js","assets/purify.es-C5KSVp3G.js","assets/ArticleImage-CnXqNvNf.js","assets/authors-BCxg9odV.js","assets/date-fns-CGcBVAVZ.js","assets/ArticleHeroShare-C0pLxd8y.js","assets/index-DWyWKmvW.js","assets/ArticleTTS-BX6lCCr1.js","assets/slider-8Fir4OUz.js","assets/index-BdQq_4o_.js","assets/index-IA4jMLgi.js"]},{"test":"^/glossary/[^/]+$","files":["assets/GlossaryTerm-DSIe5omz.js","assets/index-rlV6qY3m.js","assets/icons-B-4w_tSx.js","assets/index-0LAl0ZZX.js","assets/client-BDAe8Pt0.js","assets/tslib.es6-Do2GpYal.js","assets/badge-BxUJ_P11.js","assets/glossaryCategoryStyles-CjGCOL5P.js","assets/ExpertHelpSidebar-CnUem22z.js","assets/card-CbKVZppo.js","assets/PartnerMatchmakingModal-CH6GzHlF.js","assets/dialog-DjyjTyP8.js","assets/index-UTT6H5K0.js","assets/index-IA4jMLgi.js","assets/index-CVGDjItr.js","assets/index-BbUMEX07.js","assets/index-B9syFRXJ.js","assets/index-CgpFGcwP.js","assets/index-DGEZlF4z.js","assets/index-DSkX24Ek.js","assets/index-BUUXWEox.js","assets/input-Cr8gCxok.js","assets/label-C0K3KYxJ.js","assets/select-GejYsApk.js"]},{"test":"^/$","files":["assets/NewsHome-BxV54CPb.js","assets/index-rlV6qY3m.js","assets/icons-B-4w_tSx.js","assets/index-0LAl0ZZX.js","assets/HomepageFAQ-B5wvdhWK.js","assets/FAQSection-BaKE4zej.js","assets/accordion-Db8zyAo9.js","assets/index-IA4jMLgi.js","assets/index-C7ARzxmZ.js","assets/index-BbUMEX07.js","assets/index-CgpFGcwP.js","assets/index-BVWcmvvT.js","assets/index-BUUXWEox.js","assets/index-CVGDjItr.js","assets/index-B_LvuAGz.js","assets/card-CbKVZppo.js","assets/watercolor-background-DYyfGf8Y.js","assets/homepageFaqs-CtLoOlEL.js","assets/client-BDAe8Pt0.js","assets/tslib.es6-Do2GpYal.js","assets/articleStats-cs29mfG5.js","assets/articleUrls-CikJ4qM8.js","assets/guidesList-zWpd5xsj.js","assets/toolsCatalog-LEhwe1zR.js"]}];for(var i=0;i<m.length;i++){if(new RegExp(m[i].test).test(p)){m[i].files.forEach(function(f){var l=document.createElement("link");l.rel="modulepreload";l.href="/"+f;l.crossOrigin="anonymous";document.head.appendChild(l);});break;}}}catch(e){}})();</script><script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF577NZ4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="root"></div><script defer="defer" src="/scripts/accessibility-init.js"></script></body></html>

@@ -1,0 +1,28 @@
+{
+  "source_id": "212349a672b8abaf61c6",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4721598",
+  "fetch_timestamp_utc": "2026-10-04T02:35:20.748179+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4721598/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 153185,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/212349a672b8abaf61c6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/212349a672b8abaf61c6.txt",
+  "text_chars": 20664,
+  "text_words": 3120,
+  "extraction_status": "success",
+  "page_title": "Why Are Women Law Enforcement Officers More Burned-Out and What Might Help Them?",
+  "page_author": "Diane Elliot; Bharti Garg; Kerry Kuehl; Carol DeFrancesco; Andriana Sleigh",
+  "page_date": "2015-06-11",
+  "site_name": "Occupational medicine & health affairs",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4721598/"
+}

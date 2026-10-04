@@ -1,0 +1,28 @@
+{
+  "source_id": "5b60a7aba176e73f0677",
+  "normalized_url": "https://kff.org/womens-health-policy/womens-health-care-utilization-and-costs-findings-from-the-2020-kff-womens-health-survey",
+  "fetch_timestamp_utc": "2026-10-04T03:37:29.081790+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/womens-health-policy/womens-health-care-utilization-and-costs-findings-from-the-2020-kff-womens-health-survey/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 291499,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5b60a7aba176e73f0677.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5b60a7aba176e73f0677.txt",
+  "text_chars": 39762,
+  "text_words": 6568,
+  "extraction_status": "success",
+  "page_title": "Women’s Health Care Utilization and Costs: Findings from the 2020 KFF Women’s Health Survey | KFF",
+  "page_author": "Michelle Long; Brittni Frederiksen; Usha Ranji; Alina Salganicoff",
+  "page_date": "2021-04-21",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/womens-health-policy/womens-health-care-utilization-and-costs-findings-from-the-2020-kff-womens-health-survey/"
+}

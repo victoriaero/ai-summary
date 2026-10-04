@@ -1,0 +1,28 @@
+{
+  "source_id": "097e7732c75e23e66808",
+  "normalized_url": "https://collegecampaign.org/publication/ensuring-college-access-and-success-for-black-students-in-higher-education",
+  "fetch_timestamp_utc": "2026-10-04T03:31:27.039877+00:00",
+  "registrable_domain": "collegecampaign.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://collegecampaign.org/publication/ensuring-college-access-and-success-for-black-students-in-higher-education",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 158974,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/097e7732c75e23e66808.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/097e7732c75e23e66808.txt",
+  "text_chars": 2357,
+  "text_words": 339,
+  "extraction_status": "success",
+  "page_title": "Ensuring College Access and Success for Black Students in Higher Education | The Campaign for College Opportunity",
+  "page_author": null,
+  "page_date": "2025-04-17",
+  "site_name": "The Campaign for College Opportunity",
+  "canonical_url": "https://collegecampaign.org/publication/ensuring-college-access-and-success-for-black-students-in-higher-education"
+}

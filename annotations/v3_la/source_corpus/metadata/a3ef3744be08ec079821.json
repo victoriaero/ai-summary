@@ -1,0 +1,20 @@
+{
+  "source_id": "a3ef3744be08ec079821",
+  "normalized_url": "https://nccdh.ca/resources/entry/the-four-pillars-of-housing-influencing-health-equity",
+  "fetch_timestamp_utc": "2026-10-04T03:43:10.868550+00:00",
+  "registrable_domain": "nccdh.ca",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://nccdh.ca/resources/entry/the-four-pillars-of-housing-influencing-health-equity",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 919,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

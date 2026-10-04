@@ -1,0 +1,28 @@
+{
+  "source_id": "c006770d1993c9e80e6b",
+  "normalized_url": "https://nij.ojp.gov/topics/articles/use-force-continuum",
+  "fetch_timestamp_utc": "2026-10-04T02:47:57.645858+00:00",
+  "registrable_domain": "ojp.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nij.ojp.gov/topics/articles/use-force-continuum",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 54796,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c006770d1993c9e80e6b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c006770d1993c9e80e6b.txt",
+  "text_chars": 2691,
+  "text_words": 408,
+  "extraction_status": "success",
+  "page_title": "The Use-of-Force Continuum",
+  "page_author": null,
+  "page_date": "2009-08-03",
+  "site_name": "National Institute of Justice",
+  "canonical_url": "https://nij.ojp.gov/topics/articles/use-force-continuum"
+}

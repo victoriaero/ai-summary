@@ -1,0 +1,20 @@
+{
+  "source_id": "a50b21d79c5179336819",
+  "normalized_url": "https://ed.gov/laws-and-policy/civil-rights-laws/disability-discrimination/disability-discrimination-key-issues/disability-discrimination-bullying-and-harassment",
+  "fetch_timestamp_utc": "2026-10-04T02:45:49.545122+00:00",
+  "registrable_domain": "ed.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.ed.gov/laws-and-policy/civil-rights-laws/disability-discrimination/disability-discrimination-key-issues/disability-discrimination-bullying-and-harassment",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 11798,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

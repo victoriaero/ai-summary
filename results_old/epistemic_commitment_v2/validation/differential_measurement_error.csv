@@ -1,0 +1,11 @@
+analysis,stage,comparison,n_people,n_other,status
+contextual_hedging,cue_detection,minority - people,0,0,pending_annotation
+contextual_hedging,cue_detection,majority - people,0,0,pending_annotation
+veridicality,predicate_correct,minority - people,0,0,pending_annotation
+veridicality,predicate_correct,majority - people,0,0,pending_annotation
+veridicality,frame_correct,minority - people,0,0,pending_annotation
+veridicality,frame_correct,majority - people,0,0,pending_annotation
+veridicality,polarity_correct,minority - people,0,0,pending_annotation
+veridicality,polarity_correct,majority - people,0,0,pending_annotation
+veridicality,resource_mapping_appropriate,minority - people,0,0,pending_annotation
+veridicality,resource_mapping_appropriate,majority - people,0,0,pending_annotation

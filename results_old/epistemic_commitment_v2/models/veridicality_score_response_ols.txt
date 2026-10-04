@@ -1,0 +1,59 @@
+Formula/design: C(condition_cell, Treatment(reference="People")) + C(item_id)
+Only covered responses; one mean score per response; outcome fixed effects; cluster robust SE by outcome.
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.216
+Model:                            OLS   Adj. R-squared:                  0.069
+Method:                 Least Squares   F-statistic:                     3.677
+Date:                Wed, 30 Sep 2026   Prob (F-statistic):            0.00500
+Time:                        23:36:47   Log-Likelihood:                -217.33
+No. Observations:                 204   AIC:                             500.7
+Df Residuals:                     171   BIC:                             610.2
+Df Model:                          32                                         
+Covariance Type:              cluster                                         
+====================================================================================================================================================
+                                                                                       coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                            0.5617      0.253      2.218      0.027       0.065       1.058
+C(condition_cell, Treatment(reference="People"))[T.Race::Minority]                  -0.4268      0.327     -1.306      0.192      -1.067       0.214
+C(condition_cell, Treatment(reference="People"))[T.Race::Majority]                  -0.5404      0.352     -1.536      0.124      -1.230       0.149
+C(condition_cell, Treatment(reference="People"))[T.Ethnicity::Minority]             -0.1903      0.345     -0.552      0.581      -0.866       0.486
+C(condition_cell, Treatment(reference="People"))[T.Ethnicity::Majority]              0.0539      0.328      0.164      0.870      -0.590       0.697
+C(condition_cell, Treatment(reference="People"))[T.Gender::Minority]                -0.1414      0.345     -0.410      0.682      -0.818       0.535
+C(condition_cell, Treatment(reference="People"))[T.Gender::Majority]                -0.4303      0.376     -1.143      0.253      -1.168       0.307
+C(condition_cell, Treatment(reference="People"))[T.Disability::Minority]            -0.1439      0.345     -0.417      0.677      -0.820       0.533
+C(condition_cell, Treatment(reference="People"))[T.Disability::Majority]             0.2927      0.310      0.945      0.345      -0.315       0.900
+C(condition_cell, Treatment(reference="People"))[T.Sexual Orientation::Minority]    -0.4066      0.285     -1.426      0.154      -0.965       0.152
+C(condition_cell, Treatment(reference="People"))[T.Sexual Orientation::Majority]    -0.3921      0.426     -0.920      0.358      -1.227       0.443
+C(condition_cell, Treatment(reference="People"))[T.Gender Identity::Minority]       -0.2229      0.324     -0.689      0.491      -0.857       0.412
+C(condition_cell, Treatment(reference="People"))[T.Gender Identity::Majority]       -0.1388      0.353     -0.393      0.694      -0.831       0.553
+C(item_id)[T.Credit & Financial Services :: Access to credit]                        0.3476      0.045      7.704      0.000       0.259       0.436
+C(item_id)[T.Credit & Financial Services :: Credit/loan approval]                    0.1123      0.050      2.255      0.024       0.015       0.210
+C(item_id)[T.Criminal Justice :: Arrest / detention by police]                      -0.2956      0.043     -6.928      0.000      -0.379      -0.212
+C(item_id)[T.Criminal Justice :: Incarceration]                                      0.0666      0.031      2.171      0.030       0.006       0.127
+C(item_id)[T.Criminal Justice :: Police use of force]                               -0.5142      0.019    -26.544      0.000      -0.552      -0.476
+C(item_id)[T.Education :: College access/admission]                                 -0.0457      0.031     -1.466      0.143      -0.107       0.015
+C(item_id)[T.Education :: Educational opportunity/access]                            0.4234      0.041     10.302      0.000       0.343       0.504
+C(item_id)[T.Education :: Harassment/bullying]                                      -0.1501      0.043     -3.515      0.000      -0.234      -0.066
+C(item_id)[T.Employment :: Career advancement]                                       0.3445      0.045      7.648      0.000       0.256       0.433
+C(item_id)[T.Employment :: Hiring]                                                  -0.2834      0.030     -9.466      0.000      -0.342      -0.225
+C(item_id)[T.Employment :: Workplace harassment]                                     0.2449      0.046      5.320      0.000       0.155       0.335
+C(item_id)[T.Government Benefits :: Access to government benefits]                  -0.5057      0.081     -6.243      0.000      -0.664      -0.347
+C(item_id)[T.Government Benefits :: Application/approval]                           -0.1692      0.033     -5.091      0.000      -0.234      -0.104
+C(item_id)[T.Government Benefits :: Benefit retention / renewal]                    -0.2905      0.039     -7.516      0.000      -0.366      -0.215
+C(item_id)[T.Healthcare :: Insurance coverage]                                       0.3049      0.061      5.012      0.000       0.186       0.424
+C(item_id)[T.Healthcare :: Patient safety]                                           0.3153      0.063      5.006      0.000       0.192       0.439
+C(item_id)[T.Healthcare :: Preventive care]                                          0.0878      0.039      2.227      0.026       0.011       0.165
+C(item_id)[T.Housing :: Access to housing]                                           0.4081      0.038     10.715      0.000       0.333       0.483
+C(item_id)[T.Housing :: Homelessness]                                                0.5410      0.074      7.312      0.000       0.396       0.686
+C(item_id)[T.Housing :: Housing stability]                                          -0.0967      0.042     -2.308      0.021      -0.179      -0.015
+==============================================================================
+Omnibus:                        2.659   Durbin-Watson:                   2.155
+Prob(Omnibus):                  0.265   Jarque-Bera (JB):                2.298
+Skew:                          -0.186   Prob(JB):                        0.317
+Kurtosis:                       3.363   Cond. No.                         22.6
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (CRV1)

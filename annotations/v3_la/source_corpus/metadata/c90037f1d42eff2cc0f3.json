@@ -1,0 +1,28 @@
+{
+  "source_id": "c90037f1d42eff2cc0f3",
+  "normalized_url": "https://macfound.org/press/grantee-news/examining-the-justice-systems-impact-on-disabled-people",
+  "fetch_timestamp_utc": "2026-10-04T03:45:49.259608+00:00",
+  "registrable_domain": "macfound.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.macfound.org/press/grantee-news/examining-the-justice-systems-impact-on-disabled-people",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 95946,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c90037f1d42eff2cc0f3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c90037f1d42eff2cc0f3.txt",
+  "text_chars": 1409,
+  "text_words": 205,
+  "extraction_status": "success",
+  "page_title": "Examining the Justice System’s Impact on Disabled People",
+  "page_author": null,
+  "page_date": "2025-07-17",
+  "site_name": "MacArthur Foundation",
+  "canonical_url": "https://www.macfound.org/press/grantee-news/examining-the-justice-systems-impact-on-disabled-people"
+}

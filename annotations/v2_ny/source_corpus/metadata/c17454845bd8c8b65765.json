@@ -1,0 +1,28 @@
+{
+  "source_id": "c17454845bd8c8b65765",
+  "normalized_url": "https://ncbi.nlm.nih.gov/sites/books/NBK19909",
+  "fetch_timestamp_utc": "2026-10-04T02:48:02.580031+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK19909/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 183595,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c17454845bd8c8b65765.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c17454845bd8c8b65765.txt",
+  "text_chars": 85652,
+  "text_words": 12512,
+  "extraction_status": "success",
+  "page_title": "Barriers to Educational Opportunities for Hispanics in the United States",
+  "page_author": "Barbara Schhneider; Sylvia Martinez; Ann Ownes",
+  "page_date": "2004-03-15",
+  "site_name": "National Academies Press (US)",
+  "canonical_url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK19909/"
+}

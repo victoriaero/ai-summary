@@ -1,0 +1,28 @@
+{
+  "source_id": "e0b700d82d3b8f6ed153",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4560686",
+  "fetch_timestamp_utc": "2026-10-04T02:50:27.257782+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4560686/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 165421,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e0b700d82d3b8f6ed153.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e0b700d82d3b8f6ed153.txt",
+  "text_chars": 49415,
+  "text_words": 7693,
+  "extraction_status": "success",
+  "page_title": "Work Experiences of Latina Immigrants: A Qualitative Study",
+  "page_author": "Donald E Eggerth; Sheli C DeLaney; Michael A Flynn; C Jeff Jacobson",
+  "page_date": "2010-01-12",
+  "site_name": "Journal of career development",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4560686/"
+}

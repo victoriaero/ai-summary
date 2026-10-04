@@ -1,0 +1,20 @@
+{
+  "source_id": "19f282224aefaa139100",
+  "normalized_url": "https://cbpp.org/research/facts-about-african-americans-in-the-food-stamp-program",
+  "fetch_timestamp_utc": "2026-10-04T03:32:43.133885+00:00",
+  "registrable_domain": "cbpp.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://cbpp.org/research/facts-about-african-americans-in-the-food-stamp-program",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 6158,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

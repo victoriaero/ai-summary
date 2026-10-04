@@ -1,0 +1,20 @@
+{
+  "source_id": "6421f3c3a592a2ecdbb0",
+  "normalized_url": "https://cato.org/cato-journal/fall/winter-1995/effect-race-sex-welfare-benefits",
+  "fetch_timestamp_utc": "2026-10-04T03:38:11.477491+00:00",
+  "registrable_domain": "cato.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.cato.org/cato-journal/fall/winter-1995/effect-race-sex-welfare-benefits",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 880,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

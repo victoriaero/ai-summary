@@ -1,0 +1,28 @@
+{
+  "source_id": "4afefcc98346ab7253c8",
+  "normalized_url": "https://news.unm.edu/news/research-finds-black-immigrant-girls-of-color-face-hostile-classrooms",
+  "fetch_timestamp_utc": "2026-10-04T02:38:30.503857+00:00",
+  "registrable_domain": "unm.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://news.unm.edu/news/research-finds-black-immigrant-girls-of-color-face-hostile-classrooms",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 45041,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/4afefcc98346ab7253c8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/4afefcc98346ab7253c8.txt",
+  "text_chars": 6145,
+  "text_words": 948,
+  "extraction_status": "success",
+  "page_title": "Research finds Black, immigrant girls of color face hostile classrooms",
+  "page_author": "Mary Beth King",
+  "page_date": "2021-08-06",
+  "site_name": "UNM UCAM Newsroom",
+  "canonical_url": "https://news.unm.edu/news/research-finds-black-immigrant-girls-of-color-face-hostile-classrooms"
+}

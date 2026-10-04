@@ -1,0 +1,28 @@
+{
+  "source_id": "1852e9f248ae0d218a29",
+  "normalized_url": "https://archive.ada.gov/criminaljustice/cj_related_resources.html",
+  "fetch_timestamp_utc": "2026-10-04T02:34:33.714469+00:00",
+  "registrable_domain": "ada.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://archive.ada.gov/criminaljustice/cj_related_resources.html",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 18840,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1852e9f248ae0d218a29.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1852e9f248ae0d218a29.txt",
+  "text_chars": 5420,
+  "text_words": 748,
+  "extraction_status": "success",
+  "page_title": "ADA Criminal Justice Related Resources",
+  "page_author": "U S Department; Civil Rights Division; Disability Rights Section",
+  "page_date": "2011-07-06",
+  "site_name": "archive.ada.gov",
+  "canonical_url": "https://archive.ada.gov/criminaljustice/cj_related_resources.html"
+}

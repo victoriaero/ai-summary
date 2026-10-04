@@ -1,0 +1,28 @@
+{
+  "source_id": "54ee8a88aca2093ea4a1",
+  "normalized_url": "https://latino.ucla.edu/debunking-myths-about-latinos-and-medicaid",
+  "fetch_timestamp_utc": "2026-10-04T02:39:21.784190+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://latino.ucla.edu/debunking-myths-about-latinos-and-medicaid/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 163458,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/54ee8a88aca2093ea4a1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/54ee8a88aca2093ea4a1.txt",
+  "text_chars": 5146,
+  "text_words": 746,
+  "extraction_status": "success",
+  "page_title": "Debunking Myths About Latinos and Medicaid",
+  "page_author": null,
+  "page_date": "2025-03-05",
+  "site_name": "Latino Policy & Politics Institute",
+  "canonical_url": "https://latino.ucla.edu/debunking-myths-about-latinos-and-medicaid/"
+}

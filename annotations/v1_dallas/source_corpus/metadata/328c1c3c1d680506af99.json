@@ -1,0 +1,22 @@
+{
+  "source_id": "328c1c3c1d680506af99",
+  "normalized_url": "https://sites.ed.gov/idea/about-idea",
+  "fetch_timestamp_utc": "2026-09-29T19:23:13.776680+00:00",
+  "registrable_domain": "ed.gov",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://sites.ed.gov/idea/about-idea",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:23:17 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "11639",
+    "Connection": "close",
+    "x-azure-ref": "20260929T192317Z-r1cdb5487f89hqkrhC1CPQ57v80000000210000000001yak",
+    "X-Cache": "CONFIG_NOCACHE"
+  },
+  "downloaded_bytes": 11639,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

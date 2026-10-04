@@ -1,0 +1,28 @@
+{
+  "source_id": "fcaab8aeef03c84c6a48",
+  "normalized_url": "https://pewresearch.org/race-and-ethnicity/2005/12/15/the-occupational-status-and-mobility-of-hispanics",
+  "fetch_timestamp_utc": "2026-09-29T19:42:36.591588+00:00",
+  "registrable_domain": "pewresearch.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://pewresearch.org/race-and-ethnicity/2005/12/15/the-occupational-status-and-mobility-of-hispanics",
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 29 Sep 2026 19:42:39 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "_hcc=OTA4NGU4ZTdlYzljOTQ2YTk4ZmJiYzg5YzhkYmQ3YjQyMDY1ZGRhYzM4MzZlNTU2YmU3OTFiODAyYzRmMTc4MA==:MTUwLjE2NC4yMDMuMTYzfDE3OTA3MTA5NTl8e1NZWGdjW3tWVkZ1dnJEXWVoeGF0cE5jTXNOYGR0YU18MQ==; Max-Age=30; Path=/",
+    "Content-Encoding": "gzip",
+    "cache-control": "no-cache, must-revalidate, max-age=0, no-store",
+    "x-cache": "BYPASS",
+    "x-rq": "gru1 0 30 9980",
+    "Strict-Transport-Security": "max-age=31536000;includeSubdomains;preload"
+  },
+  "downloaded_bytes": 4215,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

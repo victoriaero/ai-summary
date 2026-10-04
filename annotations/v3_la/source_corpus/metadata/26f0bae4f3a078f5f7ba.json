@@ -1,0 +1,28 @@
+{
+  "source_id": "26f0bae4f3a078f5f7ba",
+  "normalized_url": "https://researchberg.com/index.php/rcba/article/view/116/112",
+  "fetch_timestamp_utc": "2026-10-04T03:33:33.857083+00:00",
+  "registrable_domain": "researchberg.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://researchberg.com/index.php/rcba/article/download/116/112",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 327954,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/26f0bae4f3a078f5f7ba.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/26f0bae4f3a078f5f7ba.txt",
+  "text_chars": 49753,
+  "text_words": 7237,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

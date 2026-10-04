@@ -1,0 +1,31 @@
+{
+  "source_id": "20e9656ebc2b963fc7be",
+  "normalized_url": "https://researchgate.net/publication/227923149_Gender_Police_Arrest_Decisions_and_Notions_of_Chivalry",
+  "fetch_timestamp_utc": "2026-09-29T19:21:54.644536+00:00",
+  "registrable_domain": "researchgate.net",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.researchgate.net/publication/227923149_Gender_Police_Arrest_Decisions_and_Notions_of_Chivalry",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:22:00 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "accept-encoding",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d5aaaffbadd1b-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 21138,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

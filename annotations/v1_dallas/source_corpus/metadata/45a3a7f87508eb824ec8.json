@@ -1,0 +1,23 @@
+{
+  "source_id": "45a3a7f87508eb824ec8",
+  "normalized_url": "https://phys.org/news/2017-02-female-bosses-favour-gay-lesbian.html",
+  "fetch_timestamp_utc": "2026-09-29T19:24:35.493242+00:00",
+  "registrable_domain": "phys.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://phys.org/news/2017-02-female-bosses-favour-gay-lesbian.html",
+  "headers": {
+    "cache-control": "no-cache, no-store, must-revalidate",
+    "content-type": "text/html; charset=utf-8",
+    "expires": "0",
+    "pragma": "no-cache",
+    "content-length": "17730",
+    "vary": "User-Agent",
+    "accept-ch": "Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Model, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Bitness, Sec-CH-UA-Arch"
+  },
+  "downloaded_bytes": 17730,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

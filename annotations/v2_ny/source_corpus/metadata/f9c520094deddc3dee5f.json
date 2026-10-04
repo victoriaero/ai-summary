@@ -1,0 +1,28 @@
+{
+  "source_id": "f9c520094deddc3dee5f",
+  "normalized_url": "https://prisonpolicy.org/blog/2022/03/31/transgender_incarceration",
+  "fetch_timestamp_utc": "2026-10-04T02:52:13.821375+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/blog/2022/03/31/transgender_incarceration/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 61199,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f9c520094deddc3dee5f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f9c520094deddc3dee5f.txt",
+  "text_chars": 12950,
+  "text_words": 2006,
+  "extraction_status": "success",
+  "page_title": "What the Survey of Prison Inmates tells us about trans people in state prison",
+  "page_author": "Prison Policy Initiative",
+  "page_date": "2022-03-31",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/blog/2022/03/31/transgender_incarceration/"
+}

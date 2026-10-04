@@ -1,0 +1,28 @@
+{
+  "source_id": "4a2f94455209748cc0de",
+  "normalized_url": "https://wvpolicy.org/equity-in-education-closing-the-gap-for-black-students",
+  "fetch_timestamp_utc": "2026-10-04T02:38:26.487681+00:00",
+  "registrable_domain": "wvpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://wvpolicy.org/equity-in-education-closing-the-gap-for-black-students/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 72908,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/4a2f94455209748cc0de.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/4a2f94455209748cc0de.txt",
+  "text_chars": 5427,
+  "text_words": 782,
+  "extraction_status": "success",
+  "page_title": "Equity in Education: Closing the Gap for Black Students - West Virginia Center on Budget & Policy",
+  "page_author": "Tamaya Browder",
+  "page_date": "2026-02-23",
+  "site_name": "West Virginia Center on Budget & Policy",
+  "canonical_url": "https://wvpolicy.org/equity-in-education-closing-the-gap-for-black-students/"
+}

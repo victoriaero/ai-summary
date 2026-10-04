@@ -1,0 +1,28 @@
+{
+  "source_id": "da6a6aa644f765e7b33b",
+  "normalized_url": "https://bcm.edu/news/the-importance-of-preventative-care-for-women",
+  "fetch_timestamp_utc": "2026-10-04T03:46:59.123907+00:00",
+  "registrable_domain": "bcm.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.bcm.edu/news/the-importance-of-preventative-care-for-women",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1115093,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/da6a6aa644f765e7b33b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/da6a6aa644f765e7b33b.txt",
+  "text_chars": 2360,
+  "text_words": 372,
+  "extraction_status": "success",
+  "page_title": "The importance of preventative care for women",
+  "page_author": "Homa Warren",
+  "page_date": "2025-03-13",
+  "site_name": "Baylor College of Medicine",
+  "canonical_url": "https://www.bcm.edu/news/the-importance-of-preventative-care-for-women"
+}

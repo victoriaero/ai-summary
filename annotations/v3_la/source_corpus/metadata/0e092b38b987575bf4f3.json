@@ -1,0 +1,28 @@
+{
+  "source_id": "0e092b38b987575bf4f3",
+  "normalized_url": "https://endhomelessness.org/blog/how-the-equal-access-rule-can-protect-trans-people-and-sex-workers",
+  "fetch_timestamp_utc": "2026-10-04T03:31:52.991104+00:00",
+  "registrable_domain": "endhomelessness.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://endhomelessness.org/blog/how-the-equal-access-rule-can-protect-trans-people-and-sex-workers",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 347027,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/0e092b38b987575bf4f3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/0e092b38b987575bf4f3.txt",
+  "text_chars": 7082,
+  "text_words": 1030,
+  "extraction_status": "success",
+  "page_title": "How the Equal Access Rule Can Protect Trans People and Sex Workers",
+  "page_author": "Maddie Harris",
+  "page_date": "2025-04-22",
+  "site_name": "National Alliance to End Homelessness",
+  "canonical_url": "https://endhomelessness.org/blog/how-the-equal-access-rule-can-protect-trans-people-and-sex-workers/"
+}

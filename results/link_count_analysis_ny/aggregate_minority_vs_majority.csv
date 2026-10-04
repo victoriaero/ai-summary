@@ -1,0 +1,2 @@
+n_outcomes,minority_mean,majority_mean,mean_difference,median_difference,bootstrap_ci_low,bootstrap_ci_high,wilcoxon_W,p_value,rank_biserial,significant
+21,9.166666666666666,7.095238095238097,2.0714285714285716,2.666666666666667,1.3888888888888884,2.7222222222222223,14.0,0.0004167642638468993,0.8787878787878788,True

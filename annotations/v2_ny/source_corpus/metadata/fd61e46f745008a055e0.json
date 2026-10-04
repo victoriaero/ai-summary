@@ -1,0 +1,28 @@
+{
+  "source_id": "fd61e46f745008a055e0",
+  "normalized_url": "https://prisonpolicy.org/research/women_and_gender",
+  "fetch_timestamp_utc": "2026-10-04T02:52:25.158022+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/research/women_and_gender/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 119181,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/fd61e46f745008a055e0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/fd61e46f745008a055e0.txt",
+  "text_chars": 24590,
+  "text_words": 3738,
+  "extraction_status": "success",
+  "page_title": "Women and gender",
+  "page_author": "Prison Policy Initiative",
+  "page_date": "2026-01-01",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/research/women_and_gender/"
+}

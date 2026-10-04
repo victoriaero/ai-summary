@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://www.buckeyecu.org/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><style id="et-builder-googlefonts-cached-inline">/* Original: https://fonts.googleapis.com/css?family=Figtree:300,regular,500,600,700,800,900&#038;subset=latin,latin-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Figtree';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_chQG5XyEU.ttf) format('truetype');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QG5XyEU.ttf) format('truetype');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQG5XyEU.ttf) format('truetype');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR25XyEU.ttf) format('truetype');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR25XyEU.ttf) format('truetype');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_f_R25XyEU.ttf) format('truetype');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_fWR25XyEU.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Figtree';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_chQG5XyEY.woff) format('woff');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QG5XyEY.woff) format('woff');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQG5XyEY.woff) format('woff');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR25XyEY.woff) format('woff');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR25XyEY.woff) format('woff');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_f_R25XyEY.woff) format('woff');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_fWR25XyEY.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Figtree';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_chQG5XyEA.woff2) format('woff2');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_d_QG5XyEA.woff2) format('woff2');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 500;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_dNQG5XyEA.woff2) format('woff2');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 600;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_ehR25XyEA.woff2) format('woff2');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_eYR25XyEA.woff2) format('woff2');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 800;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_f_R25XyEA.woff2) format('woff2');}@font-face {font-family: 'Figtree';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/figtree/v9/_Xmz-HUzqDCFdgfMsYiV_F7wfS-Bs_fWR25XyEA.woff2) format('woff2');}</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>The Role of Black Credit Unions in Financial Inclusion</title>
+	<meta name="description" content="Discover the vital role of Black credit unions in advancing financial inclusion and economic empowerment." />
+	<link rel="canonical" href="https://www.buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="The Role of Black Credit Unions in Financial Inclusion" />
+	<meta property="og:description" content="Discover the vital role of Black credit unions in advancing financial inclusion and economic empowerment." />
+	<meta property="og:url" content="https://www.buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion/" />
+	<meta property="og:site_name" content="Buckeye State Credit Union" />
+	<meta property="article:published_time" content="2025-02-05T11:00:12+00:00" />
+	<meta property="article:modified_time" content="2026-03-05T17:09:31+00:00" />
+	<meta property="og:image" content="https://www.buckeyecu.org/wp-content/uploads/2025/01/AdobeStock_1079126811-scaled.jpeg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1708" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Buckeye State Credit Union" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":["Article","BlogPosting"],"@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/#article","isPartOf":{"@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/"},"author":{"name":"Buckeye State Credit Union","@id":"https:\/\/www.buckeyecu.org\/#\/schema\/person\/acf5b02b7ec57d3b135ba62ec56840d4"},"headline":"The Role of Black Credit Unions in Financial Inclusion","datePublished":"2025-02-05T11:00:12+00:00","dateModified":"2026-03-05T17:09:31+00:00","mainEntityOfPage":{"@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/"},"wordCount":535,"image":{"@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/#primaryimage"},"thumbnailUrl":"https:\/\/www.buckeyecu.org\/wp-content\/uploads\/2025\/01\/AdobeStock_1079126811-scaled.jpeg","articleSection":["Credit","Debt","Financial Ed"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/","url":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/","name":"The Role of Black Credit Unions in Financial Inclusion","isPartOf":{"@id":"https:\/\/www.buckeyecu.org\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/#primaryimage"},"image":{"@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/#primaryimage"},"thumbnailUrl":"https:\/\/www.buckeyecu.org\/wp-content\/uploads\/2025\/01\/AdobeStock_1079126811-scaled.jpeg","datePublished":"2025-02-05T11:00:12+00:00","dateModified":"2026-03-05T17:09:31+00:00","author":{"@id":"https:\/\/www.buckeyecu.org\/#\/schema\/person\/acf5b02b7ec57d3b135ba62ec56840d4"},"description":"Discover the vital role of Black credit unions in advancing financial inclusion and economic empowerment.","breadcrumb":{"@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/#primaryimage","url":"https:\/\/www.buckeyecu.org\/wp-content\/uploads\/2025\/01\/AdobeStock_1079126811-scaled.jpeg","contentUrl":"https:\/\/www.buckeyecu.org\/wp-content\/uploads\/2025\/01\/AdobeStock_1079126811-scaled.jpeg","width":2560,"height":1708,"caption":"Home, black couple and happy with paperwork on sofa for finance plan or interest rate on loan application. Apartment, people and smile with documents on couch for bank statement and credit score."},{"@type":"BreadcrumbList","@id":"https:\/\/www.buckeyecu.org\/the-role-of-black-credit-unions-in-financial-inclusion\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.buckeyecu.org\/"},{"@type":"ListItem","position":2,"name":"The Role of Black Credit Unions in Financial Inclusion"}]},{"@type":"WebSite","@id":"https:\/\/www.buckeyecu.org\/#website","url":"https:\/\/www.buckeyecu.org\/","name":"Buckeye State Credit Union","description":"Building financial security together","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.buckeyecu.org\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/www.buckeyecu.org\/#\/schema\/person\/acf5b02b7ec57d3b135ba62ec56840d4","name":"Buckeye State Credit Union"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Buckeye State Credit Union &raquo; Feed" href="https://www.buckeyecu.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Buckeye State Credit Union &raquo; Comments Feed" href="https://www.buckeyecu.org/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.buckeyecu.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.buckeyecu.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F&#038;format=xml" />
+<meta content="FSM Foundation v.1.0" name="generator"/>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='trelsb_frontend_style-css' href='https://www.buckeyecu.org/wp-content/plugins/traction-external-links-speed-bump/css/traction-external-links-speed-bump.css?ver=7.0.5' media='all' />
+<link rel='stylesheet' id='megamenu-css' href='https://www.buckeyecu.org/wp-content/uploads/maxmegamenu/style.css?ver=9c84af' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://www.buckeyecu.org/wp-includes/css/dashicons.min.css?ver=7.0.5' media='all' />
+<link rel='stylesheet' id='megamenu-genericons-css' href='https://www.buckeyecu.org/wp-content/plugins/megamenu-pro/icons/genericons/genericons/genericons.css?ver=2.5' media='all' />
+<link rel='stylesheet' id='megamenu-fontawesome6-css' href='https://www.buckeyecu.org/wp-content/plugins/megamenu-pro/icons/fontawesome6/css/all.min.css?ver=2.5' media='all' />
+<link rel='stylesheet' id='heateor_sss_frontend_css-css' href='https://www.buckeyecu.org/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.3.79' media='all' />
+<style id="heateor_sss_frontend_css-inline-css">
+.heateor_sss_button_instagram span.heateor_sss_svg,a.heateor_sss_instagram span.heateor_sss_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}.heateor_sss_horizontal_sharing .heateor_sss_svg,.heateor_sss_standard_follow_icons_container .heateor_sss_svg{color:#fff;border-width:0px;border-style:solid;border-color:transparent}.heateor_sss_horizontal_sharing .heateorSssTCBackground{color:#666}.heateor_sss_horizontal_sharing span.heateor_sss_svg:hover,.heateor_sss_standard_follow_icons_container span.heateor_sss_svg:hover{border-color:transparent;}.heateor_sss_vertical_sharing span.heateor_sss_svg,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg{color:#fff;border-width:0px;border-style:solid;border-color:transparent;}.heateor_sss_vertical_sharing .heateorSssTCBackground{color:#666;}.heateor_sss_vertical_sharing span.heateor_sss_svg:hover,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg:hover{border-color:transparent;}@media screen and (max-width:783px) {.heateor_sss_vertical_sharing{display:none!important}}
+/*# sourceURL=heateor_sss_frontend_css-inline-css */
+</style>
+<link rel='stylesheet' id='searchwp-live-search-css' href='https://www.buckeyecu.org/wp-content/plugins/searchwp-live-ajax-search/assets/styles/style.min.css?ver=1.8.8' media='all' />
+<style id="searchwp-live-search-inline-css">
+.searchwp-live-search-result .searchwp-live-search-result--title a {
+  font-size: 16px;
+}
+.searchwp-live-search-result .searchwp-live-search-result--price {
+  font-size: 14px;
+}
+.searchwp-live-search-result .searchwp-live-search-result--add-to-cart .button {
+  font-size: 14px;
+}
+
+/*# sourceURL=searchwp-live-search-inline-css */
+</style>
+<link rel='stylesheet' id='divi-style-parent-css' href='https://www.buckeyecu.org/wp-content/themes/Divi/style-static.min.css?ver=4.27.7' media='all' />
+<link rel='stylesheet' id='default-style-css' href='https://www.buckeyecu.org/wp-content/themes/Divi-child/assets/css/default.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='theme-style-css' href='https://www.buckeyecu.org/wp-content/themes/Divi-child/assets/css/theme.css?ver=1785173149' media='all' />
+<link rel='stylesheet' id='divi-style-pum-css' href='https://www.buckeyecu.org/wp-content/themes/Divi-child/style.css?ver=4.27.7' media='all' />
+<script id="jquery-core-js" src="https://www.buckeyecu.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.buckeyecu.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="hoverIntent-js" src="https://www.buckeyecu.org/wp-includes/js/hoverIntent.min.js?ver=1.10.2"></script>
+<script id="megamenu-js" src="https://www.buckeyecu.org/wp-content/plugins/megamenu/js/maxmegamenu.min.js?ver=3.10.8"></script>
+<script id="trelsb_frontend_script-js-extra">
+var trelsb_php_vars = {"domainExceptions":"","linkExceptions":"https://buckeyecu.lenderpayments.com/,https://link.zixcentral.com/u/4f7f6190/2mHT6Lan7RG06oXzxQSFBA?u=httpsconsumer.decisionassist.comShortFormrefF40F5B7ED2254276E0501EAC88106233","speedbumpText":"\u003Ch2\u003ELeaving Our Website\u003C/h2\u003E\n\u003Cp\u003EPlease be advised that you are leaving Buckeye State Credit Union\u2019s website. This link is provided as a courtesy. Buckeye State Credit Union does not endorse or control the content of third party websites. Privacy and security policies of the third party websites may differ from those practiced by the Credit Union.\u003C/p\u003E\n","continueText":"Continue","cancelText":"Cancel"};
+//# sourceURL=trelsb_frontend_script-js-extra
+</script>
+<script id="trelsb_frontend_script-js" src="https://www.buckeyecu.org/wp-content/plugins/traction-external-links-speed-bump/js/traction-external-links-speed-bump.js?ver=7.0.5"></script>
+<link rel="https://api.w.org/" href="https://www.buckeyecu.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.buckeyecu.org/wp-json/wp/v2/posts/1598" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.buckeyecu.org/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://www.buckeyecu.org/?p=1598' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" /><style id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCQLNXD');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16617650005"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16617650005'); </script>
+<!-- Initiate The Data Layer -->
+<script>
+    window.dataLayer = window.dataLayer || [];
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Font Awesome Kit -->
+<script src="https://kit.fontawesome.com/95c04f2273.js" crossorigin="anonymous"></script>
+
+<!-- Slick Slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="icon" href="https://www.buckeyecu.org/wp-content/uploads/2024/07/favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.buckeyecu.org/wp-content/uploads/2024/07/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.buckeyecu.org/wp-content/uploads/2024/07/favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.buckeyecu.org/wp-content/uploads/2024/07/favicon.png" />
+<style id="et-divi-customizer-global-cached-inline-styles">body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url,body .et_pb_bg_layout_light .et_pb_post p,body .et_pb_bg_layout_dark .et_pb_post p{font-size:16px}.et_pb_slide_content,.et_pb_best_value{font-size:18px}body{color:#18232d}h1,h2,h3,h4,h5,h6{color:#111645}body{line-height:1.5em}body,.et_pb_column_1_2 .et_quote_content blockquote cite,.et_pb_column_1_2 .et_link_content a.et_link_main_url,.et_pb_column_1_3 .et_quote_content blockquote cite,.et_pb_column_3_8 .et_quote_content blockquote cite,.et_pb_column_1_4 .et_quote_content blockquote cite,.et_pb_blog_grid .et_quote_content blockquote cite,.et_pb_column_1_3 .et_link_content a.et_link_main_url,.et_pb_column_3_8 .et_link_content a.et_link_main_url,.et_pb_column_1_4 .et_link_content a.et_link_main_url,.et_pb_blog_grid .et_link_content a.et_link_main_url,body .et_pb_bg_layout_light .et_pb_post p,body .et_pb_bg_layout_dark .et_pb_post p{font-weight:400}.et_pb_slide_content,.et_pb_best_value{font-weight:400}#et_search_icon:hover,.mobile_menu_bar:before,.mobile_menu_bar:after,.et_toggle_slide_menu:after,.et-social-icon a:hover,.et_pb_sum,.et_pb_pricing li a,.et_pb_pricing_table_button,.et_overlay:before,.entry-summary p.price ins,.et_pb_member_social_links a:hover,.et_pb_widget li a:hover,.et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active,.et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active,.et_pb_gallery .et_pb_gallery_pagination ul li a.active,.wp-pagenavi span.current,.wp-pagenavi a:hover,.nav-single a,.tagged_as a,.posted_in a{color:#96080b}.et_pb_contact_submit,.et_password_protected_form .et_submit_button,.et_pb_bg_layout_light .et_pb_newsletter_button,.comment-reply-link,.form-submit .et_pb_button,.et_pb_bg_layout_light .et_pb_promo_button,.et_pb_bg_layout_light .et_pb_more_button,.et_pb_contact p input[type="checkbox"]:checked+label i:before,.et_pb_bg_layout_light.et_pb_module.et_pb_button{color:#96080b}.footer-widget h4{color:#96080b}.et-search-form,.nav li ul,.et_mobile_menu,.footer-widget li:before,.et_pb_pricing li:before,blockquote{border-color:#96080b}.et_pb_counter_amount,.et_pb_featured_table .et_pb_pricing_heading,.et_quote_content,.et_link_content,.et_audio_content,.et_pb_post_slider.et_pb_bg_layout_dark,.et_slide_in_menu_container,.et_pb_contact p input[type="radio"]:checked+label i:before{background-color:#96080b}a{color:#00549e}.nav li ul{border-color:#d4effc}.et_secondary_nav_enabled #page-container #top-header{background-color:#00549e!important}#et-secondary-nav li ul{background-color:#00549e}.et_header_style_centered .mobile_nav .select_page,.et_header_style_split .mobile_nav .select_page,.et_nav_text_color_light #top-menu>li>a,.et_nav_text_color_dark #top-menu>li>a,#top-menu a,.et_mobile_menu li a,.et_nav_text_color_light .et_mobile_menu li a,.et_nav_text_color_dark .et_mobile_menu li a,#et_search_icon:before,.et_search_form_container input,span.et_close_search_field:after,#et-top-navigation .et-cart-info{color:#111645}.et_search_form_container input::-moz-placeholder{color:#111645}.et_search_form_container input::-webkit-input-placeholder{color:#111645}.et_search_form_container input:-ms-input-placeholder{color:#111645}#top-header,#top-header a,#et-secondary-nav li li a,#top-header .et-social-icon a:before{font-size:14px}#top-menu li a{font-size:16px}body.et_vertical_nav .container.et_search_form_container .et-search-form input{font-size:16px!important}#top-menu li.current-menu-ancestor>a,#top-menu li.current-menu-item>a,#top-menu li.current_page_item>a{color:#00549e}#main-footer .footer-widget h4,#main-footer .widget_block h1,#main-footer .widget_block h2,#main-footer .widget_block h3,#main-footer .widget_block h4,#main-footer .widget_block h5,#main-footer .widget_block h6{color:#96080b}.footer-widget li:before{border-color:#96080b}#footer-widgets .footer-widget li:before{top:10.6px}body .et_pb_button{font-size:18px;background-color:#96080b;border-width:0px!important;border-color:#96080b;border-radius:12px;font-weight:bold;font-style:normal;text-transform:none;text-decoration:none;}body.et_pb_button_helper_class .et_pb_button,body.et_pb_button_helper_class .et_pb_module.et_pb_button{color:#ffffff}body .et_pb_button:after{font-size:28.8px}body .et_pb_bg_layout_light.et_pb_button:hover,body .et_pb_bg_layout_light .et_pb_button:hover,body .et_pb_button:hover{color:#ffffff!important;background-color:#630000;border-color:#630000!important;border-radius:12px}h1,h2,h3,h4,h5,h6,.et_quote_content blockquote p,.et_pb_slide_description .et_pb_slide_title{line-height:1.1em}body.home-posts #left-area .et_pb_post h2,body.archive #left-area .et_pb_post h2,body.search #left-area .et_pb_post h2,body.single .et_post_meta_wrapper h1{line-height:1.1em}@media only screen and (min-width:981px){.et_header_style_left #et-top-navigation,.et_header_style_split #et-top-navigation{padding:70px 0 0 0}.et_header_style_left #et-top-navigation nav>ul>li>a,.et_header_style_split #et-top-navigation nav>ul>li>a{padding-bottom:70px}.et_header_style_split .centered-inline-logo-wrap{width:140px;margin:-140px 0}.et_header_style_split .centered-inline-logo-wrap #logo{max-height:140px}.et_pb_svg_logo.et_header_style_split .centered-inline-logo-wrap #logo{height:140px}.et_header_style_centered #top-menu>li>a{padding-bottom:25px}.et_header_style_slide #et-top-navigation,.et_header_style_fullscreen #et-top-navigation{padding:61px 0 61px 0!important}.et_header_style_centered #main-header .logo_container{height:140px}#logo{max-height:100%}.et_pb_svg_logo #logo{height:100%}.et_header_style_left .et-fixed-header #et-top-navigation,.et_header_style_split .et-fixed-header #et-top-navigation{padding:40px 0 0 0}.et_header_style_left .et-fixed-header #et-top-navigation nav>ul>li>a,.et_header_style_split .et-fixed-header #et-top-navigation nav>ul>li>a{padding-bottom:40px}.et_header_style_centered header#main-header.et-fixed-header .logo_container{height:80px}.et_header_style_split #main-header.et-fixed-header .centered-inline-logo-wrap{width:80px;margin:-80px 0}.et_header_style_split .et-fixed-header .centered-inline-logo-wrap #logo{max-height:80px}.et_pb_svg_logo.et_header_style_split .et-fixed-header .centered-inline-logo-wrap #logo{height:80px}.et_header_style_slide .et-fixed-header #et-top-navigation,.et_header_style_fullscreen .et-fixed-header #et-top-navigation{padding:31px 0 31px 0!important}.et_fixed_nav #page-container .et-fixed-header#top-header{background-color:#6d6e71!important}.et_fixed_nav #page-container .et-fixed-header#top-header #et-secondary-nav li ul{background-color:#6d6e71}.et-fixed-header #top-menu a,.et-fixed-header #et_search_icon:before,.et-fixed-header #et_top_search .et-search-form input,.et-fixed-header .et_search_form_container input,.et-fixed-header .et_close_search_field:after,.et-fixed-header #et-top-navigation .et-cart-info{color:rgba(0,0,0,0.87)!important}.et-fixed-header .et_search_form_container input::-moz-placeholder{color:rgba(0,0,0,0.87)!important}.et-fixed-header .et_search_form_container input::-webkit-input-placeholder{color:rgba(0,0,0,0.87)!important}.et-fixed-header .et_search_form_container input:-ms-input-placeholder{color:rgba(0,0,0,0.87)!important}.et-fixed-header #top-menu li.current-menu-ancestor>a,.et-fixed-header #top-menu li.current-menu-item>a,.et-fixed-header #top-menu li.current_page_item>a{color:rgba(0,0,0,0.87)!important}}@media only screen and (min-width:1350px){.et_pb_row{padding:27px 0}.et_pb_section{padding:54px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:81px}.et_pb_fullwidth_section{padding:0}}h1,h1.et_pb_contact_main_title,.et_pb_title_container h1{font-size:40px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:34px}h3{font-size:29px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:24px}h5{font-size:21px}h6{font-size:18px}.et_pb_slide_description .et_pb_slide_title{font-size:61px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:21px}h1,h1.et_pb_contact_main_title,.et_pb_title_container h1{font-weight:700}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-weight:700}h3{font-weight:700}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-weight:700}h5{font-weight:700}h6{font-weight:700}.et_pb_slide_description .et_pb_slide_title{font-weight:700}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-weight:700}@media only screen and (max-width:980px){.et_header_style_centered .mobile_nav .select_page,.et_header_style_split .mobile_nav .select_page,.et_mobile_menu li a,.mobile_menu_bar:before,.et_nav_text_color_light #top-menu>li>a,.et_nav_text_color_dark #top-menu>li>a,#top-menu a,.et_mobile_menu li a,#et_search_icon:before,#et_top_search .et-search-form input,.et_search_form_container input,#et-top-navigation .et-cart-info{color:#18232d}.et_close_search_field:after{color:#18232d!important}.et_search_form_container input::-moz-placeholder{color:#18232d}.et_search_form_container input::-webkit-input-placeholder{color:#18232d}.et_search_form_container input:-ms-input-placeholder{color:#18232d}h1{font-size:32px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:27px}h3{font-size:23px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:19px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description .et_pb_slide_title{font-size:48px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:16px}h5{font-size:16px}h6{font-size:15px}.et_pb_section{padding:32px 0}.et_pb_section.et_pb_fullwidth_section{padding:0}.et_pb_row,.et_pb_column .et_pb_row_inner{padding:16px 0}}@media only screen and (max-width:767px){h1{font-size:24px}h2,.product .related h2,.et_pb_column_1_2 .et_quote_content blockquote p{font-size:20px}h3{font-size:17px}h4,.et_pb_circle_counter h3,.et_pb_number_counter h3,.et_pb_column_1_3 .et_pb_post h2,.et_pb_column_1_4 .et_pb_post h2,.et_pb_blog_grid h2,.et_pb_column_1_3 .et_quote_content blockquote p,.et_pb_column_3_8 .et_quote_content blockquote p,.et_pb_column_1_4 .et_quote_content blockquote p,.et_pb_blog_grid .et_quote_content blockquote p,.et_pb_column_1_3 .et_link_content h2,.et_pb_column_3_8 .et_link_content h2,.et_pb_column_1_4 .et_link_content h2,.et_pb_blog_grid .et_link_content h2,.et_pb_column_1_3 .et_audio_content h2,.et_pb_column_3_8 .et_audio_content h2,.et_pb_column_1_4 .et_audio_content h2,.et_pb_blog_grid .et_audio_content h2,.et_pb_column_3_8 .et_pb_audio_module_content h2,.et_pb_column_1_3 .et_pb_audio_module_content h2,.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2{font-size:14px}.et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description .et_pb_slide_title{font-size:36px}.et_pb_gallery_grid .et_pb_gallery_item h3,.et_pb_portfolio_grid .et_pb_portfolio_item h2,.et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2,.et_pb_column_1_4 .et_pb_audio_module_content h2{font-size:12px}h5{font-size:12px}h6{font-size:11px}.et_pb_section{padding:16px 0}.et_pb_section.et_pb_fullwidth_section{padding:0}}	h1,h2,h3,h4,h5,h6{font-family:'Figtree',Helvetica,Arial,Lucida,sans-serif}body,input,textarea,select{font-family:'Figtree',Helvetica,Arial,Lucida,sans-serif}</style></head>
+<body class="wp-singular post-template-default single single-post postid-1598 single-format-standard custom-background wp-theme-Divi wp-child-theme-Divi-child et-tb-has-template et-tb-has-body et-tb-has-footer mega-menu-primary-menu mega-menu-secondary-menu et_pb_button_helper_class et_fullwidth_nav et_non_fixed_nav et_show_nav et_pb_show_title et_secondary_nav_enabled et_secondary_nav_only_menu et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_svg_logo et_cover_background et_pb_gutter et_pb_gutters2 et_pb_pagebuilder_layout et_smooth_scroll et_divi_theme et-db">
+	<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		<div id="top-header" >
+    <div class="container clearfix">
+
+        
+        <div id="et-secondary-menu">
+            <div id="mega-menu-wrap-secondary-menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0' id='mega-toggle-block-0'><button aria-controls="mega-menu-secondary-menu" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div></div><ul id="mega-menu-secondary-menu" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="body" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="981" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical" data-mobile-back-text="{parent_title}"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-182" id="mega-menu-item-182"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/" aria-expanded="false" aria-controls="mega-sub-menu-182">About Us<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" id='mega-sub-menu-182'>
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1179" id="mega-menu-item-1179"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/">About Us Overview</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-671" id="mega-menu-item-671"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/financial-performance/">Financial Performance</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-669" id="mega-menu-item-669"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/faqs/">FAQs</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-668" id="mega-menu-item-668"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/careers/">Careers</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-670" id="mega-menu-item-670"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/blog/">Financial Ed Blog</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1284" id="mega-menu-item-1284"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/join/">Join Us</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1070" id="mega-menu-item-1070"><a class="mega-menu-link" href="https://www.buckeyecu.org/pay-loan-online/">Pay Loan Online</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1285" id="mega-menu-item-1285"><div class='mega-search-wrap'>    <form class='mega-search expand-to-left mega-search-closed' role='search' action='https://www.buckeyecu.org/'><input  type='text' tabindex='-1' role='searchbox' id='mega-search-1285' aria-label='Search...' data-placeholder='Search...' name='s' autocomplete='off' aria-hidden='true' /><span tabindex='0' role='button' class='dashicons dashicons-search search-icon' aria-controls='mega-search-1285' aria-label='Search' aria-expanded='false' aria-haspopup='true'></span><input type='submit' value='Search'>    </form></div></li></ul></div>        </div>
+
+    </div>
+</div>
+
+
+<header id="main-header" data-height-onload="140">
+    <div class="container clearfix et_menu_container">
+                <div class="logo_container">
+            <span class="logo_helper"></span>
+            <a href="https://www.buckeyecu.org/">
+                <img src="https://www.buckeyecu.org/wp-content/uploads/2024/07/bscu-logo-color.svg" width="217" height="80" alt="Buckeye State Credit Union" id="logo" data-height-percentage="100" />
+            </a>
+        </div>
+                <div id="et-top-navigation" data-height="140" data-fixed-height="80">
+                        <nav id="top-menu-nav">
+                <div id="mega-menu-wrap-primary-menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0' id='mega-toggle-block-0'><button aria-controls="mega-menu-primary-menu" aria-expanded="false" aria-haspopup="true" aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div></div><ul id="mega-menu-primary-menu" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="slide_left" data-effect-speed-mobile="400" data-mobile-force-width="body" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="981" data-unbind="true" data-mobile-state="collapse_all" data-mobile-direction="vertical" data-mobile-back-text="{parent_title}"><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-hide-on-desktop mega-menu-item-1286" id="mega-menu-item-1286"><div class='mega-search-wrap mega-static'>    <form class='mega-search mega-search-open' role='search' action='https://www.buckeyecu.org/'><input type='submit' value='Search'><input  type='text' role='searchbox' id='mega-search-1286' aria-label='Search...' name='s' autocomplete='off' placeholder='Search...' /><span tabindex='0' role='button' class='dashicons dashicons-search search-icon' aria-controls='mega-search-1286' aria-label='Search'></span>    </form></div></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-644" id="mega-menu-item-644"><a class="mega-menu-link" href="https://www.buckeyecu.org/deposits/" aria-expanded="false" aria-controls="mega-sub-menu-644">Deposits<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" id='mega-sub-menu-644'>
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1176" id="mega-menu-item-1176"><a class="mega-menu-link" href="https://www.buckeyecu.org/deposits/">Deposits Overview</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-656" id="mega-menu-item-656"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/rates/">Rates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-645" id="mega-menu-item-645"><a class="mega-menu-link" href="https://www.buckeyecu.org/deposits/checking/">Free Checking Accounts</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-647" id="mega-menu-item-647"><a class="mega-menu-link" href="https://www.buckeyecu.org/deposits/savings/">Savings</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-648" id="mega-menu-item-648"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/" aria-expanded="false" aria-controls="mega-sub-menu-648">Loans<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" id='mega-sub-menu-648'>
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1177" id="mega-menu-item-1177"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/">Loans Overview</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-654" id="mega-menu-item-654"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/rates/">Rates</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-649" id="mega-menu-item-649"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/auto-loans/">Auto Loans</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-651" id="mega-menu-item-651"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/home-equity-loans/">Home Equity</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-652" id="mega-menu-item-652"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/mortgages/">Mortgages</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-653" id="mega-menu-item-653"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/low-rate-personal-loans/">Personal Loans</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-655" id="mega-menu-item-655"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/student-loans/">Student Loans</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-650" id="mega-menu-item-650"><a class="mega-menu-link" href="https://www.buckeyecu.org/loans/credit-cards/">Credit Cards</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-657" id="mega-menu-item-657"><a class="mega-menu-link" href="https://www.buckeyecu.org/member-hub/" aria-expanded="false" aria-controls="mega-sub-menu-657">Member Hub<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" id='mega-sub-menu-657'>
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1178" id="mega-menu-item-1178"><a class="mega-menu-link" href="https://www.buckeyecu.org/member-hub/">Member Hub Overview</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-661" id="mega-menu-item-661"><a class="mega-menu-link" href="https://www.buckeyecu.org/member-hub/mobile-banking/">Mobile Banking</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1656" id="mega-menu-item-1656"><a class="mega-menu-link" href="https://www.buckeyecu.org/member-hub/investments/">Investments</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1124" id="mega-menu-item-1124"><a class="mega-menu-link" href="https://www.buckeyecu.org/pay-loan-online/">Pay Loan Online</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-658" id="mega-menu-item-658"><a class="mega-menu-link" href="https://www.buckeyecu.org/member-hub/check-reordering/">Check Reordering</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-660" id="mega-menu-item-660"><a class="mega-menu-link" href="https://www.buckeyecu.org/member-hub/member-benefits/">Member Benefits</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-659" id="mega-menu-item-659"><a class="mega-menu-link" href="https://www.buckeyecu.org/member-hub/contact-us/">Contact Us</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-hide-on-desktop mega-menu-item-1287" id="mega-menu-item-1287"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/" aria-expanded="false" aria-controls="mega-sub-menu-1287">About Us<span class="mega-indicator" aria-hidden="true"></span></a>
+<ul class="mega-sub-menu" id='mega-sub-menu-1287'>
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1293" id="mega-menu-item-1293"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/">About Us Overview</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1291" id="mega-menu-item-1291"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/financial-performance/">Financial Performance</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1289" id="mega-menu-item-1289"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/faqs/">FAQs</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1288" id="mega-menu-item-1288"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/careers/">Careers</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1290" id="mega-menu-item-1290"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/blog/">Financial Ed Blog</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1292" id="mega-menu-item-1292"><a class="mega-menu-link" href="https://www.buckeyecu.org/about-us/join/">Join Us</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-hide-on-desktop mega-menu-item-1294" id="mega-menu-item-1294"><a class="mega-menu-link" href="https://www.buckeyecu.org/pay-loan-online/">Pay Loan Online</a></li><li class="mega-member-login-mobile mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-hide-on-desktop mega-menu-item-1441 member-login-mobile" id="mega-menu-item-1441"><a target="_blank" class="mega-menu-link" href="https://banking.buckeyecu.org">Member Login <i class="fa-solid fa-user" aria-hidden="true"></i></a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-hide-on-desktop mega-hide-on-mobile mega-menu-item-1440" id="mega-menu-item-1440"><a class="mega-menu-link" href="#"><span id="menu-login">Member Login <i class="fa-solid fa-user" aria-hidden="true"></i></span></a></li><li class="mega-menu-login-button mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-hide-on-mobile mega-menu-item-1830 menu-login-button" id="mega-menu-item-1830"><a target="_blank" class="mega-menu-link" href="https://banking.buckeyecu.org"><span id="menu-login-button">Member Login <i class="fa-solid fa-user" aria-hidden="true"></i></span></a></li></ul><button aria-controls="mega-menu-primary-menu" aria-label="Close" class='mega-close'></button></div>            </nav>
+            
+            
+            
+            
+            <div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>        </div> <!-- #et-top-navigation -->
+    </div> <!-- .container -->
+        <div class="container clearfix login-container">
+        <div class="top-login gform_wrapper">
+            <form action="https://buckeye.ns3web.org/" method="post" name="logon" target="">
+                <div class="gform_body">
+                    <ul class="gform_fields top_label form_sublabel_below description_below">
+                        <li class="gfield gf_left_third gfield_contains_required field_sublabel_below field_description_below">
+                            <div class="ginput_container ginput_container_text">
+                                <label style="display:none" for="login_UserName">Username <span>Required</span></label>
+                                <input name="UserName" type="text" value="" class="large" placeholder="Username" id="login_UserName">
+                            </div>
+                            <p><a href="https://buckeye.ns3web.org/Username/Forgot">Forgot Username?</a></p>
+                        </li>
+                        <li class="gfield gf_middle_third gfield_contains_required field_sublabel_below field_description_below">
+                            <div class="ginput_container ginput_container_text">
+                                <label style="display:none" for="login_Password">Password <span>Required</span></label>
+                                <input name="Password" type="password" value="" class="large" placeholder="Password" id="login_Password">
+                            </div>
+                            <p><a href="https://buckeye.ns3web.org/Password/Forgot" target="_blank">Forgot Password?</a></p>
+                        </li>
+                        <li class="gform_footer gfield gf_right_third gfield_contains_required field_sublabel_below field_description_below">
+                            <button type="submit" id="gform_submit_button_1" class="gform_button button" value="Login" name="login">Login</button>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+</header> <!-- #main-header -->
+<div id="et-main-area">
+	
+    <div id="main-content">
+    <div class="et-l et-l--body">
+			<div class="et_builder_inner_content et_pb_gutters2">
+		<div class="et_pb_section et_pb_section_0_tb_body et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div><div class="et_pb_section et_pb_section_1_tb_body et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_body blog-info-row">
+				<div class="et_pb_column et_pb_column_3_4 et_pb_column_0_tb_body  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_body  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><a class="reverse-text-link-style" href="/about-us/blog/">All Posts</a></p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_1_tb_body  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1_tb_body  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><strong>Share this Post</strong></p></div>
+			</div><div class="et_pb_module et_pb_text et_pb_text_2_tb_body  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><div class="heateor_sss_sharing_container heateor_sss_horizontal_sharing" data-heateor-ss-offset="0" data-heateor-sss-href='https://www.buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion/'><div class="heateor_sss_sharing_ul"><a aria-label="Facebook" class="heateor_sss_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg" style="background-color:#0765FE;width:40px;height:40px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path fill="#fff" d="M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z"></path></svg></span></a><a aria-label="X" class="heateor_sss_button_x" href="https://twitter.com/intent/tweet?text=The%20Role%20of%20Black%20Credit%20Unions%20in%20Financial%20Inclusion&url=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F" title="X" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_x" style="background-color:#2a2a2a;width:40px;height:40px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg width="100%" height="100%" style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#fff" d="M21.751 7h3.067l-6.7 7.658L26 25.078h-6.172l-4.833-6.32-5.531 6.32h-3.07l7.167-8.19L6 7h6.328l4.37 5.777L21.75 7Zm-1.076 16.242h1.7L11.404 8.74H9.58l11.094 14.503Z"></path></svg></span></a><a aria-label="Linkedin" class="heateor_sss_button_linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F" title="Linkedin" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_linkedin" style="background-color:#0077b5;width:40px;height:40px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z" fill="#fff"></path></svg></span></a><a aria-label="Email" class="heateor_sss_email" href="https://www.buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion/" onclick="event.preventDefault();window.open('mailto:?subject=' + decodeURIComponent('The%20Role%20of%20Black%20Credit%20Unions%20in%20Financial%20Inclusion').replace('&', '%26') + '&body=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F', '_blank')" title="Email" rel="noopener" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg" style="background-color:#649a3f;width:40px;height:40px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-.75 -.5 36 36"><path d="M 5.5 11 h 23 v 1 l -11 6 l -11 -6 v -1 m 0 2 l 11 6 l 11 -6 v 11 h -22 v -11" stroke-width="1" fill="#fff"></path></svg></span></a></div><div class="heateorSssClear"></div></div></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_row et_pb_row_1_tb_body">
+				<div class="et_pb_column et_pb_column_2_3 et_pb_column_2_tb_body  et_pb_css_mix_blend_mode_passthrough" id="blog-content-column">
+				
+				
+				
+				
+				<div id="blog-content-wrap" class="et_pb_module et_pb_post_content et_pb_post_content_0_tb_body">
+				
+				
+				
+				
+				<div class='heateorSssClear'></div><div  class='heateor_sss_sharing_container heateor_sss_horizontal_sharing' data-heateor-sss-href='https://www.buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion/'><div class='heateor_sss_sharing_title' style="font-weight:bold" >Spread the love</div><div class="heateor_sss_sharing_ul"><a aria-label="Facebook" class="heateor_sss_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg" style="background-color:#0765FE;width:40px;height:40px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path fill="#fff" d="M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z"></path></svg></span></a><a aria-label="X" class="heateor_sss_button_x" href="https://twitter.com/intent/tweet?text=The%20Role%20of%20Black%20Credit%20Unions%20in%20Financial%20Inclusion&url=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F" title="X" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_x" style="background-color:#2a2a2a;width:40px;height:40px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg width="100%" height="100%" style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#fff" d="M21.751 7h3.067l-6.7 7.658L26 25.078h-6.172l-4.833-6.32-5.531 6.32h-3.07l7.167-8.19L6 7h6.328l4.37 5.777L21.75 7Zm-1.076 16.242h1.7L11.404 8.74H9.58l11.094 14.503Z"></path></svg></span></a><a aria-label="Linkedin" class="heateor_sss_button_linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F" title="Linkedin" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_linkedin" style="background-color:#0077b5;width:40px;height:40px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z" fill="#fff"></path></svg></span></a><a aria-label="Email" class="heateor_sss_email" href="https://www.buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion/" onclick="event.preventDefault();window.open('mailto:?subject=' + decodeURIComponent('The%20Role%20of%20Black%20Credit%20Unions%20in%20Financial%20Inclusion').replace('&', '%26') + '&body=https%3A%2F%2Fwww.buckeyecu.org%2Fthe-role-of-black-credit-unions-in-financial-inclusion%2F', '_blank')" title="Email" rel="noopener" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg" style="background-color:#649a3f;width:40px;height:40px;border-radius:4px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-.75 -.5 36 36"><path d="M 5.5 11 h 23 v 1 l -11 6 l -11 -6 v -1 m 0 2 l 11 6 l 11 -6 v 11 h -22 v -11" stroke-width="1" fill="#fff"></path></svg></span></a></div><div class="heateorSssClear"></div></div><div class='heateorSssClear'></div><div class="et-l et-l--post">
+			<div class="et_builder_inner_content et_pb_gutters2">
+		<div class="et_pb_section et_pb_section_0 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h1><strong>The Role of Black Credit Unions in Financial Inclusion</strong></h1>
+<h3> </h3>
+<h3><strong>Historical Context</strong></h3>
+<p>Black credit unions have played a pivotal role in promoting financial inclusion and economic empowerment within underserved communities. These institutions have a rich history of providing essential financial services to Black Americans, who have historically faced significant barriers to accessing mainstream banking services.</p>
+<p>The establishment of Black credit unions dates back to the early 20th century, with the formation of the first African American credit union, Piedmont Credit Union of Landis, in 1918. These credit unions were created out of necessity, as Black Americans were often excluded from traditional financial institutions due to systemic racism and discriminatory practices.</p>
+<h3><strong>Promoting Financial Inclusion</strong></h3>
+<p>Black credit unions are instrumental in advancing financial inclusion by offering affordable financial products and services tailored to the needs of their communities. They provide a range of services, including savings accounts, loans, and financial education programs, which help members build financial stability and achieve their economic goals.</p>
+<p>One of the key ways Black credit unions promote financial inclusion is through their focus on community development. Many of these institutions are certified as Community Development Financial Institutions (CDFIs), which allows them to access public and private capital to expand their services and reach more people in economically disadvantaged areas.</p>
+<p>This certification enables Black credit unions to offer more affordable products and services, thereby fostering greater financial security for their members.</p>
+<h3><strong>Building Financial Literacy</strong></h3>
+<p>Financial education is a cornerstone of the mission of Black credit unions. These institutions often provide financial literacy programs that educate members on budgeting, saving, and investing. By empowering individuals with the knowledge and tools they need to manage their finances effectively, Black credit unions help to break the cycle of poverty and build generational wealth within their communities.</p>
+<h3><strong>Supporting Economic Empowerment</strong></h3>
+<p>Black credit unions also play a crucial role in supporting Black-owned businesses. By providing access to capital and financial services, these institutions help entrepreneurs start and grow their businesses, which in turn creates jobs and stimulates economic growth in their communities. This support is vital for fostering a thriving local economy and promoting economic empowerment.</p>
+<h3><strong>Challenges and Opportunities</strong></h3>
+<p>Despite their significant contributions, Black credit unions face numerous challenges, including limited resources and regulatory hurdles. However, initiatives like Inclusiv&#8217;s New Majority Growth Initiative are helping to address these challenges by providing technical assistance, training, and financial resources to support the growth and sustainability of Black credit unions.</p>
+<p>In conclusion, Black credit unions are essential to promoting financial inclusion and economic empowerment within underserved communities. By providing access to affordable financial services, fostering financial literacy, and supporting Black-owned businesses, these institutions play a vital role in building a more equitable and inclusive financial system.</p></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>
+
+		</div>
+	</div>
+	
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_3 et_pb_column_3_tb_body  et_pb_css_mix_blend_mode_passthrough" id="sidebar-headings">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_blurb et_pb_blurb_0_tb_body  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					
+					<div class="et_pb_blurb_container">
+						<h2 class="et_pb_module_header"><span>About Buckeye State Credit Union</span></h2>
+						<div class="et_pb_blurb_description"><p>At Buckeye State Credit Union, our promise is to deliver a differentiated customer experience that leaves members feeling cared for, valued and respected.</p>
+<p>Through product innovation, personalized treatment and commitment to our Northeast Ohio community, <strong>Buckeye does banking better</strong>.</p></div>
+					</div>
+				</div>
+			</div><div class="et_pb_module et_pb_blurb et_pb_blurb_1_tb_body  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_blurb_content">
+					
+					<div class="et_pb_blurb_container">
+						<h2 class="et_pb_module_header"><span>Join us for banking that gets you.</span></h2>
+						<div class="et_pb_blurb_description"><p>Ready to simplify your financial journey with smarter banking, personalized for you? Become a member of our Buckeye community today! You can also call or visit one of our <a href="/about">five Northeast Ohio branches</a>.</p>
+<p><a class="et_pb_button et_pb_more_button et_pb_button_one" href="https://www.buckeyecu.org/about-us/join/">Join Us</a></p></div>
+					</div>
+				</div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</div>
+	    </div>
+    
+	<footer class="et-l et-l--footer">
+			<div class="et_builder_inner_content et_pb_gutters2">
+		<div class="et_pb_section et_pb_section_0_tb_footer et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0_tb_footer company-info">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_0_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0_tb_footer">
+				
+				
+				
+				
+				<a href="https://www.buckeyecu.org/"><span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="217" height="80" src="https://www.buckeyecu.org/wp-content/uploads/2024/07/bscu-logo-color.svg" alt="Buckeye State Credit Union Logo" title="" class="wp-image-676" /></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_1_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div id="footer-address" class="et_pb_module et_pb_code et_pb_code_0_tb_footer  et_pb_text_align_left">
+				
+				
+				
+				
+				<div class="et_pb_code_inner"><div class="contact-info" itemscope itemtype="https://schema.org/LocalBusiness">
+  <p><strong>CONTACT</strong></p> 
+  <h2 class="screen-reader-text"><span itemprop="name">Buckeye State Credit Union</span></h2>
+  <p class="screen-reader-text" itemprop="description">Buckeye State Credit Union puts you first by making banking as personal, seamless, and straightforward as it should be.</p> 
+  <p class="screen-reader-text"><a href="https://maps.app.goo.gl/oq7EQaJsCC8umUpH7" target="_blank" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" rel="noopener">
+    <span itemprop="streetAddress">197 E Thornton St</span>
+    <span itemprop="addressLocality">Akron</span>, <span itemprop="addressRegion">OH</span> <span itemprop="postalCode">44311</span></a></p> 
+  <p><a href="tel:3302539197"><span itemprop="telephone">(330) 253-9197</span></a><br /><a href="mailto:membersupport1@buckeyecu.org"><span itemprop="email">membersupport1@buckeyecu.org</span></a></p> 
+  <p><strong>Routing Number:</strong> 241273366</p> 
+  <p><a href="/about-us#branches">Visit a Branch</a></p> 
+</div></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_2_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_button_module_wrapper et_pb_button_0_tb_footer_wrapper et_pb_button_alignment_left et_pb_module ">
+				<a class="et_pb_button et_pb_button_0_tb_footer et_pb_bg_layout_light" href="https://banking.buckeyecu.org/" target="_blank" data-icon="">Member Login</a>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_1_tb_footer_wrapper et_pb_button_alignment_left et_pb_module ">
+				<a id="red-button" class="et_pb_button et_pb_button_1_tb_footer et_pb_bg_layout_light" href="https://www.buckeyecu.org/pay-loan-online/">Pay Loan Online</a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_3_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<ul class="et_pb_module et_pb_social_media_follow et_pb_social_media_follow_0_tb_footer clearfix  et_pb_text_align_right et_pb_text_align_left-tablet et_pb_bg_layout_light">
+				
+				
+				
+				
+				<li
+            class='et_pb_social_media_follow_network_0_tb_footer et_pb_section_video_on_hover et_pb_social_icon et_pb_social_network_link  et-social-facebook'><a
+              href='https://www.facebook.com/BuckeyeStateCreditUnion'
+              class='icon et_pb_with_border'
+              title='Follow on Facebook'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Follow</span></a></li><li
+            class='et_pb_social_media_follow_network_1_tb_footer et_pb_section_video_on_hover et_pb_social_icon et_pb_social_network_link  et-social-instagram'><a
+              href='https://www.instagram.com/buckeyestatecu/'
+              class='icon et_pb_with_border'
+              title='Follow on Instagram'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Follow</span></a></li><li
+            class='et_pb_social_media_follow_network_2_tb_footer et_pb_section_video_on_hover et_pb_social_icon et_pb_social_network_link  et-social-linkedin'><a
+              href='https://www.linkedin.com/company/buckeye-state-credit-union'
+              class='icon et_pb_with_border'
+              title='Follow on LinkedIn'
+               target="_blank"><span
+                class='et_pb_social_media_follow_network_name'
+                aria-hidden='true'
+                >Follow</span></a></li>
+			</ul>
+			</div>
+				
+				
+				
+				
+			</div><div class="et_pb_with_border et_pb_row et_pb_row_1_tb_footer">
+				<div class="et_pb_column et_pb_column_3_4 et_pb_column_4_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_footer  et_pb_text_align_left et_pb_text_align_center-tablet et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><small><a href="https://www.americanshare.com/" target="_blank" rel="noopener"><img decoding="async" alt="American Share Insurance" src="/wp-content/uploads/2024/07/logo-asi.png" style="height: 35px; margin-right: 10px;" /> <img decoding="async" alt="Excess Share Insurance" src="/wp-content/uploads/2024/07/logo-esi.png" style="height: 35px;" /></a><br /><strong style="text-transform: uppercase;">Accounts insured up to $5,000,000</strong><br />American Share Insurance insures each account up to $250,000. Excess Share Insurance Corporation provides up to an additional $4,750,000 of insurance per account. This institution is not federally insured.<br /><span style="text-decoration: underline;"><strong style="text-transform: uppercase;">Members’ accounts are not insured or guaranteed by any government or government-sponsored agency.</strong></span></small></p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_5_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1_tb_footer  et_pb_text_align_right et_pb_text_align_center-tablet et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><a href="/about-us/#cdfi" target="_blank" rel="noopener"><img decoding="async" alt="Certified Community Development Financial Institution" src="/wp-content/uploads/2024/07/logo-cdfi.png" style="height: 70px;" /></a> <a href="https://portal.hud.gov/hudportal/HUD" target="_blank" rel="noopener"><img decoding="async" alt="Equal Housing Lender" src="/wp-content/uploads/2024/07/logo-ehl.png" style="height: 70px; margin-left: 20px; margin-right: 20px;" /></a> <img decoding="async" alt="Top Work Places 2019-2024" src="/wp-content/uploads/2024/09/logo_topworkplaces_2019-2024@2x.png" style="height: 70px;" /></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div><div class="et_pb_section et_pb_section_1_tb_footer et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_2_tb_footer et_pb_equal_columns">
+				<div class="et_pb_column et_pb_column_3_4 et_pb_column_6_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_2_tb_footer  et_pb_text_align_left et_pb_text_align_center-tablet et_pb_bg_layout_dark">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><p><small>© 2026 Buckeye State Credit Union | <a href="/wp-content/uploads/2026/04/Privacy-Policy-part-of-BUCKT44-dtd-12.2025-eff-04.2026.pdf">Privacy Policy</a> | <a href="/policies-and-disclosures/">Policies &amp; Disclosures</a> | <a href="/accessibility-statement/">Accessibility Statement</a></small></p></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_4 et_pb_column_7_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_3_tb_footer  et_pb_text_align_right et_pb_text_align_center-tablet et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><a href="https://www.bbb.org/us/oh/akron/profile/credit-union/buckeye-state-credit-union-0272-3304/#sealclick" target="_blank" rel="nofollow noopener" title="Better Business Bureau Rating"><img decoding="async" style="border: 0;" src="https://seal-akron.bbb.org/seals/black-seal-200-42-whitetxt-bbb-3304.png" alt="BBB Accredited Business. Click to verify." /></a></div>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</footer>
+		</div>
+
+			
+		</div>
+		</div>
+
+			<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi-child/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+        <style>
+            .searchwp-live-search-results {
+                opacity: 0;
+                transition: opacity .25s ease-in-out;
+                -moz-transition: opacity .25s ease-in-out;
+                -webkit-transition: opacity .25s ease-in-out;
+                height: 0;
+                overflow: hidden;
+                z-index: 9999995; /* Exceed SearchWP Modal Search Form overlay. */
+                position: absolute;
+                display: none;
+            }
+
+            .searchwp-live-search-results-showing {
+                display: block;
+                opacity: 1;
+                height: auto;
+                overflow: auto;
+            }
+
+            .searchwp-live-search-no-results {
+                padding: 3em 2em 0;
+                text-align: center;
+            }
+
+            .searchwp-live-search-no-min-chars:after {
+                content: "Continue typing";
+                display: block;
+                text-align: center;
+                padding: 2em 2em 0;
+            }
+        </style>
+                <script>
+            var _SEARCHWP_LIVE_AJAX_SEARCH_BLOCKS = true;
+            var _SEARCHWP_LIVE_AJAX_SEARCH_ENGINE = 'default';
+            var _SEARCHWP_LIVE_AJAX_SEARCH_CONFIG = 'default';
+        </script>
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCQLNXD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Slick Slider Initiation -->
+<script type="text/javascript">
+    jQuery( document ).ready(function() {
+        jQuery('.employee-benefits-slide-column-initiate').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            arrows: true,
+			appendArrows:'#employee-benefits-slide-append-arrows',
+			nextArrow: '<i class="fa-regular fa-chevron-right fa-xl" title="Next"></i>',
+            prevArrow: '<i class="fa-regular fa-chevron-left fa-xl" title="Previous"></i>',			
+			centerMode:false,
+            dots: false,
+            pauseOnHover: true,
+            responsive: [ 
+                {
+                    breakpoint: 1079,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    });
+</script>
+<script>
+    /* Close the mobile menu as soon as a menu item is clicked */
+    jQuery("ul.max-mega-menu").on("after_mega_menu_init", function() {
+        var menu = jQuery(this);
+        jQuery("li.mega-menu-item:not(.mega-menu-item-has-children) > a.mega-menu-link").on('click', function(e) {
+            menu.data('maxmegamenu').hideMobileMenu();
+        });
+    });
+
+</script>
+
+
+
+
+
+
+
+<script id="buckeye-theme-js-js" src="https://www.buckeyecu.org/wp-content/themes/Divi-child/assets/js/theme.js?ver=1.0.1"></script>
+<script id="divi-custom-script-js-extra">
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://www.buckeyecu.org/wp-admin/admin-ajax.php","images_uri":"https://www.buckeyecu.org/wp-content/themes/Divi/images","builder_images_uri":"https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"a58e766a1e","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"14cd9de663","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"1598","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors","accent_color":"#96080b","waypoints_options":{"context":[".pum-overlay"]}};
+var et_pb_box_shadow_elements = [];
+//# sourceURL=divi-custom-script-js-extra
+</script>
+<script id="divi-custom-script-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.7"></script>
+<script id="smoothscroll-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/js/smoothscroll.js?ver=4.27.7"></script>
+<script id="fitvids-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.7"></script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://www.buckeyecu.org/wp-includes/js/comment-reply.min.js?ver=7.0.5"></script>
+<script id="jquery-mobile-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?ver=4.27.7"></script>
+<script id="magnific-popup-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js?ver=4.27.7"></script>
+<script id="easypiechart-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/easypiechart.js?ver=4.27.7"></script>
+<script id="salvattore-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/salvattore.js?ver=4.27.7"></script>
+<script id="heateor_sss_sharing_js-js-before">
+function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'https://www.buckeyecu.org/wp-admin/admin-ajax.php', heateorSssCloseIconPath = 'https://www.buckeyecu.org/wp-content/plugins/sassy-social-share/public/../images/close.png', heateorSssPluginIconPath = 'https://www.buckeyecu.org/wp-content/plugins/sassy-social-share/public/../images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 0;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")}
+//# sourceURL=heateor_sss_sharing_js-js-before
+</script>
+<script id="heateor_sss_sharing_js-js" src="https://www.buckeyecu.org/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js?ver=3.3.79"></script>
+<script id="swp-live-search-client-js-extra">
+var searchwp_live_search_params = [];
+searchwp_live_search_params = {"ajaxurl":"https:\/\/www.buckeyecu.org\/wp-admin\/admin-ajax.php","origin_id":1598,"config":{"default":{"engine":"default","input":{"delay":300,"min_chars":3},"results":{"position":"bottom","width":"auto","offset":{"x":0,"y":5}},"spinner":{"lines":12,"length":8,"width":3,"radius":8,"scale":1,"corners":1,"color":"#424242","fadeColor":"transparent","speed":1,"rotate":0,"animation":"searchwp-spinner-line-fade-quick","direction":1,"zIndex":2000000000,"className":"spinner","top":"50%","left":"50%","shadow":"0 0 1px transparent","position":"absolute"}}},"msg_no_config_found":"No valid SearchWP Live Search configuration found!","aria_instructions":"When autocomplete results are available use up and down arrows to review and enter to go to the desired page. Touch device users, explore by touch or with swipe gestures."};;
+//# sourceURL=swp-live-search-client-js-extra
+</script>
+<script id="swp-live-search-client-js" src="https://www.buckeyecu.org/wp-content/plugins/searchwp-live-ajax-search/assets/javascript/dist/script.min.js?ver=1.8.8"></script>
+<script id="et-core-common-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.7"></script>
+<script id="megamenu-pro-js" src="https://www.buckeyecu.org/wp-content/plugins/megamenu-pro/assets/public.js?ver=2.5"></script>
+<script id="et-builder-modules-script-motion-js-extra">
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+//# sourceURL=et-builder-modules-script-motion-js-extra
+</script>
+<script id="et-builder-modules-script-motion-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/motion-effects.js?ver=4.27.7"></script>
+<script id="et-builder-modules-script-sticky-js-extra">
+var et_pb_sticky_elements = [];
+//# sourceURL=et-builder-modules-script-sticky-js-extra
+</script>
+<script id="et-builder-modules-script-sticky-js" src="https://www.buckeyecu.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js?ver=4.27.7"></script>
+<style id="et-builder-module-design-tb-365-tb-260-deferred-1598-cached-inline-styles">.et_pb_row_0{min-height:1115.2px}.et_pb_row_0.et_pb_row{padding-top:22px!important;padding-top:22px}</style><style id="et-builder-module-design-tb-365-tb-260-1598-cached-inline-styles">div.et_pb_section.et_pb_section_0_tb_body{background-position:center top 10%;background-image:linear-gradient(180deg,rgba(0,84,158,0.2) 0%,rgba(0,84,158,0.2) 100%),url(https://www.buckeyecu.org/wp-content/uploads/2025/01/AdobeStock_1079126811-scaled.jpeg)!important}.et_pb_section_0_tb_body{min-height:500px}.et_pb_row_0_tb_body.et_pb_row{margin-top:-15vh!important;margin-right:auto!important;margin-bottom:-95px!important;margin-left:auto!important}.et_pb_text_0_tb_body{padding-left:20px!important}.et_pb_text_1_tb_body.et_pb_text,.et_pb_blurb_1_tb_body.et_pb_blurb .et_pb_module_header,.et_pb_blurb_1_tb_body.et_pb_blurb .et_pb_module_header a{color:#111645!important}.et_pb_text_1_tb_body{text-transform:uppercase;letter-spacing:0.8px;margin-bottom:0px!important}.et_pb_text_2_tb_body{margin-bottom:20px!important}.et_pb_row_1_tb_body.et_pb_row{padding-top:0px!important;margin-top:0px!important;padding-top:0px}.et_pb_post_content_0_tb_body{text-align:left;max-width:700px}.et_pb_blurb_0_tb_body.et_pb_blurb{background-color:#111645;border-radius:1rem 1rem 1rem 1rem;overflow:hidden;padding-top:3em!important;padding-right:2em!important;padding-bottom:3em!important;padding-left:2em!important}.et_pb_blurb_0_tb_body .et_pb_blurb_content,.et_pb_blurb_1_tb_body .et_pb_blurb_content{max-width:100%}.et_pb_blurb_1_tb_body.et_pb_blurb{background-color:#F1FBFF;border-radius:1rem 1rem 1rem 1rem;overflow:hidden;padding-top:3em!important;padding-right:2em!important;padding-bottom:3em!important;padding-left:2em!important}.et_pb_column_2_tb_body{padding-top:0px}.et_pb_post_content_0_tb_body.et_pb_module{margin-left:0px!important;margin-right:auto!important}@media only screen and (max-width:980px){.et_pb_section_0_tb_body{min-height:400px}}@media only screen and (max-width:767px){.et_pb_section_0_tb_body{min-height:400px}}.et_pb_image_0_tb_footer{text-align:left;margin-left:0}.et_pb_image_0_tb_footer .et_pb_image_wrap{display:block}body #page-container .et_pb_section .et_pb_button_0_tb_footer,body .pum-container .et_pb_section .et_pb_button_0_tb_footer{padding-right:2em;padding-left:0.7em;background-color:#96080B}body #page-container .et_pb_section .et_pb_button_0_tb_footer:hover:after,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:hover:after{margin-left:.3em;left:auto;margin-left:.3em}body #page-container .et_pb_section .et_pb_button_0_tb_footer:after,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:after{line-height:inherit;font-size:inherit!important;opacity:1;margin-left:.3em;left:auto;font-family:FontAwesome!important;font-weight:900!important}body #page-container .et_pb_section .et_pb_button_0_tb_footer:hover,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:hover{background-image:initial;background-color:#630000}.et_pb_button_0_tb_footer{transition:background-color 300ms ease 0ms}.et_pb_button_0_tb_footer,.et_pb_button_0_tb_footer:after,.et_pb_button_1_tb_footer,.et_pb_button_1_tb_footer:after{transition:all 300ms ease 0ms}.et_pb_social_media_follow .et_pb_social_media_follow_network_0_tb_footer.et_pb_social_icon .icon:before,.et_pb_social_media_follow_0_tb_footer li.et_pb_social_icon a.icon:before{color:#FFFFFF}.et_pb_social_media_follow .et_pb_social_media_follow_network_0_tb_footer .icon:before,.et_pb_social_media_follow .et_pb_social_media_follow_network_1_tb_footer .icon:before,.et_pb_social_media_follow .et_pb_social_media_follow_network_2_tb_footer .icon:before{font-size:20px;line-height:40px;height:40px;width:40px}.et_pb_social_media_follow .et_pb_social_media_follow_network_0_tb_footer .icon,.et_pb_social_media_follow .et_pb_social_media_follow_network_1_tb_footer .icon,.et_pb_social_media_follow .et_pb_social_media_follow_network_2_tb_footer .icon{height:40px;width:40px}body #page-container .et_pb_section ul.et_pb_social_media_follow_0_tb_footer .follow_button,body .pum-container .et_pb_section ul.et_pb_social_media_follow_0_tb_footer .follow_button{color:#FFFFFF!important}body #page-container .et_pb_section ul.et_pb_social_media_follow_0_tb_footer .follow_button:before,body #page-container .et_pb_section ul.et_pb_social_media_follow_0_tb_footer .follow_button:after,body .pum-container .et_pb_section ul.et_pb_social_media_follow_0_tb_footer .follow_button:before,body .pum-container .et_pb_section ul.et_pb_social_media_follow_0_tb_footer .follow_button:after{display:none!important}.et_pb_row_1_tb_footer{border-top-width:1px;border-top-color:#18232D}.et_pb_text_0_tb_footer{font-size:12px}.et_pb_section_1_tb_footer.et_pb_section{padding-top:0px;padding-bottom:0px;background-color:#00549E!important}.et_pb_row_2_tb_footer.et_pb_row{padding-top:15px!important;padding-bottom:15px!important;padding-top:15px;padding-bottom:15px}.et_pb_text_2_tb_footer{font-size:11px}.et_pb_text_2_tb_footer.et_pb_text a{color:#FFFFFF!important;transition:color 300ms ease 0ms}.et_pb_text_2_tb_footer.et_pb_text a:hover{color:#D4EFFC!important}.et_pb_text_3_tb_footer.et_pb_text{color:#FFFFFF!important}.et_pb_social_media_follow_network_0_tb_footer a.icon,.et_pb_social_media_follow_network_1_tb_footer a.icon,.et_pb_social_media_follow_network_2_tb_footer a.icon{background-color:#111645!important;transition:background-color 300ms ease 0ms,background-image 300ms ease 0ms}.et_pb_social_media_follow_network_0_tb_footer a.icon:hover,.et_pb_social_media_follow_network_1_tb_footer a.icon:hover,.et_pb_social_media_follow_network_2_tb_footer a.icon:hover{background-image:initial!important;background-color:#00549E!important}.et_pb_social_media_follow_network_0_tb_footer.et_pb_social_icon a.icon,.et_pb_social_media_follow_network_1_tb_footer.et_pb_social_icon a.icon,.et_pb_social_media_follow_network_2_tb_footer.et_pb_social_icon a.icon{border-radius:6px 6px 6px 6px}@media only screen and (max-width:980px){.et_pb_image_0_tb_footer .et_pb_image_wrap img{width:auto}body #page-container .et_pb_section .et_pb_button_0_tb_footer:after,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:after{line-height:inherit;font-size:inherit!important;margin-left:.3em;left:auto;display:inline-block;opacity:1;content:attr(data-icon);font-family:FontAwesome!important;font-weight:900!important}body #page-container .et_pb_section .et_pb_button_0_tb_footer:before,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:before{display:none}body #page-container .et_pb_section .et_pb_button_0_tb_footer:hover:after,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:hover:after{margin-left:.3em;left:auto;margin-left:.3em}.et_pb_row_1_tb_footer{border-top-width:1px;border-top-color:#18232D}}@media only screen and (max-width:767px){.et_pb_image_0_tb_footer .et_pb_image_wrap img{width:auto}body #page-container .et_pb_section .et_pb_button_0_tb_footer:after,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:after{line-height:inherit;font-size:inherit!important;margin-left:.3em;left:auto;display:inline-block;opacity:1;content:attr(data-icon);font-family:FontAwesome!important;font-weight:900!important}body #page-container .et_pb_section .et_pb_button_0_tb_footer:before,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:before{display:none}body #page-container .et_pb_section .et_pb_button_0_tb_footer:hover:after,body .pum-container .et_pb_section .et_pb_button_0_tb_footer:hover:after{margin-left:.3em;left:auto;margin-left:.3em}.et_pb_row_1_tb_footer{border-top-width:1px;border-top-color:#18232D}}.et_pb_row_2_tb_footer{align-items:center}.et_pb_row_2_tb_footer{align-items:center}</style>	
+			<span class="et_pb_scroll_top et-pb-icon"></span>
+	</body>
+</html>

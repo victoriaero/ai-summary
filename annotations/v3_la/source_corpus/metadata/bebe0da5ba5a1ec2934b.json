@@ -1,0 +1,28 @@
+{
+  "source_id": "bebe0da5ba5a1ec2934b",
+  "normalized_url": "https://latino.ucla.edu/press/ucla-lppi-study-sheds-light-on-rising-homelessness-crisis-among-latinos-in-los-angeles-county",
+  "fetch_timestamp_utc": "2026-10-04T03:45:02.947603+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://latino.ucla.edu/press/ucla-lppi-study-sheds-light-on-rising-homelessness-crisis-among-latinos-in-los-angeles-county/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 151722,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/bebe0da5ba5a1ec2934b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/bebe0da5ba5a1ec2934b.txt",
+  "text_chars": 6049,
+  "text_words": 858,
+  "extraction_status": "success",
+  "page_title": "UCLA LPPI Study Sheds Light on Rising Homelessness Crisis Among Latinos in Los Angeles County",
+  "page_author": null,
+  "page_date": "2023-12-13",
+  "site_name": "Latino Policy & Politics Institute",
+  "canonical_url": "https://latino.ucla.edu/press/ucla-lppi-study-sheds-light-on-rising-homelessness-crisis-among-latinos-in-los-angeles-county/"
+}

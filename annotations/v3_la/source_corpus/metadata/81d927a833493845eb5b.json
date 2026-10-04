@@ -1,0 +1,20 @@
+{
+  "source_id": "81d927a833493845eb5b",
+  "normalized_url": "https://cdc.gov/youth-violence/about/about-bullying.html",
+  "fetch_timestamp_utc": "2026-10-04T03:40:27.591388+00:00",
+  "registrable_domain": "cdc.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://cdc.gov/youth-violence/about/about-bullying.html",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 417,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

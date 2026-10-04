@@ -1,0 +1,28 @@
+{
+  "source_id": "a9d286ddba82123557a0",
+  "normalized_url": "https://digitalforwomen.worldbank.org/access-finance",
+  "fetch_timestamp_utc": "2026-10-04T03:43:44.800579+00:00",
+  "registrable_domain": "worldbank.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://digitalforwomen.worldbank.org/access-finance",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 75420,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a9d286ddba82123557a0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a9d286ddba82123557a0.txt",
+  "text_chars": 1988,
+  "text_words": 310,
+  "extraction_status": "success",
+  "page_title": "Access to Finance",
+  "page_author": null,
+  "page_date": "2021-01-01",
+  "site_name": "digitalforwomen.worldbank.org",
+  "canonical_url": "https://digitalforwomen.worldbank.org/access-finance"
+}

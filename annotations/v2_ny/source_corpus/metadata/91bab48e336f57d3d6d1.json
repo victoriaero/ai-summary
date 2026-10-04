@@ -1,0 +1,20 @@
+{
+  "source_id": "91bab48e336f57d3d6d1",
+  "normalized_url": "https://fryer.scholars.harvard.edu/publications/empirical-analysis-racial-differences-police-use-force",
+  "fetch_timestamp_utc": "2026-10-04T02:44:12.341254+00:00",
+  "registrable_domain": "harvard.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://fryer.scholars.harvard.edu/publications/empirical-analysis-racial-differences-police-use-force",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 477,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

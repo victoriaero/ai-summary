@@ -1,0 +1,28 @@
+{
+  "source_id": "cda4d5fd39f133b6d56e",
+  "normalized_url": "https://kff.org/womens-health-policy/update-on-medicaid-coverage-of-gender-affirming-health-services",
+  "fetch_timestamp_utc": "2026-10-04T02:48:57.088193+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/womens-health-policy/update-on-medicaid-coverage-of-gender-affirming-health-services/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 165895,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cda4d5fd39f133b6d56e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cda4d5fd39f133b6d56e.txt",
+  "text_chars": 15674,
+  "text_words": 2278,
+  "extraction_status": "success",
+  "page_title": "A Look at Medicaid Coverage of Gender-Affirming Health Services in 2021 | KFF",
+  "page_author": "Ivette Gomez; Usha Ranji; Alina Salganicoff; Lindsey Dawson; Carrie Rosenzweig; Rebecca Kellenberg; Kathy Gifford",
+  "page_date": "2022-10-11",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/womens-health-policy/update-on-medicaid-coverage-of-gender-affirming-health-services/"
+}

@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8" />
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <![endif]-->
+
+	<link rel="stylesheet" href="https://nationalhomeless.org/wp-content/themes/elevationweb/style.css" type="text/css" media="screen">
+	<link rel="alternate" type="application/rss+xml" title="National Coalition for the Homeless RSS Feed" href="https://nationalhomeless.org/feed/">
+	<link rel="pingback" href="https://nationalhomeless.org/xmlrpc.php">
+
+	<title>Homelessness in the US - National Coalition for the Homeless</title>
+
+		<!-- All in One SEO Pro 4.9.7.2 - aioseo.com -->
+	<meta name="robots" content="max-image-preview:large" />
+	<link rel="canonical" href="https://nationalhomeless.org/homelessness-in-the-us/" />
+	<meta name="generator" content="All in One SEO Pro (AIOSEO) 4.9.7.2" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="National Coalition for the Homeless - Building a movement to End Homelessness" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Homelessness in the US - National Coalition for the Homeless" />
+		<meta property="og:url" content="https://nationalhomeless.org/homelessness-in-the-us/" />
+		<meta property="article:published_time" content="2022-12-26T15:52:09+00:00" />
+		<meta property="article:modified_time" content="2023-10-25T15:27:15+00:00" />
+		<meta property="article:publisher" content="https://www.facebook.com/NationalCoalitionfortheHomeless/" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@NationalHomeles" />
+		<meta name="twitter:title" content="Homelessness in the US - National Coalition for the Homeless" />
+		<meta name="twitter:creator" content="@NationalHomeles" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/nationalhomeless.org#listItem","position":1,"name":"Home","item":"https:\/\/nationalhomeless.org","nextItem":{"@type":"ListItem","@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#listItem","name":"Homelessness in the US"}},{"@type":"ListItem","@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#listItem","position":2,"name":"Homelessness in the US","previousItem":{"@type":"ListItem","@id":"https:\/\/nationalhomeless.org#listItem","name":"Home"}}]},{"@type":"Organization","@id":"https:\/\/nationalhomeless.org\/#organization","name":"National Coalition for the Homeless","description":"Building a movement to End Homelessness","url":"https:\/\/nationalhomeless.org\/","telephone":"+12024624822","logo":{"@type":"ImageObject","url":"https:\/\/nationalhomeless.org\/wp-content\/uploads\/Logo.svg","@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#organizationLogo","width":73,"height":53},"image":{"@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#organizationLogo"},"sameAs":["https:\/\/www.facebook.com\/NationalCoalitionfortheHomeless\/","https:\/\/twitter.com\/NationalHomeles","https:\/\/www.instagram.com\/nationalhomeless\/","https:\/\/www.youtube.com\/user\/nationalhomelesscoal","https:\/\/www.linkedin.com\/company\/rocky-mountain-childrens-health-foundation\/","https:\/\/www.tiktok.com\/@nationalhomeless"]},{"@type":"WebPage","@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#webpage","url":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/","name":"Homelessness in the US - National Coalition for the Homeless","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/nationalhomeless.org\/#website"},"breadcrumb":{"@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#breadcrumblist"},"image":{"@type":"ImageObject","url":"https:\/\/i0.wp.com\/nationalhomeless.org\/wp-content\/uploads\/pexels-justin-luck-9784823-scaled.jpg?fit=2560%2C1707&ssl=1","@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#mainImage","width":2560,"height":1707},"primaryImageOfPage":{"@id":"https:\/\/nationalhomeless.org\/homelessness-in-the-us\/#mainImage"},"datePublished":"2022-12-26T15:52:09+00:00","dateModified":"2023-10-25T15:27:15+00:00"},{"@type":"WebSite","@id":"https:\/\/nationalhomeless.org\/#website","url":"https:\/\/nationalhomeless.org\/","name":"National Coalition for the Homeless","alternateName":"NCH","description":"Building a movement to End Homelessness","inLanguage":"en-US","publisher":{"@id":"https:\/\/nationalhomeless.org\/#organization"}}]}
+		</script>
+		<!-- All in One SEO Pro -->
+
+<script>window._wca = window._wca || [];</script>
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='preconnect' href='//i0.wp.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://nationalhomeless.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnationalhomeless.org%2Fhomelessness-in-the-us%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://nationalhomeless.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnationalhomeless.org%2Fhomelessness-in-the-us%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='algori_image_video_slider-cgb-slick-css-css' href='https://nationalhomeless.org/wp-content/plugins/algori-image-video-slider/dist/slick/slick.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='algori_image_video_slider-cgb-slick-theme-css-css' href='https://nationalhomeless.org/wp-content/plugins/algori-image-video-slider/dist/slick/slick-theme.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='twb-open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800&#038;display=swap&#038;ver=7.1.2' media='all' />
+<link rel='stylesheet' id='twbbwg-global-css' href='https://nationalhomeless.org/wp-content/plugins/photo-gallery/booster/assets/css/global.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='pmb_common-css' href='https://nationalhomeless.org/wp-content/plugins/print-my-blog/assets/styles/pmb-common.css?ver=1779904859' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<link rel='stylesheet' id='post-slider-block-style-css-css' href='https://nationalhomeless.org/wp-content/plugins/gosign-posts-slider-block/dist/blocks.style.build.css?ver=7.1.2' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='awsm-team-css-css' href='https://nationalhomeless.org/wp-content/plugins/awsm-team-pro/css/team.min.css?ver=1.11.1' media='all' />
+<link rel='stylesheet' id='inf-font-awesome-css' href='https://nationalhomeless.org/wp-content/plugins/blog-designer-pack/assets/css/font-awesome.min.css?ver=4.0.11' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='https://nationalhomeless.org/wp-content/plugins/blog-designer-pack/assets/css/owl.carousel.min.css?ver=4.0.11' media='all' />
+<link rel='stylesheet' id='bdpp-public-style-css' href='https://nationalhomeless.org/wp-content/plugins/blog-designer-pack/assets/css/bdpp-public.min.css?ver=4.0.11' media='all' />
+<link rel='stylesheet' id='bwg_fonts-css' href='https://nationalhomeless.org/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts.css?ver=0.0.1' media='all' />
+<link rel='stylesheet' id='sumoselect-css' href='https://nationalhomeless.org/wp-content/plugins/photo-gallery/css/sumoselect.min.css?ver=3.4.6' media='all' />
+<link rel='stylesheet' id='mCustomScrollbar-css' href='https://nationalhomeless.org/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min.css?ver=3.1.5' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts-css' href='https://fonts.googleapis.com/css?family=Ubuntu&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css' href='https://nationalhomeless.org/wp-content/plugins/photo-gallery/css/styles.min.css?ver=1.8.44' media='all' />
+<style id="wpxpo-global-style-inline-css">
+:root { --preset-color1: #037fff --preset-color2: #026fe0 --preset-color3: #071323 --preset-color4: #132133 --preset-color5: #34495e --preset-color6: #787676 --preset-color7: #f0f2f3 --preset-color8: #f8f9fa --preset-color9: #ffffff }
+/*# sourceURL=wpxpo-global-style-inline-css */
+</style>
+<style id="ultp-preset-colors-style-inline-css">
+:root { --postx_preset_Base_1_color: #f4f4ff; --postx_preset_Base_2_color: #dddff8; --postx_preset_Base_3_color: #B4B4D6; --postx_preset_Primary_color: #3323f0; --postx_preset_Secondary_color: #4a5fff; --postx_preset_Tertiary_color: #FFFFFF; --postx_preset_Contrast_3_color: #545472; --postx_preset_Contrast_2_color: #262657; --postx_preset_Contrast_1_color: #10102e; --postx_preset_Over_Primary_color: #ffffff;  }
+/*# sourceURL=ultp-preset-colors-style-inline-css */
+</style>
+<style id="ultp-preset-gradient-style-inline-css">
+:root { --postx_preset_Primary_to_Secondary_to_Right_gradient: linear-gradient(90deg, var(--postx_preset_Primary_color) 0%, var(--postx_preset_Secondary_color) 100%); --postx_preset_Primary_to_Secondary_to_Bottom_gradient: linear-gradient(180deg, var(--postx_preset_Primary_color) 0%, var(--postx_preset_Secondary_color) 100%); --postx_preset_Secondary_to_Primary_to_Right_gradient: linear-gradient(90deg, var(--postx_preset_Secondary_color) 0%, var(--postx_preset_Primary_color) 100%); --postx_preset_Secondary_to_Primary_to_Bottom_gradient: linear-gradient(180deg, var(--postx_preset_Secondary_color) 0%, var(--postx_preset_Primary_color) 100%); --postx_preset_Cold_Evening_gradient: linear-gradient(0deg, rgb(12, 52, 131) 0%, rgb(162, 182, 223) 100%, rgb(107, 140, 206) 100%, rgb(162, 182, 223) 100%); --postx_preset_Purple_Division_gradient: linear-gradient(0deg, rgb(112, 40, 228) 0%, rgb(229, 178, 202) 100%); --postx_preset_Over_Sun_gradient: linear-gradient(60deg, rgb(171, 236, 214) 0%, rgb(251, 237, 150) 100%); --postx_preset_Morning_Salad_gradient: linear-gradient(-255deg, rgb(183, 248, 219) 0%, rgb(80, 167, 194) 100%); --postx_preset_Fabled_Sunset_gradient: linear-gradient(-270deg, rgb(35, 21, 87) 0%, rgb(68, 16, 122) 29%, rgb(255, 19, 97) 67%, rgb(255, 248, 0) 100%);  }
+/*# sourceURL=ultp-preset-gradient-style-inline-css */
+</style>
+<style id="ultp-preset-typo-style-inline-css">
+:root { --postx_preset_Heading_typo_font_family: Helvetica; --postx_preset_Heading_typo_font_family_type: sans-serif; --postx_preset_Heading_typo_font_weight: 600; --postx_preset_Heading_typo_text_transform: capitalize; --postx_preset_Body_and_Others_typo_font_family: Helvetica; --postx_preset_Body_and_Others_typo_font_family_type: sans-serif; --postx_preset_Body_and_Others_typo_font_weight: 400; --postx_preset_Body_and_Others_typo_text_transform: lowercase; --postx_preset_body_typo_font_size_lg: 16px; --postx_preset_paragraph_1_typo_font_size_lg: 12px; --postx_preset_paragraph_2_typo_font_size_lg: 12px; --postx_preset_paragraph_3_typo_font_size_lg: 12px; --postx_preset_heading_h1_typo_font_size_lg: 42px; --postx_preset_heading_h2_typo_font_size_lg: 36px; --postx_preset_heading_h3_typo_font_size_lg: 30px; --postx_preset_heading_h4_typo_font_size_lg: 24px; --postx_preset_heading_h5_typo_font_size_lg: 20px; --postx_preset_heading_h6_typo_font_size_lg: 16px; }
+/*# sourceURL=ultp-preset-typo-style-inline-css */
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=11.0.1' media='all' />
+<style id="woocommerce-layout-inline-css">
+
+	.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}
+/*# sourceURL=woocommerce-layout-inline-css */
+</style>
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=11.0.1' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=11.0.1' media='all' />
+<style id="woocommerce-inline-inline-css">
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<style id="ablocks-editor-global-styles-inline-css">
+:root, body .editor-styles-wrapper {
+    --ablocks-container-padding: 10px;
+    --ablocks-primary: #6EC1E4;
+    --ablocks-secondary: #54595F;
+    --ablocks-text: #7A7A7A;
+    --ablocks-accent: #61CE70;
+}
+ 
+/*# sourceURL=ablocks-editor-global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='elevationThemeBootstrapCss-css' href='https://nationalhomeless.org/wp-content/themes/elevationweb/assets/css/bootstrap.min.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='elevationThemeMainStyleCss-css' href='https://nationalhomeless.org/wp-content/themes/elevationweb/assets/css/style.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='elevationThemeFontawesomeCss-css' href='https://nationalhomeless.org/wp-content/themes/elevationweb/assets/fontawesome/css/all.min.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='elevationThemeSwiperCss-css' href='https://unpkg.com/swiper/swiper-bundle.min.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='elevationThemeAOSCss-css' href='https://nationalhomeless.org/wp-content/themes/elevationweb/assets/aos-animation/aos.css?ver=7.1.2' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://nationalhomeless.org/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' media='all' />
+<script id="jquery-core-js" src="https://nationalhomeless.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://nationalhomeless.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="algori_image_video_slider-cgb-slick-js-js" src="https://nationalhomeless.org/wp-content/plugins/algori-image-video-slider/dist/slick/slick.js?ver=7.1.2"></script>
+<script id="algori_image_video_slider-cgb-slick-js-js-after">
+jQuery( document ).ready(function($) { $(".wp-block-algori-image-video-slider-block-algori-image-video-slider").slick({ }); });
+//# sourceURL=algori_image_video_slider-cgb-slick-js-js-after
+</script>
+<script id="twbbwg-circle-js" src="https://nationalhomeless.org/wp-content/plugins/photo-gallery/booster/assets/js/circle-progress.js?ver=1.2.2"></script>
+<script id="twbbwg-global-js-extra">
+var twb = {"nonce":"02601a3f00","ajax_url":"https://nationalhomeless.org/wp-admin/admin-ajax.php","plugin_url":"https://nationalhomeless.org/wp-content/plugins/photo-gallery/booster","href":"https://nationalhomeless.org/wp-admin/admin.php?page=twbbwg_photo-gallery"};
+var twb = {"nonce":"02601a3f00","ajax_url":"https://nationalhomeless.org/wp-admin/admin-ajax.php","plugin_url":"https://nationalhomeless.org/wp-content/plugins/photo-gallery/booster","href":"https://nationalhomeless.org/wp-admin/admin.php?page=twbbwg_photo-gallery"};
+//# sourceURL=twbbwg-global-js-extra
+</script>
+<script id="twbbwg-global-js" src="https://nationalhomeless.org/wp-content/plugins/photo-gallery/booster/assets/js/global.js?ver=1.0.0"></script>
+<script id="react-js" src="https://nationalhomeless.org/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"></script>
+<script id="react-jsx-runtime-js" src="https://nationalhomeless.org/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1"></script>
+<script id="wp-autop-js" src="https://nationalhomeless.org/wp-includes/js/dist/autop.min.js?ver=4e10a18cb6f21a043fc0"></script>
+<script id="wp-blob-js" src="https://nationalhomeless.org/wp-includes/js/dist/blob.min.js?ver=c7582a735ddd2edc9731"></script>
+<script id="wp-block-serialization-default-parser-js" src="https://nationalhomeless.org/wp-includes/js/dist/block-serialization-default-parser.min.js?ver=4c6f3dd40077f7c17604"></script>
+<script id="wp-hooks-js" src="https://nationalhomeless.org/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-deprecated-js" src="https://nationalhomeless.org/wp-includes/js/dist/deprecated.min.js?ver=fe587bac92b7d0ef760e"></script>
+<script id="wp-dom-js" src="https://nationalhomeless.org/wp-includes/js/dist/dom.min.js?ver=c95f94cbbc1ac3fde84f"></script>
+<script id="react-dom-js" src="https://nationalhomeless.org/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"></script>
+<script id="wp-escape-html-js" src="https://nationalhomeless.org/wp-includes/js/dist/escape-html.min.js?ver=87ebe53e97bba59805a5"></script>
+<script id="wp-element-js" src="https://nationalhomeless.org/wp-includes/js/dist/element.min.js?ver=4a4370b2b349066fd440"></script>
+<script id="wp-is-shallow-equal-js" src="https://nationalhomeless.org/wp-includes/js/dist/is-shallow-equal.min.js?ver=7ad271045c1fe60f5496"></script>
+<script id="wp-i18n-js" src="https://nationalhomeless.org/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-keycodes-js" src="https://nationalhomeless.org/wp-includes/js/dist/keycodes.min.js?ver=d0b4204e4bbeb412df6e"></script>
+<script id="wp-priority-queue-js" src="https://nationalhomeless.org/wp-includes/js/dist/priority-queue.min.js?ver=6c0aa59b65d55dfd509b"></script>
+<script id="wp-private-apis-js" src="https://nationalhomeless.org/wp-includes/js/dist/private-apis.min.js?ver=eb85f28c4c729bb4f002"></script>
+<script id="wp-undo-manager-js" src="https://nationalhomeless.org/wp-includes/js/dist/undo-manager.min.js?ver=4554fce6276d8910a4ae"></script>
+<script id="wp-compose-js" src="https://nationalhomeless.org/wp-includes/js/dist/compose.min.js?ver=0e8bde2a499ea6073b42"></script>
+<script id="wp-redux-routine-js" src="https://nationalhomeless.org/wp-includes/js/dist/redux-routine.min.js?ver=acca2b4857d83ad1790e"></script>
+<script id="wp-data-js" src="https://nationalhomeless.org/wp-includes/js/dist/data.min.js?ver=14a216e0932d72c22976"></script>
+<script id="wp-data-js-after">
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+//# sourceURL=wp-data-js-after
+</script>
+<script id="wp-html-entities-js" src="https://nationalhomeless.org/wp-includes/js/dist/html-entities.min.js?ver=a976ff3a0f00bc2999a3"></script>
+<script id="wp-dom-ready-js" src="https://nationalhomeless.org/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script>
+<script id="wp-a11y-js" src="https://nationalhomeless.org/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script>
+<script id="wp-rich-text-js" src="https://nationalhomeless.org/wp-includes/js/dist/rich-text.min.js?ver=3e5852e42cee1c239bae"></script>
+<script id="wp-shortcode-js" src="https://nationalhomeless.org/wp-includes/js/dist/shortcode.min.js?ver=f6273476300cc5fad4cd"></script>
+<script id="wp-warning-js" src="https://nationalhomeless.org/wp-includes/js/dist/warning.min.js?ver=a0978839debc564a6608"></script>
+<script id="wp-blocks-js" src="https://nationalhomeless.org/wp-includes/js/dist/blocks.min.js?ver=c0e57a630a0b6f6c3bb5"></script>
+<script id="post-slider-block-slider-lib-load-js" src="https://nationalhomeless.org/wp-content/plugins/gosign-posts-slider-block/src/js/slick/slick.min.js?ver=1"></script>
+<script id="post-slider-block-slide-custom-load-js" src="https://nationalhomeless.org/wp-content/plugins/gosign-posts-slider-block/src/js/slider.js?ver=1"></script>
+<script id="addtoany-core-js-before">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+
+//# sourceURL=addtoany-core-js-before
+</script>
+<script id="addtoany-core-js" defer src="https://static.addtoany.com/menu/page.js"></script>
+<script id="addtoany-jquery-js" defer src="https://nationalhomeless.org/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1"></script>
+<script id="sumoselect-js" src="https://nationalhomeless.org/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.4.6"></script>
+<script id="bwg_mobile-js" src="https://nationalhomeless.org/wp-content/plugins/photo-gallery/js/tocca.min.js?ver=2.0.9"></script>
+<script id="mCustomScrollbar-js" src="https://nationalhomeless.org/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=3.1.5"></script>
+<script id="jquery-fullscreen-js" src="https://nationalhomeless.org/wp-content/plugins/photo-gallery/js/jquery.fullscreen.min.js?ver=0.6.0"></script>
+<script id="bwg_frontend-js-extra">
+var bwg_objectsL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search.","bwg_select_tag":"Select Tag","bwg_order_by":"Order By","bwg_search":"Search","bwg_show_ecommerce":"Show Ecommerce","bwg_hide_ecommerce":"Hide Ecommerce","bwg_show_comments":"Show Comments","bwg_hide_comments":"Hide Comments","bwg_restore":"Restore","bwg_maximize":"Maximize","bwg_fullscreen":"Fullscreen","bwg_exit_fullscreen":"Exit Fullscreen","bwg_search_tag":"SEARCH...","bwg_tag_no_match":"No tags found","bwg_all_tags_selected":"All tags selected","bwg_tags_selected":"tags selected","play":"Play","pause":"Pause","is_pro":"","bwg_play":"Play","bwg_pause":"Pause","bwg_hide_info":"Hide info","bwg_show_info":"Show info","bwg_hide_rating":"Hide rating","bwg_show_rating":"Show rating","ok":"Ok","cancel":"Cancel","select_all":"Select all","lazy_load":"0","lazy_loader":"https://nationalhomeless.org/wp-content/plugins/photo-gallery/images/ajax_loader.png","front_ajax":"0","bwg_tag_see_all":"see all tags","bwg_tag_see_less":"see less tags"};
+//# sourceURL=bwg_frontend-js-extra
+</script>
+<script id="bwg_frontend-js" src="https://nationalhomeless.org/wp-content/plugins/photo-gallery/js/scripts.min.js?ver=1.8.44"></script>
+<script data-wp-strategy="defer" defer id="wc-jquery-blockui-js" src="https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.11.0.1"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https://nationalhomeless.org/citizen-engagement-educating-city-council-solutions-homelessness/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="wc-add-to-cart-js" src="https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=11.0.1"></script>
+<script data-wp-strategy="defer" defer id="wc-js-cookie-js" src="https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.11.0.1"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
+//# sourceURL=woocommerce-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="woocommerce-js" src="https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=11.0.1"></script>
+<script data-wp-strategy="defer" defer id="woocommerce-analytics-js" src="https://stats.wp.com/s-202640.js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script id="google_gtagjs-js" src="https://www.googletagmanager.com/gtag/js?id=GT-5NG6FTB" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["nationalhomeless.org"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-5NG6FTB");
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://nationalhomeless.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://nationalhomeless.org/wp-json/wp/v2/pages/4477" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://nationalhomeless.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<meta name="generator" content="WooCommerce 11.0.1" />
+<link rel='shortlink' href='https://nationalhomeless.org/?p=4477' />
+
+	<script type="text/javascript">var ajaxurl = 'https://nationalhomeless.org/wp-admin/admin-ajax.php';</script>
+
+<meta name="generator" content="Site Kit by Google 1.186.0" /><meta name="et-api-version" content="v1"><meta name="et-api-origin" content="https://nationalhomeless.org"><link rel="https://theeventscalendar.com/" href="https://nationalhomeless.org/wp-json/tribe/tickets/v1/" /><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://nationalhomeless.org"><link rel="alternate" href="https://nationalhomeless.org/wp-json/tribe/events/v1/" />	<style>img#wpstats{display:none}</style>
+			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	
+<!-- Google AdSense meta tags added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- End Google AdSense meta tags added by Site Kit -->
+<meta name="generator" content="Powered by Slider Revolution 6.7.17 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://nationalhomeless.org/wp-content/uploads/NCfH_Secondary-Logo-color02.svg" sizes="32x32" />
+<link rel="icon" href="https://nationalhomeless.org/wp-content/uploads/NCfH_Secondary-Logo-color02.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://nationalhomeless.org/wp-content/uploads/NCfH_Secondary-Logo-color02.svg" />
+<meta name="msapplication-TileImage" content="https://nationalhomeless.org/wp-content/uploads/NCfH_Secondary-Logo-color02.svg" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+<style id="wp-custom-css">
+/* Prevent theme wrappers from overlapping the expanded GF container */
+#gform_wrapper_24 {
+    overflow: visible !important;
+    position: relative !important;
+    z-index: 999 !important;
+    padding-bottom: 30px !important;
+}
+
+/* Force pointer-events and z-index on the submit button */
+#gform_submit_button_24 {
+    position: relative !important;
+    z-index: 1000 !important;
+    pointer-events: auto !important;
+}
+
+/* ==========================================================================
+   GRAVITY FORMS ORBITAL: FORCE LEFT ALIGNMENT ON CHOICES
+   ========================================================================== */
+
+/* Force the wrapper holding the choices to stack vertically and pin left */
+#gform_wrapper_24 .gfield_checkbox,
+#gform_wrapper_24 .gfield_radio {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+}
+
+/* Strip auto-margins from the legacy theme and snap the items to the left edge */
+#gform_wrapper_24 .gchoice {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+    display: flex !important;
+    align-items: flex-start !important; 
+    justify-content: flex-start !important;
+}
+</style>
+
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-11.0.1' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://nationalhomeless.org/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=3.1.2' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://nationalhomeless.org/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=3.1.2' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://nationalhomeless.org/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=3.1.2' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://nationalhomeless.org/wp-content/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=3.1.2' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css' href='//nationalhomeless.org/wp-content/plugins/revslider/sr6/assets/css/rs6.css?ver=6.7.17' media='all' />
+<style id="rs-plugin-settings-inline-css">
+#rs-demo-id {}
+/*# sourceURL=rs-plugin-settings-inline-css */
+</style>
+
+</head>
+
+<body class="bp-nouveau wp-singular page-template-default page page-id-4477 page-parent wp-theme-elevationweb theme-elevationweb postx-page woocommerce-no-js tribe-no-js page-template-elevation-web tec-no-tickets-on-recurring tec-no-rsvp-on-recurring ablocks-is-classic-theme tribe-theme-elevationweb">
+
+	
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-75F37Z7BJQ"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-75F37Z7BJQ');
+</script>
+	<span id="top"></span>
+	<a href="#content" style="z-index: 99999;top: 5px;position: absolute;padding-left: 20px;left: 5px;" class="sr-only sr-only-focusable btn-1 secondary">Skip to main content</a>
+
+	<div id="e-loader">
+		<div class="e-loader-container">
+			<div class="e-loader">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="e-logo-container">
+				<img srcset="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/images/logo.svg" alt="This is the default image">
+			</div>
+		</div>
+	</div>
+
+	<header class="header fixed-top transparent-header">
+		<div class="after"></div>
+		<section class="search-section">
+			<div class="container">
+				<div class="search">
+					<form method="get" id="searchform" class="searchform" action="\">
+						<div class="form-container">
+							<label class="screen-reader-text" for="s">Search for:</label>
+							<input type="text" value="" name="s" id="s">
+							<input type="submit" id="searchsubmit" value="Search">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="header-navigation">
+			<!-- Menu Navigation -->
+			<div class="container">
+				<nav class="navbar navbar-expand-lg">
+					<div class="before"></div>
+					<div class="navbar-header">
+						<a class="navbar-brand two-logos" href="https://nationalhomeless.org">
+							<picture>
+								<img srcset="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/images/logo.svg" alt="This is the default image">
+								<img srcset="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/images/logo-white.svg" alt="This is the default image">
+							</picture>
+						</a>
+						<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#NavDropdown" aria-controls="NavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+							<span class="sr-only">Menu</span>
+						</button>
+					</div>
+					<div class="col-middle box-b-c-container">
+						<div class="header-top box-b into-navbar">
+							<div class="extra-links-bar">
+																<div class="login-box box">
+																			<a href="https://membership.nationalhomeless.org/login/" target="_blank" class="login">Member Log In</a>
+																	</div>
+								<div class="custom-links box">
+																																<a href="https://nationalhomeless.org/contact-us/" target="_self">Contact Us</a>
+																																											<a href="https://audioboom.com/channels/5048767" target="_blank">Listen To Our Podcast</a>
+																												</div>
+								<div class="networks box">
+																			<ul class="social">
+																							<li>
+													<a href="https://www.facebook.com/NationalCoalitionfortheHomeless" target="_blank">
+																													<i class="fab fab fa-facebook-f"></i>
+																											</a>
+												</li>
+																							<li>
+													<a href="http://www.twitter.com/NationalHomeles" target="_blank">
+																													<i class="fab fab fa-twitter"></i>
+																											</a>
+												</li>
+																							<li>
+													<a href="https://www.instagram.com/nationalhomeless/" target="_blank">
+																													<i class="fab fab fa-instagram"></i>
+																											</a>
+												</li>
+																							<li>
+													<a href="http://www.youtube.com/user/nationalhomelesscoal" target="_blank">
+																													<i class="fab fab fa-youtube"></i>
+																											</a>
+												</li>
+																							<li>
+													<a href="https://www.tiktok.com/@nationalhomeless" target="_blank">
+																													<i class="fab fab fa-tiktok"></i>
+																											</a>
+												</li>
+																					</ul>
+																	</div>
+								<div class="search-box box">
+									<button id="open-search" class="open-search">
+										<div class="icon-search"></div>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="header-bottom box-c d-flex justify-content-end align-items-center">
+							<div class="collapse navbar-collapse" id="NavDropdown">
+								<div class="height-wrap">
+									<ul id="menu-header-menu" class="nav navbar-nav"><li id="menu-item-4764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4764 dropdown"><a title="About NCH" href="https://nationalhomeless.org/about-nch/" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" role="menuitem">About NCH  </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-4765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4765"><a title="Who We Are" href="https://nationalhomeless.org/who-we-are/" role="menuitem">Who We Are</a></li>
+	<li id="menu-item-4766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4766"><a title="Our History" href="https://nationalhomeless.org/our-history/" role="menuitem">Our History</a></li>
+	<li id="menu-item-4767" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4767"><a title="Financials" href="https://nationalhomeless.org/financials/" role="menuitem">Financials</a></li>
+	<li id="menu-item-4768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4768"><a title="Board" href="https://nationalhomeless.org/board/" role="menuitem">Board</a></li>
+	<li id="menu-item-4769" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4769"><a title="Careers" href="https://nationalhomeless.org/careers/" role="menuitem">Careers</a></li>
+	<li id="menu-item-4770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4770"><a title="Contact Us" href="https://nationalhomeless.org/contact-us/" role="menuitem">Contact Us</a></li>
+</ul>
+</li>
+<li id="menu-item-9080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9080 dropdown"><a title="Our Campaigns" href="https://nationalhomeless.org/our-campaigns/" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" role="menuitem">Our Campaigns  </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-9082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9082"><a title="Bring America Home NOW" href="https://nationalhomeless.org/bahn/" role="menuitem">Bring America Home NOW</a></li>
+	<li id="menu-item-11856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11856"><a title="Housing NOW!" href="https://bit.ly/4sker2I" role="menuitem">Housing NOW!</a></li>
+	<li id="menu-item-9638" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9638"><a title="National Solidarity Week" href="https://nationalhomeless.org/national-solidarity-week/" role="menuitem">National Solidarity Week</a></li>
+	<li id="menu-item-9050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9050"><a title="Johnson V. Grants Pass" href="https://nationalhomeless.org/johnson-v-grants-pass/" role="menuitem">Johnson V. Grants Pass</a></li>
+	<li id="menu-item-9081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9081"><a title="Local Power Tour" href="https://nationalhomeless.org/local-power-tour/" role="menuitem">Local Power Tour</a></li>
+	<li id="menu-item-9083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9083"><a title="You Don’t Need a Home to Vote" href="https://nationalhomeless.org/voting/" role="menuitem">You Don’t Need a Home to Vote</a></li>
+</ul>
+</li>
+<li id="menu-item-11072" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11072"><a title="Magazine" href="https://nationalhomeless.org/the-homeless-advocate-magazine/" role="menuitem">Magazine</a></li>
+<li id="menu-item-4771" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4477 current_page_item menu-item-has-children menu-item-4771 dropdown active"><a title="Homelessness in the US" href="https://nationalhomeless.org/homelessness-in-the-us/" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" role="menuitem">Homelessness in the US  </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-4772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4772"><a title="Statistics &amp; General Information" href="https://nationalhomeless.org/statistics-general-information/" role="menuitem">Statistics &amp; General Information</a></li>
+	<li id="menu-item-5405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5405"><a title="Research By Topic" href="https://nationalhomeless.org/research-by-topic/" role="menuitem">Research By Topic</a></li>
+</ul>
+</li>
+<li id="menu-item-6499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6499 dropdown"><a title="Lived Experience" href="https://nationalhomeless.org/lived-experience/" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" role="menuitem">Lived Experience  </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-4780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4780"><a title="Lived Experience Training Academy (LETA)" href="https://nationalhomeless.org/leta/" role="menuitem">Lived Experience Training Academy (LETA)</a></li>
+	<li id="menu-item-6848" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6848"><a title="Technical Assistance" href="https://nationalhomeless.org/technical-assistance/" role="menuitem">Technical Assistance</a></li>
+	<li id="menu-item-8259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8259"><a title="Faces of Homelessness Speakers’ Bureau" href="https://nationalhomeless.org/faces-of-homelessness-speakers-bureau/" role="menuitem">Faces of Homelessness Speakers’ Bureau</a></li>
+	<li id="menu-item-9656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9656"><a title="Testimonials" href="https://nationalhomeless.org/lived-experience/testimonials/" role="menuitem">Testimonials</a></li>
+</ul>
+</li>
+<li id="menu-item-4783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4783 dropdown"><a title="Get Involved" href="https://nationalhomeless.org/get-involved/" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" role="menuitem">Get Involved  </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-4784" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4784"><a title="Donate" href="https://national-homeless.networkforgood.com/projects/77797-support-the-national-coalition-for-the-homeless" role="menuitem">Donate</a></li>
+	<li id="menu-item-10493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10493"><a title="Action Center" href="https://nationalhomeless.org/get-involved/action-center/" role="menuitem">Action Center</a></li>
+	<li id="menu-item-4786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4786"><a title="Become a Member" href="https://nationalhomeless.org/become-a-member/" role="menuitem">Become a Member</a></li>
+	<li id="menu-item-4787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4787"><a title="Volunteer" href="https://nationalhomeless.org/volunteer/" role="menuitem">Volunteer</a></li>
+	<li id="menu-item-4788" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4788"><a title="Request a Speaker" href="https://nationalhomeless.org/request-a-speaker/" role="menuitem">Request a Speaker</a></li>
+	<li id="menu-item-4789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4789"><a title="About Lobbying" href="https://nationalhomeless.org/lobbying/" role="menuitem">About Lobbying</a></li>
+</ul>
+</li>
+<li id="menu-item-6839" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6839 dropdown"><a title="News &amp; Events" href="https://nationalhomeless.org/news-events-2/" class="dropdown-toggle" data-hover="dropdown" aria-haspopup="true" role="menuitem">News &#038; Events  </a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-11087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11087"><a title="Latest News" href="https://nationalhomeless.org/news-events/" role="menuitem">Latest News</a></li>
+	<li id="menu-item-7122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7122"><a title="Leadership Conference" href="https://nationalhomeless.org/leadership-conference/" role="menuitem">Leadership Conference</a></li>
+	<li id="menu-item-4791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4791"><a title="Hunger and Homelessness Awareness Week" href="https://nationalhomeless.org/hunger-and-homelessness-awareness-week/" role="menuitem">Hunger and Homelessness Awareness Week</a></li>
+	<li id="menu-item-4792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4792"><a title="Homeless Persons Memorial Day" href="https://nationalhomeless.org/homeless-persons-memorial-day/" role="menuitem">Homeless Persons Memorial Day</a></li>
+</ul>
+</li>
+<li id="menu-item-5398" class="btn-1 special-btn menu-item menu-item-type-custom menu-item-object-custom menu-item-5398"><a title="Donate" target="_blank" href="https://national-homeless.networkforgood.com/projects/77797-support-the-national-coalition-for-the-homeless" role="menuitem">Donate</a></li>
+</ul>
+
+									<div class="extra-links-bar extra-links-bar-mobile">
+										<div class="login-box box">
+																							<a href="https://audioboom.com/channels/5048767" target="_blank" class="login">Listen To Our Podcast</a>
+																					</div>
+										<div class="custom-links box">
+																																						<a href="https://nationalhomeless.org/contact-us/" target="_self">Contact Us</a>
+																																																			<a href="https://audioboom.com/channels/5048767" target="_blank">Listen To Our Podcast</a>
+																																		</div>
+										<div class="networks">
+																							<ul class="social">
+																											<li>
+															<a href="https://www.facebook.com/NationalCoalitionfortheHomeless" target="_blank">
+																																	<i class="fab fab fa-facebook-f"></i>
+																															</a>
+														</li>
+																											<li>
+															<a href="http://www.twitter.com/NationalHomeles" target="_blank">
+																																	<i class="fab fab fa-twitter"></i>
+																															</a>
+														</li>
+																											<li>
+															<a href="https://www.instagram.com/nationalhomeless/" target="_blank">
+																																	<i class="fab fab fa-instagram"></i>
+																															</a>
+														</li>
+																											<li>
+															<a href="http://www.youtube.com/user/nationalhomelesscoal" target="_blank">
+																																	<i class="fab fab fa-youtube"></i>
+																															</a>
+														</li>
+																											<li>
+															<a href="https://www.tiktok.com/@nationalhomeless" target="_blank">
+																																	<i class="fab fab fa-tiktok"></i>
+																															</a>
+														</li>
+																									</ul>
+																					</div>
+										<div class="search-box box">
+											<button id="open-search" class="open-search">
+												<div class="icon-search"></div>
+											</button>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div> <!-- container -->
+		</section>
+	</header>
+<main role="main">
+
+	
+	
+	<section class="interior-banner">
+		<div class="banner-wrapping">
+			<picture>
+				<source srcset="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/images/interior-banner-mobile.jpg" media="(max-width: 767px)">
+				<source srcset="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/images/interior-banner-tablet.jpg" media="(max-width: 1200px)">
+				<img src="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/images/interior-banner.jpg">
+			</picture>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="caption-container">
+						<div class="title-page" data-aos="fade-up">
+								
+								<h1>Homelessness in the US</h1>
+													
+						</div>
+						<div class="description-page">
+													</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+			<div class="breadcrumbs-container">
+			<div class="container">
+				<div class="aioseo-breadcrumbs"><span class="aioseo-breadcrumb">
+	<a href="https://nationalhomeless.org" title="Home">Home</a>
+</span><span class="aioseo-breadcrumb-separator">&raquo;</span><span class="aioseo-breadcrumb">
+	Homelessness in the US
+</span></div>			</div>
+		</div>
+	
+	<section class="interior-page page">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 content-page">
+												<article id="post-4477" style="clear: both;" class="post-4477 page type-page status-publish has-post-thumbnail hentry category-about-homelessness tag-homelessness">
+								<div class="entry-content">
+									
+<div class="custom-block colored-block custom-ip-text-block alignfull" id="c">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-6 col-lg-9 col-xl-8">
+				<h2>Why Do People Experience Homelessness?</h2>
+<h5>Housing</h5>
+<p>There are currently two major contributors to the housing and homelessness crises: a lack of low cost housing nationwide and the limited scale of housing assistance programs.</p>
+<p>Nationally, the cost of rental housing greatly exceeds wages earned by low-income renter households. For example, a full-time worker needs to earn on average $25.82 per hour to afford a modest two-bedroom rental and $21.21 hourly to afford a one-bedroom (<a href="https://www.nlihc.org/oor" data-gc-link="https://www.nlihc.org/oor">National Low Income Housing Coalition</a>, 2022). However, the national minimum wage is only $7.25!</p>
+<p>Housing isn’t only out of reach for minimum wage earners. The 2022 housing wage is far higher than the median hourly rate earned by customer service workers ($17.75), nursing assistants ($14.57), maintenance and repair workers ($20.76), home health aides ($14.15), retail workers ($14.03), and many others in the workforce.</p>
+<h5>Poverty</h5>
+<p>Homelessness and poverty are inextricably linked. Poor people are frequently unable to pay for housing, food, childcare, health care, and education. Difficult choices must be made when limited resources cover only some of these necessities. Often it is housing, which absorbs a high proportion of income that must be dropped. If you are poor, you are essentially an illness, an accident, or a paycheck away from living on the streets.</p>
+<p>According to the <a href="https://www.census.gov/topics/income-poverty/poverty.html" target="_blank" rel="noopener noreferrer" data-gc-link="https://www.census.gov/topics/income-poverty/poverty.html">United States Census Bureau</a>, the national poverty rate in 2016 was 12.7%. There were 40.6 million people in poverty. While the poverty rate has been slowly declining since 2014, a couple of factors account for continuing poverty:</p>
+<ul>
+<li data-gc-list-depth="1" data-gc-list-style="bullet"><strong>Lack of Employment Opportunities</strong> – With unemployment rates remaining high, jobs are hard to find in the current economy. Even if people can find work, this does not automatically provide an escape from poverty.</li>
+<li data-gc-list-depth="1" data-gc-list-style="bullet"><strong>Decline in Available Public Assistance</strong> – The declining value and availability of public assistance is another source of increasing poverty and homelessness and many families leaving welfare struggle to get medical care, food, and housing as a result of loss of benefits, low wages, and unstable employment. Additionally, most states have not replaced the old welfare system with an alternative that enables families and individuals to obtain above-poverty employment and to sustain themselves when work is not available or possible.</li>
+</ul>
+<p>Other major factors, which can contribute to homelessness, include:</p>
+<ul>
+<li data-gc-list-depth="1" data-gc-list-style="bullet"><strong>Lack of Affordable Health Care</strong> – For families and individuals struggling to pay the rent, a serious illness or disability can start a downward spiral into homelessness, beginning with a lost job, depletion of savings to pay for care, and eventual eviction.</li>
+<li data-gc-list-depth="1" data-gc-list-style="bullet"><strong>Domestic Violence</strong> – Battered women who live in poverty are often forced to choose between abusive relationships and homelessness. In addition, 50% of the cities surveyed by the U.S. Conference of Mayors identified domestic violence as a primary cause of homelessness (U.S. Conference of Mayors, 2005).</li>
+<li data-gc-list-depth="1" data-gc-list-style="bullet"><strong>Mental Illness</strong> – Approximately 16% of the single adult homeless population suffers from some form of severe and persistent mental illness (U.S. Conference of Mayors, 2005).</li>
+<li data-gc-list-depth="1" data-gc-list-style="bullet"><strong>Addiction</strong> – The relationship between addiction and homelessness is complex and controversial. Many people who are addicted to alcohol and drugs never become homeless, but people who are poor and addicted are clearly at increased risk of homelessness.</li>
+</ul>
+				<div class="btn-container">
+					<div class="link"><a href="https://nationalhomeless.org/statistics-general-information/" target="_self" class="btn-1">Statistics &#038; General Information</a><a href="https://nationalhomeless.org/homelessness-in-the-us/research-by-topic/" target="_self" class="btn-1">Research By Topic</a></div>				</div>
+			</div>
+		</div>
+	</div>
+</div>								</div>
+							</article>
+									</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+
+	
+		<section class="boxes-interior-footer">
+							<span class="border-boxes-footer"></span>
+						<div class="row g-0">
+				
+					<div class="col-lg-4 col-md-4 col-12 item-col">
+						<a href="https://nationalhomeless.org/about-nch/" class="box-page-link">
+							<figure class="featured-box-images" style="background-image: url('https://i0.wp.com/nationalhomeless.org/wp-content/uploads/nch-img-f.jpg?fit=871%2C532&ssl=1');">
+								<div class="content-box">
+																			<span data-text="Are" class="title-box">About Us</span>
+																												<div class="link">
+											<span class="btn-2 white"><p>Explore</p>
+</span>
+										</div>
+																	</div>
+							</figure>
+						</a>
+					</div>
+
+				
+					<div class="col-lg-4 col-md-4 col-12 item-col">
+						<a href="https://nationalhomeless.org/get-involved/" class="box-page-link">
+							<figure class="featured-box-images" style="background-image: url('https://i0.wp.com/nationalhomeless.org/wp-content/uploads/nch-bg-g.jpg?fit=1440%2C492&ssl=1');">
+								<div class="content-box">
+																			<span data-text="Are" class="title-box">Get Involved</span>
+																												<div class="link">
+											<span class="btn-2 white"><p>Explore</p>
+</span>
+										</div>
+																	</div>
+							</figure>
+						</a>
+					</div>
+
+				
+					<div class="col-lg-4 col-md-4 col-12 item-col">
+						<a href="https://nationalhomeless.org/finding-help/" class="box-page-link">
+							<figure class="featured-box-images" style="background-image: url('https://i0.wp.com/nationalhomeless.org/wp-content/uploads/shutterstock_1207924588-1.png?fit=419%2C271&ssl=1');">
+								<div class="content-box">
+																			<span data-text="Are" class="title-box">Finding Help</span>
+																												<div class="link">
+											<span class="btn-2 white"><p>Explore</p>
+</span>
+										</div>
+																	</div>
+							</figure>
+						</a>
+					</div>
+
+							</div>
+		</section>
+	
+
+
+<div class="section-newsletter">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-xl-4 d-none d-xl-block">
+				<div class="img-wrap">
+					<img src="https://i0.wp.com/nationalhomeless.org/wp-content/uploads/nch-img-newsletter.jpg?fit=478%2C340&ssl=1" alt="">
+				</div>
+			</div>
+			<div class="col-12 col-xl-8">
+				<div class="newsletter-container">
+											<h3>ALWAYS STAY UP-TO-DATE.</h3>
+																<h2>Sign up for our Newsletter</h2>
+																					<div class="sign-up-form" id="sign_up">
+							
+                <div class='gf_browser_unknown gform_wrapper gform-theme gform-theme--foundation gform-theme--framework gform-theme--orbital newsletterForm_wrapper' data-form-theme='orbital' data-form-index='0' id='gform_wrapper_1' ><style>#gform_wrapper_1[data-form-index="0"].gform-theme{--gf-color-primary: #204ce5;--gf-color-primary-rgb: 32, 76, 229;--gf-color-primary-contrast: #fff;--gf-color-primary-contrast-rgb: 255, 255, 255;--gf-color-primary-darker: #001AB3;--gf-color-primary-lighter: #527EFF;--gf-color-secondary: #fff;--gf-color-secondary-rgb: 255, 255, 255;--gf-color-secondary-contrast: #112337;--gf-color-secondary-contrast-rgb: 17, 35, 55;--gf-color-secondary-darker: #F5F5F5;--gf-color-secondary-lighter: #FFFFFF;--gf-color-out-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-out-ctrl-light-rgb: 17, 35, 55;--gf-color-out-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-out-ctrl-light-lighter: #F5F5F5;--gf-color-out-ctrl-dark: #585e6a;--gf-color-out-ctrl-dark-rgb: 88, 94, 106;--gf-color-out-ctrl-dark-darker: #112337;--gf-color-out-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-color-in-ctrl: #fff;--gf-color-in-ctrl-rgb: 255, 255, 255;--gf-color-in-ctrl-contrast: #112337;--gf-color-in-ctrl-contrast-rgb: 17, 35, 55;--gf-color-in-ctrl-darker: #F5F5F5;--gf-color-in-ctrl-lighter: #FFFFFF;--gf-color-in-ctrl-primary: #204ce5;--gf-color-in-ctrl-primary-rgb: 32, 76, 229;--gf-color-in-ctrl-primary-contrast: #fff;--gf-color-in-ctrl-primary-contrast-rgb: 255, 255, 255;--gf-color-in-ctrl-primary-darker: #001AB3;--gf-color-in-ctrl-primary-lighter: #527EFF;--gf-color-in-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-in-ctrl-light-rgb: 17, 35, 55;--gf-color-in-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-in-ctrl-light-lighter: #F5F5F5;--gf-color-in-ctrl-dark: #585e6a;--gf-color-in-ctrl-dark-rgb: 88, 94, 106;--gf-color-in-ctrl-dark-darker: #112337;--gf-color-in-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-radius: 3px;--gf-font-size-secondary: 14px;--gf-font-size-tertiary: 13px;--gf-icon-ctrl-number: url("data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 0C4.26522 5.96046e-08 4.51957 0.105357 4.70711 0.292893L7.70711 3.29289C8.09763 3.68342 8.09763 4.31658 7.70711 4.70711C7.31658 5.09763 6.68342 5.09763 6.29289 4.70711L4 2.41421L1.70711 4.70711C1.31658 5.09763 0.683417 5.09763 0.292893 4.70711C-0.0976311 4.31658 -0.097631 3.68342 0.292893 3.29289L3.29289 0.292893C3.48043 0.105357 3.73478 0 4 0ZM0.292893 9.29289C0.683417 8.90237 1.31658 8.90237 1.70711 9.29289L4 11.5858L6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289C8.09763 9.68342 8.09763 10.3166 7.70711 10.7071L4.70711 13.7071C4.31658 14.0976 3.68342 14.0976 3.29289 13.7071L0.292893 10.7071C-0.0976311 10.3166 -0.0976311 9.68342 0.292893 9.29289Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-select: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 0.292893C0.683417 -0.097631 1.31658 -0.097631 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683418 0.292893 0.292893Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-search: url("data:image/svg+xml,%3Csvg width='640' height='640' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M256 128c-70.692 0-128 57.308-128 128 0 70.691 57.308 128 128 128 70.691 0 128-57.309 128-128 0-70.692-57.309-128-128-128zM64 256c0-106.039 85.961-192 192-192s192 85.961 192 192c0 41.466-13.146 79.863-35.498 111.248l154.125 154.125c12.496 12.496 12.496 32.758 0 45.254s-32.758 12.496-45.254 0L367.248 412.502C335.862 434.854 297.467 448 256 448c-106.039 0-192-85.962-192-192z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-label-space-y-secondary: var(--gf-label-space-y-md-secondary);--gf-ctrl-border-color: #686e77;--gf-ctrl-size: var(--gf-ctrl-size-md);--gf-ctrl-label-color-primary: #112337;--gf-ctrl-label-color-secondary: #112337;--gf-ctrl-choice-size: var(--gf-ctrl-choice-size-md);--gf-ctrl-checkbox-check-size: var(--gf-ctrl-checkbox-check-size-md);--gf-ctrl-radio-check-size: var(--gf-ctrl-radio-check-size-md);--gf-ctrl-btn-font-size: var(--gf-ctrl-btn-font-size-md);--gf-ctrl-btn-padding-x: var(--gf-ctrl-btn-padding-x-md);--gf-ctrl-btn-size: var(--gf-ctrl-btn-size-md);--gf-ctrl-btn-border-color-secondary: #686e77;--gf-ctrl-btn-bg-color-hover-tertiary: #EBEBEB;--gf-field-img-choice-size: var(--gf-field-img-choice-size-md);--gf-field-img-choice-card-space: var(--gf-field-img-choice-card-space-md);--gf-field-img-choice-check-ind-size: var(--gf-field-img-choice-check-ind-size-md);--gf-field-img-choice-check-ind-icon-size: var(--gf-field-img-choice-check-ind-icon-size-md);--gf-field-pg-steps-number-color: rgba(17, 35, 55, 0.8);}</style><div id='gf_1' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1' class='newsletterForm' action='/homelessness-in-the-us/#gf_1' data-formid='1' novalidate><div class='gf_invisible ginput_recaptchav3' data-sitekey='6LcK6vUrAAAAAINdSM2SYc9e_HY3fqvndpiY_WUC' data-tabindex='0'><input id="input_d6940e429b33b630150a5335bca4b629" class="gfield_recaptcha_response" type="hidden" name="input_d6940e429b33b630150a5335bca4b629" value=""/></div>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_6" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_6'><span class='gform-field-label__text'>Facebook</span></label><div class='ginput_container'><input name='input_6' id='input_1_6' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_1_6'>This field is for validation purposes and should be left unchanged.</div></div><fieldset id="field_1_5" class="gfield gfield--type-name gfield--width-full gfield_contains_required field_sublabel_hidden_label gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label gfield_label_before_complex' ><span class='gform-field-label__text'>Name</span><span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_1_5'>
+                            
+                            <span id='input_1_5_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_5.3' id='input_1_5_3' value=''   aria-required='true'   placeholder='First Name'  />
+                                                    <label for='input_1_5_3' class='gform-field-label gform-field-label--type-sub hidden_sub_label screen-reader-text'>First</label>
+                                                </span>
+                            
+                            <span id='input_1_5_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_5.6' id='input_1_5_6' value=''   aria-required='true'   placeholder='Last Name'  />
+                                                    <label for='input_1_5_6' class='gform-field-label gform-field-label--type-sub hidden_sub_label screen-reader-text'>Last</label>
+                                                </span>
+                            
+                        </div></fieldset><div id="field_1_3" class="gfield gfield--type-email gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_3'><span class='gform-field-label__text'>Email</span><span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_1_3' type='email' value='' class='large'   placeholder='email address' aria-required="true" aria-invalid="false"  />
+                        </div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <button type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' >Sign Me Up</button> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=0&amp;theme=orbital&amp;styles=[]&amp;hash=c9265cb2599ca3aa838af1133f1ca1de' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='orbital' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='AzKP1yyL3+OQn4hm0pLYusz9CVY7hPP/kpQj9jDlN6sAgKlVrMygA4nUI5ZKkfK8/L1zTmIqva3h1ttri1vRIuFvemaAAg1HcBZZm0i9n8vs8GA=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJ7XCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcIjIxODgyYWI4ZjBhMmNkZDQ1ODUxNmY3YzQ0ZTk4NDU2XCIsXCJjZTVjNjhjY2JhYmRjOTg1YjVmMjAxNzNhNWFkMDUwMlwiLFwiYTI4NjcwNjg5OWZlM2E2YmYzZGM3MjA2YTU0NTY5MjRcIl0sXCJnZm9ybV90aGVtZVwiOlwiOGE5NDdjMTNiYzlhYzUwOTM1YWE2MjdjZDNmOTEyMTdcIixcImdmb3JtX3N0eWxlX3NldHRpbmdzXCI6XCJjOTFmMDc5NDkwODhlZDljNjBlZGVjNTE2MWZhN2RmNFwiLFwiZm9ybV9pZFwiOlwiYjgwMjkwZWI2MDI4ODM3YTg1YzNkY2Q4M2NmNGI3Y2VcIixcInVybFwiOlwiY2M2NGY0ZjYyZWFmNDdkODhmNzcyMTI4NTdlYWZlZDJcIixcInN0YXRlX3RpbWVzdGFtcFwiOlwiYjBiNWQ2NjMwNDgyZDQ1NmEyOTIzMzBmNGY2M2IyYTRcIn0iLCIxZGU2MTk5YTI3YzU2ZGU1YmU3YTlhMzg3MWVmM2I3ZCIsMTc5MTA4MDc3Nl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );var current_page = jQuery('#gform_source_page_number_1').val();jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+						</div>
+									</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	<div class="footer-top text-center text-md-start">
+		<div class="container">
+			<div class="row align-items-xl-center">
+				<div class="col-12 col-md-2 offset-xl-1">
+					<div class="single-box logo-box center">
+						<figure class="logo-footer">
+							<a href="https://nationalhomeless.org">
+								<img class="bg-img" src="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/images/logo.svg" alt="This is the default image">
+							</a>
+						</figure>
+					</div>
+				</div>
+				<div class="col-12 col-md-3 col-xl-2 offset-md-1">
+					<div class="single-box address-box">
+													<address>
+								2201 P St NW,<br>
+Washington, DC 20037							</address>
+					</div>
+								</div>
+				<div class="col-12 col-md-3 col-xl-2">
+											<div class="single-box contact-box">
+							<a href="mailto:info@nationalhomeless.org" class="email">info@nationalhomeless.org</a>
+							<a href="tel:(202) 462-4822" class="phone">(202) 462-4822</a>
+						</div>
+									</div>
+				<div class="col-12 col-md-3 col-xl-2 offset-xl-1">
+					<div class="single-box awards-container">
+																					<figure class="awards">
+									<a href="">
+										<img class="bg-img" src="https://i0.wp.com/nationalhomeless.org/wp-content/uploads/vetted_large.png?fit=846%2C782&ssl=1" alt="">
+									</a>
+								</figure>
+															<figure class="awards">
+									<a href="">
+										<img class="bg-img" src="https://i0.wp.com/nationalhomeless.org/wp-content/uploads/topRanked_large.png?fit=846%2C782&ssl=1" alt="">
+									</a>
+								</figure>
+															<figure class="awards">
+									<a href="">
+										<img class="bg-img" src="https://i0.wp.com/nationalhomeless.org/wp-content/uploads/effectiveNonprofit_large.png?fit=846%2C782&ssl=1" alt="">
+									</a>
+								</figure>
+													
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom text-center text-lg-start">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="row align-items-center justify-content-center">
+						<div class="col-12 col-lg-8 mb-3 mb-lg-0">
+							<div class="single-box">
+								<div class="copy-r  box">
+												<p>Copyright 2023 |  National Coalition for the Homeless  | | <a href="https://www.elevationweb.org" target="_blank" title="Nonprofit Website Design">Nonprofit Website Design</a> by <a href="https://www.elevationweb.org/portfolio/" target="_blank" title="Elevation">Elevation</a></p>
+																	</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 text-center text-xl-end">
+							<div class="single-box social-box">
+								<div class="networks">
+									<h3>Follow us:</h3>
+																			<ul class="social">
+																							<li>
+													<a href="https://www.facebook.com/NationalCoalitionfortheHomeless" target="_blank">
+																													<i class="fab fab fa-facebook-f"></i>
+																											</a>
+												</li>
+																							<li>
+													<a href="http://www.twitter.com/NationalHomeles" target="_blank">
+																													<i class="fab fab fa-twitter"></i>
+																											</a>
+												</li>
+																							<li>
+													<a href="https://www.instagram.com/nationalhomeless/" target="_blank">
+																													<i class="fab fab fa-instagram"></i>
+																											</a>
+												</li>
+																							<li>
+													<a href="http://www.youtube.com/user/nationalhomelesscoal" target="_blank">
+																													<i class="fab fab fa-youtube"></i>
+																											</a>
+												</li>
+																							<li>
+													<a href="https://www.tiktok.com/@nationalhomeless" target="_blank">
+																													<i class="fab fab fa-tiktok"></i>
+																											</a>
+												</li>
+																					</ul>
+																	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/elevationweb/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+                <script async src="https://www.tiktok.com/embed.js"></script>
+                		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"},"registration_prompt":"There is unsaved attendee information. Are you sure you want to continue?"};/* ]]> */ </script>	<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script id="tec-user-agent-js" src="https://nationalhomeless.org/wp-content/plugins/event-tickets/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df"></script>
+<script id="awsm-team-js-extra">
+var awsmTeamPublic = {"ajaxurl":"https://nationalhomeless.org/wp-admin/admin-ajax.php","deep_linking":{"enable":"","member":{"prefix":"member","suffix":"info"},"team":{"prefix":"team","suffix":"info"}},"scripts_src":"https://nationalhomeless.org/wp-content/plugins/awsm-team-pro/js"};
+//# sourceURL=awsm-team-js-extra
+</script>
+<script id="awsm-team-js" src="https://nationalhomeless.org/wp-content/plugins/awsm-team-pro/js/team.min.js?ver=1.11.1"></script>
+<script defer async id="tp-tools-js" src="//nationalhomeless.org/wp-content/plugins/revslider/sr6/assets/js/rbtools.min.js?ver=6.7.17"></script>
+<script defer async id="revmin-js" src="//nationalhomeless.org/wp-content/plugins/revslider/sr6/assets/js/rs6.min.js?ver=6.7.17"></script>
+<script id="ultp-youtube-gallery-block-js" src="https://nationalhomeless.org/wp-content/plugins/ultimate-post/assets/js/ultp-youtube-gallery-block.js?ver=5.0.36"></script>
+<script id="elevationThemeJqueryMobileJs-js" src="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/js/jquery.mobile.custom.min.js?ver=7.1.2"></script>
+<script id="elevationThemeBootstrapJs-js" src="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/js/bootstrap.min.js?ver=7.1.2"></script>
+<script id="elevationThemeAOSJs-js" src="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/aos-animation/aos.js?ver=7.1.2"></script>
+<script id="elevationThemeSwiperJs-js" src="https://unpkg.com/swiper/swiper-bundle.min.js?ver=7.1.2"></script>
+<script id="elevationThemeMainJs-js" src="https://nationalhomeless.org/wp-content/themes/elevationweb/assets/js/main.js?ver=7.1.2"></script>
+<script id="dcms_miscript-js-extra">
+var dcms_vars = {"ajaxurl":"https://nationalhomeless.org/wp-admin/admin-ajax.php"};
+//# sourceURL=dcms_miscript-js-extra
+</script>
+<script id="dcms_miscript-js" src="https://nationalhomeless.org/wp-content/themes/elevationweb/inc/core/elevationDirectoryScript.js?ver=1"></script>
+<script data-wp-strategy="defer" defer id="woocommerce-analytics-client-js" src="https://nationalhomeless.org/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/build/woocommerce-analytics-client.js?minify=false&#038;ver=8d8bb846cc19ac858460"></script>
+<script id="sourcebuster-js-js" src="https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=11.0.1"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https://nationalhomeless.org/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+</script>
+<script id="wc-order-attribution-js" src="https://nationalhomeless.org/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=11.0.1"></script>
+<script id="gforms_recaptcha_recaptcha-js-extra">
+var gforms_recaptcha_recaptcha_strings = {"nonce":"b58b267674","disconnect":"Disconnecting","change_connection_type":"Resetting","spinner":"https://nationalhomeless.org/wp-content/plugins/gravityforms/images/spinner.svg","connection_type":"classic","disable_badge":"1","change_connection_type_title":"Change Connection Type","change_connection_type_message":"Changing the connection type will delete your current settings.  Do you want to proceed?","disconnect_title":"Disconnect","disconnect_message":"Disconnecting from reCAPTCHA will delete your current settings.  Do you want to proceed?","site_key":"6LcK6vUrAAAAAINdSM2SYc9e_HY3fqvndpiY_WUC"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6LcK6vUrAAAAAINdSM2SYc9e_HY3fqvndpiY_WUC&#038;ver=2.2.2"></script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_frontend-js" src="https://nationalhomeless.org/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=2.2.2"></script>
+<script id="jetpack-stats-js-before">
+_stq = window._stq || [];
+_stq.push([ "view", {"v":"ext","blog":"217281474","post":"4477","tz":"0","srv":"nationalhomeless.org","j":"1:16.1.3"} ]);
+_stq.push([ "clickTrackerInit", "217281474", "4477" ]);
+//# sourceURL=jetpack-stats-js-before
+</script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202640.js"></script>
+<script id="gform_json-js" defer='defer' src="https://nationalhomeless.org/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=3.1.2"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"wdOffset":1,"helpTextShort":"Press F1 for help","helpText":"Press the arrow keys to navigate by day, PageUp and PageDown to navigate by month, Alt+PageUp and Alt+PageDown to navigate by year, or Escape to cancel.","openOnFocusHelpText":"Press Down arrow to browse the calendar, or Escape to close.","tooltipTxt":"Press Escape to cancel","disabledTxt":"Disabled","markedTxt":"Selected","prevTxt":"Previous","nextTxt":"Next","monthTxt":"Month","yearTxt":"Year","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"days":[{"s":"S","l":"Sunday"},{"s":"M","l":"Monday"},{"s":"T","l":"Tuesday"},{"s":"W","l":"Wednesday"},{"s":"T","l":"Thursday"},{"s":"F","l":"Friday"},{"s":"S","l":"Saturday"}]}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://nationalhomeless.org/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://nationalhomeless.org/wp-content/plugins/gravityforms","number_formats":[],"version_hash":"66d455cf75d783ed9627939b7de18fc6","countries":{"AF":"Afghanistan","AX":"\u00c5land Islands","AL":"Albania","DZ":"Algeria","AS":"American Samoa","AD":"Andorra","AO":"Angola","AI":"Anguilla","AQ":"Antarctica","AG":"Antigua and Barbuda","AR":"Argentina","AM":"Armenia","AW":"Aruba","AU":"Australia","AT":"Austria","AZ":"Azerbaijan","BS":"Bahamas","BH":"Bahrain","BD":"Bangladesh","BB":"Barbados","BY":"Belarus","BE":"Belgium","BZ":"Belize","BJ":"Benin","BM":"Bermuda","BT":"Bhutan","BO":"Bolivia","BQ":"Bonaire, Sint Eustatius and Saba","BA":"Bosnia and Herzegovina","BW":"Botswana","BV":"Bouvet Island","BR":"Brazil","IO":"British Indian Ocean Territory","BN":"Brunei Darussalam","BG":"Bulgaria","BF":"Burkina Faso","BI":"Burundi","CV":"Cabo Verde","KH":"Cambodia","CM":"Cameroon","CA":"Canada","KY":"Cayman Islands","CF":"Central African Republic","TD":"Chad","CL":"Chile","CN":"China","CX":"Christmas Island","CC":"Cocos Islands","CO":"Colombia","KM":"Comoros","CD":"Congo, Democratic Republic of the","CG":"Congo","CK":"Cook Islands","CR":"Costa Rica","CI":"C\u00f4te d'Ivoire","HR":"Croatia","CU":"Cuba","CW":"Cura\u00e7ao","CY":"Cyprus","CZ":"Czechia","DK":"Denmark","DJ":"Djibouti","DM":"Dominica","DO":"Dominican Republic","EC":"Ecuador","EG":"Egypt","SV":"El Salvador","GQ":"Equatorial Guinea","ER":"Eritrea","EE":"Estonia","SZ":"Eswatini","ET":"Ethiopia","FK":"Falkland Islands","FO":"Faroe Islands","FJ":"Fiji","FI":"Finland","FR":"France","GF":"French Guiana","PF":"French Polynesia","TF":"French Southern Territories","GA":"Gabon","GM":"Gambia","GE":"Georgia","DE":"Germany","GH":"Ghana","GI":"Gibraltar","GR":"Greece","GL":"Greenland","GD":"Grenada","GP":"Guadeloupe","GU":"Guam","GT":"Guatemala","GG":"Guernsey","GN":"Guinea","GW":"Guinea-Bissau","GY":"Guyana","HT":"Haiti","HM":"Heard Island and McDonald Islands","VA":"Holy See","HN":"Honduras","HK":"Hong Kong","HU":"Hungary","IS":"Iceland","IN":"India","ID":"Indonesia","IR":"Iran","IQ":"Iraq","IE":"Ireland","IM":"Isle of Man","IL":"Israel","IT":"Italy","JM":"Jamaica","JP":"Japan","JE":"Jersey","JO":"Jordan","KZ":"Kazakhstan","KE":"Kenya","KI":"Kiribati","KP":"Korea, Democratic People's Republic of","KR":"Korea, Republic of","KW":"Kuwait","KG":"Kyrgyzstan","LA":"Lao People's Democratic Republic","LV":"Latvia","LB":"Lebanon","LS":"Lesotho","LR":"Liberia","LY":"Libya","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MO":"Macao","MG":"Madagascar","MW":"Malawi","MY":"Malaysia","MV":"Maldives","ML":"Mali","MT":"Malta","MH":"Marshall Islands","MQ":"Martinique","MR":"Mauritania","MU":"Mauritius","YT":"Mayotte","MX":"Mexico","FM":"Micronesia","MD":"Moldova","MC":"Monaco","MN":"Mongolia","ME":"Montenegro","MS":"Montserrat","MA":"Morocco","MZ":"Mozambique","MM":"Myanmar","NA":"Namibia","NR":"Nauru","NP":"Nepal","NL":"Netherlands","NC":"New Caledonia","NZ":"New Zealand","NI":"Nicaragua","NE":"Niger","NG":"Nigeria","NU":"Niue","NF":"Norfolk Island","MK":"North Macedonia","MP":"Northern Mariana Islands","NO":"Norway","OM":"Oman","PK":"Pakistan","PW":"Palau","PS":"Palestine, State of","PA":"Panama","PG":"Papua New Guinea","PY":"Paraguay","PE":"Peru","PH":"Philippines","PN":"Pitcairn","PL":"Poland","PT":"Portugal","PR":"Puerto Rico","QA":"Qatar","RE":"R\u00e9union","RO":"Romania","RU":"Russian Federation","RW":"Rwanda","BL":"Saint Barth\u00e9lemy","SH":"Saint Helena, Ascension and Tristan da Cunha","KN":"Saint Kitts and Nevis","LC":"Saint Lucia","MF":"Saint Martin","PM":"Saint Pierre and Miquelon","VC":"Saint Vincent and the Grenadines","WS":"Samoa","SM":"San Marino","ST":"Sao Tome and Principe","SA":"Saudi Arabia","SN":"Senegal","RS":"Serbia","SC":"Seychelles","SL":"Sierra Leone","SG":"Singapore","SX":"Sint Maarten","SK":"Slovakia","SI":"Slovenia","SB":"Solomon Islands","SO":"Somalia","ZA":"South Africa","GS":"South Georgia and the South Sandwich Islands","SS":"South Sudan","ES":"Spain","LK":"Sri Lanka","SD":"Sudan","SR":"Suriname","SJ":"Svalbard and Jan Mayen","SE":"Sweden","CH":"Switzerland","SY":"Syria Arab Republic","TW":"Taiwan","TJ":"Tajikistan","TZ":"Tanzania, the United Republic of","TH":"Thailand","TL":"Timor-Leste","TG":"Togo","TK":"Tokelau","TO":"Tonga","TT":"Trinidad and Tobago","TN":"Tunisia","TR":"T\u00fcrkiye","TM":"Turkmenistan","TC":"Turks and Caicos Islands","TV":"Tuvalu","UG":"Uganda","UA":"Ukraine","AE":"United Arab Emirates","GB":"United Kingdom","US":"United States","UY":"Uruguay","UM":"US Minor Outlying Islands","UZ":"Uzbekistan","VU":"Vanuatu","VE":"Venezuela","VN":"Viet Nam","VG":"Virgin Islands, British","VI":"Virgin Islands, U.S.","WF":"Wallis and Futuna","EH":"Western Sahara","YE":"Yemen","ZM":"Zambia","ZW":"Zimbabwe"},"strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://nationalhomeless.org/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=3.1.2"></script>
+<script id="gform_placeholder-js" defer='defer' src="https://nationalhomeless.org/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=3.1.2"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://nationalhomeless.org/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=69a9db57304a9f86c3d1a0bea5fd2cf9"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://nationalhomeless.org/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=0c901cb641ce64b99c20ea1a4d208cc9"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"66d455cf75d783ed9627939b7de18fc6"},"ajax":{"ajaxurl":"https://nationalhomeless.org/wp-admin/admin-ajax.php","ajax_submission_nonce":"594fabe47a","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://nationalhomeless.org/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"da771aeda8"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://nationalhomeless.org/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=e27d9712159624c99129c8c208f022ad"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://nationalhomeless.org/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://nationalhomeless.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+		<script type="text/javascript">
+			(function() {
+				window.wcAnalytics = window.wcAnalytics || {};
+				const wcAnalytics = window.wcAnalytics;
+
+				// Set the assets URL for webpack to find the split assets.
+				wcAnalytics.assets_url = 'https://nationalhomeless.org/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/src/../build/';
+
+				// Set the REST API tracking endpoint URL.
+								wcAnalytics.trackEndpoint = "https://nationalhomeless.org/wp-json/woocommerce-analytics/v1/track";
+
+				// Set common properties for all events.
+				wcAnalytics.commonProps = {"ui":0,"blog_id":217281474,"store_id":"caaa2f1c-428c-42d3-85d6-47b2935d53f3","url":"https://nationalhomeless.org","woo_version":"11.0.1","wp_version":"7.1.2","store_admin":0,"device":"desktop","store_currency":"USD","timezone":"+00:00","is_guest":1};
+
+				// Set the event queue.
+				wcAnalytics.eventQueue = [];
+
+				// Features.
+				wcAnalytics.features = {
+					ch: false,
+					sessionTracking: false,
+					proxy: false,
+				};
+
+				wcAnalytics.breadcrumbs = ["Homelessness in the US"];
+
+				// Page context flags.
+				wcAnalytics.pages = {
+					isAccountPage: false,
+					isCart: false,
+				};
+			})();
+		</script>
+		<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+
+
+
+
+<script>
+	AOS.init({
+		easing: 'ease-out-back',
+		duration: 800,
+		delay: 300,
+		once: true,
+		disable: 'mobile'
+	});
+</script>
+
+</body>
+
+</html>

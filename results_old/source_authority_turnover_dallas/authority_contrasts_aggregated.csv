@@ -1,0 +1,1327 @@
+aggregation_level,dimension,comparison,authority_category,n_pairs,n_share_pairs,mean_count_delta,median_count_delta,mean_share_delta,median_share_delta,positive_share_delta_n,equal_share_delta_n,negative_share_delta_n,domain,outcome
+social_dimension,Disability,majority_generic,academic_research,21,18,-0.6666666666666666,-1.0,0.025184537684537683,-0.005494505494505503,7,2,9,,
+social_dimension,Disability,majority_generic,advocacy_community,21,18,0.047619047619047616,0.0,0.015985249318582653,0.0,4,11,3,,
+social_dimension,Disability,majority_generic,commercial_service,21,18,-0.8571428571428571,-1.0,-0.02838843255509922,0.0,5,5,8,,
+social_dimension,Disability,majority_generic,government,21,18,-0.7142857142857143,-1.0,0.029902504902504908,0.0,7,5,6,,
+social_dimension,Disability,majority_generic,healthcare_provider,21,18,0.0,0.0,0.0,0.0,0,18,0,,
+social_dimension,Disability,majority_generic,intergovernmental,21,18,-0.14285714285714285,0.0,-0.010036260036260035,0.0,2,14,2,,
+social_dimension,Disability,majority_generic,news_media,21,18,-0.14285714285714285,0.0,-0.004629629629629629,0.0,0,17,1,,
+social_dimension,Disability,majority_generic,nonprofit_general,21,18,-0.9523809523809523,0.0,-0.041792158458825134,-0.04999999999999999,7,2,9,,
+social_dimension,Disability,majority_generic,other,21,18,-0.19047619047619047,0.0,-0.008103008103008102,0.0,3,10,5,,
+social_dimension,Disability,majority_generic,policy_research,21,18,0.09523809523809523,0.0,0.0619056869056869,0.0,7,9,2,,
+social_dimension,Disability,majority_generic,professional_association,21,18,-0.047619047619047616,0.0,-0.011111111111111112,0.0,0,17,1,,
+social_dimension,Disability,majority_generic,reference,21,18,0.0,0.0,0.0,0.0,0,18,0,,
+social_dimension,Disability,majority_generic,social_platform,21,18,-0.42857142857142855,0.0,-0.02891737891737892,0.0,1,13,4,,
+social_dimension,Disability,minority_generic,academic_research,21,21,-0.23809523809523808,0.0,-0.026577569644796538,-0.018099547511312222,4,5,12,,
+social_dimension,Disability,minority_generic,advocacy_community,21,21,0.0,0.0,-0.008461162242674847,0.0,5,14,2,,
+social_dimension,Disability,minority_generic,commercial_service,21,21,0.047619047619047616,0.0,-0.005279345615480069,0.0,8,3,10,,
+social_dimension,Disability,minority_generic,government,21,21,-0.047619047619047616,0.0,-0.027690532312381055,-0.06666666666666665,9,0,12,,
+social_dimension,Disability,minority_generic,healthcare_provider,21,21,0.047619047619047616,0.0,0.004761904761904762,0.0,1,20,0,,
+social_dimension,Disability,minority_generic,intergovernmental,21,21,-0.23809523809523808,0.0,-0.02417027417027417,0.0,0,18,3,,
+social_dimension,Disability,minority_generic,news_media,21,21,-0.09523809523809523,0.0,-0.01746031746031746,0.0,1,17,3,,
+social_dimension,Disability,minority_generic,nonprofit_general,21,21,0.7619047619047619,1.0,0.09267156746148343,0.1,13,0,8,,
+social_dimension,Disability,minority_generic,other,21,21,-0.23809523809523808,0.0,-0.028568700207355663,0.0,3,11,7,,
+social_dimension,Disability,minority_generic,policy_research,21,21,0.3333333333333333,0.0,0.057222974659949445,0.0,9,10,2,,
+social_dimension,Disability,minority_generic,professional_association,21,21,0.0,0.0,-0.004232804232804234,0.0,1,19,1,,
+social_dimension,Disability,minority_generic,reference,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Disability,minority_generic,social_platform,21,21,-0.14285714285714285,0.0,-0.012215740997253604,0.0,5,10,6,,
+social_dimension,Disability,minority_majority,academic_research,21,18,0.42857142857142855,1.0,-0.05156207264050402,0.0,6,5,7,,
+social_dimension,Disability,minority_majority,advocacy_community,21,18,-0.047619047619047616,0.0,-0.03125783983627121,0.0,2,12,4,,
+social_dimension,Disability,minority_majority,commercial_service,21,18,0.9047619047619048,0.0,0.03843289970740951,0.0,8,3,7,,
+social_dimension,Disability,minority_majority,government,21,18,0.6666666666666666,1.0,-0.05896738519287539,-0.10294117647058823,7,0,11,,
+social_dimension,Disability,minority_majority,healthcare_provider,21,18,0.047619047619047616,0.0,0.005555555555555556,0.0,1,17,0,,
+social_dimension,Disability,minority_majority,intergovernmental,21,18,-0.09523809523809523,0.0,-0.018162393162393164,0.0,0,16,2,,
+social_dimension,Disability,minority_majority,news_media,21,18,0.047619047619047616,0.0,0.004629629629629629,0.0,1,17,0,,
+social_dimension,Disability,minority_majority,nonprofit_general,21,18,1.7142857142857142,1.0,0.10453861679351877,0.08333333333333336,13,2,3,,
+social_dimension,Disability,minority_majority,other,21,18,-0.047619047619047616,0.0,-0.030782697694462402,0.0,4,10,4,,
+social_dimension,Disability,minority_majority,policy_research,21,18,0.23809523809523808,0.0,0.004854450197587453,0.0,6,8,4,,
+social_dimension,Disability,minority_majority,professional_association,21,18,0.047619047619047616,0.0,0.0,0.0,0,18,0,,
+social_dimension,Disability,minority_majority,reference,21,18,0.0,0.0,0.0,0.0,0,18,0,,
+social_dimension,Disability,minority_majority,social_platform,21,18,0.2857142857142857,0.0,0.03272123664280527,0.0,5,12,1,,
+social_dimension,Ethnicity,majority_generic,academic_research,21,20,-0.42857142857142855,-1.0,0.016166264291264294,-0.038827838827838856,6,3,11,,
+social_dimension,Ethnicity,majority_generic,advocacy_community,21,20,0.09523809523809523,0.0,0.049345238095238095,0.0,6,12,2,,
+social_dimension,Ethnicity,majority_generic,commercial_service,21,20,-1.1904761904761905,-1.0,-0.07622141747141746,-0.08562271062271062,3,5,12,,
+social_dimension,Ethnicity,majority_generic,government,21,20,-0.47619047619047616,0.0,0.05352064602064601,0.09166666666666665,12,1,7,,
+social_dimension,Ethnicity,majority_generic,healthcare_provider,21,20,0.0,0.0,0.0,0.0,0,20,0,,
+social_dimension,Ethnicity,majority_generic,intergovernmental,21,20,-0.19047619047619047,0.0,-0.012878787878787878,0.0,1,17,2,,
+social_dimension,Ethnicity,majority_generic,news_media,21,20,-0.09523809523809523,0.0,-0.019375,0.0,0,17,3,,
+social_dimension,Ethnicity,majority_generic,nonprofit_general,21,20,-0.5238095238095238,0.0,-0.02685626873126874,0.0,9,3,8,,
+social_dimension,Ethnicity,majority_generic,other,21,20,-0.47619047619047616,0.0,-0.04383116883116883,0.0,0,14,6,,
+social_dimension,Ethnicity,majority_generic,policy_research,21,20,0.42857142857142855,0.0,0.06073946886446886,0.0,7,13,0,,
+social_dimension,Ethnicity,majority_generic,professional_association,21,20,0.0,0.0,0.006666666666666665,0.0,1,18,1,,
+social_dimension,Ethnicity,majority_generic,reference,21,20,0.047619047619047616,0.0,0.0125,0.0,1,19,0,,
+social_dimension,Ethnicity,majority_generic,social_platform,21,20,-0.38095238095238093,0.0,-0.019775641025641028,0.0,2,12,6,,
+social_dimension,Ethnicity,minority_generic,academic_research,21,21,0.42857142857142855,1.0,0.049098256241113386,0.08333333333333333,14,1,6,,
+social_dimension,Ethnicity,minority_generic,advocacy_community,21,21,0.6190476190476191,0.0,0.05502064073492644,0.0,10,9,2,,
+social_dimension,Ethnicity,minority_generic,commercial_service,21,21,-0.38095238095238093,0.0,-0.058875912447341014,-0.08974358974358973,5,4,12,,
+social_dimension,Ethnicity,minority_generic,government,21,21,0.23809523809523808,1.0,0.009529227386370243,0.08333333333333333,13,0,8,,
+social_dimension,Ethnicity,minority_generic,healthcare_provider,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Ethnicity,minority_generic,intergovernmental,21,21,-0.23809523809523808,0.0,-0.02417027417027417,0.0,0,18,3,,
+social_dimension,Ethnicity,minority_generic,news_media,21,21,0.0,0.0,-0.00797430083144369,0.0,2,16,3,,
+social_dimension,Ethnicity,minority_generic,nonprofit_general,21,21,-0.19047619047619047,0.0,-0.03993506493506495,-0.010989010989011005,9,1,11,,
+social_dimension,Ethnicity,minority_generic,other,21,21,-0.38095238095238093,0.0,-0.04601747458890316,0.0,1,13,7,,
+social_dimension,Ethnicity,minority_generic,policy_research,21,21,0.9523809523809523,1.0,0.0957323100180243,0.1,12,8,1,,
+social_dimension,Ethnicity,minority_generic,professional_association,21,21,0.14285714285714285,0.0,0.00706145706145706,0.0,3,17,1,,
+social_dimension,Ethnicity,minority_generic,reference,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Ethnicity,minority_generic,social_platform,21,21,-0.38095238095238093,0.0,-0.039468864468864474,0.0,1,13,7,,
+social_dimension,Ethnicity,minority_majority,academic_research,21,20,0.8571428571428571,1.0,0.03122023809523809,0.08333333333333333,13,1,6,,
+social_dimension,Ethnicity,minority_majority,advocacy_community,21,20,0.5238095238095238,0.0,0.008426434676434674,0.0,8,8,4,,
+social_dimension,Ethnicity,minority_majority,commercial_service,21,20,0.8095238095238095,0.0,0.014401709401709397,0.0,8,8,4,,
+social_dimension,Ethnicity,minority_majority,government,21,20,0.7142857142857143,0.0,-0.05184829059829059,0.0,8,4,8,,
+social_dimension,Ethnicity,minority_majority,healthcare_provider,21,20,0.0,0.0,0.0,0.0,0,20,0,,
+social_dimension,Ethnicity,minority_majority,intergovernmental,21,20,-0.047619047619047616,0.0,-0.0125,0.0,0,19,1,,
+social_dimension,Ethnicity,minority_majority,news_media,21,20,0.09523809523809523,0.0,0.011001984126984127,0.0,3,17,0,,
+social_dimension,Ethnicity,minority_majority,nonprofit_general,21,20,0.3333333333333333,1.0,-0.02340888278388279,0.011904761904761904,10,3,7,,
+social_dimension,Ethnicity,minority_majority,other,21,20,0.09523809523809523,0.0,0.0038461538461538464,0.0,1,19,0,,
+social_dimension,Ethnicity,minority_majority,policy_research,21,20,0.5238095238095238,1.0,0.03977945665445666,0.07738095238095238,11,6,3,,
+social_dimension,Ethnicity,minority_majority,professional_association,21,20,0.14285714285714285,0.0,0.000747863247863248,0.0,3,16,1,,
+social_dimension,Ethnicity,minority_majority,reference,21,20,-0.047619047619047616,0.0,-0.0125,0.0,0,19,1,,
+social_dimension,Ethnicity,minority_majority,social_platform,21,20,0.0,0.0,-0.009166666666666667,0.0,2,16,2,,
+social_dimension,Gender,majority_generic,academic_research,21,21,0.19047619047619047,0.0,0.061178239749668316,0.0357142857142857,12,4,5,,
+social_dimension,Gender,majority_generic,advocacy_community,21,21,0.0,0.0,-0.012636569779426923,0.0,3,15,3,,
+social_dimension,Gender,majority_generic,commercial_service,21,21,-0.42857142857142855,0.0,0.016202580488294774,0.0,8,3,10,,
+social_dimension,Gender,majority_generic,government,21,21,-0.2857142857142857,0.0,0.022989840846983706,0.0,10,1,10,,
+social_dimension,Gender,majority_generic,healthcare_provider,21,21,0.047619047619047616,0.0,0.011904761904761904,0.0,1,20,0,,
+social_dimension,Gender,majority_generic,intergovernmental,21,21,-0.047619047619047616,0.0,0.010070088641517212,0.0,2,18,1,,
+social_dimension,Gender,majority_generic,news_media,21,21,-0.14285714285714285,0.0,-0.02142857142857143,0.0,0,18,3,,
+social_dimension,Gender,majority_generic,nonprofit_general,21,21,-0.7619047619047619,-1.0,-0.06636366279223423,-0.08333333333333333,6,3,12,,
+social_dimension,Gender,majority_generic,other,21,21,-0.23809523809523808,0.0,-0.023036487322201607,0.0,2,13,6,,
+social_dimension,Gender,majority_generic,policy_research,21,21,0.0,0.0,0.01851415779987208,0.0,5,14,2,,
+social_dimension,Gender,majority_generic,professional_association,21,21,-0.047619047619047616,0.0,-0.009523809523809525,0.0,0,20,1,,
+social_dimension,Gender,majority_generic,reference,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Gender,majority_generic,social_platform,21,21,-0.09523809523809523,0.0,-0.007870568584854302,0.0,4,12,5,,
+social_dimension,Gender,minority_generic,academic_research,21,21,0.38095238095238093,0.0,0.059303196803196796,-0.02083333333333333,10,0,11,,
+social_dimension,Gender,minority_generic,advocacy_community,21,21,0.047619047619047616,0.0,-0.010448017590874733,0.0,5,12,4,,
+social_dimension,Gender,minority_generic,commercial_service,21,21,0.5238095238095238,0.0,0.14043899222470652,0.0,9,2,10,,
+social_dimension,Gender,minority_generic,government,21,21,-1.5714285714285714,-1.0,-0.18271087378230236,-0.16666666666666666,1,4,16,,
+social_dimension,Gender,minority_generic,healthcare_provider,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Gender,minority_generic,intergovernmental,21,21,-0.09523809523809523,0.0,-0.007936507936507936,0.0,3,15,3,,
+social_dimension,Gender,minority_generic,news_media,21,21,-0.09523809523809523,0.0,-0.014625850340136056,0.0,1,17,3,,
+social_dimension,Gender,minority_generic,nonprofit_general,21,21,0.047619047619047616,0.0,-0.003211735354592505,0.0,9,3,9,,
+social_dimension,Gender,minority_generic,other,21,21,0.0,0.0,0.0040532879818594115,0.0,7,10,4,,
+social_dimension,Gender,minority_generic,policy_research,21,21,-0.14285714285714285,0.0,-0.007156666085237515,0.0,2,16,3,,
+social_dimension,Gender,minority_generic,professional_association,21,21,-0.047619047619047616,0.0,-0.009523809523809525,0.0,0,20,1,,
+social_dimension,Gender,minority_generic,reference,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Gender,minority_generic,social_platform,21,21,0.09523809523809523,0.0,0.031817983603697884,0.0,10,7,4,,
+social_dimension,Gender,minority_majority,academic_research,21,21,0.19047619047619047,0.0,-0.0018750429464715137,0.0,10,1,10,,
+social_dimension,Gender,minority_majority,advocacy_community,21,21,0.047619047619047616,0.0,0.002188552188552188,0.0,6,12,3,,
+social_dimension,Gender,minority_majority,commercial_service,21,21,0.9523809523809523,0.0,0.12423641173641174,0.0,8,5,8,,
+social_dimension,Gender,minority_majority,government,21,21,-1.2857142857142858,-1.0,-0.20570071462928605,-0.16666666666666666,2,2,17,,
+social_dimension,Gender,minority_majority,healthcare_provider,21,21,-0.047619047619047616,0.0,-0.011904761904761904,0.0,0,20,1,,
+social_dimension,Gender,minority_majority,intergovernmental,21,21,-0.047619047619047616,0.0,-0.01800659657802515,0.0,3,15,3,,
+social_dimension,Gender,minority_majority,news_media,21,21,0.047619047619047616,0.0,0.006802721088435374,0.0,1,20,0,,
+social_dimension,Gender,minority_majority,nonprofit_general,21,21,0.8095238095238095,0.0,0.06315192743764173,0.020202020202020193,11,2,8,,
+social_dimension,Gender,minority_majority,other,21,21,0.23809523809523808,0.0,0.02708977530406102,0.0,8,9,4,,
+social_dimension,Gender,minority_majority,policy_research,21,21,-0.14285714285714285,0.0,-0.0256708238851096,0.0,1,13,7,,
+social_dimension,Gender,minority_majority,professional_association,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Gender,minority_majority,reference,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Gender,minority_majority,social_platform,21,21,0.19047619047619047,0.0,0.03968855218855219,0.0,9,9,3,,
+social_dimension,Gender Identity,majority_generic,academic_research,21,18,0.38095238095238093,0.0,0.051551380718047386,0.010198135198135193,10,1,7,,
+social_dimension,Gender Identity,majority_generic,advocacy_community,21,18,0.0,0.0,-0.017346079846079845,0.0,4,10,4,,
+social_dimension,Gender Identity,majority_generic,commercial_service,21,18,-0.9047619047619048,-1.0,-0.06898880440547107,-0.09545454545454546,5,3,10,,
+social_dimension,Gender Identity,majority_generic,government,21,18,-0.19047619047619047,0.0,0.07607993857993857,0.05952380952380952,9,1,8,,
+social_dimension,Gender Identity,majority_generic,healthcare_provider,21,18,0.0,0.0,0.0,0.0,0,18,0,,
+social_dimension,Gender Identity,majority_generic,intergovernmental,21,18,-0.047619047619047616,0.0,0.006523569023569024,0.0,2,15,1,,
+social_dimension,Gender Identity,majority_generic,news_media,21,18,-0.047619047619047616,0.0,-0.00563973063973064,0.0,1,16,1,,
+social_dimension,Gender Identity,majority_generic,nonprofit_general,21,18,-0.3333333333333333,0.0,-0.03073315573315574,0.0,7,4,7,,
+social_dimension,Gender Identity,majority_generic,other,21,18,-0.3333333333333333,0.0,-0.040079365079365076,0.0,1,11,6,,
+social_dimension,Gender Identity,majority_generic,policy_research,21,18,0.5714285714285714,0.0,0.07375333000333001,0.0,8,9,1,,
+social_dimension,Gender Identity,majority_generic,professional_association,21,18,-0.047619047619047616,0.0,0.0,0.0,0,18,0,,
+social_dimension,Gender Identity,majority_generic,reference,21,18,0.0,0.0,0.0,0.0,0,18,0,,
+social_dimension,Gender Identity,majority_generic,social_platform,21,18,-0.42857142857142855,0.0,-0.04512108262108262,0.0,1,10,7,,
+social_dimension,Gender Identity,minority_generic,academic_research,21,21,0.42857142857142855,0.0,0.0426173732896422,0.046153846153846156,13,2,6,,
+social_dimension,Gender Identity,minority_generic,advocacy_community,21,21,1.380952380952381,1.0,0.12975450475450476,0.14285714285714285,14,5,2,,
+social_dimension,Gender Identity,minority_generic,commercial_service,21,21,-0.6666666666666666,-1.0,-0.06075012367029174,-0.09090909090909091,5,3,13,,
+social_dimension,Gender Identity,minority_generic,government,21,21,-0.38095238095238093,0.0,-0.05165250249283863,-0.04166666666666666,9,1,11,,
+social_dimension,Gender Identity,minority_generic,healthcare_provider,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Gender Identity,minority_generic,intergovernmental,21,21,-0.23809523809523808,0.0,-0.02417027417027417,0.0,0,18,3,,
+social_dimension,Gender Identity,minority_generic,news_media,21,21,-0.047619047619047616,0.0,-0.011824729891956784,0.0,1,17,3,,
+social_dimension,Gender Identity,minority_generic,nonprofit_general,21,21,0.14285714285714285,0.0,0.014449147957551312,0.01785714285714285,11,0,10,,
+social_dimension,Gender Identity,minority_generic,other,21,21,-0.42857142857142855,0.0,-0.04998572855715712,0.0,1,13,7,,
+social_dimension,Gender Identity,minority_generic,policy_research,21,21,0.19047619047619047,0.0,0.01298820227391656,0.0,5,12,4,,
+social_dimension,Gender Identity,minority_generic,professional_association,21,21,0.09523809523809523,0.0,0.0033302209772797997,0.0,3,17,1,,
+social_dimension,Gender Identity,minority_generic,reference,21,21,0.09523809523809523,0.0,0.013888888888888886,0.0,2,19,0,,
+social_dimension,Gender Identity,minority_generic,social_platform,21,21,-0.23809523809523808,0.0,-0.018644979359265075,0.0,3,12,6,,
+social_dimension,Gender Identity,minority_majority,academic_research,21,18,0.047619047619047616,0.0,-0.021620509120509127,0.0,8,3,7,,
+social_dimension,Gender Identity,minority_majority,advocacy_community,21,18,1.380952380952381,1.0,0.15329423662756994,0.16774891774891776,14,2,2,,
+social_dimension,Gender Identity,minority_majority,commercial_service,21,18,0.23809523809523808,0.0,0.006448643948643945,0.0,6,8,4,,
+social_dimension,Gender Identity,minority_majority,government,21,18,-0.19047619047619047,0.0,-0.11731432148098814,-0.09444444444444444,5,2,11,,
+social_dimension,Gender Identity,minority_majority,healthcare_provider,21,18,0.0,0.0,0.0,0.0,0,18,0,,
+social_dimension,Gender Identity,minority_majority,intergovernmental,21,18,-0.19047619047619047,0.0,-0.034722222222222224,0.0,0,15,3,,
+social_dimension,Gender Identity,minority_majority,news_media,21,18,0.0,0.0,-0.0021645021645021654,0.0,1,16,1,,
+social_dimension,Gender Identity,minority_majority,nonprofit_general,21,18,0.47619047619047616,0.0,0.05199730824730824,-0.013986013986013984,8,1,9,,
+social_dimension,Gender Identity,minority_majority,other,21,18,-0.09523809523809523,0.0,-0.013186813186813187,0.0,1,14,3,,
+social_dimension,Gender Identity,minority_majority,policy_research,21,18,-0.38095238095238093,0.0,-0.05860042735042735,0.0,2,8,8,,
+social_dimension,Gender Identity,minority_majority,professional_association,21,18,0.14285714285714285,0.0,0.011728395061728396,0.0,2,16,0,,
+social_dimension,Gender Identity,minority_majority,reference,21,18,0.09523809523809523,0.0,0.006944444444444444,0.0,1,17,0,,
+social_dimension,Gender Identity,minority_majority,social_platform,21,18,0.19047619047619047,0.0,0.017195767195767195,0.0,3,14,1,,
+social_dimension,Race,majority_generic,academic_research,21,21,-0.7142857142857143,0.0,-0.029699929699929697,0.0,7,4,10,,
+social_dimension,Race,majority_generic,advocacy_community,21,21,-0.09523809523809523,0.0,0.011356764928193501,0.0,2,16,3,,
+social_dimension,Race,majority_generic,commercial_service,21,21,-1.0952380952380953,-1.0,-0.08812470598184884,-0.09090909090909091,5,4,12,,
+social_dimension,Race,majority_generic,government,21,21,-0.6666666666666666,0.0,-0.008778523064237346,0.0,8,4,9,,
+social_dimension,Race,majority_generic,healthcare_provider,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Race,majority_generic,intergovernmental,21,21,-0.14285714285714285,0.0,-0.006709956709956709,0.0,1,18,2,,
+social_dimension,Race,majority_generic,news_media,21,21,0.0,0.0,0.006802721088435374,0.0,3,15,3,,
+social_dimension,Race,majority_generic,nonprofit_general,21,21,-0.42857142857142855,0.0,0.015701890701890698,0.0,9,4,8,,
+social_dimension,Race,majority_generic,other,21,21,-0.42857142857142855,0.0,-0.05047412904555762,0.0,1,13,7,,
+social_dimension,Race,majority_generic,policy_research,21,21,0.6190476190476191,0.0,0.11830629687772545,0.0,10,10,1,,
+social_dimension,Race,majority_generic,professional_association,21,21,0.0,0.0,0.0023809523809523803,0.0,1,19,1,,
+social_dimension,Race,majority_generic,reference,21,21,0.09523809523809523,0.0,0.01870748299319728,0.0,2,19,0,,
+social_dimension,Race,majority_generic,social_platform,21,21,-0.23809523809523808,0.0,0.01053113553113553,0.0,3,13,5,,
+social_dimension,Race,minority_generic,academic_research,21,21,-0.2857142857142857,-1.0,-0.03010666582095154,-0.05952380952380952,7,1,13,,
+social_dimension,Race,minority_generic,advocacy_community,21,21,0.3333333333333333,0.0,0.022127739984882842,0.0,4,15,2,,
+social_dimension,Race,minority_generic,commercial_service,21,21,-0.42857142857142855,0.0,-0.06321258106972392,-0.0888888888888889,7,2,12,,
+social_dimension,Race,minority_generic,government,21,21,-0.19047619047619047,0.0,-0.04748439391296535,-0.012820512820512803,9,1,11,,
+social_dimension,Race,minority_generic,healthcare_provider,21,21,0.047619047619047616,0.0,0.007936507936507936,0.0,1,20,0,,
+social_dimension,Race,minority_generic,intergovernmental,21,21,-0.23809523809523808,0.0,-0.02417027417027417,0.0,0,18,3,,
+social_dimension,Race,minority_generic,news_media,21,21,0.047619047619047616,0.0,-0.005860805860805861,0.0,4,14,3,,
+social_dimension,Race,minority_generic,nonprofit_general,21,21,0.7619047619047619,1.0,0.036814111814111816,0.07051282051282053,12,2,7,,
+social_dimension,Race,minority_generic,other,21,21,-0.38095238095238093,0.0,-0.04204922062064919,0.0,1,13,7,,
+social_dimension,Race,minority_generic,policy_research,21,21,1.3333333333333333,1.0,0.15176899819756964,0.1111111111111111,15,5,1,,
+social_dimension,Race,minority_generic,professional_association,21,21,0.0,0.0,-0.0027210884353741508,0.0,1,19,1,,
+social_dimension,Race,minority_generic,reference,21,21,0.09523809523809523,0.0,0.00763125763125763,0.0,2,19,0,,
+social_dimension,Race,minority_generic,social_platform,21,21,-0.14285714285714285,0.0,-0.010673585673585676,0.0,2,13,6,,
+social_dimension,Race,minority_majority,academic_research,21,21,0.42857142857142855,0.0,-0.0004067361210218375,0.0,9,4,8,,
+social_dimension,Race,minority_majority,advocacy_community,21,21,0.42857142857142855,0.0,0.010770975056689341,0.0,3,15,3,,
+social_dimension,Race,minority_majority,commercial_service,21,21,0.6666666666666666,0.0,0.02491212491212491,0.0,8,7,6,,
+social_dimension,Race,minority_majority,government,21,21,0.47619047619047616,1.0,-0.038705870848727994,0.0,10,1,10,,
+social_dimension,Race,minority_majority,healthcare_provider,21,21,0.047619047619047616,0.0,0.007936507936507936,0.0,1,20,0,,
+social_dimension,Race,minority_majority,intergovernmental,21,21,-0.09523809523809523,0.0,-0.01746031746031746,0.0,0,19,2,,
+social_dimension,Race,minority_majority,news_media,21,21,0.047619047619047616,0.0,-0.012663526949241236,0.0,3,15,3,,
+social_dimension,Race,minority_majority,nonprofit_general,21,21,1.1904761904761905,1.0,0.021112221112221115,0.016666666666666663,11,3,7,,
+social_dimension,Race,minority_majority,other,21,21,0.047619047619047616,0.0,0.008424908424908424,0.0,2,19,0,,
+social_dimension,Race,minority_majority,policy_research,21,21,0.7142857142857143,1.0,0.033462701319844176,0.0,8,5,8,,
+social_dimension,Race,minority_majority,professional_association,21,21,0.0,0.0,-0.005102040816326531,0.0,1,19,1,,
+social_dimension,Race,minority_majority,reference,21,21,0.0,0.0,-0.011076225361939649,0.0,0,19,2,,
+social_dimension,Race,minority_majority,social_platform,21,21,0.09523809523809523,0.0,-0.021204721204721205,0.0,3,14,4,,
+social_dimension,Sexual Orientation,majority_generic,academic_research,21,18,-0.09523809523809523,-1.0,-0.024916672833339495,-0.05555555555555555,7,2,9,,
+social_dimension,Sexual Orientation,majority_generic,advocacy_community,21,18,0.047619047619047616,0.0,-0.01007495590828924,0.0,4,10,4,,
+social_dimension,Sexual Orientation,majority_generic,commercial_service,21,18,-0.6190476190476191,-1.0,0.004749571416238088,-0.045454545454545456,7,2,9,,
+social_dimension,Sexual Orientation,majority_generic,government,21,18,0.19047619047619047,0.0,0.05984216400883066,0.016666666666666677,9,2,7,,
+social_dimension,Sexual Orientation,majority_generic,healthcare_provider,21,18,0.047619047619047616,0.0,0.005555555555555556,0.0,1,17,0,,
+social_dimension,Sexual Orientation,majority_generic,intergovernmental,21,18,0.09523809523809523,0.0,0.013456990540323873,0.0,4,13,1,,
+social_dimension,Sexual Orientation,majority_generic,news_media,21,18,-0.047619047619047616,0.0,-0.0014660493827160503,0.0,2,15,1,,
+social_dimension,Sexual Orientation,majority_generic,nonprofit_general,21,18,-0.7619047619047619,0.0,-0.03517539559206226,-0.026289682539682536,5,3,10,,
+social_dimension,Sexual Orientation,majority_generic,other,21,18,-0.23809523809523808,0.0,-0.014916025332691997,0.0,4,8,6,,
+social_dimension,Sexual Orientation,majority_generic,policy_research,21,18,0.09523809523809523,0.0,0.029470221136887804,0.0,6,9,3,,
+social_dimension,Sexual Orientation,majority_generic,professional_association,21,18,-0.047619047619047616,0.0,-0.011111111111111112,0.0,0,17,1,,
+social_dimension,Sexual Orientation,majority_generic,reference,21,18,0.0,0.0,0.0,0.0,0,18,0,,
+social_dimension,Sexual Orientation,majority_generic,social_platform,21,18,-0.2857142857142857,0.0,-0.015414292497625832,0.0,2,11,5,,
+social_dimension,Sexual Orientation,minority_generic,academic_research,21,21,0.0,0.0,0.03301962587676873,0.006410256410256401,11,3,7,,
+social_dimension,Sexual Orientation,minority_generic,advocacy_community,21,21,0.6190476190476191,0.0,0.06424501424501423,0.0,9,9,3,,
+social_dimension,Sexual Orientation,minority_generic,commercial_service,21,21,-0.47619047619047616,0.0,-0.035198663770092335,-0.024999999999999994,8,1,12,,
+social_dimension,Sexual Orientation,minority_generic,government,21,21,-0.5238095238095238,0.0,-0.07322188393616964,-0.050000000000000044,5,3,13,,
+social_dimension,Sexual Orientation,minority_generic,healthcare_provider,21,21,0.0,0.0,0.0,0.0,0,21,0,,
+social_dimension,Sexual Orientation,minority_generic,intergovernmental,21,21,-0.23809523809523808,0.0,-0.02417027417027417,0.0,0,18,3,,
+social_dimension,Sexual Orientation,minority_generic,news_media,21,21,-0.14285714285714285,0.0,-0.02142857142857143,0.0,0,18,3,,
+social_dimension,Sexual Orientation,minority_generic,nonprofit_general,21,21,-0.14285714285714285,1.0,0.0035331071045356707,0.031746031746031744,12,2,7,,
+social_dimension,Sexual Orientation,minority_generic,other,21,21,-0.38095238095238093,0.0,-0.0445578231292517,0.0,0,14,7,,
+social_dimension,Sexual Orientation,minority_generic,policy_research,21,21,0.8571428571428571,0.0,0.09561602418745276,0.0,10,10,1,,
+social_dimension,Sexual Orientation,minority_generic,professional_association,21,21,0.14285714285714285,0.0,0.012739641311069881,0.0,3,17,1,,
+social_dimension,Sexual Orientation,minority_generic,reference,21,21,0.09523809523809523,0.0,0.015476190476190477,0.0,2,19,0,,
+social_dimension,Sexual Orientation,minority_generic,social_platform,21,21,-0.2857142857142857,0.0,-0.026052386766672483,0.0,4,10,7,,
+social_dimension,Sexual Orientation,minority_majority,academic_research,21,18,0.09523809523809523,1.0,0.011852268102268098,0.038461538461538464,9,2,7,,
+social_dimension,Sexual Orientation,minority_majority,advocacy_community,21,18,0.5714285714285714,0.0,0.08502747252747252,0.038461538461538464,9,7,2,,
+social_dimension,Sexual Orientation,minority_majority,commercial_service,21,18,0.14285714285714285,0.0,-0.01671415004748339,0.0,8,5,5,,
+social_dimension,Sexual Orientation,minority_majority,government,21,18,-0.7142857142857143,0.0,-0.14725182225182223,-0.1482142857142857,6,2,10,,
+social_dimension,Sexual Orientation,minority_majority,healthcare_provider,21,18,-0.047619047619047616,0.0,-0.005555555555555556,0.0,0,17,1,,
+social_dimension,Sexual Orientation,minority_majority,intergovernmental,21,18,-0.3333333333333333,0.0,-0.04165564373897707,0.0,0,13,5,,
+social_dimension,Sexual Orientation,minority_majority,news_media,21,18,-0.09523809523809523,0.0,-0.009645061728395061,0.0,0,16,2,,
+social_dimension,Sexual Orientation,minority_majority,nonprofit_general,21,18,0.6190476190476191,1.0,0.04524973483306817,0.05555555555555555,9,2,7,,
+social_dimension,Sexual Orientation,minority_majority,other,21,18,-0.14285714285714285,0.0,-0.023179212762546093,0.0,2,11,5,,
+social_dimension,Sexual Orientation,minority_majority,policy_research,21,18,0.7619047619047619,0.0,0.058933658933658935,0.024999999999999994,9,4,5,,
+social_dimension,Sexual Orientation,minority_majority,professional_association,21,18,0.19047619047619047,0.0,0.025974025974025972,0.0,3,15,0,,
+social_dimension,Sexual Orientation,minority_majority,reference,21,18,0.09523809523809523,0.0,0.018055555555555557,0.0,2,16,0,,
+social_dimension,Sexual Orientation,minority_majority,social_platform,21,18,0.0,0.0,-0.001091269841269842,0.0,4,11,3,,
+domain,,majority_generic,academic_research,18,17,0.2222222222222222,0.0,0.08835200746965453,0.0,8,6,3,Credit & Financial Services,
+domain,,majority_generic,advocacy_community,18,17,0.05555555555555555,0.0,0.014705882352941176,0.0,1,16,0,Credit & Financial Services,
+domain,,majority_generic,commercial_service,18,17,-1.7222222222222223,-1.0,-0.10172099142687377,-0.125,5,1,11,Credit & Financial Services,
+domain,,majority_generic,government,18,17,-0.2777777777777778,0.0,0.01377217553688142,0.0,6,4,7,Credit & Financial Services,
+domain,,majority_generic,healthcare_provider,18,17,0.0,0.0,0.0,0.0,0,17,0,Credit & Financial Services,
+domain,,majority_generic,intergovernmental,18,17,-0.1111111111111111,0.0,-0.013422035480859015,0.0,4,10,3,Credit & Financial Services,
+domain,,majority_generic,news_media,18,17,0.16666666666666666,0.0,0.02964519140989729,0.0,3,14,0,Credit & Financial Services,
+domain,,majority_generic,nonprofit_general,18,17,-1.3888888888888888,-1.5,-0.12399202105084459,-0.125,5,1,11,Credit & Financial Services,
+domain,,majority_generic,other,18,17,-0.2222222222222222,0.0,-0.005496137849079027,0.0,2,10,5,Credit & Financial Services,
+domain,,majority_generic,policy_research,18,17,0.3333333333333333,0.0,0.060340802987861805,0.0,7,6,4,Credit & Financial Services,
+domain,,majority_generic,professional_association,18,17,0.0,0.0,0.0,0.0,0,17,0,Credit & Financial Services,
+domain,,majority_generic,reference,18,17,0.16666666666666666,0.0,0.037815126050420166,0.0,3,14,0,Credit & Financial Services,
+domain,,majority_generic,social_platform,18,17,0.0,0.0,0.0,0.0,0,17,0,Credit & Financial Services,
+domain,,minority_generic,academic_research,18,18,0.2777777777777778,0.0,0.02193223443223443,0.0,7,5,6,Credit & Financial Services,
+domain,,minority_generic,advocacy_community,18,18,0.6111111111111112,0.0,0.07435388685388684,0.0,7,11,0,Credit & Financial Services,
+domain,,minority_generic,commercial_service,18,18,-0.3333333333333333,0.5,-0.010649073149073138,0.05833333333333335,10,0,8,Credit & Financial Services,
+domain,,minority_generic,government,18,18,-0.05555555555555555,0.0,-0.030499592999592998,-0.02724358974358973,6,2,10,Credit & Financial Services,
+domain,,minority_generic,healthcare_provider,18,18,0.0,0.0,0.0,0.0,0,18,0,Credit & Financial Services,
+domain,,minority_generic,intergovernmental,18,18,-0.6666666666666666,0.0,-0.08333333333333333,0.0,0,12,6,Credit & Financial Services,
+domain,,minority_generic,news_media,18,18,0.1111111111111111,0.0,0.010185185185185186,0.0,2,16,0,Credit & Financial Services,
+domain,,minority_generic,nonprofit_general,18,18,-0.6666666666666666,-1.0,-0.09074305324305326,-0.14615384615384613,6,0,12,Credit & Financial Services,
+domain,,minority_generic,other,18,18,-0.16666666666666666,0.0,-0.01352952602952603,0.0,3,10,5,Credit & Financial Services,
+domain,,minority_generic,policy_research,18,18,0.6111111111111112,0.0,0.04171584588251255,0.016666666666666677,9,5,4,Credit & Financial Services,
+domain,,minority_generic,professional_association,18,18,0.2222222222222222,0.0,0.019349477682811016,0.0,3,15,0,Credit & Financial Services,
+domain,,minority_generic,reference,18,18,0.3333333333333333,0.0,0.04316239316239316,0.0,6,12,0,Credit & Financial Services,
+domain,,minority_generic,social_platform,18,18,0.16666666666666666,0.0,0.018055555555555557,0.0,3,15,0,Credit & Financial Services,
+domain,,minority_majority,academic_research,18,17,0.05555555555555555,0.0,-0.06512964160022984,-0.06349206349206349,6,1,10,Credit & Financial Services,
+domain,,minority_majority,advocacy_community,18,17,0.5555555555555556,0.0,0.05421784098254686,0.0,6,10,1,Credit & Financial Services,
+domain,,minority_majority,commercial_service,18,17,1.3888888888888888,2.0,0.10292322057027939,0.2,12,0,5,Credit & Financial Services,
+domain,,minority_majority,government,18,17,0.2222222222222222,0.0,-0.05586978381096028,0.0,5,4,8,Credit & Financial Services,
+domain,,minority_majority,healthcare_provider,18,17,0.0,0.0,0.0,0.0,0,17,0,Credit & Financial Services,
+domain,,minority_majority,intergovernmental,18,17,-0.5555555555555556,0.0,-0.07481325863678805,0.0,0,11,6,Credit & Financial Services,
+domain,,minority_majority,news_media,18,17,-0.05555555555555555,0.0,-0.018860877684407095,0.0,1,13,3,Credit & Financial Services,
+domain,,minority_majority,nonprofit_general,18,17,0.7222222222222222,1.0,0.039497593909358614,0.033333333333333354,9,0,8,Credit & Financial Services,
+domain,,minority_majority,other,18,17,0.05555555555555555,0.0,-0.0034816490698843616,0.0,3,12,2,Credit & Financial Services,
+domain,,minority_majority,policy_research,18,17,0.2777777777777778,0.0,-0.016171083818142636,-0.025641025641025605,4,3,10,Credit & Financial Services,
+domain,,minority_majority,professional_association,18,17,0.2222222222222222,0.0,0.020487682252388135,0.0,3,14,0,Credit & Financial Services,
+domain,,minority_majority,reference,18,17,0.16666666666666666,0.0,-0.0019176901529842703,0.0,3,11,3,Credit & Financial Services,
+domain,,minority_majority,social_platform,18,17,0.16666666666666666,0.0,0.01911764705882353,0.0,3,14,0,Credit & Financial Services,
+domain,,majority_generic,academic_research,18,17,-0.2777777777777778,-1.0,-0.0120151090739326,-0.1,8,0,9,Criminal Justice,
+domain,,majority_generic,advocacy_community,18,17,0.2777777777777778,0.0,0.0827678040913335,0.0111111111111111,9,4,4,Criminal Justice,
+domain,,majority_generic,commercial_service,18,17,-0.7222222222222222,-1.0,-0.04404761904761905,-0.1,4,0,13,Criminal Justice,
+domain,,majority_generic,government,18,17,-0.7222222222222222,-0.5,0.03488986503692385,0.05681818181818182,9,0,8,Criminal Justice,
+domain,,majority_generic,healthcare_provider,18,17,0.0,0.0,0.0,0.0,0,17,0,Criminal Justice,
+domain,,majority_generic,intergovernmental,18,17,0.0,0.0,0.0,0.0,0,17,0,Criminal Justice,
+domain,,majority_generic,news_media,18,17,0.0,0.0,0.0,0.0,0,17,0,Criminal Justice,
+domain,,majority_generic,nonprofit_general,18,17,-0.6111111111111112,-1.0,-0.04007724301841949,-0.04999999999999999,4,4,9,Criminal Justice,
+domain,,majority_generic,other,18,17,0.1111111111111111,0.0,0.012079831932773108,0.0,2,15,0,Criminal Justice,
+domain,,majority_generic,policy_research,18,17,0.0,0.0,0.0,0.0,0,17,0,Criminal Justice,
+domain,,majority_generic,professional_association,18,17,0.05555555555555555,0.0,0.0196078431372549,0.0,1,16,0,Criminal Justice,
+domain,,majority_generic,reference,18,17,0.0,0.0,0.0,0.0,0,17,0,Criminal Justice,
+domain,,majority_generic,social_platform,18,17,-0.6666666666666666,-1.0,-0.05320537305831424,-0.125,4,4,9,Criminal Justice,
+domain,,minority_generic,academic_research,18,18,-0.5555555555555556,-0.5,-0.04078483245149912,-0.0376984126984127,8,0,10,Criminal Justice,
+domain,,minority_generic,advocacy_community,18,18,1.2777777777777777,1.0,0.1718253968253968,0.16785714285714284,14,3,1,Criminal Justice,
+domain,,minority_generic,commercial_service,18,18,-0.6666666666666666,-1.0,-0.06558641975308642,-0.10555555555555556,2,0,16,Criminal Justice,
+domain,,minority_generic,government,18,18,-2.2222222222222223,-2.5,-0.20707671957671958,-0.22222222222222224,2,1,15,Criminal Justice,
+domain,,minority_generic,healthcare_provider,18,18,0.0,0.0,0.0,0.0,0,18,0,Criminal Justice,
+domain,,minority_generic,intergovernmental,18,18,0.0,0.0,0.0,0.0,0,18,0,Criminal Justice,
+domain,,minority_generic,news_media,18,18,0.05555555555555555,0.0,0.007936507936507936,0.0,1,17,0,Criminal Justice,
+domain,,minority_generic,nonprofit_general,18,18,0.6111111111111112,0.0,0.0882716049382716,0.05555555555555555,13,0,5,Criminal Justice,
+domain,,minority_generic,other,18,18,0.2222222222222222,0.0,0.026455026455026454,0.0,3,15,0,Criminal Justice,
+domain,,minority_generic,policy_research,18,18,0.4444444444444444,0.0,0.05729717813051146,0.0,6,12,0,Criminal Justice,
+domain,,minority_generic,professional_association,18,18,0.1111111111111111,0.0,0.015873015873015872,0.0,2,16,0,Criminal Justice,
+domain,,minority_generic,reference,18,18,0.0,0.0,0.0,0.0,0,18,0,Criminal Justice,
+domain,,minority_generic,social_platform,18,18,-0.6111111111111112,-0.5,-0.05421075837742505,-0.06944444444444445,4,4,10,Criminal Justice,
+domain,,minority_majority,academic_research,18,17,-0.2777777777777778,0.0,-0.029534844240726596,0.0,8,3,6,Criminal Justice,
+domain,,minority_majority,advocacy_community,18,17,1.0,1.0,0.09344601476954419,0.09722222222222221,10,3,4,Criminal Justice,
+domain,,minority_majority,commercial_service,18,17,0.05555555555555555,0.0,-0.018043884220354807,0.0,4,10,3,Criminal Justice,
+domain,,minority_majority,government,18,17,-1.5,-1.5,-0.2533305746541041,-0.25,2,1,14,Criminal Justice,
+domain,,minority_majority,healthcare_provider,18,17,0.0,0.0,0.0,0.0,0,17,0,Criminal Justice,
+domain,,minority_majority,intergovernmental,18,17,0.0,0.0,0.0,0.0,0,17,0,Criminal Justice,
+domain,,minority_majority,news_media,18,17,0.05555555555555555,0.0,0.008403361344537815,0.0,1,16,0,Criminal Justice,
+domain,,minority_majority,nonprofit_general,18,17,1.2222222222222223,1.0,0.12210338680926916,0.14285714285714285,12,3,2,Criminal Justice,
+domain,,minority_majority,other,18,17,0.1111111111111111,0.0,0.015931372549019607,0.0,3,12,2,Criminal Justice,
+domain,,minority_majority,policy_research,18,17,0.4444444444444444,0.0,0.06066760037348272,0.0,6,11,0,Criminal Justice,
+domain,,minority_majority,professional_association,18,17,0.05555555555555555,0.0,-0.0028011204481792717,0.0,2,14,1,Criminal Justice,
+domain,,minority_majority,reference,18,17,0.0,0.0,0.0,0.0,0,17,0,Criminal Justice,
+domain,,minority_majority,social_platform,18,17,0.05555555555555555,0.0,0.003158687717511243,0.0,5,8,4,Criminal Justice,
+domain,,majority_generic,academic_research,18,15,-0.05555555555555555,-1.0,0.002724867724867737,-0.047619047619047616,7,0,8,Education,
+domain,,majority_generic,advocacy_community,18,15,0.2222222222222222,0.0,0.02321428571428571,0.0,4,11,0,Education,
+domain,,majority_generic,commercial_service,18,15,-0.3888888888888889,-1.0,-0.05484126984126983,0.0,3,6,6,Education,
+domain,,majority_generic,government,18,15,0.2777777777777778,0.0,0.05466931216931218,0.033333333333333354,8,0,7,Education,
+domain,,majority_generic,healthcare_provider,18,15,0.0,0.0,0.0,0.0,0,15,0,Education,
+domain,,majority_generic,intergovernmental,18,15,-0.5,0.0,-0.049166666666666664,0.0,1,8,6,Education,
+domain,,majority_generic,news_media,18,15,-0.2222222222222222,0.0,-0.025,0.0,1,11,3,Education,
+domain,,majority_generic,nonprofit_general,18,15,0.2222222222222222,-0.5,0.05828042328042329,0.08333333333333333,8,0,7,Education,
+domain,,majority_generic,other,18,15,-0.7777777777777778,-1.0,-0.10126984126984126,-0.16666666666666666,0,4,11,Education,
+domain,,majority_generic,policy_research,18,15,0.3888888888888889,0.0,0.06212962962962963,0.0,5,10,0,Education,
+domain,,majority_generic,professional_association,18,15,0.05555555555555555,0.0,0.016666666666666666,0.0,1,14,0,Education,
+domain,,majority_generic,reference,18,15,0.0,0.0,0.0,0.0,0,15,0,Education,
+domain,,majority_generic,social_platform,18,15,0.0,0.0,0.012592592592592593,0.0,3,8,4,Education,
+domain,,minority_generic,academic_research,18,18,0.2222222222222222,0.5,0.019256134207114615,-0.0111111111111111,9,0,9,Education,
+domain,,minority_generic,advocacy_community,18,18,0.1111111111111111,0.0,0.011728395061728396,0.0,2,16,0,Education,
+domain,,minority_generic,commercial_service,18,18,0.3888888888888889,0.0,0.015259323102460365,-0.011904761904761904,6,3,9,Education,
+domain,,minority_generic,government,18,18,0.7222222222222222,1.0,0.04950953186247304,0.05982905982905984,12,0,6,Education,
+domain,,minority_generic,healthcare_provider,18,18,0.0,0.0,0.0,0.0,0,18,0,Education,
+domain,,minority_generic,intergovernmental,18,18,-0.6666666666666666,0.0,-0.05555555555555555,0.0,0,12,6,Education,
+domain,,minority_generic,news_media,18,18,-0.1111111111111111,0.0,-0.03628568236411373,0.0,2,10,6,Education,
+domain,,minority_generic,nonprofit_general,18,18,0.9444444444444444,0.5,0.03957990992304719,0.0560897435897436,11,0,7,Education,
+domain,,minority_generic,other,18,18,-0.7777777777777778,-1.0,-0.09067599067599068,-0.08275058275058274,0,6,12,Education,
+domain,,minority_generic,policy_research,18,18,0.2222222222222222,0.0,0.021604938271604937,0.0,3,15,0,Education,
+domain,,minority_generic,professional_association,18,18,0.2777777777777778,0.0,0.02571466296956493,0.0,4,14,0,Education,
+domain,,minority_generic,reference,18,18,0.0,0.0,0.0,0.0,0,18,0,Education,
+domain,,minority_generic,social_platform,18,18,-0.1111111111111111,0.0,-0.00013566680233346852,0.0,3,11,4,Education,
+domain,,minority_majority,academic_research,18,15,0.2777777777777778,1.0,-0.009713989713989709,0.0,7,1,7,Education,
+domain,,minority_majority,advocacy_community,18,15,-0.1111111111111111,0.0,-0.00914021164021164,0.0,2,9,4,Education,
+domain,,minority_majority,commercial_service,18,15,0.7777777777777778,0.0,0.08911884411884412,0.0,6,4,5,Education,
+domain,,minority_majority,government,18,15,0.4444444444444444,1.0,-0.011473248973248976,0.047619047619047616,8,1,6,Education,
+domain,,minority_majority,healthcare_provider,18,15,0.0,0.0,0.0,0.0,0,15,0,Education,
+domain,,minority_majority,intergovernmental,18,15,-0.16666666666666666,0.0,-0.0175,0.0,0,12,3,Education,
+domain,,minority_majority,news_media,18,15,0.1111111111111111,0.0,0.01086894586894587,0.0,3,11,1,Education,
+domain,,minority_majority,nonprofit_general,18,15,0.7222222222222222,1.5,0.001478151478151483,0.05555555555555555,8,1,6,Education,
+domain,,minority_majority,other,18,15,0.0,0.0,-0.007541347541347539,0.0,4,7,4,Education,
+domain,,minority_majority,policy_research,18,15,-0.16666666666666666,0.0,-0.03620370370370371,0.0,2,8,5,Education,
+domain,,minority_majority,professional_association,18,15,0.2222222222222222,0.0,0.002861952861952862,0.0,2,12,1,Education,
+domain,,minority_majority,reference,18,15,0.0,0.0,0.0,0.0,0,15,0,Education,
+domain,,minority_majority,social_platform,18,15,-0.1111111111111111,0.0,-0.012755392755392754,0.0,1,11,3,Education,
+domain,,majority_generic,academic_research,18,15,0.3333333333333333,0.0,0.11634920634920635,0.0,7,6,2,Employment,
+domain,,majority_generic,advocacy_community,18,15,-0.3333333333333333,0.0,-0.05714285714285714,0.0,0,9,6,Employment,
+domain,,majority_generic,commercial_service,18,15,-1.6666666666666667,-1.0,-0.050317460317460316,-0.028571428571428525,6,0,9,Employment,
+domain,,majority_generic,government,18,15,-0.16666666666666666,0.0,0.022539682539682544,0.0,5,3,7,Employment,
+domain,,majority_generic,healthcare_provider,18,15,0.0,0.0,0.0,0.0,0,15,0,Employment,
+domain,,majority_generic,intergovernmental,18,15,0.0,0.0,0.0,0.0,0,15,0,Employment,
+domain,,majority_generic,news_media,18,15,-0.2777777777777778,0.0,-0.05333333333333334,0.0,1,9,5,Employment,
+domain,,majority_generic,nonprofit_general,18,15,0.5555555555555556,0.5,0.12841269841269842,0.14285714285714285,9,6,0,Employment,
+domain,,majority_generic,other,18,15,-1.1111111111111112,-1.0,-0.07428571428571429,-0.14285714285714285,3,3,9,Employment,
+domain,,majority_generic,policy_research,18,15,0.16666666666666666,0.0,0.04111111111111111,0.0,3,12,0,Employment,
+domain,,majority_generic,professional_association,18,15,0.0,0.0,0.0,0.0,0,15,0,Employment,
+domain,,majority_generic,reference,18,15,0.0,0.0,0.0,0.0,0,15,0,Employment,
+domain,,majority_generic,social_platform,18,15,-1.1111111111111112,-1.0,-0.07333333333333333,0.0,2,6,7,Employment,
+domain,,minority_generic,academic_research,18,18,0.8888888888888888,1.0,0.10487413820747155,0.0883116883116883,12,2,4,Employment,
+domain,,minority_generic,advocacy_community,18,18,-0.2222222222222222,0.0,-0.03218694885361552,0.0,1,11,6,Employment,
+domain,,minority_generic,commercial_service,18,18,-0.4444444444444444,0.0,-0.056034551867885196,-0.07301587301587303,4,2,12,Employment,
+domain,,minority_generic,government,18,18,0.3333333333333333,0.0,-0.02887004970338304,-0.04523809523809526,5,3,10,Employment,
+domain,,minority_generic,healthcare_provider,18,18,0.0,0.0,0.0,0.0,0,18,0,Employment,
+domain,,minority_generic,intergovernmental,18,18,0.0,0.0,0.0,0.0,0,18,0,Employment,
+domain,,minority_generic,news_media,18,18,-0.2777777777777778,0.0,-0.062037037037037036,0.0,1,11,6,Employment,
+domain,,minority_generic,nonprofit_general,18,18,2.0,2.0,0.24085497835497835,0.2361111111111111,15,3,0,Employment,
+domain,,minority_generic,other,18,18,-1.1111111111111112,-1.0,-0.09993386243386243,-0.14285714285714285,1,6,11,Employment,
+domain,,minority_generic,policy_research,18,18,0.2222222222222222,0.0,0.022839506172839506,0.0,3,15,0,Employment,
+domain,,minority_generic,professional_association,18,18,0.0,0.0,0.0,0.0,0,18,0,Employment,
+domain,,minority_generic,reference,18,18,0.0,0.0,0.0,0.0,0,18,0,Employment,
+domain,,minority_generic,social_platform,18,18,-0.8888888888888888,-1.0,-0.08950617283950618,-0.09444444444444446,3,4,11,Employment,
+domain,,minority_majority,academic_research,18,15,0.5555555555555556,1.0,-0.023833573833573842,0.0,7,2,6,Employment,
+domain,,minority_majority,advocacy_community,18,15,0.1111111111111111,0.0,0.01851851851851852,0.0,2,13,0,Employment,
+domain,,minority_majority,commercial_service,18,15,1.2222222222222223,1.0,0.010853775853775845,-0.08333333333333331,5,2,8,Employment,
+domain,,minority_majority,government,18,15,0.5,0.0,-0.061628186628186636,-0.08333333333333334,5,1,9,Employment,
+domain,,minority_majority,healthcare_provider,18,15,0.0,0.0,0.0,0.0,0,15,0,Employment,
+domain,,minority_majority,intergovernmental,18,15,0.0,0.0,0.0,0.0,0,15,0,Employment,
+domain,,minority_majority,news_media,18,15,0.0,0.0,-0.007777777777777778,0.0,1,13,1,Employment,
+domain,,minority_majority,nonprofit_general,18,15,1.4444444444444444,2.0,0.0895021645021645,0.1111111111111111,10,2,3,Employment,
+domain,,minority_majority,other,18,15,0.0,0.0,-0.02452380952380952,0.0,2,9,4,Employment,
+domain,,minority_majority,policy_research,18,15,0.05555555555555555,0.0,-0.013703703703703702,0.0,1,11,3,Employment,
+domain,,minority_majority,professional_association,18,15,0.0,0.0,0.0,0.0,0,15,0,Employment,
+domain,,minority_majority,reference,18,15,0.0,0.0,0.0,0.0,0,15,0,Employment,
+domain,,minority_majority,social_platform,18,15,0.2222222222222222,0.0,0.01259259259259259,0.0,6,6,3,Employment,
+domain,,majority_generic,academic_research,18,17,-1.0555555555555556,-1.0,-0.08022843169901994,-0.07692307692307693,5,0,12,Government Benefits,
+domain,,majority_generic,advocacy_community,18,17,0.2222222222222222,0.0,0.03921568627450981,0.0,4,13,0,Government Benefits,
+domain,,majority_generic,commercial_service,18,17,-0.3888888888888889,0.0,0.0037827368709721625,0.0,7,4,6,Government Benefits,
+domain,,majority_generic,government,18,17,0.7222222222222222,0.0,0.11858566270330977,0.08333333333333333,10,3,4,Government Benefits,
+domain,,majority_generic,healthcare_provider,18,17,0.0,0.0,0.0,0.0,0,17,0,Government Benefits,
+domain,,majority_generic,intergovernmental,18,17,0.05555555555555555,0.0,0.004524886877828055,0.0,1,16,0,Government Benefits,
+domain,,majority_generic,news_media,18,17,-0.2222222222222222,0.0,-0.013814616755793223,0.0,1,12,4,Government Benefits,
+domain,,majority_generic,nonprofit_general,18,17,-2.4444444444444446,-2.0,-0.13046153193212018,-0.09999999999999998,5,0,12,Government Benefits,
+domain,,majority_generic,other,18,17,0.2777777777777778,0.0,0.029260935143288085,0.0,3,14,0,Government Benefits,
+domain,,majority_generic,policy_research,18,17,-0.2222222222222222,0.0,0.04451928790164084,0.06666666666666665,12,0,5,Government Benefits,
+domain,,majority_generic,professional_association,18,17,0.0,0.0,0.0,0.0,0,17,0,Government Benefits,
+domain,,majority_generic,reference,18,17,0.0,0.0,0.0,0.0,0,17,0,Government Benefits,
+domain,,majority_generic,social_platform,18,17,-0.2777777777777778,0.0,-0.015384615384615385,0.0,1,10,6,Government Benefits,
+domain,,minority_generic,academic_research,18,18,-0.3333333333333333,0.0,-0.016769164930929645,-0.019466440422322775,7,0,11,Government Benefits,
+domain,,minority_generic,advocacy_community,18,18,1.2222222222222223,1.0,0.10173663482487011,0.06904761904761905,11,7,0,Government Benefits,
+domain,,minority_generic,commercial_service,18,18,0.0,0.0,0.03396298690416336,-0.006787330316742085,5,4,9,Government Benefits,
+domain,,minority_generic,government,18,18,0.7777777777777778,1.0,0.05999490251941232,0.0845238095238095,13,1,4,Government Benefits,
+domain,,minority_generic,healthcare_provider,18,18,0.0,0.0,0.0,0.0,0,18,0,Government Benefits,
+domain,,minority_generic,intergovernmental,18,18,0.0,0.0,0.0,0.0,0,18,0,Government Benefits,
+domain,,minority_generic,news_media,18,18,-0.16666666666666666,0.0,-0.01216931216931217,0.0,3,9,6,Government Benefits,
+domain,,minority_generic,nonprofit_general,18,18,-2.388888888888889,-2.0,-0.19776733342909816,-0.1554945054945055,1,0,17,Government Benefits,
+domain,,minority_generic,other,18,18,0.2222222222222222,0.0,0.020272959611194904,0.0,4,14,0,Government Benefits,
+domain,,minority_generic,policy_research,18,18,-0.16666666666666666,0.0,0.01713915623229348,0.023717948717948717,10,0,8,Government Benefits,
+domain,,minority_generic,professional_association,18,18,0.0,0.0,0.0,0.0,0,18,0,Government Benefits,
+domain,,minority_generic,reference,18,18,0.0,0.0,0.0,0.0,0,18,0,Government Benefits,
+domain,,minority_generic,social_platform,18,18,-0.1111111111111111,0.0,-0.00640082956259427,0.0,3,9,6,Government Benefits,
+domain,,minority_majority,academic_research,18,17,0.7222222222222222,1.0,0.04776696294862385,0.06293706293706294,10,3,4,Government Benefits,
+domain,,minority_majority,advocacy_community,18,17,1.0,0.5,0.06850545648123502,0.06666666666666667,9,5,3,Government Benefits,
+domain,,minority_majority,commercial_service,18,17,0.3888888888888889,0.0,0.03708003357657336,0.0,6,6,5,Government Benefits,
+domain,,minority_majority,government,18,17,0.05555555555555555,0.0,-0.0501596874866771,0.0,7,3,7,Government Benefits,
+domain,,minority_majority,healthcare_provider,18,17,0.0,0.0,0.0,0.0,0,17,0,Government Benefits,
+domain,,minority_majority,intergovernmental,18,17,-0.05555555555555555,0.0,-0.004524886877828055,0.0,0,16,1,Government Benefits,
+domain,,minority_majority,news_media,18,17,0.05555555555555555,0.0,0.005831423478482302,0.0,3,13,1,Government Benefits,
+domain,,minority_majority,nonprofit_general,18,17,0.05555555555555555,0.0,-0.054429370130062174,-0.02797202797202797,5,3,9,Government Benefits,
+domain,,minority_majority,other,18,17,-0.05555555555555555,0.0,-0.007795448496140539,0.0,4,11,2,Government Benefits,
+domain,,minority_majority,policy_research,18,17,0.05555555555555555,0.0,-0.050881749930192836,-0.025000000000000022,5,2,10,Government Benefits,
+domain,,minority_majority,professional_association,18,17,0.0,0.0,0.0,0.0,0,17,0,Government Benefits,
+domain,,minority_majority,reference,18,17,0.0,0.0,0.0,0.0,0,17,0,Government Benefits,
+domain,,minority_majority,social_platform,18,17,0.16666666666666666,0.0,0.008607266435986157,0.0,3,13,1,Government Benefits,
+domain,,majority_generic,academic_research,18,17,-0.6111111111111112,-1.0,0.024807545395780686,0.0,8,1,8,Healthcare,
+domain,,majority_generic,advocacy_community,18,17,0.0,0.0,0.0,0.0,0,17,0,Healthcare,
+domain,,majority_generic,commercial_service,18,17,-1.0555555555555556,-1.0,-0.05513016395369337,-0.09090909090909091,3,3,11,Healthcare,
+domain,,majority_generic,government,18,17,-3.2222222222222223,-3.0,-0.1589719104424987,-0.1384615384615384,5,0,12,Healthcare,
+domain,,majority_generic,healthcare_provider,18,17,0.1111111111111111,0.0,0.020588235294117647,0.0,2,15,0,Healthcare,
+domain,,majority_generic,intergovernmental,18,17,0.0,0.0,0.05180799592564298,0.0,6,11,0,Healthcare,
+domain,,majority_generic,news_media,18,17,0.0,0.0,0.0,0.0,0,17,0,Healthcare,
+domain,,majority_generic,nonprofit_general,18,17,0.6111111111111112,0.5,0.12773109243697478,0.14285714285714285,9,8,0,Healthcare,
+domain,,majority_generic,other,18,17,0.0,0.0,0.0,0.0,0,17,0,Healthcare,
+domain,,majority_generic,policy_research,18,17,0.4444444444444444,0.0,0.07514005602240896,0.0,6,11,0,Healthcare,
+domain,,majority_generic,professional_association,18,17,-0.3333333333333333,0.0,-0.058823529411764705,0.0,0,12,5,Healthcare,
+domain,,majority_generic,reference,18,17,0.0,0.0,0.0,0.0,0,17,0,Healthcare,
+domain,,majority_generic,social_platform,18,17,-0.3333333333333333,0.0,-0.027149321266968326,0.0,0,11,6,Healthcare,
+domain,,minority_generic,academic_research,18,18,-0.16666666666666666,-1.0,0.028408320074986733,-0.005494505494505503,8,1,9,Healthcare,
+domain,,minority_generic,advocacy_community,18,18,0.3333333333333333,0.0,0.03467473884140551,0.0,6,12,0,Healthcare,
+domain,,minority_generic,commercial_service,18,18,-0.7222222222222222,-0.5,-0.03427976344643012,-0.04090909090909091,9,0,9,Healthcare,
+domain,,minority_generic,government,18,18,-2.4444444444444446,-3.0,-0.24739797239797243,-0.23636363636363633,2,0,16,Healthcare,
+domain,,minority_generic,healthcare_provider,18,18,0.1111111111111111,0.0,0.014814814814814815,0.0,2,16,0,Healthcare,
+domain,,minority_generic,intergovernmental,18,18,-0.3333333333333333,0.0,-0.0303030303030303,0.0,0,12,6,Healthcare,
+domain,,minority_generic,news_media,18,18,0.0,0.0,0.0,0.0,0,18,0,Healthcare,
+domain,,minority_generic,nonprofit_general,18,18,1.1666666666666667,1.0,0.14183964183964182,0.1111111111111111,15,3,0,Healthcare,
+domain,,minority_generic,other,18,18,0.0,0.0,0.0,0.0,0,18,0,Healthcare,
+domain,,minority_generic,policy_research,18,18,1.1111111111111112,0.5,0.130318138651472,0.041666666666666664,9,9,0,Healthcare,
+domain,,minority_generic,professional_association,18,18,-0.2222222222222222,0.0,-0.05317460317460318,0.0,2,10,6,Healthcare,
+domain,,minority_generic,reference,18,18,0.0,0.0,0.0,0.0,0,18,0,Healthcare,
+domain,,minority_generic,social_platform,18,18,0.05555555555555555,0.0,0.015099715099715099,0.0,6,7,5,Healthcare,
+domain,,minority_majority,academic_research,18,17,0.4444444444444444,0.5,-0.0012640953817424443,0.033333333333333354,10,2,5,Healthcare,
+domain,,minority_majority,advocacy_community,18,17,0.3333333333333333,0.0,0.03017848164906988,0.0,5,12,0,Healthcare,
+domain,,minority_majority,commercial_service,18,17,0.3333333333333333,0.0,0.012297996121525535,0.0,8,6,3,Healthcare,
+domain,,minority_majority,government,18,17,0.7777777777777778,1.0,-0.06899195575666163,-0.09999999999999998,7,1,9,Healthcare,
+domain,,minority_majority,healthcare_provider,18,17,0.0,0.0,-0.004901960784313726,0.0,2,13,2,Healthcare,
+domain,,minority_majority,intergovernmental,18,17,-0.3333333333333333,0.0,-0.0838935574229692,0.0,0,11,6,Healthcare,
+domain,,minority_majority,news_media,18,17,0.0,0.0,0.0,0.0,0,17,0,Healthcare,
+domain,,minority_majority,nonprofit_general,18,17,0.5555555555555556,0.0,0.002844214608920491,0.0,6,3,8,Healthcare,
+domain,,minority_majority,other,18,17,0.0,0.0,0.0,0.0,0,17,0,Healthcare,
+domain,,minority_majority,policy_research,18,17,0.6666666666666666,0.5,0.06284385549091431,0.08333333333333333,9,5,3,Healthcare,
+domain,,minority_majority,professional_association,18,17,0.1111111111111111,0.0,0.014285714285714285,0.0,2,15,0,Healthcare,
+domain,,minority_majority,reference,18,17,0.0,0.0,0.0,0.0,0,17,0,Healthcare,
+domain,,minority_majority,social_platform,18,17,0.3888888888888889,0.0,0.036601307189542485,0.0,5,12,0,Healthcare,
+domain,,majority_generic,academic_research,18,18,-0.1111111111111111,0.0,-0.01247594997594997,-0.00555555555555555,6,3,9,Housing,
+domain,,majority_generic,advocacy_community,18,18,-0.3333333333333333,0.0,-0.058922558922558904,-0.0357142857142857,5,4,9,Housing,
+domain,,majority_generic,commercial_service,18,18,0.0,0.0,0.012570145903479237,0.0,5,8,5,Housing,
+domain,,majority_generic,government,18,18,0.8888888888888888,1.0,0.1697150072150072,0.1388888888888889,12,4,2,Housing,
+domain,,majority_generic,healthcare_provider,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,majority_generic,intergovernmental,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,majority_generic,news_media,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,majority_generic,nonprofit_general,18,18,-1.3333333333333333,-1.0,-0.1946909571909572,-0.20833333333333334,3,0,15,Housing,
+domain,,majority_generic,other,18,18,-0.5,-1.0,-0.08511904761904761,-0.14285714285714285,1,6,11,Housing,
+domain,,majority_generic,policy_research,18,18,1.0,1.0,0.1362073112073112,0.09545454545454546,10,8,0,Housing,
+domain,,majority_generic,professional_association,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,majority_generic,reference,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,majority_generic,social_platform,18,18,0.2222222222222222,0.0,0.03271604938271605,0.0,3,15,0,Housing,
+domain,,minority_generic,academic_research,18,18,0.5,0.0,0.03166308999642333,0.0,8,4,6,Housing,
+domain,,minority_generic,advocacy_community,18,18,0.16666666666666666,0.0,-0.06785359702026367,0.0,6,4,8,Housing,
+domain,,minority_generic,commercial_service,18,18,0.16666666666666666,0.0,0.02063692480359147,0.0,6,6,6,Housing,
+domain,,minority_generic,government,18,18,0.0,0.0,-0.03109621859621859,-0.07206682206682205,6,2,10,Housing,
+domain,,minority_generic,healthcare_provider,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,minority_generic,intergovernmental,18,18,0.16666666666666666,0.0,0.018939393939393936,0.0,3,15,0,Housing,
+domain,,minority_generic,news_media,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,minority_generic,nonprofit_general,18,18,-0.05555555555555555,0.0,-0.100327758661092,-0.06587301587301586,5,2,11,Housing,
+domain,,minority_generic,other,18,18,-0.5,-1.0,-0.08423520923520923,-0.14285714285714285,2,5,11,Housing,
+domain,,minority_generic,policy_research,18,18,1.6666666666666667,2.0,0.1829523871190538,0.16783216783216784,13,5,0,Housing,
+domain,,minority_generic,professional_association,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,minority_generic,reference,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,minority_generic,social_platform,18,18,0.2222222222222222,0.0,0.02932098765432099,0.0,3,15,0,Housing,
+domain,,minority_majority,academic_research,18,18,0.6111111111111112,0.0,0.044139039972373305,0.0,7,4,7,Housing,
+domain,,minority_majority,advocacy_community,18,18,0.5,0.5,-0.008931038097704763,0.0,8,4,6,Housing,
+domain,,minority_majority,commercial_service,18,18,0.16666666666666666,0.0,0.008066778900112235,0.0,5,8,5,Housing,
+domain,,minority_majority,government,18,18,-0.8888888888888888,-1.0,-0.20081122581122582,-0.20416666666666666,4,0,14,Housing,
+domain,,minority_majority,healthcare_provider,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,minority_majority,intergovernmental,18,18,0.16666666666666666,0.0,0.018939393939393936,0.0,3,15,0,Housing,
+domain,,minority_majority,news_media,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,minority_majority,nonprofit_general,18,18,1.2777777777777777,2.0,0.0943631985298652,0.09583333333333333,12,1,5,Housing,
+domain,,minority_majority,other,18,18,0.0,0.0,0.0008838383838383826,0.0,2,14,2,Housing,
+domain,,minority_majority,policy_research,18,18,0.6666666666666666,1.0,0.04674507591174258,0.04448051948051948,10,4,4,Housing,
+domain,,minority_majority,professional_association,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,minority_majority,reference,18,18,0.0,0.0,0.0,0.0,0,18,0,Housing,
+domain,,minority_majority,social_platform,18,18,0.0,0.0,-0.003395061728395062,0.0,3,12,3,Housing,
+outcome,,majority_generic,academic_research,6,6,-1.0,-1.0,-0.07043650793650795,-0.04166666666666667,1,2,3,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,advocacy_community,6,6,0.16666666666666666,0.0,0.041666666666666664,0.0,1,5,0,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,commercial_service,6,6,-0.5,-0.5,-0.05257936507936508,-0.0625,2,1,3,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,government,6,6,-1.1666666666666667,-1.0,-0.07341269841269842,-0.09523809523809525,1,1,4,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,intergovernmental,6,6,-0.6666666666666666,-0.5,-0.0773809523809524,-0.04166666666666667,2,1,3,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,nonprofit_general,6,6,0.3333333333333333,0.0,0.042328042328042326,0.029761904761904753,4,0,2,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,other,6,6,0.3333333333333333,0.0,0.06018518518518518,0.0,2,4,0,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,policy_research,6,6,0.8333333333333334,1.0,0.12962962962962962,0.1388888888888889,4,2,0,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,social_platform,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,academic_research,6,6,-0.8333333333333334,-1.0,-0.12063492063492064,-0.12301587301587302,0,0,6,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,advocacy_community,6,6,0.5,0.0,0.07936507936507936,0.0,2,4,0,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,commercial_service,6,6,1.5,1.5,0.17420634920634917,0.19166666666666665,5,0,1,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,government,6,6,-1.5,-2.0,-0.19999999999999998,-0.25,0,0,6,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,intergovernmental,6,6,-2.0,-2.0,-0.25,-0.25,0,0,6,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,news_media,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,nonprofit_general,6,6,1.5,1.0,0.171031746031746,0.14166666666666666,5,0,1,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,policy_research,6,6,0.8333333333333334,1.0,0.09417989417989418,0.1,4,2,0,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,professional_association,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,minority_generic,social_platform,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,academic_research,6,6,0.16666666666666666,0.0,-0.050198412698412694,-0.05674603174603174,1,1,4,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,advocacy_community,6,6,0.3333333333333333,0.0,0.037698412698412696,0.0,2,3,1,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,commercial_service,6,6,2.0,2.0,0.22678571428571428,0.26289682539682535,5,0,1,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,government,6,6,-0.3333333333333333,0.0,-0.12658730158730158,-0.07142857142857142,1,2,3,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,intergovernmental,6,6,-1.3333333333333333,-1.5,-0.1726190476190476,-0.20833333333333331,0,2,4,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,news_media,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,nonprofit_general,6,6,1.1666666666666667,1.0,0.12870370370370368,0.06666666666666668,4,0,2,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,other,6,6,-0.3333333333333333,0.0,-0.06018518518518518,0.0,0,4,2,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,policy_research,6,6,0.0,0.0,-0.035449735449735446,-0.0869047619047619,1,1,4,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,professional_association,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to banking services
+outcome,,minority_majority,social_platform,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Credit & Financial Services,Access to banking services
+outcome,,majority_generic,academic_research,6,6,1.3333333333333333,1.0,0.2374338624338624,0.2361111111111111,6,0,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,advocacy_community,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,commercial_service,6,6,-0.6666666666666666,-1.0,-0.11904761904761903,-0.16666666666666666,1,0,5,Credit & Financial Services,Access to credit
+outcome,,majority_generic,government,6,6,0.0,0.0,0.0291005291005291,0.015873015873015872,3,0,3,Credit & Financial Services,Access to credit
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,intergovernmental,6,6,0.3333333333333333,0.0,0.03935185185185185,0.0,2,4,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,news_media,6,6,0.3333333333333333,0.0,0.042328042328042326,0.0,2,4,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,nonprofit_general,6,6,-1.3333333333333333,-1.5,-0.2526455026455027,-0.24603174603174605,0,1,5,Credit & Financial Services,Access to credit
+outcome,,majority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,policy_research,6,6,0.0,0.0,-0.00033068783068782953,-0.03273809523809523,2,0,4,Credit & Financial Services,Access to credit
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,reference,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,social_platform,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,academic_research,6,6,0.6666666666666666,0.5,0.07532051282051282,0.038461538461538464,3,3,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,advocacy_community,6,6,0.8333333333333334,0.5,0.08814102564102565,0.0625,3,3,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,commercial_service,6,6,1.1666666666666667,1.0,0.07660256410256412,0.08333333333333334,5,0,1,Credit & Financial Services,Access to credit
+outcome,,minority_generic,government,6,6,0.16666666666666666,0.0,-0.03237179487179486,-0.02724358974358973,2,0,4,Credit & Financial Services,Access to credit
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,nonprofit_general,6,6,-1.1666666666666667,-1.0,-0.2939102564102564,-0.2980769230769231,0,0,6,Credit & Financial Services,Access to credit
+outcome,,minority_generic,other,6,6,0.3333333333333333,0.0,0.03365384615384615,0.0,2,4,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,policy_research,6,6,0.16666666666666666,0.0,-0.048397435897435885,-0.0657051282051282,2,0,4,Credit & Financial Services,Access to credit
+outcome,,minority_generic,professional_association,6,6,0.3333333333333333,0.0,0.025641025641025644,0.0,1,5,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,reference,6,6,0.5,0.5,0.05448717948717949,0.038461538461538464,3,3,0,Credit & Financial Services,Access to credit
+outcome,,minority_generic,social_platform,6,6,0.16666666666666666,0.0,0.020833333333333332,0.0,1,5,0,Credit & Financial Services,Access to credit
+outcome,,minority_majority,academic_research,6,6,-0.6666666666666666,-1.0,-0.16211334961334958,-0.1736111111111111,1,0,5,Credit & Financial Services,Access to credit
+outcome,,minority_majority,advocacy_community,6,6,0.8333333333333334,0.5,0.08814102564102565,0.0625,3,3,0,Credit & Financial Services,Access to credit
+outcome,,minority_majority,commercial_service,6,6,1.8333333333333333,1.5,0.19565018315018315,0.225,5,0,1,Credit & Financial Services,Access to credit
+outcome,,minority_majority,government,6,6,0.16666666666666666,0.0,-0.06147232397232396,-0.06117216117216115,3,0,3,Credit & Financial Services,Access to credit
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Access to credit
+outcome,,minority_majority,intergovernmental,6,6,-0.3333333333333333,0.0,-0.03935185185185185,0.0,0,4,2,Credit & Financial Services,Access to credit
+outcome,,minority_majority,news_media,6,6,-0.3333333333333333,0.0,-0.042328042328042326,0.0,0,4,2,Credit & Financial Services,Access to credit
+outcome,,minority_majority,nonprofit_general,6,6,0.16666666666666666,0.0,-0.04126475376475375,-0.047023809523809496,3,0,3,Credit & Financial Services,Access to credit
+outcome,,minority_majority,other,6,6,0.3333333333333333,0.0,0.03365384615384615,0.0,2,4,0,Credit & Financial Services,Access to credit
+outcome,,minority_majority,policy_research,6,6,0.16666666666666666,-0.5,-0.04806674806674805,-0.06837606837606836,1,0,5,Credit & Financial Services,Access to credit
+outcome,,minority_majority,professional_association,6,6,0.3333333333333333,0.0,0.025641025641025644,0.0,1,5,0,Credit & Financial Services,Access to credit
+outcome,,minority_majority,reference,6,6,0.3333333333333333,0.0,0.03067765567765568,0.0,2,3,1,Credit & Financial Services,Access to credit
+outcome,,minority_majority,social_platform,6,6,0.16666666666666666,0.0,0.020833333333333332,0.0,1,5,0,Credit & Financial Services,Access to credit
+outcome,,majority_generic,academic_research,6,5,0.3333333333333333,0.0,0.1,0.0,1,4,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,advocacy_community,6,5,0.0,0.0,0.0,0.0,0,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,commercial_service,6,5,-4.0,-5.5,-0.13989898989898986,-0.2954545454545454,2,0,3,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,government,6,5,0.3333333333333333,0.0,0.1,0.0,2,3,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,healthcare_provider,6,5,0.0,0.0,0.0,0.0,0,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,intergovernmental,6,5,0.0,0.0,0.0,0.0,0,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,news_media,6,5,0.16666666666666666,0.0,0.05,0.0,1,4,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,nonprofit_general,6,5,-3.1666666666666665,-3.5,-0.1691919191919192,-0.14141414141414144,1,0,4,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,other,6,5,-1.0,-1.0,-0.09090909090909091,-0.09090909090909091,0,0,5,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,policy_research,6,5,0.16666666666666666,0.0,0.05,0.0,1,4,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,professional_association,6,5,0.0,0.0,0.0,0.0,0,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,reference,6,5,0.3333333333333333,0.0,0.1,0.0,2,3,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,social_platform,6,5,0.0,0.0,0.0,0.0,0,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,academic_research,6,6,1.0,1.0,0.1111111111111111,0.08333333333333333,4,2,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,advocacy_community,6,6,0.5,0.0,0.05555555555555555,0.0,2,4,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,commercial_service,6,6,-3.6666666666666665,-4.0,-0.2827561327561327,-0.27878787878787875,0,0,6,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,government,6,6,1.1666666666666667,1.0,0.14087301587301587,0.125,4,2,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,news_media,6,6,0.16666666666666666,0.0,0.013888888888888888,0.0,1,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,nonprofit_general,6,6,-2.3333333333333335,-2.0,-0.14935064935064937,-0.196969696969697,1,0,5,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,other,6,6,-0.8333333333333334,-1.0,-0.07424242424242423,-0.09090909090909091,1,0,5,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,policy_research,6,6,0.8333333333333334,0.5,0.07936507936507936,0.041666666666666664,3,3,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,professional_association,6,6,0.16666666666666666,0.0,0.013888888888888888,0.0,1,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,reference,6,6,0.5,0.5,0.075,0.041666666666666664,3,3,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_generic,social_platform,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,academic_research,6,5,0.6666666666666666,1.0,0.03333333333333334,0.08333333333333333,4,0,1,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,advocacy_community,6,5,0.5,0.0,0.03333333333333333,0.0,1,4,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,commercial_service,6,5,0.3333333333333333,1.0,-0.156984126984127,-0.10714285714285715,2,0,3,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,government,6,5,0.8333333333333334,0.5,0.0357142857142857,0.0,1,2,2,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,healthcare_provider,6,5,0.0,0.0,0.0,0.0,0,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,intergovernmental,6,5,0.0,0.0,0.0,0.0,0,5,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,news_media,6,5,0.0,0.0,-0.03333333333333334,0.0,0,4,1,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,nonprofit_general,6,5,0.8333333333333334,1.0,0.02936507936507935,-0.08333333333333334,2,0,3,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,other,6,5,0.16666666666666666,0.0,0.02,0.0,1,4,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,policy_research,6,5,0.6666666666666666,0.0,0.04523809523809523,0.0,2,2,1,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,professional_association,6,5,0.16666666666666666,0.0,0.016666666666666666,0.0,1,4,0,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,reference,6,5,0.16666666666666666,0.0,-0.043333333333333335,0.0,1,2,2,Credit & Financial Services,Credit/loan approval
+outcome,,minority_majority,social_platform,6,5,0.16666666666666666,0.0,0.02,0.0,1,4,0,Credit & Financial Services,Credit/loan approval
+outcome,,majority_generic,academic_research,6,6,1.6666666666666667,0.5,0.1337962962962963,0.1222222222222222,4,0,2,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,advocacy_community,6,6,0.3333333333333333,0.0,0.05115740740740741,0.018055555555555547,4,0,2,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,commercial_service,6,6,-1.0,-1.0,-0.10000000000000002,-0.1,0,0,6,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,government,6,6,-0.5,-0.5,0.020138888888888873,-0.033333333333333354,3,0,3,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,nonprofit_general,6,6,0.5,0.0,0.07407407407407407,0.0,2,4,0,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,other,6,6,0.16666666666666666,0.0,0.010416666666666666,0.0,1,5,0,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,social_platform,6,6,-1.8333333333333333,-2.0,-0.18958333333333335,-0.2,0,0,6,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,academic_research,6,6,0.5,0.5,0.08584656084656084,0.09444444444444443,5,0,1,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,advocacy_community,6,6,1.3333333333333333,1.0,0.19067460317460316,0.2095238095238095,6,0,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,commercial_service,6,6,-0.8333333333333334,-1.0,-0.07916666666666668,-0.1,1,0,5,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,government,6,6,-3.8333333333333335,-4.0,-0.3587962962962963,-0.3541666666666667,0,0,6,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,nonprofit_general,6,6,2.0,2.0,0.25297619047619047,0.2777777777777778,6,0,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,other,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,policy_research,6,6,0.5,0.0,0.06613756613756613,0.0,2,4,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,professional_association,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_generic,social_platform,6,6,-2.0,-2.0,-0.20000000000000004,-0.2,0,0,6,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,academic_research,6,6,-1.1666666666666667,-0.5,-0.047949735449735464,-0.04662698412698413,3,0,3,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,advocacy_community,6,6,1.0,1.0,0.13951719576719576,0.09771825396825395,5,0,1,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,commercial_service,6,6,0.16666666666666666,0.0,0.020833333333333332,0.0,1,5,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,government,6,6,-3.3333333333333335,-4.0,-0.3789351851851852,-0.2895833333333333,0,0,6,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,nonprofit_general,6,6,1.5,1.5,0.1789021164021164,0.20337301587301587,5,0,1,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,other,6,6,0.0,0.0,0.008101851851851851,0.0,1,4,1,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,policy_research,6,6,0.5,0.0,0.06613756613756613,0.0,2,4,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,professional_association,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Arrest / detention by police
+outcome,,minority_majority,social_platform,6,6,-0.16666666666666666,0.0,-0.010416666666666666,0.0,0,5,1,Criminal Justice,Arrest / detention by police
+outcome,,majority_generic,academic_research,6,5,-1.5,-2.0,-0.19545454545454546,-0.25,1,0,4,Criminal Justice,Incarceration
+outcome,,majority_generic,advocacy_community,6,5,0.0,-0.5,0.12954545454545455,0.1477272727272727,3,0,2,Criminal Justice,Incarceration
+outcome,,majority_generic,commercial_service,6,5,-0.8333333333333334,-1.0,-0.058333333333333334,-0.125,1,0,4,Criminal Justice,Incarceration
+outcome,,majority_generic,government,6,5,0.5,0.5,0.298030303030303,0.20833333333333331,5,0,0,Criminal Justice,Incarceration
+outcome,,majority_generic,healthcare_provider,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,majority_generic,intergovernmental,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,majority_generic,news_media,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,majority_generic,nonprofit_general,6,5,-1.6666666666666667,-2.0,-0.19181818181818183,-0.25,0,0,5,Criminal Justice,Incarceration
+outcome,,majority_generic,other,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,majority_generic,policy_research,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,majority_generic,professional_association,6,5,0.16666666666666666,0.0,0.06666666666666667,0.0,1,4,0,Criminal Justice,Incarceration
+outcome,,majority_generic,reference,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,majority_generic,social_platform,6,5,-0.5,-1.0,-0.04863636363636363,-0.125,2,0,3,Criminal Justice,Incarceration
+outcome,,minority_generic,academic_research,6,6,-0.8333333333333334,-1.0,-0.11990740740740741,-0.1375,1,0,5,Criminal Justice,Incarceration
+outcome,,minority_generic,advocacy_community,6,6,1.3333333333333333,1.0,0.16706349206349205,0.16785714285714284,5,0,1,Criminal Justice,Incarceration
+outcome,,minority_generic,commercial_service,6,6,-0.6666666666666666,-1.0,-0.0898148148148148,-0.125,0,0,6,Criminal Justice,Incarceration
+outcome,,minority_generic,government,6,6,0.0,0.0,0.010383597883597879,-0.0069444444444444475,2,1,3,Criminal Justice,Incarceration
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Incarceration
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Incarceration
+outcome,,minority_generic,news_media,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Criminal Justice,Incarceration
+outcome,,minority_generic,nonprofit_general,6,6,-0.16666666666666666,-0.5,-0.02784391534391535,-0.06666666666666667,2,0,4,Criminal Justice,Incarceration
+outcome,,minority_generic,other,6,6,0.3333333333333333,0.0,0.037037037037037035,0.0,1,5,0,Criminal Justice,Incarceration
+outcome,,minority_generic,policy_research,6,6,0.5,0.0,0.061111111111111116,0.0,2,4,0,Criminal Justice,Incarceration
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Incarceration
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Incarceration
+outcome,,minority_generic,social_platform,6,6,-0.5,-0.5,-0.06183862433862434,-0.06944444444444445,1,1,4,Criminal Justice,Incarceration
+outcome,,minority_majority,academic_research,6,5,0.6666666666666666,0.5,0.05712121212121213,0.06060606060606061,3,2,0,Criminal Justice,Incarceration
+outcome,,minority_majority,advocacy_community,6,5,1.3333333333333333,2.0,0.05148629148629149,0.0,2,1,2,Criminal Justice,Incarceration
+outcome,,minority_majority,commercial_service,6,5,0.16666666666666666,0.0,-0.024444444444444442,0.0,2,2,1,Criminal Justice,Incarceration
+outcome,,minority_majority,government,6,5,-0.5,-0.5,-0.28279220779220776,-0.20833333333333331,0,1,4,Criminal Justice,Incarceration
+outcome,,minority_majority,healthcare_provider,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,minority_majority,intergovernmental,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,minority_majority,news_media,6,5,0.16666666666666666,0.0,0.02857142857142857,0.0,1,4,0,Criminal Justice,Incarceration
+outcome,,minority_majority,nonprofit_general,6,5,1.5,1.0,0.11951659451659451,0.125,4,1,0,Criminal Justice,Incarceration
+outcome,,minority_majority,other,6,5,0.3333333333333333,0.0,0.04444444444444444,0.0,1,4,0,Criminal Justice,Incarceration
+outcome,,minority_majority,policy_research,6,5,0.5,0.0,0.07333333333333333,0.0,2,3,0,Criminal Justice,Incarceration
+outcome,,minority_majority,professional_association,6,5,-0.16666666666666666,0.0,-0.06666666666666667,0.0,0,4,1,Criminal Justice,Incarceration
+outcome,,minority_majority,reference,6,5,0.0,0.0,0.0,0.0,0,5,0,Criminal Justice,Incarceration
+outcome,,minority_majority,social_platform,6,5,0.0,0.0,-0.0005699855699855761,0.0,2,1,2,Criminal Justice,Incarceration
+outcome,,majority_generic,academic_research,6,6,-1.0,-1.0,-0.004960317460317443,-0.03571428571428571,3,0,3,Criminal Justice,Police use of force
+outcome,,majority_generic,advocacy_community,6,6,0.5,0.0,0.07539682539682539,0.0,2,4,0,Criminal Justice,Police use of force
+outcome,,majority_generic,commercial_service,6,6,-0.3333333333333333,-0.5,0.023809523809523808,-0.03968253968253968,3,0,3,Criminal Justice,Police use of force
+outcome,,majority_generic,government,6,6,-2.1666666666666665,-2.5,-0.16964285714285712,-0.17658730158730157,1,0,5,Criminal Justice,Police use of force
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,majority_generic,nonprofit_general,6,6,-0.6666666666666666,-1.0,-0.027777777777777776,-0.1111111111111111,2,0,4,Criminal Justice,Police use of force
+outcome,,majority_generic,other,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Criminal Justice,Police use of force
+outcome,,majority_generic,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,majority_generic,social_platform,6,6,0.3333333333333333,0.0,0.07936507936507936,0.0,2,4,0,Criminal Justice,Police use of force
+outcome,,minority_generic,academic_research,6,6,-1.3333333333333333,-1.5,-0.08829365079365077,-0.10714285714285714,2,0,4,Criminal Justice,Police use of force
+outcome,,minority_generic,advocacy_community,6,6,1.1666666666666667,0.5,0.15773809523809523,0.07142857142857142,3,3,0,Criminal Justice,Police use of force
+outcome,,minority_generic,commercial_service,6,6,-0.5,-1.0,-0.027777777777777773,-0.1111111111111111,1,0,5,Criminal Justice,Police use of force
+outcome,,minority_generic,government,6,6,-2.8333333333333335,-3.0,-0.2728174603174603,-0.310515873015873,0,0,6,Criminal Justice,Police use of force
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,minority_generic,nonprofit_general,6,6,0.0,0.0,0.03968253968253968,0.04365079365079365,5,0,1,Criminal Justice,Police use of force
+outcome,,minority_generic,other,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Criminal Justice,Police use of force
+outcome,,minority_generic,policy_research,6,6,0.3333333333333333,0.0,0.044642857142857144,0.0,2,4,0,Criminal Justice,Police use of force
+outcome,,minority_generic,professional_association,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Criminal Justice,Police use of force
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,minority_generic,social_platform,6,6,0.6666666666666666,0.5,0.09920634920634919,0.07142857142857142,3,3,0,Criminal Justice,Police use of force
+outcome,,minority_majority,academic_research,6,6,-0.3333333333333333,-1.0,-0.08333333333333333,-0.125,2,1,3,Criminal Justice,Police use of force
+outcome,,minority_majority,advocacy_community,6,6,0.6666666666666666,0.5,0.08234126984126984,0.07142857142857142,3,2,1,Criminal Justice,Police use of force
+outcome,,minority_majority,commercial_service,6,6,-0.16666666666666666,0.0,-0.05158730158730158,0.0,1,3,2,Criminal Justice,Police use of force
+outcome,,minority_majority,government,6,6,-0.6666666666666666,-1.5,-0.10317460317460318,-0.25,2,0,4,Criminal Justice,Police use of force
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,minority_majority,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,minority_majority,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,minority_majority,nonprofit_general,6,6,0.6666666666666666,0.5,0.06746031746031746,0.07142857142857142,3,2,1,Criminal Justice,Police use of force
+outcome,,minority_majority,other,6,6,0.0,0.0,0.0,0.0,1,4,1,Criminal Justice,Police use of force
+outcome,,minority_majority,policy_research,6,6,0.3333333333333333,0.0,0.044642857142857144,0.0,2,4,0,Criminal Justice,Police use of force
+outcome,,minority_majority,professional_association,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Criminal Justice,Police use of force
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Criminal Justice,Police use of force
+outcome,,minority_majority,social_platform,6,6,0.3333333333333333,0.0,0.019841269841269837,0.011904761904761904,3,2,1,Criminal Justice,Police use of force
+outcome,,majority_generic,academic_research,6,3,-0.16666666666666666,-1.0,0.002314814814814825,-0.10416666666666666,1,0,2,Education,College access/admission
+outcome,,majority_generic,advocacy_community,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,majority_generic,commercial_service,6,3,-0.3333333333333333,-1.0,-0.013888888888888886,-0.04166666666666666,1,0,2,Education,College access/admission
+outcome,,majority_generic,government,6,3,-0.8333333333333334,-1.0,-0.12962962962962962,-0.16666666666666666,0,0,3,Education,College access/admission
+outcome,,majority_generic,healthcare_provider,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,majority_generic,intergovernmental,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,majority_generic,news_media,6,3,-0.8333333333333334,-1.0,-0.14583333333333334,-0.16666666666666666,0,0,3,Education,College access/admission
+outcome,,majority_generic,nonprofit_general,6,3,0.3333333333333333,-1.5,0.11342592592592593,0.22916666666666669,2,0,1,Education,College access/admission
+outcome,,majority_generic,other,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,majority_generic,policy_research,6,3,0.6666666666666666,0.0,0.09953703703703703,0.1111111111111111,2,1,0,Education,College access/admission
+outcome,,majority_generic,professional_association,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,majority_generic,reference,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,majority_generic,social_platform,6,3,0.3333333333333333,0.0,0.07407407407407407,0.0,1,2,0,Education,College access/admission
+outcome,,minority_generic,academic_research,6,6,2.3333333333333335,2.5,0.197463429816371,0.23921568627450981,4,0,2,Education,College access/admission
+outcome,,minority_generic,advocacy_community,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Education,College access/admission
+outcome,,minority_generic,commercial_service,6,6,0.3333333333333333,0.5,-0.045471521942110175,-0.03641456582633053,1,1,4,Education,College access/admission
+outcome,,minority_generic,government,6,6,0.5,0.5,-0.02890600684718331,-0.013888888888888888,3,0,3,Education,College access/admission
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,College access/admission
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,College access/admission
+outcome,,minority_generic,news_media,6,6,-0.6666666666666666,-1.0,-0.14019607843137252,-0.16666666666666666,0,0,6,Education,College access/admission
+outcome,,minority_generic,nonprofit_general,6,6,0.6666666666666666,-0.5,-0.08343448490507312,-0.2030812324929972,2,0,4,Education,College access/admission
+outcome,,minority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,College access/admission
+outcome,,minority_generic,policy_research,6,6,0.3333333333333333,0.0,0.027777777777777776,0.0,1,5,0,Education,College access/admission
+outcome,,minority_generic,professional_association,6,6,0.3333333333333333,0.0,0.028322440087145972,0.0,2,4,0,Education,College access/admission
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,College access/admission
+outcome,,minority_generic,social_platform,6,6,0.16666666666666666,0.0,0.027777777777777776,0.0,1,5,0,Education,College access/admission
+outcome,,minority_majority,academic_research,6,3,2.5,2.0,0.24212962962962967,0.3375,2,1,0,Education,College access/admission
+outcome,,minority_majority,advocacy_community,6,3,0.16666666666666666,0.0,0.03333333333333333,0.0,1,2,0,Education,College access/admission
+outcome,,minority_majority,commercial_service,6,3,0.6666666666666666,0.5,0.002777777777777777,0.0,1,1,1,Education,College access/admission
+outcome,,minority_majority,government,6,3,1.3333333333333333,1.5,-0.009259259259259259,0.0,1,1,1,Education,College access/admission
+outcome,,minority_majority,healthcare_provider,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,minority_majority,intergovernmental,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,minority_majority,news_media,6,3,0.16666666666666666,0.0,0.012500000000000002,0.0,1,2,0,Education,College access/admission
+outcome,,minority_majority,nonprofit_general,6,3,0.3333333333333333,1.5,-0.21898148148148144,-0.1111111111111111,0,0,3,Education,College access/admission
+outcome,,minority_majority,other,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,minority_majority,policy_research,6,3,-0.3333333333333333,0.0,-0.04398148148148148,-0.1111111111111111,1,0,2,Education,College access/admission
+outcome,,minority_majority,professional_association,6,3,0.3333333333333333,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,minority_majority,reference,6,3,0.0,0.0,0.0,0.0,0,3,0,Education,College access/admission
+outcome,,minority_majority,social_platform,6,3,-0.16666666666666666,0.0,-0.018518518518518517,0.0,0,2,1,Education,College access/admission
+outcome,,majority_generic,academic_research,6,6,1.1666666666666667,1.0,0.08095238095238097,0.040476190476190485,4,0,2,Education,Educational opportunity/access
+outcome,,majority_generic,advocacy_community,6,6,0.3333333333333333,0.0,0.03571428571428571,0.0,2,4,0,Education,Educational opportunity/access
+outcome,,majority_generic,commercial_service,6,6,-1.3333333333333333,-1.0,-0.16587301587301587,-0.24761904761904757,1,1,4,Education,Educational opportunity/access
+outcome,,majority_generic,government,6,6,0.3333333333333333,0.0,-0.028571428571428564,0.004761904761904773,3,0,3,Education,Educational opportunity/access
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,majority_generic,intergovernmental,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Education,Educational opportunity/access
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,majority_generic,nonprofit_general,6,6,0.3333333333333333,0.0,0.08650793650793653,0.14285714285714285,4,0,2,Education,Educational opportunity/access
+outcome,,majority_generic,other,6,6,-0.6666666666666666,-1.0,-0.13095238095238096,-0.16666666666666666,0,0,6,Education,Educational opportunity/access
+outcome,,majority_generic,policy_research,6,6,0.5,0.5,0.10555555555555556,0.05,3,3,0,Education,Educational opportunity/access
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,majority_generic,social_platform,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,minority_generic,academic_research,6,6,0.6666666666666666,1.0,0.004713804713804716,0.04444444444444445,4,0,2,Education,Educational opportunity/access
+outcome,,minority_generic,advocacy_community,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Education,Educational opportunity/access
+outcome,,minority_generic,commercial_service,6,6,-0.8333333333333334,-1.0,-0.11296296296296293,-0.22777777777777775,1,0,5,Education,Educational opportunity/access
+outcome,,minority_generic,government,6,6,1.0,1.5,0.04360269360269361,0.0808080808080808,4,0,2,Education,Educational opportunity/access
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,minority_generic,news_media,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Education,Educational opportunity/access
+outcome,,minority_generic,nonprofit_general,6,6,1.3333333333333333,0.5,0.07659932659932663,-0.020202020202020193,3,0,3,Education,Educational opportunity/access
+outcome,,minority_generic,other,6,6,-0.6666666666666666,-1.0,-0.13484848484848486,-0.16666666666666666,0,0,6,Education,Educational opportunity/access
+outcome,,minority_generic,policy_research,6,6,0.3333333333333333,0.0,0.037037037037037035,0.0,2,4,0,Education,Educational opportunity/access
+outcome,,minority_generic,professional_association,6,6,0.5,0.0,0.04882154882154882,0.0,2,4,0,Education,Educational opportunity/access
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,minority_generic,social_platform,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,minority_majority,academic_research,6,6,-0.5,-0.5,-0.07623857623857626,-0.040476190476190485,3,0,3,Education,Educational opportunity/access
+outcome,,minority_majority,advocacy_community,6,6,-0.16666666666666666,0.0,-0.017195767195767195,0.0,1,3,2,Education,Educational opportunity/access
+outcome,,minority_majority,commercial_service,6,6,0.5,0.0,0.05291005291005293,-0.05,2,1,3,Education,Educational opportunity/access
+outcome,,minority_majority,government,6,6,0.6666666666666666,1.0,0.07217412217412217,0.08636363636363635,5,0,1,Education,Educational opportunity/access
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,minority_majority,intergovernmental,6,6,-0.16666666666666666,0.0,-0.016666666666666666,0.0,0,5,1,Education,Educational opportunity/access
+outcome,,minority_majority,news_media,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Education,Educational opportunity/access
+outcome,,minority_majority,nonprofit_general,6,6,1.0,1.0,-0.009908609908609903,0.07777777777777778,3,1,2,Education,Educational opportunity/access
+outcome,,minority_majority,other,6,6,0.0,0.0,-0.0038961038961038926,0.0,2,2,2,Education,Educational opportunity/access
+outcome,,minority_majority,policy_research,6,6,-0.16666666666666666,0.0,-0.06851851851851852,-0.04444444444444445,1,2,3,Education,Educational opportunity/access
+outcome,,minority_majority,professional_association,6,6,0.5,0.0,0.04882154882154882,0.0,2,4,0,Education,Educational opportunity/access
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,minority_majority,social_platform,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Educational opportunity/access
+outcome,,majority_generic,academic_research,6,6,-1.1666666666666667,-1.5,-0.07529761904761903,-0.06547619047619047,2,0,4,Education,Harassment/bullying
+outcome,,majority_generic,advocacy_community,6,6,0.3333333333333333,0.0,0.022321428571428572,0.0,2,4,0,Education,Harassment/bullying
+outcome,,majority_generic,commercial_service,6,6,0.5,0.0,0.03571428571428571,0.0,1,5,0,Education,Harassment/bullying
+outcome,,majority_generic,government,6,6,1.3333333333333333,1.0,0.23005952380952385,0.23958333333333337,5,0,1,Education,Harassment/bullying
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,majority_generic,intergovernmental,6,6,-1.6666666666666667,-2.0,-0.1395833333333333,-0.16666666666666666,0,0,6,Education,Harassment/bullying
+outcome,,majority_generic,news_media,6,6,0.16666666666666666,0.0,0.010416666666666666,0.0,1,5,0,Education,Harassment/bullying
+outcome,,majority_generic,nonprofit_general,6,6,0.0,-0.5,0.0024801587301587305,-0.05208333333333333,2,0,4,Education,Harassment/bullying
+outcome,,majority_generic,other,6,6,-1.6666666666666667,-2.0,-0.12222222222222222,-0.16666666666666666,0,1,5,Education,Harassment/bullying
+outcome,,majority_generic,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,majority_generic,professional_association,6,6,0.16666666666666666,0.0,0.041666666666666664,0.0,1,5,0,Education,Harassment/bullying
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,majority_generic,social_platform,6,6,-0.3333333333333333,-1.0,-0.005555555555555552,-0.08333333333333333,2,0,4,Education,Harassment/bullying
+outcome,,minority_generic,academic_research,6,6,-2.3333333333333335,-3.0,-0.1444088319088319,-0.19444444444444442,1,0,5,Education,Harassment/bullying
+outcome,,minority_generic,advocacy_community,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,minority_generic,commercial_service,6,6,1.6666666666666667,1.5,0.20421245421245418,0.16025641025641024,4,2,0,Education,Harassment/bullying
+outcome,,minority_generic,government,6,6,0.6666666666666666,0.5,0.13383190883190885,0.07371794871794873,5,0,1,Education,Harassment/bullying
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,minority_generic,intergovernmental,6,6,-2.0,-2.0,-0.16666666666666666,-0.16666666666666666,0,0,6,Education,Harassment/bullying
+outcome,,minority_generic,news_media,6,6,0.16666666666666666,0.0,0.012820512820512822,0.0,1,5,0,Education,Harassment/bullying
+outcome,,minority_generic,nonprofit_general,6,6,0.8333333333333334,1.0,0.12557488807488806,0.1111111111111111,6,0,0,Education,Harassment/bullying
+outcome,,minority_generic,other,6,6,-1.6666666666666667,-2.0,-0.13717948717948716,-0.16666666666666666,0,0,6,Education,Harassment/bullying
+outcome,,minority_generic,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,minority_generic,social_platform,6,6,-0.5,-0.5,-0.028184778184778183,-0.044871794871794865,2,0,4,Education,Harassment/bullying
+outcome,,minority_majority,academic_research,6,6,-1.1666666666666667,-0.5,-0.06911121286121286,-0.06913919413919413,2,0,4,Education,Harassment/bullying
+outcome,,minority_majority,advocacy_community,6,6,-0.3333333333333333,0.0,-0.022321428571428572,0.0,0,4,2,Education,Harassment/bullying
+outcome,,minority_majority,commercial_service,6,6,1.1666666666666667,1.0,0.16849816849816848,0.07692307692307693,3,2,1,Education,Harassment/bullying
+outcome,,minority_majority,government,6,6,-0.6666666666666666,0.0,-0.09622761497761496,-0.27350427350427353,2,0,4,Education,Harassment/bullying
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,minority_majority,intergovernmental,6,6,-0.3333333333333333,0.0,-0.027083333333333334,0.0,0,4,2,Education,Harassment/bullying
+outcome,,minority_majority,news_media,6,6,0.0,0.0,0.0024038461538461544,0.0,1,4,1,Education,Harassment/bullying
+outcome,,minority_majority,nonprofit_general,6,6,0.8333333333333334,1.5,0.12309472934472936,0.13942307692307693,5,0,1,Education,Harassment/bullying
+outcome,,minority_majority,other,6,6,0.0,0.0,-0.014957264957264954,0.0,2,2,2,Education,Harassment/bullying
+outcome,,minority_majority,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,minority_majority,professional_association,6,6,-0.16666666666666666,0.0,-0.041666666666666664,0.0,0,5,1,Education,Harassment/bullying
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Education,Harassment/bullying
+outcome,,minority_majority,social_platform,6,6,-0.16666666666666666,0.0,-0.022629222629222626,0.0,1,3,2,Education,Harassment/bullying
+outcome,,majority_generic,academic_research,6,5,0.8333333333333334,1.0,0.16,0.09999999999999998,3,1,1,Employment,Career advancement
+outcome,,majority_generic,advocacy_community,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,majority_generic,commercial_service,6,5,0.16666666666666666,-0.5,-0.02000000000000001,-0.033333333333333354,2,0,3,Employment,Career advancement
+outcome,,majority_generic,government,6,5,-0.5,-0.5,-0.10666666666666669,-0.1,0,1,4,Employment,Career advancement
+outcome,,majority_generic,healthcare_provider,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,majority_generic,intergovernmental,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,majority_generic,news_media,6,5,-1.0,-1.0,-0.2,-0.2,0,0,5,Employment,Career advancement
+outcome,,majority_generic,nonprofit_general,6,5,1.0,1.0,0.2,0.2,5,0,0,Employment,Career advancement
+outcome,,majority_generic,other,6,5,0.3333333333333333,0.0,0.05333333333333333,0.0,2,3,0,Employment,Career advancement
+outcome,,majority_generic,policy_research,6,5,0.3333333333333333,0.0,0.07333333333333333,0.0,2,3,0,Employment,Career advancement
+outcome,,majority_generic,professional_association,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,majority_generic,reference,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,majority_generic,social_platform,6,5,-0.8333333333333334,-1.0,-0.16,-0.2,0,1,4,Employment,Career advancement
+outcome,,minority_generic,academic_research,6,6,0.6666666666666666,1.0,0.017989417989417972,0.0111111111111111,3,1,2,Employment,Career advancement
+outcome,,minority_generic,advocacy_community,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Career advancement
+outcome,,minority_generic,commercial_service,6,6,1.6666666666666667,0.5,0.1201058201058201,-0.016666666666666677,2,1,3,Employment,Career advancement
+outcome,,minority_generic,government,6,6,-0.3333333333333333,0.0,-0.11322751322751323,-0.09444444444444446,0,0,6,Employment,Career advancement
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Career advancement
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Career advancement
+outcome,,minority_generic,news_media,6,6,-1.0,-1.0,-0.20000000000000004,-0.2,0,0,6,Employment,Career advancement
+outcome,,minority_generic,nonprofit_general,6,6,2.5,3.0,0.2880952380952381,0.3666666666666667,5,1,0,Employment,Career advancement
+outcome,,minority_generic,other,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Employment,Career advancement
+outcome,,minority_generic,policy_research,6,6,0.3333333333333333,0.0,0.03518518518518519,0.0,2,4,0,Employment,Career advancement
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Career advancement
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Career advancement
+outcome,,minority_generic,social_platform,6,6,-0.6666666666666666,-1.0,-0.16481481481481483,-0.2,0,0,6,Employment,Career advancement
+outcome,,minority_majority,academic_research,6,5,-0.16666666666666666,0.0,-0.13841269841269846,-0.01428571428571429,2,0,3,Employment,Career advancement
+outcome,,minority_majority,advocacy_community,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,minority_majority,commercial_service,6,5,1.5,1.5,0.16412698412698412,0.1111111111111111,3,0,2,Employment,Career advancement
+outcome,,minority_majority,government,6,5,0.16666666666666666,0.0,-0.009206349206349213,0.0,2,1,2,Employment,Career advancement
+outcome,,minority_majority,healthcare_provider,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,minority_majority,intergovernmental,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,minority_majority,news_media,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,minority_majority,nonprofit_general,6,5,1.5,2.0,0.0657142857142857,0.1333333333333333,3,0,2,Employment,Career advancement
+outcome,,minority_majority,other,6,5,-0.16666666666666666,0.0,-0.05333333333333333,0.0,0,3,2,Employment,Career advancement
+outcome,,minority_majority,policy_research,6,5,0.0,0.0,-0.03111111111111111,0.0,1,2,2,Employment,Career advancement
+outcome,,minority_majority,professional_association,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,minority_majority,reference,6,5,0.0,0.0,0.0,0.0,0,5,0,Employment,Career advancement
+outcome,,minority_majority,social_platform,6,5,0.16666666666666666,0.0,0.00222222222222222,0.0,1,3,1,Employment,Career advancement
+outcome,,majority_generic,academic_research,6,4,-0.16666666666666666,-0.5,0.13630952380952382,0.1416666666666667,3,0,1,Employment,Hiring
+outcome,,majority_generic,advocacy_community,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,majority_generic,commercial_service,6,4,-4.5,-5.0,-0.23333333333333334,-0.25,0,0,4,Employment,Hiring
+outcome,,majority_generic,government,6,4,0.5,0.0,0.12142857142857143,0.1,2,2,0,Employment,Hiring
+outcome,,majority_generic,healthcare_provider,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,majority_generic,intergovernmental,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,majority_generic,news_media,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,majority_generic,nonprofit_general,6,4,0.5,0.5,0.16904761904761906,0.17142857142857143,3,1,0,Employment,Hiring
+outcome,,majority_generic,other,6,4,-2.6666666666666665,-3.0,-0.13095238095238096,-0.17857142857142858,1,0,3,Employment,Hiring
+outcome,,majority_generic,policy_research,6,4,0.16666666666666666,0.0,0.0625,0.0,1,3,0,Employment,Hiring
+outcome,,majority_generic,professional_association,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,majority_generic,reference,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,majority_generic,social_platform,6,4,-2.6666666666666665,-3.0,-0.125,-0.25,1,0,3,Employment,Hiring
+outcome,,minority_generic,academic_research,6,6,0.5,1.0,0.13333333333333333,0.15,4,0,2,Employment,Hiring
+outcome,,minority_generic,advocacy_community,6,6,0.16666666666666666,0.0,0.027777777777777776,0.0,1,5,0,Employment,Hiring
+outcome,,minority_generic,commercial_service,6,6,-3.3333333333333335,-4.0,-0.23611111111111113,-0.20833333333333334,0,1,5,Employment,Hiring
+outcome,,minority_generic,government,6,6,1.1666666666666667,0.5,0.09999999999999999,0.05,3,3,0,Employment,Hiring
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Hiring
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Hiring
+outcome,,minority_generic,news_media,6,6,0.16666666666666666,0.0,0.013888888888888888,0.0,1,5,0,Employment,Hiring
+outcome,,minority_generic,nonprofit_general,6,6,2.1666666666666665,2.0,0.2861111111111111,0.275,6,0,0,Employment,Hiring
+outcome,,minority_generic,other,6,6,-2.6666666666666665,-3.0,-0.19444444444444445,-0.25,0,1,5,Employment,Hiring
+outcome,,minority_generic,policy_research,6,6,0.3333333333333333,0.0,0.03333333333333333,0.0,1,5,0,Employment,Hiring
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Hiring
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Hiring
+outcome,,minority_generic,social_platform,6,6,-2.5,-2.5,-0.1638888888888889,-0.2,0,1,5,Employment,Hiring
+outcome,,minority_majority,academic_research,6,4,0.6666666666666666,1.0,-0.061309523809523814,-0.047619047619047616,1,1,2,Employment,Hiring
+outcome,,minority_majority,advocacy_community,6,4,0.16666666666666666,0.0,0.041666666666666664,0.0,1,3,0,Employment,Hiring
+outcome,,minority_majority,commercial_service,6,4,1.1666666666666667,0.5,-0.01666666666666667,-0.04166666666666666,1,1,2,Employment,Hiring
+outcome,,minority_majority,government,6,4,0.6666666666666666,0.5,-0.013095238095238097,-0.05,2,0,2,Employment,Hiring
+outcome,,minority_majority,healthcare_provider,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,minority_majority,intergovernmental,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,minority_majority,news_media,6,4,0.16666666666666666,0.0,0.020833333333333332,0.0,1,3,0,Employment,Hiring
+outcome,,minority_majority,nonprofit_general,6,4,1.6666666666666667,2.0,0.09345238095238095,0.0369047619047619,3,1,0,Employment,Hiring
+outcome,,minority_majority,other,6,4,0.0,0.0,-0.05654761904761904,-0.07142857142857142,1,1,2,Employment,Hiring
+outcome,,minority_majority,policy_research,6,4,0.16666666666666666,0.0,-0.012499999999999997,0.0,0,3,1,Employment,Hiring
+outcome,,minority_majority,professional_association,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,minority_majority,reference,6,4,0.0,0.0,0.0,0.0,0,4,0,Employment,Hiring
+outcome,,minority_majority,social_platform,6,4,0.16666666666666666,0.0,0.004166666666666659,0.08333333333333333,2,1,1,Employment,Hiring
+outcome,,majority_generic,academic_research,6,6,0.3333333333333333,0.0,0.06666666666666667,0.0,1,5,0,Employment,Workplace harassment
+outcome,,majority_generic,advocacy_community,6,6,-1.0,-1.0,-0.14285714285714285,-0.14285714285714285,0,0,6,Employment,Workplace harassment
+outcome,,majority_generic,commercial_service,6,6,-0.6666666666666666,-1.0,0.04642857142857146,0.07142857142857145,4,0,2,Employment,Workplace harassment
+outcome,,majority_generic,government,6,6,-0.5,-0.5,0.06428571428571431,0.03928571428571431,3,0,3,Employment,Workplace harassment
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,majority_generic,news_media,6,6,0.16666666666666666,0.0,0.03333333333333333,0.0,1,5,0,Employment,Workplace harassment
+outcome,,majority_generic,nonprofit_general,6,6,0.16666666666666666,0.0,0.041666666666666664,0.0,1,5,0,Employment,Workplace harassment
+outcome,,majority_generic,other,6,6,-1.0,-1.0,-0.14285714285714285,-0.14285714285714285,0,0,6,Employment,Workplace harassment
+outcome,,majority_generic,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,majority_generic,social_platform,6,6,0.16666666666666666,0.0,0.03333333333333333,0.0,1,5,0,Employment,Workplace harassment
+outcome,,minority_generic,academic_research,6,6,1.5,1.5,0.1632996632996633,0.16666666666666666,5,1,0,Employment,Workplace harassment
+outcome,,minority_generic,advocacy_community,6,6,-0.8333333333333334,-1.0,-0.12433862433862435,-0.14285714285714285,0,0,6,Employment,Workplace harassment
+outcome,,minority_generic,commercial_service,6,6,0.3333333333333333,0.0,-0.05209836459836458,-0.07440476190476189,2,0,4,Employment,Workplace harassment
+outcome,,minority_generic,government,6,6,0.16666666666666666,-1.0,-0.07338263588263587,-0.13988095238095238,2,0,4,Employment,Workplace harassment
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_generic,nonprofit_general,6,6,1.3333333333333333,1.5,0.14835858585858586,0.14646464646464646,4,2,0,Employment,Workplace harassment
+outcome,,minority_generic,other,6,6,-0.8333333333333334,-1.0,-0.12202380952380952,-0.14285714285714285,0,0,6,Employment,Workplace harassment
+outcome,,minority_generic,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_generic,social_platform,6,6,0.5,0.5,0.060185185185185175,0.041666666666666664,3,3,0,Employment,Workplace harassment
+outcome,,minority_majority,academic_research,6,6,1.1666666666666667,1.0,0.09663299663299663,0.12878787878787878,4,1,1,Employment,Workplace harassment
+outcome,,minority_majority,advocacy_community,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Employment,Workplace harassment
+outcome,,minority_majority,commercial_service,6,6,1.0,1.0,-0.09852693602693603,-0.12613636363636366,1,1,4,Employment,Workplace harassment
+outcome,,minority_majority,government,6,6,0.6666666666666666,0.0,-0.1376683501683502,-0.08611111111111112,1,0,5,Employment,Workplace harassment
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_majority,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_majority,news_media,6,6,-0.16666666666666666,0.0,-0.03333333333333333,0.0,0,5,1,Employment,Workplace harassment
+outcome,,minority_majority,nonprofit_general,6,6,1.1666666666666667,1.5,0.10669191919191919,0.14646464646464646,4,1,1,Employment,Workplace harassment
+outcome,,minority_majority,other,6,6,0.16666666666666666,0.0,0.020833333333333332,0.0,1,5,0,Employment,Workplace harassment
+outcome,,minority_majority,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_majority,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Employment,Workplace harassment
+outcome,,minority_majority,social_platform,6,6,0.3333333333333333,0.5,0.026851851851851846,0.041666666666666664,3,2,1,Employment,Workplace harassment
+outcome,,majority_generic,academic_research,6,6,-2.8333333333333335,-3.0,-0.22222222222222224,-0.21666666666666667,0,0,6,Government Benefits,Access to government benefits
+outcome,,majority_generic,advocacy_community,6,6,0.5,0.5,0.07777777777777778,0.05,3,3,0,Government Benefits,Access to government benefits
+outcome,,majority_generic,commercial_service,6,6,0.3333333333333333,0.0,0.061111111111111116,0.0,2,4,0,Government Benefits,Access to government benefits
+outcome,,majority_generic,government,6,6,-0.8333333333333334,-1.0,-0.022222222222222237,-0.016666666666666677,1,2,3,Government Benefits,Access to government benefits
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,majority_generic,nonprofit_general,6,6,-1.5,-1.5,-0.061111111111111095,-0.09999999999999998,2,0,4,Government Benefits,Access to government benefits
+outcome,,majority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,majority_generic,policy_research,6,6,0.5,0.5,0.13333333333333333,0.15,5,0,1,Government Benefits,Access to government benefits
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,majority_generic,social_platform,6,6,0.16666666666666666,0.0,0.03333333333333333,0.0,1,5,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,academic_research,6,6,-2.1666666666666665,-2.0,-0.17718253968253972,-0.17500000000000002,0,0,6,Government Benefits,Access to government benefits
+outcome,,minority_generic,advocacy_community,6,6,0.6666666666666666,0.5,0.0880952380952381,0.05,3,3,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,commercial_service,6,6,0.6666666666666666,0.0,0.07638888888888888,0.0,2,4,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,government,6,6,-0.5,-0.5,-0.021362433862433878,-0.0015873015873016094,3,0,3,Government Benefits,Access to government benefits
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,news_media,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,nonprofit_general,6,6,-1.6666666666666667,-1.5,-0.13273809523809524,-0.12857142857142856,0,0,6,Government Benefits,Access to government benefits
+outcome,,minority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,policy_research,6,6,0.8333333333333334,1.0,0.12215608465608464,0.1361111111111111,5,0,1,Government Benefits,Access to government benefits
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_generic,social_platform,6,6,0.16666666666666666,0.0,0.020833333333333332,0.0,1,5,0,Government Benefits,Access to government benefits
+outcome,,minority_majority,academic_research,6,6,0.6666666666666666,0.5,0.04503968253968254,0.042857142857142844,3,1,2,Government Benefits,Access to government benefits
+outcome,,minority_majority,advocacy_community,6,6,0.16666666666666666,0.0,0.010317460317460314,0.0,2,2,2,Government Benefits,Access to government benefits
+outcome,,minority_majority,commercial_service,6,6,0.3333333333333333,0.0,0.015277777777777774,0.0,1,4,1,Government Benefits,Access to government benefits
+outcome,,minority_majority,government,6,6,0.3333333333333333,0.0,0.0008597883597883568,0.042857142857142844,3,1,2,Government Benefits,Access to government benefits
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_majority,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_majority,news_media,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Government Benefits,Access to government benefits
+outcome,,minority_majority,nonprofit_general,6,6,-0.16666666666666666,-0.5,-0.07162698412698414,-0.05238095238095239,1,1,4,Government Benefits,Access to government benefits
+outcome,,minority_majority,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_majority,policy_research,6,6,0.3333333333333333,1.0,-0.01117724867724868,-0.012500000000000011,2,1,3,Government Benefits,Access to government benefits
+outcome,,minority_majority,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Access to government benefits
+outcome,,minority_majority,social_platform,6,6,0.0,0.0,-0.012500000000000002,0.0,0,5,1,Government Benefits,Access to government benefits
+outcome,,majority_generic,academic_research,6,5,-0.3333333333333333,-0.5,-0.007373737373737368,-0.016666666666666663,2,0,3,Government Benefits,Application/approval
+outcome,,majority_generic,advocacy_community,6,5,0.0,0.0,0.0,0.0,0,5,0,Government Benefits,Application/approval
+outcome,,majority_generic,commercial_service,6,5,1.3333333333333333,0.5,0.15125874125874125,0.05,4,0,1,Government Benefits,Application/approval
+outcome,,majority_generic,government,6,5,1.0,0.0,0.127000777000777,0.08333333333333333,4,0,1,Government Benefits,Application/approval
+outcome,,majority_generic,healthcare_provider,6,5,0.0,0.0,0.0,0.0,0,5,0,Government Benefits,Application/approval
+outcome,,majority_generic,intergovernmental,6,5,0.16666666666666666,0.0,0.015384615384615385,0.0,1,4,0,Government Benefits,Application/approval
+outcome,,majority_generic,news_media,6,5,-0.6666666666666666,-1.0,-0.04696969696969696,-0.08333333333333333,1,0,4,Government Benefits,Application/approval
+outcome,,majority_generic,nonprofit_general,6,5,-5.166666666666667,-5.0,-0.32919191919191926,-0.38333333333333336,1,0,4,Government Benefits,Application/approval
+outcome,,majority_generic,other,6,5,0.6666666666666666,0.0,0.059487179487179485,0.0,2,3,0,Government Benefits,Application/approval
+outcome,,majority_generic,policy_research,6,5,0.0,0.0,0.030404040404040412,0.027777777777777776,4,0,1,Government Benefits,Application/approval
+outcome,,majority_generic,professional_association,6,5,0.0,0.0,0.0,0.0,0,5,0,Government Benefits,Application/approval
+outcome,,majority_generic,reference,6,5,0.0,0.0,0.0,0.0,0,5,0,Government Benefits,Application/approval
+outcome,,majority_generic,social_platform,6,5,0.0,0.0,0.0,0.0,0,5,0,Government Benefits,Application/approval
+outcome,,minority_generic,academic_research,6,6,0.5,1.0,0.09161324786324787,0.07692307692307693,4,0,2,Government Benefits,Application/approval
+outcome,,minority_generic,advocacy_community,6,6,1.1666666666666667,1.0,0.08707264957264958,0.0625,3,3,0,Government Benefits,Application/approval
+outcome,,minority_generic,commercial_service,6,6,0.6666666666666666,-0.5,0.06939102564102563,-0.05208333333333333,2,0,4,Government Benefits,Application/approval
+outcome,,minority_generic,government,6,6,0.6666666666666666,0.5,0.05966880341880343,0.07692307692307693,5,0,1,Government Benefits,Application/approval
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Application/approval
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Application/approval
+outcome,,minority_generic,news_media,6,6,-1.0,-1.0,-0.08333333333333333,-0.08333333333333333,0,0,6,Government Benefits,Application/approval
+outcome,,minority_generic,nonprofit_general,6,6,-4.833333333333333,-5.5,-0.3951923076923078,-0.41666666666666674,0,0,6,Government Benefits,Application/approval
+outcome,,minority_generic,other,6,6,0.5,0.5,0.05101495726495727,0.03125,3,3,0,Government Benefits,Application/approval
+outcome,,minority_generic,policy_research,6,6,0.5,0.0,0.09268162393162394,0.038461538461538464,3,0,3,Government Benefits,Application/approval
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Application/approval
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Application/approval
+outcome,,minority_generic,social_platform,6,6,0.3333333333333333,0.0,0.027083333333333334,0.0,2,4,0,Government Benefits,Application/approval
+outcome,,minority_majority,academic_research,6,5,0.8333333333333334,1.0,0.06730963480963481,0.06293706293706294,3,1,1,Government Benefits,Application/approval
+outcome,,minority_majority,advocacy_community,6,5,1.1666666666666667,1.0,0.10448717948717949,0.125,3,2,0,Government Benefits,Application/approval
+outcome,,minority_majority,commercial_service,6,5,-0.6666666666666666,-0.5,-0.05132284382284382,0.0,2,1,2,Government Benefits,Application/approval
+outcome,,minority_majority,government,6,5,-0.3333333333333333,0.0,-0.038731546231546225,0.023076923076923078,3,0,2,Government Benefits,Application/approval
+outcome,,minority_majority,healthcare_provider,6,5,0.0,0.0,0.0,0.0,0,5,0,Government Benefits,Application/approval
+outcome,,minority_majority,intergovernmental,6,5,-0.16666666666666666,0.0,-0.015384615384615385,0.0,0,4,1,Government Benefits,Application/approval
+outcome,,minority_majority,news_media,6,5,-0.3333333333333333,0.0,-0.03636363636363636,0.0,0,4,1,Government Benefits,Application/approval
+outcome,,minority_majority,nonprofit_general,6,5,0.3333333333333333,0.5,-0.061705516705516696,-0.02797202797202797,2,0,3,Government Benefits,Application/approval
+outcome,,minority_majority,other,6,5,-0.16666666666666666,0.0,0.0017307692307692245,0.0625,3,1,1,Government Benefits,Application/approval
+outcome,,minority_majority,policy_research,6,5,0.5,0.0,-0.0025194250194250202,-0.013986013986013984,1,1,3,Government Benefits,Application/approval
+outcome,,minority_majority,professional_association,6,5,0.0,0.0,0.0,0.0,0,5,0,Government Benefits,Application/approval
+outcome,,minority_majority,reference,6,5,0.0,0.0,0.0,0.0,0,5,0,Government Benefits,Application/approval
+outcome,,minority_majority,social_platform,6,5,0.3333333333333333,0.0,0.0325,0.0,2,3,0,Government Benefits,Application/approval
+outcome,,majority_generic,academic_research,6,6,0.0,0.0,0.0010531135531135494,-0.014423076923076927,3,0,3,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,advocacy_community,6,6,0.16666666666666666,0.0,0.03333333333333333,0.0,1,5,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,commercial_service,6,6,-2.8333333333333335,-3.0,-0.1764423076923077,-0.2139423076923077,1,0,5,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,government,6,6,2.0,2.0,0.2523809523809524,0.29464285714285715,5,1,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,nonprofit_general,6,6,-0.6666666666666666,0.0,-0.034203296703296714,-0.01991758241758243,2,0,4,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,other,6,6,0.16666666666666666,0.0,0.03333333333333333,0.0,1,5,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,policy_research,6,6,-1.1666666666666667,-3.0,-0.0325320512820513,-0.059615384615384626,3,0,3,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,social_platform,6,6,-1.0,-1.0,-0.07692307692307693,-0.07692307692307693,0,0,6,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,academic_research,6,6,0.6666666666666666,0.0,0.0352617970265029,-0.0019230769230769301,3,0,3,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,advocacy_community,6,6,1.8333333333333333,1.0,0.13004201680672267,0.06904761904761905,5,1,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,commercial_service,6,6,-1.3333333333333333,-2.5,-0.04389095381742442,-0.19459706959706963,1,0,5,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,government,6,6,2.1666666666666665,2.0,0.1416783380018674,0.12916666666666665,5,1,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,news_media,6,6,0.3333333333333333,0.0,0.023015873015873017,0.0,2,4,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,nonprofit_general,6,6,-0.6666666666666666,-1.0,-0.06537159735689148,-0.0931843891402715,1,0,5,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,other,6,6,0.16666666666666666,0.0,0.00980392156862745,0.0,1,5,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,policy_research,6,6,-1.8333333333333333,-2.0,-0.16342023989082813,-0.1881868131868132,2,0,4,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_generic,social_platform,6,6,-0.8333333333333334,-1.0,-0.06711915535444947,-0.07692307692307693,0,0,6,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,academic_research,6,6,0.6666666666666666,1.0,0.03420868347338935,0.06274509803921569,4,1,1,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,advocacy_community,6,6,1.6666666666666667,1.0,0.09670868347338935,0.06904761904761905,4,1,1,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,commercial_service,6,6,1.5,1.0,0.1325513538748833,0.07142857142857142,3,1,2,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,government,6,6,0.16666666666666666,0.0,-0.11070261437908498,-0.05294117647058824,1,2,3,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,news_media,6,6,0.3333333333333333,0.0,0.023015873015873017,0.0,2,4,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,nonprofit_general,6,6,0.0,0.0,-0.03116830065359477,0.0,2,2,2,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,other,6,6,0.0,0.0,-0.023529411764705882,0.0,1,4,1,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,policy_research,6,6,-0.6666666666666666,-0.5,-0.13088818860877685,-0.2411764705882353,2,0,4,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Government Benefits,Benefit retention / renewal
+outcome,,minority_majority,social_platform,6,6,0.16666666666666666,0.0,0.00980392156862745,0.0,1,5,0,Government Benefits,Benefit retention / renewal
+outcome,,majority_generic,academic_research,6,6,-1.1666666666666667,-1.0,-0.0367826617826618,-0.010989010989011005,2,0,4,Healthcare,Insurance coverage
+outcome,,majority_generic,advocacy_community,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,majority_generic,commercial_service,6,6,-2.8333333333333335,-3.0,-0.20695970695970697,-0.23076923076923078,0,0,6,Healthcare,Insurance coverage
+outcome,,majority_generic,government,6,6,-2.8333333333333335,-2.5,0.07681623931623933,0.10737179487179488,5,0,1,Healthcare,Insurance coverage
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,majority_generic,nonprofit_general,6,6,0.3333333333333333,0.0,0.047619047619047616,0.0,2,4,0,Healthcare,Insurance coverage
+outcome,,majority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,majority_generic,policy_research,6,6,1.1666666666666667,1.0,0.19623015873015873,0.14285714285714285,5,1,0,Healthcare,Insurance coverage
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,majority_generic,social_platform,6,6,-1.0,-1.0,-0.07692307692307693,-0.07692307692307693,0,0,6,Healthcare,Insurance coverage
+outcome,,minority_generic,academic_research,6,6,-0.6666666666666666,-1.0,0.017969067969067956,0.0009157509157508986,3,0,3,Healthcare,Insurance coverage
+outcome,,minority_generic,advocacy_community,6,6,0.3333333333333333,0.0,0.03133903133903134,0.0,2,4,0,Healthcare,Insurance coverage
+outcome,,minority_generic,commercial_service,6,6,-2.6666666666666665,-3.0,-0.19943019943019946,-0.23076923076923078,0,0,6,Healthcare,Insurance coverage
+outcome,,minority_generic,government,6,6,-4.5,-4.5,-0.1956450956450956,-0.18461538461538457,1,0,5,Healthcare,Insurance coverage
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_generic,nonprofit_general,6,6,1.0,1.0,0.1495929995929996,0.12698412698412698,5,1,0,Healthcare,Insurance coverage
+outcome,,minority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_generic,policy_research,6,6,2.0,1.0,0.23076923076923075,0.14285714285714285,3,3,0,Healthcare,Insurance coverage
+outcome,,minority_generic,professional_association,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Healthcare,Insurance coverage
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_generic,social_platform,6,6,-0.8333333333333334,-1.0,-0.05840455840455841,-0.07692307692307693,1,0,5,Healthcare,Insurance coverage
+outcome,,minority_majority,academic_research,6,6,0.5,0.0,0.054751729751729754,0.02857142857142858,4,2,0,Healthcare,Insurance coverage
+outcome,,minority_majority,advocacy_community,6,6,0.3333333333333333,0.0,0.03133903133903134,0.0,2,4,0,Healthcare,Insurance coverage
+outcome,,minority_majority,commercial_service,6,6,0.16666666666666666,0.0,0.00752950752950753,0.0,2,3,1,Healthcare,Insurance coverage
+outcome,,minority_majority,government,6,6,-1.6666666666666667,-1.5,-0.27246133496133496,-0.2761904761904762,1,0,5,Healthcare,Insurance coverage
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_majority,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_majority,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_majority,nonprofit_general,6,6,0.6666666666666666,0.5,0.10197395197395198,0.06746031746031746,4,1,1,Healthcare,Insurance coverage
+outcome,,minority_majority,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_majority,policy_research,6,6,0.8333333333333334,0.5,0.03453907203907205,0.05714285714285716,3,1,2,Healthcare,Insurance coverage
+outcome,,minority_majority,professional_association,6,6,0.16666666666666666,0.0,0.023809523809523808,0.0,1,5,0,Healthcare,Insurance coverage
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Insurance coverage
+outcome,,minority_majority,social_platform,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Healthcare,Insurance coverage
+outcome,,majority_generic,academic_research,6,6,-1.6666666666666667,-2.0,-0.09292929292929293,-0.18181818181818182,2,0,4,Healthcare,Patient safety
+outcome,,majority_generic,advocacy_community,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,majority_generic,commercial_service,6,6,-0.8333333333333334,-1.0,-0.04924242424242425,-0.09090909090909091,1,0,5,Healthcare,Patient safety
+outcome,,majority_generic,government,6,6,-5.166666666666667,-5.5,-0.24390331890331893,-0.2196969696969697,0,0,6,Healthcare,Patient safety
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.14678932178932177,0.1590909090909091,6,0,0,Healthcare,Patient safety
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,majority_generic,nonprofit_general,6,6,1.1666666666666667,1.0,0.2392857142857143,0.25,5,1,0,Healthcare,Patient safety
+outcome,,majority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,majority_generic,policy_research,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,majority_generic,social_platform,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,minority_generic,academic_research,6,6,-1.0,-1.0,-0.08089225589225589,-0.08181818181818182,0,0,6,Healthcare,Patient safety
+outcome,,minority_generic,advocacy_community,6,6,0.3333333333333333,0.0,0.03333333333333333,0.0,2,4,0,Healthcare,Patient safety
+outcome,,minority_generic,commercial_service,6,6,-0.5,-0.5,-0.03905723905723906,-0.04090909090909091,3,0,3,Healthcare,Patient safety
+outcome,,minority_generic,government,6,6,-2.3333333333333335,-3.0,-0.17895622895622895,-0.21414141414141413,1,0,5,Healthcare,Patient safety
+outcome,,minority_generic,healthcare_provider,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Healthcare,Patient safety
+outcome,,minority_generic,intergovernmental,6,6,-1.0,-1.0,-0.0909090909090909,-0.09090909090909091,0,0,6,Healthcare,Patient safety
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,minority_generic,nonprofit_general,6,6,1.5,1.0,0.15185185185185185,0.10555555555555556,6,0,0,Healthcare,Patient safety
+outcome,,minority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,minority_generic,policy_research,6,6,0.8333333333333334,1.0,0.0861111111111111,0.09166666666666667,4,2,0,Healthcare,Patient safety
+outcome,,minority_generic,professional_association,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Healthcare,Patient safety
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,minority_generic,social_platform,6,6,0.8333333333333334,1.0,0.08518518518518518,0.1,4,2,0,Healthcare,Patient safety
+outcome,,minority_majority,academic_research,6,6,0.6666666666666666,1.0,0.012037037037037035,0.09166666666666667,4,0,2,Healthcare,Patient safety
+outcome,,minority_majority,advocacy_community,6,6,0.3333333333333333,0.0,0.03333333333333333,0.0,2,4,0,Healthcare,Patient safety
+outcome,,minority_majority,commercial_service,6,6,0.3333333333333333,0.0,0.010185185185185186,0.0,2,3,1,Healthcare,Patient safety
+outcome,,minority_majority,government,6,6,2.8333333333333335,2.5,0.06494708994708995,0.08333333333333331,3,1,2,Healthcare,Patient safety
+outcome,,minority_majority,healthcare_provider,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Healthcare,Patient safety
+outcome,,minority_majority,intergovernmental,6,6,-1.0,-1.0,-0.23769841269841271,-0.25,0,0,6,Healthcare,Patient safety
+outcome,,minority_majority,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,minority_majority,nonprofit_general,6,6,0.3333333333333333,0.0,-0.08743386243386243,-0.15,1,0,5,Healthcare,Patient safety
+outcome,,minority_majority,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,minority_majority,policy_research,6,6,0.8333333333333334,1.0,0.0861111111111111,0.09166666666666667,4,2,0,Healthcare,Patient safety
+outcome,,minority_majority,professional_association,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Healthcare,Patient safety
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Patient safety
+outcome,,minority_majority,social_platform,6,6,0.8333333333333334,1.0,0.08518518518518518,0.1,4,2,0,Healthcare,Patient safety
+outcome,,majority_generic,academic_research,6,5,1.0,1.0,0.24,0.2,4,1,0,Healthcare,Preventive care
+outcome,,majority_generic,advocacy_community,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,majority_generic,commercial_service,6,5,0.5,0.0,0.12,0.0,2,3,0,Healthcare,Preventive care
+outcome,,majority_generic,government,6,5,-1.6666666666666667,-1.5,-0.34,-0.20000000000000007,0,0,5,Healthcare,Preventive care
+outcome,,majority_generic,healthcare_provider,6,5,0.3333333333333333,0.0,0.06999999999999999,0.0,2,3,0,Healthcare,Preventive care
+outcome,,majority_generic,intergovernmental,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,majority_generic,news_media,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,majority_generic,nonprofit_general,6,5,0.3333333333333333,0.0,0.09,0.0,2,3,0,Healthcare,Preventive care
+outcome,,majority_generic,other,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,majority_generic,policy_research,6,5,0.16666666666666666,0.0,0.02,0.0,1,4,0,Healthcare,Preventive care
+outcome,,majority_generic,professional_association,6,5,-1.0,-1.0,-0.2,-0.2,0,0,5,Healthcare,Preventive care
+outcome,,majority_generic,reference,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,majority_generic,social_platform,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,minority_generic,academic_research,6,6,1.1666666666666667,1.0,0.14814814814814814,0.1388888888888889,5,1,0,Healthcare,Preventive care
+outcome,,minority_generic,advocacy_community,6,6,0.3333333333333333,0.0,0.03935185185185185,0.0,2,4,0,Healthcare,Preventive care
+outcome,,minority_generic,commercial_service,6,6,1.0,1.0,0.13564814814814816,0.11805555555555555,6,0,0,Healthcare,Preventive care
+outcome,,minority_generic,government,6,6,-0.5,-0.5,-0.36759259259259264,-0.35000000000000003,0,0,6,Healthcare,Preventive care
+outcome,,minority_generic,healthcare_provider,6,6,0.16666666666666666,0.0,0.027777777777777776,0.0,1,5,0,Healthcare,Preventive care
+outcome,,minority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Preventive care
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Preventive care
+outcome,,minority_generic,nonprofit_general,6,6,1.0,1.0,0.12407407407407407,0.10555555555555556,4,2,0,Healthcare,Preventive care
+outcome,,minority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Preventive care
+outcome,,minority_generic,policy_research,6,6,0.5,0.0,0.07407407407407407,0.0,2,4,0,Healthcare,Preventive care
+outcome,,minority_generic,professional_association,6,6,-1.0,-1.0,-0.20000000000000004,-0.2,0,0,6,Healthcare,Preventive care
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Healthcare,Preventive care
+outcome,,minority_generic,social_platform,6,6,0.16666666666666666,0.0,0.018518518518518517,0.0,1,5,0,Healthcare,Preventive care
+outcome,,minority_majority,academic_research,6,5,0.16666666666666666,0.0,-0.08444444444444446,-0.1,2,0,3,Healthcare,Preventive care
+outcome,,minority_majority,advocacy_community,6,5,0.3333333333333333,0.0,0.025,0.0,1,4,0,Healthcare,Preventive care
+outcome,,minority_majority,commercial_service,6,5,0.5,1.0,0.02055555555555555,0.1,4,0,1,Healthcare,Preventive care
+outcome,,minority_majority,government,6,5,1.1666666666666667,2.0,0.01444444444444446,0.05555555555555558,3,0,2,Healthcare,Preventive care
+outcome,,minority_majority,healthcare_provider,6,5,-0.16666666666666666,0.0,-0.03666666666666667,0.0,1,2,2,Healthcare,Preventive care
+outcome,,minority_majority,intergovernmental,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,minority_majority,news_media,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,minority_majority,nonprofit_general,6,5,0.6666666666666666,0.0,-0.0077777777777777776,0.0,1,2,2,Healthcare,Preventive care
+outcome,,minority_majority,other,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,minority_majority,policy_research,6,5,0.3333333333333333,0.0,0.06888888888888889,0.0,2,2,1,Healthcare,Preventive care
+outcome,,minority_majority,professional_association,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,minority_majority,reference,6,5,0.0,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,minority_majority,social_platform,6,5,0.16666666666666666,0.0,0.0,0.0,0,5,0,Healthcare,Preventive care
+outcome,,majority_generic,academic_research,6,6,0.6666666666666666,0.5,0.0845959595959596,0.045454545454545456,3,3,0,Housing,Access to housing
+outcome,,majority_generic,advocacy_community,6,6,-0.3333333333333333,-0.5,-0.07611832611832611,-0.1212121212121212,1,1,4,Housing,Access to housing
+outcome,,majority_generic,commercial_service,6,6,0.3333333333333333,0.0,0.0707070707070707,0.0,2,4,0,Housing,Access to housing
+outcome,,majority_generic,government,6,6,0.6666666666666666,0.5,0.13519119769119767,0.08333333333333333,3,1,2,Housing,Access to housing
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,majority_generic,nonprofit_general,6,6,-1.3333333333333333,-1.5,-0.29058441558441556,-0.2916666666666667,0,0,6,Housing,Access to housing
+outcome,,majority_generic,other,6,6,-0.8333333333333334,-1.0,-0.14583333333333334,-0.16666666666666666,0,0,6,Housing,Access to housing
+outcome,,majority_generic,policy_research,6,6,1.5,1.5,0.19426406926406925,0.20833333333333331,5,1,0,Housing,Access to housing
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,majority_generic,social_platform,6,6,0.16666666666666666,0.0,0.027777777777777776,0.0,1,5,0,Housing,Access to housing
+outcome,,minority_generic,academic_research,6,6,0.6666666666666666,0.5,0.06527777777777778,0.05,3,3,0,Housing,Access to housing
+outcome,,minority_generic,advocacy_community,6,6,0.8333333333333334,0.5,0.025757575757575757,0.016666666666666677,3,1,2,Housing,Access to housing
+outcome,,minority_generic,commercial_service,6,6,0.16666666666666666,0.0,0.016666666666666666,0.0,1,5,0,Housing,Access to housing
+outcome,,minority_generic,government,6,6,0.16666666666666666,0.0,-0.05429292929292928,-0.07954545454545453,2,0,4,Housing,Access to housing
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_generic,intergovernmental,6,6,0.16666666666666666,0.0,0.013888888888888888,0.0,1,5,0,Housing,Access to housing
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_generic,nonprofit_general,6,6,0.5,0.5,-0.14482323232323233,-0.13333333333333333,0,2,4,Housing,Access to housing
+outcome,,minority_generic,other,6,6,-0.8333333333333334,-1.0,-0.15277777777777776,-0.16666666666666666,0,0,6,Housing,Access to housing
+outcome,,minority_generic,policy_research,6,6,2.0,2.0,0.23030303030303031,0.25,5,1,0,Housing,Access to housing
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_generic,social_platform,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_majority,academic_research,6,6,0.0,0.0,-0.019318181818181818,-0.02083333333333333,1,2,3,Housing,Access to housing
+outcome,,minority_majority,advocacy_community,6,6,1.1666666666666667,1.0,0.10187590187590188,0.09621212121212122,4,2,0,Housing,Access to housing
+outcome,,minority_majority,commercial_service,6,6,-0.16666666666666666,0.0,-0.054040404040404035,0.0,1,3,2,Housing,Access to housing
+outcome,,minority_majority,government,6,6,-0.5,-1.0,-0.18948412698412698,-0.10795454545454546,1,0,5,Housing,Access to housing
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_majority,intergovernmental,6,6,0.16666666666666666,0.0,0.013888888888888888,0.0,1,5,0,Housing,Access to housing
+outcome,,minority_majority,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_majority,nonprofit_general,6,6,1.8333333333333333,2.0,0.14576118326118326,0.08311688311688312,4,1,1,Housing,Access to housing
+outcome,,minority_majority,other,6,6,0.0,0.0,-0.006944444444444445,0.0,1,4,1,Housing,Access to housing
+outcome,,minority_majority,policy_research,6,6,0.5,1.0,0.03603896103896105,0.04448051948051948,4,1,1,Housing,Access to housing
+outcome,,minority_majority,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Access to housing
+outcome,,minority_majority,social_platform,6,6,-0.16666666666666666,0.0,-0.027777777777777776,0.0,0,5,1,Housing,Access to housing
+outcome,,majority_generic,academic_research,6,6,-0.3333333333333333,-0.5,-0.05535714285714285,-0.08035714285714285,2,0,4,Housing,Homelessness
+outcome,,majority_generic,advocacy_community,6,6,-1.1666666666666667,-1.5,-0.17075517075517074,-0.2214285714285714,1,0,5,Housing,Homelessness
+outcome,,majority_generic,commercial_service,6,6,0.3333333333333333,0.0,0.03367003367003367,0.0,2,4,0,Housing,Homelessness
+outcome,,majority_generic,government,6,6,1.1666666666666667,1.0,0.11919191919191918,0.09090909090909091,3,3,0,Housing,Homelessness
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,majority_generic,nonprofit_general,6,6,1.0,0.5,0.09725228475228476,0.1001984126984127,3,0,3,Housing,Homelessness
+outcome,,majority_generic,other,6,6,-0.6666666666666666,-1.0,-0.10952380952380951,-0.14285714285714285,1,0,5,Housing,Homelessness
+outcome,,majority_generic,policy_research,6,6,0.16666666666666666,0.0,0.015151515151515152,0.0,1,5,0,Housing,Homelessness
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,majority_generic,social_platform,6,6,0.5,0.0,0.07037037037037037,0.0,2,4,0,Housing,Homelessness
+outcome,,minority_generic,academic_research,6,6,0.0,0.0,-0.031746031746031744,-0.04563492063492063,2,0,4,Housing,Homelessness
+outcome,,minority_generic,advocacy_community,6,6,-1.3333333333333333,-1.5,-0.31626475376475377,-0.3353174603174603,0,0,6,Housing,Homelessness
+outcome,,minority_generic,commercial_service,6,6,1.1666666666666667,1.0,0.1412037037037037,0.11805555555555555,5,1,0,Housing,Homelessness
+outcome,,minority_generic,government,6,6,1.0,1.0,0.09740028490028489,0.10416666666666666,4,2,0,Housing,Homelessness
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,minority_generic,intergovernmental,6,6,0.16666666666666666,0.0,0.027777777777777776,0.0,1,5,0,Housing,Homelessness
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,minority_generic,nonprofit_general,6,6,1.5,1.0,0.10055453805453807,0.09432234432234433,4,0,2,Housing,Homelessness
+outcome,,minority_generic,other,6,6,-0.8333333333333334,-1.0,-0.11507936507936507,-0.14285714285714285,1,0,5,Housing,Homelessness
+outcome,,minority_generic,policy_research,6,6,0.6666666666666666,0.5,0.06837606837606837,0.038461538461538464,3,3,0,Housing,Homelessness
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,minority_generic,social_platform,6,6,0.16666666666666666,0.0,0.027777777777777776,0.0,1,5,0,Housing,Homelessness
+outcome,,minority_majority,academic_research,6,6,0.3333333333333333,0.0,0.0236111111111111,-0.0069444444444444475,2,1,3,Housing,Homelessness
+outcome,,minority_majority,advocacy_community,6,6,-0.16666666666666666,-0.5,-0.14550958300958303,-0.2138888888888889,1,1,4,Housing,Homelessness
+outcome,,minority_majority,commercial_service,6,6,0.8333333333333334,1.0,0.10753367003367004,0.11805555555555555,4,1,1,Housing,Homelessness
+outcome,,minority_majority,government,6,6,-0.16666666666666666,0.5,-0.021791634291634294,0.02768065268065268,3,0,3,Housing,Homelessness
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,minority_majority,intergovernmental,6,6,0.16666666666666666,0.0,0.027777777777777776,0.0,1,5,0,Housing,Homelessness
+outcome,,minority_majority,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,minority_majority,nonprofit_general,6,6,0.5,0.5,0.0033022533022533016,0.04166666666666666,4,0,2,Housing,Homelessness
+outcome,,minority_majority,other,6,6,-0.16666666666666666,0.0,-0.005555555555555559,0.0,0,5,1,Housing,Homelessness
+outcome,,minority_majority,policy_research,6,6,0.5,0.0,0.05322455322455322,0.0,2,3,1,Housing,Homelessness
+outcome,,minority_majority,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Homelessness
+outcome,,minority_majority,social_platform,6,6,-0.3333333333333333,0.0,-0.04259259259259259,0.0,1,3,2,Housing,Homelessness
+outcome,,majority_generic,academic_research,6,6,-0.6666666666666666,-1.0,-0.06666666666666667,-0.1111111111111111,1,0,5,Housing,Housing stability
+outcome,,majority_generic,advocacy_community,6,6,0.5,0.5,0.0701058201058201,0.05555555555555555,3,3,0,Housing,Housing stability
+outcome,,majority_generic,commercial_service,6,6,-0.6666666666666666,-1.0,-0.06666666666666667,-0.1111111111111111,1,0,5,Housing,Housing stability
+outcome,,majority_generic,government,6,6,0.8333333333333334,1.0,0.25476190476190474,0.15873015873015872,6,0,0,Housing,Housing stability
+outcome,,majority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,majority_generic,intergovernmental,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,majority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,majority_generic,nonprofit_general,6,6,-3.6666666666666665,-4.0,-0.3907407407407408,-0.37222222222222223,0,0,6,Housing,Housing stability
+outcome,,majority_generic,other,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,majority_generic,policy_research,6,6,1.3333333333333333,1.0,0.1992063492063492,0.21666666666666667,4,2,0,Housing,Housing stability
+outcome,,majority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,majority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,majority_generic,social_platform,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_generic,academic_research,6,6,0.8333333333333334,0.0,0.061457523957523956,0.0069444444444444475,3,1,2,Housing,Housing stability
+outcome,,minority_generic,advocacy_community,6,6,1.0,0.5,0.08694638694638696,0.045454545454545456,3,3,0,Housing,Housing stability
+outcome,,minority_generic,commercial_service,6,6,-0.8333333333333334,-1.0,-0.09595959595959595,-0.1111111111111111,0,0,6,Housing,Housing stability
+outcome,,minority_generic,government,6,6,-1.1666666666666667,-1.0,-0.1363960113960114,-0.10416666666666666,0,0,6,Housing,Housing stability
+outcome,,minority_generic,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_generic,intergovernmental,6,6,0.16666666666666666,0.0,0.015151515151515152,0.0,1,5,0,Housing,Housing stability
+outcome,,minority_generic,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_generic,nonprofit_general,6,6,-2.1666666666666665,-2.0,-0.2567145817145817,-0.30170940170940175,1,0,5,Housing,Housing stability
+outcome,,minority_generic,other,6,6,0.16666666666666666,0.0,0.015151515151515152,0.0,1,5,0,Housing,Housing stability
+outcome,,minority_generic,policy_research,6,6,2.3333333333333335,2.0,0.2501780626780627,0.18803418803418803,5,1,0,Housing,Housing stability
+outcome,,minority_generic,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_generic,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_generic,social_platform,6,6,0.5,0.0,0.06018518518518518,0.0,2,4,0,Housing,Housing stability
+outcome,,minority_majority,academic_research,6,6,1.5,1.0,0.12812419062419061,0.10555555555555556,4,1,1,Housing,Housing stability
+outcome,,minority_majority,advocacy_community,6,6,0.5,0.5,0.01684056684056685,0.02857142857142858,3,1,2,Housing,Housing stability
+outcome,,minority_majority,commercial_service,6,6,-0.16666666666666666,0.0,-0.02929292929292929,0.0,0,4,2,Housing,Housing stability
+outcome,,minority_majority,government,6,6,-2.0,-2.5,-0.3911579161579161,-0.36428571428571427,0,0,6,Housing,Housing stability
+outcome,,minority_majority,healthcare_provider,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_majority,intergovernmental,6,6,0.16666666666666666,0.0,0.015151515151515152,0.0,1,5,0,Housing,Housing stability
+outcome,,minority_majority,news_media,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_majority,nonprofit_general,6,6,1.5,2.5,0.13402615902615903,0.2222222222222222,4,0,2,Housing,Housing stability
+outcome,,minority_majority,other,6,6,0.16666666666666666,0.0,0.015151515151515152,0.0,1,5,0,Housing,Housing stability
+outcome,,minority_majority,policy_research,6,6,1.0,1.0,0.050971713471713476,0.09821428571428573,4,0,2,Housing,Housing stability
+outcome,,minority_majority,professional_association,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_majority,reference,6,6,0.0,0.0,0.0,0.0,0,6,0,Housing,Housing stability
+outcome,,minority_majority,social_platform,6,6,0.5,0.0,0.06018518518518518,0.0,2,4,0,Housing,Housing stability

@@ -1,0 +1,20 @@
+{
+  "source_id": "817fdb026abac19a8f33",
+  "normalized_url": "https://thelancet.com/journals/lancet/article/PIIS2468-2667(20)30054-2/fulltext",
+  "fetch_timestamp_utc": "2026-10-04T03:40:24.244559+00:00",
+  "registrable_domain": "thelancet.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://thelancet.com/journals/lancet/article/PIIS2468-2667(20)30054-2/fulltext",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5838,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

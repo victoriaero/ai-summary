@@ -1,0 +1,28 @@
+{
+  "source_id": "f35e4b41f9770a9690f3",
+  "normalized_url": "https://eric.ed.gov/?id=EJ1129434",
+  "fetch_timestamp_utc": "2026-10-04T02:51:46.351377+00:00",
+  "registrable_domain": "ed.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://eric.ed.gov/?id=EJ1129434",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 13981,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f35e4b41f9770a9690f3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f35e4b41f9770a9690f3.txt",
+  "text_chars": 2184,
+  "text_words": 289,
+  "extraction_status": "success",
+  "page_title": "Social Reproduction and College Access: Current Evidence, Context, and Potential Alternatives.",
+  "page_author": "Serna; Gabriel R; Woulfe; Rebecca",
+  "page_date": "2017-01-01",
+  "site_name": "Critical Questions in Education",
+  "canonical_url": "https://eric.ed.gov/?id=EJ1129434"
+}

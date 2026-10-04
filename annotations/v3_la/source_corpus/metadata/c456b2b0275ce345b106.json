@@ -1,0 +1,28 @@
+{
+  "source_id": "c456b2b0275ce345b106",
+  "normalized_url": "https://ballardbrief.byu.edu/issue-briefs/educational-disparities-among-racial-and-ethnic-minority-youth-in-the-united-states",
+  "fetch_timestamp_utc": "2026-10-04T03:45:25.132153+00:00",
+  "registrable_domain": "byu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ballardbrief.byu.edu/issue-briefs/educational-disparities-among-racial-and-ethnic-minority-youth-in-the-united-states",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 422936,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c456b2b0275ce345b106.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c456b2b0275ce345b106.txt",
+  "text_chars": 64425,
+  "text_words": 9425,
+  "extraction_status": "success",
+  "page_title": "Educational Disparities among Racial and Ethnic Minority Youth in the Unites States - Ballard Brief",
+  "page_author": "Lauren Bushnell",
+  "page_date": "2021-05-11",
+  "site_name": "The Ballard Center for Social Impact",
+  "canonical_url": "https://ballardbrief.byu.edu/issue-briefs/educational-disparities-among-racial-and-ethnic-minority-youth-in-the-united-states"
+}

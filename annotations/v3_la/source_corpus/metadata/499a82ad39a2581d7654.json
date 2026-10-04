@@ -1,0 +1,28 @@
+{
+  "source_id": "499a82ad39a2581d7654",
+  "normalized_url": "https://askearn.org/page/disability-employment-in-the-workplace",
+  "fetch_timestamp_utc": "2026-10-04T03:36:05.328829+00:00",
+  "registrable_domain": "askearn.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://askearn.org/page/disability-employment-in-the-workplace",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 62121,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/499a82ad39a2581d7654.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/499a82ad39a2581d7654.txt",
+  "text_chars": 2840,
+  "text_words": 403,
+  "extraction_status": "success",
+  "page_title": "Disability Employment in the Workplace: Why It Matters",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "askearn.org",
+  "canonical_url": "https://askearn.org/page/disability-employment-in-the-workplace"
+}

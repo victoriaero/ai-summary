@@ -1,0 +1,28 @@
+{
+  "source_id": "1af1dea5d9abf73eba30",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10726945",
+  "fetch_timestamp_utc": "2026-10-04T02:34:45.792099+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10726945/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 208398,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1af1dea5d9abf73eba30.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1af1dea5d9abf73eba30.txt",
+  "text_chars": 45985,
+  "text_words": 7180,
+  "extraction_status": "success",
+  "page_title": "Health Insurance Coverage and Access to Care by Sexual Orientation During the COVID-19 Pandemic: United States, January 2021–February 2022",
+  "page_author": "Kevin H Nguyen; Timothy W Levengood; Heidi L Allen; Gilbert Gonzales",
+  "page_date": "2024-01-01",
+  "site_name": "American Journal of Public Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10726945/"
+}

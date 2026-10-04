@@ -1,0 +1,20 @@
+{
+  "source_id": "e7ee35e8768cc98b3be8",
+  "normalized_url": "https://urban.org/urban-wire/improving-homebuying-opportunities-latino-families-would-benefit-entire-housing-market",
+  "fetch_timestamp_utc": "2026-10-04T03:48:17.099662+00:00",
+  "registrable_domain": "urban.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.urban.org/urban-wire/improving-homebuying-opportunities-latino-families-would-benefit-entire-housing-market",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 6014,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

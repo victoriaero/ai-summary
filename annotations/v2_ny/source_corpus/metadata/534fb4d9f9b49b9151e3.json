@@ -1,0 +1,20 @@
+{
+  "source_id": "534fb4d9f9b49b9151e3",
+  "normalized_url": "https://sciencedirect.com/science/article/abs/pii/S0047235225000017",
+  "fetch_timestamp_utc": "2026-10-04T02:39:14.452656+00:00",
+  "registrable_domain": "sciencedirect.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.sciencedirect.com/science/article/abs/pii/S0047235225000017",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 1207905,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

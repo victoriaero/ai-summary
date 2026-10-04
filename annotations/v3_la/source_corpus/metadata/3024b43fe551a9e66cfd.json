@@ -1,0 +1,28 @@
+{
+  "source_id": "3024b43fe551a9e66cfd",
+  "normalized_url": "https://eeoc.gov/federal-sector/report/eeoc-african-american-workgroup-report",
+  "fetch_timestamp_utc": "2026-10-04T03:34:11.260119+00:00",
+  "registrable_domain": "eeoc.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.eeoc.gov/federal-sector/report/eeoc-african-american-workgroup-report",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 115439,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/3024b43fe551a9e66cfd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/3024b43fe551a9e66cfd.txt",
+  "text_chars": 566,
+  "text_words": 56,
+  "extraction_status": "success",
+  "page_title": "EEOC African American Workgroup Report",
+  "page_author": null,
+  "page_date": "2012-12-14",
+  "site_name": "U.S. Equal Employment Opportunity Commission",
+  "canonical_url": "https://www.eeoc.gov/federal-sector/report/eeoc-african-american-workgroup-report"
+}

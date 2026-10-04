@@ -1,0 +1,28 @@
+{
+  "source_id": "5099cef17796a94d75ff",
+  "normalized_url": "https://right-to-education.org/issue-page/marginalised-groups/persons-disabilities",
+  "fetch_timestamp_utc": "2026-10-04T02:38:59.235302+00:00",
+  "registrable_domain": "right-to-education.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.right-to-education.org/issue-page/marginalised-groups/persons-disabilities",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 108146,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5099cef17796a94d75ff.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5099cef17796a94d75ff.txt",
+  "text_chars": 37343,
+  "text_words": 5523,
+  "extraction_status": "success",
+  "page_title": "Persons with disabilities",
+  "page_author": null,
+  "page_date": "2026-07-31",
+  "site_name": "Right to Education Initiative",
+  "canonical_url": "https://www.right-to-education.org/issue-page/marginalised-groups/persons-disabilities"
+}

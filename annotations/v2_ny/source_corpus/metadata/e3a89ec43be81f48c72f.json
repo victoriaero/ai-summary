@@ -1,0 +1,28 @@
+{
+  "source_id": "e3a89ec43be81f48c72f",
+  "normalized_url": "https://disability-benefits-help.org/blog/gender-and-social-security-disability-benefits",
+  "fetch_timestamp_utc": "2026-10-04T02:50:42.455174+00:00",
+  "registrable_domain": "disability-benefits-help.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.disability-benefits-help.org/blog/gender-and-social-security-disability-benefits",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 41314,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e3a89ec43be81f48c72f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e3a89ec43be81f48c72f.txt",
+  "text_chars": 2427,
+  "text_words": 387,
+  "extraction_status": "success",
+  "page_title": "Does my gender affect my eligibility for disability benefits or the amount that I will be paid?",
+  "page_author": null,
+  "page_date": "2013-12-16",
+  "site_name": "disability-benefits-help.org",
+  "canonical_url": "https://www.disability-benefits-help.org/blog/gender-and-social-security-disability-benefits"
+}

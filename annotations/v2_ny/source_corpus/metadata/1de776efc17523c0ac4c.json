@@ -1,0 +1,28 @@
+{
+  "source_id": "1de776efc17523c0ac4c",
+  "normalized_url": "https://fkc.bank/blog/serving-customers-with-disabilities-is-vital-for-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T02:34:58.737753+00:00",
+  "registrable_domain": "fkc.bank",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.fkc.bank/blog/serving-customers-with-disabilities-is-vital-for-financial-inclusion/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 550300,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1de776efc17523c0ac4c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1de776efc17523c0ac4c.txt",
+  "text_chars": 3234,
+  "text_words": 492,
+  "extraction_status": "success",
+  "page_title": "Financial Inclusion is Vital for Success - First Keystone Community Bank",
+  "page_author": "Amanda Jarski",
+  "page_date": "2024-07-23",
+  "site_name": "First Keystone Community Bank",
+  "canonical_url": "https://www.fkc.bank/blog/serving-customers-with-disabilities-is-vital-for-financial-inclusion/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "b32885f00f9c9e2810d7",
+  "normalized_url": "https://hpri.usc.edu/homeless_research/latinx-homelessness-in-los-angeles",
+  "fetch_timestamp_utc": "2026-10-04T03:44:14.975050+00:00",
+  "registrable_domain": "usc.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hpri.usc.edu/homeless_research/latinx-homelessness-in-los-angeles/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 159289,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b32885f00f9c9e2810d7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b32885f00f9c9e2810d7.txt",
+  "text_chars": 1132,
+  "text_words": 156,
+  "extraction_status": "success",
+  "page_title": "Latinx Homelessness in Los Angeles",
+  "page_author": "Melissa Chinchilla; Victoria Ciudad-Real; Elly Schoen; Allan Broslawsky; Ian Gabriel",
+  "page_date": "2021-11-18",
+  "site_name": "Homeless Policy Research Institute",
+  "canonical_url": "https://hpri.usc.edu/homeless_research/latinx-homelessness-in-los-angeles/"
+}

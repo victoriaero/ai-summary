@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--[if lt IE 10]>
+<html class="no-js ie-9" lang="en"><![endif]-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="IE_RM_OFF" content="true">
+		<title>Transgender Issues in the Workplace</title>
+
+	<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+	<link rel="shortcut icon" href="/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+	<link rel="manifest" href="/favicon/site.webmanifest" />
+
+	<meta name="google-site-verification" content="RGrNp3njhtQlnuD9KWrQcbZe_aHyRV2iFzF-KNOlALA" />
+	<!-- Statistics script Complianz GDPR/CCPA -->
+						<script data-category="functional">
+							(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVPRX8XL');
+
+const revokeListeners = [];
+window.addRevokeListener = (callback) => {
+	revokeListeners.push(callback);
+};
+document.addEventListener("cmplz_revoke", function (e) {
+	cmplz_set_cookie('cmplz_consent_mode', 'revoked', false );
+	revokeListeners.forEach((callback) => {
+		callback();
+	});
+});
+
+const consentListeners = [];
+/**
+ * Called from GTM template to set callback to be executed when user consent is provided.
+ * @param callback
+ */
+window.addConsentUpdateListener = (callback) => {
+	consentListeners.push(callback);
+};
+document.addEventListener("cmplz_fire_categories", function (e) {
+	var consentedCategories = e.detail.categories;
+	const consent = {
+		'security_storage': "granted",
+		'functionality_storage': "granted",
+		'personalization_storage':  cmplz_in_array( 'preferences', consentedCategories ) ? 'granted' : 'denied',
+		'analytics_storage':  cmplz_in_array( 'statistics', consentedCategories ) ? 'granted' : 'denied',
+		'ad_storage': cmplz_in_array( 'marketing', consentedCategories ) ? 'granted' : 'denied',
+		'ad_user_data': cmplz_in_array( 'marketing', consentedCategories ) ? 'granted' : 'denied',
+		'ad_personalization': cmplz_in_array( 'marketing', consentedCategories ) ? 'granted' : 'denied',
+	};
+
+	//don't use automatic prefixing, as the TM template needs to be sure it's cmplz_.
+	let consented = [];
+	for (const [key, value] of Object.entries(consent)) {
+		if (value === 'granted') {
+			consented.push(key);
+		}
+	}
+	cmplz_set_cookie('cmplz_consent_mode', consented.join(','), false );
+	consentListeners.forEach((callback) => {
+		callback(consent);
+	});
+});
+						</script>
+						<!-- Script Center marketing script Complianz GDPR/CCPA -->
+				<script async type="text/plain"
+											data-category="marketing">
+					(function() {
+  var s = document.createElement('script');
+  s.src = 'https://js.hs-scripts.com/49456359.js';
+  s.async = true;
+  document.head.appendChild(s);
+})();
+				</script>
+				<!-- Script Center statistics script Complianz GDPR/CCPA -->
+				<script async type="text/plain"
+											data-category="statistics">
+					// --- Helper ---
+function callClarity(method, params) {
+    if (typeof window.clarity === 'function') {
+        try {
+            window.clarity(method, params);
+        } catch (e) {
+            console.warn('Clarity API error:', e);
+        }
+    }
+}
+
+// --- Load Clarity safely ---
+(function (c, l, a, r, i, t, y) {
+    c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+    t = l.createElement(r);
+    t.async = 1;
+    t.src = "https://www.clarity.ms/tag/" + i;
+    y = l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t, y);
+})(window, document, "clarity", "script", "wxsea7umrp");
+
+// Default deny pre-consent
+callClarity('consentv2', {
+    analytics_Storage: "denied",
+    ad_Storage: "denied"
+});
+
+// --- Complianz integration ---
+function getConsentFromEvent(e) {
+    var d = e && e.detail && e.detail.categories ? e.detail.categories : [];
+    var categories = Array.isArray(d) ? d : [];
+    return {
+        analyticsAllowed: categories.indexOf('statistics') !== -1,
+        adsAllowed: categories.indexOf('marketing') !== -1
+    };
+}
+
+function sendClarityConsent(analyticsAllowed, adsAllowed) {
+    callClarity('consentv2', {
+        analytics_Storage: analyticsAllowed ? "granted" : "denied",
+        ad_Storage: adsAllowed ? "granted" : "denied"
+    });
+}
+
+// --- On consent ---
+document.addEventListener('cmplz_fire_categories', function (e) {
+    var consent = getConsentFromEvent(e);
+    sendClarityConsent(consent.analyticsAllowed, consent.adsAllowed);
+});
+
+// --- On revoke ---
+document.addEventListener('cmplz_revoke', function (e) {
+    var consent = getConsentFromEvent(e);
+    sendClarityConsent(consent.analyticsAllowed, consent.adsAllowed);
+
+    if (!consent.analyticsAllowed && !consent.adsAllowed) {
+        callClarity('consent', false); // clears cookies
+    }
+});
+				</script>
+				<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script>var abtpTests = []; var abtpNonce = "accd0979c6"; var abtpHomeBase = ""; var abtpTrackUrl = "https:\/\/complyeq.com\/wp-json\/split-level\/v1\/track"; var abtpAssignUrl = "https:\/\/complyeq.com\/wp-json\/split-level\/v1\/assign";</script>
+	<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<meta name="description" content="Transgender issues in the workplace are numerous: few gender identity discrimination laws, hostile coworkers, and unprepared employers. Here&#039;s how better workplace inclusion is possible." />
+	<link rel="canonical" href="https://complyeq.com/resources/articles/transgender-issues-workplace-abuse-hiring-discrimination/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Transgender Issues in the Workplace" />
+	<meta property="og:description" content="Transgender issues in the workplace are numerous: few gender identity discrimination laws, hostile coworkers, and unprepared employers. Here&#039;s how better workplace inclusion is possible." />
+	<meta property="og:url" content="https://complyeq.com/resources/articles/transgender-issues-workplace-abuse-hiring-discrimination/" />
+	<meta property="og:site_name" content="complyEQ" />
+	<meta property="article:published_time" content="2018-11-08T23:21:10+00:00" />
+	<meta property="article:modified_time" content="2026-02-03T13:54:56+00:00" />
+	<meta property="og:image" content="https://complyeq.com/wp-content/uploads/2025/12/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace.jpg" />
+	<meta property="og:image:width" content="1920" />
+	<meta property="og:image:height" content="1280" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Rico Galassi" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/#article","isPartOf":{"@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/"},"author":{"name":"Rico Galassi","@id":"https:\/\/complyeq.com\/#\/schema\/person\/a1b66ac64e8354fa9ff4381d61f5d0ec"},"headline":"Transgender Issues in the Workplace: Bathroom access, workplace abuse, hiring discrimination.","datePublished":"2018-11-08T23:21:10+00:00","dateModified":"2026-02-03T13:54:56+00:00","mainEntityOfPage":{"@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/"},"wordCount":11,"commentCount":0,"image":{"@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/#primaryimage"},"thumbnailUrl":"https:\/\/complyeq.com\/wp-content\/uploads\/2025\/12\/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace.jpg","articleSection":["Workplace Culture"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/","url":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/","name":"Transgender Issues in the Workplace","isPartOf":{"@id":"https:\/\/complyeq.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/#primaryimage"},"image":{"@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/#primaryimage"},"thumbnailUrl":"https:\/\/complyeq.com\/wp-content\/uploads\/2025\/12\/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace.jpg","datePublished":"2018-11-08T23:21:10+00:00","dateModified":"2026-02-03T13:54:56+00:00","author":{"@id":"https:\/\/complyeq.com\/#\/schema\/person\/a1b66ac64e8354fa9ff4381d61f5d0ec"},"description":"Transgender issues in the workplace are numerous: few gender identity discrimination laws, hostile coworkers, and unprepared employers. Here's how better workplace inclusion is possible.","breadcrumb":{"@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/#primaryimage","url":"https:\/\/complyeq.com\/wp-content\/uploads\/2025\/12\/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace.jpg","contentUrl":"https:\/\/complyeq.com\/wp-content\/uploads\/2025\/12\/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace.jpg","width":1920,"height":1280},{"@type":"BreadcrumbList","@id":"https:\/\/complyeq.com\/resources\/articles\/transgender-issues-workplace-abuse-hiring-discrimination\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/complyeq.com\/"},{"@type":"ListItem","position":2,"name":"Transgender Issues in the Workplace: Bathroom access, workplace abuse, hiring discrimination."}]},{"@type":"WebSite","@id":"https:\/\/complyeq.com\/#website","url":"https:\/\/complyeq.com\/","name":"ComplyEQ","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/complyeq.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/complyeq.com\/#\/schema\/person\/a1b66ac64e8354fa9ff4381d61f5d0ec","name":"Rico Galassi","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/7f53d861bfb2f58a9fa41c823e2af76a8ed3e76dcfb5b5188b7239077fe2dc0a?s=96&d=mm&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/7f53d861bfb2f58a9fa41c823e2af76a8ed3e76dcfb5b5188b7239077fe2dc0a?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/7f53d861bfb2f58a9fa41c823e2af76a8ed3e76dcfb5b5188b7239077fe2dc0a?s=96&d=mm&r=g","caption":"Rico Galassi"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//connect.facebook.net' />
+<link rel='dns-prefetch' href='//static.hotjar.com' />
+<link rel='dns-prefetch' href='//script.hotjar.com' />
+<link rel='dns-prefetch' href='//js.hsforms.net' />
+<link rel='dns-prefetch' href='//forms.hsforms.net' />
+<link rel='dns-prefetch' href='//track.hsforms.net' />
+<link rel='dns-prefetch' href='//geoip.cookieyes.com' />
+<link rel='dns-prefetch' href='//api.formhq.net' />
+<link rel='dns-prefetch' href='//px.ads.linkedin.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://complyeq.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcomplyeq.com%2Fresources%2Farticles%2Ftransgender-issues-workplace-abuse-hiring-discrimination%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://complyeq.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcomplyeq.com%2Fresources%2Farticles%2Ftransgender-issues-workplace-abuse-hiring-discrimination%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-search-inline-css">
+.wp-block-search__button{margin-left:10px;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{fill:currentColor;height:1.25em;min-height:24px;min-width:24px;vertical-align:text-bottom;width:1.25em}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__button{box-sizing:border-box;display:flex;flex-shrink:0;justify-content:center;margin-left:0;max-width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100%;transition-duration:.3s}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden,.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper{overflow:hidden}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__input{border-left-width:0!important;border-right-width:0!important;flex-basis:0;flex-grow:0;margin:0;min-width:0!important;padding-left:0!important;padding-right:0!important;width:0!important}:where(.wp-block-search__input){-webkit-appearance:initial;-moz-appearance:initial;appearance:none;border:1px solid #949494;flex-grow:1;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;margin-left:0;margin-right:0;min-width:3rem;padding:8px;text-decoration:unset!important;text-transform:inherit}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){background-color:#fff;border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}.wp-block[data-align=right] .wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{float:right}
+/*# sourceURL=https://complyeq.com/wp-includes/blocks/search/style.min.css */
+</style>
+
+
+<link rel='preload' as='style' onload='this.rel="stylesheet"' id='lvl-fonts-css' href='https://complyeq.com/wp-content/themes/lvl-framework-child/dist/css/fonts.min.css?v=20260929&#038;ver=7.1.2' media='all' />
+<link rel='preload' as='style' onload='this.rel="stylesheet"' id='lvl-typekit-fonts-css' href='https://use.typekit.net/qga3ttl.css' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--aspect-ratio--half: 2/1;--wp--preset--aspect-ratio--extra-wide: 21/9;--wp--preset--aspect-ratio--ultra-wide: 32/9;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #FFFFFF;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foundation-navy: #2D4377;--wp--preset--color--driven-blue: #0098DB;--wp--preset--color--empower-mint: #34B29C;--wp--preset--color--catalyst-aqua: #18E6E1;--wp--preset--color--clarity-cream: #F5F1EC;--wp--preset--color--balanced-charcoal: #1F1C1B;--wp--preset--color--compliance-cobalt: #006DAB;--wp--preset--color--uplift-orange: #FF9654;--wp--preset--color--principle-plum: #BF2E91;--wp--preset--color--empathy-orchid: #EA8CFF;--wp--preset--color--trustpoint-silver: #D3D3D3;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.469), 20px);--wp--preset--font-size--large: clamp(22.041px, 1.378rem + ((1vw - 3.2px) * 1.091), 36px);--wp--preset--font-size--x-large: clamp(25.014px, 1.563rem + ((1vw - 3.2px) * 1.327), 42px);--wp--preset--font-size--body-x-small: 10px;--wp--preset--font-size--body-small: 13px;--wp--preset--font-size--body-regular: 16px;--wp--preset--font-size--body-large: clamp(16px, 1rem + ((1vw - 3.2px) * 0.391), 21px);--wp--preset--font-size--body-hero: clamp(20px, 1.25rem + ((1vw - 3.2px) * 0.781), 30px);--wp--preset--font-size--h-1: clamp(28px, 1.75rem + ((1vw - 3.2px) * 1.563), 48px);--wp--preset--font-size--h-2: clamp(24px, 1.5rem + ((1vw - 3.2px) * 1.094), 38px);--wp--preset--font-size--h-3: clamp(22px, 1.375rem + ((1vw - 3.2px) * 0.625), 30px);--wp--preset--font-size--h-4: clamp(18px, 1.125rem + ((1vw - 3.2px) * 0.469), 24px);--wp--preset--font-size--h-5: clamp(16px, 1rem + ((1vw - 3.2px) * 0.313), 20px);--wp--preset--font-size--h-6: 16px;--wp--preset--font-size--subheading-1: clamp(22px, 1.375rem + ((1vw - 3.2px) * 0.781), 32px);--wp--preset--font-size--subheading-2: clamp(18px, 1.125rem + ((1vw - 3.2px) * 0.313), 22px);--wp--preset--font-size--display-1: 60px;--wp--preset--font-family--heading: "Axiforma", sans-serif;--wp--preset--font-family--body: "Axiforma", sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: clamp(0.75rem, 0.4947rem + 0.7092vw, 1rem);--wp--preset--spacing--40: clamp(1.5rem, 0.9894rem + 1.4184vw, 2rem);--wp--preset--spacing--50: clamp(2rem, 0.9787rem + 2.8369vw, 3rem);--wp--preset--spacing--60: clamp(2.25rem, 0.4628rem + 4.9645vw, 4rem);--wp--preset--spacing--70: clamp(4rem, 1.9574rem + 5.6738vw, 6rem);--wp--preset--spacing--80: clamp(5.25rem, 2.9521rem + 6.383vw, 7.5rem);--wp--preset--spacing--90: clamp(7rem, 4.7021rem + 6.383vw, 9.25rem);--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);--wp--preset--shadow--small: 0px 4px 15px rgba(38, 38, 43, 0.15);--wp--preset--shadow--medium: 0px 4px 15px 5px rgba(38, 38, 43, 0.15);--wp--preset--shadow--large: 0 8px 24px rgba(0, 0, 0, 0.75);--wp--preset--shadow--custom: 12px 12px 0 0 #006DAB;--wp--preset--shadow--custom-mint: 12px 12px 0 0 #34B29C;--wp--preset--shadow--custom-plum: 12px 12px 0 0 #BF2E91;--wp--preset--shadow--custom-blue: 12px 12px 0 0 #0098DB;--wp--preset--shadow--custom-orchid: 12px 12px 0 0 #EA8CFF;--wp--custom--header-height: 96px;--wp--custom--theme--light--text-color: var(--wp--preset--color--foundation-navy, #2D4377);--wp--custom--theme--light--heading-color: var(--wp--preset--color--foundation-navy, #2D4377);--wp--custom--theme--dark--text-color: var(--wp--preset--color--white, #FFFFFF);--wp--custom--theme--dark--heading-color: var(--wp--preset--color--white, #FFFFFF);--wp--custom--layout--block-gap: 20px;--wp--custom--layout--container--default: 1400px;--wp--custom--layout--container--wide: 1600px;}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 1;--wp--style--global--wide-size: 1; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: var(--wp--custom--layout--block-gap); margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: var(--wp--custom--layout--block-gap); }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: var(--wp--custom--layout--block-gap);margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: var(--wp--custom--layout--block-gap);margin-block-end: 0;}:root :where(.is-layout-flex){gap: var(--wp--custom--layout--block-gap);}:root :where(.is-layout-grid){gap: var(--wp--custom--layout--block-gap);}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{color: var(--wp--custom--body-color-dark);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--heading);font-weight: 400;line-height: 1.35;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--driven-blue);}h1{color: var(--wp--preset--color--foundation-navy);font-family: var(--wp--preset--font-family--heading);font-size: var(--wp--preset--font-size--h-1);font-style: normal;font-weight: 500;letter-spacing: -0.01em;line-height: 1.2;}h2{color: var(--wp--preset--color--foundation-navy);font-family: var(--wp--preset--font-family--heading);font-size: var(--wp--preset--font-size--h-2);font-style: normal;font-weight: 500;letter-spacing: -0.01em;line-height: 1.25;}h3{color: var(--wp--preset--color--foundation-navy);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--h-3);font-style: normal;font-weight: 500;letter-spacing: normal;line-height: 1.3;}h4{color: var(--wp--preset--color--foundation-navy);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--h-4);font-style: normal;font-weight: 500;letter-spacing: normal;line-height: 1.35;}h5{color: var(--wp--preset--color--balanced-charcoal);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--h-5);font-style: normal;font-weight: 500;letter-spacing: normal;line-height: 1.4;}h6{color: var(--wp--preset--color--balanced-charcoal);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--h-6);font-style: normal;font-weight: 500;letter-spacing: normal;line-height: 1.4;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foundation-navy-color{color: var(--wp--preset--color--foundation-navy) !important;}.has-driven-blue-color{color: var(--wp--preset--color--driven-blue) !important;}.has-empower-mint-color{color: var(--wp--preset--color--empower-mint) !important;}.has-catalyst-aqua-color{color: var(--wp--preset--color--catalyst-aqua) !important;}.has-clarity-cream-color{color: var(--wp--preset--color--clarity-cream) !important;}.has-balanced-charcoal-color{color: var(--wp--preset--color--balanced-charcoal) !important;}.has-compliance-cobalt-color{color: var(--wp--preset--color--compliance-cobalt) !important;}.has-uplift-orange-color{color: var(--wp--preset--color--uplift-orange) !important;}.has-principle-plum-color{color: var(--wp--preset--color--principle-plum) !important;}.has-empathy-orchid-color{color: var(--wp--preset--color--empathy-orchid) !important;}.has-trustpoint-silver-color{color: var(--wp--preset--color--trustpoint-silver) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foundation-navy-background-color{background-color: var(--wp--preset--color--foundation-navy) !important;}.has-driven-blue-background-color{background-color: var(--wp--preset--color--driven-blue) !important;}.has-empower-mint-background-color{background-color: var(--wp--preset--color--empower-mint) !important;}.has-catalyst-aqua-background-color{background-color: var(--wp--preset--color--catalyst-aqua) !important;}.has-clarity-cream-background-color{background-color: var(--wp--preset--color--clarity-cream) !important;}.has-balanced-charcoal-background-color{background-color: var(--wp--preset--color--balanced-charcoal) !important;}.has-compliance-cobalt-background-color{background-color: var(--wp--preset--color--compliance-cobalt) !important;}.has-uplift-orange-background-color{background-color: var(--wp--preset--color--uplift-orange) !important;}.has-principle-plum-background-color{background-color: var(--wp--preset--color--principle-plum) !important;}.has-empathy-orchid-background-color{background-color: var(--wp--preset--color--empathy-orchid) !important;}.has-trustpoint-silver-background-color{background-color: var(--wp--preset--color--trustpoint-silver) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foundation-navy-border-color{border-color: var(--wp--preset--color--foundation-navy) !important;}.has-driven-blue-border-color{border-color: var(--wp--preset--color--driven-blue) !important;}.has-empower-mint-border-color{border-color: var(--wp--preset--color--empower-mint) !important;}.has-catalyst-aqua-border-color{border-color: var(--wp--preset--color--catalyst-aqua) !important;}.has-clarity-cream-border-color{border-color: var(--wp--preset--color--clarity-cream) !important;}.has-balanced-charcoal-border-color{border-color: var(--wp--preset--color--balanced-charcoal) !important;}.has-compliance-cobalt-border-color{border-color: var(--wp--preset--color--compliance-cobalt) !important;}.has-uplift-orange-border-color{border-color: var(--wp--preset--color--uplift-orange) !important;}.has-principle-plum-border-color{border-color: var(--wp--preset--color--principle-plum) !important;}.has-empathy-orchid-border-color{border-color: var(--wp--preset--color--empathy-orchid) !important;}.has-trustpoint-silver-border-color{border-color: var(--wp--preset--color--trustpoint-silver) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-body-x-small-font-size{font-size: var(--wp--preset--font-size--body-x-small) !important;}.has-body-small-font-size{font-size: var(--wp--preset--font-size--body-small) !important;}.has-body-regular-font-size{font-size: var(--wp--preset--font-size--body-regular) !important;}.has-body-large-font-size{font-size: var(--wp--preset--font-size--body-large) !important;}.has-body-hero-font-size{font-size: var(--wp--preset--font-size--body-hero) !important;}.has-h-1-font-size{font-size: var(--wp--preset--font-size--h-1) !important;}.has-h-2-font-size{font-size: var(--wp--preset--font-size--h-2) !important;}.has-h-3-font-size{font-size: var(--wp--preset--font-size--h-3) !important;}.has-h-4-font-size{font-size: var(--wp--preset--font-size--h-4) !important;}.has-h-5-font-size{font-size: var(--wp--preset--font-size--h-5) !important;}.has-h-6-font-size{font-size: var(--wp--preset--font-size--h-6) !important;}.has-subheading-1-font-size{font-size: var(--wp--preset--font-size--subheading-1) !important;}.has-subheading-2-font-size{font-size: var(--wp--preset--font-size--subheading-2) !important;}.has-display-1-font-size{font-size: var(--wp--preset--font-size--display-1) !important;}.has-heading-font-family{font-family: var(--wp--preset--font-family--heading) !important;}.has-body-font-family{font-family: var(--wp--preset--font-family--body) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='cmplz-general-css' href='https://complyeq.com/wp-content/plugins/complianz-gdpr-premium/assets/css/cookieblocker.min.css?ver=1789048223' media='all' />
+<link rel='stylesheet' id='lvl-base-styles-css' href='https://complyeq.com/wp-content/themes/lvl-framework/dist/css/app.min.css?v=1770120090' media='all' />
+<link rel='stylesheet' id='lvl-bootstrap-css' href='https://complyeq.com/wp-content/themes/lvl-framework-child/dist/css/bootstrap.min.css?v=1770120090' media='all' />
+<link rel='stylesheet' id='lvl-child-styles-css' href='https://complyeq.com/wp-content/themes/lvl-framework-child/dist/css/app.min.css?v=1770120090' media='all' />
+<link rel='stylesheet' id='lvl-wp-css' href='https://complyeq.com/wp-content/themes/lvl-framework/dist/css/wp.min.css?v=1770120090' media='all' />
+<link rel='stylesheet' id='cmplz-banner-2-optin-css' href='https://complyeq.com/wp-content/uploads/complianz/css/banner-2-optin.css?ver=1789048338' media='all' />
+<script id="lvl-bootstrap-js" src="https://complyeq.com/wp-content/themes/lvl-framework/dist/js/bootstrap.min.js?v=1770120090"></script>
+<script id="lvl-main-scripts-js-extra">
+var app_localized = {"themePath":"https://complyeq.com/wp-content/themes/lvl-framework","ajax_url":"https://complyeq.com/wp-admin/admin-ajax.php","check":"1bcf331e52","namespace":"lvl"};
+var app_localized = {"themePath":"https://complyeq.com/wp-content/themes/lvl-framework","ajax_url":"https://complyeq.com/wp-admin/admin-ajax.php","check":"1bcf331e52","namespace":"lvl"};
+//# sourceURL=lvl-main-scripts-js-extra
+</script>
+<script id="lvl-main-scripts-js" src="https://complyeq.com/wp-content/themes/lvl-framework/dist/js/app.min.js?v=1770120090"></script>
+<link rel="https://api.w.org/" href="https://complyeq.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://complyeq.com/wp-json/wp/v2/posts/1311" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://complyeq.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://complyeq.com/?p=1311' />
+			<style>.cmplz-hidden {
+					display: none !important;
+				}</style>
+				<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />	<!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+</head>
+
+<body data-cmplz=2 data-bs-theme="light" class="wp-singular post-template-default single single-post postid-1311 single-format-standard wp-theme-lvl-framework wp-child-theme-lvl-framework-child default-nav">
+	<a tabindex="1" href="#skipNav" class="z-9999 visually-hidden-focusable px-3 py-2 btn btn-primary position-absolute">Skip Navigation</a>
+	
+	<header id="header" class="" >
+
+		<div id="navbar" class="nav-wrapper">
+			<nav class="utility-nav navbar navbar-expand p-0 d-none d-lg-block" aria-label="Utility Navigation" data-bs-theme="light">
+				<div class="nav-container justify-content-lg-end ms-auto">
+					<div class="collapse navbar-collapse justify-content-lg-end" id="topNavDropdown">
+											</div>
+				</div>
+			</nav>
+
+			<nav class="main-nav-wrapper navbar navbar-expand-lg p-lg-0" aria-label="Main Navigation">
+				<div class="nav-container d-block d-lg-flex">
+					<div class="brand-wrapper">
+						<a class="navbar-brand" href="https://complyeq.com" title="complyEQ">
+							<img width="2426" height="566" src="https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup.png.webp" class="attachment-full size-full" alt="" decoding="async" fetchpriority="high" srcset="https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup.png.webp 2426w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-300x70.png.webp 300w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-1024x239.png.webp 1024w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-768x179.png.webp 768w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-1536x358.png.webp 1536w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-2048x478.png.webp 2048w" sizes="(max-width: 2426px) 100vw, 2426px" />
+							
+						</a>
+
+						<button type="button" class="mobile-toggle navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#mainNavDropdown">
+							<span class="visually-hidden">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="nav-wrapper flex-fill">
+
+						<div class="main-nav">
+							<div class="collapse navbar-collapse" id="mainNavDropdown">
+								<ul id="main-menu" class="navbar-nav ms-auto"><li id="menu-item-27" class="dropdown-style-one menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item dropdown dropdown-center dropdown-hover"><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown27">Solutions</a><button title="Dropdown Toggle" class="dropdown-toggle-btn btn btn-link d-lg-none collapsed" data-bs-toggle="collapse" data-bs-target="#menu-6abc10c4e9ee2" aria-expanded="false" aria-controls="menu-6abc10c4e9ee2"><span class="visually-hidden">Toggle more. </span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" aria-hidden="true" class="dropdown-icon bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></svg></button>
+<div id="menu-6abc10c4e9ee2" class="dropdown-menu collapse">
+<ul class="dropdown-content">
+	<li id="menu-item-136" class="dropdown-heading menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="#" class="nav-link">Workplace Training</a></li>
+	<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a href="https://complyeq.com/harassment-discrimination-prevention/" class="nav-link">Harassment &#038; Discrimination Prevention</a></li>
+	<li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/online-compliance-training/" class="nav-link">Compliance &#038; Ethics</a></li>
+	<li id="menu-item-1073662" class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a href="https://complyeq.com/diversity-equity-and-inclusion-training/" class="nav-link">Diversity, Equity, &#038; Inclusion (DEI)</a></li>
+	<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/safety-health/" class="nav-link">Workplace Safety &#038; Health</a></li>
+	<li id="menu-item-134" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/data-cybersecurity/" class="nav-link">Data Privacy &#038; Cybersecurity</a></li>
+	<li id="menu-item-135" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/leadership-management/" class="nav-link">Leadership &#038; Management</a></li>
+</ul>
+</div>
+</li>
+<li id="menu-item-1074610" class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a href="https://complyeq.com/customizations/" class="nav-link">Customizations</a></li>
+<li id="menu-item-28" class="dropdown-style-two menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item dropdown dropdown-center dropdown-hover"><a href="/resources" class="nav-link dropdown-toggle" id="navbarDropdown28">Resources</a><button title="Dropdown Toggle" class="dropdown-toggle-btn btn btn-link d-lg-none collapsed" data-bs-toggle="collapse" data-bs-target="#menu-6abc10c4ea50d" aria-expanded="false" aria-controls="menu-6abc10c4ea50d"><span class="visually-hidden">Toggle more. </span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" aria-hidden="true" class="dropdown-icon bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></svg></button>
+<div id="menu-6abc10c4ea50d" class="dropdown-menu collapse">
+<ul class="dropdown-content">
+	<li id="menu-item-1837" class="dropdown-heading-link menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/resources/" class="nav-link">Resources</a></li>
+	<li id="menu-item-1838" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/resources/articles/" class="nav-link">Blog</a></li>
+	<li id="menu-item-1840" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/resources/white-papers/" class="nav-link">Whitepapers / Reports</a></li>
+	<li id="menu-item-1839" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/resources/webinars/" class="nav-link">Webinars</a></li>
+	<li id="menu-item-1841" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="/resources/guidebooks/" class="nav-link">Toolkits &#038; Guidebooks</a></li>
+<li class="menu-item featured-resource"><div class="featured-resource__wrapper"><a href="https://complyeq.com/resources/articles/in-an-uncertain-dei-landscape-what-are-employers-doing-next/" class="featured-resource__card"><img src="https://complyeq.com/wp-content/uploads/2025/12/Screenshot-300x166.webp" alt="In an Uncertain DEI Landscape, What are Employers Doing Next?" class="featured-resource__image" /><div class="featured-resource__content"><span class="featured-resource__label">Featured Resource</span><span class="featured-resource__title">In an Uncertain DEI Landscape, What are Employers Doing Next?</span></div></a></div></li></ul>
+</div>
+</li>
+<li id="menu-item-29" class="dropdown-style-three menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item dropdown dropdown-center dropdown-hover"><a href="/about/" class="nav-link dropdown-toggle" id="navbarDropdown29">Company</a><button title="Dropdown Toggle" class="dropdown-toggle-btn btn btn-link d-lg-none collapsed" data-bs-toggle="collapse" data-bs-target="#menu-6abc10c4eb90d" aria-expanded="false" aria-controls="menu-6abc10c4eb90d"><span class="visually-hidden">Toggle more. </span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" aria-hidden="true" class="dropdown-icon bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/></svg></button>
+<div id="menu-6abc10c4eb90d" class="dropdown-menu collapse">
+<ul class="dropdown-content">
+	<li id="menu-item-1074423" class="dropdown-heading menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="#" class="nav-link">Company</a></li>
+	<li id="menu-item-1074422" class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a href="https://complyeq.com/about/" class="nav-link">About</a></li>
+	<li id="menu-item-1074421" class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a href="https://complyeq.com/press-releases/" class="nav-link">Press Releases</a></li>
+	<li id="menu-item-1074426" class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a href="https://complyeq.com/support/" class="nav-link">ComplyEQ Support</a></li>
+	<li id="menu-item-1074655" class="menu-item menu-item-type-custom menu-item-object-custom nav-item"><a href="https://complyeq.com/contact-us/" class="nav-link">Contact Us</a></li>
+</ul>
+</div>
+</li>
+</ul>								
+								<div class="nav-utility d-flex align-items-center">
+																			<a href="tel:8003811835" class="nav-phone d-none d-lg-block">
+											(800) 381-1835										</a>
+																		
+																			<a href="https://complyeq.com/contact-us/" class="btn btn-foundation-navy text-white">
+											Request a Demo										</a>
+																	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		
+	</header>
+	
+	
+	<div id="skipNav" class="visually-hidden"></div>
+
+	<main id="main">
+		<article id="post-1311" class="post-1311 post type-post status-publish format-standard has-post-thumbnail hentry category-workplace-training post_type_tax-articles sub_topic-diversity-equity-and-inclusion sub_topic-workplace-training">
+
+			<!-- Hero Section -->
+			<section class="post-hero">
+				<div class="post-hero__content">
+					<h1 class="post-hero__title">Transgender Issues in the Workplace: Bathroom access, workplace abuse, hiring discrimination.</h1>
+				</div>
+									<div class="post-hero__image">
+						<img width="1024" height="683" src="https://complyeq.com/wp-content/smush-webp/2025/12/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace-1024x683.jpg.webp" class="img-fluid wp-post-image" alt="" decoding="async" srcset="https://complyeq.com/wp-content/smush-webp/2025/12/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace-1024x683.jpg.webp 1024w, https://complyeq.com/wp-content/smush-webp/2025/12/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace-300x200.jpg.webp 300w, https://complyeq.com/wp-content/smush-webp/2025/12/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace-768x512.jpg.webp 768w, https://complyeq.com/wp-content/smush-webp/2025/12/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace-1536x1024.jpg.webp 1536w, https://complyeq.com/wp-content/smush-webp/2025/12/bathroom-access-workplace-abuse-hiring-discrimination-transgender-workplace.jpg.webp 1920w" sizes="(max-width: 1024px) 100vw, 1024px" />					</div>
+							</section>
+
+			<!-- Content -->
+			<div class="post-content">
+				<div class="post-content__main">
+										<div class="post-share">
+						<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcomplyeq.com%2Fresources%2Farticles%2Ftransgender-issues-workplace-abuse-hiring-discrimination%2F" target="_blank" rel="noopener noreferrer" class="post-share__button post-share__button--facebook" aria-label="Share on Facebook">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+						</a>
+						<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fcomplyeq.com%2Fresources%2Farticles%2Ftransgender-issues-workplace-abuse-hiring-discrimination%2F&title=Transgender+Issues+in+the+Workplace%3A+Bathroom+access%2C+workplace+abuse%2C+hiring+discrimination." target="_blank" rel="noopener noreferrer" class="post-share__button post-share__button--linkedin" aria-label="Share on LinkedIn">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+						</a>
+						<button onclick="window.print()" class="post-share__button post-share__button--print" aria-label="Print this page">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+						</button>
+						<a href="/cdn-cgi/l/email-protection#417e3234232b2422357c1533202f3226242f2524336a0832323424326a282f6a3529246a162e332a312d2022246472006a03203529332e2e2c6a2022222432326473026a362e332a312d2022246a20233432246473026a292833282f266a2528322233282c282f2035282e2f6f67232e25387c2935353132647200647307647307222e2c312d3824306f222e2c6473073324322e343322243264730720333528222d24326473073533202f3226242f2524336c2832323424326c362e332a312d2022246c20233432246c292833282f266c2528322233282c282f2035282e2f647307" class="post-share__button post-share__button--email" aria-label="Share via Email">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+						</a>
+					</div>
+											<div class="post-author">
+							<span class="post-author__label">AUTHOR</span>
+							<span class="post-author__name">Scott Raynor</span>
+						</div>
+										<p>There’s good reason to be optimistic about the future of transgender issues in the workplace.</p>
+<p>Acceptance and awareness of transgender issues is on the rise among both the <a href="https://hrc.org/blog/new-hrc-poll-improving-favorability-toward-transgender-people">general population</a> and the business world. Between 2002 and 2017, the percentage of Fortune 500 companies that have workplace protections on the <a href="https://moneyish.com/ish/heres-some-hopeful-news-for-lgbtq-workers-in-corporate-america/">basis gender identity has increased</a> from 3 percent to 83 percent.</p>
+<p>Still, a number of troubling transgender issues in the workplace remain. Transgender workers face scattershot legal protections, numerous obstacles in workplace cultures, and high levels of harassment and abuse. The key to trans friendly workplaces lies in better understanding their unique challenges, and adjusting practices and policies to their varied needs.</p>
+<h2><b>Trans workers face numerous roadblocks in accessing employment opportunities.</b></h2>
+<p>With an unemployment rate <a href="https://qz.com/work/1308079/how-to-be-inclusive-of-trans-people-in-the-workplace/">three times higher</a> that of the U.S. average, much of the transgender employment discrimination faced by these workers reveals itself in the employment process.</p>
+<p>The reality of their degree of societal acceptance—27 percent of Americans <a href="https://thedailybeast.com/why-a-lot-of-americans-dont-want-to-befriend-a-transgender-person">say they wouldn’t befriend a transgender person</a>—incentivizes trans applicants to hide their identity in interviews and applications, according to Samantha Allen of the Daily Beast:</p>
+<p>In an ideal world, of course, being transgender would be about as relevant to the job application process as having brown eyes. But in the current environment, accepting the unfortunate inevitability—or at least, the likelihood—of being outed may be an important first step depending on one’s individual situation.</p>
+<h2><b>Trans employees experience abusive coworkers, unprepared employers, and cultural challenges.</b></h2>
+<p>Once within the workplace, transgender workers face a slew of other difficulties: startling rates of outright abuse, <a href="https://theguardian.com/careers/transgender-issues-in-the-workplace">well-intentioned but unprepared employers</a>, and workplace cultures that punish trans employees for even indirectly revealing their identity.</p>
+<div class="inline-cta-2021 cta-secondary style-1">
+  <div class="inline-cta-left">
+    <h2 style="margin-top: 0">DEI Training Facilitator’s Guide</h2>
+    <p style="margin-bottom: 0">Exercises to start and moderate productive conversations</p>
+  </div>
+  <div class="inline-cta-right">
+	  <div class="wp-block-button is-style-btn-primary is-style-btn-small">
+    <a href="/https://complyeq.com/guidebook/workplace-training/diversity-equity-inclusion-facilitator-guide/" class="wp-block-button__link wp-element-button">Download Free</a>
+</div>
+  </div>
+</div>
+<style>
+  .inline-cta-2021{
+    position: relative;
+   	padding: 36px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .inline-cta-2021 h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0; 
+  }
+  .inline-cta-2021 p{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .inline-cta-2021.style-1, .inline-cta-2021.style-2{
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    z-index: 100;
+  }
+  .inline-cta-2021.style-2{
+   	background-position: 290px; 
+  }
+  .inline-cta-2021.cta-dark.style-1{
+    background-image: url("data:image/svg+xml,%3Csvg width='298' height='215' viewBox='0 0 298 215' fill='none' xmlns='https://w3.org/2000/svg'%3E%3Cpath d='M8.31056 241C-7.44441 179.792 34.3208 121.183 106.217 137.677C204.124 160.138 249.813 147.572 273.334 70.8538C296.404 -4.39231 256.454 -13.778 240.136 -2.14615C228.32 6.27692 224.381 41.0923 256.454 41.0923C298.092 41.0923 295.654 -20.8641 289.652 -51' stroke='%234D5858' stroke-width='9'/%3E%3C/svg%3E");
+  }
+  .inline-cta-2021.cta-primary.style-1{
+    background-image: url("data:image/svg+xml,%3Csvg width='298' height='215' viewBox='0 0 298 215' fill='none' xmlns='https://w3.org/2000/svg'%3E%3Cpath d='M8.31056 241C-7.44441 179.792 34.3208 121.183 106.217 137.677C204.124 160.138 249.813 147.572 273.334 70.8538C296.404 -4.39231 256.454 -13.778 240.136 -2.14615C228.32 6.27692 224.381 41.0923 256.454 41.0923C298.092 41.0923 295.654 -20.8641 289.652 -51' stroke='%2300554C' stroke-width='9'/%3E%3C/svg%3E");
+  }
+  .inline-cta-2021.cta-secondary.style-1{
+    background-image: url("data:image/svg+xml,%3Csvg width='298' height='215' viewBox='0 0 298 215' fill='none' xmlns='https://w3.org/2000/svg'%3E%3Cpath d='M8.31056 241C-7.44441 179.792 34.3208 121.183 106.217 137.677C204.124 160.138 249.813 147.572 273.334 70.8538C296.404 -4.39231 256.454 -13.778 240.136 -2.14615C228.32 6.27692 224.381 41.0923 256.454 41.0923C298.092 41.0923 295.654 -20.8641 289.652 -51' stroke='rgba(244, 178, 35, 0.2)' stroke-width='9'/%3E%3C/svg%3E");
+  }
+  .inline-cta-2021.cta-dark.style-2{
+      background-image: url("data:image/svg+xml,%3Csvg width='411' height='197' viewBox='0 0 411 197' fill='none' xmlns='https://w3.org/2000/svg'%3E%3Cpath d='M262 185C275.807 185 287 174.031 287 160.5C287 146.969 275.807 136 262 136C248.193 136 237 146.969 237 160.5C237 174.031 248.193 185 262 185Z' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M262 135.5V46.0802C262 26.7075 246.464 11 227.304 11H204' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M263 53H306' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='square' stroke-linejoin='round'/%3E%3Cpath d='M194 21C199.523 21 204 16.5228 204 11C204 5.47715 199.523 1 194 1C188.477 1 184 5.47715 184 11C184 16.5228 188.477 21 194 21Z' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M194 53C199.523 53 204 48.5229 204 43C204 37.4772 199.523 33 194 33C188.477 33 184 37.4772 184 43C184 48.5229 188.477 53 194 53Z' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M194 21V33' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M162 53C167.523 53 172 48.5229 172 43C172 37.4772 167.523 33 162 33C156.477 33 152 37.4772 152 43C152 48.5229 156.477 53 162 53Z' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M57.5 146C67.7173 146 76 137.717 76 127.5C76 117.283 67.7173 109 57.5 109C47.2827 109 39 117.283 39 127.5C39 137.717 47.2827 146 57.5 146Z' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M184 43H172' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M262 94H74.1C64.65 94 57.45 101.096 57.45 109.445V134.491V169.555C57.45 178.321 49.8 185 40.8 185H21' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.2246 195.292C16.8715 195.292 21.4492 190.707 21.4492 185.05C21.4492 179.394 16.8715 174.809 11.2246 174.809C5.5777 174.809 1 179.394 1 185.05C1 190.707 5.5777 195.292 11.2246 195.292Z' stroke='%234D5858' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+  .inline-cta-2021.cta-primary.style-2{
+   background-image: url("data:image/svg+xml,%3Csvg width='411' height='197' viewBox='0 0 411 197' fill='none' xmlns='https://w3.org/2000/svg'%3E%3Cpath d='M262 185C275.807 185 287 174.031 287 160.5C287 146.969 275.807 136 262 136C248.193 136 237 146.969 237 160.5C237 174.031 248.193 185 262 185Z' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M262 135.5V46.0802C262 26.7075 246.464 11 227.304 11H204' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M263 53H306' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='square' stroke-linejoin='round'/%3E%3Cpath d='M194 21C199.523 21 204 16.5228 204 11C204 5.47715 199.523 1 194 1C188.477 1 184 5.47715 184 11C184 16.5228 188.477 21 194 21Z' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M194 53C199.523 53 204 48.5229 204 43C204 37.4772 199.523 33 194 33C188.477 33 184 37.4772 184 43C184 48.5229 188.477 53 194 53Z' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M194 21V33' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M162 53C167.523 53 172 48.5229 172 43C172 37.4772 167.523 33 162 33C156.477 33 152 37.4772 152 43C152 48.5229 156.477 53 162 53Z' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M57.5 146C67.7173 146 76 137.717 76 127.5C76 117.283 67.7173 109 57.5 109C47.2827 109 39 117.283 39 127.5C39 137.717 47.2827 146 57.5 146Z' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M184 43H172' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M262 94H74.1C64.65 94 57.45 101.096 57.45 109.445V134.491V169.555C57.45 178.321 49.8 185 40.8 185H21' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.2246 195.292C16.8715 195.292 21.4492 190.707 21.4492 185.05C21.4492 179.394 16.8715 174.809 11.2246 174.809C5.5777 174.809 1 179.394 1 185.05C1 190.707 5.5777 195.292 11.2246 195.292Z' stroke='%2300554C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+  .inline-cta-2021.cta-secondary.style-2{
+    background-image: url("data:image/svg+xml,%3Csvg width='411' height='197' viewBox='0 0 411 197' fill='none' xmlns='https://w3.org/2000/svg'%3E%3Cpath d='M262 185C275.807 185 287 174.031 287 160.5C287 146.969 275.807 136 262 136C248.193 136 237 146.969 237 160.5C237 174.031 248.193 185 262 185Z' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M262 135.5V46.0802C262 26.7075 246.464 11 227.304 11H204' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M263 53H306' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='square' stroke-linejoin='round'/%3E%3Cpath d='M194 21C199.523 21 204 16.5228 204 11C204 5.47715 199.523 1 194 1C188.477 1 184 5.47715 184 11C184 16.5228 188.477 21 194 21Z' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M194 53C199.523 53 204 48.5229 204 43C204 37.4772 199.523 33 194 33C188.477 33 184 37.4772 184 43C184 48.5229 188.477 53 194 53Z' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M194 21V33' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M162 53C167.523 53 172 48.5229 172 43C172 37.4772 167.523 33 162 33C156.477 33 152 37.4772 152 43C152 48.5229 156.477 53 162 53Z' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M57.5 146C67.7173 146 76 137.717 76 127.5C76 117.283 67.7173 109 57.5 109C47.2827 109 39 117.283 39 127.5C39 137.717 47.2827 146 57.5 146Z' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M184 43H172' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M262 94H74.1C64.65 94 57.45 101.096 57.45 109.445V134.491V169.555C57.45 178.321 49.8 185 40.8 185H21' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.2246 195.292C16.8715 195.292 21.4492 190.707 21.4492 185.05C21.4492 179.394 16.8715 174.809 11.2246 174.809C5.5777 174.809 1 179.394 1 185.05C1 190.707 5.5777 195.292 11.2246 195.292Z' stroke='rgba(244, 178, 35, 0.2)' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+  .inline-cta-2021.cta-secondary{
+   	background-color: #006DAB;
+  }
+  .inline-cta-2021.cta-primary{
+    background-color: #006E63;
+  }
+  .inline-cta-2021.cta-dark{
+    background-color: #1F1F1F;
+  }
+  .inline-cta-2021 > div{
+   	flex-basis: 50%; 
+  }
+  .inline-cta-2021 .inline-cta-left *{
+   	color: #FFF; 
+  }
+  .inline-cta-2021 .inline-cta-right{
+   	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .inline-cta-2021 .btn{
+   	padding: 6px 18px;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 10px;
+    position: relative;
+    z-index: 200;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 24px;
+  }
+  .inline-cta-2021 .btn:hover{
+    text-decoration: none !important;
+  }
+  .inline-cta-2021 .btn.btn-primary{
+    background-color: #006E63;
+  }
+  .inline-cta-2021 .btn.btn-primary:hover{
+    background-color: #005c53;
+  }
+  .inline-cta-2021 .btn.btn-secondary{
+    background-color: #FF4D00;
+  }
+  .inline-cta-2021 .btn.btn-secondary:hover{
+    background-color: #d94100;
+  }
+  @media(min-width: 768px){
+   	.inline-cta-2021{
+      flex-direction: row;
+    } 
+    .inline-cta-2021 .btn{
+      width: max-content;
+      margin-top: initial; 
+    }
+  }
+</style>
+<h3>Transgender issues in the workplace that include frequent discrimination and harassment.</h3>
+<p>While some trans friendly workplaces exist, tragically, transgender employees still frequently experience targeted harassment and discrimination in the workplace. While reported rates of such treatment vary, according to a 2011 survey, 90 percent of respondents claimed to have &#8220;directly experienced harassment or mistreatment at work.&#8221;</p>
+<p>This harassment and mistreatment can manifest in a number of ways—survey respondents noted the following rates of mistreatment:</p>
+<ul>
+<li>50 percent reported being harassment by coworkers</li>
+<li>41 percent said they’d been asked inappropriate questions about their transgender or surgical status</li>
+<li>23 percent said they’ve missed out on a promotion</li>
+<li>20 percent said they were prevented from directly contacting clients</li>
+<li>7 percent reported experiencing physical violence</li>
+<li>6 percent being sexually assaulted</li>
+</ul>
+<p>Sadly, these already-high rates of mistreatment <a href="https://broadly.vice.com/en_us/article/9k9w73/for-trans-women-of-color-safe-employment-is-a-matter-of-life-and-death">rise even higher for transgender workers of color</a>.</p>
+<h3>Employers mean well, but feel “a lot of anxiety” in addressing transgender issues in the workplace.</h3>
+<p>While employers have made real strides in including gay and lesbian employees, many still feel &#8220;a lot of anxiety&#8221; around transgender issues, <a href="https://theguardian.com/careers/transgender-issues-in-the-workplace">according to Colin McFarlane</a>, director of LGBT charity Stonewall Scotland.</p>
+<p><em>&#8220;There&#8217;s a lack of understanding about what the real issues are. Some employers lump trans issues in with sexuality,” he said. “&#8230;Employers still have that lack of understanding.&#8221;</em></p>
+<p>Chief among these issues, McFarlane said, is access to bathrooms matching trans workers’ gender identity.</p>
+<p>In general, transgender individuals use the public restrooms that match their gender identity, as opposed to the sex they were assigned at birth. While numerous states and municipalities bar such access, in the workplace, the EEOC <a href="https://eeoc.gov/eeoc/publications/fs-bathroom-access-transgender.cfm">considers it a right protected by Title VII</a> of the Civil Rights Act of 1964. The Occupational Safety and Health Administration describes the <a href="https://osha.gov/Publications/OSHA3795.pdf">necessity of this protection</a> as one of promoting inclusion while protecting trans workers’ safety:</p>
+<p><i>Accordingly, authorities on gender issues counsel that it is essential for employees to be able to work in a manner consistent with how they live the rest of their daily lives, based on their gender identity. Restricting employees to using only restrooms that are not consistent with their gender identity, or segregating them from other workers by requiring them to use gender-neutral or other specific restrooms, singles those employees out and may make them fear for their physical safety. </i></p>
+<p>Despite this protection, such issues have been reported to happen frequently. Of the 90 percent of transgender workers who <a href="https://newsweek.com/transgender-employees-experience-harassment-job-726494">reported having faced discrimination in the workplace</a>, nearly 25 percent were told to use bathrooms not matching their gender identity, among other discriminatory behaviors.</p>
+<p>Transgender activist Jane Fae told the Guardian that such incidents often occur when leadership attempts to compromise with any staff that might object. While she thinks those with religious objections should “have a space for them to explore that,” she said restricting access makes matters worse.</p>
+<p><em>&#8220;People try and fix this problem in ways that people often don&#8217;t </em>realise<em> are offensive, such as saying if you&#8217;re trans you can use the disabled facility,” she said. &#8220;It just marks people out as different, and if there are any employees who don&#8217;t like people transitioning, it almost endorses that.&#8221;</em></p>
+<h3>Transgender workers feel pressure to hide their gender identity, potentially limiting their career potential.</h3>
+<p>As a result of much of the discriminatory behavior they experience, transgender workers <a href="https://qz.com/work/1308079/how-to-be-inclusive-of-trans-people-in-the-workplace/">experience pervasive pressure to remain closeted</a>. Approximately 71 percent of transgender workers polled by the National Center for Transgender Equality reported hiding their transition or gender at work.</p>
+<p>Actively obscuring one&#8217;s identity, opinions, and feelings is known as “covering,” and for LGBT employees, covering often <a href="https://assets2.hrc.org/files/assets/resources/Cost_of_the_Closet_May2014.pdf">comes at the cost of progress in their career</a> and personal life, according to Human Rights Watch.</p>
+<p>Covering behavior necessitates trans workers to be more cautious and guarded in casual workplace conversations. While this seeming lack of exposure to small talk may not appear detrimental, missing out on these conversations means missing out on bonding that may otherwise result in opportunities for advancement and mentorship, according to Human Rights Watch.</p>
+<p>What’s more, covering itself is not feasible for many trans workers.</p>
+<h3>Trans workers often lack the ability to conceal their gender identity, and are protected by few gender identity discrimination laws.</h3>
+<p>Hiding one’s transgender status, or “going stealth” as it’s referred to in the LGBT community, is practically impossible.</p>
+<p>For instance, transgender workers face a catch-22 in the form of <a href="https://thedailybeast.com/the-high-stakes-name-game-for-transgender-job-hunters">questions regarding previous names</a> they’ve held, according to Allen. Applicants must either answer honestly and potentially reveal a birth name associated with a different gender, or shield themselves from potential discrimination with a lie, which could result in job loss if later discovered. Later steps like background checks and social security records almost ensure that transgender workers are exposed to their potential employers, at which point their fate depends upon the hiring manager’s beliefs about trans people.</p>
+<p>The current patchwork of gender identity discrimination laws adds to the fears of trans job applicants. Employees can still be <a href="https://lgbtmap.org/equality-maps/non_discrimination_laws">fired for their gender expression</a> in 30 states, in which 48 percent of the overall LGBT population lives.</p>
+<p>Currently, the U.S. Equal Employment Opportunity Commission (EEOC) argues that <a href="https://eeoc.gov/eeoc/newsroom/wysk/enforcement_protections_lgbt_workers.cfm">transgender workers are protected</a> under existing legislation; however, the <a href="https://reuters.com/article/us-usa-lgbt/u-s-anti-bias-law-does-not-protect-transgender-workers-justice-dept-idUSKBN1CA1Z9">U.S. Department of Justice disagrees</a>. And a potential a <a href="https://scotusblog.com/case-files/cases/r-g-g-r-harris-funeral-homes-inc-v-equal-opportunity-employment-commission/">Supreme Court</a> decision could have far-reaching impact for transgender workers.</p>
+<h2><b>How your business can better include transgender employees.</b></h2>
+<p>More than likely, your business already has in place guidelines related to the reporting and handling of harassment and discrimination; however to be a trans friendly workplace, you should make sure that these policies also <a href="https://peoplemanagement.co.uk/news/articles/half-of-transgender-employees-hide-identity-at-work">clearly denote zero tolerance for harassment based on gender expression and identity</a>.</p>
+<p>Further, company leadership and key executives should take measures to foster a culture of inclusion where everyone—employees, vendors, and customers—feel safe and comfortable being their authentic selves.</p>
+<p>Other recommended policies and procedures to tackle transgender issues in the workplace:</p>
+<ul>
+<li>Host mentoring programs<a href="/blog/6-elements-successful-workplace-diversity-program/"> that match participants</a> across identities, like genders, races, ages, and sexual identities</li>
+<li>Create an<a href="/blog/5-crucial-components-for-creating-an-inclusive-dress-code/"> inclusive dress code</a> that avoids gender stereotypes; enforcing it consistently.</li>
+<li>Scrub internal communication for language and imagery that assumes heterosexual families and relationships as the norm</li>
+</ul>
+<p>Diversity and inclusion training can help reduce biases that result in harassment and discrimination. It would be wise to invest in inclusivity training as well as unconscious bias training for your workforce, helping to root out any unintentional prejudices that might creep into day-to-day activities.</p>
+<p>In addition, managers should be provided with workplace training to identify harassing behavior and prevent situations from escalating quickly.</p>
+<h3>Reduce gender bias in the hiring process.</h3>
+<p>HR can play a role in protecting trans applicants from an unnecessary outing, according to Susan Loynd, director of HR for Washington County Mental Health Services and expert on the Society for Human Resource Management’s Diversity and Inclusion.</p>
+<p>“We’ve had people whose name and alias are different genders,” she <a href="https://thedailybeast.com/the-high-stakes-name-game-for-transgender-job-hunters">told The Daily Beast</a>. “We don’t show those records to our hiring managers—we have that all here in HR.”</p>
+<p>Additionally, certain hiring processes can help remove the influence of unconscious bias in selecting applicants.</p>
+<p><a href="https://ncbi.nlm.nih.gov/pubmed/15943674">Establish the value of various qualifications</a>—like years worked in an industry, education, and technical skills—before to reviewing applications and resumes. Researchers also recommend using a candidate-selection process that prioritizes identifying suitable candidates over eliminating unsuitable candidates, which reduces<a href="https://ncbi.nlm.nih.gov/pubmed/17144762"> judgments based on stereotypes</a>.</p>
+<h3>Communicate the availability of programs to assist transitioning.</h3>
+<p>Frequently, transgender employees will &#8220;come out&#8221; to their human resources representative or direct manager, wishing to discuss the practicalities of their transition, legal rights, potential medical challenges, and existing corporate policies. To help with managing gender transition in the workplace, you should regularly communicate to your staff the availability of any programs you have in place as well as the openness of your HR staff to discuss these matters confidentially.</p>
+<p>Trans workers’ experience in the modern workplace is a dark reflection of the destructive power of widely-held negative beliefs. The more-than worthwhile effort required to better accommodate them, however, is a reminder of the deeply constructive power inclusion holds to make positive change.</p>
+<p>&nbsp;</p>
+									</div>
+				<div class="post-content__sidebar">
+											<div class="post-sidebar-form">
+														<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script charset="utf-8" type="text/javascript" data-category="marketing" src="//js.hsforms.net/forms/embed/v2.js"></script>
+							<script data-category="marketing">
+								hbspt.forms.create({
+									region: "na1",
+									portalId: "49456359",
+									formId: "3ccda4b0-4ae9-48b8-83f5-e52295d077a5",
+									onFormReady: function($form) {
+										var container = $form.closest('.post-sidebar-form');
+										if (container && container.querySelector('.hs-form h1, .hs-form h2, .hs-form h3')) {
+											var title = container.querySelector('.post-sidebar-form__title');
+											if (title) title.style.display = 'none';
+										}
+									}
+								});
+							</script>
+						</div>
+									</div>
+			</div>
+
+								<section class="related-resources-section">
+						<div class="related-resources-section__header">
+							<h2 class="related-resources-section__title">Related Resources</h2>
+						</div>
+						<div class="related-resources-section__grid">
+															<article class="related-resource-card">
+																			<a href="https://complyeq.com/resources/webinars/building-respectful-workplaces-harassment-and-discrimination-prevention-best-practices/" class="related-resource-card__image">
+											<img width="768" height="768" src="https://complyeq.com/wp-content/smush-webp/2026/09/PHD-On-Demand-Webinar-1-1-768x768.jpg.webp" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" srcset="https://complyeq.com/wp-content/smush-webp/2026/09/PHD-On-Demand-Webinar-1-1-768x768.jpg.webp 768w, https://complyeq.com/wp-content/smush-webp/2026/09/PHD-On-Demand-Webinar-1-1-300x300.jpg.webp 300w, https://complyeq.com/wp-content/smush-webp/2026/09/PHD-On-Demand-Webinar-1-1-1024x1024.jpg.webp 1024w, https://complyeq.com/wp-content/smush-webp/2026/09/PHD-On-Demand-Webinar-1-1-150x150.jpg.webp 150w, https://complyeq.com/wp-content/smush-webp/2026/09/PHD-On-Demand-Webinar-1-1.jpg.webp 1200w" sizes="(max-width: 768px) 100vw, 768px" />										</a>
+																		<div class="related-resource-card__content">
+																					<span class="related-resource-card__type">
+												Webinars											</span>
+																				<h3 class="related-resource-card__title">
+											<a href="https://complyeq.com/resources/webinars/building-respectful-workplaces-harassment-and-discrimination-prevention-best-practices/">Building Respectful Workplaces: Harassment and Discrimination Prevention Best Practices </a>
+										</h3>
+										<div class="related-resource-card__excerpt">
+																					</div>
+										<a href="https://complyeq.com/resources/webinars/building-respectful-workplaces-harassment-and-discrimination-prevention-best-practices/" class="related-resource-card__link">
+											Read More
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+												<path d="M5 12h14M12 5l7 7-7 7"/>
+											</svg>
+										</a>
+									</div>
+								</article>
+															<article class="related-resource-card">
+																			<a href="https://complyeq.com/resources/articles/building-a-workplace-culture-that-works-everywhere/" class="related-resource-card__image">
+											<img width="540" height="300" src="https://complyeq.com/wp-content/smush-webp/2026/08/complyeq_global-harassment-training-blog_82026_540x300.jpg.webp" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://complyeq.com/wp-content/smush-webp/2026/08/complyeq_global-harassment-training-blog_82026_540x300.jpg.webp 540w, https://complyeq.com/wp-content/smush-webp/2026/08/complyeq_global-harassment-training-blog_82026_540x300-300x167.jpg.webp 300w" sizes="auto, (max-width: 540px) 100vw, 540px" />										</a>
+																		<div class="related-resource-card__content">
+																					<span class="related-resource-card__type">
+												Blog											</span>
+																				<h3 class="related-resource-card__title">
+											<a href="https://complyeq.com/resources/articles/building-a-workplace-culture-that-works-everywhere/">Building a Workplace Culture That Works Everywhere </a>
+										</h3>
+										<div class="related-resource-card__excerpt">
+																					</div>
+										<a href="https://complyeq.com/resources/articles/building-a-workplace-culture-that-works-everywhere/" class="related-resource-card__link">
+											Read More
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+												<path d="M5 12h14M12 5l7 7-7 7"/>
+											</svg>
+										</a>
+									</div>
+								</article>
+															<article class="related-resource-card">
+																			<a href="https://complyeq.com/resources/webinars/scaling-compliance-harassment-prevention-training-global-workforce/" class="related-resource-card__image">
+											<img width="768" height="768" src="https://complyeq.com/wp-content/smush-webp/2026/08/Global-PHD-Webinar-Templates-768x768.jpg.webp" class="attachment-medium_large size-medium_large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://complyeq.com/wp-content/smush-webp/2026/08/Global-PHD-Webinar-Templates-768x768.jpg.webp 768w, https://complyeq.com/wp-content/smush-webp/2026/08/Global-PHD-Webinar-Templates-300x300.jpg.webp 300w, https://complyeq.com/wp-content/smush-webp/2026/08/Global-PHD-Webinar-Templates-1024x1024.jpg.webp 1024w, https://complyeq.com/wp-content/smush-webp/2026/08/Global-PHD-Webinar-Templates-150x150.jpg.webp 150w, https://complyeq.com/wp-content/smush-webp/2026/08/Global-PHD-Webinar-Templates.jpg.webp 1200w" sizes="auto, (max-width: 768px) 100vw, 768px" />										</a>
+																		<div class="related-resource-card__content">
+																					<span class="related-resource-card__type">
+												Webinars											</span>
+																				<h3 class="related-resource-card__title">
+											<a href="https://complyeq.com/resources/webinars/scaling-compliance-harassment-prevention-training-global-workforce/">Scaling Compliance: Harassment Prevention Training for a Global Workforce</a>
+										</h3>
+										<div class="related-resource-card__excerpt">
+																					</div>
+										<a href="https://complyeq.com/resources/webinars/scaling-compliance-harassment-prevention-training-global-workforce/" class="related-resource-card__link">
+											Read More
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+												<path d="M5 12h14M12 5l7 7-7 7"/>
+											</svg>
+										</a>
+									</div>
+								</article>
+													</div>
+					</section>
+					
+		</article>
+
+		
+	</main>
+
+	<footer id="footer" class="site-footer">
+		<div class="footer-main">
+			<div class="container">
+				<div class="row g-5">
+				<!-- Column 1: Logo & Social Icons -->
+				<div class="col-12 col-lg-auto footer-col-logo">
+					<div class="footer-logo mb-3">
+						<img width="2426" height="566" src="https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup.png.webp" class="footer-logo-img" alt="" decoding="async" loading="lazy" srcset="https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup.png.webp 2426w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-300x70.png.webp 300w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-1024x239.png.webp 1024w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-768x179.png.webp 768w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-1536x358.png.webp 1536w, https://complyeq.com/wp-content/smush-webp/2026/01/ComplyEQ_Primary_Lockup-2048x478.png.webp 2048w" sizes="auto, (max-width: 2426px) 100vw, 2426px" />					</div>													<div class="footer-social">
+																		<a href="https://www.facebook.com/people/ComplyEQ/61587213754451/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="facebook">
+																							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+																					</a>
+																			<a href="https://www.linkedin.com/company/complyeq/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+																							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+																					</a>
+																</div>
+											</div>
+
+				<!-- Column 2: Solutions Menu -->
+				<div class="col-6 col-lg footer-col-solutions">
+					<nav class="footer-menu"><ul id="menu-footer-left" class="list-unstyled"><h5 class="footer-menu-title disabled"><a href="#">Solutions</a></h5>
+<ul class="list-unstyled">
+	<li class="menu-item"><a href="https://complyeq.com/harassment-discrimination-prevention/">Harassment &amp; Discrimination Prevention</a></li>
+	<li class="menu-item"><a href="https://complyeq.com/online-compliance-training/">Compliance &amp; Ethics</a></li>
+	<li class="menu-item"><a href="https://complyeq.com/diversity-equity-and-inclusion-training/">Diversity, Equity &amp; Inclusion (DEI)</a></li>
+	<li class="menu-item"><a href="https://complyeq.com/safety-health/">Workplace Safety &amp; Health</a></li>
+	<li class="menu-item"><a href="https://complyeq.com/data-cybersecurity/">Data Privacy &amp; Cybersecurity</a></li>
+	<li class="menu-item"><a href="https://complyeq.com/leadership-management/">Leadership &amp; Management</a></li>
+</ul>
+</ul></nav>				</div>
+
+				<!-- Column 3: Resources Menu -->
+				<div class="col-6 col-lg-auto footer-col-resources">
+					<nav class="footer-menu"><ul id="menu-footer-right" class="list-unstyled"><h5 class="footer-menu-title"><a href="https://complyeq.com/resources/">Resources</a></h5><h5 class="footer-menu-title"><a href="/about/">Company</a></h5>
+<ul class="list-unstyled">
+	<li class="menu-item"><a href="https://complyeq.com/about/">About</a></li>
+	<li class="menu-item"><a href="https://complyeq.com/careers/">Careers</a></li>
+	<li class="menu-item"><a href="https://complyeq.com/press-releases/">Press Releases</a></li>
+	<li class="menu-item"><a href="https://complyeq.com/support/">ComplyEQ Support</a></li>
+</ul>
+</ul></nav>				</div>
+
+				<!-- Column 4: CTA Button & Phone -->
+				<div class="col-6 col-lg-auto footer-col-cta">
+												<a href="https://complyeq.com/contact-us/" class="btn btn-primary w-100 mb-3">
+								Request a Demo							</a>
+													<a href="tel:8003811835" class="footer-phone">
+								Call (800) 381-1835							</a>
+											</div>
+				</div>
+			</div>
+		</div>		<!-- Footer Bottom: Copyright & Legal Links -->
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<p class="copyright mb-0">
+							&copy; 2026 complyEQ. All rights reserved.
+						</p>
+					</div>
+					<div class="col-md-6 text-md-end">
+						<nav class="footer-legal">
+															<a href="https://complyeq.com/privacy-policy/">Privacy Policy</a>
+															<span class="separator">|</span>
+															<a href="https://complyeq.com/terms-of-use/">Terms of Use</a>
+															<span class="separator">|</span>
+								<a href="https://complyeq.com/accessibility/">Accessibility</a>
+													</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="searchModal" class="modal fade" tabindex="-1" role="dialog" aria-label="Search Form" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<button type="button" class="btn-close btn-close-white ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+				<form role="search" method="get" action="https://complyeq.com/" data-component="core:search" class="wp-block-search__button-inside wp-block-search__icon-button wp-block-search" ><label class="wp-block-search__label screen-reader-text" for="wp-block-search__input-1" >Search</label><div class="wp-block-search__inside-wrapper"  style="width: 100%"><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="Search ..." value="" type="search" name="s" required /><button aria-label="Search" class="wp-block-search__button has-icon wp-element-button" type="submit" ><svg class="search-icon" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"></path>
+				</svg></button></div></form>			</div>
+		</div>
+	</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/lvl-framework-child/*","/wp-content/themes/lvl-framework/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div id="cmplz-cookiebanner-2-optin" class="cmplz-cookiebanner cmplz-hidden banner-2 cookie-consent-banner optin cmplz-center cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-2-optin" aria-describedby="cmplz-message-2-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-2-optin">Your Privacy Is Important to Us</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Close dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-2-optin"><p>ComplyEQ and its third-party partners use cookies and tracking technologies to improve site navigation, analyze, site usage and engage in marketing and advertising. By using this site, you consent to the disclosures in our <a href="https://complyeq.com/privacy-policy/">Privacy Policy</a> and agree to our <a href="https://complyeq.com/terms-of-use/">Terms of Use</a> (which have recently changed). Per our <a href="https://complyeq.com/terms-of-use/">Terms of Use</a>, you agree to arbitrate all disputes with us and waive your right to jury trial and to participate in a class action.</p></div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<div class="cmplz-category cmplz-functional">
+				<div class="cmplz-category-header">
+					<span class="cmplz-category-title" id="cmplz-title-functional-2-optin">Strictly Necessary</span>
+					<span class='cmplz-always-active'>
+						<span class="cmplz-banner-checkbox">
+							<input type="checkbox"
+									id="cmplz-functional-optin"
+									data-category="cmplz_functional"
+									class="cmplz-consent-checkbox cmplz-functional"
+									size="40"
+									value="1"/>
+							<label class="cmplz-label" for="cmplz-functional-optin"><span class="screen-reader-text">Strictly Necessary</span></label>
+						</span>
+						Always active					</span>
+					<button class="cmplz-category-toggle"
+							aria-expanded="false"
+							aria-controls="cmplz-desc-functional-2-optin"
+							aria-labelledby="cmplz-title-functional-2-optin">
+						<span class="cmplz-icon cmplz-open">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+						</span>
+					</button>
+				</div>
+				<div class="cmplz-description" id="cmplz-desc-functional-2-optin" hidden>
+					<span class="cmplz-description-functional">These technologies are required for the website to function (for example, session management and security tools). These are required for the website to operate properly and cannot be disabled.</span>
+				</div>
+			</div>
+
+			<div class="cmplz-category cmplz-preferences">
+				<div class="cmplz-category-header">
+					<span class="cmplz-category-title" id="cmplz-title-preferences-2-optin">Preference</span>
+					<span class="cmplz-banner-checkbox">
+						<input type="checkbox"
+								id="cmplz-preferences-optin"
+								data-category="cmplz_preferences"
+								class="cmplz-consent-checkbox cmplz-preferences"
+								size="40"
+								value="1"/>
+						<label class="cmplz-label" for="cmplz-preferences-optin"><span class="screen-reader-text">Preference</span></label>
+					</span>
+					<button class="cmplz-category-toggle"
+							aria-expanded="false"
+							aria-controls="cmplz-desc-preferences-2-optin"
+							aria-labelledby="cmplz-title-preferences-2-optin">
+						<span class="cmplz-icon cmplz-open">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+						</span>
+					</button>
+				</div>
+				<div class="cmplz-description" id="cmplz-desc-preferences-2-optin" hidden>
+					<span class="cmplz-description-preferences">These technologies are used to remember information you have entered or choices you make (such as your username, language or your region) on the website. They also store your preferences when personalizing the website to optimize your use of the website. These preferences are remembered, through the use of the persistent technologies, and the next time you visit the website you will not have to set them again.</span>
+				</div>
+			</div>
+
+			<div class="cmplz-category cmplz-statistics">
+				<div class="cmplz-category-header">
+					<span class="cmplz-category-title" id="cmplz-title-statistics-2-optin">Analytics</span>
+					<span class="cmplz-banner-checkbox">
+						<input type="checkbox"
+								id="cmplz-statistics-optin"
+								data-category="cmplz_statistics"
+								class="cmplz-consent-checkbox cmplz-statistics"
+								size="40"
+								value="1"/>
+						<label class="cmplz-label" for="cmplz-statistics-optin"><span class="screen-reader-text">Analytics</span></label>
+					</span>
+					<button class="cmplz-category-toggle"
+							aria-expanded="false"
+							aria-controls="cmplz-desc-statistics-2-optin"
+							aria-labelledby="cmplz-title-statistics-2-optin">
+						<span class="cmplz-icon cmplz-open">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+						</span>
+					</button>
+				</div>
+				<div class="cmplz-description" id="cmplz-desc-statistics-2-optin" hidden>
+					<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
+					<span class="cmplz-description-statistics-anonymous">These technologies that help us understand how visitors interact with the website. These tools are provided by and direct information to third parties such as Google Analytics and HubSpot analytics.</span>
+				</div>
+			</div>
+
+			<div class="cmplz-category cmplz-marketing">
+				<div class="cmplz-category-header">
+					<span class="cmplz-category-title" id="cmplz-title-marketing-2-optin">Marketing</span>
+					<span class="cmplz-banner-checkbox">
+						<input type="checkbox"
+								id="cmplz-marketing-optin"
+								data-category="cmplz_marketing"
+								class="cmplz-consent-checkbox cmplz-marketing"
+								size="40"
+								value="1"/>
+						<label class="cmplz-label" for="cmplz-marketing-optin"><span class="screen-reader-text">Marketing</span></label>
+					</span>
+					<button class="cmplz-category-toggle"
+							aria-expanded="false"
+							aria-controls="cmplz-desc-marketing-2-optin"
+							aria-labelledby="cmplz-title-marketing-2-optin">
+						<span class="cmplz-icon cmplz-open">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+						</span>
+					</button>
+				</div>
+				<div class="cmplz-description" id="cmplz-desc-marketing-2-optin" hidden>
+					<span class="cmplz-description-marketing">These technologies are placed by us and third party advertising platforms or networks in order to deliver ads and track ad performance, enable advertising networks to deliver ads that may be relevant to you based upon your activities (this is sometimes called “behavioral” tracking or “targeted” advertising). They may subsequently use information about your visit to target you with advertising that you may be interested in.</span>
+				</div>
+			</div>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<ul>
+			<li><a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Manage options</a></li>
+			<li><a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Manage services</a></li>
+			<li><a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Manage {vendor_count} vendors</a></li>
+			<li><a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/" aria-label="Read more about TCF purposes on Cookie Database">Read more about these purposes</a></li>
+		</ul>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accept All</button>
+		<button class="cmplz-btn cmplz-deny">Reject All Non-Essential</button>
+		<button class="cmplz-btn cmplz-view-preferences">Manage Your Choices</button>
+		<button class="cmplz-btn cmplz-save-preferences">Save Your Choices</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Manage Your Choices</a>
+			</div>
+
+
+	<div class="cmplz-documents cmplz-links">
+		<ul>
+			<li><a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a></li>
+		</ul>
+			</div>
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-2" aria-haspopup="dialog" aria-controls="cmplz-cookiebanner-2-optin">Manage consent</button>
+
+</div>        <script>
+        (function() {
+            // JS-side thank-you page conversion detection — fires even when abtpTests is empty
+            // (covers the case where the cookie changed between pages due to cached Set-Cookie headers).
+            if ( typeof abtpNonce === 'undefined' || typeof abtpTrackUrl === 'undefined' ) return;
+            var base = ( typeof abtpHomeBase !== 'undefined' ) ? abtpHomeBase : '';
+            var path = window.location.pathname;
+            if ( base ) path = path.slice( base.length ) || '/';
+            path = path.replace( /\/$/, '' ) || '/';
+            for ( var i = sessionStorage.length - 1; i >= 0; i-- ) {
+                var key = sessionStorage.key( i );
+                if ( ! key || key.indexOf( 'abtp_typage_' ) !== 0 ) continue;
+                try {
+                    var entry = JSON.parse( sessionStorage.getItem( key ) );
+                    if ( ! entry || ! entry.thank_you_page || ! entry.variant ) continue;
+                    var ty = entry.thank_you_page.replace( /\/$/, '' ) || '/';
+                    if ( path !== ty ) continue;
+                    if ( sessionStorage.getItem( 'abtp_cv_' + entry.id ) ) { sessionStorage.removeItem( key ); continue; }
+                    sessionStorage.setItem( 'abtp_cv_' + entry.id, '1' );
+                    sessionStorage.removeItem( key );
+                    var data = 'test_id=' + entry.id
+                        + '&variant_id=' + encodeURIComponent( entry.variant )
+                        + '&nonce=' + encodeURIComponent( abtpNonce );
+                    if ( navigator.sendBeacon ) {
+                        navigator.sendBeacon( abtpTrackUrl, new Blob( [ data ], { type: 'application/x-www-form-urlencoded' } ) );
+                    } else {
+                        var xhr = new XMLHttpRequest();
+                        xhr.open( 'POST', abtpTrackUrl, true );
+                        xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+                        xhr.send( data );
+                    }
+                } catch ( e ) {}
+            }
+        })();
+        </script>
+        <script>
+        (function() {
+            if ( typeof abtpTests === 'undefined' || ! abtpTests.length ) return;
+
+            var ajaxUrl   = 'https://complyeq.com/wp-admin/admin-ajax.php';
+            var trackUrl  = ( typeof abtpTrackUrl !== 'undefined' ) ? abtpTrackUrl : ajaxUrl;
+            var assignUrl = ( typeof abtpAssignUrl !== 'undefined' ) ? abtpAssignUrl : null;
+            var attachedGoals = {};
+
+            function getOrCreateVisitorId() {
+                var name    = 'abtp_visitor_id';
+                var cookies = document.cookie.split( ';' );
+                for ( var i = 0; i < cookies.length; i++ ) {
+                    var parts = cookies[ i ].trim().split( '=' );
+                    if ( parts[ 0 ] === name && parts[ 1 ] ) {
+                        return decodeURIComponent( parts[ 1 ] );
+                    }
+                }
+                var id;
+                if ( typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function' ) {
+                    id = crypto.randomUUID();
+                } else {
+                    id = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace( /[xy]/g, function( c ) {
+                        var r = Math.random() * 16 | 0;
+                        return ( c === 'x' ? r : ( r & 0x3 | 0x8 ) ).toString( 16 );
+                    } );
+                }
+                var exp = new Date();
+                exp.setFullYear( exp.getFullYear() + 1 );
+                document.cookie = name + '=' + id + '; expires=' + exp.toUTCString() + '; path=/; SameSite=Lax';
+                return id;
+            }
+
+            var visitorId = getOrCreateVisitorId();
+
+            function fireConversion( test ) {
+                if ( ! test.variant ) return;
+                if ( sessionStorage.getItem( 'abtp_cv_' + test.id ) ) return;
+                sessionStorage.setItem( 'abtp_cv_' + test.id, '1' );
+                var data = 'test_id=' + test.id
+                    + '&variant_id=' + encodeURIComponent( test.variant )
+                    + '&nonce=' + encodeURIComponent( abtpNonce );
+                if ( navigator.sendBeacon ) {
+                    navigator.sendBeacon( trackUrl, new Blob( [ data ], { type: 'application/x-www-form-urlencoded' } ) );
+                } else {
+                    var xhr = new XMLHttpRequest();
+                    xhr.open( 'POST', trackUrl, true );
+                    xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+                    xhr.send( data );
+                }
+            }
+
+            // PHP-resolved thank_you_page conversions fire immediately.
+            abtpTests.forEach( function( test ) {
+                if ( test.fire_on_load ) fireConversion( test );
+            } );
+
+            function applyChange( el, change ) {
+                switch ( change.type ) {
+                    case 'text':
+                        if ( change.content !== undefined ) el.textContent = change.content;
+                        break;
+                    case 'html':
+                        if ( change.content !== undefined ) el.innerHTML = change.content;
+                        break;
+                    case 'style':
+                        var styles = change.styles || {};
+                        Object.keys( styles ).forEach( function( prop ) {
+                            el.style.setProperty( prop.replace( /([A-Z])/g, '-$1' ).toLowerCase(), styles[ prop ], 'important' );
+                        } );
+                        break;
+                    case 'visibility':
+                        el.style.setProperty( 'display', change.visible ? '' : 'none', 'important' );
+                        break;
+                    case 'image':
+                        if ( change.src ) {
+                            if ( change.imageMode === 'bg' ) {
+                                el.style.setProperty( 'background-image', 'url(' + change.src + ')', 'important' );
+                                if ( change.bgPosition ) el.style.setProperty( 'background-position', change.bgPosition, 'important' );
+                            } else if ( change.imageMode === 'src' || el.tagName === 'IMG' ) {
+                                el.src = change.src;
+                                el.removeAttribute( 'srcset' );
+                                el.removeAttribute( 'sizes' );
+                            } else {
+                                var childImg = el.querySelector( 'img' );
+                                if ( childImg ) {
+                                    childImg.src = change.src;
+                                    childImg.removeAttribute( 'srcset' );
+                                    childImg.removeAttribute( 'sizes' );
+                                } else {
+                                    el.style.setProperty( 'background-image', 'url(' + change.src + ')', 'important' );
+                                }
+                            }
+                        }
+                        break;
+                }
+            }
+
+            function attachConversionGoal( test ) {
+                if ( ! test.conversion_goal || test.fire_on_load ) return;
+                if ( attachedGoals[ test.id ] ) return;
+                attachedGoals[ test.id ] = true;
+                document.addEventListener( 'click', function( e ) {
+                    try {
+                        if ( ! ( e.target.matches( test.conversion_goal ) || e.target.closest( test.conversion_goal ) ) ) return;
+                    } catch ( err ) { return; }
+                    if ( test.thank_you_page ) {
+                        document.cookie = 'abtp_pending_' + test.id + '=1; path=/; max-age=3600; SameSite=Lax';
+                    } else {
+                        fireConversion( test );
+                    }
+                } );
+            }
+
+            function applyTest( test ) {
+                if ( test.fire_on_load ) return true;
+                if ( ! test.variant ) return true;
+                if ( test.variant !== 'variant' ) {
+                    attachConversionGoal( test );
+                    return true;
+                }
+                if ( ! test.variants || ! test.variants[1] ) { attachConversionGoal( test ); return true; }
+                var v1 = test.variants[1];
+                if ( v1.changes && v1.changes.length ) {
+                    var allFound = true;
+                    v1.changes.forEach( function( change ) {
+                        var el = document.querySelectorAll( change.selector )[ change.selectorIndex || 0 ];
+                        if ( ! el ) { allFound = false; return; }
+                        applyChange( el, change );
+                    } );
+                    attachConversionGoal( test );
+                    return allFound;
+                }
+                var selector = test.variants[0] && test.variants[0].selector;
+                if ( ! selector ) return true;
+                var el = document.querySelector( selector );
+                if ( ! el ) return false;
+                applyChange( el, Object.assign( { type: test.type }, v1 ) );
+                attachConversionGoal( test );
+                return true;
+            }
+
+            function getDevice() {
+                var ua         = navigator.userAgent;
+                var isTouchMac = /Mac/i.test( ua ) && navigator.maxTouchPoints > 1 && window.matchMedia( '(pointer: coarse)' ).matches;
+                var isTablet   = /iPad/i.test( ua ) || isTouchMac || ( /Android/i.test( ua ) && ! /Mobile/i.test( ua ) );
+                if ( isTablet ) return 'tablet';
+                if ( /Mobi|Android|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test( ua ) ) return 'mobile';
+                return 'desktop';
+            }
+
+            function fireSessionMeta() {
+                var device = getDevice();
+                abtpTests.forEach( function( test ) {
+                    if ( ! test.variant || test.fire_on_load ) return;
+                    var sessionKey = 'abtp_sm_' + test.id;
+                    if ( sessionStorage.getItem( sessionKey ) ) return;
+                    sessionStorage.setItem( sessionKey, '1' );
+                    var lsKey = 'abtp_seen_' + test.id;
+                    var isNew = localStorage.getItem( lsKey ) ? 0 : 1;
+                    if ( isNew ) localStorage.setItem( lsKey, '1' );
+                    var data = 'action=abtp_track_session_meta'
+                        + '&test_id=' + test.id
+                        + '&variant_id=' + encodeURIComponent( test.variant )
+                        + '&device=' + device
+                        + '&is_new=' + isNew
+                        + '&nonce=' + encodeURIComponent( abtpNonce );
+                    var xhr = new XMLHttpRequest();
+                    xhr.open( 'POST', ajaxUrl, true );
+                    xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+                    xhr.send( data );
+                } );
+            }
+
+            function applyAllTests() {
+                var pending = abtpTests.filter( function( t ) { return ! applyTest( t ); } );
+                if ( ! pending.length ) return;
+                var retries = 0;
+                var interval = setInterval( function() {
+                    pending = pending.filter( function( t ) { return ! applyTest( t ); } );
+                    if ( ! pending.length || ++retries >= 20 ) clearInterval( interval );
+                }, 250 );
+            }
+
+            function doAssignAndRun() {
+                var needsAssign = assignUrl
+                    ? abtpTests.filter( function( t ) { return t.variant === null; } )
+                    : [];
+                var total = needsAssign.length;
+                var done  = 0;
+
+                function onAllAssigned() {
+                    // Cache test+variant in sessionStorage for JS-side thank-you page detection.
+                    abtpTests.forEach( function( test ) {
+                        if ( test.variant && test.thank_you_page && ! test.fire_on_load ) {
+                            sessionStorage.setItem( 'abtp_typage_' + test.id, JSON.stringify( {
+                                id: test.id,
+                                variant: test.variant,
+                                thank_you_page: test.thank_you_page,
+                            } ) );
+                        }
+                    } );
+                    fireSessionMeta();
+                    applyAllTests();
+                }
+
+                if ( total === 0 ) {
+                    onAllAssigned();
+                    return;
+                }
+
+                needsAssign.forEach( function( test ) {
+                    var ssKey  = 'abtp_assign_' + test.id;
+                    var cached = sessionStorage.getItem( ssKey );
+                    if ( cached ) {
+                        test.variant = cached;
+                        done++;
+                        if ( done === total ) onAllAssigned();
+                        return;
+                    }
+                    var xhr = new XMLHttpRequest();
+                    xhr.open( 'POST', assignUrl, true );
+                    xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+                    xhr.onload = function() {
+                        try {
+                            var resp = JSON.parse( xhr.responseText );
+                            if ( resp && resp.variant ) {
+                                test.variant = resp.variant;
+                                sessionStorage.setItem( ssKey, resp.variant );
+                            }
+                        } catch ( e ) {}
+                        done++;
+                        if ( done === total ) onAllAssigned();
+                    };
+                    xhr.onerror = function() {
+                        done++;
+                        if ( done === total ) onAllAssigned();
+                    };
+                    xhr.send( 'test_id=' + test.id
+                        + '&visitor_id=' + encodeURIComponent( visitorId )
+                        + '&nonce=' + encodeURIComponent( abtpNonce ) );
+                } );
+            }
+
+            if ( document.readyState === 'loading' ) {
+                document.addEventListener( 'DOMContentLoaded', doAssignAndRun );
+            } else {
+                doAssignAndRun();
+            }
+            window.addEventListener( 'load', applyAllTests );
+        })();
+        </script>
+        <script>
+        (function() {
+            if ( typeof abtpTests === 'undefined' || ! abtpTests.length ) return;
+            var startTime = Date.now();
+            var sent      = false;
+            var ajaxUrl   = 'https://complyeq.com/wp-admin/admin-ajax.php';
+
+            function sendTime() {
+                if ( sent ) return;
+                sent = true;
+                var seconds = Math.min( Math.round( ( Date.now() - startTime ) / 1000 ), 1800 );
+                if ( seconds < 2 ) return;
+                abtpTests.forEach( function( test ) {
+                    if ( ! test.variant ) return;
+                    var data = 'action=abtp_track_time&test_id=' + test.id
+                             + '&variant_id=' + encodeURIComponent( test.variant )
+                             + '&seconds=' + seconds
+                             + '&nonce=' + encodeURIComponent( abtpNonce );
+                    if ( navigator.sendBeacon ) {
+                        navigator.sendBeacon( ajaxUrl, new Blob( [ data ], { type: 'application/x-www-form-urlencoded' } ) );
+                    } else {
+                        var xhr = new XMLHttpRequest();
+                        xhr.open( 'POST', ajaxUrl, false );
+                        xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+                        xhr.send( data );
+                    }
+                } );
+            }
+
+            document.addEventListener( 'visibilitychange', function() {
+                if ( document.visibilityState === 'hidden' ) sendTime();
+            } );
+            window.addEventListener( 'pagehide', sendTime );
+        })();
+        </script>
+        <script>
+        (function() {
+            if ( typeof abtpTests === 'undefined' || ! abtpTests.length ) return;
+            var ajaxUrl = 'https://complyeq.com/wp-admin/admin-ajax.php';
+            var bounced = false;
+
+            document.addEventListener( 'click', function( e ) {
+                var a = e.target.closest( 'a' );
+                if ( ! a || ! a.href ) return;
+                try {
+                    if ( new URL( a.href ).hostname === window.location.hostname ) {
+                        abtpTests.forEach( function( test ) {
+                            sessionStorage.setItem( 'abtp_nb_' + test.id, '1' );
+                        } );
+                    }
+                } catch ( err ) {}
+            } );
+
+            function sendBounce() {
+                if ( bounced ) return;
+                bounced = true;
+                abtpTests.forEach( function( test ) {
+                    if ( ! test.variant ) return;
+                    if ( sessionStorage.getItem( 'abtp_nb_' + test.id ) ) return;
+                    if ( sessionStorage.getItem( 'abtp_bs_' + test.id ) ) return;
+                    sessionStorage.setItem( 'abtp_bs_' + test.id, '1' );
+                    var data = 'action=abtp_track_bounce&test_id=' + test.id
+                             + '&variant_id=' + encodeURIComponent( test.variant )
+                             + '&nonce=' + encodeURIComponent( abtpNonce );
+                    if ( navigator.sendBeacon ) {
+                        navigator.sendBeacon( ajaxUrl, new Blob( [ data ], { type: 'application/x-www-form-urlencoded' } ) );
+                    } else {
+                        var xhr = new XMLHttpRequest();
+                        xhr.open( 'POST', ajaxUrl, false );
+                        xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+                        xhr.send( data );
+                    }
+                } );
+            }
+
+            document.addEventListener( 'visibilitychange', function() {
+                if ( document.visibilityState === 'hidden' ) sendBounce();
+            } );
+            window.addEventListener( 'pagehide', sendBounce );
+        })();
+        </script>
+        		<style>
+			div#hs-eu-cookie-confirmation {display: none;}
+		</style>
+	<script id="lvl-child-scripts-js" src="https://complyeq.com/wp-content/themes/lvl-framework-child/dist/js/app.min.js?v=1770120090"></script>
+<script id="cmplz-cookiebanner-js-extra">
+var complianz = {"prefix":"cmplz_","debug":"","user_banner_id":"2","set_cookies":[],"block_ajax_content":"","banner_version":"35","version":"7.6.5","store_consent":"1","do_not_track_enabled":"1","consenttype":"optin","region":"eu","geoip":"1","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https://complyeq.com/wp-json/complianz/v1/","locale":"lang=en&locale=en_US","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"43","cookie_path":"/","categories":{"statistics":"statistics","marketing":"marketing"},"tcf_active":"","placeholdertext":"\u003Cdiv class=\"cmplz-blocked-content-notice-body\"\u003EClick 'I agree' to enable {service}\u00a0\u003Cdiv class=\"cmplz-links\"\u003E\u003Ca href=\"#\" class=\"cmplz-link cookie-statement\"\u003E{title}\u003C/a\u003E\u003C/div\u003E\u003C/div\u003E\u003Cbutton class=\"cmplz-accept-service\"\u003EI agree\u003C/button\u003E","css_file":"https://complyeq.com/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=35","page_links":{"eu":{"cookie-statement":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"privacy-statement":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"impressum":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"disclaimer":{"title":"Terms of Use","url":"https://complyeq.com/terms-of-use/"}},"ca":{"cookie-statement":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"privacy-statement":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"privacy-statement-children":{"title":"","url":"https://complyeq.com/resources/articles/bystander-intervention-step-3-action/"},"impressum":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"disclaimer":{"title":"Terms of Use","url":"https://complyeq.com/terms-of-use/"}},"us":{"impressum":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"disclaimer":{"title":"Terms of Use","url":"https://complyeq.com/terms-of-use/"}},"uk":{"impressum":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"disclaimer":{"title":"Terms of Use","url":"https://complyeq.com/terms-of-use/"}},"au":{"impressum":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"disclaimer":{"title":"Terms of Use","url":"https://complyeq.com/terms-of-use/"}},"za":{"impressum":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"disclaimer":{"title":"Terms of Use","url":"https://complyeq.com/terms-of-use/"}},"br":{"impressum":{"title":"Privacy Policy","url":"https://complyeq.com/privacy-policy/"},"disclaimer":{"title":"Terms of Use","url":"https://complyeq.com/terms-of-use/"}}},"tm_categories":"1","forceEnableStats":"","preview":"","clean_cookies":"1","aria_label":"Click button to enable {service}","iapi_nav":"fallback"};
+//# sourceURL=cmplz-cookiebanner-js-extra
+</script>
+<script defer id="cmplz-cookiebanner-js" src="https://complyeq.com/wp-content/plugins/complianz-gdpr-premium/cookiebanner/js/complianz.min.js?ver=1789048223"></script>
+<script id="cmplz-cookiebanner-js-after">
+		window.uetq = window.uetq || [];
+		window.uetq.push('consent', 'default', {
+			'ad_storage': 'denied'
+		});
+
+		document.addEventListener('cmplz_fire_categories', function(e) {
+			var consentedCategories = e.detail.categories;
+			let marketing = 'denied';
+			if (cmplz_in_array('marketing', consentedCategories)) {
+				marketing = 'granted';
+			}
+			window.uetq.push('consent', 'update', {
+				'ad_storage': marketing
+			});
+		});
+
+		document.addEventListener('cmplz_revoke', function(e) {
+			window.uetq.push('consent', 'update', {
+				'ad_storage': 'denied'
+			});
+		});
+	
+		
+			document.addEventListener("cmplz_enable_category", cmplzHubspotScriptHandler);
+			document.addEventListener("cmplz_status_change_service", cmplzHubspotScriptHandler);
+			document.addEventListener("cmplz_status_change", cmplzHubspotScriptHandler);
+			function cmplzHubspotScriptHandler(consentData) {
+				let hubspotAcceptBtn = document.getElementById("hs-eu-confirmation-button");
+				let hubspotDeclinetBtn = document.getElementById("hs-eu-decline-button");
+				if ( consentData.detail.category === 'marketing' ) {
+					if ( hubspotAcceptBtn != null ) {
+						hubspotAcceptBtn.click();
+					}
+				} else {
+					if ( hubspotDeclinetBtn != null && !consentData.detail.categories.includes("marketing") ) {
+						hubspotDeclinetBtn.click();
+					}
+				}
+				// if ( hubspotAcceptBtn ) {
+				// 	hubspotAcceptBtn.parentNode.removeChild(hubspotAcceptBtn);
+				// }
+			}
+		
+		
+//# sourceURL=cmplz-cookiebanner-js-after
+</script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://complyeq.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://complyeq.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+</body>
+</html>

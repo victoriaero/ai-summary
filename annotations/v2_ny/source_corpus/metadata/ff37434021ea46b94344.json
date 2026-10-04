@@ -1,0 +1,28 @@
+{
+  "source_id": "ff37434021ea46b94344",
+  "normalized_url": "https://study.com/academy/lesson/video/factors-that-affect-credit-worthiness.html",
+  "fetch_timestamp_utc": "2026-10-04T02:52:32.617728+00:00",
+  "registrable_domain": "study.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://study.com/academy/lesson/video/factors-that-affect-credit-worthiness.html",
+  "headers": {
+    "Content-Type": "text/html;charset=UTF-8"
+  },
+  "content_type": "text/html;charset=UTF-8",
+  "downloaded_bytes": 141257,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ff37434021ea46b94344.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ff37434021ea46b94344.txt",
+  "text_chars": 1260,
+  "text_words": 189,
+  "extraction_status": "success",
+  "page_title": "Factors That Affect Credit Worthiness - Video | Study.com",
+  "page_author": null,
+  "page_date": "2017-03-20",
+  "site_name": "study.com",
+  "canonical_url": "https://study.com/academy/lesson/video/factors-that-affect-credit-worthiness.html"
+}

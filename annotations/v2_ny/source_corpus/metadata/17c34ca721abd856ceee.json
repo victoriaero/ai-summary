@@ -1,0 +1,28 @@
+{
+  "source_id": "17c34ca721abd856ceee",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11762843",
+  "fetch_timestamp_utc": "2026-10-04T02:34:31.795220+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11762843/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 320317,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/17c34ca721abd856ceee.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/17c34ca721abd856ceee.txt",
+  "text_chars": 103280,
+  "text_words": 14572,
+  "extraction_status": "success",
+  "page_title": "Similarities and Differences Between Bullying and Sexual Harassment in Schools: A Social-Ecological Review of Risk and Protective Factors",
+  "page_author": "Zehra Sahin-Ilkorkor; Sarah Jane Brubaker",
+  "page_date": "2025-01-13",
+  "site_name": "Behavioral Sciences",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11762843/"
+}

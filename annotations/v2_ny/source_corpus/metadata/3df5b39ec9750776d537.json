@@ -1,0 +1,28 @@
+{
+  "source_id": "3df5b39ec9750776d537",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/publications/medicaid-trans-health-care",
+  "fetch_timestamp_utc": "2026-10-04T02:37:21.682799+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/publications/medicaid-trans-health-care/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 113494,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3df5b39ec9750776d537.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3df5b39ec9750776d537.txt",
+  "text_chars": 2354,
+  "text_words": 341,
+  "extraction_status": "success",
+  "page_title": "Medicaid Coverage for Gender-Affirming Care",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2025-02-04",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/publications/medicaid-trans-health-care/"
+}

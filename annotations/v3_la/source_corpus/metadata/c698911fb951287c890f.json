@@ -1,0 +1,28 @@
+{
+  "source_id": "c698911fb951287c890f",
+  "normalized_url": "https://aeaweb.org/research/discriminatory-lending-lab-turkey",
+  "fetch_timestamp_utc": "2026-10-04T03:45:34.849849+00:00",
+  "registrable_domain": "aeaweb.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.aeaweb.org/research/discriminatory-lending-lab-turkey",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 30297,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c698911fb951287c890f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c698911fb951287c890f.txt",
+  "text_chars": 7472,
+  "text_words": 1272,
+  "extraction_status": "success",
+  "page_title": "Gender bias in bank lending",
+  "page_author": null,
+  "page_date": "2023-05-16",
+  "site_name": "AEAJournals",
+  "canonical_url": "https://www.aeaweb.org/research/discriminatory-lending-lab-turkey"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "7618caa4e5011b2ad3cc",
+  "normalized_url": "https://cgap.org/topics/women-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T03:39:37.156030+00:00",
+  "registrable_domain": "cgap.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cgap.org/topics/women-financial-inclusion",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 94081,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/7618caa4e5011b2ad3cc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/7618caa4e5011b2ad3cc.txt",
+  "text_chars": 5403,
+  "text_words": 758,
+  "extraction_status": "success",
+  "page_title": "Making Finance Work for Women",
+  "page_author": null,
+  "page_date": "2023-10-24",
+  "site_name": "CGAP",
+  "canonical_url": "https://www.cgap.org/topics/women-financial-inclusion"
+}

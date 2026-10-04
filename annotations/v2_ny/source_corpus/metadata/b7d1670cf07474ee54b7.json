@@ -1,0 +1,28 @@
+{
+  "source_id": "b7d1670cf07474ee54b7",
+  "normalized_url": "https://lgbtq-economics.org/research/leaf-report-2023",
+  "fetch_timestamp_utc": "2026-10-04T02:47:21.277979+00:00",
+  "registrable_domain": "lgbtq-economics.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://lgbtq-economics.org/research/leaf-report-2023/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 406518,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b7d1670cf07474ee54b7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b7d1670cf07474ee54b7.txt",
+  "text_chars": 59718,
+  "text_words": 8589,
+  "extraction_status": "success",
+  "page_title": "The LGBTQI+ Economic and Financial Survey",
+  "page_author": null,
+  "page_date": "2023-03-27",
+  "site_name": "CLEAR",
+  "canonical_url": "https://lgbtq-economics.org/research/leaf-report-2023/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "181faeb793f78314144e",
+  "normalized_url": "https://siepr.stanford.edu/publications/policy-brief/financing-black-owned-businesses",
+  "fetch_timestamp_utc": "2026-10-04T02:34:32.854439+00:00",
+  "registrable_domain": "stanford.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://siepr.stanford.edu/publications/policy-brief/financing-black-owned-businesses",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 91525,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/181faeb793f78314144e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/181faeb793f78314144e.txt",
+  "text_chars": 7033,
+  "text_words": 1057,
+  "extraction_status": "success",
+  "page_title": "Financing Black-Owned Businesses",
+  "page_author": "Author Rob Fairlie",
+  "page_date": "2003-01-01",
+  "site_name": "Stanford Institute for Economic Policy Research (SIEPR)",
+  "canonical_url": "https://siepr.stanford.edu/publications/policy-brief/financing-black-owned-businesses"
+}

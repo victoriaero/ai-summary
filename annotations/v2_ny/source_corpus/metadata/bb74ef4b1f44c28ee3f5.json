@@ -1,0 +1,28 @@
+{
+  "source_id": "bb74ef4b1f44c28ee3f5",
+  "normalized_url": "https://youtube.com/watch?t=2258s&v=EYnXTuHdOEk",
+  "fetch_timestamp_utc": "2026-10-04T02:47:37.515468+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=2258s&v=EYnXTuHdOEk",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1341156,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/bb74ef4b1f44c28ee3f5.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/bb74ef4b1f44c28ee3f5.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Academic Training Webinar: Policing and People with Developmental Disabilities",
+  "page_author": null,
+  "page_date": "2022-05-08",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=EYnXTuHdOEk"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "3a50ae6d476153df4d42",
+  "normalized_url": "https://prisonpolicy.org/blog/2017/08/23/disability",
+  "fetch_timestamp_utc": "2026-10-04T03:34:50.552643+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/blog/2017/08/23/disability/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 59257,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/3a50ae6d476153df4d42.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/3a50ae6d476153df4d42.txt",
+  "text_chars": 12062,
+  "text_words": 1847,
+  "extraction_status": "success",
+  "page_title": "Police, courts, jails, and prisons all fail disabled people",
+  "page_author": "Prison Policy Initiative",
+  "page_date": "2017-08-23",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/blog/2017/08/23/disability/"
+}

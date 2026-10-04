@@ -1,0 +1,28 @@
+{
+  "source_id": "1edd9fa05ac71e54ccbe",
+  "normalized_url": "https://apps.urban.org/features/latino-financial-needs-community-lending",
+  "fetch_timestamp_utc": "2026-10-04T02:35:06.616321+00:00",
+  "registrable_domain": "urban.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://apps.urban.org/features/latino-financial-needs-community-lending/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 79183,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1edd9fa05ac71e54ccbe.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1edd9fa05ac71e54ccbe.txt",
+  "text_chars": 21537,
+  "text_words": 3194,
+  "extraction_status": "success",
+  "page_title": "How Latino-Serving CDFIs Can Shape a Thriving American Economy",
+  "page_author": null,
+  "page_date": "2025-03-13",
+  "site_name": "Urban Institute",
+  "canonical_url": "https://apps.urban.org/features/latino-financial-needs-community-lending/"
+}

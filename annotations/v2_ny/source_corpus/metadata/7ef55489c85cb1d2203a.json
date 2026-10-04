@@ -1,0 +1,28 @@
+{
+  "source_id": "7ef55489c85cb1d2203a",
+  "normalized_url": "https://ldi.upenn.edu/our-work/research-updates/breaking-the-link-between-disability-and-incarceration",
+  "fetch_timestamp_utc": "2026-10-04T02:42:37.684629+00:00",
+  "registrable_domain": "upenn.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ldi.upenn.edu/our-work/research-updates/breaking-the-link-between-disability-and-incarceration/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 192626,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7ef55489c85cb1d2203a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7ef55489c85cb1d2203a.txt",
+  "text_chars": 5220,
+  "text_words": 735,
+  "extraction_status": "success",
+  "page_title": "The Link Between Disability and Incarceration",
+  "page_author": "Laurin Bixby",
+  "page_date": "2022-11-23",
+  "site_name": "Penn LDI",
+  "canonical_url": "https://ldi.upenn.edu/our-work/research-updates/breaking-the-link-between-disability-and-incarceration/"
+}

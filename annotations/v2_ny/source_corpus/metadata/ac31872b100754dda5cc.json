@@ -1,0 +1,28 @@
+{
+  "source_id": "ac31872b100754dda5cc",
+  "normalized_url": "https://hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/situation-incarcerated-women",
+  "fetch_timestamp_utc": "2026-10-04T02:46:32.645311+00:00",
+  "registrable_domain": "harvard.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/situation-incarcerated-women",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 47557,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ac31872b100754dda5cc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ac31872b100754dda5cc.txt",
+  "text_chars": 5455,
+  "text_words": 819,
+  "extraction_status": "success",
+  "page_title": "The Situation of Incarcerated Women",
+  "page_author": null,
+  "page_date": "2025-03-07",
+  "site_name": "hks.harvard.edu",
+  "canonical_url": "https://www.hks.harvard.edu/centers/carr-ryan/our-work/carr-ryan-commentary/situation-incarcerated-women"
+}

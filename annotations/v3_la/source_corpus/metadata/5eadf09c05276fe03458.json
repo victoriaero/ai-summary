@@ -1,0 +1,28 @@
+{
+  "source_id": "5eadf09c05276fe03458",
+  "normalized_url": "https://alignplatform.org/gender-norms-and-education/discriminatory-gender-norms-access-and-educational-attainment",
+  "fetch_timestamp_utc": "2026-10-04T03:37:45.155202+00:00",
+  "registrable_domain": "alignplatform.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.alignplatform.org/gender-norms-and-education/discriminatory-gender-norms-access-and-educational-attainment",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 75909,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5eadf09c05276fe03458.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5eadf09c05276fe03458.txt",
+  "text_chars": 2147,
+  "text_words": 293,
+  "extraction_status": "success",
+  "page_title": "2. Gender norms and access to education",
+  "page_author": "Author Rachel Marcus",
+  "page_date": "2026-01-01",
+  "site_name": "Align Platform",
+  "canonical_url": "https://www.alignplatform.org/gender-norms-and-education/discriminatory-gender-norms-access-and-educational-attainment"
+}

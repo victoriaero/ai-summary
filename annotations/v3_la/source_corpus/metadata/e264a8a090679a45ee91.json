@@ -1,0 +1,28 @@
+{
+  "source_id": "e264a8a090679a45ee91",
+  "normalized_url": "https://hss.edu/health-library/conditions-and-treatments/enhancing-clinical-skills-lgbtq-care-hospital-setting",
+  "fetch_timestamp_utc": "2026-10-04T03:47:44.384115+00:00",
+  "registrable_domain": "hss.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hss.edu/health-library/conditions-and-treatments/enhancing-clinical-skills-lgbtq-care-hospital-setting",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 70349,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e264a8a090679a45ee91.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e264a8a090679a45ee91.txt",
+  "text_chars": 20467,
+  "text_words": 3135,
+  "extraction_status": "success",
+  "page_title": "Enhancing Your Clinical Skills in Caring for LGBTQ Patients",
+  "page_author": "Nathan Levitt; MSN; FNP-BC",
+  "page_date": "2024-12-04",
+  "site_name": "Hospital for Special Surgery",
+  "canonical_url": "https://www.hss.edu/health-library/conditions-and-treatments/enhancing-clinical-skills-lgbtq-care-hospital-setting"
+}

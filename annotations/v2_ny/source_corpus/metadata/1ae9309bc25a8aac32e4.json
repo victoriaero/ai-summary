@@ -1,0 +1,28 @@
+{
+  "source_id": "1ae9309bc25a8aac32e4",
+  "normalized_url": "https://nacacnet.org/factors-in-college-admission",
+  "fetch_timestamp_utc": "2026-10-04T02:34:44.725083+00:00",
+  "registrable_domain": "nacacnet.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nacacnet.org/factors-in-college-admission/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 247503,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1ae9309bc25a8aac32e4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1ae9309bc25a8aac32e4.txt",
+  "text_chars": 1177,
+  "text_words": 166,
+  "extraction_status": "success",
+  "page_title": "Factors in College Admission - National Association for College Admission Counseling (NACAC)",
+  "page_author": "Michelle Lucas",
+  "page_date": "2022-10-01",
+  "site_name": "National Association for College Admission Counseling (NACAC)",
+  "canonical_url": "https://www.nacacnet.org/factors-in-college-admission/"
+}

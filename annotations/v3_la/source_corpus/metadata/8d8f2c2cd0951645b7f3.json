@@ -1,0 +1,28 @@
+{
+  "source_id": "8d8f2c2cd0951645b7f3",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4772969",
+  "fetch_timestamp_utc": "2026-10-04T03:41:29.178520+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4772969/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 132649,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8d8f2c2cd0951645b7f3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8d8f2c2cd0951645b7f3.txt",
+  "text_chars": 25679,
+  "text_words": 3745,
+  "extraction_status": "success",
+  "page_title": "Building on the Evidence: Guiding Policy and Research on Police Encounters with Persons with Mental Illnesses",
+  "page_author": "Allison G Robertson",
+  "page_date": "2015-06-28",
+  "site_name": "Criminology & public policy",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4772969/"
+}

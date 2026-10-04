@@ -1,0 +1,28 @@
+{
+  "source_id": "d98d8b936e8385a75384",
+  "normalized_url": "https://pewresearch.org/race-and-ethnicity/2009/10/07/latinos-and-education-explaining-the-attainment-gap",
+  "fetch_timestamp_utc": "2026-10-04T03:46:57.052071+00:00",
+  "registrable_domain": "pewresearch.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.pewresearch.org/race-and-ethnicity/2009/10/07/latinos-and-education-explaining-the-attainment-gap/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 423009,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/d98d8b936e8385a75384.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/d98d8b936e8385a75384.txt",
+  "text_chars": 12031,
+  "text_words": 2063,
+  "extraction_status": "success",
+  "page_title": "Latinos and Education: Explaining the Attainment Gap",
+  "page_author": "Mark Hugo Lopez",
+  "page_date": "2009-10-07",
+  "site_name": "Pew Research Center",
+  "canonical_url": "https://www.pewresearch.org/race-and-ethnicity/2009/10/07/latinos-and-education-explaining-the-attainment-gap/"
+}

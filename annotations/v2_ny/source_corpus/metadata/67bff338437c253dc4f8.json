@@ -1,0 +1,28 @@
+{
+  "source_id": "67bff338437c253dc4f8",
+  "normalized_url": "https://colegiomirasur.com/en/blog/how-to-prevent-bullying-at-school",
+  "fetch_timestamp_utc": "2026-10-04T02:40:47.167487+00:00",
+  "registrable_domain": "colegiomirasur.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://colegiomirasur.com/en/blog/how-to-prevent-bullying-at-school/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 176895,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/67bff338437c253dc4f8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/67bff338437c253dc4f8.txt",
+  "text_chars": 6073,
+  "text_words": 908,
+  "extraction_status": "success",
+  "page_title": "Bullying: causes, types and how to prevent it",
+  "page_author": null,
+  "page_date": "2025-11-13",
+  "site_name": "Mirasur School",
+  "canonical_url": "https://colegiomirasur.com/en/blog/how-to-prevent-bullying-at-school/"
+}

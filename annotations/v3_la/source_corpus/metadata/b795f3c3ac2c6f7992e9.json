@@ -1,0 +1,28 @@
+{
+  "source_id": "b795f3c3ac2c6f7992e9",
+  "normalized_url": "https://chrc-ccdp.gc.ca/resources/newsroom/joint-news-release-new-data-highlights-troubling-housing-inequalities-people",
+  "fetch_timestamp_utc": "2026-10-04T03:44:29.686928+00:00",
+  "registrable_domain": "chrc-ccdp.gc.ca",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.chrc-ccdp.gc.ca/resources/newsroom/joint-news-release-new-data-highlights-troubling-housing-inequalities-people",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 51123,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b795f3c3ac2c6f7992e9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b795f3c3ac2c6f7992e9.txt",
+  "text_chars": 11032,
+  "text_words": 1725,
+  "extraction_status": "success",
+  "page_title": "Joint news release – New data highlights troubling housing inequalities for people with disabilities | Canadian Human Rights Commission",
+  "page_author": null,
+  "page_date": "2024-12-03",
+  "site_name": "chrc-ccdp.gc.ca",
+  "canonical_url": "https://www.chrc-ccdp.gc.ca/resources/newsroom/joint-news-release-new-data-highlights-troubling-housing-inequalities-people"
+}

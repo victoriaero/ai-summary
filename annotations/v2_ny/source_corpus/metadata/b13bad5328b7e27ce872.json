@@ -1,0 +1,28 @@
+{
+  "source_id": "b13bad5328b7e27ce872",
+  "normalized_url": "https://hracuity.com/blog/workplace-harassment",
+  "fetch_timestamp_utc": "2026-10-04T02:46:53.165331+00:00",
+  "registrable_domain": "hracuity.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hracuity.com/blog/workplace-harassment/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 157795,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b13bad5328b7e27ce872.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b13bad5328b7e27ce872.txt",
+  "text_chars": 19736,
+  "text_words": 2844,
+  "extraction_status": "success",
+  "page_title": "The 10 Most Common Types of Workplace Harassment",
+  "page_author": "Deb Muller; Deborah Muller",
+  "page_date": "2026-06-25",
+  "site_name": "HR Acuity",
+  "canonical_url": "https://www.hracuity.com/blog/workplace-harassment/"
+}

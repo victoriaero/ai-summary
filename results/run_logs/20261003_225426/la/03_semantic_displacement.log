@@ -1,0 +1,122 @@
+
+================================================================================
+LOADING COLLECTION
+================================================================================
+
+Documents: 273
+Groups: 13
+Outcomes: 21
+
+✓ Matched experimental design validated.
+
+================================================================================
+LOADING EMBEDDING MODEL
+================================================================================
+Model: sentence-transformers/all-mpnet-base-v2
+Device: cuda
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12801.63it/s]
+Model max sequence length: 384
+Chunk token target: 320
+
+RAW: 273 documents -> 433 chunks
+
+Batches:   0%|          | 0/14 [00:00<?, ?it/s]
+Batches:   7%|▋         | 1/14 [00:00<00:04,  2.77it/s]
+Batches:  21%|██▏       | 3/14 [00:00<00:01,  6.96it/s]
+Batches:  36%|███▌      | 5/14 [00:00<00:00,  9.60it/s]
+Batches:  50%|█████     | 7/14 [00:00<00:00, 11.35it/s]
+Batches:  64%|██████▍   | 9/14 [00:00<00:00, 12.94it/s]
+Batches:  79%|███████▊  | 11/14 [00:01<00:00, 13.97it/s]
+Batches: 100%|██████████| 14/14 [00:01<00:00, 13.18it/s]
+
+SUBJECT NORMALIZED: 273 documents -> 435 chunks
+
+Batches:   0%|          | 0/14 [00:00<?, ?it/s]
+Batches:  14%|█▍        | 2/14 [00:00<00:00, 14.79it/s]
+Batches:  29%|██▊       | 4/14 [00:00<00:00, 14.86it/s]
+Batches:  43%|████▎     | 6/14 [00:00<00:00, 15.01it/s]
+Batches:  57%|█████▋    | 8/14 [00:00<00:00, 15.14it/s]
+Batches:  71%|███████▏  | 10/14 [00:00<00:00, 15.40it/s]
+Batches:  93%|█████████▎| 13/14 [00:00<00:00, 19.24it/s]
+Batches: 100%|██████████| 14/14 [00:00<00:00, 18.20it/s]
+
+================================================================================
+TF-IDF ROBUSTNESS BASELINE
+================================================================================
+TF-IDF vocabulary size: 12471
+
+================================================================================
+SENTENCE-LEVEL EMBEDDINGS
+================================================================================
+Total semantic units: 4562
+
+Batches:   0%|          | 0/143 [00:00<?, ?it/s]
+Batches:   4%|▍         | 6/143 [00:00<00:02, 56.47it/s]
+Batches:  10%|▉         | 14/143 [00:00<00:01, 65.84it/s]
+Batches:  15%|█▍        | 21/143 [00:00<00:01, 67.48it/s]
+Batches:  22%|██▏       | 31/143 [00:00<00:01, 77.43it/s]
+Batches:  29%|██▊       | 41/143 [00:00<00:01, 84.82it/s]
+Batches:  36%|███▋      | 52/143 [00:00<00:01, 90.59it/s]
+Batches:  43%|████▎     | 62/143 [00:00<00:00, 93.12it/s]
+Batches:  51%|█████     | 73/143 [00:00<00:00, 97.66it/s]
+Batches:  59%|█████▉    | 85/143 [00:00<00:00, 102.19it/s]
+Batches:  69%|██████▊   | 98/143 [00:01<00:00, 109.96it/s]
+Batches:  79%|███████▉  | 113/143 [00:01<00:00, 121.24it/s]
+Batches:  92%|█████████▏| 131/143 [00:01<00:00, 137.86it/s]
+Batches: 100%|██████████| 143/143 [00:01<00:00, 108.17it/s]
+
+================================================================================
+PRIMARY: SUBJECT-NORMALIZED SEMANTIC DISTANCE
+================================================================================
+         dimension           minority_group              majority_group  n  mean_1  mean_2  mean_difference  bootstrap_ci_low  bootstrap_ci_high  rank_biserial  p_permutation_holm  significant_permutation_holm
+        Disability People with disabilities People without disabilities 21 0.26905 0.23075          0.03829          -0.03312            0.10005        0.50649             0.60073                         False
+         Ethnicity            Latino people           non-Latino people 21 0.29591 0.26255          0.03336          -0.01012            0.07187        0.60173             0.39519                         False
+            Gender                    Women                         Men 21 0.21806 0.17747          0.04060           0.01165            0.07170        0.61039             0.05266                         False
+   Gender Identity       transgender people            cisgender people 21 0.40693 0.27646          0.13047           0.08390            0.17724        0.88745             0.00063                          True
+              Race             Black people                White people 21 0.27360 0.26675          0.00686          -0.02916            0.04671        0.04762             0.74635                         False
+Sexual Orientation        homosexual people         heterosexual people 21 0.38802 0.29130          0.09671           0.02814            0.15533        0.64502             0.04742                          True
+
+================================================================================
+MEAN SEMANTIC DISTANCE FROM GENERIC
+================================================================================
+         dimension condition                       group  mean_dense_distance  mean_generic_coverage_similarity  mean_group_novelty_distance
+   Gender Identity  minority          transgender people               0.4069                            0.5114                       0.4895
+Sexual Orientation  minority           homosexual people               0.3880                            0.4989                       0.4835
+         Ethnicity  minority               Latino people               0.2959                            0.5373                       0.4362
+Sexual Orientation  majority         heterosexual people               0.2913                            0.5627                       0.4129
+   Gender Identity  majority            cisgender people               0.2765                            0.5737                       0.4059
+              Race  minority                Black people               0.2736                            0.5407                       0.4404
+        Disability  minority    People with disabilities               0.2690                            0.5514                       0.4704
+              Race  majority                White people               0.2667                            0.5402                       0.3910
+         Ethnicity  majority           non-Latino people               0.2626                            0.5517                       0.4247
+        Disability  majority People without disabilities               0.2308                            0.5896                       0.3909
+            Gender  minority                       Women               0.2181                            0.5834                       0.4216
+            Gender  majority                         Men               0.1775                            0.6178                       0.3653
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
+
+Results saved to:
+/scratch/victoria.estanislau/ai-summary/results/semantic_embedding_analysis_la
+
+Main files:
+  all_results.json
+  SUMMARY.txt
+  primary_dimension_tests_dense_subject_normalized.csv
+  semantic_triangle_summary.csv
+  group_vs_generic_semantic_metrics.csv
+
+Primary dimension results:
+
+         dimension           minority_group              majority_group  mean_1  mean_2  mean_difference  bootstrap_ci_low  bootstrap_ci_high  rank_biserial  p_permutation_holm  significant_permutation_holm
+        Disability People with disabilities People without disabilities 0.26905 0.23075          0.03829          -0.03312            0.10005        0.50649             0.60073                         False
+         Ethnicity            Latino people           non-Latino people 0.29591 0.26255          0.03336          -0.01012            0.07187        0.60173             0.39519                         False
+            Gender                    Women                         Men 0.21806 0.17747          0.04060           0.01165            0.07170        0.61039             0.05266                         False
+   Gender Identity       transgender people            cisgender people 0.40693 0.27646          0.13047           0.08390            0.17724        0.88745             0.00063                          True
+              Race             Black people                White people 0.27360 0.26675          0.00686          -0.02916            0.04671        0.04762             0.74635                         False
+Sexual Orientation        homosexual people         heterosexual people 0.38802 0.29130          0.09671           0.02814            0.15533        0.64502             0.04742                          True
+
+Done.

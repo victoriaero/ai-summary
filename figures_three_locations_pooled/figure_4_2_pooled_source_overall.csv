@@ -1,0 +1,2 @@
+n_outcomes,mean_difference,median_difference,bootstrap_ci_low,bootstrap_ci_high,rank_biserial,p_permutation_raw,permutation_method,wilcoxon_W,p_wilcoxon_raw,p_primary_raw,primary_test,dimension,focal_mean,comparison_mean,n_dimensions_mean,mean_locations_per_outcome
+21,0.055712603994295735,0.030083465479002994,0.03619123870465812,0.07708168840405567,1.0,9.999950000249999e-06,monte_carlo_signflip_200000,0.0,8.857457687863547e-05,9.999950000249999e-06,signflip,Overall,0.9938434637623599,0.9381308597680642,6.0,3.0

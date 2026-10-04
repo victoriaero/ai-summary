@@ -1,0 +1,28 @@
+{
+  "source_id": "a54c688a7da606e5dacb",
+  "normalized_url": "https://ccf.georgetown.edu/2021/06/08/health-coverage-trends-for-latino-children",
+  "fetch_timestamp_utc": "2026-10-04T02:45:52.760459+00:00",
+  "registrable_domain": "georgetown.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ccf.georgetown.edu/2021/06/08/health-coverage-trends-for-latino-children/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 210250,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a54c688a7da606e5dacb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a54c688a7da606e5dacb.txt",
+  "text_chars": 35813,
+  "text_words": 4880,
+  "extraction_status": "success",
+  "page_title": "Getting Back on Track: A Detailed Look at Health Coverage Trends for Latino Children",
+  "page_author": "Kelly Whitener",
+  "page_date": "2021-06-08",
+  "site_name": "Center For Children and Families",
+  "canonical_url": "https://ccf.georgetown.edu/2021/06/08/health-coverage-trends-for-latino-children/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "6b2f7678529a2b8861ed",
+  "normalized_url": "https://highereddive.com/news/at-womens-colleges-trans-and-nonbinary-applicants-face-inconsistent-rules/567537",
+  "fetch_timestamp_utc": "2026-10-04T03:38:42.236316+00:00",
+  "registrable_domain": "highereddive.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.highereddive.com/news/at-womens-colleges-trans-and-nonbinary-applicants-face-inconsistent-rules/567537/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 199095,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6b2f7678529a2b8861ed.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6b2f7678529a2b8861ed.txt",
+  "text_chars": 7834,
+  "text_words": 1202,
+  "extraction_status": "success",
+  "page_title": "At women’s colleges, rules vary widely for trans and nonbinary students",
+  "page_author": "Jeremy Bauer-Wolf",
+  "page_date": "2019-11-18",
+  "site_name": "Higher Ed Dive",
+  "canonical_url": "https://www.highereddive.com/news/at-womens-colleges-trans-and-nonbinary-applicants-face-inconsistent-rules/567537/"
+}

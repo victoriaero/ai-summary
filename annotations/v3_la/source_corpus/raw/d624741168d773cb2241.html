@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+<link rel="preload" href="/themes/custom/ojp/assets/fonts/roboto/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin="" />
+<link rel="preload" href="/themes/custom/ojp/assets/fonts/roboto/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin="" />
+<link rel="preload" href="/themes/custom/ojp/assets/fonts/roboto/Roboto-Italic.woff2" as="font" type="font/woff2" crossorigin="" />
+<link rel="preload" href="/themes/custom/ojp/assets/fonts/roboto/Roboto-BlackItalic.woff2" as="font" type="font/woff2" crossorigin="" />
+<link rel="preload" href="/themes/custom/ojp/assets/fonts/merriweather/Latin-Merriweather-Regular.woff2" as="font" type="font/woff2" crossorigin="" />
+<link rel="preload" href="/themes/custom/ojp/assets/fonts/merriweather/Latin-Merriweather-Bold.woff2" as="font" type="font/woff2" crossorigin="" />
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><meta name="description" content="This article details research that sought to promote the use of multilevel modeling to refine theories of police discretion." />
+<link rel="canonical" href="https://www.ojp.gov/library/publications/understanding-police-decisions-arrest-impact-situational-officer-and" />
+<meta property="og:site_name" content="Office of Justice Programs" />
+<meta property="og:url" content="https://www.ojp.gov/library/publications/understanding-police-decisions-arrest-impact-situational-officer-and" />
+<meta property="og:title" content="Understanding police decisions to arrest: The impact of situational, officer, and neighborhood characteristics on police discretion | Office of Justice Programs" />
+<meta property="og:description" content="This article details research that sought to promote the use of multilevel modeling to refine theories of police discretion." />
+<meta property="og:image" content="https://www.ojp.gov/sites/ojp/files/images/2020-02/ojp_og.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Understanding police decisions to arrest: The impact of situational, officer, and neighborhood characteristics on police discretion | Office of Justice Programs" />
+<meta name="twitter:description" content="This article details research that sought to promote the use of multilevel modeling to refine theories of police discretion." />
+<meta name="twitter:image" content="https://www.ojp.gov/sites/ojp/files/images/2020-02/ojp_tw.png" />
+<meta name="google-site-verification" content="4PLVTsyCm3--uca8rMAYrsLAAEJtRBtpZWm-kh9pr0g" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/ojp/assets/images/ojp/favicon.png" type="image/png" />
+<link rel="alternate" hreflang="en" href="https://www.ojp.gov/library/publications/understanding-police-decisions-arrest-impact-situational-officer-and" />
+
+    <title>Understanding police decisions to arrest: The impact of situational, officer, and neighborhood characteristics on police discretion | Office of Justice Programs</title>
+    <link rel="stylesheet" media="all" href="/sites/ojp/files/css/css_sR6v03z1qkEEEzyJhpRBnNT93vYw5f11746JBb6JUXg.css?delta=0&amp;language=en&amp;theme=ojp&amp;include=eJxtUFGuwyAMuxB9HAmFELVpU1KRVFt3-se6VdqkfUTYBhk7uFBh15a4FqqeRXGJHziggNkRVzKDkSygNoql7RvIH8xw_xIcstBEUKi99KptBeEHhaJzsgka1zF-4EB3F67L5fCmQeDQ3VPeWbpZ9JuiSjJCZ62h4tysW-i2dY-E0Dz-0ILOW8yy0wC1DKNKOZU-1zlkMBrMD-nVOk_43ke8QALE3p0zC_txvingcDa1-E3P223PwgjPnHHiQqnorYpCSYw9uh3mtMbnv__5FZVK" />
+<link rel="stylesheet" media="all" href="/sites/ojp/files/css/css_dl0kxudEJbmTSYDOQvtYzmmXK7JxNgfzkMllgNzVEPU.css?delta=1&amp;language=en&amp;theme=ojp&amp;include=eJxtUFGuwyAMuxB9HAmFELVpU1KRVFt3-se6VdqkfUTYBhk7uFBh15a4FqqeRXGJHziggNkRVzKDkSygNoql7RvIH8xw_xIcstBEUKi99KptBeEHhaJzsgka1zF-4EB3F67L5fCmQeDQ3VPeWbpZ9JuiSjJCZ62h4tysW-i2dY-E0Dz-0ILOW8yy0wC1DKNKOZU-1zlkMBrMD-nVOk_43ke8QALE3p0zC_txvingcDa1-E3P223PwgjPnHHiQqnorYpCSYw9uh3mtMbnv__5FZVK" />
+<link rel="stylesheet" media="print" href="/sites/ojp/files/css/css_qUcBFJVxnEyiT8K6Qf7OYoPhclE7gZk2Zw8GkHY20AM.css?delta=2&amp;language=en&amp;theme=ojp&amp;include=eJxtUFGuwyAMuxB9HAmFELVpU1KRVFt3-se6VdqkfUTYBhk7uFBh15a4FqqeRXGJHziggNkRVzKDkSygNoql7RvIH8xw_xIcstBEUKi99KptBeEHhaJzsgka1zF-4EB3F67L5fCmQeDQ3VPeWbpZ9JuiSjJCZ62h4tysW-i2dY-E0Dz-0ILOW8yy0wC1DKNKOZU-1zlkMBrMD-nVOk_43ke8QALE3p0zC_txvingcDa1-E3P223PwgjPnHHiQqnorYpCSYw9uh3mtMbnv__5FZVK" />
+<link rel="stylesheet" media="all" href="/sites/ojp/files/css/css_-ejhhJ_Rlhja64eK52QvSI-JCMxqE2VhwHBaWaJT3m0.css?delta=3&amp;language=en&amp;theme=ojp&amp;include=eJxtUFGuwyAMuxB9HAmFELVpU1KRVFt3-se6VdqkfUTYBhk7uFBh15a4FqqeRXGJHziggNkRVzKDkSygNoql7RvIH8xw_xIcstBEUKi99KptBeEHhaJzsgka1zF-4EB3F67L5fCmQeDQ3VPeWbpZ9JuiSjJCZ62h4tysW-i2dY-E0Dz-0ILOW8yy0wC1DKNKOZU-1zlkMBrMD-nVOk_43ke8QALE3p0zC_txvingcDa1-E3P223PwgjPnHHiQqnorYpCSYw9uh3mtMbnv__5FZVK" />
+
+    
+  </head>
+  <body class="path-node page-node-type-publication">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KXJ326"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      <section class="usa-banner" aria-label="Official government website">
+
+    <div class="usa-accordion">
+  <header class="usa-banner__header">
+    <div class="usa-banner__inner">
+      <div class="grid-col-auto">
+        <img class="usa-banner__header-flag" src="/themes/custom/ojp/assets/images/us_flag_small.png" alt="U.S. flag">
+      </div>
+      <div class="grid-col-fill tablet:grid-col-auto">
+        <p class="usa-banner__header-text">An official website of the United States government, Department of Justice.</p>
+        <p class="usa-banner__header-action" aria-hidden="true">Here's how you know</p>
+      </div>
+      <button class="usa-accordion__button usa-banner__button"
+              aria-expanded="false" aria-controls="gov-banner">
+        <span class="usa-banner__button-text">Here's how you know</span>
+      </button>
+    </div>
+  </header>
+  <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden>
+    <div class="grid-row grid-gap-lg">
+      <div class="usa-banner__guidance tablet:grid-col-6">
+        <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/ojp/assets/images/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+        <div class="usa-media-block__body">
+          <p>
+            <strong>Official websites use .gov</strong>
+            <br>
+            A <strong>.gov</strong> website belongs to an official government organization in the United States.
+          </p>
+        </div>
+      </div>
+      <div class="usa-banner__guidance tablet:grid-col-6">
+        <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/ojp/assets/images/icon-https.svg" role="img" alt="" aria-hidden="true">
+        <div class="usa-media-block__body">
+          <p>
+            <strong>Secure .gov websites use HTTPS</strong>
+            <br>
+            A <strong>lock</strong> (
+            <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title-default banner-lock-description-default" focusable="false"><title id="banner-lock-title-default">Lock</title><desc id="banner-lock-description-default">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/></svg></span>
+            ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+  </section>
+
+  <header class="usa-header usa-header--extended" id="header">
+
+    
+      <div class="usa-navbar">
+                <button class="usa-menu-btn usa-button">Menu</button>
+                  <div class="region region-header">
+    <div class="usa-logo" id="logo">
+      <div class="ojp-seal">
+      <a href="https://www.ojp.gov" accesskey="1" title="Office of Justice Programs" aria-label="Office of Justice Programs">
+                <img src="/themes/custom/ojp/assets/images/ojp/OJP-seal.svg" alt="Office of Justice Programs seal" height="98" width="98" />
+              </a>
+    </div>
+        <div class="ojp-office-logo">
+      <a href="/" accesskey="2" title="Home" aria-label="Home">
+        <img src="/themes/custom/ojp/assets/images/ojp/ojp-site-logo-no-seal_white.svg?v=1" alt="Home" />
+      </a>
+    </div>
+  </div>
+
+  </div>
+
+      </div>
+
+      <div class="usa-overlay"></div>
+        <nav class="usa-nav" aria-label="site navigation">
+          <div class="usa-nav__inner">
+
+            <button class="usa-nav__close">
+              <img src="/themes/custom/ojp/assets/images/close-white.svg" alt="close" />
+            </button>
+
+            
+            
+                                              <div class="region region-primary-menu">
+    
+
+
+  
+  
+          <ul class="usa-nav__primary usa-accordion" aria-label="primary navigation">
+    
+          <li class="usa-nav__primary-item" >
+
+                  <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-1">
+            <span>Program Offices</span>
+          </button>
+        
+                    
+  
+          <ul id="extended-nav-section-1" class="usa-nav__submenu" hidden>
+
+            <li class="usa-nav__submenu-item">
+        <a href="https://www.ojp.gov/about#program-offices">
+          <span>Program Offices</span>
+        </a>
+      </li>
+      
+    
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="https://bja.ojp.gov/" class="link">
+            <span class="">Bureau of Justice Assistance</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="https://bjs.ojp.gov/" class="link">
+            <span class="">Bureau of Justice Statistics</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="https://nij.ojp.gov/" class="link">
+            <span class="">National Institute of Justice</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="https://ovc.ojp.gov/" class="link">
+            <span class="">Office for Victims of Crime</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="https://ojjdp.ojp.gov/" class="link">
+            <span class="">Office of Juvenile Justice and Delinquency Prevention</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="https://smart.ojp.gov/" class="link">
+            <span class="">Office of Sex Offender Sentencing, Monitoring, Apprehending, Registering, and Tracking</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item" >
+
+                  <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-2">
+            <span>News Center</span>
+          </button>
+        
+                    
+  
+          <ul id="extended-nav-section-2" class="usa-nav__submenu" hidden>
+
+            <li class="usa-nav__submenu-item">
+        <a href="/news/news">
+          <span>News Center</span>
+        </a>
+      </li>
+      
+    
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="https://justicegrants.usdoj.gov/news" class="link">
+            <span class="">JustGrants News &amp; Updates</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/news/justice-programs-news-funding" class="link">
+            <span class="">Justice Programs News &amp; Funding</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/news/for-media" class="link">
+            <span class="">Media Inquiries</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/library/multimedia/list" class="link">
+            <span class="">Multimedia</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/news/news-releases" class="link">
+            <span class="">News Releases</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/news/publications" class="link">
+            <span class="">Publications</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/news/social-media" class="link">
+            <span class="">Social Media</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/news/speeches" class="link">
+            <span class="">Speeches</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item" >
+
+                  <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-3">
+            <span>Grants/Funding</span>
+          </button>
+        
+                    
+  
+          <ul id="extended-nav-section-3" class="usa-nav__submenu" hidden>
+
+            <li class="usa-nav__submenu-item">
+        <a href="/funding">
+          <span>Grants/Funding</span>
+        </a>
+      </li>
+      
+    
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/funding/explore/current-funding-opportunities" class="link">
+            <span class="">Find Opportunities</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/funding/apply/ojp-grant-application-resource-guide" class="link">
+            <span class="">Apply for Funding</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/funding/manage-awards" class="link">
+            <span class="">Manage Awards</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/funding/ojpgrantawards" class="link">
+            <span class="">View Awards</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item" >
+
+        
+                  <a href="/congress" class="link usa-nav__link">
+            <span class="">For Congress</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__primary-item" >
+
+                  <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-5">
+            <span>NCJRS Library</span>
+          </button>
+        
+                    
+  
+          <ul id="extended-nav-section-5" class="usa-nav__submenu" hidden>
+
+            <li class="usa-nav__submenu-item">
+        <a href="/ncjrs/virtual-library">
+          <span>NCJRS Library</span>
+        </a>
+      </li>
+      
+    
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/ncjrs-virtual-library/search" class="link">
+            <span class="">Library Search</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/ncjrs-virtual-library/tutorial" class="link">
+            <span class="">Tutorial/FAQs</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/library/publications/list" class="link">
+            <span class="">OJP Publications</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item" >
+
+                  <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-6">
+            <span>Topics</span>
+          </button>
+        
+                    
+  
+          <ul id="extended-nav-section-6" class="usa-nav__submenu" hidden>
+
+            <li class="usa-nav__submenu-item">
+        <a href="/topics">
+          <span>Topics</span>
+        </a>
+      </li>
+      
+    
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/program/civil-rights-office/home" class="link">
+            <span class="">Civil Rights</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/corrections" class="link">
+            <span class="">Corrections</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/courts" class="link">
+            <span class="">Courts</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/crime-prevention" class="link">
+            <span class="">Crime Prevention</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/drugs-substance-use" class="link">
+            <span class="">Drugs &amp; Substance Use</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/forensic-sciences" class="link">
+            <span class="">Forensic Sciences</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/justice-system" class="link">
+            <span class="">Justice System</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/juvenile-justice" class="link">
+            <span class="">Juvenile Justice</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/law-enforcement" class="link">
+            <span class="">Law Enforcement</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/mental-health" class="link">
+            <span class="">Mental Health</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/research-statistics-evaluation" class="link">
+            <span class="">Research, Statistics &amp; Evaluation</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/sex-offender-management" class="link">
+            <span class="">Sex Offender Management</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/sexual-assault-awareness" class="link">
+            <span class="">Sexual Assault Awareness</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/tribal-justice" class="link">
+            <span class="">Tribal Justice</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/topics/victims-crime" class="link">
+            <span class="">Victims of Crime</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+          <li class="usa-nav__primary-item" >
+
+                  <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-7">
+            <span>Training</span>
+          </button>
+        
+                    
+  
+          <ul id="extended-nav-section-7" class="usa-nav__submenu" hidden>
+
+            <li class="usa-nav__submenu-item">
+        <a href="/training-and-technical-assistance">
+          <span>Training</span>
+        </a>
+      </li>
+      
+    
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/events/upcoming" class="link">
+            <span class="">Justice Events</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/training-and-technical-assistance/fmsc" class="link">
+            <span class="">Financial Management and Support Center (FMSC)</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/training-and-technical-assistance/tfmc" class="link">
+            <span class="">Tribal Financial Management Center (TFMC)</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/training-and-technical-assistance/fmrc" class="link">
+            <span class="">Financial Management Resource Center (FMRC)</span>
+          </a>
+        
+      </li>
+          <li class="usa-nav__submenu-item">
+
+        
+                  <a href="/training-and-technical-assistance/gfmts/financial-management-seminars" class="link">
+            <span class="">Financial Management Training (GFMTS)</span>
+          </a>
+        
+      </li>
+        </ul>
+  
+        
+      </li>
+        </ul>
+  
+
+
+
+  </div>
+
+                            
+                              <div class="default">
+                    <div class="region region-secondary-menu">
+    <div class="usa-nav__secondary">
+      <ul class="usa-nav__secondary-links">
+
+          <li class="usa-nav__secondary-item">
+        <a href="https://www.ojp.gov/about">
+          About Us
+        </a>
+      </li>
+          <li class="usa-nav__secondary-item">
+        <a href="/contact">
+          Contact Us
+        </a>
+      </li>
+          <li class="usa-nav__secondary-item">
+        <a href="/about/jobs">
+          Careers
+        </a>
+      </li>
+          <li class="usa-nav__secondary-item">
+        <a href="/subscribe">
+          Subscribe
+        </a>
+      </li>
+                  <li class="usa-nav__secondary-item">
+        <div class="doj-sharing">
+  <button id="doj-sharing-toggle" class="doj-sharing__toggle" tabindex="0" title="Choose a social sharing platform" aria-haspopup="true" aria-controls="doj-sharing-links" aria-expanded="false">Share</button>
+<ul id="doj-sharing-links" class="doj-sharing__list" tabindex="0" aria-label="Choose a social sharing platform"><li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.ojp.gov/library/publications/understanding-police-decisions-arrest-impact-situational-officer-and" title="Share on Facebook" data-event-label="Share on Facebook" target="_blank" rel="noopener noreferrer">Facebook</a></li><li><a href="https://twitter.com/intent/tweet?url=https%3A//www.ojp.gov/library/publications/understanding-police-decisions-arrest-impact-situational-officer-and&amp;text=Understanding%20police%20decisions%20to%20arrest%3A%20The%20impact%20of%20situational%2C%20officer%2C%20and%20neighborhood%20characteristics%20on%20police%20discretion" title="Share on X" data-event-label="Share on X" target="_blank" rel="noopener noreferrer">X</a></li><li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A//www.ojp.gov/library/publications/understanding-police-decisions-arrest-impact-situational-officer-and&amp;title=Understanding%20police%20decisions%20to%20arrest%3A%20The%20impact%20of%20situational%2C%20officer%2C%20and%20neighborhood%20characteristics%20on%20police%20discretion" title="Share on LinkedIn" data-event-label="Share on LinkedIn" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="https://reddit.com/submit?url=https%3A//www.ojp.gov/library/publications/understanding-police-decisions-arrest-impact-situational-officer-and&amp;title=Understanding%20police%20decisions%20to%20arrest%3A%20The%20impact%20of%20situational%2C%20officer%2C%20and%20neighborhood%20characteristics%20on%20police%20discretion" title="Share on Reddit" data-event-label="Share on Reddit" target="_blank" rel="noopener noreferrer">Reddit</a></li><li><a href="https://pinterest.com/pin/create/button?url=https%3A//www.ojp.gov/library/publications/understanding-police-decisions-arrest-impact-situational-officer-and&amp;media=https%3A//www.ojp.gov/sites/ojp/files/images/2020-02/ojp_og.png&amp;description=Understanding%20police%20decisions%20to%20arrest%3A%20The%20impact%20of%20situational%2C%20officer%2C%20and%20neighborhood%20characteristics%20on%20police%20discretion" title="Share on Pinterest" data-event-label="Share on Pinterest" target="_blank" rel="noopener noreferrer">Pinterest</a></li><li><a href="/cdn-cgi/l/email-protection#f0cf929f9489cd9884848083d5c3b1dfdf878787de9f9a80de979f86df9c999282918289df8085929c99939184999f9e83df859e9495828384919e94999e97dd809f9c999395dd9495939983999f9e83dd918282958384dd999d80919384dd839984859184999f9e919cdd9f969699939582dd919e94d6919d80cb8385929a959384cda59e9495828384919e94999e97d5c2c0809f9c999395d5c2c09495939983999f9e83d5c2c0849fd5c2c0918282958384d5c3b1d5c2c0a49895d5c2c0999d80919384d5c2c09f96d5c2c0839984859184999f9e919cd5c2b3d5c2c09f969699939582d5c2b3d5c2c0919e94d5c2c09e95999798929f82989f9f94d5c2c0939891829193849582998384999383d5c2c09f9ed5c2c0809f9c999395d5c2c094998393829584999f9e" title="Share on Email" data-event-label="Share on Email">Email</a></li></ul>
+</div>
+      </li>
+        </ul>
+  
+</div>
+
+<div id="block-ojp-searchblock" data-block-plugin-id="ojp_search_block" class="block block-ojp-search block-ojp-search-block">
+  
+    
+      
+<div class="usa-search usa-search--small">
+  <div role="search">
+    
+<div data-gname="ojp-search" data-queryParameterName="keys" class="gcse-searchbox-only" data-resultsUrl="/search/results">
+  
+</div>
+
+  </div>
+</div>
+  </div>
+
+  </div>
+
+                </div>
+              
+            
+          </div>
+        </nav>
+
+      
+  </header>
+
+  <div class="grid-container">
+    <div class="grid-col-fill">
+        <div class="region region-breadcrumb">
+    <div id="block-ojp-breadcrumbs" data-block-plugin-id="system_breadcrumb_block" class="block block-system block-system-breadcrumb-block">
+  
+    
+       <nav id="system-breadcrumb" aria-label="breadcrumb">
+        <ol class="add-list-reset uswds-breadcrumbs uswds-horizontal-list">
+                            <li>
+                                            <a href="/index%2Ephp/">Home</a>
+                                    </li>
+                            <li>
+                                            <a href="/index%2Ephp/library">Library &amp; Multimedia</a>
+                                    </li>
+                    </ol>
+    </nav>
+
+  </div>
+
+  </div>
+
+    </div>
+  </div>
+
+
+<div class="usa-section uswds-middle-section " aria-label="primary content">
+  <div class="grid-container ">
+    <div class="grid-col-fill">
+        <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+
+      
+    </div>
+  </div>
+
+  
+  
+  <main class="uswds-main-content-wrapper grid-container ">
+    <a id="main-content" tabindex="-1"></a>
+    <div class = "grid-row grid-gap-2">
+
+      <div class="region-content tablet:grid-col-12">
+          <div class="region region-content">
+    <div id="block-ojp-page-title" data-block-plugin-id="page_title_block" class="block block-core block-page-title-block">
+  
+    
+      
+  <h1 class="uswds-page-title page-title">Understanding police decisions to arrest: The impact of situational, officer, and neighborhood characteristics on police discretion </h1>
+
+
+  </div>
+<div id="block-ojp-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
+  
+    
+      
+
+<article>
+
+  
+    
+
+  
+  <div>
+
+    
+      
+  <div class="layout layout--twocol-section layout--twocol-section--75-25 layout--node-publication">
+                    <div  class="layout__region layout__region--first">
+        <div data-block-plugin-id="field_block:node:publication:field_content_advisory" class="block--field-content-advisory block block-layout-builder block-field-blocknodepublicationfield-content-advisory">
+  
+    
+      
+                  
+
+  </div>
+<div data-block-plugin-id="extra_field_block:node:publication:field_content_archival_notice" class="block--field-content-archival-notice block block-layout-builder block-extra-field-blocknodepublicationfield-content-archival-notice">
+  
+    
+      
+  </div>
+<div data-block-plugin-id="field_block:node:publication:field_ncj_number" class="block--field-ncj-number block block-layout-builder block-field-blocknodepublicationfield-ncj-number">
+  
+    
+      
+  <div class="field field--name-field-ncj-number field--type-integer field--label-inline clearfix">
+    <div class="field__label">NCJ Number</div>
+              <div class="field__item">302667</div>
+          </div>
+
+  </div>
+<div data-block-plugin-id="extra_field_block:node:publication:journal_information" class="block--journal-information block block-layout-builder block-extra-field-blocknodepublicationjournal-information">
+  
+    
+      
+<div class="field field--extra-field field--name-journal-information field--label-inline clearfix">
+  <div class="field__label">Journal</div>
+
+<div class="field__item">
+  <span class="journal-information"><em>Journal of Criminal Justice</em></span> <span class="journal-information">Volume: 75</span> <span class="journal-information">Dated: July-August 2021</span>
+</div>
+
+</div>
+
+  </div>
+<div data-block-plugin-id="extra_field_block:node:publication:date_published" class="block--date-published block block-layout-builder block-extra-field-blocknodepublicationdate-published">
+  
+    
+      
+<div class="field field--extra-field field--name-date-published field--label-inline clearfix">
+  <div class="field__label">Date Published</div>
+
+<div class="field__item">
+  2021
+</div>
+
+</div>
+
+  </div>
+<div data-block-plugin-id="field_block:node:publication:field_ref_authors" class="block--field-ref-authors block block-layout-builder block-field-blocknodepublicationfield-ref-authors">
+  
+    
+          <div class="field field--name-field-ref-authors field--type-entity-reference field--label-inline inline-separated-field-items">
+    <div class="field__label">Author(s)</div>
+          <div class="list_items with-inline-label">
+                      <span class="field__item"><a href="https://www.ojp.gov/library/publications/list?author=%22Jessica%20Huff%20%28564376%29%22">Jessica Huff</a></span>
+                    </div>
+      </div>
+
+  </div>
+<div data-block-plugin-id="field_block:node:publication:field_annotation" class="block--field-annotation block block-layout-builder block-field-blocknodepublicationfield-annotation">
+  
+    
+      
+  <div class="use-float-friendly-lists clearfix text-formatted field field--name-field-annotation field--type-text-long field--label-above">
+    <div class="field__label">Annotation</div>
+              <div class="field__item"><p>This article details research that sought to promote the use of multilevel modeling to refine theories of police discretion.</p></div>
+          </div>
+
+  </div>
+<div data-block-plugin-id="field_block:node:publication:field_abstract" class="block--field-abstract block block-layout-builder block-field-blocknodepublicationfield-abstract">
+  
+    
+      
+  <div class="use-float-friendly-lists clearfix text-formatted field field--name-field-abstract field--type-text-long field--label-above">
+    <div class="field__label">Abstract</div>
+              <div class="field__item"><p id="st0010">This research sought to promote the use of multilevel modeling to refine theories of police discretion. Specifically, examine the simultaneous influence of situational factors, responding officers, and neighborhood context on arrests guided by a social-ecological framework. Cross-classified models were used to assess the outcomes of 835,381 incidents responded to by 835 Phoenix Police officers in 388 census tracts.&nbsp;Situational, officer, and neighborhood factors all significantly influence arrests. Incident-level factors account for most of the variation, followed by officers, and neighborhoods. Incidents that resulted in arrest were more likely to involve victims, a greater number of responding officers, female officers, and college-educated officers. Arrests were more likely to occur in Hispanic and Black neighborhoods, even when controlling for situational and officer-level characteristics. Arrests were less likely to occur when officers were assigned to high crime precincts.&nbsp;Multilevel models enable a comprehensive examination of police use of arrest using administrative data that are already being collected by police agencies. Through accounting for both officer and neighborhood-level influences, this strategy improves on prior theory testing in policing research. The results support elements of some theories, but conflict with others. These findings have important implications for police policies surrounding arrest and resource deployment.</p></div>
+          </div>
+
+  </div>
+      
+  
+          <div data-block-plugin-id="entity_view:node" class="block-entity-viewnode-additional-details block block-ctools block-entity-viewnode usa-accordion" aria-label="accordion-group">
+      
+      
+    
+              
+      
+<h2 class="usa-accordion__heading">
+  <button class="usa-accordion__button"
+    aria-expanded="true"
+    aria-controls="additional-details-0"
+    type="button">
+  Additional Details
+  </button>
+</h2>
+<div id="additional-details-0" class="usa-accordion__content ui-widget-content" hidden>
+  
+
+  
+  
+        
+  <div class="field field--name-field-grant-numbers field--type-string field--label-inline clearfix grid-row">
+  <div class="field__label tablet:grid-col-3">Grant Number(s)</div>
+        <div class="field__items tablet:grid-col-9">
+                              <div class="field__item">2015-WY-BX-0004  </div>
+                        </div>
+      </div>
+
+
+  
+  
+        
+  <div class="field field--name-field-agencies field--type-entity-reference field--label-inline clearfix grid-row">
+  <div class="field__label tablet:grid-col-3">Agencies</div>
+        <div class="field__items tablet:grid-col-9">
+                              <div class="field__item">BJA-Sponsored</div>
+                        </div>
+      </div>
+
+
+  
+  
+        
+  <div class="field field--name-field-publication-type-term field--type-entity-reference field--label-inline clearfix grid-row">
+  <div class="field__label tablet:grid-col-3">Publication Type</div>
+        <div class="field__items tablet:grid-col-9">
+                              <div class="field__item">Research (Applied/Empirical)</div>
+                        </div>
+      </div>
+
+
+</div>
+
+          </div>
+    
+  
+  
+<div data-block-plugin-id="modification_notes" class="block block-ojp-core block-modification-notes modification-notes">
+  <div class="modification-notes__divider"></div>
+  
+  
+    <div class="modification-notes__note_date modification-notes__note_created">Date Published: January 1, 2021</div>
+</div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+
+
+
+
+  
+<div     data-block-plugin-id="publication_downloads"
+      class="block block-ojp-publication block-publication-downloads cta"
+  >
+    <div>
+    
+          <h3  class="cta__headline">Downloads</h3>
+        
+                      <div class="cta__callout">
+        <ul class="cta__items-list">
+                                <li class="cta__item">
+          <a href="https://doi.org/10.1016/j.jcrimjus.2021.101829" title="HTML">
+            HTML
+          </a>
+        </li>
+          </ul>
+  </div>
+            </div>
+</div>
+
+
+
+
+  
+<div     data-block-plugin-id="ojp_taxonomy_content_popular_topics"
+      class="block block-ojp-taxonomy block-ojp-taxonomy-content-popular-topics cta"
+  >
+    <div>
+    
+          <h3  class="cta__headline">Related Topics</h3>
+        
+                <a class="ojp-tag" href="/taxonomy/term/arrests" aria-label="Tags: Arrests">Arrests</a>
+        <a class="ojp-tag" href="/taxonomy/term/arrest-and-apprehension" aria-label="Tags: Arrest and apprehension">Arrest and apprehension</a>
+        <a class="ojp-tag" href="/index%2Ephp/taxonomy/term/police-arrest-training" aria-label="Tags: Police arrest training">Police arrest training</a>
+        <a class="ojp-tag" href="/taxonomy/term/law-enforcement-operations" aria-label="Tags: Law enforcement operations">Law enforcement operations</a>
+        <a class="ojp-tag" href="/taxonomy/term/police-attitudes" aria-label="Tags: Police attitudes">Police attitudes</a>
+  
+          </div>
+</div>
+
+
+
+  
+<div     data-block-plugin-id="similar_content"
+      class="block block-ojp-taxonomy block-similar-content cta-horizontal cta"
+  >
+    <div>
+    
+          <h3  class="cta__headline">Similar Publications</h3>
+        
+                      <div class="cta__callout">
+        <ul class="cta__items-list">
+                                <li class="cta__item">
+          <a href="/library/publications/improving-officer-decision-making-can-personality-predict-outcomes-use-force" title="Improving Officer Decision-Making: Can Personality Predict Outcomes in Use of Force Decisions?">
+            Improving Officer Decision-Making: Can Personality Predict Outcomes in Use of Force Decisions?
+          </a>
+        </li>
+              <li class="cta__item">
+          <a href="/library/publications/arrests-communication-criminals-users-guide-machine-readable-files-and" title="Arrests as Communication to Criminals: A User's Guide to the Machine-Readable Files and Documentation and Codebook">
+            Arrests as Communication to Criminals: A User's Guide to the Machine-Readable Files and Documentation and Codebook
+          </a>
+        </li>
+              <li class="cta__item">
+          <a href="/library/publications/applying-racial-lens-cycle-violence" title="Applying a Racial Lens to the "Cycle of Violence"">
+            Applying a Racial Lens to the "Cycle of Violence"
+          </a>
+        </li>
+          </ul>
+  </div>
+            </div>
+</div>
+
+
+      </div>
+      
+      </div>
+
+
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+      </div>
+
+      
+
+      
+    </div>
+  </main>
+</div>
+
+<footer class="usa-footer usa-footer--big">
+  <div class="grid-container usa-footer-return-to-top">
+    <a id="return-to-top" class="hide" href="#">Top</a>
+  </div>
+
+      <div class="usa-footer__primary-section">
+      <div class="grid-container footer__wrapper">
+        <div class="usa-footer-primary__top padding-bottom-5">
+                      <h3 class="usa-footer__agency-heading tablet:display-inline-block">Office of Justice Programs</h3>
+                  </div>
+
+        
+        
+                        <nav class="usa-footer-nav mobile-lg:grid-col-12" aria-label="footer navigation">
+
+                        <div class="region region-footer-menu">
+    
+
+    
+                <div class="grid-row grid-gap">
+        
+                  
+    
+                  <div class="tablet:grid-col-6 desktop:grid-col-4">
+        <section aria-labelledby="section-more-topics" class="usa-footer__primary-content usa-footer__primary-content--collapsible display-block">
+          <h4 id="section-more-topics" class="usa-footer__primary-link">MORE TOPICS</h4>
+                    <ul class="add-list-reset usa-list--unstyled">
+                
+        
+                  
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="https://www.ojp.gov/program/civil-rights-office/filing-civil-rights-complaint">File a Civil Rights Complaint</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="https://oig.justice.gov/hotline/submit_complaint">File a DOJ OIG Complaint</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/about/offices/eeo/complaint-process">File an EEO Complaint</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/about/jobs">Find a Career</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/program/freedom-information-act/foia-overview">Submit an OJP FOIA Request</a>
+      </li>
+      
+    
+        
+  
+          </ul>
+                  </section>
+      </div>
+      
+    
+                  <div class="tablet:grid-col-6 desktop:grid-col-4">
+        <section aria-labelledby="section-news-center" class="usa-footer__primary-content usa-footer__primary-content--collapsible display-block">
+          <h4 id="section-news-center" class="usa-footer__primary-link">NEWS CENTER</h4>
+                    <ul class="add-list-reset usa-list--unstyled">
+                
+        
+                  
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/news/for-media">Media Inquiries</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="https://www.ojp.gov/library/multimedia/list">Multimedia</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/news/news-releases">News Releases</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/news/speeches">Speeches</a>
+      </li>
+      
+    
+        
+  
+          </ul>
+                  </section>
+      </div>
+      
+    
+                  <div class="tablet:grid-col-6 desktop:grid-col-4">
+        <section aria-labelledby="section-other-resources" class="usa-footer__primary-content usa-footer__primary-content--collapsible display-block">
+          <h4 id="section-other-resources" class="usa-footer__primary-link">OTHER RESOURCES</h4>
+                    <ul class="add-list-reset usa-list--unstyled">
+                
+        
+                  
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="https://www.ojp.gov/office-justice-programs-archives">Archive</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="https://www.justice.gov/employees">For Employees</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/funding/ojpgrantawards">View OJP Grant Awards</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/ojp-response-center">OJP Response Center</a>
+      </li>
+      
+    
+                  <li class="usa-footer__secondary-link">
+        <a href="/funding/state-administering-agencies/overview">State Administering Agencies</a>
+      </li>
+      
+    
+        
+  
+          </ul>
+                  </section>
+      </div>
+      
+    
+                </div>
+        
+  
+
+
+
+  </div>
+
+          
+        </nav>
+
+        <div class="footer__social">
+                      <a class="usa-link-facebook margin-right-2" href="https://www.facebook.com/DOJOJP">
+              <span class="usa-sr-only">Facebook</span><span class="f">&nbsp;</span>
+            </a>
+          
+                      <a class="usa-link-twitter margin-right-2" href="https://twitter.com/ojpgov">
+              <span class="usa-sr-only">X</span><span class="t">&nbsp;</span>
+            </a>
+          
+                      <a class="usa-link-youtube" href="https://www.youtube.com/user/OJPOCOM">
+              <span class="usa-sr-only">YouTube</span>
+              <span class="yt"> </span>
+            </a>
+          
+                  </div>
+
+      </div>
+    </div>
+  
+
+      <div class="usa-footer__secondary-section">
+
+              <div class="grid-container">
+          <div class="grid-row usa-footer__logos-container ">
+                                              <div class="usa-footer-logo usa-width-one-half  desktop:grid-col-6 desktop:border-right border-base-dark">
+
+                            <a href="https://www.ojp.gov">
+                                                <img class="" src="/themes/custom/ojp/assets/images/ojp/ojp-full.svg" alt="U.S. Department of Justice, Office of Justice Programs Logo">
+                                            </a>
+                          </div>
+          
+                                            <div class="desktop:grid-col-6">
+              <div class="usa-footer__partner-logos 1">
+                <div class="grid-row">
+                  <div class="grid-col-4 flex-align-center usa-footer__partner-logo margin-bottom-3">
+                    <a href="https://bja.ojp.gov" aria-label="Bureau of Justice Administration">
+                      <img src="/themes/custom/ojp/assets/images/ojp/bja.svg" alt="Bureau of Justice Administration Logo" />
+                    </a>
+                  </div>
+                  <div class="grid-col-4 flex-align-center usa-footer__partner-logo margin-bottom-3">
+                    <a href="https://bjs.ojp.gov" aria-label="Bureau of Justice Statistics">
+                      <img src="/themes/custom/ojp/assets/images/ojp/bjs.svg" alt="Bureau of Justice Statistics Logo" />
+                    </a>
+                  </div>
+                  <div class="grid-col-4 flex-align-center usa-footer__partner-logo margin-bottom-3">
+                    <a href=" https://nij.ojp.gov" aria-label="National Institute of Justice">
+                      <img src="/themes/custom/ojp/assets/images/ojp/nij.svg" alt="National Institute of Justice Logo" />
+                    </a>
+                  </div>
+                  <div class="grid-col-4 flex-align-center usa-footer__partner-logo">
+                    <a href="https://ojjdp.ojp.gov" aria-label="Office of Juvenile Justice and Delinquency Prevention">
+                      <img src="/themes/custom/ojp/assets/images/ojp/ojjdp.svg" alt="Office of Juvenile Justice and Delinquency Prevention Logo" />
+                    </a>
+                  </div>
+                  <div class="grid-col-4 flex-align-center usa-footer__partner-logo">
+                    <a href="https://ovc.ojp.gov" aria-label="Office for Victims of Crime">
+                      <img src="/themes/custom/ojp/assets/images/ojp/ovc.svg" alt="Office for Victims of Crime Logo" />
+                    </a>
+                  </div>
+                  <div class="grid-col-4 flex-align-center usa-footer__partner-logo">
+                    <a href="https://smart.ojp.gov" aria-label="Office of Sex Offender Sentencing, Monitoring, Apprehending, Registering, and Tracking">
+                      <img src="/themes/custom/ojp/assets/images/ojp/smart.svg" alt="Office of Sex Offender Sentencing, Monitoring, Apprehending, Registering, and Tracking Logo" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                    </div>
+
+                      <div class="usa-footer-contact-links usa-width-one-half">
+
+              <address>
+
+                                  <p class="usa-footer-contact-heading">999 N. Capitol St., NE, Washington, DC  20531</p>
+                
+                
+                
+              </address>
+            </div>
+          
+        </div>
+      
+              <div class="wide-nav">
+          <nav aria-labelledby="block-bja-secondaryfooterlinkmenu-menu" id="block-bja-secondaryfooterlinkmenu" class="navigation menu--secondary-footer-link-menu">
+            <h2 class="visually-hidden" id="block-bja-secondaryfooterlinkmenu-menu">Secondary Footer link menu</h2>
+            <ul class="menu">
+              <li class="menu-item">
+                <a href="https://www.justice.gov/accessibility/accessibility-statement">Accessibility</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.osc.gov">File Whistleblower Complaint</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.justice.gov/open/plain-writing-act">Plain Language</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.justice.gov/doj/privacy-policy">Privacy Policy</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.justice.gov/legalpolicies">Legal Policies and Disclaimer</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.justice.gov/jmd/eeo-program-status-report">No FEAR Act</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.ojp.gov/program/freedom-information-act/foia-overview">Freedom of Information Act</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.usa.gov/">USA.gov</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://www.justice.gov/">Justice.gov</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+                </div>
+  
+</footer>
+
+  </div>
+
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1371626","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJxtUVFyxCAIvZAbv3oeB4EmZolkRGebnr4mk2x3O_0QeQ8EeUDGSctsHk5nwGZVFxebj23AifHOxXVDqWr5CLxEJmIKqLlyrr7ZgywAohZKmofPcgTo-SakTD0xiuLdv_gOBcw2H8H48hc2g5HN9WrsqbQVZKgQhScG2j-y81nLApK-2ZHOwSYoKY_-xXf8VSXl-1XhhG5UHYVDhdGP3fzFA8zw9U4uTmDTVkNsSfoHfH0oqgRjrH1al3Eu1tvquva-AaFU_w_ndF59lMY3yHQbVehg-rnu2y7DzeomffqOwyXfuZlfhd-jT5V7vIuXYpJUtyOHoMKhnfl3eETXFiUh7FP4KREH0kcWBQoJzybGUHDypyDY12SbVV6Olf0AW4TfGw","theme":"ojp","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"GTM-5KXJ326":{"data_layer":"dataLayer","include_environment":false}},"tagIds":["GTM-5KXJ326"]},"anchorjs":{"selector":".block--body.block-layout-builder h2:not(.usa-accordion__heading), .block--body.block-layout-builder h3, .block--body.block-layout-builder h4, .block--body.block-layout-builder h5, .block-inline-blocktext.block-layout-builder h3, .block-inline-blocktext.block-layout-builder h4, .block-inline-blocktext.block-layout-builder h5, .block-ojp-taxonomy h3, .block-ojp-core h3, .block--field-faq-sections h3, .block-crimesolutions-content-block h3, .block-ojp-core h3, .view-program-practices-listing-alpha h2, .page-node-type-microsite-subpage .block-page-title-block h1, .block-views-blockvideos-multimedia-block h2, .block-inline-blocktext.block-layout-builder h2:not(.usa-accordion__heading), .block-crimesolutions-content-block h3"},"bu":{"_core":{"default_config_hash":"hHRgRa8uaUJPBEvzD2uaerY4Z9xdbV4glRDRNp8euEE"},"notify_ie":12,"notify_firefox":56,"notify_opera":49,"notify_safari":10,"notify_chrome":62,"insecure":false,"unsupported":false,"mobile":false,"visibility_type":"hide","visibility_pages":"admin\/*","source":"\/\/browser-update.org\/update.min.js","show_source":"","position":"top","text_override":"{brow_name} is no longer supported. Some features of this site may not display correctly.","reminder":null,"reminder_closed":null,"new_window":false,"url":"","no_close":false,"test_mode":false},"ojp_search":{"search_no_query_text":"Your search yielded no results."},"ajax":[],"user":{"uid":0,"permissionsHash":"1bc9e27be9ab841b78b33aa1d59c852fed13209e824e81a42a0fe1b4d7fa76d6"}}</script>
+<script src="/sites/ojp/files/js/js_ssPQVqEblBkwXRUrNrvjFZTv06vUVXO3dpNsr9ba1k4.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=ojp&amp;include=eJxdT-0OwyAIfCEjv_Y8hgJTWyuNH9kef65x2boQjjsuIQdmClrWCjiJpV6b7mbpsHRLQWiTYgZwbFpuTvZFmIUdaW6SG_T64OqQSAtHzfZeToMN6-pqwBKzhx9u5NlSzBtw6QcmO6Xxqj6Ja-jBD_jXFld8Xpe70fWA0e_pPhHnJ99Ep8vYRi1JKlzl6VbBQgHmdaryAm-4bLs"></script>
+<script src="/libraries/anchor-js/anchor.min.js?v=4.3.0" defer></script>
+<script src="/libraries/clipboard/dist/clipboard.min.js?v=2.0.6" defer></script>
+<script src="/modules/custom/anchorjs/js/anchorjs.custom.js?v=0.1.0" defer></script>
+<script src="/sites/ojp/files/js/js_7WQb9PPBWnHRWWhCIcMPWkVLtO0SMgqr3mEXS88JfqY.js?scope=footer&amp;delta=4&amp;language=en&amp;theme=ojp&amp;include=eJxdT-0OwyAIfCEjv_Y8hgJTWyuNH9kef65x2boQjjsuIQdmClrWCjiJpV6b7mbpsHRLQWiTYgZwbFpuTvZFmIUdaW6SG_T64OqQSAtHzfZeToMN6-pqwBKzhx9u5NlSzBtw6QcmO6Xxqj6Ja-jBD_jXFld8Xpe70fWA0e_pPhHnJ99Ep8vYRi1JKlzl6VbBQgHmdaryAm-4bLs"></script>
+<script src="/modules/custom/ckeditor5_embedded_content/js/aftermarket/uswds_accordion.js?tluhfu"></script>
+<script src="/sites/ojp/files/js/js_kSdbJTjr8jl7eyh3TW_7EZwX4vId4pXZ1UeNnBG2UdY.js?scope=footer&amp;delta=6&amp;language=en&amp;theme=ojp&amp;include=eJxdT-0OwyAIfCEjv_Y8hgJTWyuNH9kef65x2boQjjsuIQdmClrWCjiJpV6b7mbpsHRLQWiTYgZwbFpuTvZFmIUdaW6SG_T64OqQSAtHzfZeToMN6-pqwBKzhx9u5NlSzBtw6QcmO6Xxqj6Ja-jBD_jXFld8Xpe70fWA0e_pPhHnJ99Ep8vYRi1JKlzl6VbBQgHmdaryAm-4bLs"></script>
+<script src="/extlink/settings.js"></script>
+<script src="/sites/ojp/files/js/js_DKFt6IyvDDUiSVQyOzuXEaLZ6ULyn8px5prorGgIXJc.js?scope=footer&amp;delta=8&amp;language=en&amp;theme=ojp&amp;include=eJxdT-0OwyAIfCEjv_Y8hgJTWyuNH9kef65x2boQjjsuIQdmClrWCjiJpV6b7mbpsHRLQWiTYgZwbFpuTvZFmIUdaW6SG_T64OqQSAtHzfZeToMN6-pqwBKzhx9u5NlSzBtw6QcmO6Xxqj6Ja-jBD_jXFld8Xpe70fWA0e_pPhHnJ99Ep8vYRi1JKlzl6VbBQgHmdaryAm-4bLs"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tluhfu"></script>
+<script src="/sites/ojp/files/js/js_87J71AOJRSAJeWE_c8By9zKERc3wSlysUljyC-xb0w8.js?scope=footer&amp;delta=10&amp;language=en&amp;theme=ojp&amp;include=eJxdT-0OwyAIfCEjv_Y8hgJTWyuNH9kef65x2boQjjsuIQdmClrWCjiJpV6b7mbpsHRLQWiTYgZwbFpuTvZFmIUdaW6SG_T64OqQSAtHzfZeToMN6-pqwBKzhx9u5NlSzBtw6QcmO6Xxqj6Ja-jBD_jXFld8Xpe70fWA0e_pPhHnJ99Ep8vYRi1JKlzl6VbBQgHmdaryAm-4bLs"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?tluhfu"></script>
+<script src="/sites/ojp/files/js/js_emMDMAmTl0SQzhf5e0zDnkWoZdT9cdKaIIUSI0hBq00.js?scope=footer&amp;delta=12&amp;language=en&amp;theme=ojp&amp;include=eJxdT-0OwyAIfCEjv_Y8hgJTWyuNH9kef65x2boQjjsuIQdmClrWCjiJpV6b7mbpsHRLQWiTYgZwbFpuTvZFmIUdaW6SG_T64OqQSAtHzfZeToMN6-pqwBKzhx9u5NlSzBtw6QcmO6Xxqj6Ja-jBD_jXFld8Xpe70fWA0e_pPhHnJ99Ep8vYRi1JKlzl6VbBQgHmdaryAm-4bLs"></script>
+<script src="/libraries/datatables.net/js/jquery.dataTables.js?v=1.x" defer></script>
+<script src="/libraries/datatables.net-responsive/js/dataTables.responsive.min.js?v=1.x" defer></script>
+<script src="/modules/custom/ojp_datatables/js/ojp_datatables.js?v=1.x" defer></script>
+<script src="/sites/ojp/files/js/js_tiQxtcZiFWZedHd76KgJU5EVZbdrPeKyIIvsiY2DDT8.js?scope=footer&amp;delta=16&amp;language=en&amp;theme=ojp&amp;include=eJxdT-0OwyAIfCEjv_Y8hgJTWyuNH9kef65x2boQjjsuIQdmClrWCjiJpV6b7mbpsHRLQWiTYgZwbFpuTvZFmIUdaW6SG_T64OqQSAtHzfZeToMN6-pqwBKzhx9u5NlSzBtw6QcmO6Xxqj6Ja-jBD_jXFld8Xpe70fWA0e_pPhHnJ99Ep8vYRi1JKlzl6VbBQgHmdaryAm-4bLs"></script>
+<script src="https://cse.google.com/cse.js?cx=015849196504226064512:uyit-fm6gna"></script>
+
+  </body>
+</html>

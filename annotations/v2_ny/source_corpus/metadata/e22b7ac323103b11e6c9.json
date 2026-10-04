@@ -1,0 +1,28 @@
+{
+  "source_id": "e22b7ac323103b11e6c9",
+  "normalized_url": "https://healthcare.gov/people-with-disabilities",
+  "fetch_timestamp_utc": "2026-10-04T02:50:34.224559+00:00",
+  "registrable_domain": "healthcare.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.healthcare.gov/people-with-disabilities/",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 420999,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e22b7ac323103b11e6c9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e22b7ac323103b11e6c9.txt",
+  "text_chars": 929,
+  "text_words": 159,
+  "extraction_status": "success",
+  "page_title": "Health coverage options for people with disabilities in the Health Insurance Marketplace®, HealthCare.gov.",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "HealthCare.gov",
+  "canonical_url": "https://www.healthcare.gov/people-with-disabilities/"
+}

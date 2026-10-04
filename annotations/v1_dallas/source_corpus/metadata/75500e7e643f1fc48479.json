@@ -1,0 +1,33 @@
+{
+  "source_id": "75500e7e643f1fc48479",
+  "normalized_url": "https://highered360.com/articles/articleDisplay.cfm?ID=2173",
+  "fetch_timestamp_utc": "2026-09-29T19:29:19.266001+00:00",
+  "registrable_domain": "highered360.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.highered360.com/articles/articleDisplay.cfm?ID=2173",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Content-Type": "text/html;charset=UTF-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Date": "Tue, 29 Sep 2026 19:29:24 GMT",
+    "Content-Length": "8364"
+  },
+  "downloaded_bytes": 21848,
+  "content_kind": "html",
+  "content_type": "text/html;charset=UTF-8",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/raw/75500e7e643f1fc48479.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/75500e7e643f1fc48479.txt",
+  "text_chars": 14037,
+  "text_words": 2176,
+  "extraction_status": "success",
+  "page_title": "Advice & News",
+  "page_author": "Eileen Hoenigman Meyer",
+  "page_date": "2020-04-22",
+  "site_name": "highered360.com",
+  "canonical_url": "https://www.highered360.com/articles/articleDisplay.cfm?ID=2173"
+}

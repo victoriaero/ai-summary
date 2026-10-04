@@ -1,0 +1,28 @@
+{
+  "source_id": "43be404366d720c41ad9",
+  "normalized_url": "https://home.ecri.org/blogs/guidance-insights-tools/enhancing-patient-safety-through-systems-thinking-in-healthcare",
+  "fetch_timestamp_utc": "2026-10-04T03:35:35.396824+00:00",
+  "registrable_domain": "ecri.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://home.ecri.org/blogs/guidance-insights-tools/enhancing-patient-safety-through-systems-thinking-in-healthcare",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 125003,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/43be404366d720c41ad9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/43be404366d720c41ad9.txt",
+  "text_chars": 4949,
+  "text_words": 682,
+  "extraction_status": "success",
+  "page_title": "Enhancing Patient Safety through Systems Thinking in Healthcare",
+  "page_author": null,
+  "page_date": "2025-01-28",
+  "site_name": "ECRI and ISMP",
+  "canonical_url": "https://home.ecri.org/blogs/guidance-insights-tools/enhancing-patient-safety-through-systems-thinking-in-healthcare"
+}

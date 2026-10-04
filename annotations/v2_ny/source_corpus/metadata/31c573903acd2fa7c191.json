@@ -1,0 +1,28 @@
+{
+  "source_id": "31c573903acd2fa7c191",
+  "normalized_url": "https://wowremoteteams.com/blog/what-issues-are-important-to-latinos-in-the-workplace",
+  "fetch_timestamp_utc": "2026-10-04T02:36:24.162871+00:00",
+  "registrable_domain": "wowremoteteams.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://wowremoteteams.com/blog/what-issues-are-important-to-latinos-in-the-workplace/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 195240,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/31c573903acd2fa7c191.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/31c573903acd2fa7c191.txt",
+  "text_chars": 14900,
+  "text_words": 2033,
+  "extraction_status": "success",
+  "page_title": "What Issues are Important to Latinos in the Workplace - Wow Remote Teams",
+  "page_author": "Juli Brown",
+  "page_date": "2025-12-14",
+  "site_name": "Wow Remote Teams",
+  "canonical_url": "https://wowremoteteams.com/blog/what-issues-are-important-to-latinos-in-the-workplace/"
+}

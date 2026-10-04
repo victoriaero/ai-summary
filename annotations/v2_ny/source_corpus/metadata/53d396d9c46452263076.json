@@ -1,0 +1,28 @@
+{
+  "source_id": "53d396d9c46452263076",
+  "normalized_url": "https://hispanicresearchcenter.org/research-resources/state-level-tanf-policies-and-practice-may-shape-access-and-utilization-among-hispanic-families?print=print",
+  "fetch_timestamp_utc": "2026-10-04T02:39:16.546324+00:00",
+  "registrable_domain": "hispanicresearchcenter.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hispanicresearchcenter.org/research-resources/state-level-tanf-policies-and-practice-may-shape-access-and-utilization-among-hispanic-families?print=print",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 211071,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/53d396d9c46452263076.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/53d396d9c46452263076.txt",
+  "text_chars": 47395,
+  "text_words": 6677,
+  "extraction_status": "success",
+  "page_title": "State-level TANF Policies and Practice May Shape Access and Utilization among Hispanic Families",
+  "page_author": "Author",
+  "page_date": "2020-10-15",
+  "site_name": "hispanicresearchcenter.org",
+  "canonical_url": "https://www.hispanicresearchcenter.org/research-resources/state-level-tanf-policies-and-practice-may-shape-access-and-utilization-among-hispanic-families?print=print"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "8e01a430ea226b4376f8",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744605",
+  "fetch_timestamp_utc": "2026-10-04T03:41:30.075060+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744605/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 185555,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8e01a430ea226b4376f8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8e01a430ea226b4376f8.txt",
+  "text_chars": 54921,
+  "text_words": 8489,
+  "extraction_status": "success",
+  "page_title": "Establishing stability: exploring the meaning of ‘home’ for women who have experienced intimate partner violence",
+  "page_author": "Julia Woodhall-Melnik; Sarah Hamilton-Wright; Nihaya Daoud; Flora I Matheson; James R Dunn; Patricia O’Campo",
+  "page_date": "2016-05-17",
+  "site_name": "Journal of Housing and the Built Environment",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744605/"
+}

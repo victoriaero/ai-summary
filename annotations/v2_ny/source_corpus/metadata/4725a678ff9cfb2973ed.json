@@ -1,0 +1,28 @@
+{
+  "source_id": "4725a678ff9cfb2973ed",
+  "normalized_url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+  "fetch_timestamp_utc": "2026-10-04T02:38:11.463481+00:00",
+  "registrable_domain": "stanford.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 297492,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/4725a678ff9cfb2973ed.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/4725a678ff9cfb2973ed.txt",
+  "text_chars": 4955,
+  "text_words": 805,
+  "extraction_status": "success",
+  "page_title": "AI Hiring Tools Can Yield Racial Bias and Systemic Rejection | Stanford HAI",
+  "page_author": "Rishi Bommasani; Sarah H Bana; Kathleen A Creel; Dan Jurafsky; Percy Liang",
+  "page_date": "2026-05-26",
+  "site_name": "hai.stanford.edu",
+  "canonical_url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "09679ff687f1d0811e12",
+  "normalized_url": "https://nationalhomeless.org/lgbtq-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:33:08.952296+00:00",
+  "registrable_domain": "nationalhomeless.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nationalhomeless.org/lgbtq-homelessness/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 135455,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/09679ff687f1d0811e12.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/09679ff687f1d0811e12.txt",
+  "text_chars": 3762,
+  "text_words": 616,
+  "extraction_status": "success",
+  "page_title": "LGBTQ Homelessness - National Coalition for the Homeless",
+  "page_author": null,
+  "page_date": "2022-12-28",
+  "site_name": "National Coalition for the Homeless - Building a movement to End Homelessness",
+  "canonical_url": "https://nationalhomeless.org/lgbtq-homelessness/"
+}

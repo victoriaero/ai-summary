@@ -1,0 +1,20 @@
+{
+  "source_id": "d1ab963fa1d1040ccb20",
+  "normalized_url": "https://cbpp.org/research/streamlining-and-coordinating-benefit-programs-application-procedures",
+  "fetch_timestamp_utc": "2026-10-04T03:46:28.061072+00:00",
+  "registrable_domain": "cbpp.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://cbpp.org/research/streamlining-and-coordinating-benefit-programs-application-procedures",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 6158,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

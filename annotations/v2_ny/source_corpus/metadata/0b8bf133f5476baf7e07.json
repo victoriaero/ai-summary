@@ -1,0 +1,28 @@
+{
+  "source_id": "0b8bf133f5476baf7e07",
+  "normalized_url": "https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/incarceration",
+  "fetch_timestamp_utc": "2026-10-04T02:33:28.687958+00:00",
+  "registrable_domain": "health.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/incarceration",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 60233,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0b8bf133f5476baf7e07.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0b8bf133f5476baf7e07.txt",
+  "text_chars": 16185,
+  "text_words": 2342,
+  "extraction_status": "success",
+  "page_title": "Incarceration",
+  "page_author": null,
+  "page_date": "2022-03-09",
+  "site_name": "odphp.health.gov",
+  "canonical_url": "https://odphp.health.gov/healthypeople/priority-areas/social-determinants-health/literature-summaries/incarceration"
+}

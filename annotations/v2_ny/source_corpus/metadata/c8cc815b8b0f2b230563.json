@@ -1,0 +1,28 @@
+{
+  "source_id": "c8cc815b8b0f2b230563",
+  "normalized_url": "https://elker.com/articles/5-risk-factors-for-sexual-harassment-in-the-workplace",
+  "fetch_timestamp_utc": "2026-10-04T02:48:30.649870+00:00",
+  "registrable_domain": "elker.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://elker.com/articles/5-risk-factors-for-sexual-harassment-in-the-workplace",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 122985,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c8cc815b8b0f2b230563.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c8cc815b8b0f2b230563.txt",
+  "text_chars": 19101,
+  "text_words": 2723,
+  "extraction_status": "success",
+  "page_title": "5 Risk Factors for Sexual Harassment in the Workplace | Elker",
+  "page_author": "Elker Editorial Team Reviewed by Jack Murray Updated",
+  "page_date": "2023-09-14",
+  "site_name": "Elker Editorial Team",
+  "canonical_url": "https://elker.com/articles/5-risk-factors-for-sexual-harassment-in-the-workplace"
+}

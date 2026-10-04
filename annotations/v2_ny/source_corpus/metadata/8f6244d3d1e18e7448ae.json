@@ -1,0 +1,28 @@
+{
+  "source_id": "8f6244d3d1e18e7448ae",
+  "normalized_url": "https://sageusa.org/news/cfpb-protects-lgbt-people-with-ecoa",
+  "fetch_timestamp_utc": "2026-10-04T02:44:01.135869+00:00",
+  "registrable_domain": "sageusa.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "http://www.sageusa.org/news/cfpb-protects-lgbt-people-with-ecoa/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 233540,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/8f6244d3d1e18e7448ae.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/8f6244d3d1e18e7448ae.txt",
+  "text_chars": 1978,
+  "text_words": 310,
+  "extraction_status": "success",
+  "page_title": "LGBT people protected from financial discrimination under Equal Credit Opportunity Act - SAGE",
+  "page_author": null,
+  "page_date": "2021-02-25",
+  "site_name": "SAGE",
+  "canonical_url": "https://www.sageusa.org/news/cfpb-protects-lgbt-people-with-ecoa/"
+}

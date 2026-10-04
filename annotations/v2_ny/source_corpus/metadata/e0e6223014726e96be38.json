@@ -1,0 +1,28 @@
+{
+  "source_id": "e0e6223014726e96be38",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6234844",
+  "fetch_timestamp_utc": "2026-10-04T02:50:29.830558+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6234844/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 329470,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e0e6223014726e96be38.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e0e6223014726e96be38.txt",
+  "text_chars": 97173,
+  "text_words": 14804,
+  "extraction_status": "success",
+  "page_title": "Educational Attainment of Transgender Adults: Does the Timing of Transgender Identity Milestones Matter?",
+  "page_author": "Lindsey Wilkinson; Jennifer Pearson; Hui Liu",
+  "page_date": "2018-05-03",
+  "site_name": "Social science research",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6234844/"
+}

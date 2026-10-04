@@ -1,0 +1,31 @@
+{
+  "source_id": "16737f1f9f84c9af64c8",
+  "normalized_url": "https://epi.org/publication/chasing-the-dream-of-equity",
+  "fetch_timestamp_utc": "2026-09-29T19:21:28.804487+00:00",
+  "registrable_domain": "epi.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://epi.org/publication/chasing-the-dream-of-equity",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:21:35 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server-Timing": "cfEdge;dur=3,cfOrigin;dur=0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+    "Vary": "accept-encoding",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d5a0b9ea7e2d5-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 5864,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "5091ca16b09c59dd4bce",
+  "normalized_url": "https://kff.org/racial-equity-and-health-policy/how-present-day-health-disparities-for-black-people-are-linked-to-past-policies-and-events",
+  "fetch_timestamp_utc": "2026-10-04T03:36:39.979588+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/racial-equity-and-health-policy/how-present-day-health-disparities-for-black-people-are-linked-to-past-policies-and-events/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 139773,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5091ca16b09c59dd4bce.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5091ca16b09c59dd4bce.txt",
+  "text_chars": 10313,
+  "text_words": 1590,
+  "extraction_status": "success",
+  "page_title": "How Present-Day Health Disparities for Black People Are Linked to Past Policies and Events | KFF",
+  "page_author": "Samantha Artiga; Latoya Hill; Marley Presiado",
+  "page_date": "2024-02-22",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/racial-equity-and-health-policy/how-present-day-health-disparities-for-black-people-are-linked-to-past-policies-and-events/"
+}

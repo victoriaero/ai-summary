@@ -1,0 +1,28 @@
+{
+  "source_id": "96b91bc8c7566c71ab0c",
+  "normalized_url": "https://doingcollege.com/resources/top-ten-factors-influencing-college-admissions",
+  "fetch_timestamp_utc": "2026-10-04T02:44:43.626807+00:00",
+  "registrable_domain": "doingcollege.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.doingcollege.com/resources/top-ten-factors-influencing-college-admissions/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 126434,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/96b91bc8c7566c71ab0c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/96b91bc8c7566c71ab0c.txt",
+  "text_chars": 5595,
+  "text_words": 860,
+  "extraction_status": "success",
+  "page_title": "Top Ten Factors Influencing College Admissions - Help from Doing College",
+  "page_author": null,
+  "page_date": "2025-04-25",
+  "site_name": "Doing College",
+  "canonical_url": "https://www.doingcollege.com/resources/top-ten-factors-influencing-college-admissions/"
+}

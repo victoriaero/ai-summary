@@ -1,0 +1,28 @@
+{
+  "source_id": "b34b4d58366841f3bfc6",
+  "normalized_url": "https://homelessidproject.org/how-do-people-become-homeless-understanding-the-causes-of-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:47:01.417446+00:00",
+  "registrable_domain": "homelessidproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.homelessidproject.org/how-do-people-become-homeless-understanding-the-causes-of-homelessness/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 228270,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b34b4d58366841f3bfc6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b34b4d58366841f3bfc6.txt",
+  "text_chars": 3725,
+  "text_words": 601,
+  "extraction_status": "success",
+  "page_title": "How Do People Become Homeless? Understanding the Causes of Homelessness - Homeless ID Project",
+  "page_author": "Hidp W",
+  "page_date": "2025-02-18",
+  "site_name": "Homeless ID Project",
+  "canonical_url": "https://www.homelessidproject.org/how-do-people-become-homeless-understanding-the-causes-of-homelessness/"
+}

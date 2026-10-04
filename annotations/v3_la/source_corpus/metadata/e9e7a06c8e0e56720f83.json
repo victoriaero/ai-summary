@@ -1,0 +1,28 @@
+{
+  "source_id": "e9e7a06c8e0e56720f83",
+  "normalized_url": "https://ohchr.org/en/stories/2025/08/womens-incarceration-rooted-gender-inequality-and-violence",
+  "fetch_timestamp_utc": "2026-10-04T03:48:31.991824+00:00",
+  "registrable_domain": "ohchr.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ohchr.org:443/en/ohchr_homepage",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 137487,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e9e7a06c8e0e56720f83.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e9e7a06c8e0e56720f83.txt",
+  "text_chars": 3640,
+  "text_words": 545,
+  "extraction_status": "success",
+  "page_title": "UN Human Rights Office",
+  "page_author": null,
+  "page_date": "2023-11-29",
+  "site_name": "OHCHR",
+  "canonical_url": "https://www.ohchr.org/en/ohchr_homepage"
+}

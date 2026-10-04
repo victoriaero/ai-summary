@@ -1,0 +1,28 @@
+{
+  "source_id": "95e54342711ae0aeb49d",
+  "normalized_url": "https://nelp.org/insights-research/occupational-segregation-of-black-women-workers-in-the-u-s",
+  "fetch_timestamp_utc": "2026-10-04T02:44:34.897033+00:00",
+  "registrable_domain": "nelp.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nelp.org/insights-research/occupational-segregation-of-black-women-workers-in-the-u-s/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 114456,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/95e54342711ae0aeb49d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/95e54342711ae0aeb49d.txt",
+  "text_chars": 13834,
+  "text_words": 1875,
+  "extraction_status": "success",
+  "page_title": "Occupational Segregation of Black Women Workers in the U.S. - National Employment Law Project",
+  "page_author": null,
+  "page_date": "2024-05-02",
+  "site_name": "National Employment Law Project",
+  "canonical_url": "https://www.nelp.org/insights-research/occupational-segregation-of-black-women-workers-in-the-u-s/"
+}

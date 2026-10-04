@@ -1,0 +1,127 @@
+domain,outcome,minority_group,minority_sources,majority_group,majority_sources,difference,dimension
+Government Benefits,Application/approval,Black people,6,White people,15,-9,Race
+Housing,Housing stability,Black people,8,White people,9,-1,Race
+Healthcare,Preventive care,Black people,6,White people,5,1,Race
+Healthcare,Insurance coverage,Black people,7,White people,5,2,Race
+Criminal Justice,Arrest / detention by police,Black people,9,White people,6,3,Race
+Government Benefits,Access to government benefits,Black people,8,White people,5,3,Race
+Employment,Career advancement,Black people,9,White people,5,4,Race
+Credit & Financial Services,Access to banking services,Black people,10,White people,6,4,Race
+Education,Educational opportunity/access,Black people,9,White people,5,4,Race
+Healthcare,Patient safety,Black people,9,White people,5,4,Race
+Criminal Justice,Police use of force,Black people,7,White people,3,4,Race
+Criminal Justice,Incarceration,Black people,8,White people,3,5,Race
+Employment,Workplace harassment,Black people,11,White people,5,6,Race
+Employment,Hiring,Black people,10,White people,4,6,Race
+Credit & Financial Services,Access to credit,Black people,13,White people,7,6,Race
+Education,College access/admission,Black people,12,White people,6,6,Race
+Housing,Access to housing,Black people,12,White people,6,6,Race
+Housing,Homelessness,Black people,12,White people,5,7,Race
+Government Benefits,Benefit retention / renewal,Black people,15,White people,8,7,Race
+Credit & Financial Services,Credit/loan approval,Black people,12,White people,4,8,Race
+Education,Harassment/bullying,Black people,13,White people,4,9,Race
+Education,College access/admission,Latino people,10,non-Latino people,16,-6,Ethnicity
+Healthcare,Insurance coverage,Latino people,6,non-Latino people,7,-1,Ethnicity
+Education,Harassment/bullying,Latino people,8,non-Latino people,8,0,Ethnicity
+Criminal Justice,Police use of force,Latino people,6,non-Latino people,6,0,Ethnicity
+Government Benefits,Benefit retention / renewal,Latino people,14,non-Latino people,14,0,Ethnicity
+Government Benefits,Access to government benefits,Latino people,8,non-Latino people,6,2,Ethnicity
+Housing,Access to housing,Latino people,8,non-Latino people,6,2,Ethnicity
+Criminal Justice,Incarceration,Latino people,6,non-Latino people,3,3,Ethnicity
+Housing,Homelessness,Latino people,8,non-Latino people,5,3,Ethnicity
+Housing,Housing stability,Latino people,10,non-Latino people,7,3,Ethnicity
+Criminal Justice,Arrest / detention by police,Latino people,9,non-Latino people,5,4,Ethnicity
+Employment,Career advancement,Latino people,10,non-Latino people,5,5,Ethnicity
+Healthcare,Preventive care,Latino people,9,non-Latino people,4,5,Ethnicity
+Credit & Financial Services,Access to banking services,Latino people,9,non-Latino people,4,5,Ethnicity
+Education,Educational opportunity/access,Latino people,9,non-Latino people,2,7,Ethnicity
+Government Benefits,Application/approval,Latino people,13,non-Latino people,6,7,Ethnicity
+Healthcare,Patient safety,Latino people,12,non-Latino people,4,8,Ethnicity
+Employment,Workplace harassment,Latino people,12,non-Latino people,4,8,Ethnicity
+Credit & Financial Services,Credit/loan approval,Latino people,12,non-Latino people,4,8,Ethnicity
+Credit & Financial Services,Access to credit,Latino people,13,non-Latino people,3,10,Ethnicity
+Employment,Hiring,Latino people,12,non-Latino people,0,12,Ethnicity
+Housing,Homelessness,Women,6,Men,10,-4,Gender
+Education,College access/admission,Women,6,Men,9,-3,Gender
+Education,Harassment/bullying,Women,7,Men,10,-3,Gender
+Education,Educational opportunity/access,Women,4,Men,7,-3,Gender
+Criminal Justice,Incarceration,Women,9,Men,11,-2,Gender
+Employment,Hiring,Women,4,Men,5,-1,Gender
+Criminal Justice,Police use of force,Women,6,Men,7,-1,Gender
+Credit & Financial Services,Credit/loan approval,Women,10,Men,9,1,Gender
+Healthcare,Insurance coverage,Women,9,Men,8,1,Gender
+Credit & Financial Services,Access to credit,Women,8,Men,7,1,Gender
+Government Benefits,Access to government benefits,Women,7,Men,6,1,Gender
+Criminal Justice,Arrest / detention by police,Women,9,Men,8,1,Gender
+Healthcare,Preventive care,Women,5,Men,4,1,Gender
+Housing,Housing stability,Women,11,Men,10,1,Gender
+Government Benefits,Benefit retention / renewal,Women,7,Men,5,2,Gender
+Credit & Financial Services,Access to banking services,Women,9,Men,7,2,Gender
+Employment,Workplace harassment,Women,6,Men,4,2,Gender
+Employment,Career advancement,Women,9,Men,6,3,Gender
+Healthcare,Patient safety,Women,9,Men,3,6,Gender
+Government Benefits,Application/approval,Women,16,Men,9,7,Gender
+Housing,Access to housing,Women,12,Men,3,9,Gender
+Housing,Access to housing,People with disabilities,5,People without disabilities,11,-6,Disability
+Government Benefits,Application/approval,People with disabilities,10,People without disabilities,13,-3,Disability
+Criminal Justice,Arrest / detention by police,People with disabilities,8,People without disabilities,9,-1,Disability
+Healthcare,Insurance coverage,People with disabilities,7,People without disabilities,7,0,Disability
+Housing,Homelessness,People with disabilities,9,People without disabilities,8,1,Disability
+Housing,Housing stability,People with disabilities,8,People without disabilities,6,2,Disability
+Credit & Financial Services,Access to credit,People with disabilities,5,People without disabilities,3,2,Disability
+Credit & Financial Services,Credit/loan approval,People with disabilities,7,People without disabilities,4,3,Disability
+Criminal Justice,Police use of force,People with disabilities,7,People without disabilities,4,3,Disability
+Education,Harassment/bullying,People with disabilities,9,People without disabilities,6,3,Disability
+Healthcare,Preventive care,People with disabilities,10,People without disabilities,5,5,Disability
+Government Benefits,Access to government benefits,People with disabilities,10,People without disabilities,5,5,Disability
+Employment,Workplace harassment,People with disabilities,8,People without disabilities,2,6,Disability
+Healthcare,Patient safety,People with disabilities,10,People without disabilities,4,6,Disability
+Education,Educational opportunity/access,People with disabilities,10,People without disabilities,3,7,Disability
+Credit & Financial Services,Access to banking services,People with disabilities,11,People without disabilities,4,7,Disability
+Criminal Justice,Incarceration,People with disabilities,9,People without disabilities,0,9,Disability
+Education,College access/admission,People with disabilities,9,People without disabilities,0,9,Disability
+Employment,Hiring,People with disabilities,12,People without disabilities,3,9,Disability
+Employment,Career advancement,People with disabilities,10,People without disabilities,0,10,Disability
+Government Benefits,Benefit retention / renewal,People with disabilities,17,People without disabilities,5,12,Disability
+Criminal Justice,Arrest / detention by police,homosexual people,7,heterosexual people,16,-9,Sexual Orientation
+Education,Harassment/bullying,homosexual people,10,heterosexual people,17,-7,Sexual Orientation
+Credit & Financial Services,Access to banking services,homosexual people,6,heterosexual people,9,-3,Sexual Orientation
+Healthcare,Preventive care,homosexual people,8,heterosexual people,10,-2,Sexual Orientation
+Credit & Financial Services,Access to credit,homosexual people,8,heterosexual people,9,-1,Sexual Orientation
+Employment,Career advancement,homosexual people,6,heterosexual people,6,0,Sexual Orientation
+Housing,Homelessness,homosexual people,9,heterosexual people,9,0,Sexual Orientation
+Criminal Justice,Police use of force,homosexual people,7,heterosexual people,7,0,Sexual Orientation
+Employment,Workplace harassment,homosexual people,9,heterosexual people,8,1,Sexual Orientation
+Education,Educational opportunity/access,homosexual people,11,heterosexual people,10,1,Sexual Orientation
+Credit & Financial Services,Credit/loan approval,homosexual people,5,heterosexual people,4,1,Sexual Orientation
+Government Benefits,Benefit retention / renewal,homosexual people,12,heterosexual people,10,2,Sexual Orientation
+Housing,Access to housing,homosexual people,10,heterosexual people,8,2,Sexual Orientation
+Healthcare,Patient safety,homosexual people,10,heterosexual people,7,3,Sexual Orientation
+Government Benefits,Access to government benefits,homosexual people,9,heterosexual people,6,3,Sexual Orientation
+Employment,Hiring,homosexual people,4,heterosexual people,0,4,Sexual Orientation
+Housing,Housing stability,homosexual people,9,heterosexual people,5,4,Sexual Orientation
+Criminal Justice,Incarceration,homosexual people,10,heterosexual people,5,5,Sexual Orientation
+Government Benefits,Application/approval,homosexual people,6,heterosexual people,0,6,Sexual Orientation
+Healthcare,Insurance coverage,homosexual people,13,heterosexual people,7,6,Sexual Orientation
+Education,College access/admission,homosexual people,7,heterosexual people,0,7,Sexual Orientation
+Education,Harassment/bullying,transgender people,6,cisgender people,14,-8,Gender Identity
+Criminal Justice,Arrest / detention by police,transgender people,6,cisgender people,12,-6,Gender Identity
+Education,Educational opportunity/access,transgender people,9,cisgender people,14,-5,Gender Identity
+Employment,Career advancement,transgender people,7,cisgender people,10,-3,Gender Identity
+Government Benefits,Access to government benefits,transgender people,7,cisgender people,10,-3,Gender Identity
+Healthcare,Insurance coverage,transgender people,5,cisgender people,7,-2,Gender Identity
+Credit & Financial Services,Access to banking services,transgender people,7,cisgender people,8,-1,Gender Identity
+Employment,Hiring,transgender people,6,cisgender people,7,-1,Gender Identity
+Credit & Financial Services,Access to credit,transgender people,8,cisgender people,8,0,Gender Identity
+Government Benefits,Benefit retention / renewal,transgender people,16,cisgender people,16,0,Gender Identity
+Criminal Justice,Police use of force,transgender people,8,cisgender people,8,0,Gender Identity
+Housing,Homelessness,transgender people,13,cisgender people,11,2,Gender Identity
+Government Benefits,Application/approval,transgender people,14,cisgender people,11,3,Gender Identity
+Criminal Justice,Incarceration,transgender people,7,cisgender people,3,4,Gender Identity
+Housing,Access to housing,transgender people,11,cisgender people,7,4,Gender Identity
+Employment,Workplace harassment,transgender people,9,cisgender people,5,4,Gender Identity
+Healthcare,Patient safety,transgender people,10,cisgender people,4,6,Gender Identity
+Credit & Financial Services,Credit/loan approval,transgender people,6,cisgender people,0,6,Gender Identity
+Healthcare,Preventive care,transgender people,9,cisgender people,0,9,Gender Identity
+Housing,Housing stability,transgender people,13,cisgender people,3,10,Gender Identity
+Education,College access/admission,transgender people,17,cisgender people,0,17,Gender Identity

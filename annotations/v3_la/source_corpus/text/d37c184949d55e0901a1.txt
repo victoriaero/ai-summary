@@ -1,0 +1,57 @@
+Abstract
+This survey study reports the proportions of and reasons for Medicaid coverage loss among racially and ethnically minoritized individuals.
+Continuous Medicaid enrollment during the COVID-19 public health emergency (PHE) led to record enrollment of 94 million individuals and decrease in uninsurance.1 Since the continuous enrollment provision ended March 31, 2023, approximately 10 million people have lost Medicaid coverage as states began redetermining enrollees’ Medicaid eligibility (unwinding period).1 Three-quarters of disenrollments occurred for procedural reasons, including incomplete applications, application errors, and inaccurate contact information.2
+Approximately 60% of Medicaid enrollees are racially and ethnically minoritized individuals. There is concern that procedural disenrollment may disproportionately affect racially and ethnically minoritized groups, particularly Black and Hispanic individuals,3 and worsen disparities in health care access and use.3 However, state-level information on causes of procedural disenrollments is limited,2 and only 9 states currently report disenrollments by race and ethnicity. We assessed the racial and ethnic distribution of Medicaid procedural disenrollments using the US Census Bureau Household Pulse Survey.4
+Methods
+We used publicly available data from 7 waves of the Household Pulse Survey (March 29 to October 2, 2023)4 to produce survey-weighted, nationally representative estimates of adult Medicaid disenrollment (eAppendix in Supplement 1). In accordance with the Common Rule, this survey study was exempt from review because it used publicly available, deidentified datasets. We followed the AAPOR reporting guideline.
+An advantage of the Household Pulse Survey is availability of survey-generated race and ethnicity information. We selected the questions, Are you currently covered by any of the following types of health insurance or health coverage plans? and What was the main reason you no longer have Medicaid?, which included this response option: I could not complete the renewal process.4 Using multivariable logistic regression, we estimated the likelihood of reporting this inability to complete the renewal process by race and ethnicity across survey waves, controlling for sex, age, marital status, educational level, and household income.
+Two-sided P < .05 indicated statistical significance. Data analysis was performed with R 4.3.1 (R Foundation for Statistical Computing).
+Results
+Disenrollments increased substantially beginning April 2023 (wave 57), corresponding to the end of continuous enrollment. By October 2023 (most recent wave assessed), approximately 32 445 868 (95% CI, 31 356 247-33 535 489) adults (mean [SD] age, 51.6 [15.2] years; 62.6% females, 37.4% males; 4.5% Asian, 17.7% Black, 19.9% Hispanic, 52.0% White, 5.9% other race and ethnicity) were enrolled in Medicaid. Of the 5 030 144 (95% CI, 4 159 079-5 901 209) people who lost coverage in the final wave, 57.3% reported no longer qualifying for Medicaid, of whom 17.4% reported an inability to complete the renewal process.
+During the unwinding period, a higher proportion of individuals who could not complete the renewal process identified as Black or Hispanic compared with overall proportions of Black (22.0% vs 16.4%; P < .001) and Hispanic (33.5% vs 22.7%; P < .001) Medicaid enrollees (Figure). Black (adjusted odds ratio [AOR], 2.19; 95% CI, 1.69-2.83) and Hispanic (AOR, 2.08; 95% CI, 1.51-2.87) individuals were approximately twice as likely as White individuals to report losing Medicaid coverage due to inability to complete the renewal process (Table).
+Table. Survey Participant Characteristics Associated With Inability to Complete the Medicaid Renewal Processa.
+| Characteristic | AOR (95% CI) | P value | 
+|---|---|---|
+| Race and ethnicityb |  |  | 
+| Asian | 1.50 (1.09-2.07) | <.001 | 
+| Black | 2.19 (1.69-2.83) |  | 
+| Hispanic | 2.08 (1.51-2.87) |  | 
+| White | 1 [Reference] |  | 
+| Otherc | 1.35 (1.01-1.81) |  | 
+| Educational level |  |  | 
+| ≤High school diploma | 1 [Reference] | <.001 | 
+| ≥College degree | 2.00 (1.57-2.55) |  | 
+| Sex assigned at birth |  |  | 
+| Male | 1 [Reference] | .94 | 
+| Female | 1.00 (0.79-1.30) |  | 
+| Marital status |  |  | 
+| Not married | 1.20 (0.92-1.58) | .18 | 
+| Married | 1 [Reference] |  | 
+| Age, y |  |  | 
+| 18-28 | 1 [Reference] | <.001 | 
+| 29-41 | 0.83 (0.55-1.26) |  | 
+| 42-52 | 0.74 (0.48-1.14) |  | 
+| 53-64 | 0.48 (0.31-0.73) |  | 
+| ≥65 | 0.44 (0.28-0.68) |  | 
+| Categorical income, US$ |  |  | 
+| ≤34 999 | 11.76 (7.27-19.02) | <.001 | 
+| 35 000-49 999 | 8.19 (5.07-13.25) |  | 
+| 50 000-74 999 | 4.93 (2.79-8.72) |  | 
+| 75 000-99 999 | 3.99 (2.33-6.83) |  | 
+| ≥100 000 | 1 [Reference] |  | 
+Abbreviation: AOR, adjusted odds ratio.
+Multivariable logistic regression model using Household Pulse Survey questions assessed participants who selected the response option “I could not complete the renewal process” as the primary reason for losing Medicaid coverage. These participants were compared with other participants who lost Medicaid coverage due to other reasons, including no longer qualifying for Medicaid, gaining new coverage, or moving states. The model included data from 7 study waves during the COVID-19 pandemic unwinding period (March 29 to October 2, 2023).
+Race and ethnicity were self-reported in the surveys.
+Other included other race and multiple races.
+Discussion
+The end of the continuous enrollment provision may have reversed some coverage gains for Black and Hispanic individuals during the COVID-19 PHE.5 This finding is consistent with state-collected data suggesting that early coverage losses are secondary to renewal processes rather than changes in Medicaid eligibility.6
+With states resuming eligibility redeterminations, policy attention is needed to improve enrollment processes, particularly for populations more likely to experience challenges.2,3 Addressing these barriers may include more transparent race and ethnicity data reporting, expedited administrative processes, expanded renewal assistance, and prioritized redeterminations for beneficiaries most likely to be ineligible. States could also simplify the renewal process, including prepopulating renewal forms with enrollee information or allowing more time for forms to be returned. Study limitations include self-reported survey responses, which may not capture true reasons for Medicaid coverage loss, and differences in demographics and unwinding process across states, which may partially explain some of the observed disparity.
+References
+- 1.Medicaid enrollment and unwinding tracker—overview. KFF. November 1, 2023. Accessed November 5, 2023. https://www.kff.org/report-section/medicaid-enrollment-and-unwinding-tracker-overview/
+- 2.Tolbert J, Rudowitz R, Drake P. Understanding Medicaid procedural disenrollment rates. KFF. September 7, 2023. Accessed October 8, 2023. https://www.kff.org/policy-watch/understanding-medicaid-procedural-disenrollment-rates/
+- 3.Boozang P, Striar A. The end of the COVID public health emergency: potential health equity implications of ending Medicaid continuous coverage. State Health & Value Strategies. September 17, 2021. Accessed October 8, 2023. https://www.shvs.org/the-end-of-the-covid-public-health-emergency-potential-health-equity-implications-of-ending-medicaid-continuous-coverage/
+- 4.Measuring household experiences during the coronavirus pandemic. US Census Bureau. Accessed April 17, 2024. https://www.census.gov/programs-surveys/household-pulse-survey.html
+- 5.Auty SG, Aswani MS, Wahbi RN, Griffith KN. Changes in health care access by race, income, and Medicaid expansion during the COVID-19 pandemic. Med Care. 2023;61(1):45-49. doi: 10.1097/MLR.0000000000001788 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 6.McIntyre A, Aboulafia G, Sommers BD. Preliminary data on “unwinding” continuous Medicaid coverage. N Engl J Med. 2023;389(24):2215-2217. doi: 10.1056/NEJMp2311336 [DOI] [PubMed] [Google Scholar]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.

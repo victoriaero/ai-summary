@@ -1,0 +1,28 @@
+{
+  "source_id": "f3e946ea8ac048e2a62d",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11523499",
+  "fetch_timestamp_utc": "2026-10-04T03:49:05.936492+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11523499/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 187759,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f3e946ea8ac048e2a62d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f3e946ea8ac048e2a62d.txt",
+  "text_chars": 35419,
+  "text_words": 4948,
+  "extraction_status": "success",
+  "page_title": "Factors for the integration of prevention in primary care: an overview of reviews",
+  "page_author": "Estelle Clet; Pierre Leblanc; François Alla; Christine Cohidon",
+  "page_date": "2024-08-21",
+  "site_name": "BJGP Open",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11523499/"
+}

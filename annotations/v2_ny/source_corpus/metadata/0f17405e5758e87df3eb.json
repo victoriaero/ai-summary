@@ -1,0 +1,28 @@
+{
+  "source_id": "0f17405e5758e87df3eb",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12193340",
+  "fetch_timestamp_utc": "2026-10-04T02:33:46.155823+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12193340/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 191198,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0f17405e5758e87df3eb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0f17405e5758e87df3eb.txt",
+  "text_chars": 51902,
+  "text_words": 7523,
+  "extraction_status": "success",
+  "page_title": "Barriers and Facilitators to Accessing Mental and Physical Health Care Among Sexual Minority Women: A Qualitative Exploration",
+  "page_author": "Charlotte A Dawson; Alicia Moulder; Kristin E Heron",
+  "page_date": "2025-06-19",
+  "site_name": "International Journal of Environmental Research and Public Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12193340/"
+}

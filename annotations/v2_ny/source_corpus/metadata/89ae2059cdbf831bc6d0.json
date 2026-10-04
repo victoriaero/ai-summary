@@ -1,0 +1,28 @@
+{
+  "source_id": "89ae2059cdbf831bc6d0",
+  "normalized_url": "https://americanhealth.jhu.edu/news/undercounted-survivors-intimate-partner-violence-who-are-experiencing-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:43:36.552880+00:00",
+  "registrable_domain": "jhu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://americanhealth.jhu.edu/news/undercounted-survivors-intimate-partner-violence-who-are-experiencing-homelessness",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 38952,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/89ae2059cdbf831bc6d0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/89ae2059cdbf831bc6d0.txt",
+  "text_chars": 3635,
+  "text_words": 530,
+  "extraction_status": "success",
+  "page_title": "Undercounted: Survivors of Intimate Partner Violence Who Are Experiencing Homelessness",
+  "page_author": null,
+  "page_date": "2025-03-06",
+  "site_name": "Bloomberg American Health Initiative",
+  "canonical_url": "https://americanhealth.jhu.edu/news/undercounted-survivors-intimate-partner-violence-who-are-experiencing-homelessness"
+}

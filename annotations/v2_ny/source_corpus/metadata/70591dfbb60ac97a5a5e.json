@@ -1,0 +1,28 @@
+{
+  "source_id": "70591dfbb60ac97a5a5e",
+  "normalized_url": "https://scale.jobs/blog/career-growth-factors-job-offers",
+  "fetch_timestamp_utc": "2026-10-04T02:41:38.307565+00:00",
+  "registrable_domain": "scale.jobs",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://scale.jobs/blog/career-growth-factors-job-offers",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 172102,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/70591dfbb60ac97a5a5e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/70591dfbb60ac97a5a5e.txt",
+  "text_chars": 34137,
+  "text_words": 4812,
+  "extraction_status": "success",
+  "page_title": "7 Factors to Evaluate Career Growth in Job Offers",
+  "page_author": "Sarah Mitchell",
+  "page_date": "2026-04-30",
+  "site_name": "Scale.jobs",
+  "canonical_url": "https://scale.jobs/blog/career-growth-factors-job-offers"
+}

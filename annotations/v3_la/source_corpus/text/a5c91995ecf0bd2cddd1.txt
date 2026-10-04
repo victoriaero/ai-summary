@@ -1,0 +1,4566 @@
+DISCUSSION PAPER SERIES
+IZA DP No. 15285
+Philippe Sterkens
+Axana Dalle
+Joey Wuyts
+Ines Pauwels
+Hellen Durinck
+Stijn Baert
+Homosexuality’s Signalling Function in 
+Job Candidate Screening:  
+Why Gay Is (Mostly) OK
+MAY 2022
+
+
+Any opinions expressed in this paper are those of the author(s) and not those of IZA. Research published in this series may 
+include views on policy, but IZA takes no institutional policy positions. The IZA research network is committed to the IZA 
+Guiding Principles of Research Integrity.
+The IZA Institute of Labor Economics is an independent economic research institute that conducts research in labor economics 
+and offers evidence-based policy advice on labor market issues. Supported by the Deutsche Post Foundation, IZA runs the 
+world’s largest network of economists, whose research aims to provide answers to the global labor market challenges of our 
+time. Our key objective is to build bridges between academic research, policymakers and society.
+IZA Discussion Papers often represent preliminary work and are circulated to encourage discussion. Citation of such a paper 
+should account for its provisional character. A revised version may be available directly from the author.
+Schaumburg-Lippe-Straße 5–9
+53113 Bonn, Germany
+Phone: +49-228-3894-0
+Email: publications@iza.org
+www.iza.org
+IZA – Institute of Labor Economics
+DISCUSSION PAPER SERIES
+ISSN: 2365-9793
+IZA DP No. 15285
+Homosexuality’s Signalling Function in 
+Job Candidate Screening:  
+Why Gay Is (Mostly) OK
+MAY 2022
+Philippe Sterkens
+Ghent University
+Axana Dalle
+Ghent University
+Joey Wuyts
+Ghent University
+ 
+Ines Pauwels
+Ghent University
+Hellen Durinck
+Ghent University
+Stijn Baert
+Ghent University, University of Antwerp, 
+Université catholique de Louvain and IZA
+
+
+ABSTRACT
+IZA DP No. 15285
+MAY 2022
+Homosexuality’s Signalling Function in 
+Job Candidate Screening:  
+Why Gay Is (Mostly) OK*
+To explain the mixed findings on hiring discrimination against homosexual applicants, 
+we explore the perceptual drivers behind employers’ evaluations of gay men and lesbian 
+women. Therefore, we conduct an extensive vignette experiment among 404 genuine 
+recruiters, for which we test systematically-selected perceptions theoretically associated 
+with homosexual job candidates in earlier studies. We find causal evidence for distinct 
+effects of sexual identities on candidate perceptions and interview probabilities. In particular, 
+interview probabilities are positively (negatively) associated with the perception of lesbian 
+women (gay men) as being more (less) pleasant to work with compared to heterosexual 
+candidates. In addition, interview chances are negatively associated with the perception of 
+gay men and lesbian women as being more outspoken. Furthermore, our data align well 
+with the idea of a concentrated discrimination account, whereby a minority of employers 
+who privately hold negative attitudes towards homosexual individuals are responsible for 
+most instances of hiring discrimination.
+JEL Classification: 
+C91, J15, J71
+Keywords: 
+homosexuality, signalling, statistical discrimination, taste-based 
+discrimination, hiring experiment
+Corresponding author:
+Axana Dalle
+Ghent University
+Sint-Pietersplein 6
+9000 Ghent
+Belgium
+E-mail: Axana.Dalle@UGent.be
+* Data processing is organised in line with Ghent University’s code of conduct and therefore adheres to the General 
+Data Protection (GDPR) standards. No external funding was received for this study.
+
+
+ 
+2
+1. Introduction 
+Since the first empirical investigation of sexual orientation-based discrimination in economics 
+(Badgett, 1995), the socioeconomic outcomes of homosexuals have, in general, improved 
+globally (Badgett, Carpenter, & Sansone, 2021; Drydakis, 2022; OECD, 2020). The scientific 
+investigation of the labour market success of LGBTQ individuals has branched into both a 
+supply-side (Burn & Martell, 2020) and a demand-side research tradition (Burn, 2018; Burn, 
+2020). Given that differences in labour market outcomes between heterosexual and 
+homosexual individuals appear nowadays to be mainly driven by the demand side of labour 
+(Fric, 2017), it is necessary to further investigate labour market discrimination. 
+ 
+As evidenced in earlier research,  homosexuals are susceptible to hiring discrimination, 
+already in the earliest stages of the recruitment process. Indeed, both field (e.g. Drydakis, 
+2009; Drydakis, 2015; Hammarstedt, Ahmed, & Andersson, 2015; Hebl, Foster, Mannix, & 
+Dovidio, 2002; Jepsen & Jepsen, 2015; Laurent & Mihoubi, 2017) and laboratory studies 
+(Everly, Unzueta, & Shih, 2016; Horvath & Ryan, 2003; Singletary & Hebl, 2009) have found 
+evidence of discriminatory treatment in the application process. However, a substantial number 
+of studies, again in both field (Martell, 2014; Powdthavee & Wooden, 2014) and lab settings 
+(Baert, 2018a; Nadler & Kufahl, 2014; Niedlich & Steffens, 2015), have found no such 
+evidence. A recent meta-analysis of this mixed evidence by Lippens and colleagues (2021) 
+indicates that across all field experiments between 2005 and 2020, gay or lesbian job 
+candidates received on average 35 per cent fewer positive reactions than heterosexual 
+candidates. 
+From a theoretical perspective, the two seminal (economic) theories of taste-based 
+(Becker, 1957) and levels-based statistical discrimination (Arrow, 1973; Phelps, 1972) can 
+explain hiring discrimination against homosexuals. First, according to the theory of taste-based 
+discrimination, employers may be prejudiced against homosexuals and might, therefore, 
+expect disutility in collaboration with homosexuals themselves or from colleagues and 
+clientele. Consequently, the prejudiced employers are, to some degree, willing to pay a price 
+to avoid collaboration with homosexual employees. Specifically, they would rather hire a less 
+competent heterosexual candidate than a skilled homosexual candidate. Second, the theory 
+of levels-based statistical discrimination provides a more rational explanation for discrimination 
+against homosexual job applicants. The starting point of this theory is that employment 
+decisions are made under uncertainty. After all, employers do not possess perfect information 
+on individual candidates. To aid decision-making under uncertainty, employers apply their 
+general productivity beliefs of homosexuals as a group to the individual (homosexual) 
+candidate. Negative productivity beliefs (Spence, 1978) concerning homosexual candidates 
+
+
+ 
+3
+then create advantages for heterosexual candidates and this therefore results in different hiring 
+probabilities for individual candidates from both groups. 
+Both the theories of taste-based and levels-based statistical discrimination, to some 
+extent, rely on explaining hiring discrimination through HPSOR\HUV¶ EHOLHIV about (typical) 
+homosexual candidates, or in other words, through WKHVLJQDOVWKH\GHULYHIURPDFDQGLGDWH¶V
+sexual orientation. However, to the best of our knowledge, researchers have yet to establish 
+exactly which employer perceptions of homosexual candidates drive potential differences in 
+hiring probabilities between heterosexual and homosexual candidates. Furthermore, as Fric 
+(2017) concluded in his review, policy-makers require such knowledge to develop effective 
+measures which target negative attitudes and prejudice against homosexuals in the labour 
+market. 
+The empirical investigation of these driving perceptions is challenging and necessitates 
+an in-depth analysis for three reasons. First, as we show in Appendix Table 1, our own review 
+of the multidisciplinary peer-reviewed literature yielded no less than 70 characteristics 
+associated with homosexuality. The sheer number of such characteristics is astonishing and 
+raises questions regarding (1) the attributed relevance of each characteristic in contemporary 
+hiring processes and (2) the complex detailed image (some) employers might have of 
+homosexuals. Second, thus far we have discussed homosexuals as one homogenous group. 
+However, researchers have found heterogeneity in both the hiring chances and attributes 
+associated with gay men and lesbian women. Different patterns of perceptions could be in play 
+when explaining differences in the hiring probabilities of gay men and lesbian women and, 
+FRQVHTXHQWO\DµRQHVL]HILWVDOOIRUPDW¶RISROLF\-making might be undesirable when supporting 
+gay men and lesbian women. Third, in addition to the large number of perceptions and the 
+potential differences between gay men and lesbian women, the perception puzzle is further 
+complicated by the mixed valence of perceptions. In fact, both positive and negative traits have 
+been associated with homosexuality. The latter may suggest WKDW KRPRVH[XDOV¶ KLULQJ
+probabilities might be the result of an interplay between both positive and negative candidate 
+perceptions associated with sexual orientations. 
+Given the current state of the literature, instead of simply providing yet another data 
+point on the instances of hiring discrimination against homosexuals, research calls for a deeper 
+understanding of the phenomenon ± and its mixed findings (Neumark, 2018; Rivera, 2020). 
+Through a vignette experiment among real-life recruiters, equally distributed between the 
+United Kingdom and the United States, we contribute to the development of such an 
+understanding in two ways. First and foremost, we conduct an empirical and causal evaluation 
+RI KRPRVH[XDOLW\¶V signalling function for gay men as well as lesbian women within one 
+framework. Moreover, as a prerequisite to accomplishing this, we additionally contribute to the 
+literature by reviewing and structuring the literature on potential signals. As a second broader 
+
+
+ 
+4
+contribution, we go beyond a traditional investigation of sexual orientation discrimination¶s 
+moderators on the candidate, job and recruiter sides by testing the idea of a concentrated 
+discrimination account, whereby a minority of employers, who privately hold negative attitudes 
+towards gay men and lesbian women, are responsible for most instances of hiring 
+discrimination. 
+2. Data 
+To make these contributions, we conducted two vignette studies, one of which functioned as 
+a pre-study. Vignette studies are controlled experiments in a laboratory setting that integrate 
+experimental manipulations in a survey set-up. They are commonly employed to analyse 
+human decision-making in the context of hiring decisions (Kübler, Schmid, & Stüber, 2018; 
+Sterkens, Baert, Rooman, & Derous, 2021; Van Belle, Di Stasio, Caers, De Couck, & Baert, 
+2018; Van Borm, Burn, & Baert, 2021). In such experiments, participants evaluate fictitious 
+candidate profiles (vignettes) that vary across several characteristics (vignette dimensions, for 
+LQVWDQFHµMRE-UHOHYDQWH[SHULHQFH¶) on a predetermined number of levels (vignette levels, for 
+LQVWDQFHµ\HVQR¶ 
+Vignette experiments are favoured over administrative data when studying hiring 
+discrimination because they, in principle, enable a causal interpretation of candidate 
+manipulations ± whereas administrative worker data could vary by confounding characteristics. 
+Moreover, compared to correspondence experiments ± the golden standard for measuring 
+hiring discrimination (Neumark, 2018) ± vignettes facilitate the survey of SDUWLFLSDQWV¶WKRXJKW
+processes behind hiring decisions. Hence, vignettes are more suitable for testing explanations 
+for hiring discrimination, which is the aim of our study. 
+In contrast to prior experiments in a lab context on hiring discrimination against 
+homosexuals, which primarily featured student populations (Baert, 2018a; Binder & Ward, 
+2016; Pichler, Varma, & Bruce, 2010), our study features a much smaller body of experiments 
+in a lab setting among genuine HR professionals. Compared to the two vignette experiments 
+featuring HR professionals (Barron, 2009; Van Hoye & Lievens, 2003), our experiment is 
+methodologically innovative as ZH PDQLSXODWHG WKH FDQGLGDWHV¶ VH[XDO RULHQWDWLRQ ZLWKLQ
+subjects so that each participant had to evaluate four candidates with a different sexual 
+orientation (see Subsection 2.2). Our vignette experiment is also substantively innovative in 
+comparison to studies by Barron (2009) and Van Hoye and Lievens (2003) because we not 
+only measure hirability but also, and very specifically, the candidate perceptions related to gay 
+men and lesbian women which could explain their hirability. Although the experimental control 
+
+
+ 
+5
+installed by a lab environment allows researchers to isolate variables and elaborately survey 
+its participants, laboratory settings are also particularly susceptible to social desirability bias 
+µWKHNQRZOHGJHRIEHLQJREVHUYHGPRWLYDWHVSDUWLFLSDQWVWREHKDYHLQZD\VWKDWDUHVRFLDOO\
+DSSURYHG RI UHJDUGOHVV RI WKHLU SULYDWH EHOLHIV¶ 7KURXJKRXW 6HFWLRQ , we discuss the 
+measures taken to limit such bias such as multiple manipulations (Subsection 2.2) and the 
+administration of a social desirability scale (Subsection 2.4). Finally, we return to a discussion 
+of social desirability in Section 4.  
+2.1. Pre-study 
+To investigate the signalling function of homosexuality and the explanatory potential of signals 
+for hiring probabilities, we systematically reviewed the literature for potential signals emitted 
+by homosexual job candidates. We identified a total of 70 characteristics (see Appendix Table 
+1). However, presenting each of these candidate perceptions as items to recruiters would have 
+put unreasonable cognitive demands on participants, especially given our within-subjects 
+design whereby each recruiter evaluated and shared their perceptions of multiple job 
+candidates (Subsection 2.2). After all, as Bethlehem and Biffignandi (2012) explain, research 
+requiring excessive cognitive effort jeopardises both the response rate and data quality due to 
+UHVSRQGHQWV¶VDWLVILFLQJWHQGHQFLHVi.e. the µOHVVDWWHQWLYHDQVZHULQJRILWHPV¶.  
+Consequently, we conducted a pre-study in which we applied item reduction 
+techniques to filter out the signals that fit three criteria: applicability, relevance to the work 
+context and limited overlap. First, when reviewing the literature we traced back studies as early 
+as 1976 but limited ourselves to the investigation of those signals applicable to homosexuality 
+as commonly perceived by contemporary recruiters. Second, although the identified signals 
+span a broad range of characteristics, not all of these characteristics are necessarily relevant 
+to the work context. For example, participating recruiters indicated that non-conformism and 
+the need for security are fairly irrelevant. Third, we retained those signal items that showed a 
+limited overlap with one another because research on social cognition has evidenced that there 
+are dimensions underlying stereotypes of homosexuality (Fiske, Cuddy, & Glick, 2007). 
+Therefore, we excluded passiveness as a signal as we already took the opposite signal, 
+namely assertiveness, into account. 
+2.1.1. Data collection 
+We conducted our pre-study in the form of an online survey and followed an approach 
+comparable to the development of the Sexual Prejudice Scale (Chonody, 2013). Employing 
+the services of the online panel service Prolific (Palan & Schitter, 2018; Peer, Brandimarte, 
+Samat, & Acquisti, 2017), 50 British and 50 American individuals experienced in making 
+
+
+ 
+6
+recruitment decisions (hereafter referred to as recruiters) completed our pre-VWXG\¶V four sets 
+of questions. In the first three batteries, recruiters indicated the degree to which they agreed 
+with 70 statements concerning the characteristics of (1) the average gay man, (2) the average 
+lesbian woman and (3) the relevance of each characteristic to a hiring decision. For example, 
+approachability, eccentricity, group orientation, honesty, intelligence and social competence 
+were assessed ± the full list is presented in Appendix Table 1 ± employing a 6-point response 
+scale, ranging from strongly disagree (score 1) to strongly agree (score 6).1 The fourth battery 
+was used to register WKHSDUWLFLSDQW¶VVRFLR-demographics: gender (male, female, non-binary 
+or third gender, prefer not to say); age in years (numbers); nationality (British, American, other); 
+level of education (no diploma, high school, bachelor, masters, PhD); and sexual orientation 
+(lesbian woman, gay man, bisexual, heterosexual, other, prefer not to say).  
+2.1.2. Signal elimination procedure 
+The item reduction process consisted of four subsequent phases ± the results of which are 
+presented in Appendix Table 1. In the first phase, we strictly filtered out perception items based 
+on descriptives. More concretely, items that were, on average, perceived by recruiters as 
+irrelevant to a hiring decision or inapplicable to gay men or lesbian women (i.e. an average of 
+below 3) were dropped. Hence, we eliminated 23 items. In this step, we dropped a further four 
+items because they were close approximations of overall hireability and, therefore, of the hiring 
+decision to be made in the experiment (for example µeffective performance of job-related 
+tasks¶).  
+Next, the second phase of the elimination procedure involved a re-examination of the 
+item pool following factor analyses on the evaluations of signals for gay men and lesbian 
+women separately. Here, we dropped two items (Appendix Table 1, column (4)) because they 
+deviated from the factor structures emerging for either gay men or lesbian women (i.e. 
+µQRQFRQIRUPLVW¶had a factor loading lower than .35) or were empirical opposites of other signals 
+(i.e. µSDVVLYH¶ZDVGURSSHGLQH[FKDQJHIRUµDVVHUWLYH¶ 
+In the third phase of the eliminations, we discussed emerging themes within the signal 
+factors from the previous step µIDFWRU LQWHUSUHWDWLRQ¶ and based the selection on item 
+interpretations and their underlying correlations. As is evident from Appendix Table 1, 17 
+original items were summarised in five QHZO\JHQHUDWHGLWHPVµHPSDWK\¶µFUHDWLYLW\¶µORYLQJ
+and VRIW¶µVHOI-DZDUHQHVV¶ DQGµHPRWLRQDOLW\¶) that fit the factor structures. Furthermore, after a 
+                                               
+1 Our 6-point response scale did not contain a neutral option, thus forcing respondents to 
+express (dis)agreement with statements. This is common practice when measuring socially-
+sensitive attitudes (Chonody, 2013). 
+
+
+ 
+7
+re-examination of the correlation matrixes, we dropped another four items because they 
+showed a substantial overlap with other signals and had limited relevance to the hiring decision 
+(average below 3.250). 
+In the fourth and final phase, the face validity of each individual item was scrutinised. 
+Consequently, we excluded five more items because, from experiences in the field, these 
+candidate characteristics were less likely to be gauged from the earlier phases of resume 
+screening (e.g. how individualistic a candidate is).  
+The remaining 20 items were subjected to the evaluation of a set of labour market 
+experts. Based on their suggestion of a health stigma surrounding homosexuality, we agreed 
+on a reduction of the 70 initial items to the following 21 potential signals of being a gay or 
+lesbian job candidate: social skills, assertiveness, outspokenness, dominance, independence, 
+competitiveness, leadership abilities, team orientation, empathy, loving- and softness of 
+personality, emotional sensitivity, neatness, intelligence, open-mindedness, creativity, 
+talkativeness, honesty, professionalism, self-awareness, career orientation and current health. 
+2.2. Vignette design 
+In our main experiment, recruiters indicated their judgements and perceptions of four fictitious 
+job candidates µYLJQHWWHV¶ who varied, among other characteristics, in their sexual orientation. 
+In total, our profiles consisted of seven dimensions, summarised in Table 1 below. This 
+multidimensionality serves a three-fold purpose. First, we more concretely mimic the 
+complexity of real-life hiring decisions, enabling a causal analysis of candidate-side 
+moderators of hiring probabilities and, even more crucially, counteracting social desirability 
+bias. That is, through multiple manipulations in addition to sexual orientation, recruiters were 
+forced to make trade-offs between dimensions. This, in turn, makes it harder for participants 
+to select candidates in a socially desirable manner (Auspurg & Hinz, 2014), thus addressing a 
+recurring point of critique on prior discrimination experiments conducted in the lab (Section 1). 
+ 
+Our candidates¶ sexual orientation was signalled to recruiters through the first two 
+dimensions of the vignettes, namely gender (man, woman) and marital status (married to [male 
+name], married to [female name], married).2 Compared to earlier experimental manipulations 
+RI VH[XDO RULHQWDWLRQ VXFK DV µLQYROYHPHQW LQ /*%7 RUJDQLVDWLRQ¶ (Ahmed, Andersson, & 
+Hammarstedt, 2013; Barron & Hebl, 2013; Binder & Ward, 2016 RU µUHIHUHQFH WR /*%7
+scholarship programme¶ Barron, 2009; Cunningham, Sartore, & McCullough, 2010), our 
+                                               
+2 The (fe)male names used to indicate their marital partner were (Sarah Adams, Ellen 
+Jones) James Bell and Oliver Smith. We randomly added gender names to avoid combinations 
+of vignettes where multiple candidates were married to equally named partners. 
+
+
+ 
+8
+operationalisation has the advantage of providing a more unambiguous signal of sexual 
+orientation. Disclosing an affiliation with an LGBT organisation could bias the results as a meta-
+analysis of 12 correspondence experiments concerning sexual orientation suggests that 
+unequal treatment is mainly driven by the signalling of an affiliation rather than homosexuality 
+in itself (Lippens, Vermeiren, & Baert, 2021). We discuss this point further in Subsection 3.2.2. 
+The third dimension revealed WKHFDQGLGDWH¶VDJH in years (33, 38, 43, 48). To support 
+the ecological validity of the experiment by avoiding overly similar profiles, we randomly 
+adjusted each of the four age levels by adding or subtracting two years (Sterkens et al. 2021). 
+Apart from age being a logical element in a job application, previous research findings have 
+been mixed regarding the moderating effect of age on sexual orientation-based discrimination 
+(Baert, 2014; Drydakis, 2009; Laurent & Mihoubi, 2017). 
+Next, our fourth dimension was relevant job experience in the past five years (0 years, 
+2 years, 5 years)$VDSRVLWLYHDQGVLJQLILFDQWSUHGLFWRURIFDQGLGDWHV¶MRE-related competence 
+(Dokko, Wilk, & Rothbard, 2009), experience was another logical addition to ecologically valid 
+candidate profiles. WHOLPLWHGWKHSURILOHV¶ experience record to the past five years to avoid 
+any unreasonable comparisons of candidates applying to the same vacancy. 
+As a fifth dimension, ZHPDQLSXODWHGFDQGLGDWHV¶ODQJXDJHNQRZOHGJH besides English 
+(None, French, Spanish). Again, mentioning the FDQGLGDWHV¶ ODQJXDJH PDVWHU\ was an 
+ecologically valid addition to the vignettes (Oreopoulos, 2011; Sterkens et al., 2021). 
+Furthermore, language mastery may further amplify JD\PHQV¶DQGOHVELDQZRPHQV¶expected 
+signalling functions of, for instance, social skills and outspokenness (Appendix Table 1). The 
+decision to include French and Spanish as levels was based on Looney and Lusin (2019), who 
+found that these languages were popular among Americans. 
+Similar to the language dimension, our sixth dimension, namely professional 
+achievements at the previous employer (none, diversity ambassador within the organisation, 
+employee of the month award) further underlined our aim to construct ecologically valid 
+candidate profiles. However, in addition to contributing to the construction of solid candidate 
+profiles, the diversity ambassador level enabled methodologically-interesting moderation 
+analyses. More specifically, earlier vignette experiments have used involvement in LGBT-
+UHODWHGSURIHVVLRQDODFWLYLW\DVDPDQLSXODWLRQRIFDQGLGDWHV¶VH[XDORULHQWDWLRQ (Tilcsik, 2011). 
+Consequently, our experimental data created opportunities to test whether discrimination and 
+signalling in more ambiguous manipulations of sexual orientation (via involvement in diversity-
+related actions) are comparable to the effects of more straightforward manipulations (via 
+reference WRWKHSDUWQHU¶VJHQGHU 
+The seventh and final dimension of our candidate profiles was extra-curricular activities 
+(wrestling, gymnastics, tennis, volunteering to distribute food for the local community, 
+volunteering at an LGBTQ rights organisation, none) and was developed analogous to earlier 
+
+
+ 
+9
+vignette experiments (Di Stasio, 2014; Van Belle et al., 2018). We chose the different levels 
+containing sports based on their typical gender assignment (Katsarova, 2019; Smith, Thurston, 
+Green, & Lamb, 2007; Sobal & Milgrim, 2017) such that they signal the gender (in)congruent 
+behaviours of candidates and may consequently affect recruiters¶ evaluations and perceptions 
+(Fric, 2017). Alternatively, practising sports could serve as a positive signal indicating a healthy 
+candidate (Schulte-Hostede, Eys, Emond, & Buzdon, 2012) and, thus, counteract the potential 
+health stigma surrounding homosexuality. /DVWO\WKHOHYHOµYROXQWHHUing at an LGBTQ rights 
+RUJDQLVDWLRQ¶LV\HWDQRWKHUWHFKQLTXHWKDWKDVEHHQXVHGLQSULRUH[SHULPHQWVWRPDQLSXODWH
+candidateV¶ sexual orientation (Berger & Kelly, 1981; Everly et al., 2016). As discussed above, 
+this creates opportunities to compare whether and how the different manipulations of sexual 
+orientation in the literature might affect hiring outcomes and candidate perceptions. 
+ 
+Combined, these manipulations made for a 2 (gender) × 3 (marital status) × 4 (age) × 
+3 (relevant experience) × 3 (languages) × 3 (professional achievements) × 6 (extra-curricular 
+activities) vignette design. Because it would be unfeasible for recruiters to adequately judge 
+all 3888 vignettes (vignette universe), we provided each participant with one systematically 
+selected subsample of vignettes (decks). Of the 30 decks we constructed, each one consisted 
+out of four different job candidates and was selected using a D-efficiency algorithm (Auspurg 
+& Hinz, 2014). This algorithm ensured that the entirety of decks could be analysed with a 
+precision similar to that of the vignette universe and established low-to-zero correlations 
+between the experimental manipulations. Our application of the D-efficiency algorithm resulted 
+in a D-efficiency of 98.494 out of 100 and was, hence, considered successful (Auspurg & Hinz, 
+2014). 
+[Table 1] 
+2.3. Vacancy design 
+The experimental assignment required recruiters to evaluate one deck of carefully crafted 
+candidates for one out of twelve fictitious vacancies. We developed these vacancies based on 
+the literature regarding occupational moderators in hiring discrimination against gay men and 
+lesbian women. Our vacancy descriptions varied by three such potential moderators, namely 
+gender-type of the occupation (male-dominated, female-dominated, gender-neutral), degree 
+of customer contact (high, low) and diversity statement (present, absent). 
+According to, among others, Pellegrini and colleagues (2020) and Mishel (2020), 
+homosexual and heterosexual job candidates are evaluated differently in gender-typed work 
+contexts. To examine whether these propositions hold, we considered a job to be (fe)male-
+dominated if, according to The United States Department of Labor (2021), at least 80.0% of its 
+incumbents were (fe)male. Likewise, we considered jobs gender-neutral when 45.0 to 55.0% 
+
+
+ 
+10 
+of the incumbents were (fe)male. 
+Next, applying the theory of taste-based discrimination (Section 1), some employers 
+discriminate against gay men and lesbian women because of their own prejudices or those of 
+WKHRUJDQLVDWLRQ¶VFOLHQWHOH. In line with this argument, Baert (2014) and Mishel (2020) found 
+that employers are more prone to discriminate against homosexuals in contexts of high 
+customer contact. To identify jobs with high (low) levels of customer contact, we consulted 
+21(72QOLQH¶s occupational database and filtered out jobs with the 30.0% highest (lowest) 
+scores for WKHµ&XVWRPHU	3HUVRQDO6HUYLFH¶IDFWRU 
+Whereas six of the fictitious vacancies contained a diversity statement in their 
+descriptions, the other six did not. Our manipulation, namely the addition of µ$V3HWHUVRQ,QF
+maintains an equal opportunities and diversity policy, everyone is encouraged to apply for this 
+position.¶, was a direct adaptation of a phrase employed in actual university vacancies. Based 
+on the findings of Umphress and colleagues (2008) that a directive from an authority could 
+suppress discriminatory tendencies in a selection context, a vacancy containing a diversity-
+friendly statement might provide recruiters with a comparable stimulus to suppress any 
+discriminatory decision-making regarding homosexual candidates¶DSSOLFDWLRQV µMXVWLILFDWLRQ-
+suppression PRGHO¶&UDQGDOO	(VKOHPDQ). 
+Applying our selection criteria to the occupational data from O*NET and The United 
+States Department of Labor (2021), we selected the following job titles: (1) nurse; (2) legal 
+secretary and administrative assistant; (3) telecommunication line installer and repairer; (4) 
+cabinetmaker and bench carpenter; (5) property, real estate and community association 
+manager; and (6) molecular and cellular biologist. Finally, we adapted vacancy texts from each 
+RFFXSDWLRQ¶VUHVSHFWLYH21(7GHVFULSWLRQ. The complete vacancy texts can be consulted in 
+the online appendix. 
+2.4. Data collection 
+Our experimental set-up was integrated into an online µ4XDOWULFV¶survey which was distributed 
+in May 2021 among recruiters using the professional panel services from Prolific (Palan & 
+Schitter, 2018; Peer et al. 2017). To avoid sensitising recruiters to the topic of our study and 
+discourage socially desirable responses, the invitation to partake in the experiment contained 
+no reference to homosexuality nor to discrimination. Using the same selection criteria as our 
+pre-study (Subsection 2.1.1), we collected responses from 206 American and 202 British 
+recruiters. Of the 408 participants, four individuals were excluded during the analyses because 
+
+
+ 
+11 
+they failed the attention check by not indicating µVWURQJO\DJUHH¶DVUHTXHVWHG in a survey item. 
+2.5. Procedure 
+In the following paragraphs, we discuss the implementation of our experimental materials in 
+the flow of our survey. On average, recruiters took 14 minutes to complete all four phases of 
+the study, namely the (1) introduction, (2) experimental instructions and vacancy, (3) candidate 
+evaluations and (4) post-experimental questionnaire. 
+2.5.1 Introduction to the experiment 
+An introductory screen informed participants about the expected length of the survey (17 
+minutes) and their rights regarding GDWDSURWHFWLRQ$VDUHVXOWRI3UROLILF¶VSROLFLHVZHFRXOG
+also assure the participants that their identity remained hidden from the researchers ± and 
+further discourage social desirable responding. After providing their consent to study 
+participation, recruiters proceeded to the second phase of the study. 
+2.5.2 Experimental instructions and vacancy 
+On a second screen we outlined the experimental scenario we set up for the current 
+experiment. Recruiters were asked to imagine themselves in the following situation:  
+µ<RX DUH ZRUNLQJ DV D UHFUXLWHU IRU µ3HWHUVRQ ,QF¶ <RXU RUJDQLVDWLRQ LV FXUUHQWO\
+running a project on innovative recruitment practices. More specifically, HR is trialling 
+an artificially intelligent web and resume scraper. When someone applies for one of 
+the organisDWLRQ¶V YDFDQFLHV WKH VRIWZDUH SDFNDJH VXSSRUWV WKH UHFUXLWHU E\
+automaticDOO\VFDQQLQJµVFUDSLQJ¶WKHDSSOLFDQWV¶UHVXPHDQGVRFLDOPHGLDDFFRXQWV 
+± when given permission ± and then compiling a brief tabulated candidate summary.¶ 
+We carefully considered this scenario to provide recruiters with an ecologically valid 
+explanation for having clear NQRZOHGJHRIFDQGLGDWHV¶VH[XDORULHQWDWLRQ,QGHHGSXEOLFVRFLDO
+media accounts on, for example, Facebook, often disclose theLURZQHUV¶ sexual orientation and 
+are frequently consulted by potential employers (Acquisti & Fong, 2021; Baert, 2018b). Of 
+FRXUVHLQGRLQJVRRXUVWXG\¶VILQGLQJVSULPDULO\SHUWDLQWRKRPRVH[XDOFDQGLGDWHVZLWKD
+partner in marriage. 
+After being immersed in the experimental context, participants were randomly assigned 
+to one of the fictitious vacancy descriptions discussed in Subsection 2.3. Subsequently, they 
+received the instruction to select candidates for a first job interview. To avoid any confusion 
+over FDQGLGDWHV¶D-priori suitability, the recruiters were told that the software package correctly 
+compiled the candidate profiles and had already filtered out those candidates who were 
+
+
+ 
+12 
+unsuitable based on objective job requirements ± such as required educational background 
+and professional experiences.  
+2.5.3. Candidate evaluations and perceptions  
+Following the details of their fictitious hiring assignment, the recruiters evaluated four different 
+candidate profiles. As such, they were randomly assigned to one out of the thirty vignette decks 
+discussed in Subsection 2.2. The evaluation of the candidates was organised as follows: each 
+candidate and its associated question battery was displayed on a separate screen; recruiters 
+were then free to move between the four screens.  
+The question battery the recruiters completed per candidate consisted of three sets of 
+statements: (1) hiring probabilities, (2) perceived attitude towards collaboration and (3) 
+candidate perceptions. Their agreement with each statement was rated on 10-point scales, 
+ranging from strongly disagree (score 1) to strongly agree (score 10). We include an overview 
+of our question battery in Appendix Table 2. First, following Baert (2018a) and Di Stasio (2014), 
+we gauged hiring probabilities through two statements, one measuring the likelihood they 
+would invite the candidate for a fiUVWMRELQWHUYLHZµLQWHUYLHZSUREDELOLW\¶ and the other the 
+likelihood they would eventually hire the VDLGFDQGLGDWHµKLULQJSUREDELOLW\¶  
+6HFRQGZHHPSOR\HGWKUHHVWDWHPHQWVĮ WRPHDVXUHSHUFHLYHGDWWLWXGHV
+towards collaboration as the theory of taste-based discrimination cites three sources of 
+prejudice in collaboration with gay men and lesbian women: the employer, colleagues and 
+clients (Sterkens et al. 2021). Given the high correlations between the attitude items, they were 
+bundled in a single attitude-towards-collaboration scale. Nonetheless, analyses with separate 
+attitude items were also conducted. 
+Third, and central to our design, were the 21 statements measuring candidate 
+perceptions. In this phase of the experiments, we implemented our systematically-selected list 
+of items from the pre-study (Section 2.1) to collect causal evidence for the signalling function 
+RIFDQGLGDWHV¶VH[XDORULHQWDWLRQGXULQJWKHKLULQJSURFHVV%DVHGRQWKHWKHRU\RIlevels-based 
+statistical discrimination, each of these potential signals might be (part of) the explanation for 
+hiring discrimination against gay men and lesbian women. Within this set of statements, we 
+wordily aligned all items to exclude noise due to varying item formulations. Furthermore, we 
+avoided order effects by randomising the order in which items were presented to recruiters. 
+2.5.4. Post-experimental questionnaire 
+In a final step, the recruiters filled out a post-experimental questionnaire. We used the data 
+collected via these items to explore recruiter-side moderators of hiring discrimination and the 
+execution of robustness checks. 
+
+
+ 
+13 
+Socio-demographic variables surveyed were gender (male, female, non-binary / third 
+gender, prefer not to say); age in year, educational degree (primary, lower secondary, higher 
+secondary, bachelors, masters, PhD) and sexual orientation (heterosexual, lesbian woman, 
+gay man, bisexual, other, prefer not to say). Subsequently, we surveyed UHFUXLWHUV¶
+professional experiences, namely hiring tenure (less than 1 year, 1 to 5 years, more than 5 
+years) and frequency (none, between 1 and 5 times per year, more than 5 times per year). 
+Next, we incorporated two measures of WKHUHFUXLWHUV¶H[SHULHQFHVZLWKgay men and 
+lesbian women. As such, we administered the West and Hewstone (2012) scale for contact 
+with gay people. This scale contained four items scored on a 7-point Likert scale from no 
+contact at all to very frequent contact (under non-COVID circumstances). Each of these items 
+referred to different contexts (at school/work, daily superficial social contact, intimate social 
+situations, all sorts of social situations) in which participants had contact with gay men and 
+lesbian women. 6XEVHTXHQWO\ZHDYHUDJHGSDUWLFLSDQWV¶VFRUHVLQto a single scale score, 
+ranging from one to seven.  
+However, we not only measured the frequency of contact with homosexuals but also 
+WKH UHFUXLWHUV¶ SULYDWH DWWLWXGHV, employing the Modern Homonegativity Scale (MHS), 
+developed by Morrison and colleagues (1999$VDYDOLGDWHGPHDVXUHRILQGLYLGXDOV¶DWWLWXGHV
+towards homosexuals, it measured the covert negative attitudes of participants towards 
+homosexuality, for example µHomosexuals seem to focus on the ways in which they differ from 
+heterosexuals and ignore the ways in which they are the same.¶ As such, we asked participants 
+to which degree they agreed with each of WKHVFDOH¶V 12 items on a 5-point Likert scale, ranging 
+from strongly disagree (score 1) to strongly agree (score 5). We once again merged the 
+individual item responses into an average scale score, whereby a higher score indicated a 
+stronger endorsement of modern homonegative attitudes (McCutcheon & Morrison, 2015). 
+Among these 12 items, we implemented an additional attention check, asking the participants 
+WRLQGLFDWHWKHRSWLRQµsWURQJO\DJUHH¶ (Subsection 2.4). 
+Another crucial addition to our post-experimental questionnaire was 5H\QROGV¶
+shortened Marlowe±Crowne Social Desirability Scale, which we used to measure the 
+SDUWLFLSDQW¶V VRFLally desirable response tendencies. For each of the 13 items expressing 
+behaviour that is either culturally approved or sanctioned (e.g. µI sometimes try to get even 
+rather than forgive¶), we asked participants to indicate whether the statements were applicable 
+to them (true, false). This scale is a regularly implemented and validated instrument across 
+different contexts (Beretvas, Meyers, & Leite, 2002; Van Borm & Baert, 2018). The total score 
+on this scale is calculated as the sum of all statements indicated as true. Subsequently, we 
+standardised this number. 
+The final scale we administered to the recruiters measured their level of risk aversion. 
+We implemented %DHUW¶VDDGDSWDWLRQ of the Domain-Specific Risk-Taking Scale (Blais 
+
+
+ 
+14 
+& Weber, 2006) when investigating hiring discrimination against gay men. This adaptation 
+contained six different items, each describing a professional risk (e.g. µVtarting a new career in 
+your mid-thirties¶). Each item was rated by participants for the likelihood they would engage in 
+this type of behaviour (1, extremely unlikely; 7, extremely likely). The weighted average of all 
+item scores resulted in a global risk-taking score. 
+2.6. Data description 
+Before presenting the results of our main analyses, we briefly discuss the experimental data 
+we collected. Because of the random allocation of our vignette decks and fictitious vacancies, 
+ZHH[SHFWHGORZFRUUHODWLRQVEHWZHHQWKHILFWLWLRXVFDQGLGDWHV¶VH[XDORULHQWDWLRQMREDQG
+recruiter variables. The statistically insignificant t-tests and chi-squared tests presented in 
+Table 2 below confirm the success of our experimental setup. Moreover, the D-efficiency 
+DOJRULWKP¶VVXFFHVVLVDOVRGHPRQVWUDWHGE\WKHORZFRUUHODWLRQEHWZHHQFDQGLGDWHdimensions 
+(maximum 0.093). 
+[Table 2] 
+7KHUHFUXLWHUFKDUDFWHULVWLFVSDQHOIURP7DEOHIXUWKHUGHVFULEHVWKHVDPSOH¶VFRPSRVLWLRQ
+On average, recruiters were 44.156 years old. They identified themselves as male (50.0%), 
+female (49.0%) or other gender identities (1.0%). The vast majority of the recruiters considered 
+themselves heterosexual (88.9%). Of the different levels of education, bachelor's degrees 
+(47.0%) were the most common. Participants possessed considerable tenure in making hiring 
+decisions. In this study, 48.3% of the sample reported having more than five years of 
+experience. Notably, 49.5% of the recruiters did not evaluate any candidates in the last year ± 
+this substantial share might be explained by hiring freezes initiated because of the COVID-
+pandemic (Campello, Kankanhalli, & Muthukrishnan, 2020). Furthermore, our descriptive 
+statistics suggest that the average participant had ± at least ± occasional contact with gay men 
+and lesbian women (average 3.680, maximum 7) and harboured non-negative attitudes 
+towards homosexual individuals (MHS average 2.204, maximum 5). 
+3. Results 
+3.1. +RPRVH[XDOLW\¶V effect: bivariate analyses 
+We commence our analyses with bivariate analyses of WKHHIIHFWRIFDQGLGDWHV¶KRPRVH[XDO
+orientation on recruiter evaluations and perceptions. A discussion of evaluation and perception 
+
+
+ 
+15 
+averages per combination of sexual orientation and gender (KHUHDIWHUUHIHUUHGWRDVµVH[XDO
+LGHQWLW\¶) is statistically sensible because the randomisation of the other study variables was 
+successful (Subsection 2.6). In Figure 1 below, we present 26 histograms ± one for each of 
+the evaluation and perceptions items. Per item, the Kruskal±Wallis equality-of-populations rank 
+test determines whether there are statistically significant differences between two or more 
+sexual identities. First, the chi-squared test values for interview (Ȥ(3) = 5.867, p = 0.118) and 
+hiring (Ȥ (3) = 5.171, p = 0.160) probabilities suggest that, on average, homosexual 
+candidates are not disadvantaged in our experiment compared to their heterosexual 
+counterparts, though this is not the focus of the present study. 
+In contrast, the test results for the three items measuring attitudes towards 
+collaboration (each p-value is lower than 0.001) reveal differences between both groups of 
+homosexual candidates, which further aligns with the idea of a heterogeneous hiring 
+disadvantage of LGBTQ-individuals over heterosexuals. We find that collaborations between 
+lesbian job candidates and employers (M = 6.507), other employees (M = 6.548) and clients 
+(M = 6.567) are rated the most favourably, whereas collaborations between gay men and 
+employers (M = 5.216), other employees (M = 5.280) and clients (M = 5.138) attained the 
+lowest average rating across all four sexual identities we investigated. 
+ 
+In general, an examination of the 95% confidence intervals calculated around the 
+average perceptions scores (by means of a Kruskal±Wallis test) indicates particularly distinct 
+and rather favourable images of gay men and lesbian women. Indeed, on average, both 
+homosexual male and female candidates are perceived as more assertive, outspoken, open-
+minded, creative and honest than heterosexuals.  
+Next, another side-by-side comparison of the confidence intervals calculated around 
+the average perceptions scores reveals that lesbian women are perceived as more dominant, 
+independent and self-aware than gay men. Gay men, conversely, are perceived as showing 
+more empathy in collaborations, having a soft and loving personality, and being more neat and 
+talkative. Our finding that gay men possess more traits that are predominantly associated with 
+female gender roles ± the opposite applying to lesbian women ± highly corroborates earlier 
+research from Blashill & Powlishta (2009). In addition to the differences we find in average 
+candidate perceptions, the Kruskal±Wallis tests report no significant differences between 
+sexual identities in perceptions of : leadership skills, professionalism, career orientation and 
+current health.  
+We study these differences in perception by sexual orientation more rigorously based 
+on the multivariate analyses presented in the following subsection. Moreover, we describe to 
+
+
+ 
+16 
+what extent these perceptions are considered in the experimental recruitment decision. 
+ 
+[Figure 1] 
+3.2. +RPRVH[XDOLW\¶VHIIHFWPXOWLYDULDWHDQDO\VHV 
+In what follows, we first conduct multivariate analyses on (1) the signalling function of sexual 
+identity and (2) signalling as an explanation for differences in hiring probabilities (Subsection 
+3.2.1). Subsequently, we explore heterogeneity in the effects of sexual identity on interview 
+probabilities (Subsection 3.2.2). For all multivariate analyses we conducted, the standard 
+errors are corrected for clustering of the observations at the recruiter level. 
+From our bivariate analyses we cannot conclude any overall differences in interview 
+and hiring probabilities across the four sexual identities. However, when we fit a multivariate 
+linear regression model of interview probabilities on the candidate, vacancy and recruiter 
+variables discussed in Section 2, we do find a statistically significant difference in interview 
+probability between the two identities with the most divergent scores on the interview item 
+presented in Figure 1. That is, lesbian job candidates have a 4.2 percentage point higher 
+interview probability (ȕ = 0.424 p = 0.012) than WKH UHJUHVVLRQ¶V reference category of 
+heterosexual males.3 Interview probabilities of other groups are not (gay men: ȕ = 0.251, p = 
+0.134) or marginally (heterosexual women: ȕ = 0.224, p = 0.072) significantly different from 
+those of heterosexual males. 7KHPRGHO¶VHVWLPDWHVDUHSUHVHQWHGLQ the first column of Table 
+4. 
+3.2.1. Multiple mediation analyses 
+Multiple mediation analyses enable us to reveal mediation effects that consider the 
+associations between the signals and the interview probabilities. We explore such indirect 
+effects by multiplying the effect estimates of sexual identity on the perception items with the 
+associations between those perception items and interview probability.4 Applied to the data, 
+                                               
+3 This interpretation is adequate because the evaluation and perception scales ranged from 
+0 to 10. 
+4 µ,QGLUHFWHIIHFW¶LVFRPPRQWHUPLQRORJ\LQWKHPHGLDWLRQOLWHUDWXUH+D\HV+RZHYHU
+these multiplications should be interpreted as associations. More concretely, the data based 
+on our experimental setup is limited to the causal interpretation of relationships between (1) 
+ 
+
+
+ 
+17 
+the multiple mediation framework consists of 23 linear regressions. Twenty-two of these 
+regress candidate perceptions and the attitude scale on the candidate, vacancy and recruiter 
+characteristics. The 23rd regression then regresses these scales and the candidate, vacancy 
+and recruiter characteristics on interview probability.5 Appendix Table 3 shows the full 
+estimation results of this analytical procedure. The estimates of the mediation effects based 
+on a bootstrapping procedure are presented in Table 3. 
+In our comparison of gay and heterosexual men, the first columns of Appendix Table 3 
+provide empirical and causal evidence for the majority of the perceptions identified in the 
+literature (Subsection 2.1). Compared to heterosexual men, gay men are perceived as having 
+more advanced social skills (ȕ = 0.265, p = 0.020), being more outspoken (ȕ = 0.430, p < 
+0.001), having more of a team orientation (ȕ = 0.241, p = 0.043), showing more empathy in 
+collaboration (ȕ = 0.299, p = 0.009), having a loving and soft personality (ȕ = 0.450, p < 0.001), 
+and being more emotionally sensitive (ȕ = 0.681, p < 0.001), neat (ȕ = 0.433, p < 0.001), 
+intelligent (ȕ = 0.242, p = 0.028), open-minded (ȕ = 0.764, p < 0.001), creative (ȕ = 0.447, p < 
+0.001), talkative (ȕ = 0.671, p < 0.001), honest (ȕ = 0.276, p = 0.011) and self-aware (ȕ = 
+0.396, p = 0.001). Conversely, we also find that, compared to heterosexual men, again, 
+collaborations with gay men are regarded more negatively (ȕ = í, p < 0.001) and they 
+are ± marginally significantly ± perceived to be less dominant (ȕ = í0189, p = 0.098). Moreover, 
+we find no empirical evidence that gay men and heterosexual men are generally perceived as 
+differing in assertiveness, independence, competitiveness, leadership skills, professionalism, 
+career orientation or current health. 
+The mirror image of these comparisons, where additional F-tests contrast the 
+perceptions of lesbians against heterosexual women, yields equally interesting results. 
+Compared to heterosexual women, lesbian job candidates are generally perceived by 
+recruiters as being more pleasant to collaborate with (p < 0.001) and more assertive (p < 
+0.001), outspoken (p < 0.001), dominant (p = 0.010), independent (p = 0.005), open-minded 
+(p < 0.001) and self-aware (p = 0.002). Notably, only the signal of having a loving and soft 
+personality was less applicable than for heterosexual women (p = 0.041). In these 
+comparisons, however, we find no empirical evidence for the remaining signal items: advanced 
+social skills, competitiveness, possessing effective leadership skills, displaying a team 
+orientation, showing empathy in collaborations, emotional sensitivity, being neat, intelligent, 
+                                               
+sexual identity and perception items, and (2) sexual identity and the interview probability. We 
+discuss this matter further in Section 4. 
+5 Conclusions are comparable when employing the hiring probability as the dependent 
+variable. 
+
+
+ 
+18 
+creative, talkative, honest, perceived professionalism, having a career orientation and current 
+health. 
+Taken together, our results show that recruiters ± in general ± derive desirable 
+candidate characteristics from homosexuality. It appears that homosexuality could be regarded 
+as a subtle complement to most recruiters¶ gender-driven candidate perceptions. This seems 
+particularly the case for lesbian women who are perceived as similar to heterosexual women 
+in terms of many of the characteristics associated with female-gender role characteristics (e.g. 
+displaying empathy in collaborations) but also score higher on certain perceptions associated 
+with the male gender role (e.g. dominance).  
+ 
+[Table 3] 
+ 
+The final column of Appendix Table 3 shows, however, that only some of these 
+candidate perceptions are significantly associated with interview probabilities. This results in 
+only four mediation effects being statistically significant at the 5% significance level. The 
+negative perception of collaboration with gay men is associated with lower interview 
+probabilities (ȕ = ±0.163, p < 0.001) and the positive perception concerning lesbian women is 
+associated with higher interview chances (ȕ = 0.136, p < 0.001). Moreover, interview 
+probabilities are negatively associated with the signal of KRPRVH[XDOFDQGLGDWHV¶perceived 
+outspokenness (gay men: ȕ = ±0.041, p = 0.040; lesbian women: ȕ = ±0.054, p = 0.038). This 
+finding may appear surprising, but it aligns with the recent meta-analysis of the field 
+experimental evidence on hiring discrimination by Lippens and colleagues (2021). That is, 
+WKHVHDXWKRUV¶ZHLJKWHGDYHUDJH, which indicates substantial hiring discrimination against gay 
+men and lesbian women, is mainly driven by field experiments in which same-sex orientation 
+is revealed by LGB+ organisation affiliation. This suggests that it is a signal of activism that is 
+punished rather than a signal of sexual orientation. Finally, JD\PHQ¶VSHUFHLYHGbetter social 
+skills are associated with higher interview probabilities, albeit at the 10% significance level only 
+(ȕ = 0.026, p = 0.090). 
+3.2.2. Moderation analyses 
+At first sight, the predominantly optimistic findings concerning the hiring probabilities and the 
+underlying candidate evaluations concerning homosexual candidates might appear to be at 
+odds with part of the literature. This, however, is not necessarily the case because moderators 
+could be in play. To test the moderating potential of candidate, vacancy and recruiter 
+characteristics, Table 4 presents the results of moderation analyses with interview probability 
+as the outcome variable. Column (1), as discussed above, contains parameter estimates 
+
+
+ 
+19 
+without interaction terms; in the subsequent columns, interaction terms with (2) candidate, (3) 
+vacancy and (4) recruiters are implemented separately. The fifth and final column contains the 
+results from the most complex regression model, in which all interactions are introduced jointly. 
+Our discussion below is based on this final model. 
+ The analyses with candidate characteristics reveal that, compared to heterosexual 
+men, gay men (ȕ = í, p < 0.001) and women (ȕ = í, p = 0.012) experience a lower 
+premium of having five years of experience in an occupation. One hypothetical explanation 
+could be that employers relate maturity-related perceptions, such as being more self-aware 
+and independent, to them anyway given their openness concerning their sexual identity. 
+Furthermore, we find evidence that certain professional achievements and extra-curricular 
+activities are appreciated differently for gay men and lesbian women. For instance, at the 10% 
+significance level, volunteering yields a lower hiring premium for gay men (ȕ = í1.149, p = 
+0.079). Conversely, when lesbian women took on diversity ambassadorship in a prior 
+workplace, they receive relatively lower interview probabilities (ȕ = í1.230, p = 0.067). The 
+latter finding might, again, be explained by a punishment for activism. Among gay men, no 
+such trend arises (ȕ = í0.367, p = 0.452).  
+We find no heterogeneity by the job vacancy dimension. Our studies herein contradict 
+the findings from, for example, Baert (2014) and Mishel (2020), who reported more hiring 
+discrimination in jobs where frequent customer contact is required from job incumbents. 
+When we examine the interaction terms between thHFDQGLGDWH¶Vsexual identity and 
+the recruiter characteristics we find, in particular, that recruiters¶ homonegative attitudes are 
+negatively associated with the interview probabilities of homosexual individuals. Although we 
+find consistent evidence for this association among lesbian job candidates in the fourth model, 
+including recruiter interaction terms (ȕ = í0.393, p = 0.033), and the fifth model with all 
+interaction terms (ȕ = í.443, p = 0.016), only the fourth model specifically does so for 
+homosexual men (ȕ = í0.414, p = 0.034). In contrast, no interaction effect is found between 
+UHFUXLWHUV¶ contact with homosexual individuals and their interview probabilities, which might 
+be explained by the fact that this contact experience possibly yields positive as well as negative 
+perception adjustments. ,Q DGGLWLRQ QR VLJQLILFDQW HIIHFWV DUH IRXQG EHWZHHQ UHFUXLWHUV¶
+nationality (British or American) and the interview probabilities of homosexual job candidates. 
+ 
+[Table 4] 
+ 
+Two trends in the data, namely (1) the overall non-negative effect of being a 
+homosexual candidate on hiring outcomes and (2) the small subsample of recruiters who 
+answered in the direction of harbouring homonegative attitudes (i.e. 13.6% of the sample 
+scoring more than one standard deviation above the average), align with the notion of a 
+
+
+ 
+20 
+concentrated discrimination account. This concept, as raised in contemporary work from 
+Campbell and Brauer (2021), suggests that the majority of discriminatory behaviours are 
+committed by a minority of individuals who repeatedly discriminate against homosexuals ± 
+which calls for a very focused anti-discrimination policy. 
+From the perspective of such a concentrated discrimination account, we complement 
+our analyses with an exploration of how recruiters more prone to discriminate ± as derived 
+from the interaction with homonegativity ± perceive homosexual candidates similarly and 
+differently from our general sample. We do so by employing moderation analyses with the 21 
+perception items, the 3 separate attitudes towards collaboration and the bundled attitude-
+towards-collaboration scale as outcome variables, and the candidate, vacancy and recruiter 
+variables as independent variables. Interaction terms between, on the one hand, the 
+FDQGLGDWHV¶VH[XDOLGHQWLWLHVDVJD\Pen and lesbian women and, on the other hand, recruiter 
+characteristics are added to our regression models. 
+Three notable trends regarding the interaction between homosexual candidates and 
+recruiters¶KRPRnegative attitudes emerge from the data presented in Appendix Table 4. We 
+find that, compared to the general sample, harbouring homonegative attitudes is associated 
+ZLWKLDGGLWLRQDOµQRYHO¶VLJQDOOLQJIXQFWLRQVRIKRPRVH[XDOLW\ and (ii) relatively less positive 
+signalling but also (iii) agreement RQ KRPRVH[XDOLW\¶V VLJQDOOLQJ IXQFWLRQ IRU various 
+perceptions ± regardless of attitude. 
+First, recruiters with homonegative attitudes are significantly more likely (at the 5% 
+significance level) to interpret the sexual identity of gay men and lesbian women as relatively 
+negative signals for leadership skills (gay men: ȕ   í OHVELDQ ZRPHQ ȕ   í.400), 
+professionalism (gay men: ȕ  í80; lesbian women: ȕ  í.416), career orientations (gay 
+men: ȕ  íOHVELDQZRPHQȕ  í.350) and current health (gay men: ȕ  í474; lesbian 
+women: ȕ   í.371), whereas, in the full sample, recruiters generally do not perceive 
+homosexual identities as signalling for these characteristics at all (Subsection 3.2.1). The same 
+trend applies to the competitiveness of gay men (ȕ  íEXW not to OHVELDQZRPHQ¶V
+competitiveness. 
+Second, whereas UHFUXLWHUV JHQHUDOO\ GHULYH SRVLWLYH VLJQDOV IURP FDQGLGDWHV¶
+homosexual identities, the recruiters expressing more homonegative attitudes derive relatively 
+fewer SRVLWLYHVLJQDOVIURPFDQGLGDWHV¶KRPRVH[XDOLGHQWLWLHV. More concretely, the latter think 
+more negatively about the intelligence (gay men: ȕ  í.410; lesbian women: ȕ  í.483), 
+social skills (gay men: ȕ  íOHVELDQZRPHQȕ  í.248), honesty (gay men: ȕ  í
+lesbian women: ȕ  í.312) and team orientation (gay men: ȕ  íOHVELDQZRPHQȕ = 
+í.324) of both homosexual identities. This is also the case for the perceived dominance (ȕ = 
+í.333), creativeness (ȕ  í.276) and self-awareness (ȕ  í.424) of homosexual men, and 
+for the perceived independence (ȕ   í.229) and employer collaboration (ȕ   í.410) of 
+
+
+ 
+21 
+homosexual women.  
+Third, recruiters with negative attitudes towards homosexuals appear to have similar 
+perceptions as other recruiters concerning ERWKJD\PHQ¶VDQGOHVELDQZRPHQ¶Vcollaboration 
+with other employees and clients, soft personality, emotional sensitivity, neatness, 
+talkativeness, open-mindedness and outspokenness. In conclusion, our data suggest that the 
+association between homonegative attitudes and signalling is of a rather complex nature as 
+we establish several points of convergence and divergence between the perceptions of 
+recruiters which vary in terms of homonegative attitudes. 
+ 
+[Figure 2] 
+ 
+Lastly, in response to vignette H[SHULPHQWV¶NQRZQVXVFHSWLELOLW\WRVRFLDOly desirable 
+responding, ZHIROORZ6WHHQNDPSDQGFROOHDJXHV¶JXLGHOLQHVLQIXUWKHUDQDO\VLQJWKH
+data for potential social desirability bias. First and foremost, separate moderation analyses 
+suggest that the interview and hiring probabilities of gay men and lesbian women are unrelated 
+to the social desirability scores of recruiters.6 Second, we calculate that social desirability has 
+a limited association ZLWKUHFUXLWHUV¶UHVSRQVHVWRWKHPRGHUQKRPRQHJDWLYLW\VFDOHr = 0.133). 
+This indicates that social desirability biases, most likelyGLGQRWFRQWDPLQDWHRXUUHFUXLWHUV¶
+reports of homonegative attitudes. From these findings, and in support of our main analyses, 
+we conclude that there is no evidence for a social desirability bias in the experimental hiring 
+data. 
+4. Conclusion 
+To investigate the interview probabilities of homosexual candidates through sexual identity¶s 
+signalling function, we conducted a vignette experiment in which genuine recruiters evaluated 
+fictitious job candidates who expressed their sexual identities. The recruiters evaluated four 
+candidates for one out of twelve job vacancies and shared their candidate perceptions through 
+24 systematically-selected items distilled from the literature and pre-studied among actual 
+recruiters. In addition to providing empirical and causal evidence for a reviewed selection of 
+signals recruiters infer from gay men and lesbian women, we tested these signals¶ role in 
+explaining interview probabilities. Moreover, we advanced our understanding of the OLWHUDWXUH¶V
+contradictory findings UHODWHGWR KRPRVH[XDO FDQGLGDWHV¶ KLULQJ SUREDELOLWLHV by additionally 
+                                               
+6 The complete results of our social desirability analyses are available upon request. 
+
+
+ 
+22 
+analysing the different circumstances in which recruiters tend to discriminate more or less 
+against gay men and lesbian women. 
+ We find evidence that homosexual identities generally emit positive and distinct signals 
+for men and women in a hiring context. Specifically, recruiters perceive homosexual compared 
+to heterosexual men as being more outspoken, open-minded, self-aware, emotionally 
+sensitive, neat, intelligent, creative, talkative and honest, showing more empathy in 
+collaborations, and having more advanced social skills, more of a team orientation and a more 
+loving and soft personality ± but being less pleasant to collaborate with. In contrast, 
+homosexual women are seen as being more pleasant to collaborate with and having a less 
+loving and soft personality than their heterosexual counterparts. However, similar to 
+homosexual men, recruiters also perceive them as being more outspoken, open-minded and 
+self-aware than heterosexual women. In addition, homosexual women are viewed as being 
+more assertive, independent and dominant compared to their heterosexual counterparts, 
+whereas this is not the case for homosexual men. 
+Although homosexuality activates many different signals for men and women, only two 
+of these signals are clearly DVVRFLDWHGZLWKKRPRVH[XDOFDQGLGDWHV¶LQWHUYLHZSUREDELOLWLHV: 
+outspokenness and collaborations with employers, other employees and customers. The 
+perceptions towards collaborating with candidates hold the strongest associations with 
+H[SODLQHGKRPRVH[XDOFDQGLGDWHV¶LQWHUYLHZSUREDELOLWLHVThese perceptions might strengthen 
+KRPRVH[XDO ZRPHQ¶V LQWHUYLHZ SUREDELOLWLHV as they are perceived as more pleasant to 
+collaborate with, whereas the opposite could be true for homosexual men because recruiters 
+have negative collaboration perceptions about them. In addition, the signal that homosexual 
+men and women are more outspoken than their heterosexual counterparts is also strongly 
+negatively associated with their interview probabilities.  
+Our moderation analyses with candidate, vacancy and recruiter characteristics provide 
+additional insights regarding the circumstances under which hiring discrimination is more likely 
+to occur. More specifically, we find tendencies that more experience yields a relatively lower 
+hiring premium for gay candidates and that the effects of extracurricular activities (e.g. 
+volunteering to distribute food) and professional achievements (diversity ambassadorship) are 
+also dependent on a candidate¶V sexual identity. Perhaps more importantly, the generally 
+positive reception towards homosexual candidates and a significant interaction effect with 
+UHFUXLWHUV¶ homonegative attitudes suggest that our data align well with a concentrated 
+discrimination account (Campbell & Brauer, 2021), whereby a minority of employers are 
+responsible for most instances of hiring discrimination. Indeed, the generally positive 
+perception patterns of homosexuals were frequently inversed among recruiters who privately 
+held negative attitudes towards homosexual individuals. 
+$VVXJJHVWHGLQ)ULF¶VUHYLHZ policy-makers and organisations that combat 
+
+
+ 
+23 
+hiring discrimination against homosexuals could benefit from the deployment of 
+destigmatisation programmes. The current VWXG\¶V findings compliment this by calling for an 
+efficient and targeted approach to such programmes as hiring discrimination against 
+homosexuals appears to be centred around the negative attitudes of a limited proportion of 
+recruiters. In addition, the detailed perceptual patterns we evidenced for both groups of 
+homosexual candidates could guide the development of such targeted interventions for 
+specific homosexual identities.  
+From a candidate-perspective, homosexual males in particular could anticipate 
+UHFUXLWHUV¶QHJDWLYHDWWLWXGHVby implementing stigma-countering strategies when applying for 
+a job. For example, Singletary and Hebl (2009) found that candidates presenting themselves 
+as homosexual experienced fewer negative interactions with potential employers if they altered 
+their behaviour to display more positivity, for instance by emphasising how enthusiastic they 
+are and by smiling more often. Indeed, applied to our concrete findings, gay men would want 
+to anticipate and counter perceptions of outspokenness and unpleasant collaborations in the 
+hiring process. An important caveat is that in anticipation of such discrimination, gay men in 
+particular VKRXOGFDUHIXOO\FRQVLGHUWKHWLPLQJRIWKHLULGHQWLW\¶VGLVFORVXUH to effectively apply 
+such stigma-countering strategies.  
+One limitation we have frequently revisited in this paper is the risk of socially desirable 
+responses, which is elevated in a laboratory setting. In acknowledgment of this risk, we took 
+measures to limit the impact of such bias. First, to limit the impact of socially desirable 
+responding, we simultaneously varied several candidate characteristics. In doing so, our 
+experiment mimicked the trade-offs made in actual hiring decisions. Second, we investigated 
+the DVVRFLDWLRQV EHWZHHQ UHFUXLWHUV¶ UHVSRQVHV DQG our validated social desirability scale, 
+which indicated that the chance of bias was relatively small (Steenkamp, De Jong, & 
+Baumgartner, 2010). 
+Our RSHUDWLRQDOLVDWLRQ RI WKH FDQGLGDWHV¶ VH[XDO orientation comes with a second 
+limitation of this study. In the vignette experiment, sexual orientation was revealed through the 
+FDQGLGDWH¶VParital status, namely being married to a same-sex spouse. Although this is an 
+unambiguous signal of sexual orientation, it could also come with perceptions associated with 
+being married, such as the attributed stability. Moreover, certain stereotypes about single gay 
+men and lesbians may not apply to those who have a partner and vice versa. However, as 
+mentioned earlier, alternative ways to reveal sexual identity come with similar, if not worse, 
+threats to the internal validity. For example, revealing one's homosexuality by stating a 
+candidate joined a LGBTQ+ organisation could be ambiguous and generate signals related to 
+activism, which could distort the findings.  
+A third limitation relates to the perception measures employed in this study. From the 
+literature, numerous perceptions appeared to be related to homosexuality, which made it 
+
+
+ 
+24 
+impossible to include all of them in the vignette experiment. To resolve this issue, a preliminary 
+study was set up to reduce the items to a limited but validated set of perceptions. Although the 
+delineation of these perceptions is based on empirical survey data, there always is a certain 
+researcher-instilled subjectivity to item selection. Therefore, we encourage future researchers 
+to further investigate the body of stigma associated with sexual orientation.  
+Subsequently, a final limitation of WKHVWXG\¶VGHVLJQLV its inability to draw unbiased and 
+causal inferences from the conducted mediation analyses (see Gerber and Green (2012), 
+chapter 10 for a thorough discussion of the challenges inherent in mediation analyses). That 
+is, although we were able to make causal inferences about the effects of sexual identity on 
+candidate evaluations and perceptions, the associations between perceptions and candidate 
+evaluations could be confounded as these perceptions and evaluations were not 
+experimentally manipulated. Although we carefully selected relevant signal items through a 
+specifically designed pre-study (Subsection 2.1), we cannot exclude the possibility that 
+additional, unobserved perceptions were in play ± perhaps in particular among the minority of 
+discriminating recruiters. TRIXUWKHURXUXQGHUVWDQGLQJRIKRPRVH[XDOLW\¶Vsignalling function, 
+future research could uncover complementary perceptions using alternative techniques, such 
+as <YRQDQG&RUELqUH¶Vimplementation of a free association technique. 
+
+
+ 
+25 
+References 
+Acquisti, A., & Fong, C. (2020). An experiment in hiring discrimination via online social 
+networks. Management 
+Science, 66(3), 
+1005±1024. 
+https://doi.org/10.1287/mnsc.2018.3269 
+Ahmed, A. M., Andersson, L., & Hammarstedt, M. (2013). Are gay men and lesbians 
+discriminated against in the hiring process? Southern Economic Journal, 79(3), 565±585. 
+https://doi.org/10.4284/0038-4038-2011.317 
+Arrow, K. J. (1973). The theory of discrimination. Princeton: Princeton University. 
+Auspurg, K., & Hinz, T. (2014). Factorial survey experiments. SAGE Publications Ltd. 
+Badgett, M. V. (1995). The wage effects of sexual orientation discrimination. ILR 
+Review, 48(4), 726±739. https://doi.org/10.1177/001979399504800408. 
+Badgett, M. V., Carpenter, C. S., & Sansone, D. (2021). LGBTQ economics. Journal of 
+Economic Perspectives, 35(2), 141±70. https://doi.org/10.1257/jep.35.2.141 
+Baert, S. (2014). Career lesbians. Getting hired for not having kids? Industrial Relations 
+Journal, 45(6), 543±561. https://doi.org/10.1111/irj.12078 
+Baert, S. (2018a). Hiring a gay man, taking a risk? A lab experiment on employment 
+discrimination and risk aversion. Journal of Homosexuality, 65(8), 1015±1031. 
+https://doi.org/10.1080/00918369.2017.1364950 
+Baert, S. (2018b). Facebook profile picture DSSHDUDQFH DIIHFWV UHFUXLWHUV¶ ILUVW KLULQJ
+decisions. New 
+Media 
+& 
+Society, 20(3), 
+1220±1239. 
+https://doi.org/10.1177/1461444816687294 
+Barron, L. G. (2009). Sexual orientation employment anti-discrimination legislation and hiring 
+discrimination and prejudice. Academy of Management Proceedings, 1, 1±6. 
+https://doi.org/10.5465/ambpp.2009.44243452 
+Barron, L. G., & Hebl, M. (2013). The force of law: The effects of sexual orientation 
+antidiscrimination legislation on interpersonal discrimination in employment. Psychology, 
+Public Policy, and Law, 19(2), 191±205. https://doi.org/10.1037/a0028350 
+Becker, G. S. (1957). The economics of discrimination. Chicago, IL: The University of Chicago 
+Press. 
+Beretvas, S. N., Meyers, J. L., & Leite, W. L. (2002). A reliability generalization study of the 
+Marlowe 
+Crowne 
+Social 
+Desirability 
+Scale. Educational 
+and 
+Psychological 
+
+
+ 
+26 
+Measurement, 62(4), 570±589. https://doi.org/10.1177%2F0013164402062004003 
+Berger, R. M., & Kelly, J. J. (1981). Do social work agencies discriminate against homosexual 
+job applicants? Social Work, 26(3), 193±198. https://doi.org/10.1093/sw/26.3.193  
+Bethlehem, J., & Biffignandi, S. (2012). Handbook of web surveys. Hoboken, NJ: Wiley & 
+Sons.  
+Binder, K., & Ward, L. M. (2016). Can heterosexist music cause hiring discrimination against 
+sexual minority men? Testing the effects of prejudicial media messages. Journal of Sex 
+Research, 53(6), 666±677. https://doi.org/10.1080/00224499.2015.1013602 
+Blais, A. R., & Weber, E. U. (2006). A domain-specific risk-taking (DOSPERT) scale for adult 
+populations. Judgment and Decision Making, 1(1), 33±47. https://doi.org/10.1037/t13084-
+000  
+Blashill, A. J., & Powlishta, K. K. (2009). Gay stereotypes: The use of sexual orientation as a 
+cue 
+for 
+gender-related 
+attributes. 
+Sex 
+Roles, 
+61(11±12), 
+783±793. 
+https://doi.org/10.1007/s11199-009-9684-7 
+Burn, I. (2018). Not all laws are created equal: legal differences in state non-discrimination 
+laws and the impact of LGBT employment protections. Journal of Labor Research, 39(4), 
+462±497. https://doi.org/10.1007/s12122-018-9272-0 
+Burn, I. (2019). The relationship between prejudice and wage penalties for gay men in the 
+United States. ILR Review, 73(3), 650±675. https://doi.org/10.1177/0019793919864891 
+Burn, I., & Martell, M. (2020). The role of work values and characteristics in the human capital 
+investment 
+by 
+gays 
+and 
+lesbians. 
+Education 
+Economics, 
+28(4), 
+351±369. 
+https://doi.org/10.1080/09645292.2020.1758039 
+Campbell, M. R., & Brauer, M. (2021). Is discrimination widespread? Testing assumptions 
+about bias on a university campus. Journal of Experimental Psychology: General, 150(4), 
+756±777. https://doi.org/10.1037/xge0000983 
+Campello, M., Kankanhalli, G., & Muthukrishnan, P. (2020). Corporate hiring under COVID-19: 
+Labor market concentration, downskilling, and income inequality (No. w27208). National 
+Bureau of Economic Research. https://doi.org/10.3386/w27208 
+Chonody, J. M. (2013). Measuring sexual prejudice against gay men and lesbian women: 
+Development of the Sexual Prejudice Scale (SPS). Journal of Homosexuality, 60(6), 895±
+926. https://doi.org/10.1080/00918369.2013.774863 
+Crandall, C. S., & Eshleman, A. (2003). A justification-suppression model of the expression 
+and 
+experience 
+of 
+prejudice. 
+Psychological 
+Bulletin, 129(3), 
+414±446. 
+https://psycnet.apa.org/doi/10.1037/0033-2909.129.3.414 
+Cunningham, G. B., Sartore, M. L., & McCullough, B. P. (2010). The influence of applicant 
+
+
+ 
+27 
+sexual orientation, applicant gender, and rater gender on ascribed attributions and hiring 
+recommendations of personal trainers. Journal of Sport Management, 24(4), 400±415. 
+https://doi.org/10.1123/jsm.24.4.400 
+Di Stasio, V. (2014). Education as a signal of trainability: results from a vignette study with 
+Italian 
+employers. European 
+Sociological 
+Review, 30(6), 
+796±809. 
+https://doi.org/10.1093/esr/jcu074 
+Dokko, G., Wilk, S. L., & Rothbard, N. P. (2009). Unpacking prior experience: How career 
+history 
+affects 
+job 
+performance. 
+Organization 
+Science, 
+20(1), 
+51±68. 
+https://doi.org/10.1287/orsc.1080.0357 
+Drydakis, N. (2009). Sexual orientation discrimination in the labour market. Labour Economics, 
+16(4), 364±372. https://doi.org/10.1016/j.labeco.2008.12.003 
+'U\GDNLV16H[XDORULHQWDWLRQGLVFULPLQDWLRQLQWKH8QLWHG.LQJGRP¶VODERXUPDUNHW
+a 
+field 
+experiment. 
+Human 
+Relations, 
+68(11), 
+1769±1796. 
+https://doi.org/10.1177/0018726715569855 
+Drydakis, N. (2021). Sexual orientation and earnings: a meta-analysis 2012±2020. Journal of 
+Population Economics, 35(2), 409±440. https://doi.org/10.1007/s00148-021-00862-1  
+Everly, B. A., Unzueta, M. M., & Shih, M. J. (2016). Can being gay provide a boost in the hiring 
+process? Maybe if the boss is female. Journal of Business and Psychology, 31(2), 293±
+306. https://doi.org/10.1007/s10869-015-9412-y 
+Fiske, S. T., Cuddy, A. J., & Glick, P. (2007). Universal dimensions of social cognition: Warmth 
+and 
+competence. Trends 
+in 
+Cognitive 
+Sciences, 11(2), 
+77±83. 
+https://doi.org/10.1016/j.tics.2006.11.005 
+Florence, Y., & Marc, C. (2021). Implicit and explicit attitudes of employers toward hiring people 
+who have experienced depression. Journal of Occupational Rehabilitation, 31(4), 903±
+915. https://doi.org/10.1007/s10926-021-09977-4 
+Fric, K. (2017). Access to the labour market for gays and lesbians: research review. Journal of 
+Gay 
+& 
+Lesbian 
+Social 
+Services, 
+29(4), 
+319±361. 
+https://doi.org/10.1080/10538720.2017.1365671 
+Geiger, W., Harwood, J., & Hummert, M. L. (2006). College students' multiple stereotypes of 
+lesbians. 
+Journal 
+of 
+Homosexuality, 
+51(3), 
+165±182. 
+https://doi.org/10.1300/J082v51n03_08  
+Gerber, A. S., & Green, D. P. (2012). Field experiments: Design, analysis, and interpretation. 
+New York: WW Norton. 
+
+
+ 
+28 
+Gurwitz, S. B., & Marcus, M. (1978). Effects of anticipated interaction, sex, and homosexual 
+stereotypes on first impressions. Journal of Applied Social Psychology, 8(1), 173±183. 
+https://doi.org/10.1111/j.1559-1816.1978.tb00764.x  
+Haddock, G., Zanna, M. P., & Esses, V. M. (1993). Assessing the structure of prejudicial 
+attitudes: the case of attitudes toward homosexuals. Journal of Personality and Social 
+Psychology, 65(6), 1105±1118. https://doi.org/10.1037/0022-3514.65.6.1105  
+Hammarstedt, M., Ahmed, A., & Andersson, L. (2015). Sexual prejudice and labor market 
+outcomes for gays and lesbians: Evidence from Sweden. Feminist Economics, 21(1), 90±
+109. https://doi.org/10.1080/13545701.2014.937727 
+Hayes, A. F. (2017). Introduction to mediation, moderation, and conditional process analysis: 
+A regression-based approach. New York: Guilford publications.  
+Hebl, M. R., Foster, J. B., Mannix, L. M., & Dovidio, J. F. (2002). Formal and interpersonal 
+discrimination: A field study of bias toward homosexual applicants. Personality and Social 
+Psychology Bulletin, 28(6), 815±825. https://doi.org/10.1177%2F0146167202289010 
+Horvath, M., & Ryan, A. M. (2003). Antecedents and potential moderators of the relationship 
+between attitudes and hiring discrimination on the basis of sexual orientation. Sex Roles, 
+48(3±4), 115±130. https://doi.org/10.1023/A:1022499121222 
+Jackson, L. A., & Sullivan, L. A. (1989). Cognition and affect in evaluations of stereotyped 
+members. 
+The 
+Journal 
+of 
+Social 
+Psychology, 
+129(5), 
+659±672. 
+https://doi.org/10.1080/00224545.1989.9713783  
+Jepsen, C., & Jepsen, L. K. (2015). Labor-market specialization within same-sex and 
+difference sex couples. Journal of Economy and Society, 54(1), 109±130. 
+https://doi.org/10.1111/irel.12078 
+Katsarova, I. (2019). Gender equality in sport: Getting closer every day. PE 635.560. Report 
+from 
+European 
+Parliamentary 
+Research 
+Service. 
+Retrieved 
+from 
+https://www.europarl.europa.eu/RegData/etudes/BRIE/2019/635560/EPRS_BRI(2019)6
+35560_EN.pdf  
+Kübler, D., Schmid, J., & Stüber, R. (2018). Gender discrimination in hiring across occupations: 
+a 
+nationally-representative 
+vignette 
+study. Labour 
+Economics, 55, 
+215±229. 
+https://doi.org/10.1016/j.labeco.2018.10.002 
+Laurent, T., & Mihoubi, F. (2017). Sexual orientation, unemployment and participation: Are 
+gays less employable than straights? Journal of Labor Research, 38(1), 1±44. 
+https://doi.org/10.1007/s12122-016-9237-0  
+
+
+ 
+29 
+Levitt, E. E., & Klassen, J. A. (1976). Public attitudes toward homosexuality: part of the 1970 
+national survey by the institute for sex research. Journal of Homosexuality, 1(1), 29±43. 
+https://doi.org/10.1300/J082v01n01_03  
+Lippens, L., Vermeiren, S., & Baert, S. (2021). The state of hiring discrimination: A meta-
+analysis of (almost) all recent correspondence experiments. IZA Discussion Paper, No. 
+14966. 
+Looney, D., & Lusin, N. (2019). Enrollments in languages other than English in United States 
+institutions of higher education, Summer 2016 and Fall 2016: Final report. Modern 
+Language 
+Association. 
+Retrieved 
+from 
+https://www.mla.org/content/download/110154/2406932/2016-Enrollments-Final-
+Report.pdf  
+Madon, S. (1997). What do people believe about gay males? A study of stereotype content 
+and strength. Sex Roles, 37(9), 663±685. https://doi.org/10.1007/BF02936334  
+Martell, M. E. (2014). How ENDAs extend the workweek: Legal protection and the labor supply 
+of 
+behaviorally 
+gay 
+men. 
+Contemporary 
+Economic 
+Policy, 
+32(3), 
+560±577. 
+https://doi.org/10.1111/coep.12035 
+McCutcheon, J., & Morrison, M. A. (2015). The effect of parental gender roles on students' 
+attitudes 
+toward 
+lesbian, 
+gay, 
+and 
+heterosexual 
+adoptive 
+couples. Adoption 
+Quarterly, 18(2), 138±167. https://doi.org/10.1080/10926755.2014.945702  
+Mishel, E. (2020). Contextual prejudice: How occupational context and stereotypes shape bias 
+against 
+gay 
+and 
+lesbian 
+employees. Social 
+Currents, 7(4), 
+371±391. 
+https://doi.org/10.1177%2F2329496520919912 
+Mize, T. D., & Manago, B. (2018). The stereotype content of sexual orientation. Social 
+Currents, 5(5), 458±478. https://doi.org/10.1177/2329496518761999  
+Morrison, T. G., Parriag, A. V., & Morrison, M. A. (1999). The psychometric properties of the 
+homonegativity 
+scale. Journal 
+of 
+Homosexuality, 37(4), 
+111±126. 
+https://doi.org/10.1300/J082v37n04_07 
+Nadler, J. T., & Kufahl, K. M. (2014). Marital status, gender, and sexual orientation: Implications 
+for employment hiring decisions. Psychology of Sexual Orientation and Gender Diversity, 
+1(3), 270±278. https://doi.org/10.1037/sgd0000050 
+Neumark, D. (2018). Experimental research on labor market discrimination. Journal of 
+Economic Literature, 56(3), 799±866. https://doi.org/10.1257/jel.20161309 
+Niedlich, C., & Steffens, M. C. (2015). On the interplay of (positive) stereotypes and prejudice: 
+Impressions of lesbian and gay applicants for leadership positions. Sensoria: A Journal of 
+Mind, Brain & Culture, 11(1), 70±80. https://doi.org/10.7790/sa.v11i1.408 
+
+
+ 
+30 
+OECD (2020). Over the Rainbow? The Road to LGBTI Inclusion. Paris: OECD. Retrieved from 
+https://www.oecd.org/social/over-the-rainbow-the-road-to-lgbti-inclusion-8d2fd1a8-
+en.htm. 
+Oreopoulos, P. (2011). Why do skilled immigrants struggle in the labor market? A field 
+experiment with thirteen thousand resumes. American Economic Journal: Economic 
+Policy, 3(4), 148±71. https://doi.org/10.1257/pol.3.4.148 
+Page, S., & Yee, M. (1986). Conception of male and female homosexual stereotypes among 
+university 
+undergraduates. 
+Journal 
+of 
+Homosexuality, 
+12(1), 
+109±118. 
+https://doi.org/10.1300/J082v12n01_06  
+Palan, S., & Schitter, C. (2018). Prolific. ac±A subject pool for online experiments. Journal of 
+Behavioral 
+and 
+Experimental 
+Finance, 17, 
+22±27. 
+https://doi.org/10.1016/j.jbef.2017.12.004 
+Peer, E., Brandimarte, L., Samat, S., & Acquisti, A. (2017). Beyond the Turk: Alternative 
+platforms for crowdsourcing behavioral research. Journal of Experimental Social 
+Psychology, 70, 153±163. https://doi.org/10.1016/j.jesp.2017.01.006 
+Pellegrini, V., De Cristofaro, V., Giacomantonio, M., & Salvati, M. (2020). Why are gay leaders 
+perceived as ineffective? The role of the type of organization, sexual prejudice and gender 
+stereotypes. Personality 
+and 
+Individual 
+Differences, 157, 
+109817. 
+https://doi.org/10.1016/j.paid.2020.109817 
+Phelps, E. S. (1972). The statistical theory of racism and sexism. American Economic Review, 
+62(4), 659±661. Retrieved from https://www.jstor.org/stable/1806107 
+Pichler, S., Varma, A., & Bruce, T. (2010). Heterosexism in employment decisions: The role of 
+job 
+misfit. Journal 
+of 
+Applied 
+Social 
+Psychology, 40(10), 
+2527±2555. 
+https://doi.org/10.1111/j.1559-1816.2010.00669.x 
+Powdthavee, N., & Wooden, M. (2014). What can life satisfaction data tell us about 
+discrimination against sexual minorities? A structural equation model for Australia and the 
+United Kingdom (Melbourne Institute of Applied Economic & Social Research Working 
+Paper Series No. 09/14). Retrieved from https://doi.org/10.2139/ssrn.2461051  
+Reynolds, W. M. (1982). Development of reliable and valid short forms of the MarloweǦCrowne 
+Social 
+Desirability 
+Scale. Journal 
+of 
+Clinical 
+Psychology, 38(1), 
+119±125. 
+https://doi.org/10.1002/1097-4679(198201)38:1%3C119::AID-
+JCLP2270380118%3E3.0.CO;2-I 
+Rivera, L. A. (2020). Employer decision making. Annual Review of Sociology, 46(1), 215±232. 
+https://doi.org/10.1146/annurev-soc-121919-054633 
+Schulte-Hostedde, A. I., Eys, M. A., Emond, M., & Buzdon, M. (2012). Sport participation 
+
+
+ 
+31 
+influences perceptions of mate characteristics. Evolutionary Psychology, 10(1), 78±94. 
+https://doi.org/10.1177/147470491201000109 
+Simmons, J. (1965). Public stereotypes of deviants. Social Problems, 13(2), 223±232. 
+https://doi.org/10.2307/798906  
+Singletary, S. L., & Hebl, M. R. (2009). Compensatory strategies for reducing interpersonal 
+discrimination: The effectiveness of acknowledgments, increased positivity, and 
+individuating 
+information. 
+Journal 
+of 
+Applied 
+Psychology, 
+94(3), 
+797±805. 
+https://doi.org/10.1037/a0014185 
+Smith, A., Thurston, M., Green, K., & Lamb, K. (2007). Young people's participation in 
+extracurricular physical education: A study of 15±16 year olds in North-West England and 
+North-East 
+Wales. European 
+Physical 
+Education 
+Review, 13(3), 
+339±368. 
+https://doi.org/10.1177%2F1356336X07081997 
+Sobal, J., & Milgrim, M. (2019). Gendertyping sports: social representations of masculine, 
+feminine, and neither-gendered sports among US university students. Journal of Gender 
+Studies, 28(1), 29±44. https://doi.org/10.1080/09589236.2017.1386094 
+Spence, M. (1978). Job market signaling. In Uncertainty in economics (pp. 281±306). New 
+York: Academic Press. 
+Staats, G. R. (1978). Stereotype content and social distance: changing views of 
+homosexuality. 
+Jounal 
+of 
+Homosexuality, 
+4(1), 
+15±27. 
+https://doi.org/10.1300/J082v04n01_02  
+Stangor, C., Sullivan, L. A., & Ford, T. E. (1991). Affective and cognitive determinants of 
+prejudice. Social Cognition, 9(4), 359±380. https://doi.org/10.1521/soco.1991.9.4.359  
+Steenkamp, J. B. E., De Jong, M. G., & Baumgartner, H. (2010). Socially desirable response 
+tendencies in survey research. Journal of Marketing Research, 47(2), 199±214. 
+https://doi.org/10.1509%2Fjmkr.47.2.199 
+Steffens, M. C., Niedlich, C., Beschorner, R., & Köhler, M. C. (2019). Do positive and negative 
+stereotypes of gay and heterosexual men affect job-related impressions? Sex Roles, 
+80(9), 548±564. https://doi.org/10.1007/s11199-018-0963-z  
+6WHUNHQV3%DHUW65RRPDQ&	'HURXV($VLILWZHUHQ¶WKDUGHQRXJKDOUHDG\
+Breaking down hiring discrimination following burnout. Economics & Human Biology, 43, 
+101050. https://doi.org/10.1016/j.ehb.2021.101050 
+Stern, C., West, T. V., Jost, J. T., & Rule, N. O. (2013). The politics of gaydar: ideological 
+differences in the use of gendered cues in categorizing sexual orientation. Journal of 
+Personality and Social Psychology, 104(3), 520±541. https://doi.org/10.1037/a0031187  
+
+
+ 
+32 
+United States Department of Labor. (2021). Labor Force Statistics from the Current Population 
+Survey. 
+Retrieved 
+from 
+U.S. 
+Bureau 
+of 
+Labor 
+Statistics: 
+https://www.bls.gov/cps/cpsaat11.htm 
+Tilcsik, A. (2011). Pride and prejudice: Employment discrimination against openly gay men in 
+the 
+United 
+States. 
+American 
+Journal 
+of 
+Sociology, 
+117(2), 
+586±626. 
+https://doi.org/10.1086/661653 
+Umphress, E. E., Simmons, A. L., Boswell, W. R., & Triana, M. D. C. (2008). Managing 
+discrimination in selection: The influence of directives from an authority and social 
+dominance 
+orientation. Journal 
+of 
+Applied 
+Psychology, 93(5), 
+982±993. 
+https://doi.org/10.1037/0021-9010.93.5.982 
+Van Belle, E., Di Stasio, V., Caers, R., De Couck, M., & Baert, S. (2018). Why are employers 
+put off by long spells of unemployment? European Sociological Review, 34(6), 694±710. 
+https://doi.org/10.1093/esr/jcy039 
+Van Borm, H., & Baert, S. (2018). What drives hiring discrimination against 
+transgenders? International 
+Journal 
+of 
+Manpower, 
+39(4), 
+581±599. 
+https://doi.org/10.1108/IJM-09-2017-0233 
+Van BoUP + %XUQ , 	 %DHUW 6  :KDW GRHV D MRE FDQGLGDWH¶V DJH VLJQDO WR
+employers? 
+Labour 
+Economics, 
+71, 
+102003. 
+https://doi.org/10.1016/j.labeco.2021.102003 
+Van Hoye, G., & Lievens, F. (2003). The effects of sexual orientation on hirability ratings: An 
+experimental 
+study. Journal 
+of 
+Business 
+and 
+Psychology, 18(1), 
+15±30. 
+https://doi.org/10.1023/A:1025078819951 
+West, K., & Hewstone, M. (2012). Culture and contact in the promotion and reduction of anti-
+gay prejudice: Evidence from Jamaica and Britain. Journal of Homosexuality, 59(1), 44±
+66. https://doi.org/10.1080/00918369.2011.614907 
+ 
+
+
+ 
+33 
+Figures  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1. Histograms for each of the evaluation and perception items
+5,628
+5,010
+5,885
+6,016
+5,920
+6,348
+6,243
+5,981
+5,874
+5,953
+5,351
+5,766
+5,803
+5,789
+6,574
+6,298
+6,106
+5,773
+5,824
+5,213
+5,216
+5,280
+5,138
+6,646
+6,451
+6,481
+5,772
+6,048
+5,378
+6,507
+6,548
+6,567
+6,659
+6,656
+6,533
+6,041
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Interview probability (p = 0.118)
+Hiring probability (p = 0.160)
+Perceived collaboration with employer (p < 0.001)
+Perceived collaboration with coworkers (p < 0.001)
+Perceived collaboration with clients (p < 0.001)
+Perceived social skills (p = 0.035)
+Perceived assertiveness (p = 0.160)
+Perceived outspokenness (p < 0.001)
+Perceived dominance (p = 0.207)
+Heterosexual male
+Heterosexual female
+Homosexual male
+Homosexual female
+
+
+ 
+34 
+6,263
+6,006
+6,465
+6,416
+5,842
+6,021
+6,138
+6,576
+6,572
+6,271
+6,103
+6,747
+6,785
+6,296
+6,512
+6,287
+6,716
+6,819
+6,377
+6,052
+6,701
+6,728
+6,299
+6,709
+6,571
+6,813
+7,366
+6,367
+6,222
+6,596
+6,733
+6,052
+6,630
+6,278
+6,878
+7,470
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Perceived independence (p = 0.014)
+Perceived competitiveness (p = 0.903)
+Perceived leadership (p = 0.471)
+Perceived team orientation (p = 0.038)
+Perceived empathy (p = 0.001)
+Perceived softness (p < 0.001)
+Perceived emotional sensitivity (p < 0.001)
+Perceived neatness (p = 0.009)
+Perceived intelligence (p = 0.049)
+Heterosexual male
+Heterosexual female
+Homosexual male
+Homosexual female
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1. Histograms for each of the evaluation and perception items (continued) 
+ 
+
+
+ 
+35 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1. Histograms for each of the evaluation and perception items (continued) 
+5,848
+6,554
+6,837
+6,479
+6,235
+6,665
+6,305
+6,823
+6,949
+6,752
+6,340
+6,807
+6,552
+6,847
+6,974
+6,888
+6,396
+6,724
+6,322
+6,981
+7,011
+7,122
+6,456
+6,763
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Perceived open-mindedness (p < 0.001)
+Perceived creativity (p < 0.001)
+Perceived talkativeness (p < 0.001)
+Perceived honesty (p = 0.003)
+Perceived professionalism (p = 0.223)
+Perceived self-awareness (p < 0.001)
+Heterosexual male
+Heterosexual female
+Homosexual male
+Homosexual female
+
+
+ 
+36 
+ 
+ 
+ 
+Figure 2. Interaction effects between sexual identity and the MHS on interview probability, 
+where *** (**) ((*)) indicates significance at the 1% (5%) ((10%)) significance level 
+ 
+0
+2
+4
+6
+8
+10
+-2
+-1
+0
+1
+2
+3
+Standardized values of the Modern Homonegativity Scale (MHS)
+Interview probability
+Homosexual man *
+Homosexual woman ***
+Heterosexual man
+Heterosexual woman
+
+
+ 
+37 
+Tables 
+Table 1. Dimensions and levels 
+Dimensions 
+Levels 
+Gender 
+{man; woman} 
+Marital status 
+{married to (male name); married to (female name); married} 
+Age 
+{33 years old; 38 years old; 43 years old; 48 years old} 
+Job experience in the past five years 
+{0 years; 2 years; 5 years} 
+Foreign language knowledge 
+{none; French; Spanish} 
+Professional achievements at previous 
+employer 
+{none; diversity ambassador; employee of the month} 
+Extra-curricular activities 
+{wrestling; gymnastics; tennis; volunteers to distribute food for 
+the local community; volunteers at LGBTQ rights organisation; 
+none} 
+
+
+ 
+38
+Table 2. Description of the experimental recruiters by experimental condition 
+ 
+Proportion (indicator variables) or mean (continuous variables) 
+Independence test [p-value] 
+Full sample 
+ 
+Experimental condition 
+Heterosexual 
+male 
+Heterosexual 
+female 
+Homosexual 
+male 
+Homosexual 
+female 
+Female 
+49.0% 
+50.4% 
+47.2% 
+46.6% 
+52.6% 
+0.369 
+Not heterosexual 
+11.1% 
+11.3% 
+11.7% 
+10.8% 
+10.0% 
+0.982 
+Age 
+44.156 
+44.261 
+44.108 
+44.063 
+44.148 
+1.000 
+No tertiary education 
+25.5% 
+24.9% 
+23.9% 
+28.0% 
+27.4% 
+0.530 
+%DFKHORU¶VGHJUHH 
+47.0% 
+47.7% 
+47.5% 
+47.0% 
+44.8% 
+0.919 
+0DVWHU¶VGHJUHH 
+22.8% 
+23.4% 
+23.2% 
+20.5% 
+23.0% 
+0.920 
+British 
+49.5% 
+49.0% 
+50.5% 
+51.1% 
+46.7% 
+0.697 
+Hired people in the past year 
+50.5% 
+49.8% 
+50.0% 
+48.5% 
+48.9% 
+0.974 
+Hiring experience of more than five years 
+48.3% 
+48.1% 
+48.8% 
+48.5% 
+47.4% 
+0.985 
+Contact with homosexuals (standardised) 
+0.000 
+í 
+0.001 
+0.079 
+0.015 
+0.449 
+Homonegativity (standardised) 
+0.000 
+0.011 
+0.004 
+0.004 
+í 
+0.852 
+Social desirability (standardised) 
+0.000 
+0.022 
+0.019 
+í 
+í 
+0.786 
+Risk aversion (standardised) 
+0.000 
+0.006 
+í 
+0.046 
+í 
+0.647 
+Notes. To test the independence between the participant characteristic and the experimental condition, a Chi-Square (indicator variable) or Kruskal-Wallis (continuous 
+variable) test is conducted. 
+
+
+ 
+39
+Table 3. Mediation effects for both homosexual identities with interview probability as the outcome and heterosexual male as the reference 
+category 
+Mediators 
+Homosexual male candidate 
+Homosexual female candidate 
+ȕ 
+p 
+ȕ 
+p 
+Perceived collaborationa 
+í0.163 
+0.000 
+0.136 
+0.000 
+Perceived social skills 
+0.026 
+0.090 
+0.028 
+0.109 
+Perceived assertiveness 
+0.003 
+0.763 
+0.008 
+0.684 
+Perceived outspokenness 
+í0.041 
+0.040 
+í0.054 
+0.038 
+Perceived dominance 
+0.001 
+0.958 
+0.001 
+0.965 
+Perceived independence 
+í0.006 
+0.671 
+í0.017 
+0.573 
+Perceived competitiveness 
+0.001 
+0.943 
+0.002 
+0.811 
+Perceived leadership 
+0.007 
+0.794 
+0.040 
+0.115 
+Perceived team orientation 
+0.031 
+0.116 
+0.012 
+0.495 
+Perceived empathy 
+í0.002 
+0.879 
+í0.003 
+0.876 
+Perceived softness of personality 
+0.013 
+0.592 
+0.005 
+0.698 
+Perceived emotional sensitivity 
+í0.009 
+0.798 
+í0.008 
+0.803 
+Perceived neatness 
+í0.028 
+0.194 
+í0.008 
+0.444 
+Perceived intelligence 
+0.005 
+0.755 
+0.005 
+0.761 
+Perceived open-mindedness 
+í0.035 
+0.369 
+í0.040 
+0.342 
+Perceived creativity 
+0.045 
+0.157 
+0.041 
+0.128 
+Perceived talkativeness 
+í0.029 
+0.259 
+í0.020 
+0.314 
+Perceived honesty 
+í0.019 
+0.263 
+í0.028 
+0.280 
+Perceived professionalism 
+0.014 
+0.372 
+0.014 
+0.383 
+Perceived self-awareness 
+í0.023 
+0.318 
+í0.037 
+0.260 
+Perceived career orientation 
+0.040 
+0.193 
+0.052 
+0.165 
+Perceived current health 
+0.001 
+0.992 
+0.001 
+0.881 
+Total effect of sexual identity 
+0.251 
+0.134 
+0.424 
+0.012 
+Notes. p-values are corrected for clustering of observations at the participant level. Coefficient estimatesUHODWHGWRSYDOXHVEHORZDUHLQEROG୹LQGLFDWHVPHGLDWRUVZLWK
+scales comprising multiple items. 
+
+
+ 
+40
+Table 4. Moderation effects with interview probability as the outcome  
+ 
+Interview probability 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+A. CANDIDATE CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+Sexual orientation (ref. = heterosexual male) 
+ 
+ 
+ 
+ 
+ 
+Heterosexual female 
+0.223* (0.125) 
+0.206 (0.125) 
+0.223 (0.125) 
+0.228* (0.125) 
+0.208* (0.126) 
+Homosexual male 
+0.250 (0.167) 
+1.662 (1.656) 
+0.437 (0.377) 
+1.203* (0.653) 
+3.008 (1.823) 
+Homosexual female 
+0.424** (0.168) 
+0.624 (2.400) 
+0.388 (0.350) 
+0.646 (0.638) 
+1.031 (2.475) 
+Age (c.) 
+í.001 (0.008) 
+0.004 (0.010) 
+í0.001 (0.008) 
+í.000 (0.008) 
+0.003 (0.011) 
+Experience (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+Two years 
+2.988*** (0.143) 
+3.074*** (0.186) 
+3.007*** (0.143) 
+2.973*** (0.145) 
+3.086*** (0.189) 
+Five years 
+4.059*** (0.164) 
+4.521*** (0.195) 
+4.066*** (0.164) 
+4.047*** (0.165) 
+4.525*** (0.197) 
+Foreign language knowledge (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+French 
+0.089 (0.125) 
+0.029 (0.145) 
+0.087 (0.126) 
+0.059 (0.124) 
+0.035 (0.147) 
+Spanish 
+0.164 (0.123) 
+í.017 (0.155) 
+0.166 (0.123) 
+0.165 (0.124) 
+í.020 (0.157) 
+Professional achievements (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+Diversity ambassador 
+0.837*** (0.121) 
+1.285*** (0.159) 
+0.832*** (0.121) 
+0.864*** (0.122) 
+1.286*** (0.159) 
+Employee of the month 
+0.760*** (0.116) 
+0.944*** (0.151) 
+0.762*** (0.115) 
+0.777*** (0.117) 
+0.949*** (0.151) 
+Hobbies (ref. = none mentioned) 
+ 
+ 
+ 
+ 
+ 
+Wrestling 
+0.597*** (0.193) 
+0.700*** (0.227) 
+0.605*** (0.191) 
+0.582*** (0.189) 
+0.714*** (0.228) 
+Gymnastics 
+0.462** (0.201) 
+0.573** (0.255) 
+0.469** (0.199) 
+0.455** (0.202) 
+0.571** (0.256) 
+Tennis 
+0.365* (0.193) 
+0.656*** (0.238) 
+0.372* (0.192) 
+0.390** (0.193) 
+0.660*** (0.240) 
+Volunteers to distribute food for local community 
+0.716*** (0.176) 
+1.025*** (0.213) 
+0.731*** (0.175) 
+0.698*** (0.176) 
+1.024*** (0.215) 
+Volunteers at LGBTQ rights organisation 
+0.409** (0.189) 
+0.443* (0.229) 
+0.427** (0.187) 
+0.415** (0.192) 
+0.443* (0.231) 
+B. VACANCY CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+Gender-type (ref. = neutral job) 
+ 
+ 
+ 
+ 
+ 
+Male-dominated job 
+0.230 (0.192) 
+0.195 (0.190) 
+0.352* (0.208) 
+0.214 (0.192) 
+0.308 (0.208) 
+Female-dominated job 
+0.035 (0.193) 
+í.000 (0.191) 
+0.038 (0.210) 
+0.045 (0.193) 
+0.038 (0.211) 
+Customer contact: high 
+0.168 (0.157) 
+0.169 (0.156) 
+0.203 (0.173) 
+0.202 (0.156) 
+0.236 (0.175) 
+Diversity statement: included 
+0.132 (0.154) 
+0.111 (0.153) 
+0.068 (0.168) 
+0.130 (0.153) 
+0.062 (0.169) 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+41
+C. PARTICIPANT CHARACTERISTICS 
+Gender (ref. = male) 
+ 
+ 
+ 
+ 
+ 
+Female 
+í.048 (0.163) 
+í.084 (0.160) 
+í.044 (0.163) 
+í.066 (0.174) 
+í.066 (0.175) 
+Sexual orientation (ref. = heterosexual) 
+ 
+ 
+ 
+ 
+ 
+Not heterosexual 
+í.549** (0.244) 
+í.533** (0.239) 
+í.565** (0.246) 
+í.450* (0.254) 
+í.440* (0.255) 
+Age (cont.) 
+0.000 (0.006) 
+í.001 (0.007) 
+í.000 (0.007) 
+0.004 (0.007) 
+0.004 (0.007) 
+Educational degree (ref. = lower than tertiary) 
+ 
+ 
+ 
+ 
+ 
+Tertiary education 
+í.382** (0.182) 
+í.396** (0.182) 
+í.387** (0.182) 
+í.293 (0.201) 
+í.305 (0.204) 
+Nationality (ref. = USA) 
+ 
+ 
+ 
+ 
+ 
+UK 
+í.039 (0.157) 
+í.031 (0.158) 
+í.039 (0.157) 
+í.088 (0.172) 
+í.065 (0.173) 
+Hiring experience (ref. = less than five years) 
+ 
+ 
+ 
+ 
+ 
+More than five years 
+0.081 (0.160) 
+0.083 (0.158) 
+0.081 (0.160) 
+0.027 (0.175) 
+0.014 (0.176) 
+Contact with homosexuals (s.) 
+0.187** (0.087) 
+0.185** (0.085) 
+0.180** (0.087) 
+0.174* (0.095) 
+0.181* (0.094) 
+Homonegativity (s.) 
+í.454*** (0.093) 
+í.442*** (0.092) 
+í.455*** (0.093) 
+í.314*** (0.093) 
+í313*** (0.093) 
+Risk aversion (s.) 
+0.168* (0.094) 
+0.149 (0.094) 
+0.174* (0.094) 
+0.144 (0.111) 
+0.135 (0.112) 
+D. INTERACTIONS WITH CANDIDATE CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+Homosexual male × age 
+ 
+í.009 (0.035) 
+ 
+ 
+í.003 (0.036) 
+Homosexual male × two years 
+ 
+í.048 (0.466) 
+ 
+ 
+í 
+Homosexual male × five years 
+ 
+í1.379** (0.564) 
+ 
+ 
+í1.533*** (0.573) 
+Homosexual male × French 
+ 
+0.349 (0.488) 
+ 
+ 
+0.283 (0.501) 
+Homosexual male × Spanish 
+ 
+0.306 (0.459) 
+ 
+ 
+0.341 (0.449) 
+Homosexual male × diversity ambassador 
+ 
+í.447 (0.485) 
+ 
+ 
+í.367 (0.487) 
+Homosexual male × employee of the month 
+ 
+í.060 (0.410) 
+ 
+ 
+í.014 (0.414) 
+Homosexual male × wrestling 
+ 
+í1.004 (0.629) 
+ 
+ 
+í.978 (0.631) 
+Homosexual male × gymnastics 
+ 
+0.050 (0.646) 
+ 
+ 
+0.143 (0.654) 
+Homosexual male × tennis 
+ 
+í1.044 (0.638) 
+ 
+ 
+í.987 (0.652) 
+Homosexual male × volunteers to distribute food for local community  
+í1.063 (0.648) 
+ 
+ 
+í1.149* (0.652) 
+Homosexual male × volunteers at LGBTQ rights organisation 
+ 
+í.816 (0.733) 
+ 
+ 
+í.688 (0.764) 
+Homosexual female × age 
+ 
+0.021 (0.050) 
+ 
+ 
+0.022 (0.049) 
+Homosexual female × two years 
+ 
+í.257 (0.555) 
+ 
+ 
+í.211 (0.554) 
+Homosexual female × five years 
+ 
+í1.251** (0.500) 
+ 
+ 
+í1.272** (0.506) 
+Homosexual female × French 
+ 
+í.436 (0.512) 
+ 
+ 
+í.607 (0.502) 
+
+
+ 
+42
+Homosexual female × Spanish 
+ 
+0.149 (0.485) 
+ 
+ 
+0.144 (0.496) 
+Homosexual female × diversity ambassador 
+ 
+í1.172* (0.678) 
+ 
+ 
+í1.230 (0.670) 
+Homosexual female × employee of the month 
+ 
+í.334 (0.481) 
+ 
+ 
+í.252 (0.479) 
+Homosexual female × wrestling 
+ 
+0.205 (0.679) 
+ 
+ 
+0.124 (0.704) 
+Homosexual female × gymnastics 
+ 
+0.758 (0.905) 
+ 
+ 
+0.966 (0.919) 
+Homosexual female × tennis 
+ 
+í.348 (0.655) 
+ 
+ 
+í.252 (0.672) 
+Homosexual female × volunteers to distribute food for local 
+community 
+ 
+í.218 (0.601) 
+ 
+ 
+í.166 (0.610) 
+Homosexual female × volunteers at LGBTQ rights organisation 
+ 
+í.044 (0.923) 
+ 
+ 
+í.009 (0.959) 
+E. INTERACTIONS WITH VACANCY CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+Homosexual male × male-dominated job 
+ 
+ 
+í.179 (0.392) 
+ 
+í.294 (0.373) 
+Homosexual male × female-dominated job 
+ 
+ 
+í.494 (0.351) 
+ 
+í.518 (0.358) 
+Homosexual male × high customer contact 
+ 
+ 
+0.052 (0.299) 
+ 
+í.088 (0.305) 
+Homosexual male × diversity statement included 
+ 
+ 
+0.020 (0.294) 
+ 
+í.035 (0.292) 
+Homosexual female × male-dominated job 
+ 
+ 
+0.220 (0.375) 
+ 
+0.209 (0.380) 
+Homosexual female × female-dominated job 
+ 
+ 
+í.210 (0.391) 
+ 
+í.336 (0.375) 
+Homosexual female × high customer contact 
+ 
+ 
+í.276 (0.307) 
+ 
+í.130 (0.310) 
+Homosexual female × diversity statement included 
+ 
+ 
+0.370 (0.310) 
+ 
+0.314 (0.306) 
+F. INTERACTIONS WITH RECRUITER CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+Homosexual male × female 
+ 
+ 
+ 
+0.350 (0.307) 
+0.270 (0.317) 
+Homosexual male × not heterosexual 
+ 
+ 
+ 
+í.283 (0.458) 
+í.406 (0.461) 
+Homosexual male × age (cont.) 
+ 
+ 
+ 
+í.018 (0.015) 
+í.025 (0.016) 
+Homosexual male × tertiary education 
+ 
+ 
+ 
+í.520 (0.326) 
+í.503 (0.340) 
+Homosexual male × UK 
+ 
+ 
+ 
+0.043 (0.315) 
+0.127 (0.316) 
+Homosexual male × more than five years of hiring experience 
+ 
+ 
+ 
+0.158 (0.313) 
+0.263 (0.316) 
+Homosexual male × contact with homosexuals (s.) 
+ 
+ 
+ 
+í.154 (0.172) 
+í.181 (0.183) 
+Homosexual male × homonegativity (s.) 
+ 
+ 
+ 
+í.414** (0.194) 
+í.322 (0.204) 
+Homosexual male × risk aversion (s.) 
+ 
+ 
+ 
+0.081 (0.177) 
+0.046 (0.179) 
+Homosexual female × female 
+ 
+ 
+ 
+í.322 (0.319) 
+í.408 (0.321) 
+Homosexual female × not heterosexual 
+ 
+ 
+ 
+í.230 (0.480) 
+í.212 (0.500) 
+Homosexual female × age (cont.) 
+ 
+ 
+ 
+í.008 (0.013) 
+í.010 (0.013) 
+Homosexual female × tertiary education 
+ 
+ 
+ 
+0.161 (0.349) 
+0.098 (0.367) 
+
+
+ 
+43
+Homosexual female × UK 
+ 
+ 
+ 
+0.296 (0.326) 
+0.078 (0.336) 
+Homosexual female × more than five years of hiring experience 
+ 
+ 
+ 
+0.139 (0.310) 
+0.172 (0.316) 
+Homosexual female × contact with homosexuals (s.) 
+ 
+ 
+ 
+0.217 (0.183) 
+0.140 (0.184) 
+Homosexual female × homonegativity (s.) 
+ 
+ 
+ 
+í.393** (0.184) 
+í.443** (0.184) 
+Homosexual female × risk aversion (s.) 
+ 
+ 
+ 
+0.014 (0.179) 
+0.044 (0.181) 
+N 
+1,616 
+ 
+ 
+ 
+ 
+Notes. Abbreviations used: s. (scale consisting of multiple items), ref. (reference category). The presented statistics are coefficient estimates and their standard errors in 
+parentheses for the mediation model outlined in Subsection 3.2. Standard errors are corrected for clustering of the observations at the participant level. *** (**) ((*)) indicates 
+significance at the 1% (5%) ((10%)) significance level. 
+ 
+  
+
+
+ 
+44
+Appendix 
+Appendix Table 1. Items list literature review 
+Item 
+Source 
+Characteristic 
+Item Reduction Process 
+ 1 
+Madon (1997) 
+A lot of female friends 
+Step 1: Irrelevant 
+ 2 
+Stangor, Silluvan, & Ford (1991) 
+Abnormal 
+Step 1: Irrelevant 
+ 3 
+Levitt & Klassen (1976) 
+Afraid of the opposite sex 
+Step 1: Irrelevant 
+ 4 
+Geiger, Harwood, & Hummert (2006) 
+Angry 
+Step 1: Irrelevant 
+ 5 
+Geiger et al. (2006) 
+Athletic 
+Step 1: Irrelevant 
+ 6 
+Geiger et al. (2006) 
+Confused 
+Step 1: Irrelevant 
+ 7 
+Madon (1997) 
+Dainty 
+Step 1: Irrelevant 
+ 8 
+Geiger et al. (2006) 
+Defensive 
+Step 1: Irrelevant 
+ 9 
+Geiger et al. (2006) 
+Eccentric 
+Step 1: Irrelevant 
+ 10 
+Haddock, Zanna, & Esses (1993), Simmons (1965) 
+Effeminate 
+Step 1: Irrelevant 
+ 11 
+Ahmed et al. (2013) 
+Family-oriented 
+Step 1: Irrelevant 
+ 12 
+Madon (1997), Steffens, Niedlich, Beschorner, & Köhler (2019) 
+Fashionable 
+Step 1: Irrelevant 
+ 13 
+Stangor et al. (1991) 
+Fussy 
+Step 1: Irrelevant 
+ 14 
+Mishel (2020) 
+Gender nonconforming 
+Step 1: Irrelevant 
+ 15 
+Geiger et al. (2006) 
+Humourless 
+Step 1: Irrelevant 
+ 16 
+Geiger et al. (2006), Mishel (2020) 
+Immoral 
+Step 1: Irrelevant 
+ 17 
+Madon (1997) 
+Liberal 
+Step 1: Irrelevant 
+ 18 
+Blashill & Powlishta (2009), Geiger et al. (2006), Stern et al. (2013) 
+Masculine 
+Step 1: Irrelevant 
+ 19 
+Madon (1997) 
+Melodramatic 
+Step 1: Irrelevant 
+ 20 
+Geiger et al. (2006), Simmons (1965) 
+Mentally Ill 
+Step 1: Irrelevant 
+ 21 
+Madon (1997) 
+Sentimental 
+Step 1: Irrelevant 
+ 22 
+Gurwitz & Marcus (1978) 
+Theatrical 
+Step 1: Irrelevant 
+ 23 
+Madon (1997) 
+Touchy-feely 
+Step 1: Irrelevant 
+ 24 
+Everly et al. (2016), Mize & Manago (2018) 
+Competent 
+Step 1: Criterion 
+ 25 
+Steffens et al. (2019) 
+Effective performance of job-related tasks 
+Step 1: Criterion 
+
+
+ 
+45
+ 26 
+Geiger et al. (2006) 
+Successful 
+Step 1: Criterion 
+ 27 
+Fric (2017) 
+Task-related competence 
+Step 1: Criterion 
+ 28 
+Gurwitz & Marcus (1978) 
+Passive 
+Step 2: 2SSRVLWHRIµDVVHUWLYH¶ 
+ 29 
+Geiger et al. (2006) 
+Nonconformist 
+Step 2: Deviant from factor structure 
+ 30 
+Page & Yee (1986) 
+Strong need for security 
+Step 3: Limited relevance 
+ 31 
+Madon (1997) 
+Gentle 
+Step 3: Limited relevance 
+ 32 
+Steffens et al. (2019) 
+Good taste 
+Step 3: Limited relevance 
+ 33 
+Everly et al. (2016), Madon (1997) 
+Open about their feelings 
+Step 3: Limited relevance 
+ 34 
+Jackson & Sullivan (1989), Madon (1997), Steffens et al. (2019) 
+Artistic 
+Step 3: Merged to Creativity 
+ 35 
+Geiger et al. (2006), Jackson & Sullivan (1989), Steffens et al. (2019) 
+Creative 
+Step 3: Merged to Creativity 
+ 36 
+Staats (1978) 
+Imaginative 
+Step 3: Merged to Creativity 
+ 37 
+Madon (1997) 
+Emotional 
+Step 3: Merged to Emotionally sensitive 
+ 38 
+Madon (1997), Staats (1978) 
+Sensitive 
+Step 3: Merged to Emotionally sensitive 
+ 39 
+Fric (2017) 
+Approachable 
+Step 3: Merged to Empathy 
+ 40 
+Jackson & Sullivan (1989), Madon (1997) 
+Compassionate 
+Step 3: Merged to Empathy 
+ 41 
+Everly et al. (2016), Madon (1997), Steffens et al. (2019) 
+Good listener 
+Step 3: Merged to Empathy 
+ 42 
+Jackson & Sullivan (1989) 
+Sensitive to the needs of others 
+Step 3: Merged to Empathy 
+ 43 
+Everly et al. (2016) 
+Tactful 
+Step 3: Merged to Empathy 
+ 44  
+Madon (1997) 
+Understanding 
+Step 3: Merged to Empathy 
+ 45 
+Madon (1997) 
+Affectionate 
+Step 3: Merged to Loving & soft 
+ 46 
+Stangor et al. (1991) 
+Loving 
+Step 3: Merged to Loving & soft 
+ 47 
+Madon (1997) 
+Soft-hearted 
+Step 3: Merged to Loving & soft 
+ 48 
+Madon (1997), Everly et al. (2016) 
+Warm-hearted 
+Step 3: Merged to Loving & soft 
+ 49 
+Madon (1997) 
+In touch with themselves 
+Step 3: Merged to Self-aware 
+ 50 
+Geiger et al. (2006) 
+Strong sense of self 
+Step 3: Merged to Self-aware 
+ 51 
+Steffens (2019) 
+Emotional intelligence 
+Step 4: Face validity 
+ 52 
+Madon (1997), Staats (1978) 
+Individualistic 
+Step 4: Face validity 
+ 53 
+Geiger et al. (2006) 
+Powerful 
+Step 4: Face validity 
+ 54 
+Geiger et al. (2006) 
+Proud 
+Step 4: Face validity 
+ 55 
+Everly et al. (2016) 
+Self-confident 
+Step 4: Face validity 
+ 56 
+Everly et al. (2016), Geiger et al. (2006) 
+Assertive 
+Final  
+ 57 
+Everly et al. (2016), Geiger et al. (2006) 
+Career-oriented 
+Final  
+
+
+ 
+46
+ 58 
+Everly et al. (2016) 
+Competitive 
+Final  
+ 59 
+Geiger et al. (2006) 
+Dominating 
+Final  
+ 60 
+Pellegrini et al. (2020) 
+Effective leader 
+Final  
+ 61 
+Staats (1978) 
+Honest 
+Final  
+ 62 
+Everly et al. (2016) 
+Independent 
+Final  
+ 63 
+Staats (1978) 
+Intelligent 
+Final  
+ 64 
+Staats (1978) 
+Neat 
+Final  
+ 65 
+Geiger et al. (2006), Madon (1997) 
+Open-minded 
+Final  
+ 66 
+Geiger et al. (2006) 
+Outspoken 
+Final  
+ 67 
+Geiger et al. (2006) 
+Professional 
+Final  
+ 68 
+Fric (2017) 
+Social skills 
+Final  
+ 69 
+Madon (1997) 
+Talkative 
+Final  
+ 70 
+Steffens et al. (2019) 
+Team-oriented 
+Final  
+ 71 
+Input from labour market expert 
+Current health 
+Final 
+Notes. This should be read as: <Item> was based on the previous research of <Source> which indicated that homosexuals are perceived as <Characteristic>. The fourth column 
+indicates whether the item was dropped, merged or added to the final list. Table 1 provides a summary of all retained items used for the main study. 
+ 
+
+
+ 
+47
+Appendix Table 2. Statements employed for candidate profile evaluations 
+Evaluative dimension 
+Statement 
+A. HIRING INTENTION 
+ 
+Interview probability 
+I will invite this candidate for a job interview. 
+Hiring probability 
+There is a high chance that I will eventually hire this candidate for this position. 
+B. CANDIDATE PERCEPTIONS OF COLLABORATION 
+ 
+Attitude towards collaboration with employer 
+I think I, myself would enjoy collaborating with this applicant. 
+Attitude towards collaboration with other employees 
+I think other employees would enjoy collaborating with this applicant. 
+Attitude towards collaboration with clients 
+I think clients or third parties would enjoy collaborating with this applicant. 
+C. CANDIDATE PERCEPTIONS OF CHARACTERISTICS 
+ 
+Perceived Social skills 
+I believe this applicant to possess advanced social skills. 
+Perceived Assertiveness 
+I believe this applicant to be assertive. 
+Perceived Outspokenness 
+I believe this applicant to be outspoken. 
+Perceived Dominance 
+I believe this applicant to be dominant at the workplace. 
+Perceived Independence 
+I believe this applicant to be independent. 
+Perceived Competitiveness 
+I believe this applicant to be competitive. 
+Perceived Leadership abilities 
+I believe this applicant to be an effective leader. 
+Perceived Team orientation 
+I believe this applicant to be team-oriented. 
+Perceived Empathy 
+I believe this applicant to show empathy in collaboration. 
+Perceived Softness of personality 
+I believe this applicant to have a loving & soft personality. 
+Perceived Emotional sensitivity 
+I believe this applicant to be emotionally sensitive. 
+Perceived Neatness 
+I believe this applicant to be neat. 
+Perceived Intelligence 
+I believe this applicant to be intelligent. 
+Perceived Open-mindedness 
+I believe this applicant to be open-minded. 
+Perceived Creativity 
+I believe this applicant to be creative. 
+Perceived Talkativeness 
+I believe this applicant to be talkative. 
+Perceived Honesty 
+I believe this applicant to be honest. 
+Perceived Professionalism 
+I believe that this applicant behaves in a professional manner. 
+Perceived Self-awareness 
+I believe this applicant to be self-aware. 
+Perceived Career orientation 
+I believe this applicant to be career-oriented. 
+Perceived Current health 
+I believe this applicant to be healthy. 
+Notes. Each item was rated on an 11-point response scale, ranging from 0 (Strongly disagree) to 10 (Strongly agree). 
+
+
+ 
+48
+Appendix Table 3. Mediation analysis with interview probability as the outcome 
+Mediators 
+Collaboration 
+Social skills 
+Assertiveness 
+Outspokenness 
+Dominance 
+Independency 
+A. CANDIDATE CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Sexual orientation (ref. = heterosexual male) 
+ 
+ 
+ 
+ 
+ 
+ 
+Heterosexual female 
+í.143 (0.102) 
+0.195** (0.091) 
+0.001 (0.095) 
+0.082 (0.096) 
+í.159* (0.096) 
+0.067 (0.090) 
+Homosexual male 
+í647*** (0.180) 
+0.265** (0.114) 
+0.136 (0.118) 
+0.430*** (0.115) 
+í.189* (0.114) 
+0.154 (0.113) 
+Homosexual female 
+0.541*** (0.126) 
+0.282** (0.123) 
+0.415*** (0.126) 
+0.564*** (0.127) 
+0.167 (0.121) 
+0.402*** (0.120) 
+Age (c.) 
+í.017** (0.007) 
+0.005 (0.006) 
+0.002 (0.006) 
+í.001 (0.006) 
+í.001 (0.006) 
+0.003 (0.005) 
+Experience (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+Two years 
+0.697*** (0.132) 
+0.790*** (0.086) 
+0.589*** (0.087) 
+0.469*** (0.085) 
+0.540*** (0.091) 
+0.614*** (0.082) 
+Five years 
+1.053*** (0.138) 
+0.879*** (0.094) 
+0.917*** (0.090) 
+0.639*** (0.089) 
+0.882*** (0.089) 
+0.949*** (0.091) 
+Foreign language knowledge (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+French 
+0.514*** (0.136) 
+0.014 (0.085) 
+í.007 (0.079) 
+í.012 (0.084) 
+í.026 (0.081) 
+0.013 (0.081) 
+Spanish 
+0.819*** (0.128) 
+0.262*** (0.082) 
+0.120 (0.083) 
+0.096 (0.081) 
+0.108 (0.084) 
+0.090 (0.083) 
+Professional achievements (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+Diversity ambassador 
+0.732*** (0.130) 
+0.787*** (0.085) 
+0.489*** (0.085) 
+0.615*** (0.085) 
+0.526*** (0.082) 
+0.360*** (0.077) 
+Employee of the month 
+0.874*** (0.096) 
+0.445*** (0.081) 
+0.309*** (0.084) 
+0.164* (0.089) 
+0.379*** (0.090) 
+0.323*** (0.079) 
+Hobbies (ref. = none mentioned) 
+ 
+ 
+ 
+ 
+ 
+ 
+Wrestling 
+í.321 (0.200) 
+0.111 (0.137) 
+0.878*** (0.128) 
+0.497*** (0.130) 
+0.922*** (0.130) 
+0.694*** (0.135) 
+Gymnastics 
+í.208 (0.177) 
+0.325** (0.131) 
+0.229* (0.128) 
+0.224* (0.129) 
+0.384*** (0.138) 
+0.360*** (0.134) 
+Tennis 
+0.435*** (0.152) 
+0.088 (0.135) 
+0.058 (0.135) 
+0.004 (0.126) 
+0.099 (0.130) 
+0.128 (0.131) 
+Volunteers to distribute food for local community 
+0.693*** (0.138) 
+0.615*** (0.133) 
+0.170 (0.130) 
+0.142 (0.135) 
+0.107 (0.131) 
+0.487*** (0.127) 
+Volunteers at LGBTQ rights organisation 
+í.127 (0.158) 
+0.583*** (0.132) 
+0.383*** (0.129) 
+0.753*** (0.143) 
+0.247* (0.130) 
+0.525*** (0.134) 
+B. VACANCY CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Gender-type (ref. = neutral job) 
+ 
+ 
+ 
+ 
+ 
+ 
+Male-dominated job 
+0.267 (0.179) 
+í 
+0.011 (0.141) 
+0.107 (0.149) 
+í.079 (0.138) 
+0.016 (0.157) 
+Female-dominated job 
+í.118 (0.186) 
+í.070 (0.149) 
+í.030 (0.146) 
+0.006 (0.152) 
+í.059 (0.138) 
+0.025 (0.159) 
+Customer contact: high 
+0.152 (0.148) 
+0.114 (0.124) 
+0.089 (0.120) 
+0.080 (0.123) 
+í.013 (0.115) 
+0.091 (0.130) 
+Diversity statement: included 
+0.091 (0.148) 
+0.111 (0.123) 
+0.193 (0.120) 
+0.056 (0.123) 
+0.170 (0.114) 
+0.072 (0.131) 
+
+
+ 
+49
+C. PARTICIPANT CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Gender (ref. = male) 
+ 
+ 
+ 
+ 
+ 
+ 
+Female 
+í.234 (0.151) 
+í.268** (0.130) 
+í.059 (0.127) 
+í.084 (0.129) 
+í.218* (0.119) 
+í.090 (0.141) 
+Sexual orientation (ref. = heterosexual) 
+ 
+ 
+ 
+ 
+ 
+ 
+Not heterosexual 
+0.014 (0.238) 
+í.317* (0.177) 
+í.084 (0.188) 
+0.051 (0.202) 
+0.021 (0.184) 
+í.232 (0.222) 
+Age (c.) 
+0.006 (0.006) 
+0.010* (0.006) 
+0.009 (0.006) 
+0.005 (0.006) 
+0.002 (0.005) 
+0.009 (0.006) 
+Educational degree (ref. = lower than tertiary) 
+ 
+ 
+ 
+ 
+ 
+ 
+Tertiary education 
+í.160 (0.179) 
+í.568*** (0.151) 
+í.459*** (0.148) 
+í.507*** (0.151) 
+í.427*** (0.137) 
+í.469*** (0.158) 
+Nationality (ref. = USA) 
+ 
+ 
+ 
+ 
+ 
+ 
+UK 
+0.063 (0.148) 
+í.154 (0.130) 
+í.081 (0.127) 
+í.425*** (0.129) 
+0.006 (0.121) 
+í.226 (0.136) 
+Hiring experience (ref. = less than five years) 
+ 
+ 
+ 
+ 
+ 
+ 
+More than five years 
+í.131 (0.166) 
+í.059 (0.140) 
+í.103 (0.134) 
+í.115 (0.135) 
+í.167 (0.127) 
+0.097 (0.142) 
+Contact with homosexuals (s.) 
+0.096 (0.088) 
+0.136* (0.073) 
+0.069 (0.076) 
+0.112 (0.076) 
+0.071 (0.070) 
+0.048 (0.077) 
+Homonegativity (s.) 
+í.433*** (0.089) 
+í.288*** (0.080) 
+í.075 (0.077) 
+0.095 (0.075) 
+í.009 (0.073) 
+í.153* (0.083) 
+Risk aversion (s.) 
+0.038 (0.084) 
+0.017 (0.067) 
+0.035 (0.068) 
+0.060 (0.068) 
+í.006 (0.064) 
+0.032 (0.069) 
+N 
+1,616 
+ 
+ 
+ 
+ 
+ 
+Notes. Abbreviations used: s. (scale consisting of multiple items), ref. (reference category), req. (required) and tert. edu. (tertiary education). The presented statistics are coefficient 
+estimates and their standard errors in parentheses for the mediation model outlined in Subsection 3.2. Standard errors are corrected for clustering of the observations at the 
+participant level. *** (**) ((*)) indicates significance at the 1% (5%) ((10%)) significance level. 
+ 
+
+
+ 
+ 
+50
+Appendix Table 3. Mediation analysis with interview probability as the outcome (continued) 
+Mediators 
+Competitiveness 
+Leadership 
+Team  
+orientation 
+Empathy 
+Softness of  
+personality 
+Emotional 
+sensitivity 
+A. CANDIDATE CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Sexual orientation (ref. = heterosexual male) 
+ 
+ 
+ 
+ 
+ 
+ 
+Heterosexual female 
+í.044 (0.103) 
+0.063 (0.098) 
+0.270*** (0.092) 
+0.330*** (0.094) 
+0.420*** (0.098) 
+0.465*** (0.107) 
+Homosexual male 
+0.017 (0.121) 
+0.031 (0.121) 
+0.241** (0.119) 
+0.299*** (0.114) 
+0.450*** (0.116) 
+0.681*** (0.128) 
+Homosexual female 
+0.080 (0.134) 
+0.197 (0.119) 
+0.095 (0.118) 
+0.281** (0.127) 
+0.176 (0.123) 
+0.589*** (0.133) 
+Age (c.) 
+í.002 (0.006) 
+0.009 (0.006) 
+í.002 (0.005) 
+í.005 (0.006) 
+í.008 (0.006) 
+í.004 (0.006) 
+Experience (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+Two years 
+0.630*** (0.094) 
+0.797*** (0.089) 
+0.620*** (0.089) 
+0.610*** (0.094) 
+0.471*** (0.094) 
+0.479*** (0.094) 
+Five years 
+0.825*** (0.097) 
+1.157*** (0.093) 
+0.749*** (0.089) 
+0.600*** (0.091) 
+0.371*** (0.096) 
+0.454*** (0.099) 
+Foreign language knowledge (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+French 
+0.069 (0.091) 
+í.069 (0.086) 
+í.037 (0.086) 
+0.017 (0.077) 
+0.080 (0.086) 
+0.157* (0.093) 
+Spanish 
+0.188** (0.090) 
+0.091 (0.084) 
+0.186** (0.086) 
+0.215** (0.086) 
+0.199** (0.088) 
+0.239** (0.093) 
+Professional achievements (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+Diversity ambassador 
+0.341*** (0.087) 
+0.768*** (0.081) 
+0.555*** (0.088) 
+0.602*** (0.084) 
+0.252*** (0.083) 
+0.539*** (0.088) 
+Employee of the month 
+0.484*** (0.093) 
+0.485*** (0.086) 
+0.493*** (0.078) 
+0.254*** (0.081) 
+0.168** (0.079) 
+0.253***(0.084) 
+Hobbies (ref. = none mentioned) 
+ 
+ 
+ 
+ 
+ 
+ 
+Wrestling 
+1.533*** (0.145) 
+0.489*** (0.133) 
+0.122 (0.130) 
+0.022 (0.134) 
+í.040 (0.130) 
+í.233 (0.149) 
+Gymnastics 
+0.895*** (0.146) 
+0.458*** (0.134) 
+0.364*** (0.126) 
+0.199 (0.125) 
+0.137 (0.126) 
+0.036 (0.127) 
+Tennis 
+0.712*** (0.136) 
+0.305** (0.132) 
+0.159 (0.131) 
+0.152 (0.128) 
+0.355*** (0.129) 
+0.115 (0.135) 
+Volunteers to distribute food for local community 
+0.052 (0.142) 
+0.457*** (0.132) 
+0.584*** (0.128) 
+0.914*** (0.131) 
+0.953*** (0.135) 
+0.736*** (0.141) 
+Volunteers at LGBTQ rights organisation 
+0.246* (0.133) 
+0.525*** (0.126) 
+0.424*** (0.127) 
+0.690*** (0.129) 
+0.690*** (0.123) 
+0.777*** (0.140) 
+B. VACANCY CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Gender-type (ref. = neutral job) 
+ 
+ 
+ 
+ 
+ 
+ 
+Male-dominated job 
+í.001 (0.151) 
+0.047 (0.143) 
+0.071 (0.148) 
+í 
+0.157 (0.150) 
+í.037 (0.144) 
+Female-dominated job 
+í.051 (0.160) 
+í.007 (0.152) 
+í.049 (0.146) 
+0.032 (0.155) 
+0.238 (0.153) 
+0.171 (0.148) 
+Customer contact: high 
+í.011 (0.127) 
+0.079 (0.122) 
+0.059 (0.117) 
+0.161 (0.124) 
+0.088 (0.122) 
+0.056 (0.122) 
+Diversity statement: included 
+0.164 (0.126) 
+0.158 (0.121) 
+0.120 (0.118) 
+0.062 (0.122) 
+0.150 (0.122) 
+0.053 (0.120) 
+
+
+ 
+ 
+51
+C. PARTICIPANT CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Gender (ref. = male) 
+ 
+ 
+ 
+ 
+ 
+ 
+Female 
+í.199 (0.133) 
+í.148 (0.128) 
+í.072 (0.122) 
+í.238* (0.128) 
+í.407*** (0.133) 
+í.292** (0.130) 
+Sexual orientation (ref. = heterosexual) 
+ 
+ 
+ 
+ 
+ 
+ 
+Not heterosexual 
+í.219 (0.178) 
+í.209 (0.190) 
+í.283 (0.194) 
+í.366* (0.188) 
+í.569*** (0.194) 
+í.309 (0.191) 
+Age (c.) 
+0.014** (0.006) 
+0.003 (0.006) 
+0.010* (0.006) 
+0.014** (0.006) 
+0.003 (0.006) 
+0.011* (0.006) 
+Educational degree (ref. = lower than tertiary) 
+ 
+ 
+ 
+ 
+ 
+ 
+Tertiary education 
+í.519*** (0.153) 
+í.591*** (0.145) 
+í.519*** (0.142) 
+í.387** (0.150) 
+í.569*** (0.148) 
+í.421*** (0.149) 
+Nationality (ref. = USA) 
+ 
+ 
+ 
+ 
+ 
+ 
+UK 
+í.146 (0.134) 
+í.275** (0.127) 
+í.362*** (0.124) 
+í.206 (0.127) 
+í.031 (0.127) 
+í.084 (0.125) 
+Hiring experience (ref. = less than five years) 
+ 
+ 
+ 
+ 
+ 
+ 
+More than five years 
+0.035 (0.139) 
+í.022 (0.132) 
+0.063 (0.131) 
+0.031 (0.138) 
+í.052 (0.133) 
+í.015 (0.134) 
+Contact with homosexuals (s.) 
+0.062 (0.077) 
+0.036 (0.076) 
+0.044 (0.072) 
+0.115 (0.072) 
+0.131* (0.076) 
+0.131* (0.072) 
+Homonegativity (s.) 
+í.129 (0.084) 
+í.374*** (0.074) 
+í.331*** (0.074) 
+í.285*** (0.075) 
+í.234*** (0.079) 
+í.108 (0.075) 
+Risk aversion (s.) 
+í.024 (0.070) 
+0.047 (0.073) 
+0.020 (0.064) 
+0.053 (0.066) 
+0.038 (0.067) 
+í.004 (0.071) 
+N 
+1,616 
+ 
+ 
+ 
+ 
+ 
+Notes. Abbreviations used: s. (scale consisting of multiple items), ref. (reference category), req. (required) and tert. edu. (tertiary education). The presented statistics are coefficient 
+estimates and their standard errors in parentheses for the mediation model outlined in Subsection 3.2. Standard errors are corrected for clustering of the observations at the 
+participant level. *** (**) ((*)) indicates significance at the 1% (5%) ((10%)) significance level. 
+ 
+ 
+ 
+
+
+ 
+ 
+52
+Appendix Table 3. Mediation analysis with interview probability as the outcome (continued) 
+Mediators 
+Neatness 
+Intelligence 
+Open-
+mindedness 
+Creativity 
+Talkativeness 
+Honesty 
+A. CANDIDATE CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Sexual orientation (ref. = heterosexual male) 
+ 
+ 
+ 
+ 
+ 
+ 
+Heterosexual female 
+0.151* (0.083) 
+0.127 (0.084) 
+0.218** (0.095) 
+0.239*** (0.093) 
+0.424*** (0.109) 
+0.244*** (0.081) 
+Homosexual male 
+0.433*** (0.108) 
+0.242** (0.110) 
+0.764*** (0.126) 
+0.447*** (0.109) 
+0.671*** (0.121) 
+0.276** (0.108) 
+Homosexual female 
+0.118 (0.120) 
+0.270** (0.128) 
+0.883*** (0.124) 
+0.413*** (0.114) 
+0.470*** (0.124) 
+0.397*** (0.122) 
+Age (c.) 
+0.002 (0.005) 
+0.009* (0.005) 
+í.010 (0.006) 
+í.008 (0.006) 
+í.011* (0.006) 
+0.002 (0.005) 
+Experience (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+Two years 
+0.540*** (0.083) 
+0.804*** (0.081) 
+0.574*** (0.094) 
+0.626*** (0.086) 
+0.253*** (0.095) 
+0.465*** (0.081) 
+Five years 
+0.496*** (0.085) 
+1.002*** (0.088) 
+0.709*** (0.092) 
+0.692*** (0.090) 
+0.539*** (0.088) 
+0.635*** (0.084) 
+Foreign language knowledge (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+French 
+0.117 (0.074) 
+0.096 (0.077) 
+0.102 (0.088) 
+0.130 (0.085) 
+0.041 (0.086) 
+0.128* (0.073) 
+Spanish 
+0.089 (0.074) 
+0.159** (0.080) 
+0.238*** (0.089) 
+0.180** (0.081) 
+0.068 (0.089) 
+0.249*** (0.073) 
+Professional achievements (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+ 
+Diversity ambassador 
+0.256*** (0.075) 
+0.487*** (0.079) 
+0.714*** (0.094) 
+0.529*** (0.081) 
+0.759*** (0.093) 
+0.295*** (0.081) 
+Employee of the month 
+0.316*** (0.075) 
+0.381*** (0.071) 
+0.311*** (0.084) 
+0.345*** (0.080) 
+0.525*** (0.091) 
+0.244*** (0.072) 
+Hobbies (ref. = none mentioned) 
+ 
+ 
+ 
+ 
+ 
+ 
+Wrestling 
+í.067 (0.120) 
+0.102 (0.127) 
+0.059 (0.127) 
+0.118 (0.130) 
+0.410*** (0.138) 
+0.078 (0.114) 
+Gymnastics 
+0.152 (0.116) 
+0.241* (0.126) 
+0.035 (0.133) 
+0.272** (0.124) 
+0.310** (0.127) 
+í.092 (0.124) 
+Tennis 
+0.021 (0.112) 
+0.138 (0.127) 
+í.057 (0.137) 
+0.025 (0.125) 
+0.288** (0.127) 
+í.128 (0.122) 
+Volunteers to distribute food for local 
+community 
+0.236** (0.114) 
+0.338*** (0.119) 
+0.375*** (0.139) 
+0.360*** (0.127) 
+0.316** (0.149) 
+0.435*** (0.117) 
+Volunteers at LGBTQ rights organisation 
+0.215* (0.113) 
+0.217* (0.122) 
+0.829*** (0.140) 
+0.398*** (0.131) 
+0.706*** (0.135) 
+0.166 (0.120) 
+B. VACANCY CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Gender-type (ref. = neutral job) 
+ 
+ 
+ 
+ 
+ 
+ 
+Male-dominated job 
+0.034 (0.147) 
+í 
+0.034 (0.155) 
+0.272* (0.141) 
+0.136 (0.145) 
+í.029 (0.155) 
+Female-dominated job 
+0.088 (0.157) 
+í.206 (0.152) 
+0.135 (0.160) 
+0.144 (0.152) 
+0.226 (0.157) 
+í.073 (0.162) 
+Customer contact: high 
+0.148 (0.124) 
+0.058 (0.126) 
+0.215* (0.129) 
+0.020 (0.121) 
+0.131 (0.124) 
+0.071 (0.134) 
+Diversity statement: included 
+0.173 (0.124) 
+0.095 (0.126) 
+í.008 (0.127) 
+0.081 (0.119) 
+0.057 (0.122) 
+0.068 (0.134) 
+
+
+ 
+ 
+53
+C. PARTICIPANT CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+ 
+Gender (ref. = male) 
+ 
+ 
+ 
+ 
+ 
+ 
+Female 
+í.304** (0.131) 
+í.220 (0.135) 
+í.022 (0.133) 
+í.274** (0.126) 
+í.243* (0.127) 
+í.285** (0.141) 
+Sexual orientation (ref. = heterosexual) 
+ 
+ 
+ 
+ 
+ 
+ 
+Not heterosexual 
+í.499*** (0.192) 
+í.264 (0.186) 
+í.310 (0.200) 
+í.380** (0.180) 
+í.253 (0.200) 
+í.389* (0.211) 
+Age (c.) 
+0.006 (0.006) 
+0.016*** (0.006) 
+0.015** (0.006) 
+0.006 (0.006) 
+0.006 (0.006) 
+0.011 (0.007) 
+Educational degree (ref. = lower than tertiary) 
+ 
+ 
+ 
+ 
+ 
+ 
+Tertiary education 
+í.507*** (0.154) 
+í.530*** (0.146) 
+í.395** (0.157) 
+í.501*** (0.150) 
+í.353** (0.151) 
+í.463*** (0.164) 
+Nationality (ref. = USA) 
+ 
+ 
+ 
+ 
+ 
+ 
+UK 
+í.531*** (0.128) 
+í.417*** (0.131) 
+í.247* (0.130) 
+í.320** (0.125) 
+í.189 (0.128) 
+í.208 (0.136) 
+Hiring experience (ref. = less than five years) 
+ 
+ 
+ 
+ 
+ 
+ 
+More than five years 
+0.067 (0.137) 
+0.061 (0.140) 
+0.010 (0.141) 
+0.071 (0.134) 
+0.003 (0.137) 
+0.113 (0.146) 
+Contact with homosexuals (s.) 
+0.090 (0.075) 
+0.094 (0.076) 
+0.069 (0.076) 
+0.058 (0.074) 
+0.042 (0.079) 
+0.050 (0.078) 
+Homonegativity (s.) 
+í.126* (0.075) 
+í.297*** (0.081) 
+í.229*** (0.082) 
+í.217*** (0.070) 
+í.027 (0.073) 
+í.300*** (0.082) 
+Risk aversion (s.) 
+0.014 (0.068) 
+í.034 (0.065) 
+0.018 (0.063) 
+í.031 (0.068) 
+0.018 (0.069) 
+0.011 (0.068) 
+N 
+1,616 
+ 
+ 
+ 
+ 
+ 
+Notes. Abbreviations used: s. (scale consisting of multiple items), ref. (reference category), req. (required) and tert. edu. (tertiary education). The presented statistics are coefficient 
+estimates and their standard errors in parentheses for the mediation model outlined in Subsection 3.2. Standard errors are corrected for clustering of the observations at the 
+participant level. *** (**) ((*)) indicates significance at the 1% (5%) ((10%)) significance level. 
+ 
+ 
+
+
+ 
+ 
+54
+Appendix Table 3. Mediation analysis with interview probability as the outcome (continued) 
+Mediators 
+Interview probability 
+Professionalism 
+Self-awareness 
+Career orientation 
+Current health 
+A. CANDIDATE CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+Sexual orientation (ref. = heterosexual male) 
+ 
+ 
+ 
+ 
+ 
+Heterosexual female 
+0.107 (0.085) 
+0.251*** (0.087) 
+0.068 (0.101) 
+0.111 (0.085) 
+0.215** (0.106) 
+Homosexual male 
+0.154 (0.113) 
+0.396*** (0.120) 
+0.152 (0.116) 
+0.003 (0.111) 
+0.424*** (0.142) 
+Homosexual female 
+0.158 (0.125) 
+0.637*** (0.123) 
+0.197 (0.126) 
+0.058 (0.131) 
+0.292** (0.141) 
+Age (c.) 
+0.003 (0.006) 
+í.000 (0.005) 
+0.000 (0.006) 
+í.002 (0.006) 
+0.001 (0.007) 
+Experience (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+Two years 
+0.759*** (0.089) 
+0.621*** (0.081) 
+1.173 (0.094) 
+0.416 (0.078) 
+2.210*** (0.138) 
+Five years 
+1.010*** (0.093) 
+0.719*** (0.094) 
+1.661 (0.112) 
+0.454 (0.084) 
+2.983*** (0.162) 
+Foreign language knowledge (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+French 
+í.124 (0.080) 
+0.092 (0.078) 
+0.031 (0.093) 
+0.035 (0.086) 
+í.010 (0.105) 
+Spanish 
+0.033 (0.082) 
+0.078 (0.083) 
+0.206 (0.097) 
+0.096 (0.081) 
+í.144 (0.106) 
+Professional achievements (ref. = none) 
+ 
+ 
+ 
+ 
+ 
+Diversity ambassador 
+0.578*** (0.085) 
+0.418*** (0.081) 
+0.675 (0.087) 
+0.141 (0.079) 
+0.238** (0.111) 
+Employee of the month 
+0.557*** (0.082) 
+0.271*** (0.080) 
+0.820 (0.089) 
+0.205 (0.080) 
+0.122 (0.102) 
+Hobbies (ref. = none mentioned) 
+ 
+ 
+ 
+ 
+ 
+Wrestling 
+í.005 (0.133) 
+0.146 (0.128) 
+0.633 (0.150) 
+0.964 (0.134) 
+0.403** (0.163) 
+Gymnastics 
+0.280** (0.129) 
+0.161 (0.126) 
+0.508 (0.144) 
+0.926 (0.136) 
+0.169 (0.180) 
+Tennis 
+0.008 (0.134) 
+í 
+0.377 (0.149) 
+0.537 (0.131) 
+0.027 (0.165) 
+Volunteers to distribute food for local community 0.305** (0.122) 
+0.337** (0.132) 
+0.396 (0.146) 
+0.356 (0.123) 
+0.246 (0.153) 
+Volunteers at LGBTQ rights organisation 
+0.292** (0.127) 
+0.421* (0.133) 
+0.426 (0.142) 
+0.224 (0.120) 
+0.230 (0.163) 
+B. VACANCY CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+Gender-type (ref. = neutral job) 
+ 
+ 
+ 
+ 
+ 
+Male-dominated job 
+í.087 (0.164) 
+0.073 (0.149) 
+í.043 (0.153) 
+0.180 (0.155) 
+0.161 (0.144) 
+Female-dominated job 
+í.121 (0.163) 
+0.053 (0.156) 
+í.100 (0.155) 
+0.096 (0.161) 
+0.124 (0.149) 
+Customer contact: high 
+0.103 (0.133) 
+0.142 (0.129) 
+0.140 (0.125) 
+0.007 (0.132) 
+0.094 (0.122) 
+Diversity statement: included 
+0.110 (0.133) 
+0.114 (0.127) 
+0.159 (0.124) 
+0.057 (0.132) 
+0.009 (0.120) 
+
+
+ 
+ 
+55
+C. PARTICIPANT CHARACTERISTICS 
+ 
+ 
+ 
+ 
+ 
+Gender (ref. = male) 
+ 
+ 
+ 
+ 
+ 
+Female 
+í.061 (0.142) 
+í.188 (0.136) 
+í.201 (0.132) 
+í.127 (0.141) 
+0.107 (0.122) 
+Sexual orientation (ref. = heterosexual) 
+ 
+ 
+ 
+ 
+ 
+Not heterosexual 
+í.361* (0.198) 
+í.260 (0.209) 
+í.197 (0.189) 
+í.575 (0.207) 
+í.392** (0.197) 
+Age (c.) 
+0.013* (0.006) 
+0.020*** (0.006) 
+0.008 (0.006) 
+0.015 (0.006) 
+í.005 (0.005) 
+Educational degree (ref. = lower than tertiary) 
+ 
+ 
+ 
+ 
+ 
+Tertiary education 
+í.437*** (0.158) 
+í.536*** (0.159) 
+í.473 (0.150) 
+í.474 (0.163) 
+í.033 (0.143) 
+Nationality (ref. = USA) 
+ 
+ 
+ 
+ 
+ 
+UK 
+í.343** (0.137) 
+í.382*** (0.132) 
+í.388 (0.129) 
+í.233 (0.135) 
+0.103 (0.121) 
+Hiring experience (ref. = less than five years) 
+ 
+ 
+ 
+ 
+ 
+More than five years 
+0.131 (0.147) 
+0.101 (0.138) 
+0.097 (0.136) 
+0.012 (0.141) 
+0.085 (0.124) 
+Contact with homosexuals (s.) 
+0.037 (0.079) 
+0.029 (0.078) 
+0.118 (0.078) 
+0.074 (0.079) 
+0.117* (0.064) 
+Homonegativity (s.) 
+í.356*** (0.085) 
+í.249*** (0.077) 
+í.245 (0.081) 
+í.190 (0.083) 
+í.114* (0.067) 
+Risk aversion (s.) 
+0.071 (0.071) 
+0.088 (0.067) 
+í.029 (0.071) 
+0.072 (0.070) 
+0.163** (0.069) 
+D. MEDIATIORS 
+ 
+ 
+ 
+ 
+ 
+Collaboration 
+ 
+ 
+ 
+ 
+0.252*** (0.034) 
+Social skills 
+ 
+ 
+ 
+ 
+0.100** (0.047) 
+Assertiveness 
+ 
+ 
+ 
+ 
+0.019 (0.049) 
+Outspokenness 
+ 
+ 
+ 
+ 
+í.096** (0.039) 
+Dominance 
+ 
+ 
+ 
+ 
+0.003 (0.042) 
+Independency 
+ 
+ 
+ 
+ 
+í.041 (0.062) 
+Competitiveness 
+ 
+ 
+ 
+ 
+0.023 (0.042) 
+Leadership 
+ 
+ 
+ 
+ 
+0.204*** (0.059) 
+Team orientation 
+ 
+ 
+ 
+ 
+0.128*** (0.048) 
+Empathy 
+ 
+ 
+ 
+ 
+í.009 (0.053) 
+Soft personality 
+ 
+ 
+ 
+ 
+0.028 (0.043) 
+Emotional sensitivity 
+ 
+ 
+ 
+ 
+í.013 (0.040) 
+Neatness 
+ 
+ 
+ 
+ 
+í.065 (0.047) 
+Intelligence 
+ 
+ 
+ 
+ 
+0.020 (0.059) 
+Open-mindedness 
+ 
+ 
+ 
+ 
+í.046 (0.045) 
+Creativity 
+ 
+ 
+ 
+ 
+0.100* (0.056) 
+
+
+ 
+ 
+56
+Talkativeness 
+ 
+ 
+ 
+ 
+í.043 (0.035) 
+Honesty 
+ 
+ 
+ 
+ 
+í.070 (0.054) 
+Professionalism 
+ 
+ 
+ 
+ 
+0.091* (0.053) 
+Self-awareness 
+ 
+ 
+ 
+ 
+í.057 (0.051) 
+Career orientation 
+ 
+ 
+ 
+ 
+0.263*** (0.047) 
+Current health 
+ 
+ 
+ 
+ 
+0.019 (0.045) 
+N 
+1,616 
+ 
+ 
+ 
+ 
+Notes. Abbreviations used: s. (scale consisting of multiple items), ref. (reference category), req. (required), c. (continuous) and tert. edu. (tertiary education). The presented 
+statistics are coefficient estimates and their standard errors in parentheses for the mediation model outlined in Subsection 3.2. Standard errors are corrected for clustering of the 
+observations at the participant level. *** (**) ((*)) indicates significance at the 1% (5%) ((10%)) significance level. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+57
+Appendix Table 40RGHUDWLRQDQDO\VHVEHWZHHQFDQGLGDWHV¶KRPRVH[XDOLGHQWLWLHVDQGSDUWLFLSDQWV¶KRPRQHJDWLYHDWWLWXGHV, with perception 
+items as outcomes 
+Dependent variable 
+Homosexual male × Homonegativity (s.) 
+Homosexual female × Homonegativity (s.) 
+Ǻ 
+p 
+ȕ  
+p 
+Perceived collaborationa 
+í 
+0.462 
+í 
+0.078 
+Perceived collaboration towards employers 
+í 
+0.532 
+í 
+0.024 
+Perceived collaboration towards coworkers 
+í 
+0.460 
+í 
+0.171 
+Perceived collaboration towards clients 
+í 
+0.418 
+í 
+0.166 
+Perceived social skills 
+í 
+0.005 
+í 
+0.049 
+Perceived assertiveness 
+í 
+0.049 
+í 
+0.077 
+Perceived outspokenness 
+í 
+0.675 
+0.103 
+0.449 
+Perceived dominance 
+í 
+0.010 
+í 
+0.201 
+Perceived independence 
+í 
+0.165 
+í 
+0.028 
+Perceived competitiveness 
+í 
+0.002 
+í 
+0.066 
+Perceived leadership 
+í 
+0.001 
+í 
+0.002 
+Perceived team orientation 
+í 
+0.010 
+í 
+0.011 
+Perceived empathy 
+í 
+0.162 
+í 
+0.069 
+Perceived softness of personality 
+í 
+0.747 
+í 
+0.253 
+Perceived emotional sensitivity 
+0.077 
+0.624 
+í 
+0.977 
+Perceived neatness 
+0.004 
+0.970 
+í 
+0.196 
+Perceived intelligence 
+í 
+0.001 
+í 
+0.001 
+Perceived open-mindedness 
+0.050 
+0.730 
+0.108 
+0.448 
+Perceived creativity 
+í 
+0.043 
+í 
+0.863 
+Perceived talkativeness 
+í 
+0.327 
+í 
+0.833 
+Perceived honesty 
+í 
+0.001 
+í 
+0.036 
+Perceived professionalism 
+í 
+0.001 
+í 
+0.005 
+Perceived self-awareness 
+í 
+0.003 
+í 
+0.533 
+Perceived career orientation 
+í 
+0.016 
+í 
+0.005 
+Perceived current health 
+í 
+0.001 
+í 
+0.010 
+Notes. 7KHDEEUHYLDWLRQVVFDOHFRQVLVWLQJRIPXOWLSOHLWHPVLVXVHG&RHIILFLHQWHVWLPDWHVRILQWHUDFWLRQWHUPVUHODWHGWRSYDOXHVEHORZDUHLQEROG୹LQGLFDWHVRXWFRPH
+YDULDEOHVZLWKVFDOHVFRPSULVLQJPXOWLSOHLWHPV7KHUHJUHVVLRQPRGHO¶VSUHGLFWRUV DUHLGHQWLFDOWRWKRVHRI7DEOH¶VFROXPQ6WDQGDUGHUURUVDUHFRUUHFWHGIRUFOXVWHULQJRI
+the observations at the participant level.

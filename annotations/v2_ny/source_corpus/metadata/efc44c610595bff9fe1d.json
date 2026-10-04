@@ -1,0 +1,28 @@
+{
+  "source_id": "efc44c610595bff9fe1d",
+  "normalized_url": "https://endhomelessness.org/people-with-unaddressed-health-conditions",
+  "fetch_timestamp_utc": "2026-10-04T02:51:36.268372+00:00",
+  "registrable_domain": "endhomelessness.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://endhomelessness.org/people-with-unaddressed-health-conditions",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 321054,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/efc44c610595bff9fe1d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/efc44c610595bff9fe1d.txt",
+  "text_chars": 5512,
+  "text_words": 845,
+  "extraction_status": "success",
+  "page_title": "Who Experiences Homelessness: People with Unaddressed Health Conditions",
+  "page_author": null,
+  "page_date": "2026-07-23",
+  "site_name": "National Alliance to End Homelessness",
+  "canonical_url": "https://endhomelessness.org/people-with-unaddressed-health-conditions/"
+}

@@ -1,0 +1,3973 @@
+NBER WORKING PAPER SERIES
+APPLICATIONS OR APPROVALS:
+WHAT DRIVES RACIAL DISPARITIES IN THE PAYCHECK PROTECTION PROGRAM?
+Sergey Chernenko
+Nathan Kaplan
+Asani Sarkar
+David S. Scharfstein
+Working Paper 31172
+http://www.nber.org/papers/w31172
+NATIONAL BUREAU OF ECONOMIC RESEARCH
+1050 Massachusetts Avenue
+Cambridge, MA 02138
+April 2023
+The views expressed in this paper are those of the authors and do not necessarily reflect the views 
+of the Federal Reserve Bank of New York, the Federal Reserve System, or the National Bureau 
+of Economic Research. We thank Emily Corcoran, Lucas Misera, and Mark Schweitzer of the 
+Federal Reserve Bank of Cleveland for their guidance in using the Small Business Credit Survey 
+data and for helpful comments, as well as Jacob Goss, Daniel Mangrum, and Belicia Rodriguez 
+of the Federal Reserve Bank of New York for discussions about student loan delinquency and 
+default rates. We are grateful for helpful comments from Luke Stein (discussant), Martin Hiti, 
+Jaejin Lee (discussant), Brittany Lewis, Maxim Pinkovskiy, and Lee Seltzer. Disclosure: Until 
+April 2022, David Scharfstein was on the board of M&T Bank Corporation, which participated in 
+the Paycheck Protection Program. The Internet Appendix is available at ˛https://
+www.dropbox.com/s/4vl719fl4947p45/PPPApplicationsApprovalsInternetAppendix.pdf?dl=0
+NBER working papers are circulated for discussion and comment purposes. They have not been 
+peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies 
+official NBER publications.
+© 2023 by Sergey Chernenko, Nathan Kaplan, Asani Sarkar, and David S. Scharfstein. All rights 
+reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit 
+permission provided that full credit, including © notice, is given to the source.
+
+
+Applications or Approvals: What Drives Racial Disparities in the Paycheck Protection Program?
+Sergey Chernenko, Nathan Kaplan, Asani Sarkar, and David S. Scharfstein
+NBER Working Paper No. 31172
+April 2023
+JEL No. G01,G21,G23,G28
+ABSTRACT
+We use the 2020 Small Business Credit Survey to study the sources of racial disparities in use of 
+the Paycheck Protection Program (PPP). Black-owned firms are 8.9 percentage points less likely 
+than observably similar white-owned firms to receive PPP loans. About 55% of this take-up 
+disparity is attributable to a disparity in application propensity, while the remainder is attributable 
+to a disparity in approval rates. The finding in prior research that Black-owned PPP recipients are 
+less likely than white-owned recipients to borrow from banks and more likely to borrow from 
+fintech lenders is driven entirely by application behavior. Conditional on applying for a PPP loan, 
+Black-owned firms are 9.9 percentage points less likely than white-owned firms to apply to banks 
+and 7.8 percentage points more likely to apply to fintechs. However, they face similar average 
+approval disparities at banks (7.4 percentage points) and fintechs (8.4 percentage points). Sorting 
+by Black-owned firms away from banks and towards fintechs is significantly stronger in more 
+racially biased counties, and the bank approval disparity is also larger in more racially biased 
+counties. We conclude that insofar as automation by fintechs reduces racial disparities in PPP 
+take-up, it does so by mitigating disparities in loan application rates, not loan approval rates.
+Sergey Chernenko
+Krannert School of Management
+Purdue University
+403 W. State Street
+West Lafayette, IN 47907
+schernen@purdue.edu
+Nathan Kaplan
+Federal Reserve Bank of New York
+Research Department
+33 Liberty Street
+New York, NY 10045
+USA
+nathan.kaplan@ny.frb.org
+Asani Sarkar
+Federal Reserve Bank of New York
+Research Department
+33 Liberty Street
+New York, NY 10045
+asani.sarkar@ny.frb.org
+David S. Scharfstein
+Harvard Business School
+Baker Library 363
+Soldiers Field
+Boston, MA 02163
+and NBER
+dscharfstein@hbs.edu
+A Internet Appendix is available at 
+https://www.dropbox.com/s/4vl719fl4947p45/PPPApplicationsApprovalsInternetAppendix.pdf?dl=0
+
+
+1
+Introduction
+The $800 billion Paycheck Protection Program (PPP), authorized by Congress in March 2020, was
+created to provide financial support to small businesses during the COVID-19 pandemic. Numerous studies
+have examined the program’s efficacy, including several papers that have studied racial disparities in the
+program (Chernenko and Scharfstein, 2022; Howell et al., 2022; Fei, 2022; Atkins, Cook, and Seamans,
+2022a,b; Erel and Liebersohn, 2022; Wang and Zhang, 2020). This body of work has documented three key
+facts. First, Black-owned firms are less likely than observably similar white-owned firms to receive PPP
+funds (Chernenko and Scharfstein, 2022). Second, conditional on receiving a PPP loan, Black-owned firms
+are less likely to receive their loans from banks and more likely to receive them from nonbanks, largely fintech
+lenders (Chernenko and Scharfstein, 2022; Howell et al., 2022; Fei, 2022). Third, racial bias partly explains
+why Black-owned firms are less likely to receive PPP loans from banks (Chernenko and Scharfstein, 2022;
+Howell et al., 2022).
+Because publicly available PPP data only include information on approved loans, prior work has largely
+been unable to assess whether the above disparities are driven by disparities in application behavior or by
+disparities in approval rates. As a result, we still do not know whether fintech lenders are more successful
+than banks in making PPP loans to Black-owned firms because fintechs attract more applications from
+these firms or because fintechs approve applications from Black-owned firms at a higher rate than banks.
+Furthermore, we do not know how much of the lower take-up rate of PPP loans by Black-owned firms is
+driven by their lower propensity to apply for PPP loans and how much is driven by the lower likelihood that
+their applications are approved. Finally, we do not know the extent to which the documented effect of racial
+bias reflects a reluctance of Black-owned firms to apply to banks or reflects biased decisions by bank loan
+officers.
+We use novel survey data on PPP application decisions and approval outcomes to answer these questions.
+We report four main findings. First, we show that the disparity between Black- and white-owned firms in
+the likelihood of applying for PPP loans explains just over half of the overall disparity in program take-up,
+with approval disparities explaining the rest. Second, we find that application behavior fully explains why
+Black-owned firms are less reliant on banks and more reliant on fintech lenders for PPP loans. In particular,
+we show that Black-owned firms are substantially less likely than observably similar white-owned firms to
+apply to banks and substantially more likely to apply to fintechs, but that racial disparities in approval rates
+are very similar at banks and fintechs. Thus, insofar as fintechs lessen racial disparities in PPP take-up,
+they do so by attracting more applications from Black-owned firms, not by mitigating disparities in approval
+rates. Third, racial bias negatively affects the take-up of bank PPP loans by Black-owned firms through its
+effect on both applications and approvals; Black-owned firms are less likely to apply to banks in more racially
+biased counties, and their applications are less likely to be approved by banks in those counties. Finally,
+we present evidence that while fintech automation may mitigate the effect of racial bias on PPP application
+and approval decisions, it may also limit the ability of fintechs to help Black-owned businesses navigate the
+complexities of the PPP application process. This limitation helps to explain why approval disparities at
+banks and fintechs are similar on average.
+Our data come from the Federal Reserve’s 2020 Small Business Credit Survey, which asked over 15,000
+small businesses about their finances and their use of the PPP and other emergency support programs.
+Importantly, the survey includes information on whether each firm applied for a PPP loan, whether it
+1
+
+
+ultimately received a PPP loan, the type of lenders to which the firm applied and from which it received a
+loan, and whether it received the total amount requested. The survey also includes detailed information on
+firm and owner characteristics, including race, Hispanic origin, and gender, thus obviating the need to infer
+these characteristics indirectly and imperfectly from data such as names and locations. The survey data are
+therefore well-suited for the study of racial disparities in both PPP applications and approvals.
+To begin our analysis, we demonstrate the accuracy and validity of our survey data by showing that the
+three main findings in the existing literature (Chernenko and Scharfstein, 2022; Howell et al., 2022) hold
+in our sample. We first show — consistent with Chernenko and Scharfstein (2022) — that Black-owned
+firms are significantly less likely than observably similar white-owned firms to receive PPP loans. Second,
+conditional on receiving a PPP loan, Black-owned firms are less likely than observably similar white-owned
+firms to receive a PPP loan from a bank and more likely to receive it from a fintech lender. We also show
+— consistent with Chernenko and Scharfstein (2022) and Howell et al. (2022) — that this substitution from
+banks to fintechs is stronger in more racially biased counties. Although we use very different data, our
+estimates of racial disparities in PPP take-up are remarkably similar to those in Chernenko and Scharfstein
+(2022). In particular, we find that unconditionally Black-owned firms are 25.7 percentage points less likely
+to receive PPP loans, as compared to a disparity of 25.5 percentage points documented by Chernenko and
+Scharfstein (2022) in their sample of Florida firms. Controlling for a rich set of observable firm and owner
+characteristics, we estimate that Black-owned firms are 8.9 percentage points less likely to receive a PPP loan,
+whereas Chernenko and Scharfstein (2022) estimate a disparity of 9.2 percentage points when controlling for
+a different set of characteristics.
+To what extent does the disparity in application rates between Black- and white-owned firms explain this
+8.9 percentage point disparity in take-up? After controlling for observable firm and owner characteristics, we
+find that Black-owned firms are 4.9 percentage points less likely to apply for a PPP loan. The application
+disparity can therefore explain about 55% (4.9/8.9) of the take-up disparity between observably similar
+Black- and white-owned firms, while the disparity in approval rates explains the rest. Differences between
+Black- and white-owned firms in whether they have a relationship with a bank can only partially explain the
+application disparity, reducing it from 4.9 to 3.8 percentage points. County-level measures of explicit and
+implicit racial bias are likewise unable to explain this application disparity.
+To better understand why Black-owned firms are less likely to apply for PPP loans, we leverage a
+survey question that asks firms that did not apply why they chose not to do so. We find that the racial
+disparity in the PPP application rate is not driven by differential demand; conditional on our full set of
+controls, Black-owned firms are 7.4 percentage points less likely than white-owned firms to state that they
+did not need funding. Furthermore, Black-owned firms are 2.1 percentage points less likely to indicate that
+they did not apply because they were not interested in government aid. We likewise find no evidence that
+Black-owned firms are more likely to be concerned about eligibility for the loan or for loan forgiveness. Nor
+are Black-owned firms more likely to state that they had difficulty finding a lender willing to accept their
+application. What we do find is that Black-owned firms are more likely than observably similar white-owned
+firms to say they did not apply because the process was too confusing (5.8 percentage point differential),
+they were unaware of the program (4.7 percentage point differential), or they missed the program deadline
+(7.4 percentage point differential). The evidence thus suggests that application disparities are driven to
+an important extent by the program’s “administrative burdens” that may have disproportionately affected
+Black-owned businesses. Indeed, Herd and Moynihan (2018) argue that administrative burdens – the costs
+associated with obtaining benefits from a public program – reduce take-up of a broad range of government
+2
+
+
+programs and that these burdens can affect disadvantaged groups more acutely. Such costs include the
+time and effort needed to understand and assess a program’s advantages and risks. They also include the
+time and effort to prepare and organize the documents required for the application and to correctly fill out
+the application form according to program rules. Given the complex documentation requirements of the
+PPP, which we detail in the Appendix, and changing PPP rules around both eligibility and allowable loan
+amounts, the administrative burdens of the PPP were considerable.1
+In addition to the disparity in PPP application propensity, there are differences in the types of lenders to
+which Black- and white-owned firms apply. We find that when Black-owned firms do apply for a PPP loan,
+they are 16.5 percentage points less likely to apply to banks and 14.7 percentage points more likely to apply
+to fintechs. Firm characteristics — in particular revenues, firm size, and firm age — account for almost half
+of this sorting; Black-owned firms are 9.9 percentage points less likely than observably similar white-owned
+firms to apply to banks and 7.8 percentage points more likely to apply to fintechs. Our estimate of sorting
+is robust to including a control for whether a firm has a bank relationship, even though bank relationships
+increase the likelihood that firms apply for PPP loans from banks and white-owned firms are more likely to
+have bank relationships. Furthermore, Black-owned firms are less likely to borrow from banks relative to
+fintechs in counties where there is more racial bias toward Black people. In counties that are one standard
+deviation above the nationwide mean of implicit racial bias, as measured by Project Implicit, Black-owned
+firms are 20.8 percentage points less likely than observably similar white-owned firms to apply to banks and
+17.6 percentage points more likely to apply to fintechs.
+These findings suggest either that a legacy of racial discrimination by banks discouraged Black-owned
+businesses from approaching banks for PPP funding or that when they approached banks they were dis-
+couraged from applying due to the racial animus of loan officers. In contrast, given the automated nature
+of fintech lending, it is unlikely that racial animus would have limited applications by Black-owned firms
+to fintechs. Indeed, given our evidence that Black-owned firms experienced greater administrative burdens
+in the application process, it is possible that the more streamlined application process at fintechs attracted
+more applications from Black-owned firms.
+We next show that while there are large differences between Black- and white-owned firms in their
+propensity to apply to banks versus fintechs, the disparities in loan approval rates are similar at banks and
+fintechs. Compared to observably similar white-owned firms, applications from Black-owned firms are 7.4
+percentage points less likely to be approved at banks and 8.4 percentage points less likely to be approved
+at fintechs. Thus, the lower reliance of Black-owned firms on bank-intermediated PPP loans documented in
+prior work is driven entirely by the fact that Black-owned firms are less likely to apply to banks and more
+likely to apply to fintechs.
+Why are there approval disparities at banks and fintechs? For banks, at least part of the answer is
+related to racial bias, as Black-owned firms are significantly less likely to be approved in more racially
+biased counties. But this is probably not the whole explanation. The approval disparity at fintech lenders
+is similar in magnitude to the approval disparity at banks, even though fintech disparities are unlikely to
+be significantly affected by racial bias due to the largely automated nature of fintechs’ approval processes.
+1 While we argue that these administrative burdens reduced PPP take-up, particularly for Black-owned firms, they
+may also have reduced fraud by screening out fictitious businesses and applications for excessive loan amounts (Aman-
+Rana, Gingerich, and Sukhtankar, 2022). Griffin, Kruger, and Mahajan (2022) use a variety of indicators to estimate
+the percentage of PPP loans that are potentially fraudulent.
+3
+
+
+We present evidence that just as the administrative burdens inherent in the PPP application process led to
+lower application rates by Black-owned firms, they may also have led to racial disparities in approval rates.
+Although the overwhelming majority of loan applications from Black- and white-owned firms were approved,
+there are numerous accounts of difficulties that small firms faced in documenting their eligibility for the
+program, determining the loan amounts they could request under program rules, and substantiating their
+requested loan amounts with required documentation. There is also considerable anecdotal evidence from
+congressional testimony and interviews suggesting that Black-owned firms faced greater challenges meeting
+documentation requirements and determining the loan amounts they could request under program rules.
+Indeed, many organizations started initiatives to help Black-owned firms with the application process to
+address the concern that Black-owned firms had less support from loan officers and professional services
+providers in the preparation of their applications. This is consistent with evidence from the 2021 Small
+Business Credit Survey indicating that Black-owned firms are significantly less likely than white-owned firms
+to seek business advice from professionals such as lawyer, accountants, and consultants, even after controlling
+for detailed firm and location characteristics. Finally, in line with this explanation of approval disparities,
+Black-owned firms that were approved for PPP loans were much less likely to receive the full amount they
+requested, whether from banks or fintechs.
+Consistent with our findings, Humphries, Nielsen, and Ulyssea (2020) document the disproportionate
+impact of administrative burdens on smaller firms in the PPP. The authors find that smaller firms are less
+likely to be aware of the PPP and less likely to apply. Conditional on applying, the authors show that
+smaller firms apply later, wait longer to receive approval decisions, and are less likely to be approved. Bartik
+et al. (2020), using data from a different survey fielded in April 2020, show that larger firms are more likely
+to have their PPP applications approved. They also document that 16% of respondents in their sample
+attempted to submit a PPP application but were unable to do so. Our analysis shows similar associations;
+larger firms and firms with more revenues are more likely to apply for a PPP loan, and they are more likely
+to be approved conditional on applying. A key contribution of our paper is to present evidence that the
+racial identities of business owners is another dimension along which administrative burdens in the PPP had
+a disparate impact on program take-up.
+Racial disparities in the administrative burdens of the PPP application process may help explain why
+we find similar approval disparities at banks and fintechs while Howell et al. (2022) claim that there are
+no racial disparities in PPP approval rates at fintechs.
+In a sample of applications received by Lendio,
+a marketplace lending platform, which were then randomly forwarded to banks or fintechs, Howell et al.
+(2022) find that Black-owned firms applying to fintechs are just as likely as white-owned firms to have their
+applications approved. Importantly, however, Howell et al. (2022) indicate that the “application through
+Lendio included all necessary components and was screened for completeness.” This screening by Lendio
+is a key factor in explaining the difference in results in the two papers. While we calculate approval rates
+conditional on applying, the analysis in Howell et al. (2022) conditions on firms being able to provide all
+necessary documentation. In fact, the result in Howell et al. (2022) that fintech approval disparities are
+entirely eliminated after implementing this screening mechanism further demonstrates the importance of
+administrative burdens in explaining PPP disparities. It also highlights the key limitation of automation in
+improving access to PPP: fintech lenders were generally not staffed to assist potential borrowers in navigating
+the complexities of the PPP application process.
+Our paper is organized as follows. In the next two sections, we provide institutional background on
+the PPP and then describe the data. In Section 4, we first replicate key findings of the literature on racial
+4
+
+
+disparities in the PPP using data from the Small Business Credit Survey, and then we present our main
+results on application and approval disparities. Section 5 argues that in addition to observable characteristics
+and racial bias, the disparate impact of administrative burdens is likely to play a role in our findings on
+racial disparities. Section 6 concludes.
+2
+An Overview of the Paycheck Protection Program
+Initially authorized in March of 2020 by the CARES Act, the Paycheck Protection Program offered
+qualifying small businesses non-recourse loans with standardized terms and the possibility of full or partial
+forgiveness.
+Loans were originated and underwritten by a variety of financial intermediaries, including
+depository institutions, fintechs, and Community Development Financial Institutions (CDFIs).
+Lenders
+retained no credit risk on the loans, as the federal government fully guaranteed all loans regardless of
+whether the loans were forgiven. There were few eligibility requirements, as one of the program’s goals was
+to include the vast majority of businesses with fewer than 500 employees. In 2020, maximum eligible loan
+amounts were based on 2019 net profits (for firms without employees), 2019 payroll costs (for corporations),
+or both (for firms with self-employed owners, where net profits served as a proxy for “Owner Compensation
+Replacement”).2
+As part of the application process, the SBA required a number of documents to substantiate payroll
+costs and to prove that a business was operating as of February 15, 2020. After choosing a lender, firms
+were required to submit the SBA application, Form 2483, along with forms of owner identification, proof of
+business existence as of February 15, 2020 and documentation to substantiate the loan amount calculations
+underlying the PPP amount requested on Form 2483.3 In most cases, owners submitted driver’s licenses
+for identification purposes. To prove that a business actually existed and to support loan amount requests,
+lenders typically required applicants to submit recent bank statements and federal tax returns. The Appendix
+describes documentation requirements in greater detail.
+If a firm applied to a depository institution with which they did not have a pre-existing relationship, the
+depository institution was required to perform additional reviews in order to satisfy Anti-Money-Laundering
+(AML) and Bank Secrecy Act (BSA) regulations. The SBA also required non-depository financial institutions
+to establish “comparable” compliance systems with respect to their own PPP processes.4
+For applicants meeting all of the lender’s application requirements, lenders submitted loan requests to the
+SBA through the latter’s E-Tran processing software. The software would then scan loan requests for missing
+2 SBA, Paycheck Protection Program How To Calculate Maximum Loan Amounts – By Business Type,
+April 24, 2020, at https://www.sba.gov/sites/default/files/2020-04/How-to-Calculate-Loan-Amounts.pdf;
+SBA, How to Calculate First Draw PPP Loan Amounts, March 12, 2021, at https://www.sba.gov/document/
+support-how-calculate-first-draw-ppp-loan-amounts.
+3 SBA, Paycheck Protection Program Borrower Application Form, April 2, 2020, at https://www.sba.gov/
+sites/default/files/2022-02/PPP-Borrower-Application-Form-Fillable.pdf; SBA, Paycheck Protection Pro-
+gram Borrower Application Form Revised March 18, 2021, March 18, 2021, at https://www.sba.gov/document/
+sba-form-2483-ppp-first-draw-borrower-application-form.
+4 Rules and Regulations, Federal Register Volume 85, Number 73, pages 20811-20817, April 15, 2020, at https:
+//www.sba.gov/sites/default/files/2020-04/PPP%20Interim%20Final%20Rule_0.pdf
+5
+
+
+or incorrect fields, returning error codes for requests with unresolved issues and returning loan identification
+numbers for approved requests. The SBA did not review any borrower or loan information before approving
+loans in 2020 other than screening for duplicate PPP applications.5 After receiving a loan number from
+the SBA, lenders were cleared to proceed with closing documentation and disbursement of funds. In 2021,
+the agency began running all loan requests through an automated screening procedure to verify program
+eligibility.6
+As discussed above, legislators intended for PPP loans to be accessible to the vast majority of active small
+businesses (subject to exceptions for certain industries and affiliation structures). Nevertheless, the legislation
+retained many eligibility requirements from existing SBA lending programs.7 For example, firms employing
+household workers (e.g., caretakers) were not eligible for PPP based on existing SBA rules. Further, the
+SBA listed additional disqualifying considerations related to credit and criminal history on SBA Form 2483.
+We discuss these conditions in more detail in Section 6. Form 2483 explicitly stated that applicants checking
+yes to any of these stipulations would be denied automatically.
+3
+Data
+The main data source for our study is the Federal Reserve’s 2020 Small Business Credit Survey (SBCS).
+We supplement these data with (i) ZIP code characteristics from the U.S. Census’ 2019 American Community
+Survey (5-year estimates); (ii) ZIP code-level information on bank branches from the FDIC’s 2020 Summary
+of Deposits; (iii) county-level information on explicit and implicit bias towards Black people from Harvard
+University’s Project Implicit.
+3.1
+Small Business Credit Survey
+The SBCS is an annual, collaborative effort among the twelve Federal Reserve Banks.8 The Reserve
+Banks work with over 100 community organizations (including chambers of commerce, government agencies,
+and development corporations), each of which emails small business owners and employees in their respective
+network, inviting them to complete the survey. The Reserve Banks also reach out via email to previous
+survey respondents. Other interested small business owners and employees can find links to the survey on
+the websites of the Reserve Banks. Because the SBCS is conducted by the Federal Reserve’s member banks,
+it is highly likely that the survey’s respondents are legitimate businesses. This differentiates our sample from
+the population of PPP borrowers, which Griffin, Kruger, and Mahajan (2022) show includes many fictitious
+5 US GAO Report 21-577 to Congressional Addressees, Paycheck Protection Program: SBA Added Program Safe-
+guards, but Additional Actions Are Needed, July, 2021, page 16, at https://www.gao.gov/assets/gao-21-577.pdf.
+6 Ibid.
+and SBA, Procedural Notice 5000-20092, February 10, 2021, at https://www.sba.gov/sites/default/
+files/2021-02/Procedural%20Notice%205000-20092%20-%20Revised%20PPP%20Procedures%20to%20Address%
+20Hold%20Codes-508_0.pdf.
+7 Code of Federal Regulations, 13 CFR 120.110, What Businesses Are Ineligible for SBA Business Loans,
+as
+amended
+June
+30,
+2022,
+at
+https://www.ecfr.gov/current/title-13/chapter-I/part-120/subpart-A/
+subject-group-ECFR6d9c2c4fd6e44c1/section-120.110. Note that not all of these requirements were applied to
+the PPP. Non-profits, for example, were eligible for PPP loans.
+8 Fed Small Business, at https://www.fedsmallbusiness.org
+6
+
+
+firms that received funding based on fraudulent representations. 9 Thus, our sample likely does not include
+firms that engaged in criminal activity in an attempt to receive PPP funds for which they knew they did
+not qualify.
+Responses are collected in September and October of each year and then undergo a rigorous screening
+process to ensure data accuracy.10 The Federal Reserve System publishes a series of reports about the data
+over the course of the following year to spotlight survey outcomes for particular populations of interest
+(e.g., employer firms, nonemployer firms, and minority-owned businesses).
+The SBCS website provides
+data appendices that cross-tabulate respondent answers by various characteristics of interest.11 Individual
+responses are kept confidential.
+Since achieving national coverage in 2016, the SBCS has maintained a similar format and set of questions
+from year to year in the interest of longitudinal comparability. Each year’s questionnaire includes sections on
+firm demographics, performance, financing applications and outcomes, owner demographics, and an optional
+“special topic” portion that changes each year. The survey is intended to take about ten minutes to complete
+and follows a “branching process,” in which respondents are directed to complete different modules based on
+their answers to particular questions. For example, firms that report applying for financing in the previous
+twelve months are asked for more information about their most recent applications, whereas firms that did
+not apply are asked about their decision not to apply.
+To the best of our knowledge, only one other paper has used the Small Business Credit Survey to study
+the Paycheck Protection Program (Barkley and Schweitzer, 2022). While the authors document that Black-
+and Hispanic-owned businesses with paid employees were less likely than white-owned businesses with paid
+employees to get the full requested PPP loan amount, their primary focus is on racial disparities in standard
+credit products (i.e., non-emergency) between 2016 and 2020. We are the first academic paper to use SBCS
+microdata to study PPP applications, approvals, and the role of different lender types in alleviating or
+exacerbating racial disparities in program outcomes.
+3.2
+2020 SBCS
+The 2020 survey deviates substantially from past surveys in its focus on the Covid-19 pandemic. New
+sections include “Impact of the Covid-19 Pandemic,” “Emergency Assistance Related to the Covid-19 Pan-
+demic,” and an optional special topic module that asks additional questions about the pandemic’s impact.12
+Many sections that are not unique to the 2020 survey also incorporate new questions about the pandemic.
+9 See also the US House Select Subcommittee on the Coronavirus Crisis, How Fintechs Facilitated Fraud
+in
+the
+Paycheck
+Protection
+Program,
+December
+1,
+2022,
+at
+https://coronavirus.house.gov/sites/
+democrats.coronavirus.house.gov/files/2022.12.01%20How%20Fintechs%20Facilitated%20Fraud%20in%20the%
+20Paycheck%20Protection%20Program_0.pdf
+10 Among other things, staff members check for multiple responses by the same firm and remove firms that do not
+provide information on their ZIP code, number of employees, or year of establishment.
+11 All statistics published on the SBCS website are weighted on a variety of firm characteristics in order to achieve a
+representative national sample. Because we do not weight our data, our samples tend to be slightly larger than the
+analogous ones underlying these online reports.
+12 See Figure A.1 for an illustration of the 2020 survey’s structure.
+7
+
+
+The SBCS microdata contains 15,234 responses deemed “usable” by the screening process. Included
+businesses span all 50 states and the District of Columbia.
+Figure A.2 shows that the distribution of
+responding firms across states is broadly representative of the overall population of U.S. employer and
+nonemployer establishments. The survey under-represents some interior states, but these deviations tend to
+be small in magnitude.
+As seen in Table A.1, the distribution of survey respondents across industries is also similar to the overall
+population of establishments. Non-manufacturing Goods Production & Associated Services (NAICS: 11, 21,
+22, 23, 42, 48–49) is moderately under-represented, and both Manufacturing (NAICS: 31–33) and Leisure and
+Hospitality (NAICS: 71, 72) are over-represented. These deviations are due in part to industry composition
+differences between employer and nonemployer firms and the slight over-representation of employer firms in
+our sample. Differences in the industry distributions by firm size also help to explain the difference between
+the sample industry distribution and the overall sample of establishments.
+3.3
+Owner Demographics and Firm Characteristics
+Well over 90% of surveyed firms provide detailed information on the racial, Hispanic, and gender identities
+of their owners. Together with information about the equity stakes of each owner of a firm, we are able to
+identify minority- and female-owned businesses with a very high degree of accuracy.
+We follow standard practice in defining minority- and female-owned businesses. Firms with at least a
+51% equity stake held by owners identifying as members of group g are classified as being g-owned businesses,
+where g ∈{Black, Hispanic, Asian, Native American, Middle Eastern/North African, Other Race, Female}.
+Owners are permitted to identify with multiple categories, and for owners that do we include them in each
+group with which they identify, provided they own at least 51% equity.13
+Finally, following the Census
+approach, we define white-owned firms as businesses with at least a 50% equity stake held by non-Hispanic
+white owners.
+Because a very small fraction of firm owners identify themselves as Native American, Middle East-
+ern/North African, or Other, we include these owners in our analysis but do not report results for these
+groups. While excluding these indicator variables would not materially affect the results, we prefer to include
+them in order to maintain the interpretation that all Black-, Asian-, and Hispanic-owned firms’ outcomes
+are relative to a baseline of white-owned firms. Our analysis excludes less than 1% of the firms in the sample
+for which no racial or ethnic group of owners has a majority equity stake.
+The survey database includes other useful data on surveyed firms: number of current owners; the number
+of full-time employees and number of part-time employees as of January 1, 2020; 2019 revenues; 2019
+profitability (i.e., “Loss,” “Break-Even,” or “Profit”); the age of the primary owner; and use of contract
+workers in the past 12 months (yes/no). One of the strengths of the survey is that most of this information
+reflects business characteristics prior to, and therefore independent of, the Covid-19 pandemic.14
+13 In practice, only about 5% of firms for which we have racial/ethnic information are considered to be owned by
+individuals from multiple racial/ethnic groups.
+14 Firms provide other relevant information, such as business and personal credit scores at the time of the survey,
+but we do not use these data in our analysis because they could be affected by the PPP outcomes we are trying to
+explain.
+8
+
+
+3.4
+PPP Outcomes
+The SBCS asks businesses a number of questions about the PPP, of which seven are of particular interest
+to us. First, the survey asks all firms whether they applied for PPP loans. Second, the survey asks non-
+applicants to choose the reasons they did not apply. Response options include, but are not limited to: “was
+unaware of the program,” “program/process was too confusing,” and “business would not qualify for the
+loan or loan forgiveness.”
+Third, the survey asks applicants about the types of lenders to which they submitted their PPP ap-
+plications. Some applicants may have applied to more than one type of lender. The question lists seven
+possible lender types: large bank, small bank, online/fintech lender, finance company, credit union (CU),
+community development financial institution (CDFI), and “other lender.” We distill these categories into
+three mutually exclusive and exhaustive lender types: banks (made up of large and small banks), fintechs
+(made up of online/fintech lenders, finance companies, and “other lenders”), and CU/CDFI.15 The choice to
+include finance companies and “other lenders” in our fintech category is in large part informed by the result
+(based on a fuzzy merge of our data with the PPP administrative data) that about 70% of PPP recipients
+listing finance companies or “other lender” as lender type in the SBCS received their loans from lenders bet-
+ter categorized as fintechs.16 Unfortunately, respondents are far less consistent in their distinctions between
+“large” and “small” banks, in part because the survey does not provide respondents with a formal definition
+of either term. As a result, we combine these lender categories into a single “bank” classification.
+Fourth, the survey asks whether applicants had existing bank relationships prior to submitting their
+application to each chosen lender type. While the survey does not provide a definition of “relationship,”
+survey responses suggest that most firms interpreted a relationship to mean having a checking/savings
+account, business credit card, or loan/line of credit. Fifth, applicants are asked to provide the amount of
+funds they requested in their PPP application. Sixth, PPP applicants are asked about the type of lender
+from which they either received their loan or where their application was “most complete.”17
+Finally, PPP recipients are asked for the amount of PPP funding they actually received. We classify
+firms receiving $0 as those that were not approved and firms receiving a positive amount of PPP funding
+as those that were approved. It is important to note that we cannot confirm whether “not approved” firms
+were actually rejected, never heard back about their application, or withdrew their application before hearing
+back. Firms applying to multiple lender types are marked as approved (not approved) by the lender type
+from which they received (did not receive) funding. As a result, approval outcomes should be interpreted
+slightly differently in the context of specific lender types relative to approval for any PPP loan. For additional
+information on the mapping between survey questions and our derived variables, see Table A.2.
+15 In practice, some fintech companies partnered with fintech banks (e.g., Cross River Bank, Celtic Bank) in the
+origination process: the fintech company would process the application and the bank would fund the loan and hold
+it on its balance sheet.
+16 In total, about 88% of firms that we code as receiving fintech PPP loans and are able to match to the PPP
+administrative data received loans from lenders that we would classify as fintechs.
+17 From the responses to this question, we isolate actual PPP recipients in order to avoid mistakenly marking non-
+recipient firms that list a “most complete” lender type as approved firms.
+9
+
+
+3.5
+Project Implicit
+Project Implicit provides a variety of free online “Implicit Association Tests,” each of which measures a
+test-taker’s bias against a particular group of people (e.g., Black people, older people, transgender people).18
+One of the bias measures we use is an implicit bias measure, defined as the strength of an implicit preference
+for white people over Black people. We also use an explicit bias measure, which is derived from a question at
+the conclusion of the test asking people to rate, on a 1-7 scale, the strength and direction of their preference
+for Black people versus white people: 1 is “I strongly prefer African Americans to European Americans”, 4 is
+“I like European Americans and African Americans equally”, and 7 is “I strongly prefer European Americans
+to African Americans.”
+Project Implicit provides county-level information on test results by race of the test-taker. Using only
+results from tests taken by white people between 2008 and 2019, we construct our county-level “implicit bias”
+measure using average results from the Implicit Association Test, and we construct our county-level “explicit
+bias” measure using average responses to this question asked at the conclusion of the test. Figure A.3 displays
+the county-level distribution of the implicit and explicit bias measures, each of which is standardized to have
+zero mean and unit variance.
+3.6
+Supplemental Data Sources
+We obtain information on ZIP code characteristics from the 2019 American Community Survey’s 5-
+year estimates. These characteristics include population, the fraction of the population that is non-Hispanic
+white, the unemployment rate, and median household income. Using the FDIC’s 2020 Summary of Deposits,
+we calculate the number of commercial bank branches per 1000 people in each ZIP code.19
+3.7
+Summary Statistics
+Table 1 displays the means of our variables. About 71.1% of firms are white-owned, 14.0% are Black-
+owned, 6.4% are Asian-owned, and 8.5% are Hispanic-owned. Just under 60% of firms are either male-owned
+or equally-owned.
+Across virtually all firm characteristics, there are substantial differences in the means of different de-
+mographic groups. Relative to minority- and female-owned businesses, respectively, white-owned and male-
+/equally-owned businesses: (i) are far larger and older; (ii) have higher revenues; and (iii) are more likely to
+be profitable. In all cases, the starkest differences are between white- and Black-owned firms. Of particular
+note, Black-owned businesses are half as likely to have revenues exceeding $100k (37% of Black-owned busi-
+nesses versus 74% of white-owned businesses) and two-thirds as likely to be profitable (44% of Black-owned
+businesses compared to 66% of white-owned businesses).
+White- and Black-owned businesses, and to a lesser extent other minority-owned businesses, also tend to
+18 Project Implicit Preliminary Information, Harvard University, at https://implicit.harvard.edu/implicit/
+takeatest.html
+19 Results are virtually unchanged when we use the 2019 Summary of Deposits.
+10
+
+
+be located in ZIP codes with different characteristics (though the same is not the case for male- and female-
+owned businesses). On average, Black-owned businesses are located in ZIP codes with larger populations but
+fewer bank branches per capita than white-owned businesses. On average, ZIP code-level median household
+income is about 15% lower for Black-owned firms, and the average unemployment rate is moderately higher.
+Consistent with prior academic research, press accounts, and the Federal Reserve’s own reports using
+2020 SBCS data, the final section of the table illustrates striking differences in both PPP application behavior
+and approval outcomes between firms with different ownership demographics. Black- and Hispanic-owned
+businesses are substantially less likely than white-owned businesses to apply for PPP funds (49% and 62% of
+Black- and Hispanic-owned firms, respectively, compared to 71% of white-owned firms). Female-owned firms
+are also less likely than male-/equally-owned firms to apply (63% versus 70%). Furthermore, conditional on
+applying, Black- and Hispanic-owned firms are less likely than white-owned firms to apply through banks
+and more likely to apply through fintechs.
+Black- and Hispanic-owned businesses that apply for PPP loans are markedly less likely than white-owned
+businesses to receive PPP funding. Conditional on applying for PPP, 95% of white-owned firms receive PPP
+funding, whereas 81% of Black-owned businesses receive funding, and 90% of Hispanic-owned firms receive
+funding. In the next sections, we study the sources of these application and approval disparities.
+4
+PPP Applications and Approvals
+4.1
+Replication of Prior Findings in the SBCS Sample
+We start our analysis by showing that three key findings on racial disparities in the PPP documented
+by the prior literature carry over to our SBCS sample, thereby helping to validate the accuracy of survey
+responses about PPP applications and approvals. First, we show that Black-owned firms are less likely to
+receive PPP loans (Chernenko and Scharfstein, 2022). Second, among PPP recipients, Black-owned firms
+are less likely than white-owned firms to receive PPP loans from banks and more likely to receive PPP
+loans from fintechs (Chernenko and Scharfstein, 2022; Howell et al., 2022). Third, in more racially biased
+counties, Black-owned firms are even less likely to receive PPP loans from banks and even more likely to
+receive funding from fintechs (Chernenko and Scharfstein, 2022; Howell et al., 2022).
+In the first two columns of Table 2, we report the results of linear probability models in which the
+dependent variable is a binary variable equal to one if a firm receives a PPP loan and equal to zero otherwise.
+The only regressors in the first column are the indicator variables for race/ethnicity and gender. We only show
+results for Black, Asian, Hispanic, and female owners, suppressing the coefficients for the other race/ethnicity
+indicator variables (Native American, Middle-Eastern/North-African, and Other) given their relatively small
+share of the sample. The coefficients of the Black, Asian, and Hispanic indicator variables measure the
+incremental likelihood of receiving a PPP loan relative to the excluded group of firms owned by white
+people; the coefficient on the female indicator variable measures the incremental likelihood of receiving a
+PPP loan relative to the excluded group of firms either owned by men or equally owned by men and women.
+Black-owned, Hispanic-owned and female-owned firms are 25.7 percentage points, 8.4 percentage points and
+5.4 percentage points less likely, respectively, than white-owned firms to receive a PPP loan.
+All three
+estimates are highly statistically significant. Asian-owned firms are 5.5 percentage points more likely than
+11
+
+
+white-owned firms to receive a PPP loan, and this estimate is also statistically significant.
+The second column of Table 2 adds controls for firm, owner and ZIP code characteristics, as well as state
+and industry fixed effects. Because PPP eligibility was tied directly to profitability for nonemployer firms
+but not for employer firms, we allow profitability to have different effects for employer and nonemployer
+firms. Including our controls reduces the estimated disparities in PPP take-up for Black- and Hispanic-
+owned firms to 8.9 percentage points and 6.1 percentage points, respectively, though both estimates remain
+highly statistically significant. After including the controls, the difference in the take-up rate between Asian-
+owned and white-owned firms is no longer statistically different from zero, and female-owned firms are 2.9
+percentage points more likely than observably similar male-owned firms to receive a PPP loan. Larger firms
+(as measured by revenues and the number of full-time employees and owners), older firms, and firms with
+younger owners are more likely to receive PPP loans. Adding these controls reduces the estimated disparity
+in PPP take-up for Black-owned firms as they are smaller, younger, and located in ZIP codes with lower
+bank branch density. The estimated disparity in take-up for Black-owned firms is remarkably similar to the
+estimate in Chernenko and Scharfstein (2022), which finds a disparity of 9.8 percentage points in a sample
+of restaurants using a different set of controls. For Hispanic-owned restaurants, they estimate a disparity in
+take-up of 3.2 percentage points and a small statistically insignificant disparity for Asian-owned firms.
+In columns 3–6 of Table 2, we report the results of linear probability models in which the dependent
+variable is an indicator variable equal to one if a firm receives a PPP loan from a bank and zero if it receives
+a PPP loan from another source: a fintech, a credit union, or a CDFI.20 Firms that do not receive a PPP
+loan are excluded from the sample. When the only regressors are indicator variables for race/ethnicity and
+gender (column 3), we find that Black-owned PPP recipients are 14.2 percentage points less likely than
+white-owned businesses to receive their PPP loans from a bank, and this differential is highly statistically
+significant. Hispanic-owned firms are 3.3 percentage points less likely to receive their PPP loan from a bank,
+but the differential is only weakly significant. There is no statistically significant difference for Asian-owned
+firms, while female-owned firms are 5.1% less likely to receive a bank loan, and this difference is statistically
+significant.
+The fourth column of Table 2 adds the full set of controls and fixed effects. Including these controls
+reduces the estimated differential in bank PPP borrowing for Black-owned firms to 9.2 percentage points,
+but it remains highly significant. Larger firms, older firms, firms with older owners, and those located in
+ZIP codes with more bank branches per capita are more likely to get PPP funding from banks.
+As in
+column 2, the inclusion of these controls reduces the estimated differential between white-owned firms and
+Black-owned firms due to the negative in-sample correlation of these characteristics with Black business
+ownership. Including controls also reduces the differential in bank PPP take-up for Hispanic-owned firms to
+a statistically insignificant level. Female-owned firms remain significantly less likely to get their PPP funding
+from banks, although this estimate is reduced to 1.9 percentage points.
+The remaining columns of Table 2 examine whether Black-owned PPP recipients located in more racially
+biased counties are less likely to receive their PPP loans from banks. We use the explicit and implicit bias
+measures from Project Implicit. In column 5, we add an interaction of the Black-ownership indicator with
+the explicit bias measure. The coefficient of the interaction term is negative and statistically significant,
+implying that Black-owned firms in more racially biased counties are less likely than other Black-owned
+20 The estimates are similar if we exclude credit unions and CDFIs from the sample.
+12
+
+
+firms to receive PPP loans from banks. The coefficient implies that Black-owned firms in counties with
+explicit bias one standard deviation above the nationwide mean are 11.4 percentage points less likely to
+receive their PPP loans from banks relative to observably similar Black-owned firms in counties with average
+explicit bias. Overall, Black-owned firms in counties with explicit bias one standard deviation above the
+nationwide mean are 20.6 percentage points less likely than observably similar white-owned firms in those
+same counties to receive their PPP loans from banks. The findings for the implicit bias measure are similar
+in magnitude, as reported in column 6 of the table.21
+Taken together, these findings are consistent with prior research showing that Black-owned firms are
+less likely to receive PPP funding from banks and that racial bias may play a role in explaining this fact.
+What is less clear is the mechanism that drives these empirical findings. In particular, is there a disparity in
+PPP take-up because Black-owned firms are less likely to apply for PPP loans or because their applications
+are less likely to be approved? Likewise, do Black-owned firms rely more on fintech lenders because they
+are more likely to apply to fintechs or because fintech lenders are more likely than banks to approve their
+applications? Finally, does the lower take-up of bank PPP loans by Black-owned firms in more racially
+biased counties stem from their lower application rates to banks in these counties or from greater disparities
+in bank approval rates in those counties? We use our survey data to address these questions, considering in
+turn applications and then approvals.
+4.2
+Applications: Who Applies?
+Table 3 examines disparities in PPP applications by estimating linear probability model regressions of
+whether a firm applies for a PPP loan. In column 1, the only explanatory variables included are indica-
+tor variables for race, ethnicity, and gender. We find that Black-, Hispanic- and female-owned firms are,
+respectively, 19.4, 5.7, and 5.2 percentage points less likely to apply for PPP, while Asian-owned firms are
+4.9 percentage points more likely to apply for PPP than white-owned firms. Adding firm, owner and lo-
+cation controls substantially reduces the application differentials, particularly for Black-owned firms. With
+controls, Black-owned firms are 4.9 percentage points less likely to apply for PPP loans. This finding allows
+us to conclude that the disparity in PPP application rates explains a substantial share of the PPP take-up
+disparity between observably similar white- and Black-owned firms, which is estimated to be 8.9 percentage
+points (see column 2 of Table 2).22
+What factors cause this disparity in application rates between observably similar white- and Black-owned
+firms? Columns 3 and 4 of Table 3 examine the role of racial bias. We include the same set of controls
+and fixed effects as in column 2 of the table but now interact the Black-owned indicator variable with our
+county-level measures of explicit and implicit racial bias. The coefficient estimates of the interaction terms
+21 We also examined a measure of racial bias based on the 2019 Nationscape Survey, which is similar to the explicit
+bias measure. While the estimated effects of the Nationscape racial bias measure are statistically significant, they are
+much smaller in magnitude than the estimated effects of the Project Implicit bias measures. This is likely because
+the Nationscape measure covers a much larger population than a county, probably with a much wider variation in
+racial attitudes. Thus, even though the explicit bias measure and the Nationscape measure are similar, there is likely
+to be more measurement error in the Nationscape measure of the bias that actually affects Black-owned firms, which
+would shrink the estimates towards zero.
+22 Note that this is only a statistical claim. It does not answer the question of what the take-up disparity would have
+been had more Black-owned firms applied for PPP loans. Black-owned firms that did not apply for PPP may have
+been less likely to be approved than observably similar Black-owned firms that did apply.
+13
+
+
+in columns 1–2 are small and statistically insignificant, indicating that Black-owned firms are not less likely
+to apply for PPP loans in more racially biased counties relative to counties that are less racially biased.
+In column 5 of Table 3, we investigate whether application disparities are in part due to racial disparities
+in the likelihood of having a relationship with a bank. Chernenko and Scharfstein (2022) and Howell et al.
+(2022) show that firms with outstanding bank loans are more likely to receive PPP loans but that controlling
+for these prior relationships does not have a material impact on the measured disparities in PPP lending.
+These findings are consistent with press accounts indicating that banks prioritized existing customers when
+accepting applications. Thus, it is possible that our estimated application disparities reflect the fact that
+Black-owned businesses were less likely to have pre-existing bank relationships. Unfortunately, the 2020
+survey only collects information on pre-pandemic lender relationships among firms that applied for PPP.
+The survey does, however, have information on whether the firm had a bank relationship at the time of
+the survey (fielded in September and October of 2020). In column 5, we find that firms with current bank
+relationships are 11.3 percentage points more likely to apply for PPP funding, and that controlling for current
+bank relationships reduces the estimated application disparity between Black- and white-owned firms from
+4.9 percentage points to 3.8 percentage points. However, the estimated effect of current bank relationships
+on applications is likely stronger than it would be if we had used data on pre-pandemic bank relationships,
+given that receipt of a PPP loan may have created a new bank relationship that was later reported by survey
+respondents. Since this measure of bank relationships may proxy for receipt of a PPP loan, and Black- and
+Hispanic-owned firms are less likely to receive PPP loans, including this variable likely biases the coefficients
+of Black towards zero.
+To further investigate the sources of application disparities, we next analyze responses to a survey
+question asking PPP non-applicants why they did not apply. Importantly, respondents could select as many
+suitable reasons as they wished. In Table 4, we estimate linear probability model regressions of seven possible
+reasons that respondents were able to cite for not applying for PPP. All regressions in the table incorporate
+our full set of firm and ZIP code controls, as well state and industry fixed effects. In columns 1 and 2
+of the table, we show that Black-owned firms do not have lower demand for PPP funding, indicating that
+lower demand cannot explain the disparity in application rates. Specifically, column 1 shows that Black-
+owned firms that did not apply for PPP loans are 7.4 percentage points less likely than observably similar
+white-owned firms to say they did not apply because they did not need the funding. Column 2 shows that
+Black-owned firms are also 2.1 percentage points less likely to cite a lack of interest in government aid.
+Columns 3 and 4 of Table 4 suggest that differential concerns about program eligibility were likewise not
+an important driver of the application disparity. In column 3, we find that Black-owned firms are no more
+or less likely than white-owned firms to say they did not apply for PPP loans out of concern that they would
+not qualify either for the loan or for loan forgiveness. In column 4, we find that Black-owned firms are no
+more or less likely than white-owned firms to say they did not apply because they could not find a lender
+to accept their application. If Black-owned firms were less likely to qualify for a PPP loan, they may have
+been more likely to be turned away by prospective lenders concerned about complying with program rules.
+Columns 5–7 of Table 4 indicate that the “administrative burdens” of the PPP may have been an
+important cause of disparities in application rates. Broadly speaking, the term “administrative burdens”
+refers to the time and effort costs a firm incurs to apply for a PPP loan. For instance, firms need to gather
+and synthesize enough information about the program to fully understand and assess the program’s benefits
+and risks. Firms also need to collect, organize, and prepare all documents required to submit an application.
+14
+
+
+In the Appendix, we describe the documentation required to apply for PPP loans and the calculations needed
+to determine the loan amount for which the firm is eligible. As the description in the Appendix makes clear,
+the documentation requirements and loan amount calculations are quite intricate, creating administrative
+burdens that may dissuade some business owners from applying for PPP loans.
+In column 5, we report that Black-owned firms that did not apply for PPP loans are 5.8 percentage
+points more likely than observably similar white-owned firms to say they did not apply because the “pro-
+gram/process was too confusing.” This finding supports the view that Black-owned firms either had less
+support in preparing PPP loan applications or faced a more complex set of issues in filling out their appli-
+cations. The regression reported in column 6 shows that Black-owned firms are 4.7 percentage points more
+likely to say they did not apply for a PPP loan because they were unaware of the program, suggesting that
+Black-owned firms may have had less access to people who were familiar with the program, such as other
+business owners, bankers, accountants or lawyers. Finally, column 7 of the table finds that Black-owned
+firms are 7.4 percentage points more likely not to apply for a PPP loan because they missed the program
+deadline. Among other possibilities, missing the deadline could be related to difficulties in gathering infor-
+mation about the program or preparing the application. Collectively, the results in columns 5–7 suggest that
+the administrative burdens of the program may have been experienced more acutely by Black-owned firms,
+which may partly explain the observed disparity in application rates.
+Why might the administrative burdens of the PPP have had a greater effect on the decision of Black-
+owned firms to apply for PPP loans?
+First, Black-owned firms may be more likely to have attributes
+that increased the complexity of their PPP applications. For example, according to Table 1, Black-owned
+firms are significantly more likely to use contract workers, whose compensation was not supposed to be
+included in the calculation of the eligible loan amount. This was a source of confusion for many companies.
+While we control for use of contract workers in the regressions in Table 3, there could be other unobserved
+characteristics of Black-owned firms that made it more difficult to determine the eligible loan amount or
+provide the required documentation. Second, Black-owned firms tend to have weaker bank relationships
+and may therefore be less likely to receive help from bank loan officers in preparing PPP applications.23
+Finally, Black-owned firms may have had less access to other business owners and professionals, such as
+accountants and lawyers, to assist them in preparing their PPP applications. Indeed, evidence from the
+2021 Small Business Credit Survey indicates that Black-owned firms have less access to professional services.
+On average, 64% of white-owned employer firms indicate that they turn to paid professional services (such
+as accountants, lawyers, or consultants) when faced with a business-related problem, relative to just 42% of
+Black-owned firms.24 This differential is explained in part by firm characteristics such as size and profitability,
+but even when including these controls in a regression analysis, Black-owned firms are still over 9 percentage
+points less likely to use paid professional services. Evidence from the American Survey of Entrepreneurs
+conducted by the U.S. Census corroborates this differential: 68% of white-owned employer firms seeking
+business-related advice turned to legal or professional advisors, relative to just 58% Black-owned employer
+23 According to the 2020 Small Business Credit Survey, minority-owned firms were significantly less satisfied than
+white-owned firms with the support that they received from their primary financial services provider.
+24 Federal Reserve Member Banks, 2022 Report on Employer Firms: Data Appendix, February 22, 2022, at
+https://www.fedsmallbusiness.org/-/media/project/smallbizcredittenant/fedsmallbusinesssite/
+fedsmallbusiness/files/2021/sbcs-employer-firms-appendix-2021.xls?sc_lang=en&hash=
+2A3C7FEFDF3E623AF175ADA8E2822A14
+15
+
+
+firms.25 In addition, consistent with a lower level of support from paid professional advisors, Black-owned
+employer firms were substantially more reliant on government-supported technical assistance programs, such
+as SBA Small Business Development Centers, with 10.3% utilizing these resources relative to just 2.8% of
+white-owned employer firms.26
+4.3
+Applications: Where do Firms Apply?
+We next study the factors that affect whether a firm applies for a PPP loan from a bank or fintech.
+In columns 1–2 of Table 5, we estimate linear probability regression models of whether a firm applies for a
+PPP loan from a bank, conditional on submitting a PPP loan application. We find that Black-owned firms
+are 16.5 percentage points less likely than white-owned firms to apply to banks (column 1). After including
+our full set of controls, this disparity shrinks to 9.9 percentage points (column 2). By contrast, conditional
+on applying for a PPP loan, Black-owned firms are 14.7 percentage points more likely to apply to fintechs
+(column 6). Controlling for observable characteristics reduces this estimate to 7.8 percentage points (column
+7).
+The coefficients on various firm characteristics in Table 5 demonstrate that firms with fewer resources
+are particularly likely to apply to fintechs rather than banks. Businesses that are smaller, younger, and have
+lower annual revenues are more likely to apply to fintechs. One interpretation of this finding is that these
+types of firms benefit most from the simpler, streamlined application processes that fintechs offered. To
+the extent that our controls are unable to fully capture differences between Black-and white-owned firms in
+access to informational and technical resources, this mechanism may help to explain why observably similar
+white- and Black-owned firms display different preferences for banks and fintechs. Indeed, the evidence in
+the last 3 columns of Table 4, suggesting disparities in the administrative burdens of the PPP even after
+controlling for observable characteristics, is consistent with the idea that Black-owned firms prefer fintechs
+because of their streamlined application processes.
+Does racial bias help to explain why Black-owned firms appear to prefer fintechs to banks? In columns
+3–4 and 8–9 of Table 5, we interact our measures of county-level racial bias with the indicator for Black-
+owned firms. Columns 3 and 4 show that in more racially biased counties, Black-owned PPP applicants are
+less likely to apply for PPP loans from banks. In particular, the coefficient estimate for the explicit bias
+measure indicates that Black-owned businesses in counties with racial bias one standard deviation above
+the nationwide mean are 9.5 percentage points less likely to apply for PPP loans from banks relative to
+observably similar Black-owned businesses in counties with an average level of racial bias. Compared to
+white-owned firms, Black-owned firms are 19.3 percentage points less likely to apply for bank PPP loans
+in counties one standard deviation above the nationwide mean of explicit racial bias. The estimated effects
+using the implicit bias measure are very similar in magnitude. In columns 8 and 9, the regression results
+indicate that Black-owned firms in more racially biased counties are more likely to apply for PPP loans from
+fintechs. The coefficient estimates are large (0.071 for the explicit bias measure and 0.099 for the implicit
+bias measure), implying that in more racially biased counties, the greater application rates by Black-owned
+firms to fintechs offset a large portion of the lower application rates for PPP loans from banks.
+25 US Census, ASE: Characteristics of Businesses: 2016 Tables, at https://www.census.gov/data/tables/2016/
+econ/ase/2016-ase-characteristics-of-businesses.html
+26 Ibid.
+16
+
+
+Why might racial bias lead Black-owned firms to apply to fintechs? One possibility is that Black-owned
+firms located in racially biased areas anticipated — perhaps based on a legacy of racial discrimination by
+banks — that they would receive discriminatory treatment if they submitted their PPP applications to banks,
+choosing instead to submit to fintechs. Another explanation is that Black-owned firms in more racially biased
+areas were equally likely to approach banks to inquire about submitting a PPP application, but chose to
+submit to a fintech after being treated poorly by bank loan officers. It is also possible that Black-owned
+firms in more racially biased areas differ systematically from other Black-owned firms along unobservable
+dimensions that would strengthen their preference for fintechs relative to banks. For instance, as a result of
+past discrimination, Black-owned firms in more biased areas may have less access to resources to assist them
+in preparing PPP applications. As a result, these firms may place a higher value on the ability of fintechs
+to streamline the application submission process.
+Finally, in columns 5 and 10 of Table 5, we ask whether existing bank relationships could drive the
+decision to apply to banks versus fintechs. We find that, while firms with current bank relationships are 27.3
+percentage points more likely to apply to banks and 8.5 percentage points less likely to apply to fintechs,
+this variable has only a modest effect on whether Black-owned firms apply to banks or fintechs. Conditional
+on applying for a PPP loan, Black-owned firms are still 8.5 percentage points less likely to apply to banks
+and 7.5 percentage points more likely to apply to fintechs.27
+In sum, the findings in Tables 3-5 demonstrate that application behavior explains a large portion of the
+findings that: (i) Black-owned businesses are less likely to receive PPP loans (Chernenko and Scharfstein,
+2022); (ii) conditional on receiving PPP loans, Black-owned businesses are less likely to have used banks
+and more likely to have used fintechs (Howell et al., 2022); and (iii) the reliance of Black-owned firms on
+fintechs, relative to banks, is especially pronounced in more racially biased counties. The importance of
+observable differences between Black- and white-owned firm in explaining application behavior suggests that
+Black-owned businesses may have had fewer resources to help navigate the administrative burdens associated
+with PPP applications. Importantly, we note that observable differences between white- and Black-owned
+firms, as well as the possibility that administrative burdens had a particularly strong effect on Black-owned
+firms, may themselves be outcomes of historical discrimination.
+4.4
+Approvals
+We next examine the determinants of PPP loan approvals. As noted above, an “approval” by a particular
+lender type refers to an applicant who receives a PPP loan from that lender type. If an applicant does not
+receive a PPP loan from a given lender type, it does not mean that the loan application was explicitly
+rejected, as it is possible that the application was withdrawn or never attended to, or that the applicant was
+approved by a different lender type.
+Table 6 reports the results of linear probability model regressions of loan approvals. Columns 1 and
+3, respectively, show that banks and fintechs are 11.6 and 15.4 percentage points less likely to approve
+applications from Black-owned firms relative to white-owned firms. We include our full set of controls in
+27 The sample analyzed in Tables 3 and 5 excludes 292 firms that do not report the outcome of their PPP application,
+while including those that report that they have a current bank relationship. Table IA1 of the Internet Appendix
+shows that the pattern of coefficients and their statistical significance does not depend on the inclusion or exclusion
+of these firms.
+17
+
+
+columns 2 and 4 and find that the approval disparity between observably similar white- and Black-owned
+firms is 7.4 percentage points at banks and 8.4 percentage points at fintechs.28 Observable differences between
+white- and Black-owned firms, in particular with respect to firm revenues, size and age, are therefore able to
+explain almost half of the disparities in approval rates at both banks and fintechs. The difference in approval
+disparities between banks and fintechs documented in columns 2 and 4 is not statistically significant.29 Thus,
+the greater take-up rate of fintech PPP loans by Black-owned firms is not because the disparity in approval
+rates is lower at fintechs; rather, it is driven by the greater likelihood that Black-owned firms apply to
+fintechs, as shown in Table 5.
+Table 7 explores whether racial bias affects approval rates. We continue to include all controls, but
+to conserve space report only the coefficients on Black and its interactions with explicit and implicit bias.
+We find that Black-owned firms applying to banks are significantly less likely to be approved in more
+racially biased counties. The results reported in column 1 indicate that the estimated approval disparity for
+Black-owned applicants in counties one standard deviation above the nationwide mean of explicit bias is 7.6
+percentage points greater than in counties with average racial bias. In these more racially biased counties,
+Black-owned applicants are 15 percentage points less likely to be approved for a bank PPP loan relative
+to observably similar white-owned applicants. Conversely, the results in column 1 indicate that there is no
+approval disparity in counties one standard deviation below the nationwide mean of explicit bias. Column 2
+reports similar estimates using the implicit bias measure. The results are again statistically and economically
+significant.
+Columns 3 and 4 examine the effect of racial bias on differential approval rates at fintechs. The coefficient
+estimates indicate that the approval disparity is lower in more racially biased counties, thereby offsetting
+the higher approval disparity by banks in these counties. This may be because the lower bank approval rate
+in more racially biased counties drive Black-owned applicants with favorable unobservable characteristics to
+fintechs, which then approve their applications at higher rates. The magnitude of the effect is large; however,
+because of the much smaller number of fintech applications, it is measured with considerable noise and the
+point estimates are not statistically significant. Finally, columns 5 and 6 examine the effect of racial bias on
+approval disparities across all lenders. The point estimates for the racial bias interaction terms are negative,
+but not statistically significant, reflecting offsetting effects of bias on bank and fintech approval disparities.
+While the results in Table 6 show similar observed approval disparities at banks and fintechs — and
+thus cannot explain the greater reliance of Black-owned firms on fintechs — this does not necessarily imply
+that approval disparities at banks and fintechs would be the same for randomly selected white- and Black-
+owned businesses.
+Indeed, our discussion in the prior section suggests that fintechs may increase credit
+access by expanding the PPP applicant pool to include firms with fewer resources, who in turn could face
+lower probabilities of approval. Black-owned firms may be particularly well-represented in this group of
+new applicants. However, a more careful consideration of the application decisions of Black- and white-
+owned firms suggest that, if anything, selection reduces observed fintech disparities relative to observed bank
+disparities. That is, we would expect fintech disparities to be even larger relative to bank disparities with
+28 Because the vast majority of bank PPP applicants in the survey, about 90%, report having pre-existing relationships
+with their bank, we stress that the lack of significance on “Relationship w/Lender” should not be interpreted as
+evidence that pre-existing bank relationships had no effect on PPP access.
+29 In Table IA3 of the Internet Appendix, we show that our results are robust to controlling for whether firms submit
+PPP applications to multiple lender types. In Table IA4, we show that the results in columns 3–4 are robust to
+considering applications only to fintech lenders as a rejection by a bank.
+18
+
+
+random assignment of firms to lender types.
+In the appendix, we present a model that elucidates how discrimination and endogenous application
+behavior affect approval disparities at banks and fintechs. The model identifies two selection effects that
+tend to reduce approval disparities at fintechs relative to banks: one that tends to decrease the fintech
+applications of Black-owned firms that have the lowest likelihood of being approved; the other that tends to
+increase fintech applications from Black-owned firms that have a relatively high likelihood of being approved.
+These selection effects emerge in a model with the following features: (i) firms prefer bank PPP loans to
+fintech PPP loans because there are greater expected future benefits of having a bank relationship; (ii) the
+cost of applying to fintechs is lower than the cost of applying to banks; (iii) banks discriminate against
+Black applicants, who thus have a lower probability of being approved at a bank than at a fintech; (iv) the
+distribution of PPP approval probabilities, θ, among the population of Black-owned firms is a leftward shift
+of the analogous distribution for white-owned firms. This downward shift is not a direct result of racial bias
+in the PPP application process, but it could be the result of Black-owned firms having fewer resources to
+assist in applying for PPP loans.
+Under these assumptions, low-θ firms apply to fintechs while high-θ firms apply to banks, as the higher
+approval probability makes it more worthwhile to bear the higher bank application costs. If application costs
+are low, leading all firms to apply for PPP loans, and there is no discrimination at banks, then the approval
+disparities would be the same at banks and fintechs, reflecting the assumption that the distribution of θ
+for Black-owned firms is a leftward shift of the distribution of θ for white-owned firms. However, given this
+leftward shift and meaningful application costs, the cost of applying to a fintech crowds out a larger fraction
+of low-θ Black-owned firms, thus increasing the average θ of Black-owned firms that apply to fintechs relative
+to the average θ of white-owned firms that apply to fintechs. This censoring effect thus reduces the approval
+disparity at fintechs but has no effect on the approval disparity at banks.
+In addition, discrimination leads more Black-owned firms in the middle of the θ distribution to apply
+to fintechs; only the very highest θ Black-owned firms will apply to banks in the hope of benefiting from
+the future value of a bank relationship. This increases the average θ of Black-owned fintech loan applicants
+relative to white-owned fintech loan applicants. And while the average θ of Black-owned firms applying to
+banks also increases, the effect of this selection on the approval probability of Black-owned firms at banks
+is smaller than it is at fintechs because of discrimination at banks.
+Thus, selection effects arising from
+discrimination also reduce the approval disparity at fintechs relative to banks. We conclude that selection
+effects should, in theory, lead to a smaller approval disparity at fintechs relative to banks.
+Our empirical finding that PPP approval disparities are roughly equal at banks and fintechs suggests
+that either selection effects are weak or that there is another cause of PPP approval disparities that is
+particularly acute at fintechs. In the next section, we will explore other possible sources of racial disparities
+in PPP approval rates.
+5
+Understanding Approval Disparities
+Even though fintechs appear to have reduced the impact of racial bias on PPP approval decisions (Table
+7), we find similarly large average approval disparities at both banks and fintechs (Table 6). This suggests
+that there are additional reasons, beyond those we have already analyzed, for racial disparities in PPP
+19
+
+
+approval rates. In this section, we investigate several other factors that may have contributed to average
+approval disparities at banks and fintechs. The first potential explanation is that while lenders were equally
+likely to approve applications from Black-owned firms, these firms were less likely to accept loan offers. The
+second potential explanation is that despite our rich controls for firm, owner, and location characteristics,
+there may be unobserved characteristics of Black-owned businesses that reduced their likelihood of meeting
+PPP eligibility requirements. The third possibility is that, as we argue in the context of the decision to apply
+for a PPP loan, the administrative burden of the PPP had a bigger impact on Black-owned firms. In other
+words, Black-owned firms may have been equally likely to be eligible for PPP loans but less likely to be able
+prove that they were eligible — or prove that they were eligible for the amount they requested — because
+of either inadequate documentation or because they requested more than the amount for which they were
+eligible. We consider each explanation in turn.
+5.1
+Potential Explanation 1: Turning down Approved Funds
+On its face, the idea that Black-owned firms are more likely to turn down loan offers is implausible both
+because of the attractive terms of the forgivable loan and the fact that the firms applied for the loan in the
+first place. It is also inconsistent with our evidence regarding the reasons that PPP non-applicants cited for
+their decision not to apply. Recall from the regression in column 1 of Table 4 that Black-owned firms are
+7.4 percentage points less likely than observably similar white-owned firms to state that they did not apply
+because they did not need funding. Moreover, column 2 of the same table shows that Black-owned firms are
+less likely to state that they did not apply for a loan because they were not interested in government funding.
+We would expect Black-owned firms to be more likely to state these reasons if they were more likely to turn
+down PPP funds for which they had already been approved.
+5.2
+Potential Explanation 2: Eligibility
+Because the approval regressions include detailed firm and owner characteristics, any eligibility disparity
+between Black- and white-owned firms must be based on differences in some unmeasured characteristics of
+either firms or their owners. The main reasons an applicant would be ineligible, as noted explicitly on the
+PPP application, are the following: (i) the applicant is currently involved in a bankruptcy; (ii) the applicant
+is currently delinquent on a federal loan or has defaulted on a federal loan in the last seven years; (iii)
+an owner with more than 20% of the equity is either currently facing criminal charges, on probation, or
+incarcerated; (iv) an owner with more than 20% of the equity was convicted of a felony, pleaded guilty to
+a felony, or was on probation for a felony in the last five years. We consider bankruptcy, delinquency or
+default on a federal loan, and criminal records in turn, and we conclude that these eligibility issues cannot
+explain a meaningful portion of the approval disparity at banks and fintechs.
+(i) Bankruptcy:
+The SBA released guidance in April of 2021 clarifying the meaning of the phrase
+“presently involved in any bankruptcy” as used on SBA Form 2483.30. In the first two quarters of 2020, a
+total of just under 400,000 personal and business bankruptcies were filed (Iverson et al., 2020), almost all of
+which were personal bankruptcies. This represents less than 0.2% of the U.S. adult population. While Black
+30 SBA, Paycheck Protection Program Loans Frequently Asked Questions (FAQs), Question 67, April 6, 2021, at
+https://www.sba.gov/sites/default/files/2021-04/PPP%20FAQs%204.6.21%20FINAL-508.pdf.
+20
+
+
+Americans have filed for bankruptcy at higher rates than white Americans in recent years,31 the disparity
+in filing rates is not large enough to explain a material fraction of the observed 8 percentage points approval
+disparity.
+(ii) Federal Loan Default/Delinquency: The federal government uses two databases to screen for histo-
+ries of federal loan defaults and delinquencies: the Credit Alert Interactive Verification Reporting System
+(CAIVRS) and the Treasury Offset Program debtor database (TOP). The CAIVRS database is composed of
+people who have defaulted on debt either guaranteed or issued by six participating federal agencies: Hous-
+ing and Urban Development, Veterans Affairs, Small Business Administration, Education, Agriculture, and
+Justice. The TOP database includes people delinquent on non-tax federal debt (e.g., child support).
+Federal agencies, including the SBA, are able to access both CAIVRS and TOP through the Treasury’s
+Do Not Pay (DNP) portal. However, the SBA did not perform any such pre-origination checks in 2020,
+although it did do so in 2021 prior to authorizing loans.32 Because only federal agencies have access to
+the DNP portal and the only way of accessing the TOP debtor database is through the DNP portal,33 we
+therefore know that no PPP applicants were rejected for PPP loans in 2020 due to being in TOP.
+Unlike TOP, CAIVRS also provides direct access to private lenders approved to make federally-guaranteed
+loans on behalf of one of the participating agencies. So while the SBA may not have run CAIVRS checks
+on PPP applicants in 2020, PPP lenders may have done so. Fortunately, HUD releases monthly statisti-
+cal reports on the volume of direct CAIVRS inquiries received from approved lenders and the number of
+matches found in the CAIVRS database, categorized by the participating agency to which lenders submitted
+requests.34 The reports suggest that some lenders did perform CAIVRS checks on PPP applicants in 2020:
+the volume of requests submitted on behalf of the SBA increased from just under 20,000 in March of 2020
+to more than 250,000 in April of 2020.35 However, a total of just 481,680 requests were submitted on behalf
+of the SBA between April and August of 2020, representing under 10% of approved PPP loans. Of these
+requests, just 3,656 returned matches, less than 0.1% of approved loans during this period. Because default
+and delinquency rates in the population are much higher than the default and delinquency rate implied by
+this number, the data suggest that small business owners who had defaulted or were delinquent chose not
+to apply for PPP loans. Given the low percentage estimated above, we can rule out the possibility that
+there are meaningful disparities in PPP approvals in 2020 due to applicant defaults or delinquencies on
+federally-backed loans.
+(iii) - (iv) Criminal Record: Using data from the Criminal Justice Administrative Records System,
+Finlay, Mueller-Smith, and Street (2020) estimate that, under the original program rules, Black male (female)
+31 Paul Kiel and Hannah Fresques, Data Analysis: Bankruptcy and Race in America, September 27, 2017, at
+https://projects.propublica.org/graphics/bankruptcy-data-analysis.
+32 US GAO Report 21-577 to Congressional Addressees, Paycheck Protection Program: SBA Added Program Safe-
+guards, but Additional Actions Are Needed, July, 2021, page 16, at https://www.gao.gov/assets/gao-21-577.pdf.
+33 Treasury Offset Program (Debt Check) Do Not Pay (DNP) Quick Reference Card, at https://www.fiscal.
+treasury.gov/files/dnp/qrc-top-debt-check.pdf.
+34 U.S. Department of Housing and Urban Development, CAIVRS Monthly Report Request, at https://entp.hud.
+gov/caivrs/public/f57pdf-main.cfm.
+35 For example, Lendistry, a minority-led CDFI, appears to have run CAIVRS checks on their applicants in 2020. See:
+PIDC, PPP Application Guidelines & Submissions with Lendistry, April 24-26, 2020, at https://pidcphilablog.
+com/wp-content/uploads/2020/04/PIDC-webinar-PPP-Lendistry.pdf.
+21
+
+
+sole proprietors were 3.6 percentage points (1.4 percentage points) more likely than white male (female) sole
+proprietors to be ineligible for PPP because they had a criminal record. About 55% of Black-owned firms in
+our sample are also female-owned, so using the authors’ estimates, we obtain a 2.4 percentage point disparity
+in criminal record-related disqualification between white- and Black-owned firms in our sample (.036 * .45
++ .014 * .55).
+Disqualification rates based on criminal records are likely lower for owners of employer firms than for sole
+proprietors. Adamson et al. (2021) study the broader small business population but with a narrower focus
+on felony convictions in the past five years, finding that about 0.47% of small businesses were ineligible due
+to prior felony convictions under the original PPP rule.36 This 0.47% felony conviction rate is substantially
+lower than the rate of felony convictions in the past five years in the sample of sole proprietors studied
+in Finlay, Mueller-Smith, and Street (2020), which is 1.2%. If we adjust our 2.4% estimate by this factor
+(1.2%/0.47%) to account for higher rates of criminality among sole proprietors, we obtain a final estimated
+disparity in criminal record-related ineligibility of just 0.94% (
+.024
+.012/0.0047).
+In addition to this evidence, our prior results from the sample of PPP non-applicants also indicate that
+eligibility was not a disproportionately strong concern for Black-owned businesses. In column 3 of Table 4,
+we show that Black-owned firms were no more likely than observably similar white-owned firms to say they
+did not apply for PPP due to concerns about being eligible for either the loan or for loan forgiveness. Of
+course, since the sample in Table 4 consists of firms that did not apply, we cannot rule out the possibility
+that ineligible Black-owned firms were more likely to apply than ineligible white-owned firms. However,
+the fact that column 4 show that Black-owned firms were no more likely to cite difficulty finding a lender
+to accept their PPP application cuts against this possibility, as lenders would presumably be less likely to
+accept applications on behalf of ineligible firms. Thus, eligibility issues would seem to explain only a very
+small part of the disparity in approval rates.
+5.3
+Potential Explanation 3: Administrative Burden
+As we discussed in Section 4, the administrative burdens of the PPP — which include documenting
+program eligibility and substantiating a loan request — likely fell more heavily on under-resourced firms,
+whose applications were less likely to be approved given their documentation deficiencies.37 This is consistent
+with our findings in Section 4.4 that smaller and younger firms — those prone to having fewer resources
+to complete a fully documented and substantiated application — were less likely to have their applications
+approved. It is also consistent with anecdotal evidence suggesting that small firms faced more challenges
+preparing a fully documented and substantiated application. Jared Hecht, the CEO of Fundera, an online
+marketplace that connects small business owners with lenders, stated that “approximately 75% of [PPP]
+applications [Fundera processes] need some form of correction, whether it’s a missing piece of documentation,
+36 They estimate that 24% of these ineligible businesses were owned by Black individuals, somewhat higher than the
+14% share of Black sole proprietors in the sample.
+37 Greater Phoenix Economic Council, Five Tips for PPP Applicants, April 22, 2020, at https://www.gpec.
+org/blog/5-tips-federal-loan-applicants/; Fiserv Support for SBA Paycheck Protection Program (PPP) Fre-
+quently Asked Questions, April 21, 2020, at http://contentz.mkt3120.com/lp/46886/732931/SBA%20Paycheck%
+20Protection%20Program%20Support%20FAQ_1.pdf; Megan Leonhardt, Here’s How to Avoid a Common Mistake
+Small Businesses Make when Applying for Loans, According to an SBA Official, April 22, 2020, at https://www.cnbc.
+com/2020/04/22/common-mistake-small-businesses-make-applying-for-loans-says-sba-official.html.
+22
+
+
+the wrong document, an incorrect payroll calculation, or otherwise.”38 Peapack-Gladstone Bank, a New
+Jersey bank which had close to $6 billion in assets in March 2020, released a report describing their PPP
+lending experience in which they stated that “smaller enterprises, such as local retailers and restaurants
+and the like, presented rudimentary documentation.”
+According to Peapack-Gladstone executive Stuart
+Vorcheimer, “some of our clients literally were providing us with payroll numbers handwritten on a piece of
+paper.”39
+Like small and young firms, Black-owned firms are more likely to be under-resourced and thus to face
+greater challenges navigating the PPP application process.
+This could help explain approval disparities
+between observably similar Black- and white-owned firms. Indeed, as we discussed in Section 4.2, Black-
+owned firms are less likely than white-owned firms to have access to paid professional services such as
+legal and accounting services. This disparity in professional services access exists even when controlling for
+firm size and firm age. There is considerable anecdotal evidence to support this explanation of approval
+disparities, as noted in congressional testimony, policy proposals, press interviews and other accounts.40
+As further support for this explanation, we note that numerous organizations developed programs to help
+Black-owned businesses submit PPP applications, which suggests that Black-owned businesses faced greater
+application challenges. Paybby, which describes itself as “a consumer finance technology company seeking
+to offer black and brown communities what they truly need—a bank offering more targeted services [and]
+financial empowerment through education. . . ” launched an initiative in January of 2021 called “Together
+We Can” to simplify and expedite the PPP application process for minority-owned small businesses.41 The
+CEO of Paybby, Hassan Miah, spoke about PPP application challenges for minority business owners:42
+When PPP came out, the first round, people of color were underrepresented. Either they didn’t
+know [about the program] or they had issues getting their data...When we first got involved,
+38 Jared Hecht, A Crash Course in the Small-Business Bailout, April 10, 2020, at https://www.barrons.com/
+articles/a-crash-course-in-the-small-business-bailout-51586553690.
+39 Peapack-Gladstone Bank, Lessons Learned: What the SBA’s PPP Loan Process Revealed to us About Small
+Businesses and Our Bank, at https://www.pgbank.com/assets/files/3vOujTxD.
+40 Congressional testimony:
+Samuel C. Scott III, Testimony Before the United States House of Represen-
+tative Committee on Financial Services Subcommittee on Consumer Protection and Financial Institutions,
+June 3, 2020; Talibah M. Bayles, Testimony Before the United States Senate Committee on Small Business
+& Entrepreneurship, July 23, 2020.
+Policy proposal:
+Black Economic Alliance, The Black Economic Al-
+liance Calls on Congress to Include Key Initiatives to Help Black Businesses, Workers, Universities, and Cul-
+tural Institutions in Next COVID-19 Legislation, at https://blackeconomicalliance.org/app/uploads/2020/04/
+Black-Economic-Alliance-PPP-Stimulus-Proposal1.pdf.
+Interviews with Black business owners: Josephin Pe-
+terson, Being a Black business owner is difficult in Pierce County.
+Here’s the biggest reason, July 18, 2022, at
+https://www.thenewstribune.com/news/local/article250639364.html.
+See also: Ashley Portero, Opportunity
+Knocks: Community Banks Poised to Gain New Business After Crisis, June 12, 2020, at https://www.bizjournals.
+com/southflorida/news/2020/06/12/0612-cp-opportunity-knocks-for-local-banks.html; Samantha Masunaga
+and Taylor Avery, Black-Owned Businesses Face a System Set Up Against Them. COVID-19 Makes it Worse, June
+20, 2020, at https://www.latimes.com/business/story/2020-06-20/black-owned-business-loans-banks.
+41 Other examples of programs designed to assist Black- and other minority-owned businesses with PPP ap-
+plications include:
+Luminary Evaluation Group, Home Grown Technical Assistance Program for the Pay-
+check Protection Program, September 1, 2020, at https://homegrownchildcare.org/wp-content/uploads/2020/
+12/Home-Grown-PPP-Project-Outcomes-Report_Luminary_Septembr-2020.pdf; Our Fair Share, at https://www.
+ourfairshare.com/about/.
+42 David Penn, PPP, Diversity, and the Power of Fintech Paternships, March 4, 2021, at https://finovate.com/
+ppp-diversity-and-the-power-of-fintech-partnerships/.
+23
+
+
+Carver [a Black-owned bank] and some of [the] banks we talked with told us that in the Black
+community many people don’t even have a bank account. We saw this as an opportunity to
+provide that account and then support them on their loan efforts. Many of these small businesses
+are small Mom and Pop businesses, many of them work out of their back pockets: they use their
+regular personal checking account, make no distinction between their social security number
+and EIN, and those kinds of things.
+To provide more systematic evidence that Black-owned firms were more affected by the administrative
+burdens of the PPP approval process, we ask whether Black-owned firms receiving PPP loans are less likely
+to receive the full amount they requested. There are three reasons why a firm would receive a smaller amount
+of PPP funding than it requested: (i) choosing to accept less than the full approved amount; (ii) providing
+insufficient documentation; or (iii) requesting a loan in excess of the eligible amount.43 While some firms
+did accept less than their approved amounts, the PPP administrative data indicates that this was quite rare:
+less than 3% of 2020 loans list a “current approval amount” smaller than the “initial approval amount.”44
+Moreover, firms in our data that report receiving less than their full requests are substantially more likely
+to apply for other forms of credit, suggesting that they were not choosing to take less than their approved
+amounts.
+We can therefore attribute “funding shortages” to issues related to the administrative burdens of the
+PPP, whether due to insufficient documentation or an excessive loan amount request. Regarding insufficient
+documentation, it is possible that although a firm correctly calculated the amount for which it was eligible,
+the firm did not supply sufficient documentation to substantiate portions of its request. For example, the
+firm may have had accurate but informal internal records of contributions to benefits programs that did not
+meet program standards of proof. Alternatively, a firm may simply have requested more funds than it was
+eligible for under program rules. Including payments to contract workers as payroll costs is an example of
+one such miscalculation.
+Table 8 displays the results. About one fifth of all firms approved for PPP receive less than the amount
+requested. Younger and smaller firms are significantly less likely to receive the full amount requested, as are
+firms using contract workers. This is true of both bank and fintech loans, although the results for fintech
+loans are statistically weaker, probably because of the much smaller sample size. The lower likelihood that
+firms using contract workers receive the full request is consistent with the idea that funding shortfalls reflect
+loan requests in excess of the eligible amount. In untabulated results, we find that employer businesses are
+7.3 percentage points less likely to receive the full amount requested at banks. This lower approval rate
+could also reflect loan requests in excess of the eligible amount, given that employer firms had to provide
+more documentation and also perform more complex loan amount calculations.
+In column 1, we find that Black-owned firms that receive PPP loans from banks are 20.3 percentage
+points less likely than observably similar white-owned firms to receive the full amount requested.
+This
+43 Some firms likely made mistakes that led them to request less than their maximum eligible amount, not more.
+However, the most common mistakes made on payroll calculations invariably led firms to over-estimate their loan
+amounts. Alternatively, some firms may have intentionally applied for less than the maximum amount for which
+they were eligible. This too was likely rare: the application form treated the requested loan amount as the maximum
+eligible loan amount, as did essentially all guidance and advice one can find online about submitting PPP applications.
+44 SBA, Procedural Notice 5000-200076, January 13, 2021, at https://www.sba.gov/sites/default/files/
+2021-03/Procedural%20Notice%205000-20076%20First%20Draw%20PPP%20Loan%20Increases%201.13.21-508.pdf.
+24
+
+
+finding does not appear to be due to lower relative approval rates of Black-owned firms in more racially
+biased counties: the coefficients on the interactions of Black with the explicit and implicit bias measures in
+columns 2 and 3 are small and not statistically significant. In column 4, we find an even larger disparity
+at fintechs. Conditional on being approved by a fintech, Black-owned firms are 25.4 percentage points less
+likely than white-owned firms to receive the full amount requested. Columns 5 and 6 again demonstrate
+that the lower funding level relative to the requested amount is not related to racial bias. Taken together,
+the findings in Table 8 suggest that Black-owned firms may have had more difficulty providing the required
+documentation or were more likely to request an amount in excess of the eligible amount. Along the lines of
+the survey evidence, this could be explained by the lower likelihood that Black-owned firms had professional
+support in the preparation of their applications.
+6
+Conclusion
+We use the 2020 Small Business Credit Survey, which includes detailed information on PPP loan ap-
+plications and approvals, along with information on owner race, gender and Hispanic origin, to unpack the
+sources of racial disparities in the take-up of PPP loans and to study the effects of racial bias on both loan
+applications and approvals. We find that, controlling for firm characteristics, Black- and Hispanic-owned
+firms are, respectively, 4.9 and 4.5 percentage points less likely than observably similar white-owned firms to
+apply for PPP loans. For Black-owned firms, this effect is driven by a lower probability of applying for PPP
+loans from banks. Conditional on applying for a PPP loan, Black-owned firms are 9.9 percentage points
+less likely to apply at banks and 7.8 percentage points more likely to apply at fintechs. The substitution
+away from bank applications and toward fintech applications is stronger in more racially biased counties,
+and could be driven by either historical discrimination that discourages Black-owned firms from approaching
+banks in the first place or by banks in more racially biased counties providing worse service to Black-owned
+firms.
+Application behavior is enough to explain the previously-documented finding that Black-owned firms are
+more likely than white-owned firms to receive PPP loans from fintechs (Chernenko and Scharfstein, 2022;
+Howell et al., 2022). By contrast, approval rates at banks and fintechs cannot explain the greater reliance
+of Black-owned firms on fintechs, as we find similar approval disparities at banks and fintechs. Compared to
+observably similar white-owned firms, Black-owned firms are 7.4 percentage points less likely to be approved
+at banks and 8.4 percentage points less likely to be approved at fintechs.
+Our analysis suggests three main reasons for approval disparities at both banks and fintechs. First, we
+show that observable differences between Black- and white-owned firms explain almost half of the uncon-
+ditional gap in approval rates. In other words, Black-owned firms are more likely to have characteristics
+(e.g., younger, lower revenues, and fewer employees) associated with lower approval rates. Second, we show
+that racial bias is related to bank approval outcomes; in counties with more racial bias, Black-owned firms
+applying to banks are significantly less likely than observably similar white-owned firms to receive funding.
+This could be because racial bias directly affected approval decisions at banks, or because the legacy of racial
+bias means that Black-owned firms were less likely to have access to the financial resources that would have
+made approval more likely. A third reason for approval disparities — supported by both anecdotal and em-
+pirical evidence — is that a larger fraction of Black-owned businesses had difficulty with the administrative
+burdens of the PPP, and in particular with determining eligible loan amounts and providing the required
+25
+
+
+documentation. In other words, the administrative burdens of the PPP application process disproportion-
+ately affected the approval rates of Black-owned firms. While we cannot pinpoint the exact reason why
+Black-owned firms were disproportionately affected by the administrative burdens of the program, survey
+evidence suggests that one reason may be that they were less likely to have relationships with professional
+service providers such as lawyers and accountants and thus were less likely to receive help from them in the
+application process. This is also the case for smaller and younger firms.
+Importantly, both differences in observable characteristics and in the impact of administrative burdens
+may themselves be driven by the historical legacy of racial bias. The fact that Black-owned firms tend to
+have lower revenues and fewer employees than white-owned businesses may be related to past instances of
+racially discriminatory treatment — such as in prior applications and approvals for credit — that affected
+a firm’s financial condition (Fairlie, Robb, and Robinson, 2021; Kim et al., 2021). Racial disparities in the
+impact of administrative burdens may similarly be related to widely-documented racial disparities in access
+to financial services.
+The finding that PPP approval disparities are similar in magnitude at banks and fintechs raises important
+questions about the relationship between automation and racial disparities in access to credit. In particular,
+it could be that automation at fintechs increases the scope for administrative burdens in the loan approval
+process.
+Indeed, this would be consistent with causal evidence in Wu and Meyer (2021), which shows
+that automating SNAP and Medicaid enrollment processes reduced take-up of both programs. Because the
+PPP approval process at banks was generally more hands-on and interactive, there may have been more
+scope for racial bias to influence approval decisions, particularly in more racially biased locations. This
+is consistent with the negative correlation that we document between county-level racial bias and bank
+approval disparities. The approval process at fintechs, by contrast, was far less personalized — some fintechs
+processed most of their applications without any human involvement.45 However, the hands-on approach
+may have better positioned banks to help applicants resolve documentation gaps and determine the correct
+loan amounts.46 Indeed, we find no meaningful approval disparities at banks in less racially biased locations,
+consistent with the possibility that loan officers in these areas may have helped Black-owned applicants source
+the documentation required for PPP loan approval. By contrast, fintechs may not have had enough employees
+to be responsive to the questions of individual applicants or address their specific application issues. As one
+Forbes article states, “Working with FinTech firms is still a nameless, faceless process. Some small business
+owners found the automation a frustrating aspect of the PPP loan process. There are numerous stories of
+individuals who should have been able to access PPP but were rejected by FinTech firms, with the only
+recourse being a 1-800 number.”47 Our analysis therefore suggests that while fintech automation may be
+helpful in reducing racial disparities in small business lending by making it easier to apply for loans, it also
+has limitations. In particular, if Black-owned businesses are less likely to have access to professional services
+providers to help with their applications, they may have needed more lender support in the preparation of
+45 Kabbage, Kabbage PPP results: A Historic Feat for Fintech, August 8, 2020, at https://newsroom.kabbage.com/
+wp-content/uploads/2020/08/Kabbage-Paycheck-Protection-Program-PPP-Report.pdf.
+46 This interpretation is consistent with Frame et al. (2022), which shows that mortgage applications of minority
+applicants are more likely to be completed and approved if the application is handled by a minority loan officer. They
+argue that that minority loan officers may put more effort into helping minority applicants secure the documentation
+they need.
+47 Megan Gorman, Why FinTechs Are Declaring Victory in PPP Loans, August 13, 2020, at https://www.forbes.
+com/sites/megangorman/2020/08/13/why-fintechs-are-declaring-victory-in-ppp-loans/?sh=591271632205.
+26
+
+
+their applications. Our anecdotal and empirical evidence both suggest that automation may be ill-suited
+to helping these firms through the application process and thus to reducing an important source of racial
+disparity in small business lending.
+27
+
+
+References
+Adamson,
+D.
+M.,
+D.
+Agniel,
+S.
+D.
+Bushway,
+and
+D.
+Woods.
+2021.
+Small
+businesses,
+criminal
+histories,
+and
+the
+Paycheck
+Protection
+Program.
+RAND
+Research
+Report
+https://www.rand.org/pubs/research reports/RRA1295-1.html.
+Aman-Rana, S., D. Gingerich, and S. Sukhtankar. 2022. Screen Now, Save Later? The Trade-Off between
+Administrative Ordeals and Fraud. Working paper https://ssrn.com/abstract=4193659.
+Atkins, R. M. B., L. D. Cook, and R. Seamans. 2022a.
+Discrimination in lending?
+Evidence from the
+Paycheck Protection Program. Small Business Economics 58:843–65.
+———. 2022b. Using technology to tackle discrimination in lending: The role of fintechs in the paycheck
+protection program. AEA Papers and Proceedings 112:296–8.
+Barkley, B., and M. Schweitzer. 2022. Credit availability for minority business owners in an evolving credit
+environment: Before and during the COVID-19 pandemic. Working Paper No. 22-18. Federal Reserve
+Bank of Cleveland. https://doi.org/10.26509/frbc-wp-202218.
+Bartik, A., Z. Cullen, E. L. Glaeser, M. Luca, C. Stanton, and A. Sunderam. 2020.
+The Tar-
+geting and Impact of Paycheck Protection Program Loans to Small Businesses.
+Working paper
+https://papers.ssrn.com/sol3/papers.cfm?abstract id=3676759.
+Chernenko, S., and D. Scharfstein. 2022. Racial disparities in the Paycheck Protection Program. NBER
+working paper https://www.nber.org/papers/w29748.
+Erel, I., and J. Liebersohn. 2022. Can fintech reduce disparities in access to finance? Evidence from the
+Paycheck Protection Program. Journal of Financial Economics 146:90–118.
+Fairlie, R. W., A. Robb, and D. T. Robinson. 2021. Black and white: Access to capital among minority-owned
+startups. Management Science 68:2377–400.
+Fei, C. Y. 2022. What drives racial minorities to use fintech lending? Evidence from a structural estimation.
+Working paper https://www.ssrn.com/abstract=3949148.
+Finlay,
+K.,
+M.
+Mueller-Smith,
+and
+B.
+Street.
+2020.
+Criminal
+disqualifications
+in
+the
+Paycheck
+Protection
+Program.
+ADEP
+Working
+Paper
+ADEP-WP-2020-04
+https://www.census.gov/content/dam/Census/library/working-papers/2020/econ/cjars-ppp-adep-
+working-paper-20200622.pdf.
+Frame, W. S., R. Huang, E. J. Mayer, and A. Sunderam. 2022. The impact of minority representation at
+mortgage lenders. Working paper https://papers.ssrn.com/sol3/papers.cfm?abstract id=4054761.
+Griffin, J. M., S. Kruger, and P. Mahajan. 2022. Did FinTech lenders facilitate PPP fraud?
+Journal of
+Finance, forthcoming https://papers.ssrn.com/sol3/papers.cfm?abstract id=3906395.
+Herd, P., and D. Moynihan. 2018.
+Administrative burden: Policymaking by other means.
+Russell Sage
+Foundation.
+28
+
+
+Howell, S. T., T. Kuchler, D. Snitkof, J. Stroebel, and J. Wong. 2022.
+Automation in Small Business
+Lending Can Reduce Racial Disparities: Evidence from the Paycheck Protection Program. Working paper
+https://papers.ssrn.com/sol3/papers.cfm?abstract id=3939384.
+Humphries, J. E., C. A. Nielsen, and G. Ulyssea. 2020. Information frictions and access to the Paycheck
+Protection Program. Journal of Public Economics 190. doi:10.1016/j.jpubeco.2020.104244.
+Iverson, B., R. Kleunder, J. Wang, and J. Yang. 2020. Bankruptcy and the Covid-19 Crisis. HBS working
+paper https://www.ssrn.com/3690398.
+Kim,
+M.
+J.,
+K.
+M.
+Lee,
+J.
+D.
+Brown,
+and
+J.
+S.
+Earle.
+2021.
+Black
+en-
+trepreneurs,
+job
+creation,
+and
+financial
+constraints.
+IZA
+discussion
+paper
+No.
+14403
+https://papers.ssrn.com/sol3/papers.cfm?abstract id=3855967.
+Wang,
+J.,
+and
+D.
+H.
+Zhang.
+2020.
+The
+cost
+of
+banking
+deserts:
+Racial
+dispari-
+ties
+in
+access
+to
+PPP
+lenders
+and
+their
+equilibrium
+implications.
+Working
+paper
+https://davidzhang.scholar.harvard.edu/files/dhz/files/geographyppp.pdf.
+Wu,
+D.,
+and
+B.
+D.
+Meyer.
+2021.
+Certification
+and
+recertification
+in
+wel-
+fare
+programs:
+What
+happens
+when
+automation
+goes
+wrong?
+Working
+paper
+https://drive.google.com/file/d/1EtjjpKQnVoTdB2YnVJUF3O7FR0uokvjU/view.
+29
+
+
+Table 1
+Summary Statistics
+This table reports sample means broken out by owners’ racial and Hispanic identity, and by gender. Population and
+median household income are in thousands. Branches per capita is scaled by 1000 (i.e., number of branches per 1000
+people) and is winsorized at the 99% level. The sample is composed of survey respondents who report (i) information
+for all outcome and control variables; (ii) majority white, Black, Asian, or Hispanic ownership. In this table, but not
+throughout the rest of the paper, a small number of respondents (1%–2% of the sample) reporting multiracial/ethnic
+majority ownership are excluded.
+Race/Ethnicity
+Gender
+Total
+White
+Black
+Asian
+Hispanic
+Male
+Female
+N =
+11,841
+8,424
+1,654
+753
+1,010
+7,073
+4,768
+Firm Characteristics
+# Owners + Employees
+9.12
+10.33
+4.54
+7.73
+7.57
+11.02
+6.31
+# Years in Business
+16.57
+18.83
+9.93
+12.27
+11.83
+18.43
+13.82
+2019 Revenues $0-$25k
+0.12
+0.09
+0.30
+0.08
+0.13
+0.09
+0.17
+2019 Revenues $25k-$50k
+0.09
+0.07
+0.15
+0.07
+0.11
+0.06
+0.12
+2019 Revenues $50k-$100k
+0.12
+0.10
+0.17
+0.11
+0.14
+0.10
+0.14
+2019 Revenues ≥$100k
+0.68
+0.74
+0.37
+0.74
+0.62
+0.74
+0.58
+2019 Loss
+0.20
+0.18
+0.34
+0.20
+0.19
+0.19
+0.22
+2019 Break-Even
+0.17
+0.16
+0.22
+0.17
+0.20
+0.17
+0.18
+2019 Profit
+0.62
+0.66
+0.44
+0.63
+0.61
+0.64
+0.60
+Owner Age < 45
+0.20
+0.17
+0.30
+0.26
+0.26
+0.18
+0.24
+Owner Age 45-64
+0.60
+0.60
+0.57
+0.62
+0.61
+0.59
+0.61
+Owner Age ≥65
+0.20
+0.23
+0.13
+0.12
+0.13
+0.23
+0.15
+Employer Business
+0.71
+0.72
+0.63
+0.76
+0.72
+0.74
+0.65
+Uses Contract Workers
+0.46
+0.44
+0.54
+0.41
+0.51
+0.44
+0.48
+ZIP Code Characteristics
+Branches Per Capita
+0.36
+0.38
+0.29
+0.36
+0.32
+0.37
+0.35
+Population (000s)
+29.51
+27.52
+33.70
+32.72
+36.79
+29.19
+29.98
+Median Household Income ($000s)
+71.70
+72.37
+63.86
+85.78
+68.36
+71.57
+71.89
+Fraction White
+0.59
+0.66
+0.41
+0.47
+0.42
+0.60
+0.58
+Unemployment Rate
+0.03
+0.03
+0.04
+0.03
+0.03
+0.03
+0.03
+Outcomes
+Applied for PPP
+0.67
+0.71
+0.49
+0.75
+0.62
+0.70
+0.63
+Bank
+0.57
+0.61
+0.34
+0.65
+0.49
+0.61
+0.51
+Fintech
+0.09
+0.08
+0.14
+0.11
+0.11
+0.09
+0.11
+CU/CDFI
+0.05
+0.05
+0.07
+0.03
+0.06
+0.05
+0.06
+Received PPP
+0.63
+0.67
+0.40
+0.73
+0.56
+0.66
+0.58
+Bank
+0.52
+0.57
+0.28
+0.61
+0.44
+0.56
+0.46
+Fintech
+0.07
+0.06
+0.08
+0.09
+0.07
+0.06
+0.08
+CU/CDFI
+0.04
+0.04
+0.04
+0.03
+0.04
+0.04
+0.04
+30
+
+
+Table 2
+Black-Owned Firms and PPP Access
+Columns 1–2 report the results of linear probability model regressions of receiving a PPP loan. Columns 3–6 report
+the results of linear probability model regressions of receiving a PPP loan from a bank, conditional on receiving a
+PPP loan from any lender. Columns 1–4 report robust standard errors. In columns 5–6, standard errors are clustered
+by county. Racial bias measures are standardized to have zero mean and unit variance. ZIP controls include the
+number of branches per-capita, log of population, log of median household income, white population share, and
+unemployment rate. ∗, ∗∗, and ∗∗∗indicate statistical significance at 10%, 5%, and 1%.
+Received PPP
+Received Bank PPP | Received PPP
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Black
+−0.257∗∗∗
+−0.089∗∗∗
+−0.142∗∗∗
+−0.092∗∗∗
+−0.092∗∗∗
+−0.093∗∗∗
+(0.013)
+(0.012)
+(0.018)
+(0.018)
+(0.019)
+(0.019)
+Black × Explicit Bias
+−0.114∗∗∗
+(0.040)
+Black × Implicit Bias
+−0.127∗∗∗
+(0.048)
+Asian
+0.055∗∗∗
+0.016
+0.003
+0.015
+0.014
+0.015
+(0.016)
+(0.015)
+(0.015)
+(0.017)
+(0.018)
+(0.018)
+Hispanic
+−0.084∗∗∗
+−0.061∗∗∗
+−0.033∗
+0.001
+0.005
+0.002
+(0.016)
+(0.014)
+(0.018)
+(0.018)
+(0.020)
+(0.020)
+Female
+−0.054∗∗∗
+0.029∗∗∗
+−0.051∗∗∗
+−0.019∗∗
+−0.019∗∗
+−0.019∗∗
+(0.009)
+(0.007)
+(0.009)
+(0.009)
+(0.009)
+(0.009)
+Firm Characteristics
+Log(Owners + Employees)
+0.074∗∗∗
+0.035∗∗∗
+0.035∗∗∗
+0.035∗∗∗
+(0.004)
+(0.004)
+(0.005)
+(0.005)
+Log(Years in Business)
+0.007∗
+0.021∗∗∗
+0.021∗∗∗
+0.021∗∗∗
+(0.004)
+(0.005)
+(0.006)
+(0.005)
+$25k-$50k
+0.076∗∗∗
+−0.024
+−0.025
+−0.025
+(0.017)
+(0.045)
+(0.041)
+(0.041)
+$50k-$100k
+0.135∗∗∗
+0.052
+0.050
+0.049
+(0.017)
+(0.040)
+(0.042)
+(0.042)
+More than $100k
+0.396∗∗∗
+0.123∗∗∗
+0.121∗∗∗
+0.119∗∗∗
+(0.015)
+(0.036)
+(0.035)
+(0.036)
+Break-Even
+−0.024∗
+0.009
+0.009
+0.009
+(0.015)
+(0.016)
+(0.017)
+(0.017)
+Profit
+0.012
+0.005
+0.005
+0.005
+(0.012)
+(0.013)
+(0.013)
+(0.013)
+Owner Age 45-64
+−0.029∗∗∗
+0.030∗∗
+0.029∗∗
+0.028∗∗
+(0.010)
+(0.012)
+(0.012)
+(0.012)
+Owner Age ≥65
+−0.081∗∗∗
+0.049∗∗∗
+0.048∗∗∗
+0.048∗∗∗
+(0.012)
+(0.015)
+(0.014)
+(0.014)
+Employer Business
+0.242∗∗∗
+−0.018
+−0.018
+−0.015
+(0.018)
+(0.046)
+(0.044)
+(0.044)
+Nonemployer × Break-Even
+0.026
+−0.042
+−0.044
+−0.042
+(0.023)
+(0.062)
+(0.059)
+(0.059)
+Nonemployer × Profit
+0.093∗∗∗
+−0.035
+−0.033
+−0.032
+(0.020)
+(0.048)
+(0.045)
+(0.045)
+Uses Contract Workers
+−0.023∗∗∗
+−0.011
+−0.011
+−0.010
+(0.007)
+(0.009)
+(0.008)
+(0.008)
+N
+12,229
+12,229
+7,607
+7,607
+7,607
+7,607
+R2
+0.05
+0.38
+0.02
+0.09
+0.09
+0.09
+Mean of Dependent Variable
+0.62
+0.62
+0.83
+0.83
+0.83
+0.83
+State FEs
+✓
+✓
+✓
+Industry FEs
+✓
+✓
+✓
+ZIP controls
+✓
+✓
+✓
+31
+
+
+Table 3
+Which Firms Apply for PPP?
+This table reports the results of linear probability model regressions of applying for a PPP loan. In order to match
+the sample used in Table 2, firms that report applying for PPP but do not report whether they received PPP funds
+are excluded from all regressions in the table.
+The dependent variable is equal to one if the firm applied for a
+PPP loan from any lender. Columns 1, 2, and 5 report robust standard errors. In columns 3–4, standard errors are
+clustered by county. Racial bias measures are standardized to have zero mean and unit variance. ZIP controls include
+the number of branches per-capita, log of population, log of median household income, white population share, and
+unemployment rate. ∗, ∗∗, and ∗∗∗indicate statistical significance at 10%, 5%, and 1%.
+(1)
+(2)
+(3)
+(4)
+(5)
+Black
+−0.194∗∗∗
+−0.049∗∗∗
+−0.048∗∗∗
+−0.049∗∗∗
+−0.038∗∗∗
+(0.013)
+(0.013)
+(0.012)
+(0.012)
+(0.012)
+Black × Explicit Bias
+−0.010
+(0.030)
+Black × Implicit Bias
+0.014
+(0.037)
+Asian
+0.049∗∗∗
+0.003
+0.003
+0.003
+0.008
+(0.016)
+(0.014)
+(0.019)
+(0.019)
+(0.014)
+Hispanic
+−0.057∗∗∗
+−0.045∗∗∗
+−0.045∗∗∗
+−0.045∗∗∗
+−0.039∗∗∗
+(0.016)
+(0.014)
+(0.015)
+(0.015)
+(0.014)
+Female
+−0.052∗∗∗
+0.022∗∗∗
+0.023∗∗∗
+0.022∗∗∗
+0.022∗∗∗
+(0.009)
+(0.007)
+(0.008)
+(0.008)
+(0.007)
+Firm Characteristics
+Current Bank Relationship
+0.113∗∗∗
+(0.010)
+Log(Owners + Employees)
+0.062∗∗∗
+0.062∗∗∗
+0.062∗∗∗
+0.059∗∗∗
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+Log(Years in Business)
+−0.000
+0.000
+0.000
+−0.002
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+$25k-$50k
+0.116∗∗∗
+0.116∗∗∗
+0.117∗∗∗
+0.110∗∗∗
+(0.018)
+(0.017)
+(0.017)
+(0.018)
+$50k-$100k
+0.151∗∗∗
+0.150∗∗∗
+0.150∗∗∗
+0.140∗∗∗
+(0.018)
+(0.018)
+(0.018)
+(0.018)
+More than $100k
+0.389∗∗∗
+0.388∗∗∗
+0.388∗∗∗
+0.371∗∗∗
+(0.016)
+(0.016)
+(0.016)
+(0.016)
+Break-Even
+−0.025∗
+−0.025∗
+−0.025∗
+−0.025∗
+(0.014)
+(0.014)
+(0.014)
+(0.014)
+Profit
+0.001
+0.001
+0.001
+0.001
+(0.011)
+(0.011)
+(0.011)
+(0.011)
+Owner Age 45-64
+−0.034∗∗∗
+−0.034∗∗∗
+−0.033∗∗∗
+−0.032∗∗∗
+(0.010)
+(0.010)
+(0.010)
+(0.010)
+Owner Age ≥65
+−0.087∗∗∗
+−0.087∗∗∗
+−0.087∗∗∗
+−0.083∗∗∗
+(0.012)
+(0.012)
+(0.012)
+(0.012)
+Employer Business
+0.244∗∗∗
+0.244∗∗∗
+0.244∗∗∗
+0.242∗∗∗
+(0.019)
+(0.018)
+(0.018)
+(0.019)
+Nonemployer × Break-Even
+0.012
+0.012
+0.012
+0.017
+(0.025)
+(0.024)
+(0.024)
+(0.025)
+Nonemployer × Profit
+0.089∗∗∗
+0.088∗∗∗
+0.088∗∗∗
+0.094∗∗∗
+(0.021)
+(0.020)
+(0.020)
+(0.021)
+Uses Contract Workers
+−0.008
+−0.008
+−0.008
+−0.011
+(0.007)
+(0.007)
+(0.007)
+(0.007)
+N
+12,229
+12,229
+12,207
+12,207
+12,164
+R2
+0.03
+0.34
+0.34
+0.34
+0.35
+Mean of Dependent Variable
+0.67
+0.67
+0.67
+0.67
+0.67
+State FEs
+✓
+✓
+✓
+✓
+Industry FEs
+✓
+✓
+✓
+✓
+ZIP controls
+✓
+✓
+✓
+✓
+32
+
+
+Table 4
+Why Do Some Firms Not Apply for PPP?
+This table reports the results of linear probability model regressions of possible reasons that non-applicants cite for
+not applying for a PPP loan:
+Reasonf = α + β · Minorityf + γ′Xf + εf,
+where f indexes firms. The sample consists of firms that did not apply for a PPP loan. Robust standard errors are
+reported. ZIP controls include the number of branches per-capita, log of population, log of median household income,
+white population share, and unemployment rate. ∗, ∗∗, and ∗∗∗indicate statistical significance at 10%, 5%, and 1%.
+N = 3, 923.
+Unneeded
+No Gov.
+Eligibility
+No Lenders
+Confusing
+Unaware
+Deadline
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+Black
+−0.074∗∗∗
+−0.021∗∗
+−0.008
+0.019
+0.058∗∗∗
+0.047∗∗∗
+0.074∗∗∗
+(0.014)
+(0.009)
+(0.023)
+(0.015)
+(0.019)
+(0.015)
+(0.014)
+Asian
+−0.048∗∗
+−0.045∗∗∗
+0.040
+0.031
+0.001
+0.081∗∗∗
+0.049∗∗
+(0.022)
+(0.010)
+(0.037)
+(0.026)
+(0.030)
+(0.026)
+(0.025)
+Hispanic
+−0.061∗∗∗
+−0.014
+−0.027
+0.002
+0.043∗
+0.067∗∗∗
+0.071∗∗∗
+(0.018)
+(0.012)
+(0.030)
+(0.020)
+(0.025)
+(0.020)
+(0.020)
+Female
+−0.014
+−0.006
+0.016
+−0.011
+0.008
+−0.018∗
+−0.014
+(0.012)
+(0.008)
+(0.017)
+(0.011)
+(0.014)
+(0.010)
+(0.010)
+Firm Characteristics
+Log(Owners + Employees)
+0.019∗
+0.024∗∗∗
+−0.007
+−0.009
+−0.008
+−0.013∗
+−0.006
+(0.010)
+(0.009)
+(0.013)
+(0.007)
+(0.010)
+(0.007)
+(0.007)
+Log(Years in Business)
+0.010∗
+−0.002
+−0.013
+−0.004
+0.008
+−0.006
+−0.001
+(0.006)
+(0.004)
+(0.009)
+(0.006)
+(0.007)
+(0.005)
+(0.005)
+$25k-$50k
+−0.075∗∗∗
+−0.004
+0.019
+0.025
+0.033
+−0.001
+0.018
+(0.016)
+(0.011)
+(0.026)
+(0.015)
+(0.021)
+(0.017)
+(0.015)
+$50k-$100k
+−0.057∗∗∗
+−0.015
+0.010
+0.050∗∗∗
+0.041∗∗
+−0.010
+0.014
+(0.017)
+(0.011)
+(0.026)
+(0.016)
+(0.021)
+(0.016)
+(0.015)
+More than $100k
+−0.037∗∗
+0.006
+−0.001
+0.019
+−0.002
+−0.052∗∗∗
+0.011
+(0.018)
+(0.011)
+(0.026)
+(0.016)
+(0.021)
+(0.015)
+(0.015)
+Break-Even
+0.008
+0.020
+−0.040
+−0.012
+−0.013
+−0.006
+−0.021
+(0.018)
+(0.016)
+(0.037)
+(0.028)
+(0.033)
+(0.024)
+(0.025)
+Profit
+0.096∗∗∗
+0.017
+−0.130∗∗∗
+−0.044∗
+−0.042
+−0.019
+−0.029
+(0.018)
+(0.013)
+(0.031)
+(0.023)
+(0.028)
+(0.020)
+(0.021)
+Owner Age 45-64
+0.015
+−0.008
+−0.011
+−0.018
+0.005
+−0.000
+−0.017
+(0.012)
+(0.009)
+(0.021)
+(0.014)
+(0.017)
+(0.013)
+(0.013)
+Owner Age ≥65
+0.072∗∗∗
+0.007
+−0.044∗
+−0.032∗
+−0.012
+−0.013
+−0.017
+(0.019)
+(0.012)
+(0.027)
+(0.017)
+(0.022)
+(0.015)
+(0.016)
+Employer Business
+−0.044∗∗
+−0.025∗
+−0.134∗∗∗
+0.089∗∗∗
+0.075∗∗∗
+0.029
+0.061∗∗∗
+(0.019)
+(0.014)
+(0.034)
+(0.024)
+(0.029)
+(0.022)
+(0.021)
+Nonemployer × Break-Even
+0.005
+−0.032
+−0.015
+0.025
+0.025
+0.008
+0.030
+(0.026)
+(0.020)
+(0.047)
+(0.032)
+(0.040)
+(0.030)
+(0.029)
+Nonemployer × Profit
+−0.013
+−0.003
+0.007
+0.037
+0.039
+0.007
+0.020
+(0.024)
+(0.016)
+(0.039)
+(0.027)
+(0.033)
+(0.024)
+(0.024)
+Uses Contract Workers
+−0.052∗∗∗
+0.006
+0.036∗∗
+0.014
+0.055∗∗∗
+−0.025∗∗∗
+−0.007
+(0.011)
+(0.008)
+(0.017)
+(0.010)
+(0.014)
+(0.010)
+(0.010)
+R2
+0.11
+0.04
+0.06
+0.05
+0.03
+0.05
+0.04
+Mean of Dependent Variable
+0.14
+0.06
+0.45
+0.11
+0.20
+0.10
+0.09
+State FEs
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+Industry FEs
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+ZIP Controls
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+33
+
+
+Table 5
+Where do Firms Apply for PPP?
+This table reports the results of linear probability model regressions of applying for a PPP loan with a given lender
+type, within the sample of firms applying for PPP. As in Table 3, firms that report applying for PPP but do not
+report whether they received PPP funds are excluded from all regressions in the table. In columns 1–5 (6–10), the
+dependent variable is equal to one if the firm applied for a PPP loan from a bank (fintech). In columns 3–4 and
+8–9, standard errors are clustered by county.
+In all other columns, robust standard errors are reported.
+Racial
+bias measures are standardized to have zero mean and unit variance. ZIP controls include the number of branches
+per-capita, log of population, log of median household income, white population share, and unemployment rate.
+∗,
+∗∗, and ∗∗∗indicate statistical significance at 10%, 5%, and 1%.
+Applied to Bank
+Applied to Fintech
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+(7)
+(8)
+(9)
+(10)
+Black
+−0.165∗∗∗−0.099∗∗∗−0.098∗∗∗−0.099∗∗∗−0.085∗∗∗0.147∗∗∗0.078∗∗∗0.077∗∗∗0.077∗∗∗0.075∗∗∗
+(0.016)
+(0.017)
+(0.017)
+(0.017)
+(0.016)
+(0.016)
+(0.016)
+(0.017)
+(0.017)
+(0.016)
+Black × Explicit Bias
+−0.095∗∗
+0.071∗
+(0.039)
+(0.040)
+Black × Implicit Bias
+−0.109∗∗
+0.099∗∗
+(0.048)
+(0.047)
+Asian
+0.006
+0.013
+0.012
+0.013
+0.029∗
+0.015
+−0.001
+0.001
+−0.001
+−0.006
+(0.014)
+(0.015)
+(0.017)
+(0.017)
+(0.015)
+(0.015)
+(0.016)
+(0.017)
+(0.017)
+(0.016)
+Hispanic
+−0.045∗∗∗−0.012
+−0.009
+−0.011
+−0.001
+0.044∗∗∗0.007
+0.004
+0.006
+0.001
+(0.017)
+(0.017)
+(0.018)
+(0.018)
+(0.016)
+(0.016)
+(0.016)
+(0.016)
+(0.016)
+(0.016)
+Female
+−0.047∗∗∗−0.014∗−0.015∗−0.014∗−0.014∗
+0.039∗∗∗0.011
+0.011
+0.011
+0.011
+(0.008)
+(0.009)
+(0.008)
+(0.008)
+(0.008)
+(0.008)
+(0.008)
+(0.007)
+(0.007)
+(0.008)
+Firm Characteristics
+Current Bank Relationship
+0.273∗∗∗
+−0.085∗∗∗
+(0.015)
+(0.013)
+Log(Owners + Employees)
+0.035∗∗∗0.035∗∗∗0.035∗∗∗0.026∗∗∗
+−0.028∗∗∗−0.028∗∗∗−0.028∗∗∗−0.025∗∗∗
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+(0.004)
+Log(Years in Business)
+0.019∗∗∗0.019∗∗∗0.019∗∗∗0.015∗∗∗
+−0.013∗∗∗−0.013∗∗∗−0.013∗∗∗−0.012∗∗
+(0.005)
+(0.005)
+(0.005)
+(0.005)
+(0.005)
+(0.004)
+(0.004)
+(0.005)
+$25k-$50k
+0.007
+0.005
+0.005
+0.017
+0.015
+0.016
+0.017
+0.008
+(0.038)
+(0.037)
+(0.037)
+(0.036)
+(0.037)
+(0.036)
+(0.036)
+(0.037)
+$50k-$100k
+0.107∗∗∗0.103∗∗∗0.102∗∗∗0.089∗∗∗
+−0.092∗∗∗−0.090∗∗∗−0.088∗∗−0.088∗∗∗
+(0.033)
+(0.035)
+(0.035)
+(0.032)
+(0.033)
+(0.034)
+(0.034)
+(0.033)
+More than $100k
+0.174∗∗∗0.171∗∗∗0.170∗∗∗0.154∗∗∗
+−0.150∗∗∗−0.149∗∗∗−0.147∗∗∗−0.146∗∗∗
+(0.030)
+(0.030)
+(0.030)
+(0.029)
+(0.030)
+(0.030)
+(0.030)
+(0.030)
+Break-Even
+0.007
+0.007
+0.007
+0.006
+−0.015
+−0.015
+−0.015
+−0.014
+(0.015)
+(0.016)
+(0.016)
+(0.015)
+(0.015)
+(0.016)
+(0.016)
+(0.015)
+Profit
+0.006
+0.006
+0.006
+0.006
+−0.022∗−0.022∗−0.022∗−0.022∗
+(0.012)
+(0.012)
+(0.012)
+(0.012)
+(0.012)
+(0.012)
+(0.012)
+(0.012)
+Owner Age 45-64
+0.021∗
+0.021∗
+0.021∗
+0.020∗
+−0.017
+−0.017
+−0.017
+−0.017
+(0.011)
+(0.011)
+(0.011)
+(0.011)
+(0.011)
+(0.012)
+(0.012)
+(0.011)
+Owner Age ≥65
+0.034∗∗
+0.033∗∗∗0.033∗∗∗0.033∗∗
+−0.042∗∗∗−0.042∗∗∗−0.042∗∗∗−0.042∗∗∗
+(0.014)
+(0.013)
+(0.013)
+(0.013)
+(0.013)
+(0.014)
+(0.014)
+(0.013)
+Employer Business
+−0.025
+−0.025
+−0.023
+−0.018
+0.031
+0.031
+0.030
+0.030
+(0.036)
+(0.035)
+(0.036)
+(0.035)
+(0.037)
+(0.038)
+(0.038)
+(0.036)
+Nonemployer × Break-Even
+−0.041
+−0.041
+−0.041
+−0.016
+0.046
+0.046
+0.046
+0.036
+(0.049)
+(0.048)
+(0.048)
+(0.047)
+(0.050)
+(0.046)
+(0.046)
+(0.049)
+Nonemployer × Profit
+−0.052
+−0.051
+−0.051
+−0.041
+0.044
+0.042
+0.042
+0.041
+(0.038)
+(0.037)
+(0.037)
+(0.037)
+(0.039)
+(0.037)
+(0.037)
+(0.038)
+Uses Contract Workers
+0.001
+0.001
+0.001
+−0.000
+0.018∗∗
+0.018∗∗
+0.018∗∗
+0.018∗∗
+(0.008)
+(0.008)
+(0.008)
+(0.008)
+(0.008)
+(0.007)
+(0.007)
+(0.008)
+N
+8,187
+8,187
+8,170
+8,170
+8,154
+8,187
+8,187
+8,170
+8,170
+8,154
+R2
+0.03
+0.11
+0.11
+0.11
+0.17
+0.02
+0.09
+0.09
+0.09
+0.09
+Mean of Dependent Variable
+0.84
+0.84
+0.84
+0.84
+0.84
+0.14
+0.14
+0.14
+0.14
+0.14
+State FEs
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+Industry FEs
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+ZIP controls
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+✓
+34
+
+
+Table 6
+Which Firms Are Approved for PPP?
+This table reports the results of linear probability model regressions of receiving a PPP loan, conditional on applying.
+In columns 1–2 (3–4), the sample consists of firms that applied for a PPP loan from a bank (fintech). In columns
+5–6, the dependent variable is equal to one if the firm received a PPP loan from any lender. Robust standard errors
+are reported. ZIP controls include the number of branches per-capita, log of population, log of median household
+income, white population share, and unemployment rate. ∗, ∗∗, and ∗∗∗indicate statistical significance at 10%, 5%,
+and 1%.
+Bank
+Fintech
+All
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Black
+−0.116∗∗∗
+−0.074∗∗∗
+−0.154∗∗∗
+−0.084∗∗
+−0.144∗∗∗
+−0.081∗∗∗
+(0.016)
+(0.016)
+(0.036)
+(0.041)
+(0.014)
+(0.013)
+Asian
+0.013
+0.020∗
+0.050
+0.053
+0.011
+0.017∗
+(0.010)
+(0.012)
+(0.047)
+(0.050)
+(0.009)
+(0.009)
+Hispanic
+−0.033∗∗
+−0.021
+−0.067
+−0.053
+−0.041∗∗∗
+−0.028∗∗
+(0.014)
+(0.015)
+(0.048)
+(0.051)
+(0.012)
+(0.012)
+Female
+−0.014∗∗
+0.004
+0.030
+0.037
+−0.008
+0.013∗∗
+(0.007)
+(0.007)
+(0.027)
+(0.028)
+(0.006)
+(0.006)
+Firm Characteristics
+Relationship w/Lender
+−0.011
+0.009
+0.018∗∗
+(0.010)
+(0.029)
+(0.008)
+Log(Owners + Employees)
+0.016∗∗∗
+−0.015
+0.017∗∗∗
+(0.003)
+(0.019)
+(0.002)
+Log(Years in Business)
+0.010∗∗
+0.016
+0.007∗∗
+(0.004)
+(0.017)
+(0.003)
+$25k-$50k
+0.009
+0.007
+0.031
+(0.045)
+(0.066)
+(0.035)
+$50k-$100k
+0.057
+0.101
+0.115∗∗∗
+(0.038)
+(0.065)
+(0.031)
+More than $100k
+0.138∗∗∗
+0.179∗∗∗
+0.191∗∗∗
+(0.035)
+(0.060)
+(0.028)
+Break-Even
+−0.005
+0.045
+−0.009
+(0.012)
+(0.053)
+(0.010)
+Profit
+0.002
+0.067
+0.001
+(0.009)
+(0.042)
+(0.008)
+Owner Age 45-64
+0.009
+−0.049
+−0.005
+(0.010)
+(0.033)
+(0.008)
+Owner Age ≥65
+0.008
+−0.082
+−0.016∗
+(0.011)
+(0.055)
+(0.010)
+Employer Business
+0.232∗∗∗
+0.147∗
+0.221∗∗∗
+(0.046)
+(0.082)
+(0.038)
+Nonemployer × Break-Even
+0.117∗
+0.054
+0.117∗∗
+(0.061)
+(0.114)
+(0.050)
+Nonemployer × Profit
+0.222∗∗∗
+0.166∗
+0.208∗∗∗
+(0.047)
+(0.088)
+(0.039)
+Uses Contract Workers
+−0.026∗∗∗
+−0.006
+−0.017∗∗∗
+(0.007)
+(0.028)
+(0.005)
+N
+6,840
+6,840
+1,150
+1,150
+8,125
+8,125
+R2
+0.02
+0.11
+0.02
+0.12
+0.04
+0.15
+Mean of Dependent Variable
+0.92
+0.92
+0.70
+0.70
+0.93
+0.93
+State FEs
+✓
+✓
+✓
+Industry FEs
+✓
+✓
+✓
+ZIP controls
+✓
+✓
+✓
+35
+
+
+Table 7
+Racial Bias and Approval Decisions
+This table reports the results of linear probability model regressions of receiving a PPP loan, conditional on applying.
+In columns 1–2 (3–4), the sample consists of firms that applied for a PPP loan from a bank (fintech). In columns
+5–6, the dependent variable is equal to one if the firm received a PPP loan from any lender. Standard errors are
+clustered by county. Racial bias measures are standardized to have zero mean and unit variance. ZIP controls include
+the number of branches per-capita, log of population, log of median household income, white population share, and
+unemployment rate. ∗, ∗∗, and ∗∗∗indicate statistical significance at 10%, 5%, and 1%.
+Bank
+Fintech
+All
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Black
+−0.074∗∗∗
+−0.075∗∗∗
+−0.081∗∗
+−0.084∗∗
+−0.080∗∗∗
+−0.080∗∗∗
+(0.015)
+(0.015)
+(0.040)
+(0.039)
+(0.013)
+(0.013)
+Black × Explicit Bias
+−0.076∗
+0.096
+−0.045
+(0.039)
+(0.098)
+(0.037)
+Black × Implicit Bias
+−0.092∗∗
+0.075
+−0.055
+(0.041)
+(0.127)
+(0.041)
+N
+6,824
+6,824
+1,150
+1,150
+8,108
+8,108
+R2
+0.11
+0.11
+0.12
+0.12
+0.16
+0.16
+Mean of Dependent Variable
+0.92
+0.92
+0.70
+0.70
+0.93
+0.93
+State FEs
+✓
+✓
+✓
+✓
+✓
+✓
+Industry FEs
+✓
+✓
+✓
+✓
+✓
+✓
+Firm/ZIP Controls
+✓
+✓
+✓
+✓
+✓
+✓
+36
+
+
+Table 8
+PPP Amount Requested vs Received
+This table reports the results of linear probability model regressions of receiving the full amount of PPP funding
+requested, conditional on receiving a PPP loan from a given lender type:
+FullAmountf,c = α + β0 · Minorityf + β1 · Blackf × Biasc + γ′Xf + εf,c,
+where f indexes firms and c indexes counties. Columns 1 and 4 report robust standard errors. In columns 2–3 and
+5–6, standard errors are clustered by county. Racial bias measures are standardized to have zero mean and unit
+variance. ZIP controls include the number of branches per-capita, log of population, log of median household income,
+white population share, and unemployment rate. ∗, ∗∗, and ∗∗∗indicate statistical significance at 10%, 5%, and 1%.
+Bank
+Fintech
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+Black
+−0.203∗∗∗
+−0.203∗∗∗
+−0.203∗∗∗
+−0.253∗∗∗
+−0.264∗∗∗
+−0.256∗∗∗
+(0.025)
+(0.023)
+(0.023)
+(0.055)
+(0.055)
+(0.055)
+Black × Explicit Bias
+0.010
+0.037
+(0.071)
+(0.137)
+Black × Implicit Bias
+−0.000
+0.016
+(0.083)
+(0.187)
+Asian
+−0.068∗∗∗
+−0.066∗∗∗
+−0.066∗∗∗
+−0.094
+−0.101∗
+−0.096∗
+(0.022)
+(0.023)
+(0.023)
+(0.067)
+(0.057)
+(0.057)
+Hispanic
+−0.052∗∗
+−0.052∗
+−0.052∗
+−0.037
+−0.030
+−0.037
+(0.023)
+(0.029)
+(0.029)
+(0.062)
+(0.061)
+(0.061)
+Female
+−0.004
+−0.004
+−0.004
+0.011
+0.008
+0.011
+(0.011)
+(0.012)
+(0.012)
+(0.035)
+(0.038)
+(0.038)
+Firm Characteristics
+Relationship w/Lender
+−0.003
+−0.003
+−0.003
+−0.075∗∗
+−0.072∗∗
+−0.074∗∗
+(0.017)
+(0.015)
+(0.015)
+(0.037)
+(0.035)
+(0.035)
+Log(Owners + Employees)
+0.023∗∗∗
+0.023∗∗∗
+0.023∗∗∗
+0.015
+0.013
+0.014
+(0.005)
+(0.005)
+(0.005)
+(0.023)
+(0.022)
+(0.022)
+Log(Years in Business)
+0.026∗∗∗
+0.026∗∗∗
+0.026∗∗∗
+0.037∗
+0.036∗
+0.037∗
+(0.006)
+(0.006)
+(0.006)
+(0.021)
+(0.021)
+(0.021)
+$25k-$50k
+−0.057
+−0.058
+−0.058
+−0.078
+−0.091
+−0.082
+(0.056)
+(0.053)
+(0.053)
+(0.093)
+(0.089)
+(0.089)
+$50k-$100k
+−0.039
+−0.039
+−0.039
+−0.117
+−0.118
+−0.118
+(0.048)
+(0.048)
+(0.048)
+(0.093)
+(0.080)
+(0.081)
+More than $100k
+0.069
+0.069∗
+0.069∗
+−0.004
+−0.009
+−0.005
+(0.043)
+(0.041)
+(0.041)
+(0.084)
+(0.071)
+(0.073)
+Break-Even
+−0.017
+−0.017
+−0.017
+−0.007
+−0.010
+−0.009
+(0.020)
+(0.021)
+(0.021)
+(0.066)
+(0.068)
+(0.068)
+Profit
+0.002
+0.003
+0.003
+0.054
+0.053
+0.053
+(0.016)
+(0.016)
+(0.016)
+(0.053)
+(0.056)
+(0.056)
+Owner Age 45-64
+−0.012
+−0.012
+−0.012
+−0.014
+−0.014
+−0.014
+(0.015)
+(0.014)
+(0.014)
+(0.044)
+(0.048)
+(0.048)
+Owner Age ≥65
+0.001
+0.002
+0.002
+0.096
+0.096
+0.094
+(0.018)
+(0.016)
+(0.016)
+(0.062)
+(0.062)
+(0.063)
+Employer Business
+−0.027
+−0.028
+−0.028
+−0.052
+−0.046
+−0.052
+(0.059)
+(0.056)
+(0.056)
+(0.125)
+(0.122)
+(0.125)
+Nonemployer × Break-Even
+−0.031
+−0.030
+−0.033
+0.010
+0.022
+0.009
+(0.078)
+(0.074)
+(0.074)
+(0.168)
+(0.160)
+(0.161)
+Nonemployer × Profit
+0.066
+0.067
+0.066
+−0.052
+−0.051
+−0.052
+(0.061)
+(0.057)
+(0.057)
+(0.131)
+(0.121)
+(0.123)
+Uses Contract Workers
+−0.062∗∗∗
+−0.062∗∗∗
+−0.062∗∗∗
+−0.035
+−0.038
+−0.036
+(0.010)
+(0.010)
+(0.010)
+(0.036)
+(0.034)
+(0.034)
+N
+6,311
+6,295
+6,295
+797
+797
+797
+R2
+0.09
+0.09
+0.09
+0.16
+0.16
+0.16
+Mean of Dependent Variable
+0.79
+0.79
+0.79
+0.62
+0.62
+0.62
+State FEs
+✓
+✓
+✓
+✓
+✓
+✓
+Industry FEs
+✓
+✓
+✓
+✓
+✓
+✓
+ZIP Controls
+✓
+✓
+✓
+✓
+✓
+✓
+37
+
+
+Appendix
+Description of Documentation Requirements and Eligible Loan Amount Deter-
+mination
+To get a sense of the administrative burden inherent in successfully navigating the PPP application
+process, we note that a sole proprietor or single-member limited liability corporation (LLC) with paid
+employees in 2019 was required to submit the following documents along with their PPP application form:48
+(i) 2019 IRS Form 1040, Schedule C (net income/loss from business).
+(ii) Payroll processor reports from a recognized vendor (e.g., Intuit, ADP, Gusto) or both of the
+following: (a) 2019 IRS Form 941 from all four quarters (quarterly tax return);49 (b) 2019 state
+unemployment tax returns from all four quarters.
+(iii) Proof of employer contributions to any benefits programs (e.g., monthly invoices from benefit
+administrators for each program).
+(iv) Payroll statement or similar documentation (e.g., IRS Form 941 for the first quarter of 2020)
+from the period covering February 15, 2020 to prove that the business was in operation and had
+paid employees.
+Application checklists available online from various lenders indicate that additional documents were some-
+times requested, including:
+(i) Completed loan amount worksheet showing details of the calculations underlying the requested
+loan amount.
+(ii) 2019 IRS Forms W-2 and W-3 (wage and salary compensation) for all paid employees (if a
+payroll processor report providing such information was not included with the application).
+(iii) 2019 Profit-and-Loss statement or balance sheet.
+Finally, lenders often required more information from applicants with whom they did not have existing
+relationships for the purposes of satisfying Bank Secrecy Act (BSA) and Anti-Money Laundering (AML)
+guidelines, such as:
+(i) Proof of business activation and “good standing” from the office of the secretary of state.
+(ii) Certificate of fictitious name (“doing business as” name) or of sole proprietorship.
+(iii) Completion of a beneficial ownership certification form, customer identification program form,
+and/or business identification form.
+(iv) Voided business check.
+In addition to providing documentation, sole proprietors and single-member LLCs were instructed to make
+the following calculations to determine eligible payroll costs.50
+48 SBA, Paycheck Protection Program How To Calculate Maximum Loan Amounts – By Business Type, April 24,
+2020, at https://www.sba.gov/sites/default/files/2020-04/How-to-Calculate-Loan-Amounts.pdf.
+49 Applicants were able to submit their 2019 IRS Form 940 (annual federal unemployment tax return) in place of
+Form 941.
+50 Many payroll processors offered “PPP reports,” which would automatically calculate eligible loan amounts of
+a firm’s behalf.
+Even for firms using payroll processors that did not offer this service, payroll records provided
+streamlined and centralized access to all necessary inputs for loan amount calculations.
+Firms that did not use
+payroll processors faced greater difficulty calculating payroll costs.
+38
+
+
+(i) Net profit, from line 31 on IRS Form 1040 Schedule C. If greater than $100,000, this should be
+reduced to $100,000. If less than zero, it should be set to 0.
+(ii) 2019 gross wages and tips paid to employees, from 2019 IRS Form 941 line 5c-column 1, plus
+pre-tax employee contributions for health insurance or other fringe benefits excluded from Taxable
+Medicare wages and tips. Add this figure across all four 941’s submitted for 2019. For any employee
+paid in excess of $100,000 over the course of 2019, reduce their contribution to this final figure to
+$100,000.
+(iii) 2019 employer contributions for employee health insurance, from the portion of IRS Form 1040
+Schedule C line 14 attributable to health insurance.
+(iv) 2019 employer contributions to employee retirement plans, from IRS Form 1040 Schedule C line
+19.
+(v) 2019 employer state and local taxes assessed on employee compensation (primarily state unem-
+ployment insurance taxes, from state quarterly wage reporting forms).
+Other business structures, such as multi-member limited liability corporations, partnerships, and C-
+and S-corporations, were required to provide analogous (and usually more complex) tax forms and payroll
+records. For AML purposes, these firms were sometimes required to supply additional documentation, such
+as articles of organization or incorporation and company by-laws.
+While the loan amount calculations were straightforward, they could require combining information
+from a large number of documents: an annual federal tax return; four quarterly federal tax returns; four
+quarterly state tax returns; and monthly or quarterly statements or invoices from health insurers and from
+retirement program administrators. Furthermore, there was substantial confusion about what to include
+in the calculations: whether employer-side federal payroll taxes constituted payroll costs (they did not);
+whether payments to contract workers constituted gross wages and tips (they did not); and the definition of
+“fringe benefits” (which was not provided in SBA guidance until January of 2021).
+39
+
+
+Model of Endogenous Selection
+There are two types of lenders that make PPP loans: banks and fintechs. Banks are different from fintechs
+in two ways. First, because banks generally use less automated processes and because they may engage in
+greater due diligence (including more robust Bank Secrecy Act and Anti-Money Laundering compliance), it
+is more costly for firms to apply for PPP loans from banks than from fintechs. Let the cost of applying for
+a loan from a bank be cb, which is greater than the cost of applying to a loan from a fintech, cf.
+Second, because the bank loan application process often involves individual loan officers, there is scope
+for racial bias to enter into PPP loan application decisions. To model discrimination, let θ be the probability
+that a white-owned firm is approved for a PPP loan regardless of whether the firm applies to a bank or
+fintech. The probability θ measures the “condition” of the loan application, including whether the applicant
+is eligible for the loan, how complete the documentation is, and whether the loan amount calculations are
+done correctly. We assume the applicant knows this probability and that it is distributed uniformly on
+[θL, θH]. Black-owned firms face possible discrimination at banks, thereby lowering the probability of loan
+approval at banks to ηθ, where η < 1. Thus, for a given θ, Black-owned firms are less likely than white-owned
+firms to get their loans approved at banks. At fintechs, Black-owned firms face no discrimination, so the
+loan approval probability is θ. The distribution of θ for Black-owned firms is also uniformly distributed but
+shifted down by ϕ, which reflects unobserved attributes of Black-owned firms that make their applications
+more difficult to process. While the parameter ϕ is not the result of direct discrimination, it could reflect
+historical discrimination that made it more difficult for Black-owned firms to get the professional support
+necessary to enable more complete documentation and correct loan amount calculations.
+Finally, suppose that the benefit of receiving a loan from a fintech is normalized to 1 whereas the benefit
+of receiving a loan from a bank is R > 1. This reflects, among other things, the idea that banks have more
+products from which a firm could benefit in the future.
+Application and Approval Rates for White-Owned Firms
+In this formulation, white-owned firms will apply to banks provided
+θR −cb ≥θ −cf
+or
+θ ≥
+∆
+R −1
+where ∆is the application cost differential, cb −cf. A fraction [θH −
+∆
+R−1]/[θH −θL] of white-owned firms
+apply to banks. The remaining share of white-owned firms either apply to fintechs or, if their approval
+probability is sufficiently low, they do not apply for a PPP loan. The fraction applying to fintechs is
+∆
+R−1 −max(θL, cf)
+θH −θL
+where all firms apply for a loan provided θL ≥cf and [cf −θL]/[θH −θL] do not apply for a loan if θL < cf.
+We can now write the approval rate of white-owned firm applicants to banks, A(w, b), as:
+A(w, b) = 1
+2
+
+θH +
+∆
+R −1
+
+(1)
+40
+
+
+The fintech approval rate for white-owned firms, A(w, f), is:
+A(w, f) = 1
+2
+
+max(θL, cf) +
+∆
+R −1
+
+(2)
+Application and Approval Rates for Black-Owned Firms
+The conditions that determine whether Black-owned firms apply to banks or fintechs are different because
+of the potential for discrimination at banks. In particular, the condition for a Black-owned firm to apply to
+a bank is:
+ηθR −cb ≥θ −cf
+or
+θ ≥
+∆
+ηR −1
+Black-owned firms with the same θ as a white-owned firm are less likely to apply to a bank because of the
+discrimination factor η. An increase in discrimination – i.e., lower η – results in an increase in the average
+approval probability of Black-owned firms applying to banks. The fraction applying to banks is:
+θH −ϕ −∆/(ηR −1)
+θH −θL
+The fraction applying to fintechs is:
+∆/(ηR −1) −max(θL −ϕ, cf)]
+(θH −θL)
+For any ϕ > 0, one can show that conditional on applying and relative to white-owned applicants: (i) a
+strictly lower fraction of Black-owned firms apply to banks; and (ii) a strictly higher fraction of Black-owned
+firms apply to fintechs. This is the case regardless of the level of bank bias, and even if there is no bank bias
+(i.e., η = 1). The approval rate for Black-owned bank PPP loan applicants, A(B, b), is:
+A(B, b) = η
+2
+
+θH −ϕ +
+∆
+ηR −1
+
+(3)
+An increase in bias has two countervailing effects on the bank approval rate of Black-owned firms. The
+direct effect is to lower the approval rate for all Black-owned firm applicants. The indirect effect is that
+some lower-θ Black-owned firms decide to apply to fintechs instead of banks, which increases the average
+level of θ among Black-owned firms applying to banks and thus increases the approval rate. Whether an
+increase in bias increases or decreases the bank approval rate depends on the parameters. For example, if ϕ
+is relatively low – the average θ of Black-owned firm applications is similar to that of white-owned firms –
+then an increase in bias will tend to lower the approval rate.
+At fintechs, the approval rate for Black-owned firms, A(B, f), is:
+A(B, f) = 1
+2
+
+max(θL −ϕ, cf) +
+∆
+ηR −1
+
+(4)
+An increase in bank bias unambiguously increases the fintech approval rate of Black-owned firms through
+the same indirect selection effect just discussed in the context of banks: the Black-owned firms that substitute
+41
+
+
+from bank to fintech applications in response to increased bank bias have higher values of θ than other
+Black-owned firms applying to fintechs. An increase in bias also unambiguously increases the fraction of
+Black-owned firms that apply for loans at fintechs.
+Approval Disparities at Banks and Fintechs
+Given the above approval rates we can calculate the approval disparities at banks and fintechs.
+At
+fintechs, the approval disparity, A(w, f) −A(B, f), is given by:
+A(w, f) −A(B, f) = 1
+2
+
+max(θL, cf) −max(θL −ϕ, cf) −
+∆R(1 −η)
+(ηR −1)(R −1)
+
+.
+(5)
+When θL < cf, in which case some Black- and white-owned firms do not apply for PPP, the disparity is
+negative at fintechs; Black-owned firms are, on average, more likely to be approved because of the selection of
+high-θ Black-owned firms into fintech. However, in the case where all Black-owned firms apply for PPP, i.e.
+θL −ϕ > cf, there is a countervailing effect of Black-owned firms with particularly low approval probabilities
+applying to fintechs. This leads to a positive disparity at fintechs. Per our discussion in the prior section, the
+disparity at fintechs decreases with an increase in bank bias. This is consistent with our empirical findings.
+At banks, the approval disparity, A(w, b) −A(B, b) is:
+A(w, b) −A(B, b) = 1
+2
+
+θH +
+∆
+R −1
+
+−η
+2
+
+θH −ϕ +
+∆
+ηR −1
+
+= 1
+2
+
+(1 −η)(θH −ϕ) + ϕ −
+∆(1 −η)
+(ηR −1)(R −1)
+
+(6)
+Unlike fintechs, banks will always fully internalize the disparity ϕ in approval probability distributions
+between white- and Black-owned firms. This is because they attract applications from firms with the highest
+approval probabilities, all of whom choose to apply for PPP. Also, per our previous discussion, bias η can
+either increase or decrease the bank approval disparity, depending on parameters.
+Comparing the approval disparity at banks (6) with the approval disparity at fintechs (5), one can show
+that the disparities will only be equal if all firms choose to apply for PPP (θL −ϕ > cf) and banks do not
+discriminate against Black applicants (η = 1). Given the sizable application disparities shown in Table 3
+and the negative correlation of racial bias and Black-owned firms’ approval rates at banks shown in Table
+7, neither of these conditions appear to hold in the data.
+When one or both of these conditions do not hold, the bank approval disparity will be strictly larger
+than the fintech approval disparity. To illustrate the intuition for this result, we first consider a case in which
+there is no bank bias (η = 1) but not all firms choose to apply for PPP loans (cf > θL −ϕ), thus truncating
+the distribution of Black fintech applicants to those with θ > cf. With no discrimination, Black- and white
+owned firms use the same threshold probability for applying to banks: θ > ∆/(R −1). The bank approval
+disparity will equal ϕ/2, as it simply reflects the racial disparity in approval probability distributions absent
+any discrimination. However, because not all firms apply for PPP loans, the disparity in approval probability
+distributions ϕ means that a disproportionate share of low-θ Black-owned firms do not apply. These firms
+are therefore not included in fintech approval rates, which raises the mean θ of Black-fintech applicants and
+decreases the fintech approval disparity below ϕ/2. Thus, while the lower cost of fintech applications induces
+more Black-owned firms to apply, the costs of applying still crowd out more low-θ Black-owned firms and
+42
+
+
+thus reduce the fintech approval disparity. The same argument holds if there are also white-owned firms
+that do not apply for PPP loans, i.e., when cf > θL.
+Now suppose that banks discriminate (η < 1). This makes it less appealing for Black-owned firms to
+apply to banks. It raises the threshold of θ above which Black-owned firms choose to apply to banks from
+∆/(R−1) to ∆/(ηR−1), thereby raising the mean θ of Black-owned firms that apply to fintechs and further
+reducing the approval disparity at fintechs relative to the case of η = 1 considered above. At the same time,
+discrimination increases the average θ of Black-owned firms that apply to banks. However, the effect on the
+average approval probability of Black-owned firms at banks is attenuated because discrimination lowers their
+approval probability. Thus, while selection due to bank discrimination tends to mitigate approval disparities
+at both banks and fintechs, the effect is more pronounced at fintechs. We conclude that selection effects tend
+to increase approval disparities at banks relative to fintechs.
+43
+
+
+Table A.1
+Survey Representativeness: Industry Composition
+This table compares the industry compositions of SBCS survey respondents and all firms nationally. The nationwide
+industry shares are derived from the Census’ 2018 County Business Patterns and Nonemployer Statistics Combined
+Report. The eight industry categories are based on two-digit NAICS categories.
+Industry Category
+SBCS
+Nationwide
+Non-manufacturing goods production & associated services
+15.36%
+21.59%
+Manufacturing
+9.12%
+1.88%
+Retail
+11.25%
+9.19%
+Leisure and hospitality
+13.24%
+8.31%
+Finance and insurance
+1.69%
+3.59%
+Healthcare and education
+10.59%
+11.34%
+Professional services and real estate
+23.35%
+24.64%
+Business support and consumer services
+15.40%
+19.47%
+44
+
+
+Table A.2
+Definitions/Construction of SBCS-Derived Variables
+This table describes the construction of all variables, other than industry categories, that we derive from the SBCS
+survey data. For the mapping between NAICS codes and SBCS industry categories see the “Definitions” section of
+any data appendix listed at https://www.fedsmallbusiness.org/survey. Table A.1 reports the share of firms in each
+industry category.
+Variable/Term
+SBCS Question(s)
+Derivation/Definition
+White-Owned business
+You previously indicated that your business has
+number of owners owner(s). What is the race and
+ethnicity of the owner(s)? Please complete the en-
+tire table.
+Dummy variable coded as 1 if: >= 50% equity held
+by owner(s) identifying as non-Hispanic white.
+Black-Owned,
+Hispanic-
+Owned,
+Asian-Owned,
+Native-Owned,
+Mid-
+dle
+Eastern
+or
+North
+African-Owned,
+Other-
+Owned,
+Woman-Owned
+business
+“”
+Dummy variable coded as 1 if: >= 51% equity held
+by owner(s) identifying as (race/ethnicity/gender).
+Equity held by owners’ identifying as multiple
+groups is counted toward totals for each included
+group.
+Applied for PPP
+(Q1) What type(s) of emergency assistance funding
+did your business seek? Select all that apply.
+Dummy variable coded as 1 if: (Q1 = PPP OR
+Answered Q3 OR Answered Q4) AND ((Q1 = PPP
+OR Q1 Unanswered) AND Q2 Unanswered).
+(Q2) Why didn’t your business apply for a PPP
+loan? Select all that apply.
+Coded as 0 if: (Q1 Answered AND Q1 != PPP)
+OR Q2 Answered.
+(Q3) How much PPP funding did your business ap-
+ply for? Please input amount below.
+(Q4) Where did you apply for the PPP loan? Select
+all that apply
+Lender types: Bank, Fin-
+tech, CU/CDFI
+Where did you apply for the PPP loan? Select all
+that apply
+Bank:
+Large OR Small bank.
+Fintech:
+On-
+line/fintech lender OR Nonbank finance company
+OR Other lender.
+CU/CDFI: Credit Union OR
+Community development financial institution.
+Applied
+for
+PPP
+at
+(Lender type)
+“”
+Variable created directly from responses.
+Received PPP
+How much PPP funding did your business receive?
+Please input amount below.
+Dummy variable coded as 1 if: Received > 0 fund-
+ing. Coded as 0 if: Received 0 funding OR “Applied
+for PPP” = 0.
+Received PPP at (Lender
+type)
+At which source was your PPP loan application
+processed or most complete? Select one.
+Dummy variable coded as 1 if: Received/most com-
+plete at (lender type) AND “Received PPP” = 1.
+Coded as 0 if “Applied for PPP = 0 OR “Received
+PPP” = 0 OR Received/most complete at different
+lender type.
+Existing
+Relationship
+w/Lender (General)
+Did your business have an existing relationship
+with the Source(s) from previous question prior to
+submitting your PPP loan application?
+Dummy variable coded as 1 (0) if respondent re-
+ports relationship with at least one (no) lender
+type.
+Existing
+Relationship
+w/(Lender type)
+“”
+Dummy variable coded as 1 (0) if respondent re-
+ports relationship (no relationship) with (lender
+type).
+# Owners + Employees
+(Q1) How many owners does your business have?
+Only include those individuals who own a share of
+the business and/or profits
+Q1 + Q2 (Firms selecting “5 or more” owners are
+assumed to have five owners.)
+(Q2) How many employees did your business have
+as of January 1, 2020, excluding owners?
+(Full-
+Time only)
+Revenue categories
+What were your business’ total revenues in 2019?
+Please provide your best estimate.
+Respondents choosing any category above $100k
+are grouped.
+Profitability categories
+At the end of 2019, was your business operating at
+a profit, break-even, or loss?
+Variable created directly from responses.
+Owner age categories
+What is the age of the primary owner of this busi-
+ness?
+“Under 25,” “25-34,” and “35-44” are grouped
+into the “<45” category; “45-54” and “55-64” are
+grouped into the “45-64” category; the “≥65” cat-
+egory is created directly from the responses.
+Employer Business
+How many employees did your business have as
+of January 1, 2020, excluding owners? (Full- and
+Part-time)
+Dummy variable coded as 1 if respondent reports
+at least one full- or part-time employee.
+Uses Contract Workers
+In the past 12 months, did your business use any
+contract workers?
+Variable created directly from responses.
+45
+
+
+Figure A.1
+Structure of the 2020 SBCS
+This diagram illustrates the format of the 2020 SBCS. Blue sections are asked of all respondents. Red sections are
+asked of a subset of respondents based on their answers to certain questions in blue sections. Green sections are
+special topics modules asked of a subset of respondents opting to continue onto the special topics modules after the
+“Final Demographcis” section, based on their answers to certain question in blue sections. The yellow section is a
+special topics module asked of all respondents opting to continue onto the special topics modules. Note that there is
+additional “branching” within many sections, (e.g., follow-up questions contingent on certain responses).
+Business
+Operations
+Impact of
+the Covid-19
+Pandemic
+Firm De-
+mographics
+Business
+Performance
+Financial
+Services
+and Debt
+Emergency
+Assistance
+Related to
+the Covid-19
+Pandemic
+Applications
+for Emer-
+gency
+Assistance
+Demand for
+Financing
+(Excluding
+Emergency
+Funding)
+Financing
+Applications
+Recent
+Credit
+Applications
+Final De-
+mographics
+End
+Natural Disaster?
+Impact of
+Natural
+Disasters
+Protests?
+Impact of
+Protests
+and Demon-
+strations
+Additional
+Questions
+on Impact
+of Covid-19
+Pandemic
+End
+Applied
+Did not Apply
+Applied in
+Past 12m
+Applied for Loan/LoC/MCA in Past 12m
+Did not Apply in Past 12m
+No Loan/LoC
+/MCA App
+Continue? =No
+Continue?
+=Yes
+Yes
+No
+Yes
+No
+46
+
+
+Figure A.2
+Survey Representativeness: Geographic Distribution
+The heat map in panel (a) shows each state’s share of total respondents to the 2020 SBCS survey. The heat map in
+panel (b) shows each state’s share of total U.S. establishments, per the Census’ 2018 County Business Patterns and
+Nonemployer Statistics Combined Report.
+(a) SBCS
+(b) Census
+47
+
+
+Figure A.3
+IAT Distributions
+The heat map in panel (a) shows the average implicit bias against Black people, measured as the average implicit
+preference for white people relative to Black people over all Black-white IAT tests taken by white people in a given
+county between 2008 and 2019. The heat map in panel (b) shows the average explicit bias against Black people in
+each county, measured as the average explicit preference for white people relative to Black people over all Black-white
+IAT tests taken by white people in a given county between 2008 and 2019. Implicit and explicit bias measures are
+standardized to have zero mean and unit variance. The heat map in panel (c) shows the total number of Black-white
+IAT tests taken by white people in each county between 2008 and 2019.
+(a) Implicit Bias
+(b) Explicit Bias
+(c) Number of White Test-Takers
+48

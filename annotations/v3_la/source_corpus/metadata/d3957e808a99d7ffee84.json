@@ -1,0 +1,20 @@
+{
+  "source_id": "d3957e808a99d7ffee84",
+  "normalized_url": "https://homelesshub.ca/blog/2023/five-arguments-trans-inclusion-homelessness-sector",
+  "fetch_timestamp_utc": "2026-10-04T03:46:36.673550+00:00",
+  "registrable_domain": "homelesshub.ca",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://homelesshub.ca/blog/2023/five-arguments-trans-inclusion-homelessness-sector",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 52,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "2a86ad1f96770d49f384",
+  "normalized_url": "https://frontiersin.org/journals/education/articles/10.3389/feduc.2025.1750921/full",
+  "fetch_timestamp_utc": "2026-10-04T03:33:47.551552+00:00",
+  "registrable_domain": "frontiersin.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1750921/full",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 675958,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/2a86ad1f96770d49f384.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/2a86ad1f96770d49f384.txt",
+  "text_chars": 26438,
+  "text_words": 3219,
+  "extraction_status": "success",
+  "page_title": "Frontiers | Racist bullying and childhood marginalization in multicultural school settings: evidence-based and resilience-oriented interventions in primary education",
+  "page_author": "Vassiliki Pliogou; Sophia Tromara",
+  "page_date": "2026-01-16",
+  "site_name": "Frontiers",
+  "canonical_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1750921/full"
+}

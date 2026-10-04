@@ -1,0 +1,28 @@
+{
+  "source_id": "00d2e70f80bb40cec88c",
+  "normalized_url": "https://advocacysnt.org/articles/avoiding-benefits-trap-special-needs-planning",
+  "fetch_timestamp_utc": "2026-10-04T02:32:26.166918+00:00",
+  "registrable_domain": "advocacysnt.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.advocacysnt.org/articles/avoiding-benefits-trap-special-needs-planning",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 29644,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/00d2e70f80bb40cec88c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/00d2e70f80bb40cec88c.txt",
+  "text_chars": 5322,
+  "text_words": 839,
+  "extraction_status": "success",
+  "page_title": "Avoiding the Benefits Trap in Special Needs Planning",
+  "page_author": null,
+  "page_date": "2025-04-14",
+  "site_name": "advocacysnt.org",
+  "canonical_url": "https://www.advocacysnt.org/articles/avoiding-benefits-trap-special-needs-planning"
+}

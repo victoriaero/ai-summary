@@ -1,0 +1,28 @@
+{
+  "source_id": "c5cbf1c018bc37adcb6b",
+  "normalized_url": "https://aaidd.org/news-policy/policy/position-statements-2/housing",
+  "fetch_timestamp_utc": "2026-10-04T02:48:22.355296+00:00",
+  "registrable_domain": "aaidd.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://aaidd.org/news-policy/policy/position-statements-2/housing",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 49706,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c5cbf1c018bc37adcb6b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c5cbf1c018bc37adcb6b.txt",
+  "text_chars": 7594,
+  "text_words": 1159,
+  "extraction_status": "success",
+  "page_title": "Housing",
+  "page_author": null,
+  "page_date": "2015-01-01",
+  "site_name": "AAIDD_CMS",
+  "canonical_url": "https://aaidd.org/news-policy/policy/position-statements-2/housing"
+}

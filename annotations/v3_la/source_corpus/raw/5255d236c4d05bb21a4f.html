@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+			
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://www.cawc.org/xmlrpc.php" />
+
+		<!--[if lt IE 9]>
+	<script src="https://www.cawc.org/wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	<!-- fixes FOUT	 -->
+	<noscript>
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.cawc.org/wp-content/themes/orbitmedia/css/nojs.css" />
+</noscript>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><style id="et-divi-open-sans-inline-css">/* Original: https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=cyrillic,cyrillic-ext,greek,greek-ext,hebrew,latin,latin-ext,math,symbols,vietnamese&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4n.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4k.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4i.woff2) format('woff2');}</style><style id="et-builder-googlefonts-cached-inline">/* Original: https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&#038;subset=latin,latin-ext&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Lato';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u-w4BMUTPHjxsIPx-mPCc.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI9w2_FQfo.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHjxsAUi-v.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI5wq_FQfo.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI3wi_FQfo.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHh30AUi-v.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwaPHA.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwWw.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPHA.ttf) format('truetype');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwaPHA.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Lato';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u-w4BMUTPHjxsIPx-mPCQ.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI9w2_FQfr.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHjxsAUi-s.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI5wq_FQfr.woff) format('woff');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI3wi_FQfr.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHh30AUi-s.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwaPHw.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwWA.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPHw.woff) format('woff');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwaPHw.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Lato';font-style: italic;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u-w4BMUTPHjxsIPx-mPCI.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI9w2_FQft.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHjxsAUi-q.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI5wq_FQft.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: italic;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u_w4BMUTPHjxsI3wi_FQft.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 100;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u8w4BMUTPHh30AUi-q.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 300;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh7USSwaPGQ.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 400;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjxAwXg.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 700;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh6UVSwaPGQ.woff2) format('woff2');}@font-face {font-family: 'Lato';font-style: normal;font-weight: 900;font-display: swap;src: url(https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwaPGQ.woff2) format('woff2');}</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	(function(){dataLayer.push(arguments);})('set', 'developer_id.dNGJiYT', true);
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><script type="text/javascript">
+			let jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script>
+	<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Understanding Domestic Violence and Homelessness - CAWC</title>
+	<link rel="canonical" href="https://www.cawc.org/news/understanding-domestic-violence-and-homelessness/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Understanding Domestic Violence and Homelessness - CAWC" />
+	<meta property="og:description" content="Homelessness is a pervasive problem that impacts individuals across all demographics. One frequently overlooked aspect of this issue is the correlation between intimate partner violence and homelessness and the challenges it presents, especially during the winter months. Here’s how housing instability and domestic violence are connected and why there’s an urgent need for targeted interventions [&hellip;]" />
+	<meta property="og:url" content="https://www.cawc.org/news/understanding-domestic-violence-and-homelessness/" />
+	<meta property="og:site_name" content="CAWC" />
+	<meta property="article:published_time" content="2024-12-03T18:00:59+00:00" />
+	<meta name="author" content="Sam Graboys" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Sam Graboys" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="4 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/#article","isPartOf":{"@id":"https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/"},"author":{"name":"Sam Graboys","@id":"https:\/\/www.cawc.org\/#\/schema\/person\/3d60628d52106ccce56133481d165916"},"headline":"Understanding Domestic Violence and Homelessness","datePublished":"2024-12-03T18:00:59+00:00","mainEntityOfPage":{"@id":"https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/"},"wordCount":762,"commentCount":0,"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/#respond"]}]},{"@type":"WebPage","@id":"https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/","url":"https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/","name":"Understanding Domestic Violence and Homelessness - CAWC","isPartOf":{"@id":"https:\/\/www.cawc.org\/#website"},"datePublished":"2024-12-03T18:00:59+00:00","author":{"@id":"https:\/\/www.cawc.org\/#\/schema\/person\/3d60628d52106ccce56133481d165916"},"breadcrumb":{"@id":"https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/www.cawc.org\/news\/understanding-domestic-violence-and-homelessness\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.cawc.org\/"},{"@type":"ListItem","position":2,"name":"Understanding Domestic Violence and Homelessness"}]},{"@type":"WebSite","@id":"https:\/\/www.cawc.org\/#website","url":"https:\/\/www.cawc.org\/","name":"CAWC","description":"Connections for Abused Women and their Children -Rebuilding Lives, Renewing Hope","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.cawc.org\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/www.cawc.org\/#\/schema\/person\/3d60628d52106ccce56133481d165916","name":"Sam Graboys","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/c9c260c83ade0135c94838e8bed07ed00f54ad51dbd2a1919185813ccb095e90?s=96&d=mm&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/c9c260c83ade0135c94838e8bed07ed00f54ad51dbd2a1919185813ccb095e90?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/c9c260c83ade0135c94838e8bed07ed00f54ad51dbd2a1919185813ccb095e90?s=96&d=mm&r=g","caption":"Sam Graboys"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel="alternate" type="application/rss+xml" title="CAWC &raquo; Feed" href="https://www.cawc.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CAWC &raquo; Comments Feed" href="https://www.cawc.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="CAWC &raquo; Understanding Domestic Violence and Homelessness Comments Feed" href="https://www.cawc.org/news/understanding-domestic-violence-and-homelessness/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.cawc.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cawc.org%2Fnews%2Funderstanding-domestic-violence-and-homelessness%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.cawc.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.cawc.org%2Fnews%2Funderstanding-domestic-violence-and-homelessness%2F&#038;format=xml" />
+<meta content="Orbit Media Studios v.2.0" name="generator"/>
+<link rel='stylesheet' id='ctct_form_styles-css' href='https://www.cawc.org/wp-content/plugins/constant-contact-forms/assets/css/style.css?ver=2.21.0' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://www.cawc.org/wp-includes/css/dashicons.min.css?ver=7.0.5' media='all' />
+<link rel='stylesheet' id='font-awesome-cdn-css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=7.0.5' media='all' />
+<link rel='stylesheet' id='dwd-map-extended-styles-css' href='https://www.cawc.org/wp-content/plugins/dwd-map-extended/styles/style.min.css?ver=3.1.3' media='all' />
+<link rel='stylesheet' id='et-shortcodes-css-css' href='https://www.cawc.org/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes-legacy.css?ver=4.27.9' media='all' />
+<link rel='stylesheet' id='et-shortcodes-responsive-css-css' href='https://www.cawc.org/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes_responsive.css?ver=4.27.9' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='//www.cawc.org/wp-content/uploads/pum/pum-site-styles.css?generated=1755236318&#038;ver=1.25.0' media='all' />
+<link rel='stylesheet' id='divi-style-parent-css' href='https://www.cawc.org/wp-content/themes/Divi/style-static.min.css?ver=4.27.9' media='all' />
+<link rel='stylesheet' id='layout-css' href='https://www.cawc.org/wp-content/themes/orbitmedia/css/layout.css?ver=7.0.5' media='all' />
+<link rel='stylesheet' id='default-css' href='https://www.cawc.org/wp-content/themes/orbitmedia/css/default.css?ver=7.0.5' media='all' />
+<script id="jquery-core-js" src="https://www.cawc.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.cawc.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="jquery-js-after">
+jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+//# sourceURL=jquery-js-after
+</script>
+<script id="et-shortcodes-js-js-extra">
+var et_shortcodes_strings = {"previous":"Previous","next":"Next"};
+//# sourceURL=et-shortcodes-js-js-extra
+</script>
+<script id="et-shortcodes-js-js" src="https://www.cawc.org/wp-content/themes/Divi/epanel/shortcodes/js/et_shortcodes_frontend.js?ver=4.27.9"></script>
+<link rel="https://api.w.org/" href="https://www.cawc.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.cawc.org/wp-json/wp/v2/posts/8708" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.cawc.org/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://www.cawc.org/?p=8708' />
+<!-- Stream WordPress user activity plugin v4.4.0 -->
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to footer -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"post","pagePostType2":"single-post","pageCategory":["uncategorized"],"pagePostAuthor":"Sam Graboys"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PZKWC6Z');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><!-- Child theme custom CSS created by Divi Children - http://divi4u.com/divi-children-plugin/ -->
+<style type="text/css" media="screen">
+ #footer-widgets {padding-top:100px;}
+ .footer-widget {margin-bottom:;}
+ #main-footer { background-color:#ffffff!important;}
+ .footer-widget .title {font-size:;}
+ .footer-widget .title {padding-bottom:;}
+ .footer-widget li:before {border-color:#ffffff!important;}
+ #footer-bottom { background-color:#fcf9fc;}
+ #footer-bottom {padding:10px 0 10px;}
+ #footer-info, #footer-info a {color:;}
+ #footer-info, #footer-info a {font-size:;}
+ #footer-bottom ul.et-social-icons li a {color:#53065a;}
+ #footer-bottom ul.et-social-icons li a {font-size:20px;}
+ #footer-bottom ul.et-social-icons li {margin-left:14px;}
+ #sidebar .et_pb_widget {margin: 0 0  ;}
+ #sidebar h4.widgettitle {color:;}
+ #sidebar h4.widgettitle {font-size:;}
+ #sidebar li, #sidebar li a {font-size:;}
+ #sidebar li, #sidebar li a {color:;}
+ #sidebar li a:hover {color:!important;}
+</style>
+<!-- End Child theme custom CSS -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+			<style id="wpsp-style-frontend"></style>
+			<link rel="icon" href="https://www.cawc.org/wp-content/uploads/2019/01/cropped-favicon_CAWC_512x512_01-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.cawc.org/wp-content/uploads/2019/01/cropped-favicon_CAWC_512x512_01-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.cawc.org/wp-content/uploads/2019/01/cropped-favicon_CAWC_512x512_01-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.cawc.org/wp-content/uploads/2019/01/cropped-favicon_CAWC_512x512_01-270x270.png" />
+<!-- BEGIN Adobe Fonts for WordPress --><script>
+  (function(d) {
+    var config = {
+      kitId: 'bys3qvh',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script><!-- END Adobe Fonts for WordPress --><link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://www.cawc.org/wp-content/et-cache/global/et-divi-customizer-global.min.css?ver=1789968690" /><style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+</head>
+<body class="wp-singular post-template-default single single-post postid-8708 single-format-standard custom-background wp-theme-Divi wp-child-theme-orbitmedia wp-schema-pro-2.12.3 ctct-Divi orbit et_button_no_icon et_pb_button_helper_class et_fixed_nav et_show_nav et_pb_show_title et_secondary_nav_enabled et_secondary_nav_only_menu et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_divi_theme et-db">
+<!-- gtm custom code from duracelltomi plugin -->
+
+<!-- GTM Container placement set to footer -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZKWC6Z" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    
+    <div id="skip"><a href="/news/understanding-domestic-violence-and-homelessness/#content">Skip to Main Content</a></div>
+    
+	<div id="page-container">
+
+			<div id="top-header">
+			<div class="container clearfix">
+
+			
+				<div id="et-secondary-menu">
+				<ul id="et-secondary-nav" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2665"><a href="https://www.cawc.org/about-domestic-violence/">About Domestic Violence</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3588"><a href="https://www.cawc.org/get-help/">Get Help</a></li>
+<li class="cta-hotline menu-item menu-item-type-custom menu-item-object-custom menu-item-2609"><a href="tel:17732784566">Domestic Violence Hotline: <span>773.278.4566</span></a></li>
+</ul>				</div> <!-- #et-secondary-menu -->
+
+			</div> <!-- .container -->
+		</div> <!-- #top-header -->
+	
+	
+		<header id="main-header" data-height-onload="100">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://www.cawc.org/">
+						<img src="https://www.cawc.org/wp-content/uploads/2019/01/logo_CAWC_v01_01-01.png" alt="CAWC" id="logo" data-height-percentage="65" />
+					</a>
+				</div>
+				<div id="et-top-navigation" data-height="100" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-2575" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2575"><a href="https://www.cawc.org/about-programs/">Domestic Violence Programs</a>
+<ul class="sub-menu">
+	<li id="menu-item-2585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2585"><a href="https://www.cawc.org/humbolt-park/">Humboldt Park Outreach Program</a></li>
+	<li id="menu-item-2583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2583"><a href="https://www.cawc.org/greenhouse/">Greenhouse Shelter</a></li>
+	<li id="menu-item-2584" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2584"><a href="https://www.cawc.org/hospital-crisis-intervention-project/">Hospital Crisis Intervention Project</a></li>
+	<li id="menu-item-2581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2581"><a href="https://www.cawc.org/haymarket/">Domestic Violence Services at Haymarket</a></li>
+</ul>
+</li>
+<li id="menu-item-2645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2645"><a href="https://www.cawc.org/domestic-violence-services/">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-3137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3137"><a href="/domestic-violence-services/#children">Children&#8217;s Services</a></li>
+	<li id="menu-item-3138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3138"><a href="/domestic-violence-services/#counsel">Counseling</a></li>
+	<li id="menu-item-3139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3139"><a href="/domestic-violence-services/#court">Court Advocacy</a></li>
+	<li id="menu-item-3140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3140"><a href="/domestic-violence-services/#education">Education and Training</a></li>
+	<li id="menu-item-3141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3141"><a href="/domestic-violence-services/#police">Systems Advocacy</a></li>
+</ul>
+</li>
+<li id="menu-item-2574" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2574"><a href="https://www.cawc.org/about/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-2589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2589"><a href="https://www.cawc.org/history/">History</a></li>
+	<li id="menu-item-2590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2590"><a href="https://www.cawc.org/leadership/">Leadership &#038; Staff</a></li>
+	<li id="menu-item-3695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3695"><a href="https://www.cawc.org/employment/">Employment Opportunities</a></li>
+	<li id="menu-item-2586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2586"><a href="https://www.cawc.org/annual-reports-financials/">Annual Reports &#038; Financials</a></li>
+</ul>
+</li>
+<li id="menu-item-2578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2578"><a href="https://www.cawc.org/news-events/">News &#038; Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-2591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2591"><a href="https://www.cawc.org/in-the-news/">CAWC Blog</a></li>
+	<li id="menu-item-9957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9957"><a href="https://www.cawc.org/sos-gala/">Sounds of Silence Gala</a></li>
+	<li id="menu-item-10242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10242"><a href="https://www.cawc.org/march-and-rally/">March and Rally to End Domestic Violence</a></li>
+	<li id="menu-item-9121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9121"><a href="https://www.cawc.org/kitchen-table-conversations/">Kitchen Table Conversations</a></li>
+</ul>
+</li>
+<li id="menu-item-2660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2660"><a href="https://www.cawc.org/support-us/">Ways To Help</a>
+<ul class="sub-menu">
+	<li id="menu-item-7334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7334"><a href="https://www.cawc.org/signup/">Newsletter Sign-Up</a></li>
+	<li id="menu-item-8812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8812"><a href="https://www.cawc.org/associate-board/">Join the Associate Board</a></li>
+	<li id="menu-item-8840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8840"><a href="https://www.cawc.org/adopt-a-family/">Adopt-a-Family Holiday Project</a></li>
+	<li id="menu-item-2579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2579"><a href="https://www.cawc.org/volunteer/">Volunteer</a></li>
+	<li id="menu-item-3502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="https://www.cawc.org/wishlist/">Wishlist</a></li>
+</ul>
+</li>
+<li id="menu-item-8126" class="cta-navbtn menu-item menu-item-type-post_type menu-item-object-page menu-item-8126"><a href="https://www.cawc.org/donate/">Donate</a></li>
+</ul>						</nav>
+					
+					
+					
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://www.cawc.org/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+		</header> <!-- #main-header -->
+        
+        <a name="content"></a>
+		<div id="et-main-area">
+<div class="banner">
+    <div class="banner_inner">
+        <h1>Understanding Domestic Violence and Homelessness</h1>
+        <span class="date">Dec 03, 2024</span>
+    </div>
+</div>
+<div id="main-content">
+	<div class="container">
+		<div id="content-area" class="clearfix">
+							<article id="post-8708" class="et_pb_post post-8708 post type-post status-publish format-standard hentry category-uncategorized">
+                    <a class="text-link back-link" href="/in-the-news/">All Posts</a>
+                    <p><span style="font-weight: 400;">Homelessness is a pervasive problem that impacts individuals across all demographics. One frequently overlooked aspect of this issue is the correlation between intimate partner violence and homelessness and the challenges it presents, especially during the winter months. Here’s how </span><b>housing instability and domestic violence</b><span style="font-weight: 400;"> are connected and why there’s an urgent need for targeted interventions during colder seasons.</span></p>
+<h3><b>How Partner Abuse Leads to Homelessness</b></h3>
+<p><span style="font-weight: 400;">Domestic violence isn’t just </span><i><span style="font-weight: 400;">one</span></i><span style="font-weight: 400;"> of the </span><b>causes of homelessness</b><span style="font-weight: 400;"> — </span><a href="https://my.neighbor.org/women-experiencing-homelessness/"><span style="font-weight: 400;">it’s the leading cause</span></a><span style="font-weight: 400;">. Approximately one in four </span><b>homeless women</b><span style="font-weight: 400;"> finds herself without shelter primarily because of partner abuse, and as of 2024, women were still </span><a href="https://www.cawc.org/news/who-is-most-affected-by-domestic-violence/"><span style="font-weight: 400;">the demographic experiencing intimate partner abuse at the highest rates</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">It’s worth noting that </span><a href="https://endhomelessness.org/blog/recognizing-women-experiencing-homelessness-a-womens-history-month-spotlight-on-downtown-womens-center/#:~:text=Over%20time%2C%20women%E2%80%99s,and%20LGBTQIA%2B%20communities."><span style="font-weight: 400;">gender inequality</span></a><span style="font-weight: 400;"> — itself a major driver of domestic violence — also contributes heavily to </span><b>homelessness rates</b><span style="font-weight: 400;"> in women who don’t experience partner abuse. Overall, </span><a href="https://www.forbes.com/sites/joanmichelson2/2022/03/30/costs-of-being-a-woman--why-women-have-70-of-what-men-do/"><span style="font-weight: 400;">women are still more likely to experience financial insecurity than men</span></a><span style="font-weight: 400;"> because of persistent wage gaps, discrimination with regard to promotions and pregnancy leave, single motherhood, and the higher cost of many women’s goods and services, from haircuts to toiletries and clothing.</span></p>
+<h3><b>Key Contributing Factors to Homelessness in Abuse Survivors</b></h3>
+<p><span style="font-weight: 400;">Many factors play a role in abuse survivor homelessness, both in general and in the winter:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>•   Economic dependency.</b><span style="font-weight: 400;"> Many survivors of domestic violence are financially dependent on their abuser, often by the latter’s design. This dependency often traps survivors in abusive relationships, making it difficult for them to seek help or escape. In addition, coping with abuse can lead to poor rental, credit, and </span><a href="https://www.cawc.org/news/domestic-violence-a-barrier-to-job-opportunities-and-stable-employment/"><span style="font-weight: 400;">employment histories</span></a><span style="font-weight: 400;"> that make it hard for survivors to qualify for rental housing.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>•   Affordable housing shortage.</b><span style="font-weight: 400;"> The scarcity of affordable housing options means that </span><a href="https://www.cawc.org/news/the-importance-of-safe-and-supportive-housing-for-domestic-violence-survivors/"><span style="font-weight: 400;">women fleeing domestic violence frequently find themselves without a safe place to go</span></a><span style="font-weight: 400;">. The stress of finding housing can further exacerbate their trauma.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>•   Domestic violence holiday spikes.</b><span style="font-weight: 400;"> Domestic and </span><a href="https://www.cawc.org/news/why-domestic-violence-increases-during-the-holiday-season/"><span style="font-weight: 400;">intimate partner violence rates typically increase during the holiday season</span></a><span style="font-weight: 400;"> for complex reasons, although external factors don’t actually cause partner abuse. This can make it more likely that a survivor will need to flee their abuser during the winter months.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>•   Limited support networks and services.</b><span style="font-weight: 400;"> Abusers often work to cut off or alienate their partners from their friends and family, weakening or eliminating survivors’ supportive social networks. This can leave women without the option to stay with someone they know. In addition, domestic violence shelters are often at capacity, especially during winter, leaving women with few housing alternatives.</span></li>
+</ul>
+<h3><b>The Unique Challenges Women Face During Winter</b></h3>
+<p><span style="font-weight: 400;">Winter poses particular challenges for women experiencing homelessness, including:</span><b></b></p>
+<ul>
+<li aria-level="1"><b>•   Health risks. </b><span style="font-weight: 400;">Winter weather can put survivors on the streets</span> <span style="font-weight: 400;">at higher risk for health issues, such as hypothermia and frostbite. Those experiencing domestic violence may also have underlying health conditions or trauma that winter conditions can exacerbate.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>•   Mental health struggles. </b><span style="font-weight: 400;">The effects of winter isolation combined with the trauma of domestic violence can lead to increased depression and anxiety among women. Seasonal affective disorder is also prevalent in colder months, contributing to feelings of hopelessness and despair.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>•   Transportation barriers.</b><span style="font-weight: 400;"> Winter weather can also make driving dangerous and cause public transportation to be limited or suspended, making it harder for women to access shelters, support services, or employment opportunities.</span></li>
+</ul>
+<h3><b>How You Can Help</b></h3>
+<p><span style="font-weight: 400;">Supporting </span><a href="https://www.cawc.org/news/the-benefits-of-having-a-domestic-violence-shelter-in-your-community/"><span style="font-weight: 400;">nonprofits that serve domestic violence survivors</span></a><span style="font-weight: 400;"> is essential to keeping abused women from experiencing a </span><b>homeless winter</b><span style="font-weight: 400;">. Many of these organizations not only run essential emergency shelters but also </span><a href="https://www.cawc.org/news/what-does-trauma-informed-care-mean/"><span style="font-weight: 400;">provide trauma-informed care to women and their children</span></a><span style="font-weight: 400;"> that helps survivors stabilize, recover, and find a way forward in their lives. Further, domestic violence nonprofits strengthen communities through their education and outreach programs.</span></p>
+<h3><b>Prevent Domestic Violence Survivor Homelessness With CAWC</b></h3>
+<p><span style="font-weight: 400;">At Connections for Abused Women and Their Children (CAWC), we believe that everyone has a right to a safe home and a life free from violence. Our mission to end domestic violence in all demographics is rooted in education, service, and advocacy. In addition to working toward broader social change, we provide empowerment-based and trauma-informed support in the form of shelter, counseling, and advocacy for individuals and their children affected by intimate partner violence. </span></p>
+<p><span style="font-weight: 400;">If you or someone you know is actively experiencing the impacts of sexual violence, don’t hesitate to call our 24-hour hotline at 773-278-4566. For nonemergency support, </span><a href="https://www.cawc.org/contact-us/"><span style="font-weight: 400;">reach out through our contact form</span></a><span style="font-weight: 400;"> today.</span></p>
+<p><span style="font-weight: 400;">Want to help us protect more survivors and children? You can impact the life of a domestic violence survivor or a child who witnessed domestic violence by </span><a href="https://www.cawc.org/donate/"><span style="font-weight: 400;">donating</span></a><span style="font-weight: 400;"> to CAWC today or by </span><a href="https://www.cawc.org/support-us/"><span style="font-weight: 400;">supporting our work</span></a><span style="font-weight: 400;"> in other ways.</span></p>
+				</article> <!-- .et_pb_post -->
+			
+		</div> <!-- #content-area -->
+	</div> <!-- .container -->
+</div> <!-- #main-content -->
+
+
+			<footer id="main-footer">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="black-studio-tinymce-2" class="fwidget et_pb_widget widget_black_studio_tinymce"><div class="textwidget"><img src="https://www.cawc.org/wp-content/uploads/2019/07/logo_CAWC_v01_03.jpg" style="width:75%; max-width:230px; margin-bottom:25px;" / >
+<p>1116 N. Kedzie Avenue<br/>
+Chicago, IL 60651<br/>
+Phone: <a href="#">773.489.9081</a><br/>
+Fax: <a href="#">773.489.6111</a></p></div></div></div><div class="footer-widget"><div id="black-studio-tinymce-4" class="fwidget et_pb_widget widget_black_studio_tinymce"><div class="textwidget"><h4>24-Hour Domestic Violence Hotline</h4>
+<p>If you or someone you know is in need of help, call this number: <a href="#">773.278.4566</a></p>
+</div></div><div id="custom_html-2" class="widget_text fwidget et_pb_widget widget_custom_html"><div class="textwidget custom-html-widget"><a href="https://www.google.com/" class="cta-escape">Escape</a></div></div></div><div class="footer-widget"><div id="custom_html-3" class="widget_text fwidget et_pb_widget widget_custom_html"><h4 class="title">Form</h4><div class="textwidget custom-html-widget"><div id="bbox-root-f88dbfba-df87-4f6f-91dd-041bd4e8e2f3"></div>
+<script type="text/javascript">
+var bboxInit2 = bboxInit2 || [];
+bboxInit2.push(function () {
+    bboxApi.showForm('f88dbfba-df87-4f6f-91dd-041bd4e8e2f3');
+});
+(function () {
+    var e = document.createElement('script'); 
+    e.async = true;
+    e.src = 'https://bbox.blackbaudhosting.com/webforms/bbox-2.0-min.js';
+    document.getElementsByTagName('head')[0].appendChild(e);
+}());
+</script></div></div></div><div class="footer-widget"><div id="nav_menu-2" class="fwidget et_pb_widget widget_nav_menu"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-2675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2675"><a href="https://www.cawc.org/about-programs/">Domestic Violence Programs</a></li>
+<li id="menu-item-10152" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10152"><a href="https://www.cawc.org/donate/">Donate</a></li>
+<li id="menu-item-2673" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2673"><a href="https://www.cawc.org/domestic-violence-services/">Services</a></li>
+<li id="menu-item-2674" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2674"><a href="https://www.cawc.org/about/">About Us</a></li>
+<li id="menu-item-2677" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2677"><a href="https://www.cawc.org/news-events/">News &#038; Events</a></li>
+<li id="menu-item-2672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2672"><a href="https://www.cawc.org/support-us/">Ways To Help</a></li>
+<li id="menu-item-2914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2914"><a href="https://www.cawc.org/about-domestic-violence/">About Domestic Violence</a></li>
+<li id="menu-item-2915" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2915"><a href="https://www.cawc.org/volunteer/">Volunteer</a></li>
+<li id="menu-item-2916" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2916"><a href="https://www.cawc.org/contact-us/">Contact</a></li>
+<li id="menu-item-2917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2917"><a href="https://www.cawc.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-2918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2918"><a href="https://www.cawc.org/annual-reports-financials/">Annual Reports &#038; Financials</a></li>
+</ul></div></div></div>	</div>
+</div>
+
+
+					
+				<div id="footer-bottom">
+					<div class="container clearfix">
+
+						<p id="footer-info">Copyright © 2026 CAWC | Registered 501(c)(3). EIN: 36-2950380</p>
+
+                        <ul id="menu-copyright-menu" class="copyright-menu"><li id="menu-item-3863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3863"><a href="https://www.cawc.org/sitemap/">Sitemap</a></li>
+</ul>
+                        <ul id="menu-social-media-footer" class="et-social-icons"><li id="menu-item-728" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-728"><a target="_blank" href="https://www.facebook.com/Connections-for-Abused-Women-and-their-Children-113571962034207/"><i class="fa fa-facebook"></i></a></li>
+<li id="menu-item-729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-729"><a target="_blank" href="https://twitter.com/CAWC_Chicago"><i class="fa fa-twitter"></i></a></li>
+<li id="menu-item-730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-730"><a target="_blank" href="https://www.instagram.com/cawc_chicago/"><i class="fa fa-instagram"></i></a></li>
+</ul> <!-- social media footer menu -->
+					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/orbitmedia/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div 
+	id="pum-8647" 
+	role="dialog" 
+	aria-modal="false"
+	aria-labelledby="pum_popup_title_8647"
+	class="pum pum-overlay pum-theme-2820 pum-theme-default-theme popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:8647,&quot;slug&quot;:&quot;giving-tuesday-pop-up&quot;,&quot;theme_id&quot;:2820,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-8647" class="pum-container popmake theme-2820 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+							<div id="pum_popup_title_8647" class="pum-title popmake-title">
+				Would you like to give in honor of Giving Tuesday?			</div>
+		
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<p>Your donation could be matched!</p>
+<a href='#www.cawc.org/giving-tuesday' class='big-button bigpink'>Yes!</a>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+
+<!-- GTM Container placement set to footer -->
+<!-- Google Tag Manager (noscript) --><script id="ctct_frontend_forms-js" src="https://www.cawc.org/wp-content/plugins/constant-contact-forms/assets/js/ctct-plugin-frontend.min.js?ver=2.21.0"></script>
+<script id="gtm4wp-form-move-tracker-js-before">
+var gtm4wp_form_move_config = {"filledOnly":false};
+//# sourceURL=gtm4wp-form-move-tracker-js-before
+</script>
+<script data-wp-strategy="defer" defer id="gtm4wp-form-move-tracker-js" src="https://www.cawc.org/wp-content/plugins/duracelltomi-google-tag-manager/build/gtm4wp-form-move-tracker.js?ver=2.0.5"></script>
+<script id="orbit-js" src="https://www.cawc.org/wp-content/themes/orbitmedia/js/orbit.js?ver=7.0.5"></script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://www.cawc.org/wp-includes/js/comment-reply.min.js?ver=7.0.5"></script>
+<script id="divi-custom-script-js-extra">
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://www.cawc.org/wp-admin/admin-ajax.php","images_uri":"https://www.cawc.org/wp-content/themes/Divi/images","builder_images_uri":"https://www.cawc.org/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"bfd9ef5c36","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"ed9be2d25c","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"8708","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https://www.cawc.org/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors","accent_color":"#0085cc","waypoints_options":{"context":[".pum-overlay"]}};
+var et_pb_box_shadow_elements = [];
+//# sourceURL=divi-custom-script-js-extra
+</script>
+<script id="divi-custom-script-js" src="https://www.cawc.org/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.9"></script>
+<script id="fitvids-js" src="https://www.cawc.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.9"></script>
+<script id="dwd-map-extended-frontend-bundle-js" src="https://www.cawc.org/wp-content/plugins/dwd-map-extended/scripts/frontend-bundle.min.js?ver=3.1.3"></script>
+<script id="jquery-ui-core-js" src="https://www.cawc.org/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"></script>
+<script id="wp-hooks-js" src="https://www.cawc.org/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="popup-maker-site-js-extra">
+var pum_vars = {"version":"1.25.0","pm_dir_url":"https://www.cawc.org/wp-content/plugins/popup-maker/","ajaxurl":"https://www.cawc.org/wp-admin/admin-ajax.php","restapi":"https://www.cawc.org/wp-json/pum/v1","rest_nonce":null,"default_theme":"2820","debug_mode":"","disable_tracking":"","disable_url_params":"","home_url":"/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","paramNames":{"popup_id":"pid","cta":"cta","notrack":"notrack"},"analytics_enabled":"1","analytics_route":"analytics","analytics_api":"https://www.cawc.org/wp-json/pum/v1"};
+var pum_sub_vars = {"ajaxurl":"https://www.cawc.org/wp-admin/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-8647":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"explain":null,"type_section":null,"theme_id":"2820","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":8647,"slug":"giving-tuesday-pop-up"}};
+//# sourceURL=popup-maker-site-js-extra
+</script>
+<script id="popup-maker-site-js" src="//www.cawc.org/wp-content/uploads/pum/pum-site-scripts.js?defer&#038;generated=1755236318&#038;ver=1.25.0"></script>
+<script id="et-core-common-js" src="https://www.cawc.org/wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.9"></script>
+			<script type="text/javascript" id="wpsp-script-frontend"></script>
+			</body>
+</html>

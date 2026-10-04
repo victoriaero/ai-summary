@@ -1,0 +1,20 @@
+{
+  "source_id": "53f543762617e964da96",
+  "normalized_url": "https://consumerfinance.gov/archive/newsroom/cfpb-provides-guidance-to-help-lenders-avoid-discrimination-against-consumers-receiving-disability-income",
+  "fetch_timestamp_utc": "2026-10-04T03:36:57.859493+00:00",
+  "registrable_domain": "consumerfinance.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-provides-guidance-to-help-lenders-avoid-discrimination-against-consumers-receiving-disability-income",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 551,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

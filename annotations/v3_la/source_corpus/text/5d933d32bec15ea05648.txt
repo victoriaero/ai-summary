@@ -1,0 +1,2873 @@
+Race, Gender, and Hiring Patterns: 
+Evidence from a Large Service-Sector Employer 
+ 
+Laura Giuliano* 
+September 2003 
+ 
+ 
+Abstract: Using panel data from a large service sector employer, this study estimates the effect of 
+manager race and gender on the race and gender composition of new hires.  Data on consecutive 
+managers at hundreds of stores makes it possible to control for all fixed attributes of the store, 
+customers, and labor market.  Estimates from probit and multinomial logit models with store 
+fixed effects yield three main findings.  First, nonblack (white, Hispanic, and Asian) managers 
+hire significantly more whites and fewer blacks than do black managers.  These nonblack-black 
+differences are especially large in stores located in the South.  Second, somewhat surprisingly, 
+there appears to be little bias among whites, Hispanics, and Asians.  Finally, this study finds no 
+measurable biases with respect to gender.  Additional tests suggest that the nonblack-black biases 
+cannot be explained by the use of social networks in recruiting, nor do they appear to be 
+motivated by productivity advantages of manager-employee similarity. 
+ 
+ 
+JEL Classifications: J15, J16, J71, J23
+                                                 
+* Visiting Postdoctoral Fellow, Institute of Industrial Relations, University of California, Berkeley, 
+giuliano@uclink.berkeley.edu.  I am grateful to David Card, David Lee, Jonathan Leonard, and David 
+Levine for helpful discussions and suggestions.  I also thank the employer for providing the data, and both 
+the Russell Sage Foundation and the University of California Institute for Labor and Employment for 
+financial support. 
+ 
+
+
+ 
+1 
+ 
+Workplaces in the United States are strongly segregated by race, ethnicity, and gender.  
+An important question is the extent to which this phenomenon is caused by biases in hiring that 
+favor employees who share the race, ethnicity, or gender of those who employ them.  The 
+theoretical literature makes clear that workplace segregation could be caused by such 
+discrimination (Becker 1957, Arrow 1973).  However, previous empirical studies of workplace 
+segregation have all encountered the same limitation—they could not securely identify such 
+discrimination because they could not distinguish it from unobserved differences across 
+workplaces or local labor markets that may also cause segregation.1  Using a new panel data set 
+that makes it possible to control for these differences, the present study can more accurately 
+identify and measure same-race and same-gender biases in hiring.  
+ The data are the complete personnel records of a large U.S. service-sector employer from 
+February 1996-July 1998.2  A crucial feature of this data set is that it contains hundreds of stores 
+that have at least one change in the manager who is responsible for hiring, and these new 
+managers often have demographics that differ from the managers they replace.  This within-store 
+variation in manager demographics makes it possible to control for all fixed attributes of the 
+                                                 
+1 Though unable to control for unobserved differences, several studies of workplace segregation have 
+produced results consistent with hiring discrimination.  One set of studies shows that segregation cannot be 
+fully explained by sorting of different demographic groups into specific industries and occupations.  
+Rather, much of it occurs within industries and occupations at the individual-establishment level (for race, 
+Bayard et al., 1999; Tomaskovic-Devey, 1993; for gender, Carrington & Troske, 1998; Petersen and 
+Morgan, 1995; Groshen, 1991).  A second set of studies uses cross-sectional data on manager-employee 
+demographics: Bates (1994) and Raphael (2000) both find that establishments owned or managed by blacks 
+are more likely to employ blacks, and Carrington & Troske (1998) find that women are more likely to be 
+supervised by women in U.S. manufacturing establishments.  To be sure, hiring discrimination has been 
+approached from angles other than the analysis of workplace segregation.  Bearing in mind their 
+differences in method and context, as well as their limitations, these studies provide a benchmark for 
+comparing the results of this study.  Various “audit” studies have found evidence of discrimination against 
+blacks (Turner et al., 1991; Bendick et al., 1994), Hispanics (Cross et al., 1990; Kenney and Wissoker, 
+1994) and women (Neumark, et al., 1996).  However, this approach has been critiqued strongly (e.g. see 
+Heckman and Siegelman, 1993).  Goldin and Rouse (2000) use the adoption of blind auditions to test for 
+sex-biased hiring in symphony orchestras, and find evidence of discrimination against women.  And Holzer 
+(1996), using cross-sectional data from establishments in four cities, finds that the ratio of hires to 
+applicants is lowest for blacks and highest for whites, with Hispanics and Asians in between, which is 
+suggestive of discrimination. 
+2 The data used in this paper are confidential and unfortunately cannot be made available to other 
+researchers.  Also, in order to preserve the anonymity of the employer, I cannot disclose exact sample sizes.  
+
+
+ 
+2 
+stores, customers, and labor markets, and thereby to distinguish segregation caused by differences 
+across workplaces from that caused by biases in hiring.  Estimates from probit and multinomial 
+logit models with store fixed effects yield three main findings.  First, nonblack (white, Hispanic, 
+and Asian) managers hire significantly more whites and fewer blacks than do black managers.  
+These nonblack-black differences are especially large in stores located in the South.  Second, 
+somewhat surprisingly, there appears to be little discrimination among whites, Hispanics, and 
+Asians.  Finally, in contrast to much of the previous literature on gender discrimination, this study 
+finds no measurable biases with respect to gender. 
+These results imply that the segregation of nonblacks and blacks in the workplace is not 
+fully explained by differences among jobs and workplaces.  Rather, it is attributable in part to 
+systematic differences in hiring patterns between nonblacks and blacks.  Additional tests suggest 
+that these nonblack-black biases cannot be explained by the use of social networks in recruiting, 
+nor do they appear to be motivated by productivity advantages of manager-employee similarity.  
+Hence, these tendencies are likely to be driven by discrimination.  However, because the 
+composition of the applicant pool is unknown, interpretation of the results is still subject to two 
+cautions.  First, the results could indicate discrimination either by managers or by potential 
+employees.3  Second, the results measure only the relative likelihood of managers of each race to 
+hire employees of each race, and thus the differences in hiring patterns between nonblack and 
+black managers could indicate discrimination either by nonblacks against blacks or by blacks 
+against nonblacks.   
+I. The Data  
+ 
+A. The Sample 
+ 
+                                                 
+3 Even if the applicant pool were known, it might still be impossible to distinguish manager discrimination 
+from applicant discrimination unless we had information on who received job offers.  This is because 
+individuals might submit applications without having met the manager, and then discriminate when 
+accepting or declining job offers—after having met the manager.   
+
+
+ 
+3 
+The estimation sample consists of more than 1,500 managers, and more than 100,000 
+frontline employees who were hired at more than 700 workplaces between February 1, 1996 and 
+July 31, 1998.  While the workplaces are located throughout the United States, they are all very 
+similar—they are all part of a national chain with uniform, highly centralized policies and 
+procedures.  A typical workplace has a full-time store manager, and between 25 and 50 part-time 
+employees.  All frontline employees at this company have similar job titles and descriptions; they 
+rotate through several tasks in the workplace, spending some of their time dealing with customers 
+and other time in support tasks.  Like the majority of low-wage service-sector jobs, these jobs 
+require only basic skills and employees receive little training. 
+Hiring is the responsibility of the store manager.  On average, each store in the sample 
+hires five new employees per month.  The company’s official hiring policy is neutral with respect 
+to race and gender, and managers are given a small amount of training in fostering a diverse 
+workforce.  While telephone interviews are used for pre-screening applicants, the vast majority of 
+hiring decisions are made only after a face-to-face interview with the manager. 
+Table 1 summarizes the demographics of the workplaces in the sample and of the 
+communities surrounding these stores.  The workforce of the average store is 57 percent white, 18 
+percent black, 14 percent Hispanic, and 10 percent Asian. 4  Roughly two-thirds of the employees 
+are women.  A typical store location has over 100,000 people within a two-mile radius of the 
+store and a median household income of $40,000.  The stores’ workforces tend to be more 
+racially diverse than the populations they serve.5 
+Table 2 shows the demographic composition of both frontline sales workers and 
+managers in the sample (columns 1 and 2).  The management force is more homogeneous than 
+the frontline workforce: 84 percent of managers are white and 75 percent are female.  It is worth 
+                                                 
+4 The race and ethnicity codes are the company’s coding, and they create a set of mutually exclusive and 
+collectively exhaustive categories.  Hispanics are classified by ethnicity and not by race.   For brevity, I will 
+often refer to these categories simply as “race”.   
+5 Community statistics are from the 1990 Census and are based on a two-mile radius from the center of 
+each store’s ZIP code. 
+
+
+ 
+4 
+noting that racial minorities are under-represented in management (the ratio of managers to 
+employees is much lower for blacks, Hispanics, and Asians than it is for whites).  
+The estimation sample (summarized in the first two columns of Table 2) is restricted to 
+new hires at stores that hire at least one employee of each race between Feb. 1, 1996 and July 31, 
+1998.  This restriction is necessary to estimate a fixed effects multinomial logit model predicting 
+the probabilities with which each of the four race groups is hired.  Columns 3 and 4 of Table 2 
+show statistics from the total population of the company’s U.S. retail establishments.  The 
+estimation sample is somewhat more diverse—with respect to both race and gender—than the 
+wider population.  However, a robustness test suggests that the sample restriction has little effect 
+on the estimation results (see below and Appendix Table A1).   
+In all case studies, an important consideration is whether the sample can be considered 
+representative of a particular population of interest.  The racial composition of this employer 
+resembles that of the retail sector in the U.S. (Table 2, columns 5 and 6), which accounts for 
+roughly eighteen percent of all U.S. jobs.  However, this company employs a relatively high share 
+of women managers for the retail sector (81 percent compared to 50 percent nationwide), and 
+both the workforce and management are relatively young.   
+To the extent that this company is not representative, one must be cautious about 
+generalizing from the patterns in this study.  First, the large share of women managers, the 
+relative youth of the workforce, and the (admittedly modest) diversity training for managers may 
+all affect the hiring biases at this company.  Second, the sample period (1996-1998) was a time of 
+historically low unemployment in the U.S.  Because it was difficult to find qualified workers 
+during these years, manager discrimination may well have been less prevalent than during periods 
+of higher unemployment.  Finally, generalizing to other sectors may be especially problematic.  
+For example, turnover rates are relatively high at this company and in the retail sector generally; 
+discriminatory preferences may matter much more where employment relationships last years 
+rather than months.   
+
+
+ 
+5 
+B. Manager-Employee Similarity at this Company 
+ 
+Table 3, which is based on the estimation sample, shows that there is a strong correlation 
+between the race of the hiring manager and the racial composition of new hires.  Black, Hispanic 
+and Asian employees in this chain are roughly twice as likely to be hired by managers of their 
+own race as they are to be hired by managers of other races.  Likewise, female employees are 
+significantly more likely to be hired by women than by men, and (correspondingly) men are more 
+likely to be hired by men.   
+These correlations between manager and employee demographics could be due to same-
+race and same-gender biases in hiring.  But they could also reflect a number of differences across 
+stores and locations (some of which are unobserved or imperfectly observed).  One obvious 
+suspect is differences in labor pool demographics.  The correlations might reflect nothing more 
+than the fact that Hispanic neighborhoods (for example) tend to have both Hispanic managers and 
+a large share of Hispanic employees.   Two other suspects are differences in the attributes of 
+stores and differences in the skill requirements of stores.  The correlations could be caused by 
+such differences if the demographic groups themselves differ with respect to preferences or skills.  
+In this sample, one might think such differences across stores would play a minimal role since all 
+employees at every store have the same job description, sell the same products, and work for the 
+same national firm.  Nevertheless, even subtle attributes of a store and its location may make it 
+especially attractive or unattractive to people of a particular demographic group.  Or, if managers 
+and employees who match their customers are more skilled at serving them, the relative 
+productivity of different demographic groups may vary across stores.6    
+The goal of the regression analysis in the following sections is to unravel the causality 
+underlying the correlations between manager and employee demographics.  The key to this 
+                                                 
+6 This may be due to customer discrimination (if customers prefer to be served by similar employees) or to 
+improved communications among those of the same race, ethnicity or gender.  Using the data set employed 
+in the present study, Leonard and Levine (2002) find that employee-customer matching improves sales in 
+enclaves of non-English speaking immigrants, but is otherwise not important. 
+
+
+ 
+6 
+analysis is the nature of manager turnover in the sample.  Not only is turnover frequent—80 
+percent of the stores have at least one change in management during the 30-month sample 
+period.7   But, crucially, of these changes in management, 38 percent involve a change in manager 
+sex and 30 percent involve a change in manager race.  These changes in manager demographics 
+make it possible to estimate models with workplace fixed effects.  This study can thus identify the 
+influence of manager demographics on hiring patterns, controlling for all differences—observed 
+and unobserved—across stores.  
+II.  Estimation Model and Methods 
+A. Model of Managers’ Hiring Decisions 
+I estimate several equations that predict, as a function of manager race or gender, the 
+probability that a new hire belongs to a given race or gender.  These equations are derived from a 
+simple model of the utility a manager receives from hiring a given type of worker.  The model 
+assumes that the decision to hire a new employee is made before the decision about which type of 
+worker to hire, and is independent of the relative costs and benefits of hiring each type of worker.  
+Thus, on the hiring date t, the manager must choose from among applicants belonging to different 
+race or gender groups. 
+The basic model is a simple reduced-form equation expressing the utility, or net benefit, 
+manager i in store j obtains from choosing an employee of a given race or gender at date t.  This 
+utility is a function of the manager’s own race (MgrBlijt, etc.), characteristics of store j (Sj), 
+characteristics of the store’s surrounding community (Cj), the month in which the hire takes place 
+(Mt), and an error term (єijt
+w).  Equation 1 illustrates the model for the case where the new hire is 
+white. 
+                                                 
+7 The median tenure of a manager is 13 months.  Approximately 60% of the manager turnover events 
+involve transfers to other company stores.  The rest involve termination of employment with the company.  
+Most terminations are voluntary, the most common reasons being “found better job/prefer other work” 
+(41%), “personal” (13%), “moving”, “dislike hours”, “limited career growth”, and “return to school”.  
+Roughly 13% of manager terminations are involuntary, due primarily to violations of company policy, 
+substandard performance, or dishonesty. 
+
+
+ 
+7 
+(1)  
+Uijt(new hire is white) = b0
+w+ MgrBlijt bB
+w + MgrHiijt bH
+w + MgrAsijt bA
+w  
++ S j bS
+w+ Cj  bC
+w+ Mt bM
+w + єijt
+w  
+The parameters of interest in this model are the coefficients bB
+w, bH
+w
+  and bA
+w
+ on the 
+dummy variables indicating the race of the hiring manager.  These represent the extent to which a 
+manager’s race affects the manager’s utility if he or she chooses to hire a white employee.  
+Negative coefficients on the dummy variables indicating that the manager is black, Hispanic or 
+Asian would suggest that it is relatively costly for these managers to hire a white employee.  
+Obviously, one source of such relative costs might be the discriminatory preferences of the 
+managers.  Hence, negative coefficients on nonwhite manager dummies could indicate that 
+managers discriminate against employees who do not share their race.  However, negative 
+coefficients could also be caused by other things.  For example, discriminatory tastes of potential 
+white employees may make it harder and more costly for nonwhite managers to recruit whites.  
+Again, if the social networks of managers are important for recruiting new hires and if these 
+networks tend to run along racial lines, this could make it harder to recruit workers of a different 
+race.   Finally, if productivity benefits are associated with manager-employee similarity, a 
+manager would sacrifice these benefits to hire a dissimilar employee.  While I cannot distinguish 
+manager preferences from employee preferences, I will examine the roles of networks and 
+productivity in additional tests below. 
+Apart from the manager’s race, other variables that determine the costs and benefits of 
+recruiting a qualified white employee include the share of whites in the local labor pool, the 
+particular needs of the store (e.g. the share of whites in the customer base, if matching the 
+customers is important), and any attributes of the store that may influence whites’ preferences for 
+working at the store.  By estimating the model with several measured characteristics of the store 
+(Sj) and community (Cj), I can assess the extent to which these variables are responsible for the 
+observed race and gender segregation across stores.  Specifically, my controls include the share of 
+each race in the local population, population density, median household income, and the location 
+
+
+ 
+8 
+type (mall, street, etc.) of the store.   The racial composition of the applicant pool might also be 
+affected by changes over time in labor supply and demand.  For example, whites may be more 
+likely to work in low-wage retail jobs when labor markets are weak.   Therefore, I also include a 
+dummy variable for each of the 30 months in the sample (Mt) to control for national fluctuations 
+in the labor market.  
+Despite the uniformity of jobs in the sample and the ability to control for several store 
+and community characteristics, it is likely that the residual, єijt
+w, contains unobservable features of 
+the store and community that are correlated with both the manager’s race and his or her choice of 
+whom to hire.  For example, the exact racial composition of each store’s potential applicant pool 
+is not observed and the community demographics may provide only an imperfect proxy.   Such 
+omitted variables will result in biased estimates of the effect of manager race on hiring choices. 
+To the extent that the unobserved factors affecting both manager and employee 
+demographics are fixed over time, I can control for them using store fixed effects.  The fixed 
+effects model is: 
+(2)  
+Uijt(new hire is white) = b0
+ w+  MgrBlijt bB
+w + MgrHiijt bH
+w + MgrAsijt bA
+w +Mt bM
+ w+ αj
+ w+ εijt
+ w. 
+The workplace fixed effects, αj
+ w, summarize the effect of any permanent differences across 
+stores, communities, and labor markets that influence both the race of the manager and the costs 
+and benefits of hiring a white employee.    
+If the omitted variables are not fixed over time, then even the fixed effects specification 
+in equation (2) may produce biased estimates.   For example, the fixed effects estimates would 
+overstate the causal effect of manager race on hiring patterns if trends in local demographics led 
+to parallel trends in the applicant pools of managers and employees.   A similar bias could arise 
+from a policy of promoting new managers from within the store or from deliberate attempts to 
+hire new managers who match the evolving demographics of the workforce.   Thus, to rule out 
+local trends as a source of any correlations between manager race and hiring patterns, I also 
+estimate equations that include store-specific trends in addition to store fixed effects.    
+
+
+ 
+9 
+B. Estimation Methods 
+Because only the manager’s hiring choices (but not the underlying utilities) are observed, 
+estimation of the model relies on the assumption that the manager chooses the option with the 
+highest utility.  When the choice is assumed to be binomial (as in the choice between white and 
+nonwhite or male and female), the manager’s choice of a white employee implies that Uijt(new 
+hire is white) > Uijt(new hire is nonwhite).  The probability that manager i in store j is observed to 
+choose a white employee at date t can therefore be written, based on the model in equation (1), as: 
+(3)  
+Prob (new hire is white| MgrBlijt, MgrHiijt, MgrAsijt, Sj,, Cj, Mt)ijt 
+= Prob (Uijt(new hire is white)> Uijt(new hire is nonwhite)) 
+= Prob ((b0
+ w+ MgrBlijt bB
+ w+ MgrHiijt bH
+ w+ MgrAsijt bA
+ w
+ +Sj bS
+w+ Cj bC
+w + Mt bM
+ w+ єijt
+ w) > 
+   
+   (b0
+ nw + MgrBlijt bB
+ nw+ MgrHiijt bH
+ nw+ MgrAsijt bA
+ nw
+ +Sj bS
+nw+ Cj bC
+nw + Mt bM
+ nw+ єijt
+ nw)) 
+= Prob ((b0
+ w- b0
+ nw)+MgrBlijt(bB
+ w-bB
+ nw) + MgrHiijt(bH
+ w-bH
+ nw) + MgrAsijt(bA
+ w-bA
+ nw) +      
+   Sj(bS
+w- bS
+ nw)+ Cj(bC
+w-bC
+ nw)+ Mt (bM
+ w- bM
+ nw) +  (єijt
+ w- єijt
+ nw) > 0) 
+= Prob (b0 + MgrBlijt bB
+ + MgrHiijt bH
+  + MgrAsijt bA
+ 
+ + Sj bS + Cj bC
+ + Mt bM + єijt
+ > 0) 
+Here the coefficients bB, bH, and bA represent the impact of the manager’s race on the probability 
+that a new hire is white.  Similar equations can be written to express the probabilities that a new 
+hire is black, Hispanic, Asian, and female. 
+Assuming a normal distribution for єijt, I use a probit model to estimate several variations 
+of equation (3) for each race and gender group.  The residuals are assumed to be identically 
+distributed and independent across stores, but not necessarily within stores.  I use Huber-White 
+robust estimates of the standard errors that are corrected for within-store correlation of the error 
+terms.  To estimate the fixed effects version of the probit model (derived from equation 2), I 
+include a dummy variable for each store in the model.  A potential concern with this approach is 
+that maximum likelihood estimation provides consistent estimates of the fixed effects only if the 
+
+
+ 
+10 
+number of observations per group is large enough.8  Fortunately, my data include an average of 
+140 employee hires per store, which is large by the standards of the current literature.9   
+The binomial choice model is restrictive in that it ignores the fact managers may choose 
+simultaneously from among four possible race categories rather than choosing white vs. 
+nonwhite, black vs. nonblack, etc.  Therefore, in addition to the probit models, I estimate a 
+multinomial logit model that incorporates the full set of possible choices with respect to race. 10  
+Because the fixed effects prove important in the probit estimations, I estimate a multinomial logit 
+model with store fixed effects.   Again, I estimate the fixed effects by including a dummy variable 
+for each store.  I do not control for store trends, however.  This is because of computational 
+limitations, and because the store trends prove to be relatively unimportant in the probit 
+estimations. 
+The fixed effects multinomial logit model is derived from equation (2).  Because the 
+manager now has four possible choices instead of two, he or she will choose a member of race 
+group k if Uijt(new hire is race k) > Uijt(new hire is race l) , ∀ k≠ l.  Now, assuming that the 
+residuals are distributed according to a Type I extreme value distribution, the probability that 
+manager i in store j on date t chooses a new hire of race k can be written as: 
+                                                 
+8 The most common alternative method for estimating nonlinear binomial choice models with panel data is 
+Chamberlain’s (1980) conditional logit model, which bypasses estimation of the fixed effects by estimating 
+the probability of a positive outcome conditional on the number of positive outcomes in the group.  While 
+estimating probit models with several hundred dummy variables is computationally cumbersome, it is even 
+more impractical to estimate conditional logit models with well over 100 observations per group and large 
+numbers of both positive and negative outcomes.  However, I ran several tests on smaller subsets of the 
+data in order to compare estimates from fixed effect probit and conditional logit models, and found the 
+estimates to be very close.  I also ran all binomial specifications using a fixed effects linear probability 
+model and obtained results substantively similar to those obtained from the probit estimations (See 
+Appendix Table A1). 
+9 For example, Greene (2000) presents Monte Carlo evidence suggesting that the bias from estimating 
+nonlinear models using maximum likelihood with fixed effects drops off rapidly as the number of 
+observations per group increases above three and is substantially reduced even at 20 observations per 
+group. 
+10 There are too few Native Americans in my sample to obtain reliable estimates for this group.  In all of the 
+analyses reported in this paper, the small number of Native American and “other” race employees are 
+treated as white.  In the case of the probit equation predicting the probability that a new hire is white, I also 
+calculated estimates treating Native Americans and others as nonwhite.  The results were nearly identical. 
+
+
+ 
+11 
+∑=
++
++
++
++
++
++
++
++
++
++
++
++
+=
+4
+1
+l
+l
+ijt
+l
+j
+l
+M
+l
+t
+l
+A
+ijt
+l
+H
+ijt
+l
+B
+ijt
+l
+0
+k
+ijt
+k
+j
+k
+M
+t
+k
+A
+ijt
+k
+H
+ijt
+k
+B
+ijt
+k
+0
+ijt
+)
+ε
+α
+b
+M
+b
+MgrAs
+b
+MgrHi
+b
+MgrBl
+exp(b
+)
+ε
+α
+b
+M
+b
+MgrAs
+b
+MgrHi
+b
+MgrBl
+exp(b
+k)
+ 
+race
+ 
+is
+ 
+hire
+ 
+Prob(new
+ 
+(4)
+ 
+where k = 1, . . ., 4 represents the four race groups white, black, Hispanic, and Asian. 
+An important assumption of the multinomial logit model is that the odds ratio for any two 
+alternatives is independent of the other alternatives.  This implies, for example, that the ratio of 
+the odds of choosing a white employee to the odds of choosing a black employee is not affected 
+by the presence of Hispanic and Asian employees as other alternatives.  To test the validity of this 
+“independence of irrelevant alternatives” assumption, I apply a Hausman type specification test 
+by comparing estimates from models with and without each of the four alternatives.  The test 
+provides no evidence against the model.11 
+III. Empirical Results 
+A. Probit Estimates of Race-Based Hiring Biases  
+Tables 4a-4d show the estimates from the probit models relating manager race to the race 
+of a new hire.  The dependent variable in Table 4a is a dummy variable equal to one if the new 
+hire is white and zero otherwise.  In Tables 4b-4d, the dependent variables are dummies 
+indicating that a new hire is black, Hispanic, and Asian.  For ease of interpretation, I report 
+marginal effects instead of coefficients.  In the case of dummy variable regressors, such as the 
+manager race indicators, I report the effect of a discrete change from zero to one.  In each 
+regression, the omitted manager race category is the race for which the dependent variable is 
+defined.  Hence, negative estimates for the manager race variables are consistent with same-race 
+biases.  
+                                                 
+11 This application of Hausman’s specification test is described by Hausman and McFadden (1984).  The 
+test is based on the test statistic (br - bf)′(Vr - Vf)(br - bf), where br denotes the estimates of the restricted 
+model in which one race alternative is omitted.  These estimates are inefficient but still consistent under the 
+null hypothesis of independence.  bf  denotes estimates of the full model, which are efficient and consistent 
+under the null.  The statistic is distributed χ2(>800) under the null hypothesis.  The values of the test 
+statistics are 36.12 (omitting white), 4.35 (black), 2.49 (Hispanic), and 2.24 (Asian), none of which 
+provides evidence against the null. 
+
+
+ 
+12 
+Correlates of Manager-Employee Similarity in the Cross Section.—In the first three 
+columns of Tables 4a-4d, one can see the effect of controlling for observable differences across 
+stores.  The pattern of results is similar for all four race groups.   First, column 1 shows the effect 
+of manager race on hiring outcomes without any controls.  The estimated effects of racial 
+dissimilarity are consistently negative and, except for the Asian manager indicator in Table 4a, all 
+are significant at a confidence level of .1 percent.  These results simply confirm what has already 
+been seen in Table 3:  Employees are much more likely to be hired by managers who share their 
+race. 
+The specification in column 2 adds controls for the population share of each race in the 
+community.  Not surprisingly, community demographics explain a significant part of the 
+correlation between manager race and employee race.  The magnitudes of the manager race 
+estimates are consistently reduced by at least one quarter from column 1 to column 2.  However, 
+most of them remain significantly different from zero.   Finally, Column 3 adds more location 
+variables, including population density, median household income and store location type.  
+Although these variables are often statistically significant, they explain little of the correlation 
+between manager race and employee race.   
+Column 4 may also be noted here.  The inclusion of month dummies in this specification 
+has little effect, suggesting that the similarities between managers and new hires are not explained 
+by seasonal and national fluctuations in the labor market.  
+Store Fixed Effects Estimates.— After controlling for observed differences across stores 
+(columns 2 and 3) and unobserved differences across time (column 4) , a substantial amount of 
+the correlation between manager race and employee race still remains to be explained.  Column 5 
+of Tables 4a-4d adds the fixed effects specifications of the probit models.  The fixed effects are 
+clearly important.  In many cases, unobserved differences across stores and locations account for 
+nearly all of the remaining correlation between manager race and the race of the new hire.  In the 
+equation predicting that a new hire is white (Table 4a), the Hispanic and Asian manager effects 
+
+
+ 
+13 
+are very small and not significantly different from zero.  In the equations predicting that a new 
+hire is Hispanic (Table 4c) or Asian (Table 4d), none of the manager race effects are significantly 
+different from zero at a 5 percent confidence level.12   
+However—even after controlling for fixed effects—a certain pattern of bias remains.  
+There is a significant difference between the hiring patterns of black managers and nonblack  
+(white, Hispanic, Asian) managers, and this difference lies mainly in the share of whites and 
+blacks hired by these two groups of managers.  First, the probability that a new hire is white is 4.4 
+percentage points lower under a black manager than it is under a white manager in the same store 
+(Table 4a).  Second, the probability that a new hire is black is 3.5-4.0 percentage points lower 
+under a white, Hispanic, or Asian manager than it is under a black manager (Table 4b).13  These 
+estimates are all significant at a 1 percent level of confidence.  The import of this pattern is 
+explored in the sections below. 
+Store-Specific Trends.— If manager-employee similarities are driven by local 
+demographic trends, the fixed effects estimates might overstate the causal effects of manager race 
+on hiring patterns.  The specification in column 6 of Tables 4a-4d addresses this concern by 
+including store-specific trends as controls.  The results of this specification are somewhat 
+surprising.  In almost all cases, the magnitudes of the manager race coefficients become larger 
+rather than smaller, suggesting that if anything, the fixed effects estimates understate the causal 
+effect of manager race.  However, the differences between the estimates in columns 5 and 6 are 
+generally quite small. 
+Figures 1a and 1b provide additional evidence that the estimates of the relationship 
+between manager and employee race are not driven by trends in store demographics.  These 
+graphs are based on all stores for which I observe two consecutive managers for at least four 
+                                                 
+12 It should be noted, though, that the effect of a white manager on the probability of a new hire being 
+Asian (Table 4d) is negative and significant at the 6 percent confidence level. 
+13 A Wald test indicates that coefficients on the three dummy variables (for white, Hispanic, and Asian 
+managers) are not significantly different from one another. 
+
+
+ 
+14 
+months each.  Figure 1a shows trends in the white share of new hires for cases where: 1) a white 
+manager replaces a white manager, 2) a black manager replaces a white manager, and 3) a white 
+manager replaces a black manager.  Figure 1b shows similar trends in the black share of new 
+hires.  In all cases, the introduction of a new manager whose race differs from the outgoing 
+manager results in either a clear intercept shift or a break in the previous trend.14 
+Robustness Test using Linear Probability Model.—The estimation sample is restricted to 
+stores that hire at least one new employee belonging to each of the four main race groups.  This 
+sample restriction allows me to estimate all probit models on the same sample of stores, and is 
+also necessary to estimate the multinomial logit model with store fixed effects.   However, there 
+is a concern that this restriction introduces some sample selection bias.  By eliminating stores in 
+which there is no change in the hiring probability for at least one race group, I may be dropping 
+many stores in which a change in manager race has zero impact on hiring patterns.  To examine 
+the implications of the sample selection, I use a linear probability model to estimate all of the 
+binomial choice equations on both the restricted and full samples.  The results, reported in 
+Appendix Table A1, are similar for both samples, and are substantively similar to the probit 
+results. 
+B. Multinomial Logit Estimates of Race-Based Hiring Biases 
+The results from the fixed effects multinomial logit estimation are shown in Tables 5 and 
+6.  They are remarkably similar to the probit results.  The multinomial results facilitate the 
+comparison of hiring patterns across all four manager races.  First, Table 5 shows the coefficients 
+of the model (columns 1-6), and a Wald test assessing the overall similarity between hiring 
+patterns for each manager race pair (column 7).  This table confirms that there are no significant 
+hiring differences among white, Hispanic, and Asian managers, but that the hiring choices of each 
+                                                 
+14 In three out of four cases involving a change in manager race, it appears that the manager change 
+coincides with a reversal of the previous demographic trend in hiring.  However, regressions based on six-
+month trends prior to a change in management showed that this relationship is not significant: In no case 
+does the trend in hiring predict the change or direction of change in manager race.   
+
+
+ 
+15 
+nonblack group differ significantly from those of black managers.  Specifically, these nonblack-
+black differences lie in the ratios of black hires to hires of other races, and mainly in the ratio of 
+black hires to white hires.   
+Next, Table 6 presents the predicted probabilities for each manager-employee race 
+combination.15  Differences among whites, Hispanics, and Asians are very small (the largest 
+being the 1.3 percentage point difference between whites and Asian managers in the share of 
+Asians hired).16  It is also notable that black managers differ very little from the three nonblack 
+groups in the shares of Hispanics and Asians hired.  Once again, the differences that stand out are 
+those between nonblack managers and black managers in the shares of blacks and whites hired.  
+The estimates imply that when a black manager is replaced by a white, Hispanic, or Asian 
+manager in a typical store, the share of new hires that is black falls by 3.8-4.8 percentage points.  
+In all cases, this decline is offset mainly by an increase in the share that is white.  
+C. How Large are the Effects of Manager Race on Hiring Patterns?   
+To interpret the magnitudes of these effects, consider (as an example) what happens to 
+the racial composition of the average store when a white manager replaces a black manager.  
+Employee turnover is high at this company—90 percent of all employees leave within one year of 
+being hired.  Thus, within a year of a change in management, almost all employees will have been 
+hired by the new manager.  The estimates in Table 6 therefore suggest that within a year, the 
+employment share of blacks falls from 21 percent to 17 percent, and the share of whites rises 
+from 60 percent to 64 percent.  In a store of 25 employees, this change amounts to going from 5 
+blacks and 15 whites to 4 blacks and 16 whites.   
+Now, from the viewpoint of someone (such as a district manager) who is observing just a 
+small sample of stores, this change might either go unnoticed or appear insignificant.  However, 
+the change appears much more significant from the point of view of job seekers—and especially 
+                                                 
+15 Predicted probabilities are calculated at the means of all store and month dummy variables. 
+16 The ratios of Asians to whites and of Asians to blacks are higher under an Asian manager than under a 
+white manager, but these differences are significant only at 9 and 13 percent confidence levels. 
+
+
+ 
+16 
+black job seekers.  Indeed, a 3.8 percentage point decline in the black share (from 20.9 to 17.1) 
+amounts to an 18 percent decline in the number of blacks hired.   
+It is important to remember that because I lack applicant pool data, I cannot conclude that 
+the nonblack-black biases I find are due to discrimination by nonblack managers against black 
+employees.  Rather, they could indicate discrimination either by managers or by applicants, and 
+either by nonblacks or by blacks.  Specifically, there are four possible patterns of discrimination: 
+(1) black managers may discriminate against or discourage nonblack (especially white) 
+applicants, (2) black applicants may avoid working for nonblack managers, (3) nonblack 
+managers may discriminate against or discourage black applicants, or (4) nonblack (especially 
+white) applicants may avoid working for black managers.  It is unlikely that any of these groups 
+is free of discriminatory tastes.17 
+Still, it is true that my results are consistent with the hypothesis that is the starting point 
+for most studies of racial discrimination—that employers discriminate against blacks.  Hence, to 
+facilitate comparison with other studies, it is useful to consider what my estimates would imply in 
+the extreme case that they were driven entirely by discrimination against black employees.  If we 
+assume that black managers in my study do not discriminate, then we can infer the share of blacks 
+in the pool of qualified applicants from the share of blacks hired by black managers—21 percent.  
+Under this assumption, my estimates imply that black applicants are roughly 25 percent less 
+likely than white applicants to be hired. 18  Interestingly, this figure is comparable to what has 
+been found in audit studies comparing hiring rates of white and black applicants.  For example, 
+                                                 
+17 Responses to questions on racial attitudes in the General Social Survey indicate that while attitudes of 
+whites toward blacks are more negative than those of blacks toward whites, discriminatory attitudes 
+nevertheless are found among both groups.  For example: Between 1990 and 2000, 15.3% of all whites and 
+4.4% of all blacks favored laws prohibiting interracial marriage. 
+18 If p is the probability that a given applicant is hired by a black (i.e., non-discriminating) manager, then a 
+black applicant’s probability of being hired when facing a non-black (i.e., discriminating) manager is 
+(.17/.21) p or .81p, while for white applicants this probability is (.64/.60) p or 1.07p.  Hence, a black 
+applicant’s probability of being hired is (1.07-0.81)/1.07=24.3% lower than that for white applicants. 
+
+
+ 
+17 
+Turner et al. (1991) find that black applicants are between 25 and 35 percent less likely than 
+white applicants to be offered a job.    
+While my findings are consistent in this way with audit study findings for blacks, they 
+stand in contrast to audit studies on Hispanics.  The latter have tended to find discrimination 
+against Hispanic applicants that is similar in magnitude to discrimination against blacks (e.g. 
+Cross et al, 1990; Kenney and Wissoker, 1994).19  However, other types of studies have found 
+results that are similar to mine in suggesting discrimination against blacks but not against 
+Hispanics.  For example, Holzer (1996) examines differences across races in the ratios of hires to 
+applicants, and finds that this ratio is lowest for blacks—particularly in sales jobs at service and 
+retail firms.   Consistent with my own results, his estimates imply that the ratio of hires to 
+applicants is about 50% greater for Hispanics than it is for blacks.20  
+D. The South  
+Another germane question is whether the difference between nonblack and black hiring 
+patterns is particularly strong in the South.  There is evidence that racial bias remains more 
+common in the South that in the rest of the U.S., particularly between whites and blacks.  For 
+example, the 1990-2000 General Social Survey found that among respondents in non-Southern 
+states, 3.0% of blacks and 11.4% of whites favored laws against interracial marriage, while in the 
+South, 5.7% of blacks and 23.0% of whites favored such laws.21,22 
+                                                 
+19 One possible explanation for the difference between these findings and my own is that the audit studies 
+using Hispanics are biased due to use of testers who are different in respects not solely related to race.  For 
+example, Heckman and Siegelman (1993) point out that in the study by Cross et al., Hispanic testers all had 
+facial hair and strong accents while white (Anglo) testers did not.   It is also possible that my estimates are 
+attenuated by some error in the Hispanic measure.  Because an employee may be both white and Hispanic, 
+but can be coded only one way in this dataset, it is possible that some Hispanics code themselves as white.   
+20 The implication that racial discrimination appears to affect blacks more than recent immigrant groups is 
+also consistent with some qualitative evidence comparing white-black relations to white-immigrant 
+relations.  For example, Moss and Tilly (1995) find that many nonblack employers stereotype immigrants 
+as hard working, whereas they tend to stereotype blacks as lazy and irresponsible.     
+21 Because most of the managers and employees in this data set under 40, it should be noted that survey 
+respondents under 40 were less likely to favor these laws.  Nevertheless, among whites in the under-40 
+sample, the nonSouth-South difference remains significant: 5.6% of nonsouthern whites vs. 13.4% of 
+southern whites favor the laws. All statistics are the author’s calculations based on sample of 8,351 from 
+surveys between 1990 and 2000.   
+
+
+ 
+18 
+To compare hiring biases in the South to the biases in the rest of the country, I run 
+separate fixed effect probit regressions on the two samples.23  Table 7 shows the results of probit 
+regressions predicting the probability that (1) a new hire is white and (2) a new hire is black.  The 
+key independent variable in both regressions is a dummy variable indicating whether the hiring 
+manager is black. 
+The tendency of nonblack managers to hire more whites and fewer blacks than black 
+managers is particularly strong in the South, and the differences between Southern and non-
+Southern states are quite significant.  When a nonblack manager replaces a black manager in a 
+non-Southern store, the share of black hires falls by 14.8% (from .169 to .144) and the share of 
+whites rises by 5.0% (from .544 to .571).  In Southern stores, the difference is much larger.  The 
+share of blacks falls by 27.6%, from (.293 to .212) while the share of whites increases by 18.1% 
+(from .520 to .614).24     
+E. Probit Estimates of Gender-Based Hiring Biases  
+The results of the probit regressions analyzing the effect of a manager’s sex on the 
+probability that a new hire is female are shown in Table 8.  The correlation between manager and 
+employee sex is fully accounted for by observed and unobserved differences across store 
+locations.  Specifically, controlling for population density and store location reduces the 
+estimated effect of manager sex by about 15 percent (column 3), and the inclusion of store fixed 
+effects brings it very close to zero (columns 5 and 6).  Hence, at this company, there are no 
+systematic hiring biases based on differences in gender.    
+                                                                                                                                                 
+22 For another example, see Kuklinkski, Cobb, and Gilens (1997), who estimate that 10% of nonsouthern 
+whites and 42% of southern whites react negatively to the idea of living next door to a black family. 
+23 Here, the South is defined as: Arkansas, Alabama, Georgia, Florida, Louisiana, Mississippi, North 
+Carolina, Tennessee, South Carolina, and Virginia. 
+24 We may again consider the extreme assumption that the hiring biases are caused entirely by 
+discrimination against black employees.  My estimates imply that, whereas black applicants would be 19 
+percent less likely than whites to be hired by a white manager in the rest of the country, they would be 39 
+percent less likely to be hired by a white in the South. 
+
+
+ 
+19 
+The finding of zero gender discrimination stands in contrast to other current studies that 
+find evidence of gender-based employment discrimination.  Among these studies, only 
+Carrington and Troske (1998) take the same approach as the present study; they, too, ask whether 
+gender segregation is caused by discrimination.  The fact that Carrington and Troske reach a 
+different conclusion may partly reflect their inability to control for unobserved differences in 
+workplaces.  The present study finds that despite the similarity of the stores and jobs in the 
+sample, store fixed effects are important; this demonstrates that even subtle differences across 
+stores, locations, or labor markets can cause some workplaces to employ more women than 
+others.  However, both in the case of Carrington and Troske’s study and in the case of two other 
+studies as well, the contrast in results may reflect differences in samples.  In the present sample, 
+women make up a large majority of both the workforce and management.  In contrast, the other 
+studies all analyze industries traditionally dominated by men—namely, manufacturing 
+(Carrington and Troske), orchestras (Goldin and Rouse, 2000), and high-priced restaurants 
+(Neumark, et al., 1996).  Gender-based discrimination may be prevalent in these three industries 
+due to historical and social norms that cause certain occupations to be considered exclusively 
+male.  Clearly, this is not true of the jobs in my study. 
+F. Gender Differences in Race Discrimination 
+ 
+The fact that my sample is largely female may have implications not only for the results 
+on gender discrimination but also for the results on race discrimination.   First, some studies have 
+suggested that women are less likely than men to discriminate on the basis of race (Kenney and 
+Wissoker, 1994; Yinger, 1986).  Second, other studies have suggested that black men are more 
+likely than black women to be discriminated against (e.g. Holzer, 1996; Moss and Tilly, 1995; 
+Kirschenman and Neckerman, 1991).   
+I examine whether the nonblack-black hiring biases in my sample differ by either the sex 
+of the manager (Table 9), or the sex of the employee (Table 10).   Table 9 shows the results of a 
+fixed effects probit regression predicting that a new hire is black as a function of a dummy 
+
+
+ 
+20 
+variable indicating that the manager is black, another dummy variable indicating that the manager 
+is female, and the interaction of these two dummy variables.  With respect to nonblack men and 
+women, I find that there is no difference in the share of blacks they hire.  However, with respect 
+to black men and women, the negative interaction term (while not highly significant, p<.14) 
+suggests that the tendency to hire black employees is stronger for black male managers than for 
+black female managers.  There are two possible causes of this result.  One is that black 
+managers—and in particular black male managers—discriminate against nonblack employees.  
+The other is that nonblack applicants avoid working for black managers, and especially black 
+male managers.   
+Table 10 shows the results of separate probit regressions predicting (1) that a new hire is 
+a black male, and (2) that a new hire is a black female.  Both male and female black employees 
+are less likely to be hired by nonblack managers than by black managers.   Specifically, when a 
+nonblack manager replaces a black manager, the probability that the next hire is a black male falls 
+by about 18 percent, from .055 to .045, and the probability that the next hire is a black female 
+falls 16.5 percent, from .109 to .091.  Hence, the hiring biases affect the employment of black 
+males and females more or less equally. 
+IV. Alternate Explanations: Social Networks or Productivity Effects  
+While my findings suggest that nonblack managers hire fewer blacks than do black 
+managers, this difference in hiring patterns could be caused by factors other than discrimination.  
+The recent literature suggests two possibilities.  Managers might hire same-race employees either 
+because they use their own social networks in recruitment, or because they want to exploit 
+productivity advantages inherent in manager-employee similarity.   
+
+
+ 
+21 
+A. Neighborhood Segregation and Networks 
+If managers use their own social networks in recruitment, and if social networks tend to 
+be segregated by race, then these networks may lead managers to hire same-race employees.25,26 
+Thus social segregation could be driving the nonblack-black differences in hiring. 
+To explore this possibility, I use data on the residential ZIP codes of managers and 
+employees.  Although ZIP codes are only an imperfect proxy for one’s network of acquaintances, 
+nevertheless residential areas and social networks do tend to coincide.  Hence if the social 
+networks of managers are driving my results, I should find that managers tend to hire employees 
+who live in the manager’s ZIP code.   
+Instead, I find that the share of employees living in the same ZIP code as the manager is 
+quite small—roughly 4.7 percent.  Indeed, employees are much more likely to live near the store 
+than they are to live near the manager—with 13 percent sharing the store’s ZIP code.  Moreover, 
+Table 11 presents evidence that the slight tendency of managers and new hires to live in the same 
+ZIP is spurious, and not caused by managers hiring their neighbors.  Specifically, the probability 
+that a new hire lives in a particular ZIP is only .1 to .2 percentage points higher if the manager 
+also lives that ZIP.27  This effect is extremely small and not statistically significant.28    
+                                                 
+25 Previous studies have argued that informal networks play an important role in hiring (e.g. Granovetter, 
+1995; Holzer, 1996); that such networks tend to be segregated by race (Marsden ,1987); and that minorities 
+tend to lack access to hiring networks (Petersen et al., 2000; Moss and Tilly 2001).   
+26 Much of the network literature emphasizes the role of employee referrals rather than managers’ personal 
+networks, and some have found that employees tend to refer similar others (e.g. Fernandez et al., 2000; 
+Muow, 2002 on race).  Employee referrals alone cannot cause manager-employee similarity, but if there is 
+some tendency for managers to hire same-race employees, then employee referrals could amplify this 
+tendency.   In my data, however, regression analysis revealed that the share of employees of race k at the 
+time of hire is negatively related to the probability that the next hire is race k.  This is the opposite of what 
+would be expected if employee referrals were an important source of workplace segregation. 
+27 These estimates are based on fixed effects probit regressions predicting the probability that a new hire 
+resides in a given ZIP code as a function of a dummy variable indicating that the manager also resides in 
+that ZIP code.  The estimation sample is restricted to stores that have at least two managers who live in 
+different ZIP codes, and to the two managers with the longest tenures in each of these stores.  Thus, the 
+regressions examine whether a manager is more likely to hire employees in his or her own ZIP code than is 
+another manager in the same store but from a different ZIP code.   
+28 Since I find bigger nonblack-black hiring biases in the South, I also look to see if the tendency to hire 
+from within one’s own ZIP code is stronger in the South.  The estimates for this sample are slightly 
+larger—.3 to .5 percentage points—but still are not significantly different from zero.   
+
+
+ 
+22 
+B. Productivity Effects of Manager-Employee Similarity 
+Managers might hire same-race employees because same-race relationships are more 
+productive.  For example, racial diversity may raise transactions costs or make communication 
+difficult.  In this study, lower levels of mutual trust, respect, or cooperation between nonblacks 
+and blacks could make nonblack-black relationships particularly unproductive.29 And even among 
+native English speakers, racial diversity could make communication difficult.30   Still, it remains 
+true that language difficulties are likely less important for blacks than for recent immigrant 
+groups (Hispanics and Asians), and thus if “language discrimination” were driving the nonblack-
+black results, we would expect to see similar biases against these immigrant groups.   
+To test the hypothesis that black employees are more productive when they are managed 
+by blacks, I use data on store monthly sales.  Table 12 reports the results of a linear fixed effects 
+regression of log monthly sales on manager race, employment shares of each race, and the 
+interactions of these variables.  The coefficient on the interaction of the black manager indicator 
+and the black share of employment is positive, suggesting that the relative productivity of black 
+employees to white employees is slightly higher under a black a manager than under a nonblack 
+manager.  However, this difference is not significant.  Hence, these results do not indicate that 
+productivity is improved significantly by manager-employee similarity, or that productivity 
+considerations are driving my results. 31  
+                                                 
+29 This hypothesis is suggested by the organizational behavior literature on racial “mismatch”.  Typical 
+findings are that subordinates whose manager is a different race have lower perceptions of procedural 
+justice and lower job satisfaction (Wesolowski and Mossholder, 1997), that white subordinates with black 
+supervisors report high role ambiguity and role conflict (Tsui and O’Reilly, 1989), and that same-race 
+mentoring relationships last longer and provide more psychosocial support than do cross-race relationships 
+(Thomas, 1990).  Using the data set employed in the present paper, Levine, Leonard and Giuliano (2003) 
+also find that rates of quits and dismissals are higher for employees whose manager is a different race.  Of 
+course, differential manager-employee compatibility may itself result from manager prejudice and 
+discrimination in the treatment of employees. 
+30 Lang (1986) emphasizes this point in his model of “language discrimination”. 
+31 Similar regressions that allow the effects to differ in the South (not reported in table) indicate that even in 
+the South, sales are unaffected by manager-employee racial differences. 
+
+
+ 
+23 
+V. Discrimination and Sales: A Test of the Becker Hypothesis 
+Theoretically, the regression results in Table 12 could also help to distinguish whether it 
+is blacks or nonblacks that are doing the discriminating.  A key insight of Becker’s (1957) theory 
+of employer discrimination is that employers who discriminate must forego profits to do so, since 
+their hiring decisions are based on tastes and not solely on productivity considerations.32  This 
+implies, for example, that if black managers are discriminating by giving preference to less 
+qualified black employees over qualified white employees at the same wage, then black 
+managers—especially those who hire very few whites—should have lower sales.33  Similarly, if it 
+is non-black managers who are discriminating, then we should observe lower sales under non-
+black managers. 
+However, the estimates from the regression of sales on the interactions of manager race 
+and employee race shares suggests that manager-employee similarity has no effect on sales.  
+Because I find no significant relationship between sales and hiring biases, I learn little about who 
+is exercising discriminatory preferences.  Nevertheless, the lack of a sales effect is interesting.  It 
+suggests that managers in this company can wield some latitude in hiring decisions and still 
+maintain sales, and therefore that they have some freedom to exercise discriminatory tastes.   
+VI. Conclusion 
+ 
+ 
+This study has used a new panel data set to examine whether segregation in the 
+workplace is caused by same-race and same-gender biases in hiring.   Data on consecutive 
+managers at hundreds of stores makes it possible to estimate models with store fixed effects—
+                                                 
+32 This insight is the focus of a few recent studies; for example, Hellerstein et al. (1997) find a positive 
+cross-section relationship between firm profitability and the share of women in the workforce, which is 
+consistent with discrimination against women.  Related studies comparing wages to marginal products 
+include Hellerstein et al. (1996) and several studies of performance and salaries in sports, surveyed by 
+Kahn (1991).  Leonard (1984) examines the productivity consequences of employment composition shifts 
+resulting from compliance with federal contract regulations. 
+33 Wage regressions controlling for observable employee characteristics and store and month dummies 
+revealed very small differences (one to three cents per hour) in starting wages by race.  These differences 
+may be due to some unmeasured differences in experience (including previous work with the company).  In 
+any case, they are too small to affect profits in any significant way and thus should not affect hiring 
+decisions.  There are also no significant differences in wage differentials by manager race.  
+ 
+
+
+ 
+24 
+something previous studies of segregation have been unable to do.  The present study can thus 
+identify more accurately the effect of manager demographics on hiring choices.  The main 
+findings are: (1) In the case of men vs. women, discrimination in hiring plays no role; (2) among 
+nonblacks (whites, Asians, and Hispanics), discrimination plays a small to negligible role; and (3) 
+in the case of nonblacks vs. blacks, discrimination is a likely culprit.  Specifically, all nonblack 
+managers all hire substantially more whites and fewer blacks than do black managers.  Moreover, 
+these nonblack-black biases are especially strong in the South.  
+ 
+The main caveat for these results is that the differences in hiring patterns between 
+nonblacks and blacks could reflect bias either by managers or by applicants, and either by 
+nonblacks or by blacks.  Nevertheless, regardless of whose preferences are driving them, it is 
+important to emphasize that these nonblack-black biases are significant for black job seekers.  
+Because blacks are underrepresented in management, such hiring biases will ensure inferior 
+employment outcomes for blacks.  Clearly, one solution to improving job opportunities for blacks 
+is to get more blacks into positions of management and ownership.   
+ 
+With regard to bias among nonblacks and bias between the sexes, the present study is 
+much more encouraging than certain previous studies.  The latter have found evidence of 
+discrimination against both women and Hispanics.  To be sure, it is important to remember that 
+(as in all case studies) the context should be considered when interpreting the results.  In this 
+study, several factors may mitigate against discrimination: the company's anti-discrimination 
+policy; the high share of women and the relative youth of workforce; the tight labor market 
+during the sample period; and the high rates of manager and employee turnover.  However, the 
+results of this study do suggest that in the right historical and institutional context, there is very 
+little discrimination in hiring between men and women, and among whites, Hispanics, and Asians 
+in the U.S.   
+ 
+Unfortunately, these results suggest a less optimistic conclusion regarding nonblack-
+black relations, particularly in the South.  The presence of significant nonblack-black biases is 
+
+
+ 
+25 
+especially discouraging in light of the potential mitigating factors; indeed, these biases occur in a 
+context where hiring bias is absent along other dimensions.  While the persistence of such racial 
+bias will not come as a surprise to many, it has nevertheless been difficult to prove that such bias 
+systematically affects the labor market.  This study provides rare statistical evidence that the 
+problem of race relations in United States has real effects on employment—especially in the 
+South. 
+
+
+ 
+26 
+References 
+Altonji, Joseph G. and Rebecca M. Blank.  1999. “Race and Gender in the Labor Market” in 
+Handbook of Labor Economics, Vol. 3, eds. O. Ashenfelter and D. Card, eds. 
+Amsterdam: Elsevier. 
+Arrow, Kenneth.  1973.  “The Theory of Discrimination” in Discrimination in Labor Markets,  
+eds. O. Ashenfelter and A. Rees.  Princeton, NJ: Princeton Univ. Press. 
+Bates, Timothy.  1994. “Utilization of Minority Employees in Small Business: A Comparison of 
+Nonminority and Black-Owned Enterprises.” Review of Black Political Economy 23: 
+113-121. 
+Bayard, Kimberly, Judith Hellerstein, David Neumark, and Kenneth Troske. 1999.  “Why are 
+Racial and Ethnic Wage Gaps Larger for Men than for Women? Exploring the Role of 
+Segregation using the New Worker-Establishment Characteristic Database.” NBER 
+Working Paper No. 6997. 
+Becker, Gary S.  1957.  The Economics of Discrimination, 2nd edition.  Chicago, IL.: The 
+University of Chicago Press. 
+Bendick, Marc Jr., Charles W. Jackson, and Victor A. Reinoso.  1994.  “Measuring Employment 
+Discrimination through Controlled Experiments.”  The Review of Black Political 
+Economy, Summer. 
+Braddock, J. and J. McPartland.  1987.  “How Minorities Continue to be Excluded from Equal 
+Employment Opportunities: Research on Labor Market and Institutional Barriers.” 
+Journal of Social Issues 43 (Spring): 5-39. 
+Byrne, Donn.  1971.  The Attraction Paradigm.  New York: Academic Press. 
+Cain, Glen.  1986.  "The Economic Analysis of Labor Market Discrimination," in Handbook of 
+Labor Economics, Vol. 1, eds. O. Ashenfelter and R. Layard.   Amsterdam: North-
+Holland. 
+Carrington, William J. and Kenneth R. Troske.  1998.  “Sex Segregation in U.S. Manufacturing.” 
+Industrial and Labor Relations Review 51: 445-465. 
+Chamberlain, Gary.  1980. "Analysis of Covariance with Qualitative Data." Review of Economic 
+Studies 47: 225-238. 
+Cross, Harry, Genevieve Kenney, Jane Mell, and Wendy Zimmerman.  1990.  Employer Hiring 
+Practices: Differential Treatment of Hispanic and Anglo Job Seekers.  Washington, D.C.: 
+Urban Institute Press. 
+Fernandez, Roberto, Emilio Castilla, and Paul Moore.  2000.  "Social Capital at Work: Networks 
+and Employment at a Phone Center." American Journal of Sociology 105: 1288-1356.  
+Festinger, Leon.  1957.  A Theory of Cognitive Dissonance. Evanston, IL: Row, Peterson. 
+Greene, William.  2002.  “The Bias of the Fixed Effects Estimator in Nonlinear Models.” 
+Groshen, Erica.  1991.  “The Structure of the Female/Male Wage Differential.”  Journal of 
+Human Resources 26: 457-72. 
+Hausman, Jerry and Daniel McFadden.  1984. “A Specification Test for the Multinomial Logit 
+Model,” Econometrica 52: 1219-1240. 
+Heckman, James and Peter Siegelman.  1993.  “The Urban Institute Audit Studies: Their Methods 
+and Findings,” in Fix, M. and R. Struyk, eds.  Clear and Convincing Evidence: 
+Measurement of Discrimination in America. Washington D.C.: Urban Institute Press. 
+Hellerstein, Judith, David Neumark and Kenneth Troske.  1997.  “Market Forces and Sex 
+Discrimination” NBER Working Paper No. 6321. 
+Holzer, Harry J.  1996. What Employers Want: Job Prospects for Less-Educated Workers. New 
+York: Russell Sage Foundation. 
+Holzer, Harry J.  1998.  “Employer Hiring Decisions and Antidiscrimination Policy” in R. 
+Freeman and P. Gottschalk, eds. Generating Jobs: How to Increase Demand for Less 
+Educated Workers.  New York: Russell Sage Foundation. 
+
+
+ 
+27 
+Kenney, Genevieve and Douglas Wissoker. 1994. “An Analysis of the Correlates of 
+Discrimination Facing Young Hispanic Job-Seekers.” American Economic Review 84: 
+674-83. 
+Kirschenman, Joleen, and Kathryn M. Neckerman.  1991. " 'We'd Love to Hire Them, But...': The 
+Meaning of Race for Employers," in Christopher Jencks and Paul Peterson, eds., The 
+Urban Underclass.  Washington, D.C.: Brookings.  
+Kuklinski, James, Michael D. Cobb, and Martin Gilens.  1997.  “Racial Attitudes in the ‘New 
+South.’”  The Journal of Politics 59(2): 323-349. 
+Lang, Kevin. 1986. “A Language Theory of Discrimination,” Quarterly Journal of Economics 
+101: 363-82. 
+Leonard, Jonathan and David I. Levine.  2002.  “Diversity, Discrimination, and Performance.” 
+Levine, David I., Jonathan Leonard, and Laura Giuliano.  2003. “Turnover and Employee-
+Manager Similarity.”  
+Marsden, Peter V.  1987.  “Core discussion networks of Americans.”  American Sociological 
+Review 52: 122-131. 
+McPherson, J.M., L. Smith-Loving and J.M. Cook.  2001.  “Birds of a feather: Homophily in 
+Social Networks.”  Annual Review of Sociology 27: 415-444. 
+Moss, Philip and Chris Tilly.  1995.  “`Soft′ Skills and Race: An Investigation of Black Men's 
+Employment Problems.” Working Paper.  New York: Russell Sage Foundation.  
+Moss, Phillip, and Chris Tilly.  2001.  Stories Employers Tell.  New York: Russell Sage 
+Foundation. 
+Muow, Ted.  2002.  “Are Black Workers Missing the Connection? The Effect of Spatial Distance 
+and Employee Referrals on Interfirm Racial Segregation.”  Demography 39: 507-528. 
+Neumark, David, Roy J. Bank, and Kyle D. Van Nort.  1996.  “Sex Discrimination in Restaurant 
+Hiring: An Audit Study.” Quarterly Journal of Economics August: 915-941. 
+Petersen, Trond and Laurie Morgan.  1995.  “Separate and Unequal: Occupation-Establishment 
+Segregation and the Gender Wage Gap.”  American Journal of Sociology 101: 329-365. 
+Peterson, Trond, Ishak Saporta, and Marc-David Seidel.  2000.  "Offering a Job: Meritocracy and 
+Social Networks American Journal of Sociology 106: 763-816. 
+Raphael, Steven, Michael Stoll, and Harry Holzer.  2000.  “Are Suburban Firms More Likely to 
+Discriminate against African-Americans?” Journal of Urban Economics 48: 485-508. 
+Tajfel, Henri, and Turner, John C.  1986.  “The social identity theory of intergroup behavior,” in 
+S. Worschel and W. G. Austin, eds., Psychology of intergroup relations (2nd ed). 
+Chicago: Nelson-Hall. 
+Thomas, David A.  1990.  “The Impact of Race on Managers’ Experiences of Developmental 
+Relationships.” Journal of Organizational Behavior, 11: 479-492. 
+Tomaskovic-Devey, D.  1993. Gender and Racial Inequality at Work.  Ithaca, NY: ILR Press. 
+Tsui, Anne S. and O’Reilly, Charles A.  1989.  “Beyond simple demographic effects: The 
+importance of relational demography in superior-subordinate dyads,” Academy of 
+Management Journal 32: 402-423.  
+Turner, Margery, Michael Fix, and Raymond.  1991.  Opportunities Denied, Opportunities 
+Diminished: Racial Discrimination in Hiring.  Washington, D.C.: Urban Institute Press. 
+Wesolowski Mark A. and Kevin W. Mossholder.  1997.  "Relational Demography in Supervisor-
+Subordinate Dyads: Impact on Subordinate Job Satisfaction, Burnout, and Perceived 
+Procedural Justice." Journal of Organizational Behavior 18: 351-362.  
+Yinger, John. 1986. “Measuring Discrimination with Fair Housing Audits: Caught in the Act.” 
+American Economic Review 76: 881-93.
+
+
+ 
+28
+ 
+ 
+ 
+ 
+TABLE 1.  WORKPLACE AND COMMUNITY DEMOGRAPHICS 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Workplace 
+ 
+Community 
+ 
+Mean 
+Std. Dev. 
+ 
+Mean 
+Std. Dev. 
+Race/Ethnicity 
+ 
+ 
+ 
+ 
+ 
+White 
+56.7% 
+21.6% 
+ 
+73.4% 
+19.1% 
+Black 
+18.0% 
+14.3% 
+ 
+8.9% 
+10.9% 
+Hispanic* 
+13.7% 
+12.7% 
+ 
+7.5% 
+9.7% 
+Asian/Pacific Isle. 
+10.0% 
+9.0% 
+ 
+6.3% 
+7.7% 
+Native American 
+0.4% 
+0.7% 
+ 
+0.3% 
+0.4% 
+Other/Unknown 
+1.1% 
+1.4% 
+ 
+3.6% 
+5.2% 
+Gender 
+ 
+ 
+ 
+ 
+ 
+Male 
+31.55% 
+10.0% 
+ 
+48.5% 
+3.7% 
+Female 
+68.45% 
+10.0% 
+ 
+51.5% 
+3.7% 
+  Population  
+ 
+ 
+ 
+114,325 
+123,616 
+  Median household income 
+ 
+ 
+ 
+$40,000 
+$15,500 
+Notes: Community statistics are from the 1990 Census and are based on all Census tracts within two miles of the 
+center of each store’s ZIP code.  *In the Census, respondents can categorize themselves as both black and Hispanic 
+or as both white and Hispanic, whereas the employer has mutually exclusive codes of white, black and Hispanic.  In 
+this table, the Census figures for whites and blacks refer to non-Hispanics, while the Hispanic figures refer to 
+Hispanics of all races.   
+
+
+ 
+29
+ 
+ 
+ 
+TABLE 2. DEMOGRAPHIC COMPOSITION OF WORKFORCE AND MANAGEMENT, 1996-1998 
+ 
+ 
+Company employees:  
+Estimation sample 
+Company employees:  
+All retail stores 
+All Retail (CPS) 
+  
+ 
+Sales 
+workers 
+Managers 
+Sales 
+workers 
+Managers 
+Sales 
+workers 
+Managers 
+Race/Ethnicity: 
+ 
+ 
+ 
+ 
+ 
+ 
+White  
+56.6% 
+84.0% 
+68.4% 
+85.9% 
+72.6% 
+81.0% 
+Black  
+19.1% 
+6.5% 
+13.0% 
+5.8% 
+12.7% 
+6.6% 
+Hispanic*  
+13.6% 
+6.5% 
+10.1% 
+5.2% 
+10.0% 
+6.9% 
+Asian/Pacific Isle. **  
+9.2% 
+2.9% 
+6.9% 
+2.6% 
+4.1% 
+5.0% 
+Native American  
+0.4% 
+0.2% 
+0.3% 
+0.1% 
+0.7% 
+0.6% 
+Other/Unknown 
+1.0% 
+1.0% 
+1.2% 
+0.5% 
+-- 
+-- 
+Gender: 
+ 
+ 
+ 
+ 
+ 
+ 
+Male 
+32.6% 
+24.5% 
+25.4% 
+19.8% 
+33.7% 
+49.8% 
+Female 
+67.4% 
+75.5% 
+74.6% 
+81.2% 
+66.3% 
+50.1% 
+ 
+ 
+Average Age: 
+22.2
+30.0
+22.1
+30.3 
+32.5
+39.4
+Notes: Company statistics based on all individuals employed at least one day between February 1, 1996 and July 31, 1998. 
+*In the CPS, respondents can categorize themselves as both black and Hispanic or as both white and Hispanic,  
+whereas the employer has mutually exclusive codes of white, black and Hispanic.  In this table, the CPS figures  
+for whites and blacks refer to non-Hispanics, while the Hispanic figures refer to Hispanics of all races.   
+**Unlike our employer, the CPS lumps “other” races together with Asians and Pacific Islanders. 
+
+
+ 
+30
+ 
+ 
+ 
+TABLE 3.  AVERAGE DEMOGRAPHICS OF NEW HIRES BY MANAGER RACE AND GENDER 
+ 
+ 
+Manager Race 
+ 
+Employee Race 
+White 
+Black  
+Hispanic 
+Asian 
+All Managers 
+White 
+58.3% 
+44.8% 
+42.1% 
+48.6% 
+56.3% 
+Black 
+18.5% 
+30.9% 
+20.9% 
+16.2% 
+19.3% 
+Hispanic 
+12.7% 
+13.5% 
+27.0% 
+13.7% 
+13.6% 
+Asian 
+ 9.0% 
+ 9.3% 
+ 8.7% 
+19.4% 
+9.3% 
+Native Amer./other 
+ 1.5% 
+ 1.5% 
+ 1.3% 
+  2.1% 
+1.5% 
+ 
+ 
+ 
+ 
+ 
+Manager Sex 
+ 
+Employee Sex  
+Female 
+Male 
+All Managers 
+Female   
+67.8% 
+65.8% 
+67.3% 
+Male 
+32.2% 
+34.2% 
+32.7% 
+Notes: Statistics based on estimation sample: All individuals hired between February 1, 1996 and July 31, 1998 
+at stores that hired at least one new employee of each race during this sample period.  N>100,000 new hires. 
+
+
+ 
+31
+ TABLE 4A.  PROBIT ESTIMATES OF THE EFFECT OF MANAGER RACE ON THE PROBABILITY THAT A NEW HIRE IS WHITE 
+ 
+   (1) 
+   (2) 
+   (3) 
+   (4) 
+   (5) 
+   (6) 
+Hiring manager is black1 
+-0.135** 
+-0.103** 
+-0.108** 
+-0.105** 
+-0.044** 
+-0.052** 
+ 
+(0.027) 
+(0.021) 
+(0.020) 
+(0.020) 
+(0.012) 
+(0.013) 
+Hiring manager is Hispanic1 
+-0.162** 
+-0.056* 
+-0.062** 
+-0.056* 
+-0.005 
+-0.014 
+ 
+(0.034) 
+(0.028) 
+(0.024) 
+(0.024) 
+(0.012) 
+(0.014) 
+Hiring manager is Asian1 
+-0.098* 
+0.021 
+-0.004 
+0.001 
+-0.007 
+-0.012 
+ 
+(0.041) 
+(0.031) 
+(0.025) 
+(0.025) 
+(0.014) 
+(0.020) 
+Population % black 
+ 
+-0.691** 
+-0.669** 
+-0.675** 
+ 
+ 
+ 
+ 
+(0.082) 
+(0.076) 
+(0.076) 
+ 
+ 
+Population % Hispanic 
+ 
+-1.219** 
+-0.964** 
+-0.978** 
+ 
+ 
+ 
+ 
+(0.144) 
+(0.097) 
+(0.096) 
+ 
+ 
+Population % Asian 
+ 
+-1.278** 
+-0.959** 
+-0.960** 
+ 
+ 
+ 
+ 
+(0.168) 
+(0.090) 
+(0.090) 
+ 
+ 
+Population % other 
+ 
+-0.656** 
+-0.584** 
+-0.580** 
+ 
+ 
+ 
+ 
+(0.190) 
+(0.166) 
+(0.166) 
+ 
+ 
+Median household income (in $10,000) 
+ 
+ 
+-0.023** 
+-0.023** 
+ 
+ 
+ 
+ 
+ 
+(0.004) 
+(0.004) 
+ 
+ 
+Population within 2 miles (in 100,000's) 
+ 
+ 
+-0.073** 
+-0.073** 
+ 
+ 
+ 
+ 
+ 
+(0.008) 
+(0.008) 
+ 
+ 
+Location==Open Mall1 
+ 
+ 
+0.047* 
+0.045 
+ 
+ 
+ 
+ 
+ 
+(0.023) 
+(0.023) 
+ 
+ 
+Location==Street1 
+ 
+ 
+0.043* 
+0.042* 
+ 
+ 
+ 
+ 
+ 
+(0.020) 
+(0.020) 
+ 
+ 
+Location==Strip1 
+ 
+ 
+0.058** 
+0.058** 
+ 
+ 
+ 
+ 
+ 
+(0.016) 
+(0.016) 
+ 
+ 
+Month dummies 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Yes 
+Store dummies 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Store-specific trends 
+-- 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Number of hires 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+Number of stores 
+>700 
+>700 
+>700 
+>700 
+>700 
+>700 
+Notes: Table reports marginal effects.  Parentheses contain robust standard errors, adjusted for clustering on store.  
+1 Table reports change in probability that a new  
+hire is white for a discrete change of dummy variable from 0 to 1.  Omitted manager race is white.  Omitted location type is mall.  * significant at 5%; ** significant at 1%. 
+ 
+
+
+ 
+32
+TABLE 4B. PROBIT ESTIMATES OF THE EFFECT OF MANAGER RACE ON THE PROBABILITY THAT A NEW HIRE IS BLACK 
+ 
+   (1) 
+   (2) 
+   (3) 
+   (4) 
+   (5) 
+   (6) 
+Hiring manager is white1 
+-0.121** 
+-0.089** 
+-0.091** 
+-0.088** 
+-0.035** 
+-0.048** 
+ 
+(0.021) 
+(0.018) 
+(0.018) 
+(0.017) 
+(0.008) 
+(0.011) 
+Hiring manager is Hispanic1 
+-0.075** 
+-0.046* 
+-0.041* 
+-0.041* 
+-0.039** 
+-0.046** 
+ 
+(0.020) 
+(0.022) 
+(0.019) 
+(0.019) 
+(0.009) 
+(0.013) 
+Hiring manager is Asian1 
+-0.106** 
+-0.093** 
+-0.081** 
+-0.081** 
+-0.040** 
+-0.049** 
+ 
+(0.017) 
+(0.016) 
+(0.015) 
+(0.015) 
+(0.013) 
+(0.016) 
+Population % white 
+ 
+-0.592** 
+-0.618** 
+-0.621** 
+ 
+ 
+ 
+ 
+(0.067) 
+(0.068) 
+(0.068) 
+ 
+ 
+Population % Hispanic 
+ 
+-0.705** 
+-0.880** 
+-0.872** 
+ 
+ 
+ 
+ 
+(0.106) 
+(0.103) 
+(0.103) 
+ 
+ 
+Population % Asian 
+ 
+-0.458** 
+-0.621** 
+-0.630** 
+ 
+ 
+ 
+ 
+(0.112) 
+(0.085) 
+(0.085) 
+ 
+ 
+Population % other 
+ 
+-0.513** 
+-0.563** 
+-0.573** 
+ 
+ 
+ 
+ 
+(0.132) 
+(0.121) 
+(0.120) 
+ 
+ 
+Median household income (in $10,000) 
+ 
+ 
+0.019** 
+0.019** 
+ 
+ 
+ 
+ 
+ 
+(0.004) 
+(0.004) 
+ 
+ 
+Population within 2 miles (in 100,000's) 
+ 
+ 
+0.033** 
+0.033** 
+ 
+ 
+ 
+ 
+ 
+(0.005) 
+(0.005) 
+ 
+ 
+Location==Open Mall1 
+ 
+ 
+-0.054** 
+-0.053** 
+ 
+ 
+ 
+ 
+ 
+(0.014) 
+(0.014) 
+ 
+ 
+Location==Street1 
+ 
+ 
+-0.003 
+-0.003 
+ 
+ 
+ 
+ 
+ 
+(0.018) 
+(0.018) 
+ 
+ 
+Location==Strip1 
+ 
+ 
+-0.027 
+-0.028 
+ 
+ 
+ 
+ 
+ 
+(0.014) 
+(0.014) 
+ 
+ 
+Month dummies 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Yes 
+Store dummies 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Store-specific trends 
+-- 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Number of hires 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+Number of stores 
+>700 
+>700 
+>700 
+>700 
+>700 
+>700 
+Notes: Table reports marginal effects.  Parentheses contain robust standard errors, adjusted for clustering on store.  
+1 Table reports change in probability that a new  
+hire is black for a discrete change of dummy variable from 0 to 1.  Omitted manager race is black.  Omitted location type is mall.  * significant at 5%; ** significant at 1%. 
+ 
+Wald test of equality of column (5) coefficients: chi
+2 (2)= 1.53; Pr(>chi
+2) = 0.464 . 
+
+
+ 
+33
+ 
+TABLE 4C. PROBIT ESTIMATES OF THE EFFECT OF MANAGER RACE ON THE PROBABILITY THAT A NEW HIRE IS HISPANIC 
+ 
+   (1) 
+   (2) 
+   (3) 
+   (4) 
+   (5) 
+   (6) 
+Hiring manager is white1 
+-0.137** 
+-0.032** 
+-0.028** 
+-0.026** 
+-0.005 
+-0.004 
+ 
+(0.023) 
+(0.012) 
+(0.010) 
+(0.010) 
+(0.007) 
+(0.010) 
+Hiring manager is black1 
+-0.082** 
+-0.037** 
+-0.029** 
+-0.028** 
+-0.008 
+-0.005 
+ 
+(0.011) 
+(0.011) 
+(0.010) 
+(0.010) 
+(0.008) 
+(0.011) 
+Hiring manager is Asian1 
+-0.079** 
+-0.040** 
+-0.031** 
+-0.031** 
+-0.005 
+-0.006 
+ 
+(0.013) 
+(0.013) 
+(0.010) 
+(0.010) 
+(0.010) 
+(0.015) 
+Population % white 
+ 
+-0.741** 
+-0.676** 
+-0.674** 
+ 
+ 
+ 
+ 
+(0.081) 
+(0.068) 
+(0.067) 
+ 
+ 
+Population % black 
+ 
+-0.746** 
+-0.750** 
+-0.748** 
+ 
+ 
+ 
+ 
+(0.100) 
+(0.092) 
+(0.090) 
+ 
+ 
+Population % Asian 
+ 
+-0.607** 
+-0.700** 
+-0.700** 
+ 
+ 
+ 
+ 
+(0.103) 
+(0.079) 
+(0.078) 
+ 
+ 
+Population % other 
+ 
+-0.267 
+-0.313* 
+-0.308* 
+ 
+ 
+ 
+ 
+(0.145) 
+(0.123) 
+(0.121) 
+ 
+ 
+Median household income (in $10,000) 
+ 
+ 
+0.001 
+0.002 
+ 
+ 
+ 
+ 
+ 
+(0.002) 
+(0.002) 
+ 
+ 
+Population within 2 miles (in 100,000's) 
+ 
+ 
+0.031** 
+0.031** 
+ 
+ 
+ 
+ 
+ 
+(0.003) 
+(0.003) 
+ 
+ 
+Location==Open Mall1 
+ 
+ 
+-0.001 
+0.000 
+ 
+ 
+ 
+ 
+ 
+(0.015) 
+(0.015) 
+ 
+ 
+Location==Street1 
+ 
+ 
+-0.019* 
+-0.019* 
+ 
+ 
+ 
+ 
+ 
+(0.008) 
+(0.008) 
+ 
+ 
+Location==Strip1 
+ 
+ 
+-0.005 
+-0.005 
+ 
+ 
+ 
+ 
+ 
+(0.007) 
+(0.007) 
+ 
+ 
+Month dummies 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Yes 
+Store dummies 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Store-specific trends 
+-- 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Number of hires 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+Number of stores 
+>700 
+>700 
+>700 
+>700 
+>700 
+>700 
+Notes: Table reports marginal effects.  Parentheses contain robust standard errors, adjusted for clustering on store.  
+1 Table reports change in probability that a new hire  
+is Hispanic for a discrete change of dummy variable from 0 to 1.  Omitted manager race is Hispanic.  Omitted location type is mall.  * significant at 5%; ** significant at 1% . 
+ 
+
+
+ 
+34
+TABLE 4D. PROBIT ESTIMATES OF THE EFFECT OF MANAGER RACE ON THE PROBABILITY THAT A NEW HIRE IS ASIAN 
+ 
+   (1) 
+   (2) 
+   (3) 
+   (4) 
+   (5) 
+   (6) 
+Hiring manager is white1 
+-0.097** 
+-0.028 
+-0.029 
+-0.028 
+-0.015‡ 
+-0.022** 
+ 
+(0.024) 
+(0.018) 
+(0.017) 
+(0.016) 
+(0.008) 
+(0.007) 
+Hiring manager is black1 
+-0.057** 
+-0.017 
+-0.019 
+-0.019 
+-0.012 
+-0.015 
+ 
+(0.010) 
+(0.014) 
+(0.014) 
+(0.013) 
+(0.008) 
+(0.007) 
+Hiring manager is Hispanic1 
+-0.061** 
+-0.030* 
+-0.029* 
+-0.031** 
+-0.007 
+-0.005 
+ 
+(0.010) 
+(0.013) 
+(0.012) 
+(0.012) 
+(0.008) 
+(0.008) 
+Population % white 
+ 
+-0.514** 
+-0.519** 
+-0.519** 
+ 
+ 
+ 
+ 
+(0.043) 
+(0.048) 
+(0.047) 
+ 
+ 
+Population % black 
+ 
+-0.590** 
+-0.567** 
+-0.565** 
+ 
+ 
+ 
+ 
+(0.050) 
+(0.053) 
+(0.052) 
+ 
+ 
+Population % Hispanic 
+ 
+-0.558** 
+-0.556** 
+-0.554** 
+ 
+ 
+ 
+ 
+(0.054) 
+(0.058) 
+(0.057) 
+ 
+ 
+Population % other 
+ 
+-0.290** 
+-0.273* 
+-0.274* 
+ 
+ 
+ 
+ 
+(0.101) 
+(0.107) 
+(0.107) 
+ 
+ 
+Median household income (in $10,000) 
+ 
+ 
+0.004* 
+0.004* 
+ 
+ 
+ 
+ 
+ 
+(0.001) 
+(0.001) 
+ 
+ 
+Population within 2 miles (in 100,000's) 
+ 
+ 
+-0.004 
+-0.004 
+ 
+ 
+ 
+ 
+ 
+(0.003) 
+(0.003) 
+ 
+ 
+Location==Open Mall1 
+ 
+ 
+0.010 
+0.010 
+ 
+ 
+ 
+ 
+ 
+(0.012) 
+(0.012) 
+ 
+ 
+Location==Street1 
+ 
+ 
+-0.005 
+-0.004 
+ 
+ 
+ 
+ 
+ 
+(0.007) 
+(0.007) 
+ 
+ 
+Location==Strip1 
+ 
+ 
+-0.028** 
+-0.027** 
+ 
+ 
+ 
+ 
+ 
+(0.005) 
+(0.005) 
+ 
+ 
+Month dummies 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Yes 
+Store dummies 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Store-specific trends 
+-- 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Number of hires 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+Number of stores 
+>700 
+>700 
+>700 
+>700 
+>700 
+>700 
+Notes: Table reports marginal effects.  Parentheses contain robust standard errors, adjusted for clustering on store.  
+1Table reports change in probability that a new hire  
+is Asian for a discrete change of dummy variable from 0 to 1. Omitted manager race is Asian.  Omitted location type is mall. 
+‡ significant at 10%;
+ * significant at 5%;  
+** significant at 1%.  Wald test for joint significance of column (5) coefficients: chi
+2 (3)= 5.30; Pr(>chi
+2) = 0.151.   
+
+
+ 
+35
+ 
+TABLE 5. MULTINOMIAL LOGIT ESTIMATES OF THE EFFECTS OF MANAGER RACE ON THE RACE OF NEW HIRES 
+ 
+Change in log odds that new hire is race 1 vs. race 2 
+ 
+Change in race of 
+hiring manager: 
+White vs. 
+Black 
+White vs. 
+Hispanic 
+White vs. 
+Asian 
+Black vs. 
+Hispanic 
+Black vs. 
+Asian 
+Hispanic 
+vs. Asian 
+ 
+Wald Test  
+Chi2 (Pr>chi2) 
+White to Black 
+-0.274** 
+-0.095 
+-0.112 
+0.179* 
+0.162* 
+-0.018 
+ 
+21.82** 
+ 
+(0.059) 
+(0.072) 
+(0.074) 
+(0.075) 
+(0.073) 
+(0.079) 
+ 
+(0.000) 
+White to Hispanic 
+ 0.039 
+-0.013 
+-0.096 
+-0.053 
+-0.136 
+-0.083 
+ 
+2.26 
+ 
+(0.068) 
+(0.067) 
+(0.077) 
+(0.089) 
+(0.093) 
+(0.088) 
+ 
+(0.520) 
+White to Asian 
+ 0.053 
+-0.009 
+-0.163‡ 
+-0.044 
+-0.217 
+-0.173 
+ 
+3.33 
+ 
+(0.094) 
+(0.106) 
+(0.095) 
+(0.121) 
+(0.142) 
+(0.120) 
+ 
+(0.343) 
+Black to Hispanic 
+ 0.313** 
+ 0.081 
+ 0.016 
+-0.232* 
+-0.297** 
+-0.065 
+ 
+13.89** 
+ 
+(0.086) 
+(0.089) 
+(0.101) 
+(0.106) 
+(0.115) 
+(0.109) 
+ 
+(0.003) 
+Black to Asian 
+ 0.327** 
+ 0.104 
+-0.051 
+-0.223* 
+ 0.378* 
+-0.155 
+ 
+9.24* 
+ 
+(0.110) 
+(0.127) 
+(0.118) 
+(0.139) 
+(0.157) 
+(0.143) 
+ 
+(0.026) 
+Hispanic to Asian 
+ 0.014 
+ 0.023 
+-0.067 
+ 0.009 
+-0.081 
+-0.089 
+ 
+0.46 
+ 
+(0.115) 
+(0.126) 
+(0.118) 
+(0.150) 
+(0.165) 
+(0.145) 
+ 
+(0.093) 
+Notes: Based on multinomial logit regressions predicting the race of a new hire.  Controls include month dummies and store fixed effects.   
+Parentheses contain robust standard errors, adjusted for clustering on store.  Final column reports Wald test of Ho: No change in hiring pattern.  
+N > 100,000 new hires.  ‡ significant at 10%; * significant at 5%; ** significant at 1% 
+ 
+ 
+ 
+TABLE 6. PREDICTED PROBABILITIES FOR NEW HIRES OF EACH RACE BY MANAGER RACE 
+ 
+ 
+Race of Manager 
+Race of New Hire 
+White 
+Black 
+Hispanic 
+Asian 
+White 
+.641 
+.597 
+.639 
+.638 
+Black 
+.171 
+.209 
+.163 
+.161 
+Hispanic 
+.111 
+.114 
+.112 
+.109 
+     Asian 
+.078 
+.081 
+.086 
+       .091 
+Notes: Based on multinomial logit predicting the race of a new hire.  Controls include month dummies and store 
+ fixed effects.  N > 100,000 new hires. 
+
+
+ 
+36
+ 
+ 
+                     TABLE 7. DIFFERENTIAL BLACK-NONBLACK HIRING BIASES IN SOUTHERN VS. NON-SOUTHERN STATES 
+ 
+ 
+ Dependent variable is dummy variable = 1 if new hire is: 
+ 
+(1) White 
+ 
+(2) Black 
+ 
+ 
+ South 
+Non-South 
+ South 
+Non-South 
+Change in probability for a change in  
+-0.094** 
+-0.027* 
+ 0.081** 
+ 0.026** 
+manager race from nonblack to black 
+(0.020) 
+(0.013) 
+(0.014) 
+(0.009) 
+Predicted Probabilities for: 
+Nonblack Manager 
+ 0.614 
+ 0.571 
+ 0.212 
+ 0.144 
+Black Manager 
+ 0.520 
+ 0.544 
+ 0.293 
+ 0.169 
+Notes: Based on probit regressions predicting probability that a new hire is white (black).  Regressions include store and 
+month dummies.  Parentheses contain robust standard errors, adjusted for clustering on store.   N > 100,000.  South is 
+defined here as states that were part of the Confederacy, except Texas.  These states are: Arkansas, Alabama, Georgia, 
+Florida, Louisiana, Mississippi, North Carolina, Tennessee, South Carolina, and Virginia.  * significant at 5%; ** significant at 
+1%. 
+ 
+ 
+
+
+ 
+37
+ 
+ 
+ 
+TABLE 8. PROBIT ESTIMATES OF THE EFFECT OF MANAGER SEX ON THE PROBABILITY THAT A NEW HIRE IS FEMALE 
+ 
+   (1) 
+   (2) 
+   (3) 
+   (4) 
+   (5) 
+   (6) 
+Hiring manager is female1 
+0.020** 
+0.020** 
+0.017** 
+0.017** 
+0.002 
+-0.006 
+ 
+(0.006) 
+(0.006) 
+(0.006) 
+(0.006) 
+(0.005) 
+(0.006) 
+Population % female 
+ 
+-0.138 
+-0.087 
+-0.084 
+ 
+ 
+ 
+ 
+(0.089) 
+(0.089) 
+(0.087) 
+ 
+ 
+Median household income (in $10,000) 
+ 
+ 
+0.004 
+0.004 
+ 
+ 
+ 
+ 
+ 
+(0.002) 
+(0.002) 
+ 
+ 
+Population within 2 miles (in 100,000's) 
+ 
+ 
+-0.020** 
+-0.021** 
+ 
+ 
+ 
+ 
+ 
+(0.003) 
+(0.003) 
+ 
+ 
+Location==Open Mall1 
+ 
+ 
+-0.010 
+-0.010 
+ 
+ 
+ 
+ 
+ 
+(0.019) 
+(0.019) 
+ 
+ 
+Location==Street1 
+ 
+ 
+-0.014 
+-0.013 
+ 
+ 
+ 
+ 
+ 
+(0.012) 
+(0.012) 
+ 
+ 
+Location==Strip1 
+ 
+ 
+0.021** 
+0.023** 
+ 
+ 
+ 
+ 
+ 
+(0.007) 
+(0.007) 
+ 
+ 
+Month dummies 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Yes 
+Store dummies 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Yes 
+Store-specific trends 
+-- 
+-- 
+-- 
+-- 
+-- 
+Yes 
+Number of hires 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+>100,000 
+Number of stores 
+>700 
+>700 
+>700 
+>700 
+>700 
+>700 
+Notes: Table reports marginal effects.  Parentheses contain robust standard errors, which are adjusted for clustering on store.  Omitted location type is mall. 
+1 Table reports change in probability that a new hire is female for a discrete change of dummy variable from 0 to 1.   * significant at 5%; ** significant at 1%. 
+ 
+ 
+
+
+ 
+38
+ 
+TABLE 9. RELATIONSHIP BETWEEN MANAGER’S GENDER AND BIASES IN HIRING BLACKS 
+Hiring manager is female1 
+-0.004 
+ 
+(0.004) 
+Hiring manager is black1 
+0.051** 
+ 
+(0.012) 
+Hiring manager is both female and black1 
+-0.020 
+ 
+(0.013) 
+Notes: Based on probit regressions predicting whether a new hire is black.  Regressions include store and month 
+dummies.  Parentheses contain robust standard errors, which are adjusted for clustering on store.  N > 100,000.   
+1 Table reports change in probability that a new hire is black for a discrete change of dummy variable from 0 to 1. 
+* significant at 5%; ** significant at 1%  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TABLE 10. RELATIONSHIP BETWEEN EMPLOYEE GENDER AND BIASES IN HIRING BLACKS 
+ 
+Dependent variable is dummy variable = 1 if new hire is: 
+ 
+(1) Black Male 
+(2) Black Female 
+Manager is white1 
+-0.010** 
+-0.018** 
+ 
+(0.004) 
+(0.006) 
+Manager is Hispanic1 
+-0.013* 
+-0.019** 
+ 
+(0.005) 
+(0.007) 
+Manager is Asian1 
+-0.018** 
+-0.015* 
+ 
+(0.005) 
+(0.010) 
+ 
+Predicted Probabilities: 
+ 
+Black Male 
+Black Female 
+Nonblack Manager 
+0.045 
+0.091 
+Black Manager 
+0.055 
+0.109 
+Notes: Based on probit regressions predicting whether a new hire is black male (black female).  Regressions  
+include store and month dummies.  Parentheses contain robust standard errors, adjusted for clustering on store.   
+N > 100,000.  1 Table reports change in probability that a new hire is black for a discrete change of dummy  
+variable from 0 to 1.  * significant at 5%; ** significant at 1%.  
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+39
+ 
+ 
+TABLE 11.  PROBIT ESTIMATES OF THE PROBABILITY THAT AN EMPLOYEE LIVES IN A GIVEN 
+ZIP CODE AS A FUNCTION OF WHETHER HIRING MANAGER ALSO LIVES IN THE ZIP CODE. 
+ 
+employee lives in 
+zip code 1 
+employee lives in 
+zip code 2 
+ 
+(1) 
+(2) 
+Employee hired by manager who lives in zip code 1 
+0.0018 
+ 
+ 
+ 
+(0.0018) 
+ 
+ 
+Employee hired by manager who lives in zip code 2 
+ 
+ 
+0.0011 
+ 
+ 
+ 
+(0.0017) 
+Constant term 
+0.0347 
+0.0361 
+ 
+(0.0009) 
+(0.0008) 
+Notes: Based on sample of the two managers with the largest number of hires in each store, for stores 
+with at least two managers in which the second manager lives in a different zip code from the first 
+manager.  Regressions include store fixed effects. N>50,000 new hires; >600 stores. 
+ 
+ 
+ 
+ 
+ 
+                  TABLE 12. LINEAR REGRESSION ESTIMATES OF THE 
+                          IMPACT OF EMPLOYMENT BIASES ON SALES 
+Manager is Black 
+-0.029 
+ 
+(0.017) 
+Manager is Hispanic 
+-0.017 
+ 
+(0.010) 
+Manager is Asian 
+-0.025 
+ 
+(0.013) 
+% Employees who are black 
+0.023 
+ 
+(0.030) 
+% Employees who are Hispanic 
+0.013 
+ 
+(0.036) 
+% Employees who are Asian 
+0.106** 
+ 
+(0.034) 
+Mgr. Black * % Employees black 
+0.047 
+ 
+(0.050) 
+Mgr. Black * % Employees Hispanic 
+0.066 
+ 
+(0.044) 
+Mgr. Black * % Employees Asian 
+-0.054 
+ 
+(0.096) 
+Notes: Dependent variable is log of monthly sales.  Controls include manager age 
+and sex, manager experience, a dummy for manager of “other” race and % hires who 
+are “other”, a dummy indicating if the manager is an assistant manager, share of new 
+hires with no company experience, total monthly employment, a dummy variable for 
+each of the 30 months in the sample, a dummy variable for each store in the sample, 
+and a trend variable for each store in the sample.  Omitted manager race and 
+employee race category is white.  Parentheses contain robust standard errors, 
+adjusted for clustering on store.  N > 20,000 store-months. 
+
+
+ 
+40 
+FIGURE 1A. TRENDS IN WHITE SHARE OF NEW HIRES 
+ 
+% OF NEW HIRES WHO ARE WHITE
+months from manager change
+ White mgr replaced by black
+ White mgr replaced by white
+ Black mgr replaced by white
+-4 to -3
+-2 to -1
+0
+1 to 2
+3 to 4
+.5
+.55
+.6
+.65
+.7
+White Mgr
+Black Mgr
+White Mgr
+Black Mgr
+Black Mgr
+Black Mgr
+White Mgr
+White Mgr
+ 
+ 
+ 
+FIGURE 1B. TRENDS IN BLACK SHARE OF NEW HIRES 
+ 
+% OF NEW HIRES WHO ARE BLACK
+months from manager change
+ Black mgr replaced by nonblack
+ Nonblack mgr replaced
+ Nonblack mgr replaced by black
+  by nonblack
+-4 to -3
+-2 to -1
+0
+1 to 2
+3 to 4
+.1
+.15
+.2
+.25
+.3
+Nonblack Mgr
+Nonblack Mgr
+Nonblack Mgr
+Nonblack Mgr
+Black Mgr
+Black Mgr
+Black Mgr
+Black Mgr
+ 
+Notes:  Based on sample of all manager turnover events with at least one hire every two months 
+from four months before a manager change to four months after the change.  Cases where a black 
+manager is replaced by a black manager are not graphed due to small sample size.

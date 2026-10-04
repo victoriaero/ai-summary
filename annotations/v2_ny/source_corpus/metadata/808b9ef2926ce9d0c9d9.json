@@ -1,0 +1,28 @@
+{
+  "source_id": "808b9ef2926ce9d0c9d9",
+  "normalized_url": "https://avp.org/wp-content/uploads/2017/04/FORGE_Trans_People_Police_Incarceration_Facts.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:42:49.025800+00:00",
+  "registrable_domain": "avp.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://avp.org/wp-content/uploads/2017/04/FORGE_Trans_People_Police_Incarceration_Facts.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 137329,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/808b9ef2926ce9d0c9d9.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/808b9ef2926ce9d0c9d9.txt",
+  "text_chars": 2826,
+  "text_words": 420,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

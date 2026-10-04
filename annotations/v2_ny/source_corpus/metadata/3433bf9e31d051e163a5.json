@@ -1,0 +1,28 @@
+{
+  "source_id": "3433bf9e31d051e163a5",
+  "normalized_url": "https://ca.indeed.com/career-advice/career-development/choice-of-career",
+  "fetch_timestamp_utc": "2026-10-04T02:36:38.055484+00:00",
+  "registrable_domain": "indeed.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ca.indeed.com/career-advice/career-development/choice-of-career",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 776256,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3433bf9e31d051e163a5.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3433bf9e31d051e163a5.txt",
+  "text_chars": 7914,
+  "text_words": 1272,
+  "extraction_status": "success",
+  "page_title": "Factors to Consider When Making Your Choice of Career",
+  "page_author": null,
+  "page_date": "2026-06-16",
+  "site_name": "Indeed Career Guide",
+  "canonical_url": "https://ca.indeed.com/career-advice/career-development/choice-of-career"
+}

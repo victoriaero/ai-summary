@@ -1,0 +1,28 @@
+{
+  "source_id": "cbdd8c792afab59cfab3",
+  "normalized_url": "https://highereddive.com/news/diversity-college-admissions-enrollment-nacac-2025/760807",
+  "fetch_timestamp_utc": "2026-10-04T02:48:46.962005+00:00",
+  "registrable_domain": "highereddive.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.highereddive.com/news/diversity-college-admissions-enrollment-nacac-2025/760807/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 214705,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cbdd8c792afab59cfab3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cbdd8c792afab59cfab3.txt",
+  "text_chars": 7170,
+  "text_words": 1120,
+  "extraction_status": "success",
+  "page_title": "Digging into diversity in college admissions",
+  "page_author": "Ben Unglesbee",
+  "page_date": "2025-09-23",
+  "site_name": "Higher Ed Dive",
+  "canonical_url": "https://www.highereddive.com/news/diversity-college-admissions-enrollment-nacac-2025/760807/"
+}

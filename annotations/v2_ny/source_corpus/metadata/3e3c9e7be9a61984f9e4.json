@@ -1,0 +1,20 @@
+{
+  "source_id": "3e3c9e7be9a61984f9e4",
+  "normalized_url": "https://cato.org/testimony/many-factors-play-minority-access-higher-education",
+  "fetch_timestamp_utc": "2026-10-04T02:37:22.403361+00:00",
+  "registrable_domain": "cato.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.cato.org/testimony/many-factors-play-minority-access-higher-education",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 885,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

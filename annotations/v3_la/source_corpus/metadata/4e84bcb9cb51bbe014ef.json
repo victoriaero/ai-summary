@@ -1,0 +1,28 @@
+{
+  "source_id": "4e84bcb9cb51bbe014ef",
+  "normalized_url": "https://ilo.org/resource/other/gender-and-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T03:36:28.442041+00:00",
+  "registrable_domain": "ilo.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ilo.org/resource/other/gender-and-financial-inclusion",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 67469,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/4e84bcb9cb51bbe014ef.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/4e84bcb9cb51bbe014ef.txt",
+  "text_chars": 9558,
+  "text_words": 1426,
+  "extraction_status": "success",
+  "page_title": "Gender and financial inclusion",
+  "page_author": null,
+  "page_date": "2025-02-27",
+  "site_name": "International Labour Organization",
+  "canonical_url": "https://www.ilo.org/resource/other/gender-and-financial-inclusion"
+}

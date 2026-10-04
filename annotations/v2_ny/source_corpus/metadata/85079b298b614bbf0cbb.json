@@ -1,0 +1,28 @@
+{
+  "source_id": "85079b298b614bbf0cbb",
+  "normalized_url": "https://newamerica.org/insights/financial-inclusion-and-access-within-the-latino-immigrant-community",
+  "fetch_timestamp_utc": "2026-10-04T02:43:16.337193+00:00",
+  "registrable_domain": "newamerica.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.newamerica.org/insights/financial-inclusion-and-access-within-the-latino-immigrant-community/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 92285,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/85079b298b614bbf0cbb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/85079b298b614bbf0cbb.txt",
+  "text_chars": 8026,
+  "text_words": 1143,
+  "extraction_status": "success",
+  "page_title": "Financial Inclusion and Access within the Latino Immigrant Community",
+  "page_author": "More About the Author Hannah Emple",
+  "page_date": "2013-06-04",
+  "site_name": "New America - Big Ideas and Bold Solutions",
+  "canonical_url": "https://www.newamerica.org/insights/financial-inclusion-and-access-within-the-latino-immigrant-community/"
+}

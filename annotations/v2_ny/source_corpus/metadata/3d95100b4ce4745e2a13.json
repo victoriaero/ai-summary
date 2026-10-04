@@ -1,0 +1,28 @@
+{
+  "source_id": "3d95100b4ce4745e2a13",
+  "normalized_url": "https://irp.wisc.edu/resource/making-the-u-s-safety-net-more-responsive-to-economic-downturns",
+  "fetch_timestamp_utc": "2026-10-04T02:37:18.851323+00:00",
+  "registrable_domain": "wisc.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.irp.wisc.edu/resource/making-the-u-s-safety-net-more-responsive-to-economic-downturns/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 65916,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3d95100b4ce4745e2a13.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3d95100b4ce4745e2a13.txt",
+  "text_chars": 11083,
+  "text_words": 1700,
+  "extraction_status": "success",
+  "page_title": "Making the U.S. Safety Net More Responsive to Economic Downturns",
+  "page_author": null,
+  "page_date": "2021-04-20",
+  "site_name": "INSTITUTE FOR RESEARCH ON POVERTY",
+  "canonical_url": "https://www.irp.wisc.edu/resource/making-the-u-s-safety-net-more-responsive-to-economic-downturns/"
+}

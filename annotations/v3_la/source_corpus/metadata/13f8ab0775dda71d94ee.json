@@ -1,0 +1,28 @@
+{
+  "source_id": "13f8ab0775dda71d94ee",
+  "normalized_url": "https://thehrcfoundation.org/professional-resources/discrimination-against-transgender-workers",
+  "fetch_timestamp_utc": "2026-10-04T03:32:14.902300+00:00",
+  "registrable_domain": "thehrcfoundation.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hrc.org:443/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 103195,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/13f8ab0775dda71d94ee.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/13f8ab0775dda71d94ee.txt",
+  "text_chars": 531,
+  "text_words": 46,
+  "extraction_status": "success",
+  "page_title": "The Human Rights Campaign | 4 Million Members Strong",
+  "page_author": null,
+  "page_date": "2020-06-02",
+  "site_name": "HRC",
+  "canonical_url": "https://www.hrc.org/"
+}

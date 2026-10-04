@@ -1,0 +1,960 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+
+	<script>
+	(function() {
+		var loaded = false;
+
+		function loadGA() {
+			if (loaded) return;
+			loaded = true;
+
+			var s = document.createElement('script');
+			s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-1596158-5';
+			s.async = true;
+			document.head.appendChild(s);
+
+			window.dataLayer = window.dataLayer || [];
+			window.gtag = function(){ dataLayer.push(arguments); };
+
+			gtag('js', new Date());
+			gtag('config', 'UA-1596158-5');
+		}
+
+		['scroll', 'mousemove', 'touchstart', 'keydown', 'click'].forEach(function(event) {
+			window.addEventListener(event, loadGA, { once: true });
+		});
+
+		window.addEventListener('load', function() {
+			setTimeout(loadGA, 1000);
+		});
+	})();
+	</script>
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>How Black Girls Are Harmed in Schools</title>
+<link data-rocket-prefetch href="https://www.google-analytics.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.gstatic.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://fonts.googleapis.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://kit.fontawesome.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cdn.mouseflow.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.google.com" rel="dns-prefetch"><link rel="preload" data-rocket-preload as="image" href="https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1.png" imagesrcset="https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1.png 786w, https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1-300x200.png 300w, https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1-768x511.png 768w, https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1-225x150.png 225w" imagesizes="(max-width: 786px) 100vw, 786px" fetchpriority="high">
+	<meta name="description" content="Research shows Black girls experience gender and race-based stereotypes and adultification bias. Here’s how that affects them in schools." />
+	<link rel="canonical" href="https://ewa.org/data-research-tips/how-black-girls-are-harmed-in-schools" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="How Black Girls Are Harmed in Schools" />
+	<meta property="og:description" content="Research shows Black girls experience gender and race-based stereotypes and adultification bias. Here’s how that affects them in schools." />
+	<meta property="og:url" content="https://ewa.org/data-research-tips/how-black-girls-are-harmed-in-schools" />
+	<meta property="og:site_name" content="ewa.org" />
+	<meta property="article:published_time" content="2024-08-13T17:25:37+00:00" />
+	<meta property="article:modified_time" content="2026-08-13T18:29:44+00:00" />
+	<meta property="og:image" content="https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1.png" />
+	<meta property="og:image:width" content="786" />
+	<meta property="og:image:height" content="523" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="author" content="Krissy" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Krissy" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="13 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools#article","isPartOf":{"@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools"},"author":{"name":"Krissy","@id":"https:\/\/ewa.org\/#\/schema\/person\/08eede64f07de321b8fc898ef4948783"},"headline":"Centering Black Girls in Media Coverage","datePublished":"2024-08-13T17:25:37+00:00","dateModified":"2026-08-13T18:29:44+00:00","mainEntityOfPage":{"@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools"},"wordCount":6,"image":{"@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools#primaryimage"},"thumbnailUrl":"https:\/\/ewa.org\/wp-content\/uploads\/2024\/08\/bigstock-Girl-holding-book-and-reading-193059022-1.png","articleSection":["Data &amp; Research Tips"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools","url":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools","name":"How Black Girls Are Harmed in Schools","isPartOf":{"@id":"https:\/\/ewa.org\/#website"},"primaryImageOfPage":{"@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools#primaryimage"},"image":{"@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools#primaryimage"},"thumbnailUrl":"https:\/\/ewa.org\/wp-content\/uploads\/2024\/08\/bigstock-Girl-holding-book-and-reading-193059022-1.png","datePublished":"2024-08-13T17:25:37+00:00","dateModified":"2026-08-13T18:29:44+00:00","author":{"@id":"https:\/\/ewa.org\/#\/schema\/person\/08eede64f07de321b8fc898ef4948783"},"description":"Research shows Black girls experience gender and race-based stereotypes and adultification bias. Here’s how that affects them in schools.","breadcrumb":{"@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools#primaryimage","url":"https:\/\/ewa.org\/wp-content\/uploads\/2024\/08\/bigstock-Girl-holding-book-and-reading-193059022-1.png","contentUrl":"https:\/\/ewa.org\/wp-content\/uploads\/2024\/08\/bigstock-Girl-holding-book-and-reading-193059022-1.png","width":786,"height":523,"caption":"Two Black elementary-aged girls sit at desks and read."},{"@type":"BreadcrumbList","@id":"https:\/\/ewa.org\/data-research-tips\/how-black-girls-are-harmed-in-schools#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Skills","item":"https:\/\/ewa.org\/skills"},{"@type":"ListItem","position":2,"name":"Centering Black Girls in Media Coverage"}]},{"@type":"WebSite","@id":"https:\/\/ewa.org\/#website","url":"https:\/\/ewa.org\/","name":"ewa.org","description":"ewa.org","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/ewa.org\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/ewa.org\/#\/schema\/person\/08eede64f07de321b8fc898ef4948783","name":"Krissy","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/21c1a003a98d288737a85ff37dd870ec50786888500657b5a1e9fb3ab977d82a?s=96&d=mm&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/21c1a003a98d288737a85ff37dd870ec50786888500657b5a1e9fb3ab977d82a?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/21c1a003a98d288737a85ff37dd870ec50786888500657b5a1e9fb3ab977d82a?s=96&d=mm&r=g","caption":"Krissy"},"description":"Managing editor for digital content","url":"https:\/\/ewa.org\/author\/kobeng"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//kit.fontawesome.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='givewp-campaign-blocks-fonts-css' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&#038;display=swap&#038;ver=7.1.2' media='all' />
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link data-minify="1" rel='stylesheet' id='wp-job-manager-job-listings-css' href='https://ewa.org/wp-content/cache/background-css/1/ewa.org/wp-content/cache/min/1/wp-content/plugins/wp-job-manager/assets/dist/css/job-listings.css?ver=1790377581&wpr_t=1791078194' media='all' />
+<link data-minify="1" rel='stylesheet' id='give-styles-css' href='https://ewa.org/wp-content/cache/background-css/1/ewa.org/wp-content/cache/min/1/wp-content/plugins/give/build/assets/dist/css/give.css?ver=1790377581&wpr_t=1791078194' media='all' />
+<link data-minify="1" rel='stylesheet' id='givewp-design-system-foundation-css' href='https://ewa.org/wp-content/cache/min/1/wp-content/plugins/give/build/assets/dist/css/design-system/foundation.css?ver=1790377581' media='all' />
+<link rel='stylesheet' id='give-salesforce-style-frontend-css' href='https://ewa.org/wp-content/plugins/give-salesforce/public/css/give-salesforce.css?ver=1.2.0' media='all' />
+<link data-minify="1" rel='stylesheet' id='give-authorize-css-css' href='https://ewa.org/wp-content/cache/min/1/wp-content/plugins/give-authorize-net/assets/css/give-authorize.css?ver=1790377581' media='all' />
+<link rel='stylesheet' id='give_recurring_css-css' href='https://ewa.org/wp-content/cache/background-css/1/ewa.org/wp-content/plugins/give-recurring/assets/css/give-recurring.min.css?ver=2.16.0&wpr_t=1791078194' media='all' />
+<link data-minify="1" rel='stylesheet' id='eva-style-css' href='https://ewa.org/wp-content/cache/min/1/wp-content/themes/ewa/style.css?ver=1790377581' media='all' />
+<link rel='stylesheet' id='eva-customScrollbar-css' href='https://ewa.org/wp-content/cache/background-css/1/ewa.org/wp-content/themes/ewa/assets/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css?ver=7.1.2&wpr_t=1791078194' media='all' />
+<link rel='stylesheet' id='eva-datepicker-css' href='https://ewa.org/wp-content/themes/ewa/assets/libs/js-datepicker/dist/datepicker.min.css?ver=7.1.2' media='all' />
+<link data-minify="1" rel='stylesheet' id='eva--main-style-css' href='https://ewa.org/wp-content/cache/background-css/1/ewa.org/wp-content/cache/min/1/wp-content/themes/ewa/assets/css/main.min.css?ver=1790377581&wpr_t=1791078194' media='all' />
+<link data-minify="1" rel='stylesheet' id='heateor_sss_frontend_css-css' href='https://ewa.org/wp-content/cache/background-css/1/ewa.org/wp-content/cache/min/1/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=1790377581&wpr_t=1791078194' media='all' />
+<style id="heateor_sss_frontend_css-inline-css">
+.heateor_sss_button_instagram span.heateor_sss_svg,a.heateor_sss_instagram span.heateor_sss_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}.heateor_sss_horizontal_sharing .heateor_sss_svg,.heateor_sss_standard_follow_icons_container .heateor_sss_svg{color:#fff;border-width:0px;border-style:solid;border-color:transparent}.heateor_sss_horizontal_sharing .heateorSssTCBackground{color:#666}.heateor_sss_horizontal_sharing span.heateor_sss_svg:hover,.heateor_sss_standard_follow_icons_container span.heateor_sss_svg:hover{border-color:transparent;}.heateor_sss_vertical_sharing span.heateor_sss_svg,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg{color:#fff;border-width:0px;border-style:solid;border-color:transparent;}.heateor_sss_vertical_sharing .heateorSssTCBackground{color:#666;}.heateor_sss_vertical_sharing span.heateor_sss_svg:hover,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg:hover{border-color:transparent;}@media screen and (max-width:783px) {.heateor_sss_vertical_sharing{display:none!important}}div.heateor_sss_mobile_footer{display:none;}@media screen and (max-width:783px){div.heateor_sss_bottom_sharing .heateorSssTCBackground{background-color:white}div.heateor_sss_bottom_sharing{width:100%!important;left:0!important;}div.heateor_sss_bottom_sharing a{width:11.111111111111% !important;}div.heateor_sss_bottom_sharing .heateor_sss_svg{width: 100% !important;}div.heateor_sss_bottom_sharing div.heateorSssTotalShareCount{font-size:1em!important;line-height:28px!important}div.heateor_sss_bottom_sharing div.heateorSssTotalShareText{font-size:.7em!important;line-height:0px!important}div.heateor_sss_mobile_footer{display:block;height:40px;}.heateor_sss_bottom_sharing{padding:0!important;display:block!important;width:auto!important;bottom:-2px!important;top: auto!important;}.heateor_sss_bottom_sharing .heateor_sss_square_count{line-height:inherit;}.heateor_sss_bottom_sharing .heateorSssSharingArrow{display:none;}.heateor_sss_bottom_sharing .heateorSssTCBackground{margin-right:1.1em!important}}
+/*# sourceURL=heateor_sss_frontend_css-inline-css */
+</style>
+<script id="jquery-core-js" src="https://ewa.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script type="text/rocketlazyloadscript" id="wp-hooks-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script type="text/rocketlazyloadscript" id="wp-i18n-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script type="text/rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="give-js-extra">
+var give_global_vars = {"ajaxurl":"https://ewa.org/wp-admin/admin-ajax.php","checkout_nonce":"19f6a294f3","currency":"USD","currency_sign":"$","currency_pos":"before","thousands_separator":",","decimal_separator":".","no_gateway":"Please select a payment method.","bad_minimum":"The minimum custom donation amount for this form is","bad_maximum":"The maximum custom donation amount for this form is","general_loading":"Loading...","purchase_loading":"Please Wait...","textForOverlayScreen":"\u003Ch3\u003EProcessing...\u003C/h3\u003E\u003Cp\u003EThis will only take a second!\u003C/p\u003E","number_decimals":"0","is_test_mode":"","give_version":"4.17.0","magnific_options":{"main_class":"give-modal","close_on_bg_click":false},"form_translation":{"payment-mode":"Please select payment mode.","give_first":"Please enter your first name.","give_last":"Please enter your last name.","give_email":"Please enter a valid email address.","give_user_login":"Invalid email address or username.","give_user_pass":"Enter a password.","give_user_pass_confirm":"Enter the password confirmation.","give_agree_to_terms":"You must agree to the terms and conditions."},"confirm_email_sent_message":"Please check your email and click on the link to access your complete donation history.","ajax_vars":{"ajaxurl":"https://ewa.org/wp-admin/admin-ajax.php","ajaxNonce":"919c3b88f4","loading":"Loading","select_option":"Please select an option","default_gateway":"authorize","permalinks":"1","number_decimals":0},"cookie_hash":"34d0045454bd4074da711141f73bc7c8","session_nonce_cookie_name":"wp-give_session_reset_nonce_34d0045454bd4074da711141f73bc7c8","session_cookie_name":"wp-give_session_34d0045454bd4074da711141f73bc7c8","delete_session_nonce_cookie":"0"};
+var giveApiSettings = {"root":"https://ewa.org/wp-json/give-api/v2/","rest_base":"give-api/v2"};
+//# sourceURL=give-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="give-js" data-rocket-src="https://ewa.org/wp-content/cache/min/1/wp-content/plugins/give/build/assets/dist/js/give.js?ver=1790377581"></script>
+<script id="give_recurring_script-js-extra">
+var Give_Recurring_Vars = {"email_access":"1","pretty_intervals":{"1":"Every","2":"Every two","3":"Every three","4":"Every four","5":"Every five","6":"Every six"},"pretty_periods":{"day":"Daily","week":"Weekly","month":"Monthly","quarter":"Quarterly","half-year":"Semi-Annually","year":"Yearly"},"messages":{"daily_forbidden":"The selected payment method does not support daily recurring giving. Please select another payment method or supported giving frequency.","confirm_cancel":"Are you sure you want to cancel this subscription?"},"multi_level_message_pre_text":"You have chosen to donate"};
+//# sourceURL=give_recurring_script-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="give_recurring_script-js" data-rocket-src="https://ewa.org/wp-content/plugins/give-recurring/assets/js/give-recurring.min.js?ver=2.16.0"></script>
+<script id="theme_ajax_filter-js-extra">
+var ajax_filter_params = {"ajaxurl":"https://ewa.org/wp-admin/admin-ajax.php","posts":"{\"page\":0,\"name\":\"how-black-girls-are-harmed-in-schools\",\"category_name\":\"data-research-tips\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"orderby\":\"menu_order\",\"order\":\"ASC\",\"parsed_rml_folder\":0,\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":9,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"use_rml_folder\":false}","current_page":"1","max_page":"0","filterKeys":["category","partition","position","watch-and-listen_topics","date-start","date-end","parts","members-news_topics","type","events_topics","unit","awards_topics","rank","post_type_filter"]};
+//# sourceURL=theme_ajax_filter-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="theme_ajax_filter-js" data-rocket-src="https://ewa.org/wp-content/cache/min/1/wp-content/themes/ewa/inc/AjaxFilter/assets/js/ajax_filter.js?ver=1790377581"></script>
+<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//ewa.org/?wordfence_lh=1&hid=0A6552980EEB294693F17C9472FF3914');
+</script><meta name="generator" content="Give v4.17.0" />
+    <script type="text/rocketlazyloadscript">
+    document.addEventListener('DOMContentLoaded', function () {
+        var firstItems  = document.querySelectorAll('.first__floor > li');
+        var secondItems = document.querySelectorAll('.first__floor > li > ul > li');
+        var thirdItems  = document.querySelectorAll('.first__floor > li > ul > li > ul > li');
+
+        if (firstItems.length) {
+            firstItems.forEach(function (li) {
+                li.classList.add('first__floor--item');
+            });
+            // ul.first__floor
+            var parent = firstItems[0].parentNode;
+            if (parent) {
+                parent.classList.add('visible');
+            }
+        }
+
+        if (secondItems.length) {
+            secondItems.forEach(function (li) {
+                li.classList.add('second__floor--item');
+                if (li.parentNode) {
+                    li.parentNode.classList.add('second__floor');
+                }
+            });
+        }
+
+        if (thirdItems.length) {
+            thirdItems.forEach(function (li) {
+                li.classList.add('third__floor--item');
+                if (li.parentNode) {
+                    li.parentNode.classList.add('third__floor');
+                }
+            });
+        }
+    });
+    </script>
+    <link rel="icon" href="https://ewa.org/wp-content/uploads/2022/01/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://ewa.org/wp-content/uploads/2022/01/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ewa.org/wp-content/uploads/2022/01/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://ewa.org/wp-content/uploads/2022/01/cropped-favicon-270x270.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>	
+<style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><style id="wpr-lazyload-bg-container"></style><style id="wpr-lazyload-bg-exclusion">.btn--global::before{--wpr-bg-4646ef4d-1ace-45d2-810c-31fb6c540d19: url('https://ewa.org/wp-content/themes/ewa/assets/img/arrow-global.png');}.btn--arrow::after{--wpr-bg-9bf9f7c6-e156-4c0d-8e54-5a10e7f0d6f4: url('https://ewa.org/wp-content/themes/ewa/assets/img/btn-arrow.png');}.header__menu .first__floor--item.simple-menu .second__floor::before{--wpr-bg-5fc5c104-d800-431e-a5bb-5d7aade49c3c: url('https://ewa.org/wp-content/themes/ewa/assets/img/rectangle.png');}.header__menu .first__floor--item.mega-menu .second__floor::before{--wpr-bg-e553bf13-8e0b-4f5a-8446-43902bb37143: url('https://ewa.org/wp-content/themes/ewa/assets/img/rectangle.png');}.carousel-tabs__nav--btn a::before{--wpr-bg-859decdd-e916-4b7f-8329-679829ff7619: url('https://ewa.org/wp-content/themes/ewa/assets/img/arrow-global.png');}.main-webinars__mobile--item.video-type .main-webinars__mobile--image a::before{--wpr-bg-184c952b-33f7-4743-b80e-693e687c2896: url('https://ewa.org/wp-content/themes/ewa/assets/img/video.png');}.main-webinars__big.video-type .main-webinars__big--image a::before{--wpr-bg-bbd6adec-492c-4445-91b6-337034f75bb2: url('https://ewa.org/wp-content/themes/ewa/assets/img/video.png');}.main-webinars__item.video-type .main-webinars__image a::before{--wpr-bg-91f97682-1df8-4e16-bb72-601dd90c0629: url('https://ewa.org/wp-content/themes/ewa/assets/img/video.png');}.watch-and-listen-PT__filter--topics::before{--wpr-bg-34bf50e9-ead5-4a3e-994e-d41978532dbb: url('https://ewa.org/wp-content/themes/ewa/assets/img/rectangle.png');}.watch-and-listen.video-detail .single-post__bg--date::before{--wpr-bg-016f696c-2501-4c7e-b0fc-1658027e3352: url('https://ewa.org/wp-content/themes/ewa/assets/img/video.png');}</style>
+<noscript>
+<style id="wpr-lazyload-bg-nostyle">.rp4wp-related-job_listing>ul.loading,ul.job_listings.loading{--wpr-bg-8850ab6e-97a9-428a-8a67-35fd27b448ff: url('https://ewa.org/wp-content/plugins/wp-job-manager/assets/dist/images/ajax-loader.ea183bf2.gif');}#give_purchase_form_wrap span.card-type.dankort{--wpr-bg-b3b1b14e-ca5d-45b5-b622-7a747e581e54: url('https://ewa.org/wp-content/plugins/give/build/images/dankort.b2d8eb77.png');}#give_purchase_form_wrap input.give-input.card-cvc.valid,#give_purchase_form_wrap input.give-input.card-expiry.valid,#give_purchase_form_wrap input.give-input.card-number.valid{--wpr-bg-3d1672c9-c057-4413-a132-1ffa788b52e0: url('https://ewa.org/wp-content/plugins/give/build/images/tick.9cdce16f.png');}#give_purchase_form_wrap span.give-recurring-updated-card-type.visa{--wpr-bg-4492e12a-2622-46ab-ade0-b1e9637aff6d: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/visa.svg?8dbfffa012ab1f5a71953fcdc2091b9f');}#give_purchase_form_wrap span.give-recurring-updated-card-type.mastercard{--wpr-bg-53f776a3-7a56-4a59-ac4e-ad179cad2db5: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/mastercard.svg?9be973e571d5aec165d2cf3aa7294557');}#give_purchase_form_wrap span.give-recurring-updated-card-type.discover{--wpr-bg-88705367-a201-4d9b-b03e-916586ce39b8: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/discover.svg?c2d662dd87970d66d646cb2e468c48ee');}#give_purchase_form_wrap span.give-recurring-updated-card-type.amex{--wpr-bg-bdc080cb-6009-4a6b-b6cf-c03925b1b061: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/amex.svg?8e84b54045dc0599d22d3e36f38dd34b');}#give_purchase_form_wrap span.give-recurring-updated-card-type.maestro{--wpr-bg-aa14d5c4-1eca-4f06-b486-964eec737d6d: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/maestro.svg?83c8727331612b4c7a27b1fdce171407');}#give_purchase_form_wrap span.give-recurring-updated-card-type.dinersclub{--wpr-bg-0a880b14-ecac-4b5a-b4e0-26a1f7b3c62a: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/diners-club.svg?79a96288676a9d1d4824b46650288865');}#give_purchase_form_wrap span.give-recurring-updated-card-type.jcb{--wpr-bg-0de43b06-1ea0-457e-be68-3a6f1e894326: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/jcb.svg?3cba58c52ba7e08edd072f442670d5ee');}#give_purchase_form_wrap span.give-recurring-updated-card-type.dankort{--wpr-bg-2d88a19f-8506-4342-9040-0faf66ffbdf7: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/dankort.png?b2d8eb7774c03915f58dbf4d25968cae');}#give_purchase_form_wrap span.give-recurring-updated-card-type.unionpay{--wpr-bg-41731eb8-355e-4184-861f-ec9076944124: url('https://ewa.org/wp-content/plugins/give-recurring/assets/images/unionpay.svg?5f398145dd3dfd09499bf68c0040a03a');}.mCSB_scrollTools .mCSB_buttonDown,.mCSB_scrollTools .mCSB_buttonLeft,.mCSB_scrollTools .mCSB_buttonRight,.mCSB_scrollTools .mCSB_buttonUp{--wpr-bg-0f88b8b3-ed1b-44d7-9e8e-8f080af6f7dd: url('https://ewa.org/wp-content/themes/ewa/assets/libs/malihu-custom-scrollbar-plugin/mCSB_buttons.png');}.slick-loading .slick-list{--wpr-bg-ba50a679-ca11-4701-b1f5-e463240d3d62: url('https://ewa.org/wp-content/themes/ewa/assets/css/ajax-loader.gif');}.section__content ul.bulleted__image li::before{--wpr-bg-d965d8e5-18c2-448e-bf7c-846e7904adde: url('https://ewa.org/wp-content/themes/ewa/assets/img/bullet.png');}.html-content ul.bulleted__image li::before,.job_description ul.bulleted__image li::before{--wpr-bg-7af41149-6b69-459b-94f5-c5c87c8d4f1c: url('https://ewa.org/wp-content/themes/ewa/assets/img/bullet.png');}.give-address__donate::before{--wpr-bg-cf12fa55-be32-4fff-9e8e-0e23196e3e3a: url('https://ewa.org/wp-content/themes/ewa/assets/img/location_donate.png');}.give-address__donate--mobile::before{--wpr-bg-61892e7b-e585-4951-839c-6f86564050fa: url('https://ewa.org/wp-content/themes/ewa/assets/img/location_donate.png');}.give-wrap .give-form-wrap .give-goal-progress::before{--wpr-bg-ee5d1cef-aaa5-43df-ba79-d15622746f74: url('https://ewa.org/wp-content/themes/ewa/assets/img/donate/progres-icon.png');}.schedule__time::before{--wpr-bg-134fc401-e441-4ab0-af2c-11977f99fe2e: url('https://ewa.org/wp-content/themes/ewa/assets/img/time.png');}.main-slider__video--link a span::before{--wpr-bg-9b98e488-05e0-4f2a-a228-97b8d630fe5f: url('https://ewa.org/wp-content/themes/ewa/assets/img/arr_slide.png');}.main-slider__title h2 span::before{--wpr-bg-921683ba-5ec1-4f3a-802a-c87f20105964: url('https://ewa.org/wp-content/themes/ewa/assets/img/arr_slide.png');}.main-webinars__mobile--item.audio-type .main-webinars__mobile--image a::before{--wpr-bg-66ad75c8-1646-4844-a6cd-2a280387b905: url('https://ewa.org/wp-content/themes/ewa/assets/img/audio.png');}.main-webinars__big.audio-type .main-webinars__big--image a::before{--wpr-bg-b89975a7-1763-4a8c-a9ec-cbf550127cf6: url('https://ewa.org/wp-content/themes/ewa/assets/img/audio.png');}.main-webinars__item.audio-type .main-webinars__image a::before{--wpr-bg-6d907918-4f2c-42f0-a171-cd6fc0e296c2: url('https://ewa.org/wp-content/themes/ewa/assets/img/audio.png');}.search-page__filter .watch-and-listen-PT__filter--title::before{--wpr-bg-e829ea58-333c-4500-a69c-89560147c610: url('https://ewa.org/wp-content/themes/ewa/assets/img/down_white.png');}.search-page .watch-and-listen-PT__filter--title::before{--wpr-bg-5957f573-53bd-4c31-a292-57fa4cdcedca: url('https://ewa.org/wp-content/themes/ewa/assets/img/arr-listen.png');}.post-a-job__shortcode .contact-form__date--elem::before{--wpr-bg-3f386d9e-3df8-4aba-bb9e-a564abfd41c3: url('https://ewa.org/wp-content/themes/ewa/assets/img/calendar.png');}.watch-and-listen-PT__filter--title::before{--wpr-bg-86baba76-7adb-4745-80a5-715435fc228e: url('https://ewa.org/wp-content/themes/ewa/assets/img/arr-listen.png');}.watch-and-listen-PT__filter--end::before,.watch-and-listen-PT__filter--start::before{--wpr-bg-643b5bc5-f210-4ac6-ac47-8640c1ca7860: url('https://ewa.org/wp-content/themes/ewa/assets/img/calendar.png');}.watch-and-listen .single-post__bg--date::before{--wpr-bg-b5b13db7-9b93-4816-a05e-85e2ca6643e9: url('https://ewa.org/wp-content/themes/ewa/assets/img/watch.png');}.upcoming__nav .btn--arrow::after{--wpr-bg-c7fb81ff-503c-4edf-9a36-aa3284d58f10: url('https://ewa.org/wp-content/themes/ewa/assets/img/arr_upcoming.png');}.section-bg-events__countdown--title ul.bulleted__image li::before{--wpr-bg-f1a3b330-e0a5-42e9-8b38-8c4dd35f1a22: url('https://ewa.org/wp-content/themes/ewa/assets/img/bullet.png');}.event-detail .carousel-tabs__mobile::before{--wpr-bg-2e14affa-3412-4fb7-8832-656dc25ddb04: url('https://ewa.org/wp-content/themes/ewa/assets/img/arr-listen.png');}#heateor_sss_mastodon_popup_bg,#heateor_sss_popup_bg{--wpr-bg-779ea44f-738c-4a0d-9761-e3da54cfe520: url('https://ewa.org/wp-content/plugins/sassy-social-share/images/transparent_bg.png');}</style>
+</noscript>
+<script type="application/javascript">const rocket_pairs = [{"selector":".rp4wp-related-job_listing>ul.loading,ul.job_listings.loading","style":".rp4wp-related-job_listing>ul.loading,ul.job_listings.loading{--wpr-bg-8850ab6e-97a9-428a-8a67-35fd27b448ff: url('https:\/\/ewa.org\/wp-content\/plugins\/wp-job-manager\/assets\/dist\/images\/ajax-loader.ea183bf2.gif');}","hash":"8850ab6e-97a9-428a-8a67-35fd27b448ff","url":"https:\/\/ewa.org\/wp-content\/plugins\/wp-job-manager\/assets\/dist\/images\/ajax-loader.ea183bf2.gif"},{"selector":"#give_purchase_form_wrap span.card-type.dankort","style":"#give_purchase_form_wrap span.card-type.dankort{--wpr-bg-b3b1b14e-ca5d-45b5-b622-7a747e581e54: url('https:\/\/ewa.org\/wp-content\/plugins\/give\/build\/images\/dankort.b2d8eb77.png');}","hash":"b3b1b14e-ca5d-45b5-b622-7a747e581e54","url":"https:\/\/ewa.org\/wp-content\/plugins\/give\/build\/images\/dankort.b2d8eb77.png"},{"selector":"#give_purchase_form_wrap input.give-input.card-cvc.valid,#give_purchase_form_wrap input.give-input.card-expiry.valid,#give_purchase_form_wrap input.give-input.card-number.valid","style":"#give_purchase_form_wrap input.give-input.card-cvc.valid,#give_purchase_form_wrap input.give-input.card-expiry.valid,#give_purchase_form_wrap input.give-input.card-number.valid{--wpr-bg-3d1672c9-c057-4413-a132-1ffa788b52e0: url('https:\/\/ewa.org\/wp-content\/plugins\/give\/build\/images\/tick.9cdce16f.png');}","hash":"3d1672c9-c057-4413-a132-1ffa788b52e0","url":"https:\/\/ewa.org\/wp-content\/plugins\/give\/build\/images\/tick.9cdce16f.png"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.visa","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.visa{--wpr-bg-4492e12a-2622-46ab-ade0-b1e9637aff6d: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/visa.svg?8dbfffa012ab1f5a71953fcdc2091b9f');}","hash":"4492e12a-2622-46ab-ade0-b1e9637aff6d","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/visa.svg?8dbfffa012ab1f5a71953fcdc2091b9f"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.mastercard","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.mastercard{--wpr-bg-53f776a3-7a56-4a59-ac4e-ad179cad2db5: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/mastercard.svg?9be973e571d5aec165d2cf3aa7294557');}","hash":"53f776a3-7a56-4a59-ac4e-ad179cad2db5","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/mastercard.svg?9be973e571d5aec165d2cf3aa7294557"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.discover","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.discover{--wpr-bg-88705367-a201-4d9b-b03e-916586ce39b8: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/discover.svg?c2d662dd87970d66d646cb2e468c48ee');}","hash":"88705367-a201-4d9b-b03e-916586ce39b8","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/discover.svg?c2d662dd87970d66d646cb2e468c48ee"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.amex","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.amex{--wpr-bg-bdc080cb-6009-4a6b-b6cf-c03925b1b061: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/amex.svg?8e84b54045dc0599d22d3e36f38dd34b');}","hash":"bdc080cb-6009-4a6b-b6cf-c03925b1b061","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/amex.svg?8e84b54045dc0599d22d3e36f38dd34b"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.maestro","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.maestro{--wpr-bg-aa14d5c4-1eca-4f06-b486-964eec737d6d: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/maestro.svg?83c8727331612b4c7a27b1fdce171407');}","hash":"aa14d5c4-1eca-4f06-b486-964eec737d6d","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/maestro.svg?83c8727331612b4c7a27b1fdce171407"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.dinersclub","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.dinersclub{--wpr-bg-0a880b14-ecac-4b5a-b4e0-26a1f7b3c62a: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/diners-club.svg?79a96288676a9d1d4824b46650288865');}","hash":"0a880b14-ecac-4b5a-b4e0-26a1f7b3c62a","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/diners-club.svg?79a96288676a9d1d4824b46650288865"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.jcb","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.jcb{--wpr-bg-0de43b06-1ea0-457e-be68-3a6f1e894326: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/jcb.svg?3cba58c52ba7e08edd072f442670d5ee');}","hash":"0de43b06-1ea0-457e-be68-3a6f1e894326","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/jcb.svg?3cba58c52ba7e08edd072f442670d5ee"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.dankort","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.dankort{--wpr-bg-2d88a19f-8506-4342-9040-0faf66ffbdf7: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/dankort.png?b2d8eb7774c03915f58dbf4d25968cae');}","hash":"2d88a19f-8506-4342-9040-0faf66ffbdf7","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/dankort.png?b2d8eb7774c03915f58dbf4d25968cae"},{"selector":"#give_purchase_form_wrap span.give-recurring-updated-card-type.unionpay","style":"#give_purchase_form_wrap span.give-recurring-updated-card-type.unionpay{--wpr-bg-41731eb8-355e-4184-861f-ec9076944124: url('https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/unionpay.svg?5f398145dd3dfd09499bf68c0040a03a');}","hash":"41731eb8-355e-4184-861f-ec9076944124","url":"https:\/\/ewa.org\/wp-content\/plugins\/give-recurring\/assets\/images\/unionpay.svg?5f398145dd3dfd09499bf68c0040a03a"},{"selector":".mCSB_scrollTools .mCSB_buttonDown,.mCSB_scrollTools .mCSB_buttonLeft,.mCSB_scrollTools .mCSB_buttonRight,.mCSB_scrollTools .mCSB_buttonUp","style":".mCSB_scrollTools .mCSB_buttonDown,.mCSB_scrollTools .mCSB_buttonLeft,.mCSB_scrollTools .mCSB_buttonRight,.mCSB_scrollTools .mCSB_buttonUp{--wpr-bg-0f88b8b3-ed1b-44d7-9e8e-8f080af6f7dd: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/libs\/malihu-custom-scrollbar-plugin\/mCSB_buttons.png');}","hash":"0f88b8b3-ed1b-44d7-9e8e-8f080af6f7dd","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/libs\/malihu-custom-scrollbar-plugin\/mCSB_buttons.png"},{"selector":".slick-loading .slick-list","style":".slick-loading .slick-list{--wpr-bg-ba50a679-ca11-4701-b1f5-e463240d3d62: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/css\/ajax-loader.gif');}","hash":"ba50a679-ca11-4701-b1f5-e463240d3d62","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/css\/ajax-loader.gif"},{"selector":".section__content ul.bulleted__image li","style":".section__content ul.bulleted__image li::before{--wpr-bg-d965d8e5-18c2-448e-bf7c-846e7904adde: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/bullet.png');}","hash":"d965d8e5-18c2-448e-bf7c-846e7904adde","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/bullet.png"},{"selector":".html-content ul.bulleted__image li,.job_description ul.bulleted__image li","style":".html-content ul.bulleted__image li::before,.job_description ul.bulleted__image li::before{--wpr-bg-7af41149-6b69-459b-94f5-c5c87c8d4f1c: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/bullet.png');}","hash":"7af41149-6b69-459b-94f5-c5c87c8d4f1c","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/bullet.png"},{"selector":".give-address__donate","style":".give-address__donate::before{--wpr-bg-cf12fa55-be32-4fff-9e8e-0e23196e3e3a: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/location_donate.png');}","hash":"cf12fa55-be32-4fff-9e8e-0e23196e3e3a","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/location_donate.png"},{"selector":".give-address__donate--mobile","style":".give-address__donate--mobile::before{--wpr-bg-61892e7b-e585-4951-839c-6f86564050fa: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/location_donate.png');}","hash":"61892e7b-e585-4951-839c-6f86564050fa","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/location_donate.png"},{"selector":".give-wrap .give-form-wrap .give-goal-progress","style":".give-wrap .give-form-wrap .give-goal-progress::before{--wpr-bg-ee5d1cef-aaa5-43df-ba79-d15622746f74: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/donate\/progres-icon.png');}","hash":"ee5d1cef-aaa5-43df-ba79-d15622746f74","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/donate\/progres-icon.png"},{"selector":".schedule__time","style":".schedule__time::before{--wpr-bg-134fc401-e441-4ab0-af2c-11977f99fe2e: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/time.png');}","hash":"134fc401-e441-4ab0-af2c-11977f99fe2e","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/time.png"},{"selector":".main-slider__video--link a span","style":".main-slider__video--link a span::before{--wpr-bg-9b98e488-05e0-4f2a-a228-97b8d630fe5f: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr_slide.png');}","hash":"9b98e488-05e0-4f2a-a228-97b8d630fe5f","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr_slide.png"},{"selector":".main-slider__title h2 span","style":".main-slider__title h2 span::before{--wpr-bg-921683ba-5ec1-4f3a-802a-c87f20105964: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr_slide.png');}","hash":"921683ba-5ec1-4f3a-802a-c87f20105964","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr_slide.png"},{"selector":".main-webinars__mobile--item.audio-type .main-webinars__mobile--image a","style":".main-webinars__mobile--item.audio-type .main-webinars__mobile--image a::before{--wpr-bg-66ad75c8-1646-4844-a6cd-2a280387b905: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/audio.png');}","hash":"66ad75c8-1646-4844-a6cd-2a280387b905","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/audio.png"},{"selector":".main-webinars__big.audio-type .main-webinars__big--image a","style":".main-webinars__big.audio-type .main-webinars__big--image a::before{--wpr-bg-b89975a7-1763-4a8c-a9ec-cbf550127cf6: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/audio.png');}","hash":"b89975a7-1763-4a8c-a9ec-cbf550127cf6","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/audio.png"},{"selector":".main-webinars__item.audio-type .main-webinars__image a","style":".main-webinars__item.audio-type .main-webinars__image a::before{--wpr-bg-6d907918-4f2c-42f0-a171-cd6fc0e296c2: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/audio.png');}","hash":"6d907918-4f2c-42f0-a171-cd6fc0e296c2","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/audio.png"},{"selector":".search-page__filter .watch-and-listen-PT__filter--title","style":".search-page__filter .watch-and-listen-PT__filter--title::before{--wpr-bg-e829ea58-333c-4500-a69c-89560147c610: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/down_white.png');}","hash":"e829ea58-333c-4500-a69c-89560147c610","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/down_white.png"},{"selector":".search-page .watch-and-listen-PT__filter--title","style":".search-page .watch-and-listen-PT__filter--title::before{--wpr-bg-5957f573-53bd-4c31-a292-57fa4cdcedca: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr-listen.png');}","hash":"5957f573-53bd-4c31-a292-57fa4cdcedca","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr-listen.png"},{"selector":".post-a-job__shortcode .contact-form__date--elem","style":".post-a-job__shortcode .contact-form__date--elem::before{--wpr-bg-3f386d9e-3df8-4aba-bb9e-a564abfd41c3: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/calendar.png');}","hash":"3f386d9e-3df8-4aba-bb9e-a564abfd41c3","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/calendar.png"},{"selector":".watch-and-listen-PT__filter--title","style":".watch-and-listen-PT__filter--title::before{--wpr-bg-86baba76-7adb-4745-80a5-715435fc228e: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr-listen.png');}","hash":"86baba76-7adb-4745-80a5-715435fc228e","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr-listen.png"},{"selector":".watch-and-listen-PT__filter--end,.watch-and-listen-PT__filter--start","style":".watch-and-listen-PT__filter--end::before,.watch-and-listen-PT__filter--start::before{--wpr-bg-643b5bc5-f210-4ac6-ac47-8640c1ca7860: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/calendar.png');}","hash":"643b5bc5-f210-4ac6-ac47-8640c1ca7860","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/calendar.png"},{"selector":".watch-and-listen .single-post__bg--date","style":".watch-and-listen .single-post__bg--date::before{--wpr-bg-b5b13db7-9b93-4816-a05e-85e2ca6643e9: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/watch.png');}","hash":"b5b13db7-9b93-4816-a05e-85e2ca6643e9","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/watch.png"},{"selector":".upcoming__nav .btn--arrow","style":".upcoming__nav .btn--arrow::after{--wpr-bg-c7fb81ff-503c-4edf-9a36-aa3284d58f10: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr_upcoming.png');}","hash":"c7fb81ff-503c-4edf-9a36-aa3284d58f10","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr_upcoming.png"},{"selector":".section-bg-events__countdown--title ul.bulleted__image li","style":".section-bg-events__countdown--title ul.bulleted__image li::before{--wpr-bg-f1a3b330-e0a5-42e9-8b38-8c4dd35f1a22: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/bullet.png');}","hash":"f1a3b330-e0a5-42e9-8b38-8c4dd35f1a22","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/bullet.png"},{"selector":".event-detail .carousel-tabs__mobile","style":".event-detail .carousel-tabs__mobile::before{--wpr-bg-2e14affa-3412-4fb7-8832-656dc25ddb04: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr-listen.png');}","hash":"2e14affa-3412-4fb7-8832-656dc25ddb04","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arr-listen.png"},{"selector":"#heateor_sss_mastodon_popup_bg,#heateor_sss_popup_bg","style":"#heateor_sss_mastodon_popup_bg,#heateor_sss_popup_bg{--wpr-bg-779ea44f-738c-4a0d-9761-e3da54cfe520: url('https:\/\/ewa.org\/wp-content\/plugins\/sassy-social-share\/images\/transparent_bg.png');}","hash":"779ea44f-738c-4a0d-9761-e3da54cfe520","url":"https:\/\/ewa.org\/wp-content\/plugins\/sassy-social-share\/images\/transparent_bg.png"}]; const rocket_excluded_pairs = [{"selector":".btn--global","style":".btn--global::before{--wpr-bg-4646ef4d-1ace-45d2-810c-31fb6c540d19: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arrow-global.png');}","hash":"4646ef4d-1ace-45d2-810c-31fb6c540d19","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arrow-global.png"},{"selector":".btn--arrow","style":".btn--arrow::after{--wpr-bg-9bf9f7c6-e156-4c0d-8e54-5a10e7f0d6f4: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/btn-arrow.png');}","hash":"9bf9f7c6-e156-4c0d-8e54-5a10e7f0d6f4","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/btn-arrow.png"},{"selector":".header__menu .first__floor--item.simple-menu .second__floor","style":".header__menu .first__floor--item.simple-menu .second__floor::before{--wpr-bg-5fc5c104-d800-431e-a5bb-5d7aade49c3c: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/rectangle.png');}","hash":"5fc5c104-d800-431e-a5bb-5d7aade49c3c","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/rectangle.png"},{"selector":".header__menu .first__floor--item.mega-menu .second__floor","style":".header__menu .first__floor--item.mega-menu .second__floor::before{--wpr-bg-e553bf13-8e0b-4f5a-8446-43902bb37143: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/rectangle.png');}","hash":"e553bf13-8e0b-4f5a-8446-43902bb37143","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/rectangle.png"},{"selector":".carousel-tabs__nav--btn a","style":".carousel-tabs__nav--btn a::before{--wpr-bg-859decdd-e916-4b7f-8329-679829ff7619: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arrow-global.png');}","hash":"859decdd-e916-4b7f-8329-679829ff7619","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/arrow-global.png"},{"selector":".main-webinars__mobile--item.video-type .main-webinars__mobile--image a","style":".main-webinars__mobile--item.video-type .main-webinars__mobile--image a::before{--wpr-bg-184c952b-33f7-4743-b80e-693e687c2896: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/video.png');}","hash":"184c952b-33f7-4743-b80e-693e687c2896","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/video.png"},{"selector":".main-webinars__big.video-type .main-webinars__big--image a","style":".main-webinars__big.video-type .main-webinars__big--image a::before{--wpr-bg-bbd6adec-492c-4445-91b6-337034f75bb2: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/video.png');}","hash":"bbd6adec-492c-4445-91b6-337034f75bb2","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/video.png"},{"selector":".main-webinars__item.video-type .main-webinars__image a","style":".main-webinars__item.video-type .main-webinars__image a::before{--wpr-bg-91f97682-1df8-4e16-bb72-601dd90c0629: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/video.png');}","hash":"91f97682-1df8-4e16-bb72-601dd90c0629","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/video.png"},{"selector":".watch-and-listen-PT__filter--topics","style":".watch-and-listen-PT__filter--topics::before{--wpr-bg-34bf50e9-ead5-4a3e-994e-d41978532dbb: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/rectangle.png');}","hash":"34bf50e9-ead5-4a3e-994e-d41978532dbb","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/rectangle.png"},{"selector":".watch-and-listen.video-detail .single-post__bg--date","style":".watch-and-listen.video-detail .single-post__bg--date::before{--wpr-bg-016f696c-2501-4c7e-b0fc-1658027e3352: url('https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/video.png');}","hash":"016f696c-2501-4c7e-b0fc-1658027e3352","url":"https:\/\/ewa.org\/wp-content\/themes\/ewa\/assets\/img\/video.png"}];</script><meta name="generator" content="WP Rocket 3.23.3.3" data-wpr-features="wpr_lazyload_css_bg_img wpr_delay_js wpr_minify_js wpr_lazyload_images wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_image_dimensions wpr_minify_css wpr_cdn wpr_preload_links wpr_desktop" /></head>
+
+
+<body class="wp-singular post-template-default single single-post postid-25170 single-format-standard wp-theme-ewa give-recurring education-writers-association">
+	<header  class="header">
+		<div  class="container">
+			<div  class="header__wrapper">
+				<div class="header__logo">
+					<a href="https://ewa.org/" aria-label="logo">
+						<svg width="181" height="56" viewBox="0 0 181 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M55.417 10.4666C57.6849 10.2776 58.5354 30.1216 59.6693 36.0748C59.9528 37.3977 54.7556 37.5867 54.8501 36.4528C54.9446 28.7986 53.9051 10.561 55.417 10.4666Z" fill="white"/>
+							<path d="M14.3117 15.7585L32.9273 21.2392L53.0548 15.7585V27.8539C45.4007 32.7676 24.8952 34.563 14.3117 27.8539V15.7585Z" fill="white"/>
+							<path id="svg_id" d="M0.610352 10.1832L32.8332 0.828125L65.6231 10.1832L33.1167 19.6327L0.610352 10.1832Z" fill="#FEBC11"/>
+							<path d="M24.2341 2.24392C24.2341 2.24392 24.3286 2.24391 24.3286 2.33841C24.3286 2.05492 24.5176 1.86594 24.8956 1.77145C25.557 1.58246 26.7855 1.86594 27.7304 2.43291C27.9194 2.52741 28.0139 2.6219 28.2029 2.7164C28.2974 2.81089 28.4864 2.90539 28.5809 2.99989C28.6754 3.09438 28.7699 3.18887 28.7699 3.28336C28.3919 3.47235 28.2974 3.66136 28.3919 3.94484C28.3919 4.03934 28.4864 4.22832 28.6754 4.32282C28.8644 4.41731 29.0534 4.51181 29.2423 4.6063C29.8093 4.7953 30.4708 4.88978 30.9433 4.70079C31.2268 4.6063 31.3213 4.51181 31.5103 4.41732C31.6047 4.32282 31.6992 4.13383 31.6047 3.94484C31.6047 3.85035 31.5103 3.85033 31.5103 3.75584C31.5103 3.66134 31.4157 3.66135 31.3212 3.56685C31.1323 3.47236 30.9433 3.37786 30.7543 3.28336C30.5653 3.18887 30.3763 3.18888 30.1873 3.18888C30.0928 2.99989 29.9038 2.90539 29.8093 2.7164C29.7148 2.6219 29.6203 2.52741 29.4313 2.43291C29.3368 2.33842 29.2424 2.24392 29.1479 2.24392C29.0534 2.24392 29.0534 2.14942 28.9589 2.14942C28.3919 1.77144 27.8249 1.58246 27.1635 1.29897C26.124 1.01548 24.9901 0.920992 24.0451 1.10998C23.4781 1.29897 23.1947 1.48795 23.0057 1.86593C23.0057 1.86593 23.0057 1.86594 23.0057 1.96043C23.1002 1.96043 23.1002 1.96044 23.1946 2.05494C23.5726 2.05494 23.9506 2.14943 24.2341 2.24392Z" fill="white"/>
+							<path d="M20.0751 3.47056C20.0751 3.47056 20.1696 3.47055 20.1696 3.56504C20.1696 3.28156 20.3586 3.09258 20.7366 2.99808C21.3981 2.80909 22.6265 3.09257 23.5714 3.65954C23.7604 3.75404 23.8549 3.84854 24.0439 3.94303C24.1384 4.03753 24.3274 4.13201 24.4219 4.22651C24.5164 4.321 24.6109 4.4155 24.6109 4.51C24.2329 4.69899 24.1384 4.88797 24.2329 5.17146C24.2329 5.26596 24.3274 5.45495 24.5164 5.54945C24.7054 5.64395 24.8944 5.73844 25.0834 5.83294C25.6503 6.02193 26.3118 6.02192 26.7843 5.92743C27.0678 5.83293 27.1623 5.73843 27.3513 5.64394C27.4458 5.54944 27.5403 5.36045 27.4458 5.17146C27.4458 5.07696 27.3513 5.07697 27.3513 4.98247C27.3513 4.88798 27.2568 4.88798 27.1623 4.79348C26.9733 4.69899 26.7843 4.60449 26.5953 4.51C26.4063 4.4155 26.2173 4.41551 26.0283 4.41551C25.9338 4.22652 25.7448 4.13202 25.6504 3.94303C25.5559 3.84854 25.4614 3.75404 25.2724 3.65954C25.1779 3.56505 25.0834 3.47056 24.9889 3.47056C24.8944 3.47056 24.8944 3.37606 24.7999 3.37606C24.2329 2.99807 23.666 2.80909 23.0045 2.5256C21.965 2.24212 20.8311 2.14761 19.8861 2.3366C19.3192 2.52559 19.0357 2.71459 18.8467 3.09257C18.8467 3.09257 18.8467 3.09257 18.8467 3.18707C18.9412 3.18707 18.9412 3.18706 19.0357 3.28155C19.4137 3.28155 19.6972 3.37606 20.0751 3.47056Z" fill="white"/>
+							<path d="M8.07506 6.5907C8.73653 6.40171 9.96497 6.68521 10.9099 7.25218C11.0989 7.34668 11.1934 7.44116 11.3824 7.53566C11.4769 7.63015 11.6659 7.72465 11.7604 7.81914C11.8549 7.91364 11.9494 8.00814 11.9494 8.10263C11.5714 8.29162 11.4769 8.48061 11.5714 8.7641C11.5714 8.85859 11.6659 9.04759 11.8549 9.14209C12.0439 9.23658 12.2329 9.33107 12.4218 9.42556C12.9888 9.61455 13.6503 9.61456 14.1228 9.52006C14.4062 9.42557 14.5007 9.33107 14.6897 9.23657C14.7842 9.14208 14.8787 8.95309 14.7842 8.7641C14.7842 8.6696 14.6897 8.66961 14.6897 8.57511C14.6897 8.48061 14.5953 8.48062 14.5008 8.38612C14.3118 8.29163 14.1228 8.19713 13.9338 8.10263C13.7448 8.00814 13.5558 8.00813 13.3668 8.00813C13.2723 7.81914 13.0833 7.72465 12.9888 7.53566C12.8943 7.44116 12.7998 7.34668 12.6109 7.25218C12.5164 7.15769 12.4218 7.06318 12.3273 7.06318C12.2329 7.06318 12.2329 6.96869 12.1384 6.96869C11.5714 6.59071 11.0044 6.40172 10.3429 6.21273C9.30349 5.92924 8.16956 5.83475 7.22461 6.02374C6.65764 6.21273 6.37414 6.40172 6.18515 6.77971C5.90167 7.25218 6.09066 7.91364 6.75213 8.57511L7.13011 7.53566C7.2246 6.77969 8.07506 6.5907 8.07506 6.5907Z" fill="white"/>
+							<path d="M15.8232 4.70095C15.8232 4.70095 15.9177 4.70096 15.9177 4.79546C15.9177 4.51197 16.1067 4.32297 16.4847 4.22848C17.1461 4.03949 18.3746 4.32298 19.3195 4.88996C19.5085 4.98445 19.603 5.07894 19.792 5.17343C19.8865 5.26793 20.0755 5.36242 20.17 5.45692C20.2645 5.55141 20.359 5.64591 20.359 5.74041C19.981 5.9294 19.8865 6.11839 19.981 6.40187C19.981 6.49637 20.0755 6.68537 20.2645 6.77986C20.4535 6.87436 20.6425 6.96884 20.8315 7.06334C21.3984 7.25233 22.0599 7.25233 22.5324 7.15784C22.8159 7.06334 22.9103 6.96884 23.0993 6.87435C23.1938 6.77985 23.2883 6.59086 23.1938 6.40187C23.1938 6.30738 23.0993 6.30738 23.0993 6.21288C23.0993 6.11839 23.0049 6.11839 22.9104 6.0239C22.7214 5.9294 22.5324 5.8349 22.3434 5.74041C22.1544 5.64591 21.9654 5.64591 21.7764 5.64591C21.6819 5.45692 21.4929 5.36242 21.3984 5.17343C21.3039 5.07894 21.2094 4.98445 21.0205 4.88996C20.926 4.79546 20.8314 4.70095 20.737 4.70095C20.6425 4.70095 20.6425 4.60647 20.548 4.60647C19.981 4.22849 19.414 4.03949 18.7526 3.756C17.7131 3.47252 16.5792 3.37802 15.6342 3.56701C15.0672 3.756 14.7837 3.945 14.5948 4.32298C14.5948 4.32298 14.5948 4.32298 14.5948 4.41748C14.6893 4.41748 14.6893 4.41747 14.7838 4.51197C15.1617 4.41747 15.5397 4.60646 15.8232 4.70095Z" fill="white"/>
+							<path d="M11.572 5.92927C11.572 5.92927 11.6665 5.92927 11.6665 6.02377C11.6665 5.74028 11.8554 5.55128 12.2334 5.45679C12.8949 5.2678 14.1233 5.55128 15.0683 6.11825C15.2573 6.21275 15.3518 6.30725 15.5407 6.40174C15.6352 6.49624 15.8243 6.59074 15.9188 6.68523C16.0132 6.77973 16.1077 6.87422 16.1077 6.96872C15.7297 7.15771 15.6353 7.3467 15.7297 7.63018C15.7297 7.72468 15.8242 7.91366 16.0132 8.00816C16.2022 8.10265 16.3912 8.19715 16.5802 8.29165C17.1472 8.48064 17.8087 8.48064 18.2811 8.38615C18.5646 8.29165 18.7536 8.19716 18.8481 8.10266C18.9426 8.00816 19.0371 7.81917 18.9426 7.63018C18.9426 7.53569 18.8481 7.53569 18.8481 7.4412C18.8481 7.3467 18.7536 7.3467 18.6591 7.25221C18.4701 7.15771 18.2811 7.06321 18.0921 6.96872C17.9031 6.87422 17.7141 6.87422 17.5252 6.87422C17.4307 6.68523 17.2417 6.59073 17.1472 6.40174C17.0527 6.30725 16.9582 6.21275 16.7692 6.11825C16.6747 6.02376 16.5802 5.92927 16.4857 5.92927C16.3912 5.92927 16.3912 5.83478 16.2967 5.83478C15.7298 5.4568 15.1628 5.2678 14.5013 5.07881C13.4619 4.70083 12.3279 4.70084 11.383 4.88983C10.816 5.07882 10.5325 5.2678 10.3435 5.64578C10.3435 5.64578 10.3435 5.64578 10.3435 5.74028C10.438 5.74028 10.438 5.74028 10.5325 5.83478C10.9105 5.64579 11.2885 5.74028 11.572 5.92927Z" fill="white"/>
+							<path d="M86.6006 35.9805C76.9621 35.9805 72.4263 30.4998 72.4263 20.3888C72.4263 10.4668 76.8676 3.37964 86.6006 3.37964C95.7667 3.37964 98.507 10.2778 98.507 16.8925C98.507 18.7824 97.2786 19.9163 95.5777 19.9163H79.041C79.041 26.531 81.2144 30.7833 87.7346 30.7833C90.097 30.7833 92.2703 30.2163 94.4437 29.0824C94.7272 28.9879 95.0107 28.8934 95.2942 28.8934C96.3336 28.8934 97.0896 29.8383 97.0896 30.8778C96.9951 32.8622 92.4593 35.9805 86.6006 35.9805ZM91.7979 15.3805C91.7979 10.5613 89.908 7.53743 85.8447 7.53743C81.1199 7.53743 79.419 11.1283 79.041 16.1365L91.7979 15.3805Z" fill="white"/>
+							<path d="M120.241 32.7661C119.674 34.656 118.068 35.979 116.178 35.979C114.288 35.979 112.587 34.7505 112.02 32.7661L104.744 8.48083L102.948 8.10285C101.909 7.91386 101.153 6.9689 101.153 5.92946C101.153 4.89001 102.003 4.03955 103.043 4.03955H112.681C113.721 4.03955 114.477 4.89002 114.477 5.83497C114.477 6.87442 113.721 7.81936 112.681 8.10285L111.075 8.48083L116.367 29.7423L122.698 7.2524C123.265 5.36249 124.871 4.13405 126.856 4.13405C128.746 4.13405 130.446 5.45699 130.919 7.2524L136.872 29.8368L142.825 8.48083L141.502 8.19735C140.463 7.91387 139.707 6.9689 139.707 5.92946C139.707 4.89001 140.557 4.13405 141.597 4.13405H150.385C151.424 4.13405 152.18 4.9845 152.18 5.92946C152.18 6.9689 151.424 7.91387 150.385 8.19735L148.59 8.57533L140.557 32.9551C139.896 34.845 138.29 36.0735 136.4 36.0735C134.51 36.0735 132.903 34.845 132.336 32.8606L126.383 11.3157L120.241 32.7661Z" fill="white"/>
+							<path d="M173.347 35.9803C172.118 36.0748 171.079 34.9408 171.079 33.7124V32.295C169.094 34.4683 166.732 35.9803 162.858 35.9803C156.905 35.9803 153.03 32.3894 153.03 26.6252C153.03 18.4041 159.172 16.5142 168.244 16.5142H170.89V13.8684C170.89 9.4271 169.567 7.34819 165.504 7.34819C164.275 7.34819 163.236 7.63168 162.574 8.00966L162.007 9.80508C161.535 11.317 160.212 12.3564 158.511 12.3564C157.094 12.3564 155.96 11.2225 155.96 9.89956V9.42709C155.96 4.41884 162.48 3.37939 167.11 3.37939C176.087 3.37939 177.221 7.82067 177.221 14.4353V31.161L179.016 31.4445C180.056 31.6335 180.717 32.4839 180.717 33.5234C180.717 34.4683 179.961 35.4133 178.922 35.5078L173.347 35.9803ZM165.031 30.972C166.827 30.972 168.811 30.4995 170.89 29.3656V20.1996L166.921 20.3885C162.669 20.5775 159.55 22.0895 159.55 25.9638C159.645 29.4601 161.913 30.972 165.031 30.972Z" fill="white"/>
+							<path d="M3.73477 49.8931H1.21508V51.9088H3.43239C3.63397 51.9088 3.73477 52.1104 3.73477 52.2112C3.73477 52.312 3.53318 52.5136 3.43239 52.5136H1.21508V54.5293H3.73477C3.93635 54.5293 4.03712 54.7309 4.03712 54.8317C4.03712 54.9325 3.93635 55.1341 3.73477 55.1341H0.912702C0.711127 55.1341 0.610352 55.0333 0.610352 54.8317V49.3892C0.610352 49.1876 0.711127 49.0868 0.912702 49.0868H3.83554C4.03711 49.0868 4.13792 49.1876 4.13792 49.3892C4.13792 49.7923 3.93635 49.8931 3.73477 49.8931Z" fill="white"/>
+							<path d="M8.37137 55.3363H7.06114C6.85956 55.3363 6.75879 55.2355 6.75879 55.034V49.5914C6.75879 49.3899 6.85956 49.2891 7.06114 49.2891H8.2706C9.78242 49.2891 11.395 50.0954 11.395 52.3127C11.4958 54.0261 10.1855 55.3363 8.37137 55.3363ZM8.2706 49.8938H7.36349V54.6308H8.37137C9.58082 54.6308 10.7903 53.9253 10.7903 52.2119C10.7903 50.0954 9.0769 49.8938 8.2706 49.8938Z" fill="white"/>
+							<path d="M19.1536 52.6151C19.1536 54.3284 18.1458 55.4371 16.6339 55.4371C15.1221 55.4371 14.1143 54.3284 14.1143 52.6151V49.5914C14.1143 49.3899 14.215 49.2891 14.4166 49.2891C14.6182 49.2891 14.719 49.3899 14.719 49.5914V52.6151C14.719 53.9253 15.4245 54.7316 16.5332 54.7316C17.6418 54.7316 18.3474 53.9253 18.3474 52.6151V49.5914C18.3474 49.3899 18.4481 49.2891 18.6497 49.2891C18.8513 49.2891 18.9521 49.3899 18.9521 49.5914L19.1536 52.6151Z" fill="white"/>
+							<path d="M26.0091 55.1331C25.9083 55.1331 25.4044 55.3346 24.6989 55.3346C22.8847 55.3346 21.776 54.1252 21.776 52.2102C21.776 50.2953 22.8847 49.0858 24.6989 49.0858C25.3036 49.0858 25.9083 49.2874 26.0091 49.2874C26.2107 49.3882 26.3115 49.5898 26.2107 49.6905C26.1099 49.8921 25.9083 49.9929 25.8075 49.8921C25.7067 49.8921 25.3036 49.6905 24.6989 49.6905C23.2878 49.6905 22.4815 50.5976 22.4815 52.1094C22.4815 53.6213 23.2878 54.5284 24.6989 54.5284C25.2028 54.5284 25.7067 54.3268 25.8075 54.3268C26.0091 54.226 26.2107 54.3268 26.2107 54.5284C26.3115 54.9315 26.2107 55.1331 26.0091 55.1331Z" fill="white"/>
+							<path d="M33.2643 54.8307C33.3651 55.0323 33.2643 55.2339 33.0627 55.2339C32.8611 55.3347 32.6595 55.2339 32.6595 55.0323L32.1556 53.7221H29.5351L29.0312 55.0323C28.9304 55.2339 28.7288 55.3347 28.628 55.2339C28.4265 55.1331 28.3257 54.9315 28.4265 54.8307L30.543 49.3882C30.543 49.2874 30.7446 49.1866 30.8454 49.1866C30.9462 49.1866 31.1477 49.2874 31.1477 49.3882L33.2643 54.8307ZM31.7525 53.1174L30.6438 50.4969L29.6359 53.1174H31.7525Z" fill="white"/>
+							<path d="M38.9091 49.8938H37.1957V54.9332C37.1957 55.1348 36.9941 55.2355 36.8933 55.2355C36.7925 55.2355 36.5909 55.034 36.5909 54.9332V49.8938H34.8776C34.676 49.8938 34.5752 49.6922 34.5752 49.5914C34.5752 49.3899 34.676 49.2891 34.8776 49.2891H39.0099C39.2115 49.2891 39.3122 49.3899 39.3122 49.5914C39.2114 49.793 39.1107 49.8938 38.9091 49.8938Z" fill="white"/>
+							<path d="M42.2366 55.034C42.2366 55.2355 42.1358 55.3363 41.9342 55.3363C41.7326 55.3363 41.6318 55.1348 41.6318 55.034V49.5914C41.6318 49.3899 41.7326 49.2891 41.9342 49.2891C42.1358 49.2891 42.2366 49.4906 42.2366 49.5914V55.034Z" fill="white"/>
+							<path d="M47.982 55.4355C46.3694 55.4355 45.0592 54.1252 45.0592 52.3111C45.0592 50.4969 46.2686 49.1866 47.982 49.1866C49.6954 49.1866 50.9049 50.4969 50.9049 52.3111C50.8041 54.0244 49.5946 55.4355 47.982 55.4355ZM47.982 49.7914C46.6718 49.7914 45.7647 50.7992 45.7647 52.2103C45.7647 53.6213 46.6718 54.73 47.982 54.73C49.2923 54.73 50.1993 53.7221 50.1993 52.2103C50.1993 50.7992 49.2923 49.7914 47.982 49.7914Z" fill="white"/>
+							<path d="M58.261 55.034C58.261 55.1348 58.1603 55.3363 58.0595 55.3363C57.9587 55.3363 57.7571 55.3363 57.6563 55.2355L54.3303 50.5993V55.034C54.3303 55.2355 54.1288 55.3363 54.028 55.3363C53.8264 55.3363 53.7256 55.1348 53.7256 55.034V49.5914C53.7256 49.4906 53.8264 49.2891 53.9272 49.2891C54.028 49.2891 54.2295 49.2891 54.3303 49.3899L57.6563 54.0261V49.5914C57.6563 49.3899 57.7571 49.2891 57.9587 49.2891C58.1603 49.2891 58.261 49.3899 58.261 49.5914V55.034Z" fill="white"/>
+							<path d="M70.1545 55.1313C70.1545 55.2321 69.9529 55.3329 69.8521 55.3329C69.7513 55.3329 69.5497 55.2321 69.5497 55.1313L67.9371 50.7974L66.4253 55.1313C66.4253 55.2321 66.2238 55.3329 66.123 55.3329C66.0222 55.3329 65.8206 55.2321 65.8206 55.1313L64.208 49.6888C64.208 49.4872 64.208 49.3864 64.4096 49.2856C64.6111 49.1848 64.7119 49.2856 64.8127 49.4872L66.123 54.0227L67.6348 49.6888C67.6348 49.588 67.8363 49.4872 67.9371 49.4872C68.0379 49.4872 68.2395 49.588 68.2395 49.6888L69.7513 54.0227L71.0616 49.4872C71.0616 49.2856 71.2631 49.1848 71.4647 49.2856C71.6663 49.2856 71.7671 49.4872 71.6663 49.6888L70.1545 55.1313Z" fill="white"/>
+							<path d="M78.418 54.8324C78.5188 54.9332 78.5188 55.2355 78.3173 55.3363C78.2165 55.4371 77.9141 55.4371 77.8133 55.2355L76.3015 53.119H75.092V55.034C75.092 55.2355 74.9913 55.3363 74.7897 55.3363C74.5881 55.3363 74.4873 55.2355 74.4873 55.034V49.5914C74.4873 49.3899 74.5881 49.2891 74.7897 49.2891H76.5031C77.3094 49.2891 78.3173 49.9946 78.3173 51.204C78.3173 52.0103 77.8133 52.7159 77.1078 53.0182L78.418 54.8324ZM76.4023 49.8938H75.092V52.4135H76.4023C77.1078 52.4135 77.5109 51.8088 77.5109 51.204C77.5109 50.2969 76.8054 49.8938 76.4023 49.8938Z" fill="white"/>
+							<path d="M81.8459 55.034C81.8459 55.2355 81.6443 55.3363 81.5436 55.3363C81.342 55.3363 81.2412 55.1348 81.2412 55.034V49.5914C81.2412 49.3899 81.342 49.2891 81.5436 49.2891C81.7451 49.2891 81.8459 49.4906 81.8459 49.5914V55.034Z" fill="white"/>
+							<path d="M88.5985 49.8938H86.8851V54.9332C86.8851 55.1348 86.7843 55.2355 86.5828 55.2355C86.3812 55.2355 86.2804 55.034 86.2804 54.9332V49.8938H84.567C84.3654 49.8938 84.2646 49.6922 84.2646 49.5914C84.2646 49.3899 84.4662 49.2891 84.567 49.2891H88.6993C88.9009 49.2891 89.0016 49.3899 89.0016 49.5914C89.0016 49.793 88.8001 49.8938 88.5985 49.8938Z" fill="white"/>
+							<path d="M94.5436 49.8921H92.0239V51.9079H94.2413C94.4428 51.9079 94.5436 52.1095 94.5436 52.2102C94.5436 52.311 94.342 52.5126 94.2413 52.5126H92.0239V54.5284H94.5436C94.7452 54.5284 94.846 54.7299 94.846 54.8307C94.846 54.9315 94.7452 55.1331 94.5436 55.1331H91.7216C91.52 55.1331 91.4192 55.0323 91.4192 54.8307V49.3882C91.4192 49.1866 91.52 49.0858 91.7216 49.0858H94.6444C94.846 49.0858 94.9468 49.1866 94.9468 49.3882C94.9468 49.7913 94.7452 49.8921 94.5436 49.8921Z" fill="white"/>
+							<path d="M101.5 54.8324C101.601 54.9332 101.601 55.2355 101.399 55.3363C101.298 55.4371 100.996 55.4371 100.895 55.2355L99.3835 53.119H98.1741V55.034C98.1741 55.2355 98.0733 55.3363 97.8717 55.3363C97.6701 55.3363 97.5693 55.2355 97.5693 55.034V49.5914C97.5693 49.3899 97.6701 49.2891 97.8717 49.2891H99.5851C100.391 49.2891 101.399 49.9946 101.399 51.204C101.399 52.0103 100.895 52.7159 100.19 53.0182L101.5 54.8324ZM99.5851 49.8938H98.2749V52.4135H99.5851C100.291 52.4135 100.694 51.8088 100.694 51.204C100.694 50.2969 99.8875 49.8938 99.5851 49.8938Z" fill="white"/>
+							<path d="M105.732 55.4355C105.329 55.4355 104.624 55.3347 104.221 55.2339C104.019 55.1331 103.918 55.0323 104.019 54.8307C104.12 54.6292 104.321 54.5284 104.422 54.6292C104.725 54.73 105.329 54.8307 105.632 54.8307C106.035 54.8307 106.841 54.73 106.841 53.8229C106.841 53.3189 106.64 53.1174 106.136 52.9158L104.926 52.4118C104.321 52.2103 103.817 51.9079 103.817 50.9C103.817 49.8922 104.523 49.1866 105.632 49.1866C106.035 49.1866 106.74 49.2874 107.143 49.3882C107.345 49.489 107.446 49.5898 107.345 49.7914C107.244 49.9929 107.043 50.0937 106.942 49.9929C106.64 49.8922 106.035 49.7914 105.732 49.7914C105.329 49.7914 104.523 49.8921 104.523 50.7992C104.523 51.3032 104.725 51.5048 105.228 51.7063L106.438 52.2103C107.043 52.4118 107.547 52.7142 107.547 53.7221C107.547 54.73 106.841 55.4355 105.732 55.4355Z" fill="white"/>
+							<path d="M118.128 54.8307C118.229 55.0323 118.128 55.2339 117.927 55.2339C117.725 55.3347 117.524 55.2339 117.524 55.0323L116.919 53.7221H114.298L113.794 55.0323C113.694 55.2339 113.492 55.3347 113.391 55.2339C113.19 55.1331 113.089 54.9315 113.19 54.8307L115.306 49.3882C115.306 49.2874 115.508 49.1866 115.609 49.1866C115.709 49.1866 115.911 49.2874 115.911 49.3882L118.128 54.8307ZM116.717 53.1174L115.609 50.4969L114.601 53.1174H116.717Z" fill="white"/>
+							<path d="M122.059 55.4355C121.656 55.4355 120.95 55.3347 120.547 55.2339C120.346 55.1331 120.245 55.0323 120.346 54.8307C120.446 54.6292 120.648 54.5284 120.749 54.6292C121.051 54.73 121.656 54.8307 121.958 54.8307C122.361 54.8307 123.168 54.73 123.168 53.8229C123.168 53.3189 122.966 53.1174 122.462 52.9158L121.253 52.4118C120.648 52.2103 120.144 51.9079 120.144 50.9C120.144 49.8922 120.849 49.1866 121.958 49.1866C122.361 49.1866 123.067 49.2874 123.47 49.3882C123.672 49.489 123.772 49.5898 123.672 49.7914C123.571 49.9929 123.369 50.0937 123.268 49.9929C122.966 49.8922 122.361 49.7914 122.059 49.7914C121.656 49.7914 120.849 49.8921 120.849 50.7992C120.849 51.3032 121.051 51.5048 121.555 51.7063L122.764 52.2103C123.369 52.4118 123.873 52.7142 123.873 53.7221C123.873 54.73 123.168 55.4355 122.059 55.4355Z" fill="white"/>
+							<path d="M128.107 55.4355C127.703 55.4355 126.998 55.3347 126.595 55.2339C126.393 55.1331 126.292 55.0323 126.393 54.8307C126.494 54.6292 126.695 54.5284 126.796 54.6292C127.099 54.73 127.703 54.8307 128.006 54.8307C128.409 54.8307 129.215 54.73 129.215 53.8229C129.215 53.3189 129.014 53.1174 128.51 52.9158L127.3 52.4118C126.695 52.2103 126.192 51.9079 126.192 50.9C126.192 49.8922 126.897 49.1866 128.006 49.1866C128.409 49.1866 129.114 49.2874 129.518 49.3882C129.719 49.489 129.82 49.5898 129.719 49.7914C129.618 49.9929 129.417 50.0937 129.316 49.9929C129.014 49.8922 128.409 49.7914 128.107 49.7914C127.703 49.7914 126.897 49.8921 126.897 50.7992C126.897 51.3032 127.099 51.5048 127.603 51.7063L128.812 52.2103C129.417 52.4118 129.921 52.7142 129.921 53.7221C129.921 54.73 129.215 55.4355 128.107 55.4355Z" fill="white"/>
+							<path d="M135.262 55.4355C133.65 55.4355 132.34 54.1252 132.34 52.3111C132.34 50.4969 133.549 49.1866 135.262 49.1866C136.976 49.1866 138.185 50.4969 138.185 52.3111C138.185 54.0244 136.875 55.4355 135.262 55.4355ZM135.262 49.7914C133.952 49.7914 133.045 50.7992 133.045 52.2103C133.045 53.6213 133.952 54.73 135.262 54.73C136.573 54.73 137.48 53.7221 137.48 52.2103C137.48 50.7992 136.573 49.7914 135.262 49.7914Z" fill="white"/>
+							<path d="M144.738 55.1331C144.637 55.1331 144.133 55.3346 143.427 55.3346C141.613 55.3346 140.505 54.1252 140.505 52.2102C140.505 50.2953 141.613 49.0858 143.427 49.0858C144.032 49.0858 144.637 49.2874 144.738 49.2874C144.939 49.3882 145.04 49.5898 144.939 49.6905C144.839 49.8921 144.637 49.9929 144.536 49.8921C144.435 49.8921 144.032 49.6905 143.427 49.6905C142.016 49.6905 141.21 50.5976 141.21 52.1094C141.21 53.6213 142.016 54.5284 143.427 54.5284C143.931 54.5284 144.435 54.3268 144.536 54.3268C144.738 54.226 144.939 54.3268 144.939 54.5284C145.04 54.9315 144.939 55.1331 144.738 55.1331Z" fill="white"/>
+							<path d="M148.264 55.034C148.264 55.2355 148.163 55.3363 147.962 55.3363C147.76 55.3363 147.659 55.1348 147.659 55.034V49.5914C147.659 49.3899 147.76 49.2891 147.962 49.2891C148.163 49.2891 148.264 49.4906 148.264 49.5914V55.034Z" fill="white"/>
+							<path d="M155.722 54.8307C155.823 55.0323 155.722 55.2339 155.521 55.2339C155.319 55.3347 155.118 55.2339 155.118 55.0323L154.614 53.7221H151.993L151.489 55.0323C151.388 55.2339 151.187 55.3347 151.086 55.2339C150.884 55.1331 150.784 54.9315 150.884 54.8307L153.001 49.3882C153.001 49.2874 153.203 49.1866 153.303 49.1866C153.404 49.1866 153.606 49.2874 153.606 49.3882L155.722 54.8307ZM154.311 53.1174L153.203 50.4969L152.195 53.1174H154.311Z" fill="white"/>
+							<path d="M161.468 49.8938H159.754V54.9332C159.754 55.1348 159.653 55.2355 159.452 55.2355C159.25 55.2355 159.15 55.034 159.15 54.9332V49.8938H157.436C157.235 49.8938 157.134 49.6922 157.134 49.5914C157.134 49.3899 157.235 49.2891 157.436 49.2891H161.568C161.77 49.2891 161.871 49.3899 161.871 49.5914C161.77 49.793 161.568 49.8938 161.468 49.8938Z" fill="white"/>
+							<path d="M164.793 55.034C164.793 55.2355 164.692 55.3363 164.491 55.3363C164.289 55.3363 164.188 55.1348 164.188 55.034V49.5914C164.188 49.3899 164.289 49.2891 164.491 49.2891C164.692 49.2891 164.793 49.4906 164.793 49.5914V55.034Z" fill="white"/>
+							<path d="M170.438 55.4355C168.826 55.4355 167.515 54.1252 167.515 52.3111C167.515 50.4969 168.725 49.1866 170.438 49.1866C172.152 49.1866 173.361 50.4969 173.361 52.3111C173.361 54.0244 172.152 55.4355 170.438 55.4355ZM170.438 49.7914C169.128 49.7914 168.221 50.7992 168.221 52.2103C168.221 53.6213 169.128 54.73 170.438 54.73C171.748 54.73 172.655 53.7221 172.655 52.2103C172.655 50.7992 171.748 49.7914 170.438 49.7914Z" fill="white"/>
+							<path d="M180.718 55.034C180.718 55.1348 180.617 55.3363 180.517 55.3363C180.416 55.3363 180.214 55.3363 180.113 55.2355L176.787 50.5993V55.034C176.787 55.2355 176.687 55.3363 176.485 55.3363C176.283 55.3363 176.183 55.1348 176.183 55.034V49.5914C176.183 49.4906 176.283 49.2891 176.384 49.2891C176.485 49.2891 176.687 49.2891 176.787 49.3899L180.113 54.0261V49.5914C180.113 49.3899 180.214 49.2891 180.416 49.2891C180.617 49.2891 180.718 49.3899 180.718 49.5914V55.034Z" fill="white"/>
+						</svg>
+					</a>
+				</div>
+				<div class="header__right">
+					<div class="header__menu">
+						<nav>
+							<ul id="menu-header-menu" class="first__floor"><li id="menu-item-359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left simple-menu menu-item-359"><a href="/issues">Issues</a>
+<ul class="sub-menu">
+	<li id="menu-item-13318" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13318"><a href="/issues/early-learning">Early Learning</a></li>
+	<li id="menu-item-13319" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13319"><a href="/issues/elementary-school">Elementary School</a></li>
+	<li id="menu-item-13320" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13320"><a href="/issues/middle-school">Middle School</a></li>
+	<li id="menu-item-13321" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13321"><a href="/issues/high-school">High School</a></li>
+	<li id="menu-item-13322" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13322"><a href="/issues/higher-ed">Higher Ed</a></li>
+	<li id="menu-item-13324" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13324"><a href="/issues/career-technical-education">CTE</a></li>
+	<li id="menu-item-13325" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13325"><a href="/issues/retraining">Retraining</a></li>
+</ul>
+</li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left simple-menu menu-item-16"><a href="/members-news">Members</a>
+<ul class="sub-menu">
+	<li id="menu-item-15184" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-15184"><a href="/members-news/anniversary">Anniversary</a></li>
+	<li id="menu-item-13283" class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13283"><a href="https://ewa.org/members-news/announcements">Announcements</a></li>
+	<li id="menu-item-13284" class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13284"><a href="https://ewa.org/members-news/awards">Awards News</a></li>
+	<li id="menu-item-13285" class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13285"><a href="https://ewa.org/members-news/events">Events News</a></li>
+	<li id="menu-item-13286" class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13286"><a href="https://ewa.org/members-news/members-work">Members&#8217; Work</a></li>
+	<li id="menu-item-13287" class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13287"><a href="https://ewa.org/members-news/member-spotlight">Member Spotlight</a></li>
+	<li id="menu-item-13288" class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13288"><a href="https://ewa.org/members-news/press-releases">Press Releases</a></li>
+	<li id="menu-item-13289" class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13289"><a href="https://ewa.org/members-news/state-of-the-ed-beat-report">State of the Ed Beat Report</a></li>
+	<li id="menu-item-13290" class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13290"><a href="https://ewa.org/members-news/tell-ewa">Tell EWA</a></li>
+</ul>
+</li>
+<li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children left simple-menu menu-item-358"><a href="https://ewa.org/skills">Skills</a>
+<ul class="sub-menu">
+	<li id="menu-item-13328" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13328"><a href="/data-research-tips">Data &#038; Research Tips</a></li>
+	<li id="menu-item-13329" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13329"><a href="/educated-reporter">Educated Reporter</a></li>
+	<li id="menu-item-13330" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13330"><a href="/how-to-cover-the-story">How to Cover the Story</a></li>
+	<li id="menu-item-13331" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13331"><a href="/latino-ed-beat">Latino Ed Beat</a></li>
+	<li id="menu-item-13332" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13332"><a href="/news-explainers">News Explainers</a></li>
+	<li id="menu-item-13333" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13333"><a href="/story-ideas">Story Ideas</a></li>
+</ul>
+</li>
+<li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-18"><a href="/watch-and-listen">Watch &#038; Listen</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-19"><a href="/events">Events</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left mega-menu menu-item-20"><a href="/programs-and-services">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-595" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left simple-menu menu-item-595"><a href="/programs-and-services">Programs &#038; Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-6026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6026"><a href="https://ewa.org/ewa-awards">Awards Applicants</a></li>
+		<li id="menu-item-596" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-596"><a href="/awards">Awards Archive</a></li>
+		<li id="menu-item-15033" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-15033"><a href="https://ewa.org/programs-and-services/ewa-listservs">EWA Listservs</a></li>
+		<li id="menu-item-6071" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-6071"><a href="https://ewa.org/fellowships">Fellowships</a></li>
+		<li id="menu-item-12366" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-12366"><a href="https://ewa.org/jobs">Find a Job</a></li>
+		<li id="menu-item-13486" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-13486"><a href="https://ewa.org/post-a-job">Post a Job</a></li>
+		<li id="menu-item-10868" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-10868"><a href="https://ewa.org/promote-your-press-release">Post a Press Release</a></li>
+		<li id="menu-item-20227" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-20227"><a href="/our-staff/staff/emily-richmond">Public Editor</a></li>
+		<li id="menu-item-25386" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-25386"><a href="https://ewa.org/ewa-reporting-with-education-research-program">Research Cohort</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left simple-menu menu-item-21"><a href="#">Get Involved</a>
+<ul class="sub-menu">
+	<li id="menu-item-6553" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-6553"><a href="https://ewa.org/membership">Membership</a></li>
+	<li id="menu-item-13255" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-13255"><a href="https://ewa.org/newsletter-signup">Newsletter Sign-up</a></li>
+	<li id="menu-item-13252" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-13252"><a href="https://ewa.org/sponsorships">Sponsorships</a></li>
+</ul>
+</li>
+<li id="menu-item-9311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children left simple-menu menu-item-9311"><a href="https://ewa.org/about-us">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-13270" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13270"><a href="/our-staff/staff">Our Staff</a></li>
+	<li id="menu-item-13271" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13271"><a href="/our-staff/board-of-directors">Our Boards</a></li>
+	<li id="menu-item-10115" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-10115"><a href="https://ewa.org/about-us/governance">Governance</a></li>
+	<li id="menu-item-15016" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-15016"><a href="https://ewa.org/about-us/ewa-funders">EWA Funders</a></li>
+	<li id="menu-item-30992" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-30992"><a href="https://ewa.org/about-us/education-writers-association-in-the-news">EWA Media Mentions</a></li>
+	<li id="menu-item-14427" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-14427"><a href="https://ewa.org/about-us/ewa-history">EWA History</a></li>
+	<li id="menu-item-12364" class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-12364"><a href="https://ewa.org/contact-ewa">Contact EWA</a></li>
+	<li id="menu-item-20361" class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-20361"><a href="https://ewa.org/about-us/jobs-at-education-writers-association">Careers</a></li>
+</ul>
+</li>
+</ul>						</nav>
+					</div>
+
+										<div class="header__donate">
+						<a href="/donation"
+							target="">
+							Donate						</a>
+					</div>
+										<div class="header__search">
+						<div class="header__search--icon">
+							<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M13.5649 14.125L10.6727 11.2276M12.2755 7.35526C12.2755 8.80872 11.6981 10.2026 10.6703 11.2304C9.64259 12.2581 8.24866 12.8355 6.7952 12.8355C5.34175 12.8355 3.94782 12.2581 2.92007 11.2304C1.89232 10.2026 1.31494 8.80872 1.31494 7.35526C1.31494 5.90181 1.89232 4.50788 2.92007 3.48013C3.94782 2.45238 5.34175 1.875 6.7952 1.875C8.24866 1.875 9.64259 2.45238 10.6703 3.48013C11.6981 4.50788 12.2755 5.90181 12.2755 7.35526Z" stroke="#2D2C2E" stroke-width="2" stroke-linecap="round"/>
+							</svg>
+						</div>
+						<form role="search" method="get" class="search-form" action="https://ewa.org/">
+							<label>
+								<span class="screen-reader-text">Search for:</span>
+								<input type="search" autocomplete="off" class="search-field" placeholder="Search" value=""  name="s" title="Search for:" />
+							</label>
+							<button type="submit" class="search-submit btn-search" >
+								<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.5649 14.125L10.6727 11.2276M12.2755 7.35526C12.2755 8.80872 11.6981 10.2026 10.6703 11.2304C9.64259 12.2581 8.24866 12.8355 6.7952 12.8355C5.34175 12.8355 3.94782 12.2581 2.92007 11.2304C1.89232 10.2026 1.31494 8.80872 1.31494 7.35526C1.31494 5.90181 1.89232 4.50788 2.92007 3.48013C3.94782 2.45238 5.34175 1.875 6.7952 1.875C8.24866 1.875 9.64259 2.45238 10.6703 3.48013C11.6981 4.50788 12.2755 5.90181 12.2755 7.35526Z" stroke="#2D2C2E" stroke-width="2" stroke-linecap="round"/>
+								</svg>
+								Search							</button>
+						</form>
+					</div>
+				</div>
+				<div class="header__burger">
+					<button class="menu-toggle" aria-label="navigation" aria-controls="primary-menu" aria-expanded="false" id="nav-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div  class="wrapper" id="page_all">
+
+<main  class="content ">
+		
+<section  class="single-post__bg ">
+	<div  class="container">
+		<div class="single-post__bg--wrapper">
+			<div class="single-post__bg--image">
+				<img fetchpriority="high" width="786" height="523" src="https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1.png" class="attachment-full size-full wp-post-image" alt="Two Black elementary-aged girls sit at desks and read." decoding="async" srcset="https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1.png 786w, https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1-300x200.png 300w, https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1-768x511.png 768w, https://ewa.org/wp-content/uploads/2024/08/bigstock-Girl-holding-book-and-reading-193059022-1-225x150.png 225w" sizes="(max-width: 786px) 100vw, 786px" />			</div>
+			<div class="single-post__bg--descr">
+								<div class="single-post__back--mobile">
+					<a
+						href="/data-research-tips"
+						target="">
+						Back to Data & Research Tips 					</a>
+				</div>
+				
+								<time class="single-post__bg--date" datetime="13 August, 2024">
+					August 13, 2024				</time>
+				
+				<div class="section__header">
+					<h1 class="section__title">
+						Centering Black Girls in Media Coverage					</h1>
+
+										<div class="section__content">
+						<p>Research shows Black girls experience gender and race-based stereotypes and adultification bias. Experts, including a Black girlhood studies scholar, and a journalist explain how to better cover Black girls.</p>
+<p><strong>Photo credits:</strong> monkeybusinessimages/Bigstock; James Minichello of AASA for EWA</p>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+	<div  class="single-post__wrapper">
+		<div class="container">
+						<div class="single-post__back">
+				<a
+					href="/data-research-tips"
+					target="">
+					Back to Data & Research Tips 				</a>
+			</div>
+						<div class="single-post__row">
+				<div class="single-post__content ">
+					<div  class="html-content">
+						<p><span style="font-weight: 400;">For many students, the most anticipated part of a new school year is finding the perfect back-to-school outfit. But for Black girls, what to wear on the first day of school is an especially fraught decision. They are</span> <a href="https://nwlc.org/press-release/dress-codes-hurt-learning-for-black-girls-in-d-c-new-nwlc-report-finds/"><span style="font-weight: 400;">far more likely</span></a><span style="font-weight: 400;"> to be suspended for school dress code or hair violations. And, they report</span> <a href="https://www.nbwji.org/post/for-many-black-girls-school-elicits-fear-anxiety-about-gender-based-violence-criminalization"><span style="font-weight: 400;">higher rates of sexual harassment</span></a><span style="font-weight: 400;"> than Hispanic and white girls—some 67% of Black girls say they have been touched or grabbed sexually by someone in school.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Every choice of clothing, hairstyle, or makeup is a high-stakes gamble as Black girls return to schools across the country. Yet the dual burden they face – namely, the ways that racial discrimination and gender bias intersect to create barriers to education and safety – remains a widely underreported story in education journalism.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">While racial disparities impacting Black students generally have been thoroughly documented and reported, Black girls face distinctive challenges ingrained in societal stereotypes and prejudices. Understanding and acknowledging these complexities is crucial to improving news coverage of this student group.</span><span style="font-weight: 400;"><br />
+</span></p>
+<figure id="attachment_25178" aria-describedby="caption-attachment-25178" style="width: 1024px" class="wp-caption alignnone"><img decoding="async" class="wp-image-25178 size-large" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20487'%3E%3C/svg%3E" alt="" width="1024" height="487" data-lazy-srcset="https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-1024x487.jpg 1024w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-300x143.jpg 300w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-768x365.jpg 768w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-1536x730.jpg 1536w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-2048x974.jpg 2048w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-250x119.jpg 250w" data-lazy-sizes="(max-width: 1024px) 100vw, 1024px" data-lazy-src="https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-1024x487.jpg" /><noscript><img decoding="async" class="wp-image-25178 size-large" src="https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-1024x487.jpg" alt="" width="1024" height="487" srcset="https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-1024x487.jpg 1024w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-300x143.jpg 300w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-768x365.jpg 768w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-1536x730.jpg 1536w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-2048x974.jpg 2048w, https://ewa.org/wp-content/uploads/2024/08/Black-Girls-session-at-NS24_James-Minichello-of-AASA-for-EWA-1-250x119.jpg 250w" sizes="(max-width: 1024px) 100vw, 1024px" /></noscript><figcaption id="caption-attachment-25178" class="wp-caption-text">Melinda D. Anderson organized/moderated a panel on Black girls at the 2024 National Seminar.</figcaption></figure>
+<h2><b>Getting to the Root</b><b><br />
+</b><b></b></h2>
+<p><span style="font-weight: 400;">A</span> <a href="https://www.nbwji.org/_files/ugd/0c71ee_28b6f1fded6f40e09cbfa8999d2c953e.pdf"><span style="font-weight: 400;">recent analysis</span></a><span style="font-weight: 400;"> of discipline trends among girls in U.S. public schools found Black girls were the only racial or ethnic group consistently overrepresented in all categories, including suspensions, expulsions and arrests. But statistics alone fail to convey why Black girls are targeted for punishment, said Venus E. Evans-Winters, visiting professor of education at The Ohio State University.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">According to Evans-Winters, Black girls—affected by race- and sex-based stereotypes—are frequently mischaracterized and mislabeled because of how they look, dress, speak and act. It is these implicitly biased judgments that explain why Black girls are consistently reprimanded and punished more harshly for subjective offenses, such as wearing “tight” clothing or “being defiant.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">As evidence, she pointed to a</span><a href="https://genderjusticeandopportunity.georgetown.edu/wp-content/uploads/2020/06/girlhood-interrupted.pdf"> <span style="font-weight: 400;">2017 study</span></a><span style="font-weight: 400;"> by the Georgetown Law Center on Poverty and Inequality that found adults view Black girls </span><a href="https://www.law.georgetown.edu/news/black-girls-viewed-as-less-innocent-than-white-girls-georgetown-law-research-finds-2/"><span style="font-weight: 400;">as young as 5 years old as less innocent</span></a><span style="font-weight: 400;"> and less in need of nurturing, support and comfort than white peers. When it was published, the report received considerable coverage in the media. Still, these findings have not always filtered down to daily news reporting.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">“Black girls are not given the privilege or protections of childhood,” Evans-Winters said,</span> <a href="https://www.cnn.com/2020/02/26/us/body-camera-video-6-year-old-arrested/index.html"><span style="font-weight: 400;">citing the case</span></a><span style="font-weight: 400;"> of a 6-year-old Black girl who was handcuffed, arrested and fingerprinted for throwing a tantrum at her elementary school. “They are treated like little adults who should know better.”</span></p>
+<h2><b>Busting Myths</b><b><br />
+</b></h2>
+<p><span style="font-weight: 400;">Importantly, the perception of Black girls as more aggressive and less childlike than white counterparts—known as </span><a href="https://www.law.georgetown.edu/news/research-confirms-that-black-girls-feel-the-sting-of-adultification-bias-identified-in-earlier-georgetown-law-study/"><span style="font-weight: 400;">adultification bias</span></a><span style="font-weight: 400;">—obscures the ability to see them as victims of mistreatment.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Sydney McKinney, executive director of the National Black Women’s Justice Institute, said bullying is an issue that reporters need to examine more closely. In working with Black girls in the juvenile justice system, “I&#8217;ve heard too many stories about the harms that they&#8217;ve experienced at school,” she said. “They went to their teachers; no one listened to them, and so they had to defend themselves.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">“The discussion of bullying in schools really doesn’t center Black girls the way it should,” she added.</span></p>
+<h2><b>Broadening Depictions</b><b><br />
+</b></h2>
+<p><span style="font-weight: 400;">As a</span><a href="https://scholar.google.com/citations?user=92rbrzAAAAAJ&amp;hl=en"> <span style="font-weight: 400;">veteran scholar</span></a><span style="font-weight: 400;"> of Black girlhood studies, Evans-Winters has researched the experiences of Black girls – in their schools, families and communities – for over 20 years. She stressed that the stigmas attached to Black girls have far-reaching and damaging consequences, which is mostly overlooked in education policy as well as education news coverage. </span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">“The connection that I make in my research is that when you remove a Black girl from the classroom for insubordination, when you punish her unfairly for dress code infractions, when she is disproportionately separated from formal schooling – the curriculum and her peers – you’re causing psychological harm,” she explained. “The hardest part of my work is trying to get people to understand the link.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">What’s needed, she said, are more stories of average Black girls to inform public discourse.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">“I read about the Black girl who plays the cello and the bass clarinet, and is a top-ranked gymnast in her region, and got accepted to Harvard at the age of 12,” she said facetiously. “In reality, we can celebrate her, but we shouldn’t have to be superhuman to be acknowledged and affirmed. I&#8217;m also interested in everyday Black girls’ stories and what they want and need. That’s missing.”</span></p>
+<h2><b>In the Trenches</b></h2>
+<p><span style="font-weight: 400;">Nimah Gobir, a writer-producer at KQED&#8217;s MindShift, said she was initially drawn to journalism because of her own, sometimes negative, school experiences. As a Black woman journalist, she is attracted to stories that illustrate institutions showing up for students of color, specifically Black girls, “because I was a Black girl too. And I remember firsthand how schools didn’t show up for me.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">She</span><a href="https://www.kqed.org/mindshift/62163/are-dress-codes-fair-how-one-middle-school-transformed-its-rules-for-what-students-wear"> <span style="font-weight: 400;">reported last year</span></a><span style="font-weight: 400;"> on a Washington, D.C. middle school that revamped its dress code policy after examining how dress codes impact Black girls in a uniquely disparate way.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">KQED’s prior coverage on the </span><span style="font-weight: 400;">CROWN (Creating a Respectful and Open World for Natural Hair) Act</span><span style="font-weight: 400;">—a law</span><a href="https://www.epi.org/blog/half-of-u-s-states-have-passed-the-crown-act-to-ban-hair-discrimination/"> <span style="font-weight: 400;">in 25 states</span></a><span style="font-weight: 400;"> that bans race-based hair discrimination against Black people in schools and workplaces—laid the foundation for Gobir’s pitch to her editors, as well as previous reporting on the disproportionate discipline of Black students.</span></p>
+<p><span style="font-weight: 400;">“We tend to stay in the corners of the conversation when writing about the CROWN Act, and kids who aren&#8217;t allowed to go to graduation because they have dreadlocks,” she said. “Those are kind of dancing around the issue … and Black girls are left out of the conversation.”</span></p>
+<h2><b>5 Tips for Covering Black Girls </b></h2>
+<p><b>1. Don’t Dilute the Focus</b><b><br />
+</b><b><br />
+</b><span style="font-weight: 400;">If you’re writing about Black girls, keep the focus on them rather than broadening the scope to Black students generally. Gobir suggested that some journalists are hesitant to focus on Black girls because they aren’t confident in the fact that there are specific experiences at the intersection of race and gender.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">“Don’t water it down by saying Black students,” she advised. “Say Black girls firmly. Say it with your chest, and report on it.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><b>2. Lead With Feeling</b><b><br />
+</b><b><br />
+</b><span style="font-weight: 400;">Gobir offered a compelling glimpse into dress code inequities by featuring a Black girl in her storytelling—a young woman with a relatable and empathetic story.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">“It’s important to have the facts in there, obviously, but for me, it&#8217;s always the feeling,” she said. “I don&#8217;t want you to just understand dress codes. I want you to think, ‘Oh my gosh, that’s super, super unfair’ … The feeling can make you think deeply about something and inspire action.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><b>3.</b> <b>Make Time for Experts</b><b><br />
+</b><b><br />
+</b><span style="font-weight: 400;">To fully grasp the nuances surrounding issues of race and gender, reporters must allow more time for lengthier interviews and enterprise reporting along with juggling daily deadlines. Evans-Winters criticized the push for experts to talk in sound bites that reduce complex theories to simplified talking points.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Gobir seconded that view. “I am talking to a researcher right now, and I allotted 45 minutes for an interview that took an hour,” she said. “We had to schedule a follow-up interview because, of course, they want you to have all the [background.] I probably won&#8217;t use it all, but it’s important for me to get all of that context so that I can do this concept justice.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><b>4. Find the Black Girl Angle</b><b><br />
+</b><b><br />
+</b><span style="font-weight: 400;">Whether you&#8217;re a national education writer or cover local school districts, there are many entry points to begin writing about Black girls. Thinking creatively can lead to unexpected and impactful angles.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">Distance learning during the pandemic led Gobir to do</span><a href="https://www.kqed.org/mindshift/59560/how-do-you-stop-cheating-students-hint-tech-isnt-the-only-answer"> <span style="font-weight: 400;">a story</span></a><span style="font-weight: 400;"> on the mounting concerns over virtual exam proctoring, which uses artificial intelligence and facial recognition to detect cheating. Her reporting uncovered many problems, most notably racial bias. To illustrate, she highlighted a Black female college student’s encounter with AI proctoring software that was unable to recognize her face.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">“It would’ve been easy to make that story about how AI proctoring is creepy and dystopic,” she said. “But it’s also inequitable, like so many parts of our [education system] can be inequitable across race and gender.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">And a special note to editors</span><span style="font-weight: 400;">: Include Black girls—of all skin tones and hair textures—when pulling from stock photos for general stories about schools and education.</span></p>
+<p><span style="font-weight: 400;">“A lot of people won&#8217;t put Black girls in their photos because they think it turns people off,” Gobir said, yet that inclusion “is such a small way to acknowledge that there are Black girls existing in schools.”</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><b>5.</b> <b>Lace Up, Let’s Go!</b><b><br />
+</b><b><br />
+</b><span style="font-weight: 400;">The racial demographics of education journalists can differ greatly from the schools and communities they cover. However, writing about Black girls with depth, accuracy and authenticity is attainable.</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;"><br />
+</span><span style="font-weight: 400;">“Everyone is implicated,” Gobir emphasized. “We can’t just let it rest on Black women journalists—there aren&#8217;t as many of us as there needs to be, and those aren&#8217;t the only stories we need to be telling. So jump in.”</span><span style="font-weight: 400;"><br />
+</span></p>
+					</div>
+
+				</div>
+								<div class="single-post__sidebar">
+					
+<div class="single-post__social">
+		<div class="single-post__sidebar--title">
+		Share	</div>
+		<div class="single-post__social--block">
+		<div class="heateor_sss_sharing_container heateor_sss_horizontal_sharing" data-heateor-ss-offset="0" data-heateor-sss-href='https://ewa.org/data-research-tips/how-black-girls-are-harmed-in-schools'><div class="heateor_sss_sharing_ul"><a aria-label="Facebook" class="heateor_sss_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fewa.org%2Fdata-research-tips%2Fhow-black-girls-are-harmed-in-schools" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg" style="background-color:#0765FE;width:35px;height:35px;border-radius:999px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;border-radius:999px;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path fill="#fff" d="M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z"></path></svg></span></a><a aria-label="Linkedin" class="heateor_sss_button_linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fewa.org%2Fdata-research-tips%2Fhow-black-girls-are-harmed-in-schools" title="Linkedin" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_linkedin" style="background-color:#0077b5;width:35px;height:35px;border-radius:999px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;border-radius:999px;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z" fill="#fff"></path></svg></span></a><a aria-label="Email" class="heateor_sss_email" href="https://ewa.org/data-research-tips/how-black-girls-are-harmed-in-schools" onclick="event.preventDefault();window.open('mailto:?subject=' + decodeURIComponent('Centering%20Black%20Girls%20in%20Media%20Coverage').replace('&', '%26') + '&body=https%3A%2F%2Fewa.org%2Fdata-research-tips%2Fhow-black-girls-are-harmed-in-schools', '_blank')" title="Email" rel="noopener" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg" style="background-color:#649a3f;width:35px;height:35px;border-radius:999px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;border-radius:999px;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-.75 -.5 36 36"><path d="M 5.5 11 h 23 v 1 l -11 6 l -11 -6 v -1 m 0 2 l 11 6 l 11 -6 v 11 h -22 v -11" stroke-width="1" fill="#fff"></path></svg></span></a><a aria-label="X" class="heateor_sss_button_x" href="https://twitter.com/intent/tweet?text=Centering%20Black%20Girls%20in%20Media%20Coverage&url=https%3A%2F%2Fewa.org%2Fdata-research-tips%2Fhow-black-girls-are-harmed-in-schools" title="X" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_x" style="background-color:#2a2a2a;width:35px;height:35px;border-radius:999px;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg width="100%" height="100%" style="display:block;border-radius:999px;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path fill="#fff" d="M21.751 7h3.067l-6.7 7.658L26 25.078h-6.172l-4.833-6.32-5.531 6.32h-3.07l7.167-8.19L6 7h6.328l4.37 5.777L21.75 7Zm-1.076 16.242h1.7L11.404 8.74H9.58l11.094 14.503Z"></path></svg></span></a></div><div class="heateorSssClear"></div></div>	</div>
+</div>
+					
+<div class="single-post__author">
+		<div class="single-post__sidebar--title">
+		Author	</div>
+	
+	<div class="single-post__author--listing">
+						<div class="single-post__author--block">
+						<div class="single-post__author--img">
+				<img width="554" height="554" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20554%20554'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-srcset="https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554.jpg 554w, https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554-300x300.jpg 300w, https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554-150x150.jpg 150w, https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554-400x400.jpg 400w" data-lazy-sizes="(max-width: 554px) 100vw, 554px" data-lazy-src="https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554.jpg" /><noscript><img width="554" height="554" src="https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554.jpg" class="attachment-full size-full" alt="" decoding="async" srcset="https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554.jpg 554w, https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554-300x300.jpg 300w, https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554-150x150.jpg 150w, https://ewa.org/wp-content/uploads/2022/03/ewa-radio-melinda-anderson-554-400x400.jpg 400w" sizes="(max-width: 554px) 100vw, 554px" /></noscript>			</div>
+						<div class="single-post__author--descr ">
+								<div class="single-post__author--title">
+					Melinda D. Anderson				</div>
+												<div class="single-post__author--status">
+					for EWA				</div>
+											</div>
+		</div>
+			</div>
+
+
+</div>
+					
+<div class="single-post__recent">
+		<div class="single-post__sidebar--title">
+		Related Skills	</div>
+	
+	
+		<div class="recent__list">
+										<div class="recent__item">
+					<div class="recent__item--title">
+						<a href="https://ewa.org/educated-reporter/what-makes-a-great-rural-college">
+							6 Questions for Washington Monthly on New Rural College Rankings						</a>
+					</div>
+					<div class="recent__item--content">
+						Amid enrollment declines and federal changes, an editor explains a new rural college rankings system and shares tips for reporters covering higher education in rural America. 					</div>
+				</div>
+
+												<div class="recent__item">
+					<div class="recent__item--title">
+						<a href="https://ewa.org/educated-reporter/why-college-presidents-are-under-political-pressure-and-scrutiny">
+							Reporting Guide: College Presidents Under Pressure						</a>
+					</div>
+					<div class="recent__item--content">
+						What challenges do today’s university presidents face? Here’s a look inside the minds of three leaders.					</div>
+				</div>
+
+												<div class="recent__item">
+					<div class="recent__item--title">
+						<a href="https://ewa.org/educated-reporter/ai-bans-in-education-what-does-research-show">
+							3 Tips to Cover the Risks of AI in Education						</a>
+					</div>
+					<div class="recent__item--content">
+						This explainer helps reporters get caught up on artificial intelligence trends and research, especially as schools and colleges limit or ban AI. 					</div>
+				</div>
+
+												<div class="recent__item">
+					<div class="recent__item--title">
+						<a href="https://ewa.org/educated-reporter/workforce-pell-understanding-the-federal-financial-aid-expansion">
+							Workforce Pell: Covering the Federal Financial Aid Expansion						</a>
+					</div>
+					<div class="recent__item--content">
+						The federal Workforce Pell program is active, but it’s awaiting more postsecondary education programs that meet requirements. Here’s what reporters should know.					</div>
+				</div>
+
+												<div class="recent__item">
+					<div class="recent__item--title">
+						<a href="https://ewa.org/educated-reporter/are-high-school-graduates-prepared-for-college-and-careers">
+							Covering College and Career Readiness						</a>
+					</div>
+					<div class="recent__item--content">
+						As states rethink high school graduation requirements, experts share advice on covering college and career readiness.					</div>
+				</div>
+
+											</div>
+
+		<div class="recent__loadmore">
+			<a href="#" class="btn--text">
+				Load More
+			</a>
+		</div>
+
+	
+</div>
+					
+				</div>
+							</div>
+		</div>
+		
+	</div>
+
+
+
+</main>
+	
+	<footer data-wpr-lazyrender="1" class="footer">
+		<div class="container">
+			<div class="footer__menu">
+				<nav>
+					<ul id="menu-footer-menu" class="menu"><li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-111"><a href="/members-news">NEWS &#038; INFORMATION</a>
+<ul class="sub-menu">
+	<li id="menu-item-351" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-351"><a href="https://ewa.org/skills">Skills</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="/issues">Issues</a></li>
+	<li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="/members-news">Member News</a></li>
+</ul>
+</li>
+<li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-115"><a href="/events">EVENTS &#038; WEBINARS</a>
+<ul class="sub-menu">
+	<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="/watch-and-listen/webinar">Webinar Recordings</a></li>
+	<li id="menu-item-118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118"><a href="/watch-and-listen/ewa-radio">EWA Radio</a></li>
+</ul>
+</li>
+<li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-119"><a href="/programs-and-services">PROGRAMS</a>
+<ul class="sub-menu">
+	<li id="menu-item-120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a href="/ewa-awards">Awards</a></li>
+	<li id="menu-item-121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121"><a href="/fellowships">Fellowships</a></li>
+</ul>
+</li>
+<li id="menu-item-123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-123"><a href="/membership">GET INVOLVED</a>
+<ul class="sub-menu">
+	<li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="/membership">Join Us</a></li>
+	<li id="menu-item-125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-125"><a href="/donation">Donate</a></li>
+	<li id="menu-item-126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126"><a href="https://ewa.org/about-us/jobs-at-education-writers-association">Jobs</a></li>
+</ul>
+</li>
+</ul>				</nav>
+			</div>
+			<div class="footer__content">
+								<div class="footer__logo">
+					<a href="https://ewa.org/" aria-label="footer logo">
+						<img width="181" height="38" src="https://ewa.org/wp-content/uploads/2021/12/footer-logo.png"
+						alt="logo"
+						class="img style-svg" />
+					</a>
+				</div>
+												<div class="footer__address">
+					Education Writers Association<br />
+1825 K Street NW, Suite 200, Washington, DC 20006				</div>
+												<div class="footer__phone">
+					<a href="tel:2024529830"
+						target="">
+						(202) 452-9830					</a>
+				</div>
+												<div class="footer__social">
+										<a href="https://www.facebook.com/EdWriters" 
+						aria-label="social icon"
+						class="footer__social--elem"
+						target="_blank">
+						<img width="35" height="35" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2035%2035'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-src="https://ewa.org/wp-content/uploads/2021/12/facebook.png" /><noscript><img width="35" height="35" src="https://ewa.org/wp-content/uploads/2021/12/facebook.png" class="attachment-full size-full" alt="" decoding="async" /></noscript>					</a>
+										<a href="https://twitter.com/EdWriters" 
+						aria-label="social icon"
+						class="footer__social--elem"
+						target="_blank">
+						<img width="35" height="35" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2035%2035'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-src="https://ewa.org/wp-content/uploads/2021/12/twitter.png" /><noscript><img width="35" height="35" src="https://ewa.org/wp-content/uploads/2021/12/twitter.png" class="attachment-full size-full" alt="" decoding="async" /></noscript>					</a>
+										<a href="https://www.linkedin.com/company/education-writers-association/" 
+						aria-label="social icon"
+						class="footer__social--elem"
+						target="_blank">
+						<img width="35" height="35" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2035%2035'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-src="https://ewa.org/wp-content/uploads/2021/12/linkedin.png" /><noscript><img width="35" height="35" src="https://ewa.org/wp-content/uploads/2021/12/linkedin.png" class="attachment-full size-full" alt="" decoding="async" /></noscript>					</a>
+									</div>
+												<div class="footer__picture">
+					<img width="106" height="109" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20106%20109'%3E%3C/svg%3E" class="attachment-full size-full" alt="" decoding="async" data-lazy-src="https://ewa.org/wp-content/uploads/2021/12/img.png" /><noscript><img width="106" height="109" src="https://ewa.org/wp-content/uploads/2021/12/img.png" class="attachment-full size-full" alt="" decoding="async" /></noscript>				</div>
+							</div>
+
+			<div class="footer__bottom">
+								<div class="footer__copy">
+					Copyright 2026 EWA All Rights Reserved				</div>
+								<div class="footer__author">
+										<div class="footer__dev">
+						Non-profit web design by<a href="https://weareimmediate.com/" target="_blank" rel="noopener">weareimmediate.com</a>					</div>
+														</div>
+			</div>
+
+						<div class="footer__mobile">
+				Non-profit web design by<a href="https://weareimmediate.com/" target="_blank" rel="noopener">weareimmediate.com</a>			</div>
+			
+		</div>
+	</footer>
+</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/ewa/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/0e3b1b3b-9db0-4c54-87f7-e9649dcb1874.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script>
+		
+
+	<div  class="overlay-block"></div>
+	<div  class="mobile-menu">
+		<div  class="mobile-menu__header">
+			<div  class="mobile-menu__logo">
+				<a href="https://ewa.org/">
+					<img width="142" height="29" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20142%2029'%3E%3C/svg%3E" alt="logo" data-lazy-src="https://ewa.org/wp-content/themes/ewa/assets/img/logo-mob.png"/><noscript><img width="142" height="29" src="https://ewa.org/wp-content/themes/ewa/assets/img/logo-mob.png" alt="logo"/></noscript>
+				</a>
+			</div>
+			<div  class="close-mobile-menu">
+				<a href="#">
+					<img width="34" height="34" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2034%2034'%3E%3C/svg%3E" alt="close" data-lazy-src="https://ewa.org/wp-content/themes/ewa/assets/img/close.png"/><noscript><img width="34" height="34" src="https://ewa.org/wp-content/themes/ewa/assets/img/close.png" alt="close"/></noscript>
+				</a>
+			</div>
+		</div>
+
+		<div  class="mobile-menu__search">
+			<form role="search" method="get" class="search-form" action="https://ewa.org/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" autocomplete="off" class="search-field" placeholder="Search" value=""  name="s" title="Search for:" />
+				</label>
+				<button type="submit" class="search-submit btn-search" >
+					<img width="19" height="19" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2019%2019'%3E%3C/svg%3E" alt="submit" data-lazy-src="https://ewa.org/wp-content/themes/ewa/assets/img/search-small.png"/><noscript><img width="19" height="19" src="https://ewa.org/wp-content/themes/ewa/assets/img/search-small.png" alt="submit"/></noscript>
+					Search				</button>
+			</form>
+		</div>
+
+		<nav class="mobile-menu__top">
+			<ul id="menu-header-menu-1" class="burger-menu__first"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left simple-menu menu-item-359"><a href="/issues">Issues</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13318"><a href="/issues/early-learning">Early Learning</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13319"><a href="/issues/elementary-school">Elementary School</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13320"><a href="/issues/middle-school">Middle School</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13321"><a href="/issues/high-school">High School</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13322"><a href="/issues/higher-ed">Higher Ed</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13324"><a href="/issues/career-technical-education">CTE</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13325"><a href="/issues/retraining">Retraining</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left simple-menu menu-item-16"><a href="/members-news">Members</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-15184"><a href="/members-news/anniversary">Anniversary</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13283"><a href="https://ewa.org/members-news/announcements">Announcements</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13284"><a href="https://ewa.org/members-news/awards">Awards News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13285"><a href="https://ewa.org/members-news/events">Events News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13286"><a href="https://ewa.org/members-news/members-work">Members&#8217; Work</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13287"><a href="https://ewa.org/members-news/member-spotlight">Member Spotlight</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13288"><a href="https://ewa.org/members-news/press-releases">Press Releases</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13289"><a href="https://ewa.org/members-news/state-of-the-ed-beat-report">State of the Ed Beat Report</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-parts left simple-menu menu-item-13290"><a href="https://ewa.org/members-news/tell-ewa">Tell EWA</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children left simple-menu menu-item-358"><a href="https://ewa.org/skills">Skills</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13328"><a href="/data-research-tips">Data &#038; Research Tips</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13329"><a href="/educated-reporter">Educated Reporter</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13330"><a href="/how-to-cover-the-story">How to Cover the Story</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13331"><a href="/latino-ed-beat">Latino Ed Beat</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13332"><a href="/news-explainers">News Explainers</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13333"><a href="/story-ideas">Story Ideas</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-18"><a href="/watch-and-listen">Watch &#038; Listen</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-19"><a href="/events">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left mega-menu menu-item-20"><a href="/programs-and-services">Services</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left simple-menu menu-item-595"><a href="/programs-and-services">Programs &#038; Services</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6026"><a href="https://ewa.org/ewa-awards">Awards Applicants</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-596"><a href="/awards">Awards Archive</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-15033"><a href="https://ewa.org/programs-and-services/ewa-listservs">EWA Listservs</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-6071"><a href="https://ewa.org/fellowships">Fellowships</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-12366"><a href="https://ewa.org/jobs">Find a Job</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-13486"><a href="https://ewa.org/post-a-job">Post a Job</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-10868"><a href="https://ewa.org/promote-your-press-release">Post a Press Release</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-20227"><a href="/our-staff/staff/emily-richmond">Public Editor</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-25386"><a href="https://ewa.org/ewa-reporting-with-education-research-program">Research Cohort</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children left simple-menu menu-item-21"><a href="#">Get Involved</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-6553"><a href="https://ewa.org/membership">Membership</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-13255"><a href="https://ewa.org/newsletter-signup">Newsletter Sign-up</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-13252"><a href="https://ewa.org/sponsorships">Sponsorships</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children left simple-menu menu-item-9311"><a href="https://ewa.org/about-us">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13270"><a href="/our-staff/staff">Our Staff</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-13271"><a href="/our-staff/board-of-directors">Our Boards</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-10115"><a href="https://ewa.org/about-us/governance">Governance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-15016"><a href="https://ewa.org/about-us/ewa-funders">EWA Funders</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-30992"><a href="https://ewa.org/about-us/education-writers-association-in-the-news">EWA Media Mentions</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-14427"><a href="https://ewa.org/about-us/ewa-history">EWA History</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page left simple-menu menu-item-12364"><a href="https://ewa.org/contact-ewa">Contact EWA</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom left simple-menu menu-item-20361"><a href="https://ewa.org/about-us/jobs-at-education-writers-association">Careers</a></li>
+</ul>
+</li>
+</ul>		</nav>
+
+		<div  class="mobile-menu__donate">
+			<a href="/donation"
+				target="">
+				Donate			</a>
+		</div>
+
+	</div>
+
+
+	<div  id="popup_thx">
+		<div  class="close_popup">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M2.13364 0.339077L8.00015 6.20501L13.8667 0.356853C13.9822 0.239337 14.1208 0.147065 14.2738 0.0858719C14.4268 0.0246785 14.5908 -0.00410517 14.7555 0.00134115C15.0787 0.022253 15.3832 0.160061 15.6122 0.389034C15.8412 0.618007 15.979 0.92249 15.9999 1.24563C16.0015 1.40451 15.9709 1.56206 15.9097 1.70873C15.8486 1.8554 15.7583 1.98812 15.6444 2.09886L9.7601 8.00035L15.6444 13.9018C15.8755 14.1258 16.0035 14.4351 15.9999 14.7551C15.979 15.0782 15.8412 15.3827 15.6122 15.6117C15.3832 15.8406 15.0787 15.9784 14.7555 15.9993C14.5908 16.0048 14.4268 15.976 14.2738 15.9148C14.1208 15.8536 13.9822 15.7614 13.8667 15.6438L8.00015 9.79568L2.15142 15.6438C2.03591 15.7614 1.89728 15.8536 1.74428 15.9148C1.59128 15.976 1.42725 16.0048 1.26255 15.9993C0.933352 15.9822 0.62217 15.8437 0.389075 15.6107C0.15598 15.3776 0.0174993 15.0665 0.000363862 14.7373C-0.00124463 14.5784 0.0294405 14.4208 0.0905578 14.2742C0.151675 14.1275 0.241951 13.9948 0.35591 13.8841L6.24019 8.00035L0.338133 2.09886C0.227383 1.98663 0.140392 1.85323 0.0823581 1.70663C0.0243242 1.56004 -0.00356266 1.40325 0.000363862 1.24563C0.0212777 0.92249 0.159099 0.618007 0.388094 0.389034C0.61709 0.160061 0.921603 0.022253 1.24477 0.00134115C1.40819 -0.0064196 1.57145 0.0195634 1.72437 0.0776703C1.8773 0.135777 2.01662 0.224762 2.13364 0.339077Z" fill="#2D2C2E"/>
+			</svg>
+		</div>
+					<h2>Thank you for your submission.</h2>
+						<div  class="html-content">
+			<p>Your post will be on the website shortly.</p>
+		</div>
+		
+	</div>
+
+	<div  id="popup_thx2">
+		<div  class="close_popup">
+			<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M2.13364 0.339077L8.00015 6.20501L13.8667 0.356853C13.9822 0.239337 14.1208 0.147065 14.2738 0.0858719C14.4268 0.0246785 14.5908 -0.00410517 14.7555 0.00134115C15.0787 0.022253 15.3832 0.160061 15.6122 0.389034C15.8412 0.618007 15.979 0.92249 15.9999 1.24563C16.0015 1.40451 15.9709 1.56206 15.9097 1.70873C15.8486 1.8554 15.7583 1.98812 15.6444 2.09886L9.7601 8.00035L15.6444 13.9018C15.8755 14.1258 16.0035 14.4351 15.9999 14.7551C15.979 15.0782 15.8412 15.3827 15.6122 15.6117C15.3832 15.8406 15.0787 15.9784 14.7555 15.9993C14.5908 16.0048 14.4268 15.976 14.2738 15.9148C14.1208 15.8536 13.9822 15.7614 13.8667 15.6438L8.00015 9.79568L2.15142 15.6438C2.03591 15.7614 1.89728 15.8536 1.74428 15.9148C1.59128 15.976 1.42725 16.0048 1.26255 15.9993C0.933352 15.9822 0.62217 15.8437 0.389075 15.6107C0.15598 15.3776 0.0174993 15.0665 0.000363862 14.7373C-0.00124463 14.5784 0.0294405 14.4208 0.0905578 14.2742C0.151675 14.1275 0.241951 13.9948 0.35591 13.8841L6.24019 8.00035L0.338133 2.09886C0.227383 1.98663 0.140392 1.85323 0.0823581 1.70663C0.0243242 1.56004 -0.00356266 1.40325 0.000363862 1.24563C0.0212777 0.92249 0.159099 0.618007 0.388094 0.389034C0.61709 0.160061 0.921603 0.022253 1.24477 0.00134115C1.40819 -0.0064196 1.57145 0.0195634 1.72437 0.0776703C1.8773 0.135777 2.01662 0.224762 2.13364 0.339077Z" fill="#2D2C2E"/>
+			</svg>
+		</div>
+					<h2>Thank you for your message</h2>
+						<div class="html-content">
+			<p>We will get back to you shortly</p>
+		</div>
+		
+	</div>
+
+
+	<script id="wp-importmap" type="importmap">
+{"imports":{"@wordpress/video-conversion/worker":"https://ewa.org/wp-includes/js/dist/script-modules/video-conversion/worker.min.js?ver=4d3627c45251ceb4f9a2","@wordpress/vips/worker":"https://ewa.org/wp-includes/js/dist/script-modules/vips/worker.min.js?ver=7e33cd8c4128731126e8"}}
+</script>
+<script type="text/rocketlazyloadscript" id="react-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1"></script>
+<script type="text/rocketlazyloadscript" id="react-jsx-runtime-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1"></script>
+<script type="text/rocketlazyloadscript" id="wp-private-apis-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/private-apis.min.js?ver=eb85f28c4c729bb4f002"></script>
+<script type="text/rocketlazyloadscript" id="wp-url-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/url.min.js?ver=7b0de086d4ae11d55704"></script>
+<script type="text/rocketlazyloadscript" id="wp-api-fetch-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/api-fetch.min.js?ver=6f2a4faeee3c722b1e57"></script>
+<script type="text/rocketlazyloadscript" id="wp-api-fetch-js-after">
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://ewa.org/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "10e3bb7df6" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://ewa.org/wp-admin/admin-ajax.php?action=rest-nonce";
+(function(){if(!window.wp||!wp.apiFetch||!wp.apiFetch.use){return;}wp.apiFetch.use(function(options,next){var p=String((options&&(options.path||options.url))||"");try{var u=new URL(p,window.location.origin);p=(u.pathname||"")+(u.search||"");}catch(e){}if(p.indexOf("/wp/v2/users/me")!==-1){return Promise.resolve(null);}return next(options);});})();
+//# sourceURL=wp-api-fetch-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="react-dom-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1"></script>
+<script type="text/rocketlazyloadscript" id="wp-dom-ready-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script>
+<script type="text/rocketlazyloadscript" id="wp-a11y-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script>
+<script type="text/rocketlazyloadscript" id="wp-blob-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/blob.min.js?ver=c7582a735ddd2edc9731"></script>
+<script type="text/rocketlazyloadscript" id="wp-block-serialization-default-parser-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/block-serialization-default-parser.min.js?ver=4c6f3dd40077f7c17604"></script>
+<script type="text/rocketlazyloadscript" id="wp-autop-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/autop.min.js?ver=4e10a18cb6f21a043fc0"></script>
+<script type="text/rocketlazyloadscript" id="wp-deprecated-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/deprecated.min.js?ver=fe587bac92b7d0ef760e"></script>
+<script type="text/rocketlazyloadscript" id="wp-dom-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/dom.min.js?ver=c95f94cbbc1ac3fde84f"></script>
+<script type="text/rocketlazyloadscript" id="wp-escape-html-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/escape-html.min.js?ver=87ebe53e97bba59805a5"></script>
+<script type="text/rocketlazyloadscript" id="wp-element-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/element.min.js?ver=4a4370b2b349066fd440"></script>
+<script type="text/rocketlazyloadscript" id="wp-is-shallow-equal-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/is-shallow-equal.min.js?ver=7ad271045c1fe60f5496"></script>
+<script type="text/rocketlazyloadscript" id="wp-keycodes-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/keycodes.min.js?ver=d0b4204e4bbeb412df6e"></script>
+<script type="text/rocketlazyloadscript" id="wp-priority-queue-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/priority-queue.min.js?ver=6c0aa59b65d55dfd509b"></script>
+<script type="text/rocketlazyloadscript" id="wp-undo-manager-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/undo-manager.min.js?ver=4554fce6276d8910a4ae"></script>
+<script type="text/rocketlazyloadscript" id="wp-compose-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/compose.min.js?ver=0e8bde2a499ea6073b42"></script>
+<script type="text/rocketlazyloadscript" id="wp-redux-routine-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/redux-routine.min.js?ver=acca2b4857d83ad1790e"></script>
+<script type="text/rocketlazyloadscript" id="wp-data-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/data.min.js?ver=14a216e0932d72c22976"></script>
+<script type="text/rocketlazyloadscript" id="wp-data-js-after">
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+//# sourceURL=wp-data-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="wp-html-entities-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/html-entities.min.js?ver=a976ff3a0f00bc2999a3"></script>
+<script type="text/rocketlazyloadscript" id="wp-rich-text-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/rich-text.min.js?ver=3e5852e42cee1c239bae"></script>
+<script type="text/rocketlazyloadscript" id="wp-shortcode-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/shortcode.min.js?ver=f6273476300cc5fad4cd"></script>
+<script type="text/rocketlazyloadscript" id="wp-warning-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/warning.min.js?ver=a0978839debc564a6608"></script>
+<script type="text/rocketlazyloadscript" id="wp-blocks-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/blocks.min.js?ver=c0e57a630a0b6f6c3bb5"></script>
+<script type="text/rocketlazyloadscript" id="moment-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1"></script>
+<script type="text/rocketlazyloadscript" id="moment-js-after">
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+//# sourceURL=moment-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="wp-date-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/date.min.js?ver=8173fc0fc12b7bb7eaf0"></script>
+<script type="text/rocketlazyloadscript" id="wp-date-js-after">
+wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago","s":"a second","ss":"%d seconds","m":"a minute","mm":"%d minutes","h":"an hour","hh":"%d hours","d":"a day","dd":"%d days","M":"a month","MM":"%d months","y":"a year","yy":"%d years"},"startOfWeek":1},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":0,"offsetFormatted":"0","string":"","abbr":""}} );
+//# sourceURL=wp-date-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="wp-primitives-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/primitives.min.js?ver=44cc5a35c7b9fe07a838"></script>
+<script type="text/rocketlazyloadscript" id="wp-theme-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/theme.min.js?ver=56a75cc08ae66c1fcb7a"></script>
+<script type="text/rocketlazyloadscript" id="wp-components-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/components.min.js?ver=9b751f17060211272a5c"></script>
+<script type="text/rocketlazyloadscript" id="wp-keyboard-shortcuts-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/keyboard-shortcuts.min.js?ver=37da95806f2339bc80d0"></script>
+<script type="text/rocketlazyloadscript" id="wp-preferences-persistence-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/preferences-persistence.min.js?ver=a34abbdacd8f50f9acb1"></script>
+<script type="text/rocketlazyloadscript" id="wp-preferences-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/preferences.min.js?ver=5a169e3fc0e657f74172"></script>
+<script type="text/rocketlazyloadscript" id="wp-preferences-js-after">
+( function() {
+				var serverData = false;
+				var userId = "0";
+				var persistenceLayer = wp.preferencesPersistence.__unstableCreatePersistenceLayer( serverData, userId );
+				var preferencesStore = wp.preferences.store;
+				wp.data.dispatch( preferencesStore ).setPersistenceLayer( persistenceLayer );
+			} ) ();
+//# sourceURL=wp-preferences-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="wp-commands-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/commands.min.js?ver=1a4910212c7ed2355300"></script>
+<script type="text/rocketlazyloadscript" id="wp-notices-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/notices.min.js?ver=c09a068fdab0eb465e14"></script>
+<script type="text/rocketlazyloadscript" id="wp-style-engine-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/style-engine.min.js?ver=914befb08774033e6265"></script>
+<script type="text/rocketlazyloadscript" id="wp-token-list-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/token-list.min.js?ver=e86ab419d8302d57822c"></script>
+<script type="text/rocketlazyloadscript" id="wp-upload-media-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/upload-media.min.js?ver=a2c026d433c295fd5145"></script>
+<script type="text/rocketlazyloadscript" id="wp-block-editor-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/block-editor.min.js?ver=37e58da384b2558bd479"></script>
+<script type="text/rocketlazyloadscript" id="wp-core-data-js" data-rocket-src="https://ewa.org/wp-includes/js/dist/core-data.min.js?ver=573f98dbff9f49ffeb0b"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="givewp-entities-public-js" data-rocket-src="https://ewa.org/wp-content/cache/min/1/wp-content/plugins/give/build/entitiesPublic.js?ver=1790377581"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="give-salesforce-script-frontend-js" data-rocket-src="https://ewa.org/wp-content/cache/min/1/wp-content/plugins/give-salesforce/public/js/give-salesforce.js?ver=1790377581"></script>
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/donation-confirmation|/donor-dashboard|/donation-failed|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://ewa.org","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="rocket_lazyload_css-js-extra">
+var rocket_lazyload_css_data = {"threshold":"300"};
+//# sourceURL=rocket_lazyload_css-js-extra
+</script>
+<script id="rocket_lazyload_css-js-after">
+!function o(n,a,c){function l(t,e){if(!a[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(u)return u(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=a[t]={exports:{}},n[t][0].call(r.exports,function(e){return l(n[t][1][e]||e)},r,r.exports,o,n,a,c)}return a[t].exports}for(var u="function"==typeof require&&require,e=0;e<c.length;e++)l(c[e]);return l}({1:[function(e,t,r){{let r="undefined"==typeof rocket_pairs?[]:rocket_pairs,o=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var a=rocket_lazyload_css_data.threshold||300;let n=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&r.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,o.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{n.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:a+"px"});function c(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&r.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(n.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}c(),(()=>{let r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}})()(document.querySelector("body"),c)}},{}]},{},[1]);
+//# sourceURL=rocket_lazyload_css-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="eva-script-font-js" data-rocket-src="https://kit.fontawesome.com/c66f150d96.js?ver=7.1.2"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="eva-main-froogaloop2-js" data-rocket-src="https://ewa.org/wp-content/cache/min/1/wp-content/themes/ewa/assets/js/vimeo.js?ver=1790377581"></script>
+<script type="text/rocketlazyloadscript" id="eva-main-libs-js" data-rocket-src="https://ewa.org/wp-content/themes/ewa/assets/js-min/libs.min.js?ver=1.01"></script>
+<script id="common-script-js-extra">
+var loadmore_params = {"ajaxurl":"https://ewa.org/wp-admin/admin-ajax.php","posts":"{\"page\":0,\"name\":\"how-black-girls-are-harmed-in-schools\",\"category_name\":\"data-research-tips\",\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"orderby\":\"menu_order\",\"order\":\"ASC\",\"parsed_rml_folder\":0,\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":9,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"use_rml_folder\":false}","current_page":"1","max_page":"0"};
+//# sourceURL=common-script-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="common-script-js" data-rocket-src="https://ewa.org/wp-content/themes/ewa/assets/js-min/common.min.js?ver=1.01"></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="eva-main-donation-js" data-rocket-src="https://ewa.org/wp-content/cache/min/1/wp-content/themes/ewa/assets/js/donation.js?ver=1790377581"></script>
+<script id="heateor_sss_sharing_js-js-before">
+function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'https://ewa.org/wp-admin/admin-ajax.php', heateorSssCloseIconPath = 'https://ewa.org/wp-content/plugins/sassy-social-share/public/../images/close.png', heateorSssPluginIconPath = 'https://ewa.org/wp-content/plugins/sassy-social-share/public/../images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 1;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")}
+//# sourceURL=heateor_sss_sharing_js-js-before
+</script>
+<script data-minify="1" id="heateor_sss_sharing_js-js" src="https://ewa.org/wp-content/cache/min/1/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js?ver=1790377581"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://ewa.org/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1791078194 -->

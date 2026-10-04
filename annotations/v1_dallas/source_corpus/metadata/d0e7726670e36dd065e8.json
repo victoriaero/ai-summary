@@ -1,0 +1,25 @@
+{
+  "source_id": "d0e7726670e36dd065e8",
+  "normalized_url": "https://disabilityhelpgroup.com/ssdi-qualifying-for-benefits",
+  "fetch_timestamp_utc": "2026-09-29T19:39:06.286165+00:00",
+  "registrable_domain": "disabilityhelpgroup.com",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 504,
+  "final_url": "https://disabilityhelpgroup.com/ssdi-qualifying-for-benefits",
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 29 Sep 2026 19:39:12 GMT",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "Keep-Alive": "timeout=20",
+    "X-Cacheable": "YES:briefly:504",
+    "Cache-Control": "max-age=10, must-revalidate",
+    "X-Cache": "HIT: 3",
+    "X-Cache-Group": "normal"
+  },
+  "downloaded_bytes": 0,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

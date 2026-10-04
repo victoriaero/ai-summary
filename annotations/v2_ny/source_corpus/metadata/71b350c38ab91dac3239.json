@@ -1,0 +1,28 @@
+{
+  "source_id": "71b350c38ab91dac3239",
+  "normalized_url": "https://washington.edu/populationhealth/2023/09/25/measuring-the-psychological-impact-of-administrative-burdens-on-transgender-people",
+  "fetch_timestamp_utc": "2026-10-04T02:41:45.594278+00:00",
+  "registrable_domain": "washington.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.washington.edu/populationhealth/2023/09/25/measuring-the-psychological-impact-of-administrative-burdens-on-transgender-people/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 66674,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/71b350c38ab91dac3239.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/71b350c38ab91dac3239.txt",
+  "text_chars": 3727,
+  "text_words": 536,
+  "extraction_status": "success",
+  "page_title": "Measuring the psychological impact of administrative burdens on transgender people",
+  "page_author": null,
+  "page_date": "2023-09-25",
+  "site_name": "Population Health",
+  "canonical_url": "https://www.washington.edu/populationhealth/2023/09/25/measuring-the-psychological-impact-of-administrative-burdens-on-transgender-people/"
+}

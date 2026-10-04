@@ -1,0 +1,28 @@
+{
+  "source_id": "4befe3e2b8079f04cab8",
+  "normalized_url": "https://abcnews.com/US/meet-man-hoping-battle-lgbtq-bank-discrimination-credit/story?id=65947300",
+  "fetch_timestamp_utc": "2026-10-04T02:38:37.143873+00:00",
+  "registrable_domain": "abcnews.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://abcnews.com/US/meet-man-hoping-battle-lgbtq-bank-discrimination-credit/story?id=65947300",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 231588,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/4befe3e2b8079f04cab8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/4befe3e2b8079f04cab8.txt",
+  "text_chars": 6666,
+  "text_words": 1097,
+  "extraction_status": "success",
+  "page_title": "Meet the man hoping to battle LGBTQ bank discrimination with a new credit union",
+  "page_author": "ABC News; Karma Allen",
+  "page_date": "2019-10-09",
+  "site_name": "ABC News",
+  "canonical_url": "https://abcnews.com/US/meet-man-hoping-battle-lgbtq-bank-discrimination-credit/story?id=65947300"
+}

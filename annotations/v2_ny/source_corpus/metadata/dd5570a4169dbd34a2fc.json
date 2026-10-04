@@ -1,0 +1,28 @@
+{
+  "source_id": "dd5570a4169dbd34a2fc",
+  "normalized_url": "https://chenmed.com/blog/understanding-healthcare-hesitancy-black-patients-historical-perspective",
+  "fetch_timestamp_utc": "2026-10-04T02:50:05.137593+00:00",
+  "registrable_domain": "chenmed.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.chenmed.com/blog/understanding-healthcare-hesitancy-black-patients-historical-perspective",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 98963,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/dd5570a4169dbd34a2fc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/dd5570a4169dbd34a2fc.txt",
+  "text_chars": 8711,
+  "text_words": 1225,
+  "extraction_status": "success",
+  "page_title": "Understanding Healthcare Hesitancy in Black Patients: A",
+  "page_author": null,
+  "page_date": "2024-02-01",
+  "site_name": "ChenMed LLC",
+  "canonical_url": "https://www.chenmed.com/blog/understanding-healthcare-hesitancy-black-patients-historical-perspective"
+}

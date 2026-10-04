@@ -1,0 +1,28 @@
+{
+  "source_id": "47ddcde49f46804c1257",
+  "normalized_url": "https://oasas.ny.gov/providers/hr-1",
+  "fetch_timestamp_utc": "2026-10-04T02:38:15.966457+00:00",
+  "registrable_domain": "ny.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://oasas.ny.gov/providers/hr-1",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 38897,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/47ddcde49f46804c1257.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/47ddcde49f46804c1257.txt",
+  "text_chars": 5606,
+  "text_words": 826,
+  "extraction_status": "success",
+  "page_title": "H.R. 1 Changes & Work Requirements",
+  "page_author": null,
+  "page_date": "2026-09-09",
+  "site_name": "Office of Addiction Services and Supports",
+  "canonical_url": "https://oasas.ny.gov/providers/hr-1"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "e48dbddb4595b8194e4f",
+  "normalized_url": "https://habitatcltregion.org/blog/homeownership-in-latino-and-hispanic-communities",
+  "fetch_timestamp_utc": "2026-10-04T02:50:49.202842+00:00",
+  "registrable_domain": "habitatcltregion.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.habitatcltregion.org/blog/homeownership-in-latino-and-hispanic-communities",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 446049,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e48dbddb4595b8194e4f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e48dbddb4595b8194e4f.txt",
+  "text_chars": 6490,
+  "text_words": 951,
+  "extraction_status": "success",
+  "page_title": "Homeownership in Latino and Hispanic Communities | Habitat Charlotte Region",
+  "page_author": null,
+  "page_date": "2025-08-13",
+  "site_name": "Habitat for Humanity of the Charlotte Region",
+  "canonical_url": "https://www.habitatcltregion.org/blog/homeownership-in-latino-and-hispanic-communities"
+}

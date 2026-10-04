@@ -1,0 +1,28 @@
+{
+  "source_id": "cde7cf9684c78ec011e1",
+  "normalized_url": "https://equity.army/financial-services",
+  "fetch_timestamp_utc": "2026-10-04T02:48:59.110287+00:00",
+  "registrable_domain": "equity.army",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.equity.army/financial-services",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 203172,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cde7cf9684c78ec011e1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cde7cf9684c78ec011e1.txt",
+  "text_chars": 12723,
+  "text_words": 1827,
+  "extraction_status": "success",
+  "page_title": "Financial Services Inclusion Principles — EquityArmy",
+  "page_author": null,
+  "page_date": "2000-01-01",
+  "site_name": "EquityArmy",
+  "canonical_url": "https://www.equity.army/financial-services"
+}

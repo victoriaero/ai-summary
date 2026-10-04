@@ -1,0 +1,29 @@
+{
+  "source_id": "29878dce40e2ac8255d5",
+  "normalized_url": "https://medstarhealth.org/blog/patient-safety-racism",
+  "fetch_timestamp_utc": "2026-09-29T19:22:35.695313+00:00",
+  "registrable_domain": "medstarhealth.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://medstarhealth.org/blog/patient-safety-racism",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:22:38 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sGgJfT3RYWKGYc%2F8hvfoA6Mygr%2BRptXJeHeUKkSL9ACQUpk177LBG9THJ1xHVQikIwnD2Mx1zulPac%2FmCxMXAJQzrVd%2BT6eW9gweQlRHO9NvZ1uZMbF%2B1VmesCtxTs2b7Qs7zQ%3D%3D\"}]}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d5b9899b85e21-GRU"
+  },
+  "downloaded_bytes": 7211,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

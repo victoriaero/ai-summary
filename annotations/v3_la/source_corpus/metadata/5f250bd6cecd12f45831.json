@@ -1,0 +1,20 @@
+{
+  "source_id": "5f250bd6cecd12f45831",
+  "normalized_url": "https://americanprogress.org/article/how-to-address-the-administrative-burdens-of-accessing-the-safety-net",
+  "fetch_timestamp_utc": "2026-10-04T03:37:49.878156+00:00",
+  "registrable_domain": "americanprogress.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.americanprogress.org/article/how-to-address-the-administrative-burdens-of-accessing-the-safety-net",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5902,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

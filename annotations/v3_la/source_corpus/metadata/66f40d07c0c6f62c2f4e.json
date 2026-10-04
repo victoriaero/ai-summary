@@ -1,0 +1,28 @@
+{
+  "source_id": "66f40d07c0c6f62c2f4e",
+  "normalized_url": "https://experian.com/blogs/ask-experian/how-does-ssi-ssdi-affect-my-credit",
+  "fetch_timestamp_utc": "2026-10-04T03:38:23.515999+00:00",
+  "registrable_domain": "experian.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.experian.com/blogs/ask-experian/how-does-ssi-ssdi-affect-my-credit",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 225935,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/66f40d07c0c6f62c2f4e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/66f40d07c0c6f62c2f4e.txt",
+  "text_chars": 6267,
+  "text_words": 1048,
+  "extraction_status": "success",
+  "page_title": "How Does SSI or SSDI Affect My Credit?",
+  "page_author": "Emily Cahill",
+  "page_date": "2026-07-23",
+  "site_name": "Experian",
+  "canonical_url": "https://www.experian.com/blogs/ask-experian/how-does-ssi-ssdi-affect-my-credit/"
+}

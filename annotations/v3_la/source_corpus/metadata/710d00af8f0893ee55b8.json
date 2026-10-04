@@ -1,0 +1,28 @@
+{
+  "source_id": "710d00af8f0893ee55b8",
+  "normalized_url": "https://endhomelessness.org/a-shortage-of-affordable-housing",
+  "fetch_timestamp_utc": "2026-10-04T03:39:12.084823+00:00",
+  "registrable_domain": "endhomelessness.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://endhomelessness.org/a-shortage-of-affordable-housing",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 360421,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/710d00af8f0893ee55b8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/710d00af8f0893ee55b8.txt",
+  "text_chars": 1443,
+  "text_words": 218,
+  "extraction_status": "success",
+  "page_title": "What Causes Homelessness: A Shortage of Affordable Housing",
+  "page_author": null,
+  "page_date": "2026-07-15",
+  "site_name": "National Alliance to End Homelessness",
+  "canonical_url": "https://endhomelessness.org/a-shortage-of-affordable-housing/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "0d10a65cb825c6e037d7",
+  "normalized_url": "https://destinationhomesv.org/understanding-homelessness/causes",
+  "fetch_timestamp_utc": "2026-10-04T02:33:34.497923+00:00",
+  "registrable_domain": "destinationhomesv.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://destinationhomesv.org/understanding-homelessness/causes/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 115975,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0d10a65cb825c6e037d7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0d10a65cb825c6e037d7.txt",
+  "text_chars": 11543,
+  "text_words": 1667,
+  "extraction_status": "success",
+  "page_title": "Causes of Homelessness - Destination: Home",
+  "page_author": null,
+  "page_date": "2021-02-03",
+  "site_name": "Destination: Home - Our goal is to end homelessness not just manage it.",
+  "canonical_url": "https://destinationhomesv.org/understanding-homelessness/causes/"
+}

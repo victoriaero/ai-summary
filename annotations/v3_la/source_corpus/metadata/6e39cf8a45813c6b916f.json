@@ -1,0 +1,28 @@
+{
+  "source_id": "6e39cf8a45813c6b916f",
+  "normalized_url": "https://thetrevorproject.org/research-briefs/homelessness-and-housing-instability-among-lgbtq-youth-feb-2022",
+  "fetch_timestamp_utc": "2026-10-04T03:39:00.670524+00:00",
+  "registrable_domain": "thetrevorproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.thetrevorproject.org/research-briefs/homelessness-and-housing-instability-among-lgbtq-youth-feb-2022/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 153283,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6e39cf8a45813c6b916f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6e39cf8a45813c6b916f.txt",
+  "text_chars": 59406,
+  "text_words": 9087,
+  "extraction_status": "success",
+  "page_title": "Homelessness and Housing Instability Among LGBTQ Youth",
+  "page_author": null,
+  "page_date": "2025-01-31",
+  "site_name": "The Trevor Project",
+  "canonical_url": "https://www.thetrevorproject.org/research-briefs/homelessness-and-housing-instability-among-lgbtq-youth-feb-2022/"
+}

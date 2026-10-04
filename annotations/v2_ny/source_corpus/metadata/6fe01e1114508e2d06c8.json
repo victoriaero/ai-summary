@@ -1,0 +1,28 @@
+{
+  "source_id": "6fe01e1114508e2d06c8",
+  "normalized_url": "https://tacqe.com/employer-practices-for-hiring-people-with-disabilities-factsheet",
+  "fetch_timestamp_utc": "2026-10-04T02:41:35.540154+00:00",
+  "registrable_domain": "tacqe.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://tacqe.com/employer-practices-for-hiring-people-with-disabilities-factsheet/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 184727,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6fe01e1114508e2d06c8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6fe01e1114508e2d06c8.txt",
+  "text_chars": 1954,
+  "text_words": 272,
+  "extraction_status": "success",
+  "page_title": "Employer Practices for Hiring People with Disabilities – Factsheet",
+  "page_author": "Dawn Lalley",
+  "page_date": "2021-07-27",
+  "site_name": "Technical Assistance Center for Quality Employment",
+  "canonical_url": "http://tacqe.com/employer-practices-for-hiring-people-with-disabilities-factsheet/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "be6d810d2af29ec33991",
+  "normalized_url": "https://medicarerights.org/medicare-watch/2026/10/01/whats-at-stake-in-2026-medicaid-cuts",
+  "fetch_timestamp_utc": "2026-10-04T03:45:01.374866+00:00",
+  "registrable_domain": "medicarerights.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://medicarerights.org/medicare-watch/2026/10/01/whats-at-stake-in-2026-medicaid-cuts",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5808,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "3be6645515a732a0806d",
+  "normalized_url": "https://ncda.org/aws/NCDA/pt/sd/news_article/384442/_PARENT/CC_layout_details/false",
+  "fetch_timestamp_utc": "2026-10-04T02:37:10.830215+00:00",
+  "registrable_domain": "ncda.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ncda.org/aws/NCDA/pt/sd/news_article/384442/_PARENT/CC_layout_details/false",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 41506,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3be6645515a732a0806d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3be6645515a732a0806d.txt",
+  "text_chars": 9492,
+  "text_words": 1391,
+  "extraction_status": "success",
+  "page_title": "Career Goal-Setting for Black, Indigenous and Students of Color from High-Poverty Urban Areas",
+  "page_author": null,
+  "page_date": "2021-01-08",
+  "site_name": "ncda.org",
+  "canonical_url": "https://ncda.org/aws/NCDA/pt/sd/news_article/384442/_PARENT/CC_layout_details/false"
+}

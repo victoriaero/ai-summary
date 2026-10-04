@@ -1,0 +1,28 @@
+{
+  "source_id": "f0037c0c116c4780f122",
+  "normalized_url": "https://aft.org/ae/spring2017/gandara",
+  "fetch_timestamp_utc": "2026-10-04T02:51:36.556795+00:00",
+  "registrable_domain": "aft.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.aft.org/ae/spring2017/gandara",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 142575,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f0037c0c116c4780f122.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f0037c0c116c4780f122.txt",
+  "text_chars": 53588,
+  "text_words": 8004,
+  "extraction_status": "success",
+  "page_title": "The Potential and Promise of Latino Students",
+  "page_author": "Patricia Gándara",
+  "page_date": "2023-08-21",
+  "site_name": "American Federation of Teachers",
+  "canonical_url": "https://www.aft.org/ae/spring2017/gandara"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "19034c7a6ae5b1080827",
+  "normalized_url": "https://aacn.org/blog/caring-for-lgbtq-patients-in-critical-and-progressive-care",
+  "fetch_timestamp_utc": "2026-10-04T02:34:36.346852+00:00",
+  "registrable_domain": "aacn.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.aacn.org/blog/caring-for-lgbtq-patients-in-critical-and-progressive-care",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 76809,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/19034c7a6ae5b1080827.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/19034c7a6ae5b1080827.txt",
+  "text_chars": 9647,
+  "text_words": 1397,
+  "extraction_status": "success",
+  "page_title": "Caring for LGBTQ+ Patients in Critical and Progressive Care",
+  "page_author": "Luis E Caso Vega He; Him; Él; MBA; BSN; CEN; CPEN; NE-BC; TCRN",
+  "page_date": "2025-01-13",
+  "site_name": "AACN",
+  "canonical_url": "https://www.aacn.org/blog/caring-for-lgbtq-patients-in-critical-and-progressive-care"
+}

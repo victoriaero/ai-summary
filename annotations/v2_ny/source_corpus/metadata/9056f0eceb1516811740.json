@@ -1,0 +1,28 @@
+{
+  "source_id": "9056f0eceb1516811740",
+  "normalized_url": "https://eeoc.gov/prohibited-employment-policiespractices",
+  "fetch_timestamp_utc": "2026-10-04T02:44:06.417943+00:00",
+  "registrable_domain": "eeoc.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.eeoc.gov/prohibited-employment-policiespractices",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 94956,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9056f0eceb1516811740.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9056f0eceb1516811740.txt",
+  "text_chars": 566,
+  "text_words": 56,
+  "extraction_status": "success",
+  "page_title": "Prohibited Employment Policies/Practices",
+  "page_author": null,
+  "page_date": "2018-01-15",
+  "site_name": "U.S. Equal Employment Opportunity Commission",
+  "canonical_url": "https://www.eeoc.gov/prohibited-employment-policiespractices"
+}

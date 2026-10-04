@@ -1,0 +1,28 @@
+{
+  "source_id": "2d4fa59cbf285e8da928",
+  "normalized_url": "https://schoolhouseconnection.org/article/student-homelessness-lessons-from-the-youth-risk-behavior-survey-yrbs",
+  "fetch_timestamp_utc": "2026-10-04T02:36:04.504838+00:00",
+  "registrable_domain": "schoolhouseconnection.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://schoolhouseconnection.org/article/student-homelessness-lessons-from-the-youth-risk-behavior-survey-yrbs",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 364381,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2d4fa59cbf285e8da928.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2d4fa59cbf285e8da928.txt",
+  "text_chars": 57963,
+  "text_words": 8425,
+  "extraction_status": "success",
+  "page_title": "Student Homelessness: Lessons from the Youth Risk Behavior Survey (YRBS)",
+  "page_author": null,
+  "page_date": "2021-10-07",
+  "site_name": "SchoolHouse Connection",
+  "canonical_url": "https://schoolhouseconnection.org/article/student-homelessness-lessons-from-the-youth-risk-behavior-survey-yrbs"
+}

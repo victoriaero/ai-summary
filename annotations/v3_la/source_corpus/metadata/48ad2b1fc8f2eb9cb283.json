@@ -1,0 +1,28 @@
+{
+  "source_id": "48ad2b1fc8f2eb9cb283",
+  "normalized_url": "https://youtube.com/watch?t=41&v=_TUydUMazkc",
+  "fetch_timestamp_utc": "2026-10-04T03:35:59.607705+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=41&v=_TUydUMazkc",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1296374,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/48ad2b1fc8f2eb9cb283.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/48ad2b1fc8f2eb9cb283.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Trans health care & gender-diverse patient considerations with Kameryn J. Lee, MD",
+  "page_author": null,
+  "page_date": "2023-11-28",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=_TUydUMazkc"
+}

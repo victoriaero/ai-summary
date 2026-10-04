@@ -1,0 +1,31 @@
+dimension,condition,group,domain,outcome,url_jaccard_similarity,url_jaccard_distance,url_shared_n,n_unique_urls,generic_n_unique_urls
+Gender,majority,Men,Housing,Homelessness,0.6666666666666666,0.33333333333333337,8,9,11
+Disability,majority,People without disabilities,Healthcare,Patient safety,0.5454545454545454,0.4545454545454546,6,6,11
+Gender,majority,Men,Credit & Financial Services,Access to banking services,0.42857142857142855,0.5714285714285714,6,10,10
+Gender,majority,Men,Housing,Housing stability,0.4166666666666667,0.5833333333333333,5,7,10
+Disability,majority,People without disabilities,Housing,Homelessness,0.35714285714285715,0.6428571428571428,5,8,11
+Disability,majority,People without disabilities,Employment,Workplace harassment,0.2857142857142857,0.7142857142857143,2,2,7
+Gender,majority,Men,Government Benefits,Access to government benefits,0.25,0.75,3,8,7
+Gender,minority,Women,Employment,Workplace harassment,0.25,0.75,3,8,7
+Gender,majority,Men,Criminal Justice,Police use of force,0.25,0.75,3,7,8
+Gender,majority,Men,Criminal Justice,Arrest / detention by police,0.23076923076923078,0.7692307692307692,3,7,9
+Sexual Orientation,majority,heterosexual people,Employment,Workplace harassment,0.21052631578947367,0.7894736842105263,4,16,7
+Race,majority,White people,Housing,Homelessness,0.2,0.8,3,7,11
+Gender,minority,Women,Education,College access/admission,0.16666666666666666,0.8333333333333334,3,13,8
+Race,majority,White people,Credit & Financial Services,Access to credit,0.16666666666666666,0.8333333333333334,2,7,7
+Race,majority,White people,Government Benefits,Benefit retention / renewal,0.16666666666666666,0.8333333333333334,2,12,2
+Sexual Orientation,majority,heterosexual people,Education,College access/admission,0.16666666666666666,0.8333333333333334,4,20,8
+Disability,majority,People without disabilities,Criminal Justice,Police use of force,0.16666666666666666,0.8333333333333334,3,13,8
+Disability,majority,People without disabilities,Government Benefits,Access to government benefits,0.15384615384615385,0.8461538461538461,2,8,7
+Sexual Orientation,majority,heterosexual people,Credit & Financial Services,Credit/loan approval,0.15384615384615385,0.8461538461538461,2,7,8
+Race,majority,White people,Employment,Workplace harassment,0.15384615384615385,0.8461538461538461,2,8,7
+Gender,majority,Men,Employment,Workplace harassment,0.14285714285714285,0.8571428571428572,2,9,7
+Gender,minority,Women,Healthcare,Patient safety,0.14285714285714285,0.8571428571428572,2,5,11
+Disability,majority,People without disabilities,Housing,Housing stability,0.14285714285714285,0.8571428571428572,2,6,10
+Gender,majority,Men,Credit & Financial Services,Credit/loan approval,0.13333333333333333,0.8666666666666667,2,9,8
+Gender,majority,Men,Criminal Justice,Incarceration,0.125,0.875,2,9,9
+Ethnicity,majority,non-Latino people,Employment,Workplace harassment,0.125,0.875,1,2,7
+Gender Identity,majority,cisgender people,Employment,Career advancement,0.1111111111111111,0.8888888888888888,2,15,5
+Gender Identity,majority,cisgender people,Employment,Workplace harassment,0.1111111111111111,0.8888888888888888,1,3,7
+Gender,majority,Men,Housing,Access to housing,0.10526315789473684,0.8947368421052632,2,9,12
+Sexual Orientation,majority,heterosexual people,Credit & Financial Services,Access to credit,0.1,0.9,1,4,7

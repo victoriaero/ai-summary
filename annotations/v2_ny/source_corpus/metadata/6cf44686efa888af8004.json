@@ -1,0 +1,28 @@
+{
+  "source_id": "6cf44686efa888af8004",
+  "normalized_url": "https://minneapolisfed.org/article/2021/barriers-to-basic-financial-services-perpetuate-persistent-economic-gaps",
+  "fetch_timestamp_utc": "2026-10-04T02:41:20.071219+00:00",
+  "registrable_domain": "minneapolisfed.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.minneapolisfed.org/article/2021/barriers-to-basic-financial-services-perpetuate-persistent-economic-gaps",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 127178,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6cf44686efa888af8004.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6cf44686efa888af8004.txt",
+  "text_chars": 11402,
+  "text_words": 1726,
+  "extraction_status": "success",
+  "page_title": "Barriers to basic financial services perpetuate persistent economic gaps | Federal Reserve Bank of Minneapolis",
+  "page_author": null,
+  "page_date": "2021-11-29",
+  "site_name": "minneapolisfed.org",
+  "canonical_url": "https://www.minneapolisfed.org/article/2021/barriers-to-basic-financial-services-perpetuate-persistent-economic-gaps"
+}

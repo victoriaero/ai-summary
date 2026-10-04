@@ -1,0 +1,28 @@
+{
+  "source_id": "d0a2e47b781a5510d7c7",
+  "normalized_url": "https://sentencingproject.org/policy-brief/incarcerated-lgbtq-adults-and-youth",
+  "fetch_timestamp_utc": "2026-10-04T02:49:11.587673+00:00",
+  "registrable_domain": "sentencingproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sentencingproject.org/policy-brief/incarcerated-lgbtq-adults-and-youth/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 83150,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/d0a2e47b781a5510d7c7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/d0a2e47b781a5510d7c7.txt",
+  "text_chars": 2725,
+  "text_words": 378,
+  "extraction_status": "success",
+  "page_title": "Incarcerated LGBTQ+ Adults and Youth – The Sentencing Project",
+  "page_author": "Nazgol Ghandnoosh; Ph D; Emma Stammen",
+  "page_date": "2022-06-09",
+  "site_name": "The Sentencing Project",
+  "canonical_url": "https://www.sentencingproject.org/policy-brief/incarcerated-lgbtq-adults-and-youth/"
+}

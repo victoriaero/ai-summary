@@ -1,0 +1,28 @@
+{
+  "source_id": "1f290f60181c6c632f95",
+  "normalized_url": "https://nature.com/articles/s41598-026-56768-z",
+  "fetch_timestamp_utc": "2026-10-04T03:33:01.648667+00:00",
+  "registrable_domain": "nature.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nature.com/articles/s41598-026-56768-z?error=cookies_not_supported&code=b97a9a64-47ea-448d-b764-23d180fe651e",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 338254,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/1f290f60181c6c632f95.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/1f290f60181c6c632f95.txt",
+  "text_chars": 35507,
+  "text_words": 5057,
+  "extraction_status": "success",
+  "page_title": "Patient safety practices and associated factors among healthcare providers at South Wollo Zone primary hospitals, Northeast Ethiopia, 2025. A facility-based cross-sectional study - Scientific Reports",
+  "page_author": "Derib; Fisiha; Yasine; Toyeb; Geto; Abebe Kassa; Adem; Yonas Fissha; Yemane; Tesfalem Tilahun; Tadesse; Nigusie",
+  "page_date": "2026-06-15",
+  "site_name": "Nature",
+  "canonical_url": "https://www.nature.com/articles/s41598-026-56768-z"
+}

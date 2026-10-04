@@ -1,0 +1,28 @@
+{
+  "source_id": "d54c153228ecf66fdb6e",
+  "normalized_url": "https://applerouth.com/blog/troubling-gender-gaps-in-education",
+  "fetch_timestamp_utc": "2026-10-04T02:49:31.883045+00:00",
+  "registrable_domain": "applerouth.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.applerouth.com/blog/troubling-gender-gaps-in-education",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 128686,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/d54c153228ecf66fdb6e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/d54c153228ecf66fdb6e.txt",
+  "text_chars": 13249,
+  "text_words": 2034,
+  "extraction_status": "success",
+  "page_title": "Troubling Gender Gaps in Education",
+  "page_author": "Jed Applerouth; PhD",
+  "page_date": "2024-04-29",
+  "site_name": "applerouth.com",
+  "canonical_url": "https://www.applerouth.com/blog/troubling-gender-gaps-in-education"
+}

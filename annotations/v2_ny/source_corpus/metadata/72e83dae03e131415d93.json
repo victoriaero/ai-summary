@@ -1,0 +1,28 @@
+{
+  "source_id": "72e83dae03e131415d93",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12625391",
+  "fetch_timestamp_utc": "2026-10-04T02:41:56.512740+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12625391/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 211952,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/72e83dae03e131415d93.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/72e83dae03e131415d93.txt",
+  "text_chars": 62545,
+  "text_words": 8601,
+  "extraction_status": "success",
+  "page_title": "The public health consequences of officer discretion in arrests affecting LGBTQ+ communities in the United States: a scoping review",
+  "page_author": "Esmeralda J Rubalcava Hernandez; John L Bayhi; Caitlin Herron; Shabrina Dew; Whitney Margaritis; LaKenya S DeBerry; Marcela Nava",
+  "page_date": "2025-11-18",
+  "site_name": "Health & Justice",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12625391/"
+}

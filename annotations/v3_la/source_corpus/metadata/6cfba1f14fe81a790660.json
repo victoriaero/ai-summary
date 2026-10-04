@@ -1,0 +1,28 @@
+{
+  "source_id": "6cfba1f14fe81a790660",
+  "normalized_url": "https://news.iastate.edu/news/lower-approval-rates-higher-finance-fees-evidence-discrimination-same-sex-borrowers",
+  "fetch_timestamp_utc": "2026-10-04T03:38:54.530727+00:00",
+  "registrable_domain": "iastate.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.news.iastate.edu/news/lower-approval-rates-higher-finance-fees-evidence-discrimination-same-sex-borrowers",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 26097,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6cfba1f14fe81a790660.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6cfba1f14fe81a790660.txt",
+  "text_chars": 3971,
+  "text_words": 595,
+  "extraction_status": "success",
+  "page_title": "Lower approval rates, higher finance fees evidence of discrimination for same-sex borrowers",
+  "page_author": null,
+  "page_date": "2019-04-16",
+  "site_name": "News Service",
+  "canonical_url": "https://www.news.iastate.edu/news/lower-approval-rates-higher-finance-fees-evidence-discrimination-same-sex-borrowers"
+}

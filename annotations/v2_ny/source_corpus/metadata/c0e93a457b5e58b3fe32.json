@@ -1,0 +1,28 @@
+{
+  "source_id": "c0e93a457b5e58b3fe32",
+  "normalized_url": "https://home.treasury.gov/news/featured-stories/post-5-racial-differences-in-educational-experiences-and-attainment",
+  "fetch_timestamp_utc": "2026-10-04T02:48:01.151698+00:00",
+  "registrable_domain": "treasury.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://home.treasury.gov/news/featured-stories/post-5-racial-differences-in-educational-experiences-and-attainment",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 114198,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c0e93a457b5e58b3fe32.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c0e93a457b5e58b3fe32.txt",
+  "text_chars": 34944,
+  "text_words": 5229,
+  "extraction_status": "success",
+  "page_title": "Post 5: Racial Differences in Educational Experiences and Attainment",
+  "page_author": null,
+  "page_date": "2023-06-09",
+  "site_name": "U.S. Department of the Treasury",
+  "canonical_url": "https://home.treasury.gov/news/featured-stories/post-5-racial-differences-in-educational-experiences-and-attainment"
+}

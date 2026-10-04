@@ -1,0 +1,33 @@
+{
+  "source_id": "5037ac1aa325bdb89647",
+  "normalized_url": "https://migrationpolicy.org/explainer/immigrants-and-use-public-benefits-united-states",
+  "fetch_timestamp_utc": "2026-09-29T19:25:43.109427+00:00",
+  "registrable_domain": "migrationpolicy.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://migrationpolicy.org/explainer/immigrants-and-use-public-benefits-united-states",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:25:44 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server-Timing": "cfEdge;dur=4,cfOrigin;dur=0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+    "Vary": "accept-encoding",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rvw3tyr9Do39S27%2FB5ZcDr4S5PIZFZsxPbtjXSp3k1Ae%2FQo9M4wSkjqpQgu9gxGQe7uFnzOXPFBW%2FP0FG6jVuAIs24rFStClkPoPTQrzGLett48VURivZPO7Lur%2BOIrrZkGxlpiLpe4G0T7eK273WDw%3D\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d601e0fd7e11a-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 5876,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

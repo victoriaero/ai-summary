@@ -1,0 +1,28 @@
+{
+  "source_id": "b633cc3bae7473d250c7",
+  "normalized_url": "https://aspe.hhs.gov/reports/disabled-their-health-care-health-insurance-0",
+  "fetch_timestamp_utc": "2026-10-04T02:47:13.475681+00:00",
+  "registrable_domain": "hhs.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://aspe.hhs.gov/reports/disabled-their-health-care-health-insurance-0",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 74626,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b633cc3bae7473d250c7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b633cc3bae7473d250c7.txt",
+  "text_chars": 29607,
+  "text_words": 4887,
+  "extraction_status": "success",
+  "page_title": "The Disabled: Their Health Care and Health Insurance",
+  "page_author": null,
+  "page_date": "2000-01-01",
+  "site_name": "ASPE",
+  "canonical_url": "http://aspe.hhs.gov/reports/disabled-their-health-care-health-insurance-0"
+}

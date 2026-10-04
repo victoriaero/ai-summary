@@ -1,0 +1,28 @@
+{
+  "source_id": "fcbdc4c9097da4271034",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8252906",
+  "fetch_timestamp_utc": "2026-10-04T03:49:40.382908+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8252906/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 242306,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/fcbdc4c9097da4271034.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/fcbdc4c9097da4271034.txt",
+  "text_chars": 50166,
+  "text_words": 7760,
+  "extraction_status": "success",
+  "page_title": "Disparities in Social and Economic Determinants of Health by Sexual Identity, Gender, and Age: Results from the 2015–2018 National Survey on Drug Use and Health",
+  "page_author": "Megan S Schuler; Dana M Prince; Rebecca L Collins",
+  "page_date": "2021-06-30",
+  "site_name": "LGBT Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8252906/"
+}

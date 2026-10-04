@@ -1,0 +1,13 @@
+metric,length_variable,n,spearman_rho,p_raw,p_holm,significant_holm
+dense_distance_raw,abs_word_difference,252,-0.01762355210554994,0.7807084368017165,1.0,False
+dense_distance_raw,abs_log_word_ratio,252,0.05452137681164615,0.3887765192884946,1.0,False
+dense_distance_subject_normalized,abs_word_difference,252,0.006727179173329747,0.9153753277027864,1.0,False
+dense_distance_subject_normalized,abs_log_word_ratio,252,0.0608221830374118,0.33624426767750143,1.0,False
+tfidf_distance_subject_normalized,abs_word_difference,252,0.025427994851979087,0.6878937693325317,1.0,False
+tfidf_distance_subject_normalized,abs_log_word_ratio,252,0.06201373092110613,0.32684569013735515,1.0,False
+generic_coverage_distance,abs_word_difference,252,0.06449632881367277,0.3078141044705891,1.0,False
+generic_coverage_distance,abs_log_word_ratio,252,0.04724236151459083,0.4552822639834425,1.0,False
+group_novelty_distance,abs_word_difference,252,0.16959570784545966,0.006966553379009959,0.08359864054811951,False
+group_novelty_distance,abs_log_word_ratio,252,0.14110319037181926,0.025089208954150507,0.27598129849565556,False
+symmetric_sentence_distance,abs_word_difference,252,0.13753127443438334,0.029052781631013495,0.29052781631013497,False
+symmetric_sentence_distance,abs_log_word_ratio,252,0.11111990128712697,0.07829590716012028,0.7046631644410825,False

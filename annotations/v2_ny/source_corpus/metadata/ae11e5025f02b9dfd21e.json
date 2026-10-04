@@ -1,0 +1,28 @@
+{
+  "source_id": "ae11e5025f02b9dfd21e",
+  "normalized_url": "https://hechingerreport.org/colleges-men-trump-new-policies-disadvantage",
+  "fetch_timestamp_utc": "2026-10-04T02:46:36.951316+00:00",
+  "registrable_domain": "hechingerreport.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hechingerreport.org/colleges-men-trump-new-policies-disadvantage/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 290545,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ae11e5025f02b9dfd21e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ae11e5025f02b9dfd21e.txt",
+  "text_chars": 6687,
+  "text_words": 1003,
+  "extraction_status": "success",
+  "page_title": "OPINION: Colleges need to recruit more men, but Trump’s policies are making it difficult",
+  "page_author": "Catharine Hill",
+  "page_date": "2026-01-20",
+  "site_name": "The Hechinger Report",
+  "canonical_url": "https://hechingerreport.org/colleges-men-trump-new-policies-disadvantage/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "ba5d3d442b0a1768e239",
+  "normalized_url": "https://cbpp.org/research/health/health-coverage-rates-vary-widely-across-and-within-racial-and-ethnic-groups",
+  "fetch_timestamp_utc": "2026-10-04T02:47:33.306150+00:00",
+  "registrable_domain": "cbpp.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://cbpp.org/research/health/health-coverage-rates-vary-widely-across-and-within-racial-and-ethnic-groups",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 6158,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

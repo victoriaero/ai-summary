@@ -1,0 +1,28 @@
+{
+  "source_id": "c088e3f5d93ab9408974",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11731762",
+  "fetch_timestamp_utc": "2026-10-04T02:47:58.854804+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11731762/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 294107,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c088e3f5d93ab9408974.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c088e3f5d93ab9408974.txt",
+  "text_chars": 94460,
+  "text_words": 13306,
+  "extraction_status": "success",
+  "page_title": "Racial/Ethnic inequality & contemporary disparities in mortgage lending",
+  "page_author": "Meghan M O’Neil; Vincent J Roscigno",
+  "page_date": "2025-01-14",
+  "site_name": "PLOS ONE",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11731762/"
+}

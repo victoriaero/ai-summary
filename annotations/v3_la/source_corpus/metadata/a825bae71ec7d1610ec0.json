@@ -1,0 +1,16 @@
+{
+  "source_id": "a825bae71ec7d1610ec0",
+  "normalized_url": "https://sk.sagepub.com/ency/edvol/the-sage-encyclopedia-of-psychology-and-gender/chpt/bullying-genderbased",
+  "fetch_timestamp_utc": "2026-10-04T03:43:36.974349+00:00",
+  "registrable_domain": "sagepub.com",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 47,
+  "http_status": 302,
+  "final_url": "https://sso.sagepub.com/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DSK.Web%26redirect_uri%3Dhttps%253A%252F%252Fsk.sagepub.com%252Fsignin-oidc%252Fautologin%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520%2520profile%2520%2520institution%2520%2520cache-management-api%26code_challenge%3DUwbDyPA-D1dNRq4qMM42tHpqpq8mWfig7T2Xmf8yJDM%26code_challenge_method%3DS256%26nonce%3D639266822244301955.OGJiMzU5Y2MtZTFhMC00NTIzLWI4MjMtNmNlNzU0NWFiY2JiZjVhZDUxNTgtMDk4Ni00OTQ1LWEyNDMtNzM0OWE5NTdhOWVm%26acr_values%3D%2520actualRedirect%253A%252Fency%252Fedvol%252Fthe-sage-encyclopedia-of-psychology-and-gender%252Fchpt%252Fbullying-genderbased%26state%3DCfDJ8EdummnHKiRLptkZUqatBdm-NFKS5y5-gxFQIjtPJ8mEDVRfnaZV1l3to8_ZEg4JyEujjcT_vTcMqjK3Jsv3eUmCzj1dhglbn3uezpmdtnoxgt6sudStJ06iRuXQoBYUfgP1Bid87zcHYM_N9L9zjKI22FGB_wiu90FZb8mIAPWTijeKMVLKQRLMe1i1dFielsomezj6_TZ8U-em2RZOnFo2IZqzQDutQnYAP_FXSOLxqzhPZ7xfX65ie9jtRY84IvFZKIVMQdXg-CPi9dR2BYeS1EMRxJULE_QEAlLBo9vfRHKVc44pKD32d9n6sem7J4KvZo7Inb2MEgvYj9lVJLBxZbYYeyCjPbqUPUfx8bNfP7af6Akg-1lUTyQBoE1rLBeLwUawh0XtmMO8HRbJmyuSgaPDO8DguXNPpV7csyl82gAEFNzYcmFKLe2QPkuDLLuKwRnMgGws_htwKo2CHhFUxALAqMM7EFHaGG-OeP7v%26x-client-SKU%3DID_NET10_0%26x-client-ver%3D8.16.0.0",
+  "content_type": "",
+  "error": "curl: (47) Maximum (50) redirects followed",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

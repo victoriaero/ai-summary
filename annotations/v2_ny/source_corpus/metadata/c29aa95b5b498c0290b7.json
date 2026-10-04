@@ -1,0 +1,28 @@
+{
+  "source_id": "c29aa95b5b498c0290b7",
+  "normalized_url": "https://theconversation.com/how-ethnic-minorities-face-higher-levels-of-financial-exclusion-71960",
+  "fetch_timestamp_utc": "2026-10-04T02:48:09.158691+00:00",
+  "registrable_domain": "theconversation.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://theconversation.com/how-ethnic-minorities-face-higher-levels-of-financial-exclusion-71960",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 173743,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c29aa95b5b498c0290b7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c29aa95b5b498c0290b7.txt",
+  "text_chars": 4897,
+  "text_words": 762,
+  "extraction_status": "success",
+  "page_title": "How ethnic minorities face higher levels of financial exclusion",
+  "page_author": "Alper Kara",
+  "page_date": "2017-03-06",
+  "site_name": "The Conversation",
+  "canonical_url": "https://theconversation.com/how-ethnic-minorities-face-higher-levels-of-financial-exclusion-71960"
+}

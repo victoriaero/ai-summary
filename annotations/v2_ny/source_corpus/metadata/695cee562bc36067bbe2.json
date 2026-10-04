@@ -1,0 +1,28 @@
+{
+  "source_id": "695cee562bc36067bbe2",
+  "normalized_url": "https://vitalcitynyc.org/police-firearm-use-gender-differences",
+  "fetch_timestamp_utc": "2026-10-04T02:40:59.922032+00:00",
+  "registrable_domain": "vitalcitynyc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.vitalcitynyc.org/police-firearm-use-gender-differences/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 74833,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/695cee562bc36067bbe2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/695cee562bc36067bbe2.txt",
+  "text_chars": 10428,
+  "text_words": 1562,
+  "extraction_status": "success",
+  "page_title": "What Gender Reveals About Police Firearm Use",
+  "page_author": "Lisa Barao",
+  "page_date": "2026-09-30",
+  "site_name": "Vital City",
+  "canonical_url": "https://www.vitalcitynyc.org/police-firearm-use-gender-differences/"
+}

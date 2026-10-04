@@ -1,0 +1,347 @@
+Alternative Data: Expanding Access to Credit
+This article explores the types and usage of alternative data in financial services and the recent
+technological developments and innovative practices that make alternative data more accessible.
+It then discusses two customer categories who could benefit most from these advances: “credit
+invisibles” (adults who lack an existing credit score or have a very limited credit history) and “invis-
+ible primes” (borrowers with low credit scores and short credit histories, but with a low propensity
+to default). It concludes by highlighting the uses of one type of alternative data, cash-flow data, in
+underwriting small-dollar credit as a promising area for innovation, recognizing that using any alter-
+native data comes with measured risk but also opportunities to expand access to credit safely
+and fairly.1
+What is alternative data, and how can it be used?
+For decades, traditional data—basic information on an individual’s current and historical credit
+accounts—has served as the basis for consumers’ credit scores.2 However, alternative data—
+information from non-traditional sources—could bolster or sometimes substitute for that tradi-
+tional data, with subsequent benefits for and risks to consumers. There are two primary catego-
+ries of alternative data: financial data and non-financial data (see table 1). Financial alternative
+data generally involves some measures related to deposit-account information or household
+income and expenses. Non-financial alternative data may incorporate a range of consumer charac-
+teristics (e.g., educational and professional information) or information related to a consumer’s
+“digital footprint.” Both types of alternative data have merits and challenges, but financial alterna-
+tive data has shown the most promise for responsible use in consumer finance.
+As practical applications for alternative data expanded and evolved, federal prudential regulators
+responded with guidance for financial institutions. The 2019 Interagency Statement on the Use of
+Alternative Data in Credit Underwriting (the 2019 Use of Alternative Data statement) was issued to
+provide risk mitigation strategies to financial institutions that were interested in utilizing alterna-
+1 The staff contacts for this issue are Sean Creehan, Dan Gorin, and Kirsten Noland, and the contact for the Consumer &
+Community Context series is John Rodier. Evan LeFlore and Kim Wilson provided research and analysis on this topic.
+Lincy Chacko and David Coffey provided editorial support.
+2 Consumers with credit scores fall into three general categories: subprime (credit scores below 620), near prime (credit
+scores of 620 to 659), and prime (credit scores above 660).
+Consumer & Community Context
+Vol. 6 ■No. 2 ■October 2025
+BOARD OF GOVERNORS OF THE FEDERAL RESERVE SYSTEM
+www.federalreserve.gov
+
+
+tive data.3 This statement describes alternative data as “information not typically found in the
+consumer’s credit files of the nationwide consumer reporting agencies or customarily provided by
+consumers as part of applications for credit.”
+Table 1. Categories of alternative data
+Financial data: summary
+cash-flow data
+Financial data: transaction-level
+cash-flow data
+Non-financial data
+Description
+Summary account inflow and
+outflow data (i.e., not individual
+transactions).
+Detailed, transaction-level account
+data categorized and used to assess
+applicants’ financial position.
+Information that is not directly
+related to an applicant’s finances.
+Examples
+• Average monthly deposit/spot
+balance
+• Age of account
+• Average size of direct deposits
+• Overdraft history
+• Monthly net cash flow for small
+business
+• Monthly net cash flow for
+small business
+• Monthly rent and utility payments
+• Small business sales and
+expenditures
+• Discretionary expenditures
+• Education/professional information
+(e.g., school, field of study,
+certifications)
+• Digital footprints such as social
+media posts, the type of smartphone
+used, geographic location, and online
+behavioral patterns
+• Business licenses as a measure of
+stability
+Potential sources
+• Monthly bank account statements
+• Digital payment processors
+• Bank accounts
+• Utility companies
+• Landlord-reported rent payments
+• Data brokers
+• Mobile phone permissions
+• Social media accounts
+Banking regulators have encouraged the responsible use of alternative data.4 Among the types of
+alternative data, financial data (see the first two columns of table 1) are generally directly related
+to consumers’ finances and how consumers manage their financial commitments. The 2019 Use
+of Alternative Data statement notes that use of such data may present lower risks than use of
+other types of alternative data.5 In favor of financial alternative data, regulators noted the
+following:
+The evaluation of a borrower’s income and expenses to help determine repayment
+capacity is a well-established part of the underwriting process. Improving the measure-
+ment of income and expenses through cash flow evaluation may be particularly beneficial
+for consumers.6
+In 2020, regulators also singled out the use of cash-flow financial alternative data as a reliable
+source for small-dollar loan underwriting.7 Cash-flow alternative data, as reflected in the consum-
+3 See Board of Governors of the Federal Reserve System, “Interagency Statement on the Use of Alternative Data in Credit
+Underwriting,” CA letter 19-11 (December 12, 2019), https://www.federalreserve.gov/supervisionreg/caletters/
+caltr1911.htm.
+4 See Board of Governors, “Use of Alternative Data.”
+5 As noted in the alternative data statement, firms may choose to consult with appropriate regulators when planning for
+the use of alternative data.
+6 See Board of Governors, “Use of Alternative Data.”
+7 See joint statement by Board of Governors of the Federal Reserve System, Federal Deposit Insurance Corporation,
+National Credit Union Administration, and Office of the Comptroller of the Currency, “Interagency Lending Principles for
+2
+Consumer & Community Context
+
+
+er’s deposit account in particular, enables financial institutions to underwrite customers while
+remaining consistent with safe, sound, fair, and transparent practices, as the data is generally
+accurate and its use can be explained and disclosed to consumers as may be required by law.
+In contrast to financial alternative data sources, traditional credit files include information on the
+number and age of existing credit accounts, the use of these accounts, and their repayment his-
+tory. These credit files also contain information on derogatory marks, particularly negative informa-
+tion such as collections, charge-offs, repossessions, foreclosures, and bankruptcies. All this infor-
+mation, both positive and negative, goes into the calculation of a credit score: a single number
+meant to provide lenders with a measure of a consumer’s creditworthiness. This approach to ana-
+lyzing a consumer’s creditworthiness has been in place for decades and is considered effective for
+predicting both the absolute and relative risk of a consumer becoming delinquent or going
+into default.
+There are some limitations with traditional credit scores, especially in the context of underwriting
+credit. First, a meaningful share of the population has limited experience with debt, and some
+have no credit lines with traditional lenders, making them ineligible for a credit score.8 Second,
+low credit scores may automatically preclude some consumers from accessing credit from tradi-
+tional lenders, even though they may be more creditworthy than their score suggests. The use of
+financial alternative data can provide additional insights into the creditworthiness of consumers
+with no credit score or a low credit score.
+Improvements in data availability and computing power have expanded the potential uses for alter-
+native data over the past decade. Complex models can leverage thousands of data points to
+assess a consumer’s likelihood of repayment. However, simpler models based on a smaller set of
+financial alternative data, sourced from deposit account information, can be used to model a con-
+sumer’s ability to repay while also having a clear, logical connection to creditworthiness. These
+variables tend to have analogues to components used to develop a traditional credit score as illus-
+trated in table 2. By contrast, complex models that leverage non-financial alternative data may
+contain variables with a mathematical relationship to a consumer’s likelihood to repay but no
+obvious nexus to creditworthiness.
+Offering Responsible Small-Dollar Loans,” May 20, 2020, https://www.federalreserve.gov/newsevents/pressreleases/
+files/bcreg20200520a1.pdf.
+8 According to Oliver Wyman, nearly one in five adults in the U.S. fall into one of these two categories. See Mike Hepin-
+stall, Chaitra Chandrasekhar, Peter Carroll, Nick Dykstra, and Yigit Ulucay, Financial Inclusion and Access to Credit
+(Oliver Wyman, 2022), https://images.go.experian.com/Web/ExperianInformationSolutionsInc/%7B63ec9888-37ea-
+405c-b39d-7492de9143ce%7D_FINALExperian_report_14_01.pdf.
+Alternative Data: Expanding Access to Credit
+3
+
+
+Table 2. Comparing traditional credit scoring components with comparable cash-flow financial
+alternative data
+Traditional credit scoring components (weight)1
+Comparable cash-flow financial alternative data
+Payment History (delinquencies) (35%)
+Overdraft history
+Amounts Owed (utilization rate) (30%)
+Size of regular deposits and average balance
+Length of Credit History (15%)
+Tenure of account
+New credit (10%)
+Change in average balance
+Credit Mix (10%)
+—
+1 Credit Score weights from MyFICO.com; see https://www.myfico.com/credit-education/whats-in-your-credit-score.
+Who can benefit from the use of alternative data?
+Most creditors require a sufficient credit his-
+tory and score as a condition for lending, so
+people without a credit score generally lack
+access to credit. Roughly 32 million American
+adults are estimated to be “unscoreable” in
+regards to a credit score, including “credit
+invisible” that have no credit history (7 million,
+or 2.7 percent of all adults) or adults with a
+“thin file” (25 million, or 9.8 percent) (see
+figure 1).9 This classification prevents credit
+reporting agencies from generating a tradi-
+tional credit score for these consumers and
+can effectively preclude these individuals from
+accessing credit from traditional banks.10
+Financial alternative data can expand credit
+access for “credit invisible” populations, and
+it may also improve the precision and accuracy of credit scores for borrowers with thin credit files
+and certain borrowers with low credit scores. Specifically, financial alternative data can identify
+consumers within these populations that have a low propensity to default, what some researchers
+now refer to as “invisible primes.” Importantly, this has the potential to improve credit access and
+affordability for borrowers who otherwise might not have access to traditional financial products.11
+9 Consumer Financial Protection Bureau, Technical Correction and Update to the CFPB’s Credit Invisibles Estimate (CFPB,
+June 2025), https://files.consumerfinance.gov/f/documents/cfpb_update-credit-invisibles-estimate_2025-06.pdf.
+10 Hepinstall, et al., Financial Inclusion and Access to Credit. The minimum scoring criteria for a credit score from FICO, the
+pioneer of scoring to measure credit risk, includes one trade line (a line of credit) reported within the past six months
+and one trade line that is at least six months old. As a counterpoint, the FDIC estimates that “only” 15.7 percent of
+adults had no access to mainstream credit in 2023, down from 20 percent in 2017. See Federal Deposit Insurance Cor-
+poration, “2023 FDIC National Survey of Unbanked and Underbanked Households” (FDIC, November 2024), https://
+www.fdic.gov/household-survey.
+11 See, for example, Marco Di Maggio and Di Muthu Ratnadiwakara, “Invisible Primes: Fintech Lending with Alternative
+Data” (SSRN, May 2022), https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3937438.
+Figure 1. Current state of access to credit
+Number of people in millions
+0
+20
+40
+60
+80
+100
+120
+140
+Prime
+Near
+prime
+Subprime
+Thin
+ﬁle
+Credit
+invisible
+Consumers without credit 
+scores (unscoreable)
+Consumers with credit 
+scores (scoreable)
+7
+25
+63
+38
+125
+Note: Credit invisible, thin file, subprime, and near
+prime are most likely to benefit from alternative data.
+Current U.S. adult population is 258.3 million.
+Source: Staff calculations.
+4
+Consumer & Community Context
+
+
+Why has financial alternative data only recently begun to benefit these populations? Lenders have
+long used financial forms of alternative data when evaluating requests for commercial loans and
+mortgages. However, when performed manually, incorporating this information can be labor-
+intensive and expensive. This burden may be offset by the return on large-scale loans, but until
+recently, it was considered too costly for small-dollar consumer loans of $1,000 or less, in which
+the maximum revenue potential could be under $30.12 The economics against such small-dollar
+lending become even more unbalanced when adding costs related to loan origination and loan pro-
+cessing without even considering nonpayment and collections. However, since the release of the
+2019 Use of Alternative Data statement, banks have begun utilizing automated underwriting
+models, especially for small-dollar loans, to more efficiently review a consumer’s financial data
+and make an immediate lending decision. That speed, accuracy, and reduced cost can be crucial
+for consumers.
+Why is there a need for small-dollar lending?
+Small-dollar loans can provide needed liquidity (funds) to consumers facing income shocks or
+unanticipated expenses. Results from the Federal Reserve’s annual Survey of Household Eco-
+nomics and Decisionmaking (SHED) consistently demonstrate the consumer need for small-dollar
+credit. Nineteen percent of the respondents to the 2024 SHED survey reported that their spending
+exceeded their income in the month they answered the survey.13 Eleven percent reported strug-
+gling to pay their bills because of varying income, including nearly 20 percent of those with income
+under $50,000. From 2022 to 2024, the SHED reported that 37 percent of adults would not cover
+a small emergency expense using cash, savings, or a credit card paid off at the next statement.14
+Small-dollar loans could also improve the financial health of consumers that utilize costly alterna-
+tive financial products. According to a 2022 survey from the Financial Health Network, while only
+4 percent of financially healthy households reported paying an overdraft or nonsufficient funds fee
+in 2022, nearly half (46 percent) of financially vulnerable households with a checking account
+reported paying these fees in 2022, and nearly two-thirds (65 percent) did so at least three times
+during the year. Forty-five percent of study respondents who overdrafted reported that the most
+recent instance was on a transaction of $50 or less.15 Rapid access to low-cost, small-dollar
+loans could benefit this population, as well as the 6 percent of adults who reported using a
+payday, pawn, auto title, or tax refund anticipation loan—all costly alternative liquidity products
+identified in the 2024 SHED survey. The Consumer Financial Protection Bureau (CFPB) has noted
+12 The revenue on a $500 small-dollar installment loan payable in three periods with a 36 percent APR is $30.30 and
+$20.13 with an APR of 24 percent.
+13 Board of Governors of the Federal Reserve System, Economic Well-Being of U.S. Households in 2024 (Board of Gover-
+nors, May 2025), https://www.federalreserve.gov/publications/files/2024-report-economic-well-being-us-households-
+202505.pdf.
+14 Board of Governors, Economic Well-Being of U.S. Households in 2024.
+15 Meghan Greene, MK Falgout, and Necati Celik, “Overdraft Trends Amid Historic Policy Shifts” (Financial Health Network,
+June 1, 2023), https://finhealthnetwork.org/research/overdraft-trends-amid-historic-policy-shifts/.
+Alternative Data: Expanding Access to Credit
+5
+
+
+that the finance charge for a payday loan, for example, works out to an annual percentage rate
+(APR) of nearly 400 percent for a two-week loan.16
+Across the board, these indicators paint a picture of a large number of American consumers that
+need and seek out small-dollar funds on a regular basis, particularly in financially vulnerable
+households. Further, their needs are relatively small but may persist for more than a few days, and
+the current usage of overdraft and other alternative liquidity products is relatively expensive in
+comparison to a small-dollar installment loan offered by a depository institution and enabled by
+alternative data.17 Alternative data can be particularly beneficial in underwriting safe and afford-
+able loans for consumers who have an ability to repay but otherwise would not qualify based on
+credit score alone.
+What are some of the long-term benefits of innovations in alternative data?
+Cash-flow data can enhance access to financial services for underserved borrowers while
+remaining consistent with safe and sound risk management and consumer protection require-
+ments in two complementary ways. First, the use of alternative data, particularly cash-flow data,
+increases the scoreable population.18 Second, cash-flow data can uncover so-called “invisible
+prime” borrowers, increasing the credit access of customers that would otherwise be categorized
+as subprime with only traditional credit reporting agency.19 Moreover, the use of alternative data
+can also increase the convenience, speed, accuracy, and efficiency of credit underwriting for bor-
+rowers and lenders.
+Finally, while this article highlights the benefits of cash-flow data to expand small-dollar credit
+access, alternative data offers many additional benefits. Alternative data can assist in fraud
+detection when the fraud detection model involves direct access to an employee’s payroll system
+or bank account. Moreover, cash-flow data may also provide reliable measures of financial health
+that can support tailored financial products and services (beyond credit).
+What are potential concerns and risks?
+Despite the benefits of alternative data usage, potential concerns and risks remain. Many alterna-
+tive data models have not been tested through an entire business cycle, raising questions as to
+16 See “What Are the Costs and Fees for a Payday Loan?,” Consumer Financial Protection Bureau, last reviewed
+November 25, 2024, https://www.consumerfinance.gov/ask-cfpb/what-are-the-costs-and-fees-for-a-payday-
+loan-en-1589/.
+17 See Board of Governors of the Federal Reserve System, “Meeting Small-Dollar Consumer Credit Needs: Old and New
+Choices,” Consumer & Community Context, July 2023, https://www.federalreserve.gov/publications/files/consumer-
+community-context-20230728.pdf.
+18 Finnegan, The Use of Cash-Flow Data in Underwriting Credit: Empirical Research Findings (FinRegLab.org), https://
+finreglab.org/research/the-use-of-cash-flow-data-in-underwriting-credit-empirical-research-findings/. Hepinstall, et al.,
+Financial Inclusion and Access to Credit.
+19 Marco Di Maggio and Dimuthu Ratnadiwakara, “Invisible Primes.”
+6
+Consumer & Community Context
+
+
+how models using alternative data might perform during economic downturns. Over time, the
+expanding use of alternative data in underwriting will increase the representativeness of cash-flow
+data across credit cycles.
+Data challenges, including unreliable access to transaction data, inconsistent data quality, and
+improperly structured data, could reduce the effectiveness of new technologies and practices.
+These issues may limit the ability of alternative data to expand credit access. Additionally, relevant
+data may be expensive to acquire from third parties, and even data held at the lending bank may
+require vendor support to organize. Further, current practices may face challenges in terms of
+economies of scale and profitability, particularly regarding small-dollar credit.
+While many cash-flow metrics are straightforward for consumers used to managing their income
+and expenses, some consumers may not fully understand how their income and spending
+behavior affects credit models and decisions to offer a loan or other services.20 The extent to
+which the data permissioning process and use of alternative data is transparent to consumers is
+ripe for further research as innovation in this space continues.
+Conclusion
+Innovative uses of alternative data to promote financial inclusion have evolved significantly since
+the issuance of the 2019 Use of Alternative Data statement. Emerging uses of cash-flow data in
+small-dollar lending by financial institutions of all sizes show promise in safely and fairly expanding
+access to credit. This is especially relevant for consumers with a thin credit file or no credit history
+and a willingness to permission the use of their transaction data. These innovations could scale
+to other financial products over time. As the use of alternative data develops, it will be vital for
+consumers, regulators, and market participants to monitor how this data is being used and how it
+affects both access to credit and consumer financial health and ensures that the resulting prod-
+ucts are viable, fair, and safe.
+20 See Board of Governors, “Use of Alternative Data” for a discussion of consumer protection implications of the use of
+alternative data in underwriting, including with respect to benefits and potential risks. The statement notes that the
+ability for consumers to expressly permission access to their cash flow data enhances transparency and control over
+the data.
+Alternative Data: Expanding Access to Credit
+7
+www.federalreserve.gov
+1025

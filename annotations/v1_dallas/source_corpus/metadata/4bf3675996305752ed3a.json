@@ -1,0 +1,27 @@
+{
+  "source_id": "4bf3675996305752ed3a",
+  "normalized_url": "https://plannedparenthoodaction.org/communities/latinos-planned-parenthood/health-equity-issues-for-the-latino-community",
+  "fetch_timestamp_utc": "2026-09-29T19:25:15.016155+00:00",
+  "registrable_domain": "plannedparenthoodaction.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.plannedparenthoodaction.org/communities/latinos-planned-parenthood/health-equity-issues-for-the-latino-community",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:25:21 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload;",
+    "cf-cache-status": "BYPASS",
+    "Vary": "accept-encoding",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a42d5f8ff80d0b63-GRU"
+  },
+  "downloaded_bytes": 118,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

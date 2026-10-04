@@ -1,0 +1,28 @@
+{
+  "source_id": "2d0e51a381c2c84580f2",
+  "normalized_url": "https://studyonline.ecu.edu.au/blog/how-does-gender-affect-educational-opportunity",
+  "fetch_timestamp_utc": "2026-10-04T03:33:56.553185+00:00",
+  "registrable_domain": "ecu.edu.au",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://studyonline.ecu.edu.au/blog/how-does-gender-affect-educational-opportunity",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 249901,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/2d0e51a381c2c84580f2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/2d0e51a381c2c84580f2.txt",
+  "text_chars": 6956,
+  "text_words": 1104,
+  "extraction_status": "success",
+  "page_title": "How Does Gender Affect Educational Opportunity?",
+  "page_author": null,
+  "page_date": "2026-02-18",
+  "site_name": "studyonline.ecu.edu.au",
+  "canonical_url": "https://studyonline.ecu.edu.au/blog/how-does-gender-affect-educational-opportunity"
+}

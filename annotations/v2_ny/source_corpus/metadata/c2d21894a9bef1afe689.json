@@ -1,0 +1,20 @@
+{
+  "source_id": "c2d21894a9bef1afe689",
+  "normalized_url": "https://torontocentre.org/index.php?Itemid=99&id=33&option=com_content&view=article",
+  "fetch_timestamp_utc": "2026-10-04T02:48:09.919583+00:00",
+  "registrable_domain": "torontocentre.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://torontocentre.org/index.php?Itemid=99&id=33&option=com_content&view=article",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5852,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

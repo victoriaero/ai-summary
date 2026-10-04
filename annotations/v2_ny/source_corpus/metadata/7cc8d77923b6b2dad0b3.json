@@ -1,0 +1,28 @@
+{
+  "source_id": "7cc8d77923b6b2dad0b3",
+  "normalized_url": "https://them.us/politics/transgender-federal-employees-lawsuit",
+  "fetch_timestamp_utc": "2026-10-04T02:42:31.459926+00:00",
+  "registrable_domain": "them.us",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.them.us/politics/transgender-federal-employees-lawsuit",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 417760,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7cc8d77923b6b2dad0b3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7cc8d77923b6b2dad0b3.txt",
+  "text_chars": 3693,
+  "text_words": 535,
+  "extraction_status": "success",
+  "page_title": "Transgender Federal Workers Sue Trump Administration Over Insurance Ban on Their Health Care",
+  "page_author": "Christopher Wiggins",
+  "page_date": "2026-08-03",
+  "site_name": "Them",
+  "canonical_url": "https://www.them.us/politics/transgender-federal-employees-lawsuit"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "31c78b2677ddfefe88e1",
+  "normalized_url": "https://youtube.com/watch?t=76s&v=2eqk_2ZRybY",
+  "fetch_timestamp_utc": "2026-10-04T02:36:24.284471+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=76s&v=2eqk_2ZRybY",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1231467,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/31c78b2677ddfefe88e1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/31c78b2677ddfefe88e1.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Addressing bullying and violence in schools",
+  "page_author": null,
+  "page_date": "2024-11-08",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=2eqk_2ZRybY"
+}

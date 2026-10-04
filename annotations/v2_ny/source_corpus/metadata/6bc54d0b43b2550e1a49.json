@@ -1,0 +1,20 @@
+{
+  "source_id": "6bc54d0b43b2550e1a49",
+  "normalized_url": "https://scholarworks.seattleu.edu/cgi/viewcontent.cgi?article=1140&context=magis",
+  "fetch_timestamp_utc": "2026-10-04T02:41:12.860648+00:00",
+  "registrable_domain": "seattleu.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://scholarworks.seattleu.edu/cgi/viewcontent.cgi?article=1140&context=magis",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5797,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

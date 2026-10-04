@@ -1,0 +1,28 @@
+{
+  "source_id": "84381366e921dd26218e",
+  "normalized_url": "https://povertyactionlab.org/evaluation/discrimination-job-market-united-states",
+  "fetch_timestamp_utc": "2026-10-04T02:43:12.402780+00:00",
+  "registrable_domain": "povertyactionlab.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.povertyactionlab.org/evaluation/discrimination-job-market-united-states",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 106176,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/84381366e921dd26218e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/84381366e921dd26218e.txt",
+  "text_chars": 4679,
+  "text_words": 677,
+  "extraction_status": "success",
+  "page_title": "Discrimination in the Job Market in the United States | The Abdul Latif Jameel Poverty Action Lab",
+  "page_author": null,
+  "page_date": "2002-12-12",
+  "site_name": "The Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+  "canonical_url": "https://www.povertyactionlab.org/evaluation/discrimination-job-market-united-states"
+}

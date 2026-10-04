@@ -1,0 +1,28 @@
+{
+  "source_id": "83c05e21a0d53c312115",
+  "normalized_url": "https://nature.com/articles/s41599-023-01936-z",
+  "fetch_timestamp_utc": "2026-10-04T02:43:07.902932+00:00",
+  "registrable_domain": "nature.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nature.com/articles/s41599-023-01936-z?error=cookies_not_supported&code=a7c3168b-3540-440b-b631-8b112746c834",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 539189,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/83c05e21a0d53c312115.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/83c05e21a0d53c312115.txt",
+  "text_chars": 91632,
+  "text_words": 13412,
+  "extraction_status": "success",
+  "page_title": "Determining factors and alternatives for the career development of women executives: a multicriteria decision model - Humanities and Social Sciences Communications",
+  "page_author": "Martín-Peña; María Luz; Cachón-García; Cristina R; De Vicente y Oliva; María A",
+  "page_date": "2023-07-21",
+  "site_name": "Nature",
+  "canonical_url": "https://www.nature.com/articles/s41599-023-01936-z"
+}

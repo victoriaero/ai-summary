@@ -1,0 +1,4 @@
+location,n_queries,mean_fetch_coverage,median_fetch_coverage,reference_eligible_queries,n_usable_source_texts,n_source_chunks,n_truncated_sources
+Dallas,273,0.5564824089650752,0.5714285714285714,171,883,65232,10
+New York City,273,0.5432729960117545,0.5454545454545454,161,866,60051,10
+Los Angeles,273,0.5194337269594974,0.5,144,809,52220,5

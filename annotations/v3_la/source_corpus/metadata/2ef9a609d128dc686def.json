@@ -1,0 +1,28 @@
+{
+  "source_id": "2ef9a609d128dc686def",
+  "normalized_url": "https://ccmh.psu.edu/index.php?day=29&id=26%3Aexploring-collegiate-trends-in-diverse-sexual-orientation-the-view-from-above&month=06&option=com_dailyplanetblog&view=entry&year=2022",
+  "fetch_timestamp_utc": "2026-10-04T03:34:09.837688+00:00",
+  "registrable_domain": "psu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ccmh.psu.edu/index.php?day=29&id=26%3Aexploring-collegiate-trends-in-diverse-sexual-orientation-the-view-from-above&month=06&option=com_dailyplanetblog&view=entry&year=2022",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 39119,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/2ef9a609d128dc686def.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/2ef9a609d128dc686def.txt",
+  "text_chars": 10540,
+  "text_words": 1532,
+  "extraction_status": "success",
+  "page_title": "Exploring Collegiate Trends in Diverse Sexual Orientation: The View from Above",
+  "page_author": "Katie Davis",
+  "page_date": "2026-01-01",
+  "site_name": "ccmh.psu.edu",
+  "canonical_url": "https://ccmh.psu.edu/index.php?day=29&id=26%3Aexploring-collegiate-trends-in-diverse-sexual-orientation-the-view-from-above&month=06&option=com_dailyplanetblog&view=entry&year=2022"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "9ef36a0ea05744e6d3d9",
+  "normalized_url": "https://aclu.org/publications/policing-progress-findings-from-a-national-survey-of-lgbtq-peoples-experiences-with-law-enforcement",
+  "fetch_timestamp_utc": "2026-10-04T02:45:23.406497+00:00",
+  "registrable_domain": "aclu.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.aclu.org/publications/policing-progress-findings-from-a-national-survey-of-lgbtq-peoples-experiences-with-law-enforcement",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 46480,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9ef36a0ea05744e6d3d9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9ef36a0ea05744e6d3d9.txt",
+  "text_chars": 7571,
+  "text_words": 1113,
+  "extraction_status": "success",
+  "page_title": "Policing Progress: Findings from a National Survey of LGBTQ+ People’s Experiences with Law Enforcement | American Civil Liberties Union",
+  "page_author": null,
+  "page_date": "2024-04-30",
+  "site_name": "American Civil Liberties Union",
+  "canonical_url": "https://www.aclu.org/publications/policing-progress-findings-from-a-national-survey-of-lgbtq-peoples-experiences-with-law-enforcement"
+}

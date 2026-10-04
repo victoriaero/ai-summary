@@ -1,0 +1,7 @@
+metric_x,metric_y,block,n_observations,n_blocks,blocked_rank_correlation,cluster_bootstrap_ci_low,cluster_bootstrap_ci_high,p_blocked_permutation_raw,n_permutations,n_bootstrap,p_blocked_permutation_holm,significant_holm
+url_jaccard_distance,dense_distance_subject_normalized,outcome_id,252,21,0.4110702554796416,0.31079609732786795,0.5052230760455841,4.999750012499375e-05,20000,5000,0.0002999850007499625,True
+domain_jaccard_distance,dense_distance_subject_normalized,outcome_id,252,21,0.15636599011378569,0.015396518161469492,0.30168987831435523,0.017099145042747864,20000,5000,0.05129743512824359,False
+url_jaccard_distance,evidence_semantic_gap_source_balanced,outcome_id,160,21,-0.2247544286278199,-0.37387902381610794,-0.05700439507233171,0.019949002549872506,20000,5000,0.05129743512824359,False
+domain_jaccard_distance,evidence_semantic_gap_source_balanced,outcome_id,160,21,-0.07587455034819439,-0.22564264521050129,0.09473117928954719,0.42447877606119694,20000,5000,0.42447877606119694,False
+evidence_semantic_gap_source_balanced,dense_distance_subject_normalized,outcome_id,160,21,-0.38620315046170556,-0.4868403043872695,-0.27803565930506285,9.99950002499875e-05,20000,5000,0.0004999750012499375,True
+answer_support_semantic_gap,dense_distance_subject_normalized,outcome_id,160,21,-0.27973927213470934,-0.4270593865109621,-0.10709232364427108,0.002049897505124744,20000,5000,0.008199590020498975,True

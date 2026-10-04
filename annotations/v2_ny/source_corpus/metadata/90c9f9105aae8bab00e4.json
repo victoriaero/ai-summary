@@ -1,0 +1,28 @@
+{
+  "source_id": "90c9f9105aae8bab00e4",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11756264",
+  "fetch_timestamp_utc": "2026-10-04T02:44:09.623820+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11756264/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 112862,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/90c9f9105aae8bab00e4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/90c9f9105aae8bab00e4.txt",
+  "text_chars": 12365,
+  "text_words": 1660,
+  "extraction_status": "success",
+  "page_title": "Promoting Health for Latino Immigrant Families—A Call for Improved Systems and Policies",
+  "page_author": "Brittany J Raffa; Catalina Montiel; Rushina Cholera",
+  "page_date": "2024-01-01",
+  "site_name": "JAMA pediatrics",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11756264/"
+}

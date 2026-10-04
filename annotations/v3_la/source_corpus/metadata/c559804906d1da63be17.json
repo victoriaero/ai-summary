@@ -1,0 +1,28 @@
+{
+  "source_id": "c559804906d1da63be17",
+  "normalized_url": "https://mecklenburghousingdata.org/frontpage-article/addressing-lgbtq-homelessness-challenges-disparities-and-promising-practices",
+  "fetch_timestamp_utc": "2026-10-04T03:45:32.500702+00:00",
+  "registrable_domain": "mecklenburghousingdata.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://mecklenburghousingdata.org/frontpage-article/addressing-lgbtq-homelessness-challenges-disparities-and-promising-practices/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 172288,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c559804906d1da63be17.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c559804906d1da63be17.txt",
+  "text_chars": 26094,
+  "text_words": 3776,
+  "extraction_status": "success",
+  "page_title": "Addressing LGBTQ+ Homelessness: Challenges, Disparities, and Promising Practices - Mecklenburg County - Housing & Homelessness Dashboard",
+  "page_author": "Cayce Jamil",
+  "page_date": "2023-06-29",
+  "site_name": "Mecklenburg County - Housing & Homelessness Dashboard - Mecklenburg County - Housing & Homelessness Dashboard",
+  "canonical_url": "https://mecklenburghousingdata.org/frontpage-article/addressing-lgbtq-homelessness-challenges-disparities-and-promising-practices/"
+}

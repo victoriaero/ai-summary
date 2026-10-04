@@ -1,0 +1,28 @@
+{
+  "source_id": "360e245835bf5a865c6c",
+  "normalized_url": "https://ebsco.com/research-starters/history/welfares-impact-racialethnic-relations",
+  "fetch_timestamp_utc": "2026-10-04T03:34:34.283900+00:00",
+  "registrable_domain": "ebsco.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ebsco.com/research-starters/history/welfares-impact-racialethnic-relations",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 125401,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/360e245835bf5a865c6c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/360e245835bf5a865c6c.txt",
+  "text_chars": 16640,
+  "text_words": 2487,
+  "extraction_status": "success",
+  "page_title": "Welfare's impact on racial/ethnic relations | History | Research Starters | EBSCOhost",
+  "page_author": null,
+  "page_date": "2022-05-01",
+  "site_name": "EBSCO",
+  "canonical_url": "https://www.ebsco.com/"
+}

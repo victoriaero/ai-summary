@@ -1,0 +1,28 @@
+{
+  "source_id": "a5ef3321a99ddbcaf5a1",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7430435",
+  "fetch_timestamp_utc": "2026-10-04T02:45:56.032112+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7430435/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 174259,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a5ef3321a99ddbcaf5a1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a5ef3321a99ddbcaf5a1.txt",
+  "text_chars": 38841,
+  "text_words": 5869,
+  "extraction_status": "success",
+  "page_title": "Common barriers to healthcare for transgender people in the U.S. Southeast",
+  "page_author": "Austin H Johnson; Ivy Hill; Jasmine Beach-Ferrara; Baker A Rogers; Andrew Bradford",
+  "page_date": "2019-12-11",
+  "site_name": "International Journal of Transgender Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7430435/"
+}

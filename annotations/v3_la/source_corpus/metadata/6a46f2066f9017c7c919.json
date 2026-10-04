@@ -1,0 +1,28 @@
+{
+  "source_id": "6a46f2066f9017c7c919",
+  "normalized_url": "https://thehrcfoundation.org/professional-resources/transgender-inclusive-benefits-for-employees-and-dependents",
+  "fetch_timestamp_utc": "2026-10-04T03:38:37.449696+00:00",
+  "registrable_domain": "thehrcfoundation.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hrc.org:443/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 103195,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6a46f2066f9017c7c919.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6a46f2066f9017c7c919.txt",
+  "text_chars": 531,
+  "text_words": 46,
+  "extraction_status": "success",
+  "page_title": "The Human Rights Campaign | 4 Million Members Strong",
+  "page_author": null,
+  "page_date": "2020-06-02",
+  "site_name": "HRC",
+  "canonical_url": "https://www.hrc.org/"
+}

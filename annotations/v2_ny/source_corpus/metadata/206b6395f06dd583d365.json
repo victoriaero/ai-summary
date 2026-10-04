@@ -1,0 +1,28 @@
+{
+  "source_id": "206b6395f06dd583d365",
+  "normalized_url": "https://sentencingproject.org/reports/one-in-five-racial-disparity-in-imprisonment-causes-and-remedies",
+  "fetch_timestamp_utc": "2026-10-04T02:35:13.003029+00:00",
+  "registrable_domain": "sentencingproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sentencingproject.org/reports/one-in-five-racial-disparity-in-imprisonment-causes-and-remedies/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 369352,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/206b6395f06dd583d365.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/206b6395f06dd583d365.txt",
+  "text_chars": 111213,
+  "text_words": 16523,
+  "extraction_status": "success",
+  "page_title": "One in Five: Racial Disparity in Imprisonment — Causes and Remedies – The Sentencing Project",
+  "page_author": "Nazgol Ghandnoosh; Ph D",
+  "page_date": "2023-12-07",
+  "site_name": "The Sentencing Project",
+  "canonical_url": "https://www.sentencingproject.org/reports/one-in-five-racial-disparity-in-imprisonment-causes-and-remedies/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "e4af94d81d67aa5e996a",
+  "normalized_url": "https://healthmanagement.org/c/healthmanagement/Post/health-insurance-for-people-with-disabilities-navigating-the-complex-terrain",
+  "fetch_timestamp_utc": "2026-10-04T03:47:56.683076+00:00",
+  "registrable_domain": "healthmanagement.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://healthmanagement.org/c/healthmanagement/guest-post/health-insurance-for-people-with-disabilities-navigating-the-complex-terrain",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 134157,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e4af94d81d67aa5e996a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e4af94d81d67aa5e996a.txt",
+  "text_chars": 6806,
+  "text_words": 961,
+  "extraction_status": "success",
+  "page_title": "Health Insurance for People with Disabilities: Navigating the Complex Terrain",
+  "page_author": "HealthManagement org",
+  "page_date": "2023-10-25",
+  "site_name": "HealthManagement.org",
+  "canonical_url": "https://healthmanagement.org/c/healthmanagement/guest-post/health-insurance-for-people-with-disabilities-navigating-the-complex-terrain"
+}

@@ -1,0 +1,7 @@
+group_type,summary_level,n_claims,n_responses,n_original_sentences,hedge_coverage,hedge_span_candidate_rate,hedge_sentence_context_rate,veridicality_coverage,n_veridicality_scored,mean_veridicality,median_veridicality
+majority,all_claims,1064,126,1038,1.0,0.14567669172932332,0.1550751879699248,0.03289473684210526,35,-0.10993424257142857,-0.3352641
+minority,all_claims,1139,126,1121,1.0,0.15978928884986832,0.17032484635645304,0.029850746268656716,34,0.005336142058823529,0.22386
+people,all_claims,205,21,205,1.0,0.13170731707317074,0.13170731707317074,0.014634146341463415,3,-0.02717046666666667,0.22386
+majority,matched_claims_unique,7,6,7,1.0,0.0,0.0,0.0,0,,
+minority,matched_claims_unique,1,1,1,1.0,0.0,0.0,0.0,0,,
+people,matched_claims_unique,4,2,4,1.0,0.0,0.0,0.0,0,,

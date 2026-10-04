@@ -1,0 +1,44 @@
+{
+  "input_dir": "/scratch/victoria.estanislau/ai-summary/results/condition_source_analysis_dallas",
+  "source_occurrences": 2127,
+  "unique_canonical_urls": 1595,
+  "unique_registrable_domains": 720,
+  "authority_category_counts": {
+    "government": 476,
+    "nonprofit_general": 419,
+    "academic_research": 351,
+    "commercial_service": 296,
+    "policy_research": 216,
+    "advocacy_community": 169,
+    "social_platform": 68,
+    "other": 52,
+    "intergovernmental": 28,
+    "news_media": 23,
+    "professional_association": 16,
+    "reference": 9,
+    "healthcare_provider": 4
+  },
+  "classification_confidence_counts": {
+    "high": 1125,
+    "low": 823,
+    "medium": 179
+  },
+  "turnover_pairs": 378,
+  "turnover_rows": 756,
+  "authority_models_fitted": 156,
+  "authority_models_not_fitted": 78,
+  "authority_hierarchical_models_fitted": 180,
+  "authority_hierarchical_models_not_fitted": 54,
+  "validation_sample_domains": 88,
+  "bootstrap_resamples": 10000,
+  "correlation_bootstrap_resamples": 2000,
+  "comparisons": [
+    "minority_majority",
+    "minority_generic",
+    "majority_generic"
+  ],
+  "granularities": [
+    "canonical_url",
+    "registrable_domain"
+  ]
+}

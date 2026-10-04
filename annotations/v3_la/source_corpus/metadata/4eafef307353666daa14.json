@@ -1,0 +1,28 @@
+{
+  "source_id": "4eafef307353666daa14",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12812978",
+  "fetch_timestamp_utc": "2026-10-04T03:36:29.457810+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12812978/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 197490,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/4eafef307353666daa14.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/4eafef307353666daa14.txt",
+  "text_chars": 43463,
+  "text_words": 6335,
+  "extraction_status": "success",
+  "page_title": "Influential factors of school bullying among junior high school students: an analysis based on hierarchical linear models",
+  "page_author": "Yingying Wang; Xingyu Li; Nianhao Song; Changhao Jiang; Pei Liu",
+  "page_date": "2026-01-05",
+  "site_name": "Frontiers in Psychology",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12812978/"
+}

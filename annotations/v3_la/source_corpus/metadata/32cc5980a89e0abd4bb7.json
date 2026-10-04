@@ -1,0 +1,20 @@
+{
+  "source_id": "32cc5980a89e0abd4bb7",
+  "normalized_url": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=6918&context=gc_etds",
+  "fetch_timestamp_utc": "2026-10-04T03:34:24.499988+00:00",
+  "registrable_domain": "cuny.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=6918&context=gc_etds",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5778,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

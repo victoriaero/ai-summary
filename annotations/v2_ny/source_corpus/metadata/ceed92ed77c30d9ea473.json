@@ -1,0 +1,28 @@
+{
+  "source_id": "ceed92ed77c30d9ea473",
+  "normalized_url": "https://patientsafetylearning.org/blog/womens-health-and-patient-safety-accelerating-action-in-four-key-areas",
+  "fetch_timestamp_utc": "2026-10-04T02:49:04.987454+00:00",
+  "registrable_domain": "patientsafetylearning.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.patientsafetylearning.org/blog/womens-health-and-patient-safety-accelerating-action-in-four-key-areas",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 49139,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ceed92ed77c30d9ea473.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ceed92ed77c30d9ea473.txt",
+  "text_chars": 12409,
+  "text_words": 1955,
+  "extraction_status": "success",
+  "page_title": "Women's health and patient safety: accelerating action",
+  "page_author": null,
+  "page_date": "2025-03-03",
+  "site_name": "Patient Safety Learning",
+  "canonical_url": "https://www.patientsafetylearning.org/blog/womens-health-and-patient-safety-accelerating-action-in-four-key-areas"
+}

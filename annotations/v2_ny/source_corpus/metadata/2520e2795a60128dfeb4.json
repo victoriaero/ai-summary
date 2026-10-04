@@ -1,0 +1,28 @@
+{
+  "source_id": "2520e2795a60128dfeb4",
+  "normalized_url": "https://unitedwaynca.org/facts-about-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:35:42.135856+00:00",
+  "registrable_domain": "unitedwaynca.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://unitedwaynca.org/facts-about-homelessness/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 186468,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2520e2795a60128dfeb4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2520e2795a60128dfeb4.txt",
+  "text_chars": 26315,
+  "text_words": 3783,
+  "extraction_status": "success",
+  "page_title": "Facts About Homelessness: Stats, Causes & Solutions",
+  "page_author": "United Way NCA",
+  "page_date": "2026-01-13",
+  "site_name": "United Way of the National Capital Area",
+  "canonical_url": "https://unitedwaynca.org/facts-about-homelessness/"
+}

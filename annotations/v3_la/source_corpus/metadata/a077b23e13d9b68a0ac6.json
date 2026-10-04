@@ -1,0 +1,28 @@
+{
+  "source_id": "a077b23e13d9b68a0ac6",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12059791",
+  "fetch_timestamp_utc": "2026-10-04T03:42:56.793768+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12059791/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 285714,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a077b23e13d9b68a0ac6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a077b23e13d9b68a0ac6.txt",
+  "text_chars": 69646,
+  "text_words": 11004,
+  "extraction_status": "success",
+  "page_title": "Risk Factors and Correlates of School Bullying and Cyberbullying among Turkish Adolescents: Evidence from a School-Based Cross-Sectional Study",
+  "page_author": "Damla Eyuboglu; Murat Eyuboglu; Didem Oktar; Seval Caliskan Pala; Zeynep Demirtas; Didem Arslantas; Alaettin Unsal",
+  "page_date": "2025-03-07",
+  "site_name": "Alpha Psychiatry",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12059791/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "70cf68b0f32080d61839",
+  "normalized_url": "https://govlab.hks.harvard.edu/insight/closing-the-engagement-gap-for-latino-people-experiencing-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:41:39.684557+00:00",
+  "registrable_domain": "harvard.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://govlab.hks.harvard.edu/insight/closing-the-engagement-gap-for-latino-people-experiencing-homelessness/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 134366,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/70cf68b0f32080d61839.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/70cf68b0f32080d61839.txt",
+  "text_chars": 2506,
+  "text_words": 344,
+  "extraction_status": "success",
+  "page_title": "Where Systems Meet People: Closing the Engagement Gap for Latino People Experiencing Homelessness",
+  "page_author": "Author Camila de la Vega; Libby Doyle Contributor Emma Kornetsky Designer Sara Israelsen-Hartley",
+  "page_date": "2026-09-15",
+  "site_name": "Harvard Kennedy School Government Performance Lab",
+  "canonical_url": "https://govlab.hks.harvard.edu/insight/closing-the-engagement-gap-for-latino-people-experiencing-homelessness/"
+}

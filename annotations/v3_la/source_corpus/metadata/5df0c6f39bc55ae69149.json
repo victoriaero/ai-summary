@@ -1,0 +1,28 @@
+{
+  "source_id": "5df0c6f39bc55ae69149",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4263117",
+  "fetch_timestamp_utc": "2026-10-04T03:37:40.106610+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4263117/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 190074,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5df0c6f39bc55ae69149.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5df0c6f39bc55ae69149.txt",
+  "text_chars": 60282,
+  "text_words": 9304,
+  "extraction_status": "success",
+  "page_title": "The challenges in monitoring and preventing patient safety incidents for people with intellectual disabilities in NHS acute hospitals: evidence from a mixed-methods study",
+  "page_author": "Irene Tuffrey-Wijne; Lucy Goulding; Vanessa Gordon; Elisabeth Abraham; Nikoletta Giatras; Christine Edwards; Steve Gillard; Sheila Hollins",
+  "page_date": "2014-09-24",
+  "site_name": "BMC Health Services Research",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4263117/"
+}

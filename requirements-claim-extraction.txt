@@ -1,0 +1,6 @@
+-r requirements.txt
+transformers>=4.45
+huggingface-hub>=0.25
+sentence-transformers>=3.0
+# Install a CUDA-compatible vllm build separately in the GPU environment.
+# See results/claim_extraction_qwen14b/README.md; no model download is automatic.

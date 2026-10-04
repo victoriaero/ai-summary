@@ -1,0 +1,28 @@
+{
+  "source_id": "456d830df3f34dade47a",
+  "normalized_url": "https://scholarlycommons.law.emory.edu/elj/vol70/iss7/7",
+  "fetch_timestamp_utc": "2026-10-04T03:35:45.660733+00:00",
+  "registrable_domain": "emory.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://scholarlycommons.law.emory.edu/elj/vol70/iss7/7/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 51280,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/456d830df3f34dade47a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/456d830df3f34dade47a.txt",
+  "text_chars": 2309,
+  "text_words": 334,
+  "extraction_status": "success",
+  "page_title": "Advertising Injustices: Marketing Race and Credit in America",
+  "page_author": "Jim Hawkins; Tiffany C Penner",
+  "page_date": "2021-09-14",
+  "site_name": "Emory Law Scholarly Commons",
+  "canonical_url": "https://scholarlycommons.law.emory.edu/elj/vol70/iss7/7"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "2fdbeb3ae29c8c995e4e",
+  "normalized_url": "https://giesbusiness.illinois.edu/news/2025/11/12/new-research-reveals-widespread-bias--inefficiency-in-credit-scoring-and-mortgage-lending",
+  "fetch_timestamp_utc": "2026-10-04T02:36:16.679912+00:00",
+  "registrable_domain": "illinois.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://giesbusiness.illinois.edu/news/2025/11/12/new-research-reveals-widespread-bias--inefficiency-in-credit-scoring-and-mortgage-lending",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 49387,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2fdbeb3ae29c8c995e4e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2fdbeb3ae29c8c995e4e.txt",
+  "text_chars": 8244,
+  "text_words": 1104,
+  "extraction_status": "success",
+  "page_title": "New research reveals widespread bias, inefficiency in credit scoring and mortgage lending",
+  "page_author": null,
+  "page_date": "2025-11-12",
+  "site_name": "Gies College of Business",
+  "canonical_url": "https://giesbusiness.illinois.edu/news/2025/11/12/new-research-reveals-widespread-bias--inefficiency-in-credit-scoring-and-mortgage-lending"
+}

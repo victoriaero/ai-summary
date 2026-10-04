@@ -1,0 +1,28 @@
+{
+  "source_id": "6941b1f3f5f4fc565c16",
+  "normalized_url": "https://tgpdenver.org/publications/blog.html/article/2025/08/29/the-overlooked-connection-between-disability-and-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:40:58.349151+00:00",
+  "registrable_domain": "tgpdenver.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://tgpdenver.org/publications/blog.html/article/2025/08/29/the-overlooked-connection-between-disability-and-homelessness",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 72232,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6941b1f3f5f4fc565c16.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6941b1f3f5f4fc565c16.txt",
+  "text_chars": 3563,
+  "text_words": 536,
+  "extraction_status": "success",
+  "page_title": "The Gathering Place Resources and Blog",
+  "page_author": "Jake Wilson",
+  "page_date": "2025-08-29",
+  "site_name": "The Gathering Place",
+  "canonical_url": "https://tgpdenver.org/publications/blog.html/article/2025/08/29/the-overlooked-connection-between-disability-and-homelessness"
+}

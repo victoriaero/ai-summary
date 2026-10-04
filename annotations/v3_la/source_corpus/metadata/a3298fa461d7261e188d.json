@@ -1,0 +1,28 @@
+{
+  "source_id": "a3298fa461d7261e188d",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680023",
+  "fetch_timestamp_utc": "2026-10-04T03:43:06.410362+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680023/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 298702,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a3298fa461d7261e188d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a3298fa461d7261e188d.txt",
+  "text_chars": 95983,
+  "text_words": 14810,
+  "extraction_status": "success",
+  "page_title": "When Sarah Meets Lawrence: The Effects of Coeducation on Women’s College Major Choices",
+  "page_author": "Avery Calkins; Ariel J Binder; Dana Shaat; Brenden Timpe",
+  "page_date": "2011-01-01",
+  "site_name": "American economic journal. Applied economics",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680023/"
+}

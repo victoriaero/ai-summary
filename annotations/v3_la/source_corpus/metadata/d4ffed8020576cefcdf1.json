@@ -1,0 +1,28 @@
+{
+  "source_id": "d4ffed8020576cefcdf1",
+  "normalized_url": "https://nij.ojp.gov/topics/articles/overview-police-use-force",
+  "fetch_timestamp_utc": "2026-10-04T03:46:44.142453+00:00",
+  "registrable_domain": "ojp.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nij.ojp.gov/topics/articles/overview-police-use-force",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 56318,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/d4ffed8020576cefcdf1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/d4ffed8020576cefcdf1.txt",
+  "text_chars": 2301,
+  "text_words": 368,
+  "extraction_status": "success",
+  "page_title": "Overview of Police Use of Force",
+  "page_author": null,
+  "page_date": "2020-03-05",
+  "site_name": "National Institute of Justice",
+  "canonical_url": "https://nij.ojp.gov/topics/articles/overview-police-use-force"
+}

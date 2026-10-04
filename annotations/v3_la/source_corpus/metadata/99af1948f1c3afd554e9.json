@@ -1,0 +1,28 @@
+{
+  "source_id": "99af1948f1c3afd554e9",
+  "normalized_url": "https://aclu.org/news/racial-justice/why-access-to-education-is-key-to-systemic-equality",
+  "fetch_timestamp_utc": "2026-10-04T03:42:17.460964+00:00",
+  "registrable_domain": "aclu.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.aclu.org/news/racial-justice/why-access-to-education-is-key-to-systemic-equality",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 83344,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/99af1948f1c3afd554e9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/99af1948f1c3afd554e9.txt",
+  "text_chars": 10739,
+  "text_words": 1586,
+  "extraction_status": "success",
+  "page_title": "Why Access to Education is Key to Systemic Equality | ACLU",
+  "page_author": null,
+  "page_date": "2023-09-06",
+  "site_name": "American Civil Liberties Union",
+  "canonical_url": "https://www.aclu.org/news/racial-justice/why-access-to-education-is-key-to-systemic-equality"
+}

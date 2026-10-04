@@ -1,0 +1,28 @@
+{
+  "source_id": "0b88429e3799aee3456a",
+  "normalized_url": "https://eeoc.gov/fact-sheet/facts-about-racecolor-discrimination",
+  "fetch_timestamp_utc": "2026-10-04T03:31:44.431059+00:00",
+  "registrable_domain": "eeoc.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.eeoc.gov/fact-sheet/facts-about-racecolor-discrimination",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 74767,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/0b88429e3799aee3456a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/0b88429e3799aee3456a.txt",
+  "text_chars": 566,
+  "text_words": 56,
+  "extraction_status": "success",
+  "page_title": "Facts About Race/Color Discrimination",
+  "page_author": null,
+  "page_date": "2000-01-01",
+  "site_name": "U.S. Equal Employment Opportunity Commission",
+  "canonical_url": "https://www.eeoc.gov/fact-sheet/facts-about-racecolor-discrimination"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "9c83fec30b1ed70e82ae",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5472072",
+  "fetch_timestamp_utc": "2026-10-04T02:45:10.824687+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5472072/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 113101,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9c83fec30b1ed70e82ae.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9c83fec30b1ed70e82ae.txt",
+  "text_chars": 11540,
+  "text_words": 1533,
+  "extraction_status": "success",
+  "page_title": "Bioethics in Practice: Ethical Issues in the Care of Transgender Patients",
+  "page_author": "Miranda Hann; Robin Ivester; G Dodd Denton",
+  "page_date": "2013-10-01",
+  "site_name": "The Ochsner Journal",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5472072/"
+}

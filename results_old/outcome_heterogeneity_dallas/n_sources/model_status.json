@@ -1,0 +1,28 @@
+{
+  "primary_model": {
+    "status": "fitted",
+    "formula": "paired_difference ~ C(dimension) + (1 | outcome)",
+    "reml_optimizer": "powell",
+    "ml_optimizer": "powell",
+    "converged_reml": true,
+    "converged_ml": true,
+    "singular_fit": false
+  },
+  "variance_bootstrap": {
+    "requested_resamples": 500,
+    "successful_resamples": 500,
+    "failed_resamples": 0,
+    "first_failures": []
+  },
+  "negative_binomial_robustness": {
+    "status": "fitted",
+    "converged": true,
+    "formula": "value ~ group_minority * C(dimension) + C(outcome_id)",
+    "distribution": "negative binomial NB2",
+    "outcome_handling": "fixed effects",
+    "standard_errors": "clustered by outcome",
+    "alpha": 0.006490054757126118,
+    "aic": 1317.7693622024306,
+    "important_limitation": "This is not the requested negative-binomial random-slope GLMM. It is a feasible Dallas sensitivity analysis with outcome fixed effects and outcome-clustered standard errors."
+  }
+}

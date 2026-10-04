@@ -1,0 +1,382 @@
+<!--map is forked from https://github.com/githamm/us-state-squares -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="description" content="No one knows exactly how many Latinos are arrested each year or how many are in prison, on probation, or on parole.">
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+     <title>The Alarming Lack of Data on Latinos in the Criminal Justice System</title>
+
+
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@urbaninstitute">
+    <meta name="twitter:creator" content="@urbaninstitute">
+    <meta name="twitter:title" content="The Alarming Lack of Data on Latinos in the Criminal Justice System">
+    <meta name="twitter:description" content="No one knows exactly how many Latinos are arrested each year or how many are in prison, on probation, or on parole.">
+    <meta name="twitter:image" content="http://apps.urban.org/features/latino-criminal-justice-data/img/social.jpg">
+    <meta property="og:title" content="The Alarming Lack of Data on Latinos in the Criminal Justice System" />
+    <meta property="og:description" content="No one knows exactly how many Latinos are arrested each year or how many are in prison, on probation, or on parole." />
+    <meta property="og:image" content="http://apps.urban.org/features/latino-criminal-justice-data/img/social.jpg" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:url" content="http://urbn.is/cjdata">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic,900" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+          
+    <!--for the header-->      
+    <link rel="stylesheet" type="text/css" href="css/urban-header.css">
+          
+    <!--project style sheet-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/datavizstyle.css">
+
+    <!--header -->
+    <link rel="stylesheet" type="text/css" href="css/urban-header.css">
+    <link rel="stylesheet" href="lib/jquery-ui.1.12.0.css">
+
+        <script type="application/ld+json">
+              {
+                "@context": "http://schema.org",
+                "@type": "NewsArticle",
+                "headline": "The Alarming Lack of Data on Latinos in the Criminal Justice System",
+                "url": "http://apps.urban.org/features/latino-criminal-justice-data/",
+                "thumbnailUrl": "http://apps.urban.org/features/latino-criminal-justice-data/img/social.jpg",
+                "dateCreated": "2016-12-14T00:00:00.000Z",
+                "articleSection": "Interactive Feature",
+                "creator": ["Sarah Eppler-Epstein","Annie Gurvis","Ryan King"],
+                "keywords": ["Crime and Justice","Race and Ethnicity"]
+              }
+        </script>
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MKBD2W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MKBD2W');</script>
+<!-- End Google Tag Manager -->
+
+  <div id = "isMobile"></div>
+  <div id = "isPhone"></div>
+
+<!--URBAN HEADER -->
+  <div id="header-pinned" class="no-touch">   
+    <a target="_blank" href="http://www.urban.org" title="Home" rel="home" class="site-logo"></a>
+    <div class="title"><span class="feature-link"><a href="http://www.urban.org/features" class="title-linkback linkback-home" alt="Urban Institute logo"></a> <span>: :</span> </span><a href="index.html" class="title-linkback linkback-title"></a>
+    </div>
+
+    <div class="share-icons english">
+        <div class="shareThisP">
+            <span onclick="toggle_visibility('shareBox');">
+                <div class="shareThisB"></div>
+            </span>
+            <div class="shareThisW" id="shareBox">
+              <div class="addthis_toolbox addthis_default_style  "addthis:title="" addthis:url="">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//urbn.is/cjdata" target="_blank" class="addthis_button_facebook at300b" title="Facebook" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-facebook" style="background-color: rgb(48, 88, 145);"><span class="at_a11y">Share on facebook</span></span></a>
+
+                <a href="https://twitter.com/intent/tweet?text=From%20%40urbaninstitute%3A%20The%20alarming%20lack%20of%20data%20on%20Latinos%20in%20the%20criminal%20justice%20system%20http%3A%2F%2Furbn.is%2Fcjdata" target="_blank" class="addthis_button_twitter at300b" title="Tweet" onclick="toggle_visibility('shareBox')><span class=" at4-icon aticon-twitter"><span class="at_a11y">Share on twitter</span></span></a>
+
+                <a href="/cdn-cgi/l/email-protection#dffaedefe08caabdb5babcabe291baa8ffb6b1abbaadbebcabb6a9baffb9adb0b2ffabb7baff8aadbdbeb1ff96b1acabb6abaaabbafff9beb2afe49db0bba6e297b6feff96ffabb7b0aab8b7abffa6b0aaf8bbffbdbaffb6b1abbaadbaacabbabbffb6b1ffabb7b6acffb1baa8ffb6b1abbaadbebcabb6a9baffb9adb0b2ffabb7baff8aadbdbeb1ff96b1acabb6abaaabbae5ff3d5f438bb7baff9eb3beadb2b6b1b8ff93bebcb4ffb0b9ff9bbeabbeffb0b1ff93beabb6b1b0acffb6b1ffabb7baff9cadb6b2b6b1beb3ff95aaacabb6bcbaff8ca6acabbab23d5f42ffb7ababafe5f0f0aaadbdb1f1b6acf0bcb5bbbeabbeff" target="_blank" class="addthis_button_email at300b" target="_blank" title="Email" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-email" style="background-color: rgb(115, 138, 141);"><span class="at_a11y">Share on email</span></span></a>
+                <div class="atclear"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="share-icons spanish">
+        <div class="shareThisP">
+            <span onclick="toggle_visibility('shareBoxSpanish');">
+                <div class="shareThisB"></div>
+            </span>
+            <div class="shareThisW" id="shareBoxSpanish">
+              <div class="addthis_toolbox addthis_default_style  "addthis:title="" addthis:url="">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//urbn.is/cjdataesp" target="_blank" class="addthis_button_facebook at300b" title="Facebook" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-facebook" style="background-color: rgb(48, 88, 145);"><span class="at_a11y">Compartir en facebook</span></span></a> <a href="https://twitter.com/intent/tweet?text=De%20%40urbaninstitute%3A%20La%20alarmante%20falta%20de%20informaci%C3%B3n%20sobre%20latinos%20en%20el%20sistema%20de%20justicia%20penal%20http%3A%2F%2Furbn.is%2Fcjdataesp" target="_blank" class="addthis_button_twitter at300b" title="Tweet" onclick="toggle_visibility('shareBox')><span class=" at4-icon aticon-twitter"><span class="at_a11y">Compartir en Twitter</span></span></a>
+                <a href="/cdn-cgi/l/email-protection#ebced9dbd4b89e89818e889fd6a59e8e9d8acb82858d8499868a8882285885cb82859f8e998a889f829d8acb8f8e87cbbe99898a85cba285989f829f9e9f8ecbcd8a869bd0a9848f92d6294aa384878acacbbb8e85982842cb9a9e8ecb9b848f9928468acb82859f8e998e988a99878ecb8e989f8acb859e8e9d8acb82858d8499868a8882285885cb82859f8e998a889f829d8acb8f8e87cbbe99898a85cba285989f829f9e9f8ed1cb096b77a78acb8a878a99868a859f8ecb8d8a879f8acb8f8ecb82858d8499868a8882285885cb988489998ecb878a9f82858498cb8e85cb8e87cb9882989f8e868acb8f8ecb819e989f8288828acb9b8e858a87096b76cb839f9f9bd1c4c49e998985c58298c488818f8a9f8acb" target="_blank" class="addthis_button_email at300b" target="_blank" title="Correo electrónico" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-email" style="background-color: rgb(115, 138, 141);"><span class="at_a11y">Compartir por correo electrónico</span></span></a>
+                <div class="atclear"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+  <div class="headerimage" id="heroimage">
+    <div class="wrapper headerwrapper">
+          <h1 class="div-title-block"> <!--TEXT --></h1>
+    </div>
+  </div>
+  <div class="wrapper" style="margin-top: -50px; background-color:#FFF;"> 
+    <section class="container clearfix">   
+      <div class="row">
+        <div class="disclaimer urbanstatement">
+        <!--TEXT-->
+        </div>
+            
+          <div id="inset">
+          <ul>
+            <li class="inset-header" id="language_option_header"><!--TEXT--></li>
+            <li class="inset-header language_option"><span  id="english"><!--TEXT--></a></li>
+            <li class="inset-header language_option"><span id="spanish"><!--TEXT--></a></li>
+            </ul>
+          </div>
+<!--<div class="section-banner">
+    <div class="title-area">
+      <div class="title-block">
+      <h1 class="main-title">The Lack of Race and Ethnicity Data in Criminal Justice is Dangerous</h1>
+      </div>
+    </div>
+    <div class="banner-area">
+    <img class="img-banner" src="images/banner-temporary.jpg">
+    </div> 
+  </div>
+
+  <div class="section-feature-content">
+    <div class="wrapper">
+      <div class="main-content">
+
+          <div class="main-image">
+          </div>
+            <div class="main clearfix">
+              <div class="intro-inset">
+                <div class="inset-language">
+                  <div class="inset-header">
+                  Language Options
+                  </div>
+                  <a id ="english" href="#" class = "inset-link"><span>English</span>
+                  </a>
+                  <a id ="spanish" href="#" class = "inset-link"><span>Español</span>
+                  </a>
+                </div>
+              </div>
+              <div> -->
+          <div id="header_text">
+             <!--TEXT -->
+            </div>
+        </div>
+      </section>
+
+
+
+<!--FIRST GRAPH -->
+<section class="container clearfix">  
+    <div style="border-top:#1696d2 solid 6px; width:200px;"></div>
+<div id="container1" class="svg-container">
+  <div class="text-container" id="first-section-text">
+  <!--TEXT -->
+  </div>
+    <div class="graphic-container">
+      <div id="xlabel-div" class="xlabel">
+      </div>
+      <div id="firstGraphic">
+      </div>
+      <div class="div-center">
+        <div class="div-toggle-inline">
+          <div class = "toggle_text toggle_text_mobile"><!--TEXT--></div>
+          <div class="urban-switch blue large">
+            <div id="step1-regular" value = "num_crime_cat_2" class="button_toggle switch large on"></div>
+          </div>
+        </div>
+      </div>
+      <div id="tooltip" class="tooltip-div">
+        <div class="tooltip-div-left">
+        </div>
+        <div class="tooltip-div-right">
+        </div>
+      </div>
+    </div>  
+</div>
+
+</section>
+
+<!--SECOND GRAPH -->
+
+<section class="container clearfix">  
+    <div style="border-top:#1696d2 solid 6px; width:200px;"></div>
+<div id="container2" class="svg-container">      
+  <div class="text-container">
+    <h1 id="second-header"> <!--TEXT --></h1> 
+    <article>
+    <div class="non-mobile-text" id="second-section-text">
+    <!--TEXT -->
+    </div>
+    </article>
+  </div>
+  <div class="graphic-container">
+    <div id="map">
+    </div>
+    <div id="dropdown-div">
+      <div id="dropdown-side-label">
+      <div id="dropdown-side-label-text">
+      <!--TEXT-->
+      </div>
+      </div>
+      <div id="dropdown"> 
+        <select id = "measures" name = "measures-menu">
+          <option id="number_prison" class="measure_type" value="number_prison"></option>
+            <option id="number_prison_ct" class="measure_type" value="number_prison_ct"></option>
+            <option id="arrests" class="measure_type" value="arrests"></option>
+            <option id="probation" class="measure_type" value="probation"></option>
+            <option id="parole" class="measure_type" value="parole"></option>
+        </select>
+      </div>
+    </div>
+    <div class="div-center">
+      <div class="div-toggle-inline">
+        <div class = "toggle_text" id="toggle2"><!--TEXT--></div>
+        <div class="urban-switch blue large">
+          <div id="step2-regular" class="button_toggle switch large on"></div>
+        </div>
+      </div>
+    </div>
+    <div id="legend">
+    </div>
+   <!-- <div class="tooltip-map">
+    </div> -->
+    <!--<div id="step2">
+      <ul>
+      <div id ="step2-regular" class = "step2_button reg_button active">Regularly and Recently Reported Data</div>
+      <div id ="step2-all" class = "step2_button all_button">All Data Reported</div>
+      </ul>
+    </div> -->
+
+  </div>
+
+</div>
+
+</section>
+
+<!--THIRD GRAPH -->
+
+  <section class="container clearfix">  
+      <div style="border-top:#1696d2 solid 6px; width:200px;"></div>
+
+    <div id="container3" class="svg-container">
+      <div class= "text-container" id="third-section-text">
+        <!--TEXT -->
+      </div>
+    </div>
+    <div class="graphic-container">
+      <div id="grid">
+      </div>
+      <div id="legend3-nonmobile">
+      </div>
+      <div class="div-center fig3-toggle" id="toggle">
+        <div class="div-toggle-inline">
+          <div class = "toggle_text toggle_text_mobile"><!--TEXT--></div>
+          <div class="urban-switch blue large">
+            <div id="step3-regular" class="button_toggle switch large on"></div>
+          </div>
+        </div>
+      </div>
+      <div id="legend3-mobile">
+      </div>
+
+
+    <!--  <div id="step3">
+        <ul>
+        <div id ="step3-regular" class = "step3_button reg_button active">Regularly and Recently Reported Data</div>
+        <div id ="step3-all" class = "step3_button all_button">All Data Reported</div>
+        </ul>
+      </div>  -->
+    </div>
+  </section>
+  <section class="container clearfix">  
+  <div class="row">
+  <div style="border-top:#1696d2 solid 6px; width:200px;"></div>
+   <div id="conclusion-text">
+     <!--TEXT -->
+    </div>
+  </div>
+  </section>
+</div>
+
+
+</div>
+</div>
+	  
+    
+    <footer>
+    
+     <div class="content">     
+
+                <div id="left">
+                   <!--TEXT -->
+
+                </div>
+                <div id="right">
+
+                <!--TEXT-->
+
+                    
+
+
+                    <div class="credits">Copyright &copy; <a href="http://www.urban.org/">Urban Institute</a> 2016. <a href="https://github.com/UrbanInstitute/latino-criminal-justice-data" target="_blank">View this project on Github.</a></div>
+                </div>
+         
+    </div> 
+    </footer>
+ 
+					
+				
+
+   
+
+          
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="lib/jquery-2.2.1.min.js"></script>
+<script src="lib/jquery-ui.min.js"></script>
+<script src="js/header.js"></script>    
+<script src="lib/d3.min.js"></script>
+<script type="text/javascript" src="js/firstGraphic.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="js/topten.js"></script>
+<script type="text/javascript" src="js/language_switch.js"></script>
+<script>
+(function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () { 
+        (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),  m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m) 
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga'); 
+ga('create', 'UA-57529944-1', 'auto'); 
+ga('send', 'pageview');
+</script>
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <span id="parsely-cfg" data-parsely-site="urban.org"></span>
+</div>
+<script>
+    (function(s, p, d) {
+      var h=d.location.protocol, i=p+"-"+s,
+          e=d.getElementById(i), r=d.getElementById(p+"-root"),
+          u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+          :"static."+p+".com";
+      if (e) return;
+      e = d.createElement(s); e.id = i; e.async = true;
+      e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+    })("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a42d76beee2a785e',t:'MTc5MDcxMDg3MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"b5490541b99d420bab6e2641770c0cbb","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

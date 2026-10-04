@@ -1,0 +1,1645 @@
+<!doctype html>
+<html lang="en-US">
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+		<script type="text/rocketlazyloadscript">
+		(function(){
+			window.ecsSchemeConfig={systemAuto:false,darkLogoUrl:""};
+			var m=document.cookie.match(/(?:^|;\s*)ecs_color_scheme=([^;]+)/);
+			if(m&&m[1]==='alt'){
+				document.documentElement.setAttribute('data-ecs-scheme','alt');
+			}else if(!m&&false){
+				if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches){
+					document.documentElement.setAttribute('data-ecs-scheme','alt');
+				}
+			}
+		})();
+		</script>
+		
+	<!-- This site is optimized with the Yoast SEO plugin v28.3 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Risk Factors for Harassment in the Workplace - Cavignac</title>
+	<link rel="canonical" href="https://cavignac.com/blog/risk-factors-for-harassment-in-the-workplace/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Risk Factors for Harassment in the Workplace - Cavignac" />
+	<meta property="og:description" content="Prevention is the key to minimizing harassment in the workplace. There are fundamental measures employers should take to prevent workplace harassment, such as having a written policy against it and communicating the policy to all workers. As of January 1, 2021, employers with five (5) or more employees must train employees and managers on prevention [&hellip;]" />
+	<meta property="og:url" content="https://cavignac.com/blog/risk-factors-for-harassment-in-the-workplace/" />
+	<meta property="og:site_name" content="Cavignac" />
+	<meta property="article:published_time" content="2020-12-22T00:00:00+00:00" />
+	<meta property="article:modified_time" content="2024-03-22T19:43:34+00:00" />
+	<meta property="og:image" content="https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1.jpg" />
+	<meta property="og:image:width" content="1920" />
+	<meta property="og:image:height" content="1280" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Diana Dix" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Diana Dix" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/#article","isPartOf":{"@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/"},"author":{"@id":"https:\/\/cavignac.com\/#\/schema\/person\/cd391a1b19028b00827660daf71a28be"},"headline":"Risk Factors for Harassment in the Workplace","datePublished":"2020-12-22T00:00:00+00:00","dateModified":"2024-03-22T19:43:34+00:00","mainEntityOfPage":{"@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/"},"wordCount":271,"publisher":{"@id":"https:\/\/cavignac.com\/#organization"},"image":{"@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/#primaryimage"},"thumbnailUrl":"https:\/\/cavignac.com\/wp-content\/uploads\/2023\/04\/shutterstock_1022807230-scaled-1.jpg","articleSection":["All","Articles","Posts"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/","url":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/","name":"Risk Factors for Harassment in the Workplace - Cavignac","isPartOf":{"@id":"https:\/\/cavignac.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/#primaryimage"},"image":{"@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/#primaryimage"},"thumbnailUrl":"https:\/\/cavignac.com\/wp-content\/uploads\/2023\/04\/shutterstock_1022807230-scaled-1.jpg","datePublished":"2020-12-22T00:00:00+00:00","dateModified":"2024-03-22T19:43:34+00:00","breadcrumb":{"@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/"]}],"author":{"@id":"https:\/\/cavignac.com\/#\/schema\/person\/cd391a1b19028b00827660daf71a28be"}},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/#primaryimage","url":"https:\/\/cavignac.com\/wp-content\/uploads\/2023\/04\/shutterstock_1022807230-scaled-1.jpg","contentUrl":"https:\/\/cavignac.com\/wp-content\/uploads\/2023\/04\/shutterstock_1022807230-scaled-1.jpg","width":1920,"height":1280},{"@type":"BreadcrumbList","@id":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/cavignac.com\/"},{"@type":"ListItem","position":2,"name":"Insights","item":"https:\/\/cavignac.com\/insights\/"},{"@type":"ListItem","position":3,"name":"Risk Factors for Harassment in the Workplace"}]},{"@type":"WebSite","@id":"https:\/\/cavignac.com\/#website","url":"https:\/\/cavignac.com\/","name":"Cavignac","description":"Confidence in the future","publisher":{"@id":"https:\/\/cavignac.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/cavignac.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/cavignac.com\/#organization","name":"Cavignac","url":"https:\/\/cavignac.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/cavignac.com\/#\/schema\/logo\/image\/","url":"https:\/\/cavignac.com\/wp-content\/uploads\/2022\/08\/Cavignac_2024_Wordmark_w_Trademark_Blue.svg","contentUrl":"https:\/\/cavignac.com\/wp-content\/uploads\/2022\/08\/Cavignac_2024_Wordmark_w_Trademark_Blue.svg","width":880,"height":206,"caption":"Cavignac"},"image":{"@id":"https:\/\/cavignac.com\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.linkedin.com\/company\/cavignac-insurance\/?viewAsMember=true&original_referer=httpscavignac.com"]},{"@type":"Person","@id":"https:\/\/cavignac.com\/#\/schema\/person\/cd391a1b19028b00827660daf71a28be","name":"Diana Dix","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/cavignac.com\/wp-content\/uploads\/2023\/05\/Cavignac_Diana_Dix.webpaa50fcfd8e2718ab57c89b4b6c76142e","url":"https:\/\/cavignac.com\/wp-content\/uploads\/2023\/05\/Cavignac_Diana_Dix.webp","contentUrl":"https:\/\/cavignac.com\/wp-content\/uploads\/2023\/05\/Cavignac_Diana_Dix.webp","caption":"Diana Dix"},"url":"https:\/\/cavignac.com\/author\/diana-dix\/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Cavignac &raquo; Feed" href="https://cavignac.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cavignac &raquo; Comments Feed" href="https://cavignac.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://cavignac.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcavignac.com%2Fblog%2Frisk-factors-for-harassment-in-the-workplace%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://cavignac.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcavignac.com%2Fblog%2Frisk-factors-for-harassment-in-the-workplace%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://cavignac.com/wp-includes/css/dist/block-library/style.min.css?ver=7.1.2' media='all' />
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-icon svg){width: 24px;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='cmplz-general-css' href='https://cavignac.com/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1788202326' media='all' />
+<link data-minify="1" rel='stylesheet' id='hello-elementor-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/reset.css?ver=1790640178' media='all' />
+<link data-minify="1" rel='stylesheet' id='hello-elementor-theme-style-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/theme.css?ver=1790640178' media='all' />
+<link data-minify="1" rel='stylesheet' id='hello-elementor-header-footer-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=1790640178' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://cavignac.com/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1790640115' media='all' />
+<link rel='stylesheet' id='elementor-post-5-css' href='https://cavignac.com/wp-content/uploads/elementor/css/post-5.css?ver=1790640116' media='all' />
+<link rel='stylesheet' id='ecs-color-scheme-css' href='https://cavignac.com/wp-content/plugins/ele-custom-skin/modules/color-scheme/assets/css/ecs-color-scheme.min.css?ver=4.3.11' media='all' />
+<link rel='stylesheet' id='ecs-container-layout-css' href='https://cavignac.com/wp-content/plugins/ele-custom-skin/modules/container-layout/assets/css/ecs-container-layout.min.css?ver=4.3.11' media='all' />
+<link data-minify="1" rel='stylesheet' id='swiper-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=1790640178' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='https://cavignac.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.2.4' media='all' />
+<link rel='stylesheet' id='ecs-mobile-menu-css' href='https://cavignac.com/wp-content/plugins/ele-custom-skin/modules/mobile-menu/assets/css/ecs-mobile-menu.min.css?ver=4.3.11' media='all' />
+<link rel='stylesheet' id='ecs-editorial-text-css' href='https://cavignac.com/wp-content/plugins/ele-custom-skin/modules/editorial-text/assets/css/ecs-editorial-text.min.css?ver=4.3.11' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://cavignac.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://cavignac.com/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css?ver=1790640116' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://cavignac.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-accordion-css' href='https://cavignac.com/wp-content/uploads/elementor/css/custom-widget-accordion.min.css?ver=1790640115' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://cavignac.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.2.4' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://cavignac.com/wp-content/uploads/elementor/css/custom-apple-webkit.min.css?ver=1790640115' media='all' />
+<link rel='stylesheet' id='widget-form-css' href='https://cavignac.com/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://cavignac.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://cavignac.com/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css?ver=1790640115' media='all' />
+<link rel='stylesheet' id='widget-post-info-css' href='https://cavignac.com/wp-content/plugins/elementor-pro/assets/css/widget-post-info.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://cavignac.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-regular-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=1790640179' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=1790640178' media='all' />
+<link rel='stylesheet' id='widget-post-navigation-css' href='https://cavignac.com/wp-content/plugins/elementor-pro/assets/css/widget-post-navigation.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://cavignac.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4' media='all' />
+<link rel='stylesheet' id='widget-posts-css' href='https://cavignac.com/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css?ver=4.3.0' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1790640178' media='all' />
+<link rel='stylesheet' id='elementor-post-3115-css' href='https://cavignac.com/wp-content/uploads/elementor/css/post-3115.css?ver=1790640177' media='all' />
+<link rel='stylesheet' id='elementor-post-185-css' href='https://cavignac.com/wp-content/uploads/elementor/css/post-185.css?ver=1790640117' media='all' />
+<link rel='stylesheet' id='elementor-post-1974-css' href='https://cavignac.com/wp-content/uploads/elementor/css/post-1974.css?ver=1790640178' media='all' />
+<style id="elementor-pro-custom-fonts-inline-css">
+@font-face {
+	font-family: 'Reckless Neue';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueRegular.eot');
+	src: url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueRegular.woff2') format('woff2'),
+		url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueRegular.woff') format('woff'),
+		url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueRegular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Reckless Neue';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueMedium.eot');
+	src: url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueMedium.eot?#iefix') format('embedded-opentype'),
+		url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueMedium.woff2') format('woff2'),
+		url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueMedium.woff') format('woff'),
+		url('https://cavignac.com/wp-content/uploads/2023/04/RecklessNeueMedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Balto';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('https://cavignac.com/wp-content/uploads/2023/04/BaltoBook.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Balto';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('https://cavignac.com/wp-content/uploads/2023/04/BaltoMedium.ttf') format('truetype');
+}
+
+/*# sourceURL=elementor-pro-custom-fonts-inline-css */
+</style>
+<link rel='stylesheet' id='ecs-styles-css' href='https://cavignac.com/wp-content/plugins/ele-custom-skin/assets/css/ecs-style.min.css?ver=4.3.11' media='all' />
+<link rel='stylesheet' id='elementor-post-1154-css' href='https://cavignac.com/wp-content/uploads/elementor/css/post-1154.css?ver=1711489174' media='all' />
+<link data-minify="1" rel='stylesheet' id='cmplz-banner-1-optout-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/uploads/complianz/css/banner-1-optout.css?ver=1790640178' media='all' />
+<style id="rocket-lazyload-inline-css">
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://cavignac.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+/*# sourceURL=rocket-lazyload-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1790640178' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-gf-local-raleway-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1790640178' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-gf-local-poppins-css' href='https://cavignac.com/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1790640178' media='all' />
+<!--n2css--><!--n2js--><script type="text/rocketlazyloadscript" id="jquery-core-js" data-rocket-src="https://cavignac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://cavignac.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="ecs-mobile-menu-js" data-rocket-src="https://cavignac.com/wp-content/plugins/ele-custom-skin/modules/mobile-menu/assets/js/ecs-mobile-menu.min.js?ver=4.3.11" data-rocket-defer defer></script>
+<script id="ecs_ajax_load-js-extra">
+var ecs_ajax_params = {"ajaxurl":"https://cavignac.com/wp-admin/admin-ajax.php","posts":"{\"name\":\"risk-factors-for-harassment-in-the-workplace\",\"do_not_redirect\":1,\"error\":\"\",\"m\":\"\",\"p\":0,\"post_parent\":\"\",\"subpost\":\"\",\"subpost_id\":\"\",\"attachment\":\"\",\"attachment_id\":0,\"pagename\":\"\",\"page_id\":0,\"second\":\"\",\"minute\":\"\",\"hour\":\"\",\"day\":0,\"monthnum\":0,\"year\":0,\"w\":0,\"category_name\":\"\",\"tag\":\"\",\"cat\":\"\",\"tag_id\":\"\",\"author\":\"\",\"author_name\":\"\",\"feed\":\"\",\"tb\":\"\",\"paged\":0,\"meta_key\":\"\",\"meta_value\":\"\",\"preview\":\"\",\"s\":\"\",\"sentence\":\"\",\"title\":\"\",\"fields\":\"all\",\"menu_order\":\"\",\"embed\":\"\",\"category__in\":[],\"category__not_in\":[],\"category__and\":[],\"post__in\":[],\"post__not_in\":[],\"post_name__in\":[],\"tag__in\":[],\"tag__not_in\":[],\"tag__and\":[],\"tag_slug__in\":[],\"tag_slug__and\":[],\"post_parent__in\":[],\"post_parent__not_in\":[],\"author__in\":[],\"author__not_in\":[],\"search_columns\":[],\"ignore_sticky_posts\":false,\"suppress_filters\":false,\"cache_results\":true,\"update_post_term_cache\":true,\"update_menu_item_cache\":false,\"lazy_load_term_meta\":true,\"update_post_meta_cache\":true,\"post_type\":\"\",\"posts_per_page\":10,\"nopaging\":false,\"comments_per_page\":\"50\",\"no_found_rows\":false,\"order\":\"DESC\"}","nonce":"3b9e07fe2c"};
+//# sourceURL=ecs_ajax_load-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="ecs_ajax_load-js" data-rocket-src="https://cavignac.com/wp-content/plugins/ele-custom-skin/assets/js/ecs_ajax_pagination.min.js?ver=4.3.11" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="ecs-script-js" data-rocket-src="https://cavignac.com/wp-content/plugins/ele-custom-skin/assets/js/ecs.min.js?ver=4.3.11" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://cavignac.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://cavignac.com/wp-json/wp/v2/posts/1726" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cavignac.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel='shortlink' href='https://cavignac.com/?p=1726' />
+			<style>.cmplz-hidden {
+					display: none !important;
+				}</style>
+				<meta name="generator" content="Elementor 4.2.4; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<script type="text/rocketlazyloadscript">window.addEventListener('DOMContentLoaded', function() {
+jQuery(document).ready(function($) {
+var delay = 100; setTimeout(function() {
+$('.elementor-tab-title').removeClass('elementor-active');
+ $('.elementor-tab-content').css('display', 'none'); }, delay);
+});
+});</script>
+<meta name="google-site-verification" content="IDBfsGTbIvpXijVAmxI52VeEOKi0LiI3PghDQZgn7Zo" />
+<link data-minify="1" rel="stylesheet" href="https://cavignac.com/wp-content/cache/min/1/hns2bgi.css?ver=1790640178">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_Lettermark_w_Trademark_Blue.svg" sizes="32x32" />
+<link rel="icon" href="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_Lettermark_w_Trademark_Blue.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_Lettermark_w_Trademark_Blue.svg" />
+<meta name="msapplication-TileImage" content="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_Lettermark_w_Trademark_Blue.svg" />
+<style id="wp-custom-css">
+.page-id-1104 input, .page-id-1104  textarea, .page-id-1104 select {
+    background: white !important;
+    margin: 5px;
+}
+.page-id-1104 button.elementor-button.elementor-size-sm {
+    border: white 1px solid;
+}
+
+.page-id-1104 label {
+    color: white;
+}
+
+.elementor-575 .elementor-element.elementor-element-6d52a90 .premium-carousel-wrapper .slick-arrow {
+    font-size: 14px;
+    color: #266B8F;
+    background: #f2f2f2;
+}
+
+.elementor-575 .elementor-element.elementor-element-6d52a90 .premium-carousel-wrapper .slick-arrow:hover {
+    font-size: 14px;
+    color: #bac6c3;
+    background: #f2f2f2;
+}
+</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><meta name="generator" content="WP Rocket 3.23.3.3" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_lazyload_images wpr_lazyload_iframes wpr_image_dimensions wpr_minify_css wpr_cdn wpr_preload_links wpr_desktop" /></head>
+<body data-cmplz=1 class="wp-singular post-template-default single single-post postid-1726 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-kit-5 elementor-page-1974">
+
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header data-rocket-location-hash="c1303039eb712dd2c08b90abd2b80219" data-elementor-type="header" data-elementor-id="3115" class="elementor elementor-3115 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-d3ee905 e-ecs-flex e-flex e-con-boxed e-con e-parent" data-id="d3ee905" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[],&quot;ecs_container_type&quot;:&quot;flex&quot;,&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+					<div data-rocket-location-hash="da3b654b339ed49f0234db69a353a170" class="e-con-inner">
+		<div class="elementor-element elementor-element-84b70cc e-con-full e-ecs-flex e-flex e-con e-child" data-id="84b70cc" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-fb336b5 l-logo elementor-widget elementor-widget-image" data-id="fb336b5" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="800" height="187" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20187'%3E%3C/svg%3E" class="attachment-large size-large wp-image-7573" alt="" data-lazy-src="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_2024_Wordmark_w_Trademark_Blue.svg" /><noscript><img width="800" height="187" src="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_2024_Wordmark_w_Trademark_Blue.svg" class="attachment-large size-large wp-image-7573" alt="" /></noscript>								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2787ecb e-con-full e-ecs-flex e-flex e-con e-child" data-id="2787ecb" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-e863d26 elementor-hidden-mobile ecs-nav-layout-horizontal elementor-nav-menu--dropdown-tablet e--pointer-underline e--animation-fade elementor-nav-menu--toggle elementor-nav-menu--burger ecs-toggle-align-center elementor-widget elementor-widget-nav-menu" data-id="e863d26" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-e863d26" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59"><a href="/solutions/" class="elementor-item">Solutions<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3922"><a href="https://cavignac.com/solutions/commercial-insurance/" class="elementor-sub-item">Commercial Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3920"><a href="https://cavignac.com/solutions/employee-benefits/" class="elementor-sub-item">Employee Benefits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3919"><a href="https://cavignac.com/solutions/surety/" class="elementor-sub-item">Surety</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3929"><a href="https://cavignac.com/solutions/private-client-insurance/" class="elementor-sub-item">Private Client Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3918"><a href="https://cavignac.com/solutions/risk-control/" class="elementor-sub-item">Risk Control</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"><a href="/about-us/" class="elementor-item">About<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7378"><a href="https://cavignac.com/our-team/" class="elementor-sub-item">Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7388"><a href="https://cavignac.com/totalrisk-approach/" class="elementor-sub-item">TotalRISK Approach®</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8380"><a href="https://cavignac.com/about-us/awards-and-recognition/" class="elementor-sub-item">Awards &#038; Recognition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7377"><a href="https://cavignac.com/current-opportunities/" class="elementor-sub-item">Current Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61"><a href="/insights/" class="elementor-item">Insights<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7379"><a href="https://cavignac.com/about-us/community/" class="elementor-sub-item">Community Involvement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7376"><a href="https://cavignac.com/about-us/trade-associations/" class="elementor-sub-item">Trade Associations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="/contact/" class="elementor-item">Contact</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-e863d26" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59"><a href="/solutions/" class="elementor-item" tabindex="-1">Solutions<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3922"><a href="https://cavignac.com/solutions/commercial-insurance/" class="elementor-sub-item" tabindex="-1">Commercial Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3920"><a href="https://cavignac.com/solutions/employee-benefits/" class="elementor-sub-item" tabindex="-1">Employee Benefits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3919"><a href="https://cavignac.com/solutions/surety/" class="elementor-sub-item" tabindex="-1">Surety</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3929"><a href="https://cavignac.com/solutions/private-client-insurance/" class="elementor-sub-item" tabindex="-1">Private Client Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3918"><a href="https://cavignac.com/solutions/risk-control/" class="elementor-sub-item" tabindex="-1">Risk Control</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"><a href="/about-us/" class="elementor-item" tabindex="-1">About<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7378"><a href="https://cavignac.com/our-team/" class="elementor-sub-item" tabindex="-1">Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7388"><a href="https://cavignac.com/totalrisk-approach/" class="elementor-sub-item" tabindex="-1">TotalRISK Approach®</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8380"><a href="https://cavignac.com/about-us/awards-and-recognition/" class="elementor-sub-item" tabindex="-1">Awards &#038; Recognition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7377"><a href="https://cavignac.com/current-opportunities/" class="elementor-sub-item" tabindex="-1">Current Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61"><a href="/insights/" class="elementor-item" tabindex="-1">Insights<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7379"><a href="https://cavignac.com/about-us/community/" class="elementor-sub-item" tabindex="-1">Community Involvement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7376"><a href="https://cavignac.com/about-us/trade-associations/" class="elementor-sub-item" tabindex="-1">Trade Associations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-d7ef683 elementor-nav-menu--stretch ecs-toggle-align-right elementor-hidden-desktop elementor-hidden-tablet ecs-nav-layout-horizontal elementor-nav-menu--dropdown-tablet e--pointer-underline e--animation-fade elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="d7ef683" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-d7ef683" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-478"><a href="/solutions/" class="elementor-item">Solutions<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3937"><a href="https://cavignac.com/solutions/commercial-insurance/" class="elementor-sub-item">Commercial Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3940"><a href="https://cavignac.com/solutions/employee-benefits/" class="elementor-sub-item">Employee Benefits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939"><a href="https://cavignac.com/solutions/surety/" class="elementor-sub-item">Surety</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3942"><a href="https://cavignac.com/solutions/private-client-insurance/" class="elementor-sub-item">Private Client Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3941"><a href="https://cavignac.com/solutions/risk-control/" class="elementor-sub-item">Risk Control</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-479"><a href="/about-us/" class="elementor-item">About<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7385"><a href="https://cavignac.com/our-team/" class="elementor-sub-item">Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7386"><a href="https://cavignac.com/totalrisk-approach/" class="elementor-sub-item">TotalRISK Approach®</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8381"><a href="https://cavignac.com/about-us/awards-and-recognition/" class="elementor-sub-item">Awards &#038; Recognition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7384"><a href="https://cavignac.com/current-opportunities/" class="elementor-sub-item">Current Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480"><a href="/insights/" class="elementor-item">Insights<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7383"><a href="https://cavignac.com/about-us/community/" class="elementor-sub-item">Community Involvement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7387"><a href="https://cavignac.com/about-us/trade-associations/" class="elementor-sub-item">Trade Associations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-481"><a href="/contact/" class="elementor-item">Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-482"><a href="/client-access/" class="elementor-item">Client Access</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-d7ef683" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-478"><a href="/solutions/" class="elementor-item" tabindex="-1">Solutions<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3937"><a href="https://cavignac.com/solutions/commercial-insurance/" class="elementor-sub-item" tabindex="-1">Commercial Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3940"><a href="https://cavignac.com/solutions/employee-benefits/" class="elementor-sub-item" tabindex="-1">Employee Benefits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939"><a href="https://cavignac.com/solutions/surety/" class="elementor-sub-item" tabindex="-1">Surety</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3942"><a href="https://cavignac.com/solutions/private-client-insurance/" class="elementor-sub-item" tabindex="-1">Private Client Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3941"><a href="https://cavignac.com/solutions/risk-control/" class="elementor-sub-item" tabindex="-1">Risk Control</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-479"><a href="/about-us/" class="elementor-item" tabindex="-1">About<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7385"><a href="https://cavignac.com/our-team/" class="elementor-sub-item" tabindex="-1">Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7386"><a href="https://cavignac.com/totalrisk-approach/" class="elementor-sub-item" tabindex="-1">TotalRISK Approach®</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8381"><a href="https://cavignac.com/about-us/awards-and-recognition/" class="elementor-sub-item" tabindex="-1">Awards &#038; Recognition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7384"><a href="https://cavignac.com/current-opportunities/" class="elementor-sub-item" tabindex="-1">Current Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480"><a href="/insights/" class="elementor-item" tabindex="-1">Insights<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7383"><a href="https://cavignac.com/about-us/community/" class="elementor-sub-item" tabindex="-1">Community Involvement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7387"><a href="https://cavignac.com/about-us/trade-associations/" class="elementor-sub-item" tabindex="-1">Trade Associations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-481"><a href="/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-482"><a href="/client-access/" class="elementor-item" tabindex="-1">Client Access</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-521768d elementor-align-right l-logo elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="521768d" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/client-access/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Client Access</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-2d8fa605 e-transform e-ecs-flex e-flex e-con-boxed e-con e-parent" data-id="2d8fa605" data-element_type="container" data-e-type="container" id="sticky-header" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_effects_offset&quot;:25,&quot;ecs_container_type&quot;:&quot;flex&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0,&quot;_transform_translateX_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateX_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_translateY_effect_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
+					<div data-rocket-location-hash="db09287dc3941bcac9abe956715ef14a" class="e-con-inner">
+		<div class="elementor-element elementor-element-4f98d116 e-con-full e-ecs-flex e-flex e-con e-child" data-id="4f98d116" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-df2577a l-logo elementor-widget elementor-widget-image" data-id="df2577a" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="800" height="187" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20187'%3E%3C/svg%3E" class="attachment-large size-large wp-image-7574" alt="" data-lazy-src="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_2024_Wordmark_w_Trademark_White.svg" /><noscript><img width="800" height="187" src="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_2024_Wordmark_w_Trademark_White.svg" class="attachment-large size-large wp-image-7574" alt="" /></noscript>								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5ec55cd0 e-con-full e-ecs-flex e-flex e-con e-child" data-id="5ec55cd0" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-6f7c363 elementor-hidden-mobile ecs-nav-layout-horizontal elementor-nav-menu--dropdown-tablet e--pointer-underline e--animation-fade elementor-nav-menu--toggle elementor-nav-menu--burger ecs-toggle-align-center elementor-widget elementor-widget-nav-menu" data-id="6f7c363" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-6f7c363" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59"><a href="/solutions/" class="elementor-item">Solutions<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3922"><a href="https://cavignac.com/solutions/commercial-insurance/" class="elementor-sub-item">Commercial Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3920"><a href="https://cavignac.com/solutions/employee-benefits/" class="elementor-sub-item">Employee Benefits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3919"><a href="https://cavignac.com/solutions/surety/" class="elementor-sub-item">Surety</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3929"><a href="https://cavignac.com/solutions/private-client-insurance/" class="elementor-sub-item">Private Client Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3918"><a href="https://cavignac.com/solutions/risk-control/" class="elementor-sub-item">Risk Control</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"><a href="/about-us/" class="elementor-item">About<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7378"><a href="https://cavignac.com/our-team/" class="elementor-sub-item">Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7388"><a href="https://cavignac.com/totalrisk-approach/" class="elementor-sub-item">TotalRISK Approach®</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8380"><a href="https://cavignac.com/about-us/awards-and-recognition/" class="elementor-sub-item">Awards &#038; Recognition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7377"><a href="https://cavignac.com/current-opportunities/" class="elementor-sub-item">Current Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61"><a href="/insights/" class="elementor-item">Insights<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7379"><a href="https://cavignac.com/about-us/community/" class="elementor-sub-item">Community Involvement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7376"><a href="https://cavignac.com/about-us/trade-associations/" class="elementor-sub-item">Trade Associations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="/contact/" class="elementor-item">Contact</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-6f7c363" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59"><a href="/solutions/" class="elementor-item" tabindex="-1">Solutions<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3922"><a href="https://cavignac.com/solutions/commercial-insurance/" class="elementor-sub-item" tabindex="-1">Commercial Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3920"><a href="https://cavignac.com/solutions/employee-benefits/" class="elementor-sub-item" tabindex="-1">Employee Benefits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3919"><a href="https://cavignac.com/solutions/surety/" class="elementor-sub-item" tabindex="-1">Surety</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3929"><a href="https://cavignac.com/solutions/private-client-insurance/" class="elementor-sub-item" tabindex="-1">Private Client Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3918"><a href="https://cavignac.com/solutions/risk-control/" class="elementor-sub-item" tabindex="-1">Risk Control</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60"><a href="/about-us/" class="elementor-item" tabindex="-1">About<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7378"><a href="https://cavignac.com/our-team/" class="elementor-sub-item" tabindex="-1">Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7388"><a href="https://cavignac.com/totalrisk-approach/" class="elementor-sub-item" tabindex="-1">TotalRISK Approach®</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8380"><a href="https://cavignac.com/about-us/awards-and-recognition/" class="elementor-sub-item" tabindex="-1">Awards &#038; Recognition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7377"><a href="https://cavignac.com/current-opportunities/" class="elementor-sub-item" tabindex="-1">Current Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61"><a href="/insights/" class="elementor-item" tabindex="-1">Insights<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7379"><a href="https://cavignac.com/about-us/community/" class="elementor-sub-item" tabindex="-1">Community Involvement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7376"><a href="https://cavignac.com/about-us/trade-associations/" class="elementor-sub-item" tabindex="-1">Trade Associations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-65b9e677 elementor-nav-menu--stretch ecs-toggle-align-right elementor-hidden-desktop elementor-hidden-tablet ecs-nav-layout-horizontal elementor-nav-menu--dropdown-tablet e--pointer-underline e--animation-fade elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="65b9e677" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-65b9e677" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-478"><a href="/solutions/" class="elementor-item">Solutions<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3937"><a href="https://cavignac.com/solutions/commercial-insurance/" class="elementor-sub-item">Commercial Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3940"><a href="https://cavignac.com/solutions/employee-benefits/" class="elementor-sub-item">Employee Benefits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939"><a href="https://cavignac.com/solutions/surety/" class="elementor-sub-item">Surety</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3942"><a href="https://cavignac.com/solutions/private-client-insurance/" class="elementor-sub-item">Private Client Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3941"><a href="https://cavignac.com/solutions/risk-control/" class="elementor-sub-item">Risk Control</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-479"><a href="/about-us/" class="elementor-item">About<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7385"><a href="https://cavignac.com/our-team/" class="elementor-sub-item">Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7386"><a href="https://cavignac.com/totalrisk-approach/" class="elementor-sub-item">TotalRISK Approach®</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8381"><a href="https://cavignac.com/about-us/awards-and-recognition/" class="elementor-sub-item">Awards &#038; Recognition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7384"><a href="https://cavignac.com/current-opportunities/" class="elementor-sub-item">Current Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480"><a href="/insights/" class="elementor-item">Insights<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7383"><a href="https://cavignac.com/about-us/community/" class="elementor-sub-item">Community Involvement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7387"><a href="https://cavignac.com/about-us/trade-associations/" class="elementor-sub-item">Trade Associations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-481"><a href="/contact/" class="elementor-item">Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-482"><a href="/client-access/" class="elementor-item">Client Access</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-65b9e677" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-478"><a href="/solutions/" class="elementor-item" tabindex="-1">Solutions<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3937"><a href="https://cavignac.com/solutions/commercial-insurance/" class="elementor-sub-item" tabindex="-1">Commercial Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3940"><a href="https://cavignac.com/solutions/employee-benefits/" class="elementor-sub-item" tabindex="-1">Employee Benefits</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3939"><a href="https://cavignac.com/solutions/surety/" class="elementor-sub-item" tabindex="-1">Surety</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3942"><a href="https://cavignac.com/solutions/private-client-insurance/" class="elementor-sub-item" tabindex="-1">Private Client Insurance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3941"><a href="https://cavignac.com/solutions/risk-control/" class="elementor-sub-item" tabindex="-1">Risk Control</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-479"><a href="/about-us/" class="elementor-item" tabindex="-1">About<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7385"><a href="https://cavignac.com/our-team/" class="elementor-sub-item" tabindex="-1">Our Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7386"><a href="https://cavignac.com/totalrisk-approach/" class="elementor-sub-item" tabindex="-1">TotalRISK Approach®</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8381"><a href="https://cavignac.com/about-us/awards-and-recognition/" class="elementor-sub-item" tabindex="-1">Awards &#038; Recognition</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7384"><a href="https://cavignac.com/current-opportunities/" class="elementor-sub-item" tabindex="-1">Current Opportunities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-480"><a href="/insights/" class="elementor-item" tabindex="-1">Insights<span class="sub-arrow"><i class="fas fa-caret-down" aria-hidden="true"></i></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7383"><a href="https://cavignac.com/about-us/community/" class="elementor-sub-item" tabindex="-1">Community Involvement</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7387"><a href="https://cavignac.com/about-us/trade-associations/" class="elementor-sub-item" tabindex="-1">Trade Associations</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-481"><a href="/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-482"><a href="/client-access/" class="elementor-item" tabindex="-1">Client Access</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-779ec5a elementor-align-right l-logo elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="779ec5a" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/client-access/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Client Access</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</header>
+				<div data-rocket-location-hash="d16fc7a15669bf7474b9ebaea0ed5987" data-elementor-type="single-post" data-elementor-id="1974" class="elementor elementor-1974 elementor-location-single post-1726 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-articles category-posts" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-1af24856 e-ecs-flex e-flex e-con-boxed e-con e-parent" data-id="1af24856" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div data-rocket-location-hash="3f2ebbf863d4612ef775d00659a69d20" class="e-con-inner">
+				<div class="elementor-element elementor-element-eed13de elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="eed13de" data-element_type="widget" data-e-type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">Risk Factors for Harassment in the Workplace</h1>				</div>
+				</div>
+		<div class="elementor-element elementor-element-7c39a88 e-ecs-flex e-flex e-con-boxed e-con e-child" data-id="7c39a88" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div data-rocket-location-hash="547ec2470d2bda10abb0f19dcabad963" class="e-con-inner">
+		<div class="elementor-element elementor-element-a02aedd e-ecs-flex e-flex e-con-boxed e-con e-child" data-id="a02aedd" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-cf4d243 elementor-widget elementor-widget-post-info" data-id="cf4d243" data-element_type="widget" data-e-type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-9242392 elementor-inline-item" itemprop="author">
+						<a href="https://cavignac.com/author/diana-dix/">
+											<span class="elementor-icon-list-icon">
+								<img width="900" height="900" class="elementor-avatar" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20900%20900'%3E%3C/svg%3E" alt="Picture of Diana Dix" data-lazy-src="https://cavignac.com/wp-content/uploads/2023/05/Cavignac_Diana_Dix.webp"><noscript><img width="900" height="900" class="elementor-avatar" src="https://cavignac.com/wp-content/uploads/2023/05/Cavignac_Diana_Dix.webp" alt="Picture of Diana Dix" loading="lazy"></noscript>
+							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-author">
+										Diana Dix					</span>
+									</a>
+				</li>
+				<li class="elementor-icon-list-item elementor-repeater-item-43583a5 elementor-inline-item" itemprop="datePublished">
+													<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>December 22, 2020</time>					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-2393990c elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="2393990c" data-element_type="widget" data-e-type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+															<img width="1920" height="1280" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201280'%3E%3C/svg%3E" class="attachment-full size-full wp-image-1883" alt="" data-lazy-srcset="https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1.jpg 1920w, https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1-300x200.jpg 300w, https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1-1024x683.jpg 1024w, https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1-768x512.jpg 768w, https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1-1536x1024.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-lazy-src="https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1.jpg" /><noscript><img width="1920" height="1280" src="https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1.jpg" class="attachment-full size-full wp-image-1883" alt="" srcset="https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1.jpg 1920w, https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1-300x200.jpg 300w, https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1-1024x683.jpg 1024w, https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1-768x512.jpg 768w, https://cavignac.com/wp-content/uploads/2023/04/shutterstock_1022807230-scaled-1-1536x1024.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-17fb0443 elementor-widget elementor-widget-theme-post-content" data-id="17fb0443" data-element_type="widget" data-e-type="widget" data-widget_type="theme-post-content.default">
+				<div class="elementor-widget-container">
+					<p>Prevention is the key to minimizing harassment in the workplace. There are fundamental measures employers should take to prevent workplace harassment, such as having a written policy against it and communicating the policy to all workers. As of January 1, 2021, employers with five (5) or more employees must train employees and managers on prevention strategies and their policy. Employers should also publicly post the California Department of Fair Employment and Housing’s (FEHA) poster on sexual harassment, and distribute the brochure on sexual harassment to all new hires.</p>
+<p>It is extremely important to note the number of charges that continue to be filed with the Equal Employment Opportunity Commission (EEOC) year after year. In 2019, employers paid out a record $68.2 million to those alleging sexual harassment violations through the EEOC. This amount shattered the previous record by over $10 million, and reminded us all that the #MeToo movement continues to be a significant influence in workplaces across the country.</p>
+<p>The EEOC has developed a chart of risk factors for harassment, and strategies for responding to those risks, such as:</p>
+<ul>
+<li>Homogenous workforce</li>
+<li>Workplaces where some employees do not conform to workplace norms</li>
+<li>Cultural and language differences in the workplace</li>
+<li>Coarsened social discourse outside the workplace</li>
+<li>Young workforce</li>
+<li>Workplaces with “high value” employees</li>
+<li>Workplaces with significant power disparities</li>
+<li>Workplaces that rely on customer service or client satisfaction</li>
+<li>Workplaces where work is monotonous or tasks are low intensity</li>
+<li>Isolated workplaces</li>
+<li>Workplaces that tolerate or encourage alcohol consumption</li>
+<li>Decentralized workplaces</li>
+</ul>
+<p>Click <a href="https://www.eeoc.gov/chart-risk-factors-harassment-and-responsive-strategies" target="_blank" rel="noopener noreferrer">here</a> to learn why the above may be risk factors for harassment, and specific strategies for reducing harassment in your workplace.</p>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3613daad elementor-widget elementor-widget-post-navigation" data-id="3613daad" data-element_type="widget" data-e-type="widget" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-post-navigation" role="navigation" aria-label="Post Navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="https://cavignac.com/blog/your-main-location-suffers-significant-property-damage/" rel="prev"><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span></span></a>			</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="https://cavignac.com/blog/new-stimulus-bill-clarifies-ppp-tax-deductions-and-provides-a-second-round-of-lending-for-small-businesses/" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span></span></a>			</div>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6d89284 e-ecs-flex e-flex e-con-boxed e-con e-parent" data-id="6d89284" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-16f345c elementor-widget__width-initial elementor-invisible elementor-widget elementor-widget-heading" data-id="16f345c" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Related Articles</h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c301194 elementor-grid-1 elementor-posts--thumbnail-top elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="c301194" data-element_type="widget" data-e-type="widget" data-settings="{&quot;custom_columns&quot;:&quot;1&quot;,&quot;custom_columns_tablet&quot;:&quot;2&quot;,&quot;custom_columns_mobile&quot;:&quot;1&quot;,&quot;custom_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;custom_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;custom_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.custom">
+				<div class="elementor-widget-container">
+					      <div class="ecs-posts elementor-posts-container elementor-posts   elementor-grid elementor-posts--skin-custom" data-settings="{&quot;current_page&quot;:1,&quot;max_num_pages&quot;:&quot;5&quot;,&quot;load_method&quot;:&quot;&quot;,&quot;widget_id&quot;:&quot;c301194&quot;,&quot;post_id&quot;:1726,&quot;theme_id&quot;:1974,&quot;change_url&quot;:false,&quot;reinit_js&quot;:false}">
+      		<article id="post-10287" class="elementor-post elementor-grid-item ecs-post-loop post-10287 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-news">
+		<style id="elementor-post-dynamic-1154">.elementor-1154 .elementor-element.elementor-element-2c4b579:not(.elementor-motion-effects-element-type-background), .elementor-1154 .elementor-element.elementor-element-2c4b579 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("https://cavignac.com/wp-content/uploads/2026/08/Email-PhotoBlog.png");}</style>		<div data-elementor-type="loop" data-elementor-id="1154" class="elementor elementor-1154 elementor-location-single post-10287 post type-post status-publish format-standard has-post-thumbnail hentry category-all category-news" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-f10b9f7 image elementor-hidden-mobile e-ecs-flex e-flex e-con-boxed e-con e-parent" data-id="f10b9f7" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-37d1e44 e-ecs-flex e-flex e-con-boxed e-con e-child" data-id="37d1e44" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+		<style>#post-10287 .elementor-1154 .elementor-element.elementor-element-2c4b579:not(.elementor-motion-effects-element-type-background), #post-10287 .elementor-1154 .elementor-element.elementor-element-2c4b579 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image: url("https://cavignac.com/wp-content/uploads/2026/08/Email-PhotoBlog.png");}</style><a class="elementor-element elementor-element-2c4b579 e-con-full e-ecs-flex e-flex e-con e-child" data-id="2c4b579" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ecs_container_type&quot;:&quot;flex&quot;}" href="https://cavignac.com/blog/cavignac-named-1-best-place-to-work-by-san-diego-business-journal/">
+				<div class="elementor-element elementor-element-189f0ed elementor-widget-mobile__width-inherit elementor-widget elementor-widget-spacer" data-id="189f0ed" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				</a>
+		<div class="elementor-element elementor-element-7342ebb e-ecs-flex e-flex e-con-boxed e-con e-child" data-id="7342ebb" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d045989 elementor-widget elementor-widget-post-info" data-id="d045989" data-element_type="widget" data-e-type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-2173ae3 elementor-inline-item" itemprop="datePublished">
+													<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>August 25, 2026</time>					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-65ff278 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="65ff278" data-element_type="widget" data-e-type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default"><a href="https://cavignac.com/blog/cavignac-named-1-best-place-to-work-by-san-diego-business-journal/">Cavignac Named #1 Best Place to Work by San Diego Business Journal</a></h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-358702c elementor-align-left elementor-widget elementor-widget-post-info" data-id="358702c" data-element_type="widget" data-e-type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-35c2655 elementor-inline-item" itemprop="author">
+						<a href="https://cavignac.com/author/cavignac-author/">
+											<span class="elementor-icon-list-icon">
+								<img width="260" height="260" class="elementor-avatar" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20260%20260'%3E%3C/svg%3E" alt="Picture of Cavignac" data-lazy-src="https://cavignac.com/wp-content/uploads/2022/08/favicon.webp"><noscript><img width="260" height="260" class="elementor-avatar" src="https://cavignac.com/wp-content/uploads/2022/08/favicon.webp" alt="Picture of Cavignac" loading="lazy"></noscript>
+							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-author">
+							<span class="elementor-post-info__item-prefix">By</span>
+										Cavignac					</span>
+									</a>
+				</li>
+				</ul>
+						</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				<article id="post-10283" class="elementor-post elementor-grid-item ecs-post-loop post-10283 post type-post status-publish format-standard has-post-thumbnail hentry category-design-professionals">
+				<div data-elementor-type="loop" data-elementor-id="1154" class="elementor elementor-1154 elementor-location-single post-10283 post type-post status-publish format-standard has-post-thumbnail hentry category-design-professionals" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-f10b9f7 image elementor-hidden-mobile e-ecs-flex e-flex e-con-boxed e-con e-parent" data-id="f10b9f7" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-37d1e44 e-ecs-flex e-flex e-con-boxed e-con e-child" data-id="37d1e44" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+		<style>#post-10283 .elementor-1154 .elementor-element.elementor-element-2c4b579:not(.elementor-motion-effects-element-type-background), #post-10283 .elementor-1154 .elementor-element.elementor-element-2c4b579 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image: url("https://cavignac.com/wp-content/uploads/2026/08/AdobeStock_1929243011.jpeg");}</style><a class="elementor-element elementor-element-2c4b579 e-con-full e-ecs-flex e-flex e-con e-child" data-id="2c4b579" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ecs_container_type&quot;:&quot;flex&quot;}" href="https://cavignac.com/blog/regulatory-round-up/">
+				<div class="elementor-element elementor-element-189f0ed elementor-widget-mobile__width-inherit elementor-widget elementor-widget-spacer" data-id="189f0ed" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				</a>
+		<div class="elementor-element elementor-element-7342ebb e-ecs-flex e-flex e-con-boxed e-con e-child" data-id="7342ebb" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d045989 elementor-widget elementor-widget-post-info" data-id="d045989" data-element_type="widget" data-e-type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-2173ae3 elementor-inline-item" itemprop="datePublished">
+													<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-date">
+										<time>August 11, 2026</time>					</span>
+								</li>
+				</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-65ff278 elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="65ff278" data-element_type="widget" data-e-type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default"><a href="https://cavignac.com/blog/regulatory-round-up/">Design Firm Regulatory Round-Up</a></h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-358702c elementor-align-left elementor-widget elementor-widget-post-info" data-id="358702c" data-element_type="widget" data-e-type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-35c2655 elementor-inline-item" itemprop="author">
+						<a href="https://cavignac.com/author/cavignac-author/">
+											<span class="elementor-icon-list-icon">
+								<img width="260" height="260" class="elementor-avatar" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20260%20260'%3E%3C/svg%3E" alt="Picture of Cavignac" data-lazy-src="https://cavignac.com/wp-content/uploads/2022/08/favicon.webp"><noscript><img width="260" height="260" class="elementor-avatar" src="https://cavignac.com/wp-content/uploads/2022/08/favicon.webp" alt="Picture of Cavignac" loading="lazy"></noscript>
+							</span>
+									<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-author">
+							<span class="elementor-post-info__item-prefix">By</span>
+										Cavignac					</span>
+									</a>
+				</li>
+				</ul>
+						</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</article>
+				</div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<footer data-elementor-type="footer" data-elementor-id="185" class="elementor elementor-185 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-2be0789d e-con-full elementor-hidden-tablet elementor-hidden-mobile e-ecs-flex e-flex e-con e-parent" data-id="2be0789d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+		<div class="elementor-element elementor-element-52612494 e-con-full e-ecs-flex e-flex e-con e-child" data-id="52612494" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-cde586a elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="cde586a" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="800" height="187" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20187'%3E%3C/svg%3E" class="attachment-large size-large wp-image-7573" alt="" data-lazy-src="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_2024_Wordmark_w_Trademark_Blue.svg" /><noscript><img width="800" height="187" src="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_2024_Wordmark_w_Trademark_Blue.svg" class="attachment-large size-large wp-image-7573" alt="" /></noscript>								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-dacd132 elementor-widget elementor-widget-accordion" data-id="dacd132" data-element_type="widget" data-e-type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-accordion">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-2291" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-2291" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">San Diego - HQ</a>
+					</div>
+					<div id="elementor-tab-content-2291" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-2291"><p>451 A Street, 18th Floor<br />San Diego, CA 92101<br /><a href="tel:6192346848">(619) 234-6848</a></p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-2292" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-2292" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">North County San Diego</a>
+					</div>
+					<div id="elementor-tab-content-2292" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2292"><p>5857 Owens Avenue, Suite 300<br />Carlsbad, CA 92008</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-2293" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-2293" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Orange County</a>
+					</div>
+					<div id="elementor-tab-content-2293" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-2293"><p>133 Avenida Granada<br />San Clemente, CA 92672</p></div>
+				</div>
+								</div>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-ebfbf0f e-ecs-flex e-flex e-con-boxed e-con e-child" data-id="ebfbf0f" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-0da26dd e-con-full e-ecs-flex e-flex e-con e-child" data-id="0da26dd" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-f906834 e-grid-align-left elementor-widget__width-initial elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="f906834" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-38f4519" href="https://www.linkedin.com/company/cavignac-insurance/?viewAsMember=true" target="_blank">
+						<span class="elementor-screen-only"></span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="13" viewBox="0 0 15 13" width="15"><path d="m14.08 12.8h-3.111872v-4.499712c0-1.17779328-.4867734-1.98184-1.55717792-1.98184-.8187392 0-1.2740544.54258816-1.48598304 1.06550528-.07947328.18769312-.06705536.44915168-.06705536.71061024v4.70543648h-3.0828976s.03973664-7.97080096 0-8.69534496h3.0828976v1.36466688c.18212608-.5966832 1.1672624-1.44826784 2.73934142-1.44826784 1.9504045 0 3.4827469 1.25073952 3.4827469 3.9440096zm-12.4226528-9.78298016h-.01986848c-.99341472 0-1.63747872-.66471136-1.63747872-1.50728032 0-.8589616.66310432-1.50973952 1.67638752-1.50973952 1.01245536 0 1.6349952.64913888 1.65486368 1.50728064 0 .84256896-.64240832 1.5097392-1.673904 1.5097392zm-1.30220128 1.0876352h2.74430848v8.69534496h-2.74430848z" fill="#345f82"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-e60d1dc elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="e60d1dc" data-element_type="widget" data-e-type="widget" data-settings="{&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+							<form class="elementor-form" method="post" name="New Form" aria-label="New Form">
+			<input type="hidden" name="post_id" value="185"/>
+			<input type="hidden" name="form_id" value="e60d1dc"/>
+			<input type="hidden" name="referer_title" value="San Diego &amp; Orange County Insurance Agency | Cavignac" />
+
+							<input type="hidden" name="queried_id" value="6"/>
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-above">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-footernewsletter elementor-col-100">
+												<label for="form-field-footernewsletter" class="elementor-field-label">
+								Sign-up for our newsletter.							</label>
+														<input size="1" type="text" name="form_fields[footernewsletter]" id="form-field-footernewsletter" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="example@email.com">
+											</div>
+								<div class="elementor-field-type-recaptcha_v3 elementor-field-group elementor-column elementor-field-group-field_b679c86 elementor-col-100 recaptcha_v3-bottomright">
+					<div class="elementor-field" id="form-field-field_b679c86"><div class="elementor-g-recaptcha" data-sitekey="6LfGjkkqAAAAAGv8vpTtLA4HWsyyQdICXhOLYIGg" data-type="v3" data-action="Form" data-badge="bottomright" data-size="invisible"></div></div>				</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button class="elementor-button elementor-size-xs" type="submit">
+						<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">Sign Up</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-358e502e e-con-full e-ecs-flex e-flex e-con e-child" data-id="358e502e" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-720870be elementor-widget elementor-widget-heading" data-id="720870be" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">SOLUTIONS</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-78435ab1 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="78435ab1" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/solutions/commercial-insurance/">
+
+											<span class="elementor-icon-list-text">Commercial Insurance</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions/employee-benefits/">
+
+											<span class="elementor-icon-list-text">Employee Benefits</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions/surety/">
+
+											<span class="elementor-icon-list-text">Surety</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions/private-client-insurance/">
+
+											<span class="elementor-icon-list-text">Private Client Insurance</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions/risk-control/">
+
+											<span class="elementor-icon-list-text">Risk Control</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-78b9e85 e-con-full e-ecs-flex e-flex e-con e-child" data-id="78b9e85" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-f282470 elementor-widget elementor-widget-heading" data-id="f282470" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">INDUSTRIES</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f0c116f elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f0c116f" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/industries/design-professionals/">
+
+											<span class="elementor-icon-list-text">Design Professionals</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Construction</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Real Estate</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Real Estate Development</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Hospitality</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Manufacturing</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5b680c1 e-con-full e-ecs-flex e-flex e-con e-child" data-id="5b680c1" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-cf4173a elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="cf4173a" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Non-Profits</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Marine</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Government / Defense Contractors</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Professional Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Schools</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Technology</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f74b2b7 e-con-full e-ecs-flex e-flex e-con e-child" data-id="f74b2b7" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-5361564 elementor-widget elementor-widget-heading" data-id="5361564" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">QUICK LINKS</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-90f2326 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="90f2326" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/solutions/">
+
+											<span class="elementor-icon-list-text">Solutions</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/about-us/">
+
+											<span class="elementor-icon-list-text">About</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/insights/">
+
+											<span class="elementor-icon-list-text">Insights</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/contact/">
+
+											<span class="elementor-icon-list-text">Contact</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/client-access/">
+
+											<span class="elementor-icon-list-text">Client Access</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-d6d4d1d e-con-full elementor-hidden-desktop e-ecs-flex e-flex e-con e-parent" data-id="d6d4d1d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+		<div class="elementor-element elementor-element-561c455 e-con-full e-ecs-flex e-flex e-con e-child" data-id="561c455" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-7022578 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-image" data-id="7022578" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="880" height="206" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20880%20206'%3E%3C/svg%3E" class="attachment-full size-full wp-image-7573" alt="" data-lazy-src="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_2024_Wordmark_w_Trademark_Blue.svg" /><noscript><img width="880" height="206" src="https://cavignac.com/wp-content/uploads/2022/08/Cavignac_2024_Wordmark_w_Trademark_Blue.svg" class="attachment-full size-full wp-image-7573" alt="" /></noscript>								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-4921c19 elementor-widget elementor-widget-accordion" data-id="4921c19" data-element_type="widget" data-e-type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-accordion">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-7661" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-7661" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">San Diego - HQ</a>
+					</div>
+					<div id="elementor-tab-content-7661" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-7661">451 A Street, 18th Floor<br />
+San Diego, CA. 92101<br />
+<a href="tel:6192346848">(619) 234-6848</a></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-7662" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-7662" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">North County San Diego</a>
+					</div>
+					<div id="elementor-tab-content-7662" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-7662">5857 Owens Avenue, Suite 300<br />
+Carlsbad, CA. 92008</div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-7663" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-7663" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Orange County</a>
+					</div>
+					<div id="elementor-tab-content-7663" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-7663"><p>105 Avenida De La Estrella, Ste 2<br />San Clemente, CA 92672</p></div>
+				</div>
+								</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-1f7d215 e-grid-align-left elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="1f7d215" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon- elementor-repeater-item-38f4519" href="https://www.linkedin.com/company/cavignac-insurance/?viewAsMember=true" target="_blank">
+						<span class="elementor-screen-only"></span>
+						<svg xmlns="http://www.w3.org/2000/svg" height="13" viewBox="0 0 15 13" width="15"><path d="m14.08 12.8h-3.111872v-4.499712c0-1.17779328-.4867734-1.98184-1.55717792-1.98184-.8187392 0-1.2740544.54258816-1.48598304 1.06550528-.07947328.18769312-.06705536.44915168-.06705536.71061024v4.70543648h-3.0828976s.03973664-7.97080096 0-8.69534496h3.0828976v1.36466688c.18212608-.5966832 1.1672624-1.44826784 2.73934142-1.44826784 1.9504045 0 3.4827469 1.25073952 3.4827469 3.9440096zm-12.4226528-9.78298016h-.01986848c-.99341472 0-1.63747872-.66471136-1.63747872-1.50728032 0-.8589616.66310432-1.50973952 1.67638752-1.50973952 1.01245536 0 1.6349952.64913888 1.65486368 1.50728064 0 .84256896-.64240832 1.5097392-1.673904 1.5097392zm-1.30220128 1.0876352h2.74430848v8.69534496h-2.74430848z" fill="#345f82"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5bce440 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="5bce440" data-element_type="widget" data-e-type="widget" data-settings="{&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+							<form class="elementor-form" method="post" name="New Form" aria-label="New Form">
+			<input type="hidden" name="post_id" value="185"/>
+			<input type="hidden" name="form_id" value="5bce440"/>
+			<input type="hidden" name="referer_title" value="San Diego &amp; Orange County Insurance Agency | Cavignac" />
+
+							<input type="hidden" name="queried_id" value="6"/>
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-above">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-footernewsletter elementor-col-100">
+												<label for="form-field-footernewsletter" class="elementor-field-label">
+								Sign-up for our newsletter.							</label>
+														<input size="1" type="text" name="form_fields[footernewsletter]" id="form-field-footernewsletter" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="example@email.com">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button class="elementor-button elementor-size-xs" type="submit">
+						<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">Sign Up</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-17005d1 e-con-full e-ecs-flex e-flex e-con e-child" data-id="17005d1" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-953710a elementor-widget elementor-widget-heading" data-id="953710a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">SOLUTIONS</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f343bb0 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="f343bb0" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="#commercial-insurance/">
+
+											<span class="elementor-icon-list-text">Commercial Insurance</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#employee-benefits/">
+
+											<span class="elementor-icon-list-text">Employee Benefits</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#surety/">
+
+											<span class="elementor-icon-list-text">Surety</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#private-client/">
+
+											<span class="elementor-icon-list-text">Private Client</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#risk-control/">
+
+											<span class="elementor-icon-list-text">Risk Control</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-753af63 e-con-full e-ecs-flex e-flex e-con e-child" data-id="753af63" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-10f0de3 elementor-widget elementor-widget-heading" data-id="10f0de3" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">INDUSTRIES</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c647101 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="c647101" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Design Professionals</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Construction</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Real Estate</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Real Estate Development</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Hospitality</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Manufacturing</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-fd6dc5d e-con-full e-ecs-flex e-flex e-con e-child" data-id="fd6dc5d" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-b725cd8 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b725cd8" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Non-Profits</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Marine</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Government / Defense Contractors</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Professional Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Schools</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/solutions#trusted">
+
+											<span class="elementor-icon-list-text">Technology</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-e9d6665 e-con-full e-ecs-flex e-flex e-con e-child" data-id="e9d6665" data-element_type="container" data-e-type="container" data-settings="{&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+				<div class="elementor-element elementor-element-d834adc elementor-widget elementor-widget-heading" data-id="d834adc" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">QUICK LINKS</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2be85c3 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2be85c3" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="/solutions/">
+
+											<span class="elementor-icon-list-text">Solutions</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/about/">
+
+											<span class="elementor-icon-list-text">About</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/insights/">
+
+											<span class="elementor-icon-list-text">Insights</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/contact/">
+
+											<span class="elementor-icon-list-text">Contact</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="/client-access/">
+
+											<span class="elementor-icon-list-text">Client Access</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6d5fc48a e-ecs-flex e-flex e-con-boxed e-con e-parent" data-id="6d5fc48a" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ecs_container_type&quot;:&quot;flex&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c8fd08a elementor-widget elementor-widget-text-editor" data-id="c8fd08a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									© 2026 Cavignac. All Rights Reserved. |&nbsp;<a style="color: white !important" href="/privacy-policy/">Privacy Policy</a>&nbsp;|&nbsp;<a style="color: white !important" href="/contact/">Contact Us</a>&nbsp;|&nbsp;<a style="color: white !important" href="/ada-accessibility/">ADA Accessibility</a>								</div>
+				</div>
+					</div>
+				</div>
+				</footer>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/rocketlazyloadscript">
+              (function(e){
+                  var el = document.createElement('script');
+                  el.setAttribute('data-account', '0GEI88mW1f');
+                  el.setAttribute('src', 'https://cdn.userway.org/widget.js');
+                  document.body.appendChild(el);
+                })();
+              </script>
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div id="cmplz-cookiebanner-1-optout" class="cmplz-cookiebanner cmplz-hidden banner-1 banner-a optout cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optout" aria-describedby="cmplz-message-1-optout">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optout">Manage Consent</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Close dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optout">To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<div class="cmplz-category cmplz-functional">
+				<div class="cmplz-category-header">
+					<span class="cmplz-category-title" id="cmplz-title-functional-1-optout">Functional</span>
+					<span class='cmplz-always-active'>
+						<span class="cmplz-banner-checkbox">
+							<input type="checkbox"
+									id="cmplz-functional-optout"
+									data-category="cmplz_functional"
+									class="cmplz-consent-checkbox cmplz-functional"
+									size="40"
+									value="1"/>
+							<label class="cmplz-label" for="cmplz-functional-optout"><span class="screen-reader-text">Functional</span></label>
+						</span>
+						Always active					</span>
+					<button class="cmplz-category-toggle"
+							aria-expanded="false"
+							aria-controls="cmplz-desc-functional-1-optout"
+							aria-labelledby="cmplz-title-functional-1-optout">
+						<span class="cmplz-icon cmplz-open">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+						</span>
+					</button>
+				</div>
+				<div class="cmplz-description" id="cmplz-desc-functional-1-optout" hidden>
+					<span class="cmplz-description-functional">The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.</span>
+				</div>
+			</div>
+
+			<div class="cmplz-category cmplz-preferences">
+				<div class="cmplz-category-header">
+					<span class="cmplz-category-title" id="cmplz-title-preferences-1-optout">Preferences</span>
+					<span class="cmplz-banner-checkbox">
+						<input type="checkbox"
+								id="cmplz-preferences-optout"
+								data-category="cmplz_preferences"
+								class="cmplz-consent-checkbox cmplz-preferences"
+								size="40"
+								value="1"/>
+						<label class="cmplz-label" for="cmplz-preferences-optout"><span class="screen-reader-text">Preferences</span></label>
+					</span>
+					<button class="cmplz-category-toggle"
+							aria-expanded="false"
+							aria-controls="cmplz-desc-preferences-1-optout"
+							aria-labelledby="cmplz-title-preferences-1-optout">
+						<span class="cmplz-icon cmplz-open">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+						</span>
+					</button>
+				</div>
+				<div class="cmplz-description" id="cmplz-desc-preferences-1-optout" hidden>
+					<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
+				</div>
+			</div>
+
+			<div class="cmplz-category cmplz-statistics">
+				<div class="cmplz-category-header">
+					<span class="cmplz-category-title" id="cmplz-title-statistics-1-optout">Statistics</span>
+					<span class="cmplz-banner-checkbox">
+						<input type="checkbox"
+								id="cmplz-statistics-optout"
+								data-category="cmplz_statistics"
+								class="cmplz-consent-checkbox cmplz-statistics"
+								size="40"
+								value="1"/>
+						<label class="cmplz-label" for="cmplz-statistics-optout"><span class="screen-reader-text">Statistics</span></label>
+					</span>
+					<button class="cmplz-category-toggle"
+							aria-expanded="false"
+							aria-controls="cmplz-desc-statistics-1-optout"
+							aria-labelledby="cmplz-title-statistics-1-optout">
+						<span class="cmplz-icon cmplz-open">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+						</span>
+					</button>
+				</div>
+				<div class="cmplz-description" id="cmplz-desc-statistics-1-optout" hidden>
+					<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
+					<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.</span>
+				</div>
+			</div>
+
+			<div class="cmplz-category cmplz-marketing">
+				<div class="cmplz-category-header">
+					<span class="cmplz-category-title" id="cmplz-title-marketing-1-optout">Marketing</span>
+					<span class="cmplz-banner-checkbox">
+						<input type="checkbox"
+								id="cmplz-marketing-optout"
+								data-category="cmplz_marketing"
+								class="cmplz-consent-checkbox cmplz-marketing"
+								size="40"
+								value="1"/>
+						<label class="cmplz-label" for="cmplz-marketing-optout"><span class="screen-reader-text">Marketing</span></label>
+					</span>
+					<button class="cmplz-category-toggle"
+							aria-expanded="false"
+							aria-controls="cmplz-desc-marketing-1-optout"
+							aria-labelledby="cmplz-title-marketing-1-optout">
+						<span class="cmplz-icon cmplz-open">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+						</span>
+					</button>
+				</div>
+				<div class="cmplz-description" id="cmplz-desc-marketing-1-optout" hidden>
+					<span class="cmplz-description-marketing">The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</span>
+				</div>
+			</div>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<ul>
+			<li><a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Manage options</a></li>
+			<li><a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Manage services</a></li>
+			<li><a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Manage {vendor_count} vendors</a></li>
+			<li><a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/" aria-label="Read more about TCF purposes on Cookie Database">Read more about these purposes</a></li>
+		</ul>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accept</button>
+		<button class="cmplz-btn cmplz-deny">Deny</button>
+		<button class="cmplz-btn cmplz-view-preferences">View preferences</button>
+		<button class="cmplz-btn cmplz-save-preferences">Save preferences</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">View preferences</a>
+			</div>
+
+
+	<div class="cmplz-documents cmplz-links">
+		<ul>
+			<li><a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a></li>
+		</ul>
+			</div>
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1" aria-haspopup="dialog" aria-controls="cmplz-cookiebanner-1-optout">Manage consent</button>
+
+</div>			<script type="text/rocketlazyloadscript">
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<link rel='stylesheet' id='widget-spacer-css' href='https://cavignac.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4' media='all' />
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/contact/|/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://cavignac.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="hello-theme-frontend-js" data-rocket-src="https://cavignac.com/wp-content/cache/min/1/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=1789151031" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="ecs-color-switcher-js" data-rocket-src="https://cavignac.com/wp-content/plugins/ele-custom-skin/modules/color-scheme/assets/js/ecs-color-switcher.min.js?ver=4.3.11" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="swiper-js" data-rocket-src="https://cavignac.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="elementor-webpack-runtime-js" data-rocket-src="https://cavignac.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.2.4" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="elementor-frontend-modules-js" data-rocket-src="https://cavignac.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.2.4" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="jquery-ui-core-js-before">window.addEventListener('DOMContentLoaded', function() {
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+});</script>
+<script type="text/rocketlazyloadscript" id="jquery-ui-core-js" data-rocket-src="https://cavignac.com/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2" data-rocket-defer defer></script>
+<script id="elementor-frontend-js-extra">
+var PremiumSettings = {"ajaxurl":"https://cavignac.com/wp-admin/admin-ajax.php","nonce":"f96c639658"};
+//# sourceURL=elementor-frontend-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnX":"Share on X","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":801,"lg":1201,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":800,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1200,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"4.2.4","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"e_panel_promotions":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_collection_loop":true},"urls":{"assets":"https:\/\/cavignac.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/cavignac.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/cavignac.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"9e2b1ff2c7","atomicFormsSendForm":"64b490094a"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"viewport_tablet":1200,"viewport_mobile":800,"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":1726,"title":"Risk%20Factors%20for%20Harassment%20in%20the%20Workplace%20-%20Cavignac","excerpt":"","featuredImage":"https:\/\/cavignac.com\/wp-content\/uploads\/2023\/04\/shutterstock_1022807230-scaled-1-1024x683.jpg"}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script type="text/rocketlazyloadscript" id="elementor-frontend-js" data-rocket-src="https://cavignac.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.2.4" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="ecs-slider-js" data-rocket-src="https://cavignac.com/wp-content/plugins/ele-custom-skin/modules/container-layout/assets/js/ecs-slider.min.js?ver=4.3.11" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="smartmenus-js" data-rocket-src="https://cavignac.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="e-sticky-js" data-rocket-src="https://cavignac.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=4.3.0" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="imagesloaded-js" data-rocket-src="https://cavignac.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="pa-elements-handler-js" data-rocket-src="https://cavignac.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/elements-handler.min.js?ver=4.11.109" data-rocket-defer defer></script>
+<script id="cmplz-cookiebanner-js-extra">
+var complianz = {"prefix":"cmplz_","debug":"","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"21","version":"7.5.4","store_consent":"","do_not_track_enabled":"1","consenttype":"optout","region":"us","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https://cavignac.com/wp-json/complianz/v1/","locale":"lang=en&locale=en_US","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"26","cookie_path":"/","categories":{"statistics":"statistics","marketing":"marketing"},"tcf_active":"","placeholdertext":"Click to accept {category} cookies and enable this content","css_file":"https://cavignac.com/wp-content/uploads/complianz/css/banner-{banner_id}-{type}.css?v=21","page_links":{"us":{"cookie-statement":{"title":"Opt-out preferences","url":"https://cavignac.com/opt-out-preferences/"},"privacy-statement":{"title":"Privacy Policy","url":"https://cavignac.com/privacy-policy/"}}},"tm_categories":"1","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Click to accept {category} cookies and enable this content","iapi_nav":"fallback"};
+//# sourceURL=cmplz-cookiebanner-js-extra
+</script>
+<script type="text/rocketlazyloadscript" defer id="cmplz-cookiebanner-js" data-rocket-src="https://cavignac.com/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1788202327"></script>
+<script type="text/rocketlazyloadscript" id="cmplz-cookiebanner-js-after">window.addEventListener('DOMContentLoaded', function() {
+		if ('undefined' != typeof window.jQuery) {
+			jQuery(document).ready(function ($) {
+				$(document).on('elementor/popup/show', () => {
+					let rev_cats = cmplz_categories.reverse();
+					for (let key in rev_cats) {
+						if (rev_cats.hasOwnProperty(key)) {
+							let category = cmplz_categories[key];
+							if (cmplz_has_consent(category)) {
+								document.querySelectorAll('[data-category="' + category + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+
+					let services = cmplz_get_services_on_page();
+					for (let key in services) {
+						if (services.hasOwnProperty(key)) {
+							let service = services[key].service;
+							let category = services[key].category;
+							if (cmplz_has_service_consent(service, category)) {
+								document.querySelectorAll('[data-service="' + service + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+				});
+			});
+		}
+    
+    
+		
+			document.addEventListener("cmplz_enable_category", function(consentData) {
+				var category = consentData.detail.category;
+				var services = consentData.detail.services;
+				var blockedContentContainers = [];
+				let selectorVideo = '.cmplz-elementor-widget-video-playlist[data-category="'+category+'"],.elementor-widget-video[data-category="'+category+'"]';
+				let selectorGeneric = '[data-cmplz-elementor-href][data-category="'+category+'"]';
+				for (var skey in services) {
+					if (services.hasOwnProperty(skey)) {
+						let service = skey;
+						selectorVideo +=',.cmplz-elementor-widget-video-playlist[data-service="'+service+'"],.elementor-widget-video[data-service="'+service+'"]';
+						selectorGeneric +=',[data-cmplz-elementor-href][data-service="'+service+'"]';
+					}
+				}
+				document.querySelectorAll(selectorVideo).forEach(obj => {
+					let elementService = obj.getAttribute('data-service');
+					if ( cmplz_is_service_denied(elementService) ) {
+						return;
+					}
+					if (obj.classList.contains('cmplz-elementor-activated')) return;
+					obj.classList.add('cmplz-elementor-activated');
+
+					if ( obj.hasAttribute('data-cmplz_elementor_widget_type') ){
+						let attr = obj.getAttribute('data-cmplz_elementor_widget_type');
+						obj.classList.removeAttribute('data-cmplz_elementor_widget_type');
+						obj.classList.setAttribute('data-widget_type', attr);
+					}
+					if (obj.classList.contains('cmplz-elementor-widget-video-playlist')) {
+						obj.classList.remove('cmplz-elementor-widget-video-playlist');
+						obj.classList.add('elementor-widget-video-playlist');
+					}
+					obj.setAttribute('data-settings', obj.getAttribute('data-cmplz-elementor-settings'));
+					blockedContentContainers.push(obj);
+				});
+
+				document.querySelectorAll(selectorGeneric).forEach(obj => {
+					let elementService = obj.getAttribute('data-service');
+					if ( cmplz_is_service_denied(elementService) ) {
+						return;
+					}
+					if (obj.classList.contains('cmplz-elementor-activated')) return;
+
+					if (obj.classList.contains('cmplz-fb-video')) {
+						obj.classList.remove('cmplz-fb-video');
+						obj.classList.add('fb-video');
+					}
+
+					obj.classList.add('cmplz-elementor-activated');
+					obj.setAttribute('data-href', obj.getAttribute('data-cmplz-elementor-href'));
+					blockedContentContainers.push(obj.closest('.elementor-widget'));
+				});
+
+				/**
+				 * Trigger the widgets in Elementor
+				 */
+				for (var key in blockedContentContainers) {
+					if (blockedContentContainers.hasOwnProperty(key) && blockedContentContainers[key] !== undefined) {
+						let blockedContentContainer = blockedContentContainers[key];
+						if (elementorFrontend.elementsHandler) {
+							elementorFrontend.elementsHandler.runReadyTrigger(blockedContentContainer)
+						}
+						var cssIndex = blockedContentContainer.getAttribute('data-placeholder_class_index');
+						blockedContentContainer.classList.remove('cmplz-blocked-content-container');
+						blockedContentContainer.classList.remove('cmplz-placeholder-' + cssIndex);
+					}
+				}
+
+			});
+		
+		
+        
+            document.addEventListener("cmplz_enable_category", function () {
+                document.querySelectorAll('[data-rocket-lazyload]').forEach(obj => {
+                    if (obj.hasAttribute('data-lazy-src')) {
+                        obj.setAttribute('src', obj.getAttribute('data-lazy-src'));
+                    }
+                });
+            });
+        
+		
+//# sourceURL=cmplz-cookiebanner-js-after
+});</script>
+<script id="elementor-recaptcha_v3-api-js" src="https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=4.3.0"></script>
+<script type="text/rocketlazyloadscript" id="wp-hooks-js" data-rocket-src="https://cavignac.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script type="text/rocketlazyloadscript" id="wp-i18n-js" data-rocket-src="https://cavignac.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script type="text/rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script type="text/rocketlazyloadscript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/cavignac.com\/wp-admin\/admin-ajax.php","nonce":"a4a9863fee","urls":{"assets":"https:\/\/cavignac.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/cavignac.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/cavignac.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script type="text/rocketlazyloadscript" id="elementor-pro-frontend-js" data-rocket-src="https://cavignac.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.3.0" data-rocket-defer defer></script>
+<script type="text/rocketlazyloadscript" id="pro-elements-handlers-js" data-rocket-src="https://cavignac.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.3.0" data-rocket-defer defer></script>
+<!-- Statistics script Complianz GDPR/CCPA -->
+						<script type="text/rocketlazyloadscript" data-category="functional">
+							(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TFLCN5X');
+						</script>
+						<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://cavignac.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="Play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+<script>var rocket_beacon_data = {"ajax_url":"https:\/\/cavignac.com\/wp-admin\/admin-ajax.php","nonce":"cefe02844a","url":"https:\/\/cavignac.com\/blog\/risk-factors-for-harassment-in-the-workplace","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true,"preload_fonts":true,"preconnect_external_domain":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800,"preload_fonts_exclusions":["api.fontshare.com","cdn.fontshare.com"],"processed_extensions":["woff2","woff","ttf"],"external_font_exclusions":[],"preconnect_external_domain_elements":["link","script","iframe"],"preconnect_external_domain_exclusions":["static.cloudflareinsights.com","rel=\"profile\"","rel=\"preconnect\"","rel=\"dns-prefetch\"","rel=\"icon\""]}</script><script data-name="wpr-wpr-beacon" src='https://cavignac.com/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async></script><script>(()=>{class RocketElementorPreload{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}t(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this.i(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this.o(t)}catch(t){}})}o(t){const e=JSON.parse(t.dataset.settings),i=e.m||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let o=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this.l(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(o)})}i(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}l(t,e){this.i().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorPreload;requestAnimationFrame(t.t.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorPreload.run)})();</script></body>
+</html>

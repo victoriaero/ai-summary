@@ -1,0 +1,25 @@
+{
+  "source_id": "7ebd1494e6f04b09c632",
+  "normalized_url": "https://advocacy.sba.gov/wp-content/uploads/2019/04/Financing_Patterns_and_Credit_Market_Experiences_report.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:30:38.510793+00:00",
+  "registrable_domain": "sba.gov",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://advocacy.sba.gov/wp-content/uploads/2019/04/Financing_Patterns_and_Credit_Market_Experiences_report.pdf",
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Tue, 29 Sep 2026 19:30:39 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "919",
+    "Connection": "keep-alive",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 86728c07152f83acf9fcd4a9c61e9a82.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "GRU3-P13",
+    "X-Amz-Cf-Id": "KFkXw-0LHVYxGMSRiX8C_o4xH0YtnXDtPFNw1CjmPCMBSQiXZc65PA=="
+  },
+  "downloaded_bytes": 919,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

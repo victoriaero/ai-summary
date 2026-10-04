@@ -1,0 +1,28 @@
+{
+  "source_id": "4a8fb9d9268c8cbea918",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5650246",
+  "fetch_timestamp_utc": "2026-10-04T03:36:16.444638+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5650246/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 372928,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/4a8fb9d9268c8cbea918.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/4a8fb9d9268c8cbea918.txt",
+  "text_chars": 103930,
+  "text_words": 16355,
+  "extraction_status": "success",
+  "page_title": "At the intersection of criminal justice involvement and sexual orientation: Dynamic networks and health among a population-based sample of young Black men who have sex with men",
+  "page_author": "JA Schneider; N Lancki; P Schumm",
+  "page_date": "2017-04-25",
+  "site_name": "Social networks",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5650246/"
+}

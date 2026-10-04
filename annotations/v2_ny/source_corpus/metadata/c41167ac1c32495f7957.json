@@ -1,0 +1,28 @@
+{
+  "source_id": "c41167ac1c32495f7957",
+  "normalized_url": "https://transequality.org/resources/know-your-rights-housing-and-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:48:11.876208+00:00",
+  "registrable_domain": "transequality.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://transequality.org/resources/know-your-rights-housing-and-homelessness",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 117153,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c41167ac1c32495f7957.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c41167ac1c32495f7957.txt",
+  "text_chars": 8918,
+  "text_words": 1385,
+  "extraction_status": "success",
+  "page_title": "Know Your Rights: Housing and Homelessness | A4TE",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "A4TE",
+  "canonical_url": "https://transequality.org/resources/know-your-rights-housing-and-homelessness"
+}

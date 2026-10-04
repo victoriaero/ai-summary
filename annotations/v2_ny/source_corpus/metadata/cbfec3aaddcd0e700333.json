@@ -1,0 +1,28 @@
+{
+  "source_id": "cbfec3aaddcd0e700333",
+  "normalized_url": "https://buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T02:48:47.250239+00:00",
+  "registrable_domain": "buckeyecu.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 107324,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cbfec3aaddcd0e700333.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cbfec3aaddcd0e700333.txt",
+  "text_chars": 3288,
+  "text_words": 449,
+  "extraction_status": "success",
+  "page_title": "The Role of Black Credit Unions in Financial Inclusion",
+  "page_author": "Buckeye State Credit Union",
+  "page_date": "2025-02-05",
+  "site_name": "Buckeye State Credit Union",
+  "canonical_url": "https://www.buckeyecu.org/the-role-of-black-credit-unions-in-financial-inclusion/"
+}

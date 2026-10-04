@@ -1,0 +1,28 @@
+{
+  "source_id": "8385cc89304bf1335605",
+  "normalized_url": "https://prisonpolicy.org/racialgeography/report.html",
+  "fetch_timestamp_utc": "2026-10-04T02:43:05.253710+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/racialgeography/report.html",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 65756,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/8385cc89304bf1335605.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/8385cc89304bf1335605.txt",
+  "text_chars": 27219,
+  "text_words": 4365,
+  "extraction_status": "success",
+  "page_title": "The Racial Geography of Mass Incarceration",
+  "page_author": "Prison Policy Initiative",
+  "page_date": "2026-01-01",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/racialgeography/report.html"
+}

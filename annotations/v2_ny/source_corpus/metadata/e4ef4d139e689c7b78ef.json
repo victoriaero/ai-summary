@@ -1,0 +1,28 @@
+{
+  "source_id": "e4ef4d139e689c7b78ef",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11782051",
+  "fetch_timestamp_utc": "2026-10-04T02:50:51.431234+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11782051/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 171944,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e4ef4d139e689c7b78ef.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e4ef4d139e689c7b78ef.txt",
+  "text_chars": 42562,
+  "text_words": 5984,
+  "extraction_status": "success",
+  "page_title": "Barriers to quality healthcare among transgender and gender nonconforming adults",
+  "page_author": "Kedryn Berrian; Marci D Exsted; Nik M Lampe; Sayer L Pease; Ellesse‐Roselee L Akré",
+  "page_date": "2024-07-10",
+  "site_name": "Health Services Research",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11782051/"
+}

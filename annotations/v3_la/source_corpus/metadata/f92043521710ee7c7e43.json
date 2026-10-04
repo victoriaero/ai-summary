@@ -1,0 +1,28 @@
+{
+  "source_id": "f92043521710ee7c7e43",
+  "normalized_url": "https://latino.ucla.edu/press/new-federal-and-state-policies-could-lead-up-to-1m-latino-medi-cal-enrollees-to-disenroll-in-california",
+  "fetch_timestamp_utc": "2026-10-04T03:49:28.549260+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://latino.ucla.edu/press/new-federal-and-state-policies-could-lead-up-to-1m-latino-medi-cal-enrollees-to-disenroll-in-california/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 152663,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f92043521710ee7c7e43.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f92043521710ee7c7e43.txt",
+  "text_chars": 5518,
+  "text_words": 815,
+  "extraction_status": "success",
+  "page_title": "New Federal and State Policies Could Lead Up to 1M Latino Medi-Cal Enrollees to Disenroll in California",
+  "page_author": null,
+  "page_date": "2026-09-29",
+  "site_name": "Latino Policy & Politics Institute",
+  "canonical_url": "https://latino.ucla.edu/press/new-federal-and-state-policies-could-lead-up-to-1m-latino-medi-cal-enrollees-to-disenroll-in-california/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "f5ed8d1862e97b6d9f81",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4651212",
+  "fetch_timestamp_utc": "2026-10-04T02:51:55.643656+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4651212/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 335547,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f5ed8d1862e97b6d9f81.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f5ed8d1862e97b6d9f81.txt",
+  "text_chars": 138401,
+  "text_words": 21396,
+  "extraction_status": "success",
+  "page_title": "Race, Self-Selection, and the Job Search Process",
+  "page_author": "Devah Pager; David S Pedulla",
+  "page_date": "2000-11-01",
+  "site_name": "AJS; American journal of sociology",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4651212/"
+}

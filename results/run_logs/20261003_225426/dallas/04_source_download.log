@@ -1,0 +1,71 @@
+
+================================================================================
+PARSING AIO SOURCE URLS
+================================================================================
+
+Total source occurrences: 2,127
+Unique normalized URLs: 1,595
+
+================================================================================
+RESUME STATUS
+================================================================================
+
+Unique URLs total: 1,595
+Already processed: 1,595
+Still pending: 0
+Workers: 8
+Per-host interval: 0.5s
+Hard URL timeout: 45s
+
+================================================================================
+PARALLEL SOURCE COLLECTION
+================================================================================
+
+Nothing pending.
+All unique URLs already have metadata.
+
+================================================================================
+REBUILDING COMPLETE MANIFEST
+================================================================================
+
+================================================================================
+SOURCE COLLECTION FINISHED
+================================================================================
+
+Source occurrences: 2,127
+Unique URLs: 1,595
+
+Already present before this run: 1,595
+Scheduled this run: 0
+New successful extractions: 0
+New failed/incomplete: 0
+
+Successful downloads total: 1,074/1,595
+Successful text extractions total: 1,062/1,595
+Text extraction coverage: 66.58%
+
+Hard timeouts: 0
+Robots blocked: 72
+HTTP errors: 2
+curl errors: 0
+Exceptions: 26
+Empty text extractions: 12
+Missing metadata after run: 0
+
+Corpus directory:
+/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus
+
+Reports directory:
+/scratch/victoria.estanislau/ai-summary/results/source_collection_dallas
+
+Main files:
+  /scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/manifest.csv
+  /scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/url_usage.csv
+  /scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/url_usage_enriched.csv
+  /scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/corpus.jsonl
+  /scratch/victoria.estanislau/ai-summary/results/source_collection_dallas/collection_summary.json
+  /scratch/victoria.estanislau/ai-summary/results/source_collection_dallas/failed_or_incomplete_sources.csv
+  /scratch/victoria.estanislau/ai-summary/results/source_collection_dallas/missing_after_run.csv
+  /scratch/victoria.estanislau/ai-summary/results/source_collection_dallas/collection_quality_by_domain.csv
+
+Done.

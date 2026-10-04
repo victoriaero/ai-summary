@@ -1,0 +1,20 @@
+{
+  "source_id": "a894a12df0d173544a37",
+  "normalized_url": "https://scholarworks.harding.edu/cgi/viewcontent.cgi?article=1278&context=tenor",
+  "fetch_timestamp_utc": "2026-10-04T02:46:15.673584+00:00",
+  "registrable_domain": "harding.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://scholarworks.harding.edu/cgi/viewcontent.cgi?article=1278&context=tenor",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5796,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

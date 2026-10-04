@@ -1,0 +1,76 @@
+
+================================================================================
+LOADING SOURCE SETS
+================================================================================
+
+Documents: 273
+Groups: 13
+Outcomes: 21
+✓ Experimental design validated.
+
+Explicit-vs-generic comparisons: 252
+
+================================================================================
+SOURCE OVERLAP BY GROUP
+================================================================================
+         dimension condition                       group  mean_url_jaccard  mean_url_distance  mean_domain_jaccard  mean_domain_distance  mean_shared_urls
+Sexual Orientation  minority           homosexual people            0.0000             1.0000               0.0812                0.9188            0.0000
+   Gender Identity  minority          transgender people            0.0000             1.0000               0.0835                0.9165            0.0000
+        Disability  minority    People with disabilities            0.0034             0.9966               0.0553                0.9447            0.0952
+            Gender  minority                       Women            0.0040             0.9960               0.0314                0.9686            0.0476
+         Ethnicity  minority               Latino people            0.0084             0.9916               0.0740                0.9260            0.1429
+              Race  minority                Black people            0.0113             0.9887               0.0889                0.9111            0.1905
+   Gender Identity  majority            cisgender people            0.0223             0.9777               0.0910                0.9090            0.3810
+              Race  majority                White people            0.0328             0.9672               0.0775                0.9225            0.3810
+         Ethnicity  majority           non-Latino people            0.0329             0.9671               0.0878                0.9122            0.4286
+Sexual Orientation  majority         heterosexual people            0.0521             0.9479               0.1204                0.8796            0.8095
+        Disability  majority People without disabilities            0.0816             0.9184               0.1324                0.8676            0.9048
+            Gender  majority                         Men            0.1471             0.8529               0.2271                0.7729            1.9048
+
+================================================================================
+URL-SET DISPLACEMENT FROM GENERIC
+================================================================================
+         dimension           minority_group              majority_group  n  minority_mean  majority_mean  mean_difference  bootstrap_ci_low  bootstrap_ci_high  rank_biserial  p_permutation_holm  significant_permutation_holm
+        Disability People with disabilities People without disabilities 21        0.99660        0.91838          0.07822           0.03223            0.12918        0.96364             0.01562                          True
+         Ethnicity            Latino people           non-Latino people 21        0.99155        0.96706          0.02449           0.00327            0.05075        0.73333             0.09375                         False
+            Gender                    Women                         Men 21        0.99603        0.85293          0.14310           0.08233            0.21069        1.00000             0.00073                          True
+   Gender Identity       transgender people            cisgender people 21        1.00000        0.97769          0.02231           0.00680            0.03986        1.00000             0.09375                         False
+              Race             Black people                White people 21        0.98873        0.96717          0.02156           0.00368            0.04289        0.77778             0.09375                         False
+Sexual Orientation        homosexual people         heterosexual people 21        1.00000        0.94791          0.05209           0.02549            0.08272        1.00000             0.00977                          True
+
+================================================================================
+DOMAIN-SET DISPLACEMENT FROM GENERIC
+================================================================================
+         dimension           minority_group              majority_group  n  minority_mean  majority_mean  mean_difference  bootstrap_ci_low  bootstrap_ci_high  rank_biserial  p_permutation_holm  significant_permutation_holm
+        Disability People with disabilities People without disabilities 21        0.94468        0.86761          0.07707           0.01505            0.14497        0.54248             0.15816                         False
+         Ethnicity            Latino people           non-Latino people 21        0.92597        0.91222          0.01375          -0.01989            0.04830        0.12418             1.00000                         False
+            Gender                    Women                         Men 21        0.96860        0.77289          0.19571           0.11341            0.29250        0.90000             0.00054                          True
+   Gender Identity       transgender people            cisgender people 21        0.91652        0.90896          0.00757          -0.02400            0.03928        0.10526             1.00000                         False
+              Race             Black people                White people 21        0.91105        0.92250         -0.01145          -0.05119            0.02786       -0.14035             1.00000                         False
+Sexual Orientation        homosexual people         heterosexual people 21        0.91880        0.87962          0.03918          -0.01108            0.08773        0.38012             0.59628                         False
+
+================================================================================
+AGGREGATED MINORITY vs MAJORITY
+================================================================================
+                 metric  n  minority_mean  majority_mean  mean_difference  bootstrap_ci_low  bootstrap_ci_high  rank_biserial  p_permutation_raw
+   url_jaccard_distance 21        0.99549        0.93852          0.05696           0.03401            0.08205        1.00000            0.00001
+domain_jaccard_distance 21        0.93094        0.87730          0.05364           0.02387            0.08568        0.70563            0.00265
+   url_generic_coverage 21        0.00883        0.09389         -0.08506          -0.12163           -0.05163       -1.00000            0.00002
+domain_generic_coverage 21        0.13351        0.18120         -0.04769          -0.09133           -0.00516       -0.52632            0.04620
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================
+
+Results directory:
+/scratch/victoria.estanislau/ai-summary/results/source_overlap_analysis_dallas
+
+Main files:
+  - SUMMARY.txt
+  - all_results.json
+  - source_overlap_by_group.csv
+  - minority_vs_majority_url_distance.csv
+  - minority_vs_majority_domain_distance.csv
+  - aggregate_minority_vs_majority.csv
+
+Done.

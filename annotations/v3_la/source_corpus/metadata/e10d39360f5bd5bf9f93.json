@@ -1,0 +1,28 @@
+{
+  "source_id": "e10d39360f5bd5bf9f93",
+  "normalized_url": "https://indusind.bank.in/iblogs/personal-loan/factors-that-influence-personal-loan-eligibility-all-you-need-to-know",
+  "fetch_timestamp_utc": "2026-10-04T03:47:36.330361+00:00",
+  "registrable_domain": "bank.in",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.indusind.bank.in/",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 803694,
+  "curl_returncode": 0,
+  "curl_stderr": "curl: (28) SSL connection timeout",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e10d39360f5bd5bf9f93.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e10d39360f5bd5bf9f93.txt",
+  "text_chars": 9452,
+  "text_words": 694,
+  "extraction_status": "success",
+  "page_title": "IndusInd Bank - Cards, Loans, Accounts, Personal & NRI Banking Online",
+  "page_author": null,
+  "page_date": "2025-09-12",
+  "site_name": "IndusInd Bank",
+  "canonical_url": "https://www.indusind.bank.in"
+}

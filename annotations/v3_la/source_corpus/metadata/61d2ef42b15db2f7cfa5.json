@@ -1,0 +1,20 @@
+{
+  "source_id": "61d2ef42b15db2f7cfa5",
+  "normalized_url": "https://americanprogress.org/article/systematic-inequality-economic-opportunity",
+  "fetch_timestamp_utc": "2026-10-04T03:38:00.030613+00:00",
+  "registrable_domain": "americanprogress.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.americanprogress.org/article/systematic-inequality-economic-opportunity",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5800,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

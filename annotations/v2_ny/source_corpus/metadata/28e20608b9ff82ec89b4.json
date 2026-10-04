@@ -1,0 +1,28 @@
+{
+  "source_id": "28e20608b9ff82ec89b4",
+  "normalized_url": "https://sciencenews.org/article/black-hispanic-female-police-use-force-less-than-white-male-officers",
+  "fetch_timestamp_utc": "2026-10-04T02:35:51.834926+00:00",
+  "registrable_domain": "sciencenews.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sciencenews.org/article/black-hispanic-female-police-use-force-less-than-white-male-officers",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 798901,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/28e20608b9ff82ec89b4.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/28e20608b9ff82ec89b4.txt",
+  "text_chars": 6332,
+  "text_words": 979,
+  "extraction_status": "success",
+  "page_title": "Black, Hispanic and female police use force less often than white male officers",
+  "page_author": "Maria Temming",
+  "page_date": "2021-02-11",
+  "site_name": "Science News Magazine",
+  "canonical_url": "https://www.sciencenews.org/article/black-hispanic-female-police-use-force-less-than-white-male-officers"
+}

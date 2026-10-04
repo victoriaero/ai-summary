@@ -1,0 +1,28 @@
+{
+  "source_id": "71e916c2cda05b386fd6",
+  "normalized_url": "https://hispanicstudiesreview.cofc.edu/article/123156-some-perspectives-on-university-challenges-for-latinx-undergraduates",
+  "fetch_timestamp_utc": "2026-10-04T02:41:51.346391+00:00",
+  "registrable_domain": "cofc.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hispanicstudiesreview.cofc.edu/article/123156-some-perspectives-on-university-challenges-for-latinx-undergraduates",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 407717,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/71e916c2cda05b386fd6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/71e916c2cda05b386fd6.txt",
+  "text_chars": 18284,
+  "text_words": 2752,
+  "extraction_status": "success",
+  "page_title": "Some Perspectives on University Challenges for Latinx Undergraduates | Published in Hispanic Studies Review",
+  "page_author": "Clara Burgo",
+  "page_date": "2024-09-16",
+  "site_name": "Hispanic Studies Review",
+  "canonical_url": "https://hispanicstudiesreview.cofc.edu/article/123156-some-perspectives-on-university-challenges-for-latinx-undergraduates"
+}

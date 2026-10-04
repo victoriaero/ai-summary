@@ -1,0 +1,28 @@
+{
+  "source_id": "062950d57cb9f45d64f0",
+  "normalized_url": "https://nlc.org/article/2020/07/09/embedding-racial-equity-in-housing",
+  "fetch_timestamp_utc": "2026-10-04T03:31:03.717237+00:00",
+  "registrable_domain": "nlc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nlc.org/article/2020/07/09/embedding-racial-equity-in-housing",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 133121,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/062950d57cb9f45d64f0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/062950d57cb9f45d64f0.txt",
+  "text_chars": 9552,
+  "text_words": 1391,
+  "extraction_status": "success",
+  "page_title": "Embedding Racial Equity in Housing",
+  "page_author": null,
+  "page_date": "2020-07-09",
+  "site_name": "National League of Cities",
+  "canonical_url": "https://www.nlc.org/article/2020/07/09/embedding-racial-equity-in-housing/"
+}

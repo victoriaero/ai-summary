@@ -1,0 +1,20 @@
+{
+  "source_id": "e084a327a48bb17dfb1d",
+  "normalized_url": "https://gao.gov/products/gao-22-104468",
+  "fetch_timestamp_utc": "2026-10-04T02:50:22.675899+00:00",
+  "registrable_domain": "gao.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.gao.gov/products/gao-22-104468",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 399,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

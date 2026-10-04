@@ -1,0 +1,28 @@
+{
+  "source_id": "68235c80367aa2dbb685",
+  "normalized_url": "https://onlinedegrees.sandiego.edu/women-in-law-enforcement",
+  "fetch_timestamp_utc": "2026-10-04T03:38:27.724952+00:00",
+  "registrable_domain": "sandiego.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://onlinedegrees.sandiego.edu/women-in-law-enforcement/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 232091,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/68235c80367aa2dbb685.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/68235c80367aa2dbb685.txt",
+  "text_chars": 18635,
+  "text_words": 2949,
+  "extraction_status": "success",
+  "page_title": "Why We Need More Women Working in Law Enforcement",
+  "page_author": "Erik Fritsvold; PhD",
+  "page_date": "2017-01-06",
+  "site_name": "University of San Diego Online Degrees",
+  "canonical_url": "https://onlinedegrees.sandiego.edu/women-in-law-enforcement/"
+}

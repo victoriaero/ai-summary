@@ -1,0 +1,20 @@
+{
+  "source_id": "24ca1d8b00691565dfee",
+  "normalized_url": "https://healthaffairs.org/doi/abs/10.1377/hlthaff.2025.00375",
+  "fetch_timestamp_utc": "2026-10-04T03:33:27.699062+00:00",
+  "registrable_domain": "healthaffairs.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://healthaffairs.org/doi/abs/10.1377/hlthaff.2025.00375",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5752,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "b0e84baa63fbddc0fc2a",
+  "normalized_url": "https://news-medical.net/news/20260929/What-helped-families-stay-with-WIC-Remote-access-may-be-key.aspx",
+  "fetch_timestamp_utc": "2026-10-04T02:46:51.435104+00:00",
+  "registrable_domain": "news-medical.net",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.news-medical.net/news/20260929/What-helped-families-stay-with-WIC-Remote-access-may-be-key.aspx",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 179866,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b0e84baa63fbddc0fc2a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b0e84baa63fbddc0fc2a.txt",
+  "text_chars": 6883,
+  "text_words": 975,
+  "extraction_status": "success",
+  "page_title": "What helped families stay with WIC? Remote access may be key",
+  "page_author": "Dr Liji Thomas; MD",
+  "page_date": "2026-09-29",
+  "site_name": "News-Medical",
+  "canonical_url": "https://www.news-medical.net/news/20260929/What-helped-families-stay-with-WIC-Remote-access-may-be-key.aspx"
+}

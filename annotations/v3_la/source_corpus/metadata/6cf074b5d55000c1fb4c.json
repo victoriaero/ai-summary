@@ -1,0 +1,28 @@
+{
+  "source_id": "6cf074b5d55000c1fb4c",
+  "normalized_url": "https://opportunityinsights.org/paper/creditaccess",
+  "fetch_timestamp_utc": "2026-10-04T03:38:53.718523+00:00",
+  "registrable_domain": "opportunityinsights.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://opportunityinsights.org/paper/creditaccess/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 68719,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6cf074b5d55000c1fb4c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6cf074b5d55000c1fb4c.txt",
+  "text_chars": 1382,
+  "text_words": 199,
+  "extraction_status": "success",
+  "page_title": "Credit Access in the United States | Opportunity Insights",
+  "page_author": "Nathaniel Hendren; Trevor J Bakker; Stefanie DeLuca; Eric English; Jamie Fogel; Daniel Herbst",
+  "page_date": "2025-07-16",
+  "site_name": "Opportunity Insights",
+  "canonical_url": "https://opportunityinsights.org/paper/creditaccess/"
+}

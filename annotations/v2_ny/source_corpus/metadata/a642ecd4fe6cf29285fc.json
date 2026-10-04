@@ -1,0 +1,20 @@
+{
+  "source_id": "a642ecd4fe6cf29285fc",
+  "normalized_url": "https://whijournal.com/article/S1049-3867(08)00108-4/fulltext",
+  "fetch_timestamp_utc": "2026-10-04T02:45:59.482701+00:00",
+  "registrable_domain": "whijournal.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://whijournal.com/article/S1049-3867(08)00108-4/fulltext",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5761,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

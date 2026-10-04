@@ -1,0 +1,28 @@
+{
+  "source_id": "dec1fa9e0df83862a6e9",
+  "normalized_url": "https://icjia.illinois.gov/researchhub/articles/an-overview-of-police-use-of-force-policies-and-research",
+  "fetch_timestamp_utc": "2026-10-04T02:50:13.360509+00:00",
+  "registrable_domain": "illinois.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://icjia.illinois.gov/researchhub/articles/an-overview-of-police-use-of-force-policies-and-research",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 7228,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/dec1fa9e0df83862a6e9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/dec1fa9e0df83862a6e9.txt",
+  "text_chars": 103,
+  "text_words": 12,
+  "extraction_status": "success",
+  "page_title": "ICJIA | Illinois Criminal Justice Information Authority",
+  "page_author": "Illinois Criminal Justice Information Authority",
+  "page_date": "2026-03-26",
+  "site_name": "Illinois Criminal Justice Information Authority",
+  "canonical_url": "https://icjia.illinois.gov/"
+}

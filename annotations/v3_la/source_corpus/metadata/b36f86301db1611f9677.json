@@ -1,0 +1,28 @@
+{
+  "source_id": "b36f86301db1611f9677",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4890541",
+  "fetch_timestamp_utc": "2026-10-04T03:44:17.180822+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4890541/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 312456,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b36f86301db1611f9677.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b36f86301db1611f9677.txt",
+  "text_chars": 85655,
+  "text_words": 11988,
+  "extraction_status": "success",
+  "page_title": "Policy Dilemmas in Latino Health Care and Implementation of the Affordable Care Act",
+  "page_author": "Alexander N Ortega; Hector P Rodriguez; Arturo Vargas Bustamante",
+  "page_date": "2015-01-07",
+  "site_name": "Annual review of public health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4890541/"
+}

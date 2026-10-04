@@ -1,0 +1,40 @@
+model,dimension,condition,condition_cell,estimate,ci_low,ci_high,scale,n_responses,n_covered
+hedging,Control,People,People,0.1439939561153963,0.10760985728746479,0.19118955185546976,probability,21,15
+hedging,Race,Minority,Race::Minority,0.1790901872716656,0.13537864466611005,0.2311041622797003,probability,21,20
+hedging,Race,Majority,Race::Majority,0.18173460949927508,0.1417469033832339,0.22947395797806844,probability,21,15
+hedging,Ethnicity,Minority,Ethnicity::Minority,0.1778351019324703,0.14269680077078178,0.21792591489199895,probability,21,18
+hedging,Ethnicity,Majority,Ethnicity::Majority,0.12570884290042347,0.09891720267577121,0.1593885499787412,probability,21,16
+hedging,Gender,Minority,Gender::Minority,0.23121187585040995,0.1762262756628275,0.2991730175184475,probability,21,12
+hedging,Gender,Majority,Gender::Majority,0.2199341563963202,0.17379457182297628,0.27264582536075554,probability,21,15
+hedging,Disability,Minority,Disability::Minority,0.1603646566731851,0.11468817992033672,0.2184155825132602,probability,21,12
+hedging,Disability,Majority,Disability::Majority,0.17167127577551705,0.12805621724870944,0.22791519022519402,probability,21,16
+hedging,Sexual Orientation,Minority,Sexual Orientation::Minority,0.21898640275195516,0.15343363598577286,0.29969422236332693,probability,21,15
+hedging,Sexual Orientation,Majority,Sexual Orientation::Majority,0.19720437619282566,0.1393958564724821,0.2650688494769447,probability,21,17
+hedging,Gender Identity,Minority,Gender Identity::Minority,0.19344138646704404,0.15819308485764105,0.23522955244851493,probability,21,18
+hedging,Gender Identity,Majority,Gender Identity::Majority,0.15127016242329847,0.11729469949815156,0.1926557219039981,probability,21,15
+coverage,Control,People,People,0.714285714285714,0.46283110649659553,0.8872144986836237,probability,21,15
+coverage,Race,Minority,Race::Minority,0.9523809523809519,0.7086754818083066,0.9946944887835172,probability,21,20
+coverage,Race,Majority,Race::Majority,0.7142857142857132,0.47867099676096647,0.879183069901867,probability,21,15
+coverage,Ethnicity,Minority,Ethnicity::Minority,0.8571428571428568,0.5823833137048973,0.9641855433559533,probability,21,18
+coverage,Ethnicity,Majority,Ethnicity::Majority,0.761904761904761,0.5639975811404114,0.8888986405905954,probability,21,16
+coverage,Gender,Minority,Gender::Minority,0.5714285714285715,0.3805660585483993,0.7434206817829109,probability,21,12
+coverage,Gender,Majority,Gender::Majority,0.7142857142857132,0.5221603098588703,0.8493574217711208,probability,21,15
+coverage,Disability,Minority,Disability::Minority,0.5714285714285693,0.3528801888824014,0.7706010621981323,probability,21,12
+coverage,Disability,Majority,Disability::Majority,0.761904761904761,0.516624719471515,0.9050082112453982,probability,21,16
+coverage,Sexual Orientation,Minority,Sexual Orientation::Minority,0.7142857142857131,0.518214946571981,0.8581862239615319,probability,21,15
+coverage,Sexual Orientation,Majority,Sexual Orientation::Majority,0.8095238095238089,0.5830492082680595,0.9328786684583181,probability,21,17
+coverage,Gender Identity,Minority,Gender Identity::Minority,0.8571428571428568,0.6207776491506549,0.9553254482316075,probability,21,18
+coverage,Gender Identity,Majority,Gender Identity::Majority,0.714285714285715,0.4800321765342878,0.8755642351559397,probability,21,15
+veridicality_score,Control,People,People,0.6019225024968013,0.0845025753187913,1.1302955823497969,score,15,15
+veridicality_score,Race,Minority,Race::Minority,0.17512639298469276,-0.14284339154970163,0.48923666508769453,score,20,20
+veridicality_score,Race,Majority,Race::Majority,0.061533269924318734,-0.3098686319834132,0.4430690733926872,score,15,15
+veridicality_score,Ethnicity,Minority,Ethnicity::Minority,0.41162662930835403,0.1578993212217361,0.6637254654335047,score,18,18
+veridicality_score,Ethnicity,Majority,Ethnicity::Majority,0.6557849826288153,0.3254296749017232,0.9809485515229664,score,16,16
+veridicality_score,Gender,Minority,Gender::Minority,0.4605208680750999,0.008570236788750232,0.9179695037853584,score,12,12
+veridicality_score,Gender,Majority,Gender::Majority,0.17166374669211693,-0.20458034250620602,0.5486182501859354,score,15,15
+veridicality_score,Disability,Minority,Disability::Minority,0.45804543854805196,-0.060102733951958885,0.9917365904227545,score,12,12
+veridicality_score,Disability,Majority,Disability::Majority,0.8946384158076758,0.5362230104134651,1.2451650752082206,score,16,16
+veridicality_score,Sexual Orientation,Minority,Sexual Orientation::Minority,0.19532082293009242,-0.040778293158888236,0.43608522406028777,score,15,15
+veridicality_score,Sexual Orientation,Majority,Sexual Orientation::Majority,0.20985300192690395,-0.3127505680702643,0.7233091237098256,score,17,17
+veridicality_score,Gender Identity,Minority,Gender Identity::Minority,0.378992676907806,-0.0682390945765618,0.8146558084292127,score,18,18
+veridicality_score,Gender Identity,Majority,Gender Identity::Majority,0.4631272738737143,0.053717033782544624,0.8752768037156502,score,15,15

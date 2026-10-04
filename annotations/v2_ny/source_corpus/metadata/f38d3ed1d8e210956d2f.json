@@ -1,0 +1,28 @@
+{
+  "source_id": "f38d3ed1d8e210956d2f",
+  "normalized_url": "https://thetrevorproject.org/research-briefs/bullying-and-suicide-risk-among-lgbtq-youth",
+  "fetch_timestamp_utc": "2026-10-04T02:51:46.991020+00:00",
+  "registrable_domain": "thetrevorproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.thetrevorproject.org/research-briefs/bullying-and-suicide-risk-among-lgbtq-youth/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 92343,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f38d3ed1d8e210956d2f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f38d3ed1d8e210956d2f.txt",
+  "text_chars": 9748,
+  "text_words": 1490,
+  "extraction_status": "success",
+  "page_title": "Bullying and Suicide Risk among LGBTQ Youth",
+  "page_author": null,
+  "page_date": "2025-10-08",
+  "site_name": "The Trevor Project",
+  "canonical_url": "https://www.thetrevorproject.org/research-briefs/bullying-and-suicide-risk-among-lgbtq-youth/"
+}

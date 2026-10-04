@@ -1,0 +1,28 @@
+{
+  "source_id": "cc9935f047eb7be51399",
+  "normalized_url": "https://lse.ac.uk/research/research-for-the-world/society/tackling-school-bullying-mexico",
+  "fetch_timestamp_utc": "2026-10-04T02:48:50.914050+00:00",
+  "registrable_domain": "lse.ac.uk",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.lse.ac.uk/research/research-for-the-world/society/tackling-school-bullying-mexico",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 343676,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cc9935f047eb7be51399.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cc9935f047eb7be51399.txt",
+  "text_chars": 9673,
+  "text_words": 1497,
+  "extraction_status": "success",
+  "page_title": "Tackling school bullying: insights from Mexico I LSE Research",
+  "page_author": "Kevin Zapata-Celestino LSE Fellow Department",
+  "page_date": "2026-03-11",
+  "site_name": "The London School of Economics and Political Science",
+  "canonical_url": "https://www.lse.ac.uk/research/research-for-the-world/society/tackling-school-bullying-mexico"
+}

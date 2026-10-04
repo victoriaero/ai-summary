@@ -1,0 +1,28 @@
+{
+  "source_id": "9beebc955155a8d08595",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2826704",
+  "fetch_timestamp_utc": "2026-10-04T02:45:05.557689+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2826704/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 231662,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9beebc955155a8d08595.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9beebc955155a8d08595.txt",
+  "text_chars": 70640,
+  "text_words": 11272,
+  "extraction_status": "success",
+  "page_title": "Racial Disparities in Early Criminal Justice Involvement",
+  "page_author": "Robert D Crutchfield; Martie L Skinner; Kevin P Haggerty; Anne McGlynn; Richard F Catalano",
+  "page_date": "2009-12-11",
+  "site_name": "Race and social problems",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2826704/"
+}

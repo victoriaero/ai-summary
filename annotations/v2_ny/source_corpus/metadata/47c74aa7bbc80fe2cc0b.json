@@ -1,0 +1,28 @@
+{
+  "source_id": "47c74aa7bbc80fe2cc0b",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11862866",
+  "fetch_timestamp_utc": "2026-10-04T02:38:15.448111+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11862866/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 146565,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/47c74aa7bbc80fe2cc0b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/47c74aa7bbc80fe2cc0b.txt",
+  "text_chars": 31426,
+  "text_words": 4766,
+  "extraction_status": "success",
+  "page_title": "Ethical considerations for the nursing care of Transgender patients in the Intensive Care Unit",
+  "page_author": "John P Gilmore; Marissa Dainton; Natalie L McEvoy",
+  "page_date": "2024-02-21",
+  "site_name": "Nursing in Critical Care",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11862866/"
+}

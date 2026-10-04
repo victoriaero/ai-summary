@@ -1,0 +1,31 @@
+{
+  "source_id": "85a05533b7951f3fcf96",
+  "normalized_url": "https://tcf.org/content/report/racism-inequality-health-care-african-americans",
+  "fetch_timestamp_utc": "2026-09-29T19:31:51.821969+00:00",
+  "registrable_domain": "tcf.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://tcf.org/content/report/racism-inequality-health-care-african-americans",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:31:55 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oVF%2BDtWCOTljpwmjrY10O0DrAobhj1Q5tjGubhTWHP9SDROrezoklA0csfLUzpsErKeCWQUzOtr%2F4GF6zfmth3iSoxVAnGWhVpPc7MkmSubjyUSDCZHDepwv73XDLuMCA%2FzEt20%3D\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d692d7d9a99ea-GIG"
+  },
+  "downloaded_bytes": 4856,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

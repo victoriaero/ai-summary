@@ -1,0 +1,28 @@
+{
+  "source_id": "2429d224b10f3e0ab64c",
+  "normalized_url": "https://nsvrc.org/blog_post/what-connection-between-housing-inequality-sexual-violence-and-white-supremacy",
+  "fetch_timestamp_utc": "2026-10-04T03:33:25.289168+00:00",
+  "registrable_domain": "nsvrc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nsvrc.org/blog_post/what-connection-between-housing-inequality-sexual-violence-and-white-supremacy/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 219978,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/2429d224b10f3e0ab64c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/2429d224b10f3e0ab64c.txt",
+  "text_chars": 19102,
+  "text_words": 2968,
+  "extraction_status": "success",
+  "page_title": "What is the connection between Housing Inequality, Sexual Violence, and White Supremacy? - National Sexual Violence Resource Center (NSVRC)",
+  "page_author": null,
+  "page_date": "2025-12-17",
+  "site_name": "National Sexual Violence Resource Center (NSVRC)",
+  "canonical_url": "https://nsvrc.org/blog_post/what-connection-between-housing-inequality-sexual-violence-and-white-supremacy/"
+}

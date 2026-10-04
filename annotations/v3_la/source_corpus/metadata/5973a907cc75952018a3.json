@@ -1,0 +1,28 @@
+{
+  "source_id": "5973a907cc75952018a3",
+  "normalized_url": "https://lrn.com/blog/being-transgender-at-work-insights-from-mckinsey-dei-report",
+  "fetch_timestamp_utc": "2026-10-04T03:37:19.724889+00:00",
+  "registrable_domain": "lrn.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://lrn.com/blog/being-transgender-at-work-insights-from-mckinsey-dei-report",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 128642,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5973a907cc75952018a3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5973a907cc75952018a3.txt",
+  "text_chars": 9442,
+  "text_words": 1428,
+  "extraction_status": "success",
+  "page_title": "Being transgender at work: Insights from McKinsey’s DEI report",
+  "page_author": "Carolyn Grace",
+  "page_date": "2023-07-13",
+  "site_name": "LRN",
+  "canonical_url": "https://lrn.com/blog/being-transgender-at-work-insights-from-mckinsey-dei-report"
+}

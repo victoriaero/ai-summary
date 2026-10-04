@@ -1,0 +1,8 @@
+{
+  "status": "secondary_cross_location_analysis",
+  "primary_analysis_note": "Primary inference should remain the separate per-location analyses.",
+  "pooling_rule": "Compute focal-comparison effect within outcome x location; average location effects within outcome; infer across outcomes.",
+  "n_permutations": 200000,
+  "n_bootstrap": 20000,
+  "holm_family": "six social dimensions within each metric"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "bb15ff9aa2c4626a8196",
+  "normalized_url": "https://bostonfed.org/news-and-events/news/2021/11/racism-and-the-economy-barriers-to-financial-services-perpetuate-economic-gaps.aspx",
+  "fetch_timestamp_utc": "2026-10-04T02:47:35.236921+00:00",
+  "registrable_domain": "bostonfed.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.bostonfed.org/news-and-events/news/2021/11/racism-and-the-economy-barriers-to-financial-services-perpetuate-economic-gaps.aspx",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 81701,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/bb15ff9aa2c4626a8196.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/bb15ff9aa2c4626a8196.txt",
+  "text_chars": 7182,
+  "text_words": 1084,
+  "extraction_status": "success",
+  "page_title": "What’s the impact of persistent barriers to basic financial services?",
+  "page_author": "Federal Reserve Bank",
+  "page_date": "2026-01-22",
+  "site_name": "Federal Reserve Bank of Boston",
+  "canonical_url": "https://www.bostonfed.org/news-and-events/news/2021/11/racism-and-the-economy-barriers-to-financial-services-perpetuate-economic-gaps.aspx"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "006e7f06cb87878206de",
+  "normalized_url": "https://weforum.org/stories/2015/08/why-lgbti-people-face-barriers-to-education-and-employment",
+  "fetch_timestamp_utc": "2026-10-04T03:30:36.453199+00:00",
+  "registrable_domain": "weforum.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.weforum.org:443/stories/2015/08/why-lgbti-people-face-barriers-to-education-and-employment",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 485,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

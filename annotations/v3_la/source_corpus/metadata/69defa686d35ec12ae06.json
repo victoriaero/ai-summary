@@ -1,0 +1,28 @@
+{
+  "source_id": "69defa686d35ec12ae06",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5509345",
+  "fetch_timestamp_utc": "2026-10-04T03:38:36.733035+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5509345/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 317144,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/69defa686d35ec12ae06.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/69defa686d35ec12ae06.txt",
+  "text_chars": 75139,
+  "text_words": 12378,
+  "extraction_status": "success",
+  "page_title": "Understanding Racial and Ethnic Disparities in Arrest: The Role of Individual, Home, School, and Community Characteristics",
+  "page_author": "Lauren Nichol Gase; Beth A Glenn; Louis M Gomez; Tony Kuo; Moira Inkelas; Ninez A Ponce",
+  "page_date": "2016-11-03",
+  "site_name": "Race and social problems",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5509345/"
+}

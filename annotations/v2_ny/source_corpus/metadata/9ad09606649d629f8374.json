@@ -1,0 +1,28 @@
+{
+  "source_id": "9ad09606649d629f8374",
+  "normalized_url": "https://ablelight.org/blog/housing-insecurity",
+  "fetch_timestamp_utc": "2026-10-04T02:45:03.162629+00:00",
+  "registrable_domain": "ablelight.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ablelight.org/blog/housing-insecurity/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 389879,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9ad09606649d629f8374.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9ad09606649d629f8374.txt",
+  "text_chars": 3306,
+  "text_words": 480,
+  "extraction_status": "success",
+  "page_title": "Addressing Housing Insecurity for People with Developmental Disabilities",
+  "page_author": "Jrzeznik",
+  "page_date": "2025-01-15",
+  "site_name": "AbleLight",
+  "canonical_url": "https://ablelight.org/blog/housing-insecurity/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "de90b927059280f16ca1",
+  "normalized_url": "https://ballardbrief.byu.edu/issue-briefs/racial-inequality-in-public-school-discipline-for-black-students-in-the-united-states",
+  "fetch_timestamp_utc": "2026-10-04T02:50:12.579562+00:00",
+  "registrable_domain": "byu.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ballardbrief.byu.edu/issue-briefs/racial-inequality-in-public-school-discipline-for-black-students-in-the-united-states",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 314527,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/de90b927059280f16ca1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/de90b927059280f16ca1.txt",
+  "text_chars": 41449,
+  "text_words": 6075,
+  "extraction_status": "success",
+  "page_title": "Racial Inequality in Public School Discipline for Black Students in the United States - Ballard Brief",
+  "page_author": "Emily Peterson",
+  "page_date": "2021-09-11",
+  "site_name": "The Ballard Center for Social Impact",
+  "canonical_url": "https://ballardbrief.byu.edu/issue-briefs/racial-inequality-in-public-school-discipline-for-black-students-in-the-united-states"
+}

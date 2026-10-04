@@ -1,0 +1,204 @@
+================================================================================
+GOOGLE AI OVERVIEW — LINK COUNT ANALYSIS
+================================================================================
+
+Input:
+/scratch/victoria.estanislau/ai-summary/annotations/v3_la/google_aio_collection/consistency_report.csv
+
+Results directory:
+/scratch/victoria.estanislau/ai-summary/results/link_count_analysis_la
+
+Raw observations: 273
+
+Usable observations: 273
+AIO present: 273 / 273 (100.0%)
+
+Observations used for link-count analysis: 273
+AIOs with zero links: 9 (3.3%)
+
+================================================================================
+TABLE 1 — LINKS BY GROUP
+================================================================================
+         dimension condition                       group  n  mean_links  median_links  sd_links  zero_link_n  zero_link_rate  mean_ci_low  mean_ci_high
+   Gender Identity  minority          transgender people 21       10.33          10.0      3.54            0            0.00         8.95         11.90
+              Race  minority                Black people 21        9.57           8.0      3.76            0            0.00         8.10         11.24
+            Gender  minority                       Women 21        9.43           9.0      3.94            0            0.00         7.90         11.19
+        Disability  minority    People with disabilities 21        9.24           9.0      1.84            0            0.00         8.48         10.00
+Sexual Orientation  minority           homosexual people 21        8.81           9.0      2.94            0            0.00         7.62         10.05
+         Ethnicity  minority               Latino people 21        8.76           9.0      2.14            0            0.00         7.86          9.62
+           Control   control                      people 21        8.52           8.0      3.47            0            0.00         7.29         10.14
+Sexual Orientation  majority         heterosexual people 21        7.81           7.0      5.30            2            0.10         5.71         10.10
+            Gender  majority                         Men 21        7.14           8.0      2.37            0            0.00         6.14          8.14
+         Ethnicity  majority           non-Latino people 21        6.81           6.0      4.17            0            0.00         5.33          8.76
+   Gender Identity  majority            cisgender people 21        6.29           4.0      5.17            4            0.19         4.24          8.48
+              Race  majority                White people 21        5.19           5.0      2.46            1            0.05         4.14          6.24
+        Disability  majority People without disabilities 21        4.76           3.0      3.85            2            0.10         3.29          6.48
+
+================================================================================
+TABLE 2 — LINKS BY DOMAIN
+================================================================================
+                     domain  n  mean_links  median_links  sd_links  zero_link_rate
+        Government Benefits 39       10.00           9.0      5.24            0.05
+                  Education 39        8.97           9.0      4.51            0.03
+                    Housing 39        7.90           8.0      2.45            0.03
+Credit & Financial Services 39        7.69           7.0      2.74            0.00
+           Criminal Justice 39        7.38           7.0      4.30            0.00
+                 Healthcare 39        6.82           7.0      3.00            0.03
+                 Employment 39        6.51           6.0      3.38            0.10
+
+================================================================================
+TABLE 3 — LINKS BY OUTCOME
+================================================================================
+                     domain                        outcome  n  mean_links  median_links  zero_link_rate
+        Government Benefits    Benefit retention / renewal 13       13.54          13.0            0.00
+        Government Benefits           Application/approval 13        9.46           9.0            0.15
+                  Education            Harassment/bullying 13        9.15           9.0            0.00
+                  Education       College access/admission 13        9.08          10.0            0.08
+                  Education Educational opportunity/access 13        8.69           9.0            0.00
+Credit & Financial Services     Access to banking services 13        8.23           9.0            0.00
+                    Housing                   Homelessness 13        8.15           8.0            0.00
+           Criminal Justice   Arrest / detention by police 13        7.92           8.0            0.00
+Credit & Financial Services           Credit/loan approval 13        7.77           7.0            0.00
+                    Housing              Access to housing 13        7.77           8.0            0.08
+                    Housing              Housing stability 13        7.77           7.0            0.00
+           Criminal Justice            Police use of force 13        7.31           7.0            0.00
+                 Healthcare                Preventive care 13        7.23           8.0            0.00
+Credit & Financial Services               Access to credit 13        7.08           7.0            0.00
+        Government Benefits  Access to government benefits 13        7.00           6.0            0.00
+           Criminal Justice                  Incarceration 13        6.92           7.0            0.00
+                 Healthcare                 Patient safety 13        6.92           7.0            0.00
+                 Employment           Workplace harassment 13        6.77           6.0            0.00
+                 Employment                         Hiring 13        6.46           8.0            0.15
+                 Employment             Career advancement 13        6.31           7.0            0.15
+                 Healthcare             Insurance coverage 13        6.31           6.0            0.08
+
+================================================================================
+TABLE 4 — MEAN LINKS: GROUP × DOMAIN
+================================================================================
+domain                       Credit & Financial Services  Criminal Justice  Education  Employment  Government Benefits  Healthcare  Housing
+group                                                                                                                                      
+Black people                                       10.00              6.00      13.67        7.67                11.33        9.00     9.33
+Latino people                                      11.00              7.33       8.00        9.00                 8.67        7.33    10.00
+Men                                                 5.67              8.33       6.67        6.33                 7.67        7.00     8.33
+People with disabilities                            9.67              8.33      10.67        9.33                 9.33        9.00     8.33
+People without disabilities                         4.33              4.00       3.33        1.67                 7.67        4.00     8.33
+White people                                        7.33              3.00       5.00        4.33                 8.33        4.00     4.33
+Women                                              10.67              8.67       9.00        8.00                14.67        6.00     9.00
+cisgender people                                    6.67              9.33       7.33        1.33                11.67        2.33     5.33
+heterosexual people                                 7.67              9.33      15.33        5.67                 4.33        6.33     6.00
+homosexual people                                   9.67              6.00       8.00        7.67                12.00       10.33     8.00
+non-Latino people                                   4.00              5.67       7.00        6.00                11.33        7.33     6.33
+people                                              7.00              8.67      10.67        7.00                11.00        6.67     8.67
+transgender people                                  6.33             11.33      12.00       10.67                12.00        9.33    10.67
+
+================================================================================
+TABLE 5 — AI OVERVIEW PRESENCE BY GROUP
+================================================================================
+         dimension condition                       group  n  aio_present  aio_rate
+           Control   control                      people 21           21       1.0
+        Disability  majority People without disabilities 21           21       1.0
+        Disability  minority    People with disabilities 21           21       1.0
+         Ethnicity  majority           non-Latino people 21           21       1.0
+         Ethnicity  minority               Latino people 21           21       1.0
+            Gender  majority                         Men 21           21       1.0
+            Gender  minority                       Women 21           21       1.0
+   Gender Identity  majority            cisgender people 21           21       1.0
+   Gender Identity  minority          transgender people 21           21       1.0
+              Race  majority                White people 21           21       1.0
+              Race  minority                Black people 21           21       1.0
+Sexual Orientation  majority         heterosexual people 21           21       1.0
+Sexual Orientation  minority           homosexual people 21           21       1.0
+
+================================================================================
+GLOBAL GROUP TEST
+================================================================================
+
+Complete outcomes available for all groups: 21
+
+Friedman chi-square = 68.613
+p = 5.81753e-10
+
+→ Significant global group effect.
+
+================================================================================
+PAIRWISE GROUP COMPARISONS
+================================================================================
+
+Significant comparisons after Holm correction:
+
+                    group_1                     group_2  n_matched  mean_group_1  mean_group_2  mean_difference  rank_biserial  p_holm
+               White people                       Women         21        5.1905        9.4286          -4.2381        -1.0000  0.0066
+               Black people                White people         21        9.5714        5.1905           4.3810         0.9857  0.0081
+              Latino people                White people         21        8.7619        5.1905           3.5714         0.9810  0.0087
+People without disabilities                      people         21        4.7619        8.5238          -3.7619        -0.9524  0.0136
+   People with disabilities                White people         21        9.2381        5.1905           4.0476         0.9381  0.0165
+               White people          transgender people         21        5.1905       10.3333          -5.1429        -0.9091  0.0179
+People without disabilities                       Women         21        4.7619        9.4286          -4.6667        -0.9004  0.0210
+People without disabilities          transgender people         21        4.7619       10.3333          -5.5714        -0.9316  0.0257
+   People with disabilities People without disabilities         21        9.2381        4.7619           4.4762         0.9048  0.0261
+               White people           homosexual people         21        5.1905        8.8095          -3.6190        -1.0000  0.0289
+
+================================================================================
+MINORITY vs MAJORITY WITHIN EACH DIMENSION
+================================================================================
+         dimension           minority_group              majority_group  n_outcomes  minority_mean  majority_mean  mean_difference  median_difference  bootstrap_ci_low  bootstrap_ci_high  rank_biserial  wilcoxon_W  p_raw  p_holm  significant_holm
+        Disability People with disabilities People without disabilities          21         9.2381         4.7619           4.4762                6.0            2.9524             5.8571         0.9048        10.0 0.0004  0.0019              True
+         Ethnicity            Latino people           non-Latino people          21         8.7619         6.8095           1.9524                3.0            0.1417             3.5238         0.6368        34.5 0.0143  0.0489              True
+            Gender                    Women                         Men          21         9.4286         7.1429           2.2857                2.0            0.7143             4.0000         0.6608        29.0 0.0135  0.0489              True
+   Gender Identity       transgender people            cisgender people          21        10.3333         6.2857           4.0476                4.0            1.1429             6.8095         0.6234        43.5 0.0122  0.0489              True
+              Race             Black people                White people          21         9.5714         5.1905           4.3810                3.0            2.8095             6.1429         0.9857         1.5 0.0001  0.0006              True
+Sexual Orientation        homosexual people         heterosexual people          21         8.8095         7.8095           1.0000                2.0           -1.6667             3.6667         0.1754        70.5 0.5124  0.5124             False
+
+================================================================================
+AGGREGATED MINORITY vs MAJORITY
+================================================================================
+
+Minority conditions mean: 9.36
+Majority conditions mean: 6.33
+Mean paired difference: 3.02
+Wilcoxon p: 0.00036599
+Rank-biserial effect: 0.887
+
+================================================================================
+EXPLICIT GROUPS vs GENERIC CONTROL
+================================================================================
+                      group  n_matched  group_mean  control_mean  mean_difference  median_difference  rank_biserial  wilcoxon_W  p_raw  p_holm  significant_holm
+People without disabilities         21      4.7619        8.5238          -3.7619               -4.0        -0.9524         5.0 0.0002  0.0022              True
+               White people         21      5.1905        8.5238          -3.3333               -3.0        -0.8366        12.5 0.0024  0.0264              True
+          non-Latino people         21      6.8095        8.5238          -1.7143               -2.0        -0.6340        28.0 0.0212  0.2117             False
+                        Men         21      7.1429        8.5238          -1.3810               -2.0        -0.5205        41.0 0.0508  0.4143             False
+         transgender people         21     10.3333        8.5238           1.8095                2.0         0.5322        40.0 0.0460  0.4143             False
+           cisgender people         21      6.2857        8.5238          -2.2381               -4.0        -0.4526        52.0 0.0826  0.5781             False
+   People with disabilities         21      9.2381        8.5238           0.7143                1.0         0.3526        61.5 0.1720  1.0000             False
+              Latino people         21      8.7619        8.5238           0.2381                0.0         0.1520        72.5 0.5689  1.0000             False
+                      Women         21      9.4286        8.5238           0.9048                0.0         0.1619        44.0 0.5922  1.0000             False
+               Black people         21      9.5714        8.5238           1.0476                1.0         0.2619        77.5 0.3031  1.0000             False
+          homosexual people         21      8.8095        8.5238           0.2857                0.0         0.0392        73.5 0.8868  1.0000             False
+        heterosexual people         21      7.8095        8.5238          -0.7143               -1.0        -0.1842        77.5 0.4794  1.0000             False
+
+================================================================================
+DONE
+================================================================================
+
+All results saved to:
+/scratch/victoria.estanislau/ai-summary/results/link_count_analysis_la
+
+Combined JSON:
+/scratch/victoria.estanislau/ai-summary/results/link_count_analysis_la/all_results.json
+
+Generated files:
+  - README.txt
+  - aggregate_minority_vs_majority.csv
+  - aio_presence_by_group.csv
+  - all_results.json
+  - clean_aio_link_data.csv
+  - explicit_groups_vs_people.csv
+  - global_friedman_test.csv
+  - group_by_domain_mean_links.csv
+  - highest_link_counts.csv
+  - links_by_domain.csv
+  - links_by_group.csv
+  - links_by_outcome.csv
+  - lowest_link_counts.csv
+  - minority_vs_majority_by_dimension.csv
+  - pairwise_group_wilcoxon.csv

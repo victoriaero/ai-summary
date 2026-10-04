@@ -1,0 +1,28 @@
+{
+  "source_id": "09d6b357c5b03cdbef7c",
+  "normalized_url": "https://ecs.org/addressing-inequities-in-higher-education",
+  "fetch_timestamp_utc": "2026-10-04T02:33:13.097090+00:00",
+  "registrable_domain": "ecs.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ecs.org/addressing-inequities-in-higher-education/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 243662,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/09d6b357c5b03cdbef7c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/09d6b357c5b03cdbef7c.txt",
+  "text_chars": 1864,
+  "text_words": 279,
+  "extraction_status": "success",
+  "page_title": "Addressing Inequities in Higher Education",
+  "page_author": "Archive",
+  "page_date": "2021-07-22",
+  "site_name": "Education Commission of the States",
+  "canonical_url": "https://www.ecs.org/addressing-inequities-in-higher-education/"
+}

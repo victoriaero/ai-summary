@@ -1,0 +1,127 @@
+omitted_dimension,outcome_id,outcome_random_deviation,full_model_random_deviation,absolute_deviation_rank,domain,outcome
+Race,Credit & Financial Services :: Access to banking services,-0.10245109470809671,-0.02413446913802892,19,Credit & Financial Services,Access to banking services
+Race,Credit & Financial Services :: Access to credit,-0.004656867941277508,0.02091653991962493,21,Credit & Financial Services,Access to credit
+Race,Credit & Financial Services :: Credit/loan approval,0.33762292574258973,0.12228131029934607,13,Credit & Financial Services,Credit/loan approval
+Race,Criminal Justice :: Arrest / detention by police,-1.1292904757596987,-0.2719150189551251,2,Criminal Justice,Arrest / detention by police
+Race,Criminal Justice :: Incarceration,0.3376229257425898,0.08849305350610571,12,Criminal Justice,Incarceration
+Race,Criminal Justice :: Police use of force,-0.4936280017753737,-0.1142364872533366,6,Criminal Justice,Police use of force
+Race,Education :: College access/admission,0.5821084926596378,0.15606956709258646,4,Education,College access/admission
+Race,Education :: Educational opportunity/access,-0.24914243485832566,-0.057922725931269285,15,Education,Educational opportunity/access
+Race,Education :: Harassment/bullying,-1.324878929293337,-0.24938951442629811,1,Education,Harassment/bullying
+Race,Employment :: Career advancement,0.1420344722089512,0.03217929218403839,18,Employment,Career advancement
+Race,Employment :: Hiring,0.5332113792762283,0.14480681482817304,5,Employment,Hiring
+Race,Employment :: Workplace harassment,0.435417152509409,0.12228131029934607,8,Employment,Workplace harassment
+Race,Government Benefits :: Access to government benefits,-0.20024532147491597,-0.057922725931269285,16,Government Benefits,Access to government benefits
+Race,Government Benefits :: Application/approval,0.38652003912599947,-0.05792272593126925,10,Government Benefits,Application/approval
+Race,Government Benefits :: Benefit retention / renewal,0.19093158559236093,0.07723030124169224,17,Government Benefits,Benefit retention / renewal
+Race,Healthcare :: Insurance coverage,-0.39583377500855443,-0.1142364872533366,9,Healthcare,Insurance coverage
+Race,Healthcare :: Patient safety,0.8265940595766859,0.18985782388582687,3,Healthcare,Patient safety
+Race,Healthcare :: Preventive care,0.2887258123591801,0.03217929218403838,14,Healthcare,Preventive care
+Race,Housing :: Access to housing,-0.05355398132468714,0.009653787655211462,20,Housing,Access to housing
+Race,Housing :: Homelessness,-0.4936280017753737,-0.08044823046009622,6,Housing,Homelessness
+Race,Housing :: Housing stability,0.3865200391259994,0.03217929218403837,11,Housing,Housing stability
+Ethnicity,Credit & Financial Services :: Access to banking services,-0.11048836862991245,-0.02413446913802892,18,Credit & Financial Services,Access to banking services
+Ethnicity,Credit & Financial Services :: Access to credit,-0.1461846108026534,0.02091653991962493,15,Credit & Financial Services,Access to credit
+Ethnicity,Credit & Financial Services :: Credit/loan approval,0.2464740530974969,0.12228131029934607,10,Credit & Financial Services,Credit/loan approval
+Ethnicity,Criminal Justice :: Arrest / detention by police,-0.8601094542574723,-0.2719150189551251,1,Criminal Justice,Arrest / detention by police
+Ethnicity,Criminal Justice :: Incarceration,0.3178665374429788,0.08849305350610571,6,Criminal Justice,Incarceration
+Ethnicity,Criminal Justice :: Police use of force,-0.2175770951481353,-0.1142364872533366,11,Criminal Justice,Police use of force
+Ethnicity,Education :: College access/admission,0.8533101700340928,0.15606956709258646,2,Education,College access/admission
+Ethnicity,Education :: Educational opportunity/access,-0.2889695794936172,-0.057922725931269285,7,Education,Educational opportunity/access
+Ethnicity,Education :: Harassment/bullying,-0.6459320012210266,-0.24938951442629811,3,Education,Harassment/bullying
+Ethnicity,Employment :: Career advancement,0.06799284223379222,0.03217929218403839,20,Employment,Career advancement
+Ethnicity,Employment :: Hiring,0.17508156875201508,0.14480681482817304,14,Employment,Hiring
+Ethnicity,Employment :: Workplace harassment,0.24647405309749695,0.12228131029934607,9,Employment,Workplace harassment
+Ethnicity,Government Benefits :: Access to government benefits,-0.11048836862991249,-0.057922725931269285,17,Government Benefits,Access to government benefits
+Ethnicity,Government Benefits :: Application/approval,-0.2889695794936172,-0.05792272593126925,7,Government Benefits,Application/approval
+Ethnicity,Government Benefits :: Benefit retention / renewal,0.3892590217884608,0.07723030124169224,5,Government Benefits,Benefit retention / renewal
+Ethnicity,Healthcare :: Insurance coverage,-0.1818808529753943,-0.1142364872533366,13,Healthcare,Insurance coverage
+Ethnicity,Healthcare :: Patient safety,0.4606515061339426,0.18985782388582687,4,Healthcare,Patient safety
+Ethnicity,Healthcare :: Preventive care,0.06799284223379222,0.03217929218403838,20,Healthcare,Preventive care
+Ethnicity,Housing :: Access to housing,0.10368908440653324,0.009653787655211462,19,Housing,Access to housing
+Ethnicity,Housing :: Homelessness,-0.2175770951481353,-0.08044823046009622,11,Housing,Homelessness
+Ethnicity,Housing :: Housing stability,0.13938532657927408,0.03217929218403837,16,Housing,Housing stability
+Gender,Credit & Financial Services :: Access to banking services,-0.09852653772242904,-0.02413446913802892,15,Credit & Financial Services,Access to banking services
+Gender,Credit & Financial Services :: Access to credit,0.05822022683598086,0.02091653991962493,19,Credit & Financial Services,Access to credit
+Gender,Credit & Financial Services :: Credit/loan approval,0.34036440304111876,0.12228131029934607,7,Credit & Financial Services,Credit/loan approval
+Gender,Criminal Justice :: Arrest / detention by police,-0.7568629488677507,-0.2719150189551251,1,Criminal Justice,Arrest / detention by police
+Gender,Criminal Justice :: Incarceration,0.34036440304111876,0.08849305350610571,7,Criminal Justice,Incarceration
+Gender,Criminal Justice :: Police use of force,-0.255273302280839,-0.1142364872533366,11,Criminal Justice,Police use of force
+Gender,Education :: College access/admission,0.5598098734228926,0.15606956709258646,3,Education,College access/admission
+Gender,Education :: Educational opportunity/access,-0.03582783189906508,-0.057922725931269285,20,Education,Educational opportunity/access
+Gender,Education :: Harassment/bullying,-0.5687668313976588,-0.24938951442629811,2,Education,Harassment/bullying
+Gender,Employment :: Career advancement,0.02687087392429892,0.03217929218403839,21,Employment,Career advancement
+Gender,Employment :: Hiring,0.46576181468784666,0.14480681482817304,4,Employment,Hiring
+Gender,Employment :: Workplace harassment,0.30901505012943675,0.12228131029934607,10,Employment,Workplace harassment
+Gender,Government Benefits :: Access to government benefits,-0.161225243545793,-0.057922725931269285,14,Government Benefits,Access to government benefits
+Gender,Government Benefits :: Application/approval,-0.349321361015885,-0.05792272593126925,6,Government Benefits,Application/approval
+Gender,Government Benefits :: Benefit retention / renewal,0.18361763848270884,0.07723030124169224,13,Government Benefits,Benefit retention / renewal
+Gender,Healthcare :: Insurance coverage,-0.31797200810420295,-0.1142364872533366,9,Healthcare,Insurance coverage
+Gender,Healthcare :: Patient safety,0.3717137559528007,0.18985782388582687,5,Healthcare,Patient safety
+Gender,Healthcare :: Preventive care,0.08956957974766283,0.03217929218403838,17,Healthcare,Preventive care
+Gender,Housing :: Access to housing,-0.22392394936915697,0.009653787655211462,12,Housing,Access to housing
+Gender,Housing :: Homelessness,-0.06717718481074705,-0.08044823046009622,18,Housing,Homelessness
+Gender,Housing :: Housing stability,0.08956957974766287,0.03217929218403837,16,Housing,Housing stability
+Disability,Credit & Financial Services :: Access to banking services,-5.085615670149127e-10,-0.02413446913802892,14,Credit & Financial Services,Access to banking services
+Disability,Credit & Financial Services :: Access to credit,4.246242210027422e-10,0.02091653991962493,15,Credit & Financial Services,Access to credit
+Disability,Credit & Financial Services :: Credit/loan approval,1.2541226992406575e-09,0.12228131029934607,4,Credit & Financial Services,Credit/loan approval
+Disability,Criminal Justice :: Arrest / detention by police,-1.960183903931264e-09,-0.2719150189551251,2,Criminal Justice,Arrest / detention by police
+Disability,Criminal Justice :: Incarceration,3.209369112230027e-10,0.08849305350610571,17,Criminal Justice,Incarceration
+Disability,Criminal Justice :: Police use of force,-9.233108061338704e-10,-0.1142364872533366,8,Criminal Justice,Police use of force
+Disability,Education :: College access/admission,9.430607699014395e-10,0.15606956709258646,6,Education,College access/admission
+Disability,Education :: Educational opportunity/access,-8.196234963541309e-10,-0.057922725931269285,10,Education,Educational opportunity/access
+Disability,Education :: Harassment/bullying,-2.1675585234907435e-09,-0.24938951442629811,1,Education,Harassment/bullying
+Disability,Employment :: Career advancement,-3.0118694745543386e-10,0.03217929218403839,18,Employment,Career advancement
+Disability,Employment :: Hiring,8.393734601216995e-10,0.14480681482817304,9,Employment,Hiring
+Disability,Employment :: Workplace harassment,9.430607699014393e-10,0.12228131029934607,7,Employment,Workplace harassment
+Disability,Government Benefits :: Access to government benefits,-6.122488767946521e-10,-0.057922725931269285,11,Government Benefits,Access to government benefits
+Disability,Government Benefits :: Application/approval,2.172496014432634e-10,-0.05792272593126925,19,Government Benefits,Application/approval
+Disability,Government Benefits :: Benefit retention / renewal,-9.381232789595498e-11,0.07723030124169224,21,Government Benefits,Benefit retention / renewal
+Disability,Healthcare :: Insurance coverage,-6.122488767946519e-10,-0.1142364872533366,12,Healthcare,Insurance coverage
+Disability,Healthcare :: Patient safety,1.565184628579876e-09,0.18985782388582687,3,Healthcare,Patient safety
+Disability,Healthcare :: Preventive care,2.1724960144326326e-10,0.03217929218403838,20,Healthcare,Preventive care
+Disability,Housing :: Access to housing,1.1504353894609183e-09,0.009653787655211462,5,Housing,Access to housing
+Disability,Housing :: Homelessness,-4.0487425723517323e-10,-0.08044823046009622,16,Housing,Homelessness
+Disability,Housing :: Housing stability,5.283115307824814e-10,0.03217929218403837,13,Housing,Housing stability
+Sexual Orientation,Credit & Financial Services :: Access to banking services,2.935914479795963e-09,-0.02413446913802892,19,Credit & Financial Services,Access to banking services
+Sexual Orientation,Credit & Financial Services :: Access to credit,5.943436629830835e-09,0.02091653991962493,16,Credit & Financial Services,Access to credit
+Sexual Orientation,Credit & Financial Services :: Credit/loan approval,1.6469764154952888e-08,0.12228131029934607,5,Credit & Financial Services,Credit/loan approval
+Sexual Orientation,Criminal Justice :: Arrest / detention by police,-2.112426272048302e-08,-0.2719150189551251,3,Criminal Justice,Arrest / detention by police
+Sexual Orientation,Criminal Justice :: Incarceration,5.9434366298308345e-09,0.08849305350610571,17,Criminal Justice,Incarceration
+Sexual Orientation,Criminal Justice :: Police use of force,-1.3605457345395836e-08,-0.1142364872533366,9,Criminal Justice,Police use of force
+Sexual Orientation,Education :: College access/admission,1.1958480929900579e-08,0.15606956709258646,10,Education,College access/admission
+Sexual Orientation,Education :: Educational opportunity/access,-7.590413045326093e-09,-0.057922725931269285,15,Education,Educational opportunity/access
+Sexual Orientation,Education :: Harassment/bullying,-2.112426272048302e-08,-0.24938951442629811,3,Education,Harassment/bullying
+Sexual Orientation,Employment :: Career advancement,5.943436629830834e-09,0.03217929218403839,18,Employment,Career advancement
+Sexual Orientation,Employment :: Hiring,1.4966003079935453e-08,0.14480681482817304,8,Employment,Hiring
+Sexual Orientation,Employment :: Workplace harassment,1.6469764154952888e-08,0.12228131029934607,5,Employment,Workplace harassment
+Sexual Orientation,Government Benefits :: Access to government benefits,-1.0597935195360964e-08,-0.057922725931269285,11,Government Benefits,Access to government benefits
+Sexual Orientation,Government Benefits :: Application/approval,-1.5109218420413276e-08,-0.05792272593126925,7,Government Benefits,Application/approval
+Sexual Orientation,Government Benefits :: Benefit retention / renewal,8.950958779865706e-09,0.07723030124169224,13,Government Benefits,Benefit retention / renewal
+Sexual Orientation,Healthcare :: Insurance coverage,-2.2628023795500452e-08,-0.1142364872533366,1,Healthcare,Insurance coverage
+Sexual Orientation,Healthcare :: Patient safety,2.2484808455022633e-08,0.18985782388582687,2,Healthcare,Patient safety
+Sexual Orientation,Healthcare :: Preventive care,8.950958779865706e-09,0.03217929218403838,13,Healthcare,Preventive care
+Sexual Orientation,Housing :: Access to housing,-7.160767023890891e-11,0.009653787655211462,21,Housing,Access to housing
+Sexual Orientation,Housing :: Homelessness,-9.094174120343529e-09,-0.08044823046009622,12,Housing,Homelessness
+Sexual Orientation,Housing :: Housing stability,-7.160767023890973e-11,0.03217929218403837,20,Housing,Housing stability
+Gender Identity,Credit & Financial Services :: Access to banking services,1.3160094141734219e-09,-0.02413446913802892,20,Credit & Financial Services,Access to banking services
+Gender Identity,Credit & Financial Services :: Access to credit,8.225058838583801e-09,0.02091653991962493,16,Credit & Financial Services,Access to credit
+Gender Identity,Credit & Financial Services :: Credit/loan approval,1.5134108262994184e-08,0.12228131029934607,10,Credit & Financial Services,Credit/loan approval
+Gender Identity,Criminal Justice :: Arrest / detention by police,-3.78352706574854e-08,-0.2719150189551251,1,Criminal Justice,Arrest / detention by police
+Gender Identity,Criminal Justice :: Incarceration,1.2831091788190722e-08,0.08849305350610571,13,Criminal Justice,Incarceration
+Gender Identity,Criminal Justice :: Police use of force,-1.9411138859057717e-08,-0.1142364872533366,7,Criminal Justice,Police use of force
+Gender Identity,Education :: College access/admission,-3.2900235354334996e-09,0.15606956709258646,19,Education,College access/admission
+Gender Identity,Education :: Educational opportunity/access,3.619025888976882e-09,-0.057922725931269285,17,Education,Educational opportunity/access
+Gender Identity,Education :: Harassment/bullying,-2.862320475827156e-08,-0.24938951442629811,4,Education,Harassment/bullying
+Gender Identity,Employment :: Career advancement,1.7437124737797645e-08,0.03217929218403839,8,Employment,Career advancement
+Gender Identity,Employment :: Hiring,3.5861256536225326e-08,0.14480681482817304,2,Employment,Hiring
+Gender Identity,Employment :: Workplace harassment,1.9740141212601103e-08,0.12228131029934607,5,Employment,Workplace harassment
+Gender Identity,Government Benefits :: Access to government benefits,-9.870070606300372e-10,-0.057922725931269285,21,Government Benefits,Access to government benefits
+Gender Identity,Government Benefits :: Application/approval,-1.4805105909450801e-08,-0.05792272593126925,11,Government Benefits,Application/approval
+Gender Identity,Government Benefits :: Benefit retention / renewal,1.9740141212601103e-08,0.07723030124169224,5,Government Benefits,Benefit retention / renewal
+Gender Identity,Healthcare :: Insurance coverage,-1.4805105909450801e-08,-0.1142364872533366,11,Healthcare,Insurance coverage
+Gender Identity,Healthcare :: Patient safety,2.8952207111814947e-08,0.18985782388582687,3,Healthcare,Patient safety
+Gender Identity,Healthcare :: Preventive care,-1.0199072959843878e-08,0.03217929218403838,15,Healthcare,Preventive care
+Gender Identity,Housing :: Access to housing,-3.2900235354335013e-09,0.009653787655211462,18,Housing,Access to housing
+Gender Identity,Housing :: Homelessness,-1.7108122384254262e-08,-0.08044823046009622,9,Housing,Homelessness
+Gender Identity,Housing :: Housing stability,-1.250208943464734e-08,0.03217929218403837,14,Housing,Housing stability

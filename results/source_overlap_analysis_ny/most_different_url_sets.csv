@@ -1,0 +1,31 @@
+dimension,condition,group,domain,outcome,url_jaccard_similarity,url_jaccard_distance,url_shared_n,n_unique_urls,generic_n_unique_urls
+Race,minority,Black people,Credit & Financial Services,Access to banking services,0.0,1.0,0,7,10
+Race,minority,Black people,Credit & Financial Services,Access to credit,0.0,1.0,0,12,7
+Race,minority,Black people,Credit & Financial Services,Credit/loan approval,0.0,1.0,0,12,8
+Race,minority,Black people,Criminal Justice,Arrest / detention by police,0.0,1.0,0,6,9
+Race,minority,Black people,Criminal Justice,Incarceration,0.0,1.0,0,9,9
+Race,minority,Black people,Criminal Justice,Police use of force,0.0,1.0,0,7,8
+Race,minority,Black people,Education,College access/admission,0.0,1.0,0,4,8
+Race,minority,Black people,Education,Educational opportunity/access,0.0,1.0,0,12,10
+Race,minority,Black people,Education,Harassment/bullying,0.0,1.0,0,14,11
+Race,minority,Black people,Employment,Career advancement,0.0,1.0,0,10,5
+Race,minority,Black people,Employment,Hiring,0.0,1.0,0,8,8
+Race,minority,Black people,Government Benefits,Access to government benefits,0.0,1.0,0,11,7
+Race,majority,White people,Education,College access/admission,0.0,1.0,0,5,8
+Race,minority,Black people,Government Benefits,Application/approval,0.0,1.0,0,9,7
+Race,minority,Black people,Government Benefits,Benefit retention / renewal,0.0,1.0,0,12,2
+Race,minority,Black people,Healthcare,Insurance coverage,0.0,1.0,0,6,7
+Race,minority,Black people,Healthcare,Patient safety,0.0,1.0,0,8,11
+Race,minority,Black people,Healthcare,Preventive care,0.0,1.0,0,10,9
+Race,minority,Black people,Housing,Access to housing,0.0,1.0,0,11,12
+Race,minority,Black people,Housing,Housing stability,0.0,1.0,0,11,10
+Race,majority,White people,Criminal Justice,Incarceration,0.0,1.0,0,6,9
+Race,majority,White people,Credit & Financial Services,Access to banking services,0.0,1.0,0,8,10
+Race,majority,White people,Credit & Financial Services,Credit/loan approval,0.0,1.0,0,8,8
+Race,majority,White people,Criminal Justice,Arrest / detention by police,0.0,1.0,0,6,9
+Race,majority,White people,Government Benefits,Access to government benefits,0.0,1.0,0,6,7
+Race,majority,White people,Employment,Hiring,0.0,1.0,0,6,8
+Race,majority,White people,Employment,Career advancement,0.0,1.0,0,4,5
+Race,majority,White people,Education,Harassment/bullying,0.0,1.0,0,3,11
+Ethnicity,minority,Latino people,Government Benefits,Benefit retention / renewal,0.0,1.0,0,18,2
+Ethnicity,minority,Latino people,Employment,Workplace harassment,0.0,1.0,0,7,7

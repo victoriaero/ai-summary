@@ -1,0 +1,28 @@
+{
+  "source_id": "d97fb2830f9f2488aeae",
+  "normalized_url": "https://home.treasury.gov/news/featured-stories/spotlighting-womens-retirement-security",
+  "fetch_timestamp_utc": "2026-10-04T03:46:55.059150+00:00",
+  "registrable_domain": "treasury.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://home.treasury.gov/news/featured-stories/spotlighting-womens-retirement-security",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 129082,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/d97fb2830f9f2488aeae.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/d97fb2830f9f2488aeae.txt",
+  "text_chars": 41502,
+  "text_words": 5296,
+  "extraction_status": "success",
+  "page_title": "Spotlighting Women’s Retirement Security",
+  "page_author": null,
+  "page_date": "2024-09-20",
+  "site_name": "U.S. Department of the Treasury",
+  "canonical_url": "https://home.treasury.gov/news/featured-stories/spotlighting-womens-retirement-security"
+}

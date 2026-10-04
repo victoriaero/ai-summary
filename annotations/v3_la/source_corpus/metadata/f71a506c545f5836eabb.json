@@ -1,0 +1,28 @@
+{
+  "source_id": "f71a506c545f5836eabb",
+  "normalized_url": "https://policingequity.org/resource-library/use-of-force",
+  "fetch_timestamp_utc": "2026-10-04T03:49:20.372581+00:00",
+  "registrable_domain": "policingequity.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://policingequity.org/resource-library/use-of-force/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 320584,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f71a506c545f5836eabb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f71a506c545f5836eabb.txt",
+  "text_chars": 1954,
+  "text_words": 303,
+  "extraction_status": "success",
+  "page_title": "Use of Force - Policing Equity",
+  "page_author": null,
+  "page_date": "2026-01-13",
+  "site_name": "Policing Equity",
+  "canonical_url": "https://policingequity.org/resource-library/use-of-force/"
+}

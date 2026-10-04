@@ -1,0 +1,28 @@
+{
+  "source_id": "a6ade2be0ee7fa8203cc",
+  "normalized_url": "https://uchicagomedicineadventhealth.org/blog/5-common-health-conditions-affect-hispanic-communities",
+  "fetch_timestamp_utc": "2026-10-04T03:43:29.480654+00:00",
+  "registrable_domain": "uchicagomedicineadventhealth.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.uchicagomedicineadventhealth.org/blog/5-common-health-conditions-affect-hispanic-communities",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 161837,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a6ade2be0ee7fa8203cc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a6ade2be0ee7fa8203cc.txt",
+  "text_chars": 5816,
+  "text_words": 883,
+  "extraction_status": "success",
+  "page_title": "5 Common Health Conditions That Affect Hispanic Communities",
+  "page_author": "UChicago Medicine AdventHealth",
+  "page_date": "2024-07-18",
+  "site_name": "UChicago Medicine AdventHealth",
+  "canonical_url": "https://www.uchicagomedicineadventhealth.org/blog/5-common-health-conditions-affect-hispanic-communities"
+}

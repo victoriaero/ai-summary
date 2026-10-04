@@ -1,0 +1,33 @@
+{
+  "source_id": "3eda9257d20385a68d22",
+  "normalized_url": "https://partnershipfcc.org/publications/affirmativeaction",
+  "fetch_timestamp_utc": "2026-09-29T19:24:05.835393+00:00",
+  "registrable_domain": "partnershipfcc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://partnershipfcc.org/publications/affirmativeaction/",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:24:03 GMT",
+    "Server": "Apache",
+    "Permissions-Policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")",
+    "Link": "<https://partnershipfcc.org/wp-json/>; rel=\"https://api.w.org/\", <https://partnershipfcc.org/wp-json/wp/v2/publication/5594>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://partnershipfcc.org/?p=5594>; rel=shortlink",
+    "Keep-Alive": "timeout=2, max=98",
+    "Connection": "Keep-Alive",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "downloaded_bytes": 121717,
+  "content_kind": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/raw/3eda9257d20385a68d22.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/3eda9257d20385a68d22.txt",
+  "text_chars": 34221,
+  "text_words": 5034,
+  "extraction_status": "success",
+  "page_title": "Racial Diversity on Campus After Affirmative Action",
+  "page_author": null,
+  "page_date": "2023-08-17",
+  "site_name": "partnershipfcc.org",
+  "canonical_url": "https://partnershipfcc.org/publications/affirmativeaction/"
+}

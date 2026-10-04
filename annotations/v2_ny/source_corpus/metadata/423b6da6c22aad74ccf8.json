@@ -1,0 +1,28 @@
+{
+  "source_id": "423b6da6c22aad74ccf8",
+  "normalized_url": "https://evidenceforjustice.georgetown.edu/race-gender/police-use-of-force-interactions-is-race-relevant-or-gender-germane",
+  "fetch_timestamp_utc": "2026-10-04T02:37:44.734170+00:00",
+  "registrable_domain": "georgetown.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://evidenceforjustice.georgetown.edu/race-gender/police-use-of-force-interactions-is-race-relevant-or-gender-germane/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 193336,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/423b6da6c22aad74ccf8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/423b6da6c22aad74ccf8.txt",
+  "text_chars": 961,
+  "text_words": 134,
+  "extraction_status": "success",
+  "page_title": "Racial and Gender Dynamics in Police Use of Force - Evidence for Justice Lab",
+  "page_author": "Tf",
+  "page_date": "2025-12-12",
+  "site_name": "Evidence for Justice Lab",
+  "canonical_url": "https://evidenceforjustice.georgetown.edu/race-gender/police-use-of-force-interactions-is-race-relevant-or-gender-germane/"
+}

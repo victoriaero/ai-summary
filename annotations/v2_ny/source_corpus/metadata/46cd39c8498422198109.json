@@ -1,0 +1,28 @@
+{
+  "source_id": "46cd39c8498422198109",
+  "normalized_url": "https://themarkup.org/denied/2021/08/25/the-secret-bias-hidden-in-mortgage-approval-algorithms",
+  "fetch_timestamp_utc": "2026-10-04T02:38:08.489511+00:00",
+  "registrable_domain": "themarkup.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://themarkup.org/denied/2021/08/25/the-secret-bias-hidden-in-mortgage-approval-algorithms",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 294560,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/46cd39c8498422198109.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/46cd39c8498422198109.txt",
+  "text_chars": 25464,
+  "text_words": 4058,
+  "extraction_status": "success",
+  "page_title": "The Secret Bias Hidden in Mortgage-Approval Algorithms – The Markup",
+  "page_author": null,
+  "page_date": "2021-08-25",
+  "site_name": "Themarkup",
+  "canonical_url": "https://themarkup.org/denied/2021/08/25/the-secret-bias-hidden-in-mortgage-approval-algorithms"
+}

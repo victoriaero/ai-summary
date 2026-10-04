@@ -1,0 +1,28 @@
+{
+  "source_id": "bc29b1badb4f6253e3e0",
+  "normalized_url": "https://luminafoundation.org/news-and-views/from-access-to-value-community-colleges-expand-pathways-for-hispanic-students",
+  "fetch_timestamp_utc": "2026-10-04T03:44:47.818480+00:00",
+  "registrable_domain": "luminafoundation.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.luminafoundation.org/news-and-views/from-access-to-value-community-colleges-expand-pathways-for-hispanic-students/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 138623,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/bc29b1badb4f6253e3e0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/bc29b1badb4f6253e3e0.txt",
+  "text_chars": 5856,
+  "text_words": 896,
+  "extraction_status": "success",
+  "page_title": "From access to value: Community colleges expand pathways for Hispanic students",
+  "page_author": "Matthew Jenkins",
+  "page_date": "2026-04-14",
+  "site_name": "Lumina Foundation",
+  "canonical_url": "https://www.luminafoundation.org/news-and-views/from-access-to-value-community-colleges-expand-pathways-for-hispanic-students/"
+}

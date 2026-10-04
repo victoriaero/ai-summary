@@ -1,0 +1,25 @@
+{
+  "source_id": "b7a3e143339ef1b70344",
+  "normalized_url": "https://psnet.ahrq.gov/perspective/patient-safety-concerns-and-lgbtq-population",
+  "fetch_timestamp_utc": "2026-09-29T19:36:43.861453+00:00",
+  "registrable_domain": "ahrq.gov",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://psnet.ahrq.gov/perspective/patient-safety-concerns-and-lgbtq-population",
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Tue, 29 Sep 2026 19:36:47 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "986",
+    "Connection": "keep-alive",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 0ff114dd4e5c18f8f34c4e69124def44.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MIA3-P1",
+    "X-Amz-Cf-Id": "cgwYtorfMplfJU0jUcGNnrZvVJcF_SEVTmvqLxaAEx3_1OZDCL65ig=="
+  },
+  "downloaded_bytes": 986,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

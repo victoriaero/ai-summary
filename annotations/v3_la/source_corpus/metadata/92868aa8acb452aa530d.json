@@ -1,0 +1,20 @@
+{
+  "source_id": "92868aa8acb452aa530d",
+  "normalized_url": "https://scholarworks.merrimack.edu/cgi/viewcontent.cgi?article=1138&context=soe_student_ce",
+  "fetch_timestamp_utc": "2026-10-04T03:41:47.352075+00:00",
+  "registrable_domain": "merrimack.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://scholarworks.merrimack.edu/cgi/viewcontent.cgi?article=1138&context=soe_student_ce",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5847,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

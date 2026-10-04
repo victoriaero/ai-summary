@@ -1,0 +1,28 @@
+{
+  "source_id": "9448970c042845b2343e",
+  "normalized_url": "https://moneymanagement.org/blog/why-good-credit-is-harder-to-achieve-in-communities-of-color",
+  "fetch_timestamp_utc": "2026-10-04T03:41:52.987422+00:00",
+  "registrable_domain": "moneymanagement.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.moneymanagement.org/blog/why-good-credit-is-harder-to-achieve-in-communities-of-color",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 68634,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/9448970c042845b2343e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/9448970c042845b2343e.txt",
+  "text_chars": 6423,
+  "text_words": 1039,
+  "extraction_status": "success",
+  "page_title": "Credit History: How it Matters for Communities of Color | MMI",
+  "page_author": "Kate Bulger",
+  "page_date": "2023-06-28",
+  "site_name": "Money Management International",
+  "canonical_url": "http://www.moneymanagement.org/blog/why-good-credit-is-harder-to-achieve-in-communities-of-color"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "2e0abf8174615ebf0011",
+  "normalized_url": "https://lapdonline.org/newsroom/policy-on-the-use-of-force-revised",
+  "fetch_timestamp_utc": "2026-10-04T03:34:03.970878+00:00",
+  "registrable_domain": "lapdonline.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://lapdonline.org/newsroom/policy-on-the-use-of-force-revised",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 435,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

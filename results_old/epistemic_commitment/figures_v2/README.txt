@@ -1,0 +1,1 @@
+Exploratory PNG figures for epistemic-commitment v2. Descriptive only; no PDFs are produced. Generic people responses are reused across dimensions for display and must not be treated as independent in inference.

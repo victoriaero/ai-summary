@@ -1,0 +1,9 @@
+{
+  "model_id": "microsoft/phi-4",
+  "model_path": "/scratch/LLMs/models/microsoft/phi-4",
+  "model_fingerprint": "b289a578786bb15d4cbf7f51a72b4495c4a225fd748f6de20fd8a83fec2c3969",
+  "embedding_model_id": "sentence-transformers/all-mpnet-base-v2",
+  "embedding_path": "/scratch/victoria.estanislau/models/all-mpnet-base-v2",
+  "embedding_fingerprint": "8f1f03156ca2bbe08950fd3ae57dc028ba6faf2f114a18f22f474364fe244d7e",
+  "prompt_version": "aio-claims-preserving-v1"
+}

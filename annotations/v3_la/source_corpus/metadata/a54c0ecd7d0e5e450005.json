@@ -1,0 +1,28 @@
+{
+  "source_id": "a54c0ecd7d0e5e450005",
+  "normalized_url": "https://mapresearch.org/file/lgbt-older-adults-and-social-security.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:43:19.032281+00:00",
+  "registrable_domain": "mapresearch.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://mapresearch.org/file/lgbt-older-adults-and-social-security.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 900263,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a54c0ecd7d0e5e450005.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a54c0ecd7d0e5e450005.txt",
+  "text_chars": 19398,
+  "text_words": 3047,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

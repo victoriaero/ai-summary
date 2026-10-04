@@ -1,0 +1,28 @@
+{
+  "source_id": "5ec2b2afd5ebcb806b1f",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081855",
+  "fetch_timestamp_utc": "2026-10-04T02:40:07.015668+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081855/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 185850,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5ec2b2afd5ebcb806b1f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5ec2b2afd5ebcb806b1f.txt",
+  "text_chars": 41299,
+  "text_words": 6079,
+  "extraction_status": "success",
+  "page_title": "Social disparities in patient safety in primary care: a systematic review",
+  "page_author": "Carlotta Piccardi; Jens Detollenaere; Pierre Vanden Bussche; Sara Willems",
+  "page_date": "2018-08-07",
+  "site_name": "International Journal for Equity in Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6081855/"
+}

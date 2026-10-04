@@ -1,0 +1,28 @@
+{
+  "source_id": "bc8e3fc7ceedfacb2e5b",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6708348",
+  "fetch_timestamp_utc": "2026-10-04T02:47:39.618944+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6708348/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 160330,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/bc8e3fc7ceedfacb2e5b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/bc8e3fc7ceedfacb2e5b.txt",
+  "text_chars": 28209,
+  "text_words": 4510,
+  "extraction_status": "success",
+  "page_title": "Risk of being killed by police use of force in the United States by age, race–ethnicity, and sex",
+  "page_author": "Frank Edwards; Hedwig Lee; Michael Esposito",
+  "page_date": "2019-08-05",
+  "site_name": "Proceedings of the National Academy of Sciences of the United States of America",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6708348/"
+}

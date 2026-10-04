@@ -1,0 +1,28 @@
+{
+  "source_id": "7af7226db00e20910897",
+  "normalized_url": "https://nacdl.org/Content/Race-and-Policing",
+  "fetch_timestamp_utc": "2026-10-04T02:42:24.368177+00:00",
+  "registrable_domain": "nacdl.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nacdl.org/Content/Race-and-Policing",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 288371,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7af7226db00e20910897.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7af7226db00e20910897.txt",
+  "text_chars": 6683,
+  "text_words": 1022,
+  "extraction_status": "success",
+  "page_title": "NACDL - Race and Policing",
+  "page_author": null,
+  "page_date": "2022-11-29",
+  "site_name": "NACDL - National Association of Criminal Defense Lawyers",
+  "canonical_url": "https://www.nacdl.org/Content/Race-and-Policing"
+}

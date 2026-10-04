@@ -1,0 +1,28 @@
+{
+  "source_id": "95327bddeb623f2654b7",
+  "normalized_url": "https://psychologytoday.com/us/blog/gender-and-schooling/202502/what-can-help-teachers-intervene-in-anti-lgbtq-harassment",
+  "fetch_timestamp_utc": "2026-10-04T02:44:27.015815+00:00",
+  "registrable_domain": "psychologytoday.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.psychologytoday.com:443/us/blog/gender-and-schooling/202502/what-can-help-teachers-intervene-in-anti-lgbtq-harassment",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 135504,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/95327bddeb623f2654b7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/95327bddeb623f2654b7.txt",
+  "text_chars": 5199,
+  "text_words": 756,
+  "extraction_status": "success",
+  "page_title": "What Can Help Teachers Intervene in Anti-LGBTQ Harassment?",
+  "page_author": "Elizabeth J Meyer Ph D",
+  "page_date": "2025-02-24",
+  "site_name": "Psychology Today",
+  "canonical_url": "https://www.psychologytoday.com/us/blog/gender-and-schooling/202502/what-can-help-teachers-intervene-in-anti-lgbtq-harassment"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "9f78543b2ef115bd6b40",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5060404",
+  "fetch_timestamp_utc": "2026-10-04T03:42:50.045861+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5060404/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 168399,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/9f78543b2ef115bd6b40.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/9f78543b2ef115bd6b40.txt",
+  "text_chars": 34348,
+  "text_words": 5179,
+  "extraction_status": "success",
+  "page_title": "Patient involvement in patient safety: what factors influence patient participation and engagement?",
+  "page_author": "Rachel E Davis; Rosamond Jacklin; Nick Sevdalis; Charles A Vincent",
+  "page_date": "2007-07-06",
+  "site_name": "Health Expectations : An International Journal of Public Participation in Health Care and Health Policy",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5060404/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "e0386888a711d7c65a88",
+  "normalized_url": "https://kff.org/racial-equity-and-health-policy/how-history-has-shaped-racial-and-ethnic-health-disparities-a-timeline-of-policies-and-events?entry=1808-to-1890-alaska-purchase",
+  "fetch_timestamp_utc": "2026-10-04T02:50:22.274708+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/racial-equity-and-health-policy/how-history-has-shaped-racial-and-ethnic-health-disparities-a-timeline-of-policies-and-events/?entry=1808-to-1890-alaska-purchase",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 530598,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e0386888a711d7c65a88.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e0386888a711d7c65a88.txt",
+  "text_chars": 74120,
+  "text_words": 11055,
+  "extraction_status": "success",
+  "page_title": "How History Has Shaped Racial and Ethnic Health Disparities: A Timeline of Policies and Events | KFF",
+  "page_author": "Kffmichaelp",
+  "page_date": "2024-01-11",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/racial-equity-and-health-policy/how-history-has-shaped-racial-and-ethnic-health-disparities-a-timeline-of-policies-and-events/"
+}

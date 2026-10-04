@@ -1,0 +1,28 @@
+{
+  "source_id": "8e3eb499089acd7d9a52",
+  "normalized_url": "https://kff.org/private-insurance/new-rule-proposes-changes-to-aca-coverage-of-gender-affirming-care-potentially-increasing-costs-for-consumers",
+  "fetch_timestamp_utc": "2026-10-04T03:41:30.811809+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/private-insurance/new-rule-proposes-changes-to-aca-coverage-of-gender-affirming-care-potentially-increasing-costs-for-consumers/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 121876,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8e3eb499089acd7d9a52.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8e3eb499089acd7d9a52.txt",
+  "text_chars": 7680,
+  "text_words": 1154,
+  "extraction_status": "success",
+  "page_title": "New Rule Proposes Changes to ACA Coverage of Gender-Affirming Care, Potentially Increasing Costs for Consumers | KFF",
+  "page_author": "Lindsey Dawson; Kaye Pestaina; Matthew Rae",
+  "page_date": "2025-03-24",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/private-insurance/new-rule-proposes-changes-to-aca-coverage-of-gender-affirming-care-potentially-increasing-costs-for-consumers/"
+}

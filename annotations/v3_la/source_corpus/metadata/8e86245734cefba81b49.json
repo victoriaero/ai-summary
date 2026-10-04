@@ -1,0 +1,28 @@
+{
+  "source_id": "8e86245734cefba81b49",
+  "normalized_url": "https://brookings.edu/articles/homeownership-racial-segregation-and-policies-for-racial-wealth-equity",
+  "fetch_timestamp_utc": "2026-10-04T03:41:33.342256+00:00",
+  "registrable_domain": "brookings.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.brookings.edu/articles/homeownership-racial-segregation-and-policies-for-racial-wealth-equity/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 302569,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8e86245734cefba81b49.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8e86245734cefba81b49.txt",
+  "text_chars": 39581,
+  "text_words": 5566,
+  "extraction_status": "success",
+  "page_title": "Homeownership, racial segregation, and policy solutions to racial wealth equity | Brookings",
+  "page_author": "Rashawn Ray; Andre M Perry; David Harshbarger; Samantha Elizondo; Alexandra Gibbons",
+  "page_date": "2024-02-05",
+  "site_name": "Brookings",
+  "canonical_url": "https://www.brookings.edu/articles/homeownership-racial-segregation-and-policies-for-racial-wealth-equity/"
+}

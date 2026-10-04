@@ -1,0 +1,28 @@
+{
+  "source_id": "826fc47a2f5f25b8bee3",
+  "normalized_url": "https://pewresearch.org/fact-sheet/topic-affirmative-action-in-college-admissions",
+  "fetch_timestamp_utc": "2026-10-04T03:40:32.379713+00:00",
+  "registrable_domain": "pewresearch.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.pewresearch.org/fact-sheet/topic-affirmative-action-in-college-admissions/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 372057,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/826fc47a2f5f25b8bee3.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/826fc47a2f5f25b8bee3.txt",
+  "text_chars": 3299,
+  "text_words": 530,
+  "extraction_status": "success",
+  "page_title": "Topic: Affirmative action in college admissions",
+  "page_author": "Peter Bell",
+  "page_date": "2024-12-20",
+  "site_name": "Pew Research Center",
+  "canonical_url": "https://www.pewresearch.org/fact-sheet/topic-affirmative-action-in-college-admissions/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "0f236ecbb6636f2dfe88",
+  "normalized_url": "https://newswise.com/articles/people-in-need-of-disability-benefits-are-facing-new-barriers-and-government-cuts-and-overhauls-are-to-blame",
+  "fetch_timestamp_utc": "2026-10-04T03:31:58.412620+00:00",
+  "registrable_domain": "newswise.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.newswise.com/articles/people-in-need-of-disability-benefits-are-facing-new-barriers-and-government-cuts-and-overhauls-are-to-blame",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 110734,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/0f236ecbb6636f2dfe88.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/0f236ecbb6636f2dfe88.txt",
+  "text_chars": 5061,
+  "text_words": 769,
+  "extraction_status": "success",
+  "page_title": "People in Need of Disability Benefits Are Facing New Barriers – and Government Cuts and Overhauls Are to Blame | Newswise",
+  "page_author": "Binghamton University; State University",
+  "page_date": "2026-03-09",
+  "site_name": "Newswise",
+  "canonical_url": "https://www.newswise.com/articles/people-in-need-of-disability-benefits-are-facing-new-barriers-and-government-cuts-and-overhauls-are-to-blame"
+}

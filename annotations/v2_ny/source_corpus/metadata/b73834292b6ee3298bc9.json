@@ -1,0 +1,28 @@
+{
+  "source_id": "b73834292b6ee3298bc9",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4940635",
+  "fetch_timestamp_utc": "2026-10-04T02:47:17.486754+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4940635/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 168880,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b73834292b6ee3298bc9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b73834292b6ee3298bc9.txt",
+  "text_chars": 31799,
+  "text_words": 4798,
+  "extraction_status": "success",
+  "page_title": "Effect of the Affordable Care Act on Racial and Ethnic Disparities in Health Insurance Coverage",
+  "page_author": "Thomas C Buchmueller; Zachary M Levinson; Helen G Levy; Barbara L Wolfe",
+  "page_date": "2016-01-01",
+  "site_name": "American Journal of Public Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4940635/"
+}

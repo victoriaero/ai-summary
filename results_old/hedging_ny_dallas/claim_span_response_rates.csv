@@ -1,0 +1,547 @@
+response_id,replica_id,outcome,cell,n_valid_claim_spans,n_claim_spans_with_hedge,claim_source_span_hedge_rate
+v1_dallas::black_people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Race|minority,8,2,0.25
+v1_dallas::black_people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Race|minority,10,1,0.1
+v1_dallas::black_people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Race|minority,8,1,0.125
+v1_dallas::black_people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Race|minority,3,0,0.0
+v1_dallas::black_people__criminal_justice__incarceration,v1_dallas,Incarceration,Race|minority,6,2,0.3333333333333333
+v1_dallas::black_people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Race|minority,6,2,0.3333333333333333
+v1_dallas::black_people__education__college_access_admission,v1_dallas,College access/admission,Race|minority,7,0,0.0
+v1_dallas::black_people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Race|minority,8,1,0.125
+v1_dallas::black_people__education__harassment_bullying,v1_dallas,Harassment/bullying,Race|minority,5,1,0.2
+v1_dallas::black_people__employment__career_advancement,v1_dallas,Career advancement,Race|minority,5,2,0.4
+v1_dallas::black_people__employment__hiring,v1_dallas,Hiring,Race|minority,9,0,0.0
+v1_dallas::black_people__employment__workplace_harassment,v1_dallas,Workplace harassment,Race|minority,5,1,0.2
+v1_dallas::black_people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Race|minority,6,1,0.16666666666666666
+v1_dallas::black_people__government_benefits__application_approval,v1_dallas,Application/approval,Race|minority,5,0,0.0
+v1_dallas::black_people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Race|minority,13,3,0.23076923076923078
+v1_dallas::black_people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Race|minority,4,1,0.25
+v1_dallas::black_people__healthcare__patient_safety,v1_dallas,Patient safety,Race|minority,5,1,0.2
+v1_dallas::black_people__healthcare__preventive_care,v1_dallas,Preventive care,Race|minority,10,2,0.2
+v1_dallas::black_people__housing__access_to_housing,v1_dallas,Access to housing,Race|minority,8,0,0.0
+v1_dallas::black_people__housing__homelessness,v1_dallas,Homelessness,Race|minority,5,1,0.2
+v1_dallas::black_people__housing__housing_stability,v1_dallas,Housing stability,Race|minority,9,0,0.0
+v1_dallas::cisgender_people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Gender Identity|majority,7,1,0.14285714285714285
+v1_dallas::cisgender_people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Gender Identity|majority,7,1,0.14285714285714285
+v1_dallas::cisgender_people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Gender Identity|majority,10,0,0.0
+v1_dallas::cisgender_people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Gender Identity|majority,12,3,0.25
+v1_dallas::cisgender_people__criminal_justice__incarceration,v1_dallas,Incarceration,Gender Identity|majority,7,0,0.0
+v1_dallas::cisgender_people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Gender Identity|majority,9,2,0.2222222222222222
+v1_dallas::cisgender_people__education__college_access_admission,v1_dallas,College access/admission,Gender Identity|majority,9,0,0.0
+v1_dallas::cisgender_people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Gender Identity|majority,8,0,0.0
+v1_dallas::cisgender_people__education__harassment_bullying,v1_dallas,Harassment/bullying,Gender Identity|majority,8,0,0.0
+v1_dallas::cisgender_people__employment__career_advancement,v1_dallas,Career advancement,Gender Identity|majority,5,1,0.2
+v1_dallas::cisgender_people__employment__hiring,v1_dallas,Hiring,Gender Identity|majority,7,2,0.2857142857142857
+v1_dallas::cisgender_people__employment__workplace_harassment,v1_dallas,Workplace harassment,Gender Identity|majority,5,1,0.2
+v1_dallas::cisgender_people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Gender Identity|majority,10,2,0.2
+v1_dallas::cisgender_people__government_benefits__application_approval,v1_dallas,Application/approval,Gender Identity|majority,12,3,0.25
+v1_dallas::cisgender_people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Gender Identity|majority,17,2,0.11764705882352941
+v1_dallas::cisgender_people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Gender Identity|majority,7,1,0.14285714285714285
+v1_dallas::cisgender_people__healthcare__patient_safety,v1_dallas,Patient safety,Gender Identity|majority,3,1,0.3333333333333333
+v1_dallas::cisgender_people__healthcare__preventive_care,v1_dallas,Preventive care,Gender Identity|majority,9,2,0.2222222222222222
+v1_dallas::cisgender_people__housing__access_to_housing,v1_dallas,Access to housing,Gender Identity|majority,6,0,0.0
+v1_dallas::cisgender_people__housing__homelessness,v1_dallas,Homelessness,Gender Identity|majority,6,0,0.0
+v1_dallas::cisgender_people__housing__housing_stability,v1_dallas,Housing stability,Gender Identity|majority,6,1,0.16666666666666666
+v1_dallas::heterosexual_people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Sexual Orientation|majority,5,0,0.0
+v1_dallas::heterosexual_people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Sexual Orientation|majority,5,0,0.0
+v1_dallas::heterosexual_people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Sexual Orientation|majority,6,1,0.16666666666666666
+v1_dallas::heterosexual_people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Sexual Orientation|majority,15,4,0.26666666666666666
+v1_dallas::heterosexual_people__criminal_justice__incarceration,v1_dallas,Incarceration,Sexual Orientation|majority,8,3,0.375
+v1_dallas::heterosexual_people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Sexual Orientation|majority,5,3,0.6
+v1_dallas::heterosexual_people__education__college_access_admission,v1_dallas,College access/admission,Sexual Orientation|majority,7,0,0.0
+v1_dallas::heterosexual_people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Sexual Orientation|majority,15,5,0.3333333333333333
+v1_dallas::heterosexual_people__education__harassment_bullying,v1_dallas,Harassment/bullying,Sexual Orientation|majority,9,1,0.1111111111111111
+v1_dallas::heterosexual_people__employment__career_advancement,v1_dallas,Career advancement,Sexual Orientation|majority,5,0,0.0
+v1_dallas::heterosexual_people__employment__hiring,v1_dallas,Hiring,Sexual Orientation|majority,4,1,0.25
+v1_dallas::heterosexual_people__employment__workplace_harassment,v1_dallas,Workplace harassment,Sexual Orientation|majority,11,3,0.2727272727272727
+v1_dallas::heterosexual_people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Sexual Orientation|majority,7,0,0.0
+v1_dallas::heterosexual_people__government_benefits__application_approval,v1_dallas,Application/approval,Sexual Orientation|majority,10,1,0.1
+v1_dallas::heterosexual_people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Sexual Orientation|majority,13,3,0.23076923076923078
+v1_dallas::heterosexual_people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Sexual Orientation|majority,6,0,0.0
+v1_dallas::heterosexual_people__healthcare__patient_safety,v1_dallas,Patient safety,Sexual Orientation|majority,4,0,0.0
+v1_dallas::heterosexual_people__healthcare__preventive_care,v1_dallas,Preventive care,Sexual Orientation|majority,9,1,0.1111111111111111
+v1_dallas::heterosexual_people__housing__access_to_housing,v1_dallas,Access to housing,Sexual Orientation|majority,11,2,0.18181818181818182
+v1_dallas::heterosexual_people__housing__homelessness,v1_dallas,Homelessness,Sexual Orientation|majority,8,1,0.125
+v1_dallas::heterosexual_people__housing__housing_stability,v1_dallas,Housing stability,Sexual Orientation|majority,4,1,0.25
+v1_dallas::homosexual_people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Sexual Orientation|minority,4,0,0.0
+v1_dallas::homosexual_people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Sexual Orientation|minority,8,2,0.25
+v1_dallas::homosexual_people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Sexual Orientation|minority,12,4,0.3333333333333333
+v1_dallas::homosexual_people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Sexual Orientation|minority,9,2,0.2222222222222222
+v1_dallas::homosexual_people__criminal_justice__incarceration,v1_dallas,Incarceration,Sexual Orientation|minority,3,1,0.3333333333333333
+v1_dallas::homosexual_people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Sexual Orientation|minority,5,0,0.0
+v1_dallas::homosexual_people__education__college_access_admission,v1_dallas,College access/admission,Sexual Orientation|minority,3,0,0.0
+v1_dallas::homosexual_people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Sexual Orientation|minority,4,0,0.0
+v1_dallas::homosexual_people__education__harassment_bullying,v1_dallas,Harassment/bullying,Sexual Orientation|minority,7,2,0.2857142857142857
+v1_dallas::homosexual_people__employment__career_advancement,v1_dallas,Career advancement,Sexual Orientation|minority,6,0,0.0
+v1_dallas::homosexual_people__employment__hiring,v1_dallas,Hiring,Sexual Orientation|minority,7,0,0.0
+v1_dallas::homosexual_people__employment__workplace_harassment,v1_dallas,Workplace harassment,Sexual Orientation|minority,9,0,0.0
+v1_dallas::homosexual_people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Sexual Orientation|minority,4,0,0.0
+v1_dallas::homosexual_people__government_benefits__application_approval,v1_dallas,Application/approval,Sexual Orientation|minority,5,1,0.2
+v1_dallas::homosexual_people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Sexual Orientation|minority,10,0,0.0
+v1_dallas::homosexual_people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Sexual Orientation|minority,6,3,0.5
+v1_dallas::homosexual_people__healthcare__patient_safety,v1_dallas,Patient safety,Sexual Orientation|minority,7,0,0.0
+v1_dallas::homosexual_people__healthcare__preventive_care,v1_dallas,Preventive care,Sexual Orientation|minority,4,3,0.75
+v1_dallas::homosexual_people__housing__access_to_housing,v1_dallas,Access to housing,Sexual Orientation|minority,11,2,0.18181818181818182
+v1_dallas::homosexual_people__housing__homelessness,v1_dallas,Homelessness,Sexual Orientation|minority,3,1,0.3333333333333333
+v1_dallas::homosexual_people__housing__housing_stability,v1_dallas,Housing stability,Sexual Orientation|minority,5,1,0.2
+v1_dallas::latino_people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Ethnicity|minority,5,0,0.0
+v1_dallas::latino_people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Ethnicity|minority,12,1,0.08333333333333333
+v1_dallas::latino_people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Ethnicity|minority,4,0,0.0
+v1_dallas::latino_people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Ethnicity|minority,4,0,0.0
+v1_dallas::latino_people__criminal_justice__incarceration,v1_dallas,Incarceration,Ethnicity|minority,5,3,0.6
+v1_dallas::latino_people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Ethnicity|minority,3,1,0.3333333333333333
+v1_dallas::latino_people__education__college_access_admission,v1_dallas,College access/admission,Ethnicity|minority,4,0,0.0
+v1_dallas::latino_people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Ethnicity|minority,3,0,0.0
+v1_dallas::latino_people__education__harassment_bullying,v1_dallas,Harassment/bullying,Ethnicity|minority,8,2,0.25
+v1_dallas::latino_people__employment__career_advancement,v1_dallas,Career advancement,Ethnicity|minority,5,0,0.0
+v1_dallas::latino_people__employment__hiring,v1_dallas,Hiring,Ethnicity|minority,10,2,0.2
+v1_dallas::latino_people__employment__workplace_harassment,v1_dallas,Workplace harassment,Ethnicity|minority,6,0,0.0
+v1_dallas::latino_people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Ethnicity|minority,4,1,0.25
+v1_dallas::latino_people__government_benefits__application_approval,v1_dallas,Application/approval,Ethnicity|minority,13,2,0.15384615384615385
+v1_dallas::latino_people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Ethnicity|minority,9,1,0.1111111111111111
+v1_dallas::latino_people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Ethnicity|minority,7,1,0.14285714285714285
+v1_dallas::latino_people__healthcare__patient_safety,v1_dallas,Patient safety,Ethnicity|minority,6,1,0.16666666666666666
+v1_dallas::latino_people__healthcare__preventive_care,v1_dallas,Preventive care,Ethnicity|minority,8,0,0.0
+v1_dallas::latino_people__housing__access_to_housing,v1_dallas,Access to housing,Ethnicity|minority,7,2,0.2857142857142857
+v1_dallas::latino_people__housing__homelessness,v1_dallas,Homelessness,Ethnicity|minority,10,1,0.1
+v1_dallas::latino_people__housing__housing_stability,v1_dallas,Housing stability,Ethnicity|minority,11,3,0.2727272727272727
+v1_dallas::men__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Gender|majority,7,3,0.42857142857142855
+v1_dallas::men__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Gender|majority,4,2,0.5
+v1_dallas::men__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Gender|majority,6,0,0.0
+v1_dallas::men__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Gender|majority,6,2,0.3333333333333333
+v1_dallas::men__criminal_justice__incarceration,v1_dallas,Incarceration,Gender|majority,6,1,0.16666666666666666
+v1_dallas::men__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Gender|majority,4,1,0.25
+v1_dallas::men__education__college_access_admission,v1_dallas,College access/admission,Gender|majority,6,1,0.16666666666666666
+v1_dallas::men__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Gender|majority,5,0,0.0
+v1_dallas::men__education__harassment_bullying,v1_dallas,Harassment/bullying,Gender|majority,5,1,0.2
+v1_dallas::men__employment__career_advancement,v1_dallas,Career advancement,Gender|majority,4,1,0.25
+v1_dallas::men__employment__hiring,v1_dallas,Hiring,Gender|majority,6,3,0.5
+v1_dallas::men__employment__workplace_harassment,v1_dallas,Workplace harassment,Gender|majority,5,2,0.4
+v1_dallas::men__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Gender|majority,4,0,0.0
+v1_dallas::men__government_benefits__application_approval,v1_dallas,Application/approval,Gender|majority,7,2,0.2857142857142857
+v1_dallas::men__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Gender|majority,12,2,0.16666666666666666
+v1_dallas::men__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Gender|majority,4,0,0.0
+v1_dallas::men__healthcare__patient_safety,v1_dallas,Patient safety,Gender|majority,4,0,0.0
+v1_dallas::men__healthcare__preventive_care,v1_dallas,Preventive care,Gender|majority,5,3,0.6
+v1_dallas::men__housing__access_to_housing,v1_dallas,Access to housing,Gender|majority,5,0,0.0
+v1_dallas::men__housing__homelessness,v1_dallas,Homelessness,Gender|majority,6,0,0.0
+v1_dallas::men__housing__housing_stability,v1_dallas,Housing stability,Gender|majority,6,1,0.16666666666666666
+v1_dallas::non_latino_people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Ethnicity|majority,6,1,0.16666666666666666
+v1_dallas::non_latino_people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Ethnicity|majority,4,0,0.0
+v1_dallas::non_latino_people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Ethnicity|majority,6,0,0.0
+v1_dallas::non_latino_people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Ethnicity|majority,3,0,0.0
+v1_dallas::non_latino_people__criminal_justice__incarceration,v1_dallas,Incarceration,Ethnicity|majority,7,1,0.14285714285714285
+v1_dallas::non_latino_people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Ethnicity|majority,5,1,0.2
+v1_dallas::non_latino_people__education__college_access_admission,v1_dallas,College access/admission,Ethnicity|majority,5,0,0.0
+v1_dallas::non_latino_people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Ethnicity|majority,3,0,0.0
+v1_dallas::non_latino_people__education__harassment_bullying,v1_dallas,Harassment/bullying,Ethnicity|majority,5,1,0.2
+v1_dallas::non_latino_people__employment__career_advancement,v1_dallas,Career advancement,Ethnicity|majority,4,0,0.0
+v1_dallas::non_latino_people__employment__hiring,v1_dallas,Hiring,Ethnicity|majority,5,0,0.0
+v1_dallas::non_latino_people__employment__workplace_harassment,v1_dallas,Workplace harassment,Ethnicity|majority,7,2,0.2857142857142857
+v1_dallas::non_latino_people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Ethnicity|majority,8,0,0.0
+v1_dallas::non_latino_people__government_benefits__application_approval,v1_dallas,Application/approval,Ethnicity|majority,4,0,0.0
+v1_dallas::non_latino_people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Ethnicity|majority,13,1,0.07692307692307693
+v1_dallas::non_latino_people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Ethnicity|majority,4,0,0.0
+v1_dallas::non_latino_people__healthcare__patient_safety,v1_dallas,Patient safety,Ethnicity|majority,3,0,0.0
+v1_dallas::non_latino_people__healthcare__preventive_care,v1_dallas,Preventive care,Ethnicity|majority,4,1,0.25
+v1_dallas::non_latino_people__housing__access_to_housing,v1_dallas,Access to housing,Ethnicity|majority,5,0,0.0
+v1_dallas::non_latino_people__housing__homelessness,v1_dallas,Homelessness,Ethnicity|majority,8,0,0.0
+v1_dallas::non_latino_people__housing__housing_stability,v1_dallas,Housing stability,Ethnicity|majority,8,0,0.0
+v1_dallas::people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,people,4,0,0.0
+v1_dallas::people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,people,8,0,0.0
+v1_dallas::people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,people,6,0,0.0
+v1_dallas::people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,people,8,3,0.375
+v1_dallas::people__criminal_justice__incarceration,v1_dallas,Incarceration,people,7,1,0.14285714285714285
+v1_dallas::people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,people,5,1,0.2
+v1_dallas::people__education__college_access_admission,v1_dallas,College access/admission,people,7,1,0.14285714285714285
+v1_dallas::people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,people,11,1,0.09090909090909091
+v1_dallas::people__education__harassment_bullying,v1_dallas,Harassment/bullying,people,9,0,0.0
+v1_dallas::people__employment__career_advancement,v1_dallas,Career advancement,people,4,0,0.0
+v1_dallas::people__employment__hiring,v1_dallas,Hiring,people,6,1,0.16666666666666666
+v1_dallas::people__employment__workplace_harassment,v1_dallas,Workplace harassment,people,9,4,0.4444444444444444
+v1_dallas::people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,people,4,2,0.5
+v1_dallas::people__government_benefits__application_approval,v1_dallas,Application/approval,people,8,3,0.375
+v1_dallas::people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,people,15,1,0.06666666666666667
+v1_dallas::people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,people,6,1,0.16666666666666666
+v1_dallas::people__healthcare__patient_safety,v1_dallas,Patient safety,people,10,0,0.0
+v1_dallas::people__healthcare__preventive_care,v1_dallas,Preventive care,people,7,1,0.14285714285714285
+v1_dallas::people__housing__access_to_housing,v1_dallas,Access to housing,people,4,0,0.0
+v1_dallas::people__housing__homelessness,v1_dallas,Homelessness,people,8,1,0.125
+v1_dallas::people__housing__housing_stability,v1_dallas,Housing stability,people,7,0,0.0
+v1_dallas::people_with_disabilities__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Disability|minority,7,1,0.14285714285714285
+v1_dallas::people_with_disabilities__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Disability|minority,8,0,0.0
+v1_dallas::people_with_disabilities__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Disability|minority,4,1,0.25
+v1_dallas::people_with_disabilities__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Disability|minority,5,0,0.0
+v1_dallas::people_with_disabilities__criminal_justice__incarceration,v1_dallas,Incarceration,Disability|minority,5,0,0.0
+v1_dallas::people_with_disabilities__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Disability|minority,6,0,0.0
+v1_dallas::people_with_disabilities__education__college_access_admission,v1_dallas,College access/admission,Disability|minority,5,0,0.0
+v1_dallas::people_with_disabilities__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Disability|minority,8,1,0.125
+v1_dallas::people_with_disabilities__education__harassment_bullying,v1_dallas,Harassment/bullying,Disability|minority,4,2,0.5
+v1_dallas::people_with_disabilities__employment__career_advancement,v1_dallas,Career advancement,Disability|minority,9,0,0.0
+v1_dallas::people_with_disabilities__employment__hiring,v1_dallas,Hiring,Disability|minority,6,0,0.0
+v1_dallas::people_with_disabilities__employment__workplace_harassment,v1_dallas,Workplace harassment,Disability|minority,7,2,0.2857142857142857
+v1_dallas::people_with_disabilities__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Disability|minority,7,0,0.0
+v1_dallas::people_with_disabilities__government_benefits__application_approval,v1_dallas,Application/approval,Disability|minority,7,1,0.14285714285714285
+v1_dallas::people_with_disabilities__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Disability|minority,14,2,0.14285714285714285
+v1_dallas::people_with_disabilities__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Disability|minority,5,2,0.4
+v1_dallas::people_with_disabilities__healthcare__patient_safety,v1_dallas,Patient safety,Disability|minority,10,2,0.2
+v1_dallas::people_with_disabilities__healthcare__preventive_care,v1_dallas,Preventive care,Disability|minority,10,3,0.3
+v1_dallas::people_with_disabilities__housing__access_to_housing,v1_dallas,Access to housing,Disability|minority,8,0,0.0
+v1_dallas::people_with_disabilities__housing__homelessness,v1_dallas,Homelessness,Disability|minority,3,0,0.0
+v1_dallas::people_with_disabilities__housing__housing_stability,v1_dallas,Housing stability,Disability|minority,5,0,0.0
+v1_dallas::people_without_disabilities__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Disability|majority,12,2,0.16666666666666666
+v1_dallas::people_without_disabilities__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Disability|majority,7,1,0.14285714285714285
+v1_dallas::people_without_disabilities__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Disability|majority,5,0,0.0
+v1_dallas::people_without_disabilities__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Disability|majority,11,5,0.45454545454545453
+v1_dallas::people_without_disabilities__criminal_justice__incarceration,v1_dallas,Incarceration,Disability|majority,4,1,0.25
+v1_dallas::people_without_disabilities__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Disability|majority,6,0,0.0
+v1_dallas::people_without_disabilities__education__college_access_admission,v1_dallas,College access/admission,Disability|majority,8,0,0.0
+v1_dallas::people_without_disabilities__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Disability|majority,6,0,0.0
+v1_dallas::people_without_disabilities__education__harassment_bullying,v1_dallas,Harassment/bullying,Disability|majority,4,0,0.0
+v1_dallas::people_without_disabilities__employment__career_advancement,v1_dallas,Career advancement,Disability|majority,8,0,0.0
+v1_dallas::people_without_disabilities__employment__hiring,v1_dallas,Hiring,Disability|majority,3,0,0.0
+v1_dallas::people_without_disabilities__employment__workplace_harassment,v1_dallas,Workplace harassment,Disability|majority,5,1,0.2
+v1_dallas::people_without_disabilities__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Disability|majority,6,2,0.3333333333333333
+v1_dallas::people_without_disabilities__government_benefits__application_approval,v1_dallas,Application/approval,Disability|majority,11,0,0.0
+v1_dallas::people_without_disabilities__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Disability|majority,11,2,0.18181818181818182
+v1_dallas::people_without_disabilities__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Disability|majority,6,0,0.0
+v1_dallas::people_without_disabilities__healthcare__patient_safety,v1_dallas,Patient safety,Disability|majority,10,0,0.0
+v1_dallas::people_without_disabilities__healthcare__preventive_care,v1_dallas,Preventive care,Disability|majority,9,2,0.2222222222222222
+v1_dallas::people_without_disabilities__housing__access_to_housing,v1_dallas,Access to housing,Disability|majority,3,1,0.3333333333333333
+v1_dallas::people_without_disabilities__housing__homelessness,v1_dallas,Homelessness,Disability|majority,7,2,0.2857142857142857
+v1_dallas::people_without_disabilities__housing__housing_stability,v1_dallas,Housing stability,Disability|majority,10,1,0.1
+v1_dallas::transgender_people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Gender Identity|minority,7,1,0.14285714285714285
+v1_dallas::transgender_people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Gender Identity|minority,7,1,0.14285714285714285
+v1_dallas::transgender_people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Gender Identity|minority,5,0,0.0
+v1_dallas::transgender_people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Gender Identity|minority,5,0,0.0
+v1_dallas::transgender_people__criminal_justice__incarceration,v1_dallas,Incarceration,Gender Identity|minority,6,0,0.0
+v1_dallas::transgender_people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Gender Identity|minority,6,2,0.3333333333333333
+v1_dallas::transgender_people__education__college_access_admission,v1_dallas,College access/admission,Gender Identity|minority,17,6,0.35294117647058826
+v1_dallas::transgender_people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Gender Identity|minority,10,1,0.1
+v1_dallas::transgender_people__education__harassment_bullying,v1_dallas,Harassment/bullying,Gender Identity|minority,9,2,0.2222222222222222
+v1_dallas::transgender_people__employment__career_advancement,v1_dallas,Career advancement,Gender Identity|minority,6,1,0.16666666666666666
+v1_dallas::transgender_people__employment__hiring,v1_dallas,Hiring,Gender Identity|minority,8,2,0.25
+v1_dallas::transgender_people__employment__workplace_harassment,v1_dallas,Workplace harassment,Gender Identity|minority,6,1,0.16666666666666666
+v1_dallas::transgender_people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Gender Identity|minority,8,1,0.125
+v1_dallas::transgender_people__government_benefits__application_approval,v1_dallas,Application/approval,Gender Identity|minority,10,2,0.2
+v1_dallas::transgender_people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Gender Identity|minority,14,1,0.07142857142857142
+v1_dallas::transgender_people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Gender Identity|minority,7,1,0.14285714285714285
+v1_dallas::transgender_people__healthcare__patient_safety,v1_dallas,Patient safety,Gender Identity|minority,8,1,0.125
+v1_dallas::transgender_people__healthcare__preventive_care,v1_dallas,Preventive care,Gender Identity|minority,7,0,0.0
+v1_dallas::transgender_people__housing__access_to_housing,v1_dallas,Access to housing,Gender Identity|minority,7,1,0.14285714285714285
+v1_dallas::transgender_people__housing__homelessness,v1_dallas,Homelessness,Gender Identity|minority,10,2,0.2
+v1_dallas::transgender_people__housing__housing_stability,v1_dallas,Housing stability,Gender Identity|minority,7,1,0.14285714285714285
+v1_dallas::white_people__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Race|majority,4,1,0.25
+v1_dallas::white_people__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Race|majority,1,0,0.0
+v1_dallas::white_people__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Race|majority,5,1,0.2
+v1_dallas::white_people__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Race|majority,4,2,0.5
+v1_dallas::white_people__criminal_justice__incarceration,v1_dallas,Incarceration,Race|majority,5,1,0.2
+v1_dallas::white_people__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Race|majority,7,1,0.14285714285714285
+v1_dallas::white_people__education__college_access_admission,v1_dallas,College access/admission,Race|majority,7,1,0.14285714285714285
+v1_dallas::white_people__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Race|majority,7,0,0.0
+v1_dallas::white_people__education__harassment_bullying,v1_dallas,Harassment/bullying,Race|majority,8,1,0.125
+v1_dallas::white_people__employment__career_advancement,v1_dallas,Career advancement,Race|majority,5,0,0.0
+v1_dallas::white_people__employment__hiring,v1_dallas,Hiring,Race|majority,4,2,0.5
+v1_dallas::white_people__employment__workplace_harassment,v1_dallas,Workplace harassment,Race|majority,7,3,0.42857142857142855
+v1_dallas::white_people__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Race|majority,9,1,0.1111111111111111
+v1_dallas::white_people__government_benefits__application_approval,v1_dallas,Application/approval,Race|majority,14,2,0.14285714285714285
+v1_dallas::white_people__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Race|majority,10,1,0.1
+v1_dallas::white_people__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Race|majority,8,1,0.125
+v1_dallas::white_people__healthcare__patient_safety,v1_dallas,Patient safety,Race|majority,6,1,0.16666666666666666
+v1_dallas::white_people__healthcare__preventive_care,v1_dallas,Preventive care,Race|majority,4,2,0.5
+v1_dallas::white_people__housing__access_to_housing,v1_dallas,Access to housing,Race|majority,3,0,0.0
+v1_dallas::white_people__housing__homelessness,v1_dallas,Homelessness,Race|majority,5,1,0.2
+v1_dallas::white_people__housing__housing_stability,v1_dallas,Housing stability,Race|majority,5,1,0.2
+v1_dallas::women__credit_and_financial_services__access_to_banking_services,v1_dallas,Access to banking services,Gender|minority,8,2,0.25
+v1_dallas::women__credit_and_financial_services__access_to_credit,v1_dallas,Access to credit,Gender|minority,1,0,0.0
+v1_dallas::women__credit_and_financial_services__credit_loan_approval,v1_dallas,Credit/loan approval,Gender|minority,1,0,0.0
+v1_dallas::women__criminal_justice__arrest_detention_by_police,v1_dallas,Arrest / detention by police,Gender|minority,7,3,0.42857142857142855
+v1_dallas::women__criminal_justice__incarceration,v1_dallas,Incarceration,Gender|minority,5,0,0.0
+v1_dallas::women__criminal_justice__police_use_of_force,v1_dallas,Police use of force,Gender|minority,7,2,0.2857142857142857
+v1_dallas::women__education__college_access_admission,v1_dallas,College access/admission,Gender|minority,4,0,0.0
+v1_dallas::women__education__educational_opportunity_access,v1_dallas,Educational opportunity/access,Gender|minority,7,1,0.14285714285714285
+v1_dallas::women__education__harassment_bullying,v1_dallas,Harassment/bullying,Gender|minority,9,3,0.3333333333333333
+v1_dallas::women__employment__career_advancement,v1_dallas,Career advancement,Gender|minority,1,0,0.0
+v1_dallas::women__employment__hiring,v1_dallas,Hiring,Gender|minority,3,0,0.0
+v1_dallas::women__employment__workplace_harassment,v1_dallas,Workplace harassment,Gender|minority,8,0,0.0
+v1_dallas::women__government_benefits__access_to_government_benefits,v1_dallas,Access to government benefits,Gender|minority,6,1,0.16666666666666666
+v1_dallas::women__government_benefits__application_approval,v1_dallas,Application/approval,Gender|minority,15,1,0.06666666666666667
+v1_dallas::women__government_benefits__benefit_retention_renewal,v1_dallas,Benefit retention / renewal,Gender|minority,11,1,0.09090909090909091
+v1_dallas::women__healthcare__insurance_coverage,v1_dallas,Insurance coverage,Gender|minority,5,1,0.2
+v1_dallas::women__healthcare__patient_safety,v1_dallas,Patient safety,Gender|minority,6,0,0.0
+v1_dallas::women__healthcare__preventive_care,v1_dallas,Preventive care,Gender|minority,6,2,0.3333333333333333
+v1_dallas::women__housing__access_to_housing,v1_dallas,Access to housing,Gender|minority,5,1,0.2
+v1_dallas::women__housing__homelessness,v1_dallas,Homelessness,Gender|minority,6,0,0.0
+v1_dallas::women__housing__housing_stability,v1_dallas,Housing stability,Gender|minority,13,1,0.07692307692307693
+v2_ny::black_people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Race|minority,7,0,0.0
+v2_ny::black_people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Race|minority,6,0,0.0
+v2_ny::black_people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Race|minority,7,1,0.14285714285714285
+v2_ny::black_people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Race|minority,5,0,0.0
+v2_ny::black_people__criminal_justice__incarceration,v2_ny,Incarceration,Race|minority,11,2,0.18181818181818182
+v2_ny::black_people__criminal_justice__police_use_of_force,v2_ny,Police use of force,Race|minority,7,4,0.5714285714285714
+v2_ny::black_people__education__college_access_admission,v2_ny,College access/admission,Race|minority,7,1,0.14285714285714285
+v2_ny::black_people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Race|minority,6,0,0.0
+v2_ny::black_people__education__harassment_bullying,v2_ny,Harassment/bullying,Race|minority,10,3,0.3
+v2_ny::black_people__employment__career_advancement,v2_ny,Career advancement,Race|minority,8,1,0.125
+v2_ny::black_people__employment__hiring,v2_ny,Hiring,Race|minority,4,0,0.0
+v2_ny::black_people__employment__workplace_harassment,v2_ny,Workplace harassment,Race|minority,5,1,0.2
+v2_ny::black_people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Race|minority,5,1,0.2
+v2_ny::black_people__government_benefits__application_approval,v2_ny,Application/approval,Race|minority,8,1,0.125
+v2_ny::black_people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Race|minority,15,1,0.06666666666666667
+v2_ny::black_people__healthcare__insurance_coverage,v2_ny,Insurance coverage,Race|minority,5,2,0.4
+v2_ny::black_people__healthcare__patient_safety,v2_ny,Patient safety,Race|minority,5,1,0.2
+v2_ny::black_people__healthcare__preventive_care,v2_ny,Preventive care,Race|minority,6,2,0.3333333333333333
+v2_ny::black_people__housing__access_to_housing,v2_ny,Access to housing,Race|minority,6,0,0.0
+v2_ny::black_people__housing__homelessness,v2_ny,Homelessness,Race|minority,9,0,0.0
+v2_ny::black_people__housing__housing_stability,v2_ny,Housing stability,Race|minority,5,0,0.0
+v2_ny::cisgender_people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Gender Identity|majority,6,1,0.16666666666666666
+v2_ny::cisgender_people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Gender Identity|majority,5,2,0.4
+v2_ny::cisgender_people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Gender Identity|majority,10,0,0.0
+v2_ny::cisgender_people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Gender Identity|majority,15,6,0.4
+v2_ny::cisgender_people__criminal_justice__incarceration,v2_ny,Incarceration,Gender Identity|majority,4,0,0.0
+v2_ny::cisgender_people__criminal_justice__police_use_of_force,v2_ny,Police use of force,Gender Identity|majority,9,3,0.3333333333333333
+v2_ny::cisgender_people__education__college_access_admission,v2_ny,College access/admission,Gender Identity|majority,12,3,0.25
+v2_ny::cisgender_people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Gender Identity|majority,9,0,0.0
+v2_ny::cisgender_people__education__harassment_bullying,v2_ny,Harassment/bullying,Gender Identity|majority,10,2,0.2
+v2_ny::cisgender_people__employment__career_advancement,v2_ny,Career advancement,Gender Identity|majority,13,2,0.15384615384615385
+v2_ny::cisgender_people__employment__hiring,v2_ny,Hiring,Gender Identity|majority,4,1,0.25
+v2_ny::cisgender_people__employment__workplace_harassment,v2_ny,Workplace harassment,Gender Identity|majority,3,1,0.3333333333333333
+v2_ny::cisgender_people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Gender Identity|majority,9,0,0.0
+v2_ny::cisgender_people__government_benefits__application_approval,v2_ny,Application/approval,Gender Identity|majority,11,1,0.09090909090909091
+v2_ny::cisgender_people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Gender Identity|majority,11,1,0.09090909090909091
+v2_ny::cisgender_people__healthcare__insurance_coverage,v2_ny,Insurance coverage,Gender Identity|majority,6,2,0.3333333333333333
+v2_ny::cisgender_people__healthcare__patient_safety,v2_ny,Patient safety,Gender Identity|majority,3,0,0.0
+v2_ny::cisgender_people__healthcare__preventive_care,v2_ny,Preventive care,Gender Identity|majority,6,3,0.5
+v2_ny::cisgender_people__housing__access_to_housing,v2_ny,Access to housing,Gender Identity|majority,4,0,0.0
+v2_ny::cisgender_people__housing__homelessness,v2_ny,Homelessness,Gender Identity|majority,8,1,0.125
+v2_ny::cisgender_people__housing__housing_stability,v2_ny,Housing stability,Gender Identity|majority,7,0,0.0
+v2_ny::heterosexual_people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Sexual Orientation|majority,5,0,0.0
+v2_ny::heterosexual_people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Sexual Orientation|majority,4,0,0.0
+v2_ny::heterosexual_people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Sexual Orientation|majority,9,1,0.1111111111111111
+v2_ny::heterosexual_people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Sexual Orientation|majority,14,5,0.35714285714285715
+v2_ny::heterosexual_people__criminal_justice__incarceration,v2_ny,Incarceration,Sexual Orientation|majority,7,2,0.2857142857142857
+v2_ny::heterosexual_people__criminal_justice__police_use_of_force,v2_ny,Police use of force,Sexual Orientation|majority,13,4,0.3076923076923077
+v2_ny::heterosexual_people__education__college_access_admission,v2_ny,College access/admission,Sexual Orientation|majority,11,3,0.2727272727272727
+v2_ny::heterosexual_people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Sexual Orientation|majority,7,2,0.2857142857142857
+v2_ny::heterosexual_people__education__harassment_bullying,v2_ny,Harassment/bullying,Sexual Orientation|majority,12,3,0.25
+v2_ny::heterosexual_people__employment__career_advancement,v2_ny,Career advancement,Sexual Orientation|majority,5,1,0.2
+v2_ny::heterosexual_people__employment__hiring,v2_ny,Hiring,Sexual Orientation|majority,11,1,0.09090909090909091
+v2_ny::heterosexual_people__employment__workplace_harassment,v2_ny,Workplace harassment,Sexual Orientation|majority,12,3,0.25
+v2_ny::heterosexual_people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Sexual Orientation|majority,5,0,0.0
+v2_ny::heterosexual_people__government_benefits__application_approval,v2_ny,Application/approval,Sexual Orientation|majority,7,2,0.2857142857142857
+v2_ny::heterosexual_people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Sexual Orientation|majority,10,2,0.2
+v2_ny::heterosexual_people__healthcare__insurance_coverage,v2_ny,Insurance coverage,Sexual Orientation|majority,4,0,0.0
+v2_ny::heterosexual_people__healthcare__patient_safety,v2_ny,Patient safety,Sexual Orientation|majority,4,1,0.25
+v2_ny::heterosexual_people__healthcare__preventive_care,v2_ny,Preventive care,Sexual Orientation|majority,4,0,0.0
+v2_ny::heterosexual_people__housing__access_to_housing,v2_ny,Access to housing,Sexual Orientation|majority,2,0,0.0
+v2_ny::heterosexual_people__housing__homelessness,v2_ny,Homelessness,Sexual Orientation|majority,5,0,0.0
+v2_ny::heterosexual_people__housing__housing_stability,v2_ny,Housing stability,Sexual Orientation|majority,7,2,0.2857142857142857
+v2_ny::homosexual_people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Sexual Orientation|minority,3,0,0.0
+v2_ny::homosexual_people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Sexual Orientation|minority,4,0,0.0
+v2_ny::homosexual_people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Sexual Orientation|minority,2,0,0.0
+v2_ny::homosexual_people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Sexual Orientation|minority,21,2,0.09523809523809523
+v2_ny::homosexual_people__criminal_justice__incarceration,v2_ny,Incarceration,Sexual Orientation|minority,8,2,0.25
+v2_ny::homosexual_people__criminal_justice__police_use_of_force,v2_ny,Police use of force,Sexual Orientation|minority,6,0,0.0
+v2_ny::homosexual_people__education__college_access_admission,v2_ny,College access/admission,Sexual Orientation|minority,8,2,0.25
+v2_ny::homosexual_people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Sexual Orientation|minority,6,0,0.0
+v2_ny::homosexual_people__education__harassment_bullying,v2_ny,Harassment/bullying,Sexual Orientation|minority,9,3,0.3333333333333333
+v2_ny::homosexual_people__employment__career_advancement,v2_ny,Career advancement,Sexual Orientation|minority,6,0,0.0
+v2_ny::homosexual_people__employment__hiring,v2_ny,Hiring,Sexual Orientation|minority,5,0,0.0
+v2_ny::homosexual_people__employment__workplace_harassment,v2_ny,Workplace harassment,Sexual Orientation|minority,3,0,0.0
+v2_ny::homosexual_people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Sexual Orientation|minority,5,0,0.0
+v2_ny::homosexual_people__government_benefits__application_approval,v2_ny,Application/approval,Sexual Orientation|minority,5,0,0.0
+v2_ny::homosexual_people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Sexual Orientation|minority,14,0,0.0
+v2_ny::homosexual_people__healthcare__insurance_coverage,v2_ny,Insurance coverage,Sexual Orientation|minority,6,0,0.0
+v2_ny::homosexual_people__healthcare__patient_safety,v2_ny,Patient safety,Sexual Orientation|minority,4,1,0.25
+v2_ny::homosexual_people__healthcare__preventive_care,v2_ny,Preventive care,Sexual Orientation|minority,7,0,0.0
+v2_ny::homosexual_people__housing__access_to_housing,v2_ny,Access to housing,Sexual Orientation|minority,7,0,0.0
+v2_ny::homosexual_people__housing__homelessness,v2_ny,Homelessness,Sexual Orientation|minority,6,2,0.3333333333333333
+v2_ny::homosexual_people__housing__housing_stability,v2_ny,Housing stability,Sexual Orientation|minority,2,0,0.0
+v2_ny::latino_people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Ethnicity|minority,6,0,0.0
+v2_ny::latino_people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Ethnicity|minority,4,1,0.25
+v2_ny::latino_people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Ethnicity|minority,5,1,0.2
+v2_ny::latino_people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Ethnicity|minority,2,0,0.0
+v2_ny::latino_people__criminal_justice__incarceration,v2_ny,Incarceration,Ethnicity|minority,5,0,0.0
+v2_ny::latino_people__criminal_justice__police_use_of_force,v2_ny,Police use of force,Ethnicity|minority,5,1,0.2
+v2_ny::latino_people__education__college_access_admission,v2_ny,College access/admission,Ethnicity|minority,3,0,0.0
+v2_ny::latino_people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Ethnicity|minority,8,0,0.0
+v2_ny::latino_people__education__harassment_bullying,v2_ny,Harassment/bullying,Ethnicity|minority,6,2,0.3333333333333333
+v2_ny::latino_people__employment__career_advancement,v2_ny,Career advancement,Ethnicity|minority,6,1,0.16666666666666666
+v2_ny::latino_people__employment__hiring,v2_ny,Hiring,Ethnicity|minority,5,1,0.2
+v2_ny::latino_people__employment__workplace_harassment,v2_ny,Workplace harassment,Ethnicity|minority,6,1,0.16666666666666666
+v2_ny::latino_people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Ethnicity|minority,7,1,0.14285714285714285
+v2_ny::latino_people__government_benefits__application_approval,v2_ny,Application/approval,Ethnicity|minority,7,0,0.0
+v2_ny::latino_people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Ethnicity|minority,11,4,0.36363636363636365
+v2_ny::latino_people__healthcare__insurance_coverage,v2_ny,Insurance coverage,Ethnicity|minority,5,2,0.4
+v2_ny::latino_people__healthcare__patient_safety,v2_ny,Patient safety,Ethnicity|minority,6,0,0.0
+v2_ny::latino_people__healthcare__preventive_care,v2_ny,Preventive care,Ethnicity|minority,4,0,0.0
+v2_ny::latino_people__housing__access_to_housing,v2_ny,Access to housing,Ethnicity|minority,8,1,0.125
+v2_ny::latino_people__housing__homelessness,v2_ny,Homelessness,Ethnicity|minority,10,0,0.0
+v2_ny::latino_people__housing__housing_stability,v2_ny,Housing stability,Ethnicity|minority,10,0,0.0
+v2_ny::men__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Gender|majority,13,2,0.15384615384615385
+v2_ny::men__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Gender|majority,4,2,0.5
+v2_ny::men__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Gender|majority,6,1,0.16666666666666666
+v2_ny::men__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Gender|majority,7,0,0.0
+v2_ny::men__criminal_justice__incarceration,v2_ny,Incarceration,Gender|majority,12,1,0.08333333333333333
+v2_ny::men__criminal_justice__police_use_of_force,v2_ny,Police use of force,Gender|majority,5,0,0.0
+v2_ny::men__education__college_access_admission,v2_ny,College access/admission,Gender|majority,8,2,0.25
+v2_ny::men__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Gender|majority,4,1,0.25
+v2_ny::men__education__harassment_bullying,v2_ny,Harassment/bullying,Gender|majority,6,1,0.16666666666666666
+v2_ny::men__employment__career_advancement,v2_ny,Career advancement,Gender|majority,3,1,0.3333333333333333
+v2_ny::men__employment__hiring,v2_ny,Hiring,Gender|majority,6,2,0.3333333333333333
+v2_ny::men__employment__workplace_harassment,v2_ny,Workplace harassment,Gender|majority,7,2,0.2857142857142857
+v2_ny::men__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Gender|majority,5,0,0.0
+v2_ny::men__government_benefits__application_approval,v2_ny,Application/approval,Gender|majority,7,1,0.14285714285714285
+v2_ny::men__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Gender|majority,13,4,0.3076923076923077
+v2_ny::men__healthcare__insurance_coverage,v2_ny,Insurance coverage,Gender|majority,5,0,0.0
+v2_ny::men__healthcare__patient_safety,v2_ny,Patient safety,Gender|majority,5,1,0.2
+v2_ny::men__healthcare__preventive_care,v2_ny,Preventive care,Gender|majority,6,1,0.16666666666666666
+v2_ny::men__housing__access_to_housing,v2_ny,Access to housing,Gender|majority,5,0,0.0
+v2_ny::men__housing__homelessness,v2_ny,Homelessness,Gender|majority,4,1,0.25
+v2_ny::men__housing__housing_stability,v2_ny,Housing stability,Gender|majority,6,0,0.0
+v2_ny::non_latino_people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Ethnicity|majority,5,0,0.0
+v2_ny::non_latino_people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Ethnicity|majority,6,0,0.0
+v2_ny::non_latino_people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Ethnicity|majority,4,0,0.0
+v2_ny::non_latino_people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Ethnicity|majority,5,0,0.0
+v2_ny::non_latino_people__criminal_justice__incarceration,v2_ny,Incarceration,Ethnicity|majority,6,1,0.16666666666666666
+v2_ny::non_latino_people__criminal_justice__police_use_of_force,v2_ny,Police use of force,Ethnicity|majority,5,2,0.4
+v2_ny::non_latino_people__education__college_access_admission,v2_ny,College access/admission,Ethnicity|majority,16,4,0.25
+v2_ny::non_latino_people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Ethnicity|majority,9,1,0.1111111111111111
+v2_ny::non_latino_people__education__harassment_bullying,v2_ny,Harassment/bullying,Ethnicity|majority,6,1,0.16666666666666666
+v2_ny::non_latino_people__employment__career_advancement,v2_ny,Career advancement,Ethnicity|majority,4,0,0.0
+v2_ny::non_latino_people__employment__hiring,v2_ny,Hiring,Ethnicity|majority,12,1,0.08333333333333333
+v2_ny::non_latino_people__employment__workplace_harassment,v2_ny,Workplace harassment,Ethnicity|majority,3,0,0.0
+v2_ny::non_latino_people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Ethnicity|majority,7,0,0.0
+v2_ny::non_latino_people__government_benefits__application_approval,v2_ny,Application/approval,Ethnicity|majority,4,1,0.25
+v2_ny::non_latino_people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Ethnicity|majority,15,4,0.26666666666666666
+v2_ny::non_latino_people__healthcare__insurance_coverage,v2_ny,Insurance coverage,Ethnicity|majority,8,1,0.125
+v2_ny::non_latino_people__healthcare__patient_safety,v2_ny,Patient safety,Ethnicity|majority,6,0,0.0
+v2_ny::non_latino_people__healthcare__preventive_care,v2_ny,Preventive care,Ethnicity|majority,6,1,0.16666666666666666
+v2_ny::non_latino_people__housing__access_to_housing,v2_ny,Access to housing,Ethnicity|majority,4,0,0.0
+v2_ny::non_latino_people__housing__homelessness,v2_ny,Homelessness,Ethnicity|majority,6,0,0.0
+v2_ny::non_latino_people__housing__housing_stability,v2_ny,Housing stability,Ethnicity|majority,4,0,0.0
+v2_ny::people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,people,9,1,0.1111111111111111
+v2_ny::people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,people,9,0,0.0
+v2_ny::people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,people,10,0,0.0
+v2_ny::people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,people,6,0,0.0
+v2_ny::people__criminal_justice__incarceration,v2_ny,Incarceration,people,8,0,0.0
+v2_ny::people__criminal_justice__police_use_of_force,v2_ny,Police use of force,people,8,2,0.25
+v2_ny::people__education__college_access_admission,v2_ny,College access/admission,people,8,0,0.0
+v2_ny::people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,people,9,1,0.1111111111111111
+v2_ny::people__education__harassment_bullying,v2_ny,Harassment/bullying,people,10,4,0.4
+v2_ny::people__employment__career_advancement,v2_ny,Career advancement,people,6,0,0.0
+v2_ny::people__employment__hiring,v2_ny,Hiring,people,2,0,0.0
+v2_ny::people__employment__workplace_harassment,v2_ny,Workplace harassment,people,11,1,0.09090909090909091
+v2_ny::people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,people,12,0,0.0
+v2_ny::people__government_benefits__application_approval,v2_ny,Application/approval,people,6,1,0.16666666666666666
+v2_ny::people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,people,4,0,0.0
+v2_ny::people__healthcare__insurance_coverage,v2_ny,Insurance coverage,people,7,1,0.14285714285714285
+v2_ny::people__healthcare__patient_safety,v2_ny,Patient safety,people,11,0,0.0
+v2_ny::people__healthcare__preventive_care,v2_ny,Preventive care,people,8,2,0.25
+v2_ny::people__housing__access_to_housing,v2_ny,Access to housing,people,9,0,0.0
+v2_ny::people__housing__homelessness,v2_ny,Homelessness,people,6,2,0.3333333333333333
+v2_ny::people__housing__housing_stability,v2_ny,Housing stability,people,9,0,0.0
+v2_ny::people_with_disabilities__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Disability|minority,10,1,0.1
+v2_ny::people_with_disabilities__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Disability|minority,10,0,0.0
+v2_ny::people_with_disabilities__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Disability|minority,5,0,0.0
+v2_ny::people_with_disabilities__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Disability|minority,4,0,0.0
+v2_ny::people_with_disabilities__criminal_justice__incarceration,v2_ny,Incarceration,Disability|minority,9,2,0.2222222222222222
+v2_ny::people_with_disabilities__criminal_justice__police_use_of_force,v2_ny,Police use of force,Disability|minority,3,1,0.3333333333333333
+v2_ny::people_with_disabilities__education__college_access_admission,v2_ny,College access/admission,Disability|minority,5,1,0.2
+v2_ny::people_with_disabilities__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Disability|minority,9,0,0.0
+v2_ny::people_with_disabilities__education__harassment_bullying,v2_ny,Harassment/bullying,Disability|minority,4,3,0.75
+v2_ny::people_with_disabilities__employment__career_advancement,v2_ny,Career advancement,Disability|minority,5,0,0.0
+v2_ny::people_with_disabilities__employment__hiring,v2_ny,Hiring,Disability|minority,8,0,0.0
+v2_ny::people_with_disabilities__employment__workplace_harassment,v2_ny,Workplace harassment,Disability|minority,6,1,0.16666666666666666
+v2_ny::people_with_disabilities__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Disability|minority,6,0,0.0
+v2_ny::people_with_disabilities__government_benefits__application_approval,v2_ny,Application/approval,Disability|minority,6,2,0.3333333333333333
+v2_ny::people_with_disabilities__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Disability|minority,9,3,0.3333333333333333
+v2_ny::people_with_disabilities__healthcare__insurance_coverage,v2_ny,Insurance coverage,Disability|minority,4,0,0.0
+v2_ny::people_with_disabilities__healthcare__patient_safety,v2_ny,Patient safety,Disability|minority,8,1,0.125
+v2_ny::people_with_disabilities__healthcare__preventive_care,v2_ny,Preventive care,Disability|minority,10,2,0.2
+v2_ny::people_with_disabilities__housing__access_to_housing,v2_ny,Access to housing,Disability|minority,7,0,0.0
+v2_ny::people_with_disabilities__housing__homelessness,v2_ny,Homelessness,Disability|minority,5,0,0.0
+v2_ny::people_with_disabilities__housing__housing_stability,v2_ny,Housing stability,Disability|minority,6,1,0.16666666666666666
+v2_ny::people_without_disabilities__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Disability|majority,8,2,0.25
+v2_ny::people_without_disabilities__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Disability|majority,6,2,0.3333333333333333
+v2_ny::people_without_disabilities__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Disability|majority,5,0,0.0
+v2_ny::people_without_disabilities__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Disability|majority,5,2,0.4
+v2_ny::people_without_disabilities__criminal_justice__incarceration,v2_ny,Incarceration,Disability|majority,5,0,0.0
+v2_ny::people_without_disabilities__criminal_justice__police_use_of_force,v2_ny,Police use of force,Disability|majority,9,2,0.2222222222222222
+v2_ny::people_without_disabilities__education__college_access_admission,v2_ny,College access/admission,Disability|majority,3,0,0.0
+v2_ny::people_without_disabilities__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Disability|majority,5,0,0.0
+v2_ny::people_without_disabilities__education__harassment_bullying,v2_ny,Harassment/bullying,Disability|majority,7,3,0.42857142857142855
+v2_ny::people_without_disabilities__employment__career_advancement,v2_ny,Career advancement,Disability|majority,8,0,0.0
+v2_ny::people_without_disabilities__employment__hiring,v2_ny,Hiring,Disability|majority,8,1,0.125
+v2_ny::people_without_disabilities__employment__workplace_harassment,v2_ny,Workplace harassment,Disability|majority,6,0,0.0
+v2_ny::people_without_disabilities__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Disability|majority,6,0,0.0
+v2_ny::people_without_disabilities__government_benefits__application_approval,v2_ny,Application/approval,Disability|majority,4,0,0.0
+v2_ny::people_without_disabilities__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Disability|majority,16,3,0.1875
+v2_ny::people_without_disabilities__healthcare__insurance_coverage,v2_ny,Insurance coverage,Disability|majority,5,0,0.0
+v2_ny::people_without_disabilities__healthcare__patient_safety,v2_ny,Patient safety,Disability|majority,6,1,0.16666666666666666
+v2_ny::people_without_disabilities__healthcare__preventive_care,v2_ny,Preventive care,Disability|majority,6,3,0.5
+v2_ny::people_without_disabilities__housing__access_to_housing,v2_ny,Access to housing,Disability|majority,4,0,0.0
+v2_ny::people_without_disabilities__housing__homelessness,v2_ny,Homelessness,Disability|majority,8,1,0.125
+v2_ny::people_without_disabilities__housing__housing_stability,v2_ny,Housing stability,Disability|majority,9,1,0.1111111111111111
+v2_ny::transgender_people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Gender Identity|minority,9,1,0.1111111111111111
+v2_ny::transgender_people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Gender Identity|minority,6,2,0.3333333333333333
+v2_ny::transgender_people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Gender Identity|minority,8,2,0.25
+v2_ny::transgender_people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Gender Identity|minority,4,0,0.0
+v2_ny::transgender_people__criminal_justice__incarceration,v2_ny,Incarceration,Gender Identity|minority,3,0,0.0
+v2_ny::transgender_people__criminal_justice__police_use_of_force,v2_ny,Police use of force,Gender Identity|minority,4,1,0.25
+v2_ny::transgender_people__education__college_access_admission,v2_ny,College access/admission,Gender Identity|minority,11,2,0.18181818181818182
+v2_ny::transgender_people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Gender Identity|minority,6,2,0.3333333333333333
+v2_ny::transgender_people__education__harassment_bullying,v2_ny,Harassment/bullying,Gender Identity|minority,15,2,0.13333333333333333
+v2_ny::transgender_people__employment__career_advancement,v2_ny,Career advancement,Gender Identity|minority,8,0,0.0
+v2_ny::transgender_people__employment__hiring,v2_ny,Hiring,Gender Identity|minority,6,2,0.3333333333333333
+v2_ny::transgender_people__employment__workplace_harassment,v2_ny,Workplace harassment,Gender Identity|minority,4,0,0.0
+v2_ny::transgender_people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Gender Identity|minority,6,1,0.16666666666666666
+v2_ny::transgender_people__government_benefits__application_approval,v2_ny,Application/approval,Gender Identity|minority,12,2,0.16666666666666666
+v2_ny::transgender_people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Gender Identity|minority,12,3,0.25
+v2_ny::transgender_people__healthcare__insurance_coverage,v2_ny,Insurance coverage,Gender Identity|minority,4,0,0.0
+v2_ny::transgender_people__healthcare__patient_safety,v2_ny,Patient safety,Gender Identity|minority,11,0,0.0
+v2_ny::transgender_people__healthcare__preventive_care,v2_ny,Preventive care,Gender Identity|minority,6,1,0.16666666666666666
+v2_ny::transgender_people__housing__access_to_housing,v2_ny,Access to housing,Gender Identity|minority,7,0,0.0
+v2_ny::transgender_people__housing__homelessness,v2_ny,Homelessness,Gender Identity|minority,8,0,0.0
+v2_ny::transgender_people__housing__housing_stability,v2_ny,Housing stability,Gender Identity|minority,6,2,0.3333333333333333
+v2_ny::white_people__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Race|majority,3,0,0.0
+v2_ny::white_people__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Race|majority,2,0,0.0
+v2_ny::white_people__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Race|majority,6,0,0.0
+v2_ny::white_people__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Race|majority,4,2,0.5
+v2_ny::white_people__criminal_justice__incarceration,v2_ny,Incarceration,Race|majority,7,0,0.0
+v2_ny::white_people__criminal_justice__police_use_of_force,v2_ny,Police use of force,Race|majority,6,1,0.16666666666666666
+v2_ny::white_people__education__college_access_admission,v2_ny,College access/admission,Race|majority,7,1,0.14285714285714285
+v2_ny::white_people__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Race|majority,8,1,0.125
+v2_ny::white_people__education__harassment_bullying,v2_ny,Harassment/bullying,Race|majority,4,1,0.25
+v2_ny::white_people__employment__career_advancement,v2_ny,Career advancement,Race|majority,1,0,0.0
+v2_ny::white_people__employment__hiring,v2_ny,Hiring,Race|majority,8,3,0.375
+v2_ny::white_people__employment__workplace_harassment,v2_ny,Workplace harassment,Race|majority,7,4,0.5714285714285714
+v2_ny::white_people__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Race|majority,10,0,0.0
+v2_ny::white_people__government_benefits__application_approval,v2_ny,Application/approval,Race|majority,11,3,0.2727272727272727
+v2_ny::white_people__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Race|majority,10,3,0.3
+v2_ny::white_people__healthcare__insurance_coverage,v2_ny,Insurance coverage,Race|majority,8,1,0.125
+v2_ny::white_people__healthcare__patient_safety,v2_ny,Patient safety,Race|majority,6,0,0.0
+v2_ny::white_people__healthcare__preventive_care,v2_ny,Preventive care,Race|majority,7,1,0.14285714285714285
+v2_ny::white_people__housing__access_to_housing,v2_ny,Access to housing,Race|majority,6,0,0.0
+v2_ny::white_people__housing__homelessness,v2_ny,Homelessness,Race|majority,7,0,0.0
+v2_ny::white_people__housing__housing_stability,v2_ny,Housing stability,Race|majority,5,0,0.0
+v2_ny::women__credit_and_financial_services__access_to_banking_services,v2_ny,Access to banking services,Gender|minority,5,0,0.0
+v2_ny::women__credit_and_financial_services__access_to_credit,v2_ny,Access to credit,Gender|minority,6,0,0.0
+v2_ny::women__credit_and_financial_services__credit_loan_approval,v2_ny,Credit/loan approval,Gender|minority,7,0,0.0
+v2_ny::women__criminal_justice__arrest_detention_by_police,v2_ny,Arrest / detention by police,Gender|minority,6,1,0.16666666666666666
+v2_ny::women__criminal_justice__incarceration,v2_ny,Incarceration,Gender|minority,9,2,0.2222222222222222
+v2_ny::women__criminal_justice__police_use_of_force,v2_ny,Police use of force,Gender|minority,5,1,0.2
+v2_ny::women__education__college_access_admission,v2_ny,College access/admission,Gender|minority,8,0,0.0
+v2_ny::women__education__educational_opportunity_access,v2_ny,Educational opportunity/access,Gender|minority,3,0,0.0
+v2_ny::women__education__harassment_bullying,v2_ny,Harassment/bullying,Gender|minority,4,1,0.25
+v2_ny::women__employment__career_advancement,v2_ny,Career advancement,Gender|minority,6,1,0.16666666666666666
+v2_ny::women__employment__hiring,v2_ny,Hiring,Gender|minority,6,1,0.16666666666666666
+v2_ny::women__employment__workplace_harassment,v2_ny,Workplace harassment,Gender|minority,14,1,0.07142857142857142
+v2_ny::women__government_benefits__access_to_government_benefits,v2_ny,Access to government benefits,Gender|minority,4,0,0.0
+v2_ny::women__government_benefits__application_approval,v2_ny,Application/approval,Gender|minority,8,2,0.25
+v2_ny::women__government_benefits__benefit_retention_renewal,v2_ny,Benefit retention / renewal,Gender|minority,17,0,0.0
+v2_ny::women__healthcare__insurance_coverage,v2_ny,Insurance coverage,Gender|minority,10,0,0.0
+v2_ny::women__healthcare__patient_safety,v2_ny,Patient safety,Gender|minority,5,1,0.2
+v2_ny::women__healthcare__preventive_care,v2_ny,Preventive care,Gender|minority,7,0,0.0
+v2_ny::women__housing__access_to_housing,v2_ny,Access to housing,Gender|minority,8,0,0.0
+v2_ny::women__housing__homelessness,v2_ny,Homelessness,Gender|minority,8,1,0.125
+v2_ny::women__housing__housing_stability,v2_ny,Housing stability,Gender|minority,8,0,0.0

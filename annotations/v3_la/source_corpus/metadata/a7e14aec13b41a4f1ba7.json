@@ -1,0 +1,28 @@
+{
+  "source_id": "a7e14aec13b41a4f1ba7",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8874838",
+  "fetch_timestamp_utc": "2026-10-04T03:43:36.845471+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8874838/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 224793,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a7e14aec13b41a4f1ba7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a7e14aec13b41a4f1ba7.txt",
+  "text_chars": 54399,
+  "text_words": 8465,
+  "extraction_status": "success",
+  "page_title": "The Influence of Race and Gender on Receiving Assistance With Daily Activities Among Older Americans",
+  "page_author": "Chanee D Fabius; Lauren J Parker; Roland J Thorpe",
+  "page_date": "2021-12-30",
+  "site_name": "Innovation in Aging",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8874838/"
+}

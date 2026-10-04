@@ -1,0 +1,85 @@
+Skip to main content
+            
+        
+    
+        /* <![CDATA[ */ function ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1_CCM_Callback(specparams){ var paramChanged=false; for (i=0; i<specparams.length; i++){ if (specparams[i][0]=='location'){ ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1_SPEC_PARAM_ARY[specparams[i][0]] = specparams[i][0]+'|'+specparams[i][1]; paramChanged=true;} } if (paramChanged==true) {var obj = $find('ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1'); obj.setRuntimeXMLParameters(FormatSpecParams('zone', ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1_SPEC_PARAM_ARY)); obj.LoadContent(); } } Sys.Application.add_load(ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1_ControlSubscriber); function ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1_ControlSubscriber() { ControlManager.subscribe('ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1', ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1_CCM_Callback); } var ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1_SPEC_PARAM_ARY = new Array(); ctl00_ctl00_siteContent_MainContent_SimpleContentControl1_ctl00_ecmsWPRECMSContentCtrl1_SPEC_PARAM_ARY['location']='location_id|phBreadCrumbs'; /* ]]> */ 
+		
+	
+	
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				
+			
+				
+		
+			
+			Why Women Pay More for Healthcare
+			
+			
+			
+En español | Women, on average, live five years longer than men, but that’s not the only reason their overall healthcare bills tend to be higher than men’s. They’re also often charged more for healthcare, as well as for their health insurance and long-term care insurance premiums. Industry experts predict that the cost of long-term care insurance for women is expected to increase dramatically this year.
+In addition, women may face obstacles finding affordable healthcare coverage after a divorce or the death of a spouse. The Kaiser Family Foundation estimates that approximately 20% of women ages 18 to 64 are uninsured— leaving them without access to preventive care and more apt to postpone care when they do become ill.
+Dealing with higher healthcare costs can be especially challenging in retirement, when you’re living on a fixed income. While the new Affordable Care Act (ACA, also referred to as “Obamacare”) aims to reduce some of these disparities, no government initiative can take the place of planning for your own needs, says Debra Greenberg, director, Personal Retirement Solutions Group at Bank of America Merrill Lynch. “Women of all ages should budget for healthcare costs and incorporate future health spending into their overall financial strategy.”
+Here are four strategies that can help women prepare for the major healthcare-related challenges they may face.
+With Medicare covering only about 60% of the cost of healthcare, a 65-year-old woman will need to have between $154,000 and $210,000 saved to cover out-of-pocket expenses, according to the Employee Benefit Research Institute. “If you’re still working, you could take advantage of catch-up provisions in your 401(k) plan or IRA to contribute more to your savings,” suggests Greenberg.
+Also, working just a year or two longer than you planned can make a big difference in the amount you have available at retirement. In addition, staying in your job longer may allow you to put off starting Social Security. For each month you delay, the size of your monthly check will increase until you reach 70. Finally, consider setting aside assets into an annuity to generate income that can be used to pay premiums on a Medigap supplemental health insurance policy or a long-term care policy.
+Meanwhile, says Greenberg, “I believe it’s important that women continue to invest a portion of their portfolios for a degree of growth in retirement, because it could help them stay ahead of ever-rising healthcare costs over a retirement that could last 30 years or more.” Investments designed to generate income such as bonds, dividend-paying stocks and annuities can all play a useful role in this regard.
+Finding coverage after a divorce or the loss of a spouse
+Each year in the U.S., some 115,000 women lose private health insurance following a divorce, according to a 2012 study supported by the University of Michigan National Poverty Center. About 65,000 lose all health insurance coverage in the months following divorce. Women may also find themselves without coverage if they’re widowed. If you separate or divorce, or if your spouse dies, COBRA legislation allows you to stay on your current plan for three years, though you must pay the premiums.
+As an alternative, you might consider joining an association that is able to offer you coverage at a group rate. A third option is private insurance—it gives you the flexibility to select a health plan with features that suit your specific needs, but is generally a costly option. In the case of a divorce, you might negotiate for your former spouse to pay for coverage during a certain period.
+For some women, it could make sense to consider plans with high deductibles, says Greenberg. Premiums are lower because you pay a greater portion of your health expenses out of pocket. People with high deductible plans often couple them with a health savings account (HSA). In these accounts, contributions are tax-deductible and your money is allowed to grow, with earnings either tax-free or tax-deferred. Then, if a need arises, you can use assets in the account to pay for any qualified medical expense. Compare health plans online at healthcare.gov.
+In 36 states, women pay much higher premiums than men (up to 30% higher or more) for an identical individual health policy. Starting in January 2014, the ACA outlaws gender-rated premiums for health insurance sold to individuals. Starting in 2014, the law also prohibits insurers from denying coverage for a pre-existing medical condition, limiting benefits or imposing limits on coverage. And now you can shop for competitively priced health plans through a system of state-based health insurance exchanges.
+But the new laws don’t ensure gender equality on all medical fronts. For example, insurers can still charge women higher premiums on long-term care, so it’s important to consider all of your options to keep costs down while still maintaining the coverage you need.
+One reason women pay more for long-term care insurance is that, statistically speaking, they are likely to use more of it. In fact, women, on average, use 3.7 years of long-term care (compared with 2.2 years for men) at a total cost of more than $300,000. The earlier you purchase coverage the less expensive the premiums will be. One option could be a “hybrid” life insurance policy—one that contains additional features to help cover long-term care among other financial needs. This is a permanent life insurance policy with a long-term care benefit rider, purchased with a single lump sum. Unlike a traditional long-term care policy, a hybrid allows you to tap the assets for other needs.
+As you compare long-term care options, consider such questions as the range of services the policy includes, whether it pays for in-home care, assisted living, adult day care or nursing home stays, and what level of daily benefits will be paid based on the type of care you receive.
+Medigap is a supplemental type of insurance provided by private insurers. Medigap insurance varies in cost based on coverage and the insurer, and premiums may increase or coverage may be delayed if changed at a later date.
+Long-term care insurance coverage contains benefits, exclusions, limitations, eligibility requirements and specific terms and conditions under which the insurance coverage may be continued in force or discontinued. Not all insurance policies and types of coverage may be available in a particular state.
+Some annuities offer an optional enhanced income benefit should a long-term care event occur. This benefit is an optional rider available for an additional cost, and should not be considered a substitute for long-term care insurance.
+All annuity contract and rider guarantees, or annuity payout rates, are backed by the claims paying ability of the issuing insurance company. All guarantees and benefits of the insurance policy are backed by the claims-paying ability of the issuing insurance company. They are not backed by Merrill Lynch or its affiliates, nor does Merrill Lynch or its affiliates make any representations or guarantees regarding the claims-paying ability of the issuing insurance company.
+This material should be regarded as general information on healthcare considerations and is not intended to provide specific healthcare advice. If you have questions regarding your particular healthcare situation, please contact your healthcare, legal or tax advisor.
+	
+	
+				
+		
+		
+			
+		
+		
+		
+	
+	
+	
+		
+	
+	
+Investment products offered through MLPF&S and insurance and annuity products offered through MLLA:
+Merrill Lynch Life Agency Inc. ("MLLA") is a licensed insurance agency and a wholly owned subsidiary of BofA.
+		
+ 
+	
+		
+		
+	
+        
+    
+    Planning ahead for higher expenses
+Combating gender-based premiums
+New nationwide protections
+The ACA prohibits insurers from:
+Buying long-term care insurance before you need it
+Learn more and take action
+| Are Not FDIC Insured | Are Not Bank Guaranteed | May Lose Value | 
+| Are Not Deposits | Are Not Insured by Any Federal Government Agency | Are Not a Condition to Any Banking Service or Activity | 
+ARJFS58L
+ (TX22********4V)

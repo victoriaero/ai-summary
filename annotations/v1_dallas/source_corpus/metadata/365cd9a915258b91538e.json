@@ -1,0 +1,25 @@
+{
+  "source_id": "365cd9a915258b91538e",
+  "normalized_url": "https://pressbooks.salemstate.edu/disabilitysocialwork/chapter/criminal-legal-systems",
+  "fetch_timestamp_utc": "2026-09-29T19:23:37.205816+00:00",
+  "registrable_domain": "salemstate.edu",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://pressbooks.salemstate.edu/disabilitysocialwork/chapter/criminal-legal-systems",
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Tue, 29 Sep 2026 19:23:38 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "919",
+    "Connection": "keep-alive",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 2d5b477941a8a0241997b0e5c2de592c.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "GRU1-P7",
+    "X-Amz-Cf-Id": "nRoltd-EghL7gq923fRrMk-sJ4ua-5m3t6KAUVV8z54M3geia3gDOg=="
+  },
+  "downloaded_bytes": 919,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

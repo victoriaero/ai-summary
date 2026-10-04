@@ -1,0 +1,28 @@
+{
+  "source_id": "d7865049ad6250b15f14",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12836853",
+  "fetch_timestamp_utc": "2026-10-04T02:49:40.581987+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12836853/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 210001,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/d7865049ad6250b15f14.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/d7865049ad6250b15f14.txt",
+  "text_chars": 52166,
+  "text_words": 8276,
+  "extraction_status": "success",
+  "page_title": "Identifying gaps in women’s preventive health services for women living with HIV in Vermont",
+  "page_author": "Elizabeth Hahn; Jennifer Monroe Zakaras; Anupama Balasubramanian; Angela Russo; Yu Ting He; Bradley Tompkins; Devika Singh",
+  "page_date": "2025-12-22",
+  "site_name": "Reproductive Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12836853/"
+}

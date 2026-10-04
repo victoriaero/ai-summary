@@ -1,0 +1,28 @@
+{
+  "source_id": "3aa6be39d8e294dab5a0",
+  "normalized_url": "https://policingproject.org/news-main/2019/11/27/the-importance-of-trans-sensitive-police-policies",
+  "fetch_timestamp_utc": "2026-10-04T03:34:53.042446+00:00",
+  "registrable_domain": "policingproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.policingproject.org/news-main/2019/11/27/the-importance-of-trans-sensitive-police-policies",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 127095,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/3aa6be39d8e294dab5a0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/3aa6be39d8e294dab5a0.txt",
+  "text_chars": 8099,
+  "text_words": 1205,
+  "extraction_status": "success",
+  "page_title": "The Importance of Trans-sensitive Police Policies and Practices — The Policing Project",
+  "page_author": "Policing Project",
+  "page_date": "2019-11-27",
+  "site_name": "The Policing Project",
+  "canonical_url": "https://www.policingproject.org/news-main/2019/11/27/the-importance-of-trans-sensitive-police-policies"
+}

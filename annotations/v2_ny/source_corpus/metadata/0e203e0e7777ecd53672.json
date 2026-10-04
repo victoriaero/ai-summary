@@ -1,0 +1,28 @@
+{
+  "source_id": "0e203e0e7777ecd53672",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603461",
+  "fetch_timestamp_utc": "2026-10-04T02:33:38.735387+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603461/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 106096,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0e203e0e7777ecd53672.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0e203e0e7777ecd53672.txt",
+  "text_chars": 10188,
+  "text_words": 1463,
+  "extraction_status": "success",
+  "page_title": "Drilling Deeper on the Impact of the Affordable Care Act on Disability-Related Health Care Access Disparities",
+  "page_author": "Gloria L Krahn",
+  "page_date": "2019-04-03",
+  "site_name": "American Journal of Public Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6603461/"
+}

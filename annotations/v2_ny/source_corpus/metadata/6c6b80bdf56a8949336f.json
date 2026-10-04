@@ -1,0 +1,28 @@
+{
+  "source_id": "6c6b80bdf56a8949336f",
+  "normalized_url": "https://ehealthscreenings.com/blog/10-reasons-why-americans-dont-prioritize-preventative-care",
+  "fetch_timestamp_utc": "2026-10-04T02:41:17.011249+00:00",
+  "registrable_domain": "ehealthscreenings.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ehealthscreenings.com/blog/10-reasons-why-americans-dont-prioritize-preventative-care/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 167204,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6c6b80bdf56a8949336f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6c6b80bdf56a8949336f.txt",
+  "text_chars": 3621,
+  "text_words": 576,
+  "extraction_status": "success",
+  "page_title": "10 Reasons Why Americans Don’t Prioritize Preventative Care | eHealthScreenings.com, LLC",
+  "page_author": "Andrea Vogel",
+  "page_date": "2023-09-07",
+  "site_name": "eHealthScreenings.com, LLC",
+  "canonical_url": "https://ehealthscreenings.com/blog/10-reasons-why-americans-dont-prioritize-preventative-care/"
+}

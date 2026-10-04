@@ -1,0 +1,28 @@
+{
+  "source_id": "29c188e797ebdc187db5",
+  "normalized_url": "https://journalistsresource.org/politics-and-government/disabilities-insurance-affordable-care-act",
+  "fetch_timestamp_utc": "2026-10-04T02:35:54.831396+00:00",
+  "registrable_domain": "journalistsresource.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://journalistsresource.org/politics-and-government/disabilities-insurance-affordable-care-act/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 303317,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/29c188e797ebdc187db5.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/29c188e797ebdc187db5.txt",
+  "text_chars": 8003,
+  "text_words": 1219,
+  "extraction_status": "success",
+  "page_title": "How people with disabilities benefited from the ACA",
+  "page_author": "Chloe Reichel",
+  "page_date": "2019-06-18",
+  "site_name": "The Journalist's Resource",
+  "canonical_url": "https://journalistsresource.org/politics-and-government/disabilities-insurance-affordable-care-act/"
+}

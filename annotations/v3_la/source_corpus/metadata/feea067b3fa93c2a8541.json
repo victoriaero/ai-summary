@@ -1,0 +1,28 @@
+{
+  "source_id": "feea067b3fa93c2a8541",
+  "normalized_url": "https://womensworldbanking.org/insights/from-exclusion-to-empowerment-the-meaning-of-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T03:49:49.173907+00:00",
+  "registrable_domain": "womensworldbanking.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.womensworldbanking.org/insights/from-exclusion-to-empowerment-the-meaning-of-financial-inclusion/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 185692,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/feea067b3fa93c2a8541.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/feea067b3fa93c2a8541.txt",
+  "text_chars": 6658,
+  "text_words": 908,
+  "extraction_status": "success",
+  "page_title": "From Exclusion to Empowerment: The Meaning of Financial Inclusion - Women's World Banking",
+  "page_author": "Women's World Banking",
+  "page_date": "2023-06-30",
+  "site_name": "Women's World Banking",
+  "canonical_url": "https://www.womensworldbanking.org/insights/from-exclusion-to-empowerment-the-meaning-of-financial-inclusion/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "62a0217f68f1ad23be8d",
+  "normalized_url": "https://ohchr.org/en/special-procedures/sr-housing/women-and-right-adequate-housing",
+  "fetch_timestamp_utc": "2026-10-04T03:38:01.950858+00:00",
+  "registrable_domain": "ohchr.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ohchr.org:443/en/ohchr_homepage",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 137487,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/62a0217f68f1ad23be8d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/62a0217f68f1ad23be8d.txt",
+  "text_chars": 3640,
+  "text_words": 545,
+  "extraction_status": "success",
+  "page_title": "UN Human Rights Office",
+  "page_author": null,
+  "page_date": "2023-11-29",
+  "site_name": "OHCHR",
+  "canonical_url": "https://www.ohchr.org/en/ohchr_homepage"
+}

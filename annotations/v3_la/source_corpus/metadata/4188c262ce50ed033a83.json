@@ -1,0 +1,28 @@
+{
+  "source_id": "4188c262ce50ed033a83",
+  "normalized_url": "https://solutionsfdl.org/homelessness-fond-du-lac/what-causes-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T03:35:23.736145+00:00",
+  "registrable_domain": "solutionsfdl.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://solutionsfdl.org/homelessness-fond-du-lac/what-causes-homelessness/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 69950,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/4188c262ce50ed033a83.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/4188c262ce50ed033a83.txt",
+  "text_chars": 4095,
+  "text_words": 613,
+  "extraction_status": "success",
+  "page_title": "What causes homelessness? - Solutions Center Fond du Lac",
+  "page_author": "Solutions Center",
+  "page_date": "2023-07-13",
+  "site_name": "Solutions Center Shelter & Support Services, Inc.",
+  "canonical_url": "https://solutionsfdl.org/homelessness-fond-du-lac/what-causes-homelessness/"
+}

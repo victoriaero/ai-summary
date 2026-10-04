@@ -1,0 +1,28 @@
+{
+  "source_id": "657153b90b24515d6079",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8903243",
+  "fetch_timestamp_utc": "2026-10-04T03:38:15.285007+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8903243/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 262981,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/657153b90b24515d6079.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/657153b90b24515d6079.txt",
+  "text_chars": 65226,
+  "text_words": 10068,
+  "extraction_status": "success",
+  "page_title": "Factors predicting incarceration history and incidence among Black and Latino men who have sex with men (MSM) residing in a major urban center",
+  "page_author": "Nina T Harawa; Katrina M Schrode; Joseph Daniels; Marjan Javanbakht; Anna Hotton; Solomon Makgoeng; Amy Ragsdale; John Schneider; Kayo Fujimoto; Robert Bolan; Pamina Gorbach",
+  "page_date": "2022-03-08",
+  "site_name": "PLoS ONE",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8903243/"
+}

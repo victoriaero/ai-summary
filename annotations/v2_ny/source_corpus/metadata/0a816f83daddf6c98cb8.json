@@ -1,0 +1,20 @@
+{
+  "source_id": "0a816f83daddf6c98cb8",
+  "normalized_url": "https://nerdwallet.com/credit-cards/learn/how-lgbtq-americans-can-build-credit",
+  "fetch_timestamp_utc": "2026-10-04T02:33:18.390942+00:00",
+  "registrable_domain": "nerdwallet.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.nerdwallet.com/credit-cards/learn/how-lgbtq-americans-can-build-credit",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5787,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

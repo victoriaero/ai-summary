@@ -1,0 +1,28 @@
+{
+  "source_id": "2e975caaf193511c373d",
+  "normalized_url": "https://unidosus.org/progress-report/exploring-opportunities-for-and-barriers-to-latino-participation-in-the-modern-workforce",
+  "fetch_timestamp_utc": "2026-10-04T03:34:06.379036+00:00",
+  "registrable_domain": "unidosus.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://unidosus.org/progress-report/exploring-opportunities-for-and-barriers-to-latino-participation-in-the-modern-workforce/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 89025,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/2e975caaf193511c373d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/2e975caaf193511c373d.txt",
+  "text_chars": 6134,
+  "text_words": 911,
+  "extraction_status": "success",
+  "page_title": "Exploring opportunities for — and barriers to — Latino participation in the modern workforce",
+  "page_author": "On",
+  "page_date": "2025-11-05",
+  "site_name": "UnidosUS",
+  "canonical_url": "https://unidosus.org/progress-report/exploring-opportunities-for-and-barriers-to-latino-participation-in-the-modern-workforce/"
+}

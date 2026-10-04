@@ -1,0 +1,28 @@
+{
+  "source_id": "68a92c478d43da53a5ba",
+  "normalized_url": "https://pn3policy.org/pn-3-state-policy-roadmap-2022/us/admin-burden",
+  "fetch_timestamp_utc": "2026-10-04T03:38:28.726408+00:00",
+  "registrable_domain": "pn3policy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pn3policy.org/pn-3-state-policy-roadmap-2022/us/admin-burden",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 346138,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/68a92c478d43da53a5ba.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/68a92c478d43da53a5ba.txt",
+  "text_chars": 11779,
+  "text_words": 1721,
+  "extraction_status": "success",
+  "page_title": "Reduced Administrative Burden for SNAP - Prenatal-to-3 Policy Impact Center",
+  "page_author": null,
+  "page_date": "2026-08-15",
+  "site_name": "Prenatal-to-3 Policy Impact Center",
+  "canonical_url": "https://pn3policy.org/pn-3-state-policy-roadmap-2022/us/admin-burden/"
+}

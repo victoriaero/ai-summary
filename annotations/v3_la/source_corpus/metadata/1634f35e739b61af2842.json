@@ -1,0 +1,20 @@
+{
+  "source_id": "1634f35e739b61af2842",
+  "normalized_url": "https://careervillage.org/questions/704467/what-are-the-key-factors-that-employers-look-for-when-hiring-people",
+  "fetch_timestamp_utc": "2026-10-04T03:32:25.838344+00:00",
+  "registrable_domain": "careervillage.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://careervillage.org/questions/704467/what-are-the-key-factors-that-employers-look-for-when-hiring-people",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5894,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "c205d81ce9befd8d08bf",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/publications/policing-lgbq-people",
+  "fetch_timestamp_utc": "2026-10-04T02:48:05.597732+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/publications/policing-lgbq-people/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 131815,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c205d81ce9befd8d08bf.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c205d81ce9befd8d08bf.txt",
+  "text_chars": 2768,
+  "text_words": 442,
+  "extraction_status": "success",
+  "page_title": "Policing LGBQ People",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2021-05-14",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/publications/policing-lgbq-people/"
+}

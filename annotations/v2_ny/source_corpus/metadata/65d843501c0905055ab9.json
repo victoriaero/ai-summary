@@ -1,0 +1,28 @@
+{
+  "source_id": "65d843501c0905055ab9",
+  "normalized_url": "https://feed.georgetown.edu/access-affordability/why-are-fewer-white-students-attending-college",
+  "fetch_timestamp_utc": "2026-10-04T02:40:39.434913+00:00",
+  "registrable_domain": "georgetown.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://feed.georgetown.edu/access-affordability/why-are-fewer-white-students-attending-college/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 166439,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/65d843501c0905055ab9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/65d843501c0905055ab9.txt",
+  "text_chars": 7623,
+  "text_words": 1178,
+  "extraction_status": "success",
+  "page_title": "Why are fewer white students attending college? - THE FEED",
+  "page_author": "Kpc8",
+  "page_date": "2024-10-18",
+  "site_name": "THE FEED",
+  "canonical_url": "https://feed.georgetown.edu/access-affordability/why-are-fewer-white-students-attending-college/"
+}

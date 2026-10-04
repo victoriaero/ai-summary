@@ -1,0 +1,46 @@
+Introduction
+Means-tested benefits are designed to support basic needs such as food, health insurance, and child care for households with low incomes. When considering whether to take a new job opportunity that will increase their income, recipients of these benefits may be forced to consider trade-offs. For example:
+- Benefit loss and benefits cliffs. An increase in income may result in a loss of benefits. If this benefit loss is substantial when compared to the increase in income, the worker may face a high “effective marginal tax rate” (sometimes referred to as a “benefit cliff”), or the portion of an earnings increase effectively “lost” due to benefit reductions.
+- Job stability. The new job opportunity may entail some risk of job loss; for example, a position at a restaurant that is not getting a lot of business. That is, the worker may worry that he or she could lose the new job and need to reapply for benefits.
+- Burden of reapplying for benefits and risk of going without needed benefits. People who lose their benefits, but later need to reapply for them, most often must start the application from scratch. In addition to the burden of reapplying, there is the risk of having their application rejected or spending weeks or months without needed benefits, while waiting for the application to be approved.
+As a result of this risk and uncertainty, workers with low incomes might be reluctant to take higher-paying jobs that push their income above the eligibility thresholds for their benefits. This can be particularly important if the recipient views the job opportunity as unstable and likely to end unexpectedly, thereby putting them in a position where they need benefits again. This project carried out a discrete choice experiment to better understand how people who receive federal benefits weigh the potential risks and tradeoffs of additional earnings.
+Research Questions
+- For workers with low incomes who receive benefits, how important are each of the following factors when deciding whether to accept a higher-paying job?
+  - Whether the individual would lose their benefits, and if they do, how hard it would be to resume benefit receipt
+  - Marginal tax rate (the percentage of new earnings that are eroded by lost benefits) and net income increase (the difference between the dollar value of the earnings increase and the dollar value of the benefit loss)
+  - Stability of the new job opportunity
+- Do the factors above have different impacts for the following types of subgroups?
+  - Sex
+  - Presence of children in the household
+  - Race and ethnicity
+  - Type of program receipt (i.e., Temporary Assistance for Needy Families (TANF), Child Care Development Fund (CCDF) subsidies, Medicaid, and Supplemental Nutrition Assistance Program (SNAP))
+Purpose
+There is little research that attempts to quantify how sensitive workers with low incomes are to risk and uncertainty related to potential benefit loss, in situations where they are considering a potential earnings increase. This report explores how various potential downsides to increasing earnings – benefit loss, risk of not being able to resume benefits if needed again, amount of benefit loss relative to earnings gain, and risk of job loss – play out in people’s likelihood of accepting a higher-paying job. The study team also looked at differences across benefit program participation (TANF, CCDF, Medicaid, and SNAP) and across participant characteristics.
+Key findings
+Likelihood of accepting a higher-paying job under different benefit loss conditions
+- Benefit loss made survey respondents less likely to accept a higher-paying job. (For ease of exposition, the respondents are described as accepting an opportunity when they recommend that the fictional character accept it.)
+- When respondents knew that lost benefits could be automatically reinstated (if needed again later), they were more willing to accept a higher-paying job and more willing to lose benefits, compared to another condition where people were told they would have to reapply for lost benefits. Note that automatically resuming benefits is not currently a common policy practice, but rather a hypothetical scenario that was explored in this study.
+- Automatic benefit reinstatement increased the share of respondents who would accept a higher-paying job even when the new job was unstable.
+- Automatic reinstatement of benefits increased the share of respondents who would accept a higher-paying job in spite of high marginal tax rates or small net income increases.
+- Respondents were more likely to accept higher-paying job opportunities associated with more stable job situations, compared to less stable job situations. Furthermore, more stable job opportunities made respondents more likely to accept higher-paying job opportunities in spite of high marginal tax rates or small net income increases.
+- Lower marginal tax rates and higher net income increases each, on their own, made respondents more likely to accept higher-paying jobs.
+Likelihood of accepting a higher-paying job under different earnings increase/benefit loss conditions (MTR = marginal tax rates)
+- The positive effect of being able to automatically resume benefits was stronger for respondents identifying as White than respondents who identified as non-Hispanic Black or Hispanic.
+- Female respondents were more sensitive than male respondents to the size of the marginal tax rate and change in net income.
+- Benefit loss had a negative impact on the likelihood of accepting a higher-earning job for all benefit program respondents, but the effect was larger for respondents receiving CCDF, compared to recipients of Medicaid, SNAP, and TANF.
+- Lower net income increases and higher marginal tax rates were a stronger disincentive for respondents receiving CCDF and Medicaid than they were for respondents receiving TANF.
+Methods
+The study team fielded a discrete choice survey with a series of vignettes to understand how workers with low incomes consider higher-paying job opportunities when faced with potential loss of four means-tested benefit programs: CCDF, Medicaid, SNAP, and TANF. The team identified survey respondents using both a probability sample from a national panel and a non-probability sample of TANF recipients. The team conducted the web-administered survey with 1,804 current and former recipients of these benefits. Respondents were asked to consider five vignettes describing fictional beneficiaries faced with a decision of whether to take a job opportunity. For each vignette, respondents were asked to decide whether the person should or should not take the higher-paying job. These opportunities varied based on benefit loss and the process for reapplying for benefits, the amount of the income increase and benefit loss, and the stability of the job opportunity. The team then used a Bayesian hierarchical linear probability model to quantify the impact of each of these factors on respondents’ decisions about whether to accept the higher paying job.
+Citation: Spitzer, Ariella, Jesse Chandler, Bernadette Hicks, and Daniel Thal (2024). Understanding Economic Risk for Low Income Families: Economic Security, Program Benefits, and Decisions about Work. OPRE Report #2024-324, Washington, DC; Office of the Assistant Secretary for Planning and Evaluation; and Office of Planning, Research, and Evaluation, Administration for Children and Families, U.S. Department of Health and Human Services.
+Glossary
+Effective marginal tax rates: the portion of an earnings increase that is effectively “lost” due to benefit reductions. Shortened to “marginal tax rates”
+Benefit cliff: technically, a benefit loss that equals or exceeds the earnings increase. However, this term is also used generally to refer to high effective marginal tax rates
+Net income increase: in this report, the dollar value of the earnings increase minus the dollar value of the lost benefits
+Bayesian hierarchical model: a statistical approach that breaks down data into different levels, letting you use information from larger groups to improve predictions for smaller, related groups.
+CCDF: Child Care and Development Fund
+SNAP: Supplemental Nutrition Assistance Program
+TANF: Temporary Assistance for Needy Families
+Related Products:
+- Policy Brief
+- Infographic (findings for TANF program only)
+- ASPE’s Effective Marginal Tax Rates/Benefit Cliffs Home Page

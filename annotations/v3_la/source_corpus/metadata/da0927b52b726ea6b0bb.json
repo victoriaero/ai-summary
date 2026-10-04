@@ -1,0 +1,28 @@
+{
+  "source_id": "da0927b52b726ea6b0bb",
+  "normalized_url": "https://clsmas.soceco.uci.edu/news/new-report-sheds-light-latinos-us-criminal-justice-system",
+  "fetch_timestamp_utc": "2026-10-04T03:46:58.760202+00:00",
+  "registrable_domain": "uci.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://clsmas.soceco.uci.edu/news/new-report-sheds-light-latinos-us-criminal-justice-system",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 33369,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/da0927b52b726ea6b0bb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/da0927b52b726ea6b0bb.txt",
+  "text_chars": 6502,
+  "text_words": 964,
+  "extraction_status": "success",
+  "page_title": "New report sheds light on Latinos in U.S. criminal justice system",
+  "page_author": null,
+  "page_date": "2023-03-22",
+  "site_name": "New report sheds light on Latinos in U.S. criminal justice system",
+  "canonical_url": "https://clsmas.soceco.uci.edu/news/new-report-sheds-light-latinos-us-criminal-justice-system"
+}

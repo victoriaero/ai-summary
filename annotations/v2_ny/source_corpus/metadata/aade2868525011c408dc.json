@@ -1,0 +1,28 @@
+{
+  "source_id": "aade2868525011c408dc",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12914165",
+  "fetch_timestamp_utc": "2026-10-04T02:46:26.657741+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12914165/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 208120,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/aade2868525011c408dc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/aade2868525011c408dc.txt",
+  "text_chars": 47767,
+  "text_words": 7105,
+  "extraction_status": "success",
+  "page_title": "Racial and Ethnic Disparities in Preventive and Chronic Disease Care in Medicare Advantage vs. Traditional Medicare",
+  "page_author": "Renuka Tipirneni; Andrei R Stefanescu; Dominic A Ruggiero; Alexandra G Hames; John Z Ayanian; Eric T Roberts",
+  "page_date": "2025-08-11",
+  "site_name": "Journal of General Internal Medicine",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12914165/"
+}

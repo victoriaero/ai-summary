@@ -1,0 +1,28 @@
+{
+  "source_id": "013af81f9f33dd0c690c",
+  "normalized_url": "https://youtube.com/watch?t=1s&v=RwUG8Rann9Q",
+  "fetch_timestamp_utc": "2026-10-04T02:32:31.733645+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=1s&v=RwUG8Rann9Q",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1352557,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/013af81f9f33dd0c690c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/013af81f9f33dd0c690c.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Affirmative Action ban's fallout on college admissions",
+  "page_author": null,
+  "page_date": "2024-12-19",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=RwUG8Rann9Q"
+}

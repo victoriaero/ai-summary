@@ -9,19 +9,19 @@ What factors influence benefit retention / renewal for people in government bene
 LINKS
 ============================================================
 
-1 - 
-2 - 
-3 - 
-4 - 
-5 - 
-6 - 
-7 - 
-8 - 
-9 - 
-10 - 
-11 - 
-12 - 
-13 - 
+1 - https://www.nachc.org/people-losing-medicaid-due-to-procedural-reasons-is-a-red-flag/
+2 - https://legal.thomsonreuters.com/blog/why-have-millions-lost-medicaid-coverage/
+3 - https://www.kff.org/medicaid/recent-medicaid-chip-enrollment-declines-and-barriers-to-maintaining-coverage/
+4 - https://www.fortunahealth.com/insights/how-health-plans-reduce-medicaid-coverage-churn
+5 - https://jamanetwork.com/journals/jama-health-forum/fullarticle/2838677
+6 - https://www.commonwealthfund.org/publications/issue-briefs/2025/jun/reducing-medicaid-churn-policies-promote-stable-health-coverage
+7 - https://www.cbpp.org/blog/more-frequent-medicaid-renewals-would-increase-errors-and-lead-eligible-people-to-lose-health
+8 - https://www.cbpp.org/research/food-assistance/snap-tracker-people-are-losing-food-assistance-as-the-harmful-2025
+9 - https://publichealthpost.org/health-equity/medicaid-renewal-and-the-risks-of-unenrollment/
+10 - https://hsph.harvard.edu/news/the-problem-with-medicaid-unwinding/
+11 - https://www.urban.org/urban-wire/more-frequent-medicaid-redeterminations-would-reduce-health-insurance-coverage-and
+12 - https://www.route-fifty.com/digital-government/2026/09/why-some-residents-disabilities-are-losing-medicaid-and-snap-they-apply/416103/
+13 - https://www.youtube.com/watch?v=1Dvrm_ofe4o&t=332s
 14 - 
 15 - 
 
@@ -30,7 +30,28 @@ LINKS
 AI OVERVIEW TEXT
 ============================================================
 
-
+The factors that influence whether individuals successfully retain or renew public assistances—such as Medicaid, the Supplemental Nutrition Assistance Program (SNAP), and Temporary Assistance for Needy Families (TANF)—fall into a few clear buckets.
+A significant portion of benefit loss does not stem from a change in a household's financial eligibility, but rather from administrative, systemic, and communication barriers. This phenomenon is widely known as benefit churn.
+1. Administrative and Procedural Barriers
+The single largest reason eligible people lose their benefits is due to procedural reasons. These operational bottlenecks make it incredibly difficult for individuals to successfully navigate the system.
+• Outdated Contact Information: Many low-income individuals experience unstable housing or move frequently. If a state agency mails a renewal packet to an old address, the beneficiary won't receive it, leading to an automatic termination.
+• Complex Documentation Requirements: Proving income, expenses, and household composition requires extensive paperwork. Gig workers, self-employed individuals, or those working seasonal shifts often struggle to provide standard pay stubs, causing their verification to fall through the cracks.
+• Language and Digital Literacy Barriers: Renewal forms are often lengthy and written in complex, legalistic language. Individuals with low literacy levels or limited English proficiency frequently find it difficult to complete forms accurately without help.
+• Digital Accessibility Deficiencies: While many states have moved to online renewal portals, systemic bugs pose immense hurdles. Many portals fail to meet modern accessibility guidelines (such as the Web Content Accessibility Guidelines / WCAG), which locks out users who rely on screen readers or have motor disabilities.
+2. Policy and Frequency of Renewal
+How a government body designs its program parameters dictates how easily a population can stay enrolled.
+• Frequency of Redeterminations: The more frequently a state requires an individual to prove their eligibility, the higher the likelihood they will drop off the rolls. For example, shifting from a 12-month renewal loop to a 6-month loop drastically spike churn rates because it doubles the administrative hoops a beneficiary must jump through each year.
+• Work Requirements: Implementing or expanding strict work reporting mandates heavily impacts retention. If a beneficiary is working but fails to properly document and submit their hours through the state's preferred system, they lose coverage—even if they meet the work hours requirement in reality.
+• Automated (Ex Parte) Renewals: States that actively use administrative data to automatically verify income and renew individuals behind the scenes (known as ex parte renewals) see significantly higher retention rates than states requiring manual submission for every case.
+3. State Agency Capacity and Infrastructure
+The internal health of the government agency itself dictates how successfully applications are processed.
+• Staffing Shortages and Backlogs: When state agencies suffer from high worker turnover and massive caseloads, processing delays skyrocket. Eligible individuals who submit all required paperwork on time can still experience benefit gaps simply because a caseworker didn't get to their file before the automated system closed it out.
+• Systemic IT Errors: Glitches within state eligibility software packages occasionally auto-terminate households incorrectly or fail to log submitted documents.
+• Customer Support Bottlenecks: When recipients hit a snag while trying to renew, they rely on agency call centers or in-person offices. Extremely long hold times, dropped calls, or inadequate office hours frequently prevent people from resolving simple questions before their deadline passes.
+4. Direct Economic and Household Factors
+• The "Cliff Effect" and Temporary Income Fluctuations: Small, temporary spikes in income (like holiday seasonal work or an extra overtime shift) can push a household slightly above the eligibility threshold. This results in a total loss of benefits, even though their long-term baseline income remains low.
+• Demographic Vulnerabilities: Certain age groups struggle disproportionately with the recertification cycle. Children are highly vulnerable to losing coverage when their parents experience procedural hurdles. Similarly, elderly populations face a steep threat of termination due to increasingly dense or confusing physical paperwork packages.
+To help look closer at this issue, are you focusing on a specific benefit program (like Medicaid or SNAP) or a particular geographic region/country? Knowing if you're writing a policy paper or designing a system would also help narrow down the data.
 
 
 ============================================================

@@ -1,0 +1,28 @@
+{
+  "source_id": "0ffcaa1fcf43455ac986",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12488902",
+  "fetch_timestamp_utc": "2026-10-04T03:31:59.634584+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12488902/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 199991,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/0ffcaa1fcf43455ac986.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/0ffcaa1fcf43455ac986.txt",
+  "text_chars": 58226,
+  "text_words": 8069,
+  "extraction_status": "success",
+  "page_title": "Breaking barriers: ten essential steps to achieve gender equality in academia through scientific societies",
+  "page_author": "Ana Genua-Olmedo; Sílvia Poblador; Judit Lecina-Diaz; María Mar Sánchez-Montoya; Pablo Rodríguez-Lozano; Mireia Bartrons; Elena Hernández-del Amo; María Anton-Pardo; Núria Catalán; Ada Pastor; Miguel Cañedo-Argüelles; Anna Freixa; Susana Bernal",
+  "page_date": "2025-10-01",
+  "site_name": "Npj Biodiversity",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12488902/"
+}

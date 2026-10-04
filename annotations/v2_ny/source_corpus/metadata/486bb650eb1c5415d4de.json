@@ -1,0 +1,28 @@
+{
+  "source_id": "486bb650eb1c5415d4de",
+  "normalized_url": "https://action.deloitte.com/insight/3546/creative-with-credit-how-banks-can-assist-people-with-disabilities",
+  "fetch_timestamp_utc": "2026-10-04T02:38:18.867159+00:00",
+  "registrable_domain": "deloitte.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://action.deloitte.com/insight/3546/creative-with-credit-how-banks-can-assist-people-with-disabilities",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 63825,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/486bb650eb1c5415d4de.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/486bb650eb1c5415d4de.txt",
+  "text_chars": 16,
+  "text_words": 1,
+  "extraction_status": "success",
+  "page_title": "Creative with credit: How banks can assist people with disabilities",
+  "page_author": null,
+  "page_date": "2023-09-26",
+  "site_name": "action.deloitte.com",
+  "canonical_url": "https://action.deloitte.com/insight/3546/creative-with-credit-how-banks-can-assist-people-with-disabilities"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "6589515a80becf6c5e05",
+  "normalized_url": "https://cbpp.org/research/food-assistance/streamlining-and-modernizing-wic-enrollment",
+  "fetch_timestamp_utc": "2026-10-04T02:40:37.131100+00:00",
+  "registrable_domain": "cbpp.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://cbpp.org/research/food-assistance/streamlining-and-modernizing-wic-enrollment",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 6158,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

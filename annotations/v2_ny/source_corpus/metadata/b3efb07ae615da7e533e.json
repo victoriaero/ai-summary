@@ -1,0 +1,28 @@
+{
+  "source_id": "b3efb07ae615da7e533e",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5478215",
+  "fetch_timestamp_utc": "2026-10-04T02:47:06.494707+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5478215/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 144803,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b3efb07ae615da7e533e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b3efb07ae615da7e533e.txt",
+  "text_chars": 23148,
+  "text_words": 3285,
+  "extraction_status": "success",
+  "page_title": "Health Care Disparities Among Lesbian, Gay, Bisexual, and Transgender Youth: A Literature Review",
+  "page_author": "Hudaisa Hafeez; Muhammad Zeshan; Muhammad A Tahir; Nusrat Jahan; Sadiq Naveed",
+  "page_date": "2017-04-20",
+  "site_name": "Cureus",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5478215/"
+}

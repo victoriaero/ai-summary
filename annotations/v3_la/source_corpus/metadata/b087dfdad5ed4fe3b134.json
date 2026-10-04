@@ -1,0 +1,28 @@
+{
+  "source_id": "b087dfdad5ed4fe3b134",
+  "normalized_url": "https://bajajfinserv.in/insurance/what-are-the-factors-affecting-health-insurance-premium",
+  "fetch_timestamp_utc": "2026-10-04T03:44:08.736784+00:00",
+  "registrable_domain": "bajajfinserv.in",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.bajajfinserv.in/insurance/what-are-the-factors-affecting-health-insurance-premium",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 432416,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b087dfdad5ed4fe3b134.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b087dfdad5ed4fe3b134.txt",
+  "text_chars": 4088,
+  "text_words": 569,
+  "extraction_status": "success",
+  "page_title": "7 Major Factors Affecting Health Insurance Premiums",
+  "page_author": null,
+  "page_date": "2026-08-04",
+  "site_name": "Bajaj Finserv",
+  "canonical_url": "https://www.bajajfinserv.in/insurance/what-are-the-factors-affecting-health-insurance-premium"
+}

@@ -1,0 +1,987 @@
+21
+Addressing Traditional Credit 
+Scores as a Barrier to Accessing 
+Affordable Credit
+By Ying Lei Toh
+Ying Lei Toh is an economist at the Federal Reserve Bank of Kansas City. This article 
+is on the bank’s website at www.KansasCityFed.org
+This article was revised in October 2024 to correct calculations in Table 1 and Chart 2.
+A
+ccess to affordable credit is vital to consumers’ economic well-
+being and to inclusive economic growth. Affordable credit 
+ enables consumers to better manage their finances and cope 
+with unexpected emergencies. Further, affordable credit may em­
+power consumers to pursue opportunities such as entrepreneurship or 
+higher education, which can build wealth and increase socioeconomic 
+mobility. However, many consumers continue to face difficulties ob­
+taining the credit they need. According to the 2019 Survey of Con­
+sumer Finances (SCF), about one-quarter of consumers who desired 
+credit reported that they did not obtain any credit or as much credit 
+as they requested. 
+A major impediment to obtaining affordable credit is lenders’ reli­
+ance on traditional credit scores—specifically, the FICO score and Van­
+tageScore—to assess consumers’ creditworthiness. These credit scores 
+affect not only loan approval decisions but also the interest rates con­
+sumers pay on their loans. And while these credit scores are intended 
+to help lenders make informed decisions about consumers’ risk of de­
+fault, they do not always accurately reflect a borrower’s ability to repay. 
+For instance, traditional credit scores persistently penalize borrowers 
+who have experienced derogatory credit events such as delinquencies, 
+even when those events are no longer indicative of their ability to pay. 
+
+
+22	
+FEDERAL RESERVE BANK OF KANSAS CITY
+Traditional credit scores may also disproportionately punish consum­
+ers from economically disadvantaged groups, who tend to experience 
+greater difficulties obtaining their first line of credit as both account 
+age and length of payment history are major factors in the scores. Bet­
+ter understanding the obstacles these scores pose to consumer credit 
+access—as well as potential ways to address them—is thus of critical 
+importance to both efficient credit allocation and economic mobility. 
+In this article, I examine the barrier traditional credit scores pose 
+to obtaining affordable credit in the United States and discuss efforts 
+to address this barrier. Using data from the 2019 SCF, I find that tra­
+ditional credit scores may indeed hinder a sizeable share of consum­
+ers from obtaining the credit they desire. Further, disparities in credit 
+access across several sociodemographic groups match the disparities 
+in their likelihood of having high traditional credit scores, suggesting 
+lenders’ reliance on traditional credit scores may drive disparities in 
+credit access. Although using alternative data or more sophisticated 
+statistical techniques in credit scoring and underwriting could allevi­
+ate these disparities, clearer regulatory guidance and more research will 
+likely be necessary to promote the development and adoption of alter­
+native credit-scoring models. 
+Section I reviews how traditional credit scores affect credit access in 
+the United States. Section II examines disparities in credit scores across 
+several sociodemographic groups and discusses their implications. Sec­
+tion III discusses efforts to address the barrier that traditional credit 
+scores pose to credit access. 
+I.	
+Traditional Credit Scores and Access to Credit
+Mainstream lenders (banks and credit unions) have traditionally 
+been the main source of affordable credit—often defined as a loan with 
+an annual interest rate below 36 percent—for consumers (Saunders 
+2021). To assess the creditworthiness (or risk of default) of potential 
+borrowers, these lenders have typically relied on credit scores. In theory, 
+credit scores provide lenders with a standardized metric for evaluating 
+consumers’ credit risks objectively, consistently, and cheaply, helping 
+to increase the overall availability of credit and the efficiency of credit 
+allocation in consumer credit markets (Board of Governors of the Fed­
+eral Reserve System 2007). Lenders deem consumers with lower credit 
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+23
+Box 
+FICO Score and VantageScore
+To obtain a FICO score or VantageScore, consumers need sufficient 
+credit history. Consumers must have opened at least one credit account 
+to be eligible for a VantageScore and must have at least one account that 
+has been open for six months or longer to be eligible for a FICO score. If 
+a consumer meets these requirements, their score is calculated based on 
+data from their credit bureau files. The chart below shows the categories 
+of data and their relative weighting in FICO Score 8 and VantageScore 
+3.0, the most commonly used versions of the two scores.
+Factors that Determine a Consumer’s Credit Score
+Sources: FICO and VantageScore.
+Payment history. A consumer’s payment history is the most influential 
+factor in determining both their FICO Score 8 (35 percent) and Van­
+tageScore 3.0 (40 percent). A good (and long) track record of on-time 
+payments is critical for a high credit score. 
+Amount owed. A lower level of credit usage—as measured by factors such 
+as total balance, number and type of accounts with balances, unused or 
+available credit, and credit utilization (specifically, the balance-to-credit-
+limit ratio)—increases a consumer’s credit score. 
+Age of credit accounts and credit mix. Older accounts and a greater diver­
+sity of account types increase a consumer’s credit score. 
+Recent credit. Fewer recent credit accounts and applications are associ­
+ated with higher credit scores. 
+Both the FICO score and VantageScore range from 300 to 850. A 
+FICO score or VantageScore above 660 is considered “prime,” while a FICO 
+score below 620 or a VantageScore below 600 is considered “subprime.” 
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+FICO Score 8
+Vantage Score
+3.0
+Payment history
+Payment history
+Amount owed (utilization rate, 
+balances, and so on) 
+Age of accounts
+Credit 
+mix
+Recent 
+credit
+Utilization rate
+Balances
+Available credit
+Age of accounts and 
+credit mix
+Recent credit
+Percent
+
+
+24	
+FEDERAL RESERVE BANK OF KANSAS CITY
+Table 1
+Reasons Borrowers Were Denied or Granted Less Credit Than 
+Requested in Their Most Recent Loan Application 
+Reasons provided by lender
+Percent
+Lack of credit history / credit references
+9.5
+Credit bureau reports / credit ratings
+36.4
+Other credit records 
+8.2
+Too much debt
+21.6
+Income / assets / other financial characteristics
+10.0
+No reason given / bank policy
+6.3
+Notes: Table is constructed by grouping similar reasons contained in variable X7585 of the 2019 SCF. “Lack of 
+credit history / credit references” corresponds to reason codes 62 and 67; “credit bureau reports / credit ratings” 
+corresponds to reason 63; “other credit records” corresponds to reason code 64; “too much debt” corresponds to 
+reason code 66, “income / assets / other financial characteristics” corresponds to reason codes 65, 71, 72, 73, 76, 
+and 79; “no reason given / bank policy” corresponds to reason code −1. 
+Sources: Board of Governors of the Federal Reserve System and author’s calculations.
+Table 2
+Average Annual Percentage Rates (APRs) for Consumer Loans 
+by FICO Score 
+FICO score
+General-purpose credit card
+(percent)
+Personal loan
+(percent)
+30-year fixed rate mortgage
+(percent)
+Used car loan
+(percent)
+760 and above
+17.5
+10.73–12.50
+5.99
+3.68
+720
+6.21
+690
+21.0
+13.50–15.50
+6.39
+5.53
+630
+22.6
+17.80–19.90
+7.58
+10.33
+580
+23.3
+28.50–32.00
+‒
+16.85
+Below 580
+23.9
+‒
+20.43
+Notes: APRs for general-purpose credit cards are based on data from 2020. The personal loan rates are accurate as 
+of February 1, 2023. Mortgage rates are calculated based on a loan size of $300,000 and are accurate as of February 
+7, 2022. Used car loan rates are accurate as of 2022:Q2.
+Sources: Consumer Financial Protection Bureau (CFPB), Bankrate, myFICO, and Experian.
+scores to be less creditworthy and are thus more likely to deny credit to 
+these consumers or charge them higher interest rates.1
+Traditional credit scores—particularly, the FICO score and Van­
+tageScore—are derived solely from consumers’ credit history and are the 
+type of credit scores lenders most commonly use to evaluate consumers’ 
+creditworthiness today.2  See the Box for an overview of these two scores, 
+including the minimum requirements for obtaining them. 
+Data suggest that lenders rely heavily on traditional credit scores 
+to determine whether and at what price consumers can obtain credit. 
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+25
+Table 1 shows that according to the 2019 SCF, which is conducted by 
+the Board of Governors of the Federal Reserve System, almost half of 
+consumers who applied but failed to obtain the credit they desired were 
+unsuccessful because of reasons related to their credit bureau records 
+(35.9 percent) or lack thereof (9.4 percent). Moreover, Table 2 shows 
+that consumers with lower FICO scores face higher rates when obtain­
+ing various types of consumer loans. For example, a consumer with a 
+FICO score under 580 faces a nearly 17 percentage point higher aver­
+age rate for a used car loan than a consumer with a FICO score of 720 
+or above. 
+II.	 Implications of Relying on Traditional Credit Scores 
+to Determine Access and Cost of Credit
+Lenders’ heavy reliance on traditional credit scores for credit un­
+derwriting may prevent some consumers from obtaining affordable 
+credit—or discourage them from applying in the first place. Accord­
+ing to the 2019 SCF, 9.3 percent of consumers age 18 and above were 
+either denied credit or granted less credit than they requested—and 
+about 45.3 percent of these consumers report being denied or granted 
+less credit than requested because of their credit score.3 Additionally, 
+7.4 percent of consumers report that they did not apply for credit either 
+because the interest rates were too high or because they did not think 
+they would be approved; both reasons may be related to the lack of a 
+high traditional credit score. In all, up to 11.6 percent of consumers 
+(9.3 × 0.453 + 7.4) may have credit needs that were unmet or undermet 
+due to no or low credit scores. 
+From both a lending and consumer protection perspective, denying 
+some consumers credit may be desirable to the extent that it prevents 
+them from overborrowing; however, a low or nonexistent credit score 
+may not always reflect a lack of creditworthiness. Instead, it may reflect 
+that a consumer is new to the credit market or that they had a disadvan­
+tageous start to their credit history—for example, by not having access 
+to a co-borrower or by having their credit histories established as a result 
+of a third-party debt collection. Evidence suggests these reasons are espe­
+cially relevant for younger consumers, low- and moderate-income (LMI) 
+consumers, and Black or Hispanic consumers—placing populations that 
+
+
+26	
+FEDERAL RESERVE BANK OF KANSAS CITY
+may especially benefit from access to affordable credit at a particular dis­
+advantage in obtaining it.
+Consumers new to the credit market
+ Consumers who lack credit scores are often those who are new to 
+the credit market, such as young adults. These consumers’ creditwor­
+thiness cannot be observed through traditional credit-scoring methods 
+because they have no or insufficient credit history to generate a credit 
+score.4 Moreover, even after becoming scorable, these consumers have 
+lower credit scores on average because they tend to have younger ac­
+counts, shorter payment histories, higher credit utilization rates (due to 
+lower credit limits), and a larger number of recent account applications. 
+Thus, lending decisions based solely on traditional credit scores may 
+inefficiently deny credit for consumers new to the credit market.
+ Indeed, young adults appear to be at a particular disadvantage for 
+this reason. Brevoort, Grimm, and Kambara (2015) estimate that in De­
+cember 2010, 35.5 percent of consumers between the ages of 20 and 24 
+had no or insufficient credit history to be scorable compared with 19.3 
+percent of the overall population. Moreover, Chart 1 shows that when 
+younger consumers are scorable, they have lower credit scores on average.
+Consumers with a disadvantageous start to their credit history
+Traditional credit-scoring models also tend to persistently assign 
+lower scores to consumers with less advantageous starts to their credit 
+history, even when the disadvantages they faced did not or no longer 
+reflect their true creditworthiness (Bach and others 2023).5 Consum­
+ers typically establish their credit history by obtaining their first line of 
+credit. Although most consumers do so alone, some leverage the credit­
+worthiness of others—for example, by having a co-borrower with good 
+credit history or by becoming an authorized user on someone else’s (of­
+ten a parent’s) credit line. The latter approach is more advantageous 
+because it not only increases the likelihood of approval but may also 
+help consumers boost their credit scores by acquiring the credit history 
+of the established borrower (Bach and others 2023).6 However, many 
+consumers are unable to obtain credit this way. For example, Brevoort 
+and Kambara (2017) find that individuals from LMI neighborhoods 
+are less likely to leverage the creditworthiness of others in applications 
+than individuals from higher-income neighborhoods.
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+27
+Chart 1
+Younger Consumers, Black and Hispanic Consumers, and Con­
+sumers Living in Lower-Income Neighborhoods Have Lower 
+Credit Scores on Average
+600
+620
+640
+660
+680
+700
+720
+740
+760
+780
+800
+600
+620
+640
+660
+680
+700
+720
+740
+760
+780
+800 Average FICO score
+Average FICO score
+18–24
+25–40
+41–56
+57–75
+76+
+Low income
+Moderate income
+Middle income
+High income
+Black
+Hispanic
+White
+Asian
+Note: A neighborhood is classified as “low income” if its median family income is under 50 percent of the area median 
+family income, “moderate income” if its median family income is between 50 and 80 percent of the area median 
+income, “middle income” if its median family income is between 80 and 120 percent of the area median income, and 
+“high income” if its median family income exceeds 120 percent of the area median income. 
+Sources: Horymski (2022); Kramer-Mills, Landau, and Scally (2020); and ShiftProcessing.com.
+A less common but more disadvantageous way of establishing one’s 
+credit history is through bankruptcy or third-party debt collection. 
+Credit-scoring models consider these events to be derogatory, mean­
+ing consumers who establish their credit scores this way are likely to 
+start off with lower credit scores. Further, because records remain on 
+consumers’ credit bureau files for seven years, derogatory events may 
+continue to weigh on consumers’ credit scores even when they are no 
+longer indicative of consumers’ creditworthiness. Again, Brevoort and 
+Kambara (2017) find that individuals from LMI neighborhoods are 
+more likely to have their credit histories established through these de­
+rogatory events than individuals from higher-income neighborhoods.
+Given that LMI neighborhoods also tend to have higher shares of 
+Black and Hispanic consumers, we may expect Black and Hispanic 
+consumers to disproportionately experience disadvantages in establish­
+ing their credit history (Goodman and others 2022). Indeed, stud­
+ies have found that the share of consumers without a credit score is 
+higher among both LMI consumers and Black or Hispanic consumers 
+
+
+28	
+FEDERAL RESERVE BANK OF KANSAS CITY
+compared with higher-income and white consumers (Brevoort, 
+Grimm, and Kambara 2015; Hepinstall and others 2022). Further, 
+Chart 1 shows that LMI consumers and Black and Hispanic consum­
+ers have lower credit scores compared with higher-income consumers 
+and white consumers, on average. 
+Moreover, Blattner and Nelson (2021) find that while credit scores 
+are generally predictive of default risks, they are less predictive for con­
+sumers with “noisier” credit bureau files—that is, those that contain 
+fewer records, lack diversity in account types, or include past deroga­
+tory events. These factors also tend to lower credit scores, suggesting 
+lower credit scores may not always be indicative of lower creditworthi­
+ness—especially for consumers who are new to the credit market or 
+had less advantageous starts to their credit histories.7 
+Indeed, data from the 2019 SCF suggest that disparities in credit 
+scores across age, income, and racial and ethnic groups have contrib­
+uted to similar disparities in credit access. Chart 2 shows that around 
+60 percent of consumers desired credit in the 12 months preceding the 
+2019 SCF.8 This share does not vary widely by consumer characteristic, 
+except for age—consumers under the age of 35 were 28.7 percent­
+age points more likely to desire credit than those 65 years or older. 
+In contrast, the share of consumers who desired credit but had credit 
+needs that went unmet or undermet—either because they did not ap­
+ply (blue bars) or because they applied but were denied or granted less 
+credit than requested (green bars)—varied widely across age, income, 
+and racial and ethnicity groups. Consumers who were below age 65, 
+earned less than $75,000 a year, or were Black or Hispanic were sub­
+stantially more likely to have their credit needs unmet or undermet. 
+Lower-income consumers and Black or Hispanic consumers were less 
+likely to have applied for credit and more likely to be denied condi­
+tional on applying compared with consumers earning $75,000 or more 
+a year and white consumers. And although consumers under the age of 
+65 were not substantially less likely to have applied for credit compared 
+with older individuals, they were more than twice as likely to be denied 
+credit either partially or fully.
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+29
+Chart 2
+Disparities in Credit Access Mirror Disparities in Credit Scores 
+across Income, Age, and Race and Ethnicity Groups
+Sources: Board of Governors of the Federal Reserve System and author’s calculations.
+All
+White
+Black
+Hispanic
+Other
+Income
+Age
+Race/ethnicity
+Did not apply
+Applied but denied / not granted full amount
+Applied and obtained full amount
+Less than $30,000
+$30,000–$49,999
+$50,000–$74,999
+$75,000 and above
+15–34
+35–64
+65+
+10
+20
+30
+40
+50
+60
+70
+80
+Percent
+The data in this section suggest that traditional credit scores pose 
+critical barriers to accessing affordable credit. In addition, traditional 
+credit scores are less predictive of creditworthiness for consumers with 
+lower or no credit scores, implying that some of these consumers may 
+be inefficiently denied access to credit or charged higher prices. While 
+barriers to access may be transitory for young consumers, they are likely 
+to be persistent for lower-income and Black or Hispanic consumers, 
+who have lower credit scores on average.9 These consumers would likely 
+benefit the most from access to lower-cost credit, as both lower-income 
+and Black or Hispanic consumers tend to lack savings that could help 
+them cover unexpected emergencies. Access to lower-cost credit could 
+help these groups avoid taking on high-cost debt and could enhance 
+their economic mobility by allowing them to purchase homes, invest in 
+the education of their children, and pursue other economic opportuni­
+ties such as entrepreneurship. As such, addressing the barriers that tra­
+ditional credit scores pose to credit access may be critical in enhancing 
+economic mobility and financial inclusion. 
+
+
+30	
+FEDERAL RESERVE BANK OF KANSAS CITY
+III.	 Efforts to Address the Barrier of No or Low 
+Traditional Credit Scores
+Although the barriers to credit access are pervasive for consumers 
+with no or low credit scores, federal agencies and lenders have, un­
+til recently, done relatively little to address them. Lenders traditionally 
+addressed these barriers by offering credit-building products to con­
+sumers seeking to establish or improve their traditional credit scores, 
+while federal agencies primarily focused on financial education. In more 
+recent years, however, lenders (particularly, fintech lenders) and federal 
+agencies have begun developing credit-scoring models that leverage 
+alternative data sources and exploring the use of more advanced ma­
+chine learning techniques in credit scoring. These efforts could expand 
+the share of consumers who are scorable and improve the accuracy of 
+credit risk prediction (particularly for underserved consumers), thereby 
+improving overall access to credit. 
+Traditional credit-building products
+One way financial institutions have traditionally helped consumers 
+with low or no credit scores access low-cost credit is by offering products 
+designed to help them build or improve their credit history. Although 
+these products are reported to credit bureaus as standard credit prod­
+ucts, they do not, in fact, offer consumers additional liquidity. Instead, 
+these products require consumers to either secure the credit line with a 
+deposit or pre-pay for the loan. This feature minimizes the default risks 
+that lenders face, making them more willing to extend these “loans” to 
+consumers of unknown or possibly high default risk. By obtaining and 
+making timely payments on these products, consumers can establish or 
+improve their credit scores. 
+Two common types of credit-building products are credit-builder 
+loans (CBLs) and secured credit cards. CBLs are reported as installment 
+loans to credit bureaus. However, unlike regular installment loans, lend­
+ers do not provide borrowers with funds upfront; instead, they require 
+borrowers to pre-pay for their loans. Specifically, the loan is disbursed 
+to borrowers with each installment payment that they make. For ex­
+ample, if a borrower took out a 12-month CBL for $600, which im­
+plies a monthly payment of $50 plus interest, the lender would deposit 
+$50 into the borrower’s account each time they made their monthly 
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+31
+payment. A secured credit card is an “alternative” credit card that works 
+like a regular credit card but requires cardholders to post a security de­
+posit (typically, equal to the credit limit) to reduce lenders’ exposure to 
+default risk (White 2022).
+Research on credit-building products is relatively scant, and previ­
+ous studies find that the adoption of these products has mixed effects 
+on consumers’ credit scores. Studies on CBLs generally find that tak­
+ing out a CBL both increases the probability of having a credit score 
+and increases credit scores for those with existing scores who also have 
+little to no existing debt. However, studies also find that taking out a 
+CBL can actually hurt the credit scores of consumers with a higher 
+level of existing debt (see, for example, Burke and others 2022; CFPB 
+2020).10 Opening a secured credit card likewise benefits some consum­
+ers while hurting others. Santucci (2016) finds that secured cardholders 
+who kept their cards open over the course of two years experienced an 
+increase of about 24 points in their credit scores. CFPB (2017) suggests 
+that secured cardholders who maintain a good payment history may 
+even have their cards converted into unsecured credit cards and their 
+deposits returned after a period. However, secured credit cardholders 
+who closed their accounts within two years—whether their accounts 
+were in good standing or otherwise—saw their credit scores decline 
+by over 40 points (Santucci 2016). Those whose accounts were in de­
+fault at the time of closure experienced an especially sharp drop in their 
+credit scores of around 60 points.  
+Moreover, although credit-building products can help some con­
+sumers obtain and improve their credit scores, they are likely to have 
+limited effects on expanding access to lower-cost credit overall. Sur­
+veys consistently find that many U.S. consumers—particularly, lower-
+income and younger consumers—lack basic knowledge about credit 
+scores (see, for example, Capital One 2022, Quinn 2021, and Con­
+sumer Federation of America 2020). Thus, consumer awareness of 
+credit-building products is likely to be low. Even when consumers are 
+aware of these products, they may face barriers obtaining them, includ­
+ing insufficient funds to fulfill the deposit requirement of secured credit 
+cards, a lack of trust in the lender, and an inability to pass the ability-to-
+pay (ATP) test (CFPB 2017; Levy and others 2016).11 
+
+
+32	
+FEDERAL RESERVE BANK OF KANSAS CITY
+Fintech credit-building products
+In recent years, some financial technology (“fintech”) firms have also 
+begun offering credit cards that do not require consumers to have a tra­
+ditional credit score to apply, providing consumers with an alternative 
+product for building credit.12 Instead of relying on security deposits or pre-
+payments, these fintech lenders minimize their exposure to default risks by 
+only lending to consumers whom they determine to be creditworthy based 
+on alternative metrics, such as bank account data.13 To help consumers 
+build their credit scores, these credit cards also have features that help main­
+tain good payment behaviors. For instance, one fintech credit card does 
+not allow consumers to carry a balance and offers a seven-day automatic 
+repayment feature, which helps cardholders to make timely payments and 
+keep their credit card utilization level low. And another rewards cardholders 
+by increasing their credit limit if they make consistent, timely payments.
+Outside studies on the effectiveness of these fintech products are 
+limited, though data shared by the representatives of one fintech credit 
+card provider suggest that these products have helped some consumers 
+establish and obtain high credit scores.14 According to this provider, 
+consumers who opened a credit card with them without a traditional 
+credit score obtained a VantageScore of 681—a prime score—on aver­
+age, 12 months after opening the card. In addition, these cards appear 
+to help provide credit to consumers who are underserved by mainstream 
+lenders. In particular, 40 percent of the consumers this fintech provider 
+approved for a card in 2022 had previously been denied credit by a 
+mainstream lender. Fintech credit cards are likely to have a small effect 
+on expanding credit access to consumers (both directly and indirectly) 
+at present, given that these cards are relatively new and many consum­
+ers may still not be aware of them.15 That said, these fintech credit cards 
+have the potential to reach more consumers than secured credit cards, 
+as they are both more accessible and provide real liquidity to cash-flow-
+constrained consumers.  
+Financial education and credit counseling 
+Traditionally, agencies in both the public and private sectors have 
+engaged in efforts to improve consumers’ personal finance knowledge, 
+including their knowledge about credit scores, borrowing, and debt man­
+agement. Many consumers lack a basic understanding of credit scores; 
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+33
+surveys also indicate that many consumers lack financial knowledge 
+more generally, including knowledge about borrowing (Contretras and 
+Bendix 2021). To improve general financial literacy, many federal agen­
+cies have developed dedicated financial education websites that provide 
+educational materials and financial management tools to consumers 
+(Toh 2022). State and local governments have also worked to promote 
+the inclusion of financial education in school curriculums (Contretras 
+and Bendix 2021). In addition, various nonprofit organizations, such 
+as the National Foundation for Credit Counseling or American Con­
+sumer Credit Counseling, offer credit counseling services that can help 
+consumers improve their financial knowledge and better manage their 
+debts, thereby improving their credit scores (Roll and Moulton 2016).16  
+Relatively little is known about the effectiveness of the various public 
+sector financial education efforts on financial literacy, and subsequently, 
+consumer credit behaviors and credit scores, as these efforts often lack 
+measurable goals (GAO 2006). However, research on financial educa­
+tion in general suggests that these efforts may have limited effects. Fi­
+nancial literacy surveys consistently find that many U.S. consumers lack 
+the financial knowledge needed to make sound financial decisions—on 
+average, consumers only answer around half of the financial literacy ques­
+tions in these surveys correctly (Contretras and Bendix 2021). Moreover, 
+depending on the survey, the share of questions that consumers answer 
+correctly has either been relatively stagnant or declining over time, sug­
+gesting that financial education efforts may not have been effective at 
+improving consumers’ financial knowledge.17 Studies on financial educa­
+tion generally find little to no effect on consumer financial behaviors, 
+implying financial education may not help consumers obtain and im­
+prove traditional credit scores (Fernandes, Lynch, and Netemeyer 2014). 
+However, some evidence suggests that credit counseling may improve 
+consumers’ credit scores. For example, Roll and Moulton (2016) find 
+that consumers who underwent credit counseling reduced their debts 
+and experienced larger increases in their credit scores compared with 
+those who did not undergo credit counseling. 
+Promoting the use of alternative data in credit scoring and underwriting
+More recently, lenders and federal agencies have turned their ef­
+forts to developing and promoting the use of alternative data in credit 
+
+
+34	
+FEDERAL RESERVE BANK OF KANSAS CITY
+scoring. Because traditional credit scores are generated solely from cred­
+it records from the three main credit bureaus, their predictiveness of a 
+consumer’s default risk is limited by the availability and quality of the 
+consumer’s credit bureau data. As discussed in Section II, traditional 
+credit scores may not be as informative about the creditworthiness of 
+consumers with no credit history or noisier credit bureau data. More­
+over, past credit history may not always be a good predictor of future 
+creditworthiness (Di Maggio, Ratnadiwakara, and Carmichael 2022). 
+One way to address the limitations of credit bureau data is by using 
+alternative data in credit scoring. These alternative data may include 
+data on bill payments (for example, rent and utilities), transactions or 
+cash flow (for example, bank accounts), and income or assets (for ex­
+ample, employment history and property ownership). They may also 
+include non-financial data—for example, on social media use or type of 
+mobile device (FinRegLab 2020). Studies find that credit-scoring mod­
+els that use alternative data (particularly, cash flow data)—either alone 
+or as a supplement to traditional credit bureau data—are not only able 
+to score more consumers but also perform as well as or better than tra­
+ditional credit scores at predicting consumers’ default risks (see, for ex­
+ample, Di Maggio, Ratnadiwakara, and Carmichael 2022; FinRegLab 
+2020; Turner and others 2006).
+Both the public and private sectors have been actively developing 
+credit-scoring models that use alternative data in recent years. In 2020, 
+the Office of the Comptroller of the Currency (OCC) launched Project 
+REACh (Roundtable for Economic Access and Change) to promote 
+financial inclusion by improving access to credit and capital. One objec­
+tive of Project REACh is to help develop an alternative credit-scoring 
+system that can serve as a safe and fair tool for underwriting.18 Tra­
+ditional credit score creators and credit bureaus have been developing 
+new scoring models that include alternative data such as bill payment 
+data (for example, Experian Boost) and transaction data (for example, 
+UltraFICO).19 Additionally, fintech firms Petal Card and Nova Credit 
+have developed cash-flow-based credit-scoring models—CashScore and 
+Cash Atlas, respectively—that use permissioned transaction data to pre­
+dict credit risk. 
+Although using alternative data in credit scoring may, in theory, ex­
+pand access to low-cost credit, its effects may be limited at present due 
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+35
+to its low adoption by mainstream lenders (FinRegLab 2020). Many 
+mainstream lenders may lack the motivation to use alternative data since 
+they do not lend to subprime consumers, for whom alternative data is 
+more predictive of credit risks. Technology or resource constraints, regu­
+latory uncertainty, higher compliance risks associated with the use of 
+alternative data, and a lack of data on the performance of underwriting 
+models that incorporate alternative data are a few other factors that may 
+hinder mainstream lenders from using alternative data in underwriting 
+(GAO 2021). 
+Recent developments in both the regulatory and market spaces may 
+encourage broader adoption of alternative data in credit underwriting, 
+though their effects remain to be seen. In recent years, federal financial 
+regulators have taken steps to reduce regulatory uncertainty surround­
+ing alternative data in credit underwriting. In 2019, for example, federal 
+financial regulators issued a joint statement encouraging responsible use 
+of alternative data such as cash flow data in credit underwriting (Board 
+of Governors of the Federal Reserve System and others 2019). And in 
+2021, the CFPB modified its definition of “qualified mortgage” under 
+the Truth in Lending Act (Regulation Z) to allow for greater use of 
+alternative data in mortgage lending. To further incentivize the use of 
+alternative data, federal regulators have also stated that they may con­
+sider lenders’ use of alternative data in underwriting mortgages for LMI 
+consumers to be an innovation, potentially helping lenders to meet 
+Community Reinvestment Act goals (GAO 2021).20 More off-the-shelf 
+credit-scoring models that incorporate alternative data have also become 
+available in the market in recent years; their availability may facilitate 
+mainstream lenders’ use of alternative data in credit underwriting by 
+addressing challenges in obtaining and integrating alternative data into 
+their in-house underwriting models. 
+Exploring the use of machine learning in credit underwriting
+In recent years, lenders, researchers, and regulators have also been 
+exploring the use of advanced machine learning models in credit under­
+writing. These models use sophisticated algorithms that can help un­
+cover complex relationships between numerous data points, enabling 
+lenders to leverage massive amounts of alternative consumer data to im­
+prove credit risk prediction and access (FinRegLab 2022). Indeed, stud­
+ies have found that the credit-scoring models of some fintech firms that 
+
+
+36	
+FEDERAL RESERVE BANK OF KANSAS CITY
+leverage both machine learning and alternative data result in higher 
+rates of credit approvals or lower interest rates for underserved consum­
+ers compared with models using traditional credit scores (Di Maggio, 
+Ratnadiwakara, and Carmichael 2022; Jagtiani and Lemieux 2019).
+Even when using only traditional credit data, most studies agree 
+that sophisticated machine learning models generally outperform lo­
+gistic models (which are commonly used for credit risk assessments) 
+in predicting default risks of borrowers; however, studies differ on 
+whether these improved predictions benefit underserved consumers. 
+Some studies find that machine learning can help score a larger num­
+ber of consumers even when using only traditional credit data, which 
+may improve credit access among consumers who are not scoreable 
+with the traditional credit-scoring model (Albanesi and Vamossy 2019; 
+VantageScore 2021). However, other studies find that machine learn­
+ing may have little to no benefit for populations that tend to have 
+lower traditional credit scores, as it does not eliminate—and may even 
+worsen—disparities in the accuracy of default risk predictions for con­
+sumers who are underserved relative to those who are not (Blattner and 
+Nelson 2021; Mersault and others 2021; Wang and Perkins 2019). For 
+example, Fuster and others (2022) find that the use of machine learn­
+ing marginally improves loan approval rates for Black and Hispanic 
+consumers but substantially increases the range of interest rates these 
+consumers face, which may make them worse off overall. MacCarthy 
+(2019) and Klein (2020) have also warned of machine learning’s poten­
+tial to perpetuate or worsen existing disparities in credit access or en­
+able discrimination by proxy. More research is needed to examine the 
+implications of using machine learning methods in credit underwriting 
+on credit access for underserved populations and to inform regulation, 
+particularly as the technology continues to evolve. 
+Conclusion 
+The lack of a high traditional credit score is a barrier to accessing 
+affordable credit for many consumers in the United States. A lower 
+ability to obtain affordable credit as needed may adversely affect con­
+sumers’ financial well-being and impede economic mobility, particu­
+larly among economically disadvantaged consumers. In this article, I 
+discuss the barrier traditional credit scores pose to credit access and 
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+37
+highlight that traditional credit scores not only hinder many consumers 
+from obtaining credit, they may also drive disparities in credit access 
+across socioeconomic groups. I then review both public- and private-
+sector efforts to address this barrier. Earlier efforts largely focused on 
+helping consumers establish or increase their traditional credit scores 
+(for instance, by providing consumers with credit-building products, 
+financial education, and credit counseling), while more recent efforts 
+have concentrated on developing credit-scoring models that can better 
+predict default risks by leveraging alternative data and more advanced 
+machine learning techniques.
+Although these efforts may improve consumers’ access to afford­
+able credit, they are currently limited by low adoption rates. Consumer 
+adoption of credit-building products has thus far been low due to both 
+a lack of data and lack of awareness. Once more data on the effica­
+cy of credit-building products are available, more consumer outreach 
+and promotion efforts may be needed to boost adoption of the best-
+performing products. Lenders’ adoption of alternative credit-scoring 
+models, too, may be limited due to regulatory uncertainty, resource 
+constraints, and inadequate data and research demonstrating their ef­
+fectiveness. More research—especially on the use of machine learning 
+methods for credit scoring—is needed to help establish the benefits and 
+risks of alternative credit-scoring models.
+Moreover, credit-building products and alternative credit-scoring 
+models mostly serve to improve the accuracy of credit scores in pre­
+dicting consumers’ underlying creditworthiness (or default risks) and 
+do not address consumers’ lack of creditworthiness itself (except for 
+credit counseling). These measures will only improve consumers’ access 
+to credit to the extent that their repayment behavior and the alternative 
+data on consumers reflect low default risks. Measures to address con­
+sumers’ lack of creditworthiness will likely be necessary to ensure that 
+all consumers are able to access the credit they need. 
+
+
+38	
+FEDERAL RESERVE BANK OF KANSAS CITY
+Endnotes
+1Lenders may be especially reluctant to lend to subprime borrowers, as sub­
+prime lending subjects lenders to stricter lending standards and thus to higher com­
+pliance costs and risks. Examples of regulations that impose stricter requirements on 
+subprime lending include the Credit Card Accountability and Disclosure (CARD) 
+Act of 2009 and the Dodd-Frank Act of 2010. Studies have found that the CARD 
+Act and Dodd-Frank Act led, respectively, to a decline in subprime credit card lend­
+ing and a decline in mortgage lending in the mainstream credit markets (Elliehausen 
+and Hannon 2017; Kramer-Mills, Landau, and Scally 2020).
+2The FICO score was created in 1989 by FICO, while VantageScore was 
+jointly created in 2006 by the three main credit bureaus—Equifax, Experian, and 
+Transunion. Of the two scores, the FICO score is used more widely; according to 
+FICO, over 90 percent of top lenders use the FICO score in credit underwriting.
+3I assume the first two groups of reasons listed in Table 1 to be credit-score 
+related. 
+4A consumer may also be unscorable if they have stale credit records, with no 
+recent credit activities.  
+5Bach, Campa, and Giorgi (2023) find that consumers’ initial credit scores 
+are highly persistent and underpin the evolution of their credit scores. Higher ini­
+tial credit scores tend to lead to better credit access, higher credit limits, and lower 
+utilization rates, which result in high credit scores.
+6In contrast, those who apply for credit alone may face a Catch-22 situation, 
+in which they are unable to obtain a loan because they do not have a credit score 
+and are unable to obtain a credit score because they are unable to get their first 
+line of credit. Although most of these consumers eventually become scorable, they 
+may take longer to obtain a credit score and have lower credit scores when they 
+do, both because their accounts are younger and their credit utilization rates are 
+higher (due to lower credit limits). 
+7Traditional credit scores may either under- or over-predict default risks for 
+consumers with noisier credit files, leading to inefficient approval or rejection of 
+credit applications, respectively. Blattner and Nelson (2021) find inefficient rejec­
+tions (that is, rejections of consumers who are creditworthy) are more common 
+among LMI and minority consumers. 
+8I consider any consumers who did not apply for credit for reasons other than 
+not needing additional credit or preferring not to use credit as having a desire for 
+credit. 
+9Race or ethnicity is time-invariant, and income mobility in the United States 
+is limited, especially over the short term (Congressional Research Service 2021).
+10Although each principal payment that a CBL borrower makes is returned 
+to them in the form of a bank deposit they can withdraw almost immediately, 
+taking out a CBL appears to worsen their ability to manage their other existing 
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+39
+debt obligations. Burke and others (2022) find that borrowers who had a high 
+level of existing debt (in the form of other installment loans) experienced higher 
+non-CBL delinquencies when taking out CBLs. 
+11Although consumers effectively pre-pay for their loans through the security 
+deposit they post when obtaining a secured credit card, secured credit card lenders 
+are still required to perform the ATP test as stipulated by the CARD Act of 2019. 
+CFPB (2017) finds that about 12 percent of secured card applicants were denied 
+because they did not pass the ATP test.
+12Examples of such fintech firms include Petal and TomoCredit.
+13By not requiring consumers to post a security deposit, these fintech credit 
+cards are likely to be more accessible to consumers with cash flow constraints than 
+secured credit cards. 
+14I am thankful to Petal’s CEO, Jason Rosen, and Petal’s vice president of 
+communications, Matt Graves, for sharing this information with me.
+15As of February 2023, Petal had over 350,000 cardholders. No data on the 
+number of Tomo cardholders are available, though TomoCredit’s CEO disclosed 
+in 2022 that they have received over 2.5 million applications over time (Azevodo 
+2022).
+16Some employers have also recognized the importance of employees’ finan­
+cial well-being on their engagement and productivity and have introduced or 
+expanded their employee financial wellness programs, providing services such as 
+financial counseling (CFPB 2014).
+17The share of questions that consumers answered correctly, on average, in 
+the Financial Industry Regulatory Authority Investor Education Foundation’s 
+National Financial Capability Study fell from 59.8 percent in 2009 to 51.6 per­
+cent in 2021. The share of questions that consumers answered correctly for the 
+TIAA Institute-GFLEC Personal Finance Index has fluctuated at around 50 per­
+cent from 2017 to 2022 (Urban and Valdes 2022; Yakoboski, Lusardi, and Hasler 
+2022). 
+18Project REACh’s alternative credit assessment workstream has so far col­
+laborated with financial institutions to explore integrating permissioned deposit 
+account data, shared across participating financial institutions, with traditional 
+credit bureau data to assess consumer’s creditworthiness. The workstream also 
+plans to further explore the use of other permissioned alternative data, particu­
+larly for consumers without a deposit account for credit scoring (OCC 2023).
+19Due in part to additional compliance requirements and data accuracy is­
+sues, these products are available to consumers only on an opt-in basis. As of 
+January 2022, nearly 9 million consumers have signed up for Experian Boost 
+(Boundy 2022).
+20The 2021 GAO report provides other examples of initiatives and efforts to 
+expand the use of alternative data in mortgage lending, including incorporating 
+rental payment data into Fannie Mae’s underwriting model.
+
+
+40	
+FEDERAL RESERVE BANK OF KANSAS CITY
+References
+Albanesi, Stefania, and Domonkos F. Vamossy. 2019. “Predicting Consumer De­
+fault: A Deep Learning Approach.” National Bureau of Economic Research, 
+working paper no. w26165, August. Available at https://doi.org/10.3386/
+w26165
+Bach, Helena, Pietro Campa, Giacomo De Giorgi, Jaromir Nosal, and Davide 
+Pietrobon. 2023. “Born to Be (Sub)Prime: An Exploratory Analysis.” AEA 
+Papers and Proceedings,  vol. 113, pp. 166–171. Available at https://doi.
+org/10.1257/pandp.20231096
+Blattner, Laura, and Scott Nelson. 2021. "How Costly Is Noise? Data and Dis­
+parities in Consumer Credit." Cornell University, arXiv, May 17. Available at 
+https://doi.org/10.48550/arXiv.2105.07554
+Board of Governors of the Federal Reserve System. 2007. “Report to the Con­
+gress on Credit Scoring and Its Effects on the Availability and Affordability 
+of Credit.” Submitted to Congress pursuant to section 215 of the Fair and 
+Accurate Credit Transactions Act of 2003, August.
+Board of Governors of the Federal Reserve System, Consumer Financial Pro­
+tection Bureau (CFPB), Federal Deposit Insurance Corporation, National 
+Credit Union Administration, and Office of the Comptroller of the Cur­
+rency. 2019. “Interagency Statement on the Use of Alternative Data in Credit 
+Underwriting.” Press release. December 3.
+Boundy, Craig. 2022. “Experian Go: The Next Step in Our Commitment to Con­
+sumers.” Experian Global News Blog, January 26. 
+Brevoort, Kenneth P., and Michelle Kambara. 2017. “CFPB Data Point: Becom­
+ing Credit Visible.” Consumer Financial Protection Bureau, June. 
+Burke, Jeremy, Julian Jamison, Dean Karlan, Kata Mihaly, and Jonathan Zinman. 
+2022. “Credit Building or Credit Crumbling? A Credit Builder Loan’s Effects 
+on Consumer Behavior and Market Efficiency in the United States.” Review 
+of Financial Studies, vol. 36, no. 4, pp. 1585–1620. Available at https://doi.
+org/10.1093/rfs/hhac060
+Capital One. 2022. “Americans Top Misconceptions about Credit Scores.” Capi­
+tal One Insights Center, December 14. 
+CFPB (Consumer Financial Protection Bureau.) 2020. “Targeting Credit Builder 
+Loans: Insights from a Credit Builder Loan Evaluation.” Committee on Fi­
+nancial Services of the U.S. House of Representatives, “Diversity and Inclu­
+sion: Holding America’s Large Banks Accountable,” 116th Congress, Second 
+Session, February. 
+———. 2017. “The Consumer Credit Card Market,” December.
+———. 2014. “Financial Wellness at Work: A Review of Promising Practices and 
+Policies,” August.
+Consumer Federation of America. 2020. “Annual Survey Reveals That Low-In­
+come Consumers Are Most Likely to Seek Credit Yet Know the Least about 
+Credit Scores: Dissemination of CreditScoreQuiz.org Will Prioritize This 
+Population.” Press release, July 20.
+Contretras, Oscar, and Joseph Bendix. 2021. “Financial Literacy in the United 
+States.” Milken Institute, August 17.
+
+
+ECONOMIC REVIEW • THIRD QUARTER 2023	
+41
+Di Maggio, Marco, Dimuthu Ratnadiwakara, and Don Carmichael. 2022. “In­
+visible Primes: Fintech Lending with Alternative Data.” National Bureau of 
+Economic Research, working paper no. 29840, March. Available at https://
+doi.org/10.3386/w29840 
+Elliehausen, Gregory E., and Simona M. Hannon. 2017. “The Credit Card Act 
+and Consumer Finance Company Lending.” Board of Governors of the Fed­
+eral Reserve System, Financial and Economics Discussion Series, no. 2017-
+072, June.
+Fernandes, Daniel, John G. Lynch, Jr., and Richard G. Netemeyer. 2014. “Fi­
+nancial Literacy, Financial Education, and Downstream Financial Behaviors.” 
+Management Science, vol. 60, no. 8, pp. 1861–1883.
+FinRegLab. 2022. “Machine Learning Explainability and Fairness: Insights from 
+Consumer Lending.”
+———. 2020. “The Use of Cash-Flow Data in Underwriting Credit: Market 
+Context & Policy Analysis.” 
+Fuster, Andreas, Paul Goldsmith‐Pinkham, Tarun Ramadorai, and Ansgar Wal­
+ther. 2022. “Predictably Unequal? The Effects of Machine Learning on Credit 
+Markets.” Journal of Finance, vol. 77, no. 1, pp. 5–47. Available at https://doi.
+org/10.1111/jofi.13090
+GAO (Government Accountability Office). 2021. “Mortgage Lending: Use of 
+Alternative Data is Limited but Has Potential Benefits.” Report to Congres­
+sional Requesters, no. GAO-22-104380, November.
+———. 2006. “Financial Literacy and Education Commission: Further Progress 
+Needed to Ensure an Effective National Strategy.” Report to Congressional 
+Committees, no. GAO-07-100, December.
+Hepinstall, Mike, Chaitra Chandrasekhar, Peter Carroll, Nick Dykstra, and Yigit 
+Ulucay. 2022. “Financial Inclusion and Access to Credit.” Oliver Wyman.
+Horymski, Chris. 2022. “What Is the Average Credit Score in the U.S.?” Ex­
+perian, February 22. 
+Jagtiani, Julapa, and Catharine Lemieux. 2019. “The Roles of Alternative Data 
+and Machine Learning in Fintech Lending: Evidence from LendingClub 
+Consumer Platform.” Financial Management, vol. 48, no. 4, pp. 1009–1029. 
+Available at https://doi.org/10.1111/fima.12295
+Klein, Aaron. 2020. “Reducing Bias in AI-Based Financial Services.” Brookings 
+Center for Technology Innovation, July 10.
+Kramer-Mills, Claire, Rebecca Landau, and Joelle Scally. 2020. “The State of Low-
+Income America: Credit Access and Debt Payment.” Federal Reserve Bank of 
+New York, November.
+MacCarthy, Mark. 2019. “Fairness in Algorithmic Decision-Making.” Brookings 
+Institution’s Artificial Intelligence and Emerging Technology Initiative, De­
+cember 6.
+Mersault, Vitaly, Daniel Moulton, Larry Santucci, and Nathan Schor. 2021. “One 
+Threshold Doesn’t Fit All: Tailoring Machine Learning Predictions of Con­
+sumer Default for Lower-Income Areas.” Federal Reserve Bank of Philadel­
+phia, Research Department Working Paper no. 22-39. Available at: https://
+doi.org/10.21799/frbp.wp.2022.39
+OCC (Office of the Comptroller of the Currency). 2023. “Alternative Credit As­
+sessment Workstream.” OCC. 
+
+
+42	
+FEDERAL RESERVE BANK OF KANSAS CITY
+Quinn, Tom. 2021. “How Much Do People Know About Credit Scores?” Credit 
+News & Current Events, myFICO, April 29. 
+Roll, Stephen, and Stephanie Moulton. 2016. “The Impact of Credit Counsel­
+ing on Consumer Outcomes: Evidence from a National Demonstration Pro­
+gram.” Working paper. 
+Santucci, Larry. 2016. “The Secured Credit Card Market.” Federal Reserve Bank 
+of Philadelphia, Payment Cards Center Discussion Paper no. 16-3. Available 
+at https://doi.org/10.21799/frbp.dp.2016.nov
+Saunders, Lauren. 2021. “Why Cap Interest Rates at 36%?” National Consumer 
+Law Center, Issue Brief, August 4. 
+Toh, Ying Lei. 2022. “Promoting Payment Inclusion in the United States.” Feder­
+al Reserve Bank of Kansas City, Payments System Research Briefing, October 7. 
+Turner, Michael A., Alyssa S. Lee, Ann Schnare, Robin Varghese, and Patrick D. 
+Walker. 2006. “Give Credit Where Credit Is Due: Increasing Access to Af­
+fordable Mainstream Credit Using Alternative Data.” Brookings Institution 
+Urban Markets Initiative, Political and Economic Research Center.
+Urban, Carly, and Olivia Valdes. 2022. “Why Is Measured Financial Literacy De­
+clining and What Does It Mean? Maybe We Just ‘Don’t Know.’” Financial 
+Industry Regulatory Authority Investor Education Foundation, Insights: Fi­
+nancial Capability, August.
+VantageScore 2021. “Credit With a Conscience: Driving Financial Inclusion with 
+Data and Analytics.” VantageScore. 
+Wang, J. Christina, and Charles B. Perkins. 2019. “How Magic a Bullet Is Ma­
+chine Learning for Credit Analysis? An Exploration with FinTech Lending 
+Data.” Federal Reserve Bank of Boston, working paper no. 19-16. Available 
+at https://doi.org/10.29412/res.wp.2019.16
+Yakoboski, Paul J., Annamaria Lusardi, and Andrea Hasler. 2022. “How Financial 
+Literacy Varies Among U.S. Adults: The 2022 TIAA Institute-GFLEC Per­
+sonal Finance Index.”

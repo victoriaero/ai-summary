@@ -1,0 +1,20 @@
+{
+  "source_id": "76a6212482e1e9e96dbd",
+  "normalized_url": "https://urban.org/urban-wire/five-reasons-mass-incarceration-queer-issue",
+  "fetch_timestamp_utc": "2026-10-04T03:39:39.785315+00:00",
+  "registrable_domain": "urban.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.urban.org/urban-wire/five-reasons-mass-incarceration-queer-issue",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5821,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

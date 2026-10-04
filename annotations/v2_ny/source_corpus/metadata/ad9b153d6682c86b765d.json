@@ -1,0 +1,28 @@
+{
+  "source_id": "ad9b153d6682c86b765d",
+  "normalized_url": "https://sentencingproject.org/reports/one-in-five-how-mass-incarceration-deepens-inequality-and-harms-public-safety",
+  "fetch_timestamp_utc": "2026-10-04T02:46:35.533547+00:00",
+  "registrable_domain": "sentencingproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sentencingproject.org/reports/one-in-five-how-mass-incarceration-deepens-inequality-and-harms-public-safety/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 208547,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ad9b153d6682c86b765d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ad9b153d6682c86b765d.txt",
+  "text_chars": 56851,
+  "text_words": 8561,
+  "extraction_status": "success",
+  "page_title": "One in Five: How Mass Incarceration Deepens Inequality and Harms Public Safety – The Sentencing Project",
+  "page_author": "Nazgol Ghandnoosh; Ph D; Luke Trinka",
+  "page_date": "2024-01-16",
+  "site_name": "The Sentencing Project",
+  "canonical_url": "https://www.sentencingproject.org/reports/one-in-five-how-mass-incarceration-deepens-inequality-and-harms-public-safety/"
+}

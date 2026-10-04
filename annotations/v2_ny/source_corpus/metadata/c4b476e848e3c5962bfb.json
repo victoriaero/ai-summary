@@ -1,0 +1,28 @@
+{
+  "source_id": "c4b476e848e3c5962bfb",
+  "normalized_url": "https://carleton.edu/accessibility-resources/newsletter/disability-and-homelessness-in-america",
+  "fetch_timestamp_utc": "2026-10-04T02:48:12.968851+00:00",
+  "registrable_domain": "carleton.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.carleton.edu/accessibility-resources/newsletter/disability-and-homelessness-in-america/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 127526,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c4b476e848e3c5962bfb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c4b476e848e3c5962bfb.txt",
+  "text_chars": 2504,
+  "text_words": 378,
+  "extraction_status": "success",
+  "page_title": "Disability and Homelessness in America - Carleton College",
+  "page_author": "Accessibility Digest",
+  "page_date": "2025-03-10",
+  "site_name": "Accessibility Digest",
+  "canonical_url": "https://www.carleton.edu/accessibility-resources/newsletter"
+}

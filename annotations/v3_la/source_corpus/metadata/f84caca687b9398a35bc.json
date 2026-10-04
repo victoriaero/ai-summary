@@ -1,0 +1,28 @@
+{
+  "source_id": "f84caca687b9398a35bc",
+  "normalized_url": "https://justice.gov/ovw/grants",
+  "fetch_timestamp_utc": "2026-10-04T03:49:25.153352+00:00",
+  "registrable_domain": "justice.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.justice.gov/ovw/grants",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 95269,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f84caca687b9398a35bc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f84caca687b9398a35bc.txt",
+  "text_chars": 497,
+  "text_words": 72,
+  "extraction_status": "success",
+  "page_title": "Grants",
+  "page_author": null,
+  "page_date": "2022-11-29",
+  "site_name": "justice.gov",
+  "canonical_url": "https://www.justice.gov/ovw/grants"
+}

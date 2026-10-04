@@ -1,0 +1,28 @@
+{
+  "source_id": "8824e4008cdf0ea2b49b",
+  "normalized_url": "https://latino.ucla.edu/research/american-dream-deferred",
+  "fetch_timestamp_utc": "2026-10-04T02:43:28.902291+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://latino.ucla.edu/research/american-dream-deferred/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 192194,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/8824e4008cdf0ea2b49b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/8824e4008cdf0ea2b49b.txt",
+  "text_chars": 23853,
+  "text_words": 3569,
+  "extraction_status": "success",
+  "page_title": "American Dream Deferred",
+  "page_author": null,
+  "page_date": "2023-06-08",
+  "site_name": "Latino Policy & Politics Institute",
+  "canonical_url": "https://latino.ucla.edu/research/american-dream-deferred/"
+}

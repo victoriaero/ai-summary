@@ -1,0 +1,28 @@
+{
+  "source_id": "df5d9e4b5db44408734b",
+  "normalized_url": "https://probonoinst.org/2023/07/13/race-income-and-the-effect-on-educational-opportunity",
+  "fetch_timestamp_utc": "2026-10-04T02:50:16.889006+00:00",
+  "registrable_domain": "probonoinst.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.probonoinst.org/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 266646,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/df5d9e4b5db44408734b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/df5d9e4b5db44408734b.txt",
+  "text_chars": 3530,
+  "text_words": 538,
+  "extraction_status": "success",
+  "page_title": "Home - Pro Bono Institute",
+  "page_author": null,
+  "page_date": "2026-08-04",
+  "site_name": "Pro Bono Institute",
+  "canonical_url": "https://www.probonoinst.org/"
+}

@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:addthis="https://www.addthis.com/help/api-spec" >
+<head>
+    	
+        <meta charset="UTF-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-8141cfd36294e6c7598",applicationID:"420560542",browserID:"420602373"};;/*! For license information please see nr-loader-rum-1.323.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,1e6,"KC",0,i,"qh",0,"SESSION_ERROR"])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.323.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.323.0.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.323.0.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-zhTI1o3vPu0UcYWUELiLeb9P46+LBW0K7R4KO/PafMc68L5tJ2mSHyvZtcNeG9Cw/PTZstuo62K1wwaoAsHdXQ=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.323.0.PROD"]=self["webpackChunk:NRBA-1.323.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+
+        <link rel="profile" href="http://gmpg.org/xfn/11"/>
+        <link rel="pingback" href="https://corwin-connect.com/xmlrpc.php"/>
+                    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Bullying and Students With Disabilities - Corwin Connect</title>
+	<meta name="description" content="Author Barry McNamara discusses what schools need to do to protect students with disabilities from bullying." />
+	<link rel="canonical" href="https://corwin-connect.com/2014/10/bullying-students-with-disabilities/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Bullying and Students With Disabilities - Corwin Connect" />
+	<meta property="og:description" content="Author Barry McNamara discusses what schools need to do to protect students with disabilities from bullying." />
+	<meta property="og:url" content="https://corwin-connect.com/2014/10/bullying-students-with-disabilities/" />
+	<meta property="og:site_name" content="Corwin Connect" />
+	<meta property="article:publisher" content="https://www.facebook.com/CorwinPress/" />
+	<meta property="article:published_time" content="2014-10-28T16:13:55+00:00" />
+	<meta property="article:modified_time" content="2018-04-09T22:24:03+00:00" />
+	<meta property="og:image" content="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?fit=1000%2C667&ssl=1" />
+	<meta property="og:image:width" content="1000" />
+	<meta property="og:image:height" content="667" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Barry McNamara" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Barry McNamara" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="4 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/#article","isPartOf":{"@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/"},"author":{"name":"Barry McNamara","@id":"https:\/\/corwin-connect.com\/#\/schema\/person\/dbc18d3ee1da28a280bfbb5cf189179c"},"headline":"Bullying and Students With Disabilities","datePublished":"2014-10-28T16:13:55+00:00","dateModified":"2018-04-09T22:24:03+00:00","mainEntityOfPage":{"@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/"},"wordCount":709,"commentCount":3,"image":{"@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/#primaryimage"},"thumbnailUrl":"https:\/\/i0.wp.com\/corwin-connect.com\/wp-content\/uploads\/2014\/10\/Bullying.jpg?fit=1000%2C667&ssl=1","keywords":["bullying","bullying prevention month","students with disabilities"],"articleSection":["Wellbeing"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/#respond"]}]},{"@type":"WebPage","@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/","url":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/","name":"Bullying and Students With Disabilities - Corwin Connect","isPartOf":{"@id":"https:\/\/corwin-connect.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/#primaryimage"},"image":{"@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/#primaryimage"},"thumbnailUrl":"https:\/\/i0.wp.com\/corwin-connect.com\/wp-content\/uploads\/2014\/10\/Bullying.jpg?fit=1000%2C667&ssl=1","datePublished":"2014-10-28T16:13:55+00:00","dateModified":"2018-04-09T22:24:03+00:00","author":{"@id":"https:\/\/corwin-connect.com\/#\/schema\/person\/dbc18d3ee1da28a280bfbb5cf189179c"},"description":"Author Barry McNamara discusses what schools need to do to protect students with disabilities from bullying.","breadcrumb":{"@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/#primaryimage","url":"https:\/\/i0.wp.com\/corwin-connect.com\/wp-content\/uploads\/2014\/10\/Bullying.jpg?fit=1000%2C667&ssl=1","contentUrl":"https:\/\/i0.wp.com\/corwin-connect.com\/wp-content\/uploads\/2014\/10\/Bullying.jpg?fit=1000%2C667&ssl=1","width":1000,"height":667,"caption":"Bullying Students With Disabilities"},{"@type":"BreadcrumbList","@id":"https:\/\/corwin-connect.com\/2014\/10\/bullying-students-with-disabilities\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/corwin-connect.com\/"},{"@type":"ListItem","position":2,"name":"Bullying and Students With Disabilities"}]},{"@type":"WebSite","@id":"https:\/\/corwin-connect.com\/#website","url":"https:\/\/corwin-connect.com\/","name":"Corwin Connect","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/corwin-connect.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/corwin-connect.com\/#\/schema\/person\/dbc18d3ee1da28a280bfbb5cf189179c","name":"Barry McNamara","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/56b9f141345b7981b12023c895cbdb29107ddc970311e515ee6c49444249c703?s=96&d=mm&r=g","url":"https:\/\/secure.gravatar.com\/avatar\/56b9f141345b7981b12023c895cbdb29107ddc970311e515ee6c49444249c703?s=96&d=mm&r=g","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/56b9f141345b7981b12023c895cbdb29107ddc970311e515ee6c49444249c703?s=96&d=mm&r=g","caption":"Barry McNamara"},"description":"Dr. Barry Edwards McNamara is a Professor of Special Education at Dowling College in Oakdale, New York. He received his BA from St. Benedict’s College, his MS Ed. from University of Kansas (Special Education: Learning Disabilities), and his doctorate from Columbia University’s Teachers College in Special Education: Learning Disabilities. In addition to teaching at the college level, Dr. McNamara was a special education teacher in a self-contained classroom setting and a resource room. He was also a Learning Disability Teacher Consultant. He is the author of Bullying and Students With Disabilities.","url":"https:\/\/corwin-connect.com\/author\/barrymcnamara\/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//corwin-connect.com' />
+<link rel='dns-prefetch' href='//s7.addthis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='preconnect' href='//i0.wp.com' />
+<link rel='preconnect' href='//c0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Corwin Connect &raquo; Feed" href="https://corwin-connect.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Corwin Connect &raquo; Comments Feed" href="https://corwin-connect.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Corwin Connect &raquo; Bullying and Students With Disabilities Comments Feed" href="https://corwin-connect.com/2014/10/bullying-students-with-disabilities/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://corwin-connect.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcorwin-connect.com%2F2014%2F10%2Fbullying-students-with-disabilities%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://corwin-connect.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcorwin-connect.com%2F2014%2F10%2Fbullying-students-with-disabilities%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='sr7css-css' href='//corwin-connect.com/wp-content/plugins/revslider/public/css/sr7.css?ver=1790995293' media='all' />
+<style id="jetpack-stats-inline-css">
+img#wpstats{display:none}
+/*# sourceURL=jetpack-stats-inline-css */
+</style>
+<link rel='stylesheet' id='parent-style-css' href='https://corwin-connect.com/wp-content/themes/newsroom/style.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='newsroom-elated-default-style-css' href='https://corwin-connect.com/wp-content/themes/newsroom/style.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='newsroom-elated-modules-css' href='https://corwin-connect.com/wp-content/themes/newsroom/assets/css/modules.min.css?ver=7.1.1' media='all' />
+<style id="newsroom-elated-modules-inline-css">
+.eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary {
+    width: 30%!important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 150px !important;
+    display: table !important;
+    z-index: 9 !important;
+}
+.eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary .slick-list {
+    position:absolute !important;
+    right:0 !important;
+    top:25px !important;
+}@media only screen and (min-width: 1024px) and (max-width: 1400px){}
+/*# sourceURL=newsroom-elated-modules-inline-css */
+</style>
+<link rel='stylesheet' id='newsroom-elated-plugins-css' href='https://corwin-connect.com/wp-content/themes/newsroom/assets/css/plugins.min.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='eltd-font_awesome-css' href='https://corwin-connect.com/wp-content/themes/newsroom/assets/css/font-awesome/css/font-awesome.min.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='eltd-font_elegant-css' href='https://corwin-connect.com/wp-content/themes/newsroom/assets/css/elegant-icons/style.min.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='eltd-ion_icons-css' href='https://corwin-connect.com/wp-content/themes/newsroom/assets/css/ion-icons/css/ionicons.min.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='eltd-linea_icons-css' href='https://corwin-connect.com/wp-content/themes/newsroom/assets/css/linea-icons/style.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='eltd-simple_line_icons-css' href='https://corwin-connect.com/wp-content/themes/newsroom/assets/css/simple-line-icons/simple-line-icons.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://c0.wp.com/c/7.1.1/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://c0.wp.com/c/7.1.1/wp-includes/js/mediaelement/wp-mediaelement.min.css' media='all' />
+<link rel='stylesheet' id='newsroom-elated-modules-responsive-css' href='https://corwin-connect.com/wp-content/themes/newsroom/assets/css/modules-responsive.min.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='https://corwin-connect.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=9.0.1' media='all' />
+<link rel='stylesheet' id='newsroom-elated-google-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C500%2C700%7COld+Standard+TT%3A100%2C300%2C400%2C500%2C700%7COswald%3A100%2C300%2C400%2C500%2C700%7CArvo%3A100%2C300%2C400%2C500%2C700%7CEk+Mukta%3A100%2C300%2C400%2C500%2C700%7CRaleway%3A100%2C300%2C400%2C500%2C700&#038;subset=latin-ext&#038;ver=1.0.0' media='all' />
+<link rel='stylesheet' id='addthis_all_pages-css' href='https://corwin-connect.com/wp-content/plugins/addthis-follow/frontend/build/addthis_wordpress_public.min.css?ver=7.1.1' media='all' />
+<link rel='stylesheet' id='forget-about-shortcode-buttons-css' href='https://corwin-connect.com/wp-content/plugins/forget-about-shortcode-buttons/public/css/button-styles.css?ver=2.1.3' media='all' />
+<link rel='stylesheet' id='wp-social-sharing-css' href='https://corwin-connect.com/wp-content/plugins/wp-social-sharing/static/socialshare.css?ver=1.6' media='all' />
+<script async data-wp-strategy="async" id="tp-tools-js" data-jetpack-boost="ignore" src="//corwin-connect.com/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=1790995293"></script>
+<script async data-wp-strategy="async" id="sr7-js" data-jetpack-boost="ignore" src="//corwin-connect.com/wp-content/plugins/revslider/public/js/sr7.js?ver=1790995293"></script>
+<script id="jquery-core-js" src="https://c0.wp.com/c/7.1.1/wp-includes/js/jquery/jquery.min.js"></script>
+<script id="jquery-migrate-js" src="https://c0.wp.com/c/7.1.1/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script></script><link rel="https://api.w.org/" href="https://corwin-connect.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://corwin-connect.com/wp-json/wp/v2/posts/2104" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://corwin-connect.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.1" />
+<link rel='shortlink' href='https://corwin-connect.com/?p=2104' />
+<meta name="generator" content="Site Kit by Google 1.188.0" /><script type='text/javascript' data-cfasync='false'>var _mmunch = {'front': false, 'page': false, 'post': false, 'category': false, 'author': false, 'search': false, 'attachment': false, 'tag': false};_mmunch['post'] = true; _mmunch['postData'] = {"ID":2104,"post_name":"bullying-students-with-disabilities","post_title":"Bullying and Students With Disabilities","post_type":"post","post_author":"329","post_status":"publish"}; _mmunch['postCategories'] = [{"term_id":1242,"name":"Wellbeing","slug":"wellbeing","term_group":0,"term_taxonomy_id":1242,"taxonomy":"category","description":"","parent":0,"count":88,"filter":"raw","cat_ID":1242,"category_count":88,"category_description":"","cat_name":"Wellbeing","category_nicename":"wellbeing","category_parent":0}]; _mmunch['postTags'] = [{"term_id":777,"name":"bullying","slug":"bullying","term_group":0,"term_taxonomy_id":125,"taxonomy":"post_tag","description":"","parent":0,"count":12,"filter":"raw"},{"term_id":449,"name":"bullying prevention month","slug":"bullying-prevention-month","term_group":0,"term_taxonomy_id":478,"taxonomy":"post_tag","description":"","parent":0,"count":5,"filter":"raw"},{"term_id":463,"name":"students with disabilities","slug":"students-with-disabilities","term_group":0,"term_taxonomy_id":493,"taxonomy":"post_tag","description":"","parent":0,"count":1,"filter":"raw"}]; _mmunch['postAuthor'] = {"name":"Barry McNamara","ID":329};</script><script data-cfasync="false" src="//a.mailmunch.co/app/v1/site.js" id="mailmunch-script" data-plugin="mc_mm" data-mailmunch-site-id="237139" async></script><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+
+<!-- Google Tag Manager snippet added by Site Kit -->
+<script>
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-5J7GGC9' );
+			
+</script>
+
+<!-- End Google Tag Manager snippet added by Site Kit -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<meta name="generator" content="Powered by Slider Revolution 7.1.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2025/04/Corwin_favicon_16x16-1-2.jpg?fit=32%2C19&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2025/04/Corwin_favicon_16x16-1-2.jpg?fit=67%2C40&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2025/04/Corwin_favicon_16x16-1-2.jpg?fit=67%2C40&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2025/04/Corwin_favicon_16x16-1-2.jpg?fit=67%2C40&#038;ssl=1" />
+<script data-jetpack-boost="ignore">
+	window._tpt			??= {};
+	window.SR7			??= {};
+	_tpt.R				??= {};
+	_tpt.R.fonts		??= {};
+	_tpt.R.fonts.customFonts??= {};
+	SR7.devMode			=  false;
+	SR7.F 				??= {};
+	SR7.G				??= {};
+	SR7.LIB				??= {};
+	SR7.E				??= {};
+	SR7.E.gAddons		??= {};
+	SR7.E.php 			??= {};
+	SR7.E.nonce			= 'c61b9eaf06';
+	SR7.E.ajaxurl		= 'https://corwin-connect.com/wp-admin/admin-ajax.php';
+	SR7.E.resturl		= 'https://corwin-connect.com/wp-json/';
+	SR7.E.slug_path		= 'revslider/revslider.php';
+	SR7.E.slug			= 'revslider';
+	SR7.E.plugin_url	= 'https://corwin-connect.com/wp-content/plugins/revslider/';
+	SR7.E.wp_plugin_url = 'https://corwin-connect.com/wp-content/plugins/';
+	SR7.E.revision		= '7.1.3';
+	SR7.E.latest_revision = '7.2.1';
+	SR7.E.fontBaseUrl	= '';
+	SR7.G.breakPoints 	= [1240,1024,778,480];
+	SR7.G.fSUVW 		= false;
+	SR7.E.modules 		= ['module','page','slide','layer','draw','animate','srtools','canvas','defaults','carousel','navigation','media','modifiers','migration'];
+	SR7.E.libs 			= ['WEBGL'];
+	SR7.E.css 			= ['csslp','cssbtns','cssfilters','cssnav','cssmedia'];
+	SR7.E.resources		??= {};
+	SR7.E.ytnc			= false;
+	SR7.JSON			??= {};
+/*! Slider Revolution 7.0 - Page Processor */
+!function(){"use strict";window.SR7??={},window._tpt??={},SR7.version="Slider Revolution 7.1.0",_tpt.getMobileZoom=()=>_tpt.is_mobile?document.documentElement.clientWidth/window.innerWidth:1,_tpt.getWinDim=function(t){_tpt.screenHeightWithUrlBar??=window.innerHeight;let e=SR7.F?.modal?.visible&&SR7.M[SR7.F.module.getIdByAlias(SR7.F.modal.requested)];_tpt.scrollBar=window.innerWidth!==document.documentElement.clientWidth||e&&window.innerWidth!==e.c.module.clientWidth,_tpt.winW=_tpt.getMobileZoom()*window.innerWidth-(_tpt.scrollBar||"prepare"===t?_tpt.scrollBarW??_tpt.mesureScrollBar():0),_tpt.winH=_tpt.getMobileZoom()*window.innerHeight,_tpt.winWAll=document.documentElement.clientWidth},SR7.F.isCarousel=t=>!SR7.E.backend&&"carousel"===SR7.M[t].settings.type,SR7.F.moduleType=t=>SR7.E.backend&&"carousel"===SR7.M[t].settings.type?"standard":SR7.M[t].settings.type,_tpt.getResponsiveLevel=function(t){return SR7.G.fSUVW?_tpt.closestGE(t,window.innerWidth):_tpt.closestGE(t,_tpt.winWAll)},_tpt.mesureScrollBar=function(){let t=document.createElement("div");return t.className="RSscrollbar-measure",t.style.width="100px",t.style.height="100px",t.style.overflow="scroll",t.style.position="absolute",t.style.top="-9999px",document.body.appendChild(t),_tpt.scrollBarW=t.offsetWidth-t.clientWidth,document.body.removeChild(t),_tpt.scrollBarW},_tpt.loadCSS??=async function(t,e,s){return s?_tpt.R.fonts.required[e].status=1:(_tpt.R[e]??={},_tpt.R[e].status=1),new Promise((i,n)=>{if(_tpt.isStylesheetLoaded(t))s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,i();else{const o=document.createElement("link");o.rel="stylesheet";let l="text",r="css";o["type"]=l+"/"+r,o.href=t,o.onload=()=>{s?_tpt.R.fonts.required[e].status=2:_tpt.R[e].status=2,i()},o.onerror=()=>{s?_tpt.R.fonts.required[e].status=3:_tpt.R[e].status=3,n(new Error(`Failed to load CSS: ${t}`))},document.head.appendChild(o)}})},_tpt.addContainer??=function(t){const{tag:e="div",id:s,class:i,datas:n,textContent:o,iHTML:l}=t,r=document.createElement(e);if(s&&""!==s&&(r.id=s),i&&""!==i&&(r.className=i),n)for(const[t,e]of Object.entries(n))"style"==t?r.style.cssText=e:r.setAttribute(`data-${t}`,e);return o&&(r.textContent=o),l&&(r.innerHTML=l),r},_tpt.collector??=function(){return{fragment:new DocumentFragment,add(t){var e=_tpt.addContainer(t);return this.fragment.appendChild(e),e},append(t){t.appendChild(this.fragment)}}},_tpt.isStylesheetLoaded??=function(t){let e=t.split("?")[0];return Array.from(document.querySelectorAll('link[rel="stylesheet"], link[rel="preload"]')).some(t=>t.href.split("?")[0]===e)},_tpt.preloader??={requests:new Map,preloaderTemplates:new Map,show:function(t,e){if(!e||!t)return;const{type:s,color:i}=e;if(s<0||"off"===s)return;const n=`preloader_${s}`;let o=this.preloaderTemplates.get(n);o||(o=this.build(s,i),this.preloaderTemplates.set(n,o)),this.requests.has(t)||this.requests.set(t,{count:0});const l=this.requests.get(t);clearTimeout(l.timer),l.count++,1===l.count&&(l.timer=setTimeout(()=>{l.preloaderClone=o.cloneNode(!0),l.anim&&l.anim.kill(),void 0!==_tpt.gsap?l.anim=_tpt.gsap.fromTo(l.preloaderClone,1,{opacity:0},{opacity:1}):l.preloaderClone.classList.add("sr7-fade-in"),t.appendChild(l.preloaderClone)},150))},hide:function(t){if(!this.requests.has(t))return;const e=this.requests.get(t);e.count--,e.count<0&&(e.count=0),e.anim&&e.anim.kill(),0===e.count&&(clearTimeout(e.timer),e.preloaderClone&&(e.preloaderClone.classList.remove("sr7-fade-in"),e.anim=_tpt.gsap.to(e.preloaderClone,.3,{opacity:0,onComplete:function(){e.preloaderClone.remove()}})))},state:function(t){if(!this.requests.has(t))return!1;return this.requests.get(t).count>0},build:(t,e="#ffffff",s="")=>{if(t<0||"off"===t)return null;const i=parseInt(t);if(t="prlt"+i,isNaN(i))return null;if(_tpt.loadCSS(SR7.E.plugin_url+"public/css/preloaders/t"+i+".css","preloader_"+t),isNaN(i)||i<6){const n=`background-color:${e}`,o=1===i||2==i?n:"",l=3===i||4==i?n:"",r=_tpt.collector();["dot1","dot2","bounce1","bounce2","bounce3"].forEach(t=>r.add({tag:"div",class:t,datas:{style:l}}));const a=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`,datas:{style:o}});return r.append(a),a}{let n={};if(7===i){let t;e.startsWith("#")?(t=e.replace("#",""),t=`rgba(${parseInt(t.substring(0,2),16)}, ${parseInt(t.substring(2,4),16)}, ${parseInt(t.substring(4,6),16)}, `):e.startsWith("rgb")&&(t=e.slice(e.indexOf("(")+1,e.lastIndexOf(")")).split(",").map(t=>t.trim()),t=`rgba(${t[0]}, ${t[1]}, ${t[2]}, `),t&&(n.style=`border-top-color: ${t}0.65); border-bottom-color: ${t}0.15); border-left-color: ${t}0.65); border-right-color: ${t}0.15)`)}else 12===i&&(n.style=`background:${e}`);const o=[10,0,4,2,5,9,0,4,4,2][i-6],l=_tpt.collector(),r=l.add({tag:"div",class:"sr7-prl-inner",datas:n});Array.from({length:o}).forEach(()=>r.appendChild(l.add({tag:"span",datas:{style:`background:${e}`}})));const a=_tpt.addContainer({tag:"sr7-prl",class:`${t} ${s}`});return l.append(a),a}}},SR7.preLoader={show:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.show(e||SR7.M[t].c.module,SR7.M[t]?.settings?.pLoader??{color:"#fff",type:10})},hide:(t,e)=>{"off"!==(SR7.M[t]?.settings?.pLoader?.type??"off")&&_tpt.preloader.hide(e||SR7.M[t].c.module)},state:(t,e)=>_tpt.preloader.state(e||SR7.M[t].c.module)},_tpt.prepareModuleHeight=function(t){window.SR7.M??={},window.SR7.M[t.id]??={},"ignore"==t.googleFont&&(SR7.E.ignoreGoogleFont=!0);let e=window.SR7.M[t.id];if(null==_tpt.scrollBarW&&_tpt.mesureScrollBar(),e.c??={},e.states??={},e.settings??={},e.settings.size??={},t.fixed&&(e.settings.fixed=!0),e.c.module=document.querySelector('sr7-module[id="'+t.id+'"]'),e.c.adjuster=e.c.module.getElementsByTagName("sr7-adjuster")[0],e.c.content=e.c.module.getElementsByTagName("sr7-content")[0],SR7.E.backend||"carousel"!==t.type||(e.c.carousel=e.c.content.getElementsByTagName("sr7-carousel")[0]),null==e.c.module||null==e.c.module)return;t.plType&&t.plColor&&(e.settings.pLoader={type:t.plType,color:t.plColor}),"string"==typeof t.mh&&t.mh.includes(",")&&(t.mh=t.mh.split(",")),void 0===t.plType||"off"===t.plType||SR7.preLoader.state(t.id)&&SR7.preLoader.state(t.id,e.c.module)||SR7.preLoader.show(t.id,e.c.module),_tpt.winW||_tpt.getWinDim("prepare"),_tpt.getWinDim();let s=""+e.c.module.dataset?.modal;"modal"==s||"true"==s||"undefined"!==s&&"false"!==s||(e.settings.size.fullHeight=t.size.fullHeight,e.settings.size.fullWidth=t.size.fullWidth,e.LEV??=_tpt.getResponsiveLevel(window.SR7.G.breakPoints,t.id),t.vpt=_tpt.fillArray(t.vpt,5),e.settings.vPort=t.vpt[e.LEV],void 0!==t.el&&"720"==t.el[4]&&t.gh[4]!==t.el[4]&&"960"==t.el[3]&&t.gh[3]!==t.el[3]&&"768"==t.el[2]&&t.gh[2]!==t.el[2]&&delete t.el,e.settings.size.height=null==t.el||null==t.el[e.LEV]||0==t.el[e.LEV]||"auto"==t.el[e.LEV]?_tpt.fillArray(t.gh,5,-1):_tpt.fillArray(t.el,5,-1),e.settings.size.width=_tpt.fillArray(t.gw,5,-1),e.settings.size.minHeight=_tpt.fillArray(t.mh??[0],5,-1),e.cacheSize={fullWidth:e.settings.size?.fullWidth,fullHeight:e.settings.size?.fullHeight},void 0!==t.off&&(t.off?.t&&(e.settings.size.m??={})&&(e.settings.size.m.t=t.off.t),t.off?.b&&(e.settings.size.m??={})&&(e.settings.size.m.b=t.off.b),t.off?.l&&(e.settings.size.p??={})&&(e.settings.size.p.l=t.off.l),t.off?.r&&(e.settings.size.p??={})&&(e.settings.size.p.r=t.off.r),e.offsetPrepared=!0),_tpt.updatePMHeight(t.id,t,!0))},_tpt.updatePMHeight=(t,e,s)=>{let i=SR7.M[t];if(null==i.settings)return _tpt.prepareModuleHeight(e);var n=i.settings.size.fullWidth?_tpt.winW:i.c.module.parentNode.offsetWidth;n=0===n||isNaN(n)?_tpt.winW:n;let o=i.settings.size.width[i.LEV]||i.settings.size.width[i.LEV++]||i.settings.size.width[i.LEV--]||n,l=i.settings.size.height[i.LEV]||i.settings.size.height[i.LEV++]||i.settings.size.height[i.LEV--]||0,r=i.settings.size.minHeight[i.LEV]||i.settings.size.minHeight[i.LEV++]||i.settings.size.minHeight[i.LEV--]||0;if(l="auto"==l?0:l,l=parseInt(l),"carousel"!==e.type&&(n-=parseInt(e.onw??0)||0),i.MP=!i.settings.size.fullWidth&&n<o||_tpt.winW<o?Math.min(1,n/o):1,e.size.fullScreen||e.size.fullHeight){let t=parseInt(e.fho)||0,s=(""+e.fho).indexOf("%")>-1;e.newh=_tpt.winH-(s?_tpt.winH*t/100:t)}else e.newh=i.MP*Math.max(l,r);if(e.newh+=(parseInt(e.onh??0)||0)+(parseInt(e.carousel?.pt)||0)+(parseInt(e.carousel?.pb)||0),void 0!==e.slideduration&&(e.newh=Math.max(e.newh,parseInt(e.slideduration)/3)),e.shdw&&_tpt.buildShadow(e.id,e),void 0!==i.c.adjuster&&(i.c.adjuster.style.height=e.newh+"px"),i.c.module.style.height=e.newh+"px",i.c.content.style.height=e.newh+"px",i.states.heightPrepared=!0,i.dims??={},i.dims.moduleRect=i.c.module.getBoundingClientRect(),i.c.content.style.left="-"+i.dims.moduleRect.left+"px",!i.settings.size.fullWidth)return s&&requestAnimationFrame(()=>{n!==i.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)}),void _tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0);_tpt.bgStyle(e.id,e,window.innerWidth==_tpt.winW,!0),requestAnimationFrame(function(){s&&requestAnimationFrame(()=>{n!==i.c.module.parentNode.offsetWidth&&_tpt.updatePMHeight(e.id,e)})}),i.earlyResizerFunction||(i.earlyResizerFunction=function(){requestAnimationFrame(function(){_tpt.getWinDim(),_tpt.moduleDefaults(e.id,e),_tpt.updateSlideBg(t,!0)})},window.addEventListener("resize",i.earlyResizerFunction))},_tpt.buildShadow=function(t,e){let s=SR7.M[t];null==s.c.shadow&&(s.c.shadow=document.createElement("sr7-module-shadow"),s.c.shadow.classList.add("sr7-shdw-"+e.shdw),s.c.content.appendChild(s.c.shadow))},_tpt.tf??=t=>"false"!=t&&0!=t&&("true"==t||1==t||t);const t=function(t){return"/"==(t=t.toLowerCase())[t.length-1]&&(t=t.slice(0,-1)),"http://"==t.slice(0,7)?t=t.slice(7):"https://"==t.slice(0,8)&&(t=t.slice(8)),t},e=function(t,e){return"/"==(""+t)[0]&&"/"==(""+t)[1]?(e?"https:":window.location.protocol)+t:(""+t).includes("://")?(e||t.includes("https")?"https:":window.location.protocol)+"//"+t.split("://").slice(1).join("://"):t},s=function(s,i){return!(!s||!i)&&(s==i||(s=e(s),i=e(i),s=t(s),i=t(i),(s=String(s))==(i=String(i))||"undefined"!==s&&"undefined"!==i&&(-1!==i.indexOf(s)||-1!==s.indexOf(i))))};_tpt.bgStyle=async(t,e,i,n,o)=>{const l=SR7.M[t];if(e=e??l.settings,SR7.E.backend||!e.fixed||l.c.module.classList.contains("sr7-top-fixed")||(l.c.module.classList.add("sr7-top-fixed"),l.c.module.style.position="fixed",l.c.module.style.width="100%",l.c.module.style.top="0px",l.c.module.style.left="0px",l.c.module.style.pointerEvents="none",l.c.module.style.zIndex=5e3,l.c.content.style.pointerEvents="none"),null==l.c.bgcanvas){let t=document.createElement("sr7-module-bg"),r=!1;if("string"==typeof e?.bg?.color&&e?.bg?.color.includes("{"))if(_tpt.gradient&&_tpt.gsap)e.bg.color=_tpt.gradient.convert(e.bg.color);else try{let t=JSON.parse(e.bg.color);(t?.orig||t?.string)&&(e.bg.color=JSON.parse(e.bg.color))}catch{return}let a="string"==typeof e?.bg?.color?e?.bg?.color||"transparent":e?.bg?.color?.string??e?.bg?.color?.orig??e?.bg?.color?.color??"transparent";if(t.style["background"+(String(a).includes("grad")?"":"Color")]=a,("transparent"!==a||o)&&(r=!0),l.offsetPrepared&&(t.style.visibility="hidden"),e?.bg?.image?.src&&"false"!==String(e?.bg?.image?.u)&&(e.bg.image.src=((t,e)=>{let i;const n=t.c.module.getElementsByTagName("image_lists");if(void 0!==n[0]){const t=n[0].getElementsByTagName("img");if(void 0!==t[0])for(let n in t)if(!i&&Object.prototype.hasOwnProperty.call(t,n)){let o=t[n].dataset.src||t[n].getAttribute("src")||t[n].getAttribute("data -src"),l=t[n].dataset.src2||t[n].getAttribute("src2")||t[n].getAttribute("data -src2");o&&s(atob(t[n].dataset.dbsrc),e)&&(i=window.devicePixelRatio?l:o)}}return i??e})(l,e?.bg?.image?.src),t.style.backgroundImage=`url(${e?.bg?.image.src})`,t.style.backgroundSize=""==(e.bg.image?.size??"")?"cover":e.bg.image.size,t.style.backgroundPosition=e.bg.image.position??parseInt(e.bg.image.pos?.x??0)+"% "+parseInt(e.bg.image.pos?.y??0)+"%",""==e.bg.image.repeat&&(e.bg.image.repeat="no-repeat"),t.style.backgroundRepeat=_tpt.tf(e.bg.image.rx)&&_tpt.tf(e.bg.image.ry)?"repeat":_tpt.tf(e.bg.image.rx)?"repeat-x":_tpt.tf(e.bg.image.ry)?"repeat-y":e.bg.image.repeat??"no-repeat",r=!0),!r)return;l.c.bgcanvas=t,e.size.fullWidth?t.style.width=_tpt.winW-(i&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px":n&&(t.style.width=l.c.module.offsetWidth+"px"),e.sbt?.use?l.c.content.appendChild(l.c.bgcanvas):l.c.module.appendChild(l.c.bgcanvas)}l.c.bgcanvas.style.height=void 0!==e.newh?e.newh+"px":(SR7.E.backend||"carousel"!==e.type?l.dims.content.h:l.dims.module.h)+"px",l.c.bgcanvas.style.left=!i&&e.sbt?.use||l.c.bgcanvas.closest("SR7-CONTENT")?"0px":"-"+(l?.dims?.moduleRect?.left??0)+"px"},_tpt.updateSlideBg=function(t,e,s=!1,i=0){const n=SR7.M[t];if(void 0===n){if(i>=5)return;return setTimeout(()=>_tpt.updateSlideBg(t,e,s,i+1),100)}const o=n.settings;(n?.c?.bgcanvas||!0===s)&&o.size.fullWidth&&(n.c.bgcanvas.style.width=_tpt.winW-(e&&_tpt.winH<document.body.offsetHeight?_tpt.scrollBarW:0)+"px")},_tpt.moduleDefaults=(t,e)=>{let s=SR7.M[t];null!=s&&null!=s.c&&null!=s.c.module&&(s.dims??={},s.dims.moduleRect=s.c.module.getBoundingClientRect(),s.c.content.style.left="-"+s.dims.moduleRect.left+"px",s.c.content.style.width=_tpt.winW-_tpt.scrollBarW+"px",SR7.E.backend||"carousel"!==e.type||(s.c.module.style.overflow="visible"),_tpt.bgStyle(t,e,window.innerWidth==_tpt.winW))},_tpt.getOffset=t=>{var e=t.getBoundingClientRect(),s=window.pageXOffset||document.documentElement.scrollLeft,i=window.pageYOffset||document.documentElement.scrollTop;return{top:e.top+i,left:e.left+s}},_tpt.fillArray=function(t,e){let s,i;t=Array.isArray(t)?t:[t];let n=Array(e),o=t.length;for(i=0;i<t.length;i++)n[i+(e-o)]=t[i],null==s&&"#"!==t[i]&&(s=t[i]);for(let t=0;t<e;t++)void 0!==n[t]&&"#"!=n[t]||(n[t]=s),s=n[t];return n},_tpt.closestGE=function(t,e){let s=Number.MAX_VALUE,i=-1;for(let n=0;n<t.length;n++)t[n]-1>=e&&t[n]-1-e<s&&(s=t[n]-1-e,i=n);return++i},_tpt.R??={},_tpt.R.page=_tpt.extend?_tpt.extend(_tpt.R.page,{status:2,version:"7.1.0"}):{status:2,version:"7.1.0"}}();</script>
+<style id="wp-custom-css">
+.eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary {
+	right:  0% !important;
+	width: 45% !important;
+}
+
+.eltd-sp-three-holder.eltd-bnl-holder .eltd-bnl-outer .eltd-bnl-inner .eltd-post-slider-secondary .slick-list {
+	top: 10px !important;
+}
+</style>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<!-- OneTrust Cookies Consent Notice start for corwin-connect.com -->
+<script type="text/javascript" src="https://cdn-ukwest.onetrust.com/consent/0190ef56-d330-7e1f-9cd3-3ed03016fbe9/OtAutoBlock.js" ></script>
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="0190ef56-d330-7e1f-9cd3-3ed03016fbe9" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for corwin-connect.com -->
+
+</head>
+<body class="wp-singular post-template-default single single-post postid-2104 single-format-standard wp-theme-newsroom wp-child-theme-newsroom_child eltd-core-1.3.1 newsroom child theme-child-ver-1.0.0 newsroom-ver-1.7  eltd-blog-installed eltd-no-title-area eltd-uncovering-footer eltd-header-type3 eltd-sticky-header-on-scroll-up eltd-top-bar-light eltd-menu-area-light eltd-default-mobile-header eltd-sticky-up-mobile-header eltd- wpb-js-composer js-comp-ver-9.0.1 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
+<div class="eltd-wrapper">
+    <div class="eltd-wrapper-inner">
+                    <div id="eltd-content-wrapper">
+            <!-- needed for uncovering footer effect -->
+        
+        
+
+<div class="eltd-top-bar">
+    		        <div class="eltd-vertical-align-containers eltd-33-33-33">
+            <div class="eltd-position-left">
+                <div class="eltd-position-left-inner">
+                                            <div id="custom_html-6" class="widget_text widget widget_custom_html eltd-top-bar-widget"><div class="textwidget custom-html-widget"><span style="font-family: Ek Mukta; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: 1px; text-transform: uppercase; color: #8b8a8a;">CONTACT US:</span></div></div><div id="eltd_social_icon_widget-3" class="widget widget_eltd_social_icon_widget eltd-top-bar-widget">
+    <span class="eltd-icon-shortcode normal  eltd-icon-separator"   data-hover-color="#000000" data-color="#8b8a8a">
+                    <a itemprop="url" href="https://www.facebook.com/CorwinPress/" target="_blank">
+        
+        <i class="eltd-icon-font-awesome fa fa-facebook eltd-icon-element" style="color: #8b8a8a" ></i>
+                    </a>
+            </span>
+
+</div><div id="eltd_social_icon_widget-4" class="widget widget_eltd_social_icon_widget eltd-top-bar-widget">
+    <span class="eltd-icon-shortcode normal  eltd-icon-separator"   data-hover-color="#000000" data-color="#8b8a8a">
+                    <a itemprop="url" href="https://twitter.com/corwinpress" target="_blank">
+        
+        <i class="eltd-icon-font-awesome fa fa-twitter eltd-icon-element" style="color: #8b8a8a" ></i>
+                    </a>
+            </span>
+
+</div><div id="eltd_social_icon_widget-5" class="widget widget_eltd_social_icon_widget eltd-top-bar-widget">
+    <span class="eltd-icon-shortcode normal  eltd-icon-separator"   data-hover-color="#000000" data-color="#8b8a8a">
+                    <a itemprop="url" href="https://www.linkedin.com/company/corwin-press/" target="_blank">
+        
+        <i class="eltd-icon-font-awesome fa fa-linkedin eltd-icon-element" style="color: #8b8a8a" ></i>
+                    </a>
+            </span>
+
+</div><div id="eltd_social_icon_widget-6" class="widget widget_eltd_social_icon_widget eltd-top-bar-widget">
+    <span class="eltd-icon-shortcode normal  eltd-icon-separator"   data-hover-color="#000000" data-color="#8b8a8a">
+                    <a itemprop="url" href="https://www.youtube.com/corwin" target="_blank">
+        
+        <i class="eltd-icon-font-awesome fa fa-youtube eltd-icon-element" style="color: #8b8a8a" ></i>
+                    </a>
+            </span>
+
+</div><div id="eltd_social_icon_widget-7" class="widget widget_eltd_social_icon_widget eltd-top-bar-widget">
+    <span class="eltd-icon-shortcode normal  eltd-icon-separator"   data-hover-color="#000000" data-color="#8b8a8a">
+                    <a itemprop="url" href="https://www.instagram.com/corwin_press/" target="_blank">
+        
+        <i class="eltd-icon-font-awesome fa fa-instagram eltd-icon-element" style="color: #8b8a8a" ></i>
+                    </a>
+            </span>
+
+</div>                                    </div>
+            </div>
+            <div class="eltd-position-center">
+                <div class="eltd-position-center-inner">
+                                            
+        <div class="widget eltd-date-widget-holder" style="color: #8b8a8a;font-size: 14px">
+            Sunday / October 4        </div>
+                                            </div>
+            </div>
+            <div class="eltd-position-right">
+                <div class="eltd-position-right-inner">
+                                            
+        <form class="eltd-search-menu-holder" action="https://corwin-connect.com/" method="get">
+            <div class="eltd-form-holder-close-btn"><span class="ion-android-close"></span></div>
+            <div class="eltd-form-holder">
+                <div class="eltd-column-left">
+                    <input type="text" placeholder="SEARCH" name="s" class="eltd-search-field" autocomplete="off"/>
+                </div>
+                <div class="eltd-column-right">
+                    <button class="eltd-search-submit eltd-custom-search-submit" type="submit" value="Search">
+                        <span class="ion-android-search"></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+                                        </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<header class="eltd-page-header">
+    <div class="eltd-logo-area">
+                    <div class="eltd-vertical-align-containers">
+                <div class="eltd-position-left">
+                    <div class="eltd-position-left-inner">
+                                                                    </div>
+                </div>
+                <div class="eltd-position-center">
+                    <div class="eltd-position-center-inner">
+                        
+<div class="eltd-logo-wrapper">
+    <a href="https://corwin-connect.com/" style="height: 536px;">
+        <img class="eltd-normal-logo" src="https://corwin-connect.com/wp-content/uploads/2025/04/GP251599052_Corwin-Connect-Rebrand_final-1.png" alt="logo"/>
+        <img class="eltd-dark-logo" src="https://corwin-connect.com/wp-content/uploads/2025/04/GP251599052_Corwin-Connect-Rebrand_final-1.png" alt="dark logo"/>        <img class="eltd-light-logo" src="https://corwin-connect.com/wp-content/uploads/2025/04/GP251599052_Corwin-Connect-Rebrand_final-1.png" alt="light logo"/>        <img class="eltd-transparent-logo" src="https://corwin-connect.com/wp-content/uploads/2025/04/GP251599052_Corwin-Connect-Rebrand_final-1.png" alt="transparent logo"/>    </a>
+</div>
+
+                    </div>
+                </div>
+                <div class="eltd-position-right">
+                    <div class="eltd-position-right-inner">
+                                            </div>
+                </div>
+            </div>
+            </div>
+    <div class="eltd-menu-area">
+                    <div class="eltd-vertical-align-containers">
+                <div class="eltd-position-left">
+                    <div class="eltd-position-left-inner">
+                                            </div>
+                </div>
+                <div class="eltd-position-center">
+                    <div class="eltd-position-center-inner">
+                        
+<nav class="eltd-main-menu eltd-drop-down eltd-default-nav">
+    <ul id="menu-main-nav" class="clearfix"><li id="nav-menu-item-6462" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  eltd-menu-has-sub eltd-menu-narrow" ><a href="" class=" no_link" style="cursor: default;" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Topics</span><span class="eltd_menu_arrow ion-ios-arrow-down"></span></span></span></a>
+<div class="eltd-menu-second"><div class="eltd-menu-inner"><ul>
+	<li id="nav-menu-item-6465" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/assessment/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Assessment</span></span></span></a></li>
+	<li id="nav-menu-item-6466" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/multi-learners/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Multilingual Learners</span></span></span></a></li>
+	<li id="nav-menu-item-40" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/equity/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Equity</span></span></span></a></li>
+	<li id="nav-menu-item-41" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/leadership/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Leadership</span></span></span></a></li>
+	<li id="nav-menu-item-43" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/literacy/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Literacy</span></span></span></a></li>
+	<li id="nav-menu-item-4645" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/math/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Math</span></span></span></a></li>
+	<li id="nav-menu-item-130" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/pd/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Professional Learning</span></span></span></a></li>
+	<li id="nav-menu-item-44" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/stem/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Science/STEM</span></span></span></a></li>
+	<li id="nav-menu-item-6470" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent " ><a href="https://corwin-connect.com/category/wellbeing/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Wellbeing</span></span></span></a></li>
+	<li id="nav-menu-item-6471" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/special-education/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Special Education</span></span></span></a></li>
+	<li id="nav-menu-item-185" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/teaching/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Teaching Methods</span></span></span></a></li>
+	<li id="nav-menu-item-39" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/technology/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Technology</span></span></span></a></li>
+	<li id="nav-menu-item-6464" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/visible-learning/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">VISIBLE LEARNING</span></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-7516" class="menu-item menu-item-type-custom menu-item-object-custom  eltd-menu-narrow" ><a target="_blank" href="https://us.corwin.com/en-us/nam/bestsellers" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Bestselling Books</span></span></span></a></li>
+<li id="nav-menu-item-7517" class="menu-item menu-item-type-custom menu-item-object-custom  eltd-menu-narrow" ><a target="_blank" href="https://us.corwin.com/en-us/nam/new-releases" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">New Books</span></span></span></a></li>
+<li id="nav-menu-item-7530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  eltd-menu-has-sub eltd-menu-narrow" ><a href="" class=" no_link" style="cursor: default;" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Events</span><span class="eltd_menu_arrow ion-ios-arrow-down"></span></span></span></a>
+<div class="eltd-menu-second"><div class="eltd-menu-inner"><ul>
+	<li id="nav-menu-item-7518" class="menu-item menu-item-type-custom menu-item-object-custom " ><a target="_blank" href="https://us.corwin.com/en-us/nam/institutes" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Institutes</span></span></span></a></li>
+	<li id="nav-menu-item-7519" class="menu-item menu-item-type-custom menu-item-object-custom " ><a target="_blank" href="https://us.corwin.com/en-us/nam/webinars" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Webinars</span></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="nav-menu-item-7520" class="menu-item menu-item-type-custom menu-item-object-custom  eltd-menu-narrow" ><a target="_blank" href="https://us.corwin.com/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Corwin</span></span></span></a></li>
+<li id="nav-menu-item-17184" class="menu-item menu-item-type-taxonomy menu-item-object-category  eltd-menu-narrow" ><a href="https://corwin-connect.com/category/corwintalks/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">#CorwinTalks</span></span></span></a></li>
+<li id="nav-menu-item-15766" class="menu-item menu-item-type-post_type menu-item-object-page  eltd-menu-narrow" ><a href="https://corwin-connect.com/getinvolved/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Get Involved</span></span></span></a></li>
+</ul></nav>
+
+                    </div>
+                </div>
+                <div class="eltd-position-right">
+                    <div class="eltd-position-right-inner">
+                                            </div>
+                </div>
+            </div>
+            </div>
+    
+    <div class="eltd-sticky-header">
+                <div class="eltd-sticky-holder">
+            <div class=" eltd-vertical-align-containers">
+                <div class="eltd-position-left">
+                    <div class="eltd-position-left-inner">
+                        
+<div class="eltd-logo-wrapper">
+    <a href="https://corwin-connect.com/" style="height: 536px;">
+        <img src="https://corwin-connect.com/wp-content/uploads/2025/04/GP251599052_Corwin-Connect-Rebrand_final-1.png" alt="logo"/>
+    </a>
+</div>
+
+                    </div>
+                </div>
+                <div class="eltd-position-center">
+                    <div class="eltd-position-center-inner">
+                        
+<nav class="eltd-main-menu eltd-drop-down eltd-sticky-nav">
+    <ul id="menu-main-nav-1" class="clearfix"><li id="sticky-nav-menu-item-6462" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  eltd-menu-has-sub eltd-menu-narrow" ><a href="" class=" no_link" style="cursor: default;" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Topics</span><span class="eltd_menu_arrow ion-ios-arrow-down"></span></span></span></a>
+<div class="eltd-menu-second"><div class="eltd-menu-inner"><ul>
+	<li id="sticky-nav-menu-item-6465" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/assessment/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Assessment</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-6466" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/multi-learners/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Multilingual Learners</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-40" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/equity/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Equity</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-41" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/leadership/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Leadership</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-43" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/literacy/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Literacy</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-4645" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/math/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Math</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-130" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/pd/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Professional Learning</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-44" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/stem/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Science/STEM</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-6470" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent " ><a href="https://corwin-connect.com/category/wellbeing/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Wellbeing</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-6471" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/special-education/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Special Education</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-185" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/teaching/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Teaching Methods</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-39" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/technology/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Technology</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-6464" class="menu-item menu-item-type-taxonomy menu-item-object-category " ><a href="https://corwin-connect.com/category/visible-learning/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">VISIBLE LEARNING</span></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-7516" class="menu-item menu-item-type-custom menu-item-object-custom  eltd-menu-narrow" ><a target="_blank" href="https://us.corwin.com/en-us/nam/bestsellers" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Bestselling Books</span></span></span></a></li>
+<li id="sticky-nav-menu-item-7517" class="menu-item menu-item-type-custom menu-item-object-custom  eltd-menu-narrow" ><a target="_blank" href="https://us.corwin.com/en-us/nam/new-releases" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">New Books</span></span></span></a></li>
+<li id="sticky-nav-menu-item-7530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  eltd-menu-has-sub eltd-menu-narrow" ><a href="" class=" no_link" style="cursor: default;" onclick="JavaScript: return false;"><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Events</span><span class="eltd_menu_arrow ion-ios-arrow-down"></span></span></span></a>
+<div class="eltd-menu-second"><div class="eltd-menu-inner"><ul>
+	<li id="sticky-nav-menu-item-7518" class="menu-item menu-item-type-custom menu-item-object-custom " ><a target="_blank" href="https://us.corwin.com/en-us/nam/institutes" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Institutes</span></span></span></a></li>
+	<li id="sticky-nav-menu-item-7519" class="menu-item menu-item-type-custom menu-item-object-custom " ><a target="_blank" href="https://us.corwin.com/en-us/nam/webinars" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Webinars</span></span></span></a></li>
+</ul></div></div>
+</li>
+<li id="sticky-nav-menu-item-7520" class="menu-item menu-item-type-custom menu-item-object-custom  eltd-menu-narrow" ><a target="_blank" href="https://us.corwin.com/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Corwin</span></span></span></a></li>
+<li id="sticky-nav-menu-item-17184" class="menu-item menu-item-type-taxonomy menu-item-object-category  eltd-menu-narrow" ><a href="https://corwin-connect.com/category/corwintalks/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">#CorwinTalks</span></span></span></a></li>
+<li id="sticky-nav-menu-item-15766" class="menu-item menu-item-type-post_type menu-item-object-page  eltd-menu-narrow" ><a href="https://corwin-connect.com/getinvolved/" class=""><span class="item_outer"><span class="item_inner"><span class="menu_icon_wrapper"><i class="menu_icon blank fa"></i></span><span class="item_text">Get Involved</span></span></span></a></li>
+</ul></nav>
+
+                    </div>
+                </div>
+                <div class="eltd-position-right">
+                    <div class="eltd-position-right-inner">
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+<header class="eltd-mobile-header">
+    <div class="eltd-mobile-header-inner">
+                <div class="eltd-mobile-header-holder">
+            <div class="eltd-vertical-align-containers">
+                                    <div class="eltd-position-left">
+                        <div class="eltd-position-left-inner">
+                            
+<div class="eltd-mobile-logo-wrapper">
+    <a href="https://corwin-connect.com/" style="height: 536px">
+        <img src="https://corwin-connect.com/wp-content/uploads/2025/04/GP251599052_Corwin-Connect-Rebrand_final-1.png" alt="mobile-logo"/>
+    </a>
+</div>
+
+                        </div>
+                    </div>
+                                <div class="eltd-position-right">
+                    <div class="eltd-position-right-inner">
+                                                                            <div class="eltd-mobile-menu-opener">
+                                <a href="javascript:void(0)">
+                                    <span class="eltd-mobile-opener-icon-holder">
+                                        <span class="eltd-icon-ion-icon ion-navicon"></span>
+                                        <span class="eltd-icon-ion-icon ion-android-close"></span>
+                                    </span>
+                                </a>
+                            </div>
+                                            </div>
+                </div>
+            </div> <!-- close .eltd-vertical-align-containers -->
+        </div>
+        
+	<nav class="eltd-mobile-nav" role="navigation" aria-label="Mobile Menu">
+		<div class="eltd-grid">
+
+			<ul id="menu-main-nav-2" class=""><li id="mobile-menu-item-6462" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Topics</span></h6><span class="mobile_arrow"><i class="eltd-sub-arrow arrow_carrot-right"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-6465" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/assessment/" class=""><span>Assessment</span></a></li>
+	<li id="mobile-menu-item-6466" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/multi-learners/" class=""><span>Multilingual Learners</span></a></li>
+	<li id="mobile-menu-item-40" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/equity/" class=""><span>Equity</span></a></li>
+	<li id="mobile-menu-item-41" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/leadership/" class=""><span>Leadership</span></a></li>
+	<li id="mobile-menu-item-43" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/literacy/" class=""><span>Literacy</span></a></li>
+	<li id="mobile-menu-item-4645" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/math/" class=""><span>Math</span></a></li>
+	<li id="mobile-menu-item-130" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/pd/" class=""><span>Professional Learning</span></a></li>
+	<li id="mobile-menu-item-44" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/stem/" class=""><span>Science/STEM</span></a></li>
+	<li id="mobile-menu-item-6470" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent "><a href="https://corwin-connect.com/category/wellbeing/" class=""><span>Wellbeing</span></a></li>
+	<li id="mobile-menu-item-6471" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/special-education/" class=""><span>Special Education</span></a></li>
+	<li id="mobile-menu-item-185" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/teaching/" class=""><span>Teaching Methods</span></a></li>
+	<li id="mobile-menu-item-39" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/technology/" class=""><span>Technology</span></a></li>
+	<li id="mobile-menu-item-6464" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/visible-learning/" class=""><span>VISIBLE LEARNING</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-7516" class="menu-item menu-item-type-custom menu-item-object-custom "><a target="_blank" href="https://us.corwin.com/en-us/nam/bestsellers" class=""><span>Bestselling Books</span></a></li>
+<li id="mobile-menu-item-7517" class="menu-item menu-item-type-custom menu-item-object-custom "><a target="_blank" href="https://us.corwin.com/en-us/nam/new-releases" class=""><span>New Books</span></a></li>
+<li id="mobile-menu-item-7530" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub"><h6><span>Events</span></h6><span class="mobile_arrow"><i class="eltd-sub-arrow arrow_carrot-right"></i></span>
+<ul class="sub_menu">
+	<li id="mobile-menu-item-7518" class="menu-item menu-item-type-custom menu-item-object-custom "><a target="_blank" href="https://us.corwin.com/en-us/nam/institutes" class=""><span>Institutes</span></a></li>
+	<li id="mobile-menu-item-7519" class="menu-item menu-item-type-custom menu-item-object-custom "><a target="_blank" href="https://us.corwin.com/en-us/nam/webinars" class=""><span>Webinars</span></a></li>
+</ul>
+</li>
+<li id="mobile-menu-item-7520" class="menu-item menu-item-type-custom menu-item-object-custom "><a target="_blank" href="https://us.corwin.com/" class=""><span>Corwin</span></a></li>
+<li id="mobile-menu-item-17184" class="menu-item menu-item-type-taxonomy menu-item-object-category "><a href="https://corwin-connect.com/category/corwintalks/" class=""><span>#CorwinTalks</span></a></li>
+<li id="mobile-menu-item-15766" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="https://corwin-connect.com/getinvolved/" class=""><span>Get Involved</span></a></li>
+</ul>		</div>
+	</nav>
+
+    </div>
+
+</header> <!-- close .eltd-mobile-header -->
+
+
+                    <a id='eltd-back-to-top'  href='#'>
+                <span class="eltd-icon-stack eltd-front-side">
+                     <span aria-hidden="true" class="eltd-icon-font-elegant arrow_carrot-2up "></span>
+                </span>
+                <span class="eltd-icon-stack eltd-back-side">
+                     <span aria-hidden="true" class="eltd-icon-font-elegant arrow_carrot-2up "></span>
+                </span>
+            </a>
+        
+        <div class="eltd-content" >
+            <div class="eltd-content-inner">	<div class="eltd-container">
+				<div class="eltd-container-inner">
+				<div class="eltd-two-columns-66-33  eltd-content-has-sidebar clearfix">
+		<div class="eltd-column1 eltd-content-left-from-sidebar">
+			<div class="eltd-column-inner">
+				<div class="eltd-blog-holder eltd-blog-single">
+					<div class="eltd-post-info clearfix">
+    <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/wellbeing/" rel="category tag">Wellbeing</a></div><div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2014/10/">
+		October 28, 2014			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div><div class="eltd-post-info-author"><a itemprop="author" class="eltd-post-info-author-link" href="https://corwin-connect.com/author/barrymcnamara/">author: Barry McNamara</a></div>
+<div class="eltd-post-info-comments-holder"><a itemprop="comment" class="eltd-post-info-comments" href="https://corwin-connect.com/2014/10/bullying-students-with-disabilities/#comments" target="_self">3 Comments</a></div></div>
+    <h1 itemprop="name" class="entry-title eltd-post-title">Bullying and Students With Disabilities</h1>
+<article id="post-2104" class="post-2104 post type-post status-publish format-standard has-post-thumbnail hentry category-wellbeing tag-bullying tag-bullying-prevention-month tag-students-with-disabilities">
+    <div class="eltd-post-content">
+                    <div class="eltd-post-image-area">
+                	<div class="eltd-post-image">
+		<img width="1000" height="667" src="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?fit=1000%2C667&amp;ssl=1" class="attachment-newsroom_elated_post_feature_image size-newsroom_elated_post_feature_image wp-post-image" alt="Bullying Students With Disabilities" decoding="async" fetchpriority="high" srcset="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?w=1000&amp;ssl=1 1000w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?resize=600%2C400&amp;ssl=1 600w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?resize=82%2C55&amp;ssl=1 82w" sizes="(max-width: 1000px) 100vw, 1000px" />	</div>
+            </div>
+                <div class="eltd-post-text">
+            <div class="eltd-post-text-inner clearfix">
+                <div class="at-above-post addthis_tool" data-url="https://corwin-connect.com/2014/10/bullying-students-with-disabilities/"></div>		<div class="social-sharing ss-social-sharing">
+				        <a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-facebook" href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcorwin-connect.com%2F2014%2F10%2Fbullying-students-with-disabilities%2F" target="_blank" >Share on Facebook</a><a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-twitter" href="http://twitter.com/intent/tweet/?text=Bullying+and+Students+With+Disabilities&url=https%3A%2F%2Fcorwin-connect.com%2F2014%2F10%2Fbullying-students-with-disabilities%2F&via=CorwinPress" target="_blank">Share on Twitter</a><a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fcorwin-connect.com%2F2014%2F10%2Fbullying-students-with-disabilities%2F&title=Bullying+and+Students+With+Disabilities" target="_blank" >Share on Linkedin</a>	        	    </div>
+	    <div class='mailmunch-forms-before-post' style='display: none !important;'></div><p>&nbsp;</p>
+<p><a href="https://i0.wp.com/live-corwin-connect.pantheonsite.io/wp-content/uploads/2014/10/Bullying.jpg?ssl=1"><img data-recalc-dims="1" decoding="async" class="alignright size-medium wp-image-2106" src="https://i0.wp.com/live-corwin-connect.pantheonsite.io/wp-content/uploads/2014/10/Bullying-300x200.jpg?resize=300%2C200&#038;ssl=1" alt="Bullying Students With Disabilities" width="300" height="200" srcset="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?resize=600%2C400&amp;ssl=1 600w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?resize=82%2C55&amp;ssl=1 82w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying.jpg?w=1000&amp;ssl=1 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a>Peter was always bullied. Throughout his elementary school years, classmates made fun of his inability to recall words, and the way he would stare off into space in the classroom. As he became older he became taller than most of his classmates and appeared to have athletic ability. He made the middle school basketball team and it looked like the sixth grade was off to a good start. One weekend a group of boys from the team made plans to go to the local fast food restaurant but called Peter at the last minute to tell him the plans were changed. Disappointed and sad, his father wanted to change his mood and suggested going to the restaurant themselves. Imagine the pain Peter and his dad experienced when they entered the restaurant to find the seven teammates having a wonderful time as they ate their hamburgers and fries with their friends. Peter and his dad made a quick exit and drove home.</p>
+<p>October is Bullying Prevention Month and there are innumerable public service announcements and media coverage of the dangers of bullying. However, one group that is relatively ignored in all of this is students with disabilities. The scene above is true and is repeated in many different forms over and over again. The incidence figures for these students is startling, with some reports of over 50% and some groups as high as 80%.  Forty nine states have some type of legislation dealing with bullying, yet many of these students do not have access to these programs simply because of the nature of their disability. Why are students with disabilities more likely to be targeted and what can schools due to reduce this serious problem?</p>
+<h2>WHY ARE STUDENTS WITH DISABILITIES VICTIMIZED?</h2>
+<p>The most obvious reason is their vulnerability. Students who are bullied are less likely to be able to defend themselves. Depending on the specific disability, students may display a range of characteristics that their classmates prey upon. Bullying is all about power and these students are frequently less powerful, either physically, intellectually, or emotionally. Additionally, they may misread social cues and not be able to benefit from a school wide bullying prevention program because it was not appropriate for their level of ability. For example, a student who reads significantly below level will not be able to read the information presented in these programs. What about students who have difficulty attending to tasks, lack adequate memory skills, or simply do not grasp the concept of bullying due to their intellectual disability?</p>
+<h2>WHAT SCHOOLS MUST DO</h2>
+<p>The first step is to modify the needs assessment typically used in most bullying prevention programs. This process must be collaborative. Teachers, support personnel (reading occupational and physical therapists, speech and language pathologists), special educators who have experience in teaching students who are deaf or students who are blind, and school nurses should be included. Questions that guide this process will include the following:</p><div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>
+<ul>
+<li>Can the student read the questions?</li>
+<li>Can the student comprehend the questions?</li>
+<li>Does the student have adequate motor skills?</li>
+<li>Is the student’s vision adequate?</li>
+<li>Does the student need an interpreter for the deaf?</li>
+<li>How long can the student attend for this task?</li>
+<li>Does the student have the intellectual ability to understand the concept of bullying or victimization?</li>
+</ul>
+<p>The more expertise you have in your building, the more exhaustive the list will be. Also, staff will be able to share common characteristics of specific disabilities and how they will manifest themselves in the classroom.</p>
+<p>Once you have addressed these concerns you are ready to modify the content and delivery of the program. Program modifications and adaptations are listed below.</p>
+<ol>
+<li>Differentiate the Content and Delivery</li>
+<li>Vary the Method of Presentation</li>
+<li>Use a Variety of Reading Materials</li>
+<li>Vary the Level of Difficulty</li>
+<li>Teach Attending Skills</li>
+<li>Teach Memory Skills</li>
+</ol>
+<p>Unless we recognize the students with disabilities are more likely to be victimized than their classmates they will continue to suffer at alarming rates. In addition to not attending school, many are depressed and some feel they have no other option than committing suicide. Some simple modifications and adaptations can be made in the typical program to ensure the ALL student can learn in a safe, kind, and caring environment.<span style="text-align: right;"> </span></p>
+<div class='mailmunch-forms-after-post' style='display: none !important;'></div><!-- AddThis Advanced Settings above via filter on the_content --><!-- AddThis Advanced Settings below via filter on the_content --><!-- AddThis Advanced Settings generic via filter on the_content --><!-- AddThis Share Buttons above via filter on the_content --><!-- AddThis Share Buttons below via filter on the_content --><div class="at-below-post addthis_tool" data-url="https://corwin-connect.com/2014/10/bullying-students-with-disabilities/"></div><!-- AddThis Share Buttons generic via filter on the_content -->            </div>
+        </div>
+    </div>
+    </article><div class="eltd-single-tags-share-holder">
+
+    <div class="eltd-single-tags-holder">
+        <h4 class="eltd-single-tags-title">Tags</h4>
+        <div class="eltd-tags">
+            <a href="https://corwin-connect.com/tag/bullying/" rel="tag">bullying</a><a href="https://corwin-connect.com/tag/bullying-prevention-month/" rel="tag">bullying prevention month</a><a href="https://corwin-connect.com/tag/students-with-disabilities/" rel="tag">students with disabilities</a>        </div>
+    </div>
+
+
+</div>
+	<div class="eltd-author-description">
+		<div class="eltd-author-description-inner">
+			<div class="eltd-author-description-image">
+				<a itemprop="url" href="https://corwin-connect.com/author/barrymcnamara/" title="Bullying and Students With Disabilities" target="_self">
+					<img alt="mm" src="http://www.corwin.com/upm-data/product/630898_author_photo.jpg" class="avatar avatar-145 photo" height="145" width="145" />				</a>	
+			</div>
+			<div class="eltd-author-description-text-holder">
+				<h6 class="eltd-author-name vcard author">
+					<span>Written by</span>
+					<a itemprop="url" href="https://corwin-connect.com/author/barrymcnamara/" title="Bullying and Students With Disabilities" target="_self">
+						Barry McNamara					</a>	
+				</h6>
+													<div class="eltd-author-text">
+						<p><div class="at-above-post addthis_tool" data-url="https://corwin-connect.com/2014/10/bullying-students-with-disabilities/"></div>		<div class="social-sharing ss-social-sharing">
+				        <a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-facebook" href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcorwin-connect.com%2F2014%2F10%2Fbullying-students-with-disabilities%2F" target="_blank" >Share on Facebook</a><a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-twitter" href="http://twitter.com/intent/tweet/?text=Bullying+and+Students+With+Disabilities&url=https%3A%2F%2Fcorwin-connect.com%2F2014%2F10%2Fbullying-students-with-disabilities%2F&via=CorwinPress" target="_blank">Share on Twitter</a><a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fcorwin-connect.com%2F2014%2F10%2Fbullying-students-with-disabilities%2F&title=Bullying+and+Students+With+Disabilities" target="_blank" >Share on Linkedin</a>	        	    </div>
+	    <div class='mailmunch-forms-before-post' style='display: none !important;'></div><p>Dr. Barry Edwards McNamara is a Professor of Special Education at Dowling College in Oakdale, New York. He received his BA from St. Benedict’s College, his MS Ed. from University of Kansas (Special Education: Learning Disabilities), and his doctorate from Columbia University’s Teachers College in Special Education: Learning Disabilities. In addition to teaching at the college level, Dr. McNamara was a special education teacher in a self-contained classroom setting and a resource room. He was also a Learning Disability Teacher Consultant. He is the author of <a rel="nofollow" href="http://www.corwin.com/books/Book240849" target="_blank" rel="noopener"><em>Bullying and Students With Disabilities</em></a>.</p><div class='mailmunch-forms-in-post-middle' style='display: none !important;'></div>
+<div class='mailmunch-forms-after-post' style='display: none !important;'></div><!-- AddThis Advanced Settings above via filter on the_content --><!-- AddThis Advanced Settings below via filter on the_content --><!-- AddThis Advanced Settings generic via filter on the_content --><!-- AddThis Share Buttons above via filter on the_content --><!-- AddThis Share Buttons below via filter on the_content --><div class="at-below-post addthis_tool" data-url="https://corwin-connect.com/2014/10/bullying-students-with-disabilities/"></div><!-- AddThis Share Buttons generic via filter on the_content --></p>
+					</div>
+							</div>
+		</div>
+	</div>
+		<div class="eltd-blog-single-navigation">
+					<div class="eltd-blog-single-prev">
+				<a href="https://corwin-connect.com/2014/10/becoming-connected-educator-saved-teaching-career/" rel="prev"><div class="eltd-blog-single-navigation-arrow"><span class="ion-android-arrow-back"></span></div><h5>How Becoming a Connected Educator Saved My Teaching Career</h5></a>			</div>
+							<div class="eltd-blog-single-next">
+				<a href="https://corwin-connect.com/2014/10/bullying-harassment-professional-liability-educators-need-know/" rel="next"><h5>Bullying, Harassment, and Professional Liability: What Educators Need to Know and Do</h5><div class="eltd-blog-single-navigation-arrow"><span class="ion-android-arrow-forward"></span></div></a>			</div>
+			</div>
+<div class="eltd-comment-holder clearfix" id="comments">
+	<div class="eltd-comment-title">
+		<h4>Latest comments</h4>
+	</div>
+	<div class="eltd-comments">
+	<ul class="eltd-comment-list">
+		        <li>
+        <div class="eltd-comment clearfix">
+                            <div class="eltd-comment-image"> <img alt="" src="https://secure.gravatar.com/avatar/9737283ac91120ca9a4981566304258eab36c2db9b24dd968792d96ecefd66bc?s=90&amp;d=mm&amp;r=g" class="avatar avatar-90 photo" height="90" width="90" /> </div>
+                        <div class="eltd-comment-text-and-info">
+                <div class="eltd-comment-info-and-links">
+                    <h6 class="eltd-comment-name">
+                                                <span class="eltd-comment-author"><a href="http://www.example.com" class="url" rel="ugc external nofollow">KfnqDuxw</a></span>
+                                                <span class="eltd-comment-mark">/</span>
+                        <span class="eltd-comment-date">July 11, 2025</span>
+                    </h6>
+                </div>
+                                    <div class="eltd-comment-text">
+                        <div class="eltd-text-holder" id="comment-155521">
+                            <p>1</p>
+                        </div>
+                    </div>
+                                <h6 class="eltd-comment-links">
+                    <a rel="nofollow" class="comment-reply-link" href="#comment-155521" data-commentid="155521" data-postid="2104" data-belowelement="comment-155521" data-respondelement="respond" data-replyto="Reply to KfnqDuxw" aria-label="Reply to KfnqDuxw">Reply</a>                    <span class="eltd-comment-mark">/</span>
+                                    </h6>
+            </div>
+        </div>
+                </li><!-- #comment-## -->
+        <li>
+        <div class="eltd-comment clearfix">
+                            <div class="eltd-comment-image"> <img alt="" src="https://secure.gravatar.com/avatar/9737283ac91120ca9a4981566304258eab36c2db9b24dd968792d96ecefd66bc?s=90&amp;d=mm&amp;r=g" class="avatar avatar-90 photo" height="90" width="90" /> </div>
+                        <div class="eltd-comment-text-and-info">
+                <div class="eltd-comment-info-and-links">
+                    <h6 class="eltd-comment-name">
+                                                <span class="eltd-comment-author"><a href="http://www.example.com" class="url" rel="ugc external nofollow">KfnqDuxw</a></span>
+                                                <span class="eltd-comment-mark">/</span>
+                        <span class="eltd-comment-date">July 11, 2025</span>
+                    </h6>
+                </div>
+                                    <div class="eltd-comment-text">
+                        <div class="eltd-text-holder" id="comment-155520">
+                            <p>1</p>
+                        </div>
+                    </div>
+                                <h6 class="eltd-comment-links">
+                    <a rel="nofollow" class="comment-reply-link" href="#comment-155520" data-commentid="155520" data-postid="2104" data-belowelement="comment-155520" data-respondelement="respond" data-replyto="Reply to KfnqDuxw" aria-label="Reply to KfnqDuxw">Reply</a>                    <span class="eltd-comment-mark">/</span>
+                                    </h6>
+            </div>
+        </div>
+                </li><!-- #comment-## -->
+        <li>
+        <div class="eltd-comment clearfix">
+                            <div class="eltd-comment-image"> <img alt="" src="https://secure.gravatar.com/avatar/9737283ac91120ca9a4981566304258eab36c2db9b24dd968792d96ecefd66bc?s=90&amp;d=mm&amp;r=g" class="avatar avatar-90 photo" height="90" width="90" /> </div>
+                        <div class="eltd-comment-text-and-info">
+                <div class="eltd-comment-info-and-links">
+                    <h6 class="eltd-comment-name">
+                                                <span class="eltd-comment-author"><a href="http://www.example.com" class="url" rel="ugc external nofollow">QPbmCRVM</a></span>
+                                                <span class="eltd-comment-mark">/</span>
+                        <span class="eltd-comment-date">June 20, 2025</span>
+                    </h6>
+                </div>
+                                    <div class="eltd-comment-text">
+                        <div class="eltd-text-holder" id="comment-152557">
+                            <p>1</p>
+                        </div>
+                    </div>
+                                <h6 class="eltd-comment-links">
+                    <a rel="nofollow" class="comment-reply-link" href="#comment-152557" data-commentid="152557" data-postid="2104" data-belowelement="comment-152557" data-respondelement="respond" data-replyto="Reply to QPbmCRVM" aria-label="Reply to QPbmCRVM">Reply</a>                    <span class="eltd-comment-mark">/</span>
+                                    </h6>
+            </div>
+        </div>
+                </li><!-- #comment-## -->
+	</ul>
+
+ </div></div>
+ <div class="eltd-comment-form">
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2014/10/bullying-students-with-disabilities/#respond" style="display:none;">Cancel Reply</a></small></h3><form action="https://corwin-connect.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><textarea id="comment" placeholder="Write your comment here..." name="comment" cols="45" rows="8" aria-required="true"></textarea><div class="eltd-two-columns-50-50 clearfix"><div class="eltd-two-columns-50-50-inner"><div class="eltd-column"><div class="eltd-column-inner"><input id="author" name="author" placeholder="Name" type="text" value="" aria-required='true' /></div></div>
+<div class="eltd-column"><div class="eltd-column-inner"><input id="email" name="email" placeholder="E-mail" type="text" value="" aria-required='true' /></div></div></div></div>
+<input id="url" name="url" type="text" placeholder="Website" value="" />
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"  /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Notify me of new posts by email.</label></p><p class="form-submit"><input name="submit" type="submit" id="submit_comment" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='2104' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="8bde4c6ebb" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="86"/><script>
+document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );
+</script>
+</p></form>	</div><!-- #respond -->
+	</div>				</div>
+			</div>
+		</div>
+		<div class="eltd-column2">
+			<div class="eltd-column-inner">
+    <aside class="eltd-sidebar">
+        <div id="mc_mm_widget-5" class="widget widget_mc_mm_widget"><div class='mailmunch-wordpress-widget mailmunch-wordpress-widget-310002' style='display: none !important;'></div></div><div class="widget eltd-widget-sticky-sidebar"></div><div class="widget eltd-plw-two"><div class="eltd-section-title-holder"><h2 class="eltd-st-title">Recent Posts</h2></div><div class="eltd-bnl-holder eltd-pl-two-holder  eltd-layout-holder eltd-post-columns-1"  data-base="eltd_post_layout_two"  data-number_of_posts="5" data-column_number="1"       data-sort="latest"  data-custom_thumb_image_width="120" data-custom_thumb_image_height="120" data-title_tag="h6"  data-display_date="yes"  data-display_category="yes" data-display_author="yes" data-display_comments="no" data-display_like="no" data-display_count="no" data-display_excerpt="no"  data-display_post_type_icon="no"  data-display_share="no"      data-paged="1" data-max_pages="356"><div class="eltd-bnl-outer"><div class="eltd-bnl-inner"><section class="eltd-post-item eltd-pt-two-item">
+    <div class="eltd-post-item-inner">
+
+                    <div class="eltd-pt-image-holder">
+                <div class="eltd-pt-image-holder-inner">
+                    <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2025/05/thrive-by-five-why-mentoring-new-teachers-matters-more-than-ever/" target="_self" style="width: 120px">
+                        <img src="https://corwin-connect.com/wp-content/uploads/2025/05/mafatikhul-ikhsan-CX6Eb2IDe2c-unsplash-scaled-120x120.jpg" alt="" width="120" height="120" />                        <div class="eltd-pt-image-overlay"></div>
+                    </a>
+                                    </div><!-- .eltd-pt-image-holder-inner -->
+            </div><!-- .eltd-pt-image-holder -->
+        
+
+        <div class="eltd-pt-content-holder">
+            <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/leadership/" rel="category tag">Leadership</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/teaching/" rel="category tag">Teaching Methods</a></div>
+            <h6 class="eltd-pt-title">
+            <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2025/05/thrive-by-five-why-mentoring-new-teachers-matters-more-than-ever/" target="_self">Thrive by Five: Why Mentoring New Teachers Matters More Than Ever</a>
+        </h6>
+
+                    <div class="eltd-pt-meta-section clearfix">
+                <div class="eltd-post-info-author"><a itemprop="author" class="eltd-post-info-author-link" href="https://corwin-connect.com/author/bustamanteetal/">author: Vince Bustamante, Tim Cusack, Wayne Davies, and Sarah Adomako-Ansah</a></div>
+                <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2025/05/">
+		May 20, 2025			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                                                            </div><!-- .eltd-pt-meta-section -->
+        
+        
+        <div class="eltd-pt-more-section">
+            <div class="eltd-pt-more-section-left">
+                            </div>
+            <div class="eltd-pt-more-section-right">
+                            </div>
+        </div><!-- .eltd-pt-more-section -->
+
+    </div><!-- .eltd-pt-contnet-holder -->
+
+    </div><!-- .eltd-post-item-inner -->
+</section><!-- .eltd-post-item --><section class="eltd-post-item eltd-pt-two-item">
+    <div class="eltd-post-item-inner">
+
+                    <div class="eltd-pt-image-holder">
+                <div class="eltd-pt-image-holder-inner">
+                    <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2025/05/how-to-use-inquiry-to-integrate-ai-into-your-classroom/" target="_self" style="width: 120px">
+                        <img src="https://corwin-connect.com/wp-content/uploads/2025/05/nathan-cima-Qw6wa96IvvQ-unsplash-scaled-120x120.jpg" alt="" width="120" height="120" />                        <div class="eltd-pt-image-overlay"></div>
+                    </a>
+                                    </div><!-- .eltd-pt-image-holder-inner -->
+            </div><!-- .eltd-pt-image-holder -->
+        
+
+        <div class="eltd-pt-content-holder">
+            <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/plc/" rel="category tag">PLC</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/pd/" rel="category tag">Professional Learning</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/teaching/" rel="category tag">Teaching Methods</a></div>
+            <h6 class="eltd-pt-title">
+            <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2025/05/how-to-use-inquiry-to-integrate-ai-into-your-classroom/" target="_self">How to Use Inquiry to Integrate AI Into Your Classroom</a>
+        </h6>
+
+                    <div class="eltd-pt-meta-section clearfix">
+                <div class="eltd-post-info-author"><a itemprop="author" class="eltd-post-info-author-link" href="https://corwin-connect.com/author/ruttenetal/">author: Logan Rutten, Nancy Fichtman Dana, and Diane Yendol-Hoppey</a></div>
+                <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2025/05/">
+		May 20, 2025			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                                                            </div><!-- .eltd-pt-meta-section -->
+        
+        
+        <div class="eltd-pt-more-section">
+            <div class="eltd-pt-more-section-left">
+                            </div>
+            <div class="eltd-pt-more-section-right">
+                            </div>
+        </div><!-- .eltd-pt-more-section -->
+
+    </div><!-- .eltd-pt-contnet-holder -->
+
+    </div><!-- .eltd-post-item-inner -->
+</section><!-- .eltd-post-item --><section class="eltd-post-item eltd-pt-two-item">
+    <div class="eltd-post-item-inner">
+
+                    <div class="eltd-pt-image-holder">
+                <div class="eltd-pt-image-holder-inner">
+                    <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2025/05/assessment-as-a-tool-to-empower-and-motivate-learners/" target="_self" style="width: 120px">
+                        <img src="https://corwin-connect.com/wp-content/uploads/2017/01/2-Principles-of-Classroom-Assessments-120x120.jpg" alt="2 Principles of Classroom Assessments" width="120" height="120" />                        <div class="eltd-pt-image-overlay"></div>
+                    </a>
+                                    </div><!-- .eltd-pt-image-holder-inner -->
+            </div><!-- .eltd-pt-image-holder -->
+        
+
+        <div class="eltd-pt-content-holder">
+            <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/teaching/" rel="category tag">Teaching Methods</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/visible-learning/" rel="category tag">VISIBLE LEARNING</a></div>
+            <h6 class="eltd-pt-title">
+            <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2025/05/assessment-as-a-tool-to-empower-and-motivate-learners/" target="_self">Assessment as a Tool to Empower and Motivate Learners</a>
+        </h6>
+
+                    <div class="eltd-pt-meta-section clearfix">
+                <div class="eltd-post-info-author"><a itemprop="author" class="eltd-post-info-author-link" href="https://corwin-connect.com/author/almarodefisherfrey/">author: Kierstan Barbee, Douglas Fisher, Nancy Frey, and John Almarode</a></div>
+                <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2025/05/">
+		May 20, 2025			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                                                            </div><!-- .eltd-pt-meta-section -->
+        
+        
+        <div class="eltd-pt-more-section">
+            <div class="eltd-pt-more-section-left">
+                            </div>
+            <div class="eltd-pt-more-section-right">
+                            </div>
+        </div><!-- .eltd-pt-more-section -->
+
+    </div><!-- .eltd-pt-contnet-holder -->
+
+    </div><!-- .eltd-post-item-inner -->
+</section><!-- .eltd-post-item --><section class="eltd-post-item eltd-pt-two-item">
+    <div class="eltd-post-item-inner">
+
+                    <div class="eltd-pt-image-holder">
+                <div class="eltd-pt-image-holder-inner">
+                    <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2025/05/what-happens-when-education-leaders-learn-to-think-differently/" target="_self" style="width: 120px">
+                        <img src="https://corwin-connect.com/wp-content/uploads/2025/05/jehyun-sung-6U5AEmQIajg-unsplash-scaled-120x120.jpg" alt="" width="120" height="120" />                        <div class="eltd-pt-image-overlay"></div>
+                    </a>
+                                    </div><!-- .eltd-pt-image-holder-inner -->
+            </div><!-- .eltd-pt-image-holder -->
+        
+
+        <div class="eltd-pt-content-holder">
+            <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/coaching/" rel="category tag">Coaching</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/leadership/" rel="category tag">Leadership</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/pd/" rel="category tag">Professional Learning</a></div>
+            <h6 class="eltd-pt-title">
+            <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2025/05/what-happens-when-education-leaders-learn-to-think-differently/" target="_self">What Happens When Education Leaders Learn to Think Differently?</a>
+        </h6>
+
+                    <div class="eltd-pt-meta-section clearfix">
+                <div class="eltd-post-info-author"><a itemprop="author" class="eltd-post-info-author-link" href="https://corwin-connect.com/author/alanjones/">author: Alan C. Jones</a></div>
+                <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2025/05/">
+		May 12, 2025			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                                                            </div><!-- .eltd-pt-meta-section -->
+        
+        
+        <div class="eltd-pt-more-section">
+            <div class="eltd-pt-more-section-left">
+                            </div>
+            <div class="eltd-pt-more-section-right">
+                            </div>
+        </div><!-- .eltd-pt-more-section -->
+
+    </div><!-- .eltd-pt-contnet-holder -->
+
+    </div><!-- .eltd-post-item-inner -->
+</section><!-- .eltd-post-item --><section class="eltd-post-item eltd-pt-two-item">
+    <div class="eltd-post-item-inner">
+
+                    <div class="eltd-pt-image-holder">
+                <div class="eltd-pt-image-holder-inner">
+                    <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2025/05/finding-your-voice-in-uncertain-times/" target="_self" style="width: 120px">
+                        <img src="https://corwin-connect.com/wp-content/uploads/2025/05/jason-rosewell-ASKeuOZqhYU-unsplash-scaled-120x120.jpg" alt="" width="120" height="120" />                        <div class="eltd-pt-image-overlay"></div>
+                    </a>
+                                    </div><!-- .eltd-pt-image-holder-inner -->
+            </div><!-- .eltd-pt-image-holder -->
+        
+
+        <div class="eltd-pt-content-holder">
+            <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/equity/" rel="category tag">Equity</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/leadership/" rel="category tag">Leadership</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/pd/" rel="category tag">Professional Learning</a></div>
+            <h6 class="eltd-pt-title">
+            <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2025/05/finding-your-voice-in-uncertain-times/" target="_self">Finding Your Voice in Uncertain Times</a>
+        </h6>
+
+                    <div class="eltd-pt-meta-section clearfix">
+                <div class="eltd-post-info-author"><a itemprop="author" class="eltd-post-info-author-link" href="https://corwin-connect.com/author/latishreed/">author: Latish Reed</a></div>
+                <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2025/05/">
+		May 7, 2025			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                                                            </div><!-- .eltd-pt-meta-section -->
+        
+        
+        <div class="eltd-pt-more-section">
+            <div class="eltd-pt-more-section-left">
+                            </div>
+            <div class="eltd-pt-more-section-right">
+                            </div>
+        </div><!-- .eltd-pt-more-section -->
+
+    </div><!-- .eltd-pt-contnet-holder -->
+
+    </div><!-- .eltd-post-item-inner -->
+</section><!-- .eltd-post-item --></div></div></div></div>    </aside>
+</div>
+		</div>
+	</div>
+
+		</div>
+			</div>
+    <div class="eltd-container eltd-related-post-container">
+        <div class="eltd-container-inner">
+            
+<div class="eltd-related-posts-holder clearfix">
+    <div class="eltd-title-holder">
+        <h2>Related posts</h2>
+    </div>
+
+    <div class="eltd-post-columns-6">
+        <div class="eltd-post-columns-inner">
+
+            
+                <section class="eltd-post-item eltd-pt-one-item">
+                    <div class="eltd-post-item-inner">
+
+                                                    <div class="eltd-pt-image-holder">
+                                <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2016/09/owning-up-curriculum/" target="_self">
+                                    <img width="550" height="550" src="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2016/09/photo-1467560787210-2959a461cd98.jpg?resize=550%2C550&amp;ssl=1" class="attachment-newsroom_elated_square size-newsroom_elated_square wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2016/09/photo-1467560787210-2959a461cd98.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2016/09/photo-1467560787210-2959a461cd98.jpg?resize=30%2C30&amp;ssl=1 30w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2016/09/photo-1467560787210-2959a461cd98.jpg?resize=50%2C50&amp;ssl=1 50w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2016/09/photo-1467560787210-2959a461cd98.jpg?zoom=2&amp;resize=550%2C550&amp;ssl=1 1100w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2016/09/photo-1467560787210-2959a461cd98.jpg?zoom=3&amp;resize=550%2C550&amp;ssl=1 1650w" sizes="auto, (max-width: 550px) 100vw, 550px" />                                </a>
+                            </div><!-- .eltd-pt-image-holder -->
+                        
+                        <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/leadership/" rel="category tag">Leadership</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/wellbeing/" rel="category tag">Wellbeing</a></div>
+                        <div class="eltd-pt-title">
+                            <h6>
+                                <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2016/09/owning-up-curriculum/" target="_self">Owning Up Across the Curriculum</a>
+                            </h6>
+                        </div>
+
+                        <div class="eltd-pt-meta-section clearfix">
+                            <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2016/09/">
+		September 29, 2016			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                        </div><!-- .eltd-pt-meta-section -->
+
+                    </div><!-- .eltd-post-item-inner -->
+                </section><!-- .eltd-post-item -->
+
+            
+                <section class="eltd-post-item eltd-pt-one-item">
+                    <div class="eltd-post-item-inner">
+
+                                                    <div class="eltd-pt-image-holder">
+                                <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2016/04/ideas-make-kindness-go-viral/" target="_self">
+                                    <img width="550" height="499" src="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2016/04/photo-1458862768540-8b091824fe2d.jpg?resize=550%2C499&amp;ssl=1" class="attachment-newsroom_elated_square size-newsroom_elated_square wp-post-image" alt="" decoding="async" loading="lazy" />                                </a>
+                            </div><!-- .eltd-pt-image-holder -->
+                        
+                        <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/leadership/" rel="category tag">Leadership</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/teaching/" rel="category tag">Teaching Methods</a></div>
+                        <div class="eltd-pt-title">
+                            <h6>
+                                <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2016/04/ideas-make-kindness-go-viral/" target="_self">Ideas to Make Kindness Go Viral</a>
+                            </h6>
+                        </div>
+
+                        <div class="eltd-pt-meta-section clearfix">
+                            <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2016/04/">
+		April 19, 2016			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                        </div><!-- .eltd-pt-meta-section -->
+
+                    </div><!-- .eltd-post-item-inner -->
+                </section><!-- .eltd-post-item -->
+
+            
+                <section class="eltd-post-item eltd-pt-one-item">
+                    <div class="eltd-post-item-inner">
+
+                                                    <div class="eltd-pt-image-holder">
+                                <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2014/11/bullying-isnt/" target="_self">
+                                    <img width="500" height="439" src="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/11/iStock_000013200832XLargeRESIZE.jpg?resize=500%2C439&amp;ssl=1" class="attachment-newsroom_elated_square size-newsroom_elated_square wp-post-image" alt="Bullying" decoding="async" loading="lazy" srcset="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/11/iStock_000013200832XLargeRESIZE.jpg?w=500&amp;ssl=1 500w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/11/iStock_000013200832XLargeRESIZE.jpg?resize=300%2C263&amp;ssl=1 300w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/11/iStock_000013200832XLargeRESIZE.jpg?resize=62%2C55&amp;ssl=1 62w" sizes="auto, (max-width: 500px) 100vw, 500px" />                                </a>
+                            </div><!-- .eltd-pt-image-holder -->
+                        
+                        <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/teaching/" rel="category tag">Teaching Methods</a></div>
+                        <div class="eltd-pt-title">
+                            <h6>
+                                <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2014/11/bullying-isnt/" target="_self">Bullying: What It Is, and What It Isn’t</a>
+                            </h6>
+                        </div>
+
+                        <div class="eltd-pt-meta-section clearfix">
+                            <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2014/11/">
+		November 7, 2014			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                        </div><!-- .eltd-pt-meta-section -->
+
+                    </div><!-- .eltd-post-item-inner -->
+                </section><!-- .eltd-post-item -->
+
+            
+                <section class="eltd-post-item eltd-pt-one-item">
+                    <div class="eltd-post-item-inner">
+
+                                                    <div class="eltd-pt-image-holder">
+                                <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2014/10/missing-links-preventing-bullying-behaviors/" target="_self">
+                                    <img width="550" height="550" src="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying_10.30.14.jpg?resize=550%2C550&amp;ssl=1" class="attachment-newsroom_elated_square size-newsroom_elated_square wp-post-image" alt="Bullying" decoding="async" loading="lazy" srcset="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying_10.30.14.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying_10.30.14.jpg?resize=30%2C30&amp;ssl=1 30w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying_10.30.14.jpg?resize=50%2C50&amp;ssl=1 50w" sizes="auto, (max-width: 550px) 100vw, 550px" />                                </a>
+                            </div><!-- .eltd-pt-image-holder -->
+                        
+                        <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/teaching/" rel="category tag">Teaching Methods</a></div>
+                        <div class="eltd-pt-title">
+                            <h6>
+                                <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2014/10/missing-links-preventing-bullying-behaviors/" target="_self">A Few Missing Links in Preventing Bullying Behaviors</a>
+                            </h6>
+                        </div>
+
+                        <div class="eltd-pt-meta-section clearfix">
+                            <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2014/10/">
+		October 30, 2014			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                        </div><!-- .eltd-pt-meta-section -->
+
+                    </div><!-- .eltd-post-item-inner -->
+                </section><!-- .eltd-post-item -->
+
+            
+                <section class="eltd-post-item eltd-pt-one-item">
+                    <div class="eltd-post-item-inner">
+
+                                                    <div class="eltd-pt-image-holder">
+                                <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2014/10/bullying-harassment-professional-liability-educators-need-know/" target="_self">
+                                    <img width="550" height="550" src="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying-2.jpg?resize=550%2C550&amp;ssl=1" class="attachment-newsroom_elated_square size-newsroom_elated_square wp-post-image" alt="Bullying Prevention" decoding="async" loading="lazy" srcset="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying-2.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying-2.jpg?resize=30%2C30&amp;ssl=1 30w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/Bullying-2.jpg?resize=50%2C50&amp;ssl=1 50w" sizes="auto, (max-width: 550px) 100vw, 550px" />                                </a>
+                            </div><!-- .eltd-pt-image-holder -->
+                        
+                        <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/wellbeing/" rel="category tag">Wellbeing</a></div>
+                        <div class="eltd-pt-title">
+                            <h6>
+                                <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2014/10/bullying-harassment-professional-liability-educators-need-know/" target="_self">Bullying, Harassment, and Professional Liability: What Educators Need to Know...</a>
+                            </h6>
+                        </div>
+
+                        <div class="eltd-pt-meta-section clearfix">
+                            <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2014/10/">
+		October 29, 2014			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                        </div><!-- .eltd-pt-meta-section -->
+
+                    </div><!-- .eltd-post-item-inner -->
+                </section><!-- .eltd-post-item -->
+
+            
+                <section class="eltd-post-item eltd-pt-one-item">
+                    <div class="eltd-post-item-inner">
+
+                                                    <div class="eltd-pt-image-holder">
+                                <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2014/10/cant-bully-way-bullying-prevention/" target="_self">
+                                    <img width="550" height="550" src="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/3676639-RF.jpg?resize=550%2C550&amp;ssl=1" class="attachment-newsroom_elated_square size-newsroom_elated_square wp-post-image" alt="Bullying Prevention" decoding="async" loading="lazy" srcset="https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/3676639-RF.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/3676639-RF.jpg?resize=30%2C30&amp;ssl=1 30w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/3676639-RF.jpg?resize=50%2C50&amp;ssl=1 50w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/3676639-RF.jpg?zoom=2&amp;resize=550%2C550&amp;ssl=1 1100w, https://i0.wp.com/corwin-connect.com/wp-content/uploads/2014/10/3676639-RF.jpg?zoom=3&amp;resize=550%2C550&amp;ssl=1 1650w" sizes="auto, (max-width: 550px) 100vw, 550px" />                                </a>
+                            </div><!-- .eltd-pt-image-holder -->
+                        
+                        <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/teaching/" rel="category tag">Teaching Methods</a></div>
+                        <div class="eltd-pt-title">
+                            <h6>
+                                <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2014/10/cant-bully-way-bullying-prevention/" target="_self">You Can’t Bully Your Way to Bullying Prevention</a>
+                            </h6>
+                        </div>
+
+                        <div class="eltd-pt-meta-section clearfix">
+                            <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2014/10/">
+		October 16, 2014			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                        </div><!-- .eltd-pt-meta-section -->
+
+                    </div><!-- .eltd-post-item-inner -->
+                </section><!-- .eltd-post-item -->
+
+                    </div>
+    </div><!-- .eltd-related-posts-inner -->
+</div><!-- .eltd-related-posts-holder -->
+        </div>
+    </div>
+</div> <!-- close div.content_inner -->
+</div> <!-- close div.content -->
+
+    </div>
+    <!-- needed for uncovering footer effect -->
+
+<footer>
+	<div class="eltd-footer-inner clearfix">
+		<div class="eltd-footer-top-holder">
+	<div class="eltd-footer-top eltd-footer-top-full">
+		<div class="eltd-four-columns clearfix">
+	<div class="eltd-four-columns-inner">
+		<div class="eltd-column">
+			<div class="eltd-column-inner">
+				<div id="custom_html-4" class="widget_text widget eltd-footer-column-1 widget_custom_html"><div class="eltd-footer-widget-title-outer"><h5 class="eltd-footer-widget-title">About Us</h5></div><div class="textwidget custom-html-widget"><p>
+	Corwin has one mission: to enhance education through intentional professional learning. We build long-term relationships with our authors, educators, clients, and associations who partner with us to develop and continuously improve the best, evidence-based practices that establish and support lifelong learning.
+</p></div></div><div id="custom_html-5" class="widget_text widget eltd-footer-column-1 widget_custom_html"><div class="eltd-footer-widget-title-outer"><h5 class="eltd-footer-widget-title">Contact</h5></div><div class="textwidget custom-html-widget"><p>Corwin Press<br>
+2455 Teller Road | Thousand Oaks, CA 91320<br>
+Phone: 805-499-9734<br>
+Fax: 805-499-5323<br>
+order@corwin.com</p></div></div>			</div>
+		</div>
+		<div class="eltd-column">
+			<div class="eltd-column-inner">
+				<div class="widget eltd-plw-two"><div class="eltd-bnl-holder eltd-pl-two-holder  eltd-layout-holder"  data-base="eltd_post_layout_two"  data-number_of_posts="2"        data-sort="random"  data-custom_thumb_image_width="80" data-custom_thumb_image_height="80" data-title_tag="h6"  data-display_date="yes"  data-display_category="yes" data-display_author="no" data-display_comments="no" data-display_like="no" data-display_count="no" data-display_excerpt="no"  data-display_post_type_icon="no"  data-display_share="no"      data-paged="1" data-max_pages="888"><div class="eltd-bnl-outer"><div class="eltd-bnl-inner"><section class="eltd-post-item eltd-pt-two-item">
+    <div class="eltd-post-item-inner">
+
+                    <div class="eltd-pt-image-holder">
+                <div class="eltd-pt-image-holder-inner">
+                    <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2015/11/is-your-strategic-planning-focused-on-outcomes-or-just-a-direction/" target="_self" style="width: 80px">
+                        <img src="https://corwin-connect.com/wp-content/uploads/2015/11/Strategic-Plan-80x80.jpg" alt="" width="80" height="80" />                        <div class="eltd-pt-image-overlay"></div>
+                    </a>
+                                    </div><!-- .eltd-pt-image-holder-inner -->
+            </div><!-- .eltd-pt-image-holder -->
+        
+
+        <div class="eltd-pt-content-holder">
+            <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/leadership/" rel="category tag">Leadership</a><span class="eltd-comma">, </span><a href="https://corwin-connect.com/category/teaching/" rel="category tag">Teaching Methods</a></div>
+            <h6 class="eltd-pt-title">
+            <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2015/11/is-your-strategic-planning-focused-on-outcomes-or-just-a-direction/" target="_self">Is Your Strategic Planning Focused on Outcomes… or Just a Direction?</a>
+        </h6>
+
+                    <div class="eltd-pt-meta-section clearfix">
+                                <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2015/11/">
+		November 11, 2015			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                                                            </div><!-- .eltd-pt-meta-section -->
+        
+        
+        <div class="eltd-pt-more-section">
+            <div class="eltd-pt-more-section-left">
+                            </div>
+            <div class="eltd-pt-more-section-right">
+                            </div>
+        </div><!-- .eltd-pt-more-section -->
+
+    </div><!-- .eltd-pt-contnet-holder -->
+
+    </div><!-- .eltd-post-item-inner -->
+</section><!-- .eltd-post-item --><section class="eltd-post-item eltd-pt-two-item">
+    <div class="eltd-post-item-inner">
+
+                    <div class="eltd-pt-image-holder">
+                <div class="eltd-pt-image-holder-inner">
+                    <a itemprop="url" class="eltd-pt-image-link" href="https://corwin-connect.com/2016/08/10-books-leaders-start-school-year-right/" target="_self" style="width: 80px">
+                        <img src="https://corwin-connect.com/wp-content/uploads/2016/07/10-Books-for-Leaders-to-Start-the-School-Year-Right-2-80x80.jpg" alt="" width="80" height="80" />                        <div class="eltd-pt-image-overlay"></div>
+                    </a>
+                                    </div><!-- .eltd-pt-image-holder-inner -->
+            </div><!-- .eltd-pt-image-holder -->
+        
+
+        <div class="eltd-pt-content-holder">
+            <div class="eltd-post-info-category"><a href="https://corwin-connect.com/category/leadership/" rel="category tag">Leadership</a></div>
+            <h6 class="eltd-pt-title">
+            <a itemprop="url" class="eltd-pt-title-link" href="https://corwin-connect.com/2016/08/10-books-leaders-start-school-year-right/" target="_self">10 Books for Leaders to Start the School Year Right!</a>
+        </h6>
+
+                    <div class="eltd-pt-meta-section clearfix">
+                                <div itemprop="dateCreated" class="eltd-post-info-date entry-date updated">
+			<a itemprop="url" href="https://corwin-connect.com/2016/08/">
+		August 1, 2016			</a>
+		<meta itemprop="interactionCount" content="UserComments: 3"/>
+</div>                                                            </div><!-- .eltd-pt-meta-section -->
+        
+        
+        <div class="eltd-pt-more-section">
+            <div class="eltd-pt-more-section-left">
+                            </div>
+            <div class="eltd-pt-more-section-right">
+                            </div>
+        </div><!-- .eltd-pt-more-section -->
+
+    </div><!-- .eltd-pt-contnet-holder -->
+
+    </div><!-- .eltd-post-item-inner -->
+</section><!-- .eltd-post-item --></div></div></div></div>			</div>
+		</div>
+		<div class="eltd-column">
+			<div class="eltd-column-inner">
+				<div id="custom_html-2" class="widget_text widget eltd-footer-column-3 widget_custom_html"><div class="textwidget custom-html-widget"><a class="twitter-timeline" href="https://twitter.com/CorwinPress" data-widget-id="447397148414312449">Tweets by @CorwinPress</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div></div>			</div>
+		</div>
+		<div class="eltd-column">
+			<div class="eltd-column-inner">
+				<div id="custom_html-3" class="widget_text widget eltd-footer-column-4 widget_custom_html"><div class="eltd-footer-widget-title-outer"><h5 class="eltd-footer-widget-title">Corwin Connect</h5></div><div class="textwidget custom-html-widget"><a href="privacy-policy/">Privacy Policy</a><br>
+     	<a href="terms-use/">Terms of Use</a>
+<p>The views and opinions expressed on this website are those of the authors and do not necessarily reflect the official policy or position of Corwin.</p>
+   </div></div>			</div>
+		</div>
+	</div>
+</div>	</div>
+</div>
+	</div>
+</footer>
+
+</div> <!-- close div.eltd-wrapper-inner  -->
+</div> <!-- close div.eltd-wrapper -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/newsroom_child/*","/wp-content/themes/newsroom/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<!-- Google Tag Manager (noscript) snippet added by Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J7GGC9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
+		<script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpf"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpf-4.2.6"; } if (window.addthis_share === undefined) { window.addthis_share = {}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ui_atversion":"300"}; } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Follow Buttons by AddThis","plugin_version":"4.2.6","plugin_mode":"AddThis","anonymous_profile_id":"wp-371e6691a92aa53c215e5dad7d2abcab","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script><script data-cfasync="false" type="text/javascript">if (window.addthis_product === undefined) { window.addthis_product = "wpp"; } if (window.wp_product_version === undefined) { window.wp_product_version = "wpp-6.2.6"; } if (window.addthis_share === undefined) { window.addthis_share = {}; } if (window.addthis_config === undefined) { window.addthis_config = {"data_track_clickback":true,"ui_atversion":"300"}; } if (window.addthis_plugin_info === undefined) { window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","plugin_name":"Share Buttons by AddThis","plugin_version":"6.2.6","plugin_mode":"AddThis","anonymous_profile_id":"wp-371e6691a92aa53c215e5dad7d2abcab","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":false}; } 
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          if (typeof window.addthis_layers !== 'undefined' && Object.getOwnPropertyNames(window.addthis_layers).length > 0) {
+                            window.addthis.layers(window.addthis_layers);
+                          }
+                          if (Array.isArray(window.addthis_layers_tools)) {
+                            for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                              window.addthis.layers(window.addthis_layers_tools[i]);
+                            }
+                          }
+                        }
+                     },1000)
+                    }());
+                </script><script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="https://c0.wp.com/c/7.1.1/wp-includes/js/jquery/ui/core.min.js"></script>
+<script id="jquery-ui-tabs-js" src="https://c0.wp.com/c/7.1.1/wp-includes/js/jquery/ui/tabs.min.js"></script>
+<script id="mediaelement-core-js-before">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https://get.adobe.com/flashplayer/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+//# sourceURL=mediaelement-core-js-before
+</script>
+<script id="mediaelement-core-js" src="https://c0.wp.com/c/7.1.1/wp-includes/js/mediaelement/mediaelement-and-player.min.js"></script>
+<script id="mediaelement-migrate-js" src="https://c0.wp.com/c/7.1.1/wp-includes/js/mediaelement/mediaelement-migrate.min.js"></script>
+<script id="mediaelement-js-extra">
+var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+//# sourceURL=mediaelement-js-extra
+</script>
+<script id="wp-mediaelement-js" src="https://c0.wp.com/c/7.1.1/wp-includes/js/mediaelement/wp-mediaelement.min.js"></script>
+<script id="ScrollToPlugin.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/ScrollToPlugin.min.js?ver=7.1.1"></script>
+<script id="TweenLite.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/TweenLite.min.js?ver=7.1.1"></script>
+<script id="fluidvids.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/fluidvids.min.js?ver=7.1.1"></script>
+<script id="jquery.appear.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.appear.js?ver=7.1.1"></script>
+<script id="jquery.easing.1.3.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.easing.1.3.js?ver=7.1.1"></script>
+<script id="jquery.flexslider-min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.flexslider-min.js?ver=7.1.1"></script>
+<script id="jquery.infinitescroll.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.infinitescroll.min.js?ver=7.1.1"></script>
+<script id="jquery.isotope.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.isotope.min.js?ver=7.1.1"></script>
+<script id="jquery.nicescroll.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.nicescroll.min.js?ver=7.1.1"></script>
+<script id="jquery.plugin.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.plugin.js?ver=7.1.1"></script>
+<script id="jquery.prettyPhoto.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.prettyPhoto.js?ver=7.1.1"></script>
+<script id="jquery.sticky-kit.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.sticky-kit.min.js?ver=7.1.1"></script>
+<script id="jquery.waitforimages.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.waitforimages.js?ver=7.1.1"></script>
+<script id="jquery.waypoints.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/jquery.waypoints.min.js?ver=7.1.1"></script>
+<script id="modernizr.custom.85257.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/modernizr.custom.85257.js?ver=7.1.1"></script>
+<script id="parallax.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/parallax.min.js?ver=7.1.1"></script>
+<script id="slick.min.js-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules/plugins/slick.min.js?ver=7.1.1"></script>
+<script id="newsroom-elated-modules-js-extra">
+var eltdGlobalVars = {"vars":{"eltdAddForAdminBar":0,"eltdElementAppearAmount":-150,"eltdFinishedMessage":"No more posts","eltdMessage":"Loading new posts...","eltdAjaxUrl":"https://corwin-connect.com/wp-admin/admin-ajax.php","eltdTopBarHeight":42,"eltdStickyHeaderHeight":55,"eltdStickyHeaderTransparencyHeight":55,"eltdMobileHeaderHeight":60,"eltdLogoAreaHeight":175,"eltdMenuAreaHeight":55}};
+var eltdPerPageVars = {"vars":{"eltdStickyScrollAmount":0,"eltdHeaderTransparencyHeight":0,"eltdHeaderHeight":272}};
+//# sourceURL=newsroom-elated-modules-js-extra
+</script>
+<script id="newsroom-elated-modules-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/modules.min.js?ver=7.1.1"></script>
+<script async data-wp-strategy="async" fetchpriority="low" id="comment-reply-js" src="https://c0.wp.com/c/7.1.1/wp-includes/js/comment-reply.min.js"></script>
+<script id="wpb_composer_front_js-js" src="https://corwin-connect.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=9.0.1"></script>
+<script id="newsroom-elated-like-js-extra">
+var eltdLike = {"ajaxurl":"https://corwin-connect.com/wp-admin/admin-ajax.php"};
+//# sourceURL=newsroom-elated-like-js-extra
+</script>
+<script id="newsroom-elated-like-js" src="https://corwin-connect.com/wp-content/themes/newsroom/assets/js/like.js?ver=1.0"></script>
+<script id="addthis_widget-js" src="https://s7.addthis.com/js/300/addthis_widget.js?ver=7.1.1#pubid=ra-5dc2d891b7afeb86"></script>
+<script id="wp-social-sharing-js" src="https://corwin-connect.com/wp-content/plugins/wp-social-sharing/static/socialshare.js?ver=1.6"></script>
+<script id="jetpack-stats-js-before">
+_stq = window._stq || [];
+_stq.push([ "view", {"v":"ext","blog":"168968581","post":"2104","tz":"-7","srv":"corwin-connect.com","j":"1:16.2"} ]);
+_stq.push([ "clickTrackerInit", "168968581", "2104" ]);
+//# sourceURL=jetpack-stats-js-before
+</script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202640.js"></script>
+<script defer id="akismet-frontend-js" src="https://corwin-connect.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1790995291"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://corwin-connect.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.1"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://corwin-connect.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+<script></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-8141cfd36294e6c7598","applicationID":"420560542","transactionName":"MgEEZRADDUUAAUMKWQtLJ1IWCwxYThFeDVEJAQ==","queueTime":0,"applicationTime":956,"atts":"HkYHE1gZHks=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

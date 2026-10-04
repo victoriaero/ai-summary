@@ -1,0 +1,28 @@
+{
+  "source_id": "957084c2e0477094ccfe",
+  "normalized_url": "https://publichealthpost.org/health-equity/students-of-color-are-disproportionately-bullied-and-harassed-at-school",
+  "fetch_timestamp_utc": "2026-10-04T02:44:34.159375+00:00",
+  "registrable_domain": "publichealthpost.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://publichealthpost.org/health-equity/students-of-color-are-disproportionately-bullied-and-harassed-at-school/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 163126,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/957084c2e0477094ccfe.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/957084c2e0477094ccfe.txt",
+  "text_chars": 3603,
+  "text_words": 552,
+  "extraction_status": "success",
+  "page_title": "Students of Color are Disproportionately Bullied and Harassed at School",
+  "page_author": "Mallory Bersi",
+  "page_date": "2023-04-28",
+  "site_name": "Public Health Post",
+  "canonical_url": "https://publichealthpost.org/health-equity/students-of-color-are-disproportionately-bullied-and-harassed-at-school/"
+}

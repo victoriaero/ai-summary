@@ -1,0 +1,28 @@
+{
+  "source_id": "8a193db7364cccbc3731",
+  "normalized_url": "https://hbtbank.com/personal-banking/five-factors-that-impact-your-credit-score",
+  "fetch_timestamp_utc": "2026-10-04T03:41:13.985940+00:00",
+  "registrable_domain": "hbtbank.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hbtbank.com/personal-banking/five-factors-that-impact-your-credit-score/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 99299,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8a193db7364cccbc3731.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8a193db7364cccbc3731.txt",
+  "text_chars": 3300,
+  "text_words": 581,
+  "extraction_status": "success",
+  "page_title": "Five Factors That Impact Your Credit Score - Heartland Bank and Trust Company",
+  "page_author": "Heartland Bank; Trust Company; Csmedit",
+  "page_date": "2025-01-01",
+  "site_name": "Heartland Bank and Trust Company",
+  "canonical_url": "https://www.hbtbank.com/personal-banking/five-factors-that-impact-your-credit-score/"
+}

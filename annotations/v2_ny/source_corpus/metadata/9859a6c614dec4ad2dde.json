@@ -1,0 +1,28 @@
+{
+  "source_id": "9859a6c614dec4ad2dde",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/publications/lgbt-housing-instability",
+  "fetch_timestamp_utc": "2026-10-04T02:44:52.653782+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/publications/lgbt-housing-instability/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 120141,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9859a6c614dec4ad2dde.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9859a6c614dec4ad2dde.txt",
+  "text_chars": 9033,
+  "text_words": 1373,
+  "extraction_status": "success",
+  "page_title": "LGBT People and Housing Affordability, Discrimination, and Homelessness",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2021-08-03",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/publications/lgbt-housing-instability/"
+}

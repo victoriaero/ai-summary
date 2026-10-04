@@ -1,0 +1,28 @@
+{
+  "source_id": "5db9a8deb87e6022dced",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820533",
+  "fetch_timestamp_utc": "2026-10-04T02:40:00.580530+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820533/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 188214,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5db9a8deb87e6022dced.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5db9a8deb87e6022dced.txt",
+  "text_chars": 47506,
+  "text_words": 7824,
+  "extraction_status": "success",
+  "page_title": "Knowledge About Bullying by Young Adults With Special Educational Needs With or Without Disabilities (SEN/D)",
+  "page_author": "Víctor González-Calatayud; Marimar Roman-García; Paz Prendes-Espinosa",
+  "page_date": "2021-01-08",
+  "site_name": "Frontiers in Psychology",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7820533/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "d494cc4b4b8944d9ac6c",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10820636",
+  "fetch_timestamp_utc": "2026-10-04T02:49:28.989071+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10820636/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 224880,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/d494cc4b4b8944d9ac6c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/d494cc4b4b8944d9ac6c.txt",
+  "text_chars": 52287,
+  "text_words": 8013,
+  "extraction_status": "success",
+  "page_title": "How economic development affects healthcare access for people with disabilities: A multilevel study in China",
+  "page_author": "Hongchuan Wang; Zhe Chen; Zhihui Li; Xiaofeng He; SV Subramanian",
+  "page_date": "2023-12-28",
+  "site_name": "SSM - Population Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10820636/"
+}

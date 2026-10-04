@@ -1,0 +1,28 @@
+{
+  "source_id": "93e0b5a3a8853a4e22cf",
+  "normalized_url": "https://fdic.gov/consumer-resource-center/2023-03/financial-empowerment-and-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T03:41:50.324974+00:00",
+  "registrable_domain": "fdic.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.fdic.gov/consumer-resource-center/2023-03/financial-empowerment-and-inclusion",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 93290,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/93e0b5a3a8853a4e22cf.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/93e0b5a3a8853a4e22cf.txt",
+  "text_chars": 7135,
+  "text_words": 1152,
+  "extraction_status": "success",
+  "page_title": "Financial Empowerment and Inclusion | FDIC.gov",
+  "page_author": null,
+  "page_date": "2023-08-18",
+  "site_name": "FDICgov",
+  "canonical_url": "https://www.fdic.gov/consumer-resource-center/2023-03/financial-empowerment-and-inclusion"
+}

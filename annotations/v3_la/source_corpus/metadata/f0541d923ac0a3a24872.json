@@ -1,0 +1,28 @@
+{
+  "source_id": "f0541d923ac0a3a24872",
+  "normalized_url": "https://news.nd.edu/news/im-watching-you-behavior-produces-racial-disparities-in-school-discipline",
+  "fetch_timestamp_utc": "2026-10-04T03:48:53.647430+00:00",
+  "registrable_domain": "nd.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://news.nd.edu/news/im-watching-you-behavior-produces-racial-disparities-in-school-discipline/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 41483,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f0541d923ac0a3a24872.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f0541d923ac0a3a24872.txt",
+  "text_chars": 6063,
+  "text_words": 907,
+  "extraction_status": "success",
+  "page_title": "‘I’m watching you’ behavior produces racial disparities in school discipline",
+  "page_author": "Tracy DeStazio",
+  "page_date": "2024-02-09",
+  "site_name": "Notre Dame News",
+  "canonical_url": "https://news.nd.edu/news/im-watching-you-behavior-produces-racial-disparities-in-school-discipline/"
+}

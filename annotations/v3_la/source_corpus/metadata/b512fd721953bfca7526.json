@@ -1,0 +1,20 @@
+{
+  "source_id": "b512fd721953bfca7526",
+  "normalized_url": "https://vorwerkforensic.com/gender-disparities-in-the-criminal-justice-system",
+  "fetch_timestamp_utc": "2026-10-04T03:44:21.417914+00:00",
+  "registrable_domain": "vorwerkforensic.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://vorwerkforensic.com/gender-disparities-in-the-criminal-justice-system",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 52,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "77342095e61e919cc95a",
+  "normalized_url": "https://frontiersin.org/journals/education/articles/10.3389/feduc.2025.1528899/full",
+  "fetch_timestamp_utc": "2026-10-04T03:39:42.622933+00:00",
+  "registrable_domain": "frontiersin.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1528899/full",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 884046,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/77342095e61e919cc95a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/77342095e61e919cc95a.txt",
+  "text_chars": 63807,
+  "text_words": 9520,
+  "extraction_status": "success",
+  "page_title": "Frontiers | A darkside of academia: a study of bullying, its prevalence, causes and perpetrators in an academic setting",
+  "page_author": "Christina Björklund; Irene Jensen",
+  "page_date": "2025-09-01",
+  "site_name": "Frontiers",
+  "canonical_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1528899/full"
+}

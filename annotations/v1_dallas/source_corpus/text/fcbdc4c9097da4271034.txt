@@ -1,0 +1,256 @@
+Abstract
+Purpose: We characterize disparities between lesbian, gay, and bisexual (LGB) adults and heterosexual adults across multiple health determinants in a nationally representative sample.
+Methods: Data on 153,939 adults (including 11,133 LGB adults) were from the 2015–2018 National Survey on Drug Use and Health. Separate Poisson regression models were used to estimate the relative risk (RR) that gay/lesbian and bisexual adults, respectively, experienced each health determinant, relative to heterosexual adults of the same gender and age group (ages 18–25, 26–34, 35–49, and 50–64). Statistically significant RR estimates were interpreted as a disparity.
+Results: Bisexual females exhibited disparities on all economic/health care access factors (no college degree, household poverty, means-tested assistance, unemployment, and lacking health insurance) across nearly all age groups; lesbian/gay females exhibited disparities in means-tested assistance and health insurance for some age groups. Notably fewer economic disparities were observed among gay and bisexual males. LGB adults (across identity, gender, and age group) were more likely to live alone, to have never been married, and to report low religious service attendance. Bisexual and lesbian/gay females, across age groups, had 1.7–2.2 times the risk of a lifetime arrest for a criminal offense, relative to same-age heterosexual females.
+Conclusions: Our results highlight that LGB females, particularly bisexual females, experience significant disparities in economic determinants of health, and all LGB subgroups exhibited disparities in some of the examined social determinants of health. The observed disparities, which spanned across age groups, likely contribute to disparities in physical and mental health observed among LGB adults.
+Keywords: economics, poverty, sexual minority, social determinants
+Introduction
+A robust literature has linked social and economic factors with health status and well-being across the lifecourse.1–6 These health determinants may represent individual-level factors (e.g., income, education, social ties) as well as structural factors (e.g., community characteristics, government policies), all of which may differentially afford access to health-promoting behaviors and health care services.7–10 Minority stress—namely the stigma, prejudice, and discrimination experienced due to marginalized identit(ies)11–14—has also been incisively framed as a key social determinant of health for sexual minority individuals.15 Prior studies have demonstrated that health disparities are driven, in part, by unequal distributions of health determinants.1 Many studies have examined the contributions of sexual identity-related stigma, discrimination, and structural factors (e.g., same-sex marriage prohibition) to physical16–20 and behavioral health21–27 disparities among lesbian, gay, and bisexual (LGB) individuals. However, more research is needed to robustly characterize potential differences in social and economic factors that may contribute to health disparities among LGB individuals.
+Low income is among the most robust health determinants28 and research over the last few decades has highlighted key economic disparities among LGB individuals. An early study using 1989–1991 General Social Survey data found that gay and bisexual males earned 11%–27% less than heterosexual males with the same occupation, education, and experience.29 Subsequently, a study found that lesbian and bisexual women were more likely to receive public assistance and food stamps than heterosexual women and that both male and female same-sex couples were more likely to receive cash assistance than different-sex married couples.30 More recently, a study using 2014–2017 Behavioral Risk Factor Surveillance System data reported that bisexual women—but not lesbian women, gay men, or bisexual men—had significantly higher rates of poverty than their heterosexual counterparts, after adjusting for demographic factors.31
+Social connectedness has also been linked to health status—social isolation confers elevated mortality risk similar in magnitude to that of smoking.32 Aspects of social isolation that have been linked with mortality and morbidity include being unmarried, living alone, low religious participation, and loneliness.32,33 Few studies have examined social isolation among LGB individuals (with the notable exception of LGBT community connectedness),34–36 yet emerging evidence suggests that LGB individuals experience lower social connectedness than heterosexual individuals. Studies using the National Health Interview Survey found that LGB adults were significantly less likely to have ever married37 and older gay and bisexual men were significantly more likely to be living alone (relative to heterosexual men).19
+Increasingly, incarceration has been recognized as a potent social determinant of health.38,39 National data indicate that 42% of women and 39% of girls (compared with 9% of men and 3% of boys) detained in correctional facilities identify as sexual minority, highlighting a significant overrepresentation of sexual minority women.40,41 Incarceration may contribute to poor health through multiple mechanisms (e.g., social isolation, physical harm, economic/employment consequences) and also poses unique risks to LGB individuals, as sexual minority status is one of the greatest risk factors for victimization while incarcerated.42 Disadvantage persists after release; individuals on probation have more adverse health outcomes and lower health care utilization than individuals not on probation.43 Family members may also experience disadvantage—a New York City study found that individuals with a family history (but no personal history) of criminal justice system involvement were at higher risk for fair/poor health, depression, and heavy drinking compared with individuals with neither a personal nor family history.44
+Although prior studies suggest that LGB individuals experience disadvantage disproportionately on certain health determinants,19,30,31,37,41 there is a need to comprehensively examine these disparities among a contemporary, nationally representative sample. This study characterizes disparities between LGB and heterosexual adults with respect to nine health determinants using data from the 2015–2018 National Survey on Drug Use and Health (NSDUH). The results are stratified by gender, given evidence of important heterogeneity in health outcomes at the intersection of sexual identity and gender.24,45–47 Analyses are also stratified by age group, as lifecourse stage and generation likely affect the economic and social factors of interest (e.g., college graduation rates and income are lower, on average, at age 19 than age 40; rates of marriage and religious attendance have declined among younger generations). Minority stress experiences potentially contributing to LGB/heterosexual differences may also vary by lifecourse stage and generation (e.g., economic disadvantage may cumulate across the lifespan; workplace discrimination protections and legality of same-sex marriage have differed across LGB generations).48–50
+Understanding age-specific disparities between LGB and heterosexual adults regarding health determinants is a foundational step toward elucidating the etiological origins of the varied physical and behavioral health disparities experienced by LGB individuals.
+Methods
+Study population
+Data were from the 2015–2018 NSDUH, an annual, nationally representative household behavioral health survey among the civilian, noninstitutionalized U.S. population ages 12 and older. Data were collected using computer-assisted interviewing. The sample size for the public use NSDUH data was 57,146 in 2015 (70% response), 56,897 in 2016 (68% response), 56,276 in 2017 (67% response), and 56,313 in 2018 (67% response). Survey respondents gave written informed consent and were compensated $30. Our sample was restricted to individuals ages 18–64 who identified as heterosexual, lesbian/gay, or bisexual (n = 153,939). Our sample comprised 11,133 LGB adults, specifically 1765 gay males, 1677 bisexual males, 1760 lesbian/gay females, and 5931 bisexual females (Table 1). Individuals ages 12–17 were excluded as the NSDUH does not ask minors about sexual identity, as were individuals who did not respond to the sexual identity question (n = 2044) or answered “don't know” (n = 1072). Individuals ages 65 and older (n = 14,621) were excluded due to small sample size of sexual minority individuals and limited applicability of items regarding employment and insurance. This study was deemed exempt from review by RAND's Institutional Review Board, as it involved deidentified survey data.
+Table 1.
+|  | Heterosexual females | Lesbian/gay females | Bisexual females | Heterosexual males | Gay males | Bisexual males | 
+|---|---|---|---|---|---|---|
+| Age category |  |  |  |  |  |  | 
+| 18–25 Years | 24,139 | 771 | 3564 | 24,621 | 722 | 925 | 
+| 26–34 Years | 16,865 | 412 | 1401 | 15,251 | 426 | 349 | 
+| 35–49 Years | 22,772 | 408 | 845 | 19,794 | 394 | 277 | 
+| 50–64 Years | 10,452 | 169 | 121 | 8912 | 223 | 126 | 
+Measures
+Sexual identity was assessed by an item that asked, “Which one of the following do you consider yourself to be?” with response choices of “Heterosexual, that is, straight,” “Lesbian or gay,” “Bisexual,” and “Don't know.” Gender was assessed with the item “Are you male or female?” We, therefore, follow the language employed by the survey and refer to participants as males or females throughout. Age categories were defined as 18–25, 26–34, 35–49, and 50–64.
+Economic and health care access factors included indicators of no college degree; household income below the federal poverty level (as established by the U.S. Census Bureau for the specific survey year); currently receiving any means-tested assistance (Supplemental Security Income, food stamps, cash assistance, or noncash assistance); any past-year unemployment; and any past-year lack of health insurance.
+Social factors included indicators of currently living alone; never married; low religious service attendance (≤5 times in the past year); and ever arrested and booked for a criminal offense (with the exception of minor traffic violations).
+Analysis
+We calculated survey-weighted prevalence rates of health determinants at the intersection of sexual identity, gender, and age. Poisson regression with robust variance was used to estimate the relative risk (RR) for each health determinant. Regression models included sexual identity, gender, age category, and their interactions. We report RRs comparing lesbian/gay and bisexual adults to heterosexual adults of the same gender and age; statistically significant RRs were interpreted as a disparity. We did not adjust for traditional demographic covariates, as these may be, in part, causally related to the health determinants of interest. All analyses accounted for NSDUH survey design and were conducted in Stata version 15.1 (StataCorp LLC, College Station, TX).
+Results
+Economic and health care access factors: disparities among LGB females
+Bisexual females exhibited notable disparities on all five economic and health care access factors (Table 2 and Fig. 1). Relative to same-age heterosexual females, bisexual females under 50 had significantly elevated risk of poverty (RR ranged from 1.09 to 1.47) and were significantly more likely to lack a college degree (RR ranged from 1.08 to 1.22). Across all age groups, bisexual females were significantly more likely to have received any means-tested assistance (RR ranged from 1.41 to 1.68), to have past-year unemployment (RR ranged from 1.34 to 2.08), and to have been uninsured in the past year (RR ranged from 1.35 to 2.41).
+Table 2.
+|  | Heterosexual females | Lesbian/gay females |  | Bisexual females |  | 
+|---|---|---|---|---|---|
+|  | % | % | RR (95% CI) | % | RR (95% CI) | 
+| No college degree |  |  |  |  |  | 
+| 18–25 Years | 82.2 | 86.6 | 1.05 (1.01–1.10) | 88.8 | 1.08 (1.06–1.10) | 
+| 26–34 Years | 59.3 | 64.6 | 1.09 (0.98–1.21) | 72.6 | 1.22 (1.17–1.28) | 
+| 35–49 Years | 60.5 | 57.1 | 0.94 (0.85–1.05) | 68.1 | 1.13 (1.06–1.20) | 
+| 50–64 Years | 67.7 | 56.0 | 0.83 (0.70–0.97) | 62.1 | 0.92 (0.77–1.09) | 
+| Household income less than the federal poverty level |  |  |  |  |  | 
+| 18–25 Years | 27.6 | 31.5 | 1.14 (0.99–1.31) | 30.0 | 1.09 (1.01–1.16) | 
+| 26–34 Years | 19.1 | 18.7 | 0.98 (0.77–1.25) | 26.6 | 1.39 (1.24–1.56) | 
+| 35–49 Years | 15.7 | 17.4 | 1.10 (0.84–1.45) | 23.2 | 1.47 (1.26–1.73) | 
+| 50–64 Years | 12.9 | 13.6 | 1.06 (0.64–1.74) | 18.7 | 1.45 (0.89–2.36) | 
+| Receiving any means-tested assistancea |  |  |  |  |  | 
+| 18–25 Years | 22.3 | 29.0 | 1.30 (1.13–1.49) | 31.4 | 1.41 (1.31–1.50) | 
+| 26–34 Years | 25.3 | 28.6 | 1.13 (0.92–1.38) | 38.6 | 1.52 (1.39–1.66) | 
+| 35–49 Years | 20.5 | 25.9 | 1.27 (1.03–1.56) | 32.7 | 1.60 (1.41–1.81) | 
+| 50–64 Years | 19.9 | 24.3 | 1.22 (0.88–1.70) | 33.4 | 1.68 (1.23–2.30) | 
+| Unemployed at some point in the past 12 months |  |  |  |  |  | 
+| 18–25 Years | 28.6 | 29.0 | 1.01 (0.85–1.20) | 38.3 | 1.34 (1.24–1.44) | 
+| 26–34 Years | 12.8 | 13.8 | 1.07 (0.73–1.57) | 19.6 | 1.53 (1.27–1.83) | 
+| 35–49 Years | 9.4 | 8.9 | 0.95 (0.61–1.46) | 15.3 | 1.63 (1.26–2.12) | 
+| 50–64 Years | 7.5 | 3.1 | 0.41 (0.14–1.21) | 15.7 | 2.08 (1.09–3.97) | 
+| Uninsured at some point in the past 12 months |  |  |  |  |  | 
+| 18–25 Years | 9.4 | 11.7 | 1.25 (0.96–1.61) | 12.6 | 1.35 (1.19–1.54) | 
+| 26–34 Years | 10.0 | 18.3 | 1.83 (1.30–2.57) | 15.2 | 1.52 (1.27–1.82) | 
+| 35–49 Years | 6.2 | 9.3 | 1.49 (1.04–2.14) | 9.2 | 1.47 (1.09–1.98) | 
+| 50–64 Years | 4.5 | 4.4 | 0.98 (0.34–2.85) | 10.8 | 2.41 (1.23–4.71) | 
+The reference group is heterosexual females in the same age group (ref RR = 1.0). Bold indicates RR estimates that are significant at the 0.05 level. Prevalence and RR estimates are survey weighted.
+Means-tested assistance includes Supplemental Security Income, food stamps, cash assistance, and noncash assistance (e.g., subsidized childcare).
+CI, confidence interval; RR, relative risk.
+Relative to same-age heterosexual females, lesbian/gay females ages 18–25 were significantly more likely to lack a college degree (RR = 1.05); conversely, lesbian/gay females ages 50–64 were significantly less likely to lack a college degree (RR = 0.83). Lesbian/gay females ages 18–25 and ages 35–49 were significantly more likely to have received any means-tested assistance (RR = 1.30 and RR = 1.27, respectively). Lesbian/gay females ages 26–34 and ages 35–49 had elevated risk of being uninsured during the past year (RR = 1.83 and RR = 1.49, respectively).
+Economic and health care access factors: disparities among gay and bisexual males
+Comparing across LGB subgroups, relative to heterosexual peers, gay males exhibited the fewest disparities in economic and health care access factors (Table 3 and Fig. 1). Gay males ages 18–25 had elevated risk of past-year unemployment (RR = 1.18) and gay males ages 50–64 had elevated risk of being uninsured during the past year (RR = 2.02). Conversely, gay males of all ages exhibited an educational advantage relative to heterosexual males of the same age, being significantly less likely to lack a college degree (RR ranged from 0.70 to 0.91). In addition, gay males ages 26–34 had significantly lower risk of poverty (RR = 0.69) than same-age heterosexual males.
+Table 3.
+|  | Heterosexual males | Gay males |  | Bisexual males |  | 
+|---|---|---|---|---|---|
+|  | % | % | RR (95% CI) | % | RR (95% CI) | 
+| No college degree |  |  |  |  |  | 
+| 18–25 Years | 88.1 | 80.6 | 0.91 (0.87–0.96) | 89.3 | 1.01 (0.98–1.04) | 
+| 26–34 Years | 65.8 | 46.3 | 0.70 (0.62–0.80) | 69.6 | 1.06 (0.96–1.16) | 
+| 35–49 Years | 66.0 | 49.4 | 0.75 (0.66–0.85) | 68.5 | 1.04 (0.94–1.15) | 
+| 50–64 Years | 68.4 | 52.6 | 0.77 (0.66–0.90) | 51.7 | 0.76 (0.61–0.93) | 
+| Household income less than the federal poverty level |  |  |  |  |  | 
+| 18–25 Years | 22.9 | 21.2 | 0.92 (0.77–1.11) | 25.6 | 1.12 (0.96–1.31) | 
+| 26–34 Years | 13.1 | 9.0 | 0.69 (0.48–0.99) | 16.6 | 1.27 (0.91–1.77) | 
+| 35–49 Years | 11.0 | 11.1 | 1.01 (0.70–1.46) | 15.1 | 1.37 (0.91–2.08) | 
+| 50–64 Years | 10.9 | 9.0 | 0.82 (0.50–1.34) | 11.7 | 1.07 (0.63–1.82) | 
+| Receiving any means-tested assistancea |  |  |  |  |  | 
+| 18–25 Years | 18.2 | 19.4 | 1.06 (0.87–1.30) | 18.3 | 1.00 (0.84–1.20) | 
+| 26–34 Years | 17.6 | 13.4 | 0.76 (0.56–1.03) | 21.8 | 1.24 (0.95–1.61) | 
+| 35–49 Years | 15.7 | 13.2 | 0.84 (0.61–1.15) | 24.4 | 1.55 (1.15–2.10) | 
+| 50–64 Years | 16.5 | 19.8 | 1.20 (0.87–1.65) | 23.5 | 1.43 (0.94–2.18) | 
+| Unemployed at some point in the past 12 months |  |  |  |  |  | 
+| 18–25 Years | 29.7 | 35.1 | 1.18 (1.00–1.39) | 37.1 | 1.25 (1.08–1.44) | 
+| 26–34 Years | 11.5 | 12.2 | 1.06 (0.74–1.53) | 19.3 | 1.68 (1.21–2.35) | 
+| 35–49 Years | 8.1 | 10.9 | 1.33 (0.85–2.10) | 14.1 | 1.73 (1.09–2.77) | 
+| 50–64 Years | 8.0 | 7.6 | 0.95 (0.47–1.93) | 7.0 | 0.88 (0.41–1.88) | 
+| Uninsured at some point in the past 12 months |  |  |  |  |  | 
+| 18–25 Years | 8.6 | 9.1 | 1.06 (0.76–1.49) | 8.2 | 0.96 (0.70–1.31) | 
+| 26–34 Years | 11.1 | 15.0 | 1.35 (0.98–1.86) | 13.3 | 1.20 (0.80–1.80) | 
+| 35–49 Years | 6.3 | 9.2 | 1.46 (0.97–2.20) | 7.0 | 1.11 (0.62–1.98) | 
+| 50–64 Years | 4.1 | 8.3 | 2.02 (1.12–3.66) | 5.2 | 1.27 (0.57–2.83) | 
+The reference group is heterosexual males in the same age group (ref RR = 1.0). Bold indicates RR estimates that are significant at the 0.05 level. Prevalence and RR estimates are survey weighted.
+Means-tested assistance includes Supplemental Security Income, food stamps, cash assistance, and noncash assistance (e.g., subsidized childcare).
+Bisexual males under 50 years of age were at significantly elevated risk of past-year unemployment (RR ranged from 1.25 to 1.73) and bisexual males ages 35–49 were significantly more likely to have received means-tested assistance (RR = 1.55), relative to heterosexual males of the same age. Conversely, bisexual males ages 50–64 were significantly less likely to lack a college degree (RR = 0.76) compared with same-age heterosexual males.
+Social factors: disparities among LGB females
+Bisexual females exhibited notable disparities on all four social determinants of health (Table 4 and Fig. 1). Relative risk of living alone was significantly elevated among bisexual females ages 26–34 (RR = 1.23) and ages 35–49 (RR = 1.83). Bisexual females under 50 were significantly more likely to have never married (RR ranged from 1.04 to 1.50). Bisexual females of all ages were significantly more likely to have low religious service attendance (RR ranged from 1.27 to 1.47) and had 1.7–2.2 times the risk of lifetime arrest, compared with heterosexual females of the same age.
+Table 4.
+|  | Heterosexual females | Lesbian/gay females |  | Bisexual females |  | 
+|---|---|---|---|---|---|
+|  | % | % | RR (95% CI) | % | RR (95% CI) | 
+| Lives alone |  |  |  |  |  | 
+| 18–25 Years | 17.2 | 19.2 | 1.12 (0.92–1.35) | 17.1 | 1.00 (0.90–1.11) | 
+| 26–34 Years | 10.1 | 17.8 | 1.76 (1.31–2.36) | 12.4 | 1.23 (1.02–1.48) | 
+| 35–49 Years | 7.1 | 20.2 | 2.83 (2.24–3.58) | 13.1 | 1.83 (1.45–2.31) | 
+| 50–64 Years | 16.3 | 32.2 | 1.98 (1.52–2.58) | 23.5 | 1.44 (0.96–2.16) | 
+| Never married |  |  |  |  |  | 
+| 18–25 Years | 85.7 | 93.2 | 1.09 (1.06–1.11) | 88.8 | 1.04 (1.02–1.05) | 
+| 26–34 Years | 41.3 | 75.4 | 1.83 (1.70–1.96) | 54.2 | 1.31 (1.23–1.40) | 
+| 35–49 Years | 16.5 | 46.3 | 2.80 (2.45–3.20) | 24.9 | 1.50 (1.28–1.76) | 
+| 50–64 Years | 8.5 | 44.6 | 5.23 (4.20–6.50) | 13.9 | 1.63 (0.97–2.75) | 
+| Low religious service attendancea |  |  |  |  |  | 
+| 18–25 Years | 65.5 | 82.3 | 1.26 (1.20–1.32) | 83.0 | 1.27 (1.24–1.30) | 
+| 26–34 Years | 64.7 | 90.1 | 1.39 (1.34–1.45) | 84.8 | 1.31 (1.27–1.35) | 
+| 35–49 Years | 58.1 | 78.6 | 1.35 (1.27–1.44) | 80.1 | 1.38 (1.32–1.44) | 
+| 50–64 Years | 53.7 | 81.7 | 1.52 (1.39–1.67) | 79.0 | 1.47 (1.32–1.64) | 
+| Ever arrested and booked for a criminal offense |  |  |  |  |  | 
+| 18–25 Years | 7.3 | 14.0 | 1.91 (1.54–2.36) | 12.3 | 1.68 (1.49–1.90) | 
+| 26–34 Years | 13.2 | 23.2 | 1.76 (1.39–2.23) | 26.0 | 1.96 (1.74–2.21) | 
+| 35–49 Years | 11.7 | 20.7 | 1.76 (1.41–2.20) | 25.8 | 2.19 (1.89–2.55) | 
+| 50–64 Years | 9.6 | 18.0 | 1.88 (1.25–2.84) | 21.0 | 2.20 (1.45–3.33) | 
+The reference group is heterosexual females in the same age group (ref RR = 1.0). Bold indicates RR estimates that are significant at the 0.05 level. Prevalence and RR estimates are survey weighted.
+Attended religious services five times or less in the past year.
+Disparity patterns were similar between lesbian/gay females and bisexual females. RR of living alone was significantly elevated among lesbian/gay females over age 25 (RR ranged from 1.76 to 2.83). Lesbian/gay females of all ages were significantly more likely to have never married, with the most pronounced disparities observed for individuals ages 50–64 (RR = 5.23). Lesbian/gay females in every age group were significantly more likely to have low religious service attendance (RR ranged from 1.26 to 1.52) and had 1.7–1.9 times the risk of lifetime arrest, compared with heterosexual females of the same age.
+Social factors: disparities among gay and bisexual males
+Gay males in every age group exhibited significant disparities in living alone, being never married, and low religious service attendance compared with heterosexual males of the same age (Table 5 and Fig. 1). The magnitude of disparities was particularly pronounced for individuals ages 35–49 (4.0 times as likely to have never married; 3.3 times as likely to live alone) and ages 50–64 (6.8 times as likely to have never married; 2.5 times as likely to live alone). In contrast to the disparities observed among LGB females, younger gay males had significantly lower risk of lifetime arrest (RR ranged from 0.71 to 0.79). Bisexual males in every age group were significantly more likely to live alone (RR ranged from 1.29 to 2.35) and to have never married (RR ranged from 1.04 to 3.18), although the magnitude of these disparities was not as large for older bisexual males as for older gay males. Bisexual males under 50 had significantly higher rates of low religious service attendance (RR ranged from 1.13 to 1.19).
+Table 5.
+|  | Heterosexual males | Gay males |  | Bisexual males |  | 
+|---|---|---|---|---|---|
+|  | % | % | RR (95% CI) | % | RR (95% CI) | 
+| Lives alone |  |  |  |  |  | 
+| 18–25 Years | 19.7 | 28.3 | 1.44 (1.24–1.66) | 25.5 | 1.29 (1.10–1.52) | 
+| 26–34 Years | 16.8 | 44.9 | 2.67 (2.32–3.08) | 26.3 | 1.56 (1.24–1.98) | 
+| 35–49 Years | 12.0 | 39.2 | 3.28 (2.77–3.88) | 28.1 | 2.35 (1.84–2.99) | 
+| 50–64 Years | 17.2 | 43.1 | 2.51 (2.08–3.04) | 27.7 | 1.62 (1.16–2.26) | 
+| Never married |  |  |  |  |  | 
+| 18–25 Years | 92.0 | 95.3 | 1.04 (1.01–1.06) | 95.5 | 1.04 (1.02–1.06) | 
+| 26–34 Years | 52.0 | 83.5 | 1.60 (1.51–1.70) | 71.8 | 1.38 (1.27–1.50) | 
+| 35–49 Years | 18.9 | 75.9 | 4.02 (3.71–4.36) | 35.6 | 1.88 (1.53–2.32) | 
+| 50–64 Years | 10.1 | 69.8 | 6.88 (6.05–7.81) | 32.3 | 3.18 (2.29–4.42) | 
+| Low religious service attendancea |  |  |  |  |  | 
+| 18–25 Years | 72.5 | 84.1 | 1.16 (1.11–1.21) | 81.9 | 1.13 (1.09–1.18) | 
+| 26–34 Years | 73.8 | 81.1 | 1.10 (1.03–1.17) | 87.0 | 1.18 (1.12–1.24) | 
+| 35–49 Years | 66.3 | 86.3 | 1.30 (1.24–1.37) | 78.5 | 1.19 (1.09–1.29) | 
+| 50–64 Years | 62.6 | 74.1 | 1.18 (1.07–1.31) | 65.6 | 1.05 (0.89–1.23) | 
+| Ever arrested and booked for a criminal offense |  |  |  |  |  | 
+| 18–25 Years | 16.4 | 11.7 | 0.71 (0.55–0.91) | 16.0 | 0.97 (0.78–1.21) | 
+| 26–34 Years | 28.7 | 22.7 | 0.79 (0.64–0.99) | 27.3 | 0.95 (0.77–1.19) | 
+| 35–49 Years | 30.5 | 26.0 | 0.85 (0.68–1.07) | 35.2 | 1.15 (0.93–1.43) | 
+| 50–64 Years | 28.9 | 30.3 | 1.05 (0.82–1.34) | 35.2 | 1.22 (0.90–1.65) | 
+The reference group is heterosexual males in the same age group (ref RR = 1.0). Bold indicates RR estimates that are significant at the 0.05 level. Prevalence and RR estimates are survey weighted.
+Attended religious services five times or less in the past year.
+Discussion
+Using a national sample, this study provides a novel characterization of disparities between LGB and heterosexual adults across age cohorts on multiple health determinants. Our results highlight both heterogeneity and commonalities across LGB subgroups. Bisexual females uniquely experienced disparities on all health determinants and exhibited the greatest magnitude of economic disparities. Across age groups, bisexual females had significant disparities in college completion, poverty, and means-tested assistance; these disparities are likely interrelated, with educational disparities amplifying income disparities. Conversely, gay males, older bisexual males, and older lesbian/gay females exhibited educational advantages – and lacked disparities in income below the poverty line – relative to heterosexual peers. Disparities across LGB subgroups were most uniform regarding low religious service attendance, living alone, and having never been married. Although landmark progress has been made recently (e.g., 2020 Supreme Court ruling recognizing workplace discrimination protections for sexual and gender minority individuals51; 2015 ruling recognizing a right to same-sex marriage52), our findings indicate that all LGB subgroups still face disparities in certain social determinants of health and bisexual females also experience pronounced educational and economic disparities.
+Although relatively few studies have examined educational outcomes among LGB individuals, our findings are consistent with those from a prior study using Add Health data that showed that bisexual women had lower rates of high school and college graduation, whereas gay men were relatively advantaged.53 College outcomes for bisexual women could, in part, be explained by differences in educational trajectories, as bisexual girls (relative to heterosexual girls) have lower rates of high school graduation, college enrollment, and college graduation (among those who enrolled).53 Given that prior studies have found that LGB youth widely experience school-based bullying and victimization and lower rates of school connectedness and adult mentors,54–56 it is not clear why bisexual females are educationally disadvantaged while other LGB subgroups are relatively advantaged. Higher educational attainment among some LGB groups may reflect an attempt to offset LGB-related discrimination, as advanced education has been perceived as a pathway to less discriminatory employment environments.57,58 Others have theorized that lower adherence to “traditional” gender norms among sexual minority males may buffer them from stereotypes that high academic achievement is at odds with heteronormative masculinity.59,60
+The most pronounced difference by gender was the significant disparity in lifetime arrests for LGB females, but not gay or bisexual males. Compared with their heterosexual peers, bisexual and lesbian/gay females in every age group had approximately twice the risk, whereas younger gay males had significantly lower risk of lifetime arrests. One potential contributing factor may be LGB girls' higher risk, relative to heterosexual peers, of exclusionary school discipline (i.e., suspensions and expulsions) which, in turn, may heighten their risk for juvenile justice system involvement through the school-to-prison pipeline.40,61,62 LGB youth are frequently subject to school discipline relating to their own victimization (e.g., they fought back, skipped school out of fear) and are more likely to be punished for public displays of affection.61,62 LGB girls with gender expressions deemed “less feminine” are frequently perceived by adults as “threatening” or “rebellious” and assumed to have instigated disputes.62,63 Broadly, formal systems of control (e.g., school discipline, juvenile justice system) have historically been brought to bear on girls who do not uphold traditional norms of femininity, as has been documented regarding disproportionate rates of suspensions, expulsions, and incarceration among Black girls.64,65
+An additional contributing factor to the observed disparity in lifetime arrests for LGB females may be the elevated rates of trauma and externalizing behaviors experienced by LGB females, given that a history of physical and/or sexual abuse is a robust predictor of offending behavior and arrest among girls and women.66,67 Indeed, one study of justice-involved girls found that 93% had experienced physical or sexual abuse.68 Rates of family victimization and polyvictimization are significantly higher among LGB youth in general, and LGB girls in particular.69–71 Additional factors that may contribute to arrests among LGB women include substance use, intimate partner violence, homelessness, and financial instability, all of which LGB women experience at higher rates compared with heterosexual women.23,31,45,72 Conversely, reduced risk of arrest among younger gay males may reflect relative educational and financial advantages as well as lower adherence to traditional masculine norms, which value aggression and self-defense.73,74
+Our findings indicate that LGB adults of all ages experience notable disparities in health determinants. Expectedly, the most pronounced generational differences were observed regarding marriage, reflecting, in part, recent advances in marriage equality. Notably, disparities were larger in magnitude for gay/lesbian adults compared with bisexual adults, likely reflecting the high prevalence of bisexual individuals in different-sex marriages.75 Furthermore, marriage disparities were particularly pronounced for gay males ages 50–64, potentially reflecting the devastation of the AIDS epidemic. Despite social advances, key disparities were observed among the 18–25 age group—young bisexual females exhibited disparities on all economic indicators, young gay and bisexual males had significantly elevated unemployment, and young LGB females had significantly lower college degree attainment and significantly elevated arrest history. These disparities among young LGB individuals are likely to impact their health and wellbeing across the lifespan and indicate that more social progress is necessary to eradicate LGB health disparities.
+Notably, some social determinants (e.g., marriage, religious involvement) may have differential impacts on LGB individuals compared with heterosexual individuals. Religious involvement, which may serve as a key source of community for heterosexual individuals, may not confer the same benefits on LGB individuals if the religious community is unaccepting of their sexual identity. Indeed, a recent study found that although greater religiosity was associated with reduced suicidality among young adults, it was associated with elevated suicidal ideation and attempts among young lesbian/gay women.76 Another study found that religiosity was protective against heavy episodic drinking in heterosexual women, but not lesbian/gay women, and was associated with elevated risk among bisexual women.77 In addition, although there is emerging evidence that marriage affords similar health and wellbeing benefits to LGB and heterosexual individuals,78,79 the underlying mechanisms may be somewhat different (e.g., marriage may contribute more strongly to a relationship's social acceptance for LGB couples).78,79
+Limitations
+Measures of sexual identity and health determinants were self-reported and may be subject to measurement error. Due to sample size limitations, we could not estimate disparities for LGB adults ages 65 and older. As NSDUH data are cross-sectional, we cannot differentiate age group differences due to lifecourse stage compared with generational differences. We cannot examine differences among sexual minority adults with alternative identities not assessed in the NSDUH. The NSDUH does not assess gender identity beyond a binary male/female categorization, which is more appropriately understood to mean sex assigned at birth. The absence of more comprehensive data on gender identity precludes us from examining disparities in outcomes by gender identity, including among transgender and gender diverse individuals.
+Conclusion
+We found that bisexual females, in particular, experience significant educational and economic disparities, and all LGB subgroups exhibited disparities in certain social determinants of health. These disparities, observed across age groups, likely contribute to disparities in physical and mental health observed among LGB adults. Reducing health disparities will necessitate continued social change to reduce the minority stress burden and resultant economic and social disadvantages experienced by LGB individuals due to their sexual identity.
+Authors' Contributions
+M.S.S. and R.L.C. conceptualized the study. M.S.S. performed analyses and led the article writing. D.M.P. and R.L.C. contributed to the interpretation of the results and article writing. All coauthors reviewed and approved the article before submission.
+Disclaimers
+This study is a secondary analysis of data from the NSDUH. The NSDUH is directed by the Substance Abuse and Mental Health Services Administration and conducted by RTI International, a nonprofit research organization. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institute of Mental Health (NIMH), the National Institutes of Health, or the U.S. Government.
+Author Disclosure Statement
+No competing financial interests exist.
+Funding Information
+M.S.S. and R.L.C. were supported by award R01MH104381 from the NIMH.
+References
+- 1. Braveman P, Gottlieb L: The social determinants of health: It's time to consider the causes of the causes. Public Health Rep 2014;129:19–31 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 2. Galea S: Well: What We Need to Talk About When We Talk About Health. New York: Oxford University Press, 2019 [Google Scholar]
+- 3. Marmot M: The Health Gap: The Challenge of an Unequal World. London, UK: Bloomsbury, 2015 [DOI] [PubMed] [Google Scholar]
+- 4. Marmot M: The influence of income on health: Views of an epidemiologist. Health Aff (Millwood) 2002;21:31–46 [DOI] [PubMed] [Google Scholar]
+- 5. Johnson MK, Staff J, Schulenberg JE, Patrick ME: Living healthier and longer: A life course perspective on education and health. In: Handbook of the Life Course. Edited by Shanahan MJ, Mortimer JT, Johnson MK. Cham, Swizerland: Springer, 2016, pp 369–388 [Google Scholar]
+- 6. Naik Y, Baker P, Ismail SA, et al. : Going upstream—An umbrella review of the macroeconomic determinants of health and health inequalities. BMC Public Health 2019;19:1678. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 7. Freudenberg N, Galea S: The impact of corporate practices on health: Implications for health policy. J Public Health Policy 2008;29:86–104; discussion 105. [DOI] [PubMed] [Google Scholar]
+- 8. Xiao YYK, Graham G: Where we live: The impact of neighborhoods and community factors on cardiovascular health in the United States. Clin Cardiol 2019;42:184–189 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 9. Sharpe RA, Taylor T, Fleming LE, et al. : Making the case for “whole system” approaches: Integrating public health and housing. Int J Environ Res Public Health 2018;15:2345. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 10. Ribeiro AI, Amaro J, Lisi C, Fraga S: Neighborhood socioeconomic deprivation and allostatic load: A scoping review. Int J Environ Res Public Health 2018;15:1092. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 11. Gerrard M, Stock ML, Roberts ME, et al. : Coping with racial discrimination: The role of substance use. Psychol Addict Behav 2012;26:550–560 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 12. Hatzenbuehler ML, Corbin WR, Fromme K: Discrimination and alcohol-related problems among college students: A prospective examination of mediating effects. Drug Alcohol Depend 2011;115:213–220 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 13. Meyer IH: Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations: Conceptual issues and research evidence. Psychol Bull 2003;129:674–697 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 14. Brooks VR: Minority Stress and Lesbian Women. Lexington, MA: Lexington Books, 1981 [Google Scholar]
+- 15. Hatzenbuehler ML, Pachankis JE: Stigma and minority stress as social determinants of health among lesbian, gay, bisexual, and transgender youth: Research evidence and clinical implications. Pediatr Clin North Am 2016;63:985–997 [DOI] [PubMed] [Google Scholar]
+- 16. Rice CE, Vasilenko SA, Fish JN, Lanza ST: Sexual minority health disparities: An examination of age-related trends across adulthood in a national cross-sectional sample. Ann Epidemiol 2019;31:20–25 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 17. Dyar C, Taggart TC, Rodriguez-Seijas C, et al. : Physical health disparities across dimensions of sexual orientation, race/ethnicity, and sex: Evidence for increased risk among bisexual adults. Arch Sex Behav 2019;48:225–242 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 18. Simoni JM, Smith L, Oost KM, et al. : Disparities in physical health conditions among lesbian and bisexual women: A systematic review of population-based studies. J Homosex 2017;64:32–44 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 19. Fredriksen-Goldsen KI, Kim HJ, Shui C, Bryan AEB: Chronic health conditions and key health indicators among lesbian, gay, and bisexual older US adults, 2013–2014. Am J Public Health 2017;107:1332–1338 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 20. Bränström R, Hatzenbuehler ML, Pachankis JE: Sexual orientation disparities in physical health: Age and gender effects in a population-based study. Soc Psychiatry Psychiatr Epidemiol 2016;51:289–301 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 21. Schuler MS, Prince DM, Breslau J, Collins RL: Substance use disparities at the intersection of sexual identity and race/ethnicity: Results from the 2015–2018 National Survey on Drug Use and Health. LGBT Health 2020;7:283–291 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 22. Schuler MS, Stein BD, Collins RL: Differences in substance use disparities across age groups in a national cross-sectional survey of lesbian, gay, and bisexual adults. LGBT Health 2019;6:68–76 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 23. Schuler MS, Rice CE, Evans-Polce RJ, Collins RL: Disparities in substance use behaviors and disorders among adult sexual minorities by age, gender, and sexual identity. Drug Alcohol Depend 2018;189:139–146 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 24. Ross LE, Salway T, Tarasoff LA, et al. : Prevalence of depression and anxiety among bisexual people compared to gay, lesbian, and heterosexual individuals: A systematic review and meta-analysis. J Sex Res 2018;55:435–456 [DOI] [PubMed] [Google Scholar]
+- 25. Kerridge BT, Pickering RP, Saha TD, et al. : Prevalence, sociodemographic correlates and DSM-5 substance use disorders and other psychiatric disorders among sexual minorities in the United States. Drug Alcohol Depend 2017;170:82–92 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 26. Plöderl M, Tremblay P: Mental health of sexual minorities: A systematic review. Int Rev Psychiatry 2015;27:367–385 [DOI] [PubMed] [Google Scholar]
+- 27. Blosnich JR, Nasuti LJ, Mays VM, Cochran SD: Suicidality and sexual orientation: Characteristics of symptom severity, disclosure, and timing across the life course. Am J Orthopsychiatry 2016;86:69–78 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 28. Khullar D, Chokshi DA: Health, income, & poverty: Where we are & what could help. Health Affairs Health Policy Brief. Bethesda, MD: Health Affairs, 2018 [Google Scholar]
+- 29. Badgett MVL: The wage effects of sexual orientation discrimination. ILR Review 1995;48:726–739 [Google Scholar]
+- 30. Albelda R, Badgett MVL, Schneebaum A, Gates GJ: Poverty in the Lesbian, Gay, and Bisexual Community. Los Angeles, CA: The Williams Institute, 2009 [Google Scholar]
+- 31. Badgett MVL, Choi SK, Wilson BDM: LGBT Poverty in the United States: A Study of Differences Between Sexual Orientation and Gender Identity Groups. Los Angeles, CA: The Williams Institute, 2019 [Google Scholar]
+- 32. Pantell M, Rehkopf D, Jutte D, et al. : Social isolation: A predictor of mortality comparable to traditional clinical risk factors. Am J Public Health 2013;103:2056–2062 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 33. National Academies of Sciences, Engineering, and Medicine: Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System. Washington, DC: The National Academies Press, 2020 [PubMed] [Google Scholar]
+- 34. Sanscartier S, MacDonald G: Healing through community connection? Modeling links between attachment avoidance, connectedness to the LGBTQ+ community, and internalized heterosexism. J Couns Psychol 2019;66:564–576 [DOI] [PubMed] [Google Scholar]
+- 35. Petruzzella A, Feinstein BA, Davila J, Lavner JA: Moderators of the association between community connectedness and internalizing symptoms among gay men. Arch Sex Behav 2019;48:1519–1528 [DOI] [PubMed] [Google Scholar]
+- 36. Kertzner RM, Meyer IH, Frost DM, Stirratt MJ: Social and psychological well-being in lesbians, gay men, and bisexuals: The effects of race, gender, age, and sexual identity. Am J Orthopsychiatry 2009;79:500–510 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 37. Lunn MR, Cui WJ, Zack MM, et al. : Sociodemographic characteristics and health outcomes among lesbian, gay, and bisexual U.S. adults using Healthy People 2020 leading health indicators. LGBT Health 2017;4:283–294 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 38. Massoglia M, Pridemore WA: Incarceration and health. Annu Rev Sociol 2015;41:291–310 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 39. Wildeman C, Wang EA: Mass incarceration, public health, and widening inequality in the USA. Lancet 2017;389:1464–1474 [DOI] [PubMed] [Google Scholar]
+- 40. Wilson BDM, Jordan SP, Meyer IH, et al. : Disproportionality and disparities among sexual minority youth in custody. J Youth Adolesc 2017;46:1547–1561 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 41. Meyer IH, Flores AR, Stemple L, et al. : Incarceration rates and traits of sexual minorities in the United States: National Inmate Survey, 2011–2012. Am J Public Health 2017;107:267–273 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 42. Baćak V, Thurman K, Eyer K, et al. : Incarceration as a health determinant for sexual orientation and gender minority persons. Am J Public Health 2018;108:994–999 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 43. Hawks L, Wang EA, Howell B, et al. : Health status and health care utilization of US adults under probation: 2015–2018. Am J Public Health 2020;110:1411–1417 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 44. Baquero M, Zweig K, Angell SY, Meropol SB: Health behaviors and outcomes associated with personal and family history of criminal justice system involvement, New York City, 2017. Am J Public Health 2020;110:378–384 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 45. Schuler MS, Collins RL: Sexual minority substance use disparities: Bisexual women at elevated risk relative to other sexual minority groups. Drug Alcohol Depend 2020;206:107755. [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 46. Salway T, Ross LE, Fehr CP, et al. : A systematic review and meta-analysis of disparities in the prevalence of suicide ideation and attempt among bisexual populations. Arch Sex Behav 2019;48:89–111 [DOI] [PubMed] [Google Scholar]
+- 47. Feinstein BA, Dyar C: Bisexuality, minority stress, and health. Curr Sex Health Rep 2017;9:42–49 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 48. Fredriksen-Goldsen KI, Shiu C, Bryan AE, et al. : Health equity and aging of bisexual older adults: Pathways of risk and resilience. J Gerontol B Psychol Sci Soc Sci 2017;72:468–478 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 49. Hammack PL, Frost DM, Meyer IH, Pletta DR: Gay men's health and identity: Social change and the life course. Arch Sex Behav 2018;47:59–74 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 50. Fredriksen-Goldsen KI, Kim HJ, Bryan AE, et al. : The cascading effects of marginalization and pathways of resilience in attaining good health among LGBT older adults. Gerontologist 2017;57:S72–S83 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 51. Supreme Court of the United States. Bostock v. Clayton County, 590 U.S. ___ (2020). Available at https://www.supremecourt.gov/opinions/19pdf/17–1618_hfci.pdf Accessed April13, 2021
+- 52. Supreme Court of the United States. Obergefell v. Hodges, 576 U.S. (2015). Available at https://www.supremecourt.gov/opinions/14pdf/14–556_3204.pdf Accessed April13, 2021
+- 53. Mollborn S, Everett B: Understanding the educational attainment of sexual minority women and men. Res Soc Stratif Mob 2015;41:40–55 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 54. Aragon SR, Poteat VP, Espelage DL, Koenig BW: The influence of peer victimization on educational outcomes for LGBTQ and non-LGBTQ high school students. J LGBT Youth 2014;11:1–19 [Google Scholar]
+- 55. Whitaker K, Shapiro VB, Shields JP: School-based protective factors related to suicide for lesbian, gay, and bisexual adolescents. J Adolesc Health 2016;58:63–68 [DOI] [PubMed] [Google Scholar]
+- 56. Seil KS, Desai MM, Smith MV: Sexual orientation, adult connectedness, substance use, and mental health outcomes among adolescents: Findings from the 2009 New York City Youth Risk Behavior Survey. Am J Public Health 2014;104:1950–1956 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 57. Barrett DC, Pollack LM, Tilden ML: Teenage sexual orientation, adult openness, and status attainment in gay males. Sociol Perspect 2002;45:163–182 [Google Scholar]
+- 58. Bloome D, Western B: Cohort change and racial differences in educational and income mobility. Soc Forces 2011;90:375–395 [Google Scholar]
+- 59. Morris EW: “Rednecks,” “rutters,” and ’rithmetic social class, masculinity, and schooling in a rural context. Gend Society 2008;22:728–751 [Google Scholar]
+- 60. Pascoe CJ: Dude, You're a Fag: Masculinity and Sexuality in High School. Berkeley, CA: University of California Press, 2007 [Google Scholar]
+- 61. Poteat VP, Scheer JR, Chong ESK: Sexual orientation-based disparities in school and juvenile justice discipline: A multiple group comparison of contributing factors. J Educ Psychol 2016;108:229–241 [Google Scholar]
+- 62. Mittleman J: Sexual orientation and school discipline: New evidence from a population-based sample. Educ Res 2018;47:181–190 [Google Scholar]
+- 63. Snapp SD, Hoenig JM, Fields A, Russell ST: Messy, butch, and queer: LGBTQ youth and the school-to-prison pipeline. J Adolesc Res 2015;30:57–82 [Google Scholar]
+- 64. Morris MM: Pushout: The Criminalization of Black Girls in Schools. New York, NY: The New Press, 2016 [Google Scholar]
+- 65. Morris EW, Perry BL: Girls behaving badly? Race, gender, and subjective evaluation in the discipline of African American girls. Soc Educ 2017;90:127–148 [Google Scholar]
+- 66. Bloom B, Owen B, Covington S: Gender-responsive strategies for women offenders: A summary of research, practice, and guiding principles for women offenders (NIC Accession No. 020418). Washington, DC: National Institute of Corrections, 2005 [Google Scholar]
+- 67. Makarios MD: Race, abuse, and female criminal violence. Fem Criminol 2007;2:100–116 [Google Scholar]
+- 68. Smith DK, Leve LD, Chamberlain P: Adolescent girls' offending and health-risking sexual behavior: The predictive role of trauma. Child Maltreat 2006;11:346–353 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 69. Sterzing PR, Gartner RE, Goldbach JT, et al. : Polyvictimization prevalence rates for sexual and gender minority adolescents: Breaking down the silos of victimization research. Psychol Violence 2019;9:419–430 [Google Scholar]
+- 70. Saewyc EM, Skay CL, Pettingell SL, et al. : Hazards of stigma: The sexual and physical abuse of gay, lesbian, and bisexual adolescents in the United States and Canada. Child Welfare 2006;85:195–213 [PubMed] [Google Scholar]
+- 71. McGeough BL, Sterzing PR: A systematic review of family victimization experiences among sexual minority youth. J Prim Prev 2018;39:491–528 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 72. Canan SN, Jozkowski KN, Wiersma-Mosley JD, et al. : Differences in lesbian, bisexual, and heterosexual women's experiences of sexual assault and rape in a national U.S. sample. J Interpers Violence 2019. [Epub ahead of print]; DOI: 10.1177/0886260519863725 [DOI] [PubMed] [Google Scholar]
+- 73. De Welde K: Getting physical—Subverting gender through self-defense. J Contemp Ethnogr 2003;32:247–278 [Google Scholar]
+- 74. Scott-Samuel A, Stanistreet D, Crawshaw P: Hegemonic masculinity, structural violence and health inequalities. Crit Public Health 2009;19:287–292 [Google Scholar]
+- 75. Pew Research Center: A survey of LGBT Americans: Attitudes, experiences and values in changing times. Washington, DC: Pew Research Center, 2013 [Google Scholar]
+- 76. Lytle MC, Blosnich JR, De Luca SM, Brownson C: Association of religiosity with sexual minority suicide ideation and attempt. Am J Prev Med 2018;54:644–651 [DOI] [PMC free article] [PubMed] [Google Scholar]
+- 77. Rostosky SS, Danner F, Riggle EDB: Religiosity as a protective factor against heavy episodic drinking (HED) in heterosexual, bisexual, gay, and lesbian young adults. J Homosex 2010;57:1039–1050 [DOI] [PubMed] [Google Scholar]
+- 78. Tuller D: The health effects of legalizing same-sex marriage. Health Aff (Millwood) 2017;36:978–981 [DOI] [PubMed] [Google Scholar]
+- 79. Gonzales G: Same-sex marriage—A prescription for better health. N Engl J Med 2014;370:1373–1376 [DOI] [PubMed] [Google Scholar]

@@ -1,0 +1,28 @@
+{
+  "source_id": "c2b19306eae4859c3625",
+  "normalized_url": "https://cnbc.com/2019/03/08/linkedin-study-reveals-why-men-are-more-likely-to-get-noticed-by-job-recruiters-than-women.html",
+  "fetch_timestamp_utc": "2026-10-04T02:48:09.831180+00:00",
+  "registrable_domain": "cnbc.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cnbc.com/2019/03/08/linkedin-study-reveals-why-men-are-more-likely-to-get-noticed-by-job-recruiters-than-women.html",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 684160,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c2b19306eae4859c3625.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c2b19306eae4859c3625.txt",
+  "text_chars": 3696,
+  "text_words": 613,
+  "extraction_status": "success",
+  "page_title": "The ugly truth behind why men are more likely to get noticed by job recruiters, according to new LinkedIn study",
+  "page_author": "Debby Carreau; Contributor",
+  "page_date": "2019-03-08",
+  "site_name": "CNBC",
+  "canonical_url": "https://www.cnbc.com/2019/03/08/linkedin-study-reveals-why-men-are-more-likely-to-get-noticed-by-job-recruiters-than-women.html"
+}

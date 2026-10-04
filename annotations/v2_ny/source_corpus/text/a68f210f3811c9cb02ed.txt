@@ -1,0 +1,1361 @@
+Abstract
+This is a narrative review of interventions that provide stand-alone credit or with savings and 
+complementary programming to women or to women and men in LMICs, spanning studies 
+between 2012–2022 and benefitting from recent systematic reviews and meta-analyses in relevant 
+topics. The review finds that women’s credit constraints are related to gender differentials at the 
+levels of the individual, the household, or the community/context. While constraints at the individual 
+level tend to erase as women increase their wealth and business experience to match those of 
+men, constraints that emerge from women’s traditional family roles in the household as well as 
+constraints that arise from biases or discrimination that women face in the financial ecosystem 
+cannot be reduced to differences in magnitude of wealth or business experience with men and 
+require gender-informed solutions. The review identifies possible solutions for five different 
+categories of women it can identify according to income and occupation and discusses both the 
+strength of the evidence and the gaps in knowledge about what works for whom.
+Women and Credit
+A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+	 Mayra Buvinic and Shubhangi Gokhroo
+WORKING PAPER 670 • DECEMBER 2023
+
+
+The Center for Global Development works to reduce global 
+poverty and improve lives through innovative economic 
+research that drives better policy and practice by the world’s top 
+decision makers. Use and dissemination of this Working Paper 
+is encouraged; however, reproduced copies may not be used 
+for commercial purposes. Further usage is permitted under the 
+terms of the Creative Commons Attribution-NonCommercial 4.0 
+International License.
+The views expressed in CGD Working Papers are those of the 
+authors and should not be attributed to the board of directors, 
+funders of the Center for Global Development, or the authors’ 
+respective organizations.
+CENTER FOR GLOBAL DEVELOPMENT
+2055 L Street, NW Fifth Floor
+Washington, DC 20036
+1 Abbey Gardens
+Great College Street
+London
+SW1P 3SE
+www.cgdev.org
+Center for Global Development. 2023.
+Women and Credit: A Narrative Review in Low- and Middle-Income Countries
+Mayra Buvinic and Shubhangi Gokhroo
+Center for Global Development
+The authors are grateful to Kehinde Ajayi, Sumana Hussain, Megan O’Donnell, and Toni Weis for their insightful 
+comments. The Center for Global Development is grateful for contributions from the Bill & Melinda Gates 
+Foundation in support of this work.
+Mayra Buvinic and Shubhangi Gokhroo. 2023. “Women and Credit: A Narrative Review in Low- and 
+Middle-Income Countries.” CGD Working Paper 670. Washington, DC: Center for Global Development. 
+https://www.cgdev.org/publication/women-and-credit-narrative-review-low-and-middle-income-countries
+
+
+Contents
+1. Introduction.......................................................................................................................................1
+2. Theory of change............................................................................................................................1
+3. The studies reviewed....................................................................................................................3
+4. Results................................................................................................................................................5
+Individual-level constraints and possible solutions....................................................6
+Household-level constraints and possible solutions.................................................11
+Community/context-level constraints and possible solutions..............................14
+Cross-cutting issues .............................................................................................................16
+5. Conclusion......................................................................................................................................17
+References...........................................................................................................................................18
+Annex 1: Studies reviewed by country.....................................................................................24
+Annex 2: Characteristics of the interventions in the studies 
+reviewed by sample type............................................................................................................. 25
+
+
+List of Figures
+1.	 Theory of change on the impact of financial service interventions 
+on women’s economic empowerment ................................................................................................2
+List of Tables
+1.	 Studies reviewed by type of outcome and population group................................................... 4
+2.	 Individual-level gender differentials constraining women’s access 
+to credit and possible solutions by population group................................................................... 6
+3.	 Household-level gender differentials constraining women’s access 
+to credit and possible solutions by population groups.................................................................11
+4.	 Community/context-level gender differentials constraining women’s access 
+to credit and possible solutions by population groups................................................................14
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+1
+1. Introduction
+This narrative review of research on the effects of providing women with access to credit (and 
+complementary programming) examines constraints that prevent women from accessing credit 
+and possible solutions to address these constraints. It asks the question whether solutions need to 
+be gender-informed, or does addressing segmentation by income or occupation suffice to increase 
+women’s access to credit? The review builds on an earlier review of what works to empower women 
+economically by Buvinic and O’Donnell (2019).
+Rich evidence from experimental and observational studies and systematic reviews have added 
+much more texture and nuance to what until recently was a black or white story on the impact of 
+credit—either a simple answer to women’s poverty or a dim view of the limited effects of giving 
+women access to credit. Beginning in the late 1970s, microcredit was the one thing that seemed 
+to work to increase women’s income and reduce their poverty, and globally was recognized in the 
+Nobel Peace Prize awarded to Muhammad Yunus and the Grameen Bank in 2006. But the bulk of 
+the experimental evidence in the next decade or so showed at most very small, non-transformative 
+effects of microcredit on the poor, and especially on poor women. While microcredit grew into 
+microfinance, expanded the services it offered and became profit-making, the emerging consensus 
+was that it had not and would not end women’s poverty or empower them. Some feminist scholars 
+went further and argued that microcredit trapped women into debt and continued oppression “one 
+tiny loan at a time” (Meyerowitz 2021). But the most recent and richer evidence redeems credit as an 
+intervention that can provide significant benefits to women, depending on the client, the features of 
+the credit offer and how they address women’s specific constraints, the surrounding context, and the 
+gender-related mechanisms that shape financial outcomes. 
+The review first presents a theory of change that traces the impact of financial services on women’s 
+economic empowerment and then describes the characteristics of the studies that were reviewed. 
+The next section summarizes the results of the review. Results are grouped following three levels 
+of resources that in the theory of change mediate the effect of credit and related interventions on 
+women’s economic empowerment outcomes. The results section ends raising some cross-cutting 
+issues; conclusions follow.
+2. Theory of change
+A theory of change that outlines the impact of financial services on women’s economic 
+empowerment guides the review. Interventions are considered successful (potential solutions) 
+when they increase women’s economic achievements, empowerment, and agency as final outcomes. 
+Measures of economic empowerment include increase in women’s income, assets, profits or 
+revenues, or proxy measures such as growth in business size, upgrade in women’s occupations 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+2
+(from subsistence agriculture to self-employment), increase in household income when the design 
+directly links it to increased women’s income, and proxy measures of empowerment such as greater 
+self-confidence, improvement in human capital, and better mental health. Measures of agency 
+include positive changes in women’s household decision making, control over money or other 
+productive resources, as well as indicators of increased individual privacy and mobility. Direct 
+outcomes include financial inclusion related measures such as opening bank accounts, evidence 
+of borrowing and saving. 
+The theory of change (Figure 1), based on a measurement framework by J. Morgan and colleagues 
+(2023), draws on the three elements that most commonly define the concept of women’s economic 
+empowerment: resources, agency, and achievements. It considers both supply-side and demand-side 
+interventions specific to the provision and use of financial services, such as financial infrastructure 
+and women bank agents on the supply-side and financial literacy and digital literacy on the 
+demand-side, as well as complementary programs, such as soft skills training and peer support. 
+FIGURE 1. Theory of change on the impact of financial service 
+interventions on women’s economic empowerment 
+Intervention
+(Financial Inclusion)
+Resources (independent
+variables/determinants)
+Agency
+Achievements
+Context 
+Household 
+Inputs
+Intermediate Outcomes
+Direct Outcomes
+Final Outcomes
+Individual &
+Community/Group
+Capabilities
+• Privacy
+• Mobility
+• Control over time
+• Control over ﬁnances
+• Voice
+Access and Usage
+Intermediate Outcomes
+• E-payments
+• Bank accounts
+• Credit
+• Savings
+• Business capital
+• Insurance
+Economic
+empowerment:
+Objective, subjective
+and relational
+Spillovers on
+households
+and communities
+[including inter-
+generational eﬀects]
+Demand-Side
+• Financial literacy
+• Digital literacy
+• Skills training/business
+ training
+• Mentorship and coaching
+• Peer support
+• Other ….
+Complementary programs:
+Supply-Side
+• Financial sector legal/
+  policy reform
+• Financial sector data
+  collection/use
+• Financial infrastructure
+  (physical, digital)
+• Financial products for
+  women
+• Women bank agents
+• Other ….
+Supply-side and demand-side interventions, and complementary programs, affect women’s access 
+and use of financial services through changes in three levels of resources: the community or context 
+(in this review focused on the financial services ecosystem), the household, and individual or group 
+endowments. The use of financial services increases women’s agency, which is instrumental in 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+3
+increasing women’s economic empowerment, with potential spillover effects in the community and 
+across generations. There are feedback loops between the final outcomes and the prior stages (direct 
+and intermediate outcomes)—women’s economic empowerment boosts women’s agency, access and 
+use of financial services, household well-being and the enabling environment in virtuous cycles, while 
+women’s economic disempowerment triggers vicious cycles in access and usage, agency and resources. 
+The theory of change applies equally to digital and non-digital financial services. Digital financial 
+services may have stronger or weaker effects on certain variables listed, but the variables should not 
+change. 
+3. The studies reviewed
+The narrative review includes interventions that provide stand-alone credit or with savings or 
+complementary programming to women or to women and men (with women about half of the 
+sample) in LMICs, and benefits from recent systematic reviews and meta-analyses in relevant 
+topics. It covers interventions, mostly RCTs, that provide credit, or credit and savings, or finance 
+‘plus’ interventions that include financial literacy or short-term business management training, 
+or ‘bundled’ interventions for the very poor (‘graduation’ programs) that include credit, savings, 
+cash stipends and other complementary programming. The review spans the years 2012–2022. 
+Recent reviews, including about women’s financial decisions (Chetty et al. 2018), the evidence 
+on microfinance (Cai et al. 2021; 2023), and what works to support women entrepreneurs in 
+developing countries (Siegrist 2022), in addition to several meta-analyses, enriched the findings 
+presented here. 
+This narrative review is a broad, more descriptive overview of the effects of credit and 
+complementary programming on women’s economic empowerment. It benefits from the insights 
+from systematic reviews of more narrowly defined interventions but lacks the rigor of these 
+systematic reviews. The breadth of the review, including a more varied set of interventions, expands 
+the categories of women receiving credit, including very poor women, and helps to understand the 
+underlying mechanisms shaping women’s outcomes.
+Most of the samples are of poor women micro entrepreneurs in South Asia and East Africa. The 
+studies reviewed cover samples in 54 countries. They are contained in 48 reports (with some reports 
+presenting results for more than one country) that were selected from a systematic search of 
+credit and savings interventions by M. Duvendack and colleagues (2023) and complemented with 
+additional reports from interventions which include non-financial components. Bangladesh and 
+India are overrepresented, reflecting the vibrancy of the microfinance movement in these countries. 
+Next with most studies are Ethiopia and Uganda, while there is only one South East Asian country 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+4
+in the list (Annex 1). Most samples cover population groups that are rural, qualify for credit under 
+alternative eligibility criteria rather than the use of physical collateral, access a product that is 
+designed for poor women customers and has some commitment design feature, access credit as 
+part of a credit and savings group, and about half of the time access credit alongside complementary 
+programming, including training and savings (Annex 2).
+Past evidence suggests that ‘for whom’ matters greatly in terms of ‘what works.’ Unfortunately, 
+it was difficult to distinguish clear categories of women in terms of occupations and income 
+levels—studies usually do not publish detailed information on these variables. We were able to 
+classify the samples into 5 broad groups by income and occupation: the very poor, subsistence-level 
+self-employed women, home-based or street vendors, or subsistence-level women farmers farming 
+on kitchen gardens, family or community plots (9 samples); poor women microentrepreneurs with 
+potentially one or two employees or family workers operating from home or in a rented or owned 
+market stall (29 samples) or farming a family or own plot or rented plot (10 samples); wage and salary 
+workers (4 samples); and non-poor women SME owners with five or more employees or working in 
+commercial agriculture (6 samples).1 
+Across studies reviewed, a tally of outcomes suggests that the effects of different types of credit 
+interventions on women’s economic empowerment are mixed. Results for about more than half 
+of the outcomes measured are positive and they are non-significant or negative for less than half 
+(Table 1). More outcomes for women’s agency are positive, but agency findings are reported in 
+only 17 studies. It is important to underscore, however, that this is a simple counting of outcomes 
+to characterize the studies reviewed and not an analysis of findings across studies. 
+TABLE 1. Studies reviewed by type of outcome and population group
+Population 
+Total 
+Studies
+Agency Outcomes
+Economic Outcomes
+Positive
+No Significant 
+Impact/Negative 
+Impact 
+Positive
+No Significant 
+Impact/Negative 
+Impact
+Very poor
+9
+6
+1
+17
+5
+Poor—microentrepreneurs 
+29
+10
+2
+50
+19
+Poor—agriculture
+10
+1
+2
+11
+12
+Wage and Salary Workers
+4
+1
+0
+5
+3
+Non-poor (ag., SMEs etc.)
+6
+5
+0
+8
+3
+1	
+The number of population groups (58) is greater than the number of samples (54) because some samples covered more 
+than one population group.
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+5
+4. Results
+This section summarizes the main findings from the narrative review, including what works for 
+whom, based on the studies detailed in Table 1 and supporting evidence from related studies. 
+The findings are grouped following the three levels of resources (individual, household and 
+community/context) in the theory of change that mediate the effect of credit interventions on 
+women’s economic empowerment. Gender differentials that constrain women’s access to credit and 
+possible solutions are identified for each level. The section ends mentioning overarching issues that 
+are common across studies and possible solutions.
+Women are more credit constrained than men. Men are the majority customers in bank lending 
+portfolios throughout the world.2 The World Bank estimates that the global gender credit gap stands 
+at USD$ 1.5 trillion for women-owned businesses; this is in addition to a gender glass ceiling in the 
+executive suites of financial institutions globally—with women accounting for less than a quarter 
+(23%) of senior executives in public and private sector banks and only 14 % in the top executive 
+suite.3 It is unknown how many credit officers and mobile money operators are men, but a safe 
+assumption is that they are the majority. All this, however, does not necessarily indicate that women 
+are constrained in having access to credit when compared to men. Women may not need or want the 
+credit offerings that are available, especially those from traditional microfinance with high interest 
+rates and limited flexibility of contracts. But there is well documented evidence that businesswomen 
+in LMICs, across the business-size spectrum, from nano and micro to small and medium size, 
+need credit but face constraints in access; many women turn to informal credit but want formal 
+(Siegrist 2022; World Bank 2019). 
+Women’s credit constraints are related to gender differentials at the individual, household, and 
+community/context levels. Tables 2, 3 and 4 summarize the evidence on gender differentials at these 
+three levels that constrain women’s access to credit, possible solutions and for ‘whom’ or for which 
+populations or groups of women by income and occupation these solutions work, whenever there 
+is sufficient evidence to make this attribution. Differentials cross levels and feed into each other. 
+Possible solutions are targeted to the different levels (and different categories of women) and often 
+address more than one constraint. There is stronger evidence, mostly based on RCT designs, for some 
+solutions than for others. The text clarifies the strength of the evidence and specifies if this evidence 
+is observational, or the citation is a meta-analysis or review paper. 
+2	
+The gender gap on credit stands in contrast to savings, where women tend to predominate as bank customers.
+3 
+Data compiled by Official Monetary and Financial Institutions Forum, April 2022.
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+6
+Individual-level constraints and possible solutions
+TABLE 2. Individual-level gender differentials constraining women’s 
+access to credit and possible solutions by population group
+Differentials 
+(women borrowers’ features)
+Possible Solutions
+Who
+Less individual income/wealth 
+Screen for higher individual 
+income since wealthier women 
+face fewer constraints to access, 
+use and repay credit
+Non-poor (ag., SMEs)
+Microentrepreneurs (poor)
+Wage, salary workers
+Less business/farm experience
+Screen for more years of 
+business/farm experience 
+as proxy for high potential 
+businesswomen or farmer
+Non-poor (ag., SMEs)
+Microentrepreneurs (poor)
+Small farmers (poor)
+Less access to financial 
+information and literacy, business 
+knowledge, other information
+Finance ‘plus’ interventions 
+with a gender lens
+Microentrepreneurs (poor)
+Small farmers (poor)
+Fewer assets to use as collateral 
+across income groups
+Use non-traditional collateral: 
+psychometric testing, digital 
+collateral, cashflow-based lending, 
+asset-based lending, dynamic 
+incentives
+All women except for very 
+poor—dynamic incentives 
+should work for very poor 
+women
+Own smaller firms or farms in 
+lower growth, less profitable, 
+sex-segregated sectors, with 
+heterogeneity among women in 
+firm/farm size, with increasing 
+obstacles to access credit 
+depending on business/farm size: 
+subsistence, nano, micro, SMEs
+Credit innovations (larger, 
+riskier digital loans) backed by 
+non-traditional collateral plus 
+complementary programming 
+addressing increasing constraints 
+with increasing poverty. Screening 
+or self-selection of ‘opportunity’ 
+businesswomen into these programs 
+Microentrepreneurs (poor 
+and very poor)
+Small farmers (poor)
+Less access to digital tools
+Close gender gaps in access to 
+digital tools through government 
+and private sector actions, including 
+increasing affordability (through 
+subsidies) and digital skills. Ensure 
+safety and security
+All women
+More lack ID
+Government universal ID programs 
+with gender lens through civil 
+registration or stand-alone 
+digitization
+Very poor and poor in all 
+categories
+Addressing customer heterogeneity: screening for individual income, 
+business experience
+At the outset, women are less wealthy and more disadvantaged when compared to men as potential 
+customers of credit and other financial services. Women globally are less wealthy than men, 
+have fewer assets they can offer as collateral, own or manage smaller firms and farms, have less 
+business experience and knowledge and less exposure to financial information and networks, while 
+lenders overall prefer asset wealthy clients who can take larger, more profitable loans (Bardasi 
+et al. 2011; World Bank 2019). In segmented labor markets, women prevail in traditionally female, 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+7
+lower growth-oriented sectors of the economy such as retail commerce, restaurants, and other 
+consumer-facing services (which were hit hard by the covid pandemic), with little access to business 
+capital and new technologies, and few or no paid workers (Buvinic et al. 2021; Goldstein et al. 2019). 
+These differentials tend to erase as women increase their wealth and business experience to match 
+those of men. A relevant question is if these are differentials only in degree or magnitude between 
+men and women that disappear once women increase their income and business experience or if 
+they are differentials in category (gender) that remain. A partial answer comes from evidence in 
+this review that shows that customer heterogeneity drives outcomes and that wealthier women 
+and women with greater business knowledge, networks and experience face significantly fewer 
+constraints to access and use credit (six country study—Benerjee, Karlan and Zinman 2015; 
+follow-up in Hyderabad, India—Banerjee et al. 2019; meta-analysis where differences in business 
+experience explained results in 5 out of 6 studies—Meager 2019; Cai et al. narrative review 2021; 
+rural Egypt—Crépon et al. 2022). 
+Further, this evidence is unambiguous in suggesting that these wealthier women will be less subject 
+to both family pressures to share cash and the use of liquidity as implicit insurance, reducing 
+limitations on the productive use of credit (see below under the heading ‘household’). 
+A solution that addresses the evidence on customer heterogeneity is to implement effective 
+credit screening mechanisms that screen for women’s business income or experience. Women 
+with pre-existing businesses perform better because this experience helps them overcome 
+gender-related norm constraints, because they have chosen business opportunities with higher 
+returns, or because start-ups have higher costs. Whatever the main reason, screening for women’s 
+individual income or years of business experience (or years borrowing as a proxy) should identify 
+women facing fewer constraints. In addition, screening mechanisms should consider if there is more 
+than one business in poor households (since in poor households, women will tend to divert funds to 
+the larger business, usually not theirs, as noted below under ‘household’).4 
+Adverse selection effects are reduced by self-selection of high potential farmers or businesswomen 
+to credit. Returns to capital are higher for women farmers in Mali who self-select into borrowing 
+compared to those who do not borrow, emphasizing the importance of self-selection and customer 
+heterogeneity (Mali—Beaman et al. 2021). Similarly, women who are high-potential or ‘opportunity’ 
+entrepreneurs (who report starting a business because they see a market versus those who say they 
+needed to earn money) are more likely than others to self-select themselves to apply for credit and 
+participate in complementary training programs which have opportunity costs that should screen 
+out less motivated or able women (survey with women entrepreneurs urban Mexico—Calderón 
+et al. 2016).
+4	
+This diversion of liquidity to the priority business in the household should happen less or not happen in non-poor 
+households, but there is yet no evidence of the presence or absence of this effect for women-owned SMEs in non-poor 
+households.
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+8
+Finance ‘plus’ interventions to address financial or business knowledge gaps
+A solution for lower income women (who do not meet income or business experience screening 
+standards) is to overcome their disadvantage partly through complementary programming. 
+A parallel line of evidence shows that complementary or ‘finance-plus’ interventions that 
+increase women’s human capital (financial and digital literacy, business knowledge and practice, 
+health information) work to reduce the many constraints faced by poor women in accessing 
+credit, suggesting once again that the supply disadvantages that women experience are partly 
+one of magnitude and can be addressed with complementary programming that reduces 
+(demand-side) gender differentials benefitting men (rural Rwanda—Sayinzoga et al. 2016; northern 
+Vietnam—Huis et al. 2019; Kenya, McKenzie and Puerto 2021; Tanzania—Bastian et al. 2018 urban 
+Mozambique—Batista et al. 2022; Indonesia—Buvinic et al. 2022). 
+Importantly, a gender lens in the design of financial literacy and business training interventions 
+increases their success (meta-analysis—McKenzie 2021). And a conducive social environment, with 
+social support and few family pressures for cash helps (India, SEWA study—Field et al. 2016; Uganda—
+Fiala et al. 2013).
+Non-traditional collateral to overcome lack of asset ownership
+Innovative collateral that is not built on asset ownership should expand women’s access to credit 
+across income groups. Collateral mitigates adverse selection and moral hazard in LMICs lending 
+markets with substantial asymmetric information, expanding the supply of credit and reducing 
+costs. But women more so than men, across income categories, lack traditional forms of collateral 
+based on asset ownership which restrict their access to credit. And they often do not have formal 
+financial transaction histories which credit bureaus use to reduce information asymmetry and 
+lower the cost of lending. Recent evidence suggests that psychometric testing, in addition to regular 
+checking of documents and business appraisal, offers a viable solution to the problem of asymmetric 
+information for non-poor women, increasing their access to formal credit with good repayment rates 
+(Ethiopia, Alibhai et al. 2022). Further testing is needed on the use of these tools in different settings, 
+the requirement of additional screening, and their cost-effectiveness.5
+Options are expanding with digital alternatives to collateral. Other possible solutions include digital 
+collateral (“pay as you go” without the need to physically repossess assets) combined with down 
+payment; asset-based financing, which enables making larger loans and using the asset as collateral; 
+and digital cashflow-based lending, where alternative data from mobile phone usage, purchase 
+habits or historical transactional behavior are used to make credit decisions (Gertler et al. 2021 for 
+digital collateral in Uganda; Cai et al. reviews 2021, 2023; and Siegrsit review 2022, for asset-based 
+and cashflow-based lending). In the case of digital credit in Haiti, the potential costs of changing 
+5 
+The World Bank Africa Gender Innovation Lab is testing psychometric tools.
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+9
+phone numbers and disruption of social networks can be extremely steep, thus, customer’s phone 
+number was used as an effective collateral (Barriga-Cabanillas et al. 2021).
+Digital collateral needs testing. These solutions are in theory attractive for women owned MSMEs, 
+since they overcome the lack of historical records or physical assets but need further testing. Digital 
+collateral could raise ethical issues if the digital service used as collateral (e.g., mobile phone, solar 
+home energy) has welfare benefits and must be cut in case of default (Cai et al. reviews 2021, 2023). 
+Collateralized assets should be in women’s names and avoid family conflicts. These innovations 
+should also work better for SMEs and more established microenterprises than for the lower end of 
+microenterprises and the very poor. For poorer microentrepreneurs, dynamic incentives (future 
+loans conditioned on pervious loan repayment), can work as well as or instead of the traditional joint 
+liability provided by group lending (Cai et al. reviews 2021; 2023).
+Credit innovations and complementary programming for the poor 
+and very poor 
+Innovations in credit offerings, including digital credit and larger loan sizes or incremental lending, 
+are needed to boost the effects of complementary programming for low-income women. The 
+evidence makes a compelling case for the need to revise standard criteria in credit offerings to reach 
+and benefit poor women who seek credit for business purposes. Solutions include digital delivery 
+channels which reduce transaction costs to access financial services which rise with women’s 
+increased poverty (review—Aron 2018). This necessitates ramping up women’s access to digital tools 
+which has slowed down in recent years (a main issue is affordability) and training (digital skills) in 
+the use of these tools (review—GSMA 2023). In addition, and contrary to the traditional credit model, 
+where the borrower’s capacity to pay determines the loan amount, and where poor borrowers get 
+very small loans with fixed, frequent repayments, a solution is to provide women with larger loans 
+that allow more business choices (can be invested in fixed capital) or incremental lending that 
+adds dynamic incentives which reduce adverse selection and moral hazard (Pakistan—Weber and 
+Ahmad 2014; Bangladesh—Khandker and Samad 2014). 
+An intersectional lens is important when implementing innovations in credit offerings. This is 
+to ensure access to women who may be hardest to reach because of the combined disadvantage of 
+gender and another exclusionary group attribute (race, ethnicity, disability, migratory status, sexual 
+orientation, or gender identity). 
+Very poor women, as the evidence shows, will need a package of complementary interventions 
+(from graduation programs) and, importantly, a comparatively large sized loan (or grant) that can 
+move them above the poverty threshold. The more women face constraints related to increased 
+poverty, the more they will require a ‘push’ from innovative loan and grant offerings as well as 
+complementary trainings and cash stipends to relax these constraints, set virtuous cycles, transform 
+their occupations, and overcome poverty traps (ultra-poor in 6 countries—Banerjee et al. 2015; large 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+10
+asset transfer to ultra-poor Bangladesh—Balboni et al. 2021; ultra-poor Bangladesh—Rahman et al. 
+2021; systematic review of agri-food systems 39 RCTs—Villanueva, forthcoming). 
+Jobs and social safety-nets are an important alternative 
+Solutions need to redirect women who seek these programs out of need but do not have the 
+requirements to succeed in enterprises or farming and instead could use a wage job or cash 
+transfers. Other poor and very poor women are micro-entrepreneurs only out of necessity; they 
+would rather work for wages but encounter many more obstacles than similar men in landing 
+unskilled, low-paying jobs (Mexico survey—Calderón et al. 2016). Screening these self-employed 
+women ‘by necessity only’ through self-selection to high quality training programs, non-traditional 
+collateral, or other screening mechanisms (checking for years of business experience, having 
+an established business, being an experienced borrower, or having an active bank account) and 
+redirecting them to access wage employment or social protection should increase the likelihood that 
+those women receiving credit will have the skills needed to maximize business or farm performance 
+and outcomes (review—Buvinic and O’Donnell 2019).
+Government cash transfers and other social protection measures are needed to support women 
+who face recurring economic or social obstacles. Women who may be too poor and/or face 
+binding constraints from living in marginal urban neighborhoods, isolated rural areas or difficult 
+post-conflict environments with lack of access to functioning markets, or under restrictive gender 
+norms to succeed when having access to financial services instead require government cash transfers 
+or other social protection measures (India—SEWA study with Muslim women—Field et al. 2016; Chile, 
+Malawi and Uganda—Dupas et al. 2016; Nairobi slums, young women—Brudevold-Newman et al. 2017; 
+rural, polygamous households (50%) Burkina Faso—Leight et al. 2022). 
+Close gender gaps in access to digital tools and IDs
+Access to digital tools and government ID programs with a gender lens are basic prerequisites for 
+women’s access to formal credit. Digital tools are at the frontier of credit and collateral innovations 
+that should address gender gaps in access and use (see above). Government and private sector action 
+are needed to close gender gaps in access to these tools, including making them more affordable 
+and providing training to women in digital skills. Having an ID is a basic screening mechanism to 
+access bank loans and other financial services. Women in some countries lack IDs more so than 
+men, so government programs to increase birth registration and IDs through civil registration or 
+stand-alone digital ID initiatives (ID4D) need to incorporate a gender and an intersectional lens to 
+reach all women, especially women who belong to excluded groups in marginal urban neighborhoods 
+or rural communities and are hardest to reach.
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+11
+Household-level constraints and possible solutions
+TABLE 3. Household-level gender differentials constraining women’s 
+access to credit and possible solutions by population groups
+Differentials
+Possible Solutions
+Who
+More cash, time and mobility 
+constraints increasing 
+transaction costs to access credit 
+because of family roles, gender 
+norms
+Digital delivery channels that 
+reduce transaction costs (transport 
+costs, travel and wait time, mobility 
+constraints) and create digital cash 
+records
+All women
+Lack of agency, autonomy in 
+decision making over cash 
+because of women’s subordinate 
+family position
+Individual private credit accounts, 
+preferably digital credit, to increase 
+agency, financial autonomy; 
+soft-skills training to increase agency, 
+self-confidence
+All women except for 
+wealthier, non-poor 
+(ag., SMEs)
+Sharing family norms affecting 
+women only
+Digital credit that ensures privacy, 
+hides cash; credit in-kind or as 
+physical assets
+All women except for 
+wealthier, non-poor 
+(ag., SMEs)
+Primacy of larger, (male) owned 
+businesses in households with 
+more than one business 
+Screening to identify households with 
+more than one business; commitment 
+features or training added to credit in 
+multi-business households to ensure 
+loan is not diverted
+All businesswomen 
+across income groups
+Lower tolerance to financial risk 
+due to being poorer than men 
+and having to manage larger 
+set of (family) risks
+In short-term, access to savings as well 
+as credit and loan repayment flexibility 
+to provide implicit insurance. Group 
+lending linked to self-help savings 
+groups to share risk. In long-term, 
+expanding insurance markets in LDCs 
+and women’s access to these markets.
+Very poor women
+Microentrepreneurs (poor)
+Small farmers (poor)
+Wage and salary workers
+Household structures and dynamics, and women’s position within the family, influence women’s 
+financial decisions in ways that are uniquely gendered and require gender-informed solutions. 
+They affect women’s ability to access credit through transport costs, time and mobility constraints, 
+their use of and control over cash, and their tolerance of financial risks. While wealthier women 
+face fewer of these disadvantages, household structures and dynamics shape constraints in women 
+accessing and using credit that cannot be reduced to differences in magnitude with men. They require 
+gender-informed solutions. 
+Reduce transaction costs with digital delivery
+Women have higher transaction costs to access credit and other financial services than men, which 
+digital financial channels address. Women have higher transaction costs since they are poorer than 
+men and have more time and mobility constraints because of their traditional household caring roles 
+and gender norms. Digital credit or mobile money reduces transaction costs, creates a digital cash 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+12
+record (which can be used instead of traditional collateral), and can provide privacy and safe storage 
+of money (review—Aron 2018). Mobile money leapfrogs the provision of formal banking services 
+and the evidence shows that it is preferred by women across regions and income groups (review of 
+8 studies—Robinson et al. 2023; World Bank enterprise survey 16 countries—Islam and Muzi, 2020; 
+very poor young women in rural Ghana—Unnikrishnan et al. 2022). These positive features of digital 
+channels should help to build trust between mobile money operators (MMO) and women customers.
+Increase women’s agency with smart loan design
+Women do not have full control over cash from loan or grant because of their subordinate position 
+in the family and family sharing norms. Traditionally, women have been subordinated to men in 
+the family but also have had and continue to have primary responsibility for caring for children and 
+other family members. Women’s primary caring responsibilities and roles in the family are invariant 
+across most cultures and contexts. Women’s subordination and lack of family decision making 
+power means that they do not have full control over the cash from a loan or a grant. They are subject 
+to family pressures to share this cash (kin taxes) unless the privacy of an individual mobile bank 
+account or a soft-skills empowerment training or other incentives increase their agency to invest the 
+full loan in their own activities (Western Kenya—Jakiela and Ozier 2016; Uganda—Fiala 2018). 
+Solutions include financial products and complementary interventions that are designed to 
+maximize women’s agency or autonomy in economic decision making. Fortunately, the evidence 
+shows that well-designed digital credit can increase women’s privacy and autonomy while 
+complementary quality soft-skills or related psychological training can boost women’s self-confidence 
+and an autonomous mindset (Kenya—Suri and Jack 2016; urban Mozambique—Batista et al. 2022; 
+Niger—Bossuroy et al. 2021 for soft skills training). The evidence shows that a positive mindset fosters 
+financial autonomy (rural Pakistan—Baranov et al. 2020), and that digital credit has transformative 
+effects when poor women control its use. Providing physical or in-kind assets rather than liquid loans 
+can help fight family pressures to share cash (Inner Mongolia, China—Gu and Nie 2021).
+Address women’s family and financial risk pressures with gender-informed 
+financial services (digital credit, savings and insurance)
+Women’s financial decisions are uniquely (negatively) influenced by the number of other enterprises 
+in the household and a lower tolerance to financial risk. If there is more than one business in the 
+family, women will first allocate liquidity to the larger business, which most often is owned by the men 
+in the family, reducing the amount invested in their own economic activity (reanalysis of RCT data 
+from Ghana, India, and Sri Lanka—Bernhardt et al. 2019). Compounding these family pressures on 
+loan use, women’s financial decisions are influenced by a lower tolerance to financial risk than men 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+13
+because of having to manage a larger set of perceived risks (that is, family risks) which leads them to 
+avoid high risk financial options and seek to use liquidity from loans and savings as implicit insurance 
+(‘risk aversion’ review—Croson and Gneezy, 2009; urban Mexico—Angelucci et al. 2015; rural Senegal 
+and Burkina Faso—Delavallade et al. 2015; Ghana survey—Hillesland 2019; systematic review—Chetty 
+et al. 2018; India- Demont 2022). Lenders need to take intra-household dynamics into account and 
+be warned that offering credit to individual women in multiple enterprise households may result in 
+the loan being diverted to support the larger enterprises in the household (most of them owned by 
+men). Making these loans less visible (digital credit) is a potential solution to have women in multiple 
+enterprise households invest their money in their businesses (Bernhardt et al. 2019).
+Increasing women’s access to insurance options should improve their financial (credit) and business 
+outcomes. Solutions to women’s using liquidity as insurance because of their need to manage family 
+as well as business risks include, in the long-term, strengthening insurance markets in LICs, including 
+for microinsurance, and making sure that women have access to these markets. Building women’s 
+knowledge about and trust in these insurance markets will be important.  In the short-term, solutions 
+include offering savings alongside credit instruments or providing credit to groups that can help 
+spread risk (Nepal—Prina 2015; India- Demont 2022). Group lending linked to self-help savings groups 
+has modest effects on business growth but helps with risk management and acts as implicit insurance 
+(review—Cai et al. 2021). Digital loans that are not subject to the same sharing norms as cash can be 
+kept as savings until spent, also helping women manage risks (urban Uganda—Riley 2022). 
+The importance of basic credit screening 
+Basic screening is especially important when offering digital credit or flexible lending with few 
+conditions. Women’s easy access to digital credit can result in over-indebtedness if they lack 
+financial experience and especially when loan terms from MMO are opaque (Bharadwaj et al. 2019; 
+Brailovskaya 2021). And if access to digital credit (ATM cards) is not secure, women will not use the 
+service (Kenya—Schaner 2015). Loan repayment flexibility can act as implicit insurance for poor 
+businesswomen, increasing their risk-taking and improving their business outcomes (Kolkata, 
+India—Field, 2013; Bangladesh, BRAC—Battaglia et al. 2023). But the evidence also suggests that along 
+with flexible lending some screening mechanism for high-potential entrepreneurs is needed, such 
+as borrowers with good credit histories (the case of BRAC), to ensure low default rates.
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+14
+Community/context-level constraints and possible solutions6
+TABLE 4. Community/context-level gender differentials constraining women’s 
+access to credit and possible solutions by population groups
+Differentials 
+(supply-side lenders’ features)
+Possible Solutions
+Who
+Men lenders prefer men clients: Similar attributes 
+in clients breed trust and compensate for limited 
+information on client’s repayment capacity 
+Supply-side gender data that is used 
+to examine the performance and 
+repayment record of women clients
+Increasing the diversity of bank 
+agents and MMO; increasing 
+diversity in bank management
+Gender champions in financial sector 
+Supply-side incentives (monetary 
+and non-monetary) for women’s 
+financial inclusion7
+All women
+Women potential clients may exclude themselves 
+from applying for loans anticipating they will be 
+rejected. Intersecting attributes of excluded groups 
+may compound problem (e.g., gender and race)
+Targeted programmatic 
+interventions backed by robust 
+financial inclusion national policies 
+and anti-discriminatory frameworks
+All women
+Gender biases are hardwired and replicated 
+in credit scoring algorithms that use historical 
+financial data
+Awareness of gender bias and 
+use of alternative data for building 
+credit scoring models
+All women
+Increase trust in women as potential low-risk credit customers 
+Gender preferences are used by lenders partly to compensate for limited information on the client’s 
+capacity to repay the loan. Selection biases occur both on the demand side (potential borrowers are 
+different than non-borrowers and successful borrowers have features, such as prior experience, that 
+lead to success) and the supply side—lenders choose certain markets versus others, mobile money 
+operators chose certain regions versus others, and bank (and mobile money) agents prefer certain 
+clients over others, partly to compensate for limited information on the client’s repayment capacity. 
+It is well known that lenders want to avoid high-risk customers and that most of these lenders are 
+men, which leads them to prefer wealthy clients and men clients, since similar group attributes breed 
+trust (review of literature—Bellucci et al. 2010). 
+There is growing experimental evidence on implicit or explicit biases affecting women loan 
+applicants in male-dominated financial services in LMICs. While the bulk of the evidence on implicit 
+biases or discrimination (statistical or taste based) leading to credit rationing for women is from 
+developed financial markets (looking at consumer as well as business loans) or observational studies, 
+6 
+Community/context here is restricted to examining constraints and possible solutions in the financial services 
+ecosystem. 
+7 
+Recent global initiatives that address these gender data-based solutions include: Data2X and Financial Alliance for 
+Women (2023) “The Gender Data Playbook for Women’s Financial Inclusion;” Secretariat We-Fi (2023) “WE Finance 
+Code;” and Dimova, M. (2023) “Revolutionizing Product Design in Financial Services: Women’s World Banking 
+Women-Centered Design Methodology.” 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+15
+experimental studies in Bolivia, Chile and Turkey (2 studies) show that credit officers reject similar 
+loan applications from indigenous women more often in Bolivia (compared to non-indigenous 
+women), from women significantly more than from men in Chile’s consumer credit market, and, 
+in Turkey, grant lower loan amounts to women or require a guarantor more often for women who 
+present the same loan application as men (Bolivia—Martínez et al. 2020; Chile—Montoya et al. 2020; 
+Turkey—Alibhai et al. 2019; Turkey—Brock and De Hass 2023).
+Address gender biases to contain the entrenchment of gender segregation 
+in financial services; use gender data
+While biases against women loan applicants can be seen as a rational response from lenders to 
+the asymmetric information problem, they perpetuate gender segregation across sectors and can 
+become self-fulfilling for individuals, leading to vicious cycles of exclusion. The anticipation of 
+rejection can become self-fulfilling, and those with different attributes, including poor women and 
+ethnic/racial minorities, may exclude themselves from applying for financial services, triggering a 
+vicious cycle of low income, low savings, poor access to credit either because of lenders’ biases or own 
+exclusion, and low returns on low income. 
+Compounding the information problem, financial sector providers do not regularly disaggregate 
+their portfolio information by sex.8 They, therefore, do not have readily available supply-side 
+performance metrics that can serve to correct the notion that women are bad or unreliable 
+customers. In fact, the data from countries that have sex disaggregated supply-side data, mostly 
+at the insistence of financial regulators, show that women have lower default and higher savings 
+rates than men, information that should help to overcome implicit biases against lending to 
+women customers (case studies in 6 countries—Buvinic and Ruf 2022). Further, gender biases are 
+in-bred and replicated in credit score cards and models from banks and fintech that use historical 
+(gender-biased) financial data to build algorithms. 
+Potential solutions to supply-side gender biases in financial services 
+need testing
+Supply-side selection biases by gender or other attributes that exclude categories of people from 
+accessing credit need gender-informed solutions, most of which are yet to be tested. Potential 
+solutions include expanding the information base of loan managers and officers by requiring sex 
+disaggregated supply-side portfolio performance data showing that women are good credit risks 
+as well as increasing loan officers’ experience, since some evidence shows that experienced loan 
+officers are less biased (Alibhai et al. 2019; Brock and De Hass 2023). Credit algorithms can use 
+alternative sources of data, including from digital platforms that better capture women’s credit 
+history, formal and informal (Financial Alliance for Women 2023). Other potential solutions include 
+8 
+Or do not use available sex-disaggregated information for management reporting (Buvinic, M. and Ruf, R. 2022).
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+16
+organizational incentives for bank agents and MMOs to expand their customer base to women clients 
+and, more generally, having bank managers or financial regulators align the incentives of financial 
+sector providers with the twin goals of efficiency and gender equity, as well as increasing diversity of 
+staff in financial services. 
+Cross-cutting issues 
+Gauging the impact of access to credit on women’s economic empowerment in the studies reviewed 
+is limited by a lack of good measures of economic empowerment. Measuring both agency and 
+economic achievements is not easy, but they are both essential dimensions of empowerment (see 
+theory of change), and while most studies measured some form of economic gains only 17 of the 
+studies reviewed reported measures of agency. Fortunately, there are several ongoing research 
+efforts to identify and test robust indicators of economic empowerment that hopefully will be widely 
+adopted once they are available.9
+There is little data on cost-effectiveness of the different solutions and almost no data that assesses 
+the cost-effectiveness of demand-side versus supply-side solutions. The evidence, including 
+cost-effectiveness evidence, on the existence of and solutions to gender biases affecting potential 
+customers of financial services is less well documented than evidence that looks at constraints 
+and solutions at the individual and household levels. There is data on the cost-effectiveness of 
+transferring capital and skills to very poor women showing that these ‘bundled’ programs are worth 
+their costs (cost-effectiveness of 5 RCTs—Bandiera et al. 2013; cost-effectiveness of 6 RCTs—Banerjee 
+et al. 2015) and there is suggestive positive evidence on the cost-benefit of short-business training 
+programs (McKenzie 2021). There is much less or almost no information on the cost-effectiveness or 
+investment returns of more streamlined credit interventions. We found reported cost-effectiveness 
+information in only one study we reviewed: in rural Uganda, delegated credit, where a formal bank 
+lends to savings groups, did not lead to increase in profits and was not-cost effective (Burlando 
+et al. 2020). In Indonesia, Buvinic et al. (2020) found that it was more cost-effective to give financial 
+incentives to bank agents to provide mobile financial services (branchless banking) than to provide 
+financial literacy training and mentoring to businesswomen. This is the only study we are aware of 
+that compares the cost-effectiveness of supply-side versus demand-side solutions.
+Structural constraints women face beyond credit need to be overcome to fully reap the potential 
+benefits of having equal access to credit and other financial services. Women face more restricted 
+economic opportunities than men, have more time constraints and more limited access to 
+information, networks, and markets, and the poorer they are the more severe are these constraints. 
+Policies that reduce women’s unpaid care burdens and expand their access to markets and economic 
+9 
+A particularly pertinent one is a collaboration led by FinEquity that is testing women’s economic empowerment 
+indicators for financial inclusion projects (see background paper by J. Morgan et al. 2023 cited in this report). 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+17
+resources need to go hand in hand with expanding the provision of credit and other financial 
+services to maximize the benefits of these services.
+5. Conclusion
+Credit has evolved from being flaunted as a universal solution to women’s poverty to being 
+acknowledged as a potential tool to support some women under some conditions. The most recent 
+and nuanced evidence indicates that credit can provide significant benefits to women, depending 
+on the client, the features of the credit offer and how they address women’s specific constraints, the 
+surrounding context, and the gender-related mechanisms that shape financial outcomes. 
+While the evidence-base has grown substantially, there remain many promising but untested 
+innovations for women. We need better, more granular evidence to segment different groups of 
+women by income and occupation to identify more clearly what works for whom. There is need to 
+design credit innovations to reach and benefit most women farmers in smallholder agriculture who 
+are not served well by the traditional microfinance model with small recurring payments. There is 
+comparatively little evidence on which supply-side interventions work to level the playing field for 
+women in the financial services ecosystem as well as limited data on the relative cost-effectiveness 
+of alternative solutions to persistent gender-biases constraining women’s access, use and repayment 
+of credit, opening potentially fruitful areas of inquiry.
+Despite these gaps in knowledge on what works, the existing evidence we reviewed suggests that 
+gender differentials in access to credit and other financial services indeed matter, and that this is 
+especially the case for constraints at the levels of the household and the community. While individual 
+wealth or business experience or entrepreneurial drive seem to overcome constraints women 
+face in accessing and using credit, traditional gender family roles shape constraints that cannot be 
+reduced to differences in magnitude of wealth or business experience with men. This is also the case 
+with implicit biases or discrimination against potential women customers in the financial services 
+ecosystem which can perpetuate gender segregation across sectors and become self-fulfilling for 
+individual women, leading to vicious cycles of exclusion. Gender-informed solutions that address the 
+specific constraints women face and build on the mechanisms that empower women economically, 
+some of which we have discussed in this summary review, should work best.
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+18
+References
+Alibhai, A. S., Cassidy, R. M., Goldstein, M. P., & Papineni, S. (2022). Evening the Credit Score? Impact of 
+Psychometric Loan Appraisal for Women Entrepreneurs. Policy Research Working Paper Series, 
+Article 10230. https://ideas.repec.org//p/wbk/wbrwps/10230.html
+Alibhai, S., Donald, A., Goldstein, M., Oguz, A. A., Pankov, A., & Strobbe, F. (2019). Gender Bias In SME 
+Lending: Experimental Evidence from Turkey. World Bank Group: Africa Gender Innovation Lab. 
+https://doi.org/10.1596/1813-9450-9100
+Angelucci, M., Karlan, D., & Zinman, J. (2015). Microcredit Impacts: Evidence from a Randomized 
+Microcredit Program Placement Experiment by Banco Compartamos. American Economic 
+Journal: Applied Economics, 7(1), 151–182. https://doi.org/10.1257/app.20130537
+Aron, J. (2018). Mobile Money and the Economy: A Review of the Evidence. The World Bank Research 
+Observer, 33(2), 135–188. https://doi.org/10.1093/wbro/lky001
+Balboni, C. A., Bandiera, O., Burgess, R., Ghatak, M., & Heil, A. (2021). Why Do People Stay Poor? 
+(Working Paper 29340) National Bureau of Economic Research. https://doi.org/10.3386/w29340
+Bandiera, O., Burgess, R., Gulesci, S., Rasul, I. And Sulaiman, M. (2013). Capital, Skills and the 
+Economic Lives of the Poor: Recent Evidence from Field Experiments. In Buvinic, M., 
+Furst-Nichols, R. and Courey Pryor, E. eds. A Roadmap for Promoting Women’s Economic 
+Empowerment. United Nations Foundation and ExxonMobil Foundation, 36.
+Banerjee, A., Breza, E., Duflo, E., & Kinnan, C. (2019). Can Microfinance Unlock a Poverty Trap for 
+Some Entrepreneurs? (Working Paper 26346). National Bureau of Economic Research. 
+https://doi.org/10.3386/w26346
+Banerjee, A., Karlan, D., & Zinman, J. (2015). Six Randomized Evaluations of Microcredit: 
+Introduction and Further Steps. American Economic Journal: Applied Economics, 7(1), 1–21. 
+https://doi.org/10.1257/app.20140287
+Baranov, V., Bhalotra, S., Biroli, P., & Maselko, J. (2020). Maternal Depression, Women’s Empowerment, 
+and Parental Investment: Evidence from a Randomized Controlled Trial. American Economic 
+Review, 110(3), 824–859. https://doi.org/10.1257/aer.20180511
+Bardasi, E., Sabarwal, S. and Terrell, K. (2011) How Do Female Entrepreneurs Perform? Evidence from 
+Three Regions. Small Business Economics, 37, 417.
+Barriga-Cabanillas, O., & Lybbert, T. J. (2021). Liquidity or Convenience? Heterogeneous Impacts 
+of Mobile Airtime Loans on Network Usage and Communication Expenditure. Unpublished 
+Manuscript, University of California, Davis (August).
+Bastian, G., Bianchi, I., Goldstein, M., & Montalvao, J. (2018). Short-Term Impacts of Improved Access 
+to Mobile Savings, with and without Business Training: Experimental Evidence from Tanzania. 
+Center for Global Development, Working Paper 478. 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+19
+Batista, C., Sequeira, S., & Vicente, P. C. (2022). Closing the Gender Profit Gap? Management Science, 
+68(12), 8553–8567. https://doi.org/10.1287/mnsc.2022.4579
+Battaglia, M., Gulesci, S., & Madestam, A. (2023). Repayment Flexibility and Risk-taking: Experimental 
+Evidence from Credit Contracts. The Review of Economic Studies. https://academic.oup.com/
+restud/advance-article/doi/10.1093/restud/rdad107/7425423
+Bellucci, A., Borisov, A., & Zazzaro, A. (2010). Does Gender Matter in Bank–Firm Relationships? 
+Evidence from Small Business Lending. Journal of Banking & Finance, 34(12), 2968–2984. 
+https://doi.org/10.1016/j.jbankfin.2010.07.008
+Beaman, L., Karlan, D., Thuysbaert, B. and Udry, C. (2021). Selection into Credit Markets: Evidence 
+from Agriculture in Mali (Working Paper 20387). National Bureau of Economic Research. 
+https://www.nber.org/system/files/working_papers/w20387/w20387.pdf
+Bernhardt, A., Field, E., Pande, R., & Rigol, N. (2019). Household Matters: Revisiting the Returns to 
+Capital among Female Microentrepreneurs. American Economic Review: Insights, 1(2), 141–160. 
+https://doi.org/10.1257/aeri.20180444
+Bharadwaj, P., Jack, W., & Suri, T. (2019). Fintech and Household Resilience to Shocks: Evidence 
+from Digital Loans in Kenya (Working Paper 25604). National Bureau of Economic Research. 
+https://doi.org/10.3386/w25604
+Bossuroy, T., Goldstein, M., Karlan, D., Kazianga, H., Parienté, W., Premand, P., Thomas, C., Udry, C., 
+Vaillant, J., & Wright, K. (2021). Pathways out of Extreme Poverty: Tackling Psychosocial and 
+Capital Constraints with a Multi-Faceted Social Protection Program in Niger. World Bank Group: 
+Africa Gender Innovation Lab. https://doi.org/10.1596/1813-9450-9562
+Brailovskaya, V., Dupas, P., & Robinson, J. (2021). Is Digital Credit Filling a Hole or Digging a Hole? 
+Evidence from Malawi (SSRN Scholarly Paper 3991382). https://doi.org/10.2139/ssrn.3991382
+Brock, J. M., & De Haas, R. (2023). Discriminatory Lending: Evidence from Bankers in the Lab. 
+American Economic Journal: Applied Economics, 15(2), 31–68. https://doi.org/10.1257/app.20210180
+Brudevold-Newman, A. P., Honorati, M., Jakiela, P., Ozier, O., Brudevold-Newman, A. P., Honorati, M., 
+Jakiela, P., & Ozier, O. (2017). A Firm of One’s Own: Experimental Evidence on Credit Constraints 
+and Occupational Choice. Policy Research Working Paper Series, Article 7977. https://ideas.repec.
+org//p/wbk/wbrwps/7977.html
+Burlando, A., Goldberg, J., & Etcheverry, L. (2020). Banking the Group: Impact of Credit and linkages 
+among Ugandan Savings Groups. https://www.semanticscholar.org/paper/Banking-the-grou
+p%3A-Impact-of-credit-and-linkages-Burlando-Goldberg/2aa4b0cef06a090113560edf7f7072b
+7515f6fc1
+Buvinic, M., Johnson, H. Perova E., & Witoelar, F. (2020) Can Boosting Savings and Skills Support 
+Female Business Owners in Indonesia? Evidence from a Randomized Control Trial. Center 
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+20
+For Global Development Working Paper 530 (April). https://www.cgdev.org/sites/default/files/
+boosting-savings-and-skills-indonesia-rct.pdf
+Buvinic, M. Knowles, J. C., & Witoelar, F. (2021). Persistent Gender Gaps in business 
+Profits in Indonesia: Implications for COVID-19 Recovery Policies. Center For Global 
+Development Working Paper 603 (December). https://www.cgdev.org/sites/default/files/
+persistent-gender-gaps-business-profits-indonesia-implications-covid-19-recovery.pdf
+Buvinic, M., & O’Donnell, M. (2019). Gender Matters in Economic Empowerment Interventions: A 
+Research Review. The World Bank Research Observer, 34, 2, 309–346. https://academic.oup.
+com/wbro/article-abstract/34/2/309/5536081?redirectedFrom=fulltext 
+Buvinic, M., & Ruf, R. (2022). Towards Women’s Financial Inclusion: Gender Data Diagnostics of Six 
+Countries (WFID Partnership Project). UN Foundation/Data2X.
+Cai, J., Meki, M., Quinn, S., Field, E., Kinnan, C., Morduch, J., de Quidt, J., & Said, F. (2021). Microfinance, 
+VoxDevLit, 3(1). 
+Cai, J., Meki, M., Quinn, S., Field, E., Kinnan, C., Morduch, J., de Quidt, J., & Said, F. (2023). Microfinance, 
+VoxDevLit, 3(2). 
+Chetty, R., Villiers, L. D., Dudar, B., & Smit, H. (2018). What can Behavioral Science Tell Us about the 
+Financial Decisions of Women? Evidence from a Systematic Review of Behavioral Interventions. 
+International Development Research Center (IDRC), Canada.
+Crépon, B., El Komi, M., & Osman, A. (2022). Is It Who You Are or What You Get? Comparing the 
+Impacts of Loans and Grants for Microenterprise Development. American Economic Journal: 
+Applied Economics. https://doi.org/10.1257/app.20210683
+Croson, R., & Gneezy, U. (2009). Gender Differences in Preferences. Journal of Economic Literature, 
+47(2), 448–474. https://doi.org/10.1257/jel.47.2.448
+Data2X, & Financial Alliance for Women. (2023, May). The Gender Data Playbook for Women’s 
+Financial Inclusion. https://data2x.org/resource-center/the-gender-data-playbook-for-womens-
+financial-inclusion/
+Delavallade, C., Dizon, F., Hill, R. V., & Petraud, J. P. (2015). Managing Risk with Insurance and Savings: 
+Experimental Evidence for Male and Female Farm Managers in West Africa (SSRN Scholarly 
+Paper 2583847). https://doi.org/10.2139/ssrn.2583847
+Demont, T. (2022). Coping with Shocks: How Self-Help Groups Impact Food Security and Seasonal 
+Migration. World Development, 155, 105892. https://doi.org/10.1016/j.worlddev.2022.105892
+Dimova, M. (2023). Revolutionizing Product Design in Financial Services | Publication | FinDev 
+Gateway. https://www.findevgateway.org/paper/2023/06/revolutionizing-product-design-in-
+financial-services
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+21
+Dupas, P., Karlan, D. S., Robinson, J., & Ubfal, D. (2016). Banking the Unbanked: Evidence from Three 
+Countries (SSRN Scholarly Paper 2882698). https://papers.ssrn.com/abstract=2882698
+Duvendack, M., Anda Leon, M. And Filopoulos, J. (2023). The Impact of Credit and Savings  
+Interventions on Women’s Economic Empowerment and Agency: A Meta-regression Analysis. 
+Unpublished manuscript.
+Fiala, N. (2013). Stimulating Microenterprise Growth: Results from a Loans, Grants and Training 
+Experiment in Uganda (SSRN Scholarly Paper 2358086). https://doi.org/10.2139/ssrn.2358086
+Fiala, N. (2018). Returns to Microcredit, Cash grants and Training for Male and Female 
+Microentrepreneurs in Uganda, World Development 105: 189–200.
+Field, E., Jayachandran, S., Pande, R., & Rigol, N. (2016). Friendship at Work: Can Peer Effects 
+Catalyze Female Entrepreneurship? American Economic Journal: Economic Policy, 8(2), 125–153. 
+https://doi.org/10.1257/pol.20140215
+Field, E., Pande, R., Papp, J., & Rigol, N. (2013). Does the Classic Microfinance Model Discourage 
+Entrepreneurship among the Poor? Experimental Evidence from India. American Economic 
+Review, 103(6), 2196–2226. https://doi.org/10.1257/aer.103.6.2196
+Financial Alliance for Women (2023). Fintech Fridays: Breaking the Gender Bias in Lending, webinar, 
+June 2nd.
+Gertler, P., Green, B., & Wolfram, C. (2021). Digital Collateral (Working Paper 28724). National Bureau 
+of Economic Research. https://doi.org/10.3386/w28724
+Gu, R., & Nie, F. (2021). Does Empowering Women Benefit Poverty Reduction? Evidence from a 
+Multi-component Program in the Inner Mongolia Autonomous Region of China. Journal of 
+Integrative Agriculture, 20(4), 1092–1106. https://doi.org/10.1016/S2095-3119(20)63436-0
+Goldstein, M., Gonzalez Martinez, P. and Papineni, S. (2019). Tackling the Global Profitarchy: Gender 
+and the Choice of Business Sector. Policy Research Working Paper 8865 (May). World Bank, 
+Washington, DC.
+Hillesland, M. (2019). Gender Differences in Risk Behavior: An Analysis of Asset Allocation Decisions 
+in Ghana. World Development, 117, 127–137. https://doi.org/10.1016/j.worlddev.2019.01.001
+Huis, M., Lensink, R., Vu, N., & Hansen, N. (2019). Impacts of the Gender and Entrepreneurship 
+Together Ahead (GET Ahead) training on empowerment of female microfinance borrowers in 
+Northern Vietnam. World Development, 120, 46–61. https://doi.org/10.1016/j.worlddev.2019.04.001
+Islam, A., & Muzi, S. (2020). Mobile Money and Investment by Women Businesses in Sub-Saharan 
+Africa. World Bank, Washington, DC. https://doi.org/10.1596/1813-9450-9338
+Jakiela, P., & Ozier, O. (2016). Does Africa Need a Rotten Kin Theorem? Experimental Evidence from 
+Village Economies. The Review of Economic Studies, 83(1 (294)), 231–268. https://www.jstor.
+org/stable/43868462
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+22
+Jeffrie, N. (2023). The Mobile Gender Gap Report 2023. GSMA. https://www.gsma.com/r/wp-content/
+uploads/2023/07/The-Mobile-Gender-Gap-Report-2023.pdf
+Khandker, S. R., & Samad, H. A. (2014). Dynamic Effects of Microcredit in Bangladesh. Policy Research 
+Working Paper Series, Article 6821. https://ideas.repec.org//p/wbk/wbrwps/6821.html
+Leight, J., Awonon, J., Pedehombga, A., Ganaba, R., Martinez, E., Heckert, J., & Gelli, A. (2022). The 
+Impact of an Integrated Value Chain Intervention on Household Poultry Production in Burkina 
+Faso: Evidence from a Randomized Controlled Trial. Journal of Development Effectiveness, 14(2), 
+108–124. https://doi.org/10.1080/19439342.2021.1968932
+Martínez, R. G., Aguilera‐Lizarazu, G., Rojas‐Hosse, A., & Blanco, P. A. (2020). The Interaction Effect of 
+Gender and Ethnicity in Loan Approval: A Bayesian Estimation with Data from a Laboratory Field 
+Experiment. Review of Development Economics, 24(3), 726–749. https://ideas.repec.org//a/bla/
+rdevec/v24y2020i3p726-749.html
+McKenzie, D. (2021). Small Business Training to Improve Management Practices in Developing 
+Countries: Re-assessing the Evidence for ‘Training Doesn’t Work.’ Oxford Review of Economic 
+Policy, 37(2), 276–301. https://doi.org/10.1093/oxrep/grab002
+McKenzie, D., & Puerto, S. (2021). Growing Markets through Business Training for Female 
+Entrepreneurs: A Market-Level Randomized Experiment in Kenya. American Economic Journal: 
+Applied Economics, 13(2), 297–332. https://doi.org/10.1257/app.20180340
+Meager, R. (2019). “Understanding the Average Impact of Microcredit Expansions: A Bayesian 
+Hierarchical Analysis of Seven Randomized Experiments”. American Economic Journal: Applied 
+Economics 11(1), 57–91.
+Meyerowitz, J. (2021). A War on Global Poverty: The Lost Promise of Redistribution and the Rise of 
+Microcredit. Princeton University Press. https://doi.org/10.2307/j.ctv18b5dcg
+Montenegro Calderón, G., Iacovone, L., & Juarez, L. (2016). Opportunity versus Necessity: 
+Understanding the Heterogeneity of Female Micro-entrepreneurs. Policy Research Working 
+Paper Series, Article 7636. https://ideas.repec.org//p/wbk/wbrwps/7636.html
+Montoya, A. M., Parrado, E., Solís, A., & Undurraga, R. (2020). Bad Taste: Gender Discrimination in the 
+Consumer Credit Market. IDB Publications (Working Papers), Article 10432. https://ideas.repec.
+org//p/idb/brikps/10432.html
+Morgan, J., O’Donnell, M. and Buvinic, M. (2023) Women’s Economic Empowerment Measurement 
+in Financial Inclusion: Background Paper. Washington, DC: Fin Equity, Center for 
+Global Development and Data2X (March) https://www.cgdev.org/sites/default/files/
+womens-economic-empowerment-wee-measurement-financial-inclusion.pdf
+Prina, S. (2015). Banking the Poor via Savings Accounts: Evidence from a Field Experiment. Journal of 
+Development Economics, 115, 16–31. https://doi.org/10.1016/j.jdeveco.2015.01.004
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+23
+Rahman, A., Bhattacharjee, A., & Das, N. (2021). A Good Mix against Ultra-poverty? Evidence from 
+a Randomized Controlled Trial (RCT) in Bangladesh. Review of Development Economics, 25(4), 
+2052–2083. https://doi.org/10.1111/rode.12809
+Riley, E. (2022). Resisting Social Pressure in the Household Using Mobile Money: Experimental 
+Evidence on Microenterprise Investment in Uganda. CSAE Working Paper Series, 
+Article 2022–04. https://ideas.repec.org//p/csa/wpaper/2022-04.html
+Robinson, J., Park, D. and Blumenstock, J. (2023). The Impact of Digital Credit in Developing 
+Economies: A Review of Recent Evidence. KDI School of Public Policy and Management 
+Paper No. 23-04 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4540063
+Sayinzoga, A., Bulte, E. H., & Lensink, R. (2016). Financial Literacy and Financial Behavior: 
+Experimental Evidence from Rural Rwanda. The Economic Journal, 126(594), 1571–1599. 
+https://doi.org/10.1111/ecoj.12217
+Schaner, S. (2015). Do Opposites Detract? Intrahousehold Preference Heterogeneity and 
+Inefficient Strategic Savings. American Economic Journal: Applied Economics, 7(2), 135–174. 
+https://doi.org/10.1257/app.20130271
+Secretariat, We-Fi. (2023, June 14). Introducing WE Finance Code. World Bank: Women 
+Entrepreneurs’ Finance Initiative. https://we-fi.org/introducing-we-finance-code/
+Siegrist, F. (2022). Supporting Women Entrepreneurs in Developing Countries: What Works? World 
+Bank: Women Entrepreneurs Finance Initiative. https://we-fi.org/wp-content/uploads/2022/10/
+We-Fi_Evidence-Paper-Oct2022.pdf
+Suri, T., & Jack, W. (2016). The Long-run Poverty and Gender Impacts of Mobile Money. Science, 
+354(6317), 1288–1292. https://doi.org/10.1126/science.aah5309
+Unnikrishnan, V., M. Pinet, L. Marc, NA Boateng and E. Seiwaa. (2022) Impact of an Integrated Youth 
+Skill Training Program on Youth Livelihoods: A Case Study of Cocoa Belt Region in Ghana, World 
+Development 151, 105732 (March).
+Villanueva, A. C., & White, H. (n.d.). Financial Inclusion Interventions for Empowering Women in 
+Agri-food Systems. The Campbell Collaboration, 109.
+Weber, O., & Ahmad, A. (2014). Empowerment Through Microfinance: The Relation Between Loan 
+Cycle and Level of Empowerment. World Development, 62, 75–87. https://doi.org/10.1016/j.
+worlddev.2014.05.012.
+World Bank, Africa Region Gender Innovation Lab and Finance, Competitiveness and Innovation 
+Global Practice (2019). Profiting from Parity: Unlocking the Potential of Women’s Businesses 
+in Africa. World Bank, Washington, DC. https://documents1.worldbank.org/curated/
+en/501971553025918098/pdf/Main-Report.pdf
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+24
+Annex 1: Studies reviewed by country10
+Country
+Count
+Bangladesh
+7
+Benin
+1
+Bosnia and Herzegovina
+3
+Burkina Faso
+1
+Egypt
+1
+Ethiopia
+5
+Ghana
+1
+Haiti
+1
+India
+11
+Kenya
+1
+Malawi
+1
+Mali
+1
+Mexico
+3
+Mongolia
+1
+Morocco
+2
+Niger
+1
+Nigeria
+2
+Pakistan
+1
+Rwanda
+1
+Sierra Leone
+1
+Sri Lanka 
+1
+Tanzania
+1
+Turkey
+1
+Uganda
+4
+Vietnam
+1
+Total
+54
+10  The table shows the number of countries the 48 reports covered. Some studies reported results from more than one 
+country.
+
+
+WOMEN AND CREDIT: A NARRATIVE REVIEW IN LOW- AND MIDDLE-INCOME COUNTRIES
+25
+Annex 2: Characteristics of the interventions in the studies reviewed by sample type
+ 
+Population
+Number 
+of Studies 
+Reviewed 
+by Sample 
+Type11
+Population 
+Features 
+Institutional and Regulatory Policies
+Product Design
+Commitment Features
+Rural
+Urban
+Assessing 
+Creditworthiness: 
+Physical 
+Collateral 
+Assessing 
+Creditworthiness: 
+Alternatives and other 
+Eligibility Criteria
+Supply-side 
+Incentives 
+(e.g. fees & 
+interest rates)
+Women 
+Specific/
+Intentional 
+Design
+Repayment/
+Grace 
+Periods 
+Specific 
+Purpose 
+Loans 
+Very poor 
+9
+9
+0
+0
+3
+4
+7
+4
+4
+Poor—microentrepreneurs 
+29
+22
+7
+6
+10
+13
+15
+11
+9
+Poor—agriculture
+10
+10
+1
+1
+3
+5
+5
+5
+3
+Wage and Salary Workers
+4
+4
+0
+1
+1
+2
+2
+1
+1
+Non-poor (ag., SMEs etc.)
+6
+2
+2
+1
+1
+1
+5
+2
+1
+Population
+Pathway for Provision
+Other Complementary Features
+Results12
+Digital 
+Platform
+Group 
+Model
+Trainings
+Savings
+Other
+Positive Effects 
+on Usage 
+Positive Effects 
+on Outcomes
+No Significant Effects/ 
+Negative Effects on 
+Outcomes
+Very poor 
+1
+3
+6
+3
+8
+4
+8
+3
+Poor—microentrepreneurs 
+4
+13
+8
+5
+5
+19
+23
+20
+Poor—agriculture
+2
+7
+4
+4
+6
+6
+6
+8
+Wage and Salary Workers
+0
+2
+2
+0
+3
+1
+3
+3
+Non-poor (ag., SMEs etc.)
+0
+2
+6
+1
+2
+1
+6
+3
+11  Some interventions targeted more than one sample type. Therefore, the number of studies by sample type adds to more than 54, the total number of country samples.
+12  The same study may have more than one type of result, with positive effects on certain outcome variables and no effect or a negative effect on other outcome variables.

@@ -1,0 +1,28 @@
+{
+  "source_id": "8bf419166d2d57f6d097",
+  "normalized_url": "https://ncpssm.org/documents/social-security-policy-papers/womens-social-security-benefits",
+  "fetch_timestamp_utc": "2026-10-04T03:41:17.261355+00:00",
+  "registrable_domain": "ncpssm.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ncpssm.org/documents/social-security-policy-papers/womens-social-security-benefits/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 127027,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8bf419166d2d57f6d097.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8bf419166d2d57f6d097.txt",
+  "text_chars": 11077,
+  "text_words": 1765,
+  "extraction_status": "success",
+  "page_title": "Women's Social Security Benefits - NCPSSM",
+  "page_author": "NCPSSM",
+  "page_date": "2022-10-31",
+  "site_name": "NCPSSM",
+  "canonical_url": "https://www.ncpssm.org/documents/social-security-policy-papers/womens-social-security-benefits/"
+}

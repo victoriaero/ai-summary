@@ -1,0 +1,31 @@
+{
+  "source_id": "c11136fa6aeb5e97ef53",
+  "normalized_url": "https://un.org/development/desa/dspd/wp-content/uploads/sites/22/2019/07/QUINN_Jean_Presentation_2-1.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:37:31.327171+00:00",
+  "registrable_domain": "un.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 404,
+  "final_url": "https://maintenance.un.org/development/desa/dspd/wp-content/uploads/sites/22/2019/07/QUINN_Jean_Presentation_2-1.pdf",
+  "headers": {
+    "Content-Type": "text/html",
+    "Content-Length": "357",
+    "Connection": "keep-alive",
+    "Last-Modified": "Thu, 05 Mar 2026 01:04:20 GMT",
+    "x-amz-server-side-encryption": "AES256",
+    "Accept-Ranges": "bytes",
+    "Server": "AmazonS3",
+    "Date": "Tue, 29 Sep 2026 00:32:59 GMT",
+    "ETag": "\"4b82e09554fb5b0ffd489dbd6a3f16fc\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 f45c675011122768a482d7ff4dd302b6.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MIA3-P6",
+    "X-Amz-Cf-Id": "E1ic1BfoC6d2tp_FeJvOfpGmzrMfyxblSlvMV8B98XQJ9sIV2rOB4w==",
+    "Age": "68678"
+  },
+  "downloaded_bytes": 357,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,3256 @@
+Working Paper Series 
+Gender bias and credit access 
+ 
+ 
+ 
+Steven Ongena and
+Alexander Popov
+No 1822 / July 2015 
+Note: This Working Paper should not be reported as representing the views of the European Central Bank (ECB). 
+The views expressed are those of the authors and do not necessarily reflect those of the ECB 
+ 
+
+
+ 
+ 
+Abstract 
+ 
+     This paper studies the causal effect of gender bias on access to bank credit. We extract an 
+exogenous measure of gender bias from survey responses by descendants of US immigrants on 
+questions about the role of women in society. We then use data on 6,000 small business firms 
+from 17 countries and find that in countries with higher gender bias, female-owned firms are 
+more frequently discouraged from applying for bank credit and more likely to rely on informal 
+finance. At the same time, loan rejection rates and terms on granted loans do not vary between 
+male and female firm owners. These results are not driven by credit risk differences between 
+female- and male-owned firms or by any idiosyncrasies in the set of countries in our sample. 
+Overall, the evidence suggests that in high-gender bias countries, female entrepreneurs are 
+more likely to opt out of the loan application process, even though banks do not appear to 
+discriminate against females that apply for credit.  
+   
+  JEL classification: G21, J16, N32, Z13. 
+     Keywords: Cultural bias; Gender-based discrimination; Bank credit; Female-owned firms. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ECB Working Paper 1822, July 2015
+1
+
+
+Non-technical summary 
+In this paper, we aim to establish a causal link going from a well-defined cultural belief – 
+i.e., the belief that women are inferior to men, or the gender bias – to a well-defined economic 
+outcome – i.e., credit access. Specifically, we study whether, in high-gender bias countries and 
+relative to male-owned counterparts, females-owned firms: (1) Are more often denied bank 
+credit; (2) are more often discouraged from applying for bank credit; (3) rely less on bank credit 
+and more on alternative sources of finance, such as trade credit, in the financing of the 
+operations of their firm; and (4) are offered inferior terms on granted loans. 
+To extract the predetermined component of the gender bias across our sample of 
+countries, we employ information on cultural attitudes of US-born descendants of European 
+immigrants embedded in the General Social Survey. In particular, we focus on whether the 
+person agrees or disagrees with the claim: “It is much better for everyone involved if the man is 
+the achiever outside the home and the woman takes care of the home and family.” Since social 
+capital is transmitted from parents to children, the degree of the gender bias of a person born 
+in the U.S. whose parents were born in Germany is a good proxy for the degree of gender bias 
+of his parents, and by extension a good proxy for the predetermined component of gender bias 
+in contemporaneous Germany. This measurement strategy allows us to isolate the inherited 
+component of the gender bias for 17 European countries. We then match our country-specific 
+proxy for gender bias to information on the credit market experience by 5,905 firm-owners – 
+4,193 males and 1,712 females – in these countries, and test whether variations in inherited 
+cultural biases are mapped into variations in credit access and in the terms on loans and credit 
+lines granted by banks.  
+We find that cross-country differences in gender bias explain a substantial proportion of 
+the variation in credit access by female firm-owners, but not in loan rejection rates or in the 
+loan terms of the ultimately successful loan applications. In particular, in countries with a 
+higher inherited gender bias and comparing female owners to male owners, the former group 
+ECB Working Paper 1822, July 2015
+2
+
+
+of owners: 1) More often do not apply for a loan, and 2) finance a lower portion of their firm’s 
+operating expenses with bank credit and a higher portion with trade credit. However, once the 
+firm applies for a loan or a line of credit, we find – in most specifications - no statistical 
+differences between male- and female-owned firms in the probability of application denial. We 
+also find no differences in the terms on granted loans, such as interest rates, collateral 
+requirements, and the negotiation time involved. The evidence thus implies that the negative 
+effect of gender bias on credit access is primarily manifested through a reluctance of female 
+entrepreneurs to apply for formal credit which is driven by their belief that their credit 
+application will be denied. Once the credit application is made, similar approval rates and loan 
+terms suggest female-owned firms are assessed to be identical to male-owned firms, and this 
+assessment is correct because their credit worthiness also turns out to be statistically similar. 
+The evidence thus suggests that there is no taste-based discrimination at the level of the bank, 
+i.e., it is not the case that loan officers select only the best female-owned firms while lending 
+also to mediocre male-owned firms. 
+The contribution of our paper consists in linking the severity of the inherited cultural 
+gender bias as it exists across countries to one specific economic outcome (credit access). Our 
+results are consistent with a mechanism whereby female entrepreneurs tend to shy away from 
+the formal credit granting process in countries where cultural attitudes favour males, even 
+though credit markets are not actively discriminating against them. Policies in high-gender bias 
+countries that enable and facilitate lending to female-owned firms are therefore called for and 
+in particular and beyond doubt will enhance overall firm performance. One possibility could be 
+to stimulate banks to recruit and train female loan officers that may be less subject to a gender 
+bias, and thus encourage female entrepreneurs to apply. An alternative policy could be 
+subsidies to banks to actively solicit loan applications from creditworthy female-owned firms 
+that are now for no good reason discouraged from seeking formal access to credit. 
+ECB Working Paper 1822, July 2015
+3
+
+
+A woman cannot be herself in the society of the present day, which is an exclusively 
+masculine society, with laws framed by men and with a judicial system that judges feminine 
+conduct from a masculine point of view. 
+Henrik Ibsen, Ibsen’s Workshop, 1912 
+ 
+1.
+Introduction 
+Economic research has focused intensely in recent years on the link between culture – 
+which Guiso, Sapienza, and Zingales (2006) define as the customary beliefs and values that are 
+transmitted fairly unchanged from generation to generation – and economic outcomes. 
+Scholars have provided strong evidence that various beliefs and preferences, rooted in the 
+cultural experience of economic agents, are related to a wide array of economic phenomena, 
+ranging from growth (Knack and Keefer, 1997) and financial development (Guiso, Sapienza, and 
+Zingales, 2004), to trade (Guiso, Sapienza, and Zingales, 2009) and regulation (Aghion, Algan, 
+Cahuc, and Shleifer, 2010). 
+Having established a robust correlation, the research effort has turned to identifying the 
+causal impact of culture on economic outcomes. Doing so requires taking two crucial steps. 
+First, one needs to show that a narrow subset of the entire range of cultural beliefs and 
+preferences has a directly measurable impact on a specific economic phenomenon. Second, 
+one needs to show that not only the contemporaneous component of these beliefs and 
+preferences, but also their predetermined component, has an impact on the economic 
+outcome in case. 
+This paper aims to take both steps concurrently by investigating the impact of a well-
+defined cultural belief – i.e., the belief that women are inferior to men, or the gender bias – on 
+a well-defined economic outcome – i.e., credit access. Specifically, we study whether, in high-
+gender bias countries and relative to male-owned counterparts, females-owned firms: (1) Are 
+ECB Working Paper 1822, July 2015
+4
+
+
+more often denied bank credit; (2) are more often discouraged from applying for bank credit; 
+(3) rely less on bank credit and more on alternative sources of finance, such as trade credit, in 
+the financing of the operations of their firm; and (4) are offered inferior terms on granted loans. 
+Establishing a causal link from gender bias to credit market outcomes is at the heart of 
+our paper. To extract the predetermined component of the gender bias across our sample 
+countries, we borrow the empirical strategy from Algan and Cahuc (2010) who employ 
+information on cultural attitudes of US-born descendants of European immigrants to extract 
+measures of inherited trust and investigate its effect on economic growth. We focus on 
+answers provided by U.S. descendants of European immigrants to survey questions about the 
+proper place of women in society. For instance, we compare Americans of German, Polish, or 
+Russian origin whose ancestors immigrated to the US in 1960. Since it is well established that 
+social capital is transmitted from parents to children (Putnam, 2000; Guiso, Sapienza, and 
+Zingales, 2006), the degree of the gender bias of a person born in the U.S. that has parents that 
+were born in Russia is a good proxy for the degree of gender bias of his parents, and by 
+extension a good proxy for the predetermined component of gender bias in contemporaneous 
+Russia. 
+This measurement strategy allows us to isolate the inherited component of the gender 
+bias for 17 European countries. Our measure of inherited gender bias is clearly superior – in a 
+causal sense – to similar measures that are commonly extracted from contemporaneous 
+surveys of cultural attitudes in these countries, such as the World Values Survey, that may be 
+directly influenced by the current experiences of the surveyees including those in credit 
+markets. 
+Next, we match our country-specific proxy for gender bias to information on the credit 
+market experience by 5,905 firm-owners – 4,193 males and 1,712 females – in these countries, 
+and test whether variation in inherited cultural biases is mapped into variations in credit access 
+and in the terms on loans and credit lines granted by banks. We focus on small individually- or 
+ECB Working Paper 1822, July 2015
+5
+
+
+family-owned firms to make sure that if one of the owners of the firm is female, she is 
+materially influential in the firm’s decisions. 
+We find that cross-country differences in gender bias explain a substantial proportion of 
+the variation in credit access by female firm-owners, but not in loan rejection rates or in the 
+loan terms of the ultimately successful loan applications. In particular, in countries with a 
+higher inherited gender bias and comparing female owners to male owners, the former group 
+of owners: 1) More often do not apply for a loan because they believe they will not get one, 
+and 2) finance a lower portion of their firm’s operating expenses with bank credit and a higher 
+portion with trade credit. However, once the firm applies for a loan or a line of credit, we find – 
+in most specifications - no statistical differences between male- and female-owned firms in the 
+probability of application denial. We also find no differences in the terms on granted loans, 
+such as interest rates, collateral requirements, and the negotiation time involved. 
+The evidence thus implies that the negative effect of gender bias on credit access is 
+manifested through a self-selection of female entrepreneurs out of the loan application process 
+rather than through higher loan denial rates or a higher price of credit. Importantly, this self-
+selection is largely driven by the female firm-owners’ belief that their credit application will be 
+denied. Our results are observed even when country and industry fixed effects (which capture 
+important time-invariant variation within the high versus low gender-bias group), a wide range 
+of firm-specific characteristics, and a nearly exhaustive set of characteristics capturing the 
+national business environment are included. 
+Overall, our evidence is consistent with Cavalluzzo, Cavalluzzo, and Wolken (2002) and 
+Muravyev, Schäfer, and Talavera (2009) who find that female-owned firms are less likely to 
+apply for and/or to obtain bank credit than male-owned firms, both in the US and in an 
+international context. However, to our knowledge, our paper is the first to make the empirical 
+link between gender, a specific economic outcome (credit access), and the gender bias. 
+ECB Working Paper 1822, July 2015
+6
+
+
+This paper’s results are robust to one potentially confounding influence. In particular, a 
+higher gender bias can over time trigger changes in the skill composition of the labor force 
+through the selection of workers into education or employment, or through migration, for 
+instance (Mulligan and Rubinstein, 2008). One potential implication is that in countries with 
+high gender bias, female firm-owners’ set of skills required to run a firm could be inferior. If 
+banks know this, they would be rationally rationing female-owned firms in the credit markets, 
+and consequently the line between statistical and taste-based discrimination would become 
+blurred. However, we verify that there is no statistical difference in firm growth between 
+female-owned and male-owned firms. Even stronger than that, we show that in high gender-
+bias countries, there is no statistical difference in growth rates between constrained female-
+owned firms and unconstrained male-owned firms. We therefore argue that our estimates 
+indeed pick up the effect of taste-based discrimination rather than the rationing of potentially 
+inferior projects by banks in countries with a pronounced gender bias. 
+We are clearly not the first to analyze the impact of cultural beliefs and preferences on 
+economic outcomes. Putnam, Leonardi, and Nanneti (1993) show that social capital is a good 
+predictor of government performance across Italian regions. Guiso, Sapienza, and Zingales 
+show that trust in society affects phenomena such as entrepreneurship (2006) and trade 
+(2009). Algan and Cahuc (2009) and Aghion, Algan, and Cahuc (2011) analyze the relationship 
+between trust and institutions and find that, in general, countries whose citizens trust each 
+other less tend to put in place more restrictive institutions. Aghion, Algan, Cahuc, and Shleifer 
+(2010) explain this result by arguing that distrust increases the public demand for government 
+intervention whereas regulation in itself discourages the formation of trust. Tabellini (2008) 
+analyzes the role of culture on the per-capita-income of European regions by using institutional 
+history and literacy rates as an instrument for contemporaneous trust. Finally, Barr and Serra 
+(2010) find that social norms in the home country are related to immigrants’ tolerance for 
+corruption.  
+ECB Working Paper 1822, July 2015
+7
+
+
+Our contribution to this extant literature is that we uncover a specific mechanism 
+through which culture affects economic growth, namely through the gender bias and the 
+differential access to credit. To make this contribution we borrow the recently introduced 
+identification strategy from Algan and Cahuc (2010). They use the cultural attitudes of U.S.-born 
+descendants of non-U.S. born ancestors to extract another predetermined component of 
+culture, i.e., trust, in the ancestral countries and in this way made an important contribution to 
+this literature. 
+The second related strand of the literature analyzes the relation between well-defined 
+characteristics of the credit market and various social outcomes. Garmaise and Moskowitz 
+(2006) for example show that bank mergers result in substantially higher property crime rates, 
+because lower access to finance depresses local economic growth and raises the relative 
+benefit of illegal activity. Beck, Levine, and Levkov (2010) show that bank deregulation is 
+associated with a tighter distribution of income, an outcome that is not due to better access to 
+credit for poorer households, but to an increase in the relative demand for low-skilled workers 
+by business firms. While we do not explore the link between the structure of the credit market 
+and economic outcomes, our work is naturally related to these studies in that we study how 
+gender bias is transmitted into entrepreneurship through the channel of access to bank credit. 
+Our paper also relates to the literature on taste-based discrimination pioneered by 
+Becker (1957). This literature has focused mainly on the labor market consequences of various 
+physical attributes. For example, Hammermesh and Biddle (1994) and Mobius and Rosenblat 
+(2006) find that physical beauty has a positive effect on earnings, while Cawley (2004) finds that 
+obesity lowers the wages of white females. Persico, Postlewaite, and Silverman (2004) and Case 
+and Paxson (2008) establish a robust effect of height on earnings, the latter through the 
+channel of higher cognitive abilities. Johnston (2010) finds a substantial female wage premium 
+from being blonde. 
+ECB Working Paper 1822, July 2015
+8
+
+
+Various authors have also looked into the effect of discrimination – as well as of its 
+interaction with various market developments – on the white-black wage gap (Neal and 
+Johnson, 1996; Rodgers and Sprigs, 1996; Bertrand and Mullainathan, 2004; Carneiro, 
+Heckman, and Masterov, 2005; Charles and Guryan, 2008; Levine and Rubinstein, 2011). And, in 
+a recent contribution, Castilo, Petrie, Torero, and Vesterlund (2013) find that difference 
+between males and females in prices and rejection rates in a highly competitive taxi market 
+with experienced traders is due to statistical, not to taste-based discrimination.  
+Conceptually most similar to our study is the research on the effect of discrimination on 
+the male-female wage gap (Bayard, Hellerstein, Neumark, and Troske, 2003), and on female 
+market participation (Goldin and Rouse, 2000). This research in general confirms the existence 
+of a sizeable earnings gender gap. For example, controlling for education, experience, personal 
+characteristics, city and region, occupation, industry, government employment, and part-time 
+status, Altonji and Blank (1999) find that only about 27 percent of the gender wage gap is 
+explained by differences in observable characteristics. We argue that the difference in income 
+between females and males can be related to cultural beliefs, with access to credit being one 
+channel through which the gender bias depresses the earnings of women in society. To our 
+knowledge, ours is the first paper to test for a direct link between the predetermined cultural 
+component of gender discrimination and a well-defined economic outcome. 
+Most related to our paper is the empirical research on gender and credit market 
+outcomes. Using US data on small businesses, Asiedu, Freeman, and Nti-Addae (2012) find that 
+while race is a significant predictor of both access to credit and the cost of credit, gender is not. 
+Belluci, Borisov, and Zazzaro (2010) find that female firm-owners in Italy face tighter credit 
+constraints when dealing with one individual bank, even though they do not pay higher interest 
+rates. Using the Italian Credit Registry, however, Alesina, Lotti, and Mistrulli (2013) find that 
+after controlling for entrepreneurial risk, female borrowers do pay higher rates, especially when 
+their guarantor is a female, too. Using a large cross-country sample, Muravyev, Schäfer, and 
+Talavera (2012) find that female firm-owners are more likely to be denied bank credit and that 
+ECB Working Paper 1822, July 2015
+9
+
+
+they tend to pay higher rates on bank loans, while for a number of Sub-Saharan countries 
+Aterido, Beck, and Iacovone (2013) in contrast find no evidence of such gender discrimination. 
+The first three papers use data from one country only and so unlike ours are unable to relate 
+access to credit to the variation in cultural biases across countries. Relative to the latter two 
+papers, we are not only able to link gender to credit outcomes in an international context, but 
+also to investigate the effect of gender bias on that link. 
+The rest of the paper is organized as follows. Section 2 presents the data. Section 3 
+discusses our identification strategy. Our estimates of the effect of inherited cultural biases on 
+credit market outcomes are presented in Section 4. Section 5 concludes. 
+2.
+Data 
+In this section, we discuss the various data sources used in this paper. 
+A.
+General Social Survey 
+Our measure of the inherited gender bias is constructed using data on U.S. born 
+descendants of non-U.S. born forebears. The information itself is provided by the General Social 
+Survey database (GSS). The database covers the period 1972-2010. The data contains a range of 
+demographic characteristics, such as age, gender, religion, marital status, education, and 
+employment status of the respondents. Importantly for our purposes, it provides information 
+on the birthplace and the country of origin of the respondents’ forebears since 1977. The 
+respective GSS variable “ETHNIC” is defined as the answer to the question: “From what 
+countries or part of the world did your ancestors come?” The countries of origin cover almost 
+all European countries, alongside Canada, Mexico, India, and Africa (an aggregate category). We 
+use information on U.S. citizens whose ancestors came from abroad, regardless of when they 
+arrived in the U.S. 
+Our proxy for gender bias is derived from the variable “FEFAM” which is defined by the 
+answer to following question: “It is much better for everyone involved if the man is the achiever 
+ECB Working Paper 1822, July 2015
+10
+
+
+outside the home and the woman takes care of the home and family.” The answers are given on 
+a scale from 1 to 4. From these answers, we construct a variable for inherited gender bias which 
+we denote as “Traditional gender roles”. The variable is equal to 1 if the respondent answered 
+“Strongly agree” or “Agree”, and equal to 0 if the respondent answered “Disagree” or “Strongly 
+disagree”. There are a total of 20,992 responses in the GSS, of which 8,715 (41.5 percent) 
+responded “Strongly agree” or “Agree”, and 12,277 (58.5 percent) responded “Disagree” or 
+“Strongly disagree”.1 6,472 of those respondents come from 17 countries that overlap with the 
+countries in our firm-level dataset which we describe next. 
+B.
+Firm-level data 
+Our firm-level data come from the 2004/2005 wave of the Business Environment and 
+Enterprise Performance Survey (BEEPS), administered jointly by the World Bank and the 
+European Bank for Reconstruction and Development (EBRD).2 We exclude data from other 
+waves of this survey as they do not provide comparable information on credit access. The 2004 
+and 2005 BEEPS surveyed 9,655 firms from 27 countries in Eastern Europe and central Asia, and 
+4,453 firms from 5 Western European countries, respectively. We narrow this sample down to 
+17 countries for which we also have GSS data.3 In addition to that, we exclude all firms that are 
+not sole proprietorships. This allows us to focus on small individually- or family-owned firms. In 
+this way, we make sure that if one of the owners of the firm is female, she has actual influence 
+1 Algan and Cahuc (2010) use an identical strategy to extract the predetermined component of trust from GSS 
+answers on the question whether people in general can be trusted. 
+2 For a detailed discussion of the data, see, e.g., Brown, Ongena, Popov, and zeƔin (2011), Popov and Udell (2012), 
+and Ongena, Popov, and Udell (2013). 
+3 Unfortunately, due to the geographic scope of the survey, we are missing information from many European 
+countries, such as the Scandinavian ones, that were pioneers in women’s rights. We address this issue in a 
+robustness test described in Section 4.B. 
+ECB Working Paper 1822, July 2015
+11
+
+
+in the firm’s decisions. The number of firms that report all the information we require for this 
+study ranges from 141 in Bosnia, Croatia, and Lithuania, to 763 in Poland.4 
+B.1. 
+Credit access 
+To measure credit access by the firm we employ four different measures. We employ 
+the self-reported Share working capital financed with bank credit and the Share working capital 
+financed with trade credit as two direct measures of “past” access to credit. The survey 
+questionnaire also includes three questions about firm financing which allow us to further 
+describe firms’ current access to credit. Firms are first asked if they have a loan or not. Those 
+firms without a loan are then asked in Q47a whether they (a) did not apply for a loan or (b) 
+applied for a loan, but the application was turned down or (c) have a loan application pending.5 
+Those firms that did not apply for a loan are then asked in Q47b to list the main reasons 
+why they did not do so. To this question there are multiple possible answers: (a) The firm does 
+not need a loan, (b) application procedures are too burdensome, (c) collateral requirements are 
+too strict, (d) interest rates are too high, (e) informal payments are necessary, or (f) the firm did 
+not think their application would be approved. From the above questions we establish our two 
+indicators of current credit access. The variable Firm discouraged from applying for a loan is a 
+dummy variable which equals 1 for those firms which did not apply for a loan, listing (b), (c), (d), 
+(e), or (f) as a potential reason. For all firms which did apply for a loan, or did not apply because 
+of reason (a), the variable equals 0. The variable Loan application rejected is a dummy variable 
+4 The survey aimed to achieve representativeness in terms of the size of firms it surveyed: Roughly two thirds of 
+the firms surveyed are “small”, i.e., they have less than 20 workers. By design the survey only covers established 
+firms, i.e., firms which have been in business for at least three years. This implies that our sample does not allow us 
+to examine credit access for very young or start-up firms. Moreover, our results are subject to sample selection, in 
+the sense that we only observe firms which had sufficient internal or external funds to survive for at least three 
+years.
+5 Despite the care by the surveyors to solicit the correct answers, it is not entirely impossible that males 
+underreport past loan rejection or application discouragement more than females. Yet it seems rather unlikely to 
+us that the (mis-)reporting of the shares of working capital would be gender-specific. 
+ECB Working Paper 1822, July 2015
+12
+
+
+which equals 1 for those firms which applied for a loan but their application was turned down, 
+and equals 0 for those firms which applied for a loan and have a loan. Firms with pending 
+applications (i.e., less than 1 percent) are treated as missing. 
+< Table 1 > 
+Table 1 presents summary statistics for our indicators of past and current credit access 
+by country. The table shows that there are substantial cross-country differences in credit access 
+across the countries in our sample. For instance, while only 4 percent of the average Russian 
+firm’s working capital is financed with bank credit, in Ireland bank credit accounts for almost a 
+quarter (24 percent). The fraction of firms that are discouraged from applying for a loan varies 
+between 2 percent in Ireland and 53 percent in Macedonia. The cross-country variation in loan 
+rejection rates is similarly substantial, with 1 percent of loan applications rejected in Bosnia 
+versus 16 percent in the Czech Republic. In general, loan rejections rates appear low, suggesting 
+that in our sample, restriction in access to finance happen mostly in the dimension of 
+discouragement, and that firms apply for a loan only when they are reasonably certain that 
+their application will not be rejected. 
+The availability of data on discouraged firms is one of the main strengths of the BEEPS, 
+allowing us to separate firms that did not apply for a loan because they do not need one from 
+those that did not apply although they need one. The reasons for not applying for a loan vary 
+widely across countries in Eastern Europe. The share of firms which do not apply because they 
+do not need a loan varies from 47 percent in Yugoslavia to 81 percent in Slovenia. The share of 
+firms that are discouraged by burdensome procedures varies from 2 percent in Slovakia to 16 
+percent in Macedonia. Whereas only 1 percent of firms in Estonia feel discouraged because 
+they anticipate rejection, this share is 10 percent in Lithuania. In addition to that, 
+discouragement may signal an actual rejection if firms decide not to file an application after an 
+informal conversation with the loan officer (see Duca and Rosenthal, 1993). 
+ECB Working Paper 1822, July 2015
+13
+
+
+B.2. 
+Loan terms 
+Alongside variables describing various aspects of credit availability, we make use of a 
+number of variables that describe the terms of granted bank loans. Firms with outstanding bank 
+credit provide many details on their most recent loan. In particular, firms in BEEPS are asked 
+about the loan rate, the maturity, the currency denomination, the collateral requirements, and 
+the time it took to negotiate the last bank loan. 
+< Table 2 > 
+Table 2 provides the sample summary statistics by country for the most relevant loan 
+characteristics. In the full sample it takes an average of almost 20 days to negotiate a loan, but 
+only 8 days in Spain and more than a month in the Czech Republic and in Slovakia. The 
+overwhelming majority of loans in all countries are collateralized, but there is great deal of 
+variation, with the share of collateralized loans ranging from 56 percent in Greece and Slovenia 
+to 95 percent in Bosnia and Macedonia. Collateral itself averages 149 percent of the loan. In 
+euro area countries, at most 2 percent of the loans are in foreign currency compared to 45 
+percent in Macedonia. Finally, the nominal average annualized rate of loans is 985 basis points, 
+ranging from 474 basis points in Ireland to 1,794 basis points in Romania. 
+B.3. 
+Firm characteristics 
+Recent empirical research by Brown, Jappelli, and Pagano (2009), Brown, Ongena, and 
+YeƔin (2009), Brown, Ongena, YeƔin, and Popov (2011), Popov and Udell (2012), and Ongena, 
+Popov, and Udell (2012) using the BEEPS data, and by Chakravarty and Xiang (2013) using the 
+similar Investment Climate Survey data, has shown that firm size, ownership, activity, product 
+market competition, accounting standards, bank use and internal financing, and obstacles to 
+doing business affect credit access and credit terms. 
+Following the above literature we relate our indicators of credit access to firm-level 
+indicators of firm size (Small firm, Medium firm, and Large firm), privatization history (Originally 
+ECB Working Paper 1822, July 2015
+14
+
+
+private), export activities (Exporter), the number of local product market competitors of the 
+firm (Competition), access to government subsidies (Subsidized), and accounting standards 
+(Audited). We further feature an indicator of the sector in which the firm operates (by SIC 1-
+digit). Crucially, we incorporate information on the firm owner’s gender (Female). While we do 
+not have data on tangible assets to proxy for the ability of the firm to pledge collateral, the 
+variables capturing firm size and industry of operation alleviate this problem to a large degree. 
+< Table 3 > 
+The definitions of these firm-level variables are provided in the Appendix. Summary 
+statistics for our firm-level variables are presented in Table 3. The table shows substantial cross-
+country variation within our sample in terms of ownership by gender. For example, fewer than 
+1 in 5 firms in Macedonia, Slovakia, and Spain have a female owner, while 1 in 2 in Portugal 
+does. Apart from that, the average firm in our sample is small, originally private, has no access 
+to foreign product markets, receives no subsidies from local or central governments, and does 
+not have its financial statements certified by an external auditor. 
+C.
+Country-level data 
+As in Pistor, Raiser, and Gelfer (2000), de Haas and Lelyveld (2006), Giannetti and 
+Ongena (2008), and Brown, Jappelli, and Pagano (2009), we pay attention to how access to 
+credit may be determined by market and institutional characteristics. In particular, we relate 
+access to credit and loan terms to foreign ownership in the banking sector, to credit 
+information sharing, and creditors’ rights, as well as to various macroeconomic and financial 
+developments. 
+< Table 4 > 
+Table 4 presents summary statistics for our country-level variables. Unsurprisingly, 
+foreign bank ownership is very low in countries with large domestic banks (like Germany and 
+Spain) and very high in Eastern European countries which underwent bank privatizations in the 
+ECB Working Paper 1822, July 2015
+15
+
+
+1990s. Western European countries which have large and developed financial sectors and are 
+euro area members also have the highest private credit/GDP ratios, the highest degree of 
+information sharing, the highest GDP per capita, and the lowest inflation. Conversely, Eastern 
+European countries have on average higher GDP growth rates, although the highest growth 
+rates in the sample are in Greece and Ireland. 
+The central variable in our study is the country-specific gender bias. The variable is 
+calculated using the answers by descendants of European immigrants in the US to the GSS 
+question on the role of women in society (see Section 2.A). We describe the estimating 
+procedure we employ to calculate this variable in the next section, but the general idea is that 
+after controlling for a variety of demographic characteristics, we interpret the coefficient on the 
+country-of-origin fixed effect as the inherited gender bias. In an OLS context, this gender bias is 
+calculated relative to the rest of the countries in the GSS. As Table 4 makes clear, being a 
+descendant of parents coming from the countries in former Yugoslavia results in a higher 
+gender bias, and being a descendant of, for instance, Irish parents results in a lower gender 
+bias, than being a descendant of parents coming from the reference group. 
+3.
+Identification strategy 
+In this section, we discuss the construction of our measure of country-specific inherited 
+gender bias, as well as the identification strategy. 
+A.
+Inherited gender bias 
+The construction of the country-specific measure of gender bias is based on the GSS. To 
+simplify things, we do not focus on one particular generation, but take the answers of all 
+respondents in the survey, regardless of what generation immigrants they are. Thus, inherited 
+ECB Working Paper 1822, July 2015
+16
+
+
+trust in 2005 corresponds to the trust inherited by U.S.-born children of European immigrants, 
+born at any point after 1910.6 
+< Table 5 > 
+Table 5 reports the OLS estimates of the gender bias for the full sample.7 The gender 
+bias of all other countries of origin is used as the reference group.8 The regression includes 
+country-of-ancestry dummies, whose estimated coefficients are then used as the country-
+specific proxies for the gender bias. In addition to those, the regression controls for a host of 
+individual-specific characteristics: Age, age squared, education, gender, religion, employment 
+status, and income. The total number of observations for which data is available on all relevant 
+variables is 20,992. 
+The results imply that the gender bias increases with age and decreases with education. 
+Males have a higher gender bias than females. All religious groups have a higher gender bias 
+than atheists (the reference groups), with the exception of Jewish respondents. Employed, 
+unemployed, and retired persons have a lower gender bias relative to the control group (which 
+is comprised of inactive persons). Finally, respondents with a higher income have a significantly 
+lower gender bias. 
+Turning to the countries in our sample, the lowest gender bias in our sample – all else 
+equal - is exhibited by the descendant of immigrants from Ireland, who are 4.1 percentage 
+points less likely to agree that “it is better if the man pursues a professional career and the 
+6 Paulson and Osili (2008) show that the ancestral beliefs of U.S. immigrants decline over time, suggesting that 
+gender bias may be more pronounced for U.S. citizens who immigrated to the U.S. more recently. We perform 
+tests using the latest wave of immigrants only, and our results are robust to this alternative measurement of the 
+inherited gender bias. 
+7 The probit regression yields similar results. 
+8 An identical ranking of countries in terms of gender bias is obtained when we run the test on the 17 countries in 
+the BEEPS data only, using Polish-Americans as a reference group. 
+ECB Working Paper 1822, July 2015
+17
+
+
+woman takes care of the house and family” than the descendants of the immigrants from the 
+reference group. At the other extreme, descendants of the immigrants from Yugoslavia are 20.2 
+percentage points more likely to agree with this claim than the reference country descendants. 
+We match the coefficient on the Yugoslavia dummy to all five countries in the sample that by 
+2005 former Yugoslavia had broken into (i.e., Bosnia, Croatia, Macedonia, Slovenia, and 
+Yugoslavia, comprised of Serbia and Montenegro; we later report on the strengthening effect 
+on our estimates of removing Yugoslavia from the sample). We also assign the estimate on the 
+Czechoslovakia dummy to both the Czech Republic and to Slovakia. 
+In general, we classify the bottom 50% of the countries as in terms of gender bias 
+relative to the reference group as low-gender bias countries. These countries are the Czech 
+Republic, Germany, Greece, Ireland, Lithuania, Portugal, Russia, and Slovakia. Because the 
+country-specific gender bias includes a measurement error, being an OLS regression estimate 
+itself, in future tests, we pool these countries into the group of “Low gender bias” countries. 
+The rest of the countries we classify as the “High gender bias” countries. 
+One caveat related to our approach is that even if we have a good proxy for inherited 
+gender bias, the correlation between inherited values and contemporaneous economic 
+outcomes can be interpreted as a causal relation only if the two variables are not codetermined 
+by common factors. It is possible that changes in inherited trust and in credit access are driven 
+by changes in institutions that disadvantage women. For example, if the legal system excludes 
+women from the inheritance of property, female entrepreneurs will be less likely to have 
+tangible collateral to pledge against bank credit, and this phenomenon may affect both gender 
+bias and credit access. To address this issue, in robustness tests we calculate the gender bias 
+from the earliest possible sub-sample of immigrants to the US. This does not change the 
+ranking of countries in terms of gender bias, and hence the main results of the paper. 
+ECB Working Paper 1822, July 2015
+18
+
+
+B.
+Empirical strategy 
+In order to tease out the causal effect of culture on credit market outcomes, we 
+evaluate the effect of gender on credit market outcomes accounting for gender bias. For 
+simplicity of illustration, yet without loss of generality, assume that countries can be divided 
+into those with a high gender bias and those where society does not derive disutility from 
+treating females as equal to males. We create a dummy variable equal to 1 if the US 
+descendants of emigrants from the respective country have a higher gender bias than the US 
+descendants of emigrants from the reference group, and to 0 if they have a lower gender bias. 
+Then, we estimate the following equations: 
+isc
+sc
+isc
+isc
+c
+isc
+isc
+X
+Female
+Bias
+Female
+access
+Credit
+H
+E
+E
+E
+E
+
+'
+
+
+
+
+ 
+4
+3
+2
+1
+_
+                (1) 
+and 
+isct
+sct
+sc
+isc
+isct
+c
+isc
+isct
+Y
+X
+Female
+Bias
+Female
+term
+Loan
+H
+E
+E
+E
+E
+E
+
+'
+
+
+
+
+
+ 
+5
+4
+3
+2
+1
+_
+      (2) 
+In model (1), we evaluate the effect of the gender of the owner of firm i in sector s in 
+country c on the probability of being rejected or discouraged in credit markets, as well as on the 
+share of capital financed from bank versus non-bank sources, in high relative to low gender bias 
+countries.9 The equation controls for firm (X) characteristics, and it includes interactions of 
+sector and country fixed effects (
+sc
+' ). Including firm characteristics is crucial since female-
+owned firms may also be smaller, and so the effect of gender on credit we measure may be 
+contaminated by the effect of size. The fixed effects are also enormously important as they 
+control for any market-sector unobservables that are common across all firms. For example, it 
+is possible that there is disproportionate concentration of female entrepreneurs in industries 
+9 In the case of our dummy variables for credit access, we employ a probit regression, but the results are robust to 
+using a logit model. 
+ECB Working Paper 1822, July 2015
+19
+
+
+which use more trade credit and less bank credit for technological reasons. While this “female-
+run agriculture vs. male-run manufacturing” story may be more applicable to developing 
+economies than to the countries in our sample, we wish to fully account for such possibilities, 
+and the comprehensive matrix of country and sector fixed effects does exactly that. 
+In model (2), we evaluate the effect of gender on the terms of granted loans (days to 
+negotiate the loan, collateral, currency denomination, loan rate), in high relative to low gender 
+bias countries. Although there is only one loan per firm, this regression has a panel component 
+because loans were received at different points in time (between 1998 and 2005), which allows 
+us to control for the time-varying component of the various country-level developments (Y). 
+The regressions also include different combinations of country, industry, and time fixed effects. 
+In the two equations, 
+isc
+H
+ and 
+isct
+H
+, respectively, are i.i.d. error terms composed of a 
+person-specific idiosyncratic shock and any unobservable sector-country (sector-country-year) 
+fixed effects. We cluster the standard errors by country to allow for arbitrary within-country 
+correlations in the errors. 
+In these specifications, 
+2
+E measures the causal impact of being female on access to 
+credit or on the terms of granted loans, respectively, and
+2
+1
+E
+E 
+ measures the effect of being 
+female on credit market outcomes or on the terms of granted loans in countries with high 
+gender bias. The direct effect of gender bias, which is common to everyone in the respective 
+group of countries, is subsumed in the country fixed effects. The matrix of country and industry 
+fixed effect interactions accounts for the possibility that a “female-run agriculture vs. male-run 
+manufacturing”-type separation is more likely to take place in countries with a high gender 
+bias. 
+ECB Working Paper 1822, July 2015
+20
+
+
+4.
+Results 
+A.
+Inherited cultural bias, gender, and credit market outcomes 
+We now turn to the correlation between gender and credit market outcomes, in high vs. 
+low gender bias countries. The idea of this section is to test the following hypotheses: a) Firm-
+owners’ decision whether to apply for credit are affected by their gender and by the cultural 
+environment, and b) bankers’ decisions to ration female-owned firms that are similar to male-
+owned firms in terms of creditworthiness are driven by a gender bias. While Hertz (2011) and 
+Muravyev, Schäfer, and Talavera (2012) provide evidence that banks discriminate against 
+female corporate loan applicants, we want to test whether such an effect can be linked to 
+gender bias in society. We also aim to test whether there is an informal mechanism whereby 
+female firm-owners are more often discouraged from applying for formal credit in high gender 
+bias countries. 
+   A.1. Inherited cultural bias, gender, and credit access 
+We first investigate the determinants of credit access. Table 6 reports the empirical 
+estimates from Model (1). We start by zooming in on the sources of financing of working 
+capital. We focus on bank credit and on trade credit. Prior work on the pecking order in 
+corporate finance suggests that trade credit is the most expensive source of finance for the 
+firm, and it is only used when no other source of external finance (such as bank credit) is 
+accessible (e.g., Petersen and Rajan, 1994; Petersen and Rajan, 1997; Harhoff and Koerting, 
+1998). We make two salient assumptions, i.e., that female firm-owners have the same 
+preferences over the pecking order and that they face the same probability of success when 
+applying for trade credit. Then, female owners having relatively lower access to cheaper bank 
+credit and having to rely relatively more on more expensive trade credit, especially in high 
+gender bias countries, would be one manifestation of taste-based discrimination. 
+< Table 6 > 
+ECB Working Paper 1822, July 2015
+21
+
+
+Column (1) investigates the determinants of bank credit finance and column (2) the 
+determinants of trade credit finance. Consistent with the prior literature we find that, all else 
+equal, small firms and sole proprietorships are more credit constrained, potentially indicating a 
+lower ability to tap alternative capital markets; firms that export part of their production are 
+less constrained in terms of both types of finance, potentially signalling the willingness of banks 
+and customers/suppliers to lend to firms with higher growth prospects; and audited firms are 
+less credit constrained, implying gains from the reduction of informational opacity in terms of 
+credit market access. 
+Turning to our primary variable of interest - the interaction term of “Traditional gender 
+roles” with “Female owner” – we find that a stronger gender bias in the country moderately 
+decreases the share of working capital that is financed with bank credit in firms with female 
+owners (column (1)). This effect is not statistically significant. At the same time, female firm-
+owners appear to finance a smaller portion of their capital expenditures using bank loans, with 
+this effect being significant across the board. 
+The estimate in column (2) implies that a strong gender bias sharply (and statistically 
+significantly) increases the share financed with trade credit. Numerically, the estimated 
+coefficient implies that if a firm with a female owner would move from Ireland to Spain, for 
+example, trade credit financing would increase by 1.6 percentage points more than if the owner 
+of the firms was a male. Given that the mean share of working capital financed with trade 
+credit in the sample is only 6.4 percent, moving to a low-gender bias country would decrease 
+reliance on informal credit by 25%. 
+In the next two columns, we investigate the determinants of being completely shut out 
+from the credit markets, either because the firm was discouraged from applying (column (3)) or 
+because it applied but its application was rejected (column (4)). We confirm the sign of the firm 
+covariates; namely, small firms are both rejected and discouraged more often, while exporters 
+and audited firms are less often credit constrained. Importantly, we find further evidence for a 
+ECB Working Paper 1822, July 2015
+22
+
+
+link between gender bias and credit access. Column (3) shows that female owners are more 
+likely to be discouraged from applying for a loan in countries with high gender bias. 
+Numerically, moving from Ireland to Spain increases discouragement by female owners by 6 
+percentage points more than male owners. Once again, this result is economically significant: 
+given that the mean probability of discouragement across all firms is 23 percent, a female 
+entrepreneur in a low-gender bias country would be 26% less likely to be discouraged from 
+applying for bank credit than in a high-gender bias country, ceteris paribus.10  
+To get an idea of the aggregate effect, consider the following back-of-the-envelope 
+calculation. In 2012, there were about 2.5 mln. SMEs in Spain.11 According to the BEEPS, 19% of 
+these are female-owned, or 475,000. Out of these, 61% have enough internal funds to finance 
+their investment needs. Of the 39% female-owned firms with a strictly positive need of bank 
+credit, 20% are discouraged from applying for a loan, which amounts to 37,000 firms in the 
+aggregate. Our estimates imply that if Spain had as low gender bias as Ireland, an additional 
+2200 female-owned firms would be applying for bank credit each year. Of course, this is a 
+conservative calculation which disregards the fact that with lower gender bias, there could be 
+many more female-owned firms to begin with.  
+Finally, the estimate of the coefficient on the interaction term in column (4) is not 
+statistically significant (although economically relevant, too). This implies that the banking 
+sector in high-gender bias countries does not discriminate against female firm-owners that 
+actually apply for lines of credit. To take once again the example of Spain, our evidence 
+suggests that if a female-owned SME with a positive need of bank credit were to apply for a line 
+10 Female owners in strong gender bias countries may be discouraged from applying for a loan, not because they 
+correctly anticipate rejection due to taste-based discrimination, but because they “internalize” the gender bias and 
+feel less confident applying per se. As obtaining trade credit is also often a matter of requesting and negotiating it 
+(yet we observe trade credit to increase) we do not think such a lack of confidence necessarily applies to the 
+female owners in our sample. 
+11 See the European Commission’s “Enterprise and industry SBA Factsheet 2012: Spain”. 
+ECB Working Paper 1822, July 2015
+23
+
+
+of credit, it would face the same application approval rate (98%) as a male-owned SME. We 
+conclude that in high-gender bias countries, female entrepreneurs appear to be more likely to 
+opt out of the loan application process, even though banks do not discriminate against females 
+that end up applying for credit. 
+A.2. Inherited cultural bias, gender, and loan terms 
+Next we assess if the inherited cultural bias has an impact on the loan terms firms with 
+female owners obtain (versus firms owned by males). We extend the framework in Alesina, 
+Lotti, and Mistrulli (2013) who reject the hypothesis that banks do not price discriminate 
+against females. However, we go beyond previous studies that focused on loan rates, by also 
+looking at the effect of the firm owner’s gender on the time it takes to negotiate the loan, on 
+the loan’s collateral, and on its currency denomination. Crucially, we compare these effects 
+across high and low gender bias countries. 
+For a start, we find that some of the variables which matter for credit access (as in Table 
+6) also have an impact on the terms of granted loans. In particular, small firms pay higher rates 
+on bank loans (column (5)), but these loans are less likely to require collateral (column (2)) and 
+take a shorter time to negotiate (column (1)). On the contrary, exporters are charged lower 
+rates by their bank (column (5)) and are more likely to have a loan in foreign currency (column 
+(4)), potentially in order to reduce exchange rate risk vis-à-vis their export destination. 
+In terms of some of the time-varying country-level variables included in this regression, 
+loan conditions are easier to negotiate banks in countries with better protection of creditors 
+rights (column (1)), and banks charge on average higher rates in countries with higher 
+restrictions on new business entry (column (5)). 
+< Table 7 > 
+Turning to the variables of interest, in sharp contrast to our earlier findings on credit 
+access, the estimated coefficients on the interaction term of the “Traditional gender roles” and 
+ECB Working Paper 1822, July 2015
+24
+
+
+“Female owner” is statistically insignificant in all but one case when a loan term is the 
+dependent variable. For example, female-owned firms are no more likely to be charged higher 
+rates on loans, both in high and in low gender bias countries (column (1)). This finding is 
+somewhat at odds with Alesina, Lotti, and Mistrulli (2013) who detect price discrimination 
+against female entrepreneurs in Italy. We also find that in high-gender bias countries, female- 
+and male-owned firms do not differ in the time it takes to negotiate a loan (column (1)) or in 
+collateralization conditions (columns (2) and (3)), either.12 
+This collection of null results implies that in high-gender bias countries there is no 
+difference in the terms on loans between male- and female-owned firms. Our data thus provide 
+no evidence of discrimination by banks against female firm-owners in high-gender bias 
+countries, both in the dimension of loan rejection rates and in the dimension of terms on 
+granted loans. However, credit access by female-owned firms is statistically lower in high-
+gender bias countries because female entrepreneurs are more likely to opt out of the formal 
+credit granting process. Consequently, female-owned firms are more likely to resort to informal 
+(and potentially more expensive) credit, such as trade credit. The evidence so far thus implies 
+that if our results are indeed due to the operation of a cultural bias, this bias works through 
+discouraging females from seeking credit access rather than through banks actively denying 
+them such access. 
+B.
+Robustness 
+There are potentially a number of non-trivial yet surmountable problems with our 
+empirical analysis so far. To begin with, one of the identifying assumptions related to models (1) 
+and (2) is that female- and male-owned firms seeking access to finance are similar in all 
+12 Model (2) can alternatively be written as a two-stage model, whereby in the first stage firms select themselves 
+into or out of the loan application process, and in the second stage are offered loan terms by the bank (see Popov 
+and Udell, 2012, for an example of such empirical strategy). We have run such a version of the empirical model, 
+and the main results are qualitatively unchanged (results available upon request).
+ECB Working Paper 1822, July 2015
+25
+
+
+respects except for the owner’s gender. This assumption is intrinsically questionable. For 
+example, if female entrepreneurs are indeed discriminated against, they are likely to end up 
+running smaller firms. This may bias our results even if we formally control for firm size, if the 
+distribution of firm sizes would suffer from an insufficient overlap across the two groups. 
+Second, our dummy for gender bias is constructed such that countries with gender bias close to 
+0, according to the estimates in Table 5 (Greece, Germany, and Portugal), are split in two 
+different groups. 
+The third problem is related to sample size. In particular, our measure of gender bias is 
+calculated across a limited number of countries; we have only 17 countries in the BEEPS 
+dataset. Furthermore, only 12 countries of origin in the GSS dataset which we use to calculate 
+the proxy for gender bias used in the empirical tests. Part of this exercise relies on assigning one 
+measure of gender bias to both the Czech Republic and to Slovakia, and one measure of gender 
+bias to five countries from former Yugoslavia (Bosnia, Croatia, Macedonia, Serbia and 
+Montenegro, and Slovenia). Such extrapolation may not be fully appropriate if these countries 
+exhibited large cultural differences. 
+We begin by addressing the first problem, namely, that female-owned firms may be 
+systematically different from male-owned ones. To control for that possibility, we borrow from 
+the propensity score literature pioneered by Rosenbaum and Rubin (1983). We first run a 
+logistic regression of the female dummy on the rest of the firm-level variables described in 
+Table 3. We also include country and industry fixed effects in the regression. Panel A of Table 8 
+clearly indicates that the two types of firms indeed differ across a number of dimensions. In 
+particular, female-owned firms are statistically more likely than male-owned firms to be small 
+and originally private rather than privatized, as well as to face a less competitive environment. 
+< Table 8 > 
+We use the set of statistically significant variables from this regression to calculate the 
+propensity score. Next, we choose for each female-owned firm a male-owned one that is most 
+ECB Working Paper 1822, July 2015
+26
+
+
+similar based on this set of observable characteristics, and re-run model (1) on the new, 
+reduced sample derived from this propensity score matching procedure. In the resulting 
+sample, female- and male-owned firms are comparable based on observable firm 
+characteristics. Panel B of Table 8 indicates that our main results are not weakened by this 
+alternative procedure. Female-owned firms are still more likely to be discouraged and to resort 
+to informal sources of finance, such as trade credit, in high gender bias countries. They are also 
+less likely to have their loan application rejected, and this time the result is marginally 
+significant.  
+We address the second problem in two different ways. First, we replace the dummy 
+variable for gender bias that we have used so far with the continuous variable estimated in 
+Table 5. While the latter is clearly subject to measurement error, its advantage is that it does 
+not separate in different groups medium-bias countries that are very close to each other in 
+terms of numerical estimates (e.g., Germany and Greece). The estimates of these regressions 
+are reported in Table 9, Panel A, and they imply that our main results are robust to this 
+alternative specification. In Panel B, we address the same problem by simply dropping the three 
+medium-bias countries (Germany, Greece, and Portugal). The estimates continue to suggest 
+that in high-gender bias countries, female firm owners are more likely to be discouraged from 
+applying for bank credit and to resort to informal finance.13 Numerically, for example, the 
+estimate reported in column (3) implies that females are statistically more likely to be 
+discouraged from applying than men in countries where the continuous gender bias variable is 
+higher than -0.02, a groups which includes 12 countries rather than the 8 countries in the 
+treatment group in our tests so far.  
+< Table 9 > 
+13 In unreported regressions we exclude the 5 countries of former Yugoslavia that were given the same value for 
+gender bias in the empirical procedure in Table 5; the magnitude of the effect of gender bias on discouragement 
+increases by 50% and becomes significant at the 1% level.
+ECB Working Paper 1822, July 2015
+27
+
+
+While the procedure in Table 9 goes some way in addressing the concern that our 
+results may be contaminated by credit market experience in medium-bias countries, it only 
+exacerbates the third problem which is related to the small size of our sample of countries. To 
+that end, we next resort to the Global Entrepreneurship Monitor (GEM) to extract alternative 
+measures of male and female entrepreneurial tendencies. The GEM collects survey data from 
+current and potential entrepreneurs in 67 countries, ranging from Western Europe to Sub-
+Saharan Africa. While there are no questions related to access to finance, there are questions 
+on entrepreneurial intentions summarized, by gender for each country. In particular, one of the 
+questions in the survey asks non-entrepreneurs: “Do you intend to start a business in the next 
+three years?” We hypothesize that if potential female entrepreneurs are less likely to start a 
+business in the future – relative to male counterparts – in high gender bias countries, this could 
+be interpreted as corroborative evidence to the one we have presented so far. 
+There are 28 countries which are present both in the GEM as a country of residence, and 
+in the GSS as a country of origin. We repeat on this larger sample our test aimed at extracting 
+exogenous measures of inherited gender bias (See Section 3.A.).14 This allows us to extract 
+measures of inherited gender bias for each of the 28 countries, as the coefficient on the 
+country-of-origin dummy. Next, we calculate the variable Intention to start ĂďƵƐŝŶĞƐƐ͕ ѐ;DĂůĞ
+– Female) as the difference in average entrepreneurial intentions for males and for females, for 
+each country. This difference ranges from 0.02 in Sweden (where 12% of males intend to start a 
+business in the next three years and 10% of females do) to 15% in Romania (where 35% of 
+males intend to start a business in the next three years and 20% of females do). We then 
+correlate this measure of relative entrepreneurial tendencies to our measure of inherited 
+gender bias. 
+14 We now include the following countries, in addition to the ones included in the initial test reported in Table 5: 
+Austria, Belgium, Denmark, Finland, France, Italy, Japan, Mexico, Netherlands, Norway, Sweden, Switzerland, and 
+the UK. The Czech Republic and Lithuania are not included in the GEM. 
+ECB Working Paper 1822, July 2015
+28
+
+
+< Table 10 > 
+In Table 10, we report the estimates from this test. Column (1) suggests that gender bias 
+alone explains about 21% of the variation in entrepreneurial intentions between males and 
+females. The correlation itself is statistically significant at the 1% level. In column (2), we add 
+the rest of the country-level variables employed in Table 7. The male-female gap in 
+entrepreneurial tendencies widens with GDP growth and with good institutions for protection 
+of creditors and for enforcement of contracts, and it is larger in countries with fewer entry 
+barriers. Crucially, the male-female gap is still positively and statistically significantly (at the 5% 
+level) correlated with our measure of gender bias derived from the GSS. Encouragingly, the 
+limited set of country-level variables included in the regression has a very high explanatory 
+power (R-squared of 0.68), suggesting that the correlation between gender bias and the male-
+female gap in entrepreneurial tendencies is unlikely to be driven by an omitted factor. 
+C.
+Interpretation of the results 
+Our results so far indicate that credit access is far more problematic for female than for 
+male firm-owners in countries where the gender bias is strong. This is especially true in the case 
+of discouragement from applying for bank credit. Loan rejection rates and loan terms, on the 
+other hand, are not different between female- and male-owned firms. 
+Do these findings imply that there is taste-based discrimination against female 
+entrepreneurs in countries with high gender bias? This question crucially depends on the 
+nature of discouragement and on differences in ability across genders in those countries. 
+Focusing on the first question, out of the five possible reasons for discouragement, only one 
+deals with beliefs about access (“the firm did not think their application would be approved”), 
+while two deal with beliefs about credit terms that would be offered if the firm were to apply 
+for a bank loan (“collateral requirements are too strict” and “interest rates are too high”). It is 
+possible that in high-gender bias countries, female entrepreneurs are less wealthy, in which 
+ECB Working Paper 1822, July 2015
+29
+
+
+ 
+case their being discouraged by adverse credit terms would be a rational response to their 
+inability to pledge collateral rather than a sign of discrimination. 
+< Table 11 > 
+To address this issue, we split the reasons for discouragement in the four categories for 
+which there are sufficient number of answers (this procedure leads to the exclusion of 
+discouragement due to the fact that “it is necessary to make informal payments to the bank”), 
+and re-estimate Model (3). The estimates in Table 11 indicate that the discouragement of 
+female entrepreneurs is driven by the belief that their application would not be approved 
+rather than by their perception of adverse credit terms. This finding strongly points in the 
+direction of a belief-based “abstention” from partaking in the process to obtain credit. To the 
+extent that this result may reflect a mechanism related to the fear of social stigma, it is 
+reminiscent of microfinance studies which have found a tendency of female heads of 
+households to underreport debt relative to males (e.g., Karlan and Zinman, 2010). 
+Turning to the question of differences in ability across genders, if male and female 
+entrepreneurs are indeed of equal ability, then our results point to taste-based discrimination 
+before the loan application stage where females are mostly discouraged from applying, and 
+resort to informal finance, such as trade credit. At the loan application stage itself, the financial 
+system does not seem to be discriminating, resulting in similar terms on granted loans.15 
+Alternatively, men and women could differ in other salient ways. For example, women 
+tend to be more risk-averse (Powel and Ansic, 1997; Jianakoplos and Bernasek, 1998). More 
+recent experimental evidence has suggested that gender-specific risk behaviour may be due to 
+15 Once access to credit through a non-discriminatory loan officer is possible, potentially because the loan officer 
+herself is a female (Beck, Behr, and Madestam, 2012), similar loan terms suggest that female-owned firms are 
+deemed to be similar to male-owned firms. However, we do not have information on the loan officer to investigate 
+this possibility further. 
+ECB Working Paper 1822, July 2015
+30
+
+
+differences in opportunity sets rather than risk attitudes (Schubert, Brown, Gysler, and 
+Brachniger, 1999), implying that women may be particularly more risk-averse in high-gender 
+bias countries. In addition, women tend to dislike competition (Niederle and Vesterlund, 2007). 
+These considerations might explain our result that female entrepreneurs are more likely to be 
+discouraged from applying for a loan, especially in high-gender bias countries. In addition, they 
+also imply that in countries with a high gender bias, where women are discriminated against, 
+only the most capable and competitive females start a business and therefore can survive to 
+the loan application stage. In this case, the average female entrepreneur would be more skilled 
+than the average male entrepreneur. If so, then equal loan conditions would also point to taste-
+based discrimination, this time at the loan approval stage. 
+However, female entrepreneurs could differ from male entrepreneurs in ways which 
+would explain our results absent taste-based discrimination. For example, if women are 
+discriminated against, their inputs (such as education and training) might be of lower quality 
+than those of men. Klumpp and Su (2013) argue that the belief that the human capital 
+distribution exhibits less variation across females can be self-fulfilling, resulting in fewer “star” 
+females and leading to a “glass ceiling” effect. Female firm owners might therefore face lower 
+access to credit not because of direct discrimination at that stage, but because of differential 
+skill accumulation leading to lower expected growth or higher expected risk. Consistent with 
+this idea, Cavaluzzo and Cavaluzzo (1998) and Blanchflower, Levine, and Zimmerman (2003) do 
+not find significant evidence of gender based discrimination in the US credit market once 
+proxies for firm risk are taken into account. The firm-level variables and interactions of sector 
+and country dummies we have included in our tests so far only imperfectly control for firm 
+growth or risk. 
+To investigate this point more formally, we now analyse the difference in firm growth 
+across the dimensions of gender, gender bias, and access to credit. In Table 12, we run a 
+ECB Working Paper 1822, July 2015
+31
+
+
+version of our main tests where the independent variable is realised firm sales growth in the 
+past three years.16 
+< Table 12 > 
+Column (1) suggests that conditioning on firm-level observables and on country and 
+industry fixed effects, there are no differences between male-owned and female owned in 
+terms of sales growth. If anything, female-owned firms tend to grow faster, but the difference 
+is not significant in the statistical sense. In addition, the evidence in Column (2) implies that 
+female-owned and male-owned firms exhibit similar growth rates in high-gender bias countries 
+as well. This goes somewhat against the idea of statistical discrimination in high-gender bias 
+countries whereby access to finance reflects the inferior skills of female entrepreneurs due to 
+gender discrimination which starts early on in their lives. 
+However, it could still be that only the most capable females become entrepreneurs, so 
+their firms should grow faster, but because they are constrained, their firms grow as fast as 
+male-owned ones. To that end, in the next two columns we perform even stricter tests where 
+we construct a dummy variable equal to 1 if the firm is female-owned and it does not have a 
+bank loan because it was rejected or was discouraged from applying, and to 0 if the firm is 
+male-owned and its loan application was approved. Essentially, we are comparing the 
+performance of otherwise identical firms which vary both in the dimension of gender and credit 
+experience. The evidence suggests that we cannot reject the null hypothesis that the two types 
+of firms grow at different rates, not even in high-gender bias countries (Column (4)). The fact 
+that constrained female-owned firms grow as fast as unconstrained male-owned firms suggests 
+that there is no evidence to females having inferior skills to males in high-gender bias countries. 
+16 Our results are qualitatively unchanged when we repeat the tests for the logarithm of sales growth, in order to 
+account for outliers. 
+ECB Working Paper 1822, July 2015
+32
+
+
+Therefore, it is reasonable to conclude that the evidence in Tables 6-11 is suggestive of credit 
+barriers to female entrepreneurs in countries with a high gender bias. 
+Of course, we have no way of fully eliminating alternative mechanisms related to 
+unobservable differences between male and female entrepreneurs. One such mechanism can 
+be related to spatial mismatch. For example, Rosenthal and Strange (2012) show that female 
+entrepreneurs can be less networked than male counterparts, and they may face greater 
+domestic burdens, leading them to choose locations that are farther from agglomeration and 
+are associated with shorter commuting distances. With such mechanism in place in gender bias 
+countries where domestic burdens may be particularly high, female entrepreneurs may be less 
+experienced in dealing with banks, and as a result be more reluctant to apply for credit. While 
+we cannot entirely rule out this possibility, we think that this mechanism may not be as strong 
+in most countries in our sample as these have fairly low birth rates, a recent communist past of 
+gender equality when it comes to labor participation, and wide availability of child crèches. 
+5.
+Conclusion 
+We analyse differential credit access and terms across 17 countries for female- versus 
+male-owned firms using responses from 5,905 small family firms in the 2004/2005 wave of the 
+Business Environment and Enterprise Performance Survey (BEEPS). We find that in high-gender 
+bias countries, firms owned by females have lower access to bank credit than otherwise similar 
+firms owned by males. This phenomenon is fully explained by the fact that in high-gender bias 
+countries, female entrepreneurs are more likely to opt out of the formal credit granting 
+process, largely because they believe their loan application will be denied. In contrast, there are 
+no statistical differences between female- and male-owned firms in loan rejection rates or in 
+the terms on granted loans, such as rates or collateral required by the bank. We also find that 
+female-owned firms do not underperform male-owned firms in terms of sales growth, even 
+when not obtaining credit or when based in high gender-bias countries, alleviating concerns 
+that our results are driven by statistical discrimination. 
+ECB Working Paper 1822, July 2015
+33
+
+
+Our findings suggest taste-based gender discrimination that limits credit access of firms 
+owned by females through the mechanism of self-selection out of the credit granting process. 
+Once the credit application is made, similar approval rates and loan terms suggest female-
+owned firms are assessed to be identical to male-owned firms, and this assessment is correct 
+because their credit worthiness also turns out to be statistically similar. The evidence thus 
+suggests that there is no taste-based discrimination at the level of the bank, i.e., it is not the 
+case that loan officers select only the best female-owned firms while lending also to mediocre 
+male-owned firms. 
+The contribution of our paper therefore consists in linking the severity of the inherited 
+cultural gender bias as it exists across countries to one specific economic outcome (credit 
+access). Our results are consistent with taste-based gender discrimination whereby female 
+entrepreneurs tend to shy away from the formal credit granting process in countries where 
+cultural attitudes favour males, even though credit markets are not actively discriminating 
+against them. One potentially effective policy aimed at addressing this issue is to stimulate 
+banks to recruit and train female loan officers that may be viewed as less subject to a gender 
+bias (Beck, Behr, and Guettler, 2013), which in turn could encourage female entrepreneurs to 
+apply for loans or lines of credit.  
+ECB Working Paper 1822, July 2015
+34
+
+
+Bibliography 
+Aghion, P., Algan, Y., and P. Cahuc, 2011. Civil society and the state: The interplay 
+between cooperation and minimum wage regulation. Journal of the European Economic 
+Association 9, 3-42. 
+Aghion, P., Algan, Y., Cahuc, P., and A. Shleifer, 2010. Regulation and distrust. Quarterly 
+Journal of Economics 125, 1015-1049. 
+Alesina, A., Lotti, F., and P. Mistrulli, 2013. Do women pay more for credit? Evidence 
+from Italy. Journal of the European Economic Association 11, 45-66. 
+Algan, Y., and P. Cahuc, 2009. Civic virtue and labor market institutions. American 
+Economic Journal: Macroeconomics 1, 111-145. 
+Algan, Y., and P. Cahuc, 2010. Inherited trust and growth. American Economic Review 
+100, 2060-2092. 
+Altonji, J., and R. Blank, 1999. Race and Gender in the Labor Market. In Ashenfelter, O. C. 
+and D. Card (eds.), Handbook of Labour Economics, Elsevier Science Publishers 3, Chapter 48, 
+3143-3259. 
+Asiedu, Elizabeth, Freeman, J., and A. Nti-Addae, 2012. Access to credit by small 
+businesses: How relevant are race, ethnicity, and gender? American Economic Review 102, 532-
+537.  
+Aterido, R., Beck, T., and L. Iacovone. 2013. Access to finance in Sub-Saharan Africa: Is 
+there a gender gap? World Development 47, 102-120. 
+Barr, A., and D. Serra, 2010. Corruption and culture: An experimental analysis. Journal of 
+Public Economics 94, 862-869. 
+ECB Working Paper 1822, July 2015
+35
+
+
+Bayard, K., Hellerstein, J., Neumark, D., and K. Troske, 2003. New evidence on sex 
+segregation and sex differences in wages from matched employee-employer data. Journal of 
+Labor Economics 21, 887–922. 
+Beck, T., Levine, R., and A. Levkov, 2010. Big bad banks? The winners and losers from 
+bank deregulation in the United States. Journal of Finance 65, 1637-1667. 
+Beck, T., Behr, P. and A. Madestam, 2012. Sex and credit: Is there a gender bias in 
+lending? European Banking Center Discussion Paper 17. 
+Beck, T., Behr, P., and A. Guettler, 2013. Gender and banking: Are women better loan 
+officers? Review of Finance 17, 1279-1321. 
+Becker, G., 1957. The Economics of Discrimination. Chicago, IL: University of Chicago 
+Press. 
+Bellucci, A., Borisov, A., and A. Zazzaro, 2010. Does gender matter in bank-firm 
+relationships? Evidence from small business lending. Journal of Banking & Finance 34, 2968-
+2984. 
+Bertrand, M., and S. Mullainathan, 2004. Are Emily and Greg more employable than 
+Lakisha and Jamal? A field experiment on labor market discrimination. American Economic 
+Review 94, 991-1013. 
+Blanchflower, D., Levine, P., and D. Zimmerman, 2003. Discrimination in the small 
+business credit market. Review of Economics and Statistics 85, 930-943. 
+Brown, M., Jappelli, T., and M. Pagano, 2009. Information sharing and credit: Firm-level 
+evidence from transition countries. Journal of Financial Intermediation 18, 151-172.  
+Brown, M., S. Ongena, A. Popov, and P. YeƔin, 2011. Who needs credit and who gets 
+credit in Eastern Europe? Economic Policy 65, 93-130. 
+ECB Working Paper 1822, July 2015
+36
+
+
+Carneiro, P., Heckman, J., and D. Masterov, 2005. Labor market discrimination and racial 
+differences in pre-market factors. Journal of Law and Economics 48, 1-39. 
+Case, A., and C. Paxson, 2008. Stature and status: Height, ability, and labor market 
+outcomes. Journal of Political Economy 116, 499-532. 
+Castilo, M., Petrie, R., Torero, M, and L. Vesterlund, 2013. Gender difference in 
+bargaining outcomes: A field experiment on discrimination. Journal of Public Economics 99, 35-
+48. 
+Cavalluzzo, K., and L. Cavalluzzo, 1998. Market structure and discrimination: The case of 
+small businesses. Journal of Money, Credit, and Banking 30, 771-792. 
+Cavalluzzo, K., Cavalluzzo, L., and J. Wolken, 2002. Competition, small business 
+financing, and discrimination: Evidence from a new survey. Journal of Business 75, 641-680. 
+Cawley, J., 2004. The impact of obesity on wages. Journal of Human Resources 39, 451-
+474. 
+Chakravarti, S., and M. Xiang, 2013. The international evidence on discouraged small 
+businesses. Journal of Empirical Finance 20, 63-82. 
+Charles, K., and J. Guryan, 2008. Prejudice and the economics of discrimination. Journal 
+of Political Economy 116, 773-809. 
+De Haas, R., and I. van Lelyveld, 2006. Foreign banks and credit stability in Central and 
+Eastern Europe: A panel data analysis. Journal of Banking & Finance 30, 1927-1952. 
+Duca J., and S. Rosenthal, 1993. Borrowing constraints, household debt, and racial 
+discrimination in loan markets. Journal of Financial Intermediation 3, 77-103. 
+Garmaise, M., and T. Moskowitz, 2006. Bank mergers and crime: The real and social 
+effects of credit market competition. Journal of Finance 61, 495-538. 
+ECB Working Paper 1822, July 2015
+37
+
+
+Giannetti, M., and S. Ongena, 2009. Financial integration and firm performance: 
+Evidence from foreign bank entry in emerging markets. Review of Finance 13, 181-223.  
+Goldin, C., and C. Rouse, 2000. Orchestrating impartiality: The impact of “Blind” 
+auditions on female musicians. American Economic Review 90, 715–741. 
+Guiso, L., Sapienza, P. and L. Zingales, 2004. The role of social capital in financial 
+development. American Economic Review 94, 526-556. 
+Guiso, L., Sapienza, P. and L. Zingales, 2006. Does culture affect economic outcomes? 
+Journal of Economic Perspectives 20, 23-48. 
+Guiso, L., Sapienza, P. and L. Zingales, 2009. Cultural biases in economic exchange. 
+Quarterly Journal of Economics 124, 1095-1031. 
+Hamermesh, D., and J. Biddle, 1994. Beauty and the labor market. American Economic 
+Review 84, 1174-1194. 
+Harhoff, D., and T. Koerting, 1998. Lending relationships in Germany – empirical 
+evidence from survey data. Journal of Banking & Finance 22, 1317-1353. 
+Hertz, N., 2011. Women and banks: Are female customers facing discrimination? 
+Institute for Public Policy Research, London. 
+Jianakoplos, N., and A. Bernasek, 1998. Are women more risk averse? Economic Inquiry 
+36, 620–630. 
+Johnston, D., 2010. Physical appearance and wages: Do blondes have more fun? 
+Economics Letters 108, 10-12. 
+Karlan, D., and J. Zinman, 2010. Expanding credit access: Using randomized supply 
+decisions to estimate the impacts. Review of Financial Studies 23, 433-464. 
+ECB Working Paper 1822, July 2015
+38
+
+
+ 
+Klumpp, T., and X. Su, 2013. Second-order statistical discrimination. Journal of Public 
+Economics 97, 108-116. 
+Knack, S., and P. Keefer, 1997. Does social capital have an economic payoff? A cross-
+country investigation. Quarterly Journal of Economics 112, 1251-1288. 
+Levine, R., and Y. Rubinstein, 2011. Racial discrimination and competition. CEP 
+Discussion Paper 1069.  
+Mobius, M., and T. Rosenblat, 2006. Why beauty matters. American Economic Review 
+96, 222-235. 
+Mulligan, C., and Y. Rubinstein, 2008. Selection, investment, and women’s relative 
+wages over time. Quarterly Journal of Economics 123, 1061-1110. 
+Muravyev, A., Schäfer, D., and O. Talavera, 2012. Entrepreneurs' gender and financial 
+constraints: Evidence from international data. Journal of Comparative Economics 37, 270-286. 
+Neal, D., and W. Johnson. 1996. The role of premarket factors in black-white wage 
+differences. Journal of Political Economy 104, 869-895. 
+Niederle, M., and L. Vesterlund, 2007. Do women shy away from competition? Do men 
+compete too much? Quarterly Journal of Economics 122, 1067-1101. 
+Ongena, S., Popov, A., and G. Udell, 2013. ‘When the cat’s away the mice will play:’ Does 
+regulation at home affect bank risk taking abroad? Journal of Financial Economics 108, 727-750. 
+Paulson, A., and U. Osili, 2008. What can we learn about financial access from U.S. 
+immigrants? The role of country of origin institutions and immigrant beliefs. World Bank 
+Economic Review 22, 431-455. 
+Persico, N., Postlewaite, A., and D. Silverman, 2004. The effect of adolescent experience 
+on labor market outcomes: The case of height. Journal of Political Economy 112, 1019-1053. 
+ECB Working Paper 1822, July 2015
+39
+
+
+Petersen, M., and R. Rajan, 1994. The benefits of lending relationships: Evidence from 
+small business data. Journal of Finance 49, 3-37. 
+Petersen, M., and R. Rajan, 1997. Trade credit: Theories and evidence. Review of 
+Financial Studies 10, 661-691. 
+Pistor, K., Raiser, G., and S. Gelfer, 2000. Law and finance in transition countries. 
+Economics of Transition 8, 325-368. 
+Popov, A., and G. Udell, 2012. Cross-border banking, credit access, and the financial 
+crisis. Journal of International Economics 87, 147-161. 
+Powell, M., and D. Ansic, 1997. Gender differences in risk behaviour in financial decision-
+making: an experimental analysis. Journal of Economic Psychology 18, 605-628. 
+Putnam, R., 2000. Bowling Alone: The Collapse and Revival of American Community. 
+New York: Simon and Schuster. 
+Putnam, R., Leonardi, R., and R. Nanetti, 1993. Making Democracy Work: Civic Traditions 
+in Modern Italy. Princeton, NJ: Princeton University Press. 
+Rodgers, W., and W. Spriggs, 1996. The effect of federal contractor status on racial 
+differences in establishment-level employment shares: 1979-1992. American Economic Review 
+86, 290-293. 
+Rosenbaum, P., and D. Rubin, 1983. The central role of the propensity score in 
+observational studies for causal effects. Biometrika 70, 41-55. 
+Rosenthal, S., and W. Strange 2012. Female entrepreneurship, agglomeration, and a 
+new spatial mismatch. Review of Economics and Statistics 94, 764-788. 
+Schubert, R., Brown, M., Gysler, M., and H. Brachniger, 1999. Financial decision making: 
+Are women really more risk-averse? American Economic Review 89, 381-385. 
+ECB Working Paper 1822, July 2015
+40
+
+
+Tabellini, G., 2008. Institutions and culture. Journal of the European Economic 
+Association 6, 255-294. 
+White, H., 1980. A heteroskedasticity-consistent covariance matrix estimator and a 
+direct test for heteroskedasticity. Econometrica 48, 817-838. 
+ECB Working Paper 1822, July 2015
+41
+
+
+Table 1. Credit access, by country 
+ 
+ 
+ 
+Country 
+ 
+ 
+# firms 
+Share working 
+capital financed 
+with bank credit 
+Share working 
+capital financed 
+with trade credit 
+Firm discouraged 
+from applying  
+for a loan 
+Loan 
+application 
+rejected 
+Bosnia 
+141 
+0.18 
+0.04 
+0.17 
+0.01 
+Croatia 
+141 
+0.15 
+0.06 
+0.10 
+0.02 
+Czech Republic 
+253 
+0.07 
+0.06 
+0.36 
+0.16 
+Germany 
+778 
+0.13 
+0.11 
+0.10 
+0.08 
+Greece 
+498 
+0.10 
+0.12 
+0.11 
+0.01 
+Hungary 
+462 
+0.12 
+0.05 
+0.25 
+0.03 
+Ireland 
+395 
+0.24 
+0.09 
+0.02 
+0.02 
+Lithuania 
+141 
+0.10 
+0.13 
+0.24 
+0.05 
+Macedonia 
+153 
+0.04 
+0.06 
+0.53 
+0.04 
+Poland 
+763 
+0.06 
+0.04 
+0.42 
+0.09 
+Portugal 
+370 
+0.08 
+0.04 
+0.31 
+0.03 
+Romania 
+393 
+0.12 
+0.06 
+0.25 
+0.12 
+Russia 
+434 
+0.04 
+0.07 
+0.42 
+0.08 
+Slovakia 
+142 
+0.06 
+0.02 
+0.15 
+0.03 
+Slovenia 
+132 
+0.15 
+0.03 
+0.08 
+0.01 
+Spain 
+501 
+0.12 
+0.00 
+0.14 
+0.02 
+Yugoslavia 
+208 
+0.08 
+0.05 
+0.39 
+0.03 
+Total 
+5,905 
+0.11 
+0.06 
+0.23 
+0.05 
+Note: This table presents statistics on firm credit access, by country. Share working capital financed with bank 
+credit is the proportion of the firm’s working capital that has been financed by borrowing from private 
+commercial banks in the past 12 months. Share working capital financed with trade credit is the proportion of 
+the firm’s working capital that has been financed with trade credit from suppliers or customers in the past 12 
+months. Firm discouraged from applying for a loan is a dummy equal to 1 if the firm did not apply for a bank 
+loan because it thought it felt discouraged by credit market conditions, and equal to 0 otherwise (all dummies 
+will have these two values; so the “equal to 0 otherwise” will no longer be included below). Loan application 
+rejected is a dummy equal to 1 if the firm applied for credit and had its loan application rejected. See Appendix 
+for variable definitions and data sources. 
+ 
+ECB Working Paper 1822, July 2015
+42
+
+
+Table 2. Loan-level variables 
+ 
+ 
+Country 
+Days to 
+negotiate loan 
+Loan not 
+collateralized 
+Collateral as 
+% of loan 
+Loan in foreign 
+currency  
+Annualized 
+loan rate 
+Bosnia 
+18.48 
+0.05 
+203.48 
+0.01 
+10.30 
+Croatia 
+27.02 
+0.25 
+160.36 
+0.29 
+8.13 
+Czech Republic 
+32.91 
+0.18 
+122.20 
+0.03 
+10.04 
+Germany 
+18.72 
+0.06 
+123.69 
+0.02 
+7.74 
+Greece 
+17.42 
+0.44 
+132.72 
+0.04 
+7.35 
+Hungary 
+22.53 
+0.06 
+168.04 
+0.21 
+13.22 
+Ireland 
+16.12 
+0.37 
+158.22 
+0.02 
+4.74 
+Lithuania 
+27.30 
+0.19 
+135.15 
+0.33 
+5.93 
+Macedonia 
+22.00 
+0.05 
+198.05 
+0.45 
+11.37 
+Poland 
+22.77 
+0.20 
+153.18 
+0.12 
+13.06 
+Portugal 
+10.99 
+0.41 
+120.12 
+0.00 
+7.02 
+Romania 
+21.21 
+0.06 
+153.12 
+0.38 
+17.94 
+Russia 
+19.80 
+0.11 
+148.91 
+0.13 
+18.07 
+Slovakia 
+35.67 
+0.23 
+144.31 
+0.02 
+8.07 
+Slovenia 
+14.22 
+0.44 
+157.24 
+0.22 
+6.48 
+Spain 
+8.22 
+0.28 
+134.79 
+0.01 
+6.51 
+Yugoslavia 
+22.40 
+0.07 
+193.36 
+0.17 
+13.66 
+Total 
+19.52 
+0.20 
+148.85 
+0.11 
+9.85 
+Note: This table presents statistics on firm financing, by country. Days to negotiate loan is the number of days it 
+took to negotiate the loan with the bank from the day of application. Loan not collateralized is a dummy equal 
+to 1 if the financing of the loan did not require collateral. Collateral as % of loan is the value of the collateral 
+required as a percentage of the loan value. Loan in foreign currency is a dummy equal to 1 if the loan is 
+denominated in foreign currency. Annualized loan rate is the loan’s annual rate of interest. See Appendix for 
+variable definitions and data sources. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ECB Working Paper 1822, July 2015
+43
+
+
+Table 3. Firm-level explanatory variables 
+ 
+Country 
+Female owner 
+Small firm 
+Large firm 
+Originally private 
+Exporter 
+Competition 
+Subsidized 
+Audited 
+Bosnia 
+0.26 
+0.67 
+0.04 
+0.83 
+0.32 
+0.62 
+0.01 
+0.45 
+Croatia 
+0.20 
+0.82 
+0.06 
+0.80 
+0.30 
+0.51 
+0.15 
+0.35 
+Czech Republic 
+0.22 
+0.87 
+0.03 
+0.92 
+0.22 
+0.45 
+0.06 
+0.27 
+Germany 
+0.20 
+0.85 
+0.06 
+0.99 
+0.13 
+0.00 
+0.13 
+0.47 
+Greece 
+0.25 
+0.83 
+0.06 
+0.99 
+0.17 
+0.00 
+0.09 
+0.46 
+Hungary 
+0.40 
+0.81 
+0.02 
+0.88 
+0.31 
+0.65 
+0.15 
+0.70 
+Ireland 
+0.41 
+0.86 
+0.03 
+0.99 
+0.29 
+0.58 
+0.08 
+0.94 
+Lithuania 
+0.26 
+0.74 
+0.04 
+0.79 
+0.32 
+0.64 
+0.06 
+0.36 
+Macedonia 
+0.18 
+0.82 
+0.06 
+0.84 
+0.27 
+0.65 
+0.02 
+0.24 
+Poland 
+0.34 
+0.87 
+0.02 
+0.95 
+0.21 
+0.65 
+0.08 
+0.30 
+Portugal 
+0.50 
+0.91 
+0.04 
+0.99 
+0.10 
+0.00 
+0.04 
+0.74 
+Romania 
+0.28 
+0.72 
+0.04 
+0.85 
+0.20 
+0.41 
+0.05 
+0.35 
+Russia 
+0.28 
+0.75 
+0.07 
+0.86 
+0.13 
+0.22 
+0.01 
+0.35 
+Slovakia 
+0.18 
+0.80 
+0.03 
+0.93 
+0.27 
+0.82 
+0.06 
+0.43 
+Slovenia 
+0.35 
+0.92 
+0.02 
+0.86 
+0.42 
+0.68 
+0.10 
+0.20 
+Spain 
+0.19 
+0.88 
+0.06 
+0.97 
+0.14 
+0.00 
+0.03 
+0.27 
+Yugoslavia 
+0.25 
+0.82 
+0.06 
+0.89 
+0.25 
+0.56 
+0.05 
+0.24 
+Total 
+0.29 
+0.83 
+0.04 
+0.93 
+0.21 
+0.35 
+0.08 
+0.44 
+Note: This table presents firm-level statistics, by country. All firms in the final sample are individually- or family-owned. Female owner is a dummy equal to 1 if 
+the principal owner (or one of the principal owners) is a female. Small firm is a dummy equal to 1 if the firm has less than 20 employees. Large firm is a dummy 
+equal to 1 if the firm has more than 100 employees. Originally private is a dummy equal to 1 if the firm was founded as a private company rather than through 
+privatization of a previously state-owned one. Exporter is a dummy equal to 1 if the firm has access to foreign markets. Competition is a dummy equal to 1 if 
+the firm faces “fairly”, “very”, or “extremely” strong competition. Subsidized is a dummy equal to 1 if the firm has received subsidies during the last 3 years 
+from the central or local government. Audited is a dummy equal to 1 if the firm employs external auditing services. Omitted category for firm size is Medium 
+firm. See Appendix for variable definitions and data sources. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ECB Working Paper 1822, July 2015
+44
+
+
+Table 4. Country-level explanatory variables 
+ 
+ 
+Traditional 
+gender roles 
+Private credit 
+to GDP 
+Bank 
+concentration 
+Information 
+sharing 
+Log GDP per 
+capita 
+GDP growth 
+Creditors’ 
+rights 
+Contract 
+enforcement 
+ 
+Inflation 
+ 
+Entry time 
+Bosnia 
+0.202 
+16.38 
+0.53 
+0.74 
+8.46 
+1.17 
+3.29 
+6.83 
+2.82 
+63 
+Croatia 
+0.202 
+50.73 
+0.63 
+0.00 
+9.36 
+3.06 
+4.18 
+5.61 
+3.77 
+22 
+Czech Republic 
+-0.028 
+32.00 
+0.60 
+1.92 
+9.85 
+1.78 
+7.00 
+6.63 
+2.59 
+17 
+Germany 
+-0.008 
+115.44 
+0.68 
+6.00 
+10.28 
+0.62 
+8.00 
+4.03 
+1.50 
+18 
+Greece 
+0.018 
+59.16 
+0.93 
+4.00 
+10.06 
+4.58 
+3.00 
+8.19 
+3.23 
+38 
+Hungary 
+0.111 
+40.34 
+0.65 
+4.04 
+9.65 
+1.98 
+7.00 
+3.35 
+5.23 
+16 
+Ireland 
+-0.041 
+125.52 
+0.56 
+5.00 
+10.51 
+4.40 
+8.00 
+5.15 
+2.90 
+13 
+Lithuania 
+-0.027 
+22.48 
+0.78 
+3.00 
+9.36 
+3.28 
+5.00 
+2.10 
+1.91 
+26 
+Macedonia 
+0.202 
+19.39 
+0.79 
+2.05 
+8.76 
+0.93 
+7.00 
+5.21 
+1.51 
+15 
+Poland 
+0.029 
+26.92 
+0.59 
+2.76 
+9.44 
+1.80 
+8.00 
+9.98 
+3.24 
+31 
+Portugal 
+-0.001 
+137.24 
+0.88 
+4.00 
+9.88 
+-0.39 
+3.00 
+5.77 
+3.03 
+7 
+Romania 
+0.109 
+13.04 
+0.64 
+3.88 
+8.96 
+3.02 
+7.00 
+5.37 
+17.36 
+9 
+Russia 
+-0.036 
+19.86 
+0.22 
+0.00 
+9.34 
+3.38 
+3.00 
+2.81 
+19.26 
+29 
+Slovakia 
+-0.028 
+33.35 
+0.83 
+2.81 
+9.61 
+1.85 
+9.00 
+6.02 
+4.91 
+27 
+Slovenia 
+0.202 
+43.97 
+0.67 
+2.90 
+9.98 
+1.93 
+5.00 
+14.25 
+3.99 
+60 
+Spain 
+0.088 
+108.62 
+0.87 
+5.00 
+10.22 
+3.12 
+6.00 
+5.15 
+3.10 
+47 
+Yugoslavia 
+0.202 
+19.37 
+------ 
+0.00 
+8.64 
+2.15 
+7.00 
+9.40 
+14.43 
+23 
+Total 
+0.046 
+61.85 
+0.67 
+3.43 
+9.71 
+2.28 
+6.16 
+6.04 
+5.59 
+25 
+Note: The table summarizes various country-level characteristics used in the empirical analysis. Traditional gender roles is the estimate of the inherited views on 
+the role of women in society by U.S. descendants of European immigrants (see Table 5 for details). Foreign bank share denotes the assets held by all foreign 
+banks as a share of the assets of all commercial banks. Private credit to GDP denotes the ratio of private credit by deposit money banks and other financial 
+institutions to GDP. Bank concentration denotes the assets held by the three largest banks as a share of the assets of all commercial banks. Information sharing 
+denotes the maximum of an index for private credit bureaus and an index for public credit registers. Log GDP per capita denotes the natural logarithm of per 
+capita GDP. GDP growth denotes annual growth in gross domestic product per capita, average over the past three years. Creditors’ rights denotes the degree of 
+protection of creditors’ rights. Contract enforcement denotes the number of days it takes to enforce a legal contract. Inflation denotes annual inflation, 
+averaged over the past three years. Entry time denotes the time in days necessary to register a new business. See Appendix for variable definitions and data 
+sources. 
+ 
+ 
+ 
+ 
+ 
+ 
+ECB Working Paper 1822, July 2015
+45
+
+
+Table 5. Country of origin and inherited gender bias 
+ 
+ 
+Traditional gender roles 
+ 
+Coefficient 
+Standard error 
+ 
+(1) 
+(2) 
+Demographic characteristics 
+Age 
+0.003** 
+(0.001) 
+Age squared 
+0.004*** 
+(0.001) 
+Education 
+-0.029*** 
+(0.001) 
+Male 
+0.096*** 
+(0.007) 
+Catholic 
+0.116*** 
+(0.011) 
+Protestant 
+0.140*** 
+(0.010) 
+Jewish 
+0.027 
+(0.026) 
+Muslim 
+0.173*** 
+(0.040) 
+Other 
+0.121*** 
+(0.018) 
+Employed 
+-0.107*** 
+(0.009) 
+Unemployed 
+-0.096*** 
+(0.020) 
+Retired 
+-0.073*** 
+(0.014) 
+Income category 
+-0.009*** 
+(0.001) 
+Country of origin 
+ 
+ 
+Czechoslovakia 
+-0.028 
+(0.031) 
+Germany 
+-0.008 
+(0.009) 
+Greece 
+0.018 
+(0.052) 
+Hungary 
+0.111** 
+(0.049) 
+Ireland 
+-0.041*** 
+(0.011) 
+Lithuania 
+-0.027 
+(0.068) 
+Poland 
+0.029* 
+(0.018) 
+Portugal 
+-0.001 
+(0.059) 
+Romania 
+0.109** 
+(0.053) 
+Russia 
+-0.036* 
+(0.023) 
+Spain 
+0.088** 
+(0.033) 
+Yugoslavia 
+0.202** 
+(0.084) 
+Observations 
+20,992 
+R-squared 
+0.16 
+Note: The dependent variable captures the views on the role of women in society inherited by US immigrants 
+from the period 1935-2000. Traditional gender roles is measured from the answer to the question: “It is much 
+better for everyone involved if the man is the achiever outside the home and the woman takes care of the 
+home and family.” The answers are given on a scale from 1 to 4, which correspond to “Strongly agree,” 
+“Agree,” “Disagree,” and “Strongly disagree.” The gender bias indicator is equal to 1 if the respondent agrees 
+or strongly agrees, and equal to 0 if the respondent disagrees or strongly disagrees. The reference group in 
+religion is “Atheist”. The reference group in employment is “Inactive”. Data come from the General Social 
+Survey. White (1980) robust standard errors, clustered at the country level, are reported in parentheses, 
+where *** indicates significance at the 1% level, ** at the 5% level, and * at the 10% level. 
+ 
+ 
+ 
+ 
+ 
+ 
+ECB Working Paper 1822, July 2015
+46
+
+
+Table 6. Culture, gender, and credit access 
+ 
+ 
+Share working capital  
+financed with bank 
+credit 
+Share working capital  
+financed with trade 
+credit 
+Firm discouraged  
+from applying for a 
+loan 
+ 
+Loan application 
+rejected 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+Traditional gender roles u 
+-0.006 
+0.016** 
+0.184** 
+0.208 
+Female owner 
+(0.011) 
+(0.008) 
+(0.083) 
+(0.180) 
+Female owner 
+-0.027*** 
+0.003 
+-0.018 
+0.124 
+ 
+(0.006) 
+(0.007) 
+(0.055) 
+(0.140) 
+Small firm 
+-0.046** 
+-0.006 
+0.614*** 
+0.262*** 
+ 
+(0.017) 
+(0.010) 
+(0.130) 
+(0.080) 
+Large firm 
+0.026 
+0.017 
+-0.109 
+-0.260 
+ 
+(0.019) 
+(0.020) 
+(0.172) 
+(0.325) 
+Originally private 
+0.029** 
+-0.006 
+-0.120 
+0.036 
+ 
+(0.012) 
+(0.012) 
+(0.104) 
+(0.217) 
+Exporter 
+0.032** 
+0.019*** 
+-0.345*** 
+-0.302* 
+ 
+(0.013) 
+(0.005) 
+(0.094) 
+(0.170) 
+Competition 
+0.025** 
+0.005 
+-0.074 
+-0.129 
+ 
+(0.010) 
+(0.006) 
+(0.108) 
+(0.083) 
+Subsidized 
+0.064*** 
+0.016* 
+-0.754*** 
+-0.550** 
+ 
+(0.021) 
+(0.019) 
+(0.124) 
+(0.240) 
+Audited 
+0.021*** 
+-0.023* 
+-0.291*** 
+-0.297** 
+ 
+(0.007) 
+(0.014) 
+(0.110) 
+(0.117) 
+Fixed effects 
+CountryuIndustry 
+Observations 
+5,307 
+5,307 
+2,817 
+1,837 
+R-squared 
+0.10 
+0.09 
+0.20 
+0.13 
+Note: This table presents regression results of indicators of credit market experience by firms on firm-level 
+characteristics. All firms in the final sample are individually owned or family owned. The dependent variable is 
+Share working capital financed with bank credit (column (1)), Share working capital financed with trade credit 
+(column (2)), Firm discouraged from applying for a loan (column (3)), and Loan application rejected (column (4)). 
+Traditional gender roles is a country-level measure of inherited views on the role of women in society estimated in 
+Table 5. Female owner is a dummy equal to 1 if the principal owner (or one of the principal owners) is a female. 
+Small firm is a dummy equal to 1 if the firm has less than 20 employees. Large firm is a dummy equal to 1 if the 
+firm has more than 100 employees. Originally private is a dummy equal to 1 if the firm was founded as a private 
+company rather than privatized. Exporter is a dummy equal to 1 if the firm does not have access to foreign 
+markets. Competition is a dummy equal to 1 if the firm faces fairly, very, or extremely strong competition. 
+Subsidized is a dummy equal to 1 if the firm has received subsidies during the last 3 years from the central or local 
+government. Audited is a dummy equal to 1 if the firm employs external auditing services. Omitted category for 
+firm size is Medium firm. See Appendix for variable definitions and data sources. All regressions include fixed 
+effects as specified. White (1980) robust standard errors, clustered at the country level, are reported in 
+parentheses, where *** indicates significance at the 1% level, ** at the 5% level, and * at the 10% level. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ECB Working Paper 1822, July 2015
+47
+
+
+Table 7. Culture, gender, and loan terms 
+ 
+ 
+Log days to 
+negotiate 
+loan 
+Loan not 
+collateralized 
+Log 
+collateral as 
+% of loan 
+Loan in 
+foreign 
+currency 
+Annualized 
+loan rate 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+Traditional gender roles u 
+0.041 
+-0.101 
+-0.057 
+0.388* 
+-0.185 
+Female owner 
+(0.091) 
+(0.157) 
+(0.040) 
+(0.220) 
+(0.259) 
+Female owner 
+-0.124* 
+0.080 
+0.006 
+-0.398* 
+-0.063 
+ 
+(0.068) 
+(0.067) 
+(0.019) 
+(0.206) 
+(0.172) 
+Small firm 
+-0.238*** 
+0.248** 
+0.021 
+-0.014 
+0.691** 
+ 
+(0.071) 
+(0.115) 
+(0.032) 
+(0.119) 
+(0.238) 
+Large firm 
+0.083 
+0.055 
+0.012 
+0.319* 
+-0.921* 
+ 
+(0.136) 
+(0.128) 
+(0.051) 
+(0.178) 
+(0.491) 
+Originally private 
+0.099 
+-0.195* 
+0.043 
+0.118 
+0.124 
+ 
+(0.092) 
+(0.116) 
+(0.039) 
+(0.160) 
+(0.385) 
+Exporter 
+-0.089* 
+-0.021 
+0.052 
+0.349*** 
+-0.740** 
+ 
+(0.046) 
+(0.100) 
+(0.034) 
+(0.101) 
+(0.359) 
+Competition 
+-0.040 
+-0.194 
+0.033 
+0.016 
+0.344 
+ 
+(0.062) 
+(0.153) 
+(0.022) 
+(0.070) 
+(0.342) 
+Subsidized 
+0.153*** 
+-0.143 
+-0.037** 
+-0.375** 
+-0.179 
+ 
+(0.048) 
+(0.155) 
+(0.016) 
+(0.118) 
+(0.444) 
+Audited 
+-0.015 
+0.130 
+-0.028 
+0.094 
+-0.009 
+ 
+(0.057) 
+(0.135) 
+(0.034) 
+(0.122) 
+(0.310) 
+Private credit to GDP 
+-0.002 
+0.005 
+0.004** 
+0.003 
+0.032 
+ 
+(0.005) 
+(0.005) 
+(0.002) 
+(0.015) 
+(0.036) 
+Bank concentration 
+0.195 
+0.185 
+-0.077 
+1.230 
+0.392 
+ 
+(0.489) 
+(0.540) 
+(0.139) 
+(1.025) 
+(1.929) 
+Information sharing 
+0.070* 
+0.034 
+0.025 
+0.065 
+-0.070 
+ 
+(0.036) 
+(0.032) 
+(0.018) 
+(0.093) 
+(0.147) 
+Log GDP per capita 
+0.063 
+0.390 
+-0.359 
+-2.547 
+1.281 
+ 
+(0.638) 
+(0.823) 
+(0.279) 
+(2.621) 
+(3.591) 
+GDP growth 
+0.025 
+-0.001 
+0.020** 
+0.037 
+-0.030 
+ 
+(0.025) 
+(0.033) 
+(0.009) 
+(0.052) 
+(0.093) 
+Creditors’ rights 
+-0.194** 
+0.068 
+-0.055 
+-0.194 
+0.410 
+ 
+(0.084) 
+(0.102) 
+(0.041) 
+(0.338) 
+(0.712) 
+Contract enforcement 
+0.184*** 
+-0.016 
+-0.010 
+-0.296 
+-0.475 
+ 
+(0.059) 
+(0.169) 
+(0.039) 
+(0.275) 
+(0.343) 
+Inflation 
+-0.007 
+0.006 
+0.004 
+-0.012 
+0.079 
+ 
+(0.006) 
+(0.012) 
+(0.003) 
+(0.012) 
+(0.075) 
+Entry time 
+-0.018 
+0.057 
+0.020** 
+-0.258 
+0.169* 
+ 
+(0.022) 
+(0.102) 
+(0.008) 
+(0.306) 
+(0.094) 
+Fixed effects 
+CountryuIndustry 
+ 
+Year 
+Observations 
+2,158 
+2,199 
+1,708 
+2,114 
+2,119 
+R-squared 
+0.21 
+0.15 
+0.17 
+0.23 
+0.59 
+Note: This table presents regression results of loan terms on firm-level and country-level characteristics. All firms 
+in the final sample are individually owned or family owned. The dependent variable is the logarithm of Days to 
+negotiate loan (column (1)), Loan not collateralized (column (2)), the logarithm of Collateral as % of loan (column 
+(3)), Loan in foreign currency (column (4)), and Nominal interest rate (column (5)). Traditional gender roles is a 
+country-level measure of inherited views on the role of women in society estimated in Table 5. Female owner is a 
+ECB Working Paper 1822, July 2015
+48
+
+
+dummy equal to 1 if the principal owner (or one of the principal owners) is a female. Small firm is a dummy equal 
+to 1 if the firm has less than 20 employees. Large firm is a dummy equal to 1 if the firm has more than 100 
+employees. Originally private is a dummy equal to 1 if the firm was founded as a private company rather than 
+privatized. Exporter is a dummy equal to 1 if the firm does not have access to foreign markets. Competition is a 
+dummy equal to 1 if the firm faces fairly, very, or extremely strong competition. Subsidized is a dummy equal to 1 
+if the firm has received subsidies during the last 3 years from the central or local government. Audited is a 
+dummy equal to 1 if the firm employs external auditing services. Omitted category for firm size is Medium firm. 
+Foreign bank share denotes the assets held by all foreign banks as a share of the assets of all commercial banks. 
+Private credit to GDP denotes the ratio of private credit by deposit money banks and other financial institutions 
+to GDP. Bank concentration denotes the assets held by the three largest banks as a share of the assets of all 
+commercial banks. Information sharing denotes the maximum of an index for private credit bureaus and an index 
+for public credit registers. Log GDP per capita denotes the natural logarithm of per capita GDP. GDP growth 
+denotes annual growth in gross domestic product per capita, average over the past three years. Creditors’ rights 
+denotes the degree of protection of creditors’ rights. Contract enforcement denotes the number of days it takes 
+to enforce a legal contract. Inflation denotes annual inflation, averaged over the past three years. Entry time 
+denotes the time in days necessary to register a new business. See Appendix for variable definitions and data 
+sources. All regressions include fixed effects as specified. White (1980) robust standard errors, clustered at the 
+country level, are reported in parentheses, where *** indicates significance at the 1% level, ** at the 5% level, 
+and * at the 10% level.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ECB Working Paper 1822, July 2015
+49
+
+
+Table 8. Culture, gender, and credit access: Propensity score matching results 
+ 
+Panel A. Choosing variables for the estimation of the propensity score 
+ 
+Female owner 
+Small firm 
+0.423*** 
+ 
+(0.113) 
+Large firm 
+0.254 
+ 
+(0.204) 
+Originally private 
+0.271* 
+ 
+(0.144) 
+Exporter 
+-0.044 
+ 
+(0.089) 
+Competition 
+-0.168** 
+ 
+(0.084) 
+Subsidized 
+-0.078 
+ 
+(0.132) 
+Audited 
+-0.001 
+ 
+(0.075) 
+Fixed effects 
+CountryuIndustry 
+Observations 
+5,367 
+R-squared 
+0.09 
+ 
+Panel B. Second stage  
+ 
+Share working capital  
+financed with bank 
+credit 
+Share working capital  
+financed with trade 
+credit 
+Firm discouraged  
+from applying for a 
+loan 
+Loan 
+application 
+rejected 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+Traditional gender roles u 
+-0.014 
+0.016* 
+0.172** 
+0.316* 
+Female owner 
+(0.012) 
+(0.009) 
+(0.089) 
+(0.167) 
+Female owner 
+-0.023*** 
+0.005 
+0.008 
+0.075 
+ 
+(0.005) 
+(0.008) 
+(0.056) 
+(0.139) 
+Firm controls 
+Yes 
+Fixed effects 
+CountryuIndustry 
+Observations 
+4,167 
+4,167 
+2,088 
+1,307 
+R-squared 
+0.10 
+0.08 
+0.18 
+0.12 
+Note: This table presents regression results of indicators of credit market experience by firms on firm-level 
+characteristics. All firms in the final sample are individually owned or family owned. The dependent variable in 
+Panel A is Female owner. The dependent variable in Panel B is Share working capital financed with bank credit 
+(column (1)), Share working capital financed with trade credit (column (2)), Firm discouraged from applying for 
+a loan (column (3)), and Loan application rejected (column (4)). Traditional gender roles is a country-level 
+measure of inherited views on the role of women in society estimated in Table 5. Female owner is a dummy 
+equal to 1 if the principal owner (or one of the principal owners) is a female. Small firm is a dummy equal to 1 if 
+the firm has less than 20 employees. Large firm is a dummy equal to 1 if the firm has more than 100 employees. 
+Originally private is a dummy equal to 1 if the firm was founded as a private company rather than privatized. 
+Exporter is a dummy equal to 1 if the firm does not have access to foreign markets. Competition is a dummy 
+equal to 1 if the firm faces fairly, very, or extremely strong competition. Subsidized is a dummy equal to 1 if the 
+firm has received subsidies during the last 3 years from the central or local government. Audited is a dummy 
+equal to 1 if the firm employs external auditing services. Omitted category for firm size is Medium firm. See 
+Appendix for variable definitions and data sources. All regressions include fixed effects as specified. White 
+(1980) robust standard errors, clustered at the country level, are reported in parentheses, where *** indicates 
+significance at the 1% level, ** at the 5% level, and * at the 10% level. 
+ECB Working Paper 1822, July 2015
+50
+
+
+Table 9. Culture, gender, and credit access: Robust measures of gender bias 
+ 
+Panel A. Continuous measure of gender bias 
+ 
+Share working capital  
+financed with bank 
+credit 
+Share working capital  
+financed with trade 
+credit 
+Firm discouraged  
+from applying for a 
+loan 
+Loan 
+application 
+rejected 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+Traditional gender roles u 
+-0.048 
+0.108** 
+0.761* 
+1.914 
+Female owner 
+(0.085) 
+(0.055) 
+(0.406) 
+(1.587) 
+Female owner 
+-0.027*** 
+0.004 
+0.015 
+0.120 
+ 
+(0.005) 
+(0.007) 
+(0.058) 
+(0.143) 
+Firm controls 
+Yes 
+Fixed effects 
+CountryuIndustry 
+Observations 
+5,307 
+5,307 
+2,817 
+1,837 
+R-squared 
+0.10 
+0.09 
+0.20 
+0.13 
+ 
+Panel B. Excluding medium-bias countries  
+ 
+Share working capital  
+financed with bank 
+credit 
+Share working capital  
+financed with trade 
+credit 
+Firm discouraged  
+from applying for a 
+loan 
+Loan 
+application 
+rejected 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+Traditional gender roles u 
+-0.003 
+0.017* 
+0.187** 
+0.213 
+Female owner 
+(0.011) 
+(0.010) 
+(0.082) 
+(0.226) 
+Female owner 
+-0.030*** 
+0.003 
+-0.025 
+0.125 
+ 
+(0.005) 
+(0.009) 
+(0.048) 
+(0.197) 
+Firm controls 
+Yes 
+Fixed effects 
+CountryuIndustry 
+Observations 
+3,916 
+3,916 
+2,190 
+1,352 
+R-squared 
+0.11 
+0.08 
+0.19 
+0.15 
+Note: This table presents regression results of indicators of credit market experience by firms on firm-level 
+characteristics. All firms in the final sample are individually owned or family owned. In Panel A, Gender bias 
+denotes the continuous measure of gender bias. In Panel B, Germany, Greece, and Portugal are dropped from 
+the tests. The dependent variable is Share working capital financed with bank credit (column (1)), Share 
+working capital financed with trade credit (column (2)), Firm discouraged from applying for a loan (column (3)), 
+and Loan application rejected (column (4)). Traditional gender roles is a country-level measure of inherited 
+views on the role of women in society estimated in Table 5. Female owner is a dummy equal to 1 if the principal 
+owner (or one of the principal owners) is a female. All other variables from Table 6 are included in the 
+regressions (coefficients are not reported for brevity). See Appendix for variable definitions and data sources. 
+All regressions include fixed effects as specified. White (1980) robust standard errors, clustered at the country 
+level, are reported in parentheses, where *** indicates significance at the 1% level, ** at the 5% level, and * at 
+the 10% level. 
+ 
+ECB Working Paper 1822, July 2015
+51
+
+
+Table 10. Gender bias and entrepreneurship: GEM data 
+ 
+ 
+Intention to start a business, ѐ (Male – Female) 
+ 
+(1) 
+(2) 
+Traditional gender roles 
+0.189*** 
+0.122** 
+ 
+(0.066) 
+(0.059) 
+Private credit to GDP 
+ 
+-0.003 
+ 
+ 
+(0.008) 
+Bank concentration 
+ 
+0.019 
+ 
+ 
+(0.021) 
+Information sharing 
+ 
+0.002 
+ 
+ 
+(0.004) 
+Log GDP per capita 
+ 
+-0.018 
+ 
+ 
+(0.010) 
+GDP growth 
+ 
+0.421* 
+ 
+ 
+(0.223) 
+Creditors’ rights 
+ 
+0.010*** 
+ 
+ 
+(0.002) 
+Contract enforcement 
+ 
+0.007*** 
+ 
+ 
+(0.002) 
+Inflation 
+ 
+0.002* 
+ 
+ 
+(0.001) 
+Entry time 
+ 
+-0.108*** 
+ 
+ 
+(0.028) 
+Observations 
+28 
+28 
+R-squared 
+0.21 
+0.68 
+Note: This table presents regression results of loan terms on firm-level and country-level characteristics. All 
+firms in the final sample are individually owned or family owned. The dependent variable is the difference in 
+the share of male and female non-entrepreneurs who declared an intention to become entrepreneurs in the 
+next three years, from the Global Entrepreneurship Monitor (GEM). Traditional gender roles is a country-level 
+measure of inherited views on the role of women in society estimated in Table 5, for all countries in both the 
+GSS and the GEM. Private credit to GDP denotes the ratio of private credit by deposit money banks and other 
+financial institutions to GDP. Bank concentration denotes the assets held by the three largest banks as a share 
+of the assets of all commercial banks. Information sharing denotes the maximum of an index for private credit 
+bureaus and an index for public credit registers. Log GDP per capita denotes the natural logarithm of per 
+capita GDP. GDP growth denotes annual growth in gross domestic product per capita, average over the past 
+three years. Creditors’ rights denotes the degree of protection of creditors’ rights. Contract enforcement 
+denotes the number of days it takes to enforce a legal contract. Inflation denotes annual inflation, averaged 
+over the past three years. Entry time denotes the time in days necessary to register a new business. See 
+Appendix for variable definitions and data sources. All regressions include fixed effects as specified. White 
+(1980) robust standard errors, clustered at the country level, are reported in parentheses, where *** 
+indicates significance at the 1% level, ** at the 5% level, and * at the 10% level.  
+ECB Working Paper 1822, July 2015
+52
+
+
+Table 11. Culture, gender, and credit access: Disentangling the components of discouragement 
+ 
+ 
+Application 
+procedures too 
+burdensome 
+Collateral 
+requirements 
+too strict 
+Interest rates 
+too high 
+Did not think 
+application would 
+be approved 
+ 
+(1) 
+(2) 
+(3) 
+(5) 
+Traditional gender roles u 
+0.043 
+0.090 
+0.169 
+0.679** 
+Female owner 
+(0.208) 
+(0.186) 
+(0.186) 
+(0.349) 
+Female owner 
+-0.066 
+0.140 
+0.037 
+-0.182 
+ 
+(0.090) 
+(0.124) 
+(0.109) 
+(0.302) 
+Firm controls 
+Yes 
+Fixed effects 
+CountryuIndustry 
+Observations 
+1,568 
+1,378 
+1,428 
+1,450 
+R-squared 
+0.17 
+0.19 
+0.19 
+0.19 
+Note: This table presents regression results of various reasons for firms’ being discouraged from applying for 
+a loan even though they need one. All firms in the final sample are individually owned or family owned. The 
+dependent variable is Application procedures too burdensome (column (1)), Collateral requirements too strict 
+(column (2)), Interest rates too high (column (3)), and Did not think application would be approved (column 
+(4)). Traditional gender roles is a country-level measure of inherited views on the role of women in society 
+estimated in Table 5. Female owner is a dummy equal to 1 if the principal owner (or one of the principal 
+owners) is a female. All other variables from Table 6 are included in the regressions (coefficients are not 
+reported for brevity). See Appendix for variable definitions and data sources. All regressions include fixed 
+effects as specified. White (1980) robust standard errors, clustered at the country level, are reported in 
+parentheses, where *** indicates significance at the 1% level, ** at the 5% level, and * at the 10% level. 
+ 
+ECB Working Paper 1822, July 2015
+53
+
+
+Table 12. Culture, gender, credit access, and firm performance 
+ 
+ 
+Sales growth 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+Female owner 
+0.629 
+1.459 
+ 
+ 
+ 
+(0.742) 
+(1.360) 
+ 
+ 
+Traditional gender roles u Female owner 
+ 
+-1.725 
+ 
+ 
+ 
+ 
+(1.356) 
+ 
+ 
+Constrained female vs unconstrained male 
+ 
+ 
+-1.709 
+-1.173 
+ 
+ 
+ 
+(1.999) 
+(3.735) 
+Traditional gender roles u 
+ 
+ 
+ 
+-1.098 
+Constrained female vs unconstrained male 
+ 
+ 
+ 
+(4.493) 
+Firm controls 
+Yes 
+Fixed effects 
+CountryuIndustry 
+Observations 
+3,173 
+3,173 
+1,251 
+1,251 
+R-squared 
+0.06 
+0.06 
+0.11 
+0.11 
+Note: This table presents regression results of indicators of credit market experience by firms on firm-level 
+characteristics. All firms in the final sample are individually owned or family owned. The dependent variable 
+in all columns is Sales growth. Female owner is a dummy equal to 1 if the principal owner (or one of the 
+principal owners) is a female. Traditional gender roles is a country-level measure of inherited views on the 
+role of women in society estimated in Table 5. Constrained female vs unconstrained male is a dummy 
+variable equal to 1 if the principle owner (or one of the principal owners) is a female and does not have a 
+bank loan because she was rejected or was discouraged from applying, and is equal to 0 if the principle 
+owner (or one of the principal owners) is a male whose loan application was approved. All other variables 
+from Table 6 are included in the regressions (coefficients are not reported for brevity). See Appendix for 
+variable definitions and data sources. All regressions include fixed effects as specified. White (1980) robust 
+standard errors, clustered at the country level, are reported in parentheses, where *** indicates 
+significance at the 1% level, ** at the 5% level, and * at the 10% level. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ECB Working Paper 1822, July 2015
+54
+
+
+Appendix 
+Variables: Definitions and sources 
+Variable Name 
+Definition 
+Source 
+Firm characteristics 
+Female 
+Dummy = 1 if the principal owner (or one of the principal owners) of the firm is a female. 
+BEEPS 2004/05  
+Small firm 
+Dummy = 1 if firm has less than 20 employees. 
+BEEPS 2004/05 
+Medium firm 
+Dummy = 1 if the firm has between 20 and 100 employees. 
+BEEPS 2004/05 
+Large firm 
+Dummy = 1 if firm has more than 100 employees. 
+BEEPS 2004/05 
+Originally private 
+Dummy = 1 if firm was founded as a private company rather than through privatization. 
+BEEPS 2004/05 
+Exporter 
+Dummy = 1 if the firm has access to foreign markets. 
+BEEPS 2004/05  
+Competition 
+Dummy = 1 if the firm faces fairly, very, or extremely strong competition. 
+BEEPS 2004/05 
+Subsidized 
+Dummy = 1 if the firm has received subsidies during the last 3 years from the central or 
+local government. 
+BEEPS 2004/05 
+Audited 
+Dummy = 1 if the firm employs external auditing services. 
+BEEPS 2004/05 
+Sales growth 
+The percentage change in sales in the past three years. 
+BEEPS 2004/05 
+Constrained female vs 
+unconstrained male 
+Dummy = 1 if the principle owner (or one of the principal owners) is a female who does not 
+have a bank loan because she was rejected or was discouraged from applying, and = 0 if 
+the principle owner (or one of the principal owners) is a male whose loan application was 
+approved. 
+BEEPS 2004/05 
+Credit access 
+Share working capital financed 
+with bank credit 
+The proportion of the firm’s working capital that has been financed by borrowing from 
+private commercial banks in the past 12 months. 
+BEEPS 2004/05  
+Share working capital financed 
+with trade credit 
+The proportion of the firm’s working capital that has been financed with trade credit from 
+suppliers or customers in the past 12 months. 
+BEEPS 2004/05  
+Loan application rejected 
+Dummy = 1 if the firm applied for credit and had its loan application rejected. 
+BEEPS 2004/05 
+Firm discouraged from applying  
+for a loan 
+Dummy = 1 if a firm that declared positive demand for credit did not apply for a bank loan 
+because it was discouraged by adverse credit market conditions. Self-reported reasons for 
+BEEPS 2004/05 
+ECB Working Paper 1822, July 2015
+55
+
+
+discouragement include: (a) application procedures are too burdensome, (b) collateral 
+requirements are too high, (c) interest rates are too high, (d) informal payments are 
+necessary, or (e) the firm did not think their application would be approved. 
+Application procedures too 
+burdensome 
+Dummy = 1 if a firm that declared positive demand for credit was discouraged from 
+applying for credit because application procedures are too burdensome. 
+BEEPS 2004/05 
+Collateral requirements too strict 
+Dummy = 1 if a firm that declared positive demand for credit was discouraged from 
+applying for credit because collateral requirements are too strict. 
+BEEPS 2004/05 
+Interest rates too high 
+Dummy = 1 if a firm that declared positive demand for credit was discouraged from 
+applying for credit because interest rates are too high. 
+BEEPS 2004/05 
+Did not think application would be 
+approved 
+Dummy = 1 if a firm that declared positive demand for credit was discouraged from 
+applying for credit because it did not think that its application would be approved. 
+BEEPS 2004/05 
+Loan terms 
+Days to negotiate loan 
+The number of days it took to negotiate the loan with the bank from the day of application. 
+BEEPS 2004/05  
+Loan not collateralized 
+Dummy = 1 if the financing of the loan did not require collateral. 
+BEEPS 2004/05 
+Collateral as % of loan 
+The value of the collateral required as a percentage of the loan value. 
+BEEPS 2004/05 
+Loan in foreign currency 
+Dummy = 1 if the loan is denominated in foreign currency. 
+BEEPS 2004/05 
+Annualized loan rate 
+The loan’s annual rate of interest. 
+BEEPS 2004/05 
+Country variables 
+Traditional gender roles 
+The inherited views on the role of women in society by U.S. descendants of European 
+immigrants. It is measured from the answer to the question: “It is much better for everyone 
+involved if the man is the achiever outside the home and the woman takes care of the home 
+and family.” The answers are given on a scale from 1 to 4, which corresponds to “Strongly 
+agree,” “Agree,” “Disagree,” and “Strongly disagree.” The gender bias indicator is equal to 
+1 if the respondent agrees or strongly agrees, and to 0 if the respondent disagrees or 
+strongly disagrees. 
+GSS 
+Private credit 
+The ratio of private credit by deposit money banks and other financial institutions to GDP. 
+WB FDSD 
+Bank concentration 
+The assets held by the three largest banks as a share of the assets of all commercial banks. 
+WB FDSD 
+Information sharing 
+The maximum of an index for private credit bureaus and an index for public credit 
+registers. 
+WB DBD 
+ECB Working Paper 1822, July 2015
+56
+
+
+GDP growth 
+Annual growth in gross domestic product per capita, average over the past three years. 
+PWT 6.3 
+Creditors’ rights  
+Degree of protection of creditors’ rights. 
+WB DBD 
+Contract enforcement 
+The number of days it takes to enforce a legal contract. 
+WB DBD 
+Inflation 
+Annual inflation, average over the past three years. 
+EBRD TR 
+Entry time 
+Time in days necessary to register a new business. 
+WB DBD 
+Intention to start a business, ѐ 
+(Male – Female) 
+The difference in the share of male and female non-entrepreneurs who declared an 
+intention to become entrepreneurs in the next three years. 
+GEM 
+Note: The Table uses the following sources: Business Environment and Enterprise Performance Survey (BEEPS), 2005; General Social Survey (GSS); 
+European Bank for Reconstruction and Development Transition Report (2000-2005 EBRD TR); World Bank Financial Development and Structure Database 
+by Thorsten Beck, Asli Demirguc-Kunt, and Vojislav Maksimovic, 2010 (WB FDSD); Penn World Tables (PWT 6.3); World Bank Doing Business database 
+(WB DBD); Global Entrepreneurship Monitor (GEM). 
+ 
+ECB Working Paper 1822, July 2015
+57
+
+
+ 
+Acknowledgements 
+We would like to thank Thorsten Beck, Allen Berger (FIRS discussant), Andre Guttler, Byeongju Jeong, Stepan Jurajda, and seminar 
+participants at CERGE and at the 2013 FIRS (Dubrovnik) for useful discussion. The opinions expressed herein are those of the authors 
+and do not necessarily reflect those of the ECB or the Eurosystem. 
+ 
+Steven Ongena 
+University of Zurich, SFI and CEPR; Institute for Banking and Finance, Zürich, Switzerland; 
+e-mail: steven.ongena@bf.uzh.ch  
+ 
+Alexander Popov 
+European Central Bank; Frankfurt am Main, Germany; 
+e-mail: alexander.popov@ecb.int  
+ 
+ 
+ 
+© European Central Bank, 2015  
+Postal address 
+ 
+60640 Frankfurt am Main, Germany 
+Telephone 
+ 
++49 69 1344 0 
+Internet  
+ 
+www.ecb.europa.eu 
+All rights reserved. Any reproduction, publication and reprint in the form of a different publication, whether printed or produced 
+electronically, in whole or in part, is permitted only with the explicit written authorisation of the ECB or the authors.  
+This paper can be downloaded without charge from www.ecb.europa.eu, from the Social Science Research Network electronic library at 
+http://ssrn.com or from RePEc: Research Papers in Economics at https://ideas.repec.org/s/ecb/ecbwps.html.  
+Information on all of the papers published in the ECB Working Paper Series can be found on the ECB’s website, 
+http://www.ecb.europa.eu/pub/scientific/wps/date/html/index.en.html. 
+ISSN 
+ 
+ 
+1725-2806 (online) 
+ISBN 
+ 
+ 
+978-92-899-1635-6 
+DOI 
+ 
+ 
+10.2866/875691 
+EU catalogue number 
+QB-AR-15-062-EN-N

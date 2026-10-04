@@ -1,0 +1,28 @@
+{
+  "source_id": "fd49b882d7318ce94f6a",
+  "normalized_url": "https://kff.org/medicaid/recent-medicaid-chip-enrollment-declines-and-barriers-to-maintaining-coverage",
+  "fetch_timestamp_utc": "2026-10-04T03:49:40.899526+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/medicaid/recent-medicaid-chip-enrollment-declines-and-barriers-to-maintaining-coverage/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 168200,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/fd49b882d7318ce94f6a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/fd49b882d7318ce94f6a.txt",
+  "text_chars": 31353,
+  "text_words": 3974,
+  "extraction_status": "success",
+  "page_title": "Recent Medicaid/CHIP Enrollment Declines and Barriers to Maintaining Coverage | KFF",
+  "page_author": "Samantha Artiga; Olivia Pham",
+  "page_date": "2019-09-24",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/medicaid/recent-medicaid-chip-enrollment-declines-and-barriers-to-maintaining-coverage/"
+}

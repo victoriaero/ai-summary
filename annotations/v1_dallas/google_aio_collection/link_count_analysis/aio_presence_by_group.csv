@@ -1,0 +1,14 @@
+dimension,condition,group,n,aio_present,aio_rate
+Control,control,people,21,21,1.0
+Disability,majority,People without disabilities,21,21,1.0
+Disability,minority,People with disabilities,21,21,1.0
+Ethnicity,majority,non-Latino people,21,21,1.0
+Ethnicity,minority,Latino people,21,21,1.0
+Gender,majority,Men,21,21,1.0
+Gender,minority,Women,21,21,1.0
+Gender Identity,majority,cisgender people,21,21,1.0
+Gender Identity,minority,transgender people,21,21,1.0
+Race,majority,White people,21,21,1.0
+Race,minority,Black people,21,21,1.0
+Sexual Orientation,majority,heterosexual people,21,21,1.0
+Sexual Orientation,minority,homosexual people,21,21,1.0

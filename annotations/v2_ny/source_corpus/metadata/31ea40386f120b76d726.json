@@ -1,0 +1,28 @@
+{
+  "source_id": "31ea40386f120b76d726",
+  "normalized_url": "https://youtube.com/watch?t=48s&v=96rwUA7pqYg",
+  "fetch_timestamp_utc": "2026-10-04T02:36:24.399422+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=48s&v=96rwUA7pqYg",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1154648,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/31ea40386f120b76d726.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/31ea40386f120b76d726.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "LGBTQ Inmates are Treated Worse Than Other Inmates",
+  "page_author": null,
+  "page_date": "2022-09-14",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=96rwUA7pqYg"
+}

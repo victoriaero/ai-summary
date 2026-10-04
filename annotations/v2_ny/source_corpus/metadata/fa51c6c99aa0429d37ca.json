@@ -1,0 +1,28 @@
+{
+  "source_id": "fa51c6c99aa0429d37ca",
+  "normalized_url": "https://greatplacetowork.com/resources/blog/hiring-employees-with-disabilities",
+  "fetch_timestamp_utc": "2026-10-04T02:52:13.825401+00:00",
+  "registrable_domain": "greatplacetowork.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.greatplacetowork.com/resources/blog/hiring-employees-with-disabilities",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 112091,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/fa51c6c99aa0429d37ca.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/fa51c6c99aa0429d37ca.txt",
+  "text_chars": 12171,
+  "text_words": 1838,
+  "extraction_status": "success",
+  "page_title": "Hiring People with Disabilities: Why It Matters & How to Do It Right",
+  "page_author": "Ruby Storm Green",
+  "page_date": "2025-01-02",
+  "site_name": "Great Place To Work®",
+  "canonical_url": "https://www.greatplacetowork.com/resources/blog/hiring-employees-with-disabilities"
+}

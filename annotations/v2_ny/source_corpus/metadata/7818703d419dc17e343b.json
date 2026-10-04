@@ -1,0 +1,20 @@
+{
+  "source_id": "7818703d419dc17e343b",
+  "normalized_url": "https://uhc.com/understanding-health-insurance/understanding-health-insurance-costs/types-of-health-insurance-costs/how-insurance-premiums-work",
+  "fetch_timestamp_utc": "2026-10-04T02:42:12.154583+00:00",
+  "registrable_domain": "uhc.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.uhc.com/understanding-health-insurance/understanding-health-insurance-costs/types-of-health-insurance-costs/how-insurance-premiums-work",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 919,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

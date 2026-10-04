@@ -1,0 +1,28 @@
+{
+  "source_id": "e37cad46c3bfc4ec1492",
+  "normalized_url": "https://minneapolisfed.org/article/2024/lender-reported-reasons-for-mortgage-denials-dont-explain-racial-disparities",
+  "fetch_timestamp_utc": "2026-10-04T03:47:50.477979+00:00",
+  "registrable_domain": "minneapolisfed.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.minneapolisfed.org/article/2024/lender-reported-reasons-for-mortgage-denials-dont-explain-racial-disparities",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 246797,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e37cad46c3bfc4ec1492.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e37cad46c3bfc4ec1492.txt",
+  "text_chars": 21197,
+  "text_words": 3187,
+  "extraction_status": "success",
+  "page_title": "Lender-reported reasons for mortgage denials don’t explain racial disparities | Federal Reserve Bank of Minneapolis",
+  "page_author": null,
+  "page_date": "2024-01-18",
+  "site_name": "minneapolisfed.org",
+  "canonical_url": "https://www.minneapolisfed.org/article/2024/lender-reported-reasons-for-mortgage-denials-dont-explain-racial-disparities"
+}

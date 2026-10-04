@@ -1,0 +1,32 @@
+{
+  "source_id": "40bc376c9e74dc4ddbe8",
+  "normalized_url": "https://worksupport.com/research/documents/pdf/jablonskietal2024employmentbarriersexperiencedatdifferentjobacquisitionstagesbypeoplewithandwithout.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:24:13.200670+00:00",
+  "registrable_domain": "worksupport.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://worksupport.com/research/documents/pdf/jablonskietal2024employmentbarriersexperiencedatdifferentjobacquisitionstagesbypeoplewithandwithout.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Tue, 18 Mar 2025 17:40:51 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"b0837ce42c98db1:0\"",
+    "X-Content-Type-Options": "nosniff",
+    "Date": "Tue, 29 Sep 2026 19:24:16 GMT",
+    "Content-Length": "115769"
+  },
+  "downloaded_bytes": 115769,
+  "content_kind": "pdf",
+  "content_type": "application/pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/raw/40bc376c9e74dc4ddbe8.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/40bc376c9e74dc4ddbe8.txt",
+  "text_chars": 79024,
+  "text_words": 11323,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

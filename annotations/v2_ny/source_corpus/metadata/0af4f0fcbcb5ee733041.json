@@ -1,0 +1,28 @@
+{
+  "source_id": "0af4f0fcbcb5ee733041",
+  "normalized_url": "https://wellsfargo.com/financial-education/credit-management/five-c",
+  "fetch_timestamp_utc": "2026-10-04T02:33:20.240402+00:00",
+  "registrable_domain": "wellsfargo.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.wellsfargo.com/financial-education/credit-management/five-c/?utm_medium=www-redirect&utm_source=financial-education--credit-management--five-c",
+  "headers": {
+    "Content-Type": "text/html;charset=UTF-8"
+  },
+  "content_type": "text/html;charset=UTF-8",
+  "downloaded_bytes": 28101,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0af4f0fcbcb5ee733041.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0af4f0fcbcb5ee733041.txt",
+  "text_chars": 3816,
+  "text_words": 623,
+  "extraction_status": "success",
+  "page_title": "Find a Location",
+  "page_author": null,
+  "page_date": "1999-01-01",
+  "site_name": "wellsfargo.com",
+  "canonical_url": "https://www.wellsfargo.com/financial-education/credit-management/five-c/"
+}

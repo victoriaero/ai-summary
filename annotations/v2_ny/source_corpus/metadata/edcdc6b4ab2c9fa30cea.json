@@ -1,0 +1,28 @@
+{
+  "source_id": "edcdc6b4ab2c9fa30cea",
+  "normalized_url": "https://nlihc.org/resource/transgender-individuals-experience-homelessness-eight-times-rate-general-us-population",
+  "fetch_timestamp_utc": "2026-10-04T02:51:27.744616+00:00",
+  "registrable_domain": "nlihc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nlihc.org/resource/transgender-individuals-experience-homelessness-eight-times-rate-general-us-population",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 57545,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/edcdc6b4ab2c9fa30cea.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/edcdc6b4ab2c9fa30cea.txt",
+  "text_chars": 3476,
+  "text_words": 505,
+  "extraction_status": "success",
+  "page_title": "Transgender Individuals Experience Homelessness at Eight Times the Rate of the General U.S. Population",
+  "page_author": null,
+  "page_date": "2026-08-06",
+  "site_name": "National Low Income Housing Coalition",
+  "canonical_url": "https://nlihc.org/resource/transgender-individuals-experience-homelessness-eight-times-rate-general-us-population"
+}

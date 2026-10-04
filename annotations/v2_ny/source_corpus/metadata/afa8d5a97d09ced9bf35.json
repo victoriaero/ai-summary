@@ -1,0 +1,28 @@
+{
+  "source_id": "afa8d5a97d09ced9bf35",
+  "normalized_url": "https://hopecu.org/articles/breaking-barriers-overcoming-financial-challenges-in-the-hispanic-community",
+  "fetch_timestamp_utc": "2026-10-04T02:46:46.965833+00:00",
+  "registrable_domain": "hopecu.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hopecu.org/articles/breaking-barriers-overcoming-financial-challenges-in-the-hispanic-community/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 150631,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/afa8d5a97d09ced9bf35.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/afa8d5a97d09ced9bf35.txt",
+  "text_chars": 6425,
+  "text_words": 985,
+  "extraction_status": "success",
+  "page_title": "Breaking Barriers: Overcoming Financial Challenges in the Hispanic Community",
+  "page_author": null,
+  "page_date": "2025-09-01",
+  "site_name": "Hope CU",
+  "canonical_url": "https://www.hopecu.org/articles/breaking-barriers-overcoming-financial-challenges-in-the-hispanic-community/"
+}

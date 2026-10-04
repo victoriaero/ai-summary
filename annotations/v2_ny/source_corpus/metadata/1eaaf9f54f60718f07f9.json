@@ -1,0 +1,28 @@
+{
+  "source_id": "1eaaf9f54f60718f07f9",
+  "normalized_url": "https://financialplanningassociation.org/article/journal/JUN15-strategies-increase-financial-asset-ownership-among-us-hispanics",
+  "fetch_timestamp_utc": "2026-10-04T02:35:04.280734+00:00",
+  "registrable_domain": "financialplanningassociation.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.financialplanningassociation.org/article/journal/JUN15-strategies-increase-financial-asset-ownership-among-us-hispanics",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 113801,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1eaaf9f54f60718f07f9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1eaaf9f54f60718f07f9.txt",
+  "text_chars": 41231,
+  "text_words": 5928,
+  "extraction_status": "success",
+  "page_title": "Strategies to Increase Financial Asset Ownership among U.S. Hispanics",
+  "page_author": "Mario A González-Corzo; Ph D",
+  "page_date": "2026-10-01",
+  "site_name": "Financial Planning Association",
+  "canonical_url": "https://www.financialplanningassociation.org/article/journal/JUN15-strategies-increase-financial-asset-ownership-among-us-hispanics"
+}

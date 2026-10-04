@@ -1,0 +1,20 @@
+{
+  "source_id": "13d6cf4b07f62ebe6b53",
+  "normalized_url": "https://pewresearch.org/short-reads/2021/11/08/whats-behind-the-growing-gap-between-men-and-women-in-college-completion",
+  "fetch_timestamp_utc": "2026-10-04T02:34:08.334678+00:00",
+  "registrable_domain": "pewresearch.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://pewresearch.org/short-reads/2021/11/08/whats-behind-the-growing-gap-between-men-and-women-in-college-completion",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 4215,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

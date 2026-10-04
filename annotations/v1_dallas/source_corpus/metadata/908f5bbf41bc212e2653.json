@@ -1,0 +1,31 @@
+{
+  "source_id": "908f5bbf41bc212e2653",
+  "normalized_url": "https://researchgate.net/publication/374152531_Women's_financial_inclusion",
+  "fetch_timestamp_utc": "2026-09-29T19:32:38.052807+00:00",
+  "registrable_domain": "researchgate.net",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.researchgate.net/publication/374152531_Women's_financial_inclusion",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:32:41 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "accept-encoding",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d6a4d29ad5cb6-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 21138,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

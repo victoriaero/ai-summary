@@ -1,0 +1,28 @@
+{
+  "source_id": "443c554c6f09ecf2c9a9",
+  "normalized_url": "https://home.treasury.gov/news/featured-stories/racial-inequality-in-the-united-states",
+  "fetch_timestamp_utc": "2026-10-04T03:35:38.950027+00:00",
+  "registrable_domain": "treasury.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://home.treasury.gov/news/featured-stories/racial-inequality-in-the-united-states",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 100648,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/443c554c6f09ecf2c9a9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/443c554c6f09ecf2c9a9.txt",
+  "text_chars": 19028,
+  "text_words": 2720,
+  "extraction_status": "success",
+  "page_title": "Racial Inequality in the United States",
+  "page_author": null,
+  "page_date": "2022-07-21",
+  "site_name": "U.S. Department of the Treasury",
+  "canonical_url": "https://home.treasury.gov/news/featured-stories/racial-inequality-in-the-united-states"
+}

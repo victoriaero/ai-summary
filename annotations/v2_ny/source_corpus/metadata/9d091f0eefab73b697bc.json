@@ -1,0 +1,28 @@
+{
+  "source_id": "9d091f0eefab73b697bc",
+  "normalized_url": "https://transcen.org/top-10-reasons-to-hire-an-applicant-with-a-disability",
+  "fetch_timestamp_utc": "2026-10-04T02:45:13.252905+00:00",
+  "registrable_domain": "transcen.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.transcen.org/top-10-reasons-to-hire-an-applicant-with-a-disability/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 71802,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/9d091f0eefab73b697bc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/9d091f0eefab73b697bc.txt",
+  "text_chars": 2294,
+  "text_words": 331,
+  "extraction_status": "success",
+  "page_title": "Top 10 Reasons to Hire an Applicant with a Disability - TransCen, Inc",
+  "page_author": null,
+  "page_date": "2025-04-07",
+  "site_name": "TransCen, Inc",
+  "canonical_url": "https://www.transcen.org/top-10-reasons-to-hire-an-applicant-with-a-disability/"
+}

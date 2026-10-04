@@ -1,0 +1,28 @@
+{
+  "source_id": "723630cb2cd192b106a8",
+  "normalized_url": "https://wa.gov.au/government/publications/sexuality-and-gender-based-bullying-schools-fact-sheet-students",
+  "fetch_timestamp_utc": "2026-10-04T03:39:16.118280+00:00",
+  "registrable_domain": "wa.gov.au",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.wa.gov.au/government/publications/sexuality-and-gender-based-bullying-schools-fact-sheet-students",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 84987,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/723630cb2cd192b106a8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/723630cb2cd192b106a8.txt",
+  "text_chars": 4178,
+  "text_words": 653,
+  "extraction_status": "success",
+  "page_title": "Sexuality and gender-based bullying in schools - Fact Sheet for students",
+  "page_author": null,
+  "page_date": "2025-09-05",
+  "site_name": "Western Australian Government",
+  "canonical_url": "https://www.wa.gov.au/government/publications/sexuality-and-gender-based-bullying-schools-fact-sheet-students"
+}

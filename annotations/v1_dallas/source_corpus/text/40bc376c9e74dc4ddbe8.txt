@@ -1,0 +1,2418 @@
+Journal of Vocational Rehabilitation 61 (2024) 235–252
+DOI:10.3233/JVR-240034
+IOS Press
+235
+Employment barriers experienced at
+different job acquisition stages by people
+with and without disabilities
+Erica S. Jablonski∗, Kimberly G. Phillips and Megan Henly
+Institute on Disability, University of New Hampshire, Durham, NH, USA
+Received 29 April 2023
+Revised 4 July 2023
+Accepted 16 October 2023
+Pre-press 1 August 2024
+Published 16 September 2024
+Abstract.
+BACKGROUND: Employment barriers experienced by people with disabilities are well-documented by researchers. A
+closer look at the nature of these barriers at different stages of the job acquisition process may help to understand and address
+current challenges.
+OBJECTIVE: To understand how employment barriers differ for job seekers with and without disabilities; the impact of
+disability type; and are job acquisition barriers most salient, when looking for, applying to, or accepting a position.
+METHODS: 3,021 working-age adults (including 1,491 adults with disabilities) from a Qualtrics opt-in panel completed
+an online survey about employment status, job search barriers, and demographic factors (including disability). Logistic
+regression predicted odds of experiencing a job search barrier based on disability and other sociodemographic factors.
+RESULTS: Most job seekers reported barriers to employment, with disability being the strongest predictor. While the types
+of barriers experienced at all stages of the job search were similar for people with and without disabilities, people with
+disabilities experienced barriers signiﬁcantly more often.
+CONCLUSION: Employment barriers among people with and without disabilities are similar in nature but vary by degree.
+Improvements in transportation and better alignment between education, training, and the job market may beneﬁt all job
+seekers.
+Keywords: Employment, people with disabilities, job application, sociodemographic factors
+1. Introduction
+The percentage of people aged 16 to 64 with a
+disability who are working is substantially lower
+(37.7%) than those with no disability (75.5%)
+∗Address for correspondence: Erica S. Jablonski, College of
+Professional Studies, University of New Hampshire, 88 Commer-
+cial Street, Manchester, NH 03101, USA. E-mail: e.jablonski@
+unh.edu.
+(Kessler Foundation & the University of New Hamp-
+shire, 2023b). Several U.S. federal policies have
+attemptedtoaddressaccesstoemploymentforpeople
+with disabilities. This includes the 1973 Rehabil-
+itation Act which provided funding to states for
+vocational rehabilitation programs and also prohib-
+ited federal employers from not hiring people due
+to their disability. The Americans with Disabilities
+Act of 1990 expanded these disability discrimi-
+nation protections to non-federal employers and
+ISSN 1052-2263/$35.00 © 2024 – IOS Press. All rights reserved.
+
+
+236
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+also required eligible employers to offer reasonable
+accommodations to workers as needed. The Work-
+force Investment Act in 1998 expanded vocational
+rehabilitation (VR) training and programs at the state
+level,providingone-stopaccessforservicesandiden-
+tifying opportunities for job search and job placement
+for job seekers with disabilities. Despite these fed-
+eral interventions, and although the US has seen
+recent gains in the employment rate among peo-
+ple with disabilities, a signiﬁcant employment gap
+persists between people with and without disabili-
+ties (Kessler Foundation & the University of New
+Hampshire, 2023b). For example, in July of 2023, the
+labor participation rate differential was similar to the
+employment rate pattern, with 40.4% of people with
+disabilities aged 16–64 participating in the work-
+force, as compared to 78.4% of their contemporaries
+without disabilities. Historically, lower employment
+rates among people with disabilities were common,
+and times of economic upset and recession affected
+this part of the population longer and more severely
+than people without disabilities (Kessler Foundation
+& the University of New Hampshire, 2023a; Liver-
+more & Honeycutt, 2015; McAlpine & Alang, 2021).
+Prior research has shown that these effects do not
+reﬂect a lack of desire or effort to be employed
+on the part of people with disabilities. In fact, the
+majority (68.4%) have demonstrated that they are
+striving to work, meaning that they are either cur-
+rently employed, held jobs in the past, or had been
+actively seeking a position (Sundar et al., 2018).
+Despite the desire and efforts to obtain and main-
+tain work, people with disabilities experience myriad
+barriers to employment (Khayatzadeh-Mahani et al.,
+2020; McKinney & Swartz, 2021; Schur et al., 2017).
+Employment barriers faced by people with dis-
+abilities was a special topic of the ﬁrst disability
+supplement to the monthly Current Population Sur-
+vey ([CPS], Bureau of the Census, 2012). Findings
+from the supplemental data collection showed that,
+among people with disabilities who were unem-
+ployed or not in the labor force, about 50% reported
+at least one barrier to employment (Bureau of Labor
+Statistics, 2013). The most commonly faced chal-
+lenge was their own disability, followed by lack of
+education or training, lack of transportation, and the
+need for special features at the job (Bureau of Labor
+Statistics, 2013). Informed largely by these ﬁndings,
+the purpose of this article is to update and expand the
+current understanding of employment obstacles faced
+by people with disabilities during the job acquisition
+process.
+We replicated the CPS disability supplement ques-
+tions about barriers that job seekers commonly face.
+We also compared the nature and frequency of
+barriers experienced by people with and without dis-
+abilities, and we dove deeper to inquire about the
+different key stages of job acquisition. Based on
+prior research and the fact that different subpopu-
+lations have varying success with distinct aspects of
+obtaining employment (Barbulescu, 2015; Dannals
+et al., 2021; Hernandez et al., 2019), we conceptual-
+ized three stages of job acquisition: 1) looking for
+a job means identifying desirable and potentially-
+attainable positions; 2) applying for a job includes
+the cover letter, application, and interview process;
+and 3) accepting a job includes negotiating pay and
+work schedule, and requesting any needed accommo-
+dations. Speciﬁcally, this study sought to answer the
+following research questions (RQ):
+RQ1: What types of barriers are job seekers with
+disabilities most likely to face, compared to job
+seekers without disabilities?
+RQ2: How do job search barriers differ by type
+of disability?
+RQ3: To what extent are job search barriers more
+salient when looking for, applying to, or accepting
+a position?
+Barriers to employment can be categorized at the
+levels of the individual employee, the employing
+organization, and the larger societal level, as reﬂected
+in Table 1 (Sundar et al., 2018).
+1.1. Individual-level barriers
+Individual-level
+factors
+include
+prospective
+employees’ characteristics (e.g., age, race, gender,
+education, disability) that may be self-identiﬁed as
+contributing to employment difﬁculty, such as in
+a study by Fyffe et al. (2022) in which personal
+characteristics (e.g., medical conditions, functional
+limitations) were mentioned more frequently than
+employer or societal-level barriers to employment
+among working-age adults with disabilities (Fyffe
+et al., 2022). Individual-level factors can also be
+cited by others (e.g., managers, employers) as causes
+of work limitation. For example, disability type
+can become signiﬁcant, when managers perceive
+more barriers among people with intellectual or
+mental disabilities compared to people with physical
+disabilities (Kocman, Fisher, & Weber, 2018).
+One other individual-level barrier is navigating a
+need for accommodation, potentially creating barri-
+
+
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+237
+Table 1
+Examples of employment barriers by level
+Individual-level barriers
+Disability/health condition
+Lack of education/training
+Need for accommodations (self-identiﬁed as a barrier)
+Other (e.g., age)
+Organizational-level barriers
+Employer or coworker attitudes (may include misconceptions, e.g., extra costs for accommodations)
+Other (e.g., background check)
+Societal-level barriers
+Lack of transportation
+Loss of beneﬁts or government assistance (e.g., Social Security)
+Other (e.g., daycare costs too expensive)
+ers at the time of disclosing the need, requesting an
+accommodation, or receiving the needed accommo-
+dation. This problem has emerged in prior qualitative
+research regarding disability disclosure issues (Inge
+et al., 2018). In a more recent Canadian study sur-
+veying young adults transitioning to employment,
+disclosure was the most commonly indicated job
+accommodationbarrier(77%),followedbyperceived
+cost of accommodation (74%), and potential inabil-
+ity to accommodate job duties (68%) (Jetha et al.,
+2019). Individual-level barriers also include a lack of
+training or education that would facilitate employ-
+ment. Among recent college graduates in the US, it
+was not disability, but lack of training that was iden-
+tiﬁed as the most prevalent barrier to employment
+for job seekers with and without disabilities (Phillips
+et al., 2020). In similar research ﬁndings from Aus-
+tralia, people with intellectual disabilities described
+not receiving the skills and knowledge that could help
+them secure a position of interest from employment
+services (Meltzer, Robinson, & Fisher, 2020).
+1.2. Organizational-level barriers
+Organizational-level factors that serve as barriers
+to employment for people with disabilities include
+employer perceptions and misconceptions. For exam-
+ple, in an environmental scan of publications on
+employer policies and practices conducted by Baker
+and his colleagues (2018) several studies identiﬁed
+instances where employers expressed concerns about
+the sufﬁciency of educational and training credentials
+or qualiﬁcations of applicants with disabilities. Peo-
+ple with disabilities also report employer beliefs that
+they were not qualiﬁed (Houtenville et al., 2015; Sun-
+dar et al., 2018). While this was found to be the case
+among employing organizations as well, employer
+reports did not directly speak to non-inclusive work-
+place cultures that people with disabilities reported
+as a barrier to employment (Chen, 2015; Meltzer,
+Robinson, & Fisher, 2020). Employers did acknowl-
+edge having greater hiring concerns for people with
+intellectual disabilities or mental disorders than for
+those with physical disabilities (Kocman, Fischer,
+& Weber, 2018), consistent with the experiences of
+stigma and discrimination described by employees
+with intellectual disabilities in competitive work-
+places (Meltzer, Robinson, & Fisher, 2020), a group
+that has reported discrimination as their greatest bar-
+rier to employment (Jacob et al., 2022).
+Doubt or questions about applicant capacity also
+emerged as a barrier in a qualitative study of South
+Africans engaged in the job search process (McKin-
+ney & Swartz, 2021), even when those capabilities
+were not clearly associated with the responsibilities
+of a position. In Austria, 30 hiring managers empha-
+sized a lack of appropriate jobs, frequently relating
+this to high organizational job requirements (Koc-
+man, Fischer, & Weber, 2018). The purely structural
+argument in that study seemed undermined how-
+ever by the association found between perceived
+employment barriers and manager attitudes. While
+perceptions about people with intellectual disabilities
+were not said to inﬂuence beliefs about their employ-
+ability, managers who saw them as more different
+from people without disabilities, or who preferred
+segregated solutions for them, also perceived them
+as having greater employment barriers. In the US,
+negative employer assumptions were also reported as
+frequent barriers to employment (36%) (Houtenville
+et al., 2015).
+Negative presumptions about people with dis-
+abilities, as well as lack of consideration for job
+applicants with disabilities can play out as employ-
+ment barriers at various stages of the application
+process and beyond. Evidence of discriminatory
+
+
+238
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+employer attitudes was tested in a ﬁeld experiment
+in which job applicants’ cover letters disclosed either
+physical disability, cognitive disability, or did not
+indicate any form of disability (Ameri et al., 2018).
+Even though disability type was matched to job
+description so as not to interfere negatively with job
+responsibilities, this experiment found a 26% lower
+likelihood of employer interest in applicants with
+self-disclosed disabilities than those without. Other
+barriers identiﬁed in the application process have
+included inaccessible forms or tests, and interviews
+that failed to account for needed accommodations
+even when a disability was disclosed (McKinney &
+Swartz, 2021). In mixed methods research conducted
+by Jacob et al. (2022), it was found that both employ-
+ers and coworkers expressed prejudiced attitudes as
+well as discrimination against employees with intel-
+lectual disabilities.
+1.3. Societal-level barriers
+Societal-level prejudices can manifest not only in
+laws but also in policies and practices that inhibit
+the ability of people with disabilities to participate
+equally in employment opportunities. For recent col-
+lege graduates in Taiwan, perception of acceptance
+by society and the job market were viewed as the key
+factors explaining employment status, while neither
+disability type nor disability level were signiﬁcant
+(Chen, 2015). Limited protections for prospective
+employees with disabilities (outside of those hired by
+large employers) may also reﬂect societal prejudices.
+Even when protections are in place, they can have
+mixed results, such as employer concerns about the
+ramiﬁcations of hiring a person with disabilities given
+regulations concerning their dismissal (Bonaccio et
+al., 2019; Kocman, Fischer, & Weber, 2018).
+Friedman (2020) found that lower disability
+employment rates were signiﬁcantly correlated with
+state disability prejudice scores. Misperceptions feed
+these types of bias. For example, the unmet need
+for workplace accommodations reported in the US
+(Maestas, Mullen, & Rennane, 2019) is likely exac-
+erbated by employers failing to recognize that most
+employees with disabilities do not require workplace
+accommodations and that, when they do, their costs
+tend to be low (Baker et al., 2018).
+Other societal-level barriers to employment for
+some people with disabilities include fear of loss or
+reduction in governmental supports (e.g., Veterans
+Affairs disability payments or caregiver stipends in
+the US, or disability pensions in Australia) if they
+attain a paid position (Gong & He, 2019; Shepherd-
+Banigan et al., 2021). Transportation is also a major
+concern. In a nationally representative survey of
+Americans with disabilities, respondents indicated
+that lack of transportation was the third most common
+job search barrier that they encountered, following
+insufﬁcient training, and employer misconceptions
+about their capabilities (Houtenville et al., 2015).
+Although prejudice and discrimination may originate
+in the larger national (Shaw et al., 2014) and state
+(Friedman, 2020) contexts within which employers
+are situated, they can have deleterious effects on the
+employment of individuals with disabilities at differ-
+ent stages of the employment process.
+2. Materials and methods
+2.1. Participant recruitment
+Participants for this study were recruited from
+a Qualtrics opt-in Internet panel. Qualtrics and its
+partners use various recruitment techniques includ-
+ing member referrals, targeted email lists, gaming
+sites, customer loyalty web portals, permission-based
+networks, and social media. Qualtrics utilizes third
+party partners to design samples meant to meet
+recruitment quotas. Because of our interest in peo-
+ple with disabilities, we recruited from the general
+adult and the chronic conditions panels to oversample
+respondents with disabilities (about half of the total
+sample). While this generated a non-probability sam-
+ple design, respondents were successfully recruited
+from each of the 50 states, and the resulting data were
+weighted to be more representative of the population
+(described below).
+In all, n = 6,350 people accessed the online sur-
+vey; n = 2,252 screened out of the survey for being
+under 18 or because their demographic quota was
+already met. The online study consent form that
+preceded access to the survey also speciﬁed the
+requirement that participants be younger than 65.
+This was done to limit our sample to traditionally
+working aged adults. Of the remaining n = 4,098, an
+additional n = 1,062 were screened out for failing
+to provide informed consent or for failing built-in
+survey quality checks used to detect inattentive or
+rushed responses. More speciﬁcally, to avoid exclu-
+sion, respondents were required to correctly answer
+one attention check, and responses completed in less
+than 2 minutes were rejected as rushed. These proce-
+dures resulted in a ﬁnal analytic sample of n = 3,021,
+
+
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+239
+of which n = 1,491 (49.3%) self-reported any disabil-
+ity. Of these, n = 1,170 were not currently employed.
+2.2. Data collection procedures and instrument
+The survey was conducted over the course of
+ﬁve days at the end of March and beginning of
+April 2019 and took an average of seven minutes
+to complete. Both Qualtrics and their third-party
+data hosts employ double opt-in veriﬁcation as well
+as encryptions for all transmitted data, that is later
+destroyed. The data available to researchers con-
+tained no personally identiﬁable information but
+prospective participants were informed that there
+would be restricted researcher access to electronic
+copies,whichwouldbesecurelystored,andpassword
+protected. Although the employment-related barrier
+questionnaire was not expected to generate any harm
+to prospective respondents, they were nonetheless
+informed that their participation was completely vol-
+untary, that they could refuse to answer any question,
+and that they could withdraw their consent at any
+time. The primary ethical concern with the involve-
+ment of human subjects was the risk of identifying
+subjects based upon their responses. Stored data did
+not include email addresses or location (ISP address),
+and only summarized data is presented here. While
+there were no explicit beneﬁts to participation, any
+small incentives or compensation for survey comple-
+tion (e.g., cash, free downloads, or reward points)
+were provided at the discretion of Qualtrics and its
+partners. This study was approved by the Univer-
+sity of New Hampshire Institutional Review Board
+(# 8054) after review of its data collection protocol.
+The data collection instrument was based primar-
+ily on the CPS disability supplement, with additional
+questions drafted by the investigators and vetted by a
+disability and employment expert panel. The survey
+included a variety of demographic measures, with a
+focus on disability status and type, employment status
+and experiences, job search, and job quality. Because
+prior research has shown that the six disability iden-
+tiﬁers used in many federal surveys, such as the
+American Community Survey, fail to identify many
+people with disabilities (Burkhauser, Houtenville, &
+Tennant, 2014), additional questions were included to
+capture additional types of disabilities that individu-
+als might experience (e.g., psychiatric and learning
+disabilities). Speciﬁcs regarding the main dependent
+and independent variables are provided below.
+The primary independent variable of interest, dis-
+ability status, was assessed by asking up to nine
+questions about sensory, ambulatory, psychiatric, and
+cognitivedifﬁculties.A“yes”responsetoanyofthese
+is counted as having a disability:
+• [Vision] Do you have serious difﬁculty seeing
+even when wearing glasses?
+• [Hearing] Do you have difﬁculty hearing?
+• [Ambulatory] Do you have serious difﬁculty
+walking or climbing stairs?
+◦Do you have any difﬁculty walking a quar-
+ter of a mile – about 3 city blocks? (Asked
+of those who said no to item about stairs)
+• [Physical]Doyouhaveanydifﬁcultydoingphys-
+ical activities such as lifting, carrying, bending,
+or manipulating small objects?
+• [Cognitive] Because of a physical, mental, or
+emotional condition, do you have serious dif-
+ﬁculty concentrating, remembering, or making
+decisions?
+◦Do you think you have a condition that
+makesitdifﬁcultingeneralforyoutolearn?
+Such conditions include attention problems
+(ADD), hyperactivity (ADHD), dyslexia,
+and others? (Asked of those who said no
+to item about concentrating)
+• Do you have any emotional, psychological, or
+mental health conditions? These may include
+anxiety, depression, bipolar disorder, substance
+abuse, anorexia, as well as other conditions?
+(Asked of those who said no to items about con-
+centrating and learning)
+• Do you have a developmental disability or disor-
+der? (This may include Down Syndrome, autism,
+or Asperger syndrome, as well as other condi-
+tions.) (Asked of those who said no to items
+about concentrating, learning, or psychiatric
+conditions)
+Finally, respondents who said no to all of the above
+were asked “Do you have any other kind of dis-
+ability?” A few respondents reported disability types
+asked about in the above list (i.e., anxiety and learn-
+ing disability) and these cases were backcoded into
+the correct disability category. Open-ended responses
+that could not be categorized by the above disability
+types (e.g., chronic illness) were coded as having no
+disability. In total, n = 1,491 of our ﬁnal sample had
+a disability, or 46.6% of the weighted sample. This
+proportion is high by design, as our sampling quota
+was to have about half of our sample with a disability
+in order to provide ample statistical power to examine
+the employment barriers for this population.
+
+
+240
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+The key dependent measure in this study was
+whether someone reported a barrier to employment.
+This was measured by responses to the following
+question asked of those who reported they were not
+working at the time of survey, Do you consider any of
+the following to be a barrier to employment for you:
+• Lack of education or training
+• Lack of transportation
+• Loss of beneﬁts or government assistance
+• Needforspecialjobfeaturesoraccommodations
+• Employer or coworker attitudes
+• Disability or health condition
+• Some other problem (if yes, please specify)
+Respondents could select all that apply. Those who
+reported any of these barriers (including “other”)
+were counted as having experienced a barrier to
+employment. Among those who reported any type of
+disability, a follow-up question asked whether each
+reported employment barrier was “due to a health
+condition or disability.”
+The survey instrument also captured standard
+demographic measures, including education (for
+which eight categories were presented and were
+collapsed into four: High school graduate or less,
+some college, 4-year degree, and advanced degree);
+total family income (seven categories were pre-
+sented, with a low of under $15,000 and a high
+of over $100,000, which were collapsed into
+four categories: under $30,000, between $30,000
+and under $60,000, $60,000 to under $75,000,
+$75,000 to under $100,000, and everything higher);
+race/ethnicity, derived from asking about Hispanic
+ethnicity (yes/no), and race (multiple responses per-
+mitted); age (coded from year of birth), and region
+(Northeast, Midwest, South and West), constructed
+based on the state of residence identiﬁed.
+2.3. Description of analytic approach
+To address this study’s research questions, descrip-
+tive statistics and logistic regression models were
+conducted for each barrier type as well as for the
+presence of any barrier. Prior to multivariate analy-
+ses, survey data were weighted by gender, age group,
+household income, race, and region of the coun-
+try using 2017 5-year American Community Survey
+estimates. The median weight was 0.72 (range 0.4
+to 6.0). The unweighted study sample was dispro-
+portionately female and slightly younger than the
+working-age population. Hispanic or Latinx partic-
+ipants were also underrepresented in the unweighted
+sample. The unweighted sample was similar to the
+overall population regarding educational attainment,
+region, and receipt of Social Security beneﬁts (SSI
+or SSDI), though it was slightly lower on average
+income distribution. This may be due to our oversam-
+pling of people with disabilities, who are less likely
+to be employed. The weighted sample is presented
+throughout the rest of the ﬁndings, unless otherwise
+speciﬁed. The demographics of the unweighted and
+weighted sample are presented in Table 2.
+3. Results
+3.1. Demographics
+As displayed in Table 2, 47 percent of our weighted
+sample reported having one or more disabilities. The
+most frequently reported disabilities by sample par-
+ticipants included those pertaining to upper body
+mobility (18%), cognition (17%), psychiatric state
+(16%), walking upstairs (13%), vision (11%), and
+hearing (10%). Each of the remaining disability types
+were reported by fewer than 10% of respondents.
+3.2. Employment participation
+In terms of employment status, 59.2% of people
+with disabilities were currently working, compared
+to 68.0% of those without a disability. Of those who
+were unemployed at the time of the survey, 76.0%
+had been employed previously and 24.0% had never
+been employed. Among those previously employed,
+32.6% of people with disabilities were looking for
+work, compared to 36.8% of those without a disabil-
+ity. See Table 3.
+3.3. Barriers to employment by disability status
+Table 4 displays the prevalence of barriers unem-
+ployed adults faced by disability status. The vast
+majority (99% of those with a disability, and 90%
+of those without a disability) reported experienc-
+ing at least one type of employment barrier. Among
+people with disabilities, the most commonly cited
+barriers were health condition or disability (58%),
+lack of education or training (22%), and lack of trans-
+portation (21%). While lack of education or training
+(20%), and lack of transportation (19%) were also
+two of the top three most commonly reported barri-
+ers to employment for people without disabilities, this
+group also reported employer or coworker attitudes
+
+
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+241
+Table 2
+Sample characteristics
+Unweighted
+Weighted
+n
+%
+%
+Total
+3021
+100.0
+100.0
+Gender
+Male
+856
+28.3
+50.4
+Female
+2163
+71.6
+49.5
+Refused
+2
+0.1
+0.1
+Age
+18–24
+421
+13.9
+16.7
+25–34
+728
+24.1
+21.5
+35–44
+737
+24.4
+20.3
+45–54
+590
+19.5
+20.9
+55–64
+545
+18.0
+20.6
+Race/ethnicity
+White, non-Hispanic
+2098
+69.5
+61.4
+Black, non-Hispanic
+339
+11.2
+12.2
+Other, non-Hispanic
+292
+9.7
+8.6
+Hispanic
+285
+9.4
+17.5
+Refused
+7
+0.2
+0.2
+Disability (any of the 9 disability types on the survey)
+Yes
+1491
+49.3
+46.6
+No
+1530
+50.7
+53.4
+Disability type
+Vision
+348
+11.5
+11.5
+Hearing
+276
+9.1
+10.3
+Walking climb stair
+392
+13.0
+12.9
+Walking quarter of a mile
+173
+5.7
+5.3
+Upper Mobility
+585
+19.4
+18.3
+Cognitive
+545
+18.0
+16.8
+Learning
+182
+6.0
+7.6
+Psychiatric (e.g., anxiety, depression)
+446
+14.8
+16.5
+IDD
+8
+0.3
+0.5
+Other
+23
+0.8
+1.5
+Education
+8th grade or less
+14
+0.5
+0.5
+Some high school
+111
+3.7
+3.7
+High school graduate or GED
+688
+22.8
+21.9
+Some college, no degree
+719
+23.8
+23.3
+Associate degree, occupational or vocational program
+320
+10.6
+9.3
+Associate degree, academic program
+128
+4.2
+3.6
+Bachelor’s degree
+700
+23.2
+24.1
+Master’s degree
+257
+8.5
+9.8
+Professional school degree
+44
+1.5
+2.1
+Doctorate degree
+38
+1.3
+1.8
+Income
+Less than $15,000
+390
+12.9
+11.5
+$15,00–29,999
+499
+16.5
+14.7
+$30,000–44,999
+474
+15.7
+13.4
+$45,000–59,999
+383
+12.7
+11.1
+$60,000–74,999
+324
+10.7
+8.9
+$75,000–$99,999
+357
+11.8
+11.5
+$100,000 & over
+445
+14.7
+24.4
+DK
+148
+4.9
+4.6
+Social Security (SSI or SSDI)
+Yes
+367
+12.2
+13.0
+No
+2583
+85.6
+84.7
+DK
+69
+2.3
+2.3
+Region
+Northeast
+536
+17.8
+17.5
+Midwest
+668
+22.2
+21.1
+South
+1167
+38.8
+37.7
+West
+637
+21.18
+23.6
+
+
+242
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+Table 3
+Employment participation status, by disability status (weighted %; unweighted n)
+Total
+Disability
+No Disability
+Looking
+Not Looking
+Total
+Looking
+Not Looking
+Total
+N
+%
+N
+%
+N
+%
+N
+%
+N
+%
+N
+%
+N
+%
+Total
+3021
+100.0
+1491
+100.0
+1530
+100.0
+Currently
+employed
+1851
+63.9
+na
+na
+na
+na
+839
+59.2
+na
+na
+na
+na
+1012
+68.0
+Previously
+employed
+901
+76.0
+161
+32.6
+370
+67.4
+531
+100.0
+133
+36.8
+237
+63.2
+370
+100.0
+Never
+employed
+269
+24.0
+48
+33.9
+73
+66.1
+121
+100.0
+41
+34.2
+107
+65.8
+148
+100.0
+Missing
+0
+Table 4
+Prevalence of barriers faced among the unemployed, by disability status (unweighted N, weighted %)
+Total
+Person with a Disability
+No Disability
+Barrier
+Attributed
+Barrier
+Faced
+to Disability
+Faced
+N
+%
+N
+%
+N
+%
+N
+%
+Total
+1170
+652
+518
+Any barriers
+1116
+94.7
+641
+98.6
+475
+90.4
+Lack of ed or training
+263
+21.0
+152
+22.2
+45
+34.8
+111
+19.8
+Lack of transportation
+243
+20.1
+144
+21.4
+40
+30.6
+99
+18.6
+Loss of beneﬁts
+98
+9.0
+61
+10.7
+44
+67.1
+37
+7.2
+Need for accommodations
+123
+11.5
+83
+13.6
+57
+66.0
+40
+9.1
+Employer or coworker attitudes
+139
+13.2
+70
+11.9
+22
+29.3
+69
+14.7
+Disability or health
+429
+35.3
+377
+57.9
+na
+na
+52
+10.0
+Other
+141
+9.7
+60
+8.3
+14
+18.4
+81
+11.4
+(15%) as a barrier, more often than people with dis-
+abilities (12%). Among people with disabilities, need
+for accommodations ranked fourth (14%) and loss of
+beneﬁts ranked sixth (11%) out of the seven barriers
+listed, and it is worth noting that each of these barri-
+ers were highly attributed to individuals’ disabilities
+(66% and 67%, respectively). Respondents without
+disabilities were also able to cite health as a barrier.
+Since they did not report one of the disability types
+asked about in the survey, a “health” barrier would be
+something other than a disability, as deﬁned here.
+3.4. Barriers at different stages of job
+acquisition
+In Table 5 the frequency of different barriers is
+presented relative to distinct stages in the job search
+process for unemployed respondents, namely looking
+for work, applying for work, or accepting a position.
+Means for the frequency with which people with and
+without disabilities experienced employment barri-
+ers (1 = Never to 5 = Always) are compared. Though
+overall means were low, indicating that experience
+with each individual barrier was infrequent, respon-
+dents indicated that a health condition or disability
+was the most common employment barrier across
+all stages of the job acquisition process, with means
+ranging from 2.03 at the job acceptance stage to 2.32
+at the job seeking and application stages. Similarly,
+lack of education or training and lack of transporta-
+tion generally alternated between the second or third
+most-cited reasons across job search stages.
+Beyond these general trends, however, mean com-
+parisons between people with and without disabilities
+revealed signiﬁcant differences (p < 0.05) for all bar-
+riers and job acquisition stages except the lack of
+education or training at the job acceptance stage.
+At all stages, respondents with and without dis-
+abilities ranked lack of education or training and
+lack of transportation among their top three most
+frequent employment barriers. People with disabil-
+ities identiﬁed disability or health condition as their
+mostfrequentbarrier.Employerorcoworkerattitudes
+rounded out the top three barriers for people with-
+out disabilities at all job acquisition stages, though
+it was ranked last by people with disabilities except
+regarding job acceptance. People without disabilities
+on average also ranked loss of beneﬁts as a more fre-
+quent barrier for them than people with disabilities
+across job acquisition stages. Whereas trends were
+
+
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+243
+Table 5
+Impact of barriers on stages of the job acquisition process among the unemployed, by disability status weighted
+Total
+Disability
+No Disability
+Prob>F
+Look
+Apply
+Accept
+Look
+Apply
+Accept
+Look
+Apply
+Accept
+Means comparison
+Mean
+sd
+Mean
+sd
+Mean
+sd
+Mean
+sd
+Mean
+sd
+Mean
+sd
+Mean
+sd
+Mean
+sd
+Mean
+sd
+Look
+Apply
+Accept
+Lack of education or training
+2.06
+1.16
+2.19
+1.20
+1.66
+1.01
+2.16
+1.19
+2.34
+1.24
+1.68
+1.03
+1.92
+1.11
+2.01
+1.11
+1.63
+0.98
+0.000
+0.000
+0.388
+Lack of transportation
+2.11
+1.27
+2.08
+1.29
+1.87
+1.21
+2.27
+1.32
+2.24
+1.33
+2.02
+1.29
+1.90
+1.17
+1.88
+1.20
+1.68
+1.07
+0.000
+0.000
+0.000
+Loss of beneﬁts
+1.75
+1.17
+1.74
+1.19
+1.59
+1.08
+1.89
+1.26
+1.86
+1.29
+1.66
+1.16
+1.58
+1.01
+1.58
+1.04
+1.51
+0.97
+0.000
+0.000
+0.011
+Need for accommodations
+1.81
+1.16
+1.80
+1.17
+1.68
+1.10
+2.02
+1.27
+2.01
+1.29
+1.83
+1.22
+1.54
+0.95
+1.54
+0.93
+1.50
+0.91
+0.000
+0.000
+0.000
+Employer or coworker attitudes
+1.74
+1.05
+1.74
+1.04
+1.71
+1.03
+1.85
+1.11
+1.84
+1.12
+1.78
+1.09
+1.61
+0.95
+1.62
+0.91
+1.61
+0.94
+0.000
+0.000
+0.004
+Disability or health
+2.32
+1.49
+2.32
+1.49
+2.03
+1.41
+2.99
+1.52
+2.96
+1.52
+2.52
+1.54
+1.49
+0.94
+1.50
+0.95
+1.42
+0.90
+0.000
+0.000
+0.000
+Other
+not asked
+Scale for Barrier Frequency Survey Questions: 1 = Never 2 = Rarely 3 = Sometimes 4 = Frequently 5 = Always.
+consistent across job acquisition stages for people
+without disabilities, the frequency of different bar-
+riers shifted for people with disabilities at the job
+acceptance stage. At this stage, lack of education or
+training fell to ﬁfth, and need for accommodations
+increased,whilethelossofbeneﬁtsasanemployment
+barrier declined for people with disabilities.
+3.5. Demographic and socioeconomic predictors
+of employment barriers
+Based on logistic regressions conducted on demo-
+graphic variables for the presence of each individual
+employment barrier, as well as the presence of any
+barrier at all, it was observed that only the presence
+of a disability signiﬁcantly increased the likelihood
+of an unemployed person reporting an employment
+barrier (analysis not shown). Given these results,
+logistic regressions were rerun replacing the presence
+of any disability variable with dichotomous dummy
+variables for each disability type. For this analysis
+cognitive, learning, and intellectual or developmen-
+tal disabilities were combined, as were the physical
+challenges of climbing stairs, walking a quarter mile
+or upper body mobility difﬁculties.
+Results of this analysis showed that experiencing
+any employment barrier was signiﬁcantly associated
+with disability status, family income, age, and edu-
+cational attainment (see Table 6). Again, disability
+was the predictor most signiﬁcantly associated with
+increased risk of experiencing an employment bar-
+rier at all. Of these, having a cognitive, learning,
+or intellectual disability most signiﬁcantly increased
+the likelihood of reporting any employment barrier.
+The only unique employment barrier signiﬁcantly
+associated with this likelihood was one’s disabil-
+ity or health condition. For people with physical
+disabilities, the risk of experiencing some employ-
+ment barriers increased signiﬁcantly in terms of the
+need for accommodations, loss of beneﬁts, or bar-
+riers because of their disability or health condition,
+relative to people without physical disabilities. They
+were signiﬁcantly less at risk however for lack of
+transportation, or other barriers. People with psy-
+chiatric disabilities experienced signiﬁcantly greater
+employment barrier risks regarding their disability or
+ahealthcondition,butsigniﬁcantlylessriskregarding
+need for accommodation or loss of beneﬁts than those
+without psychiatric disabilities. Notably, people with
+vision disabilities were signiﬁcantly less likely than
+those without a vision disability to report coworker
+attitudes as an employment barrier than those without
+
+
+244
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+vision disabilities. No speciﬁc employment barriers
+were signiﬁcantly associated with having a hearing
+disability.
+Although there was some variation in non-
+disability/health condition predictors by speciﬁc
+barrier type, family income, age, and gender were sig-
+niﬁcantly associated with different types of barriers
+most often. Being female signiﬁcantly reduced one’s
+odds of experiencing employment barriers related to
+having a disability or health condition, or a need
+for an accommodation, but increased the odds of
+experiencing other barriers. Older age also signiﬁ-
+cantly reduced one’s chances of experiencing barriers
+related to need for accommodation, or insufﬁcient
+education or training, but increased once chance of
+having a disability or health condition serve as an
+employment barrier, compared to younger adults. In
+termsofannualfamilyincome,signiﬁcantdifferences
+were only found between families earning $60,000 or
+more and families earning less than $30,000. Fami-
+lies earning between $30,000 and $59,999 were not
+signiﬁcantly different in terms of employment barri-
+ers to families earning less than $30,000. For families
+with incomes of $60,000 or more, transportation was
+less likely to be an employment barrier. Only fami-
+lies with incomes between $60,000 and $74,999 were
+signiﬁcantly less likely to report disability or health
+condition as an employment barrier, compared to
+those earning less than $30,000 a year. For families
+with incomes of $75,000–$99,999, “other” employ-
+ment barriers were signiﬁcantly more likely to be an
+issue than for those earning less than $30,000 a year,
+although the opposite was the case for those earning
+$100,000 or more.
+3.6. Predicting attribution of other barriers to
+disability or health
+In this study, survey respondents were not only
+asked to identify direct employment barriers, but also
+to indicate whether a barrier may be attributable to a
+disability or health condition that they have. Because
+attribution for each non-disability or health condition
+was at least partially attributed to one’s disability or
+health condition (see Table 4), logistic regressions
+were run to identify the demographic and socioe-
+conomic predictors of employment barriers for the
+subset of respondents who identiﬁed themselves as
+having a disability. Because of an insufﬁcient num-
+ber of cases, loss of beneﬁts (n = 53) and “other”
+employment barriers (n = 33), were excluded from
+this analysis. (See Table 7).
+Results for this group of respondents with dis-
+abilities revealed sex, education, and family income
+were signiﬁcantly associated with the likelihood
+of reporting any employment barrier attributed to
+one’s disability or health condition. Looking across
+employment barrier types in our analysis, however,
+of these only the educational attainment barrier was
+signiﬁcantly attributed to one’s disability or health
+condition. In terms of speciﬁc barriers, coworker atti-
+tudes as a barrier were signiﬁcantly more likely to
+be attributed to a disability or health condition only
+among people holding advanced degrees, compared
+to those with a high school diploma or less. Similarly,
+the need for accommodation was attributed to a dis-
+ability or health condition more often among people
+with a bachelor’s degree, compared to a high school
+diploma or less.
+While the need for accommodations attributed
+to a disability was signiﬁcantly associated with the
+majority of demographic variables in this analysis,
+the nature of the relation was not uniform. While
+age was conversely associated with the likelihood
+of attributing the need for accommodation to a dis-
+ability or health condition, people with disabilities
+who were Black and non-Hispanic were signiﬁcantly
+less likely to attribute the need for accommodation
+to their disability or health condition, than White,
+non-Hispanic people with disabilities. People with
+disabilities residing in the Midwest or Northeast were
+also signiﬁcantly less likely to attribute the need for
+accommodation to their disability or health condition
+than people with disabilities residing in the West.
+3.7. Employment barriers by educational
+attainment
+Because of the signiﬁcance of educational attain-
+ment in this study, further analysis was conducted to
+look for associations between employment barriers
+of unemployed study participants and their levels of
+educational attainment. Results displayed in Table 8
+indicate that there were signiﬁcantly inverse relations
+betweeneducationalattainmentandemploymentbar-
+riers relating to lack of education or training, lack of
+transportation, and disability or health condition.
+4. Discussion
+This study’s ﬁndings echo prior research on
+disability employment, while also adding new infor-
+mation. The majority of the unemployed experienced
+
+
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+245
+Table 6
+Odds Ratios (and standard errors) predicting barriers to employment (any attribution), by disability type
+Any barrier
+Education/
+Transportation
+Loss of
+Need for
+Attitudes of
+Disability
+Other barriers
+Training
+beneﬁts
+accommodations
+coworkers
+Female (ref = male)
+0.607 (0.274)
+1.311 (0.262)
+0.972 (0.187)
+0.928 (0.251)
+0.557 (0.133)∗
+0.654 (0.147)
+0.624 (0.128)∗
+3.018 (0.929)∗∗∗
+Race (ref = White,
+Non-Hispanic)
+Black, Non-Hispanic
+1.278 (0.895)
+1.324 (0.344)
+1.312 (0.343)
+1.011 (0.388)
+1.577 (0.539)
+1.173 (0.381)
+0.874 (0.263)
+0.187 (0.090)∗∗
+Other, Non-Hispanic
+1.169 (0.673)
+1.280 (0.372)
+1.019 (0.315)
+0.607 (0.354)
+1.630 (0.632)
+1.689 (0.587)
+0.907 (0.307)
+0.369 (0.185)∗
+Hispanic
+0.779 (0.545)
+1.061 (0.311)
+1.024 (0.301)
+1.207 (0.461)
+0.619 (0.287)
+1.037 (0.430)
+0.846 (0.298)
+1.007 (0.387)
+Education (ref = HS or less)
+Some college
+0.915 (0.594)
+1.209 (0.246)
+0.783 (0.159)
+1.212 (0.380)
+1.539 (0.438)
+0.755 (0.200)
+0.950 (0.200)
+0.898 (0.234)
+Bachelors
+0.246 (0.151)∗
+0.923 (0.269)
+0.524 (0.174)
+1.598 (0.643)
+1.700 (0.690)
+1.073 (0.356)
+0.581 (0.178)
+1.521 (0.582)
+Advanced degree
+0.902 (0.709)
+0.280 (0.175)∗
+0.718 (0.414)
+1.671 (1.006)
+5.249 (2.970)∗∗
+1.867 (0.820)
+0.454 (0.244)
+0.874 (0.496)
+Family income (ref = <$30k)
+$30k-59,999
+0.809 (0.562)
+1.018 (0.222)
+0.966 (0.218)
+0.681 (0.226)
+1.270 (0.372)
+1.691 (0.487)
+0.698 (0.166)
+0.763 (0.211)
+$60k-74,999
+0.468 (0.299)
+0.733 (0.257)
+0.470 (0.165)∗
+0.452 (0.241)
+0.891 (0.419)
+1.397 (0.544)
+0.493 (0.174)∗
+0.869 (0.343)
+$75k-99,999
+0.624 (0.411)
+1.022 (0.341)
+0.417 (0.167)∗
+0.273 (0.227)
+1.358 (0.600)
+1.477 (0.609)
+0.545 (0.201)
+2.453 (0.850)∗∗
+$100k+
+0.214 (0.134)∗
+0.681 (0.246)
+0.321 (0.147)∗
+1.096 (0.445)
+1.130 (0.511)
+0.880 (0.347)
+0.706 (0.242)
+0.320 (0.145)∗
+Age
+0.969 (0.016)∗
+0.977 (0.006)∗∗∗
+0.988 (0.006)
+0.988 (0.010)
+0.963 (0.010)∗∗∗
+0.991 (0.009)
+1.048 (0.008)∗∗∗
+1.002 (0.009)
+Region (ref = West)
+Midwest
+0.837 (0.421)
+0.777 (0.216)
+0.905 (0.248)
+1.476 (0.606)
+0.832 (0.305)
+0.856 (0.285)
+1.589 (0.425)
+0.757 (0.229)
+South
+1.946 (1.165)
+0.761 (0.179)
+0.805 (0.199)
+1.234 (0.432)
+1.010 (0.323)
+1.005 (0.301)
+1.617 (0.421)
+0.722 (0.212)
+Northeast
+1.438 (0.815)
+0.964 (0.280)
+0.646 (0.195)
+1.801 (0.834)
+0.854 (0.363)
+0.880 (0.360)
+1.794 (0.537)
+0.408 (0.149)∗
+Cognitive/learning/intellectual
+difﬁculty
+15.885 (17.421)∗
+1.419 (0.343)
+1.488 (0.373)
+1.156 (0.355)
+1.249 (0.373)
+1.440 (0.399)
+7.506 (1.773)∗∗∗
+0.879 (0.308)
+Physical difﬁculty
+11.469 (9.528)∗
+0.686 (0.150)
+0.523 (0.121)∗∗
+2.126 (0.749)∗
+3.598 (1.098)∗∗∗
+0.825 (0.237)
+5.658 (1.150)∗∗∗
+0.395 (0.136)∗∗∗
+Emotional/ psychological/
+mental health difﬁculty
+2.750 (1.621)
+1.631 (0.465)
+1.659 (0.438)
+0.364 (0.183)∗
+0.418 (0.175)∗
+0.951 (0.379)
+4.541 (1.128)∗∗∗
+1.512 (0.458)
+Hearing difﬁculty
+0.234 (0.142)∗
+1.349 (0.460)
+1.023 (0.323)
+1.468 (0.536)
+1.541 (0.580)
+1.585 (0.571)
+0.869 (0.296)
+0.244 (0.192)
+Vision difﬁculty
+1.000 (omitted)
+0.577 (0.215)
+1.284 (0.378)
+1.219 (0.500)
+0.748 (0.282)
+0.229 (0.112)∗∗
+1.032 (0.311)
+1.963 (0.909)∗∗∗
+cons
+145.171 (200.925)∗∗∗
+0.665 (0.272)
+0.735 (0.289)
+0.092 (0.048)∗∗∗
+0.279 (0.142)∗
+0.236 (0.134)∗
+0.022 (0.011)∗∗∗
+0.103 (0.048)∗∗∗
+∗p < 0.05. ∗∗p < 0.01. ∗∗∗p < 0.001.
+
+
+246
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+Table 7
+Odds Ratios (and standard errors) predicting barriers to employment attributed to disability/health condition (includes only those coded as
+having a disability)
+Any barrier attributed
+Education/
+Transportation
+Need for
+Attitudes of
+to disability/health
+Training
+accommodations
+coworkers
+condition
+Female (ref = male)
+0.488 (0.119)∗∗
+0.362 (0.189)
+0.378 (0.205)
+1.572 (1.517)
+2.710 (1.862)
+Race (ref = White, Non-Hispanic)
+Black, Non-Hispanic
+0.470 (0.191)
+1.385 (0.762)
+0.562 (0.420)
+0.078 (0.079)∗
+0.801 (0.963)
+Other, Non-Hispanic
+0.659 (0.346)
+1.653 (1.569)
+0.581 (0.581)
+0.925 (0.959)
+0.552 (0.670)
+Hispanic
+0.625 (0.285)
+2.086 (0.140)
+0.948 (0.919)
+0.049 (0.080)
+1.004 (1.466)
+Education (ref = HS or less)
+Some college
+1.716 (0.470)∗
+1.089 (0.586)
+0.839 (0.422)
+6.500 (6.132)
+0.721 (0.552)
+Bachelors
+1.144 (0.506)
+1.219 (1.146)
+0.679 (0.586)
+11.964 (13.239)∗
+1.244 (1.266)
+Advanced degree
+1.722 (1.224)
+0.885 (1.456)
+–
+–
+21.214 (29.860)∗
+Family income (ref = <$30k)
+$30k-59,999
+0.744 (0.235)
+0.735 (0.401)
+1.137 (0.685)
+0.379 (0.324)
+0.240 (0.181)
+$60k-74,999
+0.307 (0.165)∗
+0.677 (0.777)
+–
+0.078 (0.105)
+0.103 (0.201)
+$75k-99,999
+0.465 (0.228)
+0.236 (0.234)
+0.959 (0.896)
+0.203 (0.364)
+1.154 (1.131)
+$100k+
+1.180 (0.616)
+0.361 (0.356)
+4.923 (5.597)
+–
+0.452 (0.555)
+Age
+0.992 (0.009)
+1.007 (0.017)
+0.993 (0.018)
+1.054 (0.026)∗
+1.011 (0.026)
+Region (ref = West)
+Midwest
+1.036 (0.357)
+2.151 (1.616)
+1.254 (0.918)
+0.097 (0.163)∗
+1.721 (2.067)
+South
+1.041 (0.343)
+2.434 (1.690)
+0.973 (0.639)
+0.076 (0.121)
+1.008 (1.090)
+Northeast
+0.621 (0.243)
+0.528 (0.496)
+0.384 (0.367)
+0.028 (0.048)∗
+0.449 (0.671)
+cons
+0.710 (0.352)
+0.530 (0.614)
+1.242 (1.262)
+1.897 (3.502)
+0.283 (0.391)
+Number of cases
+596
+142
+130
+70
+67
+∗p < 0.05. ∗∗p < 0.01. ∗∗∗p < 0.001.
+Table 8
+Percentage of those not working who reported barriers to employment, by level of education (values are row %) - Weighted N
+Lack of
+Lack of
+Loss of
+Need for
+Employer/
+Disability
+Other
+education
+transportation
+beneﬁts
+accommodation
+coworker
+attitudes
+High school or less
+22.8%
+26.7%
+7.8%
+10.4%
+13.8%
+39.3%
+8.4%
+Some college/Associate’s
+24.0%
+19.1%
+9.6%
+11.2%
+10.7%
+38.6%
+10.5%
+Bachelor’s
+17.6%
+11.1%
+9.3%
+10.0%
+14.4%
+28.2%
+12.8%
+Advanced degree
+5.9%
+10.3%
+11.9%
+21.7%
+19.3%
+13.6%
+6.5%
+Chi Square
+16.8785∗∗
+28.0118∗∗
+1.9364
+10.2575
+5.6442
+28.1671∗∗∗
+4.3965
+similar employment barriers, but people with dis-
+abilities reported disability or health condition most
+often, and people without disabilities reported orga-
+nizational attitudes, and other barriers more often.
+In general, people with physical mobility, learning-
+related, or psychological limitations experienced
+signiﬁcantly more employment barriers than people
+with vision or hearing limitations, compared to those
+with no disabilities. Statistically signiﬁcant differ-
+ences were found between people with and without
+disabilities across barrier types, except regarding a
+lack of education or training, at the job acceptance
+stage of the job acquisition process.
+While previous research led us to expect particu-
+lar employment barriers among survey respondents
+with self-reported disabilities, such as lack of qual-
+iﬁcations or inaccessible transport (Devine et al.,
+2021), one surprise was the similarly high prevalence
+of job seekers without disabilities who experienced
+any job search barriers (90%). Even though peo-
+ple with and without disabilities report encountering
+some of the same types of barriers to employment
+(Phillips et al., 2020), our ﬁnding that people with
+disabilities experienced barriers signiﬁcantly more
+frequently when searching for work was also some-
+what expected (Meltzer, Robinson, & Fisher, 2020;
+McKinney & Swartz, 2021).
+All respondents, regardless of disability status,
+cited a lack of education or training and lack of
+transportation as among the most common barri-
+ers. As in past studies, people with disabilities were
+most likely to identify their disability or health
+condition as the major barrier to employment. An
+unexpected ﬁnding was that respondents without dis-
+
+
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+247
+abilities ranked employer or coworker attitudes as a
+more frequent employment barrier than people with
+disabilities. This may reﬂect other social identities
+among participants without disabilities that were not
+explored in depth in our study. For example, L’Horty
+et al. (2022) have found that racial and ethnic dis-
+crimination can occur to a similar or even greater
+extent than disability-related discrimination in some
+occupations. Although we did not ﬁnd racial iden-
+tity to be signiﬁcantly associated with employer or
+coworker attitudes directly, our ﬁnding that Black,
+non-Hispanic people with disabilities were signiﬁ-
+cantly less likely to attribute accommodation barriers
+to their disability implies a need for further investiga-
+tion of racial disparities in disability employment by
+occupation. Moreover, because of the lack of a sta-
+tistically signiﬁcant association between employer or
+coworker attitudes and gender, education, income, or
+age, as well as race or ethnicity for those without
+disabilities, these attitudinal barriers to employment
+may instead be based on other marginalized identi-
+ties.Inaddition,itmaybetheco-existenceofmultiple
+prejudicial attitudes that, as was reported in a scop-
+ing review on employment barriers for individuals
+with disabilities, be particularly problematic, as was
+observed for veterans with disabilities (Shaw et al.,
+2014). Considering these unobserved possibilities,
+it is therefore suggested that future research efforts
+should incorporate other identities, such as immigra-
+tion status (Keita & Valette, 2019), sexual orientation
+(Fric, 2021), and veteran status in examinations of
+employment barriers for individuals with disabilities
+that have been found to be meaningful in the past but
+that were not included in our survey.
+Another potentially surprising ﬁnding, that runs
+counter to some of the economic literature (Barlev-
+Kotler, Rivkin, & Sandler-Loeff, 2014; Brew &
+Gleason, 2014), was the low ranking of loss of bene-
+ﬁts as a barrier among people with disabilities. Such
+concerns may be reﬂected in the extreme hesitancy
+(only 1%) of working aged Israelis with disabilities to
+increase their income beyond a prior disability ben-
+eﬁt income cut-off point even three years after the
+allowance amount was lifted (Barlev-Kotler, Rivkin,
+& Sandler-Loeff, 2014).
+Meanwhile in the U.S., Brew and Gleason cal-
+culated that only 0.2% of people returned to work
+once they started receiving SSI and SSDI beneﬁts.
+Providing greater context to these reports however,
+Yosef, Soffer, and Malul (2019) demonstrated that
+individuals with disabilities were actually more likely
+to prefer to maintain whatever their current income
+source was regardless of whether it was employment
+or welfare, than to change it.
+In our study, loss of beneﬁts was infrequently men-
+tioned (10.7%), ranking sixth of the seven barriers
+listed. Anand and Sevak (2017) observed a similarly
+low ranking of beneﬁts loss as an employment bar-
+rier among nonworking individuals with disabilities,
+although at a higher percentage (23%). This does not
+mean that loss of beneﬁts is not a legitimate con-
+cern, but only that the other employment barriers
+listed were considered more problematic for survey
+respondents. Its rank below disability, education and
+training, lack of transportation, need for accommoda-
+tions, and employer or coworker attitudes however is
+consistent with previous U.S. Bureau of Labor Statis-
+tics ﬁndings in 2019 (U.S. Bureau of Labor Statistics,
+2021). Moreover, loss of beneﬁts was reported as a
+barrier by about 7% of people without disabilities,
+who may have been receiving beneﬁts for income, as
+opposed to disability-related reasons. Interestingly,
+the loss of beneﬁts employment barrier became less
+frequent across the different job acquisition stages
+for those with and without disabilities. This is consis-
+tent with prior research indicating that fear of beneﬁt
+loss can even discourage individuals from seeking
+employment-related services (Shepherd-Banigan et
+al., 2021). Loss of beneﬁts was also signiﬁcantly
+more problematic for people with physical disabil-
+ities and least signiﬁcant for people with psychiatric
+disabilities. Taken together our ﬁndings regarding
+loss of beneﬁts argues for future qualitative research
+to help explain the greater reports of this concern
+amongthosewithphysicaldisabilitiesthanthosewith
+psychiatric disabilities as well as policy interventions
+such as New York state’s six-month, 100% income
+disregard for residents receiving public assistance,
+based on a successful New York City pilot study
+(Duffy & Seeley, 2023).
+Because this study was conducted prior to the
+COVID-19 pandemic we expect that the need for
+accommodations as an employment barrier may have
+changed for prospective employees both with and
+without disabilities. This supposition is supported
+by a 2022 survey of workplace supervisors, 78%
+of whom stated that their organization established
+or changed their accommodation process due to
+COVID-19-related issues (Houtenville et al., 2022).
+More speciﬁcally, among participating supervisors,
+47% indicated a moderate or large increase in
+the percentage of paid employees working from
+home. Sixty-nine percent of those reporting this
+increase also indicated that they anticipated the per-
+
+
+248
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+centage of those engaged in telework to continue
+growing.
+Given the historically low unemployment rate in
+the US (Butera, 2023), and because the need for
+accommodations employment barrier was most prob-
+lematic at the job acceptance stage, it is likely that it
+would be perceived as less of a barrier now than prior
+to the pandemic. Telework, in response to America’s
+current labor shortage (Ferguson, 2023), is also likely
+to reduce the lack of transportation that people with
+and without disabilities ranked as one of their top
+three employment barriers.
+Nevertheless, teleworking may not be a uni-
+versal solution. As a recent pre-post difference-
+in-difference analysis revealed, even when rural
+community members were provided access to a wire-
+less broadband network, it did not appear to alter
+their educational or employment-related outcomes
+(Valentin-Sivico et al., 2023). Therefore, as was sug-
+gested by a recent scoping review (Fortune et al.,
+2022), in order to uncover the differential use and
+beneﬁts of telework interventions, it may ﬁrst be
+necessary to pursue qualitative research to more com-
+prehensively appreciate how and for whom they are
+more or less effective.
+Given that telework will not remediate all
+transportation-related employment barriers for indi-
+viduals with disabilities, other strategies must be
+enlisted, such as transportation accommodations,
+which have been positively correlated with current
+employment for people with either multiple dis-
+abilities or exclusively physical disabilities in the
+past (Anand & Sevak, 2017). Because transportation
+barriers vary and may include lack of availabil-
+ity, challenges commuting when transportation is
+available, and other issues (Inge et al., 2018), trans-
+portationsolutionswillneedtoaccountforcontextual
+factors. For instance, interventions to improve trans-
+portation options for employment-seeking people
+with disabilities in rural areas, such as the “Auto-
+mated Driving Systems for Rural America” which
+was positively received by its older adult participants
+(Mason, Carney, & Gaspar, 2022), may be sensitive
+to population density differences.
+Because e-learning and distance learning has how-
+ever been shown to be beneﬁcial for some individuals
+with learning disabilities (Petretto et al., 2021), its
+expanded use since the onset of the pandemic may
+similarly have reduced some of their educational or
+training barriers. The signiﬁcance of education on
+employment continually emerged across study ﬁnd-
+ings but showed variation by job acquisition phase
+and barrier type. Similar to prior research, we found
+that insufﬁcient education or training was consid-
+ered a primary employment barrier for people with
+disabilities (Sundar et al., 2018). This is not surpris-
+ing, given that people with disabilities with college
+degrees are more likely to have acquired a two-year
+or community college degree, which is less likely
+to be associated with post-collegiate employment
+(Phillips et al., 2022). Regardless of disability status,
+lower levels of education were signiﬁcantly associ-
+ated with educational, transportation, disability, or
+health condition-related employment barriers. Future
+interventions and research might seek to differenti-
+ate between the beneﬁts of academic and vocational
+training programs as a recent longitudinal study in
+Australia has shown that graduates of apprentice-
+ship and training programs achieved and sustained
+positive employment outcomes (Thoresen, Cocks, &
+Parsons, 2021).
+Although we found signiﬁcant differences in the
+extent to which insufﬁcient education or training was
+anemploymentbarrierbetweenpeoplewithandwith-
+out disabilities during job acquisition stages, it was
+notsigniﬁcantatthejobacceptancestage.Insufﬁcient
+educationortrainingwasmostsigniﬁcantattheappli-
+cation stage, which indicates that training, policies,
+and interventions targeting this aspect of job seeking
+might be particularly beneﬁcial for people with dis-
+abilities across disability types, as well as for people
+without disabilities.
+Finally, where disability type was a signiﬁcant fac-
+tor in the experience of job acquisition challenges,
+people with intellectual, cognitive, or psychiatric dis-
+abilities experienced barriers most frequently. This
+ﬁnding suggests the need for future interventions
+directed at improving the employment outcomes for
+members of these subpopulations, who, as previously
+indicated, may be at greater risk of unemploy-
+ment (Kocman, Fisher, & Weber, 2018; McAlpine
+& Alang, 2021). Successful efforts such as Mentra’s
+online job matching website for neurodivergent indi-
+viduals may for example provide a useful model for
+individuals with different mental health challenges
+(Peluso, 2023).
+Other signiﬁcant differences by disability type
+were also identiﬁed. People with vision disabilities
+were signiﬁcantly less likely than people with other
+types of disabilities to report negative attitudes as
+a barrier. Although negative employer attitudes had
+previously been ranked as a greater barrier by college
+graduates with visual impairments seeking employ-
+ment (Antonelli, Steverson, & O’Mally, 2018), our
+
+
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+249
+ﬁndings may differ because they controlled for edu-
+cational attainment. At the same time, nonworking
+individuals with advanced degrees were more likely
+to perceive accommodation needs as a barrier. Fur-
+ther qualitative research may help explain this ﬁnding
+as both those with and without disabilities described
+lack of accommodation as a barrier in our study, and
+those with advanced degrees represent only 7.8 and
+15.1%, respectively of those 25 or older in the civilian
+population of the US in 2021 (Paul et al., 2023).
+Despite the contributions of this study, some limi-
+tations must be acknowledged. First, our survey was
+based on self-reported perceptions of barriers by non-
+working individuals with and without disabilities.
+Unfortunately, more objective measures of the range
+of impediments considered here would be difﬁcult
+to measure in alternative ways. Reviewing reports of
+hiring discrimination for instance would likely under-
+count discouraged and underemployed job seekers. In
+addition, the percentage of the sample with disabili-
+ties that is employed is high (59%), which may be a
+result of the expanded deﬁnition of disability (captur-
+ing 9 disability types instead of the 6 more commonly
+used). We chose this approach in hopes of disaggre-
+gating cognitive disability and investigating differ-
+ences among some of the supplemental types of dis-
+abilities. Unfortunately, sample sizes did not always
+permit these analyses. Another limitation is that the
+disability question skip patterns we used may have
+underrepresented people with concentration, mem-
+ory, or decision-making disabilities who also have
+learning, psychiatric, and developmental disabilities.
+The Qualtrics online sample is also biased towards
+people who have internet access. People with dis-
+abilities are overrepresented among those lacking
+internet access, which can be an employment barrier
+as well as a barrier to study participation. Although
+the Qualtrics Internet panel was derived from a non-
+probability sample design, the researchers applied
+weights for gender, age group, household income,
+race, and region of the country using 2017 5-year
+American Community Survey estimates to provide
+more representative results.
+The survey instrument adapts survey questions
+that have been developed by federal statistical agen-
+cies, including questions on disability and barriers
+to employment present on the Current Popula-
+tion Survey-Disability Supplement. This approach
+allowed us to beneﬁt from the methodological work
+of the designers of such national studies, although
+we did not speciﬁcally test for validity of the speciﬁc
+survey instrument used in this study.
+Lastly, although our conceptualization of employ-
+ment barrier levels was based on a prior conceptu-
+alization (Sundar et al., 2018), there can be overlap
+between categories. Employer and coworker attitudes
+may reside within the individual or the corporate
+culture of a particular organization, for example. Sit-
+uating employer and coworker attitudes within the
+workplace, however, may be particularly meaningful
+in explaining one’s overall success with job acquisi-
+tion and be a useful basis of comparison in regard to
+retention.
+5. Conclusion
+This study assessed individual-, organizational-
+, and societal-level employment barriers faced by
+people with and without disabilities across different
+stages of the job search process. The results indi-
+cate that employment barriers faced by people with
+and without disabilities vary less in nature than by
+degree. Thus, improvements in transportation, and
+better alignment between education and training and
+the job market may beneﬁt all prospective employees,
+aswellasemployers.Becausepeoplewithdisabilities
+stillexperiencemoreemploymentbarriers,additional
+efforts targeting recruitment, the application pro-
+cess, and job negotiations are warranted. In light
+of the novel ﬁnding that insufﬁcient training was
+seen most frequently as a barrier at the application
+stage for people with and without disabilities, this
+is a ripe area for more attention by researchers and
+employment service professionals, such as vocational
+rehabilitation, to address challenges at this particular
+stage.
+Acknowledgments
+None to report.
+Conﬂict of interest
+The authors declare that they have no conﬂicts of
+interest.
+Ethics statement
+The Institutional Review Board for the Protection
+of Human Subjects in Research (IRB) at the Univer-
+
+
+250
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+sity of New Hampshire has reviewed and approved
+the protocol for this study (IRB # 8054).
+Funding
+Funding for this study was provided by the Reha-
+bilitation Research and Training Center on Disability
+Statistics at the University of New Hampshire, which
+is funded by the National Institute for Disability,
+Independent Living, and Rehabilitation Research, in
+the Administration for Community Living, at the
+U.S. Department of Health and Human Services
+(DHHS) under grant number 90RTGE0001 as well
+as by the Advanced Rehabilitation Research and
+Training (ARRT) Program on Employment at the
+University of New Hampshire, which is funded by the
+National Institute for Disability, Independent Living,
+and Rehabilitation Research, in the Administration
+for Community Living, at the U.S. Department of
+Health and Human Services (DHHS) under grant
+number 90AREM000401. The contents do not neces-
+sarily represent the policy of DHHS and you should
+not assume endorsement by the federal government
+(EDGAR, 75.620 (b)).
+Informed consent
+All participation was based on informed consent.
+References
+Ameri, M., Schur, L., Adya, M., Bentley, F. S., McKay, P., & Kruse,
+D. (2018). The disability employment puzzle: A ﬁeld experi-
+ment on employer hiring behavior. ILR Review, 71(2), 329-364.
+https://doi.org/10.1177/0019793917717474
+Anand, P., & Sevak, P. (2017). The role of workplace accommo-
+dations in the employment of people with disabilities. IZA
+Journal of Labor Policy, 6, 12. https://link.springer.com/10.
+1186/s40173-017-0090-4
+Antonelli, K., Steverson, A., & O’Mally, J. (2018). College
+graduates with visual impairments: A report on seeking and
+ﬁnding employment. Journal of Visual Impairment & Blind-
+ness, 112(1), 33-45.
+Baker, P. M. A., Linden, M. A., LaForce, S. S., Rutledge, J., &
+Goughnour, K. P. (2018). Barriers to employment participa-
+tion of individuals with disabilities: Addressing the impact
+of employer (mis)perception and policy. American Behavioral
+Scientist, 62(5), 657-675.
+Barbulescu, R. (2015). The strength of many kinds of ties: Unpack-
+ing the role of social contacts across stages of the job search
+process. Organization Science, 26(4), 1040-1058.
+Barlev-Kotler, L., Rivkin, D., & Sandler-Loeff, A. (2014). People
+with disabilities in Israel: Facts & ﬁgures. Myers-JDC-
+Brookdale
+Institute.
+https://brookdale.jdc.org.il/en/publica
+tion/facts-and-ﬁgures-people-with-disabilities-in-israel-2014/
+Bonaccio, S., Connelly, C. E., Gellatly, I. R., Jetha, A., and Martin
+Ginis, K. A. (2019). The participation of people with disabili-
+ties in the workplace across the employment cycle: Employer
+concerns and research evidence. Journal of Business and
+Psychology, 35(2), 135-158. https://doi.org/10.1007/s10869-
+018-9602-5
+Brew, K., & Gleason, R. P. (2014). Incentive to remain ill? How
+disability beneﬁts affect health status. The Journal for Nurse
+Practitioners,
+10(2),
+107-112.
+https://linkinghub.elsevier.
+com/retrieve/pii/S1555415513004091
+Bureau of the Census. (2012). Current Population Survey, May
+2012:DisabilitySupplementmachine-readabledataﬁle]/con-
+ducted by the Bureau of the Census for the Bureau of Labor
+Statistics. Washington: Bureau of the Census [producer and
+distributor], 2013).
+Bureau of Labor Statistics, U.S. Department of Labor. (2013).
+Persons with a disability: Barriers to employment, types
+of assistance, and other labor-related issues – May 2012.
+https://www.bls.gov/news.release/archives/dissup 04242013.
+htm
+Burkhauser, R. V., Houtenville, A. J., & Tennant, J. R. (2014).
+Capturing the elusive working-age population with dis-
+abilities: Reconciling conﬂicting social success estimates
+from the Current Population Survey and American Com-
+munity Survey. Journal of Disability Policy Studies, 24(4),
+195-205.
+Butera, I. (2023). What is a full employment recession? Are we
+heading into one? USA Today. https://www.usatoday.com/sto
+ry/money/economy/2023/07/26/full-employment-recession-
+facts/70470348007/
+Casselman, B. (2022). For disabled workers, a tight labor market
+opens new doors. New York Times.
+Chen, L. J. (2015). Effect of acceptance expectations on the
+employment development of individuals with disabilities: The
+self-fulﬁlling prophecy applied. Journal of Employment Coun-
+seling, 52.
+Dannals, J. E., Zlatev, J. J., Halevy, N., & Neale, M. A. (2021). The
+dynamics of gender and alternatives in negotiation. Journal of
+Applied Psychology, 106(11), 1655.
+Devine, A., Shields, M., Dimov, S., Dickinson, H., Vaughan,
+C., Bentley, R., LaMontagne, A. D., & Kavanagh, A.
+(2021). Australia’s disability employment services program:
+Participant perspectives on factors inﬂuencing access to
+work. International Journal of Environmental Research and
+Public Health, 18(21), 11485. https://www.mdpi.com/1660-
+4601/18/21/11485
+Duffy, B., & Seeley, D. (2023). Policy change in state budget
+addresses key barrier to employment for those living in
+poverty. Rochester Business Journal. https://rbj.net/2023/
+05/25/policy-change-in-state-budget-addresses-key-barrier-
+to-employment-for-those-living-in-poverty/
+Ferguson, S. (2023). Understanding America’s labor short-
+age.
+https://www.uschamber.com/workforce/understanding-
+americas-labor-shortage
+Fortune, N., Curryer, B., Badland, H., Smith-Merry, J., Devine,
+A., Stancliffe, R. J., Emerson, E., & Llewellyn, G. (2022).
+Do area-level environmental factors inﬂuence employment for
+people with disability? A scoping review. International Jour-
+
+
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+251
+nal of Environmental Research and Public Health, 19, 9082.
+https://www.mdpi.com/1660-4601/19/15/9082
+Fric, K. (2021). Do gays and lesbians experience more frequent
+and longer unemployment? Economics & Sociology, 14(3),
+105-126.
+https://www.economics-sociology.eu/?836,en do-
+gays-and-lesbians-experience-more-frequent-and-longer-
+unemployment-
+Friedman, C. (2020). The relationship between disability prejudice
+and disability employment rates. Work, 65, 591-598.
+Fyffe, D. C., Lequerica, A. H., Ward-Sutton, C., Williams, N. F.,
+Sundar, V., & O’Neill, J. (2022). Understanding persons with
+disabilities’ reasons for not seeking employment. Rehabilita-
+tion Counseling Bulletin, 66(1), 3-12.
+Gong, C. H., & He, X. (2019). Factors predicting voluntary and
+involuntary workforce transitions at mature ages: Evidence
+from HILDA in Australia. International Journal of Environ-
+mental Research and Public Health, 16(19), 3769.
+Hernandez, M., Avery, D. R., Volpone, S. D., & Kaiser, C. R.
+(2019). Bargaining while Black: The role of race in salary
+negotiations. Journal of Applied Psychology, 104(4), 581.
+Houtenville, A. J., Brucker, D. L., Jablonski, E., O’Neill,
+J., & Katz, E. (2022). Kessler Foundation 2022 national
+employment and disability survey: Supervisor practices.
+https://kesslerfoundation.org/sites/default/ﬁles/2022-
+12/KFNEDS-SP.pdf
+Houtenville, A. J., Paul, S., & Brucker, D. L. (2021). Changes
+in the employment status of people with and without
+disabilities in the United States during the COVID-19 pan-
+demic. Archives of Physical Medicine and Rehabilitation.
+https://doi.org/10.1016/j.apmr.2021.03.019.
+Houtenville, A. J., Sundar, V., Keirns, T., Smith, A., Phillips,
+K. G., Katz, E. E., & O’Neill, J. (2015). Kessler Foun-
+dation 2015 National employment and disability survey:
+Report of main ﬁndings. https://kesslerfoundation.org/sites/
+default/ﬁles/ﬁlepicker/5/KFSurvey15 Results-secured.pdf
+Inge, K. J., Bogenschutz, M. D., Erickson, D., Graham, C. W.,
+Wehman, P., & Seward, H. (2018). Barriers and facilitators
+to employment: As reported by individuals with spinal cord
+injuries. Journal of Rehabilitation, 84(2), 22-32.
+Jacob, U. S., Pillay, J., Adeoye, O. E., & Oni, T. K. (2023). Barriers
+to employment of people with intellectual disabilities. Work,
+74(1), 207-218. doi: 10.3233/WOR-211097
+Jetha, A., Bowring, J., Furrie, A., Smith, F., & Breslin, C.
+(2019). Supporting the transition into employment: A study
+of Canadian young adults living with disabilities. Journal of
+Occupational Rehabilitation, 29, 140-149.
+Keita, S., & Valette, J. (2019). Natives’ attitudes and immigrants’
+unemployment durations. Demography, 56(3), 1023-1050.
+https://read.dukeupress.edu/demography/article/56/3/1023/16
+7984/Natives-Attitudes-and-Immigrants-Unemployment
+Kessler Foundation & Institute on Disability at the Univer-
+sity of New Hampshire. (2022). People with disabilities
+continue to outperform people without disabilities in labor
+market [Webinar]. nTIDE November 2022 Jobs Report. https://
+www.researchondisability.org/season-7-episode-12-1222022
+Kessler Foundation & the University of New Hampshire.
+(2023). nTIDE (National Trends in disability employ-
+ment)
+COVID
+update
+–
+Year
+in
+review
+[Webinar].
+https://www.researchondisability.org/ntide-covid-update-
+year-review-1202023
+Kessler Foundation & the University of New Hampshire.
+(2023). nTIDE (National Trends in Disability Employment)
+July 2023 jobs report: People with disabilities continue
+to attain employment at an all-time high level [Webi-
+nar]. https://www.researchondisability.org/season-8-episode-
+8-842023#ntidereport
+Khayatzadeh-Mahani, A., Wittevrongel, K., Nicholas, D. B., &
+Zwicker, J. D. (2020). Prioritizing barriers and solutions to
+improve employment for persons with developmental disabil-
+ities. Disability and Rehabilitation, 42(19), 2696-2706.
+Kocman, A., Fischer, L., & Weber, G. (2018). The Employers’
+perspective on barriers and facilitators to employment of peo-
+ple with intellectual disability: A differential mixed-method
+approach. Journal of Applied Research on Intellectual Dis-
+abilities, 31(1), 120-131. https//doi.org/10.1111/jar.12375
+L’Horty, Y., Mahmoudi, N., Petit, P., & Wolff, F. -C. Is disability
+more discriminatory in hiring than ethnicity, address or
+gender? Evidence from a multi-criteria correspondence
+experiment. (2022). Social Science & Medicine, 303, 114990.
+https://www.sciencedirect.com/science/article/pii/S02779536
+22002969
+Livermore G., & Honeycutt, T. (2015). Employment and economic
+well-being of people with and without disabilities before and
+after the great recession. J Disabil Policy Stud, 26, 70-79.
+Maestas, N., Mullen, K. J., & Rennane, S. (2019). Unmet
+need for workplace accommodation. Journal of Policy Anal-
+ysis and Management, 38(4), 1004-1027. https://doi.org/10.
+1002/pam.22148
+Mason, J., Carney, C., & Gaspar, J. (2022). Autonomous
+shuttle operating on highways and gravel roads in rural
+America: A demonstration study. Geriatrics, 7(6), 140.
+https://www.mdpi.com/2308-3417/7/6/140
+McAlpine, D., & Alang, S. (2021). Employment and economic
+outcomes of persons with mental illness and disabil-
+ity: The impact of the great recession in the United
+States. Psychiatric Rehabilitation Journal, 44(2), 132-141.
+http://dx.doi.org/10.1037/prj0000458.
+McKinney, E. L., & Swartz, L. (2021). Employment integration
+barriers: Experiences of people with disabilities. The Inter-
+national Journal of Human Resource Management, 32(10),
+2298-2320.
+Meltzer, A., Robinson, S., & Fisher, K. R. (2020). Barriers to
+ﬁnding and maintaining open employment for people with
+intellectual disability in Australia. Soc Policy Admin, 54, 88-
+101.
+Ne’eman, A., & Maestas, N. (2022). How has COVID-19
+impacted disability employment? National Bureau of Eco-
+nomic Research, Working Paper 30640.
+Paul, S., Rogers, S., Bach, S., & Houtenville, A. (2023).
+Annual disability statistics compendium: 2023. Durham,
+NH: University of New Hampshire, Institute on Dis-
+ability. https://disabilitycompendium.org/compendium/2023-
+annual-disability-statistics-compendium
+Peluso,
+O.
+(2022).
+Under
+30
+2023
+social
+impact:
+Meet
+the
+young
+leaders
+building
+bold
+businesses
+–
+and
+a
+better
+tomorrow.
+Forbes.
+https://www.forbes.com/
+sites/oliviapeluso/2022/11/29/under-30-2023-social-impact-
+meet-the-young-leaders-building-bold-businesses-and-a-
+better-tomorrow/?sh=48934bc61708
+Petretto, D. R., Carta, S. M., Cataudella, S., Masala, I., Mas-
+cia, M. L., Penna, M. P., Piras, P., Pistis, I., & Masala, C.
+(2021). The use of distance learning and e-learning in students
+with learning disabilities: A review on the effects and some
+hint of analysis on the use during COVID-19 outbreak. Clini-
+
+
+252
+E.S. Jablonski et al. / Employment barriers at different job acquisition stages
+cal Practice and Epidemiology in Mental Health, 17, 92-102.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8493828/
+Phillips, K. G., Houtenville, A. J., Nzamubona, K., O’Neill, J., &
+Katz, E. E. (2020). Executive Summary of Main Findings from
+the 2020 Kessler Foundation National Employment and Dis-
+ability Survey: Recent College Graduates. Kessler Foundation.
+https://kesslerfoundation.org/researchcenter-employment-
+and-disability-researchemployment-and-disability-survey-
+2020/2020-survey
+Phillips, K. G., Nzamubona, K., Houtenville, A. J., O’Neill, J., &
+Katz, E. E. (2022). Journal of Postsecondary Education and
+Disability, 35(3), 213-228.
+Schur, L., Han, K., Kim, A., Ameri, M., Blanck, P., & Kruse, D.
+(2017). Disability at work: A look back and forward. Journal
+of Occupational Rehabilitation, 27, 482-497.
+Shaw, L., Daraz, L., Bezzina, M. B., Patel, A., & Gorﬁne, G.
+(2014). Examining macro and meso level barriers to hiring
+persons with disabilities: A scoping review. In B. M. Altman
+& S.N. Barnartt (Eds.), Research in Social Science and
+Disability (pp. 185-210). Emerald Group Publishing Limited.
+https://www.emerald.com/insight/content/doi/10.1108/S1479-
+354720140000008011/full/html
+Shepherd-Banigan, M., Pogoda, T. K., McKenna, K., Sper-
+ber, N., & Van Houtven, C. H. (2021). Experiences of VA
+vocational and education training and assistance services:
+Facilitators and barriers reported by veterans with disabil-
+ities. Psychiatric Rehabilitation Journal, 44(2), 148-156.
+http://doi.apa.org/getdoi.cfm?doi=10.1037/prj0000437
+Sundar,V.,O’Neill,J.,Houtenville,A.J.,Phillips,K.G.,Keirns,T.,
+Smith, A., & Katz, E. E. (2018). Striving to work and overcom-
+ing barriers: Employment strategies and successes of people
+with disabilities. Journal of Vocational Rehabilitation, 48(1),
+93-109.
+Thoresen, S. H., Cocks, E., & Parsons, R. (2021). Three year longi-
+tudinal study of graduate employment outcomes for Australian
+apprentices and trainees with and without disabilities. Inter-
+national Journal of Disability, Development, and Education,
+68(5), 702-716.
+U.S. Bureau of Labor Statistics. (2020). Barriers to employment
+for people with a disability: The economics daily: U.S. Bureau
+of Labor Statistics (bls.gov). https://www.bls.gov/spotlight/
+2021/labor-market-characteristics-of-people-with-a-disability
+/pdf/labor-market-characteristics-of-people-with-a-disability.
+pdf
+U.S. Bureau of Labor Statistics. (2021). America’s recov-
+ery:
+Labor
+market
+characteristics
+of
+people
+with
+a
+disability.
+https://www.bls.gov/spotlight/2021/labor-market-
+characteristics-of-people-with-a-disability/pdf/labor-market-
+characteristics-of-people-with-a-disability.pdf
+U.S. Department of Labor. (n.d.). Employers’ Responsibilities.
+https://www.dol.gov/general/topic/disability/employersrespon
+sibilities
+Valentin-Sivico, J., Canﬁeld, C., Low, S. A., & Gollnick,
+C. (2023). Evaluating the impact of broadband access
+and internet use in a small underserved rural community.
+Telecommunications Policy, 47(4), 102499. https://www.ncbi.
+nlm.nih.gov/pmc/articles/PMC9836830/#:∼:text=High%20le
+vels%20of%20broadband%20adoption,Whitacre%20%26%2
+0Gallardo%2C%202014).
+Yosef, L., Soffer, M., & Malul, M. (2019). From welfare to
+work and from work to welfare: A comparison of peo-
+ple with and without disabilities. Journal of Disability
+Policy Studies, 29(4), 226-234. http://journals.sagepub.com/
+doi/10.1177/1044207318782674

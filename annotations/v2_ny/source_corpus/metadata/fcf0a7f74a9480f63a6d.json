@@ -1,0 +1,28 @@
+{
+  "source_id": "fcf0a7f74a9480f63a6d",
+  "normalized_url": "https://triagecancer.org/financial-assistance-can-impact-your-government-benefits",
+  "fetch_timestamp_utc": "2026-10-04T02:52:23.497437+00:00",
+  "registrable_domain": "triagecancer.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://triagecancer.org/financial-assistance-can-impact-your-government-benefits",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 162680,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/fcf0a7f74a9480f63a6d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/fcf0a7f74a9480f63a6d.txt",
+  "text_chars": 7923,
+  "text_words": 1246,
+  "extraction_status": "success",
+  "page_title": "How Financial Assistance Can Impact Your Government Benefits",
+  "page_author": "Triage Cancer",
+  "page_date": "2024-07-09",
+  "site_name": "Triage Cancer | Finances-Work-Insurance",
+  "canonical_url": "https://triagecancer.org/financial-assistance-can-impact-your-government-benefits"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "c0a198e4d3d333588356",
+  "normalized_url": "https://hhs.nd.gov/health/prevention-healthy-living/domestic-violence-sexual-assault/prevention-toolkit/bullying-and-sexual-violence",
+  "fetch_timestamp_utc": "2026-10-04T02:47:59.163567+00:00",
+  "registrable_domain": "nd.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hhs.nd.gov/health/prevention-healthy-living/domestic-violence-sexual-assault/prevention-toolkit/bullying-and-sexual-violence",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 439534,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c0a198e4d3d333588356.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c0a198e4d3d333588356.txt",
+  "text_chars": 4915,
+  "text_words": 752,
+  "extraction_status": "success",
+  "page_title": "Bullying and Sexual Violence",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "Health and Human Services North Dakota",
+  "canonical_url": "https://www.hhs.nd.gov/health/prevention-healthy-living/domestic-violence-sexual-assault/prevention-toolkit/bullying-and-sexual-violence"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "93cf8d468a95d18c97b6",
+  "normalized_url": "https://hivjustice.net/news-from-other-sources/usa-new-report-shows-lgbtq-minorities-face-discriminatory-laws-and-arrests",
+  "fetch_timestamp_utc": "2026-10-04T02:44:17.529635+00:00",
+  "registrable_domain": "hivjustice.net",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hivjustice.net/news-from-other-sources/usa-new-report-shows-lgbtq-minorities-face-discriminatory-laws-and-arrests/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 52167,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/93cf8d468a95d18c97b6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/93cf8d468a95d18c97b6.txt",
+  "text_chars": 2296,
+  "text_words": 358,
+  "extraction_status": "success",
+  "page_title": "USA: New report shows LGBTQ minorities face discriminatory laws and arrests",
+  "page_author": null,
+  "page_date": "2016-08-10",
+  "site_name": "HIV Justice Network",
+  "canonical_url": "https://www.hivjustice.net/news-from-other-sources/usa-new-report-shows-lgbtq-minorities-face-discriminatory-laws-and-arrests/"
+}

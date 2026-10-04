@@ -1,0 +1,28 @@
+{
+  "source_id": "ba528d1b08bc8eff35fc",
+  "normalized_url": "https://stkate.edu/academics/healthcare-degrees/lgbtq-health-discrimination",
+  "fetch_timestamp_utc": "2026-10-04T03:44:44.000659+00:00",
+  "registrable_domain": "stkate.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.stkate.edu/academics/healthcare-degrees/lgbtq-health-discrimination",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 51056,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/ba528d1b08bc8eff35fc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/ba528d1b08bc8eff35fc.txt",
+  "text_chars": 8412,
+  "text_words": 1215,
+  "extraction_status": "success",
+  "page_title": "How Discrimination Impacts LGBTQ Healthcare | St. Catherine University",
+  "page_author": null,
+  "page_date": "2021-04-15",
+  "site_name": "St. Catherine University",
+  "canonical_url": "https://www.stkate.edu/academics/healthcare-degrees/lgbtq-health-discrimination"
+}

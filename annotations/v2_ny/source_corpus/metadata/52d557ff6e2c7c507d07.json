@@ -1,0 +1,28 @@
+{
+  "source_id": "52d557ff6e2c7c507d07",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8726680",
+  "fetch_timestamp_utc": "2026-10-04T02:39:09.549063+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8726680/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 200136,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/52d557ff6e2c7c507d07.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/52d557ff6e2c7c507d07.txt",
+  "text_chars": 57871,
+  "text_words": 8608,
+  "extraction_status": "success",
+  "page_title": "Housing insecurity and intersecting social determinants of health among transgender people in the USA: A targeted ethnography",
+  "page_author": "Jennifer L Glick; Alex Lopez; Miranda Pollock; Katherine P Theall",
+  "page_date": "2020-07-02",
+  "site_name": "International Journal of Transgender Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8726680/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "e63e646c68042089a365",
+  "normalized_url": "https://jec.senate.gov/public/_cache/files/2756e78d-cd64-4413-8d26-a4f9c2756947/banking-and-financial-exclusion-final.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:50:57.079650+00:00",
+  "registrable_domain": "senate.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.jec.senate.gov/public/_cache/files/2756e78d-cd64-4413-8d26-a4f9c2756947/banking-and-financial-exclusion-final.pdf",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 566,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

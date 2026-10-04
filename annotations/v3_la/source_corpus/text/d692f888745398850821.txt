@@ -1,0 +1,1087 @@
+Explaining the Sexual Orientation Gap in Educational Attainment
+Marta Murray-Close ∗
+Alyssa Schneebaum †
+November 19, 2018
+Abstract
+This paper uses data from three nationally representative US surveys to conﬁrm previous ﬁndings
+that lesbians and gay men are more educated than heterosexual men and women and to assesses the
+plausibility of ﬁve potential explanations for this diﬀerence: highly educated lesbians and gay men
+are more likely to “come out”; sexual minorities diﬀer demographically, earn higher wage returns
+to education, or have diﬀerent expectations about their future partners’ income; and education is a
+gateway to more tolerant workplaces. The only explanation that is supported for both lesbians and
+gay men highlights a non-pecuniary return to schooling: access to more tolerant workplaces.
+∗U.S Census Bureau. Email: marta.murray.close@census.gov. The views expressed in this paper are those of the authors
+and do not reﬂect the oﬃcial views of the U.S. Census Bureau.
+†Vienna University of Economics and Business. Email: alyssa.schneebaum@wu.ac.at. Schneebaum gratefully acknowl-
+edges funding for this research from the Austrian Science Fund (FWF), grant number T 714-G11.
+
+
+1
+Introduction
+Education is a key determinant of social and economic status, and diﬀerences in educational attain-
+ment across demographic groups may improve or depress the relative well-being of minority groups. In
+this paper, we use three nationally representative datasets to study the educational attainment of a
+large minority group in the US, lesbians and gay men. Descriptive statistics in the literature on the
+socio-economics of sexual orientation have often shown that the average lesbian and gay man has more
+education than the average heterosexual woman and man. This is the ﬁrst paper to explore the reasons
+why there is a sexual orientation education gap.
+There are several reasons to study the educational attainment of lesbian and gay (LG) people and ask
+why it may diﬀer from heterosexuals.1 First, the LG community is a growing subset of the US population
+(Gallup Poll, 2017), and as with any group with particular social and economic circumstances, it is
+important to understand how its members experience the economy and society. Second, LG people may
+be an interesting reference point to see the direction in which the broader population (heterosexuals) is
+developing in terms of economic behavior. Diﬀerent-sex couples exhibit patterns on a household division
+of labor which have become increasingly similar to those of same-sex couples over time (Giddings et
+al., 2014), and the concept of a “double income no kids” model of family economic life, in which both
+partners work for pay and reproduction is put oﬀuntil later in life – as much as this is a standing myth
+for the broader lesbian and gay population (Badgett, 2001) – is taken up by ever more diﬀerent-sex
+couples (Ruggles, 2015; Trimarchi and Bavel, forthcoming).
+It is also interesting to study LG education because the educational decisions made by this group
+may be able to tell us something about educational investments in general. We look for evidence con-
+sistent with several hypotheses to explain the sexual orientation education gap, including two based on
+long-standing mainstream theories of educational investments. The ﬁve potential explanations for the
+educational gap are based on diﬀerent strands of literature and reasoning. Exploring decisions regarding
+the investment in education in this multi-pronged way can give important insight into the value that
+various groups put on obtaining education.
+In particular, we assess the extent to which each of the following ﬁve issues can help explain the sexual
+orientation education gap, in the interest of ruling out implausible hypotheses and laying a foundation
+for future research focused on the most plausible hypotheses. First, we test whether the higher levels of
+educational attainment for lesbians and gay men are due to selection bias in who “comes out,” that is,
+who reveals their sexual orientation, on survey data. If more highly educated LG people are more likely
+to come out, perhaps because they are in a more economically and socially secure position to do so,
+then the gaps we observe are capturing an artifact of a select group, not representative of the entire LG
+1As we discuss in section 3 below, sexual orientation is a complex concept, and our empirical measures may be both
+over- and under-inclusive with respect to the lesbian and gay population. For ease of exposition, however, we use the terms
+“lesbian” and “gay” and the abbreviation “LG” throughout the paper.
+1
+
+
+population. Second, we assess whether the diﬀerences in educational attainment by sexual orientation
+are driven by diﬀering demographic characteristics across the LG and heterosexual populations. If LG
+people are younger, for example, and younger birth cohorts are more highly educated, then the sexual
+orientation education gap could be driven by this fact.
+The next two hypotheses are standard in the literature on human capital accumulation. Our third
+test examines if LG people invest more in their education because they have higher wage returns to
+their education than heterosexuals. If LG people were paid more for an additional degree or for more
+years of schooling (perhaps because extra schooling serves as a barrier to wage discrimination for LG
+people), then it would be no wonder than LG people make higher investments in their education. Fourth,
+LG people may make their education decisions based on expectations of later household earnings and a
+household division of labor. Lesbians, knowing that they will partner with a woman and that women
+earn less than men, may choose to get more education to protect against this lower future household
+income. Gay men, who will partner with another men, may choose to get less education, knowing that
+their partner will likely earn more than a female partner would.
+Finally, our ﬁfth hypothesis considers the possibility that the returns to education do not only take
+the form of pecuniary rewards, but that education may also open doors to jobs in workplaces which
+are more tolerant and accepting of sexual minorities. If more educated people have access to jobs in
+workplaces with more tolerant co-workers, then LG people would have an incentive to invest more in
+their education. Especially for sexual minority groups who face discrimination and even the threat of
+violence (Badgett et al., 2007), access to jobs in which one’s colleagues are more likely to be accepting
+of diﬀerence can be very much worth more years in school.2
+The paper proceeds as follows.
+In section 2, we discuss previous literature which has examined
+the educational attainment of LG people and explore the theory behind our ﬁve hypotheses. Section
+3 describes the data and methods used to test our ﬁve hypotheses, and includes an initial test of the
+existence of a sexual orientation education gap in the datasets employed. Section 4 presents the empirical
+explorations of our ﬁve hypotheses. Finally, we discuss the results and conclude in section 5.
+2
+Background
+Most empirical studies on the economics of sexual orientation have identiﬁed an education premium
+for lesbians and gay men (e.g. Black et al., 2000, 2007; Antecol et al., 2008; Daneshvary et al., 2009;
+Giddings et al., 2014, among others). However, none of the papers in this literature have explicitly studied
+potential explanations for why LG people are more highly educated than heterosexuals. Some papers
+make arguments that are somewhat related, though, and these can help make sense of the LG education
+2A related ﬁnding in the literature is that gay men are more likely than heterosexual men to report having had a faculty
+member or administrator while in college with whom they could discuss a problem (Carpenter, 2009). In this case, higher
+education institutions could also provide more tolerant environments.
+2
+
+
+premium. Daneshvary et al. (2009, pp. 433-3), for example, say that “at least part of the lesbian [wage]
+premium originates from lesbians’ relative freedom from constraints associated with marriage and the
+gender division of labor in traditional households.” This “freedom from constraints” could also mean
+that lesbians have more time to pursue an education. Moreover, Black et al. (2003) theorize that lesbians
+are less likely to form traditional households than heterosexual women. Heterosexual women are thus
+more likely to anticipate specializing in household production and therefore invest less in market-oriented
+skills. This could be a reason why lesbians are more highly educated than heterosexual women, as we
+discuss below.
+In this paper, we look for evidence consistent with ﬁve potential explanations of the sexual orientation
+education premium. The ﬁrst addresses the possibility that the LG education premium we observe in
+survey data is simply an artifact of who we can observe in the data. If gay and lesbian people with higher
+education are more likely to come out, then the education premium we observe only exists because a
+select group of highly-educated LG people appear in the surveys. This selection bias might occur, for
+example, if the gain in economic security that education often provides (as in Card, 1999) enables highly
+educated lesbians and gay men to feel more comfortable coming out. All studies of the socioeconomics
+of sexual orientation face the possibility of biased samples; we follow the test proposed by Black et al.
+(2000) to examine if this bias is driving the sexual orientation education gap.
+A second possible explanation of the sexual orientation education premium is that LG people have
+demographic characteristics associated with higher education, and these diﬀerences drive the education
+gap. As an example, people in more recent birth cohorts have higher levels of completed education, on
+average, than people in earlier birth cohorts (see, for example, ﬁgure 2 in Ryan and Bauman, 2016).
+If lesbians and gay men are disproportionately concentrated in more recent birth cohorts, then their
+educational advantage may reﬂect intertemporal change rather than intergroup diﬀerences. There are also
+important diﬀerences in educational attainment by family background. People with more highly educated
+parents tend to get more education themselves (Haveman and Wolfe, 1995).
+Blacks and Hispanics
+complete fewer years of schooling, on average, than whites and Asians and are less likely to have a
+college degree (Ryan and Bauman, 2016), and people from southern states face similar disparities relative
+to people from northern states (National Information Center for Higher Education Policy Making and
+Analysis, 2013). If LG people are more concentrated in higher-education groups, then the LG educational
+premium is related to these characteristics, instead of some mechanism that connects sexual orientation
+with investments in education directly.
+Third, we consider the insights of human capital theory, which says that people pursue education
+because it yields pecuniary returns in the labor market; we call this the “schooling-raises-wages” theory.
+According to this theory, educational attainment may diﬀer across demographic groups because the wage
+returns to education diﬀer. Research on the gender gap in college attainment, for example, has found
+3
+
+
+that a substantial proportion of women’s advantage in educational attainment is explained by the fact
+that women earn a larger wage premium for college than men (Jacob, 2002).
+Lesbians and gay men might earn higher wage returns to schooling than heterosexual women and
+men for two reasons.
+First, education helps sexual minorities avoid labor-market discrimination.
+If
+discrimination against lesbians and gay men is attenuated in jobs requiring higher levels of education,
+then any wage penalty sexual minorities experience will be lower in those jobs. Consistent with this
+possibility, Antecol et al. (2008) show that the relatively high human capital investments of lesbians and
+gay men are an important minimizing force in sexual orientation wage discrimination.
+A second reason why lesbians and gay men may earn higher wage returns to schooling is that they have
+diﬀerent characteristics than heterosexuals, such as the presence of children or labor force attachment.
+Fewer lesbian- and gay-headed households have children, and employers may have lower expectations
+that a lesbian or gay employee will be or become parents. Lesbians are also more attached to the labor
+force than heterosexual women (Antecol and Steinberger, 2013), though the evidence on the labor force
+attachment of gay men compared to heterosexual men is mixed (Black et al., 2007; Orreﬁce, 2011).
+Greater labor supply and a lower likelihood of having children means that gays and lesbians could be
+paid more than heterosexuals for the same investments into education.
+A fourth potential explanation for the higher educational attainment of LG people relies on the
+thinking on household specialization from human capital models. In particular, the labor-market returns
+to education depend on time spent in the labor market, which depends, in turn, on household roles. Men
+are more likely to be the higher earner in heterosexual households (though this gap has been closing
+(Bertrand et al., 2015)) and women more often take on the care- and housework responsibilities (Horne
+et al., Forthcoming). As there is also a division of labor in same-sex couple households (Giddings et
+al., 2014), we may expect people to make decisions about their human capital investments based on
+expectations about a later division of labor and household income.
+At the age when young people make decisions about their education – whether to ﬁnish high school,
+for example, or whether to attend vocational school or college – many expect to form a household with a
+spouse or partner with whom they will divide responsibilities for paid market work and unpaid household
+and childcare work. Young people who expect to form a household with a high-wage partner may plan
+to spend less time in the labor market themselves and, consequently, face weaker incentives to invest
+in education that increases their own wage (Becker, 1991). Within this framework, we would expect
+lesbians to obtain more education than heterosexual women because they expect to form a household
+with a woman rather than a man and recognize that women earn lower wages, on average. By the same
+reasoning, we would expect gay men to obtain less education than heterosexual men because they could
+expect to form a household with a man rather a woman and recognize that men earn higher wages (Black
+et al., 2003, 2007).
+4
+
+
+Finally, we consider the possibility that the LG education premium is driven by other incentives that
+LG people have to invest in their education. In particular, LG people may pursue more education because
+education may serve as a gateway to jobs in workplaces with more tolerant co-workers. Workplaces
+in which employees are more highly educated, on average, may be more tolerant of minority groups,
+including lesbians and gay men. This potential access to more tolerant workplaces can be thought of as
+a non-pecuniary return to education; it is a protection from discrimination, as in the theory of schooling-
+raises-wages, but more from a social rather than economic point of view. The tolerance of one’s coworkers
+is an important workplace amenity for which lesbians and gay men may be willing to get more education
+to access. Blandford (2003), for example, suggests that some “low skill” (in the sense of not needing
+formal education) jobs are “macho,” and that macho occupations may be less gay-friendly.
+To be sure, this paper is certainly not the ﬁrst to consider the possibility that pecuniary labor market
+returns are not the only beneﬁt of more education. Michael (1973) started the literature on the non-
+material returns to human capital investments with a landmark paper modeling the returns to human
+capital (seen not just as education, but also as good health, knowledge about markets, and so on). These
+investments, he shows, aﬀect an individual’s activities beyond the labor market, such as in his or her
+voting behavior. More recent literature has continued to follow this thinking. Oreopoulos and Salvanes
+(2011), for example, show that education increases job satisfaction, improves health, increases family
+stability, and has consumption value. DiPrete and Bauchmann (2006) and Chiappori et al. (2009) argue
+that there are important returns to investments in education, especially for women, on the marriage
+market, such as an increased ability to attract a high-earning partner and/or increases bargaining power
+in marriage. This paper follows in this spirit of understanding the multitudinous returns to educational
+attainment, and uses these various dimensions of rewards to education in looking for an explanation of
+the sexual orientation education premium.
+3
+Data
+Sexual orientation is a complex concept, and employing appropriate data to analyze the circumstances
+faces by sexual minorities is not a straightforward task.
+One can understand sexual orientation as
+comprising three dimensions that do not always overlap: sexual attraction, sexual behavior, and self-
+proclaimed identity (Laumann et al., 1994). We examine the relationship between sexual orientation
+and educational attainment using three nationally representative datasets that capture this complexity;
+each measures sexual orientation in a diﬀerent way. The three datasets are the 2013-14 samples of the
+Integrated Health Interview Series (IHIS) from the Integrated Public Use Microdata Series (IPUMS)
+(Minnesota Population Center and State Health Access Data Assistance Center, 2015), the 2013 sample
+of the American Community Survey (ACS) from IPUMS (Ruggles et al., 2015), and the 1988-2014
+5
+
+
+samples from the General Social Survey (GSS). This section describes these data in more detail.
+First, the ACS is the largest of our three datasets. The data come from an annual survey conducted
+by the United States Census Bureau. We use ACS data from 2013 for this analysis. As there are no
+questions about sexual orientation in the ACS, we identify lesbians and gay men based on the cohabiting
+relationships within a household. More speciﬁcally, if a householder identiﬁes another person of the same
+sex as their spouse or unmarried partner, we consider these people to be in a same-sex couple and thus
+lesbian or gay. Because of problems which may exist in the recording of responses on sex or marital
+status, we drop any couple in which one or both partners have an allocation ﬂag – meaning that the
+Census Bureau changed the entered response because they had reason to believe that the data entered
+were not of high enough quality to accept (an unclear mark, for example) – for either sex or marital
+status. For comparability, we restrict our sample of heterosexual men and women to members of married
+or cohabiting diﬀerent-sex couples. Our analysis sample includes 319,125 partnered heterosexual men,
+336,094 partnered heterosexual women, 4,348 partnered gay men, and 4,515 partnered lesbians.
+Education in the ACS is given in terms of the highest year of school completed if a person did not
+ﬁnish high school and in terms of the highest degree earned if the person is a high school graduate. For
+the sections of our analysis which investigate years of schooling, we use the data on the highest degree
+received to create a variable which gives the minimum number of years necessary to complete the degree.
+Our measure of race includes four categories: black, white, Asian, and other race. Our ethnicity measure
+is a dummy variable indicating whether or not the person identiﬁed as Hispanic.
+Our second data source is the 2013-14 samples of the IHIS. The IHIS contains a direct measure of
+sexual orientation, and we classify people as lesbian or gay if they self-identify as such.3 Respondents
+in the IHIS were asked to choose their sexual orientation “identity” from a list of four options (“lesbian
+or gay,” “straight, that is, not lesbian or gay,” “bisexual,” or “something else,” with additional options
+for “I don’t know the answer” or a refusal to answer). Our analysis sample includes 12,390 heterosexual
+men, 14,842 heterosexual women, 347 gay men, and 288 lesbians.
+Education in the IHIS is measured as the highest grade or degree achieved (e.g., “12th grade, no
+diploma” or “high school graduate”). To calculate years of education, we use the minimum number of
+years necessary to complete the level of schooling indicated. Our measure of race includes four categories:
+black, white, Asian, and other race. Our ethnicity measure is a dummy variable indicating whether or
+not the person identiﬁed as Hispanic.
+Our third data source is the GSS. The sexual orientation measure in the GSS comes from a question
+about sexual behavior, which asks the respondent to say how many male and female sexual partners
+3The IHIS measure distinguishes between lesbian or gay identiﬁcation and bisexual identiﬁcation. Previous research
+on sexual minorities has found that the economic behavior and outcomes of the bisexual population diﬀer in important
+ways from those of the lesbian and gay population, and preliminary analysis of the IHIS data suggested a similar pattern
+with respect to education. Unfortunately, the IHIS samples of bisexual men and women are too small to permit separate
+statistical analysis of these groups, so we exclude men and women who identify as bisexual from our analysis sample.
+6
+
+
+they had in the last year. There are also behavioral questions that ask about sexual activity in the last
+ﬁve years and since age 18; we choose to use the “in the last year” measure for two reasons. First, one’s
+behavior in the last year could have more impact on their economic circumstances than something they
+did at some point since they were 18, or even in the last ﬁve years. Second, the sample size of people
+who have had only same-sex sex in the last year is larger than that of people who had only same-sex
+sex in the last ﬁve years or since age 18. Our analysis sample includes 4,766 heterosexual men, 6,054
+heterosexual women, 204 gay men, and 150 lesbians.
+Education in the GSS is measured via a variable for years of schooling, top-coded at 20 years, and
+a variable for the highest degree earned. The GSS race variable contains three categories: black, white,
+and other race. We do not include a measure of ethnicity in our GSS analysis because the measure of
+Hispanic identiﬁcation is not available before 2000.
+In each of these three main datasets, we focus on the experiences of people born between 1955-1985
+and who were born in the US (IHIS and ACS) or who lived in the US at age 16 (GSS). Because we
+are interested in completed education, we further restrict our estimation samples to people who were at
+least 25 years old in the year they were interviewed. Throughout the paper, we use sampling weights to
+obtain nationally representative estimates. We also adjust our IHIS estimates for the stratiﬁcation and
+clustering of the IHIS sample. Finally, because the GSS sample contains proportionally more people from
+earlier birth cohorts than the IHIS and ACS samples, we reweight the GSS data to make the weighted
+distribution of birth cohorts comparable across datasets.4
+Along with these three main datasets, for some parts of the empirical analysis below, we use data
+from from the 1978-2003 CPS Annual Social and Economic Supplement (CPS-ASEC), supplemented
+with data from the 1970 and 1980 United States Decennial Censuses (because the CPS data are not
+available for all states in all years prior to 1978) to construct estimates of state-year gender wage ratios
+and state-year proportions of residents with college degrees. Speciﬁcally, we use data from the 1970
+and 1980 Censuses and estimate values of each variable for the years 1973-77 by linear interpolation.
+We compute the gender wage ratio as the median female wage divided by the median male wage. The
+wage measure is annual wage and salary earnings in the year before the survey divided by the product
+of weeks worked and usual hours worked per week. Our estimation sample for each state-year gender
+wage ratio is workers age 25 to 55, excluding the self-employed, unpaid family workers and workers with
+wages less than 3 or greater then 300 in 2000 dollars. We use the person weights from the Census and
+the CPS-ASEC to obtain nationally representative estimates.
+Table 1 presents the mean years of schooling and the proportion of people with a bachelor’s degree or
+more, by sex and sexual orientation, in each of the three main datasets. The results in the table largely
+4We multiply the GSS sampling weights by a reweighting factor computed as follows: for each birth year between 1955
+and 1985, we compute the proportions of the ACS and GSS samples born in that year, and we divide the ACS proportion
+by the GSS proportion. We normalize the resulting ratios to sum to one over all birth years by dividing the ratio for each
+birth year by the sum of the ratios.
+7
+
+
+conﬁrm the ﬁndings in previous studies: LG people have higher educational attainment than their same-
+sex heterosexual peers. In the IHIS, where sexual orientation is measured by self identiﬁcation, and in
+the ACS, where it is measured by partnership, lesbians complete more than half of a year more schooling
+and are 10 percentage points more likely to have a bachelor’s degree than heterosexual women. Even
+more strikingly, gay men complete more than three quarters of a year more schooling and are between
+12 and 16 percentage points more likely to have a bachelor’s degree than heterosexual men. In the GSS,
+however, where sexual orientation is measured by sexual behavior, the comparisons in table 1 are mixed.
+The results for men in the GSS sample are similar but slightly attenuated compared with the results for
+men in the IHIS and ACS samples. The results for women, however, are diﬀerent: unlike in the IHIS
+and ACS samples, lesbians and heterosexual women in the GSS sample have substantively comparable
+and statistically indistinguishable levels of education.
+[Table 1 about here]
+The ﬁnding that the sexual orientation education gap is larger in the ACS and IHIS data than the
+GSS data is important. It suggests that the educational advantage of lesbians and gay men is related to
+elements of sexual orientation that are relatively persistent or public: identity (IHIS) and family structure
+(ACS). Adopting an LG identity, especially when young, may inﬂuence expectations about work and
+family and corresponding investments in household- and market-oriented human capital. Adopting an LG
+identity may also encourage openness about same-sex attractions and behavior. Similarly, establishing
+a household with a same-sex spouse or partner is a non-trivial commitment that may inﬂuence time
+spent in household and market work and signal one’s minority sexual orientation to others. The sex
+of one’s sexual partners in the last year (GSS) may be less closely tied to economic behavior and less
+consequential for economic outcomes.5
+In the next section, we turn to the tests of our hypotheses to explain the sexual orientation education
+gap.
+4
+Results
+4.1
+Hypothesis 1: More highly educated LG people are more likely to come
+out on a survey
+We begin by testing our ﬁrst hypothesis regarding why we observe a sexual orientation education gap,
+namely, that more highly educated LG people are simply more likely to reveal their sexual orientation on
+a survey. If highly educated sexual minorities are more willing than their less-educated peers to disclose
+that they identify as lesbian or gay, share a household with a same-sex spouse or partner, or have had
+5Modifying the measure of sexual orientation to reﬂect sexual behavior over the last ﬁve years, instead of just in the
+last year, does not substantively alter the results.
+8
+
+
+same-sex sexual partners, then the lesbian and gay educational advantage we observe may be inﬂated or
+spurious.
+Following Black et al. (2000), we test for the possibility that more highly educated LG people come
+out on surveys by examining the relationship between revealed sexual orientation and parental education.
+The literature on intergenerational mobility shows that the educational attainment of a person’s parents
+is the strongest predictor of the person’s own educational attainment (Haveman and Wolfe, 1995). Given
+the strong relationship between parental and descendant education, if there were selection of more highly
+educated LG people coming out on a surveys, then we would expect parental education to predict
+measured sexual orientation. In other words, under the hypothesis that highly educated lesbians and
+gay men are more willing to disclose their sexual orientation, highly educated parents would be more
+likely to have their LG children identiﬁed as LG in a survey. In this case, we would expect to observe a
+positive relationship between parental education and measured LG orientation.
+We test the null hypothesis that there is no relationship between level of education and coming out
+on a survey, with its implication of no relationship between parental education and measured sexual
+orientation, using data from the GSS. While it would be ideal to use data from all three of our surveys,
+the ACS and IHIS do not ask adults about the educational attainment of their non-cohabiting parents,
+nor do they contain measures of other background characteristics, such as parental income and wealth,
+which are similarly strong predictors of educational attainment (Bowles and Gintis, 2002; Rumberger,
+2010). An argument against using the GSS data for this analysis is that the GSS is the only dataset which
+does not show an educational advantage for lesbians. The GSS does show an educational advantage for
+gay men in terms of years of schooling, however, and there is reason to believe that any selection bias
+would be stronger for gay men than lesbians. The Pew Research Center (2013) shows that LGBT people
+themselves perceive greater acceptance of lesbians than gay men.6 In light of these perceptions, it is
+likely gay men who would be more hesitant to come out on a survey. Thus, if the analysis does not show
+selection bias for gay men, we think there is likely less concern for selection bias for lesbians.
+To determine whether parental education predicts measured sexual orientation, we estimate a series
+of logistic regressions, separately by gender. In each regression, the dependent variable is an indicator
+for lesbian or gay orientation and the independent variable of interest is a measure of parental education:
+mother’s years of schooling, father’s years of schooling, an indicator for having a college-educated mother,
+and an indicator for having a college-educated father. All of the regressions include controls for age, race,
+year of birth, and region and population density of location at age 16.
+Table 2 shows the results of these regressions. For both men and women, the coeﬃcients on the
+parental education variables have a mix of positive and negative signs, and in no case is the estimated
+6For example, the study reports that “one-in-four respondents say there is a lot of social acceptance of lesbians, while
+just 15% say the same about gay men. Similarly, there is more perceived acceptance of bisexual women (33% a lot) than
+of bisexual men (8%).”
+9
+
+
+eﬀect of parental education on the probability of appearing as lesbian or gay statistically signiﬁcant at
+the 5-percent level. Based on these results, we cannot reject the null hypothesis that parental education
+is unrelated to measured sexual orientation.
+We thus conclude that the data do not present strong
+evidence that more highly educated LG people are more likely to come out on a survey. Thus, our ﬁrst
+hypothesis that more highly educated LG people are more likely to come out on a survey cannot explain
+why we observe a sexual orientation education gap.
+[Table 2 about here]
+4.2
+Hypothesis 2: LG people have higher education because of other char-
+acteristics, not because of sexual orientation
+We therefore turn to our second hypothesis, namely that the sexual orientation education gap is
+driven by diﬀering characteristics between LG and heterosexual people. In this case, the question is
+if lesbians and gay men get more education than heterosexuals not because their sexual orientation
+aﬀects educational investments, but instead because sexual orientation is correlated with demographic
+characteristics that aﬀect educational investments.
+To test this hypothesis, we estimate a logistic regression for men and women using each of our three
+datasets, where the probability of having a bachelor’s degree or more depends on sexual orientation and
+a set of demographic characteristics: age and race (IHIS, ACS, and GSS), ethnicity (IHIS and ACS),
+birth state (ACS), region and population density of location at age 16 (GSS), and parental education
+(GSS). Table 3 presents results from these regressions.
+Taken together, the estimates indicate that
+demographic characteristics account for little to none of the lesbian and gay educational advantage. The
+estimated eﬀect of being lesbian or gay on educational attainment decreases slightly with the addition
+of demographic control variables in some samples but increases sightly in others. In the IHIS and ACS,
+the magnitude of these changes is substantively small relative to the magnitude of the underlying eﬀects.
+In the GSS, surprisingly, controlling for demographic characteristics increases rather than decreases the
+estimated eﬀect of being gay on the probability of obtaining a bachelor’s degree, but slightly lowers it
+for lesbians.
+[Table 3 about here]
+Thus, neither the ﬁrst nor the the second of our ﬁve possible explanations of the sexual orientation
+education premium have much explanatory power. The next two possible explanations have their theo-
+retical roots in human capital theory, the standard economic approach to understanding investments in
+education.
+10
+
+
+4.3
+Hypothesis 3: LG people have higher education because they get higher
+wage returns to their schooling
+We test the “schooling-raises-wages” theory as it applies to understanding the lesbian and gay educa-
+tional premia by examining whether there are diﬀerences in the returns to more years of schooling and to
+obtaining a bachelor’s degree by sexual orientation. Speciﬁcally, we use data from the ACS to estimate
+OLS regressions of the log hourly wage on an indicator variable for being lesbian or gay, a measure of
+education (years of schooling or an indicator variable for having a bachelor’s degree or more), and an
+interaction between sexual orientation and education, controlling for race, ethnicity, and age. Table 4
+shows the results of these regressions.
+[Table 4 about here]
+As is standard in the literature on the wage eﬀects of sexual orientation, we ﬁnd that gay men face
+a wage penalty while lesbians face a wage premium, as indicated by the negative coeﬃcient on the gay
+indicator variable for men and the positive coeﬃcient on the lesbian indicator variable for women (see
+Klawitter, 2014, for a meta-analysis of the sexual orientation wage gap literature). Both men and women
+receive a wage boost of over 50 percent for having a bachelor’s degree and a boost of approximately 11
+percent for each additional year of schooling. In this sense, the standard idea that schooling raises wages
+is conﬁrmed. However, the last two rows of the table show that more education – be it extra years of
+schooling or the attainment of a bachelor’s degree – does not beneﬁt lesbians or gay men any more than
+heterosexuals. The coeﬃcients on the interactions between the LG indicator variables and the measures
+of educational attainment are small and not statistically signiﬁcant. Thus, the schooling-raises-wages
+hypothesis does not seem to explain the higher educational attainment of sexual minorities.
+4.4
+Hypothesis 4: LG people have higher education because of their expec-
+tations regarding household specialization
+We thus turn to our fourth potential explanation of the sexual orientation education premium, namely,
+that people’s investments in education depend on their expectations of household specialization. As noted
+above, one prediction of this theory is that young men and women invest more in their education when
+they expect their future partner to earn less. In the case of sexual orientation, compared to heterosexuals
+of the same gender, we would expect lesbians to invest more in their own education, because their female
+partner will earn less than a male partner would, and we would expect gay men to invest less in their
+own education, because a male partner earns more than a female partner would.
+We test this prediction using data from the ACS. Of course, we cannot directly observe the eﬀect of
+being lesbian or gay on the expectations of young women and men about the earnings of their future
+partner. Instead, we use the gender wage ratio (median female earnings divided by median male earnings)
+11
+
+
+as a proxy for these eﬀects. Speciﬁcally, we use the gender wage ratio in a person’s birth state when s/he
+was 18 as a proxy for the eﬀect of expecting to partner with a woman versus a man. We expect that,
+where the gender wage ratio is higher (where women earn more relative to men), lesbians will expect
+their partner to earn more relative to the partner of a heterosexual woman. Consequently, we expect
+that lesbians who lived in states with higher gender wage ratios when they were 18 will invest less in
+their education relative to heterosexual women. By parallel reasoning, we expect that gay men who lived
+in states with higher gender wage ratios will invest more in their education relative to heterosexual men.
+The ﬁrst two columns of table 5 show coeﬃcients from OLS regressions of years of schooling on
+a lesbian or gay indicator variable, gender wage ratio in birth state at age 18, and their interaction.
+The regressions include controls for race and ethnicity and ﬁxed eﬀects for birth state and year when
+18. Because the gender wage ratio may be positively correlated with tolerant attitudes towards sexual
+minorities, which may themselves be correlated with the educational attainment of lesbians and gay men,
+the regressions also include several measures of tolerance: four measures of the attitudes in a person’s
+birth region when the person was 18, described in detail below; the proportion of residents in the person’s
+birth state when the person was 18 who had a bachelor’s degree or more; and the interaction of each of
+these variables with the lesbian or gay indicator variable. The last two columns of table 5 show average
+marginal eﬀects from logistic regressions of an indicator variable for having a bachelor’s degree or more
+on the same set of independent variables.
+[Table 5 about here]
+The results in table 5 are consistent with the theory of household specialization for women. The
+lesbian educational premium, both in terms of years of schooling and the probability of having a bachelor’s
+degree, is much larger at the 10th percentile of the state-year gender wage-ratio distribution, where women
+earn less relative to men, than at the 90th percentile, where women earn more. Indeed, at the 90th
+percentile of the state-year gender wage-ratio distribution, the educational attainments of lesbians and
+heterosexual women are statistically indistinguishable. This ﬁnding suggests that the lesbian educational
+premium might fade if the wages of women approached those of men.
+Perhaps not surprisingly, given that the fact that gay men are more educated than heterosexual men
+contradicts our expectations based on the theory of anticipatory household specialization (that gay men
+will be less educated because they expect their partner to earn more), the results in table 5 are weaker
+for men than for women. Consistent with theoretical expectations, the point estimates suggest that the
+educational attainment of gay men relative to heterosexual men increases slightly with the gender wage
+ratio. These increases, however, are not statistically or substantively signiﬁcant. Taken together, the
+results in table 5 suggest that the educational premium of gay men is neither caused nor substantially
+oﬀset by household specialization in the context of gender wage inequality. Thus, our fourth hypothesis
+that the sexual orientation education gap may be explained by the theory of household specialization
+12
+
+
+did indeed hold for women, but not for men.
+None of the ﬁrst four potential explanations could explain the education premium for gay men, and
+only one could be shown to be related to the education premium for lesbians. We therefore now consider
+a ﬁfth alternative: that LG people pursue more education in an eﬀort to gain access to a job in more
+welcoming, tolerant workplaces.
+4.5
+Hypothesis 5: LG people have higher education because education serves
+as a gateway to more tolerant workplaces
+To test this hypothesis, we estimate the eﬀect of education on workplace tolerance. In approximately
+half of the calendar years (and most survey years) since 1973, the GSS has asked four questions designed
+to measure attitudes toward sexual minorities. We operationalize workplace tolerance as the proportion
+of workers in a person’s industry of employment who responded positively to four questions about the
+participation of gay men in society and the morality of same-sex sex. More speciﬁcally, three of these
+questions on tolerance ask about “a man who admits he is a homosexual”:
+Suppose this admitted homosexual wanted to make a speech in your community. Should he
+be allowed to speak, or not?
+Should such a person be allowed to teach in a college or university, or not?
+If some people in your community suggested that a book he wrote in favor of homosexuality
+should be taken out of your public library, would you favor removing this book, or not?
+A fourth question asks about the morality of same-sex sex:
+What about sexual relations between two adults of the same sex – do you think it is always
+wrong, almost always wrong, wrong only sometimes, or not wrong at all?
+We use responses to these questions to construct four binary measures of tolerance: whether the respon-
+dent believed a gay man should be allowed to make a speech, whether the respondent believed a gay man
+should be allowed to teach, whether the respondent believed a book in favor of homosexuality should be
+allowed in the public library, and whether the respondent believed same-sex sex is not wrong at all.
+Our measures of industry tolerance toward sexual minorities are similar to our measures of region-
+year tolerance used in table 5 above. For each of the binary measures of tolerance described above,
+we compute the proportion of respondents in each industry who expressed a tolerant attitude. The
+industry classiﬁcation scheme in the GSS has changed over time. From 1972 to 1987, industries were
+classiﬁed using the 1970 Standard Industrial Classiﬁcation (SIC) codes; from 1988 to 2010, they were
+classiﬁed using the 1980 SIC codes. Within each of these periods, we assign respondents to their detailed
+SIC code (industry group) if the code contains at least 30 observations and to their general SIC code
+13
+
+
+(division) if their detailed code contains fewer than 30 observations.
+Our estimation sample for the
+measures of industry tolerance includes men and women who might reasonably represent the co-workers
+of the lesbians and gay men in the 1955-85 birth cohorts: workers who were interviewed between 1977
+and 2010, when members of the 1955-85 birth cohorts (although not all cohorts in all years) were in the
+prime working age range of 22 to 64.
+We focus on industries rather than occupations because we are interested in the attitudes of the co-
+workers with whom a person interacts regularly. Occupations are deﬁned by the activities of the worker,
+and many workplaces comprise workers performing a wide variety of tasks, so co-workers in the same
+company often have diﬀerent occupations. In contrast, industries are deﬁned by the activities of the
+employer, so co-workers are likely to be employed in the same industry. Co-workers in an oﬃce can have
+very diﬀerent occupations but will work in the same industry. Since we are interested in the tolerance of
+one’s co-workers – the people with whom they share a work space – we use the industry-level measure
+of tolerance.
+To determine whether education facilitates entry into tolerant workplaces, we regress each measure
+of workplace tolerance (the proportion of industry coworkers who express tolerant attitudes toward
+homosexuals) on an indicator variable for having a bachelor’s degree or more, controlling for age, race,
+and region and year of GSS interview. Because we are interested in workplace tolerance as an incentive
+for sexual minorities to pursue education, we restrict our estimation sample to lesbians and gay men.
+Table 6 shows results from the regressions predicting the level of workplace tolerance experienced by
+gay and lesbian workers, depending on their level of education. To aid in interpreting the coeﬃcients,
+the table also presents the average value of each industry-level tolerance measure in the sample used to
+compute the measure.
+[Table 6 about here]
+Consistent with the idea that college is a gateway to workplaces with more tolerant coworkers, the
+relationship between having a bachelor’s degree and the tolerance of same-industry workers is positive
+for all measures of tolerance, both for gay men and for lesbians. In particular, the proportion of same-
+industry workers who expressed a tolerant attitude toward sexual minorities was between 2.3 and 6.8
+percentage points higher for college graduates than non-graduates, with six of eight eﬀects statistically
+signiﬁcant at the 5-percent level. By way of reference, the average proportion of same-industry workers
+who expressed a tolerant attitude was between 38 and 40 percent with respect to the morality of same-
+sex sex and between 78 and 84 percent with respect to the participation of gay men in public life. The
+only measure of co-worker tolerance which does not vary regardless of the lesbian or gay man’s level of
+education is the idea that “same-sex sex is not wrong at all.” Only 37.6% of lesbians’ co-workers and
+39.6% of gay men’s co-workers agreed with this statement to begin with. Given the low acceptance of
+same-sex sex “not being wrong at all,” it is perhaps not surprising that these attitudes do not vary much
+14
+
+
+across the education level of LG people in diﬀerent industries.
+We thus ﬁnd support consistent with our ﬁfth and ﬁnal hypothesis, the the sexual orientation educa-
+tion premium is in part motivated by a desire of LG people to have access to more tolerant workplaces.
+An important caveat to this interpretation is that a positive relationship between education and work-
+place tolerance may arise for many reasons. It is possible, for example, that lesbians and gay men pursue
+additional education not because they seek tolerant workplaces, but because they seek workplace char-
+acteristics that happen to correlate with tolerance. The evidence we have presented is consistent with
+the idea that tolerant workplaces are a beneﬁt of education for sexual minorities and that social consid-
+erations could plausibly play a role in their educational investment decisions, but it does not identify the
+precise mechanism through with education and tolerance are related.
+In sum, our empirical tests have shown that none of the ﬁrst four possible explanations of the sexual
+orientation education premium held for men, while one held for women. In contrast, the last hypothesis
+that LG people invest in higher education in order to access more tolerant workplaces could not be
+rejected.
+5
+Discussion and Conclusion
+In this paper, we have explored the oft-noted but never thoroughly assessed matter of the sexual
+orientation education premium. In two of the three national datasets employed in this paper, we found
+that lesbians and gay men have at least one-half more year of schooling and are 10 percentage points
+more likely to have a bachelor’s degree compared to their same-gender heterosexual counterparts. In the
+third dataset, the GSS, gay men also have higher education rates, though only the results for years of
+schooling are statistically signiﬁcant. In the GSS, there is no statistically signiﬁcant diﬀerence in the
+educational attainment of lesbians and heterosexual women.
+We explored ﬁve possible reasons why lesbians and gay men may choose to get more education than
+heterosexuals. We ﬁrst assessed whether the sexual orientation education premium is driven by selection
+bias of more highly educated LG people being more likely to come out on surveys. Second, we considered
+whether the gap is driven by the fact that LG people have diﬀerent demographic characteristics than
+heterosexuals that are also associated with higher education. Next, we tested whether two main theories
+of educational attainment in economics – that schooling raises wages and that investments in education
+are relative to expected partner earnings – could explain the higher education of LG people. While
+the household specialization model could say more about lesbians’ educational decisions, neither theory
+could explain why gay men are more highly educated than straight men.
+We thus studied a ﬁfth theory, namely that individuals invest in education to receive not only pecu-
+niary beneﬁts, but also in order to access more social rewards. In this case, we considered more tolerant
+15
+
+
+and accepting workplaces as a reward to higher education for LG people. Indeed, the empirical analysis
+showed that more highly educated lesbians and gay men are able to work in more tolerant environments.
+The ﬁndings suggest that LG people may be concerned not just with discrimination in terms of how it
+will aﬀect their (individual and household) income, but also with respect to how they will be treated by
+their colleagues at work. Lesbians and gay men do indeed report being very likely to face discrimination
+at work, sometimes so much so that it aﬀects their job performance and desire to go to work (Badgett
+et al., 2007). In order to avoid this discrimination, they may obtain more education in order to access
+jobs in which they are less likely to face discrimination.
+While this paper has assessed ﬁve potential explanations of the sexual orientation education gap,
+others are, of course, possible. For example, LG people may invest more in their education because
+the partnership rates of LG people are somewhat lower, meaning that LG people will be less likely to
+depend on a partner’s earnings (Carpenter and Gates (2008) ﬁnds lower partnership rates for LG people
+in California and Kurdek (2005) ﬁnds evidence that dissolution rates are higher for LG partnerships than
+heterosexual marriages in the US). Another possibility may be that LG people obtain higher education
+because they face less social pressure to marry and have children, thus giving them more time to pursue
+an education (as suggested by Daneshvary et al., 2009). These and other hypotheses are diﬃcult to test
+with survey data, though.
+In being the ﬁrst to formally explore potential reasons for the observed higher education of lesbians
+and gay men, this paper opens a conversation to understanding how one’s sexual orientation may inﬂuence
+their choices about educational attainment. Future research can pursue this topic considering theories
+and methodologies from other disciplines, such as interviews with younger and older LG people about
+why they made the educational choices they did.
+16
+
+
+References
+Antecol, Heather and Michael Steinberger, “Labor Supply Diﬀerences Between Married Hetero-
+sexual Women and Partnered Lesbians: A Semi-Parametric Decomposition Approach,” Economic
+Inquiry, 2013, 51, 783–805.
+, Anneke Jong, and Michael Steinberger, “The Sexual Orientation Wage Gap: The Role of
+Occupational Sorting and Human Capital,” Industrial and Labor Relations Review, 2008, 61 (4), 518–
+543.
+Badgett, M. V. Lee, Money, Myths, and Change: The Economic Lives of Lesbians and Gay Men,
+Chicago and London: The University of Chicago Press, 2001.
+, Holning Lau, Brad Sears, and Deborah Ho, “Bias in the Workplace: Consistent Evidence of
+Sexual Orientation and Gender Identity Discrimination,” The Williams Institute 2007.
+Becker, Gary S, A Treatise on the Family, enlarged ed., Cambridge: Harvard University Press, 1991.
+Bertrand, Marianne, Emir Kamenica, and Jessica Pan, “Gender identity and relative income
+within households,” Quarterly Journal of Economics, 2015, pp. 571–614.
+Black, Dan A., Hoda R. Makar, Seth G. Sanders, and Lowell J. Taylor, “The Earnings Eﬀects
+of Sexual Orientation,” Industrial and Labor Relations Review, 2003, 56 (3), 449–469.
+, Seth G. Sanders, and Lowell J. Taylor, “The Economics of Lesbian and Gay Families,” Journal
+of Economic Perspectives, 2007, 21 (2), 53–70.
+Black, Dan, Gary Gates, Seth Sanders, and Lowell Taylor, “Demographics of the Gay and
+Lesbian Population in the United States: Evidence from Available Systematic Data Sources,” Demog-
+raphy, 2000, 37 (2), 139–154.
+Blandford, John, “Earnings and the Nexus of Sexual Orientation and Gender,” Industrial and Labor
+Relations Review, 2003, 56 (4), 622–42.
+Bowles, Samuel and Herbert Gintis, “The inheritance of inequality,” Journal of Economic Perspec-
+tives, 2002, 16, 3–30.
+Card, David, “The Causal Eﬀect of Education on Earnings,” Handbook of Labor Economics, 1999, 3,
+1801–1863.
+Carpenter, Christopher and Gary J. Gates, “Gay and Lesbian Partnership: Evidence from Cali-
+fornia,” Demography, 2008, 45 (3), 573–590.
+Carpenter, Christopher S., “Sexual orientation and outcomes in college,” Economics of Education
+Review, 2009, 28, 693–703.
+Chiappori, Pierre-Andr´e, Murat Iyigun, and Yoram Weiss, “Investment in Schooling and the
+Marriage Market,” American Economic Review, 2009, 99 (5), 1689–1713.
+Daneshvary, Nasser, C. Jeﬀrey Waddoups, and Bradley S. Wimmer, “Previous Marriage and
+the Lesbian Wage Premium,” Industrial Relations, 2009, 48 (3), 432–53.
+DiPrete, Thomas A. and Claudia Bauchmann, “Gender-speciﬁc trends in the value of education
+and the emerging gender gap in college completion,” Demography, 2006, 43 (1), 1–24.
+Gallup Poll, “In US, More Adults Identifying as LGBT,” http://www.gallup.com/poll/201731/
+lgbt-identification-rises.aspx January 2017.
+Giddings, Lisa, John M. Nunley, Alyssa Schneebaum, and Joachim Zietz, “Birth Cohort and
+the Specialization Gap Between Same-Sex and Diﬀerent-Sex Couples,” Demography, 2014, 51 (2),
+509–534.
+Haveman, Robert and Barbara Wolfe, “The Determinants of Children’s Attainments: A Review
+of Methods and Findings,” Journal of Economic Literature, 1995, 33 (4), 1829–1878.
+17
+
+
+Horne, Rebecca M., Matthew D. Johnson, Nancy L. Galambos, and Harvey J. Krahn,
+“Time, Money, or Gender? Predictors of the Division of Household Labour Across Life Stages,” Sex
+Roles, Forthcoming.
+Jacob, Brian A, “Where the Boys Aren’t: Non-Cognitive Skills, Returns to School and the Gender
+Gap in Higher Education,” Economics of Education Review, 2002, 21 (6), 589–598.
+Klawitter, Marieka, “Meta-Analysis of the Eﬀects of Sexual Orientation on Earnings,” Industrial
+Relations, 2014, 1 (54), 4–32.
+Kurdek, Lawrence A., “What Do We Know About Gay and Lesbian Couples?,” Current Directions
+in Psychological Science, 2005, 14 (5), 251–254.
+Laumann, Edward O., John H. Gagnon, Robert T. Michael, and Stuart Michaels, The Social
+Organization of Sexuality: Sexual Practices in the United States., Chicago: University of Chigago
+Press, 1994.
+Michael, Robert T., “Education in Nonmarket Production,” Journal of Political Economy, 1973, 81
+(2), 306–327.
+Minnesota Population Center and State Health Access Data Assistance Center, “Integrated
+Health Interview Series: Version 6.11,” 2015.
+National Information Center for Higher Education Policy Making and Analysis, “Educa-
+tional Attainment by Degree-Level and Age-Group (American Community Survey),” http://www.
+higheredinfo.org/dbrowser/?level=nation&mode=map&state=0&submeasure=237 2013. Accessed:
+29 January 2017.
+Oreopoulos, Philip and Kjell G. Salvanes, “Priceless: The Nonpecuniary Beneﬁts of Schooling,”
+Journal of Economic Perspectives, 2011, 25 (1), 159–184.
+Orreﬁce, Sonia, “Sexual orientation and household decision making.: Same-sex couples’ balance of
+power and labor supply choices,” Labour Economics, 2011, 18 (2), 145–158.
+Pew Research Center, “A Survey of LGBT Americans: Attitudes, Experiences and Values in Changing
+Times,” http://www.pewsocialtrends.org/2013/06/13/a-survey-of-lgbt-americans/ 2013.
+Ruggles, Steven, “Patriarchy, Power, and Pay: The Transformation of American Families, 1800–2015,”
+Demography, 2015, 52 (6), 1797–1823.
+, Katie Genadek, Ronald Goeken, Josiah Grover, and Matthew Sobek, “Integrated Public
+Use Microdata Series: Version 6.0,” 2015.
+Rumberger, Russell W., “Education and the reproduction of economic inequality in the United States:
+An empirical investigation,” Economics of Education Review, 2010, 29, 246–54.
+Ryan, Camille L. and Kurt Bauman, “Educational Attainment in the United States: 2015,” http://
+www.census.gov/content/dam/Census/library/publications/2016/demo/p20-578.pdf 2016. Ac-
+cessed: 29 January 2017.
+Trimarchi, Alessandra and Jan Van Bavel, “Education and the Transition to Fatherhood: The
+Role of Selection Into Union,” Demography, forthcoming.
+18
+
+
+Tables
+Table 1: Educational Attainment by Sexual Orientation
+Women
+Men
+Data
+Hetero-
+sexual
+Lesbian
+Hetero-
+sexual
+Gay
+Mean years of schooling
+IHIS
+13.88
+14.59∗
+13.65
+14.43∗
+(0.03)
+(0.22)
+(0.04)
+(0.25)
+ACS
+14.14
+14.76∗
+13.90
+14.83∗
+(0.01)
+(0.05)
+(0.01)
+(0.05)
+GSS
+13.93
+14.00
+13.86
+14.57∗
+(0.04)
+(0.24)
+(0.05)
+(0.26)
+Proportion with
+bachelor’s or more
+IHIS
+0.36
+0.46∗
+0.33
+0.45∗
+(0.01)
+(0.04)
+(0.01)
+(0.04)
+ACS
+0.38
+0.48∗
+0.35
+0.51∗
+(0.00)
+(0.01)
+(0.00)
+(0.01)
+GSS
+0.29
+0.24
+0.30
+0.39
+(0.01)
+(0.04)
+(0.01)
+(0.05)
+N
+IHIS
+14,842
+288
+12,390
+347
+ACS
+336,094
+4,515
+319,125
+4,348
+GSS
+6,054
+150
+4,766
+204
+Notes: Estimates computed using sampling weights for all samples and adjustments for stratiﬁcation and clustering of
+IHIS sample. Standard errors in parentheses. ∗Heterosexual and lesbian/gay means are statistically diﬀerent within sex,
+p < 0.05.
+Table 2: Selection analysis
+Measure of parental education
+Women
+Men
+Mother’s years of schooling
+−0.000
+−0.003
+(0.002)
+(0.002)
+Father’s years of schooling
+0.000
+0.000
+(0.001)
+(0.001)
+Mother has bachelor’s degree
+0.006
+−0.014
+(0.011)
+(0.008)
+Father has bachelor’s degree
+−0.005
+−0.008
+(0.007)
+(0.008)
+N
+4,244
+3,569
+Notes: Table presents average marginal eﬀects from logistic regressions of lesbian or
+gay indicator variable on speciﬁed parental education variable and controls for age,
+race, year of birth, and region and population density of location at age 16. Estimation
+sample is GSS sample, excluding people with missing values of parental education.
+Estimates calculated on weighted survey data.
+Standard errors in parentheses.
+No
+estimate is statistically signiﬁcant at the 5-percent level.
+19
+
+
+Table 3: Eﬀect of being lesbian or gay on probability of having bachelor’s degree or more, controlling for
+background characteristics
+Regressors
+Data
+(1)
+(2)
+(3)
+(4)
+Gay
+IHIS
+0.121∗
+0.119∗
+(0.036)
+(0.035)
+[12,737]
+[12,737]
+ACS
+0.161∗
+0.158∗
+0.154∗
+(0.009)
+(0.009)
+(0.009)
+[323,473]
+[323,473]
+[323,473]
+GSS
+0.086
+0.090
+0.098
+0.130∗
+(0.064)
+(0.063)
+(0.065)
+(0.065)
+[3,569]
+[3,569]
+[3,569]
+[3,569]
+Lesbian
+IHIS
+0.102∗
+0.104∗
+(0.042)
+(0.042)
+[15,130]
+[15,130]
+ACS
+0.094∗
+0.097∗
+0.092∗
+(0.009)
+(0.009)
+(0.009)
+[340,609]
+[340,609]
+[340,609]
+GSS
+−0.042
+−0.048
+−0.063
+−0.057
+(0.061)
+(0.060)
+(0.058)
+(0.049)
+[4,244]
+[4,244]
+[4,244]
+[4,244]
+Demographicsa
+X
+X
+X
+Location when youngb
+X
+X
+Parental educationc
+X
+Notes: Table presents average marginal eﬀects from logistic regressions of indicator variable for having bachelor’s degree
+or more on lesbian or gay indicator variable and speciﬁed control variables. Standard errors in parentheses. Sample sizes
+in square brackets. GSS estimation sample excludes people with missing values of parental education. ∗Average marginal
+eﬀect is statistically signiﬁcant, p < 0.05. aDemographic variables are age and race (IHIS, ACS, and GSS), ethnicity (IHIS
+and ACS), and year of birth (GSS). bLocation variables are state of birth (ACS) and region and population density of
+location at age 16 (GSS). cParental education variables are mother’s and father’s years of schooling and indicators for
+whether mother and father have bachelor’s degree or more (GSS). Estimates computed using sampling weights for all
+samples and adjustments for stratiﬁcation and clustering of IHIS sample.
+Table 4: Wage eﬀects of education, by sexual orientation
+Women
+Men
+Lesbian/gay
+0.166∗
+0.107∗
+−0.168∗
+−0.082∗
+(0.066)
+(0.017)
+(0.083)
+(0.018)
+Years of schooling
+0.110∗
+0.105∗
+(0.001)
+(0.001)
+Bachelor’s degree
+0.514∗
+0.548∗
+(0.003)
+(0.003)
+Lesbian/gay X Years of schooling
+−0.005
+0.005
+(0.004)
+(0.006)
+Lesbian/gay X Bachelor’s degree
+−0.002
+0.010
+(0.024)
+(0.027)
+N
+248,118
+248,118
+275,947
+275,947
+Notes: Table presents coeﬃcients from OLS regressions. Dependent variable is log wage. All regressions
+include controls for race, ethnicity, and age. Estimation sample is ACS sample, excluding men and women
+without wage observations. Estimates calculated on weighted survey data. Standard errors in parentheses.
+∗Coeﬃcient is statistically signiﬁcant, p < 0.05.
+20
+
+
+Table 5: Average marginal eﬀect of being lesbian or gay on educational attainment, by female/male
+median wage ratio in birth state at age 18
+Percentile of birth state at age
+18 in state-year gender
+wage-ratio distribution
+Years of schooling
+Probability of
+bachelor’s or more
+Women
+Men
+Women
+Men
+10th percentile
+1.016∗
+0.878∗
+0.169∗
+0.144∗
+(0.088)
+(0.089)
+(0.016)
+(0.017)
+50th percentile
+0.643∗
+0.913∗
+0.099∗
+0.154∗
+(0.049)
+(0.051)
+(0.009)
+(0.009)
+90th percentile
+0.156
+0.959∗
+0.008
+0.168∗
+(0.107)
+(0.128)
+(0.019)
+(0.022)
+p (10th = 90th)a
+0.000
+0.000
+0.670
+0.472
+N
+340,609
+323,473
+340,609
+323,473
+Notes: Table presents coeﬃcients from OLS regressions and average marginal eﬀects from logistic regressions of education
+measures on lesbian or gay indicator variable, gender wage ratio in birth state at age 18, and their interaction.
+All
+regressions include controls for race, ethnicity, measures of tolerance towards sexual minorities in birth region and state at
+age 18, interaction of sexual orientation with tolerance, and ﬁxed eﬀects for birth state and year when 18. Data are from
+ACS. Estimates calculated on weighted survey data. Standard errors in parentheses, clustered by combination of birth
+state and year when 18. ∗Coeﬃcient or average marginal eﬀect is statistically signiﬁcant, p < 0.05. ap-value from test of
+null hypothesis that average marginal eﬀects at 10th and 90th percentiles are equal.
+Table 6: Eﬀect of having bachelor’s or more on workplace tolerance
+Wronga
+Speakb
+Bookc
+Teachd
+Women
+Coeﬃcient
+0.025
+0.038∗
+0.064∗
+0.068∗
+(0.031)
+(0.015)
+(0.022)
+(0.017)
+Average outcome
+0.376
+0.877
+0.783
+0.829
+(0.023)
+(0.011)
+(0.014)
+(0.015)
+N
+123
+123
+123
+123
+Men
+Coeﬃcient
+0.023
+0.031∗
+0.041∗
+0.044∗
+(0.029)
+(0.012)
+(0.015)
+(0.014)
+Average outcome
+0.396
+0.872
+0.795
+0.837
+(0.019)
+(0.009)
+(0.012)
+(0.013)
+N
+164
+164
+164
+164
+Notes: Table reports coeﬃcients from OLS regressions of measures of workplace tolerance on indicator variable for having
+bachelor’s or more. Dependent variable in each model is proportion of workers in person’s industry of employment who
+expressed tolerant attitude toward sexual minorities. All models control for age, race, and region and year of interview.
+Estimation sample is GSS sample of lesbians and gay men who reported an industry of employment. Standard errors in
+parentheses, clustered by industry. ∗Coeﬃcient is statistically signiﬁcant, p < 0.05. aDependent variable is proportion who
+believe same-sex sex is not wrong at all.
+bDependent variable is proportion who believe “admitted homosexual” should
+be allowed to make speech in community. cDependent variable is proportion who would not favor removing book in favor
+of homosexuality from public library.
+dDependent variable is proportion who believe “admitted homosexual” should be
+allowed to teach in a college or university.
+21

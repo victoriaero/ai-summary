@@ -1,0 +1,1135 @@
+dimension,domain,outcome,comparison,condition_a,condition_b,group_a,group_b,pair_complete,n_source_occurrences_a,n_source_occurrences_b,granularity,set_size_a,set_size_b,intersection_size,union_size,smaller_set_size,jaccard,overlap_coefficient
+Disability,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,People with disabilities,People without disabilities,True,11,4,canonical_url,10,4,0,14,4,0.0,0.0
+Disability,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,People with disabilities,People without disabilities,True,11,4,registrable_domain,9,4,2,11,4,0.18181818181818182,0.5
+Disability,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,People with disabilities,People without disabilities,True,11,4,source_category,4,4,3,5,4,0.6,0.75
+Disability,Credit & Financial Services,Access to banking services,minority_generic,minority,control,People with disabilities,people,True,11,8,canonical_url,10,8,0,18,8,0.0,0.0
+Disability,Credit & Financial Services,Access to banking services,minority_generic,minority,control,People with disabilities,people,True,11,8,registrable_domain,9,8,0,17,8,0.0,0.0
+Disability,Credit & Financial Services,Access to banking services,minority_generic,minority,control,People with disabilities,people,True,11,8,source_category,4,4,3,5,4,0.6,0.75
+Disability,Credit & Financial Services,Access to banking services,majority_generic,majority,control,People without disabilities,people,True,4,8,canonical_url,4,8,0,12,4,0.0,0.0
+Disability,Credit & Financial Services,Access to banking services,majority_generic,majority,control,People without disabilities,people,True,4,8,registrable_domain,4,8,1,11,4,0.09090909090909091,0.25
+Disability,Credit & Financial Services,Access to banking services,majority_generic,majority,control,People without disabilities,people,True,4,8,source_category,4,4,3,5,4,0.6,0.75
+Disability,Credit & Financial Services,Access to credit,minority_majority,minority,majority,People with disabilities,People without disabilities,True,5,3,canonical_url,5,3,0,8,3,0.0,0.0
+Disability,Credit & Financial Services,Access to credit,minority_majority,minority,majority,People with disabilities,People without disabilities,True,5,3,registrable_domain,5,3,0,8,3,0.0,0.0
+Disability,Credit & Financial Services,Access to credit,minority_majority,minority,majority,People with disabilities,People without disabilities,True,5,3,source_category,3,3,3,3,3,1.0,1.0
+Disability,Credit & Financial Services,Access to credit,minority_generic,minority,control,People with disabilities,people,True,5,6,canonical_url,5,6,0,11,5,0.0,0.0
+Disability,Credit & Financial Services,Access to credit,minority_generic,minority,control,People with disabilities,people,True,5,6,registrable_domain,5,5,0,10,5,0.0,0.0
+Disability,Credit & Financial Services,Access to credit,minority_generic,minority,control,People with disabilities,people,True,5,6,source_category,3,3,3,3,3,1.0,1.0
+Disability,Credit & Financial Services,Access to credit,majority_generic,majority,control,People without disabilities,people,True,3,6,canonical_url,3,6,1,8,3,0.125,0.3333333333333333
+Disability,Credit & Financial Services,Access to credit,majority_generic,majority,control,People without disabilities,people,True,3,6,registrable_domain,3,5,1,7,3,0.14285714285714285,0.3333333333333333
+Disability,Credit & Financial Services,Access to credit,majority_generic,majority,control,People without disabilities,people,True,3,6,source_category,3,3,3,3,3,1.0,1.0
+Disability,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,4,canonical_url,7,4,0,11,4,0.0,0.0
+Disability,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,4,registrable_domain,7,4,0,11,4,0.0,0.0
+Disability,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,4,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,People with disabilities,people,True,7,11,canonical_url,7,11,0,18,7,0.0,0.0
+Disability,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,People with disabilities,people,True,7,11,registrable_domain,7,11,0,18,7,0.0,0.0
+Disability,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,People with disabilities,people,True,7,11,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,People without disabilities,people,True,4,11,canonical_url,4,11,0,15,4,0.0,0.0
+Disability,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,People without disabilities,people,True,4,11,registrable_domain,4,11,0,15,4,0.0,0.0
+Disability,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,People without disabilities,people,True,4,11,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,9,canonical_url,8,9,0,17,8,0.0,0.0
+Disability,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,9,registrable_domain,8,5,0,13,5,0.0,0.0
+Disability,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,9,source_category,4,3,3,4,3,0.75,1.0
+Disability,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,People with disabilities,people,True,8,10,canonical_url,8,10,0,18,8,0.0,0.0
+Disability,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,People with disabilities,people,True,8,10,registrable_domain,8,6,0,14,6,0.0,0.0
+Disability,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,People with disabilities,people,True,8,10,source_category,4,5,4,5,4,0.8,1.0
+Disability,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,People without disabilities,people,True,9,10,canonical_url,9,10,3,16,9,0.1875,0.3333333333333333
+Disability,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,People without disabilities,people,True,9,10,registrable_domain,5,6,3,8,5,0.375,0.6
+Disability,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,People without disabilities,people,True,9,10,source_category,3,5,3,5,3,0.6,1.0
+Disability,Criminal Justice,Incarceration,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,0,canonical_url,9,0,0,9,0,0.0,
+Disability,Criminal Justice,Incarceration,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,0,registrable_domain,9,0,0,9,0,0.0,
+Disability,Criminal Justice,Incarceration,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,0,source_category,3,0,0,3,0,0.0,
+Disability,Criminal Justice,Incarceration,minority_generic,minority,control,People with disabilities,people,True,9,8,canonical_url,9,8,0,17,8,0.0,0.0
+Disability,Criminal Justice,Incarceration,minority_generic,minority,control,People with disabilities,people,True,9,8,registrable_domain,9,8,2,15,8,0.13333333333333333,0.25
+Disability,Criminal Justice,Incarceration,minority_generic,minority,control,People with disabilities,people,True,9,8,source_category,3,5,3,5,3,0.6,1.0
+Disability,Criminal Justice,Incarceration,majority_generic,majority,control,People without disabilities,people,True,0,8,canonical_url,0,8,0,8,0,0.0,
+Disability,Criminal Justice,Incarceration,majority_generic,majority,control,People without disabilities,people,True,0,8,registrable_domain,0,8,0,8,0,0.0,
+Disability,Criminal Justice,Incarceration,majority_generic,majority,control,People without disabilities,people,True,0,8,source_category,0,5,0,5,0,0.0,
+Disability,Criminal Justice,Police use of force,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,4,canonical_url,7,4,0,11,4,0.0,0.0
+Disability,Criminal Justice,Police use of force,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,4,registrable_domain,6,3,1,8,3,0.125,0.3333333333333333
+Disability,Criminal Justice,Police use of force,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,4,source_category,4,2,1,5,2,0.2,0.5
+Disability,Criminal Justice,Police use of force,minority_generic,minority,control,People with disabilities,people,True,7,9,canonical_url,7,9,0,16,7,0.0,0.0
+Disability,Criminal Justice,Police use of force,minority_generic,minority,control,People with disabilities,people,True,7,9,registrable_domain,6,9,1,14,6,0.07142857142857142,0.16666666666666666
+Disability,Criminal Justice,Police use of force,minority_generic,minority,control,People with disabilities,people,True,7,9,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Disability,Criminal Justice,Police use of force,majority_generic,majority,control,People without disabilities,people,True,4,9,canonical_url,4,9,1,12,4,0.08333333333333333,0.25
+Disability,Criminal Justice,Police use of force,majority_generic,majority,control,People without disabilities,people,True,4,9,registrable_domain,3,9,2,10,3,0.2,0.6666666666666666
+Disability,Criminal Justice,Police use of force,majority_generic,majority,control,People without disabilities,people,True,4,9,source_category,2,4,2,4,2,0.5,1.0
+Disability,Education,College access/admission,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,0,canonical_url,9,0,0,9,0,0.0,
+Disability,Education,College access/admission,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,0,registrable_domain,8,0,0,8,0,0.0,
+Disability,Education,College access/admission,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,0,source_category,3,0,0,3,0,0.0,
+Disability,Education,College access/admission,minority_generic,minority,control,People with disabilities,people,True,9,6,canonical_url,9,6,0,15,6,0.0,0.0
+Disability,Education,College access/admission,minority_generic,minority,control,People with disabilities,people,True,9,6,registrable_domain,8,6,1,13,6,0.07692307692307693,0.16666666666666666
+Disability,Education,College access/admission,minority_generic,minority,control,People with disabilities,people,True,9,6,source_category,3,4,3,4,3,0.75,1.0
+Disability,Education,College access/admission,majority_generic,majority,control,People without disabilities,people,True,0,6,canonical_url,0,6,0,6,0,0.0,
+Disability,Education,College access/admission,majority_generic,majority,control,People without disabilities,people,True,0,6,registrable_domain,0,6,0,6,0,0.0,
+Disability,Education,College access/admission,majority_generic,majority,control,People without disabilities,people,True,0,6,source_category,0,4,0,4,0,0.0,
+Disability,Education,Educational opportunity/access,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,3,canonical_url,10,3,0,13,3,0.0,0.0
+Disability,Education,Educational opportunity/access,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,3,registrable_domain,10,3,0,13,3,0.0,0.0
+Disability,Education,Educational opportunity/access,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,3,source_category,5,2,2,5,2,0.4,1.0
+Disability,Education,Educational opportunity/access,minority_generic,minority,control,People with disabilities,people,True,10,6,canonical_url,10,6,0,16,6,0.0,0.0
+Disability,Education,Educational opportunity/access,minority_generic,minority,control,People with disabilities,people,True,10,6,registrable_domain,10,6,0,16,6,0.0,0.0
+Disability,Education,Educational opportunity/access,minority_generic,minority,control,People with disabilities,people,True,10,6,source_category,5,4,4,5,4,0.8,1.0
+Disability,Education,Educational opportunity/access,majority_generic,majority,control,People without disabilities,people,True,3,6,canonical_url,3,6,0,9,3,0.0,0.0
+Disability,Education,Educational opportunity/access,majority_generic,majority,control,People without disabilities,people,True,3,6,registrable_domain,3,6,0,9,3,0.0,0.0
+Disability,Education,Educational opportunity/access,majority_generic,majority,control,People without disabilities,people,True,3,6,source_category,2,4,2,4,2,0.5,1.0
+Disability,Education,Harassment/bullying,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,6,canonical_url,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Disability,Education,Harassment/bullying,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,6,registrable_domain,9,5,3,11,5,0.2727272727272727,0.6
+Disability,Education,Harassment/bullying,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,6,source_category,4,4,3,5,4,0.6,0.75
+Disability,Education,Harassment/bullying,minority_generic,minority,control,People with disabilities,people,True,9,12,canonical_url,9,12,0,21,9,0.0,0.0
+Disability,Education,Harassment/bullying,minority_generic,minority,control,People with disabilities,people,True,9,12,registrable_domain,9,10,2,17,9,0.11764705882352941,0.2222222222222222
+Disability,Education,Harassment/bullying,minority_generic,minority,control,People with disabilities,people,True,9,12,source_category,4,6,4,6,4,0.6666666666666666,1.0
+Disability,Education,Harassment/bullying,majority_generic,majority,control,People without disabilities,people,True,6,12,canonical_url,6,12,0,18,6,0.0,0.0
+Disability,Education,Harassment/bullying,majority_generic,majority,control,People without disabilities,people,True,6,12,registrable_domain,5,10,2,13,5,0.15384615384615385,0.4
+Disability,Education,Harassment/bullying,majority_generic,majority,control,People without disabilities,people,True,6,12,source_category,4,6,4,6,4,0.6666666666666666,1.0
+Disability,Employment,Career advancement,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,0,canonical_url,10,0,0,10,0,0.0,
+Disability,Employment,Career advancement,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,0,registrable_domain,9,0,0,9,0,0.0,
+Disability,Employment,Career advancement,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,0,source_category,4,0,0,4,0,0.0,
+Disability,Employment,Career advancement,minority_generic,minority,control,People with disabilities,people,True,10,5,canonical_url,10,5,0,15,5,0.0,0.0
+Disability,Employment,Career advancement,minority_generic,minority,control,People with disabilities,people,True,10,5,registrable_domain,9,5,1,13,5,0.07692307692307693,0.2
+Disability,Employment,Career advancement,minority_generic,minority,control,People with disabilities,people,True,10,5,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Disability,Employment,Career advancement,majority_generic,majority,control,People without disabilities,people,True,0,5,canonical_url,0,5,0,5,0,0.0,
+Disability,Employment,Career advancement,majority_generic,majority,control,People without disabilities,people,True,0,5,registrable_domain,0,5,0,5,0,0.0,
+Disability,Employment,Career advancement,majority_generic,majority,control,People without disabilities,people,True,0,5,source_category,0,4,0,4,0,0.0,
+Disability,Employment,Hiring,minority_majority,minority,majority,People with disabilities,People without disabilities,True,12,3,canonical_url,12,3,0,15,3,0.0,0.0
+Disability,Employment,Hiring,minority_majority,minority,majority,People with disabilities,People without disabilities,True,12,3,registrable_domain,11,3,0,14,3,0.0,0.0
+Disability,Employment,Hiring,minority_majority,minority,majority,People with disabilities,People without disabilities,True,12,3,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Employment,Hiring,minority_generic,minority,control,People with disabilities,people,True,12,12,canonical_url,12,12,0,24,12,0.0,0.0
+Disability,Employment,Hiring,minority_generic,minority,control,People with disabilities,people,True,12,12,registrable_domain,11,8,0,19,8,0.0,0.0
+Disability,Employment,Hiring,minority_generic,minority,control,People with disabilities,people,True,12,12,source_category,3,4,1,6,3,0.16666666666666666,0.3333333333333333
+Disability,Employment,Hiring,majority_generic,majority,control,People without disabilities,people,True,3,12,canonical_url,3,12,0,15,3,0.0,0.0
+Disability,Employment,Hiring,majority_generic,majority,control,People without disabilities,people,True,3,12,registrable_domain,3,8,0,11,3,0.0,0.0
+Disability,Employment,Hiring,majority_generic,majority,control,People without disabilities,people,True,3,12,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Disability,Employment,Workplace harassment,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,2,canonical_url,8,2,0,10,2,0.0,0.0
+Disability,Employment,Workplace harassment,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,2,registrable_domain,8,2,0,10,2,0.0,0.0
+Disability,Employment,Workplace harassment,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,2,source_category,4,2,2,4,2,0.5,1.0
+Disability,Employment,Workplace harassment,minority_generic,minority,control,People with disabilities,people,True,8,7,canonical_url,8,7,0,15,7,0.0,0.0
+Disability,Employment,Workplace harassment,minority_generic,minority,control,People with disabilities,people,True,8,7,registrable_domain,8,7,0,15,7,0.0,0.0
+Disability,Employment,Workplace harassment,minority_generic,minority,control,People with disabilities,people,True,8,7,source_category,4,3,3,4,3,0.75,1.0
+Disability,Employment,Workplace harassment,majority_generic,majority,control,People without disabilities,people,True,2,7,canonical_url,2,7,2,7,2,0.2857142857142857,1.0
+Disability,Employment,Workplace harassment,majority_generic,majority,control,People without disabilities,people,True,2,7,registrable_domain,2,7,2,7,2,0.2857142857142857,1.0
+Disability,Employment,Workplace harassment,majority_generic,majority,control,People without disabilities,people,True,2,7,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Disability,Government Benefits,Access to government benefits,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,5,canonical_url,10,5,3,12,5,0.25,0.6
+Disability,Government Benefits,Access to government benefits,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,5,registrable_domain,10,5,3,12,5,0.25,0.6
+Disability,Government Benefits,Access to government benefits,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,5,source_category,3,3,3,3,3,1.0,1.0
+Disability,Government Benefits,Access to government benefits,minority_generic,minority,control,People with disabilities,people,True,10,10,canonical_url,10,10,0,20,10,0.0,0.0
+Disability,Government Benefits,Access to government benefits,minority_generic,minority,control,People with disabilities,people,True,10,10,registrable_domain,10,8,0,18,8,0.0,0.0
+Disability,Government Benefits,Access to government benefits,minority_generic,minority,control,People with disabilities,people,True,10,10,source_category,3,4,3,4,3,0.75,1.0
+Disability,Government Benefits,Access to government benefits,majority_generic,majority,control,People without disabilities,people,True,5,10,canonical_url,5,10,2,13,5,0.15384615384615385,0.4
+Disability,Government Benefits,Access to government benefits,majority_generic,majority,control,People without disabilities,people,True,5,10,registrable_domain,5,8,2,11,5,0.18181818181818182,0.4
+Disability,Government Benefits,Access to government benefits,majority_generic,majority,control,People without disabilities,people,True,5,10,source_category,3,4,3,4,3,0.75,1.0
+Disability,Government Benefits,Application/approval,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,13,canonical_url,10,13,1,22,10,0.045454545454545456,0.1
+Disability,Government Benefits,Application/approval,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,13,registrable_domain,9,12,1,20,9,0.05,0.1111111111111111
+Disability,Government Benefits,Application/approval,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,13,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Disability,Government Benefits,Application/approval,minority_generic,minority,control,People with disabilities,people,True,10,12,canonical_url,10,12,0,22,10,0.0,0.0
+Disability,Government Benefits,Application/approval,minority_generic,minority,control,People with disabilities,people,True,10,12,registrable_domain,9,12,0,21,9,0.0,0.0
+Disability,Government Benefits,Application/approval,minority_generic,minority,control,People with disabilities,people,True,10,12,source_category,4,3,3,4,3,0.75,1.0
+Disability,Government Benefits,Application/approval,majority_generic,majority,control,People without disabilities,people,True,13,12,canonical_url,13,12,0,25,12,0.0,0.0
+Disability,Government Benefits,Application/approval,majority_generic,majority,control,People without disabilities,people,True,13,12,registrable_domain,12,12,0,24,12,0.0,0.0
+Disability,Government Benefits,Application/approval,majority_generic,majority,control,People without disabilities,people,True,13,12,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,People with disabilities,People without disabilities,True,17,5,canonical_url,17,5,3,19,5,0.15789473684210525,0.6
+Disability,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,People with disabilities,People without disabilities,True,17,5,registrable_domain,13,3,2,14,3,0.14285714285714285,0.6666666666666666
+Disability,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,People with disabilities,People without disabilities,True,17,5,source_category,6,2,2,6,2,0.3333333333333333,1.0
+Disability,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,People with disabilities,people,True,17,13,canonical_url,17,13,2,28,13,0.07142857142857142,0.15384615384615385
+Disability,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,People with disabilities,people,True,17,13,registrable_domain,13,12,3,22,12,0.13636363636363635,0.25
+Disability,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,People with disabilities,people,True,17,13,source_category,6,4,4,6,4,0.6666666666666666,1.0
+Disability,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,People without disabilities,people,True,5,13,canonical_url,5,13,0,18,5,0.0,0.0
+Disability,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,People without disabilities,people,True,5,13,registrable_domain,3,12,0,15,3,0.0,0.0
+Disability,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,People without disabilities,people,True,5,13,source_category,2,4,1,5,2,0.2,0.5
+Disability,Healthcare,Insurance coverage,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,7,canonical_url,7,7,2,12,7,0.16666666666666666,0.2857142857142857
+Disability,Healthcare,Insurance coverage,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,7,registrable_domain,6,3,2,7,3,0.2857142857142857,0.6666666666666666
+Disability,Healthcare,Insurance coverage,minority_majority,minority,majority,People with disabilities,People without disabilities,True,7,7,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Healthcare,Insurance coverage,minority_generic,minority,control,People with disabilities,people,True,7,13,canonical_url,7,13,0,20,7,0.0,0.0
+Disability,Healthcare,Insurance coverage,minority_generic,minority,control,People with disabilities,people,True,7,13,registrable_domain,6,7,1,12,6,0.08333333333333333,0.16666666666666666
+Disability,Healthcare,Insurance coverage,minority_generic,minority,control,People with disabilities,people,True,7,13,source_category,3,3,1,5,3,0.2,0.3333333333333333
+Disability,Healthcare,Insurance coverage,majority_generic,majority,control,People without disabilities,people,True,7,13,canonical_url,7,13,0,20,7,0.0,0.0
+Disability,Healthcare,Insurance coverage,majority_generic,majority,control,People without disabilities,people,True,7,13,registrable_domain,3,7,1,9,3,0.1111111111111111,0.3333333333333333
+Disability,Healthcare,Insurance coverage,majority_generic,majority,control,People without disabilities,people,True,7,13,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Healthcare,Patient safety,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,4,canonical_url,10,4,0,14,4,0.0,0.0
+Disability,Healthcare,Patient safety,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,4,registrable_domain,7,4,1,10,4,0.1,0.25
+Disability,Healthcare,Patient safety,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,4,source_category,4,4,3,5,4,0.6,0.75
+Disability,Healthcare,Patient safety,minority_generic,minority,control,People with disabilities,people,True,10,11,canonical_url,10,11,0,21,10,0.0,0.0
+Disability,Healthcare,Patient safety,minority_generic,minority,control,People with disabilities,people,True,10,11,registrable_domain,7,7,2,12,7,0.16666666666666666,0.2857142857142857
+Disability,Healthcare,Patient safety,minority_generic,minority,control,People with disabilities,people,True,10,11,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Disability,Healthcare,Patient safety,majority_generic,majority,control,People without disabilities,people,True,4,11,canonical_url,4,11,2,13,4,0.15384615384615385,0.5
+Disability,Healthcare,Patient safety,majority_generic,majority,control,People without disabilities,people,True,4,11,registrable_domain,4,7,2,9,4,0.2222222222222222,0.5
+Disability,Healthcare,Patient safety,majority_generic,majority,control,People without disabilities,people,True,4,11,source_category,4,4,3,5,4,0.6,0.75
+Disability,Healthcare,Preventive care,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,5,canonical_url,10,5,1,14,5,0.07142857142857142,0.2
+Disability,Healthcare,Preventive care,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,5,registrable_domain,8,3,2,9,3,0.2222222222222222,0.6666666666666666
+Disability,Healthcare,Preventive care,minority_majority,minority,majority,People with disabilities,People without disabilities,True,10,5,source_category,4,3,3,4,3,0.75,1.0
+Disability,Healthcare,Preventive care,minority_generic,minority,control,People with disabilities,people,True,10,5,canonical_url,10,5,0,15,5,0.0,0.0
+Disability,Healthcare,Preventive care,minority_generic,minority,control,People with disabilities,people,True,10,5,registrable_domain,8,3,2,9,3,0.2222222222222222,0.6666666666666666
+Disability,Healthcare,Preventive care,minority_generic,minority,control,People with disabilities,people,True,10,5,source_category,4,2,2,4,2,0.5,1.0
+Disability,Healthcare,Preventive care,majority_generic,majority,control,People without disabilities,people,True,5,5,canonical_url,5,5,1,9,5,0.1111111111111111,0.2
+Disability,Healthcare,Preventive care,majority_generic,majority,control,People without disabilities,people,True,5,5,registrable_domain,3,3,1,5,3,0.2,0.3333333333333333
+Disability,Healthcare,Preventive care,majority_generic,majority,control,People without disabilities,people,True,5,5,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Disability,Housing,Access to housing,minority_majority,minority,majority,People with disabilities,People without disabilities,True,5,11,canonical_url,5,11,1,15,5,0.06666666666666667,0.2
+Disability,Housing,Access to housing,minority_majority,minority,majority,People with disabilities,People without disabilities,True,5,11,registrable_domain,5,10,2,13,5,0.15384615384615385,0.4
+Disability,Housing,Access to housing,minority_majority,minority,majority,People with disabilities,People without disabilities,True,5,11,source_category,1,4,1,4,1,0.25,1.0
+Disability,Housing,Access to housing,minority_generic,minority,control,People with disabilities,people,True,5,6,canonical_url,5,6,0,11,5,0.0,0.0
+Disability,Housing,Access to housing,minority_generic,minority,control,People with disabilities,people,True,5,6,registrable_domain,5,6,0,11,5,0.0,0.0
+Disability,Housing,Access to housing,minority_generic,minority,control,People with disabilities,people,True,5,6,source_category,1,3,1,3,1,0.3333333333333333,1.0
+Disability,Housing,Access to housing,majority_generic,majority,control,People without disabilities,people,True,11,6,canonical_url,11,6,0,17,6,0.0,0.0
+Disability,Housing,Access to housing,majority_generic,majority,control,People without disabilities,people,True,11,6,registrable_domain,10,6,1,15,6,0.06666666666666667,0.16666666666666666
+Disability,Housing,Access to housing,majority_generic,majority,control,People without disabilities,people,True,11,6,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Disability,Housing,Homelessness,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,8,canonical_url,9,8,0,17,8,0.0,0.0
+Disability,Housing,Homelessness,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,8,registrable_domain,8,6,1,13,6,0.07692307692307693,0.16666666666666666
+Disability,Housing,Homelessness,minority_majority,minority,majority,People with disabilities,People without disabilities,True,9,8,source_category,4,2,2,4,2,0.5,1.0
+Disability,Housing,Homelessness,minority_generic,minority,control,People with disabilities,people,True,9,7,canonical_url,9,7,0,16,7,0.0,0.0
+Disability,Housing,Homelessness,minority_generic,minority,control,People with disabilities,people,True,9,7,registrable_domain,8,6,1,13,6,0.07692307692307693,0.16666666666666666
+Disability,Housing,Homelessness,minority_generic,minority,control,People with disabilities,people,True,9,7,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Disability,Housing,Homelessness,majority_generic,majority,control,People without disabilities,people,True,8,7,canonical_url,8,7,4,11,7,0.36363636363636365,0.5714285714285714
+Disability,Housing,Homelessness,majority_generic,majority,control,People without disabilities,people,True,8,7,registrable_domain,6,6,4,8,6,0.5,0.6666666666666666
+Disability,Housing,Homelessness,majority_generic,majority,control,People without disabilities,people,True,8,7,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Disability,Housing,Housing stability,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,6,canonical_url,8,6,0,14,6,0.0,0.0
+Disability,Housing,Housing stability,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,6,registrable_domain,8,6,0,14,6,0.0,0.0
+Disability,Housing,Housing stability,minority_majority,minority,majority,People with disabilities,People without disabilities,True,8,6,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Housing,Housing stability,minority_generic,minority,control,People with disabilities,people,True,8,9,canonical_url,8,9,0,17,8,0.0,0.0
+Disability,Housing,Housing stability,minority_generic,minority,control,People with disabilities,people,True,8,9,registrable_domain,8,9,0,17,8,0.0,0.0
+Disability,Housing,Housing stability,minority_generic,minority,control,People with disabilities,people,True,8,9,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Disability,Housing,Housing stability,majority_generic,majority,control,People without disabilities,people,True,6,9,canonical_url,6,9,3,12,6,0.25,0.5
+Disability,Housing,Housing stability,majority_generic,majority,control,People without disabilities,people,True,6,9,registrable_domain,6,9,3,12,6,0.25,0.5
+Disability,Housing,Housing stability,majority_generic,majority,control,People without disabilities,people,True,6,9,source_category,3,3,3,3,3,1.0,1.0
+Ethnicity,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Latino people,non-Latino people,True,9,4,canonical_url,9,4,1,12,4,0.08333333333333333,0.25
+Ethnicity,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Latino people,non-Latino people,True,9,4,registrable_domain,9,4,1,12,4,0.08333333333333333,0.25
+Ethnicity,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Latino people,non-Latino people,True,9,4,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Ethnicity,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Latino people,people,True,9,8,canonical_url,9,8,1,16,8,0.0625,0.125
+Ethnicity,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Latino people,people,True,9,8,registrable_domain,9,8,1,16,8,0.0625,0.125
+Ethnicity,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Latino people,people,True,9,8,source_category,3,4,3,4,3,0.75,1.0
+Ethnicity,Credit & Financial Services,Access to banking services,majority_generic,majority,control,non-Latino people,people,True,4,8,canonical_url,4,8,1,11,4,0.09090909090909091,0.25
+Ethnicity,Credit & Financial Services,Access to banking services,majority_generic,majority,control,non-Latino people,people,True,4,8,registrable_domain,4,8,1,11,4,0.09090909090909091,0.25
+Ethnicity,Credit & Financial Services,Access to banking services,majority_generic,majority,control,non-Latino people,people,True,4,8,source_category,3,4,3,4,3,0.75,1.0
+Ethnicity,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Latino people,non-Latino people,True,13,3,canonical_url,13,3,0,16,3,0.0,0.0
+Ethnicity,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Latino people,non-Latino people,True,13,3,registrable_domain,10,3,1,12,3,0.08333333333333333,0.3333333333333333
+Ethnicity,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Latino people,non-Latino people,True,13,3,source_category,5,3,3,5,3,0.6,1.0
+Ethnicity,Credit & Financial Services,Access to credit,minority_generic,minority,control,Latino people,people,True,13,6,canonical_url,13,6,0,19,6,0.0,0.0
+Ethnicity,Credit & Financial Services,Access to credit,minority_generic,minority,control,Latino people,people,True,13,6,registrable_domain,10,5,0,15,5,0.0,0.0
+Ethnicity,Credit & Financial Services,Access to credit,minority_generic,minority,control,Latino people,people,True,13,6,source_category,5,3,3,5,3,0.6,1.0
+Ethnicity,Credit & Financial Services,Access to credit,majority_generic,majority,control,non-Latino people,people,True,3,6,canonical_url,3,6,0,9,3,0.0,0.0
+Ethnicity,Credit & Financial Services,Access to credit,majority_generic,majority,control,non-Latino people,people,True,3,6,registrable_domain,3,5,0,8,3,0.0,0.0
+Ethnicity,Credit & Financial Services,Access to credit,majority_generic,majority,control,non-Latino people,people,True,3,6,source_category,3,3,3,3,3,1.0,1.0
+Ethnicity,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,canonical_url,12,4,1,15,4,0.06666666666666667,0.25
+Ethnicity,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,registrable_domain,10,4,1,13,4,0.07692307692307693,0.25
+Ethnicity,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Ethnicity,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Latino people,people,True,12,11,canonical_url,12,11,0,23,11,0.0,0.0
+Ethnicity,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Latino people,people,True,12,11,registrable_domain,10,11,0,21,10,0.0,0.0
+Ethnicity,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Latino people,people,True,12,11,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Ethnicity,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,non-Latino people,people,True,4,11,canonical_url,4,11,0,15,4,0.0,0.0
+Ethnicity,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,non-Latino people,people,True,4,11,registrable_domain,4,11,0,15,4,0.0,0.0
+Ethnicity,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,non-Latino people,people,True,4,11,source_category,3,3,1,5,3,0.2,0.3333333333333333
+Ethnicity,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Latino people,non-Latino people,True,9,5,canonical_url,9,5,1,13,5,0.07692307692307693,0.2
+Ethnicity,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Latino people,non-Latino people,True,9,5,registrable_domain,7,2,2,7,2,0.2857142857142857,1.0
+Ethnicity,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Latino people,non-Latino people,True,9,5,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Ethnicity,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Latino people,people,True,9,10,canonical_url,9,10,0,19,9,0.0,0.0
+Ethnicity,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Latino people,people,True,9,10,registrable_domain,7,6,2,11,6,0.18181818181818182,0.3333333333333333
+Ethnicity,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Latino people,people,True,9,10,source_category,3,5,3,5,3,0.6,1.0
+Ethnicity,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,non-Latino people,people,True,5,10,canonical_url,5,10,1,14,5,0.07142857142857142,0.2
+Ethnicity,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,non-Latino people,people,True,5,10,registrable_domain,2,6,2,6,2,0.3333333333333333,1.0
+Ethnicity,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,non-Latino people,people,True,5,10,source_category,2,5,2,5,2,0.4,1.0
+Ethnicity,Criminal Justice,Incarceration,minority_majority,minority,majority,Latino people,non-Latino people,True,6,3,canonical_url,6,3,1,8,3,0.125,0.3333333333333333
+Ethnicity,Criminal Justice,Incarceration,minority_majority,minority,majority,Latino people,non-Latino people,True,6,3,registrable_domain,5,3,2,6,3,0.3333333333333333,0.6666666666666666
+Ethnicity,Criminal Justice,Incarceration,minority_majority,minority,majority,Latino people,non-Latino people,True,6,3,source_category,2,2,2,2,2,1.0,1.0
+Ethnicity,Criminal Justice,Incarceration,minority_generic,minority,control,Latino people,people,True,6,8,canonical_url,6,8,0,14,6,0.0,0.0
+Ethnicity,Criminal Justice,Incarceration,minority_generic,minority,control,Latino people,people,True,6,8,registrable_domain,5,8,2,11,5,0.18181818181818182,0.4
+Ethnicity,Criminal Justice,Incarceration,minority_generic,minority,control,Latino people,people,True,6,8,source_category,2,5,2,5,2,0.4,1.0
+Ethnicity,Criminal Justice,Incarceration,majority_generic,majority,control,non-Latino people,people,True,3,8,canonical_url,3,8,0,11,3,0.0,0.0
+Ethnicity,Criminal Justice,Incarceration,majority_generic,majority,control,non-Latino people,people,True,3,8,registrable_domain,3,8,1,10,3,0.1,0.3333333333333333
+Ethnicity,Criminal Justice,Incarceration,majority_generic,majority,control,non-Latino people,people,True,3,8,source_category,2,5,2,5,2,0.4,1.0
+Ethnicity,Criminal Justice,Police use of force,minority_majority,minority,majority,Latino people,non-Latino people,True,6,6,canonical_url,6,6,0,12,6,0.0,0.0
+Ethnicity,Criminal Justice,Police use of force,minority_majority,minority,majority,Latino people,non-Latino people,True,6,6,registrable_domain,4,6,1,9,4,0.1111111111111111,0.25
+Ethnicity,Criminal Justice,Police use of force,minority_majority,minority,majority,Latino people,non-Latino people,True,6,6,source_category,3,4,3,4,3,0.75,1.0
+Ethnicity,Criminal Justice,Police use of force,minority_generic,minority,control,Latino people,people,True,6,9,canonical_url,6,9,1,14,6,0.07142857142857142,0.16666666666666666
+Ethnicity,Criminal Justice,Police use of force,minority_generic,minority,control,Latino people,people,True,6,9,registrable_domain,4,9,1,12,4,0.08333333333333333,0.25
+Ethnicity,Criminal Justice,Police use of force,minority_generic,minority,control,Latino people,people,True,6,9,source_category,3,4,3,4,3,0.75,1.0
+Ethnicity,Criminal Justice,Police use of force,majority_generic,majority,control,non-Latino people,people,True,6,9,canonical_url,6,9,0,15,6,0.0,0.0
+Ethnicity,Criminal Justice,Police use of force,majority_generic,majority,control,non-Latino people,people,True,6,9,registrable_domain,6,9,0,15,6,0.0,0.0
+Ethnicity,Criminal Justice,Police use of force,majority_generic,majority,control,non-Latino people,people,True,6,9,source_category,4,4,4,4,4,1.0,1.0
+Ethnicity,Education,College access/admission,minority_majority,minority,majority,Latino people,non-Latino people,True,10,16,canonical_url,10,16,1,25,10,0.04,0.1
+Ethnicity,Education,College access/admission,minority_majority,minority,majority,Latino people,non-Latino people,True,10,16,registrable_domain,10,15,2,23,10,0.08695652173913043,0.2
+Ethnicity,Education,College access/admission,minority_majority,minority,majority,Latino people,non-Latino people,True,10,16,source_category,3,3,3,3,3,1.0,1.0
+Ethnicity,Education,College access/admission,minority_generic,minority,control,Latino people,people,True,10,6,canonical_url,10,6,0,16,6,0.0,0.0
+Ethnicity,Education,College access/admission,minority_generic,minority,control,Latino people,people,True,10,6,registrable_domain,10,6,0,16,6,0.0,0.0
+Ethnicity,Education,College access/admission,minority_generic,minority,control,Latino people,people,True,10,6,source_category,3,4,3,4,3,0.75,1.0
+Ethnicity,Education,College access/admission,majority_generic,majority,control,non-Latino people,people,True,16,6,canonical_url,16,6,1,21,6,0.047619047619047616,0.16666666666666666
+Ethnicity,Education,College access/admission,majority_generic,majority,control,non-Latino people,people,True,16,6,registrable_domain,15,6,1,20,6,0.05,0.16666666666666666
+Ethnicity,Education,College access/admission,majority_generic,majority,control,non-Latino people,people,True,16,6,source_category,3,4,3,4,3,0.75,1.0
+Ethnicity,Education,Educational opportunity/access,minority_majority,minority,majority,Latino people,non-Latino people,True,9,2,canonical_url,9,2,0,11,2,0.0,0.0
+Ethnicity,Education,Educational opportunity/access,minority_majority,minority,majority,Latino people,non-Latino people,True,9,2,registrable_domain,9,2,0,11,2,0.0,0.0
+Ethnicity,Education,Educational opportunity/access,minority_majority,minority,majority,Latino people,non-Latino people,True,9,2,source_category,4,2,2,4,2,0.5,1.0
+Ethnicity,Education,Educational opportunity/access,minority_generic,minority,control,Latino people,people,True,9,6,canonical_url,9,6,0,15,6,0.0,0.0
+Ethnicity,Education,Educational opportunity/access,minority_generic,minority,control,Latino people,people,True,9,6,registrable_domain,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Ethnicity,Education,Educational opportunity/access,minority_generic,minority,control,Latino people,people,True,9,6,source_category,4,4,3,5,4,0.6,0.75
+Ethnicity,Education,Educational opportunity/access,majority_generic,majority,control,non-Latino people,people,True,2,6,canonical_url,2,6,0,8,2,0.0,0.0
+Ethnicity,Education,Educational opportunity/access,majority_generic,majority,control,non-Latino people,people,True,2,6,registrable_domain,2,6,0,8,2,0.0,0.0
+Ethnicity,Education,Educational opportunity/access,majority_generic,majority,control,non-Latino people,people,True,2,6,source_category,2,4,2,4,2,0.5,1.0
+Ethnicity,Education,Harassment/bullying,minority_majority,minority,majority,Latino people,non-Latino people,True,8,8,canonical_url,8,8,1,15,8,0.06666666666666667,0.125
+Ethnicity,Education,Harassment/bullying,minority_majority,minority,majority,Latino people,non-Latino people,True,8,8,registrable_domain,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Ethnicity,Education,Harassment/bullying,minority_majority,minority,majority,Latino people,non-Latino people,True,8,8,source_category,5,3,3,5,3,0.6,1.0
+Ethnicity,Education,Harassment/bullying,minority_generic,minority,control,Latino people,people,True,8,12,canonical_url,8,12,0,20,8,0.0,0.0
+Ethnicity,Education,Harassment/bullying,minority_generic,minority,control,Latino people,people,True,8,12,registrable_domain,7,10,2,15,7,0.13333333333333333,0.2857142857142857
+Ethnicity,Education,Harassment/bullying,minority_generic,minority,control,Latino people,people,True,8,12,source_category,5,6,4,7,5,0.5714285714285714,0.8
+Ethnicity,Education,Harassment/bullying,majority_generic,majority,control,non-Latino people,people,True,8,12,canonical_url,8,12,0,20,8,0.0,0.0
+Ethnicity,Education,Harassment/bullying,majority_generic,majority,control,non-Latino people,people,True,8,12,registrable_domain,6,10,1,15,6,0.06666666666666667,0.16666666666666666
+Ethnicity,Education,Harassment/bullying,majority_generic,majority,control,non-Latino people,people,True,8,12,source_category,3,6,2,7,3,0.2857142857142857,0.6666666666666666
+Ethnicity,Employment,Career advancement,minority_majority,minority,majority,Latino people,non-Latino people,True,10,5,canonical_url,10,5,0,15,5,0.0,0.0
+Ethnicity,Employment,Career advancement,minority_majority,minority,majority,Latino people,non-Latino people,True,10,5,registrable_domain,10,4,0,14,4,0.0,0.0
+Ethnicity,Employment,Career advancement,minority_majority,minority,majority,Latino people,non-Latino people,True,10,5,source_category,4,3,3,4,3,0.75,1.0
+Ethnicity,Employment,Career advancement,minority_generic,minority,control,Latino people,people,True,10,5,canonical_url,10,5,0,15,5,0.0,0.0
+Ethnicity,Employment,Career advancement,minority_generic,minority,control,Latino people,people,True,10,5,registrable_domain,10,5,1,14,5,0.07142857142857142,0.2
+Ethnicity,Employment,Career advancement,minority_generic,minority,control,Latino people,people,True,10,5,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Ethnicity,Employment,Career advancement,majority_generic,majority,control,non-Latino people,people,True,5,5,canonical_url,5,5,0,10,5,0.0,0.0
+Ethnicity,Employment,Career advancement,majority_generic,majority,control,non-Latino people,people,True,5,5,registrable_domain,4,5,0,9,4,0.0,0.0
+Ethnicity,Employment,Career advancement,majority_generic,majority,control,non-Latino people,people,True,5,5,source_category,3,4,1,6,3,0.16666666666666666,0.3333333333333333
+Ethnicity,Employment,Hiring,minority_majority,minority,majority,Latino people,non-Latino people,True,12,0,canonical_url,12,0,0,12,0,0.0,
+Ethnicity,Employment,Hiring,minority_majority,minority,majority,Latino people,non-Latino people,True,12,0,registrable_domain,12,0,0,12,0,0.0,
+Ethnicity,Employment,Hiring,minority_majority,minority,majority,Latino people,non-Latino people,True,12,0,source_category,5,0,0,5,0,0.0,
+Ethnicity,Employment,Hiring,minority_generic,minority,control,Latino people,people,True,12,12,canonical_url,12,12,0,24,12,0.0,0.0
+Ethnicity,Employment,Hiring,minority_generic,minority,control,Latino people,people,True,12,12,registrable_domain,12,8,0,20,8,0.0,0.0
+Ethnicity,Employment,Hiring,minority_generic,minority,control,Latino people,people,True,12,12,source_category,5,4,2,7,4,0.2857142857142857,0.5
+Ethnicity,Employment,Hiring,majority_generic,majority,control,non-Latino people,people,True,0,12,canonical_url,0,12,0,12,0,0.0,
+Ethnicity,Employment,Hiring,majority_generic,majority,control,non-Latino people,people,True,0,12,registrable_domain,0,8,0,8,0,0.0,
+Ethnicity,Employment,Hiring,majority_generic,majority,control,non-Latino people,people,True,0,12,source_category,0,4,0,4,0,0.0,
+Ethnicity,Employment,Workplace harassment,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,canonical_url,12,4,2,14,4,0.14285714285714285,0.5
+Ethnicity,Employment,Workplace harassment,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,registrable_domain,10,4,3,11,4,0.2727272727272727,0.75
+Ethnicity,Employment,Workplace harassment,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,source_category,4,2,2,4,2,0.5,1.0
+Ethnicity,Employment,Workplace harassment,minority_generic,minority,control,Latino people,people,True,12,7,canonical_url,12,7,0,19,7,0.0,0.0
+Ethnicity,Employment,Workplace harassment,minority_generic,minority,control,Latino people,people,True,12,7,registrable_domain,10,7,1,16,7,0.0625,0.14285714285714285
+Ethnicity,Employment,Workplace harassment,minority_generic,minority,control,Latino people,people,True,12,7,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Ethnicity,Employment,Workplace harassment,majority_generic,majority,control,non-Latino people,people,True,4,7,canonical_url,4,7,2,9,4,0.2222222222222222,0.5
+Ethnicity,Employment,Workplace harassment,majority_generic,majority,control,non-Latino people,people,True,4,7,registrable_domain,4,7,2,9,4,0.2222222222222222,0.5
+Ethnicity,Employment,Workplace harassment,majority_generic,majority,control,non-Latino people,people,True,4,7,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Ethnicity,Government Benefits,Access to government benefits,minority_majority,minority,majority,Latino people,non-Latino people,True,8,6,canonical_url,8,6,0,14,6,0.0,0.0
+Ethnicity,Government Benefits,Access to government benefits,minority_majority,minority,majority,Latino people,non-Latino people,True,8,6,registrable_domain,6,6,1,11,6,0.09090909090909091,0.16666666666666666
+Ethnicity,Government Benefits,Access to government benefits,minority_majority,minority,majority,Latino people,non-Latino people,True,8,6,source_category,4,4,4,4,4,1.0,1.0
+Ethnicity,Government Benefits,Access to government benefits,minority_generic,minority,control,Latino people,people,True,8,10,canonical_url,8,10,0,18,8,0.0,0.0
+Ethnicity,Government Benefits,Access to government benefits,minority_generic,minority,control,Latino people,people,True,8,10,registrable_domain,6,8,1,13,6,0.07692307692307693,0.16666666666666666
+Ethnicity,Government Benefits,Access to government benefits,minority_generic,minority,control,Latino people,people,True,8,10,source_category,4,4,4,4,4,1.0,1.0
+Ethnicity,Government Benefits,Access to government benefits,majority_generic,majority,control,non-Latino people,people,True,6,10,canonical_url,6,10,0,16,6,0.0,0.0
+Ethnicity,Government Benefits,Access to government benefits,majority_generic,majority,control,non-Latino people,people,True,6,10,registrable_domain,6,8,0,14,6,0.0,0.0
+Ethnicity,Government Benefits,Access to government benefits,majority_generic,majority,control,non-Latino people,people,True,6,10,source_category,4,4,4,4,4,1.0,1.0
+Ethnicity,Government Benefits,Application/approval,minority_majority,minority,majority,Latino people,non-Latino people,True,13,6,canonical_url,12,6,1,17,6,0.058823529411764705,0.16666666666666666
+Ethnicity,Government Benefits,Application/approval,minority_majority,minority,majority,Latino people,non-Latino people,True,13,6,registrable_domain,9,6,2,13,6,0.15384615384615385,0.3333333333333333
+Ethnicity,Government Benefits,Application/approval,minority_majority,minority,majority,Latino people,non-Latino people,True,13,6,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Ethnicity,Government Benefits,Application/approval,minority_generic,minority,control,Latino people,people,True,13,12,canonical_url,12,12,1,23,12,0.043478260869565216,0.08333333333333333
+Ethnicity,Government Benefits,Application/approval,minority_generic,minority,control,Latino people,people,True,13,12,registrable_domain,9,12,2,19,9,0.10526315789473684,0.2222222222222222
+Ethnicity,Government Benefits,Application/approval,minority_generic,minority,control,Latino people,people,True,13,12,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Ethnicity,Government Benefits,Application/approval,majority_generic,majority,control,non-Latino people,people,True,6,12,canonical_url,6,12,1,17,6,0.058823529411764705,0.16666666666666666
+Ethnicity,Government Benefits,Application/approval,majority_generic,majority,control,non-Latino people,people,True,6,12,registrable_domain,6,12,3,15,6,0.2,0.5
+Ethnicity,Government Benefits,Application/approval,majority_generic,majority,control,non-Latino people,people,True,6,12,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Ethnicity,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Latino people,non-Latino people,True,14,14,canonical_url,14,14,0,28,14,0.0,0.0
+Ethnicity,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Latino people,non-Latino people,True,14,14,registrable_domain,9,9,3,15,9,0.2,0.3333333333333333
+Ethnicity,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Latino people,non-Latino people,True,14,14,source_category,4,3,3,4,3,0.75,1.0
+Ethnicity,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Latino people,people,True,14,13,canonical_url,14,13,0,27,13,0.0,0.0
+Ethnicity,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Latino people,people,True,14,13,registrable_domain,9,12,1,20,9,0.05,0.1111111111111111
+Ethnicity,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Latino people,people,True,14,13,source_category,4,4,3,5,4,0.6,0.75
+Ethnicity,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,non-Latino people,people,True,14,13,canonical_url,14,13,1,26,13,0.038461538461538464,0.07692307692307693
+Ethnicity,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,non-Latino people,people,True,14,13,registrable_domain,9,12,2,19,9,0.10526315789473684,0.2222222222222222
+Ethnicity,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,non-Latino people,people,True,14,13,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Ethnicity,Healthcare,Insurance coverage,minority_majority,minority,majority,Latino people,non-Latino people,True,6,7,canonical_url,6,7,2,11,6,0.18181818181818182,0.3333333333333333
+Ethnicity,Healthcare,Insurance coverage,minority_majority,minority,majority,Latino people,non-Latino people,True,6,7,registrable_domain,3,4,2,5,3,0.4,0.6666666666666666
+Ethnicity,Healthcare,Insurance coverage,minority_majority,minority,majority,Latino people,non-Latino people,True,6,7,source_category,3,4,3,4,3,0.75,1.0
+Ethnicity,Healthcare,Insurance coverage,minority_generic,minority,control,Latino people,people,True,6,13,canonical_url,6,13,0,19,6,0.0,0.0
+Ethnicity,Healthcare,Insurance coverage,minority_generic,minority,control,Latino people,people,True,6,13,registrable_domain,3,7,1,9,3,0.1111111111111111,0.3333333333333333
+Ethnicity,Healthcare,Insurance coverage,minority_generic,minority,control,Latino people,people,True,6,13,source_category,3,3,1,5,3,0.2,0.3333333333333333
+Ethnicity,Healthcare,Insurance coverage,majority_generic,majority,control,non-Latino people,people,True,7,13,canonical_url,7,13,0,20,7,0.0,0.0
+Ethnicity,Healthcare,Insurance coverage,majority_generic,majority,control,non-Latino people,people,True,7,13,registrable_domain,4,7,1,10,4,0.1,0.25
+Ethnicity,Healthcare,Insurance coverage,majority_generic,majority,control,non-Latino people,people,True,7,13,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Ethnicity,Healthcare,Patient safety,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,canonical_url,12,4,1,15,4,0.06666666666666667,0.25
+Ethnicity,Healthcare,Patient safety,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,registrable_domain,6,3,1,8,3,0.125,0.3333333333333333
+Ethnicity,Healthcare,Patient safety,minority_majority,minority,majority,Latino people,non-Latino people,True,12,4,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Ethnicity,Healthcare,Patient safety,minority_generic,minority,control,Latino people,people,True,12,11,canonical_url,12,11,0,23,11,0.0,0.0
+Ethnicity,Healthcare,Patient safety,minority_generic,minority,control,Latino people,people,True,12,11,registrable_domain,6,7,1,12,6,0.08333333333333333,0.16666666666666666
+Ethnicity,Healthcare,Patient safety,minority_generic,minority,control,Latino people,people,True,12,11,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Ethnicity,Healthcare,Patient safety,majority_generic,majority,control,non-Latino people,people,True,4,11,canonical_url,4,11,1,14,4,0.07142857142857142,0.25
+Ethnicity,Healthcare,Patient safety,majority_generic,majority,control,non-Latino people,people,True,4,11,registrable_domain,3,7,2,8,3,0.25,0.6666666666666666
+Ethnicity,Healthcare,Patient safety,majority_generic,majority,control,non-Latino people,people,True,4,11,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Ethnicity,Healthcare,Preventive care,minority_majority,minority,majority,Latino people,non-Latino people,True,9,4,canonical_url,9,4,1,12,4,0.08333333333333333,0.25
+Ethnicity,Healthcare,Preventive care,minority_majority,minority,majority,Latino people,non-Latino people,True,9,4,registrable_domain,6,3,1,8,3,0.125,0.3333333333333333
+Ethnicity,Healthcare,Preventive care,minority_majority,minority,majority,Latino people,non-Latino people,True,9,4,source_category,4,2,2,4,2,0.5,1.0
+Ethnicity,Healthcare,Preventive care,minority_generic,minority,control,Latino people,people,True,9,5,canonical_url,9,5,0,14,5,0.0,0.0
+Ethnicity,Healthcare,Preventive care,minority_generic,minority,control,Latino people,people,True,9,5,registrable_domain,6,3,1,8,3,0.125,0.3333333333333333
+Ethnicity,Healthcare,Preventive care,minority_generic,minority,control,Latino people,people,True,9,5,source_category,4,2,2,4,2,0.5,1.0
+Ethnicity,Healthcare,Preventive care,majority_generic,majority,control,non-Latino people,people,True,4,5,canonical_url,4,5,0,9,4,0.0,0.0
+Ethnicity,Healthcare,Preventive care,majority_generic,majority,control,non-Latino people,people,True,4,5,registrable_domain,3,3,1,5,3,0.2,0.3333333333333333
+Ethnicity,Healthcare,Preventive care,majority_generic,majority,control,non-Latino people,people,True,4,5,source_category,2,2,1,3,2,0.3333333333333333,0.5
+Ethnicity,Housing,Access to housing,minority_majority,minority,majority,Latino people,non-Latino people,True,8,6,canonical_url,8,6,4,10,6,0.4,0.6666666666666666
+Ethnicity,Housing,Access to housing,minority_majority,minority,majority,Latino people,non-Latino people,True,8,6,registrable_domain,6,6,4,8,6,0.5,0.6666666666666666
+Ethnicity,Housing,Access to housing,minority_majority,minority,majority,Latino people,non-Latino people,True,8,6,source_category,3,4,3,4,3,0.75,1.0
+Ethnicity,Housing,Access to housing,minority_generic,minority,control,Latino people,people,True,8,6,canonical_url,8,6,0,14,6,0.0,0.0
+Ethnicity,Housing,Access to housing,minority_generic,minority,control,Latino people,people,True,8,6,registrable_domain,6,6,0,12,6,0.0,0.0
+Ethnicity,Housing,Access to housing,minority_generic,minority,control,Latino people,people,True,8,6,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Ethnicity,Housing,Access to housing,majority_generic,majority,control,non-Latino people,people,True,6,6,canonical_url,6,6,0,12,6,0.0,0.0
+Ethnicity,Housing,Access to housing,majority_generic,majority,control,non-Latino people,people,True,6,6,registrable_domain,6,6,0,12,6,0.0,0.0
+Ethnicity,Housing,Access to housing,majority_generic,majority,control,non-Latino people,people,True,6,6,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Ethnicity,Housing,Homelessness,minority_majority,minority,majority,Latino people,non-Latino people,True,8,5,canonical_url,8,5,0,13,5,0.0,0.0
+Ethnicity,Housing,Homelessness,minority_majority,minority,majority,Latino people,non-Latino people,True,8,5,registrable_domain,7,3,2,8,3,0.25,0.6666666666666666
+Ethnicity,Housing,Homelessness,minority_majority,minority,majority,Latino people,non-Latino people,True,8,5,source_category,4,2,1,5,2,0.2,0.5
+Ethnicity,Housing,Homelessness,minority_generic,minority,control,Latino people,people,True,8,7,canonical_url,8,7,0,15,7,0.0,0.0
+Ethnicity,Housing,Homelessness,minority_generic,minority,control,Latino people,people,True,8,7,registrable_domain,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Ethnicity,Housing,Homelessness,minority_generic,minority,control,Latino people,people,True,8,7,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Ethnicity,Housing,Homelessness,majority_generic,majority,control,non-Latino people,people,True,5,7,canonical_url,5,7,1,11,5,0.09090909090909091,0.2
+Ethnicity,Housing,Homelessness,majority_generic,majority,control,non-Latino people,people,True,5,7,registrable_domain,3,6,1,8,3,0.125,0.3333333333333333
+Ethnicity,Housing,Homelessness,majority_generic,majority,control,non-Latino people,people,True,5,7,source_category,2,3,1,4,2,0.25,0.5
+Ethnicity,Housing,Housing stability,minority_majority,minority,majority,Latino people,non-Latino people,True,10,7,canonical_url,10,7,0,17,7,0.0,0.0
+Ethnicity,Housing,Housing stability,minority_majority,minority,majority,Latino people,non-Latino people,True,10,7,registrable_domain,6,5,0,11,5,0.0,0.0
+Ethnicity,Housing,Housing stability,minority_majority,minority,majority,Latino people,non-Latino people,True,10,7,source_category,2,3,1,4,2,0.25,0.5
+Ethnicity,Housing,Housing stability,minority_generic,minority,control,Latino people,people,True,10,9,canonical_url,10,9,0,19,9,0.0,0.0
+Ethnicity,Housing,Housing stability,minority_generic,minority,control,Latino people,people,True,10,9,registrable_domain,6,9,1,14,6,0.07142857142857142,0.16666666666666666
+Ethnicity,Housing,Housing stability,minority_generic,minority,control,Latino people,people,True,10,9,source_category,2,3,1,4,2,0.25,0.5
+Ethnicity,Housing,Housing stability,majority_generic,majority,control,non-Latino people,people,True,7,9,canonical_url,7,9,0,16,7,0.0,0.0
+Ethnicity,Housing,Housing stability,majority_generic,majority,control,non-Latino people,people,True,7,9,registrable_domain,5,9,0,14,5,0.0,0.0
+Ethnicity,Housing,Housing stability,majority_generic,majority,control,non-Latino people,people,True,7,9,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Gender,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Women,Men,True,9,7,canonical_url,9,7,0,16,7,0.0,0.0
+Gender,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Women,Men,True,9,7,registrable_domain,8,7,0,15,7,0.0,0.0
+Gender,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Women,Men,True,9,7,source_category,2,4,2,4,2,0.5,1.0
+Gender,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Women,people,True,9,8,canonical_url,9,8,0,17,8,0.0,0.0
+Gender,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Women,people,True,9,8,registrable_domain,8,8,0,16,8,0.0,0.0
+Gender,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Women,people,True,9,8,source_category,2,4,2,4,2,0.5,1.0
+Gender,Credit & Financial Services,Access to banking services,majority_generic,majority,control,Men,people,True,7,8,canonical_url,7,8,5,10,7,0.5,0.7142857142857143
+Gender,Credit & Financial Services,Access to banking services,majority_generic,majority,control,Men,people,True,7,8,registrable_domain,7,8,7,8,7,0.875,1.0
+Gender,Credit & Financial Services,Access to banking services,majority_generic,majority,control,Men,people,True,7,8,source_category,4,4,4,4,4,1.0,1.0
+Gender,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Women,Men,True,8,7,canonical_url,8,7,0,15,7,0.0,0.0
+Gender,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Women,Men,True,8,7,registrable_domain,8,7,0,15,7,0.0,0.0
+Gender,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Women,Men,True,8,7,source_category,5,3,2,6,3,0.3333333333333333,0.6666666666666666
+Gender,Credit & Financial Services,Access to credit,minority_generic,minority,control,Women,people,True,8,6,canonical_url,8,6,0,14,6,0.0,0.0
+Gender,Credit & Financial Services,Access to credit,minority_generic,minority,control,Women,people,True,8,6,registrable_domain,8,5,0,13,5,0.0,0.0
+Gender,Credit & Financial Services,Access to credit,minority_generic,minority,control,Women,people,True,8,6,source_category,5,3,2,6,3,0.3333333333333333,0.6666666666666666
+Gender,Credit & Financial Services,Access to credit,majority_generic,majority,control,Men,people,True,7,6,canonical_url,7,6,2,11,6,0.18181818181818182,0.3333333333333333
+Gender,Credit & Financial Services,Access to credit,majority_generic,majority,control,Men,people,True,7,6,registrable_domain,7,5,2,10,5,0.2,0.4
+Gender,Credit & Financial Services,Access to credit,majority_generic,majority,control,Men,people,True,7,6,source_category,3,3,3,3,3,1.0,1.0
+Gender,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Women,Men,True,10,9,canonical_url,10,9,0,19,9,0.0,0.0
+Gender,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Women,Men,True,10,9,registrable_domain,8,9,0,17,8,0.0,0.0
+Gender,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Women,Men,True,10,9,source_category,5,2,2,5,2,0.4,1.0
+Gender,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Women,people,True,10,11,canonical_url,10,11,0,21,10,0.0,0.0
+Gender,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Women,people,True,10,11,registrable_domain,8,11,0,19,8,0.0,0.0
+Gender,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Women,people,True,10,11,source_category,5,3,3,5,3,0.6,1.0
+Gender,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,Men,people,True,9,11,canonical_url,9,11,2,18,9,0.1111111111111111,0.2222222222222222
+Gender,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,Men,people,True,9,11,registrable_domain,9,11,2,18,9,0.1111111111111111,0.2222222222222222
+Gender,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,Men,people,True,9,11,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Gender,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Women,Men,True,9,8,canonical_url,9,8,0,17,8,0.0,0.0
+Gender,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Women,Men,True,9,8,registrable_domain,9,4,1,12,4,0.08333333333333333,0.25
+Gender,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Women,Men,True,9,8,source_category,4,2,1,5,2,0.2,0.5
+Gender,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Women,people,True,9,10,canonical_url,9,10,0,19,9,0.0,0.0
+Gender,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Women,people,True,9,10,registrable_domain,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Gender,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Women,people,True,9,10,source_category,4,5,2,7,4,0.2857142857142857,0.5
+Gender,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,Men,people,True,8,10,canonical_url,8,10,4,14,8,0.2857142857142857,0.5
+Gender,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,Men,people,True,8,10,registrable_domain,4,6,3,7,4,0.42857142857142855,0.75
+Gender,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,Men,people,True,8,10,source_category,2,5,2,5,2,0.4,1.0
+Gender,Criminal Justice,Incarceration,minority_majority,minority,majority,Women,Men,True,9,11,canonical_url,9,11,0,20,9,0.0,0.0
+Gender,Criminal Justice,Incarceration,minority_majority,minority,majority,Women,Men,True,9,11,registrable_domain,8,9,2,15,8,0.13333333333333333,0.25
+Gender,Criminal Justice,Incarceration,minority_majority,minority,majority,Women,Men,True,9,11,source_category,5,4,3,6,4,0.5,0.75
+Gender,Criminal Justice,Incarceration,minority_generic,minority,control,Women,people,True,9,8,canonical_url,9,8,0,17,8,0.0,0.0
+Gender,Criminal Justice,Incarceration,minority_generic,minority,control,Women,people,True,9,8,registrable_domain,8,8,1,15,8,0.06666666666666667,0.125
+Gender,Criminal Justice,Incarceration,minority_generic,minority,control,Women,people,True,9,8,source_category,5,5,4,6,5,0.6666666666666666,0.8
+Gender,Criminal Justice,Incarceration,majority_generic,majority,control,Men,people,True,11,8,canonical_url,11,8,2,17,8,0.11764705882352941,0.25
+Gender,Criminal Justice,Incarceration,majority_generic,majority,control,Men,people,True,11,8,registrable_domain,9,8,4,13,8,0.3076923076923077,0.5
+Gender,Criminal Justice,Incarceration,majority_generic,majority,control,Men,people,True,11,8,source_category,4,5,4,5,4,0.8,1.0
+Gender,Criminal Justice,Police use of force,minority_majority,minority,majority,Women,Men,True,6,7,canonical_url,6,7,0,13,6,0.0,0.0
+Gender,Criminal Justice,Police use of force,minority_majority,minority,majority,Women,Men,True,6,7,registrable_domain,5,6,1,10,5,0.1,0.2
+Gender,Criminal Justice,Police use of force,minority_majority,minority,majority,Women,Men,True,6,7,source_category,4,4,3,5,4,0.6,0.75
+Gender,Criminal Justice,Police use of force,minority_generic,minority,control,Women,people,True,6,9,canonical_url,6,9,0,15,6,0.0,0.0
+Gender,Criminal Justice,Police use of force,minority_generic,minority,control,Women,people,True,6,9,registrable_domain,5,9,0,14,5,0.0,0.0
+Gender,Criminal Justice,Police use of force,minority_generic,minority,control,Women,people,True,6,9,source_category,4,4,3,5,4,0.6,0.75
+Gender,Criminal Justice,Police use of force,majority_generic,majority,control,Men,people,True,7,9,canonical_url,7,9,2,14,7,0.14285714285714285,0.2857142857142857
+Gender,Criminal Justice,Police use of force,majority_generic,majority,control,Men,people,True,7,9,registrable_domain,6,9,3,12,6,0.25,0.5
+Gender,Criminal Justice,Police use of force,majority_generic,majority,control,Men,people,True,7,9,source_category,4,4,3,5,4,0.6,0.75
+Gender,Education,College access/admission,minority_majority,minority,majority,Women,Men,True,6,9,canonical_url,6,9,0,15,6,0.0,0.0
+Gender,Education,College access/admission,minority_majority,minority,majority,Women,Men,True,6,9,registrable_domain,6,7,0,13,6,0.0,0.0
+Gender,Education,College access/admission,minority_majority,minority,majority,Women,Men,True,6,9,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender,Education,College access/admission,minority_generic,minority,control,Women,people,True,6,6,canonical_url,6,6,0,12,6,0.0,0.0
+Gender,Education,College access/admission,minority_generic,minority,control,Women,people,True,6,6,registrable_domain,6,6,0,12,6,0.0,0.0
+Gender,Education,College access/admission,minority_generic,minority,control,Women,people,True,6,6,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender,Education,College access/admission,majority_generic,majority,control,Men,people,True,9,6,canonical_url,9,6,0,15,6,0.0,0.0
+Gender,Education,College access/admission,majority_generic,majority,control,Men,people,True,9,6,registrable_domain,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Gender,Education,College access/admission,majority_generic,majority,control,Men,people,True,9,6,source_category,4,4,3,5,4,0.6,0.75
+Gender,Education,Educational opportunity/access,minority_majority,minority,majority,Women,Men,True,4,7,canonical_url,4,7,0,11,4,0.0,0.0
+Gender,Education,Educational opportunity/access,minority_majority,minority,majority,Women,Men,True,4,7,registrable_domain,1,7,0,8,1,0.0,0.0
+Gender,Education,Educational opportunity/access,minority_majority,minority,majority,Women,Men,True,4,7,source_category,1,6,1,6,1,0.16666666666666666,1.0
+Gender,Education,Educational opportunity/access,minority_generic,minority,control,Women,people,True,4,6,canonical_url,4,6,0,10,4,0.0,0.0
+Gender,Education,Educational opportunity/access,minority_generic,minority,control,Women,people,True,4,6,registrable_domain,1,6,0,7,1,0.0,0.0
+Gender,Education,Educational opportunity/access,minority_generic,minority,control,Women,people,True,4,6,source_category,1,4,1,4,1,0.25,1.0
+Gender,Education,Educational opportunity/access,majority_generic,majority,control,Men,people,True,7,6,canonical_url,7,6,0,13,6,0.0,0.0
+Gender,Education,Educational opportunity/access,majority_generic,majority,control,Men,people,True,7,6,registrable_domain,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Gender,Education,Educational opportunity/access,majority_generic,majority,control,Men,people,True,7,6,source_category,6,4,4,6,4,0.6666666666666666,1.0
+Gender,Education,Harassment/bullying,minority_majority,minority,majority,Women,Men,True,7,10,canonical_url,7,10,1,16,7,0.0625,0.14285714285714285
+Gender,Education,Harassment/bullying,minority_majority,minority,majority,Women,Men,True,7,10,registrable_domain,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Gender,Education,Harassment/bullying,minority_majority,minority,majority,Women,Men,True,7,10,source_category,3,5,3,5,3,0.6,1.0
+Gender,Education,Harassment/bullying,minority_generic,minority,control,Women,people,True,7,12,canonical_url,7,12,0,19,7,0.0,0.0
+Gender,Education,Harassment/bullying,minority_generic,minority,control,Women,people,True,7,12,registrable_domain,7,10,1,16,7,0.0625,0.14285714285714285
+Gender,Education,Harassment/bullying,minority_generic,minority,control,Women,people,True,7,12,source_category,3,6,3,6,3,0.5,1.0
+Gender,Education,Harassment/bullying,majority_generic,majority,control,Men,people,True,10,12,canonical_url,10,12,3,19,10,0.15789473684210525,0.3
+Gender,Education,Harassment/bullying,majority_generic,majority,control,Men,people,True,10,12,registrable_domain,6,10,3,13,6,0.23076923076923078,0.5
+Gender,Education,Harassment/bullying,majority_generic,majority,control,Men,people,True,10,12,source_category,5,6,5,6,5,0.8333333333333334,1.0
+Gender,Employment,Career advancement,minority_majority,minority,majority,Women,Men,True,9,6,canonical_url,8,6,0,14,6,0.0,0.0
+Gender,Employment,Career advancement,minority_majority,minority,majority,Women,Men,True,9,6,registrable_domain,1,6,0,7,1,0.0,0.0
+Gender,Employment,Career advancement,minority_majority,minority,majority,Women,Men,True,9,6,source_category,1,4,1,4,1,0.25,1.0
+Gender,Employment,Career advancement,minority_generic,minority,control,Women,people,True,9,5,canonical_url,8,5,0,13,5,0.0,0.0
+Gender,Employment,Career advancement,minority_generic,minority,control,Women,people,True,9,5,registrable_domain,1,5,0,6,1,0.0,0.0
+Gender,Employment,Career advancement,minority_generic,minority,control,Women,people,True,9,5,source_category,1,4,1,4,1,0.25,1.0
+Gender,Employment,Career advancement,majority_generic,majority,control,Men,people,True,6,5,canonical_url,6,5,0,11,5,0.0,0.0
+Gender,Employment,Career advancement,majority_generic,majority,control,Men,people,True,6,5,registrable_domain,6,5,1,10,5,0.1,0.2
+Gender,Employment,Career advancement,majority_generic,majority,control,Men,people,True,6,5,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender,Employment,Hiring,minority_majority,minority,majority,Women,Men,True,4,5,canonical_url,4,5,0,9,4,0.0,0.0
+Gender,Employment,Hiring,minority_majority,minority,majority,Women,Men,True,4,5,registrable_domain,4,5,0,9,4,0.0,0.0
+Gender,Employment,Hiring,minority_majority,minority,majority,Women,Men,True,4,5,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender,Employment,Hiring,minority_generic,minority,control,Women,people,True,4,12,canonical_url,4,12,0,16,4,0.0,0.0
+Gender,Employment,Hiring,minority_generic,minority,control,Women,people,True,4,12,registrable_domain,4,8,0,12,4,0.0,0.0
+Gender,Employment,Hiring,minority_generic,minority,control,Women,people,True,4,12,source_category,4,4,3,5,4,0.6,0.75
+Gender,Employment,Hiring,majority_generic,majority,control,Men,people,True,5,12,canonical_url,5,12,0,17,5,0.0,0.0
+Gender,Employment,Hiring,majority_generic,majority,control,Men,people,True,5,12,registrable_domain,5,8,0,13,5,0.0,0.0
+Gender,Employment,Hiring,majority_generic,majority,control,Men,people,True,5,12,source_category,3,4,1,6,3,0.16666666666666666,0.3333333333333333
+Gender,Employment,Workplace harassment,minority_majority,minority,majority,Women,Men,True,6,4,canonical_url,6,4,1,9,4,0.1111111111111111,0.25
+Gender,Employment,Workplace harassment,minority_majority,minority,majority,Women,Men,True,6,4,registrable_domain,6,4,1,9,4,0.1111111111111111,0.25
+Gender,Employment,Workplace harassment,minority_majority,minority,majority,Women,Men,True,6,4,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender,Employment,Workplace harassment,minority_generic,minority,control,Women,people,True,6,7,canonical_url,6,7,1,12,6,0.08333333333333333,0.16666666666666666
+Gender,Employment,Workplace harassment,minority_generic,minority,control,Women,people,True,6,7,registrable_domain,6,7,1,12,6,0.08333333333333333,0.16666666666666666
+Gender,Employment,Workplace harassment,minority_generic,minority,control,Women,people,True,6,7,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender,Employment,Workplace harassment,majority_generic,majority,control,Men,people,True,4,7,canonical_url,4,7,2,9,4,0.2222222222222222,0.5
+Gender,Employment,Workplace harassment,majority_generic,majority,control,Men,people,True,4,7,registrable_domain,4,7,2,9,4,0.2222222222222222,0.5
+Gender,Employment,Workplace harassment,majority_generic,majority,control,Men,people,True,4,7,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Gender,Government Benefits,Access to government benefits,minority_majority,minority,majority,Women,Men,True,7,6,canonical_url,7,6,0,13,6,0.0,0.0
+Gender,Government Benefits,Access to government benefits,minority_majority,minority,majority,Women,Men,True,7,6,registrable_domain,7,6,0,13,6,0.0,0.0
+Gender,Government Benefits,Access to government benefits,minority_majority,minority,majority,Women,Men,True,7,6,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Gender,Government Benefits,Access to government benefits,minority_generic,minority,control,Women,people,True,7,10,canonical_url,7,10,0,17,7,0.0,0.0
+Gender,Government Benefits,Access to government benefits,minority_generic,minority,control,Women,people,True,7,10,registrable_domain,7,8,0,15,7,0.0,0.0
+Gender,Government Benefits,Access to government benefits,minority_generic,minority,control,Women,people,True,7,10,source_category,3,4,3,4,3,0.75,1.0
+Gender,Government Benefits,Access to government benefits,majority_generic,majority,control,Men,people,True,6,10,canonical_url,6,10,4,12,6,0.3333333333333333,0.6666666666666666
+Gender,Government Benefits,Access to government benefits,majority_generic,majority,control,Men,people,True,6,10,registrable_domain,6,8,4,10,6,0.4,0.6666666666666666
+Gender,Government Benefits,Access to government benefits,majority_generic,majority,control,Men,people,True,6,10,source_category,3,4,3,4,3,0.75,1.0
+Gender,Government Benefits,Application/approval,minority_majority,minority,majority,Women,Men,True,16,9,canonical_url,16,9,0,25,9,0.0,0.0
+Gender,Government Benefits,Application/approval,minority_majority,minority,majority,Women,Men,True,16,9,registrable_domain,14,9,0,23,9,0.0,0.0
+Gender,Government Benefits,Application/approval,minority_majority,minority,majority,Women,Men,True,16,9,source_category,6,4,4,6,4,0.6666666666666666,1.0
+Gender,Government Benefits,Application/approval,minority_generic,minority,control,Women,people,True,16,12,canonical_url,16,12,0,28,12,0.0,0.0
+Gender,Government Benefits,Application/approval,minority_generic,minority,control,Women,people,True,16,12,registrable_domain,14,12,0,26,12,0.0,0.0
+Gender,Government Benefits,Application/approval,minority_generic,minority,control,Women,people,True,16,12,source_category,6,3,3,6,3,0.5,1.0
+Gender,Government Benefits,Application/approval,majority_generic,majority,control,Men,people,True,9,12,canonical_url,9,12,1,20,9,0.05,0.1111111111111111
+Gender,Government Benefits,Application/approval,majority_generic,majority,control,Men,people,True,9,12,registrable_domain,9,12,2,19,9,0.10526315789473684,0.2222222222222222
+Gender,Government Benefits,Application/approval,majority_generic,majority,control,Men,people,True,9,12,source_category,4,3,3,4,3,0.75,1.0
+Gender,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Women,Men,True,7,5,canonical_url,7,5,0,12,5,0.0,0.0
+Gender,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Women,Men,True,7,5,registrable_domain,1,5,0,6,1,0.0,0.0
+Gender,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Women,Men,True,7,5,source_category,1,4,1,4,1,0.25,1.0
+Gender,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Women,people,True,7,13,canonical_url,7,13,0,20,7,0.0,0.0
+Gender,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Women,people,True,7,13,registrable_domain,1,12,0,13,1,0.0,0.0
+Gender,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Women,people,True,7,13,source_category,1,4,1,4,1,0.25,1.0
+Gender,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,Men,people,True,5,13,canonical_url,5,13,0,18,5,0.0,0.0
+Gender,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,Men,people,True,5,13,registrable_domain,5,12,1,16,5,0.0625,0.2
+Gender,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,Men,people,True,5,13,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender,Healthcare,Insurance coverage,minority_majority,minority,majority,Women,Men,True,9,8,canonical_url,9,8,0,17,8,0.0,0.0
+Gender,Healthcare,Insurance coverage,minority_majority,minority,majority,Women,Men,True,9,8,registrable_domain,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Gender,Healthcare,Insurance coverage,minority_majority,minority,majority,Women,Men,True,9,8,source_category,6,3,3,6,3,0.5,1.0
+Gender,Healthcare,Insurance coverage,minority_generic,minority,control,Women,people,True,9,13,canonical_url,9,13,0,22,9,0.0,0.0
+Gender,Healthcare,Insurance coverage,minority_generic,minority,control,Women,people,True,9,13,registrable_domain,9,7,1,15,7,0.06666666666666667,0.14285714285714285
+Gender,Healthcare,Insurance coverage,minority_generic,minority,control,Women,people,True,9,13,source_category,6,3,3,6,3,0.5,1.0
+Gender,Healthcare,Insurance coverage,majority_generic,majority,control,Men,people,True,8,13,canonical_url,8,13,1,20,8,0.05,0.125
+Gender,Healthcare,Insurance coverage,majority_generic,majority,control,Men,people,True,8,13,registrable_domain,6,7,1,12,6,0.08333333333333333,0.16666666666666666
+Gender,Healthcare,Insurance coverage,majority_generic,majority,control,Men,people,True,8,13,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Gender,Healthcare,Patient safety,minority_majority,minority,majority,Women,Men,True,9,3,canonical_url,9,3,0,12,3,0.0,0.0
+Gender,Healthcare,Patient safety,minority_majority,minority,majority,Women,Men,True,9,3,registrable_domain,6,3,1,8,3,0.125,0.3333333333333333
+Gender,Healthcare,Patient safety,minority_majority,minority,majority,Women,Men,True,9,3,source_category,4,3,1,6,3,0.16666666666666666,0.3333333333333333
+Gender,Healthcare,Patient safety,minority_generic,minority,control,Women,people,True,9,11,canonical_url,9,11,0,20,9,0.0,0.0
+Gender,Healthcare,Patient safety,minority_generic,minority,control,Women,people,True,9,11,registrable_domain,6,7,1,12,6,0.08333333333333333,0.16666666666666666
+Gender,Healthcare,Patient safety,minority_generic,minority,control,Women,people,True,9,11,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender,Healthcare,Patient safety,majority_generic,majority,control,Men,people,True,3,11,canonical_url,3,11,2,12,3,0.16666666666666666,0.6666666666666666
+Gender,Healthcare,Patient safety,majority_generic,majority,control,Men,people,True,3,11,registrable_domain,3,7,2,8,3,0.25,0.6666666666666666
+Gender,Healthcare,Patient safety,majority_generic,majority,control,Men,people,True,3,11,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Gender,Healthcare,Preventive care,minority_majority,minority,majority,Women,Men,True,5,4,canonical_url,5,4,0,9,4,0.0,0.0
+Gender,Healthcare,Preventive care,minority_majority,minority,majority,Women,Men,True,5,4,registrable_domain,4,4,0,8,4,0.0,0.0
+Gender,Healthcare,Preventive care,minority_majority,minority,majority,Women,Men,True,5,4,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Gender,Healthcare,Preventive care,minority_generic,minority,control,Women,people,True,5,5,canonical_url,5,5,0,10,5,0.0,0.0
+Gender,Healthcare,Preventive care,minority_generic,minority,control,Women,people,True,5,5,registrable_domain,4,3,1,6,3,0.16666666666666666,0.3333333333333333
+Gender,Healthcare,Preventive care,minority_generic,minority,control,Women,people,True,5,5,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Gender,Healthcare,Preventive care,majority_generic,majority,control,Men,people,True,4,5,canonical_url,4,5,0,9,4,0.0,0.0
+Gender,Healthcare,Preventive care,majority_generic,majority,control,Men,people,True,4,5,registrable_domain,4,3,0,7,3,0.0,0.0
+Gender,Healthcare,Preventive care,majority_generic,majority,control,Men,people,True,4,5,source_category,2,2,1,3,2,0.3333333333333333,0.5
+Gender,Housing,Access to housing,minority_majority,minority,majority,Women,Men,True,12,3,canonical_url,12,3,1,14,3,0.07142857142857142,0.3333333333333333
+Gender,Housing,Access to housing,minority_majority,minority,majority,Women,Men,True,12,3,registrable_domain,12,2,1,13,2,0.07692307692307693,0.5
+Gender,Housing,Access to housing,minority_majority,minority,majority,Women,Men,True,12,3,source_category,5,2,1,6,2,0.16666666666666666,0.5
+Gender,Housing,Access to housing,minority_generic,minority,control,Women,people,True,12,6,canonical_url,12,6,0,18,6,0.0,0.0
+Gender,Housing,Access to housing,minority_generic,minority,control,Women,people,True,12,6,registrable_domain,12,6,1,17,6,0.058823529411764705,0.16666666666666666
+Gender,Housing,Access to housing,minority_generic,minority,control,Women,people,True,12,6,source_category,5,3,3,5,3,0.6,1.0
+Gender,Housing,Access to housing,majority_generic,majority,control,Men,people,True,3,6,canonical_url,3,6,0,9,3,0.0,0.0
+Gender,Housing,Access to housing,majority_generic,majority,control,Men,people,True,3,6,registrable_domain,2,6,1,7,2,0.14285714285714285,0.5
+Gender,Housing,Access to housing,majority_generic,majority,control,Men,people,True,3,6,source_category,2,3,1,4,2,0.25,0.5
+Gender,Housing,Homelessness,minority_majority,minority,majority,Women,Men,True,6,10,canonical_url,6,10,0,16,6,0.0,0.0
+Gender,Housing,Homelessness,minority_majority,minority,majority,Women,Men,True,6,10,registrable_domain,6,10,0,16,6,0.0,0.0
+Gender,Housing,Homelessness,minority_majority,minority,majority,Women,Men,True,6,10,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender,Housing,Homelessness,minority_generic,minority,control,Women,people,True,6,7,canonical_url,6,7,0,13,6,0.0,0.0
+Gender,Housing,Homelessness,minority_generic,minority,control,Women,people,True,6,7,registrable_domain,6,6,0,12,6,0.0,0.0
+Gender,Housing,Homelessness,minority_generic,minority,control,Women,people,True,6,7,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender,Housing,Homelessness,majority_generic,majority,control,Men,people,True,10,7,canonical_url,10,7,4,13,7,0.3076923076923077,0.5714285714285714
+Gender,Housing,Homelessness,majority_generic,majority,control,Men,people,True,10,7,registrable_domain,10,6,4,12,6,0.3333333333333333,0.6666666666666666
+Gender,Housing,Homelessness,majority_generic,majority,control,Men,people,True,10,7,source_category,4,3,3,4,3,0.75,1.0
+Gender,Housing,Housing stability,minority_majority,minority,majority,Women,Men,True,11,10,canonical_url,11,10,0,21,10,0.0,0.0
+Gender,Housing,Housing stability,minority_majority,minority,majority,Women,Men,True,11,10,registrable_domain,10,9,0,19,9,0.0,0.0
+Gender,Housing,Housing stability,minority_majority,minority,majority,Women,Men,True,11,10,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender,Housing,Housing stability,minority_generic,minority,control,Women,people,True,11,9,canonical_url,11,9,0,20,9,0.0,0.0
+Gender,Housing,Housing stability,minority_generic,minority,control,Women,people,True,11,9,registrable_domain,10,9,0,19,9,0.0,0.0
+Gender,Housing,Housing stability,minority_generic,minority,control,Women,people,True,11,9,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender,Housing,Housing stability,majority_generic,majority,control,Men,people,True,10,9,canonical_url,10,9,6,13,9,0.46153846153846156,0.6666666666666666
+Gender,Housing,Housing stability,majority_generic,majority,control,Men,people,True,10,9,registrable_domain,9,9,6,12,9,0.5,0.6666666666666666
+Gender,Housing,Housing stability,majority_generic,majority,control,Men,people,True,10,9,source_category,3,3,3,3,3,1.0,1.0
+Gender Identity,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,transgender people,cisgender people,True,7,8,canonical_url,7,8,2,13,7,0.15384615384615385,0.2857142857142857
+Gender Identity,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,transgender people,cisgender people,True,7,8,registrable_domain,7,6,2,11,6,0.18181818181818182,0.3333333333333333
+Gender Identity,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,transgender people,cisgender people,True,7,8,source_category,2,2,2,2,2,1.0,1.0
+Gender Identity,Credit & Financial Services,Access to banking services,minority_generic,minority,control,transgender people,people,True,7,8,canonical_url,7,8,0,15,7,0.0,0.0
+Gender Identity,Credit & Financial Services,Access to banking services,minority_generic,minority,control,transgender people,people,True,7,8,registrable_domain,7,8,0,15,7,0.0,0.0
+Gender Identity,Credit & Financial Services,Access to banking services,minority_generic,minority,control,transgender people,people,True,7,8,source_category,2,4,2,4,2,0.5,1.0
+Gender Identity,Credit & Financial Services,Access to banking services,majority_generic,majority,control,cisgender people,people,True,8,8,canonical_url,8,8,0,16,8,0.0,0.0
+Gender Identity,Credit & Financial Services,Access to banking services,majority_generic,majority,control,cisgender people,people,True,8,8,registrable_domain,6,8,1,13,6,0.07692307692307693,0.16666666666666666
+Gender Identity,Credit & Financial Services,Access to banking services,majority_generic,majority,control,cisgender people,people,True,8,8,source_category,2,4,2,4,2,0.5,1.0
+Gender Identity,Credit & Financial Services,Access to credit,minority_majority,minority,majority,transgender people,cisgender people,True,8,8,canonical_url,8,8,0,16,8,0.0,0.0
+Gender Identity,Credit & Financial Services,Access to credit,minority_majority,minority,majority,transgender people,cisgender people,True,8,8,registrable_domain,7,7,0,14,7,0.0,0.0
+Gender Identity,Credit & Financial Services,Access to credit,minority_majority,minority,majority,transgender people,cisgender people,True,8,8,source_category,5,2,2,5,2,0.4,1.0
+Gender Identity,Credit & Financial Services,Access to credit,minority_generic,minority,control,transgender people,people,True,8,6,canonical_url,8,6,0,14,6,0.0,0.0
+Gender Identity,Credit & Financial Services,Access to credit,minority_generic,minority,control,transgender people,people,True,8,6,registrable_domain,7,5,1,11,5,0.09090909090909091,0.2
+Gender Identity,Credit & Financial Services,Access to credit,minority_generic,minority,control,transgender people,people,True,8,6,source_category,5,3,3,5,3,0.6,1.0
+Gender Identity,Credit & Financial Services,Access to credit,majority_generic,majority,control,cisgender people,people,True,8,6,canonical_url,8,6,0,14,6,0.0,0.0
+Gender Identity,Credit & Financial Services,Access to credit,majority_generic,majority,control,cisgender people,people,True,8,6,registrable_domain,7,5,0,12,5,0.0,0.0
+Gender Identity,Credit & Financial Services,Access to credit,majority_generic,majority,control,cisgender people,people,True,8,6,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Gender Identity,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,transgender people,cisgender people,True,6,0,canonical_url,6,0,0,6,0,0.0,
+Gender Identity,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,transgender people,cisgender people,True,6,0,registrable_domain,6,0,0,6,0,0.0,
+Gender Identity,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,transgender people,cisgender people,True,6,0,source_category,4,0,0,4,0,0.0,
+Gender Identity,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,transgender people,people,True,6,11,canonical_url,6,11,0,17,6,0.0,0.0
+Gender Identity,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,transgender people,people,True,6,11,registrable_domain,6,11,0,17,6,0.0,0.0
+Gender Identity,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,transgender people,people,True,6,11,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender Identity,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,cisgender people,people,True,0,11,canonical_url,0,11,0,11,0,0.0,
+Gender Identity,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,cisgender people,people,True,0,11,registrable_domain,0,11,0,11,0,0.0,
+Gender Identity,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,cisgender people,people,True,0,11,source_category,0,3,0,3,0,0.0,
+Gender Identity,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,transgender people,cisgender people,True,6,12,canonical_url,6,12,0,18,6,0.0,0.0
+Gender Identity,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,transgender people,cisgender people,True,6,12,registrable_domain,6,8,1,13,6,0.07692307692307693,0.16666666666666666
+Gender Identity,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,transgender people,cisgender people,True,6,12,source_category,3,5,2,6,3,0.3333333333333333,0.6666666666666666
+Gender Identity,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,transgender people,people,True,6,10,canonical_url,6,10,0,16,6,0.0,0.0
+Gender Identity,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,transgender people,people,True,6,10,registrable_domain,6,6,2,10,6,0.2,0.3333333333333333
+Gender Identity,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,transgender people,people,True,6,10,source_category,3,5,3,5,3,0.6,1.0
+Gender Identity,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,cisgender people,people,True,12,10,canonical_url,12,10,2,20,10,0.1,0.2
+Gender Identity,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,cisgender people,people,True,12,10,registrable_domain,8,6,2,12,6,0.16666666666666666,0.3333333333333333
+Gender Identity,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,cisgender people,people,True,12,10,source_category,5,5,3,7,5,0.42857142857142855,0.6
+Gender Identity,Criminal Justice,Incarceration,minority_majority,minority,majority,transgender people,cisgender people,True,7,3,canonical_url,7,3,0,10,3,0.0,0.0
+Gender Identity,Criminal Justice,Incarceration,minority_majority,minority,majority,transgender people,cisgender people,True,7,3,registrable_domain,7,3,1,9,3,0.1111111111111111,0.3333333333333333
+Gender Identity,Criminal Justice,Incarceration,minority_majority,minority,majority,transgender people,cisgender people,True,7,3,source_category,4,2,2,4,2,0.5,1.0
+Gender Identity,Criminal Justice,Incarceration,minority_generic,minority,control,transgender people,people,True,7,8,canonical_url,7,8,0,15,7,0.0,0.0
+Gender Identity,Criminal Justice,Incarceration,minority_generic,minority,control,transgender people,people,True,7,8,registrable_domain,7,8,3,12,7,0.25,0.42857142857142855
+Gender Identity,Criminal Justice,Incarceration,minority_generic,minority,control,transgender people,people,True,7,8,source_category,4,5,4,5,4,0.8,1.0
+Gender Identity,Criminal Justice,Incarceration,majority_generic,majority,control,cisgender people,people,True,3,8,canonical_url,3,8,0,11,3,0.0,0.0
+Gender Identity,Criminal Justice,Incarceration,majority_generic,majority,control,cisgender people,people,True,3,8,registrable_domain,3,8,1,10,3,0.1,0.3333333333333333
+Gender Identity,Criminal Justice,Incarceration,majority_generic,majority,control,cisgender people,people,True,3,8,source_category,2,5,2,5,2,0.4,1.0
+Gender Identity,Criminal Justice,Police use of force,minority_majority,minority,majority,transgender people,cisgender people,True,8,8,canonical_url,8,8,0,16,8,0.0,0.0
+Gender Identity,Criminal Justice,Police use of force,minority_majority,minority,majority,transgender people,cisgender people,True,8,8,registrable_domain,8,5,3,10,5,0.3,0.6
+Gender Identity,Criminal Justice,Police use of force,minority_majority,minority,majority,transgender people,cisgender people,True,8,8,source_category,4,3,3,4,3,0.75,1.0
+Gender Identity,Criminal Justice,Police use of force,minority_generic,minority,control,transgender people,people,True,8,9,canonical_url,8,9,0,17,8,0.0,0.0
+Gender Identity,Criminal Justice,Police use of force,minority_generic,minority,control,transgender people,people,True,8,9,registrable_domain,8,9,1,16,8,0.0625,0.125
+Gender Identity,Criminal Justice,Police use of force,minority_generic,minority,control,transgender people,people,True,8,9,source_category,4,4,4,4,4,1.0,1.0
+Gender Identity,Criminal Justice,Police use of force,majority_generic,majority,control,cisgender people,people,True,8,9,canonical_url,8,9,0,17,8,0.0,0.0
+Gender Identity,Criminal Justice,Police use of force,majority_generic,majority,control,cisgender people,people,True,8,9,registrable_domain,5,9,1,13,5,0.07692307692307693,0.2
+Gender Identity,Criminal Justice,Police use of force,majority_generic,majority,control,cisgender people,people,True,8,9,source_category,3,4,3,4,3,0.75,1.0
+Gender Identity,Education,College access/admission,minority_majority,minority,majority,transgender people,cisgender people,True,17,0,canonical_url,17,0,0,17,0,0.0,
+Gender Identity,Education,College access/admission,minority_majority,minority,majority,transgender people,cisgender people,True,17,0,registrable_domain,13,0,0,13,0,0.0,
+Gender Identity,Education,College access/admission,minority_majority,minority,majority,transgender people,cisgender people,True,17,0,source_category,4,0,0,4,0,0.0,
+Gender Identity,Education,College access/admission,minority_generic,minority,control,transgender people,people,True,17,6,canonical_url,17,6,0,23,6,0.0,0.0
+Gender Identity,Education,College access/admission,minority_generic,minority,control,transgender people,people,True,17,6,registrable_domain,13,6,1,18,6,0.05555555555555555,0.16666666666666666
+Gender Identity,Education,College access/admission,minority_generic,minority,control,transgender people,people,True,17,6,source_category,4,4,4,4,4,1.0,1.0
+Gender Identity,Education,College access/admission,majority_generic,majority,control,cisgender people,people,True,0,6,canonical_url,0,6,0,6,0,0.0,
+Gender Identity,Education,College access/admission,majority_generic,majority,control,cisgender people,people,True,0,6,registrable_domain,0,6,0,6,0,0.0,
+Gender Identity,Education,College access/admission,majority_generic,majority,control,cisgender people,people,True,0,6,source_category,0,4,0,4,0,0.0,
+Gender Identity,Education,Educational opportunity/access,minority_majority,minority,majority,transgender people,cisgender people,True,9,14,canonical_url,9,14,1,22,9,0.045454545454545456,0.1111111111111111
+Gender Identity,Education,Educational opportunity/access,minority_majority,minority,majority,transgender people,cisgender people,True,9,14,registrable_domain,8,12,3,17,8,0.17647058823529413,0.375
+Gender Identity,Education,Educational opportunity/access,minority_majority,minority,majority,transgender people,cisgender people,True,9,14,source_category,4,5,4,5,4,0.8,1.0
+Gender Identity,Education,Educational opportunity/access,minority_generic,minority,control,transgender people,people,True,9,6,canonical_url,9,6,0,15,6,0.0,0.0
+Gender Identity,Education,Educational opportunity/access,minority_generic,minority,control,transgender people,people,True,9,6,registrable_domain,8,6,1,13,6,0.07692307692307693,0.16666666666666666
+Gender Identity,Education,Educational opportunity/access,minority_generic,minority,control,transgender people,people,True,9,6,source_category,4,4,3,5,4,0.6,0.75
+Gender Identity,Education,Educational opportunity/access,majority_generic,majority,control,cisgender people,people,True,14,6,canonical_url,14,6,0,20,6,0.0,0.0
+Gender Identity,Education,Educational opportunity/access,majority_generic,majority,control,cisgender people,people,True,14,6,registrable_domain,12,6,1,17,6,0.058823529411764705,0.16666666666666666
+Gender Identity,Education,Educational opportunity/access,majority_generic,majority,control,cisgender people,people,True,14,6,source_category,5,4,4,5,4,0.8,1.0
+Gender Identity,Education,Harassment/bullying,minority_majority,minority,majority,transgender people,cisgender people,True,6,14,canonical_url,6,14,1,19,6,0.05263157894736842,0.16666666666666666
+Gender Identity,Education,Harassment/bullying,minority_majority,minority,majority,transgender people,cisgender people,True,6,14,registrable_domain,4,14,2,16,4,0.125,0.5
+Gender Identity,Education,Harassment/bullying,minority_majority,minority,majority,transgender people,cisgender people,True,6,14,source_category,4,4,4,4,4,1.0,1.0
+Gender Identity,Education,Harassment/bullying,minority_generic,minority,control,transgender people,people,True,6,12,canonical_url,6,12,0,18,6,0.0,0.0
+Gender Identity,Education,Harassment/bullying,minority_generic,minority,control,transgender people,people,True,6,12,registrable_domain,4,10,1,13,4,0.07692307692307693,0.25
+Gender Identity,Education,Harassment/bullying,minority_generic,minority,control,transgender people,people,True,6,12,source_category,4,6,3,7,4,0.42857142857142855,0.75
+Gender Identity,Education,Harassment/bullying,majority_generic,majority,control,cisgender people,people,True,14,12,canonical_url,14,12,0,26,12,0.0,0.0
+Gender Identity,Education,Harassment/bullying,majority_generic,majority,control,cisgender people,people,True,14,12,registrable_domain,14,10,2,22,10,0.09090909090909091,0.2
+Gender Identity,Education,Harassment/bullying,majority_generic,majority,control,cisgender people,people,True,14,12,source_category,4,6,3,7,4,0.42857142857142855,0.75
+Gender Identity,Employment,Career advancement,minority_majority,minority,majority,transgender people,cisgender people,True,7,10,canonical_url,7,10,2,15,7,0.13333333333333333,0.2857142857142857
+Gender Identity,Employment,Career advancement,minority_majority,minority,majority,transgender people,cisgender people,True,7,10,registrable_domain,7,10,3,14,7,0.21428571428571427,0.42857142857142855
+Gender Identity,Employment,Career advancement,minority_majority,minority,majority,transgender people,cisgender people,True,7,10,source_category,4,5,4,5,4,0.8,1.0
+Gender Identity,Employment,Career advancement,minority_generic,minority,control,transgender people,people,True,7,5,canonical_url,7,5,0,12,5,0.0,0.0
+Gender Identity,Employment,Career advancement,minority_generic,minority,control,transgender people,people,True,7,5,registrable_domain,7,5,1,11,5,0.09090909090909091,0.2
+Gender Identity,Employment,Career advancement,minority_generic,minority,control,transgender people,people,True,7,5,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender Identity,Employment,Career advancement,majority_generic,majority,control,cisgender people,people,True,10,5,canonical_url,10,5,0,15,5,0.0,0.0
+Gender Identity,Employment,Career advancement,majority_generic,majority,control,cisgender people,people,True,10,5,registrable_domain,10,5,1,14,5,0.07142857142857142,0.2
+Gender Identity,Employment,Career advancement,majority_generic,majority,control,cisgender people,people,True,10,5,source_category,5,4,3,6,4,0.5,0.75
+Gender Identity,Employment,Hiring,minority_majority,minority,majority,transgender people,cisgender people,True,6,7,canonical_url,6,7,1,12,6,0.08333333333333333,0.16666666666666666
+Gender Identity,Employment,Hiring,minority_majority,minority,majority,transgender people,cisgender people,True,6,7,registrable_domain,6,6,2,10,6,0.2,0.3333333333333333
+Gender Identity,Employment,Hiring,minority_majority,minority,majority,transgender people,cisgender people,True,6,7,source_category,4,5,3,6,4,0.5,0.75
+Gender Identity,Employment,Hiring,minority_generic,minority,control,transgender people,people,True,6,12,canonical_url,6,12,0,18,6,0.0,0.0
+Gender Identity,Employment,Hiring,minority_generic,minority,control,transgender people,people,True,6,12,registrable_domain,6,8,0,14,6,0.0,0.0
+Gender Identity,Employment,Hiring,minority_generic,minority,control,transgender people,people,True,6,12,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender Identity,Employment,Hiring,majority_generic,majority,control,cisgender people,people,True,7,12,canonical_url,7,12,0,19,7,0.0,0.0
+Gender Identity,Employment,Hiring,majority_generic,majority,control,cisgender people,people,True,7,12,registrable_domain,6,8,0,14,6,0.0,0.0
+Gender Identity,Employment,Hiring,majority_generic,majority,control,cisgender people,people,True,7,12,source_category,5,4,2,7,4,0.2857142857142857,0.5
+Gender Identity,Employment,Workplace harassment,minority_majority,minority,majority,transgender people,cisgender people,True,9,5,canonical_url,9,5,1,13,5,0.07692307692307693,0.2
+Gender Identity,Employment,Workplace harassment,minority_majority,minority,majority,transgender people,cisgender people,True,9,5,registrable_domain,8,4,1,11,4,0.09090909090909091,0.25
+Gender Identity,Employment,Workplace harassment,minority_majority,minority,majority,transgender people,cisgender people,True,9,5,source_category,4,4,3,5,4,0.6,0.75
+Gender Identity,Employment,Workplace harassment,minority_generic,minority,control,transgender people,people,True,9,7,canonical_url,9,7,0,16,7,0.0,0.0
+Gender Identity,Employment,Workplace harassment,minority_generic,minority,control,transgender people,people,True,9,7,registrable_domain,8,7,0,15,7,0.0,0.0
+Gender Identity,Employment,Workplace harassment,minority_generic,minority,control,transgender people,people,True,9,7,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender Identity,Employment,Workplace harassment,majority_generic,majority,control,cisgender people,people,True,5,7,canonical_url,5,7,1,11,5,0.09090909090909091,0.2
+Gender Identity,Employment,Workplace harassment,majority_generic,majority,control,cisgender people,people,True,5,7,registrable_domain,4,7,1,10,4,0.1,0.25
+Gender Identity,Employment,Workplace harassment,majority_generic,majority,control,cisgender people,people,True,5,7,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender Identity,Government Benefits,Access to government benefits,minority_majority,minority,majority,transgender people,cisgender people,True,7,10,canonical_url,7,10,1,16,7,0.0625,0.14285714285714285
+Gender Identity,Government Benefits,Access to government benefits,minority_majority,minority,majority,transgender people,cisgender people,True,7,10,registrable_domain,6,9,3,12,6,0.25,0.5
+Gender Identity,Government Benefits,Access to government benefits,minority_majority,minority,majority,transgender people,cisgender people,True,7,10,source_category,3,3,3,3,3,1.0,1.0
+Gender Identity,Government Benefits,Access to government benefits,minority_generic,minority,control,transgender people,people,True,7,10,canonical_url,7,10,0,17,7,0.0,0.0
+Gender Identity,Government Benefits,Access to government benefits,minority_generic,minority,control,transgender people,people,True,7,10,registrable_domain,6,8,1,13,6,0.07692307692307693,0.16666666666666666
+Gender Identity,Government Benefits,Access to government benefits,minority_generic,minority,control,transgender people,people,True,7,10,source_category,3,4,3,4,3,0.75,1.0
+Gender Identity,Government Benefits,Access to government benefits,majority_generic,majority,control,cisgender people,people,True,10,10,canonical_url,10,10,0,20,10,0.0,0.0
+Gender Identity,Government Benefits,Access to government benefits,majority_generic,majority,control,cisgender people,people,True,10,10,registrable_domain,9,8,2,15,8,0.13333333333333333,0.25
+Gender Identity,Government Benefits,Access to government benefits,majority_generic,majority,control,cisgender people,people,True,10,10,source_category,3,4,3,4,3,0.75,1.0
+Gender Identity,Government Benefits,Application/approval,minority_majority,minority,majority,transgender people,cisgender people,True,14,11,canonical_url,13,11,0,24,11,0.0,0.0
+Gender Identity,Government Benefits,Application/approval,minority_majority,minority,majority,transgender people,cisgender people,True,14,11,registrable_domain,11,9,1,19,9,0.05263157894736842,0.1111111111111111
+Gender Identity,Government Benefits,Application/approval,minority_majority,minority,majority,transgender people,cisgender people,True,14,11,source_category,5,4,4,5,4,0.8,1.0
+Gender Identity,Government Benefits,Application/approval,minority_generic,minority,control,transgender people,people,True,14,12,canonical_url,13,12,0,25,12,0.0,0.0
+Gender Identity,Government Benefits,Application/approval,minority_generic,minority,control,transgender people,people,True,14,12,registrable_domain,11,12,1,22,11,0.045454545454545456,0.09090909090909091
+Gender Identity,Government Benefits,Application/approval,minority_generic,minority,control,transgender people,people,True,14,12,source_category,5,3,3,5,3,0.6,1.0
+Gender Identity,Government Benefits,Application/approval,majority_generic,majority,control,cisgender people,people,True,11,12,canonical_url,11,12,1,22,11,0.045454545454545456,0.09090909090909091
+Gender Identity,Government Benefits,Application/approval,majority_generic,majority,control,cisgender people,people,True,11,12,registrable_domain,9,12,2,19,9,0.10526315789473684,0.2222222222222222
+Gender Identity,Government Benefits,Application/approval,majority_generic,majority,control,cisgender people,people,True,11,12,source_category,4,3,3,4,3,0.75,1.0
+Gender Identity,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,transgender people,cisgender people,True,16,16,canonical_url,16,16,0,32,16,0.0,0.0
+Gender Identity,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,transgender people,cisgender people,True,16,16,registrable_domain,14,9,4,19,9,0.21052631578947367,0.4444444444444444
+Gender Identity,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,transgender people,cisgender people,True,16,16,source_category,4,4,4,4,4,1.0,1.0
+Gender Identity,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,transgender people,people,True,16,13,canonical_url,16,13,0,29,13,0.0,0.0
+Gender Identity,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,transgender people,people,True,16,13,registrable_domain,14,12,2,24,12,0.08333333333333333,0.16666666666666666
+Gender Identity,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,transgender people,people,True,16,13,source_category,4,4,3,5,4,0.6,0.75
+Gender Identity,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,cisgender people,people,True,16,13,canonical_url,16,13,1,28,13,0.03571428571428571,0.07692307692307693
+Gender Identity,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,cisgender people,people,True,16,13,registrable_domain,9,12,3,18,9,0.16666666666666666,0.3333333333333333
+Gender Identity,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,cisgender people,people,True,16,13,source_category,4,4,3,5,4,0.6,0.75
+Gender Identity,Healthcare,Insurance coverage,minority_majority,minority,majority,transgender people,cisgender people,True,5,7,canonical_url,5,6,1,10,5,0.1,0.2
+Gender Identity,Healthcare,Insurance coverage,minority_majority,minority,majority,transgender people,cisgender people,True,5,7,registrable_domain,4,3,2,5,3,0.4,0.6666666666666666
+Gender Identity,Healthcare,Insurance coverage,minority_majority,minority,majority,transgender people,cisgender people,True,5,7,source_category,3,3,3,3,3,1.0,1.0
+Gender Identity,Healthcare,Insurance coverage,minority_generic,minority,control,transgender people,people,True,5,13,canonical_url,5,13,0,18,5,0.0,0.0
+Gender Identity,Healthcare,Insurance coverage,minority_generic,minority,control,transgender people,people,True,5,13,registrable_domain,4,7,1,10,4,0.1,0.25
+Gender Identity,Healthcare,Insurance coverage,minority_generic,minority,control,transgender people,people,True,5,13,source_category,3,3,1,5,3,0.2,0.3333333333333333
+Gender Identity,Healthcare,Insurance coverage,majority_generic,majority,control,cisgender people,people,True,7,13,canonical_url,6,13,0,19,6,0.0,0.0
+Gender Identity,Healthcare,Insurance coverage,majority_generic,majority,control,cisgender people,people,True,7,13,registrable_domain,3,7,1,9,3,0.1111111111111111,0.3333333333333333
+Gender Identity,Healthcare,Insurance coverage,majority_generic,majority,control,cisgender people,people,True,7,13,source_category,3,3,1,5,3,0.2,0.3333333333333333
+Gender Identity,Healthcare,Patient safety,minority_majority,minority,majority,transgender people,cisgender people,True,10,4,canonical_url,10,4,0,14,4,0.0,0.0
+Gender Identity,Healthcare,Patient safety,minority_majority,minority,majority,transgender people,cisgender people,True,10,4,registrable_domain,7,3,1,9,3,0.1111111111111111,0.3333333333333333
+Gender Identity,Healthcare,Patient safety,minority_majority,minority,majority,transgender people,cisgender people,True,10,4,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Gender Identity,Healthcare,Patient safety,minority_generic,minority,control,transgender people,people,True,10,11,canonical_url,10,11,0,21,10,0.0,0.0
+Gender Identity,Healthcare,Patient safety,minority_generic,minority,control,transgender people,people,True,10,11,registrable_domain,7,7,2,12,7,0.16666666666666666,0.2857142857142857
+Gender Identity,Healthcare,Patient safety,minority_generic,minority,control,transgender people,people,True,10,11,source_category,4,4,2,6,4,0.3333333333333333,0.5
+Gender Identity,Healthcare,Patient safety,majority_generic,majority,control,cisgender people,people,True,4,11,canonical_url,4,11,1,14,4,0.07142857142857142,0.25
+Gender Identity,Healthcare,Patient safety,majority_generic,majority,control,cisgender people,people,True,4,11,registrable_domain,3,7,2,8,3,0.25,0.6666666666666666
+Gender Identity,Healthcare,Patient safety,majority_generic,majority,control,cisgender people,people,True,4,11,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Gender Identity,Healthcare,Preventive care,minority_majority,minority,majority,transgender people,cisgender people,True,9,0,canonical_url,9,0,0,9,0,0.0,
+Gender Identity,Healthcare,Preventive care,minority_majority,minority,majority,transgender people,cisgender people,True,9,0,registrable_domain,8,0,0,8,0,0.0,
+Gender Identity,Healthcare,Preventive care,minority_majority,minority,majority,transgender people,cisgender people,True,9,0,source_category,4,0,0,4,0,0.0,
+Gender Identity,Healthcare,Preventive care,minority_generic,minority,control,transgender people,people,True,9,5,canonical_url,9,5,0,14,5,0.0,0.0
+Gender Identity,Healthcare,Preventive care,minority_generic,minority,control,transgender people,people,True,9,5,registrable_domain,8,3,1,10,3,0.1,0.3333333333333333
+Gender Identity,Healthcare,Preventive care,minority_generic,minority,control,transgender people,people,True,9,5,source_category,4,2,2,4,2,0.5,1.0
+Gender Identity,Healthcare,Preventive care,majority_generic,majority,control,cisgender people,people,True,0,5,canonical_url,0,5,0,5,0,0.0,
+Gender Identity,Healthcare,Preventive care,majority_generic,majority,control,cisgender people,people,True,0,5,registrable_domain,0,3,0,3,0,0.0,
+Gender Identity,Healthcare,Preventive care,majority_generic,majority,control,cisgender people,people,True,0,5,source_category,0,2,0,2,0,0.0,
+Gender Identity,Housing,Access to housing,minority_majority,minority,majority,transgender people,cisgender people,True,11,7,canonical_url,11,7,2,16,7,0.125,0.2857142857142857
+Gender Identity,Housing,Access to housing,minority_majority,minority,majority,transgender people,cisgender people,True,11,7,registrable_domain,8,4,3,9,4,0.3333333333333333,0.75
+Gender Identity,Housing,Access to housing,minority_majority,minority,majority,transgender people,cisgender people,True,11,7,source_category,2,2,2,2,2,1.0,1.0
+Gender Identity,Housing,Access to housing,minority_generic,minority,control,transgender people,people,True,11,6,canonical_url,11,6,0,17,6,0.0,0.0
+Gender Identity,Housing,Access to housing,minority_generic,minority,control,transgender people,people,True,11,6,registrable_domain,8,6,1,13,6,0.07692307692307693,0.16666666666666666
+Gender Identity,Housing,Access to housing,minority_generic,minority,control,transgender people,people,True,11,6,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Gender Identity,Housing,Access to housing,majority_generic,majority,control,cisgender people,people,True,7,6,canonical_url,7,6,0,13,6,0.0,0.0
+Gender Identity,Housing,Access to housing,majority_generic,majority,control,cisgender people,people,True,7,6,registrable_domain,4,6,2,8,4,0.25,0.5
+Gender Identity,Housing,Access to housing,majority_generic,majority,control,cisgender people,people,True,7,6,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Gender Identity,Housing,Homelessness,minority_majority,minority,majority,transgender people,cisgender people,True,13,11,canonical_url,13,11,0,24,11,0.0,0.0
+Gender Identity,Housing,Homelessness,minority_majority,minority,majority,transgender people,cisgender people,True,13,11,registrable_domain,12,9,2,19,9,0.10526315789473684,0.2222222222222222
+Gender Identity,Housing,Homelessness,minority_majority,minority,majority,transgender people,cisgender people,True,13,11,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Gender Identity,Housing,Homelessness,minority_generic,minority,control,transgender people,people,True,13,7,canonical_url,13,7,0,20,7,0.0,0.0
+Gender Identity,Housing,Homelessness,minority_generic,minority,control,transgender people,people,True,13,7,registrable_domain,12,6,3,15,6,0.2,0.5
+Gender Identity,Housing,Homelessness,minority_generic,minority,control,transgender people,people,True,13,7,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Gender Identity,Housing,Homelessness,majority_generic,majority,control,cisgender people,people,True,11,7,canonical_url,11,7,2,16,7,0.125,0.2857142857142857
+Gender Identity,Housing,Homelessness,majority_generic,majority,control,cisgender people,people,True,11,7,registrable_domain,9,6,2,13,6,0.15384615384615385,0.3333333333333333
+Gender Identity,Housing,Homelessness,majority_generic,majority,control,cisgender people,people,True,11,7,source_category,3,3,1,5,3,0.2,0.3333333333333333
+Gender Identity,Housing,Housing stability,minority_majority,minority,majority,transgender people,cisgender people,True,13,3,canonical_url,13,3,0,16,3,0.0,0.0
+Gender Identity,Housing,Housing stability,minority_majority,minority,majority,transgender people,cisgender people,True,13,3,registrable_domain,10,2,2,10,2,0.2,1.0
+Gender Identity,Housing,Housing stability,minority_majority,minority,majority,transgender people,cisgender people,True,13,3,source_category,4,2,2,4,2,0.5,1.0
+Gender Identity,Housing,Housing stability,minority_generic,minority,control,transgender people,people,True,13,9,canonical_url,13,9,0,22,9,0.0,0.0
+Gender Identity,Housing,Housing stability,minority_generic,minority,control,transgender people,people,True,13,9,registrable_domain,10,9,0,19,9,0.0,0.0
+Gender Identity,Housing,Housing stability,minority_generic,minority,control,transgender people,people,True,13,9,source_category,4,3,3,4,3,0.75,1.0
+Gender Identity,Housing,Housing stability,majority_generic,majority,control,cisgender people,people,True,3,9,canonical_url,3,9,0,12,3,0.0,0.0
+Gender Identity,Housing,Housing stability,majority_generic,majority,control,cisgender people,people,True,3,9,registrable_domain,2,9,0,11,2,0.0,0.0
+Gender Identity,Housing,Housing stability,majority_generic,majority,control,cisgender people,people,True,3,9,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Race,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Black people,White people,True,10,6,canonical_url,10,6,2,14,6,0.14285714285714285,0.3333333333333333
+Race,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Black people,White people,True,10,6,registrable_domain,10,6,2,14,6,0.14285714285714285,0.3333333333333333
+Race,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,Black people,White people,True,10,6,source_category,4,4,4,4,4,1.0,1.0
+Race,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Black people,people,True,10,8,canonical_url,10,8,0,18,8,0.0,0.0
+Race,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Black people,people,True,10,8,registrable_domain,10,8,0,18,8,0.0,0.0
+Race,Credit & Financial Services,Access to banking services,minority_generic,minority,control,Black people,people,True,10,8,source_category,4,4,4,4,4,1.0,1.0
+Race,Credit & Financial Services,Access to banking services,majority_generic,majority,control,White people,people,True,6,8,canonical_url,6,8,2,12,6,0.16666666666666666,0.3333333333333333
+Race,Credit & Financial Services,Access to banking services,majority_generic,majority,control,White people,people,True,6,8,registrable_domain,6,8,2,12,6,0.16666666666666666,0.3333333333333333
+Race,Credit & Financial Services,Access to banking services,majority_generic,majority,control,White people,people,True,6,8,source_category,4,4,4,4,4,1.0,1.0
+Race,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Black people,White people,True,13,7,canonical_url,13,7,2,18,7,0.1111111111111111,0.2857142857142857
+Race,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Black people,White people,True,13,7,registrable_domain,13,7,3,17,7,0.17647058823529413,0.42857142857142855
+Race,Credit & Financial Services,Access to credit,minority_majority,minority,majority,Black people,White people,True,13,7,source_category,5,4,4,5,4,0.8,1.0
+Race,Credit & Financial Services,Access to credit,minority_generic,minority,control,Black people,people,True,13,6,canonical_url,13,6,0,19,6,0.0,0.0
+Race,Credit & Financial Services,Access to credit,minority_generic,minority,control,Black people,people,True,13,6,registrable_domain,13,5,2,16,5,0.125,0.4
+Race,Credit & Financial Services,Access to credit,minority_generic,minority,control,Black people,people,True,13,6,source_category,5,3,3,5,3,0.6,1.0
+Race,Credit & Financial Services,Access to credit,majority_generic,majority,control,White people,people,True,7,6,canonical_url,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Race,Credit & Financial Services,Access to credit,majority_generic,majority,control,White people,people,True,7,6,registrable_domain,7,5,1,11,5,0.09090909090909091,0.2
+Race,Credit & Financial Services,Access to credit,majority_generic,majority,control,White people,people,True,7,6,source_category,4,3,3,4,3,0.75,1.0
+Race,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Black people,White people,True,12,4,canonical_url,12,4,4,12,4,0.3333333333333333,1.0
+Race,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Black people,White people,True,12,4,registrable_domain,12,4,4,12,4,0.3333333333333333,1.0
+Race,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,Black people,White people,True,12,4,source_category,5,4,4,5,4,0.8,1.0
+Race,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Black people,people,True,12,11,canonical_url,12,11,0,23,11,0.0,0.0
+Race,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Black people,people,True,12,11,registrable_domain,12,11,0,23,11,0.0,0.0
+Race,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,Black people,people,True,12,11,source_category,5,3,2,6,3,0.3333333333333333,0.6666666666666666
+Race,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,White people,people,True,4,11,canonical_url,4,11,0,15,4,0.0,0.0
+Race,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,White people,people,True,4,11,registrable_domain,4,11,0,15,4,0.0,0.0
+Race,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,White people,people,True,4,11,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Race,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Black people,White people,True,9,6,canonical_url,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Race,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Black people,White people,True,9,6,registrable_domain,7,5,2,10,5,0.2,0.4
+Race,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,Black people,White people,True,9,6,source_category,3,4,3,4,3,0.75,1.0
+Race,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Black people,people,True,9,10,canonical_url,9,10,1,18,9,0.05555555555555555,0.1111111111111111
+Race,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Black people,people,True,9,10,registrable_domain,7,6,3,10,6,0.3,0.5
+Race,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,Black people,people,True,9,10,source_category,3,5,3,5,3,0.6,1.0
+Race,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,White people,people,True,6,10,canonical_url,6,10,0,16,6,0.0,0.0
+Race,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,White people,people,True,6,10,registrable_domain,5,6,1,10,5,0.1,0.2
+Race,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,White people,people,True,6,10,source_category,4,5,4,5,4,0.8,1.0
+Race,Criminal Justice,Incarceration,minority_majority,minority,majority,Black people,White people,True,8,3,canonical_url,8,3,2,9,3,0.2222222222222222,0.6666666666666666
+Race,Criminal Justice,Incarceration,minority_majority,minority,majority,Black people,White people,True,8,3,registrable_domain,6,2,1,7,2,0.14285714285714285,0.5
+Race,Criminal Justice,Incarceration,minority_majority,minority,majority,Black people,White people,True,8,3,source_category,4,2,2,4,2,0.5,1.0
+Race,Criminal Justice,Incarceration,minority_generic,minority,control,Black people,people,True,8,8,canonical_url,8,8,0,16,8,0.0,0.0
+Race,Criminal Justice,Incarceration,minority_generic,minority,control,Black people,people,True,8,8,registrable_domain,6,8,2,12,6,0.16666666666666666,0.3333333333333333
+Race,Criminal Justice,Incarceration,minority_generic,minority,control,Black people,people,True,8,8,source_category,4,5,4,5,4,0.8,1.0
+Race,Criminal Justice,Incarceration,majority_generic,majority,control,White people,people,True,3,8,canonical_url,3,8,0,11,3,0.0,0.0
+Race,Criminal Justice,Incarceration,majority_generic,majority,control,White people,people,True,3,8,registrable_domain,2,8,0,10,2,0.0,0.0
+Race,Criminal Justice,Incarceration,majority_generic,majority,control,White people,people,True,3,8,source_category,2,5,2,5,2,0.4,1.0
+Race,Criminal Justice,Police use of force,minority_majority,minority,majority,Black people,White people,True,7,3,canonical_url,7,3,1,9,3,0.1111111111111111,0.3333333333333333
+Race,Criminal Justice,Police use of force,minority_majority,minority,majority,Black people,White people,True,7,3,registrable_domain,5,3,1,7,3,0.14285714285714285,0.3333333333333333
+Race,Criminal Justice,Police use of force,minority_majority,minority,majority,Black people,White people,True,7,3,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Race,Criminal Justice,Police use of force,minority_generic,minority,control,Black people,people,True,7,9,canonical_url,7,9,1,15,7,0.06666666666666667,0.14285714285714285
+Race,Criminal Justice,Police use of force,minority_generic,minority,control,Black people,people,True,7,9,registrable_domain,5,9,2,12,5,0.16666666666666666,0.4
+Race,Criminal Justice,Police use of force,minority_generic,minority,control,Black people,people,True,7,9,source_category,4,4,4,4,4,1.0,1.0
+Race,Criminal Justice,Police use of force,majority_generic,majority,control,White people,people,True,3,9,canonical_url,3,9,1,11,3,0.09090909090909091,0.3333333333333333
+Race,Criminal Justice,Police use of force,majority_generic,majority,control,White people,people,True,3,9,registrable_domain,3,9,1,11,3,0.09090909090909091,0.3333333333333333
+Race,Criminal Justice,Police use of force,majority_generic,majority,control,White people,people,True,3,9,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Race,Education,College access/admission,minority_majority,minority,majority,Black people,White people,True,12,6,canonical_url,12,6,2,16,6,0.125,0.3333333333333333
+Race,Education,College access/admission,minority_majority,minority,majority,Black people,White people,True,12,6,registrable_domain,12,6,2,16,6,0.125,0.3333333333333333
+Race,Education,College access/admission,minority_majority,minority,majority,Black people,White people,True,12,6,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Race,Education,College access/admission,minority_generic,minority,control,Black people,people,True,12,6,canonical_url,12,6,0,18,6,0.0,0.0
+Race,Education,College access/admission,minority_generic,minority,control,Black people,people,True,12,6,registrable_domain,12,6,0,18,6,0.0,0.0
+Race,Education,College access/admission,minority_generic,minority,control,Black people,people,True,12,6,source_category,3,4,3,4,3,0.75,1.0
+Race,Education,College access/admission,majority_generic,majority,control,White people,people,True,6,6,canonical_url,6,6,0,12,6,0.0,0.0
+Race,Education,College access/admission,majority_generic,majority,control,White people,people,True,6,6,registrable_domain,6,6,0,12,6,0.0,0.0
+Race,Education,College access/admission,majority_generic,majority,control,White people,people,True,6,6,source_category,2,4,2,4,2,0.5,1.0
+Race,Education,Educational opportunity/access,minority_majority,minority,majority,Black people,White people,True,9,5,canonical_url,9,5,1,13,5,0.07692307692307693,0.2
+Race,Education,Educational opportunity/access,minority_majority,minority,majority,Black people,White people,True,9,5,registrable_domain,9,4,2,11,4,0.18181818181818182,0.5
+Race,Education,Educational opportunity/access,minority_majority,minority,majority,Black people,White people,True,9,5,source_category,2,4,2,4,2,0.5,1.0
+Race,Education,Educational opportunity/access,minority_generic,minority,control,Black people,people,True,9,6,canonical_url,9,6,0,15,6,0.0,0.0
+Race,Education,Educational opportunity/access,minority_generic,minority,control,Black people,people,True,9,6,registrable_domain,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Race,Education,Educational opportunity/access,minority_generic,minority,control,Black people,people,True,9,6,source_category,2,4,2,4,2,0.5,1.0
+Race,Education,Educational opportunity/access,majority_generic,majority,control,White people,people,True,5,6,canonical_url,5,6,1,10,5,0.1,0.2
+Race,Education,Educational opportunity/access,majority_generic,majority,control,White people,people,True,5,6,registrable_domain,4,6,1,9,4,0.1111111111111111,0.25
+Race,Education,Educational opportunity/access,majority_generic,majority,control,White people,people,True,5,6,source_category,4,4,3,5,4,0.6,0.75
+Race,Education,Harassment/bullying,minority_majority,minority,majority,Black people,White people,True,13,4,canonical_url,13,4,2,15,4,0.13333333333333333,0.5
+Race,Education,Harassment/bullying,minority_majority,minority,majority,Black people,White people,True,13,4,registrable_domain,12,4,2,14,4,0.14285714285714285,0.5
+Race,Education,Harassment/bullying,minority_majority,minority,majority,Black people,White people,True,13,4,source_category,6,3,3,6,3,0.5,1.0
+Race,Education,Harassment/bullying,minority_generic,minority,control,Black people,people,True,13,12,canonical_url,13,12,0,25,12,0.0,0.0
+Race,Education,Harassment/bullying,minority_generic,minority,control,Black people,people,True,13,12,registrable_domain,12,10,2,20,10,0.1,0.2
+Race,Education,Harassment/bullying,minority_generic,minority,control,Black people,people,True,13,12,source_category,6,6,5,7,6,0.7142857142857143,0.8333333333333334
+Race,Education,Harassment/bullying,majority_generic,majority,control,White people,people,True,4,12,canonical_url,4,12,0,16,4,0.0,0.0
+Race,Education,Harassment/bullying,majority_generic,majority,control,White people,people,True,4,12,registrable_domain,4,10,1,13,4,0.07692307692307693,0.25
+Race,Education,Harassment/bullying,majority_generic,majority,control,White people,people,True,4,12,source_category,3,6,3,6,3,0.5,1.0
+Race,Employment,Career advancement,minority_majority,minority,majority,Black people,White people,True,9,5,canonical_url,9,5,0,14,5,0.0,0.0
+Race,Employment,Career advancement,minority_majority,minority,majority,Black people,White people,True,9,5,registrable_domain,8,5,0,13,5,0.0,0.0
+Race,Employment,Career advancement,minority_majority,minority,majority,Black people,White people,True,9,5,source_category,5,5,4,6,5,0.6666666666666666,0.8
+Race,Employment,Career advancement,minority_generic,minority,control,Black people,people,True,9,5,canonical_url,9,5,0,14,5,0.0,0.0
+Race,Employment,Career advancement,minority_generic,minority,control,Black people,people,True,9,5,registrable_domain,8,5,0,13,5,0.0,0.0
+Race,Employment,Career advancement,minority_generic,minority,control,Black people,people,True,9,5,source_category,5,4,3,6,4,0.5,0.75
+Race,Employment,Career advancement,majority_generic,majority,control,White people,people,True,5,5,canonical_url,5,5,0,10,5,0.0,0.0
+Race,Employment,Career advancement,majority_generic,majority,control,White people,people,True,5,5,registrable_domain,5,5,1,9,5,0.1111111111111111,0.2
+Race,Employment,Career advancement,majority_generic,majority,control,White people,people,True,5,5,source_category,5,4,3,6,4,0.5,0.75
+Race,Employment,Hiring,minority_majority,minority,majority,Black people,White people,True,10,4,canonical_url,10,4,1,13,4,0.07692307692307693,0.25
+Race,Employment,Hiring,minority_majority,minority,majority,Black people,White people,True,10,4,registrable_domain,9,4,1,12,4,0.08333333333333333,0.25
+Race,Employment,Hiring,minority_majority,minority,majority,Black people,White people,True,10,4,source_category,5,3,2,6,3,0.3333333333333333,0.6666666666666666
+Race,Employment,Hiring,minority_generic,minority,control,Black people,people,True,10,12,canonical_url,10,12,0,22,10,0.0,0.0
+Race,Employment,Hiring,minority_generic,minority,control,Black people,people,True,10,12,registrable_domain,9,8,1,16,8,0.0625,0.125
+Race,Employment,Hiring,minority_generic,minority,control,Black people,people,True,10,12,source_category,5,4,2,7,4,0.2857142857142857,0.5
+Race,Employment,Hiring,majority_generic,majority,control,White people,people,True,4,12,canonical_url,4,12,0,16,4,0.0,0.0
+Race,Employment,Hiring,majority_generic,majority,control,White people,people,True,4,12,registrable_domain,4,8,0,12,4,0.0,0.0
+Race,Employment,Hiring,majority_generic,majority,control,White people,people,True,4,12,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Race,Employment,Workplace harassment,minority_majority,minority,majority,Black people,White people,True,11,5,canonical_url,11,5,1,15,5,0.06666666666666667,0.2
+Race,Employment,Workplace harassment,minority_majority,minority,majority,Black people,White people,True,11,5,registrable_domain,9,4,2,11,4,0.18181818181818182,0.5
+Race,Employment,Workplace harassment,minority_majority,minority,majority,Black people,White people,True,11,5,source_category,4,2,2,4,2,0.5,1.0
+Race,Employment,Workplace harassment,minority_generic,minority,control,Black people,people,True,11,7,canonical_url,11,7,1,17,7,0.058823529411764705,0.14285714285714285
+Race,Employment,Workplace harassment,minority_generic,minority,control,Black people,people,True,11,7,registrable_domain,9,7,2,14,7,0.14285714285714285,0.2857142857142857
+Race,Employment,Workplace harassment,minority_generic,minority,control,Black people,people,True,11,7,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Race,Employment,Workplace harassment,majority_generic,majority,control,White people,people,True,5,7,canonical_url,5,7,1,11,5,0.09090909090909091,0.2
+Race,Employment,Workplace harassment,majority_generic,majority,control,White people,people,True,5,7,registrable_domain,4,7,1,10,4,0.1,0.25
+Race,Employment,Workplace harassment,majority_generic,majority,control,White people,people,True,5,7,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Race,Government Benefits,Access to government benefits,minority_majority,minority,majority,Black people,White people,True,8,5,canonical_url,8,5,3,10,5,0.3,0.6
+Race,Government Benefits,Access to government benefits,minority_majority,minority,majority,Black people,White people,True,8,5,registrable_domain,7,5,4,8,5,0.5,0.8
+Race,Government Benefits,Access to government benefits,minority_majority,minority,majority,Black people,White people,True,8,5,source_category,4,3,3,4,3,0.75,1.0
+Race,Government Benefits,Access to government benefits,minority_generic,minority,control,Black people,people,True,8,10,canonical_url,8,10,0,18,8,0.0,0.0
+Race,Government Benefits,Access to government benefits,minority_generic,minority,control,Black people,people,True,8,10,registrable_domain,7,8,1,14,7,0.07142857142857142,0.14285714285714285
+Race,Government Benefits,Access to government benefits,minority_generic,minority,control,Black people,people,True,8,10,source_category,4,4,3,5,4,0.6,0.75
+Race,Government Benefits,Access to government benefits,majority_generic,majority,control,White people,people,True,5,10,canonical_url,5,10,0,15,5,0.0,0.0
+Race,Government Benefits,Access to government benefits,majority_generic,majority,control,White people,people,True,5,10,registrable_domain,5,8,0,13,5,0.0,0.0
+Race,Government Benefits,Access to government benefits,majority_generic,majority,control,White people,people,True,5,10,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Race,Government Benefits,Application/approval,minority_majority,minority,majority,Black people,White people,True,6,15,canonical_url,6,15,1,20,6,0.05,0.16666666666666666
+Race,Government Benefits,Application/approval,minority_majority,minority,majority,Black people,White people,True,6,15,registrable_domain,6,12,2,16,6,0.125,0.3333333333333333
+Race,Government Benefits,Application/approval,minority_majority,minority,majority,Black people,White people,True,6,15,source_category,5,4,3,6,4,0.5,0.75
+Race,Government Benefits,Application/approval,minority_generic,minority,control,Black people,people,True,6,12,canonical_url,6,12,0,18,6,0.0,0.0
+Race,Government Benefits,Application/approval,minority_generic,minority,control,Black people,people,True,6,12,registrable_domain,6,12,1,17,6,0.058823529411764705,0.16666666666666666
+Race,Government Benefits,Application/approval,minority_generic,minority,control,Black people,people,True,6,12,source_category,5,3,3,5,3,0.6,1.0
+Race,Government Benefits,Application/approval,majority_generic,majority,control,White people,people,True,15,12,canonical_url,15,12,0,27,12,0.0,0.0
+Race,Government Benefits,Application/approval,majority_generic,majority,control,White people,people,True,15,12,registrable_domain,12,12,2,22,12,0.09090909090909091,0.16666666666666666
+Race,Government Benefits,Application/approval,majority_generic,majority,control,White people,people,True,15,12,source_category,4,3,3,4,3,0.75,1.0
+Race,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Black people,White people,True,15,8,canonical_url,15,8,2,21,8,0.09523809523809523,0.25
+Race,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Black people,White people,True,15,8,registrable_domain,13,7,3,17,7,0.17647058823529413,0.42857142857142855
+Race,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,Black people,White people,True,15,8,source_category,4,3,3,4,3,0.75,1.0
+Race,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Black people,people,True,15,13,canonical_url,15,13,0,28,13,0.0,0.0
+Race,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Black people,people,True,15,13,registrable_domain,13,12,2,23,12,0.08695652173913043,0.16666666666666666
+Race,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,Black people,people,True,15,13,source_category,4,4,3,5,4,0.6,0.75
+Race,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,White people,people,True,8,13,canonical_url,8,13,0,21,8,0.0,0.0
+Race,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,White people,people,True,8,13,registrable_domain,7,12,1,18,7,0.05555555555555555,0.14285714285714285
+Race,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,White people,people,True,8,13,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Race,Healthcare,Insurance coverage,minority_majority,minority,majority,Black people,White people,True,7,5,canonical_url,7,5,2,10,5,0.2,0.4
+Race,Healthcare,Insurance coverage,minority_majority,minority,majority,Black people,White people,True,7,5,registrable_domain,5,4,3,6,4,0.5,0.75
+Race,Healthcare,Insurance coverage,minority_majority,minority,majority,Black people,White people,True,7,5,source_category,2,2,2,2,2,1.0,1.0
+Race,Healthcare,Insurance coverage,minority_generic,minority,control,Black people,people,True,7,13,canonical_url,7,13,0,20,7,0.0,0.0
+Race,Healthcare,Insurance coverage,minority_generic,minority,control,Black people,people,True,7,13,registrable_domain,5,7,1,11,5,0.09090909090909091,0.2
+Race,Healthcare,Insurance coverage,minority_generic,minority,control,Black people,people,True,7,13,source_category,2,3,1,4,2,0.25,0.5
+Race,Healthcare,Insurance coverage,majority_generic,majority,control,White people,people,True,5,13,canonical_url,5,13,0,18,5,0.0,0.0
+Race,Healthcare,Insurance coverage,majority_generic,majority,control,White people,people,True,5,13,registrable_domain,4,7,1,10,4,0.1,0.25
+Race,Healthcare,Insurance coverage,majority_generic,majority,control,White people,people,True,5,13,source_category,2,3,1,4,2,0.25,0.5
+Race,Healthcare,Patient safety,minority_majority,minority,majority,Black people,White people,True,9,5,canonical_url,9,5,1,13,5,0.07692307692307693,0.2
+Race,Healthcare,Patient safety,minority_majority,minority,majority,Black people,White people,True,9,5,registrable_domain,6,4,2,8,4,0.25,0.5
+Race,Healthcare,Patient safety,minority_majority,minority,majority,Black people,White people,True,9,5,source_category,4,4,3,5,4,0.6,0.75
+Race,Healthcare,Patient safety,minority_generic,minority,control,Black people,people,True,9,11,canonical_url,9,11,0,20,9,0.0,0.0
+Race,Healthcare,Patient safety,minority_generic,minority,control,Black people,people,True,9,11,registrable_domain,6,7,1,12,6,0.08333333333333333,0.16666666666666666
+Race,Healthcare,Patient safety,minority_generic,minority,control,Black people,people,True,9,11,source_category,4,4,3,5,4,0.6,0.75
+Race,Healthcare,Patient safety,majority_generic,majority,control,White people,people,True,5,11,canonical_url,5,11,1,15,5,0.06666666666666667,0.2
+Race,Healthcare,Patient safety,majority_generic,majority,control,White people,people,True,5,11,registrable_domain,4,7,2,9,4,0.2222222222222222,0.5
+Race,Healthcare,Patient safety,majority_generic,majority,control,White people,people,True,5,11,source_category,4,4,3,5,4,0.6,0.75
+Race,Healthcare,Preventive care,minority_majority,minority,majority,Black people,White people,True,6,5,canonical_url,6,5,0,11,5,0.0,0.0
+Race,Healthcare,Preventive care,minority_majority,minority,majority,Black people,White people,True,6,5,registrable_domain,6,3,1,8,3,0.125,0.3333333333333333
+Race,Healthcare,Preventive care,minority_majority,minority,majority,Black people,White people,True,6,5,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Race,Healthcare,Preventive care,minority_generic,minority,control,Black people,people,True,6,5,canonical_url,6,5,0,11,5,0.0,0.0
+Race,Healthcare,Preventive care,minority_generic,minority,control,Black people,people,True,6,5,registrable_domain,6,3,1,8,3,0.125,0.3333333333333333
+Race,Healthcare,Preventive care,minority_generic,minority,control,Black people,people,True,6,5,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Race,Healthcare,Preventive care,majority_generic,majority,control,White people,people,True,5,5,canonical_url,5,5,0,10,5,0.0,0.0
+Race,Healthcare,Preventive care,majority_generic,majority,control,White people,people,True,5,5,registrable_domain,3,3,1,5,3,0.2,0.3333333333333333
+Race,Healthcare,Preventive care,majority_generic,majority,control,White people,people,True,5,5,source_category,3,2,1,4,2,0.25,0.5
+Race,Housing,Access to housing,minority_majority,minority,majority,Black people,White people,True,12,6,canonical_url,12,6,4,14,6,0.2857142857142857,0.6666666666666666
+Race,Housing,Access to housing,minority_majority,minority,majority,Black people,White people,True,12,6,registrable_domain,9,6,4,11,6,0.36363636363636365,0.6666666666666666
+Race,Housing,Access to housing,minority_majority,minority,majority,Black people,White people,True,12,6,source_category,2,2,2,2,2,1.0,1.0
+Race,Housing,Access to housing,minority_generic,minority,control,Black people,people,True,12,6,canonical_url,12,6,0,18,6,0.0,0.0
+Race,Housing,Access to housing,minority_generic,minority,control,Black people,people,True,12,6,registrable_domain,9,6,2,13,6,0.15384615384615385,0.3333333333333333
+Race,Housing,Access to housing,minority_generic,minority,control,Black people,people,True,12,6,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Race,Housing,Access to housing,majority_generic,majority,control,White people,people,True,6,6,canonical_url,6,6,0,12,6,0.0,0.0
+Race,Housing,Access to housing,majority_generic,majority,control,White people,people,True,6,6,registrable_domain,6,6,0,12,6,0.0,0.0
+Race,Housing,Access to housing,majority_generic,majority,control,White people,people,True,6,6,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Race,Housing,Homelessness,minority_majority,minority,majority,Black people,White people,True,12,5,canonical_url,12,5,2,15,5,0.13333333333333333,0.4
+Race,Housing,Homelessness,minority_majority,minority,majority,Black people,White people,True,12,5,registrable_domain,11,4,2,13,4,0.15384615384615385,0.5
+Race,Housing,Homelessness,minority_majority,minority,majority,Black people,White people,True,12,5,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Race,Housing,Homelessness,minority_generic,minority,control,Black people,people,True,12,7,canonical_url,12,7,1,18,7,0.05555555555555555,0.14285714285714285
+Race,Housing,Homelessness,minority_generic,minority,control,Black people,people,True,12,7,registrable_domain,11,6,1,16,6,0.0625,0.16666666666666666
+Race,Housing,Homelessness,minority_generic,minority,control,Black people,people,True,12,7,source_category,3,3,1,5,3,0.2,0.3333333333333333
+Race,Housing,Homelessness,majority_generic,majority,control,White people,people,True,5,7,canonical_url,5,7,1,11,5,0.09090909090909091,0.2
+Race,Housing,Homelessness,majority_generic,majority,control,White people,people,True,5,7,registrable_domain,4,6,1,9,4,0.1111111111111111,0.25
+Race,Housing,Homelessness,majority_generic,majority,control,White people,people,True,5,7,source_category,2,3,1,4,2,0.25,0.5
+Race,Housing,Housing stability,minority_majority,minority,majority,Black people,White people,True,8,9,canonical_url,8,9,3,14,8,0.21428571428571427,0.375
+Race,Housing,Housing stability,minority_majority,minority,majority,Black people,White people,True,8,9,registrable_domain,6,8,4,10,6,0.4,0.6666666666666666
+Race,Housing,Housing stability,minority_majority,minority,majority,Black people,White people,True,8,9,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Race,Housing,Housing stability,minority_generic,minority,control,Black people,people,True,8,9,canonical_url,8,9,0,17,8,0.0,0.0
+Race,Housing,Housing stability,minority_generic,minority,control,Black people,people,True,8,9,registrable_domain,6,9,0,15,6,0.0,0.0
+Race,Housing,Housing stability,minority_generic,minority,control,Black people,people,True,8,9,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Race,Housing,Housing stability,majority_generic,majority,control,White people,people,True,9,9,canonical_url,9,9,0,18,9,0.0,0.0
+Race,Housing,Housing stability,majority_generic,majority,control,White people,people,True,9,9,registrable_domain,8,9,0,17,8,0.0,0.0
+Race,Housing,Housing stability,majority_generic,majority,control,White people,people,True,9,9,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Sexual Orientation,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,9,canonical_url,6,9,0,15,6,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,9,registrable_domain,6,7,0,13,6,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Access to banking services,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,9,source_category,2,2,1,3,2,0.3333333333333333,0.5
+Sexual Orientation,Credit & Financial Services,Access to banking services,minority_generic,minority,control,homosexual people,people,True,6,8,canonical_url,6,8,0,14,6,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Access to banking services,minority_generic,minority,control,homosexual people,people,True,6,8,registrable_domain,6,8,0,14,6,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Access to banking services,minority_generic,minority,control,homosexual people,people,True,6,8,source_category,2,4,2,4,2,0.5,1.0
+Sexual Orientation,Credit & Financial Services,Access to banking services,majority_generic,majority,control,heterosexual people,people,True,9,8,canonical_url,9,8,2,15,8,0.13333333333333333,0.25
+Sexual Orientation,Credit & Financial Services,Access to banking services,majority_generic,majority,control,heterosexual people,people,True,9,8,registrable_domain,7,8,3,12,7,0.25,0.42857142857142855
+Sexual Orientation,Credit & Financial Services,Access to banking services,majority_generic,majority,control,heterosexual people,people,True,9,8,source_category,2,4,1,5,2,0.2,0.5
+Sexual Orientation,Credit & Financial Services,Access to credit,minority_majority,minority,majority,homosexual people,heterosexual people,True,8,9,canonical_url,8,9,0,17,8,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Access to credit,minority_majority,minority,majority,homosexual people,heterosexual people,True,8,9,registrable_domain,8,9,1,16,8,0.0625,0.125
+Sexual Orientation,Credit & Financial Services,Access to credit,minority_majority,minority,majority,homosexual people,heterosexual people,True,8,9,source_category,4,3,3,4,3,0.75,1.0
+Sexual Orientation,Credit & Financial Services,Access to credit,minority_generic,minority,control,homosexual people,people,True,8,6,canonical_url,8,6,0,14,6,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Access to credit,minority_generic,minority,control,homosexual people,people,True,8,6,registrable_domain,8,5,2,11,5,0.18181818181818182,0.4
+Sexual Orientation,Credit & Financial Services,Access to credit,minority_generic,minority,control,homosexual people,people,True,8,6,source_category,4,3,3,4,3,0.75,1.0
+Sexual Orientation,Credit & Financial Services,Access to credit,majority_generic,majority,control,heterosexual people,people,True,9,6,canonical_url,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Sexual Orientation,Credit & Financial Services,Access to credit,majority_generic,majority,control,heterosexual people,people,True,9,6,registrable_domain,9,5,3,11,5,0.2727272727272727,0.6
+Sexual Orientation,Credit & Financial Services,Access to credit,majority_generic,majority,control,heterosexual people,people,True,9,6,source_category,3,3,3,3,3,1.0,1.0
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,homosexual people,heterosexual people,True,5,4,canonical_url,5,4,0,9,4,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,homosexual people,heterosexual people,True,5,4,registrable_domain,5,4,0,9,4,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,minority_majority,minority,majority,homosexual people,heterosexual people,True,5,4,source_category,4,1,1,4,1,0.25,1.0
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,homosexual people,people,True,5,11,canonical_url,5,11,0,16,5,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,homosexual people,people,True,5,11,registrable_domain,5,11,0,16,5,0.0,0.0
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,minority_generic,minority,control,homosexual people,people,True,5,11,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,heterosexual people,people,True,4,11,canonical_url,4,11,2,13,4,0.15384615384615385,0.5
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,heterosexual people,people,True,4,11,registrable_domain,4,11,2,13,4,0.15384615384615385,0.5
+Sexual Orientation,Credit & Financial Services,Credit/loan approval,majority_generic,majority,control,heterosexual people,people,True,4,11,source_category,1,3,1,3,1,0.3333333333333333,1.0
+Sexual Orientation,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,16,canonical_url,7,16,0,23,7,0.0,0.0
+Sexual Orientation,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,16,registrable_domain,7,10,1,16,7,0.0625,0.14285714285714285
+Sexual Orientation,Criminal Justice,Arrest / detention by police,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,16,source_category,2,6,2,6,2,0.3333333333333333,1.0
+Sexual Orientation,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,homosexual people,people,True,7,10,canonical_url,7,10,0,17,7,0.0,0.0
+Sexual Orientation,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,homosexual people,people,True,7,10,registrable_domain,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Sexual Orientation,Criminal Justice,Arrest / detention by police,minority_generic,minority,control,homosexual people,people,True,7,10,source_category,2,5,2,5,2,0.4,1.0
+Sexual Orientation,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,heterosexual people,people,True,16,10,canonical_url,16,10,2,24,10,0.08333333333333333,0.2
+Sexual Orientation,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,heterosexual people,people,True,16,10,registrable_domain,10,6,3,13,6,0.23076923076923078,0.5
+Sexual Orientation,Criminal Justice,Arrest / detention by police,majority_generic,majority,control,heterosexual people,people,True,16,10,source_category,6,5,5,6,5,0.8333333333333334,1.0
+Sexual Orientation,Criminal Justice,Incarceration,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,5,canonical_url,10,5,0,15,5,0.0,0.0
+Sexual Orientation,Criminal Justice,Incarceration,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,5,registrable_domain,9,5,1,13,5,0.07692307692307693,0.2
+Sexual Orientation,Criminal Justice,Incarceration,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,5,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Sexual Orientation,Criminal Justice,Incarceration,minority_generic,minority,control,homosexual people,people,True,10,8,canonical_url,10,8,0,18,8,0.0,0.0
+Sexual Orientation,Criminal Justice,Incarceration,minority_generic,minority,control,homosexual people,people,True,10,8,registrable_domain,9,8,2,15,8,0.13333333333333333,0.25
+Sexual Orientation,Criminal Justice,Incarceration,minority_generic,minority,control,homosexual people,people,True,10,8,source_category,3,5,3,5,3,0.6,1.0
+Sexual Orientation,Criminal Justice,Incarceration,majority_generic,majority,control,heterosexual people,people,True,5,8,canonical_url,5,8,0,13,5,0.0,0.0
+Sexual Orientation,Criminal Justice,Incarceration,majority_generic,majority,control,heterosexual people,people,True,5,8,registrable_domain,5,8,2,11,5,0.18181818181818182,0.4
+Sexual Orientation,Criminal Justice,Incarceration,majority_generic,majority,control,heterosexual people,people,True,5,8,source_category,3,5,3,5,3,0.6,1.0
+Sexual Orientation,Criminal Justice,Police use of force,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,7,canonical_url,7,7,1,13,7,0.07692307692307693,0.14285714285714285
+Sexual Orientation,Criminal Justice,Police use of force,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,7,registrable_domain,6,6,2,10,6,0.2,0.3333333333333333
+Sexual Orientation,Criminal Justice,Police use of force,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,7,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Sexual Orientation,Criminal Justice,Police use of force,minority_generic,minority,control,homosexual people,people,True,7,9,canonical_url,7,9,0,16,7,0.0,0.0
+Sexual Orientation,Criminal Justice,Police use of force,minority_generic,minority,control,homosexual people,people,True,7,9,registrable_domain,6,9,0,15,6,0.0,0.0
+Sexual Orientation,Criminal Justice,Police use of force,minority_generic,minority,control,homosexual people,people,True,7,9,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Criminal Justice,Police use of force,majority_generic,majority,control,heterosexual people,people,True,7,9,canonical_url,7,9,1,15,7,0.06666666666666667,0.14285714285714285
+Sexual Orientation,Criminal Justice,Police use of force,majority_generic,majority,control,heterosexual people,people,True,7,9,registrable_domain,6,9,2,13,6,0.15384615384615385,0.3333333333333333
+Sexual Orientation,Criminal Justice,Police use of force,majority_generic,majority,control,heterosexual people,people,True,7,9,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Education,College access/admission,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,0,canonical_url,7,0,0,7,0,0.0,
+Sexual Orientation,Education,College access/admission,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,0,registrable_domain,6,0,0,6,0,0.0,
+Sexual Orientation,Education,College access/admission,minority_majority,minority,majority,homosexual people,heterosexual people,True,7,0,source_category,4,0,0,4,0,0.0,
+Sexual Orientation,Education,College access/admission,minority_generic,minority,control,homosexual people,people,True,7,6,canonical_url,7,6,0,13,6,0.0,0.0
+Sexual Orientation,Education,College access/admission,minority_generic,minority,control,homosexual people,people,True,7,6,registrable_domain,6,6,1,11,6,0.09090909090909091,0.16666666666666666
+Sexual Orientation,Education,College access/admission,minority_generic,minority,control,homosexual people,people,True,7,6,source_category,4,4,4,4,4,1.0,1.0
+Sexual Orientation,Education,College access/admission,majority_generic,majority,control,heterosexual people,people,True,0,6,canonical_url,0,6,0,6,0,0.0,
+Sexual Orientation,Education,College access/admission,majority_generic,majority,control,heterosexual people,people,True,0,6,registrable_domain,0,6,0,6,0,0.0,
+Sexual Orientation,Education,College access/admission,majority_generic,majority,control,heterosexual people,people,True,0,6,source_category,0,4,0,4,0,0.0,
+Sexual Orientation,Education,Educational opportunity/access,minority_majority,minority,majority,homosexual people,heterosexual people,True,11,10,canonical_url,11,10,1,20,10,0.05,0.1
+Sexual Orientation,Education,Educational opportunity/access,minority_majority,minority,majority,homosexual people,heterosexual people,True,11,10,registrable_domain,9,9,1,17,9,0.058823529411764705,0.1111111111111111
+Sexual Orientation,Education,Educational opportunity/access,minority_majority,minority,majority,homosexual people,heterosexual people,True,11,10,source_category,5,4,4,5,4,0.8,1.0
+Sexual Orientation,Education,Educational opportunity/access,minority_generic,minority,control,homosexual people,people,True,11,6,canonical_url,11,6,0,17,6,0.0,0.0
+Sexual Orientation,Education,Educational opportunity/access,minority_generic,minority,control,homosexual people,people,True,11,6,registrable_domain,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Sexual Orientation,Education,Educational opportunity/access,minority_generic,minority,control,homosexual people,people,True,11,6,source_category,5,4,4,5,4,0.8,1.0
+Sexual Orientation,Education,Educational opportunity/access,majority_generic,majority,control,heterosexual people,people,True,10,6,canonical_url,10,6,0,16,6,0.0,0.0
+Sexual Orientation,Education,Educational opportunity/access,majority_generic,majority,control,heterosexual people,people,True,10,6,registrable_domain,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Sexual Orientation,Education,Educational opportunity/access,majority_generic,majority,control,heterosexual people,people,True,10,6,source_category,4,4,3,5,4,0.6,0.75
+Sexual Orientation,Education,Harassment/bullying,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,17,canonical_url,10,16,1,25,10,0.04,0.1
+Sexual Orientation,Education,Harassment/bullying,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,17,registrable_domain,6,13,2,17,6,0.11764705882352941,0.3333333333333333
+Sexual Orientation,Education,Harassment/bullying,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,17,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Education,Harassment/bullying,minority_generic,minority,control,homosexual people,people,True,10,12,canonical_url,10,12,0,22,10,0.0,0.0
+Sexual Orientation,Education,Harassment/bullying,minority_generic,minority,control,homosexual people,people,True,10,12,registrable_domain,6,10,1,15,6,0.06666666666666667,0.16666666666666666
+Sexual Orientation,Education,Harassment/bullying,minority_generic,minority,control,homosexual people,people,True,10,12,source_category,3,6,3,6,3,0.5,1.0
+Sexual Orientation,Education,Harassment/bullying,majority_generic,majority,control,heterosexual people,people,True,17,12,canonical_url,16,12,2,26,12,0.07692307692307693,0.16666666666666666
+Sexual Orientation,Education,Harassment/bullying,majority_generic,majority,control,heterosexual people,people,True,17,12,registrable_domain,13,10,3,20,10,0.15,0.3
+Sexual Orientation,Education,Harassment/bullying,majority_generic,majority,control,heterosexual people,people,True,17,12,source_category,4,6,3,7,4,0.42857142857142855,0.75
+Sexual Orientation,Employment,Career advancement,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,6,canonical_url,6,6,0,12,6,0.0,0.0
+Sexual Orientation,Employment,Career advancement,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,6,registrable_domain,6,6,0,12,6,0.0,0.0
+Sexual Orientation,Employment,Career advancement,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,6,source_category,5,3,2,6,3,0.3333333333333333,0.6666666666666666
+Sexual Orientation,Employment,Career advancement,minority_generic,minority,control,homosexual people,people,True,6,5,canonical_url,6,5,0,11,5,0.0,0.0
+Sexual Orientation,Employment,Career advancement,minority_generic,minority,control,homosexual people,people,True,6,5,registrable_domain,6,5,2,9,5,0.2222222222222222,0.4
+Sexual Orientation,Employment,Career advancement,minority_generic,minority,control,homosexual people,people,True,6,5,source_category,5,4,3,6,4,0.5,0.75
+Sexual Orientation,Employment,Career advancement,majority_generic,majority,control,heterosexual people,people,True,6,5,canonical_url,6,5,0,11,5,0.0,0.0
+Sexual Orientation,Employment,Career advancement,majority_generic,majority,control,heterosexual people,people,True,6,5,registrable_domain,6,5,0,11,5,0.0,0.0
+Sexual Orientation,Employment,Career advancement,majority_generic,majority,control,heterosexual people,people,True,6,5,source_category,3,4,1,6,3,0.16666666666666666,0.3333333333333333
+Sexual Orientation,Employment,Hiring,minority_majority,minority,majority,homosexual people,heterosexual people,True,4,0,canonical_url,4,0,0,4,0,0.0,
+Sexual Orientation,Employment,Hiring,minority_majority,minority,majority,homosexual people,heterosexual people,True,4,0,registrable_domain,4,0,0,4,0,0.0,
+Sexual Orientation,Employment,Hiring,minority_majority,minority,majority,homosexual people,heterosexual people,True,4,0,source_category,3,0,0,3,0,0.0,
+Sexual Orientation,Employment,Hiring,minority_generic,minority,control,homosexual people,people,True,4,12,canonical_url,4,12,0,16,4,0.0,0.0
+Sexual Orientation,Employment,Hiring,minority_generic,minority,control,homosexual people,people,True,4,12,registrable_domain,4,8,0,12,4,0.0,0.0
+Sexual Orientation,Employment,Hiring,minority_generic,minority,control,homosexual people,people,True,4,12,source_category,3,4,1,6,3,0.16666666666666666,0.3333333333333333
+Sexual Orientation,Employment,Hiring,majority_generic,majority,control,heterosexual people,people,True,0,12,canonical_url,0,12,0,12,0,0.0,
+Sexual Orientation,Employment,Hiring,majority_generic,majority,control,heterosexual people,people,True,0,12,registrable_domain,0,8,0,8,0,0.0,
+Sexual Orientation,Employment,Hiring,majority_generic,majority,control,heterosexual people,people,True,0,12,source_category,0,4,0,4,0,0.0,
+Sexual Orientation,Employment,Workplace harassment,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,8,canonical_url,9,8,0,17,8,0.0,0.0
+Sexual Orientation,Employment,Workplace harassment,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,8,registrable_domain,8,8,0,16,8,0.0,0.0
+Sexual Orientation,Employment,Workplace harassment,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,8,source_category,4,2,1,5,2,0.2,0.5
+Sexual Orientation,Employment,Workplace harassment,minority_generic,minority,control,homosexual people,people,True,9,7,canonical_url,9,7,0,16,7,0.0,0.0
+Sexual Orientation,Employment,Workplace harassment,minority_generic,minority,control,homosexual people,people,True,9,7,registrable_domain,8,7,0,15,7,0.0,0.0
+Sexual Orientation,Employment,Workplace harassment,minority_generic,minority,control,homosexual people,people,True,9,7,source_category,4,3,1,6,3,0.16666666666666666,0.3333333333333333
+Sexual Orientation,Employment,Workplace harassment,majority_generic,majority,control,heterosexual people,people,True,8,7,canonical_url,8,7,3,12,7,0.25,0.42857142857142855
+Sexual Orientation,Employment,Workplace harassment,majority_generic,majority,control,heterosexual people,people,True,8,7,registrable_domain,8,7,3,12,7,0.25,0.42857142857142855
+Sexual Orientation,Employment,Workplace harassment,majority_generic,majority,control,heterosexual people,people,True,8,7,source_category,2,3,2,3,2,0.6666666666666666,1.0
+Sexual Orientation,Government Benefits,Access to government benefits,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,6,canonical_url,9,6,2,13,6,0.15384615384615385,0.3333333333333333
+Sexual Orientation,Government Benefits,Access to government benefits,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,6,registrable_domain,9,5,3,11,5,0.2727272727272727,0.6
+Sexual Orientation,Government Benefits,Access to government benefits,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,6,source_category,4,3,3,4,3,0.75,1.0
+Sexual Orientation,Government Benefits,Access to government benefits,minority_generic,minority,control,homosexual people,people,True,9,10,canonical_url,9,10,0,19,9,0.0,0.0
+Sexual Orientation,Government Benefits,Access to government benefits,minority_generic,minority,control,homosexual people,people,True,9,10,registrable_domain,9,8,2,15,8,0.13333333333333333,0.25
+Sexual Orientation,Government Benefits,Access to government benefits,minority_generic,minority,control,homosexual people,people,True,9,10,source_category,4,4,4,4,4,1.0,1.0
+Sexual Orientation,Government Benefits,Access to government benefits,majority_generic,majority,control,heterosexual people,people,True,6,10,canonical_url,6,10,1,15,6,0.06666666666666667,0.16666666666666666
+Sexual Orientation,Government Benefits,Access to government benefits,majority_generic,majority,control,heterosexual people,people,True,6,10,registrable_domain,5,8,2,11,5,0.18181818181818182,0.4
+Sexual Orientation,Government Benefits,Access to government benefits,majority_generic,majority,control,heterosexual people,people,True,6,10,source_category,3,4,3,4,3,0.75,1.0
+Sexual Orientation,Government Benefits,Application/approval,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,0,canonical_url,6,0,0,6,0,0.0,
+Sexual Orientation,Government Benefits,Application/approval,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,0,registrable_domain,6,0,0,6,0,0.0,
+Sexual Orientation,Government Benefits,Application/approval,minority_majority,minority,majority,homosexual people,heterosexual people,True,6,0,source_category,2,0,0,2,0,0.0,
+Sexual Orientation,Government Benefits,Application/approval,minority_generic,minority,control,homosexual people,people,True,6,12,canonical_url,6,12,0,18,6,0.0,0.0
+Sexual Orientation,Government Benefits,Application/approval,minority_generic,minority,control,homosexual people,people,True,6,12,registrable_domain,6,12,1,17,6,0.058823529411764705,0.16666666666666666
+Sexual Orientation,Government Benefits,Application/approval,minority_generic,minority,control,homosexual people,people,True,6,12,source_category,2,3,1,4,2,0.25,0.5
+Sexual Orientation,Government Benefits,Application/approval,majority_generic,majority,control,heterosexual people,people,True,0,12,canonical_url,0,12,0,12,0,0.0,
+Sexual Orientation,Government Benefits,Application/approval,majority_generic,majority,control,heterosexual people,people,True,0,12,registrable_domain,0,12,0,12,0,0.0,
+Sexual Orientation,Government Benefits,Application/approval,majority_generic,majority,control,heterosexual people,people,True,0,12,source_category,0,3,0,3,0,0.0,
+Sexual Orientation,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,homosexual people,heterosexual people,True,12,10,canonical_url,12,10,1,21,10,0.047619047619047616,0.1
+Sexual Orientation,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,homosexual people,heterosexual people,True,12,10,registrable_domain,9,9,1,17,9,0.058823529411764705,0.1111111111111111
+Sexual Orientation,Government Benefits,Benefit retention / renewal,minority_majority,minority,majority,homosexual people,heterosexual people,True,12,10,source_category,4,3,3,4,3,0.75,1.0
+Sexual Orientation,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,homosexual people,people,True,12,13,canonical_url,12,13,0,25,12,0.0,0.0
+Sexual Orientation,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,homosexual people,people,True,12,13,registrable_domain,9,12,3,18,9,0.16666666666666666,0.3333333333333333
+Sexual Orientation,Government Benefits,Benefit retention / renewal,minority_generic,minority,control,homosexual people,people,True,12,13,source_category,4,4,3,5,4,0.6,0.75
+Sexual Orientation,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,heterosexual people,people,True,10,13,canonical_url,10,13,0,23,10,0.0,0.0
+Sexual Orientation,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,heterosexual people,people,True,10,13,registrable_domain,9,12,0,21,9,0.0,0.0
+Sexual Orientation,Government Benefits,Benefit retention / renewal,majority_generic,majority,control,heterosexual people,people,True,10,13,source_category,3,4,3,4,3,0.75,1.0
+Sexual Orientation,Healthcare,Insurance coverage,minority_majority,minority,majority,homosexual people,heterosexual people,True,13,7,canonical_url,13,7,1,19,7,0.05263157894736842,0.14285714285714285
+Sexual Orientation,Healthcare,Insurance coverage,minority_majority,minority,majority,homosexual people,heterosexual people,True,13,7,registrable_domain,8,4,1,11,4,0.09090909090909091,0.25
+Sexual Orientation,Healthcare,Insurance coverage,minority_majority,minority,majority,homosexual people,heterosexual people,True,13,7,source_category,4,2,2,4,2,0.5,1.0
+Sexual Orientation,Healthcare,Insurance coverage,minority_generic,minority,control,homosexual people,people,True,13,13,canonical_url,13,13,0,26,13,0.0,0.0
+Sexual Orientation,Healthcare,Insurance coverage,minority_generic,minority,control,homosexual people,people,True,13,13,registrable_domain,8,7,1,14,7,0.07142857142857142,0.14285714285714285
+Sexual Orientation,Healthcare,Insurance coverage,minority_generic,minority,control,homosexual people,people,True,13,13,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Healthcare,Insurance coverage,majority_generic,majority,control,heterosexual people,people,True,7,13,canonical_url,7,13,0,20,7,0.0,0.0
+Sexual Orientation,Healthcare,Insurance coverage,majority_generic,majority,control,heterosexual people,people,True,7,13,registrable_domain,4,7,1,10,4,0.1,0.25
+Sexual Orientation,Healthcare,Insurance coverage,majority_generic,majority,control,heterosexual people,people,True,7,13,source_category,2,3,1,4,2,0.25,0.5
+Sexual Orientation,Healthcare,Patient safety,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,7,canonical_url,10,7,0,17,7,0.0,0.0
+Sexual Orientation,Healthcare,Patient safety,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,7,registrable_domain,8,4,1,11,4,0.09090909090909091,0.25
+Sexual Orientation,Healthcare,Patient safety,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,7,source_category,5,3,2,6,3,0.3333333333333333,0.6666666666666666
+Sexual Orientation,Healthcare,Patient safety,minority_generic,minority,control,homosexual people,people,True,10,11,canonical_url,10,11,0,21,10,0.0,0.0
+Sexual Orientation,Healthcare,Patient safety,minority_generic,minority,control,homosexual people,people,True,10,11,registrable_domain,8,7,2,13,7,0.15384615384615385,0.2857142857142857
+Sexual Orientation,Healthcare,Patient safety,minority_generic,minority,control,homosexual people,people,True,10,11,source_category,5,4,3,6,4,0.5,0.75
+Sexual Orientation,Healthcare,Patient safety,majority_generic,majority,control,heterosexual people,people,True,7,11,canonical_url,7,11,2,16,7,0.125,0.2857142857142857
+Sexual Orientation,Healthcare,Patient safety,majority_generic,majority,control,heterosexual people,people,True,7,11,registrable_domain,4,7,2,9,4,0.2222222222222222,0.5
+Sexual Orientation,Healthcare,Patient safety,majority_generic,majority,control,heterosexual people,people,True,7,11,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Healthcare,Preventive care,minority_majority,minority,majority,homosexual people,heterosexual people,True,8,10,canonical_url,8,10,1,17,8,0.058823529411764705,0.125
+Sexual Orientation,Healthcare,Preventive care,minority_majority,minority,majority,homosexual people,heterosexual people,True,8,10,registrable_domain,3,5,1,7,3,0.14285714285714285,0.3333333333333333
+Sexual Orientation,Healthcare,Preventive care,minority_majority,minority,majority,homosexual people,heterosexual people,True,8,10,source_category,3,3,3,3,3,1.0,1.0
+Sexual Orientation,Healthcare,Preventive care,minority_generic,minority,control,homosexual people,people,True,8,5,canonical_url,8,5,0,13,5,0.0,0.0
+Sexual Orientation,Healthcare,Preventive care,minority_generic,minority,control,homosexual people,people,True,8,5,registrable_domain,3,3,1,5,3,0.2,0.3333333333333333
+Sexual Orientation,Healthcare,Preventive care,minority_generic,minority,control,homosexual people,people,True,8,5,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Sexual Orientation,Healthcare,Preventive care,majority_generic,majority,control,heterosexual people,people,True,10,5,canonical_url,10,5,0,15,5,0.0,0.0
+Sexual Orientation,Healthcare,Preventive care,majority_generic,majority,control,heterosexual people,people,True,10,5,registrable_domain,5,3,1,7,3,0.14285714285714285,0.3333333333333333
+Sexual Orientation,Healthcare,Preventive care,majority_generic,majority,control,heterosexual people,people,True,10,5,source_category,3,2,2,3,2,0.6666666666666666,1.0
+Sexual Orientation,Housing,Access to housing,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,8,canonical_url,10,8,3,15,8,0.2,0.375
+Sexual Orientation,Housing,Access to housing,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,8,registrable_domain,8,7,2,13,7,0.15384615384615385,0.2857142857142857
+Sexual Orientation,Housing,Access to housing,minority_majority,minority,majority,homosexual people,heterosexual people,True,10,8,source_category,2,4,1,5,2,0.2,0.5
+Sexual Orientation,Housing,Access to housing,minority_generic,minority,control,homosexual people,people,True,10,6,canonical_url,10,6,0,16,6,0.0,0.0
+Sexual Orientation,Housing,Access to housing,minority_generic,minority,control,homosexual people,people,True,10,6,registrable_domain,8,6,0,14,6,0.0,0.0
+Sexual Orientation,Housing,Access to housing,minority_generic,minority,control,homosexual people,people,True,10,6,source_category,2,3,1,4,2,0.25,0.5
+Sexual Orientation,Housing,Access to housing,majority_generic,majority,control,heterosexual people,people,True,8,6,canonical_url,8,6,0,14,6,0.0,0.0
+Sexual Orientation,Housing,Access to housing,majority_generic,majority,control,heterosexual people,people,True,8,6,registrable_domain,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Sexual Orientation,Housing,Access to housing,majority_generic,majority,control,heterosexual people,people,True,8,6,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Housing,Homelessness,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,9,canonical_url,9,9,0,18,9,0.0,0.0
+Sexual Orientation,Housing,Homelessness,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,9,registrable_domain,9,7,0,16,7,0.0,0.0
+Sexual Orientation,Housing,Homelessness,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,9,source_category,3,4,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Housing,Homelessness,minority_generic,minority,control,homosexual people,people,True,9,7,canonical_url,9,7,0,16,7,0.0,0.0
+Sexual Orientation,Housing,Homelessness,minority_generic,minority,control,homosexual people,people,True,9,7,registrable_domain,9,6,1,14,6,0.07142857142857142,0.16666666666666666
+Sexual Orientation,Housing,Homelessness,minority_generic,minority,control,homosexual people,people,True,9,7,source_category,3,3,2,4,3,0.5,0.6666666666666666
+Sexual Orientation,Housing,Homelessness,majority_generic,majority,control,heterosexual people,people,True,9,7,canonical_url,9,7,1,15,7,0.06666666666666667,0.14285714285714285
+Sexual Orientation,Housing,Homelessness,majority_generic,majority,control,heterosexual people,people,True,9,7,registrable_domain,7,6,1,12,6,0.08333333333333333,0.16666666666666666
+Sexual Orientation,Housing,Homelessness,majority_generic,majority,control,heterosexual people,people,True,9,7,source_category,4,3,1,6,3,0.16666666666666666,0.3333333333333333
+Sexual Orientation,Housing,Housing stability,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,5,canonical_url,9,5,0,14,5,0.0,0.0
+Sexual Orientation,Housing,Housing stability,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,5,registrable_domain,8,2,1,9,2,0.1111111111111111,0.5
+Sexual Orientation,Housing,Housing stability,minority_majority,minority,majority,homosexual people,heterosexual people,True,9,5,source_category,4,2,2,4,2,0.5,1.0
+Sexual Orientation,Housing,Housing stability,minority_generic,minority,control,homosexual people,people,True,9,9,canonical_url,9,9,0,18,9,0.0,0.0
+Sexual Orientation,Housing,Housing stability,minority_generic,minority,control,homosexual people,people,True,9,9,registrable_domain,8,9,0,17,8,0.0,0.0
+Sexual Orientation,Housing,Housing stability,minority_generic,minority,control,homosexual people,people,True,9,9,source_category,4,3,2,5,3,0.4,0.6666666666666666
+Sexual Orientation,Housing,Housing stability,majority_generic,majority,control,heterosexual people,people,True,5,9,canonical_url,5,9,0,14,5,0.0,0.0
+Sexual Orientation,Housing,Housing stability,majority_generic,majority,control,heterosexual people,people,True,5,9,registrable_domain,2,9,0,11,2,0.0,0.0
+Sexual Orientation,Housing,Housing stability,majority_generic,majority,control,heterosexual people,people,True,5,9,source_category,2,3,2,3,2,0.6666666666666666,1.0

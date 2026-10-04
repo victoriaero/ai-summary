@@ -1,0 +1,28 @@
+{
+  "source_id": "38b05133ffef29d3cd1e",
+  "normalized_url": "https://nacacnet.org/factors-in-the-admission-decision",
+  "fetch_timestamp_utc": "2026-10-04T03:34:42.850148+00:00",
+  "registrable_domain": "nacacnet.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nacacnet.org/factors-in-the-admission-decision/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 265028,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/38b05133ffef29d3cd1e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/38b05133ffef29d3cd1e.txt",
+  "text_chars": 4366,
+  "text_words": 932,
+  "extraction_status": "success",
+  "page_title": "Factors in the Admission Decision - National Association for College Admission Counseling (NACAC)",
+  "page_author": "Michelle Lucas",
+  "page_date": "2023-08-23",
+  "site_name": "National Association for College Admission Counseling (NACAC)",
+  "canonical_url": "https://www.nacacnet.org/factors-in-the-admission-decision/"
+}

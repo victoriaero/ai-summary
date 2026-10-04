@@ -1,0 +1,20 @@
+{
+  "source_id": "c6d9d01f7fe11ddc4a58",
+  "normalized_url": "https://umass.edu/public-health-sciences/news/minorities-free-preventive-healthcare-denied",
+  "fetch_timestamp_utc": "2026-10-04T03:45:35.937531+00:00",
+  "registrable_domain": "umass.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.umass.edu/public-health-sciences/news/minorities-free-preventive-healthcare-denied",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 4567,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

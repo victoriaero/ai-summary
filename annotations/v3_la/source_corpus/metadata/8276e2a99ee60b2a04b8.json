@@ -1,0 +1,28 @@
+{
+  "source_id": "8276e2a99ee60b2a04b8",
+  "normalized_url": "https://education.ml.com/bol/Pages/Article.aspx?Title=whywomenpaymorefortheirhealthcare",
+  "fetch_timestamp_utc": "2026-10-04T03:40:32.628551+00:00",
+  "registrable_domain": "ml.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.education.ml.com/bol/Pages/Article.aspx?Title=whywomenpaymorefortheirhealthcare",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 63921,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/8276e2a99ee60b2a04b8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/8276e2a99ee60b2a04b8.txt",
+  "text_chars": 9812,
+  "text_words": 1348,
+  "extraction_status": "success",
+  "page_title": "Benefits OnLine Education Center",
+  "page_author": null,
+  "page_date": "2014-01-01",
+  "site_name": "education.ml.com",
+  "canonical_url": "https://www.education.ml.com/bol/Pages/Article.aspx?Title=whywomenpaymorefortheirhealthcare"
+}

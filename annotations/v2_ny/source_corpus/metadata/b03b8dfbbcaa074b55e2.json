@@ -1,0 +1,20 @@
+{
+  "source_id": "b03b8dfbbcaa074b55e2",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2835305/https:/pmc.ncbi.nlm.nih.gov/articles/PMC2835305",
+  "fetch_timestamp_utc": "2026-10-04T02:46:48.445587+00:00",
+  "registrable_domain": "nih.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 404,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2835305/https:/pmc.ncbi.nlm.nih.gov/articles/PMC2835305",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 48716,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

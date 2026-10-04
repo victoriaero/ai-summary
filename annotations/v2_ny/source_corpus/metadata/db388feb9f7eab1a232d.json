@@ -1,0 +1,28 @@
+{
+  "source_id": "db388feb9f7eab1a232d",
+  "normalized_url": "https://centerforfinancialinclusion.org/article/financial-inclusion-must-address-restrictive-social-and-gender-norms",
+  "fetch_timestamp_utc": "2026-10-04T02:49:52.033832+00:00",
+  "registrable_domain": "centerforfinancialinclusion.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.centerforfinancialinclusion.org/article/financial-inclusion-must-address-restrictive-social-and-gender-norms/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 211871,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/db388feb9f7eab1a232d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/db388feb9f7eab1a232d.txt",
+  "text_chars": 7751,
+  "text_words": 1218,
+  "extraction_status": "success",
+  "page_title": "Financial Inclusion Must Address Restrictive Social and Gender Norms - Center for Financial Inclusion",
+  "page_author": "Alex Kessler; Julia Arnold; Migrate",
+  "page_date": "2021-08-17",
+  "site_name": "Center for Financial Inclusion",
+  "canonical_url": "https://www.centerforfinancialinclusion.org/article/financial-inclusion-must-address-restrictive-social-and-gender-norms/"
+}

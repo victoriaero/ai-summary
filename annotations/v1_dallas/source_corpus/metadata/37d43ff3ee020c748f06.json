@@ -1,0 +1,29 @@
+{
+  "source_id": "37d43ff3ee020c748f06",
+  "normalized_url": "https://cbpp.org/research/hud-halts-enforcement-of-rule-protecting-transgender-and-nonbinary-people-from",
+  "fetch_timestamp_utc": "2026-09-29T19:23:47.851409+00:00",
+  "registrable_domain": "cbpp.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://cbpp.org/research/hud-halts-enforcement-of-rule-protecting-transgender-and-nonbinary-people-from",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:23:47 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server-Timing": "cfEdge;dur=10,cfOrigin;dur=0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d5d48697564a8-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 6157,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

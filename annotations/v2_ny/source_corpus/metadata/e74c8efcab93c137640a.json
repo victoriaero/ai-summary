@@ -1,0 +1,28 @@
+{
+  "source_id": "e74c8efcab93c137640a",
+  "normalized_url": "https://bestcolleges.com/resources/history-women-higher-education",
+  "fetch_timestamp_utc": "2026-10-04T02:50:59.213173+00:00",
+  "registrable_domain": "bestcolleges.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.bestcolleges.com/resources/history-women-higher-education/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 396934,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e74c8efcab93c137640a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e74c8efcab93c137640a.txt",
+  "text_chars": 13454,
+  "text_words": 2092,
+  "extraction_status": "success",
+  "page_title": "A History of Women in Higher Education | BestColleges",
+  "page_author": "Margaret Attridge",
+  "page_date": "2021-03-15",
+  "site_name": "bestcolleges.com",
+  "canonical_url": "https://www.bestcolleges.com/resources/history-women-higher-education/"
+}

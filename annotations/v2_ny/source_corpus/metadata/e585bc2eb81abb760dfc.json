@@ -1,0 +1,28 @@
+{
+  "source_id": "e585bc2eb81abb760dfc",
+  "normalized_url": "https://youtube.com/watch?v=SxOD7cBDoxM",
+  "fetch_timestamp_utc": "2026-10-04T02:50:53.231242+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?v=SxOD7cBDoxM",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1175177,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e585bc2eb81abb760dfc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e585bc2eb81abb760dfc.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Workplace Harassment Based on Sexual Orientation -- \"When Can I Sue My Boss?\"",
+  "page_author": null,
+  "page_date": "2025-11-21",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=SxOD7cBDoxM"
+}

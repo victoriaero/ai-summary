@@ -1,0 +1,301 @@
+annotation_id,response_id,validation_class,predicate_lemma,syntactic_frame,polarity,matched_resource_entry,match_status,unmatched_reason,veridicality_score
+V0001,v1_dallas::latino_people__government_benefits__access_to_government_benefits,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0002,v1_dallas::non_latino_people__employment__hiring,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0003,v3_la::black_people__education__harassment_bullying,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0004,v1_dallas::latino_people__credit_and_financial_services__access_to_credit,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0005,v1_dallas::homosexual_people__employment__hiring,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0006,v1_dallas::homosexual_people__credit_and_financial_services__access_to_credit,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0007,v1_dallas::black_people__credit_and_financial_services__access_to_banking_services,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0008,v1_dallas::latino_people__government_benefits__application_approval,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0009,v1_dallas::homosexual_people__housing__housing_stability,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0010,v1_dallas::non_latino_people__criminal_justice__police_use_of_force,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0011,v1_dallas::people_with_disabilities__credit_and_financial_services__access_to_credit,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0012,v1_dallas::non_latino_people__healthcare__preventive_care,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0013,v1_dallas::people_without_disabilities__healthcare__preventive_care,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0014,v3_la::black_people__criminal_justice__arrest_detention_by_police,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0015,v1_dallas::black_people__employment__career_advancement,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0016,v3_la::black_people__housing__access_to_housing,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0017,v1_dallas::heterosexual_people__housing__access_to_housing,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0018,v1_dallas::latino_people__housing__housing_stability,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0019,v1_dallas::black_people__credit_and_financial_services__access_to_credit,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0020,v1_dallas::men__employment__career_advancement,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0021,v1_dallas::men__criminal_justice__incarceration,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0022,v1_dallas::homosexual_people__employment__workplace_harassment,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0023,v1_dallas::transgender_people__credit_and_financial_services__access_to_banking_services,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0024,v1_dallas::latino_people__criminal_justice__incarceration,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0025,v1_dallas::non_latino_people__education__educational_opportunity_access,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0026,v3_la::black_people__criminal_justice__incarceration,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0027,v1_dallas::heterosexual_people__healthcare__insurance_coverage,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0028,v1_dallas::people__criminal_justice__arrest_detention_by_police,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0029,v1_dallas::homosexual_people__education__educational_opportunity_access,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0030,v1_dallas::latino_people__criminal_justice__incarceration,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0031,v3_la::black_people__government_benefits__application_approval,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0032,v3_la::black_people__healthcare__insurance_coverage,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0033,v1_dallas::men__healthcare__patient_safety,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0034,v1_dallas::heterosexual_people__criminal_justice__arrest_detention_by_police,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0035,v1_dallas::black_people__criminal_justice__arrest_detention_by_police,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0036,v1_dallas::homosexual_people__housing__access_to_housing,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0037,v1_dallas::heterosexual_people__education__harassment_bullying,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0038,v1_dallas::homosexual_people__credit_and_financial_services__credit_loan_approval,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0039,v1_dallas::latino_people__government_benefits__benefit_retention_renewal,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0040,v3_la::black_people__criminal_justice__arrest_detention_by_police,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0041,v1_dallas::people__government_benefits__application_approval,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0042,v1_dallas::latino_people__healthcare__patient_safety,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0043,v1_dallas::women__criminal_justice__police_use_of_force,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0044,v1_dallas::transgender_people__criminal_justice__arrest_detention_by_police,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0045,v1_dallas::people_without_disabilities__government_benefits__access_to_government_benefits,matched,know,NP Ved that S,negative,,matched_strict,,1.4967998
+V0046,v1_dallas::women__employment__hiring,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0047,v1_dallas::people_without_disabilities__credit_and_financial_services__credit_loan_approval,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0048,v1_dallas::black_people__criminal_justice__arrest_detention_by_police,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0049,v1_dallas::women__housing__access_to_housing,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0050,v1_dallas::latino_people__housing__homelessness,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0051,v1_dallas::women__criminal_justice__police_use_of_force,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0052,v1_dallas::latino_people__employment__career_advancement,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0053,v1_dallas::men__education__harassment_bullying,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0054,v1_dallas::non_latino_people__employment__career_advancement,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0055,v1_dallas::women__education__harassment_bullying,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0056,v1_dallas::men__criminal_justice__incarceration,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0057,v1_dallas::people_without_disabilities__housing__homelessness,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0058,v1_dallas::people_with_disabilities__credit_and_financial_services__access_to_credit,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0059,v1_dallas::transgender_people__housing__homelessness,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0060,v1_dallas::people_with_disabilities__education__harassment_bullying,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0061,v1_dallas::latino_people__housing__access_to_housing,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0062,v1_dallas::non_latino_people__government_benefits__application_approval,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0063,v1_dallas::people_without_disabilities__government_benefits__benefit_retention_renewal,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0064,v1_dallas::transgender_people__criminal_justice__arrest_detention_by_police,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0065,v1_dallas::black_people__education__educational_opportunity_access,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0066,v3_la::black_people__housing__housing_stability,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0067,v1_dallas::black_people__credit_and_financial_services__access_to_credit,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0068,v1_dallas::non_latino_people__credit_and_financial_services__credit_loan_approval,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0069,v1_dallas::non_latino_people__education__college_access_admission,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0070,v1_dallas::transgender_people__housing__housing_stability,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0071,v1_dallas::transgender_people__education__college_access_admission,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0072,v3_la::black_people__credit_and_financial_services__credit_loan_approval,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0073,v3_la::black_people__housing__homelessness,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0074,v1_dallas::people__government_benefits__application_approval,matched,know,NP Ved that S,negative,,matched_strict,,1.4967998
+V0075,v1_dallas::people_without_disabilities__housing__access_to_housing,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0076,v1_dallas::non_latino_people__housing__access_to_housing,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0077,v1_dallas::white_people__housing__access_to_housing,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0078,v1_dallas::people_without_disabilities__education__harassment_bullying,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0079,v1_dallas::men__credit_and_financial_services__access_to_banking_services,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0080,v1_dallas::people__housing__housing_stability,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0081,v1_dallas::latino_people__credit_and_financial_services__credit_loan_approval,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0082,v1_dallas::black_people__housing__access_to_housing,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0083,v1_dallas::people__healthcare__insurance_coverage,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0084,v1_dallas::black_people__housing__homelessness,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0085,v1_dallas::black_people__employment__career_advancement,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0086,v1_dallas::men__credit_and_financial_services__access_to_credit,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0087,v1_dallas::heterosexual_people__education__educational_opportunity_access,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0088,v1_dallas::white_people__healthcare__preventive_care,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0089,v1_dallas::women__education__harassment_bullying,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0090,v1_dallas::white_people__government_benefits__access_to_government_benefits,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0091,v3_la::black_people__government_benefits__application_approval,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0092,v1_dallas::women__criminal_justice__arrest_detention_by_police,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0093,v3_la::black_people__government_benefits__benefit_retention_renewal,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0094,v1_dallas::women__criminal_justice__police_use_of_force,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0095,v1_dallas::men__criminal_justice__incarceration,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0096,v1_dallas::people__criminal_justice__police_use_of_force,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0097,v1_dallas::transgender_people__education__college_access_admission,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0098,v1_dallas::people_with_disabilities__criminal_justice__arrest_detention_by_police,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0099,v3_la::black_people__healthcare__preventive_care,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0100,v1_dallas::latino_people__housing__housing_stability,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0101,v1_dallas::latino_people__criminal_justice__police_use_of_force,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0102,v1_dallas::latino_people__employment__hiring,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0103,v1_dallas::latino_people__criminal_justice__arrest_detention_by_police,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0104,v3_la::black_people__government_benefits__application_approval,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0105,v1_dallas::cisgender_people__employment__hiring,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0106,v1_dallas::latino_people__credit_and_financial_services__access_to_credit,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0107,v1_dallas::black_people__credit_and_financial_services__access_to_credit,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0108,v3_la::black_people__government_benefits__application_approval,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0109,v1_dallas::non_latino_people__education__harassment_bullying,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0110,v1_dallas::black_people__criminal_justice__arrest_detention_by_police,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0111,v1_dallas::people_without_disabilities__criminal_justice__arrest_detention_by_police,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0112,v1_dallas::women__government_benefits__application_approval,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0113,v1_dallas::cisgender_people__government_benefits__application_approval,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0114,v1_dallas::people__government_benefits__benefit_retention_renewal,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0115,v1_dallas::white_people__criminal_justice__incarceration,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0116,v1_dallas::people_with_disabilities__government_benefits__access_to_government_benefits,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0117,v1_dallas::heterosexual_people__education__educational_opportunity_access,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0118,v1_dallas::heterosexual_people__housing__access_to_housing,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0119,v3_la::black_people__education__college_access_admission,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0120,v1_dallas::latino_people__government_benefits__benefit_retention_renewal,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0121,v1_dallas::men__government_benefits__application_approval,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0122,v1_dallas::non_latino_people__housing__housing_stability,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0123,v1_dallas::heterosexual_people__criminal_justice__incarceration,matched,dictate,NP Ved that S,positive,,matched_strict,,-0.37246418
+V0124,v1_dallas::white_people__government_benefits__application_approval,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0125,v1_dallas::women__education__harassment_bullying,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0126,v1_dallas::black_people__criminal_justice__arrest_detention_by_police,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0127,v3_la::black_people__criminal_justice__incarceration,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0128,v1_dallas::homosexual_people__employment__career_advancement,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0129,v1_dallas::homosexual_people__government_benefits__application_approval,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0130,v3_la::black_people__housing__access_to_housing,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0131,v1_dallas::white_people__employment__workplace_harassment,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0132,v1_dallas::men__criminal_justice__police_use_of_force,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0133,v1_dallas::latino_people__housing__access_to_housing,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0134,v1_dallas::latino_people__healthcare__insurance_coverage,matched,lead,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.99594826
+V0135,v1_dallas::homosexual_people__employment__career_advancement,matched,lead,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.99594826
+V0136,v1_dallas::homosexual_people__credit_and_financial_services__access_to_credit,matched,lead,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.99594826
+V0137,v1_dallas::black_people__healthcare__patient_safety,matched,lead,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.99594826
+V0138,v1_dallas::people_with_disabilities__healthcare__preventive_care,matched,lead,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.99594826
+V0139,v1_dallas::latino_people__criminal_justice__police_use_of_force,matched,lead,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.99594826
+V0140,v1_dallas::transgender_people__healthcare__patient_safety,matched,lead,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.99594826
+V0141,v1_dallas::non_latino_people__employment__workplace_harassment,matched,use,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.5548276
+V0142,v1_dallas::homosexual_people__education__college_access_admission,matched,use,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.5548276
+V0143,v1_dallas::cisgender_people__criminal_justice__police_use_of_force,matched,use,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.5548276
+V0144,v1_dallas::people__government_benefits__benefit_retention_renewal,matched,use,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.5548276
+V0145,v1_dallas::people_with_disabilities__government_benefits__benefit_retention_renewal,matched,use,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.5548276
+V0146,v1_dallas::transgender_people__criminal_justice__arrest_detention_by_police,matched,use,NP was Ved to VP[+eventive],positive,,matched_strict,,0.51645464
+V0147,v1_dallas::people_with_disabilities__government_benefits__benefit_retention_renewal,matched,prove,NP Ved that S,positive,,matched_strict,,-0.018218411
+V0148,v1_dallas::homosexual_people__credit_and_financial_services__credit_loan_approval,matched,prove,NP Ved that S,positive,,matched_strict,,-0.018218411
+V0149,v1_dallas::people_without_disabilities__government_benefits__access_to_government_benefits,matched,prove,NP Ved that S,positive,,matched_strict,,-0.018218411
+V0150,v1_dallas::people_without_disabilities__credit_and_financial_services__credit_loan_approval,matched,ensure,NP Ved that S,positive,,matched_strict,,-0.5772175
+V0151,v1_dallas::women__employment__career_advancement,matched,ensure,NP Ved that S,positive,,matched_strict,,-0.5772175
+V0152,v1_dallas::people__credit_and_financial_services__credit_loan_approval,matched,ensure,NP Ved that S,positive,,matched_strict,,-0.5772175
+V0153,v1_dallas::latino_people__employment__hiring,matched,demonstrate,NP Ved that S,positive,,matched_strict,,-0.3352641
+V0154,v1_dallas::white_people__housing__homelessness,matched,demonstrate,NP Ved that S,positive,,matched_strict,,-0.3352641
+V0155,v1_dallas::heterosexual_people__credit_and_financial_services__credit_loan_approval,matched,demonstrate,NP Ved that S,positive,,matched_strict,,-0.3352641
+V0156,v1_dallas::homosexual_people__credit_and_financial_services__credit_loan_approval,matched,reveal,NP Ved that S,positive,,matched_strict,,0.82202023
+V0157,v1_dallas::homosexual_people__credit_and_financial_services__credit_loan_approval,matched,reveal,NP Ved that S,positive,,matched_strict,,0.82202023
+V0158,v1_dallas::black_people__credit_and_financial_services__access_to_credit,matched,reveal,NP Ved that S,positive,,matched_strict,,0.82202023
+V0159,v1_dallas::latino_people__employment__career_advancement,matched,report,NP Ved that S,positive,,matched_strict,,-0.30240816
+V0160,v1_dallas::black_people__credit_and_financial_services__access_to_credit,matched,report,NP Ved NP to VP[-eventive],positive,,matched_strict,,-0.20529613
+V0161,v1_dallas::heterosexual_people__credit_and_financial_services__credit_loan_approval,matched,determine,NP Ved that S,positive,,matched_strict,,-0.12988712
+V0162,v1_dallas::black_people__employment__workplace_harassment,matched,determine,NP Ved that S,positive,,matched_strict,,-0.12988712
+V0163,v1_dallas::homosexual_people__healthcare__preventive_care,matched,assume,NP Ved that S,positive,,matched_strict,,-1.3247496
+V0164,v1_dallas::heterosexual_people__employment__hiring,matched,assume,NP Ved that S,positive,,matched_strict,,-1.3247496
+V0165,v1_dallas::latino_people__criminal_justice__police_use_of_force,matched,suggest,NP Ved that S,positive,,matched_strict,,-1.9342568
+V0166,v1_dallas::black_people__criminal_justice__police_use_of_force,matched,suggest,NP Ved that S,positive,,matched_strict,,-1.9342568
+V0167,v1_dallas::transgender_people__education__college_access_admission,matched,design,NP Ved to VP[+eventive],positive,,matched_strict,,-1.0458529
+V0168,v1_dallas::latino_people__employment__hiring,matched,design,NP Ved to VP[+eventive],positive,,matched_strict,,-1.0458529
+V0169,v1_dallas::people_without_disabilities__healthcare__preventive_care,matched,understand,NP Ved that S,positive,,matched_strict,,1.8251444
+V0170,v1_dallas::people__healthcare__preventive_care,matched,understand,NP Ved that S,positive,,matched_strict,,1.8251444
+V0171,v1_dallas::women__education__educational_opportunity_access,matched,choose,NP Ved to VP[+eventive],positive,,matched_strict,,0.92311674
+V0172,v1_dallas::people__criminal_justice__arrest_detention_by_police,matched,choose,NP Ved to VP[+eventive],positive,,matched_strict,,0.92311674
+V0173,v1_dallas::transgender_people__housing__access_to_housing,matched,require,NP Ved that S,positive,,matched_strict,,-1.708156
+V0174,v1_dallas::men__healthcare__preventive_care,matched,believe,NP Ved that S,positive,,matched_strict,,-1.1882768
+V0175,v1_dallas::women__government_benefits__benefit_retention_renewal,matched,feel,NP Ved that S,positive,,matched_strict,,-1.2505344
+V0176,v1_dallas::women__government_benefits__application_approval,matched,clarify,NP Ved that S,positive,,matched_strict,,0.16797526
+V0177,v1_dallas::people_without_disabilities__credit_and_financial_services__access_to_banking_services,matched,need,NP Ved NP to VP[+eventive],positive,,matched_strict,,-0.56830466
+V0178,v1_dallas::people__credit_and_financial_services__credit_loan_approval,matched,look,NP Ved to VP[+eventive],positive,,matched_strict,,-0.1319544
+V0179,v1_dallas::transgender_people__housing__housing_stability,matched,expose,NP Ved NP to VP[-eventive],positive,,matched_strict,,1.2803769
+V0180,v3_la::black_people__education__harassment_bullying,matched,signal,NP Ved that S,positive,,matched_strict,,-0.1452402
+V0181,v1_dallas::latino_people__government_benefits__benefit_retention_renewal,matched,ask,NP was Ved to VP[+eventive],positive,,matched_strict,,-1.4978678
+V0182,v3_la::black_people__criminal_justice__incarceration,matched,document,NP was Ved to VP[-eventive],positive,,matched_strict,,0.94652855
+V0183,v1_dallas::white_people__education__college_access_admission,matched,find,NP Ved that S,positive,,matched_strict,,0.52022254
+V0184,v1_dallas::women__criminal_justice__arrest_detention_by_police,matched,influence,NP Ved NP to VP[-eventive],positive,,matched_strict,,0.21015352
+V0185,v1_dallas::transgender_people__education__college_access_admission,matched,evaluate,NP Ved that S,positive,,matched_strict,,-0.68398356
+V0186,v1_dallas::women__government_benefits__benefit_retention_renewal,matched,maintain,NP Ved that S,positive,,matched_strict,,-0.8247037
+V0187,v1_dallas::people_without_disabilities__credit_and_financial_services__access_to_credit,matched,see,NP Ved that S,positive,,matched_strict,,0.25954938
+V0188,v1_dallas::women__government_benefits__application_approval,matched,assess,NP Ved that S,positive,,matched_strict,,0.0047498997
+V0189,v1_dallas::women__employment__workplace_harassment,matched,share,NP Ved that S,positive,,matched_strict,,1.1536943
+V0190,v1_dallas::non_latino_people__education__harassment_bullying,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0191,v1_dallas::heterosexual_people__education__harassment_bullying,matched,indicate,NP Ved that S,positive,,matched_strict,,-0.5292314
+V0192,v3_la::black_people__employment__hiring,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0193,v1_dallas::white_people__criminal_justice__police_use_of_force,matched,note,NP Ved that S,positive,,matched_strict,,0.49871644
+V0194,v1_dallas::cisgender_people__criminal_justice__police_use_of_force,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0195,v1_dallas::homosexual_people__housing__access_to_housing,matched,show,NP Ved that S,positive,,matched_strict,,0.22386
+V0196,v1_dallas::black_people__government_benefits__benefit_retention_renewal,matched,require,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.18342596
+V0197,v1_dallas::black_people__credit_and_financial_services__credit_loan_approval,matched,use,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.5548276
+V0198,v1_dallas::men__credit_and_financial_services__access_to_credit,matched,suggest,NP Ved that S,positive,,matched_strict,,-1.9342568
+V0199,v1_dallas::latino_people__housing__housing_stability,matched,know,NP Ved that S,positive,,matched_strict,,1.4967998
+V0200,v3_la::black_people__education__college_access_admission,matched,lead,NP Ved NP to VP[+eventive],positive,,matched_strict,,0.99594826
+V0201,v1_dallas::cisgender_people__government_benefits__application_approval,unmatched,apply,,positive,,unmatched,no_clause_complement,
+V0202,v1_dallas::people_with_disabilities__housing__access_to_housing,unmatched,look,,positive,,unmatched,no_clause_complement,
+V0203,v1_dallas::homosexual_people__housing__homelessness,unmatched,be,,positive,,unmatched,no_clause_complement,
+V0204,v1_dallas::people_without_disabilities__credit_and_financial_services__access_to_credit,unmatched,like,,positive,,unmatched,no_clause_complement,
+V0205,v1_dallas::cisgender_people__criminal_justice__arrest_detention_by_police,unmatched,be,,positive,,unmatched,no_clause_complement,
+V0206,v1_dallas::people__healthcare__patient_safety,unmatched,voice,,positive,,unmatched,no_clause_complement,
+V0207,v1_dallas::latino_people__healthcare__patient_safety,unmatched,estimate,,positive,,unmatched,no_clause_complement,
+V0208,v1_dallas::homosexual_people__government_benefits__application_approval,unmatched,influence,,positive,,unmatched,no_clause_complement,
+V0209,v1_dallas::transgender_people__education__college_access_admission,unmatched,publish,,positive,,unmatched,no_clause_complement,
+V0210,v1_dallas::people_with_disabilities__criminal_justice__arrest_detention_by_police,unmatched,influence,,positive,,unmatched,no_clause_complement,
+V0211,v1_dallas::homosexual_people__credit_and_financial_services__credit_loan_approval,unmatched,influence,,positive,,unmatched,no_clause_complement,
+V0212,v1_dallas::people_with_disabilities__government_benefits__benefit_retention_renewal,unmatched,influence,,positive,,unmatched,no_clause_complement,
+V0213,v1_dallas::women__healthcare__patient_safety,unmatched,regard,,positive,,unmatched,no_clause_complement,
+V0214,v1_dallas::transgender_people__education__educational_opportunity_access,unmatched,lead,,positive,,unmatched,no_clause_complement,
+V0215,v1_dallas::men__housing__homelessness,unmatched,please,,positive,,unmatched,no_clause_complement,
+V0216,v1_dallas::women__government_benefits__access_to_government_benefits,unmatched,meet,,positive,,unmatched,no_clause_complement,
+V0217,v1_dallas::transgender_people__healthcare__patient_safety,unmatched,miss,,positive,,unmatched,no_clause_complement,
+V0218,v1_dallas::non_latino_people__employment__career_advancement,unmatched,study,,positive,,unmatched,no_clause_complement,
+V0219,v1_dallas::women__criminal_justice__incarceration,unmatched,look,,positive,,unmatched,no_clause_complement,
+V0220,v1_dallas::white_people__employment__workplace_harassment,unmatched,include,,positive,,unmatched,no_clause_complement,
+V0221,v1_dallas::people__criminal_justice__arrest_detention_by_police,unmatched,suspect,,positive,,unmatched,no_clause_complement,
+V0222,v1_dallas::people__criminal_justice__incarceration,unmatched,detail,,positive,,unmatched,no_clause_complement,
+V0223,v1_dallas::black_people__housing__access_to_housing,unmatched,like,,positive,,unmatched,no_clause_complement,
+V0224,v1_dallas::black_people__government_benefits__application_approval,unmatched,see,,positive,,unmatched,no_clause_complement,
+V0225,v1_dallas::homosexual_people__credit_and_financial_services__access_to_credit,unmatched,share,,positive,,unmatched,no_clause_complement,
+V0226,v1_dallas::heterosexual_people__government_benefits__access_to_government_benefits,unmatched,discourage,,positive,,unmatched,no_clause_complement,
+V0227,v1_dallas::men__government_benefits__access_to_government_benefits,unmatched,be,,positive,,unmatched,no_clause_complement,
+V0228,v1_dallas::people_with_disabilities__criminal_justice__incarceration,unmatched,miss,,positive,,unmatched,no_clause_complement,
+V0229,v1_dallas::men__criminal_justice__police_use_of_force,unmatched,force,,positive,,unmatched,no_clause_complement,
+V0230,v1_dallas::white_people__government_benefits__application_approval,unmatched,like,,positive,,unmatched,no_clause_complement,
+V0231,v3_la::black_people__healthcare__preventive_care,unmatched,detail,,positive,,unmatched,no_clause_complement,
+V0232,v1_dallas::heterosexual_people__housing__homelessness,unmatched,force,,positive,,unmatched,no_clause_complement,
+V0233,v1_dallas::people__education__harassment_bullying,unmatched,trigger,,positive,,unmatched,no_clause_complement,
+V0234,v1_dallas::black_people__healthcare__preventive_care,unmatched,be,,positive,,unmatched,no_clause_complement,
+V0235,v1_dallas::cisgender_people__healthcare__insurance_coverage,unmatched,be,,positive,,unmatched,no_clause_complement,
+V0236,v1_dallas::homosexual_people__employment__hiring,unmatched,hire,,positive,,unmatched,no_clause_complement,
+V0237,v3_la::black_people__criminal_justice__police_use_of_force,unmatched,use,,positive,,unmatched,no_clause_complement,
+V0238,v1_dallas::people_with_disabilities__healthcare__insurance_coverage,unmatched,long,,positive,,unmatched,no_clause_complement,
+V0239,v1_dallas::men__healthcare__patient_safety,unmatched,be,,positive,,unmatched,no_clause_complement,
+V0240,v1_dallas::women__criminal_justice__police_use_of_force,unmatched,use,,positive,,unmatched,no_clause_complement,
+V0241,v1_dallas::black_people__criminal_justice__incarceration,unmatched,be,,positive,,unmatched,no_clause_complement,
+V0242,v1_dallas::white_people__government_benefits__benefit_retention_renewal,unmatched,manage,,positive,,unmatched,no_clause_complement,
+V0243,v1_dallas::transgender_people__employment__hiring,unmatched,like,,positive,,unmatched,no_clause_complement,
+V0244,v1_dallas::non_latino_people__healthcare__patient_safety,unmatched,type,,positive,,unmatched,no_clause_complement,
+V0245,v1_dallas::women__employment__career_advancement,unmatched,look,,positive,,unmatched,no_clause_complement,
+V0246,v1_dallas::white_people__government_benefits__benefit_retention_renewal,unmatched,mandate,,positive,,unmatched,no_clause_complement,
+V0247,v1_dallas::heterosexual_people__education__harassment_bullying,unmatched,generalize,,positive,,unmatched,no_clause_complement,
+V0248,v1_dallas::women__housing__housing_stability,unmatched,publish,,positive,,unmatched,no_clause_complement,
+V0249,v3_la::black_people__government_benefits__application_approval,unmatched,state,,positive,,unmatched,no_clause_complement,
+V0250,v1_dallas::homosexual_people__housing__access_to_housing,unmatched,report,,positive,,unmatched,no_clause_complement,
+V0251,v1_dallas::homosexual_people__employment__hiring,unmatched,show,,positive,,unmatched,no_clause_complement,
+V0252,v1_dallas::heterosexual_people__education__harassment_bullying,unmatched,study,,positive,,unmatched,no_clause_complement,
+V0253,v1_dallas::transgender_people__government_benefits__benefit_retention_renewal,unmatched,submit,,positive,,unmatched,no_clause_complement,
+V0254,v1_dallas::non_latino_people__credit_and_financial_services__credit_loan_approval,unmatched,influence,,positive,,unmatched,no_clause_complement,
+V0255,v1_dallas::people_without_disabilities__government_benefits__access_to_government_benefits,unmatched,detail,,positive,,unmatched,no_clause_complement,
+V0256,v1_dallas::heterosexual_people__credit_and_financial_services__access_to_credit,unmatched,type,,positive,,unmatched,no_clause_complement,
+V0257,v1_dallas::people__healthcare__insurance_coverage,unmatched,influence,,positive,,unmatched,no_clause_complement,
+V0258,v1_dallas::transgender_people__credit_and_financial_services__access_to_credit,unmatched,name,,positive,,unmatched,no_clause_complement,
+V0259,v1_dallas::heterosexual_people__healthcare__patient_safety,unmatched,ask,,positive,,unmatched,no_clause_complement,
+V0260,v1_dallas::transgender_people__healthcare__insurance_coverage,unmatched,affirm,,positive,,unmatched,no_clause_complement,
+V0261,v1_dallas::women__employment__hiring,unmatched,like,,positive,,unmatched,no_clause_complement,
+V0262,v1_dallas::cisgender_people__housing__homelessness,unmatched,be,,positive,,unmatched,no_clause_complement,
+V0263,v1_dallas::men__government_benefits__benefit_retention_renewal,unmatched,snap,,positive,,unmatched,no_clause_complement,
+V0264,v1_dallas::women__government_benefits__access_to_government_benefits,unmatched,take,,positive,,unmatched,no_clause_complement,
+V0265,v1_dallas::heterosexual_people__healthcare__preventive_care,unmatched,engage,,positive,,unmatched,no_clause_complement,
+V0266,v1_dallas::people_without_disabilities__housing__housing_stability,unmatched,like,,positive,,unmatched,no_clause_complement,
+V0267,v1_dallas::cisgender_people__government_benefits__application_approval,unmatched,submit,,positive,,unmatched,no_clause_complement,
+V0268,v1_dallas::transgender_people__criminal_justice__arrest_detention_by_police,unmatched,study,,positive,,unmatched,no_clause_complement,
+V0269,v1_dallas::cisgender_people__government_benefits__application_approval,unmatched,show,,positive,,unmatched,no_clause_complement,
+V0270,v1_dallas::homosexual_people__healthcare__preventive_care,unmatched,feel,,positive,,unmatched,no_clause_complement,
+V0271,v1_dallas::heterosexual_people__credit_and_financial_services__access_to_credit,unmatched,look,,positive,,unmatched,no_clause_complement,
+V0272,v1_dallas::cisgender_people__education__college_access_admission,unmatched,look,,positive,,unmatched,no_clause_complement,
+V0273,v1_dallas::cisgender_people__healthcare__insurance_coverage,unmatched,look,,positive,,unmatched,no_clause_complement,
+V0274,v1_dallas::people_without_disabilities__criminal_justice__police_use_of_force,unmatched,use,,positive,,unmatched,no_clause_complement,
+V0275,v1_dallas::people_with_disabilities__education__educational_opportunity_access,unmatched,regard,,positive,,unmatched,no_clause_complement,
+V0276,v1_dallas::people_without_disabilities__education__college_access_admission,unmatched,regard,,positive,,unmatched,no_clause_complement,
+V0277,v1_dallas::black_people__education__harassment_bullying,unmatched,bully,,positive,,unmatched,no_clause_complement,
+V0278,v1_dallas::white_people__credit_and_financial_services__credit_loan_approval,unmatched,type,,positive,,unmatched,no_clause_complement,
+V0279,v1_dallas::people__healthcare__preventive_care,unmatched,care,,positive,,unmatched,no_clause_complement,
+V0280,v1_dallas::non_latino_people__housing__access_to_housing,unmatched,qualify,,positive,,unmatched,no_clause_complement,
+V0281,v1_dallas::transgender_people__healthcare__insurance_coverage,unmatched,state,,positive,,unmatched,no_clause_complement,
+V0282,v1_dallas::women__healthcare__patient_safety,unmatched,influence,,positive,,unmatched,no_clause_complement,
+V0283,v1_dallas::cisgender_people__housing__housing_stability,unmatched,impact,,positive,,unmatched,predicate_not_in_resource,
+V0284,v1_dallas::latino_people__employment__workplace_harassment,unmatched,let,,positive,,unmatched,predicate_not_in_resource,
+V0285,v1_dallas::black_people__education__educational_opportunity_access,unmatched,gap,,positive,,unmatched,predicate_not_in_resource,
+V0286,v1_dallas::black_people__government_benefits__benefit_retention_renewal,unmatched,likely,,positive,,unmatched,predicate_not_in_resource,
+V0287,v1_dallas::women__criminal_justice__arrest_detention_by_police,unmatched,encounter,,positive,,unmatched,predicate_not_in_resource,
+V0288,v3_la::black_people__credit_and_financial_services__access_to_banking_services,unmatched,experience,,positive,,unmatched,predicate_not_in_resource,
+V0289,v1_dallas::women__education__harassment_bullying,unmatched,leave,,positive,,unmatched,predicate_not_in_resource,
+V0290,v1_dallas::men__government_benefits__access_to_government_benefits,unmatched,let,,positive,,unmatched,predicate_not_in_resource,
+V0291,v1_dallas::transgender_people__healthcare__insurance_coverage,unmatched,permit,NP Ved to VP[+eventive] | NP Ved to VP[-eventive],positive,,unmatched,frame_unresolved,
+V0292,v1_dallas::latino_people__housing__housing_stability,unmatched,mean,NP Ved that S,positive,,unmatched,frame_unresolved,
+V0293,v1_dallas::black_people__healthcare__insurance_coverage,unmatched,mean,NP Ved that S,positive,,unmatched,frame_unresolved,
+V0294,v1_dallas::white_people__government_benefits__benefit_retention_renewal,unmatched,understand,,positive,,unmatched,frame_unresolved,
+V0295,v1_dallas::homosexual_people__housing__homelessness,unmatched,use,NP Ved to VP[+eventive] | NP Ved to VP[-eventive],positive,,unmatched,eventivity_unresolved,
+V0296,v1_dallas::men__government_benefits__benefit_retention_renewal,unmatched,fail,NP Ved to VP[+eventive] | NP Ved to VP[-eventive],positive,,unmatched,eventivity_unresolved,
+V0297,v1_dallas::black_people__credit_and_financial_services__access_to_banking_services,unmatched,use,NP Ved to VP[+eventive] | NP Ved to VP[-eventive],positive,,unmatched,eventivity_unresolved,
+V0298,v1_dallas::women__government_benefits__access_to_government_benefits,unmatched,fail,NP Ved to VP[+eventive] | NP Ved to VP[-eventive],positive,,unmatched,eventivity_unresolved,
+V0299,v1_dallas::people__government_benefits__benefit_retention_renewal,unmatched,fail,NP Ved to VP[+eventive] | NP Ved to VP[-eventive],positive,,unmatched,conditional_context,
+V0300,v1_dallas::people_with_disabilities__education__harassment_bullying,unmatched,make,,positive,,unmatched,ambiguous_surface,

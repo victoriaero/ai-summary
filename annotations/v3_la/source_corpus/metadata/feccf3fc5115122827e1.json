@@ -1,0 +1,28 @@
+{
+  "source_id": "feccf3fc5115122827e1",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13252812",
+  "fetch_timestamp_utc": "2026-10-04T03:49:47.509727+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13252812/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 376501,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/feccf3fc5115122827e1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/feccf3fc5115122827e1.txt",
+  "text_chars": 95910,
+  "text_words": 13153,
+  "extraction_status": "success",
+  "page_title": "Housing ableism in finding and maintaining housing among people with disabilities: A scoping review",
+  "page_author": "Sally Lindsay; Gözde Öncil; Sarah Leo",
+  "page_date": "2026-06-10",
+  "site_name": "PLOS One",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13252812/"
+}

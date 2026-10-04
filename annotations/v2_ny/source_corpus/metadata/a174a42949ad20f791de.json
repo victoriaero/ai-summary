@@ -1,0 +1,16 @@
+{
+  "source_id": "a174a42949ad20f791de",
+  "normalized_url": "https://trans.ac.uk/Supporting-Students/Access-to-college-and-university",
+  "fetch_timestamp_utc": "2026-10-04T02:45:37.238788+00:00",
+  "registrable_domain": "trans.ac.uk",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 6,
+  "http_status": 0,
+  "final_url": "https://trans.ac.uk/Supporting-Students/Access-to-college-and-university",
+  "content_type": "",
+  "error": "curl: (6) Could not resolve host: trans.ac.uk\ncurl: (6) Could not resolve host: trans.ac.uk",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

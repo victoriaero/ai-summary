@@ -1,0 +1,28 @@
+{
+  "source_id": "7a22947a9741ec5a7621",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8909748",
+  "fetch_timestamp_utc": "2026-10-04T02:42:20.724566+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8909748/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 306876,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7a22947a9741ec5a7621.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7a22947a9741ec5a7621.txt",
+  "text_chars": 86886,
+  "text_words": 12232,
+  "extraction_status": "success",
+  "page_title": "Gender Identity, Disability, and Unmet Healthcare Needs among Disabled People Living in the Community in the United States",
+  "page_author": "Abigail Mulcahy; Carl G Streed; Jr; Anna Marie Wallisch; Katie Batza; Noelle Kurth; Jean P Hall; Darcy Jones McMaughan",
+  "page_date": "2022-02-23",
+  "site_name": "International Journal of Environmental Research and Public Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8909748/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "080a6a53989313c96275",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7678806",
+  "fetch_timestamp_utc": "2026-10-04T02:33:04.928362+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7678806/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 185399,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/080a6a53989313c96275.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/080a6a53989313c96275.txt",
+  "text_chars": 48975,
+  "text_words": 7221,
+  "extraction_status": "success",
+  "page_title": "LGBTQ bullying: a qualitative investigation of student and school health professional perspectives",
+  "page_author": "V A Earnshaw; D D Menino; L M Sava; J Perrotti; T N Barnes; D L Humphrey; S L Reisner",
+  "page_date": "2019-08-20",
+  "site_name": "Journal of LGBT youth",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7678806/"
+}

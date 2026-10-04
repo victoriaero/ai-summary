@@ -1,0 +1,28 @@
+{
+  "source_id": "336ffc72af7d3cc839bb",
+  "normalized_url": "https://unidosus.org/blog/2026/06/16/federal-snap-cuts-have-denied-millions-of-latinos-and-other-americans-help-paying-for-food",
+  "fetch_timestamp_utc": "2026-10-04T03:34:25.060853+00:00",
+  "registrable_domain": "unidosus.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://unidosus.org/blog/2026/06/16/federal-snap-cuts-have-denied-millions-of-latinos-and-other-americans-help-paying-for-food/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 197325,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/336ffc72af7d3cc839bb.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/336ffc72af7d3cc839bb.txt",
+  "text_chars": 19941,
+  "text_words": 3973,
+  "extraction_status": "success",
+  "page_title": "Federal SNAP cuts have denied millions of Latinos and other Americans help paying for food",
+  "page_author": "Alessandra Cespedes; UnidosUS",
+  "page_date": "2026-06-16",
+  "site_name": "UnidosUS",
+  "canonical_url": "https://unidosus.org/blog/2026/06/16/federal-snap-cuts-have-denied-millions-of-latinos-and-other-americans-help-paying-for-food/"
+}

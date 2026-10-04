@@ -1,0 +1,28 @@
+{
+  "source_id": "a68f210f3811c9cb02ed",
+  "normalized_url": "https://cgdev.org/sites/default/files/women-and-credit-narrative-review-low-and-middle-income-countries.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:43:28.589061+00:00",
+  "registrable_domain": "cgdev.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cgdev.org/sites/default/files/women-and-credit-narrative-review-low-and-middle-income-countries.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 582045,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/a68f210f3811c9cb02ed.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/a68f210f3811c9cb02ed.txt",
+  "text_chars": 76200,
+  "text_words": 10447,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

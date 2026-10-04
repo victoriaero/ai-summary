@@ -1,0 +1,28 @@
+{
+  "source_id": "81a93b1da81732f64fee",
+  "normalized_url": "https://endhomelessness.org/resources/sharable-graphics/racial-inequalities-homelessness-numbers",
+  "fetch_timestamp_utc": "2026-10-04T02:42:55.006557+00:00",
+  "registrable_domain": "endhomelessness.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://endhomelessness.org/resources/sharable-graphics/racial-inequalities-homelessness-numbers",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 334994,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/81a93b1da81732f64fee.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/81a93b1da81732f64fee.txt",
+  "text_chars": 1636,
+  "text_words": 252,
+  "extraction_status": "success",
+  "page_title": "Racial Inequalities in Homelessness, by the Numbers",
+  "page_author": "Daniel Soucy",
+  "page_date": "2025-03-09",
+  "site_name": "National Alliance to End Homelessness",
+  "canonical_url": "https://endhomelessness.org/resources/sharable-graphics/racial-inequalities-homelessness-numbers/"
+}

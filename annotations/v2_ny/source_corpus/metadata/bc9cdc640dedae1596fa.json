@@ -1,0 +1,28 @@
+{
+  "source_id": "bc9cdc640dedae1596fa",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6497454",
+  "fetch_timestamp_utc": "2026-10-04T02:47:40.850120+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6497454/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 228481,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/bc9cdc640dedae1596fa.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/bc9cdc640dedae1596fa.txt",
+  "text_chars": 51944,
+  "text_words": 7275,
+  "extraction_status": "success",
+  "page_title": "Bullying Victimization among LGBTQ Youth: Current and Future Directions",
+  "page_author": "Amy L Gower; G Nic Rider; Barbara J McMorris; Marla E Eisenberg",
+  "page_date": "2018-08-30",
+  "site_name": "Current sexual health reports",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6497454/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "b415aff01f32a8fbf76b",
+  "normalized_url": "https://cbpp.org/research/lessons-churned-measuring-the-impact-of-churn-in-health-and-human-services-programs-on",
+  "fetch_timestamp_utc": "2026-10-04T03:44:19.115802+00:00",
+  "registrable_domain": "cbpp.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://cbpp.org/research/lessons-churned-measuring-the-impact-of-churn-in-health-and-human-services-programs-on",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 6157,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

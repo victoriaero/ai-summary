@@ -1,0 +1,15 @@
+{
+  "source_id": "833d8196d72d4faa41e5",
+  "normalized_url": "https://hispanicpro.com/profiles/blogs/latinos-on-the-rise-career-power-moves-in-2025",
+  "fetch_timestamp_utc": "2026-10-04T02:43:03.325440+00:00",
+  "registrable_domain": "hispanicpro.com",
+  "success": false,
+  "status": "hard_timeout",
+  "curl_returncode": 28,
+  "http_status": 0,
+  "final_url": "https://hispanicpro.com/profiles/blogs/latinos-on-the-rise-career-power-moves-in-2025",
+  "error": "curl: (28) Resolving timed out after 8000 milliseconds\ncurl: (28) Resolving timed out after 8000 milliseconds",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

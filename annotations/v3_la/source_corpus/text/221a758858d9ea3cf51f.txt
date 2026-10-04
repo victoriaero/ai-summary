@@ -1,0 +1,2657 @@
+1 
+ 
+Sexual Identity, Poverty, and Utilization of Government Services* 
+ 
+Cameron Deal1 
+Shea Greenberg2 
+Gilbert Gonzales3 
+ 
+This version: September 2022 
+Abstract 
+Previous literature has established that lesbian, gay, and bisexual (LGB) people are at least as likely to be 
+poor as heterosexual people, standing in contrast to myths of “gay affluence.” These findings have used 
+datasets limited by either sample size or using partnership status to infer sexual orientation. Using data from 
+the Household Pulse Survey, which allows us to identify large samples of individuals who self-identify as 
+lesbian, gay, or bisexual, we find that bisexuals have lower incomes, are more likely to experience poverty, 
+and bisexual individuals, gay men, and lesbian women are more likely to report financial hardship. 
+Additionally, we find that LGB people utilize government assistance at higher rates than heterosexual 
+people, even when controlling for economic status and restricting to those experiencing poverty. We 
+propose several explanations for these differentials, drawing on the program non-participation literature. 
+ 
+JEL Codes: I32, I38, J1 
+Key Words: poverty; social safety net; economic status; sexual minority; LGBTQ; child tax credit 
+ 
+Conflict of interest: The authors declare they have no conflict of interest. No funds, grants, or 
+other support was received.  
+ 
+Data Availability Statement: The datasets analyzed during the current study are available on 
+the U.S. Census Bureau website, https://www.census.gov/programs-surveys/household-pulse-
+survey/datasets.html.  
+ 
+ 
+ 
+*We thank the editor and three anonymous reviewers, as well as Laura Nettuno, Santiago Deambrosi, Samuel Mann, 
+Tara McKay, and M. V. Lee Badgett for their helpful comments. All errors are our own. 
+ 
+1  (Corresponding Author) Vanderbilt University, Program for Public Policy Studies, Nashville, TN, US. E-mail: 
+cameron.h.deal@vanderbilt.edu  
+2  Vanderbilt University. E-mail: shea.b.greenberg@vanderbilt.edu 
+3  Vanderbilt University. Department of Medicine, Health, and Society; Program for Public Policy Studies; Nashville, 
+TN, US. E-mail: gilbert.gonzales@vanderbilt.edu  
+
+
+2 
+ 
+1. Introduction 
+A large body of research has documented that sexual minorities (e.g. lesbian women, gay men, 
+and bisexual populations—henceforth referred to as LGB individuals) have worse economic 
+outcomes than heterosexuals, with lower incomes, higher rates of poverty, lower rates of health 
+insurance coverage, and lower rates of homeownership (Albelda et al., 2009; Badgett et al., 2021; 
+Elton & Gonzales, 2022; Gonzales & Blewett, 2014; Leppel, 2007; Uhrig, 2015). Additionally, 
+some literature has examined access to government services by sexual orientation, typically used 
+as a proxy for economic distress (Brown et al., 2016; Everett & Mollborn, 2014; Schneebaum & 
+Badgett, 2019). These health and socioeconomic disparities have been identified and targeted for 
+elimination by the National Academies of Science Engineering and Medicine (National Academies 
+of Science Engineering and Medicine, 2020).  
+Additionally, there is a large literature in public economics examining the delivery, take-up, 
+receipt, and utilization of public assistance programs (e.g., SNAP, Unemployment Insurance, etc.). 
+Nearly all public assistance programs do not have perfect take-up among eligible recipients, and 
+these rates can be crucial for projecting the aggregate costs and impacts of government assistance 
+programs, as well as evaluating the welfare implications of policies that have already been 
+implemented (Currie, 2004; Finkelstein & Hendren, 2020; van Oorschot, 1991). Several possible 
+explanations have been proposed for the drivers of imperfect take-up, including low monetary 
+gains, stigma of receipt, costs of program participation, imperfect information, administrative 
+barriers, and mismeasurement (Ko & Moffitt, 2022). Additionally, it is possible that differences in 
+access and take-up to government assistance programs can drive or amplify economic disparities 
+experienced by marginalized populations. We add novel evidence to the large body of public 
+economic literature by identifying differential take-up of public assistance programs between LGB 
+and heterosexual adults and proposing several explanations for the drivers of these differences 
+among the LGB population. 
+Understanding the economic position and receipt of government assistance among sexual 
+minorities is also important for several reasons. First, sexual minorities comprise a large and 
+increasing share of the American population, and sexual minorities have gained much-needed 
+recognition in public policy. Yet, there are substantial and ongoing policy implications that can be 
+informed by LGB differentials in government assistance take-up, given the magnitude of economic 
+costs that could occur. Badgett et al., 2021 report several estimates in the United States, finding 
+that 2.7-4.6 percent of the American adult population identifies as non-heterosexual. Recent 
+analyses have found that 15-20 percent of high school students identify as non-heterosexual 
+(Gonzales & Deal, 2022; B. Wilson & Meyer, 2021). These estimates imply that there may be 
+large policy implications that proceed from LGB differentials in government assistance take-up, 
+given the magnitude of costs that could occur. Second, some public assistance programs are 
+designed to benefit certain demographic characteristics and family structures (Hoffman, 2008; 
+Hussey, 2011). LGB people may differentially receive or utilize public assistance programs, given 
+that their demographic characteristics differ dramatically from heterosexuals (Brewster et al., 
+
+
+3 
+ 
+2014). In this respect, our analysis points towards a growing literature on population-targeted 
+policies—such as the Affordable Care Act—and their differential effects on LGB individuals (C. 
+S. Carpenter et al., 2021; C. S. Carpenter & Sansone, 2021; Marcén & Morales, 2022).4  
+Prior research on LGB poverty and government assistance receipt has been limited by small 
+sample sizes and the necessity of using same-sex couple status to infer sexual orientation (which 
+excludes single sexual minorities and bisexual individuals and may lead to unrepresentative 
+estimates) (Albelda et al., 2009; Badgett et al., 2013; Badgett, 2018; DiBennardo & Gates, 2014; 
+Schneebaum & Badgett, 2019; Uhrig, 2015). We leverage the large sample sizes of self-identified 
+sexual minorities in the U.S. Census Bureau’s Household Pulse Survey (HPS) to evaluate the 
+economic outcomes and government assistance receipt of sexual minorities relative to their 
+heterosexual counterparts. We are among the first, to the best of our knowledge, to examine 
+differences by sexual orientation across subjective measures of economic status. Additionally, we 
+evaluate several government assistance programs that have not previously been examined in the 
+context of differences by sexual orientation: the child tax credit, unemployment insurance, rental 
+assistance, and stimulus payments. We also examine whether government assistance differentials 
+for sexual minorities are homogeneous for bisexual and lesbian/gay individuals, identifying 
+disparities that may face a subset of sexual minorities but be obscured in overall figures. Finally, 
+we use data collected during the COVID-19 pandemic, a period of heightened economic distress 
+when government assistance programs were increasingly utilized across the population. 
+Evaluating the receipt and utilization of public assistance programs by sexual orientation is crucial 
+for policymakers that must consider the potential for heterogeneous effects of policy on different 
+communities, especially those with a history of worse economic outcomes. 
+We report several key results. We find that bisexuals have lower incomes and are more likely to 
+report household incomes below the federal poverty level (FPL) than heterosexuals. Similarly, gay 
+men, lesbian women, and bisexual individuals self-report higher economic insecurity than 
+heterosexuals. Additionally, we find that sexual minorities are more likely to receive and utilize 
+government services than heterosexuals. Differences in receiving government assistance persist 
+when controlling for FPL status, and we find evidence of higher utilization among gay and bisexual 
+men compared to heterosexual men when restricting to a subsample of individuals who report 
+household incomes below the FPL. We explore several potential reasons for this differential in our 
+discussion, including social network effects, stigma differences surrounding the use of public 
+assistance, and education differences. Finally, we evaluate receipt of the child tax credit by sexual 
+orientation and find that gay men and lesbian women are less likely to receive the child tax credit 
+than their heterosexual peers, even after adjusting for the presence of a child in the household and 
+ 
+4 Irrespective of these reasons, it is important to study the outcomes and economic wellbeing of marginalized 
+populations regardless of group size or demographic characteristics, as LGB populations have historically been 
+neglected in the economics literature (though the quantity of research has grown significantly) (Badgett, 1995; 
+Badgett et al., 2021). 
+
+
+4 
+ 
+the total number of children in the household. This difference holds even for the subsample of 
+individuals who report household incomes below the FPL. 
+The remainder of the paper takes the following form. Section 2 reviews previous literature on 
+sexual minority economic status, as well as access to and utilization of government assistance 
+programs. Section 3 develops a conceptual framework for LGB differentials in public assistance 
+take-up and access. Section 4 describes our data and empirical approach. Section 5 presents the 
+results, and Section 6 concludes. 
+2. Literature Review 
+Poverty 
+The U.S. Census Bureau measures poverty by comparing a person or family’s household income 
+to a threshold dependent on family size (Brady, 2005). One avenue through which the U.S. 
+government addresses poverty is public assistance programs, including cash support, provision of 
+necessities (e.g., health insurance and funding to subsidize food or housing), and employment 
+programs.  
+Due to discrimination, structural racism, and historical inequities, minority groups are often 
+disproportionally affected by poverty and have reduced access to public resources (Horsfall, 2012). 
+For example, people with disabilities and Hispanic people are less likely to participate in programs 
+like SNAP (Supplemental Nutrition Assistance Program), often because they do not know about 
+benefits or are unable to navigate the enrollment process (Alvira-Hammond & Gennetian, 2015; 
+Keith-Jennings et al., 2019).  
+The theoretical impact of the COVID-19 pandemic on poverty is unclear. While the pandemic 
+certainly interrupted the economy, causing widespread unemployment and economic distress for 
+families, the federal government responded with historic public assistance efforts like the advance 
+CTC, Paycheck Protection Program, and pausing Medicaid disenrollment. Thus, the question on 
+which of these shifts dominated the other remains to be answered. 
+LGB Economic & Poverty Status 
+Several economic studies have documented income differentials and penalties for sexual 
+minorities. Gay and bisexual men have lower average incomes than do heterosexuals, whereas 
+differentials for lesbian and bisexual women vary by study (Badgett et al., 2021; Drydakis, 2022; 
+Plug & Berkhout, 2004). Earnings may be as much as 16% lower for gay men and 15% higher for 
+lesbian women compared to their heterosexual counterparts (Ahmed & Hammarstedt, 2010; 
+Klawitter, 2015); it is likely that the disparities observed for gay and bisexual men are due to taste-
+based discrimination, a finding that has been reinforced by audit studies (Badgett, 1995; Patacchini 
+et al., 2015; Tilcsik, 2011). Additionally, prior literature has indicated that certain subpopulations 
+of the LGB community, especially bisexuals, are more likely to experience poverty than 
+heterosexuals (Badgett, 2018). The same pattern does not hold, however, for lesbian women and 
+
+
+5 
+ 
+gay men, who are less likely to experience poverty than heterosexuals (Badgett, 2018; Uhrig, 
+2015). This bisexual poverty differential may proceed from compositional differences, as bisexual 
+men and women tend to be younger, have lower educational attainment, and are more likely to be 
+never married and unpartnered compared to both their heterosexual and gay/lesbian counterparts, 
+all characteristics associated with higher relative risk of poverty (Badgett, 2018). Additionally, we 
+find that bisexual men and women are more likely to have children, increasing their relative risk 
+of poverty. However, there is also a growing literature examining bisexual health that proposes a 
+role for “double discrimination,” whereby bisexual individuals experience stigma and minority 
+stress from both within and beyond the LGBTQ community (Colledge et al., 2015; Feinstein & 
+Dyar, 2017). It is possible that this stressor may contribute to the unique disparities in economic 
+outcomes that bisexual individuals experience. 
+Several factors may exacerbate these disparities. Gay and bisexual men without children 
+experience higher poverty rates than heterosexuals without children and the children of same-sex 
+couples are twice as likely to be poor than children of different-sex married couples (Albelda et 
+al., 2009). Comparing across race and location yields discrepancies in poverty rates as well. 
+African American same-sex couples are much more likely to experience poverty than white same-
+sex couples. LGB African Americans experience poverty at least twice as much as their 
+heterosexual counterparts (Badgett et al., 2013). Finally, same-sex couples in rural areas have a 
+poverty rate that is twice that of those in metropolitan areas (Albelda et al., 2009). We use 
+nationally representative data to estimate more precise poverty rates and other economic outcomes 
+for LGB individuals and subgroups. 
+LGB Financial Hardship 
+Beyond labor market outcomes, other factors can influence an individual’s wellbeing. Perceived 
+financial insecurity and risk are alternative measures of economic health that may offer a more 
+comprehensive account (Western et al., 2012). Negative labor market outcomes tend to spillover 
+to overall wellbeing, suggesting that we may expect negative financial wellbeing differentials for 
+LGB populations compared to heterosexuals. For example, American LGB populations are also 
+disproportionally food insecure (Brown et al., 2016). Previous research has also found elevated 
+levels of economic insecurity among sexual minority men (Chai & Maroto, 2020; Mann et al., 
+2019).  We extend these analyses to examine differentials for women, and using a more direct 
+measure of security: whether the respondent had difficulty covering household expenses  
+LGB Government Assistance 
+Less data is available on LGB access to government assistance due to the lack of questions 
+regarding sexual orientation and gender identity in past surveys. One analysis suggests that same-
+sex couples—especially men in same-sex couples—access public health insurance at a higher rate 
+(Badgett et al., 2006). Additionally, other analyses have found higher rates of cash assistance 
+receipt among sexual minorities (Badgett et al., 2013; Uhrig, 2015). Prior studies typically use 
+receipt of public assistance as a proxy for poverty status and economic well-being. We examine 
+
+
+6 
+ 
+whether LGB individuals access government assistance at different rates than heterosexuals of 
+similar economic status and explore several reasons for this differential.  
+3. Conceptual Framework 
+Economic modelling of non-participation in public assistance programs generally ascribes the 
+behavior to some combination of stigma, imperfect information, access costs outweighing 
+participation benefits, and social networks (Currie, 2004). Stigma was introduced first as a general 
+disutility associated with program participation, and then this model was expanded to include a 
+broader cost/benefit framework (Moffitt, 1983). A large empirical and theoretical literature has 
+documented and modelled social network effects in program participation (Aizer & Currie, 2004; 
+Bertrand et al., 2000; Borjas & Hilton, 1996; Manski, 1993). Additionally, lack of information can 
+keep eligible potential recipients from discovering their eligibility (Ko & Moffitt, 2022).  
+There are several possible reasons we might expect a receipt and utilization differential of public 
+assistance programs for LGB individuals; the most obvious is that LGB individuals are more likely 
+to be in poverty than heterosexual individuals. As a result, they are more likely to qualify, receive, 
+and utilize government assistance to support their economic conditions. In fact, some previous 
+studies have used receipt of government assistance as a proxy for poverty and economic distress 
+(Badgett, 2018; Badgett et al., 2006; Uhrig, 2015). Another possibility is that LGB individuals are 
+more likely to work in industries that are sensitive to the disruptions caused by the COVID-19 
+pandemic and so may be more likely to be unemployed and require government assistance as a 
+result. Gonzales & Loret de Mola (2021) found that sexual minorities were more likely to be 
+working in COVID-sensitive industries, which would support the hypothesis that they are more 
+vulnerable to employment disruptions (and subsequently need more assistance) caused by the 
+COVID-19 pandemic than otherwise similar heterosexuals.  
+However, we might also find differentially larger take-up of government assistance programs by 
+LGB individuals compared to similarly situated heterosexual individuals. Why might this be the 
+case? There are several possibilities which map onto previous theoretical and empirical work, 
+though we do not have the data to decide which best explains the observed differentials. 
+First, sexual minority adults are more likely to have college and advanced degrees compared to 
+heterosexuals (Black et al., 2007; C. Carpenter & Gates, 2008; Gonzales & Blewett, 2014), and 
+this is true even among lower-income LGB individuals. More educated individuals may be more 
+likely to be aware of and navigate bureaucratic hurdles to government assistance programs, thus 
+enabling them to take up the programs at higher rates by reducing information barriers and access 
+costs. Now, we turn to two other possibilities: stigma and a lack of other support networks. 
+Another factor that influences participation in government assistance programs is stigma 
+surrounding the receipt and utilization of public assistance programs (Allen et al., 2014; Fothergill, 
+2003; Stuber & Schlesinger, 2006). Some individuals who qualify for benefits may not choose to 
+use them due to political views or principles surrounding whether the government should provide 
+
+
+7 
+ 
+such benefits (Morin et al., 2012). Ample political science research has found that sexual 
+minorities tend to align with left-leaning parties and support liberal policy positions, suggesting 
+that they may not share this stigma to the same degree as heterosexual populations (Edelman, 1992; 
+Jones, 2021; Lewis et al., 2011; Smith & Haider-Markel, 2002; Turnbull-Dugarte & Townsley, 
+2020). This mechanism of higher support for and willingness to use government assistance 
+programs may explain a differential between LGB and heterosexual adults.  
+The availability (or lack thereof) of alternative familial and community-based networks may differ 
+for low-income LGB people, and they may have to rely on government assistance more than 
+similarly situated heterosexuals as a result (a case of participation benefits). Previous research has 
+established that LGB people are less likely to be religious, which is one pathway through which 
+individuals can acquire social and economic supports (Herek et al., 2010; Sherkat et al., 2010). 
+Additionally, the family strains involved in the coming out process or a lack of family acceptance 
+may lead to decreased social or economic support from immediate and extended families, though 
+some work has found higher financial transfers from parents to LGB children than heterosexual 
+children (Dempsey et al., 2020; Perales & Huang, 2020). Government assistance may be filling in 
+gaps for low-income LGB people where they lack support structures that low-income 
+heterosexuals have, though qualitative research has found barriers to accessing social services for 
+low-income LGB individuals (B. D. M. Wilson et al., 2020). 
+Finally, it is possible that differentials are due to social network effects. Sociologists have 
+established that individuals’ choices can be influenced by their peers, and that these “social 
+networks” can shape behavior both consciously and unconsciously (DiMaggio & Garip, 2012). 
+Additionally, some literature has found that subgroups of the LGB community have denser (non-
+familial) social networks than heterosexuals (Breder & Bockting, 2022). It is possible that LGB 
+individuals in poverty may be referring each other to social service access differentially, or (for 
+gay and bisexual men especially) have access to social service providers and assistance through 
+networks like sexual health clinics, which frequently offer comprehensive services alongside 
+sexual health treatments and materials (AIDS Project LA, 2022). Additionally, individuals with 
+HIV may qualify for SSI and Medicaid if their health deteriorates to disabling levels. 
+Using the frameworks outlined above and the contextual details of the LGB community, we expect 
+that LGB adults will take-up public assistance programs at higher rates than similarly eligible 
+heterosexual adults. Additionally, we hypothesize that this effect will be amplified for gay men, 
+who may have larger social network effects and lower information barriers given their educational 
+attainment. 
+4. Data/Methods 
+4.1 The Household Pulse Survey 
+Data for our study are drawn from waves 3.2-3.4 (weeks 34-43) of the Household Pulse Survey 
+(HPS), a nationally representative and repeated cross-section of approximately 70,000 households 
+
+
+8 
+ 
+in the 50 U.S. states and the District of Columbia. Respondents are surveyed in short waves that 
+the US Census Bureau calls “weeks,” usually spanning 12-15 days and surveying approximately 
+70,000 households. We combine these weeks to improve statistical power and, after applying 
+sample restrictions (outlined further below), we have a primary analytic sample of 523,796 
+respondents, including 19,007 gay or lesbian individuals, as well as 19,290 bisexual individuals. 
+The HPS was designed to measure rapid responses to the COVID-19 pandemic; thus, the HPS is 
+a rich source of information on how the pandemic affected health, finances, income security, and 
+utilization of public assistance programs. These data were collected and made publicly available 
+through the U.S. Census Bureau and contain demographic, economic, social, and housing 
+information. As a large household survey administered by the U.S. Census Bureau in conjunction 
+with other agencies, the large sample sizes of the HPS make it particularly germane to studying 
+subpopulations like low-income individuals and/or the LGB population. Other researchers have 
+used these data to examine the social safety net (Bitler et al., 2020), education supply (Bansak & 
+Starr, 2021), and consumer behavior (Garner et al., 2020a). 
+The HPS is one of the only large national surveys that directly asks respondents about their sexual 
+orientation. Respondents are given the prompt: “Which of the following best represents how you 
+think of yourself?” and they can answer (1) Gay or lesbian; (2) Straight, that is not gay or lesbian; 
+(3) Bisexual; (4) Something else; and (5) I don’t know. This question was added to the 
+questionnaire in week 34, so we used data from weeks 34-43, which were fielded in August 2021 
+through March 2022. We focus on those respondents who indicated that they were (1) Gay or 
+lesbian or (2) Bisexual, which we designate as sexual minorities for our analysis. This direct 
+question ascertaining sexual orientation identity is preferred to inferring sexual orientation through 
+same-sex couple status due to issues of representativeness and capture (C. S. Carpenter et al., 2021; 
+Martell, 2021). The HPS also asks individuals about their gender identity using a two-step process. 
+We use this information to control for gender identity but focus our analysis on differences by 
+sexual orientation.5 For more information on gender minority economic outcomes in the 
+Household Pulse Survey, see (C. S. Carpenter et al., 2022). 
+Regarding economic outcomes, participants self-report their employment status and household 
+income in ranges. Specifically, all individuals report whether they worked for pay or profit in the 
+last seven days and their 2020 household income in ranges (Less than $25,000; $25,000 - $34,999; 
+$35,000 - $49,999; $50,000 - $74,999; $75,000 - $99,999; $100,000 - $149,999; $150,000 - 
+$199,999; $200,000 and above). We examine household income directly, as well as poverty status, 
+which is based on household income and household size (individuals are asked to state the number 
+of adults and the number of children in the household; further information about the construction 
+of this variable can be found in Appendix Table 2). The income-based thresholds used to determine 
+the federal poverty level status of an individual come directly from the U.S. Census Bureau, where 
+these thresholds were used to estimate the official poverty rate in the US (US Census Bureau, 
+2021). However, eligibility for programs administered by the Department of Health and Human 
+ 
+5 We exclude respondents whose sex assigned at birth was allocated by the HPS hot-decking procedure.  
+
+
+9 
+ 
+Services, including Medicare, Medicaid, CHIP, SNAP, and TANF, is determined using the federal 
+poverty guidelines (FPG), a slightly different definition of poverty (Office of the Assistant 
+Secretary for Planning and Evaluation, 2022). Both calculations consider the household 
+composition and income, but the FPL also considers elderly status in determining poverty. As a 
+result, our estimates of FPL status do not perfectly capture the factors that determine eligibility for 
+some government assistance programs. Additionally, because we are using the midpoint of the 
+income category that respondents report to determine poverty status, there is potential for 
+mismeasurement as respondents whose exact income (which is unobserved) falls above the 
+midpoint of an income category might be miscoded as below the FPL if their exact income falls 
+above the FPL threshold (and vice versa for respondents with incomes below the midpoint of their 
+income category). Because income is generally monotonically decreasing over the income ranges 
+we observe, it is likely that there are more individuals whose income lies below the midpoint of 
+the income category we use (and may thus be miscoded as above the FPL) (Congressional 
+Research Service, 2021). Therefore, it is likely that this measurement bias means we are 
+underestimating the prevalence of poverty in our sample, though the magnitude of this bias is not 
+observable. We also use an indicator variable for financial hardship, where respondents are asked 
+whether it has been difficult for their household to pay for usual expenses in the past 7 days. 
+Regarding public assistance receipt, participants in the HPS are also asked whether they or anyone 
+in the household receives or has received food assistance benefits through the Supplemental 
+Nutrition Assistance Program (SNAP) or a child tax credit in the past four weeks. Respondents are 
+also asked about the source of their health insurance coverage, including Medicaid coverage for 
+low-income families and individuals. Additionally, respondents were asked which of the following 
+sources they and their household members used to meet their spending needs. They could choose 
+multiple options including: unemployment insurance (UI), stimulus payments, SNAP, school meal 
+cards, and governmental rental assistance. This distinction between receipt and utilization of 
+government services, both self-reported, is necessary to understand why discrepancies between the 
+two can emerge. 
+4.2 Data Quality and Limitations 
+There are several limitations to the data from the HPS. First, about 18.8 percent of respondents did 
+not provide a response to the household income question, which we use to determine poverty and 
+FPL status.6 This is common in surveys where participants are asked to provide information on 
+their income (Bhat, 1994). This study only uses complete cases and information for all analyses to 
+avoid imputations for missing data. We report the distribution of educational attainment for 
+respondents who reported their income and for those who did not in Appendix Figure 1, which 
+shows that our analytic sample (those who reported income) is positively selected on educational 
+attainment relative to the non-respondents. This limits our ability to study these non-respondents, 
+ 
+6 This rate is lower among gay men and lesbian women (14.2 percent) and bisexuals (17.4 percent) than 
+heterosexuals (19.1 percent). This may suggest that our estimates are an upper bound of economic disparities, as 
+respondents missing income data likely had worse economic outcomes. 
+
+
+10 
+ 
+who may be accessing government services at higher rates than the rest of our sample, given their 
+educational attainment. Several analyses have examined potential determinants of item non-
+response on population-based surveys and found that demographic and geographic characteristics 
+like age, race, and region of residence are significantly associated with nonresponse to income and 
+wealth questions while survey-specific characteristics like interviewer-interviewee concordance 
+on socioeconomic status play a smaller role (Riphahn & Serfling, 2005; Schenker et al., 2006). 
+For employment and other socioeconomic outcomes, missingness rates were very low. 
+Additionally, respondents to the income question report answers in ranges rather than exact 
+amounts. We used the midpoint of each increment to measure individual-level household incomes. 
+Another limitation of the data is that sexual identity is self-reported, raising the potential for 
+response bias. Approximately 2% of adults in the Household Pulse Survey said that they did not 
+know how to respond to the sexual orientation question. Nonresponse to self-identified sexual 
+orientation questions is associated with race and ethnicity, so this feature of the data may indicate 
+that we do not fully capture sexual minorities, especially people of color (H.-J. Kim & Fredriksen-
+Goldsen, 2013). Moreover, very little research has been able to measure misreported data. Our 
+findings are likely biased towards the null since economically disadvantaged populations are most 
+likely to misreport or skip the sexual orientation question. 
+In terms of limitations, other researchers have raised concerns about the representativeness of the 
+HPS data, especially for estimating vaccine take-up and other COVID-19-related outcomes 
+(Bradley et al., 2021). However, numerous analyses have used HPS data for timely health and 
+socioeconomic research (Berkowitz & Basu, 2021; C. S. Carpenter et al., 2022; Donnelly & Farina, 
+2021). Moreover, we utilize survey weights provided by the U.S. Census Bureau to estimate 
+nationally representative results. Finally, the core of our analysis examines relative receipt of 
+government assistance programs, comparing gay men, lesbian women, and bisexual individuals to 
+their heterosexual counterparts during the COVID-19 pandemic, rather than establishing pre-
+COVID baseline estimates for economic status and government assistance utilization. 
+Our data are all self-reported, and thus, there may be selection effects associated with disclosing 
+sexual orientation in an online survey. Secondly, our sample of respondents only includes non-
+institutionalized adults randomly selected for participation in an email survey among US 
+households. This means that we are missing homeless adults; adults residing in institutionalized 
+medical and incarceration facilities; and individuals without email addresses. Some sexual 
+minority research has suggested that these exclusions may disproportionately affect LGB 
+individuals since they report higher rates of homelessness (Corliss et al., 2011; Durso & Gates, 
+2012; Rosario et al., 2012), suggesting that our estimates on economic outcomes are likely a lower 
+bound for the disparities experienced by sexual minorities. Finally, for most of the programs 
+assessed, we can only measure public assistance take-up through utilization rather than both receipt 
+and utilization, limiting the scope of our analysis. Some sexual minorities may receive community-
+based and charitable assistance through health, housing, and other service-based centers. More 
+broadly, it is difficult to determine how much of our results can be attributed to the economic 
+
+
+11 
+ 
+shocks of COVID-19 and their disproportionate impacts on sexual minorities or to preexisting 
+economic disparities between heterosexual and sexual minority populations. We do control for 
+recent job loss in Appendix Table 3 to proxy for pandemic-related economic disruptions and find 
+that our main results stand (higher take-up of public assistance), suggesting that our results are not 
+entirely driven by pandemic-related economic phenomena. 
+4.3 Methods 
+We begin our analysis with estimating descriptive statistics. Then, to estimate the relative 
+economic status of sexual minorities compared to their heterosexual peers, we utilize a regression 
+approach with multiple specifications, following other literature on LGBTQ economic position 
+and access to public assistance (Badgett et al., 2013; Badgett, 2018; C. S. Carpenter et al., 2022). 
+We specify estimation equation (1) in the following way: 
+𝑦𝑖= 𝛽0 + 𝛽1𝑋𝑖+ 𝛽2(𝐺𝐴𝑌)𝑖+ 𝛽3(𝐵𝐼𝑆𝐸𝑋𝑈𝐴𝐿)𝑖 + 𝛽4𝛾𝑠 + 𝛽5𝛿𝑡+ 𝜀𝑖   (1)
+ 
+Where our outcome variables 𝑦𝑖 are various economic outcomes for individual i and 𝑋𝑖 is a vector 
+of individual characteristics. For all analyses, we stratify the sample by sex assigned at birth and 
+control for indicator variables for gay men and lesbian women and bisexual individuals 
+respectively. Due to this sex split, gay men and bisexual men are compared to heterosexual men 
+while lesbian women and bisexual women are compared to heterosexual women. The coefficients 
+of interest 𝛽2 and 𝛽3 represent the disparity in an economic outcome between gay/lesbian 
+respondents and bisexual respondents, respectively, compared with heterosexual respondents. 
+Our preferred specification includes controls for the state of residence (𝛾𝑠) and survey week (𝛿𝑡) 
+to adjust for any state-specific or week-specific effects. Individual-level controls include age, age 
+squared, race, ethnicity, relationship status, the presence of a child in the household, sex assigned 
+at birth, gender minority status, the total number of children in the household, urban-rural status, 
+and education (four categories).  
+To estimate public assistance receipt and utilization, we estimate a similar equation: 
+𝑦𝑖= 𝛽0 + 𝛽1𝑋𝑖+ 𝛽2(𝐺𝐴𝑌)𝑖+ 𝛽3(𝐵𝐼𝑆𝐸𝑋𝑈𝐴𝐿)𝑖+ 𝛽4𝛾𝑠 + 𝛽5𝛿𝑡 + 𝛽6(𝐹𝑃𝐿)𝑖+ 𝜀𝑖   (2)
+ 
+where our outcome variables 𝑦𝑖 are various government assistance receipt and utilization outcomes 
+for individual i and 𝑋𝑖 is a vector of individual characteristics. We use the same individual level 
+controls, also adding an indicator variable for being below the federal poverty level, (𝐹𝑃𝐿)𝑖.  
+Finally, we restrict our sample to those below the federal poverty level and estimate equation (2), 
+omitting the FPL indicator variable among this sample. In all regressions, we restrict our sample 
+to complete cases. All regressions and descriptive statistics are weighted using HPS person weights 
+computed by the U.S. Census Bureau in Stata version 16 (StataCorp, 2019). 
+4.4 Descriptive Statistics 
+
+
+12 
+ 
+Table 1a presents descriptive statistics for the full sample by sexual orientation and sex. Table 1a 
+shows that gay men and lesbian women are younger, have fewer children, and are more likely to 
+be employed than their heterosexual peers. Table 1a also shows that bisexual women are younger 
+than gay men, lesbian women and heterosexuals but are about as likely to have children as 
+heterosexuals. Bisexual men also have lower incomes and lower likelihood of having children than 
+heterosexuals. Additionally, bisexuals are more likely to have household incomes below the FPL 
+than heterosexuals and gay/lesbian adults, especially bisexual women. These descriptive statistics 
+display qualitatively similar patterns to those identified in other large population-based samples of 
+LGB adults in the United States (Badgett et al., 2021). 
+Table 1b presents a demographic profile of self-identified LGB people with household incomes 
+under the federal poverty level. In Panel A, we estimate that approximately 90.0% of men below 
+the FPL identified as heterosexual, 5.7% identified as gay, and 4.4% identified as bisexual. Among 
+this subsample, heterosexual respondents were the oldest (46.1 years), followed by gay men (42.4 
+years), and bisexual men (34.9 years). In Panel B, we estimate that approximately 88.7% of women 
+below the FPL identified as heterosexual, 2.6% identified as gay or lesbian, and 8.7% identified 
+as bisexual. Among women below the FPL, heterosexual respondents were the oldest (47.8 years), 
+followed by lesbian women (37.3 years), and bisexual women (30.1 years). Heterosexual 
+individuals experiencing poverty were more likely to be female than male (0.59 vs. 0.41). This 
+pattern was even stronger among bisexual females and bisexual males (0.74 vs. 0.26). However, 
+this sex breakdown is reversed for gay/lesbian adults experiencing poverty—they are more likely 
+to be male than female (0.60 vs. 0.40). Motivated in part by this descriptive finding and prior 
+literature that finds heterogenous economic outcomes for men and women among sexual 
+orientation identity groups, we stratify our analyses by sex.  
+Gay/lesbian adults experiencing poverty were also less likely to be Black, non-Hispanic than 
+heterosexuals (0.14 vs. 0.19). Bisexuals experiencing poverty were less likely to be Black, non-
+Hispanic (0.11 vs. 0.19), and more likely to be non-Hispanic white (0.58 vs. 0.49) than 
+heterosexuals. Marriage rates among those experiencing poverty were much lower for gay men 
+and lesbian women (0.15) and bisexuals (0.17) than for heterosexuals (0.32). Additionally, even 
+among those with incomes below the federal poverty level, educational attainment was higher for 
+gay men, lesbian women, and bisexuals than for heterosexual participants.  
+5. Results 
+Below, we present a collage of evidence on the economic status and government assistance 
+utilization of self-identified LGB people. We began above by examining the demographic and 
+socioeconomic characteristics of LGB and heterosexual people of all household incomes and then 
+restricted to those who are below the FPL. Next, we use multivariable regression to examine the 
+relative economic status of LGB adults compared to heterosexual adults, while controlling for 
+demographic characteristics. Our regression models compare the receipt and utilization of 
+government assistance for LGB respondents with heterosexual respondents in a full sample 
+
+
+13 
+ 
+controlling for demographic characteristics and a restricted sample of respondents who are below 
+the FPL. We conclude the section by examining the receipt and utilization of the expanded child 
+tax credit for LGB people compared to heterosexual people. 
+5.1 Economic Status of LGB Individuals 
+Table 2 presents our regression estimates of equation (1) for four economic outcomes. It asks the 
+question of whether gay men, lesbian women, and bisexuals adults experience different outcomes 
+from heterosexual adults after controlling for observable characteristics. The format of Table 2 is 
+as follows: each column is a different outcome with the same regression model with indicators for 
+sexual orientation, individual-level controls, as well as controls for state and survey week. Column 
+(1) reports logged household income, calculated using interval regression; all other regressions 
+were linear probability models. Column (2) reports employment; column (3) reports FPL status; 
+and column (4) reports difficulty paying for expenses in the past week. We also provide the mean 
+of each outcome below to contextualize the differences. The top panel estimates equation (1) for 
+men, and the bottom panel displays the corresponding results for women. 
+The results in Table 2 indicate that bisexual men (women) report 8.1 (8.9) percent lower household 
+incomes than otherwise comparable heterosexual respondents. We also find suggestive evidence 
+that lesbian women earn 3.2 percent less than otherwise comparable heterosexual women. In terms 
+of poverty (column 3), we find that bisexual men are 2.2 percentage points more likely to report 
+household incomes below the federal poverty level than heterosexual men. Relative to the mean 
+of this outcome, poverty rates are 16 percent higher for bisexual men. Bisexual women are 2.9 
+percentage points more likely to report household income beneath the poverty line than 
+heterosexual women (15 percent from the mean). Additionally, we find that bisexual men were 
+approximately 6.1 percentage points more likely to report difficulty meeting expenses in the past 
+week than otherwise comparable heterosexual respondents (24 percent relative to the mean); this 
+differential was 6.0 percentage points for bisexual women (20 percent relative to mean). We also 
+find a significant difference in self-reported financial hardship for gay men and lesbian women, 
+despite not recording significant differences in other outcomes. Lesbian women were 4.6 
+percentage points more likely to report difficulty meeting expenses in the past week (15 percent 
+relative to mean), while gay men were 3.4 percentage points more likely to do so (14 percent 
+relative to mean). These results are broadly similar to what Chai & Maroto, 2020 find, although 
+we find statistically significant differences for gay men, as well as lesbian and bisexual women.   
+5.2 Receipt and Utilization of Government Assistance 
+We next describe the results of estimating equation (2), presented in Table 3. We estimate a similar 
+regression to that of Table 2, but the outcomes are receipt and utilization of public assistance 
+programs. Additionally, we add a control for FPL status. This analysis examines whether gay men, 
+lesbian women, and bisexual adults receive and use funds from public assistance programs at rates 
+higher than those of otherwise comparable heterosexuals; all regressions were linear probability 
+models. The format of Table 2 is as follows: column (1) reports unemployment insurance 
+
+
+14 
+ 
+utilization; column (2) reports stimulus check utilization; column (3) reports SNAP receipt; 
+column (4) reports SNAP utilization; column (5) reports rental assistance utilization; and column 
+(6) reports Medicaid coverage. We also provide the mean of each outcome below to contextualize 
+the differences. The top panel estimates equation (2) for men, and the bottom panel displays the 
+corresponding results for women. 
+The results in Table 3 indicate that bisexual men are 1.6 percentage points more likely to use 
+unemployment insurance than otherwise comparable heterosexual men. This represents a 42 
+percent higher utilization rate relative to the mean of the outcome. Additionally, we find that 
+bisexual men (women) are 2.1 (1.8) percentage points more likely to use stimulus checks than 
+otherwise comparable heterosexual men (women). This represents an 18 (14) percent higher 
+utilization rate relative to the mean of the outcome. Additionally, lesbian women are 2.1 percentage 
+points more likely to use stimulus checks than otherwise similar heterosexual women (18 percent 
+relative to mean). For SNAP receipt, we find that bisexual men (3.9 pp), bisexual women (2.4 pp), 
+gay men (2.7 pp) and lesbian women (3.8 pp) are more likely to receive SNAP benefits than their 
+comparable heterosexual peers. Similar results are found for SNAP utilization. We also find that 
+gay men are 0.6 percentage points (80 percent relative to mean) and bisexual men are 1.4 
+percentage points (197 percent relative to mean) more likely to utilize rental assistance than 
+otherwise comparable heterosexuals. Finally, we find that gay men (3.4 pp), bisexual men (3.4 
+pp), and bisexual women (3.7 pp) are all more likely to be insured by Medicaid than otherwise 
+comparable heterosexual adults.  
+In Table 4, we examine similar regressions but restrict our sample to only those respondents who 
+reported household incomes below the federal poverty level. We are estimating equation (1) using 
+linear probability models. We find that gay men are 7.4 percentage points (22 percent relative to 
+mean), and bisexuals are 7.2 percentage points (21 percent relative to mean) more likely to utilize 
+SNAP than their heterosexual counterparts under the federal poverty line. Similar results are found 
+for SNAP utilization, rental assistance, and Medicaid. We do not see comparable results for female 
+sexual minorities below the federal poverty line—most estimates of differential utilization/receipt 
+are close to zero and they are neither consistently positive nor negative. 
+5.3 Receipt and Utilization of the Child Tax Credit 
+Table 5 displays the results of estimating equation (2) for those programs that involve children in 
+the household or at school. It is important to note that we control for both the presence of children 
+in the household using an indicator variable and the number of children in the household (a 
+continuous variable), though our results are statistically similar and larger in magnitude when 
+dropping these controls. The format of Table 5 is as follows: the left panel estimates equation (2) 
+for the full sample, while the right panel estimates equation (1) for the sample restricted to those 
+below the FPL. Columns (1) and (3) report receipt of the child tax credit as the outcome, while 
+columns (2) and (4) display the utilization of a school lunch card as the outcome.  
+
+
+15 
+ 
+The results in Table 5 indicate that gay men are 1.6 percentage points less likely to receive the 
+child tax credit (10 percent relative to the mean) than otherwise comparable heterosexual men, 
+even while controlling for the presence of children and number of children in the household. A 
+similar difference is not reported for bisexual men. We also find that lesbian women (bisexual 
+women) are 3.7 (2.1) percentage points less likely to receive the child tax credit. This result holds 
+when restricting to the below FPL sample; we find lesbian women experiencing poverty are 8.3 
+percentage points less likely to receive the child tax credit (27 percent relative to the mean) than 
+otherwise comparable heterosexual women. Additionally, we find that bisexual women 
+experiencing poverty are 3.5 percentage points more likely to receive the child tax credit (12 
+percent relative to the mean) than otherwise comparable heterosexual women. In Appendix Table 
+1, we present results that are robust to restricting our sample to individuals who have a child present 
+in the household; even among only adults with children in the household, gay men, lesbian women, 
+and bisexual women are significantly less likely to receive the child tax credit than their 
+heterosexual counterparts.  
+6. Discussion 
+We used newly available data from a large, nationally representative sample of adults in the United 
+States from the 2021-2022 U.S. Census Bureau’s Household Pulse Survey to study the economic 
+outcomes and government assistance receipt and utilization of sexual minorities. Our regression 
+models for economic outcomes, controlling for observable demographic characteristics, find that 
+bisexual individuals have significantly lower household incomes, a higher likelihood of being 
+below the federal poverty level, and higher self-reported financial hardship compared with 
+otherwise similar heterosexual individuals. These results confirm previous literature that has found 
+that bisexuals have worse economic outcomes than their heterosexual peers (Badgett et al., 2013, 
+2021).  
+Additionally, we find higher self-reported financial hardship for gay men and lesbian women, 
+showing that the large literature on income differentials and economic status for gay/lesbian adults 
+in the US also translates into higher levels of subjective economic distress (C. S. Carpenter, 2005; 
+Chai & Maroto, 2020; Klawitter, 2015). We also report higher poverty rates for bisexuals, 
+supporting prior research in this area (Schneebaum & Badgett, 2019; Uhrig, 2015). Our results 
+improve on the economic status of sexual minorities literature by using large samples of self-
+identified LGB individuals (rather than using partnership status to infer sexual orientation), 
+including a subjective measure of economic status (i.e., self-reported financial hardship and 
+receipt/utilization of public assistance programs), and leveraging new and recent data collected 
+during the COVID-19 pandemic. 
+We find that lesbian women earn approximately 3.2 percentage points less than otherwise 
+observationally similar heterosexual women (though marginally significant), contradicting most 
+research pre-2015, which had found wage premia for lesbian women (Drydakis, 2022; Klawitter, 
+2015). However, several more recent studies have found significant lesbian wage penalties 
+
+
+16 
+ 
+(Bryson, 2017; Martell, 2019). Several others have highlighted this puzzling case of a disappearing 
+or waning lesbian wage premium during a time of improving social acceptance and propose that 
+reduced family support as a result of intolerance of their sexual identity may be hurting lesbian 
+women (Drydakis & Zimmermann, 2020; Martell, 2019). Additionally, it is possible that earlier 
+studies, which often relied on using same-sex couple status or cohabitation as a proxy for sexual 
+orientation, may have suffered from selection problems if same-sex couples are positively selected 
+on income relative to the broader LGB population, including single LGB adults (Martell, 2021). 
+Because we use self-reported sexual identity, our results are less susceptible to this potential bias. 
+Our findings confirm the empirical pattern of a lesbian wage penalty in a large, nationally 
+representative survey of US adults during the COVID-19 pandemic and suggest that the emerging 
+lesbian wage penalty may last.  
+Additionally, we find that LGB individuals utilize a range of government assistance programs at a 
+higher rate than their heterosexual counterparts, even when adjusting for socioeconomic 
+characteristics. These include unemployment insurance and stimulus payments for bisexuals, as 
+well as SNAP and rental assistance for gay men, lesbian women, and bisexual individuals. This 
+accords with prior work examining receipt of government assistance programs by sexual 
+minorities, which has found higher rates of take-up for SNAP, TANF, and Medicaid (Badgett et 
+al., 2013; Badgett, 2018; Brown et al., 2016). We add to the literature by evaluating several 
+programs that have not, to our knowledge, been examined in the context of differential take-up for 
+sexual minorities, including unemployment insurance, stimulus payments, and rental assistance. 
+Finally, we show that these differences are robust to controlling for FPL status. Additionally, we 
+demonstrate that when restricting to a low-income subsample, we continue to see differentials for 
+gay and bisexual men, but not for lesbian and bisexual women. We find the largest differentials in 
+rental assistance programs and unemployment insurance.  
+These generally higher rates of participation and utilization of government assistance programs 
+among LGB people accord with the qualitative predictions we generate from the take-up literature. 
+That the effects are more robust for gay and bisexual men suggests that social networks may play 
+a significant role. As to which of the explanations we propose may explain the differentials, we 
+cannot fully adjudicate, but there are several signs that some explanations are less plausible than 
+others. For example, the take-up differentials are robust to controlling for educational attainment, 
+suggesting that higher educational attainment is not the only mechanism that explains differential 
+take-up of public assistance programs. Additionally, they are robust to controlling for recent job 
+loss (see Appendix Table 3), suggesting that differential exposure to employment shocks from the 
+COVID-19 pandemic do not fully explain the differentials we observe. This suggests that some 
+combination of lessened stigma, fewer alternatives for financial support (low substitutability), and 
+social network effects may be responsible for higher take-up of public assistance among sexual 
+minorities.  
+We also find that gay men, lesbian women, and bisexual women are less likely to receive the 
+advance child tax credit, an enhanced policy that has been promoted during the pandemic for its 
+
+
+17 
+ 
+major impact on child poverty reduction (Corinth et al., 2021; Goldin & Michelmore, 2022). We 
+found statistically significant disparities between sexual minorities and their heterosexual peers 
+even when controlling for the presence of a child in the household, the total number of children in 
+the household, or restricting to only households with children present. Additionally, the difference 
+appears even among the subsample below the FPL. One potential explanation would be an 
+asymmetry between how LGB individuals report a child in the household for the Household Pulse 
+Survey and whether the Internal Revenue Service (IRS) recognizes that child for the eligibility 
+determination used to establish recipients of the child tax credit. For example, if an LGB individual 
+(or couple) was supporting an adolescent whose parents did not accept their sexual orientation or 
+gender identity, they might report that child as “in their household” for the HPS, but the IRS would 
+not recognize that relationship unless the child was legally adopted. These instances of informal 
+family networks and “found family” are much more common among LGB individuals than among 
+straight individuals (Jackson Levin et al., 2020; McConnell et al., 2015; Snapp et al., 2015). 
+Unfortunately, we are unable to pinpoint specific mechanisms, but we encourage future studies to 
+explore these important issues.   
+We also derive several findings that may be of interest to policymakers. Estimating the take-up of 
+public assistance programs is vital for modelling their microeconomic and macroeconomic 
+impacts, as nearly all will have some degree of nonparticipation. Our analysis shows that one 
+demographic group, LGB individuals, take up public assistance programs at higher rates than 
+economically similar heterosexual individuals, and that this disparity is likely due to a combination 
+of social network effects, lessened stigma, and increased reliance on public programs. 
+Policymakers should consider how these factors were differentially established by the LGB 
+community and whether there are policy or community actions (like utilizing social and peer 
+networks to target public assistance) that may streamline public program participation for 
+populations in greatest need. Additionally, policymakers may consider public policies that directly 
+target LGB people (e.g., same-sex marriage) may consider our estimates of higher public program 
+take-up; private benefits (e.g., health insurance) may crowd out public benefits when sexual 
+minorities enjoy protections in employment, housing, and education. Finally, the disparities in 
+receipt of the child tax credit for LGB people who have children point to an area where 
+policymakers must examine whether current targeting and disbursement methods are not fully 
+reaching LGB individuals who may be eligible for the program. 
+7. Conclusion 
+Our findings confirm that bisexuals experience poorer economic outcomes and that gay men, 
+lesbian women, and bisexuals take up government assistance programs at higher rates than their 
+heterosexual counterparts. Additionally, we find evidence that this pattern of higher take-up among 
+gay and bisexual men is maintained in a low-income subsample. Finally, we find that gay men, 
+lesbian women, and bisexual women are less likely to receive the recently enhanced child tax credit 
+than similarly situated heterosexuals. In so doing, our study adds to a growing literature on the 
+
+
+18 
+ 
+experiences of LGB people in poverty. Our results further the call for more social science and 
+policy research on the inequality and poverty experienced in sexual minority communities. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+19 
+ 
+References 
+ 
+Ahmed, A. M., & Hammarstedt, M. (2010). Sexual orientation and earnings: a register data-based 
+approach to identify homosexuals. Journal of Population Economics, 23(3), 835–849. 
+https://doi.org/10.1007/s00148-009-0265-4 
+AIDS Project LA. (2022). Mission & Strategic Plan. https://aplahealth.org/about/mission-strategic-plan/ 
+Aizer, A., & Currie, J. (2004). Networks or neighborhoods? Correlations in the use of publicly-funded 
+maternity care in California. Journal of Public Economics, 88(12), 2573–2585. 
+https://doi.org/10.1016/j.jpubeco.2003.09.003 
+Albelda, R., Schneebaum, A., Badgett, M. V. L., & Gates, G. (2009). California Center for Population 
+Research On-Line Working Paper Series Poverty in the Lesbian, Gay, and Bisexual Community. In 
+UCLA CCPR Population Working Papers. 
+Allen, H., Wright, B. J., Harding, K., & Broffman, L. (2014). The Role of Stigma in Access to Health 
+Care for the Poor. Milbank Quarterly, 92(2), 289–318. https://doi.org/10.1111/1468-0009.12059 
+Alvira-Hammond, M., & Gennetian, L. A. (2015). How Hispanic Parents Perceive Their Need and 
+Eligibility for Public Assistance. National Research Center on Hispanic Children & Families. 
+Badgett, M. . V. L., Durso, L. E., & Schneebaum, A. (2013). New Patterns of Poverty in the Lesbian, 
+Gay, and Bisexual Community. June, 45. http://williamsinstitute.law.ucla.edu/wp-
+content/uploads/LGB-Poverty-Update-Jun-2013.pdf 
+Badgett, M. V. L. (1995). The Wage Effects of Sexual Orientation Discrimination. ILR Review, 48(4), 
+726–739. https://doi.org/10.1177/001979399504800408 
+Badgett, M. V. L. (2018). Left Out? Lesbian, Gay, and Bisexual Poverty in the U.S. Population Research 
+and Policy Review, 37(5), 667–702. https://doi.org/10.1007/s11113-018-9457-5 
+Badgett, M. V. L., Carpenter, C. S., & Sansone, D. (2021). LGBTQ Economics. Journal of Economic 
+Perspectives, 35(2), 141–170. https://doi.org/10.1257/jep.35.2.141 
+Badgett, M. V. L., Sears, R. B., & Ho, D. (2006). Supporting Families, Saving Funds: An Economic 
+Analysis Of Equality For Same-Sex Couples In New Jersey. Rutgers Journal of Law & Public 
+Policy, 4:1(Fall 2006). 
+Bansak, C., & Starr, M. (2021). Covid-19 shocks to education supply: how 200,000 U.S. households dealt 
+with the sudden shift to distance learning. Review of Economics of the Household, 19(1), 63–90. 
+https://doi.org/10.1007/s11150-020-09540-9 
+Berkowitz, S. A., & Basu, S. (2021). Unmet Social Needs And Worse Mental Health After Expiration Of 
+COVID-19 Federal Pandemic Unemployment Compensation. Health Affairs, 40(3), 426–434. 
+https://doi.org/10.1377/hlthaff.2020.01990 
+Bertrand, M., Luttmer, E. F. P., & Mullainathan, S. (2000). Network Effects and Welfare Cultures*. 
+Quarterly Journal of Economics, 115(3), 1019–1055. https://doi.org/10.1162/003355300554971 
+Bhat, C. R. (1994). Imputing a continuous income variable from grouped and missing income 
+observations. Economics Letters, 46(4), 311–319. https://doi.org/10.1016/0165-1765(94)90151-1 
+
+
+20 
+ 
+Bitler, M., Hoynes, H., & Schanzenbach, D. W. (2020). The Social Safety Net in the Wake of COVID-19. 
+https://doi.org/10.3386/w27796 
+Black, D. A., Sanders, S. G., & Taylor, L. J. (2007). The economics of lesbian and gay families. Journal 
+of Economic Perspectives, 21(2), 53–70. 
+Borjas, G. J., & Hilton, L. (1996). Immigration and the Welfare State: Immigrant Participation in Means-
+Tested Entitlement Programs. The Quarterly Journal of Economics, 111(2), 575–604. 
+https://doi.org/10.2307/2946688 
+Bradley, V. C., Kuriwaki, S., Isakov, M., Sejdinovic, D., Meng, X.-L., & Flaxman, S. (2021). 
+Unrepresentative big surveys significantly overestimated US vaccine uptake. Nature, 600(7890), 
+695–700. https://doi.org/10.1038/s41586-021-04198-4 
+Brady, D. (2005). The Welfare State and Relative Poverty in Rich Western Democracies, 1967-1997. 
+Social Forces, 83(4), 1329–1364. https://doi.org/10.1353/sof.2005.0056 
+Breder, K., & Bockting, W. (2022). Social networks of LGBT older adults: An integrative review. 
+Psychology of Sexual Orientation and Gender Diversity. https://doi.org/10.1037/sgd0000552 
+Brewster, K. L., Tillman, K. H., & Jokinen-Gordon, H. (2014). Demographic Characteristics of Lesbian 
+Parents in the United States. Population Research and Policy Review, 33(4), 503–526. 
+https://doi.org/10.1007/s11113-013-9296-3 
+Brown, T. N. T., Romero, A. P., & Gates, G. J. (2016). Food Insecurity and SNAP Participation in the 
+LGBT Community. The Williams Institute, July(July), 1–28. 
+Bryson, A. (2017). Pay equity after the Equality Act 2010: does sexual orientation still matter? Work, 
+Employment and Society, 31(3), 483–500. https://doi.org/10.1177/0950017016664678 
+Carpenter, C., & Gates, G. J. (2008). Gay and lesbian partnership: Evidence from California. 
+Demography, 45(3), 573–590. https://doi.org/10.1353/dem.0.0014 
+Carpenter, C. S. (2005). Self-reported sexual orientation and earnings: Evidence from California. 
+Industrial and Labor Relations Review, 58(2), 258–273. 
+https://doi.org/10.1177/001979390505800205 
+Carpenter, C. S., Gonzales, G., McKay, T., & Sansone, D. (2021). Effects of the Affordable Care Act 
+Dependent Coverage Mandate on Health Insurance Coverage for Individuals in Same-Sex Couples. 
+Demography, 58(5), 1897–1929. https://doi.org/10.1215/00703370-9429469 
+Carpenter, C. S., Lee, M. J., & Nettuno, L. (2022). Economic outcomes for transgender people and other 
+gender minorities in the United States: First estimates from a nationally representative sample. 
+Southern Economic Journal. https://doi.org/10.1002/soej.12594 
+Carpenter, C. S., & Sansone, D. (2021). Cigarette taxes and smoking among sexual minority adults. 
+Journal of Health Economics, 79(26692), 1–26. https://doi.org/10.1016/j.jhealeco.2021.102492 
+Chai, L., & Maroto, M. (2020). Economic Insecurity among Gay and Bisexual Men: Evidence from the 
+1991–2016 U.S. General Social Survey. Sociological Perspectives, 63(1), 50–68. 
+https://doi.org/10.1177/0731121419849100 
+
+
+21 
+ 
+Colledge, L., Hickson, F., Reid, D., & Weatherburn, P. (2015). Poorer mental health in UK bisexual 
+women than lesbians: evidence from the UK 2007 Stonewall Women’s Health Survey. Journal of 
+Public Health, 37(3), 427–437. https://doi.org/10.1093/pubmed/fdu105 
+Congressional Research Service. (2021). The U.S. Income Distribution: Trends and Issues. 
+https://crsreports.congress.gov 
+Corinth, K., Meyer, B., Stadnicki, M., & Wu, D. (2021). The Anti-Poverty, Targeting, and Labor Supply 
+Effects of the Proposed Child Tax Credit Expansion. https://doi.org/10.3386/w29366 
+Corliss, H. L., Goodenow, C. S., Nichols, L., & Bryn Austin, S. (2011). High burden of homelessness 
+among sexual-minority adolescents: Findings from a representative massachusetts high school 
+sample. American Journal of Public Health, 101(9), 1683–1689. 
+https://doi.org/10.2105/AJPH.2011.300155 
+Currie, J. (2004). The Take Up of Social Benefits. https://doi.org/10.3386/W10488 
+Dempsey, D., Parkinson, S., Andrews, C., & McNair, R. (2020). Family relationships and LGB first 
+homelessness in Australia: What do we know and where should we go? Journal of Sociology, 56(4), 
+516–534. https://doi.org/10.1177/1440783320927087 
+DiBennardo, R., & Gates, G. J. (2014). Research Note: US Census Same-Sex Couple Data: Adjustments 
+to Reduce Measurement Error and Empirical Implications. Population Research and Policy Review, 
+33(4), 603–614. https://doi.org/10.1007/s11113-013-9289-2 
+DiMaggio, P., & Garip, F. (2012). Network Effects and Social Inequality. Annual Review of Sociology, 
+38(1), 93–118. https://doi.org/10.1146/annurev.soc.012809.102545 
+Donnelly, R., & Farina, M. P. (2021). How do state policies shape experiences of household income 
+shocks and mental health during the COVID-19 pandemic? Social Science & Medicine, 269, 
+113557. https://doi.org/10.1016/j.socscimed.2020.113557 
+Drydakis, N. (2022). Sexual orientation and earnings: a meta-analysis 2012–2020. Journal of Population 
+Economics, 35(2), 409–440. https://doi.org/10.1007/s00148-021-00862-1 
+Drydakis, N., & Zimmermann, K. F. (2020). Guest editorial. International Journal of Manpower, 41(6), 
+621–628. https://doi.org/10.1108/IJM-03-2020-481 
+Durso, L. E., & Gates, G. J. (2012). Serving Our Youth: Findings from a National Survey of Services 
+Providers Working with Lesbian, Gay, Bisexual and Transgender Youth Who are Homeless or At 
+Risk of Becoming Homeless. 
+Edelman, M. (1992). Understanding the gay and lesbian vote in ’92. Public Perspective, 4, 32–33. 
+Elton, E., & Gonzales, G. (2022). Health Insurance Coverage and Access to Care by Sexual Orientation 
+and Marital/Cohabitation Status: New Evidence from the 2015–2018 National Health Interview 
+Survey. Population Research and Policy Review, 41(2), 479–493. https://doi.org/10.1007/s11113-
+021-09670-7 
+Everett, B. G., & Mollborn, S. (2014). Examining Sexual Orientation Disparities in Unmet Medical 
+Needs Among Men and Women. Population Research and Policy Review, 33(4), 553–577. 
+https://doi.org/10.1007/s11113-013-9282-9 
+
+
+22 
+ 
+Feinstein, B. A., & Dyar, C. (2017). Bisexuality, Minority Stress, and Health. Current Sexual Health 
+Reports, 9(1), 42–49. https://doi.org/10.1007/s11930-017-0096-3 
+Finkelstein, A., & Hendren, N. (2020). Welfare Analysis Meets Causal Inference. Journal of Economic 
+Perspectives, 34(4), 146–167. https://doi.org/10.1257/jep.34.4.146 
+Fothergill, A. (2003). The Stigma of Charity: Gender, Class, and Disaster Assistance. The Sociological 
+Quarterly, 44(4), 659–680. https://doi.org/10.1111/j.1533-8525.2003.tb00530.x 
+Garner, T. I., Safir, A., & Schild, J. (2020a). Changes in Consumer Behaviors and Financial Well-Being 
+during the Coronavirus Pandemic: Results from the U.S. Household Pulse Survey. Monthly Labor 
+Review, 143. 
+Garner, T. I., Safir, A., & Schild, J. (2020b). Changes in consumer behaviors and financial well-being 
+during the coronavirus pandemic: results from the U.S. household pulse survey. Monthly Labor 
+Review, 143(12), 1–21. 
+Goldin, J., & Michelmore, K. (2022). Who Benefits from the Child Tax Credit? National Tax Journal, 
+000–000. https://doi.org/10.1086/717919 
+Gonzales, G., & Blewett, L. A. (2014). National and state-specific health insurance disparities for adults 
+in same-sex relationships. American Journal of Public Health, 104(2), 95–105. 
+Gonzales, G., & de Mola, E. L. (2021). Potential COVID-19 Vulnerabilities in Employment and 
+Healthcare Access by Sexual Orientation. Annals of LGBTQ Public and Population Health, 2(2), 
+87–103. https://doi.org/10.1891/LGBTQ-2020-0052 
+Gonzales, G., & Deal, C. (2022). Health Risk Factors and Outcomes Among Gender Minority High 
+School Students in 15 US States. JAMA, 327(15), 1498. https://doi.org/10.1001/jama.2022.3087 
+Herek, G. M., Norton, A. T., Allen, T. J., & Sims, C. L. (2010). Demographic, Psychological, and Social 
+Characteristics of Self-Identified Lesbian, Gay, and Bisexual Adults in a US Probability Sample. 
+Sexuality Research and Social Policy, 7(3), 176–200. https://doi.org/10.1007/s13178-010-0017-y 
+Hoffman, S. D. (2008). Economic Costs and Social Consequences of Teen Pregnancy, second edition. In 
+R. A. Maynard (Ed.), Kids Having Kids. The Urban Institute. 
+Horsfall, S. (2012). Social Problems: An Advocate Group Approach. Avalon Publishing. 
+Hussey, L. S. (2011). Is Welfare Pro-life? Assistance Programs, Abortion, and the Moderating Role of 
+States. Social Service Review. 
+Jackson Levin, N., Kattari, S. K., Piellusch, E. K., & Watson, E. (2020). “We Just Take Care of Each 
+Other”: Navigating ‘Chosen Family’ in the Context of Health, Illness, and the Mutual Provision of 
+Care amongst Queer and Transgender Young Adults. International Journal of Environmental 
+Research and Public Health, 17(19), 7346. https://doi.org/10.3390/ijerph17197346 
+Jones, P. E. (2021). Political Distinctiveness and Diversity Among Lgbt Americans. Public Opinion 
+Quarterly. https://doi.org/10.1093/poq/nfab030 
+Keith-Jennings, B., Llobrera, J., & Dean, S. (2019). Links of the Supplemental Nutrition Assistance 
+Program With Food Insecurity, Poverty, and Health: Evidence and Potential. American Journal of 
+Public Health, 109(12), 1636–1640. https://doi.org/10.2105/AJPH.2019.305325 
+
+
+23 
+ 
+Kim, D. (2021). Financial hardship and social assistance as determinants of mental health and food and 
+housing insecurity during the COVID-19 pandemic in the United States. SSM - Population Health, 
+16, 100862. https://doi.org/10.1016/j.ssmph.2021.100862 
+Klawitter, M. (2015). Meta-Analysis of the Effects of Sexual Orientation on Earnings. Industrial 
+Relations: A Journal of Economy and Society, 54(1), 4–32. https://doi.org/10.1111/irel.12075 
+Ko, W., & Moffitt, R. A. (2022). Take-up of Social Benefits. https://doi.org/10.3386/W30148 
+Leppel, K. (2007). Home-ownership among opposite- and same-sex couples in the US. Feminist 
+Economics, 13(1), 1–30. https://doi.org/10.1080/13545700601075070 
+Lewis, G. B., Rogers, M. A., & Sherrill, K. (2011). Lesbian, Gay, and Bisexual Voters in the 2000 U.S. 
+Presidential Election [Article]. Politics & Policy, 39(5), 655–677. https://doi.org/10.1111/j.1747-
+1346.2011.00315.x 
+Mann, S., Blackaby, D., & O’Leary, N. (2019). Sexual identity and wellbeing: A distributional analysis. 
+Economics Letters, 181, 133–136. https://doi.org/10.1016/j.econlet.2019.04.023 
+Manski, C. F. (1993). Identification of Endogenous Social Effects: The Reflection Problem. The Review 
+of Economic Studies, 60(3), 531. https://doi.org/10.2307/2298123 
+Marcén, M., & Morales, M. (2022). The effect of same-sex marriage legalization on interstate migration 
+in the USA. Journal of Population Economics, 35(2), 441–469. https://doi.org/10.1007/s00148-021-
+00842-5 
+Martell, M. E. (2019). Age and the new lesbian earnings penalty. International Journal of Manpower, 
+41(6), 649–670. https://doi.org/10.1108/IJM-10-2018-0322 
+Martell, M. E. (2021). Labor market differentials estimated with researcher-inferred and self-identified 
+sexual orientation. Economics Letters, 205, 109959. https://doi.org/10.1016/j.econlet.2021.109959 
+McConnell, E. A., Birkett, M. A., & Mustanski, B. (2015). Typologies of Social Support and 
+Associations with Mental Health Outcomes Among LGBT Youth. LGBT Health, 2(1), 55–61. 
+https://doi.org/10.1089/lgbt.2014.0051 
+Moffitt, R. (1983). An Economic Model of Welfare Stigma. American Economic Review, 73(5), 1023–
+1035. 
+Morin, R., Taylor, P., & Patten, E. (2012). A Bipartisan Nation of Beneficiaries. Pew Research Center. 
+https://www.pewresearch.org/social-trends/2012/12/18/a-bipartisan-nation-of-beneficiaries/ 
+National Academies of Science Engineering and Medicine. (2020). Understanding the Well-Being of 
+LGBTQI+ Populations. In C. J. Patterson, M.-J. Sepúlveda, & J. White (Eds.), Understanding the 
+Well-Being of LGBTQI+ Populations. National Academies Press. https://doi.org/10.17226/25877 
+Office of the Assistant Secretary for Planning and Evaluation. (2022). Poverty Guidelines. 
+https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines 
+Patacchini, E., Ragusa, G., & Zenou, Y. (2015). Unexplored dimensions of discrimination in Europe: 
+homosexuality and physical appearance. Journal of Population Economics, 28(4), 1045–1073. 
+https://doi.org/10.1007/s00148-014-0533-9 
+
+
+24 
+ 
+Perales, F., & Huang, Y. (2020). Parental Financial Transfers: Do They Vary by Children’s Sexual 
+Orientation? Social Forces, 98(4), 1465–1497. https://doi.org/10.1093/sf/soz111 
+Plug, E., & Berkhout, P. (2004). Effects of sexual preferences on earnings in the Netherlands. Journal of 
+Population Economics, 17(1), 117–131. https://doi.org/10.1007/s00148-003-0136-3 
+Riphahn, R. T., & Serfling, O. (2005). Item non-response on income and wealth questions. Empirical 
+Economics, 30(2), 521–538. https://doi.org/10.1007/s00181-005-0247-7 
+Rosario, M., Schrimshaw, E. W., & Hunter, J. (2012). Risk factors for homelessness among lesbian, gay, 
+and bisexual youths: A developmental milestone approach. Children and Youth Services Review, 
+34(1), 186–193. https://doi.org/https://doi.org/10.1016/j.childyouth.2011.09.016 
+Schenker, N., Raghunathan, T. E., Chiu, P.-L., Makuc, D. M., Zhang, G., & Cohen, A. J. (2006). Multiple 
+Imputation of Missing Income Data in the National Health Interview Survey. Journal of the 
+American Statistical Association, 101(475), 924–933. https://doi.org/10.1198/016214505000001375 
+Schneebaum, A., & Badgett, M. V. L. (2019). Poverty in US Lesbian and Gay Couple Households. 
+Feminist Economics, 25(1), 1–30. https://doi.org/10.1080/13545701.2018.1441533 
+Sherkat, D. E. (2002). Sexuality and Religious Commitment in the United States: An Empirical 
+Examination. Journal for the Scientific Study of Religion, 41(2), 313–323. 
+https://doi.org/10.1111/1468-5906.00119 
+Sherkat, D. E., de Vries, K. M., & Creek, S. (2010). Race, Religion, and Opposition to Same-Sex 
+Marriage [Article]. Social Science Quarterly, 91(1), 80–98. https://doi.org/10.1111/j.1540-
+6237.2010.00682.x 
+Smith, R. A., & Haider-Markel, D. P. (2002). Gay and Lesbian Americans and Political Participation. 
+ABC-CLIO. 
+Snapp, S. D., Watson, R. J., Russell, S. T., Diaz, R. M., & Ryan, C. (2015). Social Support Networks for 
+LGBT Young Adults: Low Cost Strategies for Positive Adjustment. Family Relations, 64(3), 420–
+430. https://doi.org/10.1111/fare.12124 
+StataCorp. (2019). Stata Statistical Software: Release 16. StataCorp LLC. 
+Stuber, J., & Schlesinger, M. (2006). Sources of stigma for means-tested government programs. Social 
+Science & Medicine, 63(4), 933–945. https://doi.org/10.1016/j.socscimed.2006.01.012 
+Tilcsik, A. (2011). Pride and Prejudice: Employment Discrimination against Openly Gay Men in the 
+United States. American Journal of Sociology, 117(2), 586–626. https://doi.org/10.1086/661653 
+Turnbull-Dugarte, S. J., & Townsley, J. (2020). Political engagement and turnout among same-sex 
+couples in Western Europe. Research & Politics, 7(4), 205316802097695. 
+https://doi.org/10.1177/2053168020976952 
+Uhrig, S. C. N. (2015). Sexual Orientation and Poverty in the UK: A Review and Top-Line Findings from 
+the UK Household Longitudinal Study. Journal of Research in Gender Studies, 5. 
+https://heinonline.org/HOL/Page?handle=hein.journals/jogenst5&id=24&div=6&collection=journal
+s 
+US Census Bureau. (2021). Poverty Thresholds. 
+
+
+25 
+ 
+van Oorschot, W. (1991). Non-Take-Up of Social Security Benefits in Europe. Journal of European 
+Social Policy, 1(1), 15–30. https://doi.org/10.1177/095892879100100103 
+Western, B., Bloome, D., Sosnaud, B., & Tach, L. (2012). Economic Insecurity and Social Stratification. 
+Annual Review of Sociology, 38(1), 341–359. https://doi.org/10.1146/annurev-soc-071811-145434 
+Wilson, B. D. M., Gomez Madin, A.-G. H., Soon, S., Choi, K., & Lee Badgett, M. v. (2020). Pathways 
+into Poverty: Lived Experiences Among LGBTQ People. https://doi.org/10.1177/0019793920902776 
+Wilson, B., & Meyer, I. (2021). Nonbinary LQBTQ Adults in the United States. 
+https://doi.org/10.1037/sgd0000384 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+26 
+ 
+Table 1a: Descriptive Statistics, Household Pulse Survey, Stratified by Sexual Orientation 
+and Sex 
+Panel A: Full Sample, Men 
+  
+Heterosexual 
+Gay/Lesbian 
+Bisexual 
+P-Value 
+Sample Size 
+199224 
+11647 
+4723 
+  
+Weighted Percentage 
+92.5% 
+4.6% 
+2.9% 
+  
+Age 
+50.088 
+43.392 
+36.067 
+<0.001 
+Number of Children 
+0.630 
+0.196 
+0.414 
+<0.001 
+Race/Ethnicity 
+ 
+ 
+ 
+  
+White, non-Hispanic 
+0.669 
+0.652 
+0.676 
+<0.001 
+Black, non-Hispanic 
+0.093 
+0.079 
+0.061 
+Asian, non-Hispanic 
+0.056 
+0.041 
+0.044 
+All other races, non-Hispanic 
+0.031 
+0.037 
+0.044 
+Hispanic 
+0.151 
+0.192 
+0.174 
+Relationship Status 
+ 
+ 
+ 
+  
+Married 
+0.641 
+0.285 
+0.297 
+<0.001 
+Widowed, Divorced, or Separated 
+0.138 
+0.090 
+0.123 
+Never Married 
+0.219 
+0.623 
+0.579 
+Missing 
+0.003 
+0.002 
+0.001 
+Child Present 
+0.344 
+0.116 
+0.241 
+<0.001 
+Gender Minority  
+0.001 
+0.040 
+0.075 
+<0.001 
+Urban Area 
+0.324 
+0.419 
+0.333 
+<0.001 
+Educational Attainment 
+ 
+ 
+ 
+  
+Less than High School 
+0.062 
+0.044 
+0.060 
+<0.001 
+High School Graduate 
+0.311 
+0.213 
+0.267 
+Some College 
+0.292 
+0.348 
+0.407 
+Bachelor's or higher 
+0.335 
+0.395 
+0.266 
+Employment Status 
+ 
+ 
+ 
+  
+Employed 
+0.629 
+0.682 
+0.683 
+<0.001 
+Unemployed 
+0.098 
+0.126 
+0.124 
+Not in Labor Force 
+0.261 
+0.182 
+0.189 
+Missing 
+0.011 
+0.010 
+0.005 
+Health Insurance 
+ 
+ 
+ 
+  
+Private Health Insurance 
+0.557 
+0.621 
+0.604 
+<0.001 
+Public Health Insurance 
+0.348 
+0.273 
+0.252 
+Uninsured 
+0.090 
+0.099 
+0.141 
+Missing 
+0.006 
+0.008 
+0.003 
+Below FPL  
+0.134 
+0.168 
+0.207 
+<0.001 
+Source: Weeks 34-43 Household Pulse Survey, authors’ calculations. Weighted means. Note average household 
+income and poverty status are determined using the midpoint of each household income range or the lower limit of 
+the range for those in the highest income range. P-values calculated using χ2 tests for categorical variables and 
+ANOVA tests for continuous variables. 
+ 
+
+
+27 
+ 
+Panel B: Full Sample, Women 
+  
+Heterosexual 
+Gay/Lesbian 
+Bisexual 
+P-Value 
+Sample Size 
+286275  
+7360  
+14567  
+  
+Weighted Percentage 
+91.5% 
+2.3% 
+6.2% 
+  
+Age 
+51.121 
+42.500 
+32.336 
+<0.001 
+Number of Children 
+0.700 
+0.472 
+0.665 
+<0.001 
+Race/Ethnicity 
+ 
+ 
+ 
+  
+White, non-Hispanic 
+0.657 
+0.667 
+0.661 
+<0.001 
+Black, non-Hispanic 
+0.119 
+0.106 
+0.074 
+Asian, non-Hispanic 
+0.047 
+0.030 
+0.030 
+All other races, non-Hispanic 
+0.036 
+0.050 
+0.069 
+Hispanic 
+0.141 
+0.147 
+0.166 
+Relationship Status 
+ 
+ 
+ 
+  
+Married 
+0.558 
+0.372 
+0.315 
+<0.001 
+Widowed, Divorced, or Separated 
+0.246 
+0.134 
+0.124 
+Never Married 
+0.192 
+0.491 
+0.559 
+Missing 
+0.003 
+0.004 
+0.002 
+Child Present 
+0.380 
+0.259 
+0.369 
+<0.001 
+Gender Minority  
+0.001 
+0.059 
+0.048 
+<0.001 
+Urban Area 
+0.315 
+0.329 
+0.309 
+<0.001 
+Educational Attainment 
+ 
+ 
+ 
+  
+Less than High School 
+0.059 
+0.058 
+0.055 
+<0.001 
+High School Graduate 
+0.281 
+0.207 
+0.220 
+Some College 
+0.305 
+0.338 
+0.397 
+Bachelor's or higher 
+0.355 
+0.397 
+0.328 
+Employment Status 
+ 
+ 
+ 
+  
+Employed 
+0.543 
+0.625 
+0.688 
+<0.001 
+Unemployed 
+0.108 
+0.120 
+0.121 
+Not in Labor Force 
+0.338 
+0.242 
+0.190 
+Missing 
+0.011 
+0.012 
+0.002 
+Health Insurance 
+ 
+ 
+ 
+  
+Private Health Insurance 
+0.512 
+0.587 
+0.587 
+<0.001 
+Public Health Insurance 
+0.419 
+0.321 
+0.300 
+Uninsured 
+0.064 
+0.090 
+0.111 
+Missing 
+0.006 
+0.002 
+0.002 
+Below FPL  
+0.183 
+0.209 
+0.264 
+<0.001 
+Source: Weeks 34-43 Household Pulse Survey, authors’ calculations. Weighted means. Note average household 
+income and poverty status are determined using the midpoint of each household income range or the lower limit of 
+the range for those in the highest income range. P-values calculated using χ2 tests for categorical variables and 
+ANOVA tests for continuous variables. 
+ 
+ 
+ 
+ 
+
+
+28 
+ 
+Table 1b: Descriptive Statistics, Household Pulse Survey, Stratified by Sexual Orientation 
+and Sex 
+Panel A: Below the federal poverty level (FPL), Men 
+  
+Heterosexual 
+Gay/Lesbian 
+Bisexual 
+P-Value 
+Sample Size 
+14203  
+1238  
+761  
+  
+Weighted Percentage 
+90.0% 
+5.7% 
+4.4% 
+  
+Age 
+46.098 
+42.365 
+34.881 
+<0.001 
+Number of Children 
+0.812 
+0.382 
+0.567 
+<0.001 
+Race/Ethnicity 
+ 
+ 
+ 
+  
+White, non-Hispanic 
+0.494 
+0.548 
+0.607 
+<0.001 
+Black, non-Hispanic 
+0.160 
+0.118 
+0.072 
+Asian, non-Hispanic 
+0.051 
+0.038 
+0.008 
+All other races, non-Hispanic 
+0.042 
+0.036 
+0.072 
+Hispanic 
+0.254 
+0.260 
+0.242 
+Relationship Status 
+ 
+ 
+ 
+  
+Married 
+0.355 
+0.125 
+0.190 
+<0.001 
+Widowed, Divorced, or Separated 
+0.235 
+0.119 
+0.175 
+Never Married 
+0.406 
+0.755 
+0.630 
+Missing 
+0.003 
+0.000 
+0.005 
+Child Present 
+0.394 
+0.184 
+0.278 
+<0.001 
+Gender Minority  
+0.002 
+0.072 
+0.090 
+<0.001 
+Urban Area 
+0.320 
+0.385 
+0.325 
+0.084 
+Educational Attainment 
+ 
+ 
+ 
+  
+Less than High School 
+0.174 
+0.107 
+0.144 
+<0.001 
+High School Graduate 
+0.459 
+0.329 
+0.315 
+Some College 
+0.259 
+0.374 
+0.392 
+Bachelor's or higher 
+0.108 
+0.190 
+0.148 
+Employment Status 
+ 
+ 
+ 
+  
+Employed 
+0.405 
+0.384 
+0.505 
+<0.001 
+Unemployed 
+0.253 
+0.310 
+0.243 
+Not in Labor Force 
+0.329 
+0.297 
+0.251 
+Missing 
+0.013 
+0.009 
+0.002 
+Health Insurance 
+ 
+ 
+ 
+  
+Private Health Insurance 
+0.232 
+0.238 
+0.318 
+0.068 
+Public Health Insurance 
+0.518 
+0.553 
+0.465 
+Uninsured 
+0.238 
+0.188 
+0.211 
+Missing 
+0.012 
+0.022 
+0.006 
+Source: Weeks 34-43 Household Pulse Survey, authors’ calculations. Weighted means. Note average household 
+income and poverty status are determined using the midpoint of each household income range or the lower limit of 
+the range for those in the highest income range. P-values calculated using χ2 tests for categorical variables and 
+ANOVA tests for continuous variables. 
+ 
+ 
+ 
+
+
+29 
+ 
+Panel B: Below the federal poverty level (FPL), Women 
+  
+Heterosexual 
+Gay/Lesbian 
+Bisexual 
+P-Value 
+Sample Size 
+32068  
+976  
+2890  
+  
+Weighted Percentage 
+88.7% 
+2.6% 
+8.7% 
+  
+Age 
+47.764 
+37.333 
+30.732 
+<0.001 
+Number of Children 
+1.091 
+0.759 
+0.889 
+<0.001 
+Race/Ethnicity 
+ 
+ 
+ 
+  
+White, non-Hispanic 
+0.478 
+0.506 
+0.563 
+<0.001 
+Black, non-Hispanic 
+0.209 
+0.172 
+0.123 
+Asian, non-Hispanic 
+0.028 
+0.017 
+0.030 
+All other races, non-Hispanic 
+0.050 
+0.076 
+0.075 
+Hispanic 
+0.235 
+0.229 
+0.209 
+Relationship Status 
+ 
+ 
+ 
+  
+Married 
+0.288 
+0.178 
+0.159 
+<0.001 
+Widowed, Divorced, or Separated 
+0.378 
+0.166 
+0.157 
+Never Married 
+0.331 
+0.651 
+0.684 
+Missing 
+0.004 
+0.006 
+0.000 
+Child Present 
+0.527 
+0.357 
+0.457 
+<0.001 
+Gender Minority  
+0.000 
+0.095 
+0.054 
+<0.001 
+Urban Area 
+0.301 
+0.299 
+0.264 
+0.094 
+Educational Attainment 
+ 
+ 
+ 
+  
+Less than High School 
+0.175 
+0.139 
+0.095 
+<0.001 
+High School Graduate 
+0.422 
+0.313 
+0.316 
+Some College 
+0.301 
+0.388 
+0.447 
+Bachelor's or higher 
+0.102 
+0.161 
+0.142 
+Employment Status 
+ 
+ 
+ 
+  
+Employed 
+0.353 
+0.430 
+0.541 
+<0.001 
+Unemployed 
+0.218 
+0.224 
+0.178 
+Not in Labor Force 
+0.414 
+0.336 
+0.281 
+Missing 
+0.014 
+0.010 
+0.001 
+Health Insurance 
+ 
+ 
+ 
+  
+Private Health Insurance 
+0.177 
+0.306 
+0.294 
+<0.001 
+Public Health Insurance 
+0.661 
+0.509 
+0.527 
+Uninsured 
+0.150 
+0.181 
+0.176 
+Missing 
+0.013 
+0.004 
+0.005 
+Source: Weeks 34-43 Household Pulse Survey, authors’ calculations. Weighted means. Note average household 
+income and poverty status are determined using the midpoint of each household income range or the lower limit of 
+the range for those in the highest income range. P-values calculated using χ2 tests for categorical variables and 
+ANOVA tests for continuous variables. 
+ 
+ 
+ 
+ 
+ 
+
+
+30 
+ 
+Table 2: LGB Individuals, Especially Bisexuals, Experience Worse Economic Outcomes. 
+Full Sample 
+ 
+  
+(1) 
+(2) 
+(3) 
+(4) 
+  
+Log of 
+household 
+income  
+Employed 
+Below federal 
+poverty level  
+Financial hardship 
+Male 
+  
+Gay 
+-0.00297 
+-0.00409 
+-0.00140 
+0.0344*** 
+  
+(0.0170) 
+(0.00965) 
+(0.00862) 
+(0.0101) 
+Bisexual 
+-0.0812*** 
+-0.0172 
+0.0216* 
+0.0613*** 
+  
+(0.0250) 
+(0.0144) 
+(0.0124) 
+(0.0146) 
+Mean of Outcome 
+89810 
+0.633 
+0.138 
+0.251 
+N 
+215594 
+215594 
+215594 
+215594 
+Female 
+  
+  
+  
+  
+Lesbian 
+-0.0322* 
+-0.00667 
+0.00878 
+0.0458*** 
+  
+(0.0183) 
+(0.0104) 
+(0.00991) 
+(0.0108) 
+Bisexual 
+-0.0891*** 
+-0.00367 
+0.0285*** 
+0.0603*** 
+  
+(0.0146) 
+(0.00805) 
+(0.00786) 
+(0.00828) 
+Mean of Outcome 
+78744 
+0.554 
+0.188 
+0.308 
+N 
+308202 
+308202 
+308202 
+308202 
+Notes: Data are from the Weeks 34-43 Household Pulse Survey (HPS). Each column is from a separate regression 
+using the HPS person weights. Linear probability models, except for column (1), which uses interval regression. We 
+present coefficient estimates and standard errors, robust to heteroskedasticity. The individual-level controls include 
+age, age squared, race, ethnicity, relationship status, the presence of a child in the household, sex, urban-rural status, 
+gender minority status, the total number of children in the household, and education (four categories). We also control 
+for survey week and state of residence. * p < 0.10, ** p < 0.05, *** p < 0.01. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+31 
+ 
+Table 3: LGB Individuals Access and Use Government Assistance at Higher Rates. 
+Full Sample  
+ 
+  
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+  
+Unemployment 
+insurance 
+utilization 
+Stimulus 
+check 
+utilization 
+SNAP 
+receipt 
+SNAP 
+utilization 
+Rental 
+assistance 
+utilization 
+Medicaid 
+Male 
+  
+  
+Gay 
+0.00708 
+0.00193 
+0.0272*** 
+0.0215*** 
+0.00558** 
+0.0338*** 
+  
+(0.00551) 
+(0.00783) 
+(0.00693) 
+(0.00520) 
+(0.00230) 
+(0.00743) 
+Bisexual 
+0.0162* 
+0.0211* 
+0.0393*** 
+0.0377*** 
+0.0138*** 
+0.0341*** 
+  
+(0.00889) 
+(0.0112) 
+(0.0119) 
+(0.00920) 
+(0.00523) 
+(0.0107) 
+Mean of 
+Outcome 
+0.039 
+0.115 
+0.092 
+0.041 
+0.007 
+0.121 
+N 
+215594 
+215594 
+215594 
+215594 
+215594 
+215594 
+Female 
+  
+  
+Lesbian 
+-0.000886 
+0.0213** 
+0.0186** 
+0.00771 
+0.00141 
+-0.000759 
+  
+(0.00605) 
+(0.00962) 
+(0.00818) 
+(0.00680) 
+(0.00296) 
+(0.00990) 
+Bisexual 
+0.00658 
+0.0175** 
+0.0238*** 
+0.0204*** 
+0.00260 
+0.0374*** 
+  
+(0.00448) 
+(0.00697) 
+(0.00665) 
+(0.00560) 
+(0.00216) 
+(0.00752) 
+Mean of 
+Outcome 
+0.041 
+0.121 
+0.148 
+0.087 
+0.013 
+0.194 
+N 
+308202 
+308202 
+308202 
+308202 
+308202 
+308202 
+Notes: Data are from the Weeks 34-43 Household Pulse Survey (HPS). Each column is from a separate regression 
+using the HPS person weights. Linear probability models. We present coefficient estimates and standard errors, robust 
+to heteroskedasticity. The individual-level controls include age, age squared, race, ethnicity, relationship status, the 
+presence of a child in the household, sex, urban-rural status, gender minority status, the total number of children in 
+the household, poverty status, and education (four categories). We also control for survey week and state of residence. 
+* p < 0.10, ** p < 0.05, *** p < 0.01. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+32 
+ 
+Table 4: Low-income LGB Individuals Access SNAP and Rent Assistance at Higher Rates. 
+Sample is limited to those respondents with household incomes below the FPL. 
+ 
+  
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+  
+Unemployment 
+insurance 
+utilization 
+Stimulus 
+check 
+utilization 
+SNAP 
+receipt 
+SNAP 
+utilization 
+Rental 
+assistance 
+utilization 
+Medicaid 
+Male 
+  
+  
+Gay 
+-0.00975 
+-0.0211 
+0.0737*** 
+0.0703*** 
+0.0230** 
+0.109*** 
+  
+(0.0168) 
+(0.0231) 
+(0.0274) 
+(0.0230) 
+(0.0117) 
+(0.0266) 
+Bisexual 
+0.0120 
+-0.0129 
+0.0715** 
+0.0910*** 
+0.0412** 
+0.0834** 
+  
+(0.0173) 
+(0.0256) 
+(0.0332) 
+(0.0296) 
+(0.0208) 
+(0.0332) 
+Mean of 
+Outcome 
+0.075 
+0.197 
+0.340 
+0.174 
+0.034 
+0.388 
+N 
+16202 
+16202 
+16202 
+16202 
+16202 
+16202 
+Female 
+  
+  
+Lesbian 
+0.00814 
+0.000320 
+-0.00186 
+-0.00544 
+-0.00236 
+-0.0424* 
+  
+(0.0199) 
+(0.0284) 
+(0.0250) 
+(0.0230) 
+(0.0106) 
+(0.0257) 
+Bisexual 
+0.00184 
+0.0165 
+0.00267 
+0.0126 
+0.00716 
+0.00688 
+  
+(0.0131) 
+(0.0177) 
+(0.0169) 
+(0.0156) 
+(0.00740) 
+(0.0175) 
+Mean of 
+Outcome 
+0.077 
+0.213 
+0.468 
+0.303 
+0.050 
+0.536 
+N 
+35934 
+35934 
+35934 
+35934 
+35934 
+35934 
+Notes: Data are from the Weeks 34-43 Household Pulse Survey (HPS). Each column is from a separate regression 
+using the HPS person weights. Linear probability models. We present coefficient estimates and standard errors, robust 
+to heteroskedasticity. The individual-level controls include age, age squared, race, ethnicity, relationship status, the 
+presence of a child in the household, sex, urban-rural status, gender minority status, the total number of children in 
+the household, and education (four categories). We also control for survey week and state of residence. * p < 0.10, ** 
+p < 0.05, *** p < 0.01. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+33 
+ 
+Table 5: Child-Related Programs are Differentially Accessed by LGB Populations. 
+Full Sample at left; FPL sample at right. 
+ 
+  
+Full Sample 
+<FPL Sample 
+  
+(1) 
+(2) 
+(3) 
+(4) 
+  
+Child tax credit 
+receipt 
+School lunch 
+card utilization 
+Child tax credit 
+receipt 
+School lunch card 
+utilization 
+Male 
+  
+  
+  
+  
+Gay 
+-0.0161*** 
+0.000625 
+-0.0199 
+-0.0243* 
+  
+(0.00553) 
+(0.00416) 
+(0.0160) 
+(0.0125) 
+Bisexual 
+0.00456 
+0.0124 
+-0.00203 
+0.00451 
+  
+(0.00839) 
+(0.00872) 
+(0.0221) 
+(0.0232) 
+Mean of Outcome 
+0.161 
+0.032 
+0.191 
+0.101 
+N 
+215594 
+215594 
+14187 
+14187 
+Female 
+  
+  
+  
+Lesbian 
+-0.0369*** 
+0.000354 
+-0.0827*** 
+-0.0139 
+  
+(0.00695) 
+(0.00596) 
+(0.0205) 
+(0.0193) 
+Bisexual 
+-0.0211*** 
+0.0139*** 
+-0.0350** 
+0.00119 
+  
+(0.00567) 
+(0.00538) 
+(0.0151) 
+(0.0143) 
+Mean of Outcome 
+0.233 
+0.061 
+0.302 
+0.161 
+N 
+308202 
+308202 
+31199 
+31199 
+Notes: Data are from the Weeks 34-43 Household Pulse Survey (HPS). Each column is from a separate regression 
+using the HPS person weights. Linear probability models. We present coefficient estimates and standard errors, robust 
+to heteroskedasticity. The individual-level controls include age, age squared, race, ethnicity, relationship status, the 
+presence of a child in the household, sex, urban-rural status, gender minority status, the total number of children in 
+the household, and education (four categories). Full sample regressions include a control for poverty status. We also 
+control for survey week and state of residence. * p < 0.10, ** p < 0.05, *** p < 0.01. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+34 
+ 
+Appendix 
+ 
+Appendix Table 1: LGB Populations with Children Differentially  
+Access Child-Related Programs. 
+Full income sample with children at left; FPL sample with children at right. 
+ 
+  
+Full Sample 
+<FPL Sample 
+  
+(1) 
+(2) 
+(3) 
+(4) 
+  
+Child tax credit 
+receipt 
+School lunch 
+card utilization 
+Child tax credit 
+receipt 
+School lunch card 
+utilization 
+Male 
+  
+  
+  
+  
+Gay 
+-0.106*** 
+-0.0265 
+-0.130** 
+-0.123*** 
+  
+(0.0363) 
+(0.0185) 
+(0.0554) 
+(0.0387) 
+Bisexual 
+0.0469 
+0.000273 
+0.00439 
+-0.0725 
+  
+(0.0316) 
+(0.0189) 
+(0.0715) 
+(0.0461) 
+Mean of Outcome 
+0.558 
+0.073 
+0.410 
+0.181 
+N 
+51898 
+51898 
+3603 
+3603 
+Female 
+  
+  
+  
+Lesbian 
+-0.0968*** 
+0.00745 
+-0.155*** 
+-0.0173 
+  
+(0.0232) 
+(0.0179) 
+(0.0538) 
+(0.0402) 
+Bisexual 
+-0.0301** 
+0.0221** 
+-0.0561* 
+0.0127 
+  
+(0.0135) 
+(0.0109) 
+(0.0288) 
+(0.0253) 
+Mean of Outcome 
+0.605 
+0.137 
+0.568 
+0.264 
+N 
+90610 
+90610 
+13380 
+13380 
+Notes: Data are from the Weeks 34-43 Household Pulse Survey (HPS). Each column is from a separate regression 
+using the HPS person weights. Linear probability models. We present coefficient estimates and standard errors, robust 
+to heteroskedasticity. The individual-level controls include age, age squared, race, ethnicity, relationship status, sex, 
+urban-rural status, gender minority status, the total number of children in the household, and education (four 
+categories). Full sample regressions include a control for poverty status. We also control for survey week and state of 
+residence. * p < 0.10, ** p < 0.05, *** p < 0.01. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+35 
+ 
+Appendix Table 2: Variable Creation 
+Variable 
+Type 
+Coding 
+Gender Minority 
+Indicator 
+0) "Cisgender" 1) "Gender Minority" 
+Gay/Lesbian* 
+Indicator 
+0) "Heterosexual" 1) "Gay/Lesbian" 
+Bisexual* 
+Indicator 
+0) "Heterosexual" 1) "Bisexual" 
+Sex 
+Indicator 
+0) "Male" 1) "Female" 
+Age 
+Continuous 
+17-88 
+Race 
+Categorical 
+1) "White, Non-Hispanic" 2) "Black, Non-Hispanic" 3) “Asian, Non-
+Hispanic” 4) "All Other Races, Non-Hispanic" 5) "Hispanic" 
+Marital Status 
+Categorical 
+1) "Married" 2) "Widowed, Divorced, or Separated" 3) “Never 
+Married” 4) "Missing"  
+Child <18 Present in 
+Household 
+Indicator 
+0) "No Child in House" 1) "Child in House" 
+Educational 
+Attainment 
+Categorical 
+1) "Less than High School" 2) "High School Graduate" 3) "Some 
+College" 4) "Bachelor's or Higher" 
+Household Income 
+Range 
+1) "Less than $24,999" 2) "$25,000-$34,999" 3) "$35,000-$49,999" 4) 
+"$50,000-$74,999" 5) "$75,000-$99,999" 6) "$100,000-$149,999” 7) 
+“$150,000-199,999” 8) “200,000+” 9) "Missing" 
+Federal Poverty Line† 
+Indicator 
+0) "Above FPL" 1) "Below FPL" 
+Employment 
+Categorical 
+1) "Employed" 2) "Unemployed" 3) "Not in Labor Force" 4) "Missing" 
+Employed 
+Indicator 
+0) "Unemployed or Not in Labor Force" 1) "Employed" 
+Health Insurance 
+Categorical 
+1) "Private Health Insurance" 2) "Public Health Insurance" 3) 
+"Uninsured" 4) "Missing" 
+Urban-Rural Status 
+Indicator 
+0) "Not in Metropolitan Statistical Area" 1) "In MSA" 
+State 
+Categorical 
+1) "Alabama” 2) "Alaska" 3) "Arizona” …. 
+Child Tax Credit 
+Receipt 
+Indicator 
+0) "Did not receive Child Tax Credit" 1) "Received Child Tax Credit" 
+SNAP Receipt 
+Indicator 
+0) "Did not receive SNAP" 1) "Received SNAP" 
+Financial Hardship 
+(Difficulty with 
+Expenses) 
+Categorical 
+1) “Not at all difficult” 2) “A little difficult” 3) “Somewhat difficult” 4) 
+“Very difficult” 
+Financial Hardship⁑ 
+Indicator 
+0) “Not at all difficult or A little difficult” 1) “Somewhat difficult or 
+Very difficult” 
+Unemployment 
+Insurance Utilization‡ 
+Indicator 
+0) "Did not utilize Unemployment Insurance" 1) "Utilized 
+Unemployment Insurance" 
+
+
+36 
+ 
+Stimulus Payment 
+Utilization‡ 
+Indicator 
+0) "Did not utilize Stimulus Payments" 1) "Utilized Stimulus 
+Payments" 
+Child Tax Credit 
+Utilization‡ 
+Indicator 
+0) "Did not utilize Child Tax Credit" 1) "Utilized Child Tax Credit" 
+School Meal Card 
+Utilization‡ 
+Indicator 
+0) "Did not utilize School Meal Card" 1) "Utilized School Meal Card" 
+Rental Assistance 
+Utilization‡ 
+Indicator 
+0) "Did not utilize Rental Assistance" 1) "Utilized Rental Assistance" 
+Medicaid Utilization 
+Indicator 
+0) "Did not report Medicaid as a source of health insurance" 1) "Report 
+Medicaid as a source of health insurance " 
+Notes: *Bisexuals are coded as missing (.) for the gay/lesbian indicator variable, and vice versa so that comparisons 
+are to a strictly heterosexual group. †Following C. S. Carpenter et al., 2022, we use the midpoint of the reported 
+income range as the value for that respondent, and then compare that to their federal poverty threshold (determined 
+by household size and number of children in the household). If participants do not exceed the threshold, they are 
+coded as below the federal poverty line. ⁑We dichotomize the financial hardship variable into an indicator variable 
+for ease of interpretation and following Garner et al., 2020b; Kim, 2021. ‡Respondents were asked which of the 
+following sources they and their household members used to meet their spending needs. They could choose multiple 
+options including unemployment insurance (UI), stimulus payments, SNAP, school meal cards, and governmental 
+rental assistance. If they selected one of these options, they were coded as having utilized that government assistance 
+program. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+37 
+ 
+Appendix Table 3: LGB Public Assistance Differentials, Controlling for Recent Job Loss 
+  
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+  
+Unemployment 
+insurance 
+utilization 
+Stimulus 
+check 
+utilization 
+SNAP 
+receipt 
+SNAP 
+utilization 
+Rental 
+assistance 
+utilization 
+Medicaid 
+Male 
+  
+  
+Gay 
+0.00576 
+0.00134 
+0.0267*** 
+0.0213*** 
+0.00555** 
+0.0333*** 
+(0.00533) 
+(0.00779) 
+(0.00697) 
+(0.00522) 
+(0.00230) 
+(0.00742)    
+Bisexual 
+0.0133 
+0.0197* 
+0.0380*** 
+0.0371*** 
+0.0137*** 
+0.0322*** 
+(0.00861) 
+(0.0112) 
+(0.0118) 
+(0.00922) 
+(0.00525) 
+(0.0108)    
+Mean of 
+Outcome 
+0.039 
+0.115 
+0.092 
+0.041 
+0.007 
+0.121 
+N 
+215594 
+215594 
+215594 
+215594 
+215594 
+215594 
+Female 
+  
+  
+Gay/lesbian 
+-0.00235 
+0.0208** 
+0.0178** 
+0.00726 
+0.00128 
+-0.00159 
+(0.00589) 
+(0.00958) 
+(0.00824) 
+(0.00684) 
+(0.00296) 
+(0.00999) 
+Bisexual 
+0.00248 
+0.0159** 
+0.0214*** 
+0.0188*** 
+0.00224 
+0.0351*** 
+(0.00443) 
+(0.00698) 
+(0.00665) 
+(0.00560) 
+(0.00217) 
+(0.00752)    
+Mean of 
+Outcome 
+0.041 
+0.121 
+0.148 
+0.087 
+0.013 
+0.194 
+N 
+308202 
+308202 
+308202 
+308202 
+308202 
+308202 
+Notes: Data are from the Weeks 34-43 Household Pulse Survey (HPS). Each column is from a separate regression 
+using the HPS person weights. Coefficients are from linear probability models. We present coefficient estimates and 
+standard errors, robust to heteroskedasticity. The individual-level controls include recent job loss age, age squared, 
+race, ethnicity, relationship status, the presence of a child in the household, sex, urban-rural status, gender minority 
+status, the total number of children in the household, poverty status, and education (four categories). We also control 
+for survey week and state of residence. * p < 0.10, ** p < 0.05, *** p < 0.01. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+38 
+ 
+Appendix Figure 1: Educational Attainment, by Income Reporting 
+ 
+ 
+Notes: Data are from the Weeks 34-43 Household Pulse Survey (HPS). The first bar reports the distribution of 
+educational attainment for the sample that reported their income (our primary analytic sample), and the second 
+reports that distribution for the sample that did not report their income.

@@ -1,0 +1,28 @@
+{
+  "source_id": "84a1efdfceb4752f5813",
+  "normalized_url": "https://workassist.in/blog/what-are-the-factors-that-affect-the-recruitment-process",
+  "fetch_timestamp_utc": "2026-10-04T02:43:12.917661+00:00",
+  "registrable_domain": "workassist.in",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.workassist.in/blog/what-are-the-factors-that-affect-the-recruitment-process",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 429102,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/84a1efdfceb4752f5813.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/84a1efdfceb4752f5813.txt",
+  "text_chars": 2433,
+  "text_words": 341,
+  "extraction_status": "success",
+  "page_title": "Why Are Top Companies Rejecting Good Candidates — 10 Recruitment Factors Nobody Tells You",
+  "page_author": "Workassist",
+  "page_date": "2025-05-20",
+  "site_name": "Workassist",
+  "canonical_url": "https://www.workassist.in/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "d6a9435ef25c1daf4ca2",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7506501",
+  "fetch_timestamp_utc": "2026-10-04T03:46:47.533397+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7506501/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 257741,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/d6a9435ef25c1daf4ca2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/d6a9435ef25c1daf4ca2.txt",
+  "text_chars": 66567,
+  "text_words": 10048,
+  "extraction_status": "success",
+  "page_title": "Intersectional social control: The roles of incarceration and police discrimination in psychological and HIV-related outcomes for Black sexual minority men",
+  "page_author": "Devin English; Joseph A Carter; Lisa Bowleg; David J Malebranche; Ali J Talan; H Jonathon Rendina",
+  "page_date": "2020-06-12",
+  "site_name": "Social science & medicine (1982)",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7506501/"
+}

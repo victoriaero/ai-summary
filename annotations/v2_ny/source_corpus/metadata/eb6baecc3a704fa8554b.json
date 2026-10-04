@@ -1,0 +1,28 @@
+{
+  "source_id": "eb6baecc3a704fa8554b",
+  "normalized_url": "https://nmmc.org/mens-health-and-preventive-care-why-routine-checkups-matter",
+  "fetch_timestamp_utc": "2026-10-04T02:51:21.032166+00:00",
+  "registrable_domain": "nmmc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nmmc.org/mens-health-and-preventive-care-why-routine-checkups-matter/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 224201,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/eb6baecc3a704fa8554b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/eb6baecc3a704fa8554b.txt",
+  "text_chars": 3122,
+  "text_words": 459,
+  "extraction_status": "success",
+  "page_title": "Men’s Health and Preventive Care: Why Routine Checkups Matter - Northern Maine Medical Center",
+  "page_author": "Lindsay Crampton",
+  "page_date": "2026-06-04",
+  "site_name": "Northern Maine Medical Center",
+  "canonical_url": "https://nmmc.org/mens-health-and-preventive-care-why-routine-checkups-matter/"
+}

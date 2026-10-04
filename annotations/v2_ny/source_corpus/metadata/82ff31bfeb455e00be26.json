@@ -1,0 +1,28 @@
+{
+  "source_id": "82ff31bfeb455e00be26",
+  "normalized_url": "https://brookings.edu/articles/latinos-and-the-future-of-finance-why-we-need-to-examine-the-motivations-and-effects-of-latinos-fintech-adoption",
+  "fetch_timestamp_utc": "2026-10-04T02:43:02.947526+00:00",
+  "registrable_domain": "brookings.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.brookings.edu/articles/latinos-and-the-future-of-finance-why-we-need-to-examine-the-motivations-and-effects-of-latinos-fintech-adoption/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 228764,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/82ff31bfeb455e00be26.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/82ff31bfeb455e00be26.txt",
+  "text_chars": 20438,
+  "text_words": 2995,
+  "extraction_status": "success",
+  "page_title": "Latinos and the future of finance: Why we need to examine the motivations and effects of Latinos’ fintech adoption | Brookings",
+  "page_author": "James C Benton",
+  "page_date": "2023-09-18",
+  "site_name": "Brookings",
+  "canonical_url": "https://www.brookings.edu/articles/latinos-and-the-future-of-finance-why-we-need-to-examine-the-motivations-and-effects-of-latinos-fintech-adoption/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "cddef8c5ffafde5490cd",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12573526",
+  "fetch_timestamp_utc": "2026-10-04T02:48:58.337032+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12573526/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 239129,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cddef8c5ffafde5490cd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cddef8c5ffafde5490cd.txt",
+  "text_chars": 75699,
+  "text_words": 10640,
+  "extraction_status": "success",
+  "page_title": "The structural violence of cisgender norms: A participatory qualitative study of access to health and social welfare for older transgender women in Indonesia",
+  "page_author": "Alegra Wolter; Benjamin Hegarty; Ika Susetyo; Lenny Sugiharto; Rully Mallay; Jaclyn Kaunang; Aditya Wardhana",
+  "page_date": "2025-01-03",
+  "site_name": "International Journal of Transgender Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12573526/"
+}

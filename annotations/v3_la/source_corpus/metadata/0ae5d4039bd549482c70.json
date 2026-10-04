@@ -1,0 +1,28 @@
+{
+  "source_id": "0ae5d4039bd549482c70",
+  "normalized_url": "https://federalreserve.gov/newsevents/speech/brainard20200921a.htm",
+  "fetch_timestamp_utc": "2026-10-04T03:31:37.422260+00:00",
+  "registrable_domain": "federalreserve.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.federalreserve.gov/newsevents/speech/brainard20200921a.htm",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 115284,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/0ae5d4039bd549482c70.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/0ae5d4039bd549482c70.txt",
+  "text_chars": 26767,
+  "text_words": 4050,
+  "extraction_status": "success",
+  "page_title": "Speech by Governor Brainard on strengthening the CRA to meet the challenges of our time",
+  "page_author": null,
+  "page_date": "2020-09-21",
+  "site_name": "Board of Governors of the Federal Reserve System",
+  "canonical_url": "https://www.federalreserve.gov/newsevents/speech/brainard20200921a.htm"
+}

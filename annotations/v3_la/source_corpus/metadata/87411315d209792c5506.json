@@ -1,0 +1,28 @@
+{
+  "source_id": "87411315d209792c5506",
+  "normalized_url": "https://ncan.org/Web/News/539190",
+  "fetch_timestamp_utc": "2026-10-04T03:40:58.164967+00:00",
+  "registrable_domain": "ncan.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ncan.org/Web/News/539190",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 138630,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/87411315d209792c5506.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/87411315d209792c5506.txt",
+  "text_chars": 12491,
+  "text_words": 1891,
+  "extraction_status": "success",
+  "page_title": "What’s Causing College Access Disparities, in 15 Charts",
+  "page_author": null,
+  "page_date": "2026-01-06",
+  "site_name": "ncan.org",
+  "canonical_url": "https://www.ncan.org/Web/Web/News/539190.aspx"
+}

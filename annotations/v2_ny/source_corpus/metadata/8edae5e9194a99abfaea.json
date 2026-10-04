@@ -1,0 +1,28 @@
+{
+  "source_id": "8edae5e9194a99abfaea",
+  "normalized_url": "https://youtube.com/watch?t=280s&v=nhSuxrHmY3k",
+  "fetch_timestamp_utc": "2026-10-04T02:44:00.220165+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=280s&v=nhSuxrHmY3k",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1416222,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/8edae5e9194a99abfaea.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/8edae5e9194a99abfaea.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Steve Ballmer Explains: How Does Government Assistance Work? | Just the Facts",
+  "page_author": null,
+  "page_date": "2025-12-18",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=nhSuxrHmY3k"
+}

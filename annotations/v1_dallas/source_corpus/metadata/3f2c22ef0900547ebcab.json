@@ -1,0 +1,33 @@
+{
+  "source_id": "3f2c22ef0900547ebcab",
+  "normalized_url": "https://gearup.wa.gov/sites/default/files/resources/supporting_transgender%20and%20nonbinary_students_2025_0.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:24:07.868257+00:00",
+  "registrable_domain": "wa.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://gearup.wa.gov/sites/default/files/resources/supporting_transgender%20and%20nonbinary_students_2025_0.pdf",
+  "headers": {
+    "Server": "nginx/1.30.4",
+    "Date": "Tue, 29 Sep 2026 19:24:09 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "262059",
+    "Last-Modified": "Wed, 11 Jun 2025 15:30:27 GMT",
+    "Connection": "keep-alive",
+    "ETag": "\"6849a113-3ffab\"",
+    "Accept-Ranges": "bytes"
+  },
+  "downloaded_bytes": 262059,
+  "content_kind": "pdf",
+  "content_type": "application/pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/raw/3f2c22ef0900547ebcab.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/3f2c22ef0900547ebcab.txt",
+  "text_chars": 30489,
+  "text_words": 4193,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

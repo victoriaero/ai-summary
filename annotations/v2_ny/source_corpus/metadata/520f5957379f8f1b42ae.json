@@ -1,0 +1,28 @@
+{
+  "source_id": "520f5957379f8f1b42ae",
+  "normalized_url": "https://oxfordreference.com/display/10.1093/acref/9780195156003.001.0001/acref-9780195156003-e-265?d=%2F10.1093%2Facref%2F9780195156003.001.0001%2Facref-9780195156003-e-265&p=emailAGOTcK63TERo2",
+  "fetch_timestamp_utc": "2026-10-04T02:39:04.548340+00:00",
+  "registrable_domain": "oxfordreference.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 202,
+  "final_url": "https://oxfordreference.com/display/10.1093/acref/9780195156003.001.0001/acref-9780195156003-e-265?d=%2F10.1093%2Facref%2F9780195156003.001.0001%2Facref-9780195156003-e-265&p=emailAGOTcK63TERo2",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 1987,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/520f5957379f8f1b42ae.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/520f5957379f8f1b42ae.txt",
+  "text_chars": 157,
+  "text_words": 26,
+  "extraction_status": "success",
+  "page_title": "JavaScript is disabled",
+  "page_author": null,
+  "page_date": null,
+  "site_name": "oxfordreference.com",
+  "canonical_url": "https://oxfordreference.com/display/10.1093/acref/9780195156003.001.0001/acref-9780195156003-e-265?d=%2F10.1093%2Facref%2F9780195156003.001.0001%2Facref-9780195156003-e-265&p=emailAGOTcK63TERo2"
+}

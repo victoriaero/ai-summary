@@ -1,0 +1,28 @@
+{
+  "source_id": "bc91d51da75c96357962",
+  "normalized_url": "https://frontiersin.org/journals/education/articles/10.3389/feduc.2025.1631418/full",
+  "fetch_timestamp_utc": "2026-10-04T02:47:40.095193+00:00",
+  "registrable_domain": "frontiersin.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1631418/full",
+  "headers": {
+    "Content-Type": "text/html;charset=utf-8"
+  },
+  "content_type": "text/html;charset=utf-8",
+  "downloaded_bytes": 625653,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/bc91d51da75c96357962.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/bc91d51da75c96357962.txt",
+  "text_chars": 55707,
+  "text_words": 8307,
+  "extraction_status": "success",
+  "page_title": "Frontiers | Factors fostering the inclusion of students with disabilities during their academic career at the University Center of Health Sciences of the University of Guadalajara",
+  "page_author": "David Elicerio Conchas; Pamela Georgina Hernández Carrillo; Ricardo Pérez Zúñiga",
+  "page_date": "2025-08-13",
+  "site_name": "Frontiers",
+  "canonical_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1631418/full"
+}

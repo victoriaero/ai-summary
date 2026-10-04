@@ -1,0 +1,28 @@
+{
+  "source_id": "73d32ad134694ceeffc2",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428156",
+  "fetch_timestamp_utc": "2026-10-04T03:39:29.402162+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428156/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 198632,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/73d32ad134694ceeffc2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/73d32ad134694ceeffc2.txt",
+  "text_chars": 47077,
+  "text_words": 6295,
+  "extraction_status": "success",
+  "page_title": "Preventive Healthcare and Disability: Challenges and Opportunities",
+  "page_author": "Giovanni Emanuele Ricciardi; Rita Cuciniello; Veronica Raimondi; Francesco Vaia; Carlo Signorelli; Cristina Renzi",
+  "page_date": "2025-08-23",
+  "site_name": "Healthcare",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12428156/"
+}

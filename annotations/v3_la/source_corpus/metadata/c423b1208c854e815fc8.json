@@ -1,0 +1,28 @@
+{
+  "source_id": "c423b1208c854e815fc8",
+  "normalized_url": "https://justice.gov/jm/1-16000-department-justice-policy-use-force",
+  "fetch_timestamp_utc": "2026-10-04T03:45:25.093362+00:00",
+  "registrable_domain": "justice.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.justice.gov/jm/1-16000-department-justice-policy-use-force",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 75098,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c423b1208c854e815fc8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c423b1208c854e815fc8.txt",
+  "text_chars": 6915,
+  "text_words": 1119,
+  "extraction_status": "success",
+  "page_title": "1-16.000 - Department of Justice Policy On Use Of Force",
+  "page_author": null,
+  "page_date": "2022-06-02",
+  "site_name": "Justice Manual | 1-16.000 - Department of Justice Policy On Use Of Force",
+  "canonical_url": "https://www.justice.gov/jm/1-16000-department-justice-policy-use-force"
+}

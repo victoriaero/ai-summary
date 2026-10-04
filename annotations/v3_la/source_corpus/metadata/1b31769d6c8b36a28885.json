@@ -1,0 +1,28 @@
+{
+  "source_id": "1b31769d6c8b36a28885",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/wp-content/uploads/LGBT-Violence-Law-Enforce-Mar-2020.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:32:47.646107+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/wp-content/uploads/LGBT-Violence-Law-Enforce-Mar-2020.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 161557,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/1b31769d6c8b36a28885.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/1b31769d6c8b36a28885.txt",
+  "text_chars": 5766,
+  "text_words": 793,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

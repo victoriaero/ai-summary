@@ -1,0 +1,28 @@
+{
+  "source_id": "e1ffd6e81d62496a7658",
+  "normalized_url": "https://phreesia.com/resources/infographic-lgbtq-preventive-health",
+  "fetch_timestamp_utc": "2026-10-04T02:50:33.457480+00:00",
+  "registrable_domain": "phreesia.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.phreesia.com/resources/infographic-lgbtq-preventive-health/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 99026,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e1ffd6e81d62496a7658.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e1ffd6e81d62496a7658.txt",
+  "text_chars": 5246,
+  "text_words": 756,
+  "extraction_status": "success",
+  "page_title": "Supporting Access to LGBTQ Preventive Care | Infographic",
+  "page_author": null,
+  "page_date": "2026-08-25",
+  "site_name": "Phreesia",
+  "canonical_url": "https://www.phreesia.com/resources/infographic-lgbtq-preventive-health/"
+}

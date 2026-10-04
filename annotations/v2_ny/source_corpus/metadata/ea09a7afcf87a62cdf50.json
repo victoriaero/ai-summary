@@ -1,0 +1,28 @@
+{
+  "source_id": "ea09a7afcf87a62cdf50",
+  "normalized_url": "https://apa.org/topics/healthy-workplaces/growth-opportunities",
+  "fetch_timestamp_utc": "2026-10-04T02:51:13.907840+00:00",
+  "registrable_domain": "apa.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.apa.org/topics/healthy-workplaces/growth-opportunities",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 212,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ea09a7afcf87a62cdf50.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ea09a7afcf87a62cdf50.txt",
+  "text_chars": 0,
+  "text_words": 0,
+  "extraction_status": "empty_text",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": "apa.org",
+  "canonical_url": "https://www.apa.org/topics/healthy-workplaces/growth-opportunities"
+}

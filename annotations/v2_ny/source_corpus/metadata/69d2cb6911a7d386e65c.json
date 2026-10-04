@@ -1,0 +1,28 @@
+{
+  "source_id": "69d2cb6911a7d386e65c",
+  "normalized_url": "https://them.us/story/lgbtq-finances-bills-economic-insecurity",
+  "fetch_timestamp_utc": "2026-10-04T02:41:02.372409+00:00",
+  "registrable_domain": "them.us",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.them.us/story/lgbtq-finances-bills-economic-insecurity",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 420394,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/69d2cb6911a7d386e65c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/69d2cb6911a7d386e65c.txt",
+  "text_chars": 6681,
+  "text_words": 1039,
+  "extraction_status": "success",
+  "page_title": "Many LGBTQ+ Americans Are Unable to Pay Bills, Keep Savings or Hold Bank Accounts, Survey Shows",
+  "page_author": "Orion Rummler",
+  "page_date": "2023-04-07",
+  "site_name": "Them",
+  "canonical_url": "https://www.them.us/story/lgbtq-finances-bills-economic-insecurity"
+}

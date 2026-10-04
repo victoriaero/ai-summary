@@ -1,0 +1,28 @@
+{
+  "source_id": "10a626d0d09e85c52599",
+  "normalized_url": "https://pewresearch.org/short-reads/2022/10/07/hispanic-enrollment-reaches-new-high-at-four-year-colleges-in-the-u-s-but-affordability-remains-an-obstacle",
+  "fetch_timestamp_utc": "2026-10-04T03:32:01.395026+00:00",
+  "registrable_domain": "pewresearch.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.pewresearch.org/short-reads/2022/10/07/hispanic-enrollment-reaches-new-high-at-four-year-colleges-in-the-u-s-but-affordability-remains-an-obstacle/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 366674,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/10a626d0d09e85c52599.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/10a626d0d09e85c52599.txt",
+  "text_chars": 6412,
+  "text_words": 1057,
+  "extraction_status": "success",
+  "page_title": "Hispanic enrollment reaches new high at four-year colleges in the U.S., but affordability remains an obstacle",
+  "page_author": "Lauren Mora",
+  "page_date": "2022-10-07",
+  "site_name": "Pew Research Center",
+  "canonical_url": "https://www.pewresearch.org/short-reads/2022/10/07/hispanic-enrollment-reaches-new-high-at-four-year-colleges-in-the-u-s-but-affordability-remains-an-obstacle/"
+}

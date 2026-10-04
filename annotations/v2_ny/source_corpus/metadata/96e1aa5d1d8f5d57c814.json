@@ -1,0 +1,28 @@
+{
+  "source_id": "96e1aa5d1d8f5d57c814",
+  "normalized_url": "https://kff.org/racial-equity-and-health-policy/health-and-access-to-care-and-coverage-for-lesbian-gay-bisexual-and-transgender-individuals-in-the-u-s",
+  "fetch_timestamp_utc": "2026-10-04T02:44:45.150007+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/racial-equity-and-health-policy/health-and-access-to-care-and-coverage-for-lesbian-gay-bisexual-and-transgender-individuals-in-the-u-s/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 319399,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/96e1aa5d1d8f5d57c814.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/96e1aa5d1d8f5d57c814.txt",
+  "text_chars": 105273,
+  "text_words": 15479,
+  "extraction_status": "success",
+  "page_title": "Health and Access to Care and Coverage for Lesbian, Gay, Bisexual, and Transgender (LGBT) Individuals in the U.S. | KFF",
+  "page_author": "Jennifer Kates; Usha Ranji; Adara Beamesderfer; Alina Salganicoff; Lindsey Dawson",
+  "page_date": "2018-05-03",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/racial-equity-and-health-policy/health-and-access-to-care-and-coverage-for-lesbian-gay-bisexual-and-transgender-individuals-in-the-u-s/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "5a7e6924ddf692d48ddc",
+  "normalized_url": "https://action4justice.org/legal_areas/detention",
+  "fetch_timestamp_utc": "2026-10-04T03:37:24.411883+00:00",
+  "registrable_domain": "action4justice.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://action4justice.org/legal_areas/detention/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 103076,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5a7e6924ddf692d48ddc.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5a7e6924ddf692d48ddc.txt",
+  "text_chars": 12908,
+  "text_words": 1956,
+  "extraction_status": "success",
+  "page_title": "Detention - Action 4 Justice",
+  "page_author": null,
+  "page_date": "2020-07-18",
+  "site_name": "Action 4 Justice",
+  "canonical_url": "https://action4justice.org/legal_areas/detention/"
+}

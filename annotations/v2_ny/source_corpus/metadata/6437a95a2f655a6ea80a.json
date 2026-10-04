@@ -1,0 +1,28 @@
+{
+  "source_id": "6437a95a2f655a6ea80a",
+  "normalized_url": "https://luminafoundation.org/resource/race-and-ethnicity-in-higher-education",
+  "fetch_timestamp_utc": "2026-10-04T02:40:33.348302+00:00",
+  "registrable_domain": "luminafoundation.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.luminafoundation.org/resource/race-and-ethnicity-in-higher-education/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 120117,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6437a95a2f655a6ea80a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6437a95a2f655a6ea80a.txt",
+  "text_chars": 2245,
+  "text_words": 360,
+  "extraction_status": "success",
+  "page_title": "Race and Ethnicity in Higher Education, A Status Report",
+  "page_author": "Author Lorelle L Espinosa; Jonathan M Turk; Morgan Taylor; Hollie M Chessman",
+  "page_date": "2022-05-04",
+  "site_name": "American Council on Education",
+  "canonical_url": "https://www.luminafoundation.org/resource/race-and-ethnicity-in-higher-education/"
+}

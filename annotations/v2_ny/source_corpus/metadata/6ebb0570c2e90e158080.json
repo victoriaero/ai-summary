@@ -1,0 +1,28 @@
+{
+  "source_id": "6ebb0570c2e90e158080",
+  "normalized_url": "https://nlc.org/article/2023/06/30/housing-for-lgbtqia",
+  "fetch_timestamp_utc": "2026-10-04T02:41:31.681889+00:00",
+  "registrable_domain": "nlc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nlc.org/article/2023/06/30/housing-for-lgbtqia",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 135695,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6ebb0570c2e90e158080.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6ebb0570c2e90e158080.txt",
+  "text_chars": 5917,
+  "text_words": 869,
+  "extraction_status": "success",
+  "page_title": "Housing For: LGBTQIA+",
+  "page_author": "About the Authors",
+  "page_date": "2023-06-30",
+  "site_name": "National League of Cities",
+  "canonical_url": "https://www.nlc.org/article/2023/06/30/housing-for-lgbtqia/"
+}

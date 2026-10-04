@@ -1,0 +1,28 @@
+{
+  "source_id": "ed69912f1fd695863966",
+  "normalized_url": "https://normtherapy.com/blog/examining-the-disparities-in-assistance-for-homeless-men",
+  "fetch_timestamp_utc": "2026-10-04T02:51:25.723573+00:00",
+  "registrable_domain": "normtherapy.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://normtherapy.com/blog/examining-the-disparities-in-assistance-for-homeless-men/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 85513,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ed69912f1fd695863966.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ed69912f1fd695863966.txt",
+  "text_chars": 7817,
+  "text_words": 1040,
+  "extraction_status": "success",
+  "page_title": "Examining the Disparities in Assistance for Homeless Men",
+  "page_author": null,
+  "page_date": "2025-03-07",
+  "site_name": "normtherapy.com",
+  "canonical_url": "https://normtherapy.com/blog/examining-the-disparities-in-assistance-for-homeless-men/"
+}

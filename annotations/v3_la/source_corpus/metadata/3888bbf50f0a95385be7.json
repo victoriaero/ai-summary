@@ -1,0 +1,28 @@
+{
+  "source_id": "3888bbf50f0a95385be7",
+  "normalized_url": "https://pewresearch.org/social-trends/2013/12/11/chapter-3-what-men-women-value-in-a-job",
+  "fetch_timestamp_utc": "2026-10-04T03:34:41.840624+00:00",
+  "registrable_domain": "pewresearch.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.pewresearch.org/social-trends/2013/12/11/chapter-3-what-men-women-value-in-a-job/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 439742,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/3888bbf50f0a95385be7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/3888bbf50f0a95385be7.txt",
+  "text_chars": 13725,
+  "text_words": 2399,
+  "extraction_status": "success",
+  "page_title": "Chapter 3: What Men, Women Value in a Job",
+  "page_author": "No Author",
+  "page_date": "2013-12-11",
+  "site_name": "Pew Research Center",
+  "canonical_url": "https://www.pewresearch.org/social-trends/2013/12/11/chapter-3-what-men-women-value-in-a-job/"
+}

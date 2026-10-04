@@ -1,0 +1,28 @@
+{
+  "source_id": "f445de95ace940fe9789",
+  "normalized_url": "https://theconversation.com/the-disturbing-connection-between-bullying-and-sexual-harassment-68033",
+  "fetch_timestamp_utc": "2026-10-04T02:51:48.487983+00:00",
+  "registrable_domain": "theconversation.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://theconversation.com/the-disturbing-connection-between-bullying-and-sexual-harassment-68033",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 178469,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f445de95ace940fe9789.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f445de95ace940fe9789.txt",
+  "text_chars": 6126,
+  "text_words": 954,
+  "extraction_status": "success",
+  "page_title": "The disturbing connection between bullying and sexual harassment",
+  "page_author": "Dorothy Espelage",
+  "page_date": "2016-11-30",
+  "site_name": "The Conversation",
+  "canonical_url": "https://theconversation.com/the-disturbing-connection-between-bullying-and-sexual-harassment-68033"
+}

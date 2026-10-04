@@ -1,0 +1,28 @@
+{
+  "source_id": "a21d81284971da170d8f",
+  "normalized_url": "https://psychologytoday.com/us/blog/shame-nation/201710/how-workplace-bullying-is-impacting-lgbt-employees",
+  "fetch_timestamp_utc": "2026-10-04T02:45:40.877052+00:00",
+  "registrable_domain": "psychologytoday.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.psychologytoday.com:443/us/blog/shame-nation/201710/how-workplace-bullying-is-impacting-lgbt-employees",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 139804,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a21d81284971da170d8f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a21d81284971da170d8f.txt",
+  "text_chars": 7227,
+  "text_words": 1182,
+  "extraction_status": "success",
+  "page_title": "How Workplace Bullying is Impacting LGBT Employees",
+  "page_author": "Sue Scheff",
+  "page_date": "2017-10-19",
+  "site_name": "Psychology Today",
+  "canonical_url": "https://www.psychologytoday.com/us/blog/shame-nation/201710/how-workplace-bullying-is-impacting-lgbt-employees"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "e5f919c4da68f6c89e9d",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5370590",
+  "fetch_timestamp_utc": "2026-10-04T02:50:56.181065+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5370590/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 184139,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e5f919c4da68f6c89e9d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e5f919c4da68f6c89e9d.txt",
+  "text_chars": 51473,
+  "text_words": 7765,
+  "extraction_status": "success",
+  "page_title": "Racial and Ethnic Disparities in Health Insurance Coverage: Dynamics of Gaining and Losing Coverage over the Life-Course",
+  "page_author": "Heeju Sohn",
+  "page_date": "2016-10-15",
+  "site_name": "Population research and policy review",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5370590/"
+}

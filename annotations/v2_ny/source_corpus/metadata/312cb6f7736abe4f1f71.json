@@ -1,0 +1,28 @@
+{
+  "source_id": "312cb6f7736abe4f1f71",
+  "normalized_url": "https://povertyactionlab.org/policy-insight/increasing-college-access-making-application-process-easier",
+  "fetch_timestamp_utc": "2026-10-04T02:36:22.666429+00:00",
+  "registrable_domain": "povertyactionlab.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.povertyactionlab.org/policy-insight/increasing-college-access-making-application-process-easier",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 114908,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/312cb6f7736abe4f1f71.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/312cb6f7736abe4f1f71.txt",
+  "text_chars": 12284,
+  "text_words": 1725,
+  "extraction_status": "success",
+  "page_title": "Increasing college access by making the application process easier",
+  "page_author": "Insight author Sophie Shank",
+  "page_date": "2018-02-01",
+  "site_name": "The Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+  "canonical_url": "https://www.povertyactionlab.org/policy-insight/increasing-college-access-making-application-process-easier"
+}

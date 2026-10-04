@@ -1,0 +1,25 @@
+{
+  "source_id": "34a8961e42b070351890",
+  "normalized_url": "https://escholarship.org/content/qt56p7716s/qt56p7716s.pdf",
+  "fetch_timestamp_utc": "2026-09-29T19:23:25.922144+00:00",
+  "registrable_domain": "escholarship.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://escholarship.org/content/qt56p7716s/qt56p7716s.pdf",
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Tue, 29 Sep 2026 19:23:26 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "919",
+    "Connection": "keep-alive",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 4c86fe809fd871f18a3eb753dceb970c.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MIA50-P6",
+    "X-Amz-Cf-Id": "HWlY50MsYp6XZna47pn76jSWvqYOWsCdcMRU_ZvqB-BGq_V5o62u2w=="
+  },
+  "downloaded_bytes": 919,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

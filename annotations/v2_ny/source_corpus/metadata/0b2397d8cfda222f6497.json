@@ -1,0 +1,28 @@
+{
+  "source_id": "0b2397d8cfda222f6497",
+  "normalized_url": "https://ccrw.org/unlocking-career-advancement",
+  "fetch_timestamp_utc": "2026-10-04T02:33:21.861118+00:00",
+  "registrable_domain": "ccrw.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ccrw.org/unlocking-career-advancement/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 226252,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0b2397d8cfda222f6497.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0b2397d8cfda222f6497.txt",
+  "text_chars": 12330,
+  "text_words": 1532,
+  "extraction_status": "success",
+  "page_title": "Unlocking Career Advancement | Canadian Council on Rehabilitation and Work",
+  "page_author": "A M",
+  "page_date": "2025-01-21",
+  "site_name": "Canadian Council on Rehabilitation and Work",
+  "canonical_url": "https://ccrw.org/unlocking-career-advancement/"
+}

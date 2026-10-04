@@ -1,0 +1,28 @@
+{
+  "source_id": "0ed13214f7dc7b8aa8ca",
+  "normalized_url": "https://cultureconusa.org/post/hiring-bias-in-2025",
+  "fetch_timestamp_utc": "2026-10-04T02:33:42.479992+00:00",
+  "registrable_domain": "cultureconusa.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cultureconusa.org/post/hiring-bias-in-2025",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 1015808,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0ed13214f7dc7b8aa8ca.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0ed13214f7dc7b8aa8ca.txt",
+  "text_chars": 9781,
+  "text_words": 1523,
+  "extraction_status": "success",
+  "page_title": "What the Data Says: The State of Hiring Bias in 2025",
+  "page_author": "Nick Lombardino",
+  "page_date": "2025-04-24",
+  "site_name": "CultureCon",
+  "canonical_url": "https://www.cultureconusa.org/post/hiring-bias-in-2025"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "853c76519358a581bde7",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9617098",
+  "fetch_timestamp_utc": "2026-10-04T02:43:17.999825+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9617098/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 243114,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/853c76519358a581bde7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/853c76519358a581bde7.txt",
+  "text_chars": 59706,
+  "text_words": 9402,
+  "extraction_status": "success",
+  "page_title": "Preventive care use among Hispanic adults with limited comfort speaking English: An analysis of the Medical Expenditure Panel Survey data",
+  "page_author": "Ingrid J Hall; Sun Hee Rim; Sabitha Dasari",
+  "page_date": "2022-04-07",
+  "site_name": "Preventive medicine",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9617098/"
+}

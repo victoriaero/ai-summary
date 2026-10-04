@@ -1,0 +1,33 @@
+{
+  "source_id": "503197299042efabacfe",
+  "normalized_url": "https://ijetsar.com/index.php/pub/article/view/318",
+  "fetch_timestamp_utc": "2026-09-29T19:25:41.066570+00:00",
+  "registrable_domain": "ijetsar.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ijetsar.com/index.php/pub/article/view/318",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:25:42 GMT",
+    "Server": "Apache",
+    "Cache-Control": "no-store",
+    "Set-Cookie": "ORSDID=cd664fba749b7fd87da6c4978224703c; path=/; domain=ijetsar.com; HttpOnly; SameSite=Lax",
+    "Keep-Alive": "timeout=15, max=99",
+    "Connection": "Keep-Alive",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "downloaded_bytes": 40006,
+  "content_kind": "html",
+  "content_type": "text/html; charset=utf-8",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/raw/503197299042efabacfe.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/503197299042efabacfe.txt",
+  "text_chars": 2204,
+  "text_words": 291,
+  "extraction_status": "success",
+  "page_title": "THE IMPACT OF SOCIOECONOMIC STATUS AND SCHOOL TYPE ON ACCESS TO HIGHER EDUCATION",
+  "page_author": "İsa Bahat",
+  "page_date": "2023-09-01",
+  "site_name": "International Journal of Education Technology and Scientific Researches",
+  "canonical_url": "https://ijetsar.com/index.php/pub/article/view/318"
+}

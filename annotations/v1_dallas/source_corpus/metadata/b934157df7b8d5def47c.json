@@ -1,0 +1,31 @@
+{
+  "source_id": "b934157df7b8d5def47c",
+  "normalized_url": "https://epi.org/publication/racial-representation-prof-occ",
+  "fetch_timestamp_utc": "2026-09-29T19:36:50.387115+00:00",
+  "registrable_domain": "epi.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://epi.org/publication/racial-representation-prof-occ",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:36:54 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "Server-Timing": "cfEdge;dur=18,cfOrigin;dur=0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+    "Vary": "accept-encoding",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a42d707a7850ca96-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 5864,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

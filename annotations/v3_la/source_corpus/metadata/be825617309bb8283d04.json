@@ -1,0 +1,28 @@
+{
+  "source_id": "be825617309bb8283d04",
+  "normalized_url": "https://nlc.org/article/2023/03/21/housing-for-women-female-headed-households",
+  "fetch_timestamp_utc": "2026-10-04T03:45:02.821871+00:00",
+  "registrable_domain": "nlc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nlc.org/article/2023/03/21/housing-for-women-female-headed-households",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 144313,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/be825617309bb8283d04.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/be825617309bb8283d04.txt",
+  "text_chars": 9027,
+  "text_words": 1357,
+  "extraction_status": "success",
+  "page_title": "Housing for Women & Female-Headed Households",
+  "page_author": "About the Author",
+  "page_date": "2023-03-21",
+  "site_name": "National League of Cities",
+  "canonical_url": "https://www.nlc.org/article/2023/03/21/housing-for-women-female-headed-households/"
+}

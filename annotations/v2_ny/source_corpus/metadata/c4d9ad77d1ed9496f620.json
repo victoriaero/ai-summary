@@ -1,0 +1,28 @@
+{
+  "source_id": "c4d9ad77d1ed9496f620",
+  "normalized_url": "https://rfi.global/breaking-barriers-the-banks-that-are-supporting-black-financial-inclusion",
+  "fetch_timestamp_utc": "2026-10-04T02:48:15.647237+00:00",
+  "registrable_domain": "rfi.global",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://rfi.global/breaking-barriers-the-banks-that-are-supporting-black-financial-inclusion/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 412030,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/c4d9ad77d1ed9496f620.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/c4d9ad77d1ed9496f620.txt",
+  "text_chars": 10043,
+  "text_words": 1444,
+  "extraction_status": "success",
+  "page_title": "Breaking barriers: The banks that are supporting Black financial inclusion",
+  "page_author": "Luke Allchin",
+  "page_date": "2025-02-11",
+  "site_name": "RFI Global",
+  "canonical_url": "https://rfi.global/breaking-barriers-the-banks-that-are-supporting-black-financial-inclusion/"
+}

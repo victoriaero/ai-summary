@@ -1,0 +1,28 @@
+{
+  "source_id": "758450027363eec66609",
+  "normalized_url": "https://prisonpolicy.org/blog/2021/03/02/lgbtq",
+  "fetch_timestamp_utc": "2026-10-04T02:42:03.040499+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/blog/2021/03/02/lgbtq/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 63661,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/758450027363eec66609.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/758450027363eec66609.txt",
+  "text_chars": 11752,
+  "text_words": 1872,
+  "extraction_status": "success",
+  "page_title": "Visualizing the unequal treatment of LGBTQ people in the criminal justice system",
+  "page_author": "Prison Policy Initiative",
+  "page_date": "2021-03-02",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/blog/2021/03/02/lgbtq/"
+}

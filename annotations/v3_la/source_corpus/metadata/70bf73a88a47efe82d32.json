@@ -1,0 +1,20 @@
+{
+  "source_id": "70bf73a88a47efe82d32",
+  "normalized_url": "https://urban.org/research/publication/how-do-financial-attitudes-and-preferences-vary-among-latine-consumers",
+  "fetch_timestamp_utc": "2026-10-04T03:39:09.480235+00:00",
+  "registrable_domain": "urban.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.urban.org/research/publication/how-do-financial-attitudes-and-preferences-vary-among-latine-consumers",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5996,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

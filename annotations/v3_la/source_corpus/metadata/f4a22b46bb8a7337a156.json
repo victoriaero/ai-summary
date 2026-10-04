@@ -1,0 +1,20 @@
+{
+  "source_id": "f4a22b46bb8a7337a156",
+  "normalized_url": "https://law.justia.com/constitution/us/amendment-04/14-detention-short-of-arrest-stop-and-frisk.html",
+  "fetch_timestamp_utc": "2026-10-04T03:49:07.580823+00:00",
+  "registrable_domain": "justia.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://law.justia.com/constitution/us/amendment-04/14-detention-short-of-arrest-stop-and-frisk.html",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5849,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

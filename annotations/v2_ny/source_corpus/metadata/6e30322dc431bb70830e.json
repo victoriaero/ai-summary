@@ -1,0 +1,28 @@
+{
+  "source_id": "6e30322dc431bb70830e",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11352361",
+  "fetch_timestamp_utc": "2026-10-04T02:41:29.686385+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11352361/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 236410,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6e30322dc431bb70830e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6e30322dc431bb70830e.txt",
+  "text_chars": 66157,
+  "text_words": 9179,
+  "extraction_status": "success",
+  "page_title": "Inclusion Goals: What Sex Education for LGBTQIA+ Adolescents?",
+  "page_author": "Stefano Eleuteri; Marta Girardi; Rossella Spadola; Elisabetta Todaro",
+  "page_date": "2024-08-10",
+  "site_name": "Children",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11352361/"
+}

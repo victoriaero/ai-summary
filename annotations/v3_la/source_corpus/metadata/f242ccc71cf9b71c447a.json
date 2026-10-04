@@ -1,0 +1,28 @@
+{
+  "source_id": "f242ccc71cf9b71c447a",
+  "normalized_url": "https://siepr.stanford.edu/publications/policy-brief/homelessness-california-causes-and-policy-considerations",
+  "fetch_timestamp_utc": "2026-10-04T03:49:00.896938+00:00",
+  "registrable_domain": "stanford.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://siepr.stanford.edu/publications/policy-brief/homelessness-california-causes-and-policy-considerations",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 141727,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f242ccc71cf9b71c447a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f242ccc71cf9b71c447a.txt",
+  "text_chars": 38662,
+  "text_words": 5826,
+  "extraction_status": "success",
+  "page_title": "Homelessness in California: Causes and Policy Considerations",
+  "page_author": "Author Jialu L Streeter",
+  "page_date": "2011-03-01",
+  "site_name": "Stanford Institute for Economic Policy Research (SIEPR)",
+  "canonical_url": "https://siepr.stanford.edu/publications/policy-brief/homelessness-california-causes-and-policy-considerations"
+}

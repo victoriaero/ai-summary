@@ -1,0 +1,20 @@
+{
+  "source_id": "9acebb2b4972976061b3",
+  "normalized_url": "https://jchs.harvard.edu/blog/locked-out-why-homeownership-out-reach-many-young-hispanic-families",
+  "fetch_timestamp_utc": "2026-10-04T02:45:01.943429+00:00",
+  "registrable_domain": "harvard.edu",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://jchs.harvard.edu/blog/locked-out-why-homeownership-out-reach-many-young-hispanic-families",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5836,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

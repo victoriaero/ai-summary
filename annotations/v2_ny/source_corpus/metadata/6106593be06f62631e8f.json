@@ -1,0 +1,28 @@
+{
+  "source_id": "6106593be06f62631e8f",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5172593",
+  "fetch_timestamp_utc": "2026-10-04T02:40:17.122983+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5172593/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 237549,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/6106593be06f62631e8f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/6106593be06f62631e8f.txt",
+  "text_chars": 45624,
+  "text_words": 6707,
+  "extraction_status": "success",
+  "page_title": "Perceived Discrimination and Privilege in Health Care: The Role of Socioeconomic Status and Race",
+  "page_author": "Irena Stepanikova; Gabriela Oates",
+  "page_date": "2013-11-30",
+  "site_name": "American journal of preventive medicine",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5172593/"
+}

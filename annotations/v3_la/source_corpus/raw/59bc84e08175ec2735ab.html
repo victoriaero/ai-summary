@@ -1,0 +1,2920 @@
+<!DOCTYPE html>
+<!-- [if lt IE 9]><html class="no-js no-svg ie lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif] -->
+<!-- [if IE 9]><html class="no-js no-svg ie ie9 lt-ie9 lt-ie8" lang="en-US"> <![endif] -->
+<!-- [if gt IE 9]><! -->
+<html class="no-js no-svg" lang="en-US">
+  <!-- <![endif] -->
+  <head>
+    <meta charset="UTF-8" />
+<script>
+//----------------------------------------------------------
+//------ JAVASCRIPT HOOK FUNCTIONS FOR GRAVITY FORMS -------
+//----------------------------------------------------------
+
+if ( ! gform ) {
+	document.addEventListener( 'gform_main_scripts_loaded', function() { gform.scriptsLoaded = true; } );
+	document.addEventListener( 'gform/theme/scripts_loaded', function() { gform.themeScriptsLoaded = true; } );
+	window.addEventListener( 'DOMContentLoaded', function() { gform.domLoaded = true; } );
+
+	var gform = {
+		domLoaded: false,
+		scriptsLoaded: false,
+		themeScriptsLoaded: false,
+		isFormEditor: () => typeof InitializeEditor === 'function',
+
+		/**
+		 * @deprecated 2.9 the use of initializeOnLoaded in the form editor context is deprecated.
+		 * @remove-in 3.1 this function will not check for gform.isFormEditor().
+		 */
+		callIfLoaded: function ( fn ) {
+			if ( gform.domLoaded && gform.scriptsLoaded && ( gform.themeScriptsLoaded || gform.isFormEditor() ) ) {
+				if ( gform.isFormEditor() ) {
+					console.warn( 'The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1.' );
+				}
+				fn();
+				return true;
+			}
+			return false;
+		},
+
+		/**
+		 * Call a function when all scripts are loaded
+		 *
+		 * @param function fn the callback function to call when all scripts are loaded
+		 *
+		 * @returns void
+		 */
+		initializeOnLoaded: function( fn ) {
+			if ( ! gform.callIfLoaded( fn ) ) {
+				document.addEventListener( 'gform_main_scripts_loaded', () => { gform.scriptsLoaded = true; gform.callIfLoaded( fn ); } );
+				document.addEventListener( 'gform/theme/scripts_loaded', () => { gform.themeScriptsLoaded = true; gform.callIfLoaded( fn ); } );
+				window.addEventListener( 'DOMContentLoaded', () => { gform.domLoaded = true; gform.callIfLoaded( fn ); } );
+			}
+		},
+
+		hooks: { action: {}, filter: {} },
+		addAction: function( action, callable, priority, tag ) {
+			gform.addHook( 'action', action, callable, priority, tag );
+		},
+		addFilter: function( action, callable, priority, tag ) {
+			gform.addHook( 'filter', action, callable, priority, tag );
+		},
+		doAction: function( action ) {
+			gform.doHook( 'action', action, arguments );
+		},
+		applyFilters: function( action ) {
+			return gform.doHook( 'filter', action, arguments );
+		},
+		removeAction: function( action, tag ) {
+			gform.removeHook( 'action', action, tag );
+		},
+		removeFilter: function( action, priority, tag ) {
+			gform.removeHook( 'filter', action, priority, tag );
+		},
+		addHook: function( hookType, action, callable, priority, tag ) {
+			if ( undefined == gform.hooks[hookType][action] ) {
+				gform.hooks[hookType][action] = [];
+			}
+			var hooks = gform.hooks[hookType][action];
+			if ( undefined == tag ) {
+				tag = action + '_' + hooks.length;
+			}
+			if( priority == undefined ){
+				priority = 10;
+			}
+
+			gform.hooks[hookType][action].push( { tag:tag, callable:callable, priority:priority } );
+		},
+		doHook: function( hookType, action, args ) {
+
+			// splice args from object into array and remove first index which is the hook name
+			args = Array.prototype.slice.call(args, 1);
+
+			if ( undefined != gform.hooks[hookType][action] ) {
+				var hooks = gform.hooks[hookType][action], hook;
+				//sort by priority
+				hooks.sort(function(a,b){return a["priority"]-b["priority"]});
+
+				hooks.forEach( function( hookItem ) {
+					hook = hookItem.callable;
+
+					if(typeof hook != 'function')
+						hook = window[hook];
+					if ( 'action' == hookType ) {
+						hook.apply(null, args);
+					} else {
+						args[0] = hook.apply(null, args);
+					}
+				} );
+			}
+			if ( 'filter'==hookType ) {
+				return args[0];
+			}
+		},
+		removeHook: function( hookType, action, priority, tag ) {
+			if ( undefined != gform.hooks[hookType][action] ) {
+				var hooks = gform.hooks[hookType][action];
+				hooks = hooks.filter( function(hook, index, arr) {
+					var removeHook = (undefined==tag||tag==hook.tag) && (undefined==priority||priority==hook.priority);
+					return !removeHook;
+				} );
+				gform.hooks[hookType][action] = hooks;
+			}
+		}
+	};
+}
+</script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"d1f427facd",applicationID:"477534951",browserID:"477735677"};;/*! For license information please see nr-loader-rum-1.323.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,1e6,"KC",0,i,"qh",0,"SESSION_ERROR"])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.323.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.323.0.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.323.0.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-zhTI1o3vPu0UcYWUELiLeb9P46+LBW0K7R4KO/PafMc68L5tJ2mSHyvZtcNeG9Cw/PTZstuo62K1wwaoAsHdXQ=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.323.0.PROD"]=self["webpackChunk:NRBA-1.323.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="facebook-domain-verification" content="ctboc9kkq68c487p9pdddkk5w752u9" />
+    <link rel="pingback" href="https://feed.georgetown.edu/xmlrpc.php" />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="stylesheet" href="https://use.typekit.net/qbp1quu.css" />
+
+    
+    
+    
+    
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v25.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Seeking more male students, colleges tailor outreach, programming &#8211; THE FEED</title>
+	<meta name="description" content="From brochures highlighting outdoor activities to pitch challenges for high school entrepreneurs, U.S. colleges and universities are exploring ways to increase the number of male applicants." />
+	<link rel="canonical" href="https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Seeking more male students, colleges tailor outreach, programming - THE FEED" />
+	<meta property="og:description" content="From brochures highlighting outdoor activities to pitch challenges for high school entrepreneurs, U.S. colleges and universities are exploring ways to increase the number of male applicants." />
+	<meta property="og:url" content="https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/" />
+	<meta property="og:site_name" content="THE FEED" />
+	<meta property="article:published_time" content="2024-05-10T16:51:23+00:00" />
+	<meta property="article:modified_time" content="2024-08-21T20:03:47+00:00" />
+	<meta name="author" content="kpc8" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="kpc8" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="4 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/#article","isPartOf":{"@id":"https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/"},"author":{"name":"kpc8","@id":"https://feed.georgetown.edu/#/schema/person/373dbbd5cee34ab9e10a6b78ef987b03"},"headline":"Seeking more male students, colleges tailor outreach, programming","datePublished":"2024-05-10T16:51:23+00:00","dateModified":"2024-08-21T20:03:47+00:00","mainEntityOfPage":{"@id":"https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/"},"wordCount":702,"publisher":{"@id":"https://feed.georgetown.edu/#organization"},"keywords":["Admissions","Diversity","Enrollment"],"articleSection":["Access &amp; Affordability"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/","url":"https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/","name":"Seeking more male students, colleges tailor outreach, programming - THE FEED","isPartOf":{"@id":"https://feed.georgetown.edu/#website"},"datePublished":"2024-05-10T16:51:23+00:00","dateModified":"2024-08-21T20:03:47+00:00","breadcrumb":{"@id":"https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/"]}]},{"@type":"BreadcrumbList","@id":"https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://feed.georgetown.edu/"},{"@type":"ListItem","position":2,"name":"Seeking more male students, colleges tailor outreach, programming"}]},{"@type":"WebSite","@id":"https://feed.georgetown.edu/#website","url":"https://feed.georgetown.edu/","name":"THE FEED","description":"","publisher":{"@id":"https://feed.georgetown.edu/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://feed.georgetown.edu/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://feed.georgetown.edu/#organization","name":"THE FEED","url":"https://feed.georgetown.edu/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://feed.georgetown.edu/#/schema/logo/image/","url":"https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/10/Georgetown_logo_blueRGB-300x210-1.avif","contentUrl":"https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/10/Georgetown_logo_blueRGB-300x210-1.avif","width":300,"height":210,"caption":"THE FEED"},"image":{"@id":"https://feed.georgetown.edu/#/schema/logo/image/"}},{"@type":"Person","@id":"https://feed.georgetown.edu/#/schema/person/373dbbd5cee34ab9e10a6b78ef987b03","name":"kpc8","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://feed.georgetown.edu/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/5d9214c3ebadc78e624999bc62c1207c02405c5a53f5943c788192864e63a088?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/5d9214c3ebadc78e624999bc62c1207c02405c5a53f5943c788192864e63a088?s=96&d=mm&r=g","caption":"kpc8"},"url":"https://feed.georgetown.edu/author/kpc8/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//feed.georgetown.edu' />
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel="alternate" type="application/rss+xml" title="THE FEED &raquo; Feed" href="https://feed.georgetown.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="THE FEED &raquo; Comments Feed" href="https://feed.georgetown.edu/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="THE FEED &raquo; iCal Feed" href="https://feed.georgetown.edu/events/?ical=1" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://feed.georgetown.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffeed.georgetown.edu%2Faccess-affordability%2Fseeking-more-male-students-colleges-tailor-outreach-programming%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://feed.georgetown.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffeed.georgetown.edu%2Faccess-affordability%2Fseeking-more-male-students-colleges-tailor-outreach-programming%2F&#038;format=xml" />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+/**
+ * Colors
+ */
+/**
+ * Typography
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Typography
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Radius scale.
+ */
+/**
+ * Elevation scale.
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Mobile specific styles
+ */
+/**
+ * Editor styles.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Focus styles.
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+/**
+ * Creates a checkerboard pattern background to indicate transparency.
+ * @param {String} $size - The size of the squares in the checkerboard pattern. Default is 12px.
+ */
+:root {
+  --wp-block-synced-color: #7a00df;
+  --wp-block-synced-color--rgb: 122, 0, 223;
+  --wp-bound-block-color: var(--wp-block-synced-color);
+  --wp-editor-canvas-background: #ddd;
+  --wp-admin-theme-color: #007cba;
+  --wp-admin-theme-color--rgb: 0, 124, 186;
+  --wp-admin-theme-color-darker-10: rgb(0, 107, 160.5);
+  --wp-admin-theme-color-darker-10--rgb: 0, 107, 160.5;
+  --wp-admin-theme-color-darker-20: #005a87;
+  --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+  --wp-admin-border-width-focus: 2px;
+}
+@media (min-resolution: 192dpi) {
+  :root {
+    --wp-admin-border-width-focus: 1.5px;
+  }
+}
+
+/**
+ * Element styles.
+ */
+.wp-element-button {
+  cursor: pointer;
+}
+
+:root .has-very-light-gray-background-color {
+  background-color: #eee;
+}
+:root .has-very-dark-gray-background-color {
+  background-color: #313131;
+}
+:root .has-very-light-gray-color {
+  color: #eee;
+}
+:root .has-very-dark-gray-color {
+  color: #313131;
+}
+:root {
+  /* stylelint-disable @stylistic/function-comma-space-after -- We can not use spacing because of WP multi site kses rule. */
+}
+:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+  background: linear-gradient(135deg, rgb(0, 208, 132) 0%, rgb(6, 147, 227) 100%);
+}
+:root .has-purple-crush-gradient-background {
+  background: linear-gradient(135deg, rgb(52, 226, 228) 0%, rgb(71, 33, 251) 50%, rgb(171, 29, 254) 100%);
+}
+:root .has-hazy-dawn-gradient-background {
+  background: linear-gradient(135deg, rgb(250, 172, 168) 0%, rgb(218, 208, 236) 100%);
+}
+:root .has-subdued-olive-gradient-background {
+  background: linear-gradient(135deg, rgb(250, 250, 225) 0%, rgb(103, 166, 113) 100%);
+}
+:root .has-atomic-cream-gradient-background {
+  background: linear-gradient(135deg, rgb(253, 215, 154) 0%, rgb(0, 74, 89) 100%);
+}
+:root .has-nightshade-gradient-background {
+  background: linear-gradient(135deg, rgb(51, 9, 104) 0%, rgb(49, 205, 207) 100%);
+}
+:root .has-midnight-gradient-background {
+  background: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+}
+:root {
+  /* stylelint-enable @stylistic/function-comma-space-after */
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+}
+
+.has-regular-font-size {
+  font-size: 1em;
+}
+
+.has-larger-font-size {
+  font-size: 2.625em;
+}
+
+.has-normal-font-size {
+  font-size: var(--wp--preset--font-size--normal);
+}
+
+.has-huge-font-size {
+  font-size: var(--wp--preset--font-size--huge);
+}
+
+:root .has-text-align-center {
+  text-align: center;
+}
+
+:root .has-text-align-left {
+  /*rtl:ignore*/
+  text-align: left;
+}
+
+:root .has-text-align-right {
+  /*rtl:ignore*/
+  text-align: right;
+}
+
+.has-fit-text {
+  white-space: nowrap !important;
+}
+
+#end-resizable-editor-section {
+  display: none;
+}
+
+.aligncenter {
+  clear: both;
+}
+
+.items-justified-left {
+  justify-content: flex-start;
+}
+
+.items-justified-center {
+  justify-content: center;
+}
+
+.items-justified-right {
+  justify-content: flex-end;
+}
+
+.items-justified-space-between {
+  justify-content: space-between;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #ddd;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/**
+ * The following provide a simple means of applying a default border style when
+ * a user first makes a selection in the border block support panel.
+ * This prevents issues such as where the user could set a border width
+ * and see no border due there being no border style set.
+ *
+ * This is intended to be removed once intelligent defaults can be set while
+ * making border selections via the block support.
+ *
+ * See: https://github.com/WordPress/gutenberg/pull/33743
+ */
+html :where(.has-border-color) {
+  border-style: solid;
+}
+
+html :where([style*=border-color]) {
+  border-style: solid;
+}
+
+html :where([style*=border-top-color]) {
+  border-top-style: solid;
+}
+
+html :where([style*=border-right-color]) {
+  /*rtl:ignore*/
+  border-right-style: solid;
+}
+
+html :where([style*=border-bottom-color]) {
+  border-bottom-style: solid;
+}
+
+html :where([style*=border-left-color]) {
+  /*rtl:ignore*/
+  border-left-style: solid;
+}
+
+html :where([style*=border-width]) {
+  border-style: solid;
+}
+
+html :where([style*=border-top-width]) {
+  border-top-style: solid;
+}
+
+html :where([style*=border-right-width]) {
+  /*rtl:ignore*/
+  border-right-style: solid;
+}
+
+html :where([style*=border-bottom-width]) {
+  border-bottom-style: solid;
+}
+
+html :where([style*=border-left-width]) {
+  /*rtl:ignore*/
+  border-left-style: solid;
+}
+
+/**
+ * Provide baseline responsiveness for images.
+ */
+html :where(img[class*=wp-image-]) {
+  height: auto;
+  max-width: 100%;
+}
+
+/**
+ * Reset user agent styles for figure element margins.
+ */
+:where(figure) {
+  margin: 0 0 1em 0;
+}
+
+html :where(.is-position-sticky) {
+  /* stylelint-disable length-zero-no-unit -- 0px is set explicitly so that it can be used in a calc value. */
+  --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px);
+  /* stylelint-enable length-zero-no-unit */
+}
+
+@media screen and (max-width: 600px) {
+  html :where(.is-position-sticky) {
+    /* stylelint-disable length-zero-no-unit -- 0px is set explicitly so that it can be used in a calc value. */
+    --wp-admin--admin-bar--position-offset: 0px;
+    /* stylelint-enable length-zero-no-unit */
+  }
+}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.css */
+</style>
+<style id="wp-block-heading-inline-css">
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Typography
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Radius scale.
+ */
+/**
+ * Elevation scale.
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Mobile specific styles
+ */
+/**
+ * Editor styles.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+h1:where(.wp-block-heading).has-background,
+h2:where(.wp-block-heading).has-background,
+h3:where(.wp-block-heading).has-background,
+h4:where(.wp-block-heading).has-background,
+h5:where(.wp-block-heading).has-background,
+h6:where(.wp-block-heading).has-background {
+  padding: 1.25em 2.375em;
+}
+h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]), h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),
+h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),
+h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]) {
+  rotate: 180deg;
+}
+/*# sourceURL=https://feed.georgetown.edu/wp-includes/blocks/heading/style.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Typography
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Radius scale.
+ */
+/**
+ * Elevation scale.
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Mobile specific styles
+ */
+/**
+ * Editor styles.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+.is-small-text {
+  font-size: 0.875em;
+}
+
+.is-regular-text {
+  font-size: 1em;
+}
+
+.is-large-text {
+  font-size: 2.25em;
+}
+
+.is-larger-text {
+  font-size: 3em;
+}
+
+.has-drop-cap:not(:focus)::first-letter {
+  float: left;
+  font-size: 8.4em;
+  line-height: 0.68;
+  font-weight: 100;
+  margin: 0.05em 0.1em 0 0;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+body.rtl .has-drop-cap:not(:focus)::first-letter {
+  float: initial;
+  margin-left: 0.1em;
+}
+
+p.has-drop-cap.has-background {
+  overflow: hidden;
+}
+
+:root :where(p.has-background) {
+  padding: 1.25em 2.375em;
+}
+
+:where(p.has-text-color:not(.has-link-color)) a {
+  color: inherit;
+}
+
+p.has-text-align-right[style*="writing-mode:vertical-rl"],
+p.has-text-align-left[style*="writing-mode:vertical-lr"] {
+  rotate: 180deg;
+}
+/*# sourceURL=https://feed.georgetown.edu/wp-includes/blocks/paragraph/style.css */
+</style>
+<style id="wp-block-quote-inline-css">
+.wp-block-quote {
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+.wp-block-quote.is-style-large:where(:not(.is-style-plain)), .wp-block-quote.is-large:where(:not(.is-style-plain)) {
+  margin-bottom: 1em;
+  padding: 0 1em;
+}
+.wp-block-quote.is-style-large:where(:not(.is-style-plain)) p, .wp-block-quote.is-large:where(:not(.is-style-plain)) p {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.6;
+}
+.wp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,
+.wp-block-quote.is-style-large:where(:not(.is-style-plain)) footer, .wp-block-quote.is-large:where(:not(.is-style-plain)) cite,
+.wp-block-quote.is-large:where(:not(.is-style-plain)) footer {
+  font-size: 1.125em;
+  text-align: right;
+}
+.wp-block-quote > cite {
+  display: block;
+}
+/*# sourceURL=https://feed.georgetown.edu/wp-includes/blocks/quote/style.css */
+</style>
+
+<style id="classic-theme-styles-inline-css">
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*# sourceURL=/wp-includes/css/classic-themes.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='gu-style-css' href='https://feed.georgetown.edu/wp-content/themes/georgetown/style.css?ver=1.24.53' media='all' />
+<link rel='stylesheet' id='gu-style-swiper-css' href='https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/css/vendor/swiper.min.css?ver=1.24.53' media='all' />
+<link rel='stylesheet' id='gu-style-pattern-lab-css' href='https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/css/style.css?ver=1.24.53' media='all' />
+<script id="jquery-core-js" src="https://feed.georgetown.edu/wp-includes/js/jquery/jquery.js?ver=3.7.1"></script>
+<script id="gform_json-js" defer='defer' src="https://feed.georgetown.edu/wp-content/plugins/gravityforms/js/jquery.json.js?ver=2.9.19"></script>
+<script id="gform_gravityforms-js-extra">
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://feed.georgetown.edu/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://feed.georgetown.edu/wp-content/plugins/gravityforms/images/spinner.svg","version_hash":"aa95059de9aaad627729f03f542d3a80","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = {"1":"1"};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https://feed.georgetown.edu/wp-content/plugins/gravityforms/images"}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://feed.georgetown.edu/wp-content/plugins/gravityforms/js/gravityforms.js?ver=2.9.19"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://feed.georgetown.edu/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=380b7a5ec0757c78876bc8a59488f2f3"></script>
+<link rel="https://api.w.org/" href="https://feed.georgetown.edu/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://feed.georgetown.edu/wp-json/wp/v2/posts/22018" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://feed.georgetown.edu/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.2" />
+<link rel='shortlink' href='https://feed.georgetown.edu/?p=22018' />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://feed.georgetown.edu"><link rel="alternate" href="https://feed.georgetown.edu/wp-json/tribe/events/v1/" />
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to manual -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var dataLayer_content = {"pagePostType":"post","pagePostType2":"single-post","pageCategory":["access-affordability"],"pageAttributes":["admissions","diversity","enrollment"],"pagePostAuthor":"kpc8"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false" data-pagespeed-no-defer>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T274TKB');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel="icon" href="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/10/cropped-gu-favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/10/cropped-gu-favicon-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/10/cropped-gu-favicon-300x300.png" />
+<meta name="msapplication-TileImage" content="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/10/cropped-gu-favicon-300x300.png" />
+<style id="wp-custom-css">
+.c--oa-landing-hero {
+   .oa-landing-hero-top {
+	@media screen and (max-width: 767px) {
+		height: 140px !important;
+		background-position: center 83% !important;
+		padding-top: 0 !important;
+	}
+	@media screen and (min-width: 768px) {
+		height: 170px !important;
+		background-position: center 83% !important;
+	}
+   }
+}
+
+.gform_page_footer {
+	.gform-loader {
+		display: none
+	}
+}
+
+/* Hide Related Stories Rays START */
+.c--feed-stories .rays {
+	display: none;
+}
+
+/* Hide Related Stories Rays END */
+
+/* temporarily hide search until setup: */
+/* 
+.open-search {
+	display: none;
+}
+ */
+
+</style>
+
+  <style id="core-block-supports-inline-css">
+/**
+ * Core styles: block-supports
+ */
+
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
+</head>
+</html>
+			</head>
+
+
+
+	<body class="wp-singular post-template-default single single-post postid-22018 single-format-standard wp-theme-georgetown tribe-no-js  unit oa-lightbox-not-exist header-appearance-dark" data-template="base.twig">
+		
+<!-- GTM Container placement set to manual -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T274TKB" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+		<div class="lc--layout-container lc--two-column futura">
+
+			<div class="l--layout l--two-column">
+
+									                
+            
+  <header id="l--main-header" class="header" aria-label="Site Header">
+          <nav aria-label="Skip Links">
+        <ul>
+          <li><a href="#navigation" class="skip-link">Skip to Main Navigation</a></li>
+          <li><a href="#content" class="skip-link">Skip to Content</a></li>
+          <li><a href="#oa-simple-footer" class="skip-link">Skip to Footer</a></li>
+        </ul>
+      </nav>
+
+      <div class="r--region r--header" id="navigation">
+        <div class="cc--component-container mobile-header cc--oa-unit-header-mobile program pantone-293">
+          <div class="c--component c--oa-unit-header-mobile">
+            <div class="main-nav-container">
+              <div class="header-top">
+                <button class="hamburger" aria-label="Open Menu"></button>
+                                  <div class="f--field f--unit-logo">
+                                          <a aria-label="THE-FEED-svg"
+                        href="https://feed.georgetown.edu"
+                        rel="home"
+                        class="unit-mobile-logo">
+                        <img src="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/08/THE-FEED-svg.svg" alt="" />
+                      </a>
+                                      </div>
+                
+                    
+    
+
+
+
+<div
+        class="f--field f--search-button "
+                        >
+
+    
+      <button class="open-search" aria-haspopup="true">Open Search Form</button>
+
+</div><!-- f--field f--search-button -->
+              </div>
+              <div id="mobile-menu">
+                
+                                  <div class="cc--component-container cc--oa-unit-main-menu">
+                    <div class="c--component c--oa-unit-main-menu">
+                      <nav aria-label="Main Mobile">
+                          <ul>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22403">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/about/" target="" class="menu-item-text">About</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22404">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/all-topics/" target="" class="menu-item-text">Topics</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22405">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/subscribe/" target="" class="menu-item-text">Subscribe</a>
+
+                              </div>
+
+                      </li>
+      </ul>
+                      </nav>
+                    </div>
+                  </div>
+                
+                                  <div class="cc--component-container cc--oa-unit-secondary-menu">
+                    <div class="c--component c--oa-unit-secondary-menu">
+                      <nav aria-label="Secondary Mobile">
+                          <ul>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22697">
+        <div class="menu-item-container">
+                      <a href="https://alumni.georgetown.edu/" target="" class="menu-item-text">Visit alumni site</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22698">
+        <div class="menu-item-container">
+                      <a href="https://calledtobe.georgetown.edu/" target="" class="menu-item-text">Visit campaign site</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22699">
+        <div class="menu-item-container">
+                      <a href="https://alumni.georgetown.edu/contact-us-form/" target="" class="menu-item-text">Contact us</a>
+
+                              </div>
+
+                      </li>
+      </ul>
+                      </nav>
+                    </div>
+                  </div>
+                
+                <div class="cc--component-container cc--oa-feature-menu">
+                  <div class="c--component c--oa-feature-menu">
+                                          <nav aria-label="Feature Mobile">
+                          <ul>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22381">
+        <div class="menu-item-container">
+                      <a href="https://secure.advancement.georgetown.edu/s/1686/18/giving.aspx?sid=1686&gid=4&pgid=3975&cid=5816&bledit=1&sort=1&unit=64&dids=615.616.617.618.144&appealcode=23UW004559)" target="" class="menu-item-text">Make a Gift</a>
+
+                              </div>
+
+                      </li>
+      </ul>
+                      </nav>
+                                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Georgetown Today Return Link Mobile -->
+          <div class="return-link-mobile-container">
+            <div class="return-link-container">
+              <div class="return-link-flex-container">
+                <div class="return-link-svg"></div>
+                <a class="return-link"></a>
+              </div>
+            </div>
+          </div>
+          <!-- Georgetown Today Return Link Mobile -->
+        </div>
+        <div class="cc--component-container desktop-header cc--oa-unit-header pantone-293">
+          <div class="c--component c--oa-unit-header">
+            <div class="header-top">
+              <div class="header-top-inner">
+                                  <div class="f--field f--unit-logo">
+                                          <a aria-label="THE-FEED-svg"
+                        href="https://feed.georgetown.edu"
+                        rel="home"
+                        class="unit-logo">
+                        <img src="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/08/THE-FEED-svg.svg" alt="" />
+                      </a>
+                                      </div>
+                                <div class="f--field f--georgetown-logo">
+                                      <a href="https://www.georgetown.edu" aria-label="Visit Georgetown.edu" class="georgetown-logo">
+                      <svg version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 300.1 21.9"
+                        enable-background="new 0 0 300.1 21.9"
+                        xml:space="preserve">
+                        <title>
+                          Georgetown University
+                        </title>
+                        <path fill="#FFFFFF"
+                          d="M10.7,16.7c-0.2,0.7-0.6,2-0.9,2.6c-0.6,1.1-2.1,2.6-3.7,2.6c-2,0-2.8-1-2.8-2
+					c0-0.8,0.4-1.3,1.2-1.3s0.9,0.7,0.9,0.9c0,0.3-0.1,0.6-0.2,0.7c0,0-0.1,0.1-0.1,0.3c0,0.4,0.5,0.7,0.9,0.7c1.1,0,1.7-0.9,2.1-2.4
+					c0.3-1,0.6-2.7,1.4-5.7H9.4c-0.3,0.4-1.5,2.1-4.4,2.1c-3,0-5-2.1-5-5.8c0-2.8,1.3-5.1,2.9-6.7c1.2-1.2,3.1-2.5,6-2.5
+					c2.2,0,3.4,0.7,3.8,1.1c0.3,0.2,0.5,0.3,0.6,0.3c0.3,0,0.4-0.2,0.5-0.7c0-0.1,0.1-0.1,0.2-0.1l0.3,0.1c0.1,0,0.2,0.1,0.1,0.2
+					l-1.2,4.3c0,0.1-0.1,0.2-0.2,0.1h-0.3c-0.1,0-0.2-0.1-0.2-0.2c0.4-1.8-0.7-4.1-3.5-4.1c-1.4,0-2.9,0.5-4.4,2.4c-1.2,1.6-2,3.9-2,6.5
+					c0,3.5,2.2,4.1,3.1,4.1c2.6,0,3.8-2.2,3.9-3.5c0.1-0.8-0.2-1-0.8-1H8.3C8.1,9.6,8.1,9.5,8.1,9.4l0.1-0.5c0-0.1,0.1-0.2,0.2-0.2
+					c0.3,0,1.1,0.1,3,0.1c1.5,0,2-0.1,2.3-0.1c0.2,0,0.2,0.1,0.2,0.2l-0.1,0.5c0,0.1-0.1,0.2-0.2,0.2h-0.5c-0.4,0-0.7,0.2-1,1.3
+					L10.7,16.7z M27.2,11c-0.1-0.1-0.2,0-0.3,0c-0.3,0.4-1.5,1.8-2,2.2C24.3,13.7,23.7,14,23,14h-4.8l2.1-6.5h1.1c1.5,0,2.4,0.2,2.4,1.8
+					c0,0.1,0,0.2,0.1,0.2h0.4c0.1,0,0.1,0,0.2-0.1c0.1-0.8,0.8-3.5,1.1-4.3c0,0,0-0.1-0.1-0.1l-0.4-0.1c-0.1,0-0.1,0-0.2,0.1
+					c-0.8,1.7-1.6,1.8-2.5,1.8h-1.8l1.8-5.6h3.3c0.1,0,0.3,0,0.4,0.2l2.2,2.5C28.4,4,28.5,4.1,28.6,4l0.3-0.1C29,3.8,29,3.8,29,3.7
+					l-0.6-2.9c-0.1-0.3-0.1-0.4-0.5-0.4c-0.2,0-0.8,0-1.6,0c-0.9,0-2,0-3.6,0h-1.6c-0.5,0-1.2,0-1.8,0c-0.6,0-1.1,0-1.2,0
+					c-0.2,0-0.2,0-0.3,0.2l-0.1,0.5c0,0.1,0,0.2,0.1,0.2h0.7c0.6,0,1.4,0.3,1.1,1.5L16.3,13c-0.2,0.7-0.6,1.1-1.5,1.1h-0.7
+					c-0.1,0-0.1,0-0.2,0.1l-0.1,0.6c0,0.1,0,0.2,0.1,0.2s0.5,0,0.9,0c0.5,0,1.1,0,1.8,0h2.8c1.5,0,3,0,4.2,0c1.2,0,2.1,0,2.3,0
+					c0.3,0,0.4,0,0.5-0.4l1.1-3.1c0-0.2,0-0.2,0-0.2L27.2,11z M43.5,6.4c0-3.9-2.4-6.3-5.8-6.3c-4.5,0-7.8,4.2-7.8,8.7
+					c0,1.9,0.6,3.6,1.9,4.9c1.3,1.3,3,1.4,3.9,1.4C40.5,15.2,43.5,10.7,43.5,6.4z M35.1,2.8c0.8-0.9,1.8-1.6,3.1-1.6c1.9,0,3,1.4,3,3.6
+					c0,4.6-2.8,9.4-6,9.4c-1.8,0-3.2-1.2-3.2-3.9C32.1,7.9,33.3,4.8,35.1,2.8z M48.9,7.9c0.6,0,1.5-0.1,2,1.1c0.3,0.5,2.1,4.7,2.4,5.2
+					c0.3,0.5,0.4,0.7,0.6,0.7c0.3,0,0.7-0.1,2-0.1c1.2,0,1.5,0.1,1.7,0.1c0.1,0,0.2-0.1,0.2-0.2v-0.4c0-0.1,0-0.2-0.1-0.2h-0.6
+					c-0.8,0-1.3-0.3-1.9-1.2c-0.4-0.6-1.8-3.6-2-3.8C53,8.7,52.6,8,52,7.9V7.8c2.8-0.3,5.1-2,5.1-4.1c0-3-3.2-3.1-5.1-3.1
+					c-0.6,0-2.8,0.1-5.1,0.1c-0.2,0-0.3,0-0.3,0.2l-0.1,0.5c0,0.1,0,0.2,0.2,0.2h0.7c0.7,0,0.9,0.4,0.6,1.1l-3.4,10.7
+					c-0.2,0.5-0.6,1-1.1,1h-0.6c-0.2,0-0.2,0-0.2,0.2l-0.1,0.5c0,0.1,0,0.2,0.1,0.2c0.3,0,1.1-0.1,2.6-0.1c1.8,0,2.8,0.1,3,0.1
+					c0.1,0,0.2,0,0.3-0.2v-0.5c0-0.1,0-0.2-0.1-0.2h-0.9c-0.6,0-0.8-0.4-0.5-1.5L48.9,7.9z M51.1,1.2c0.3,0,0.5,0,0.9,0
+					c2.1,0,2.7,1.4,2.7,2.3c0,1.5-1,2.7-2.1,3.2c-1.5,0.6-2.6,0.5-3.4,0.5L51.1,1.2z M71.1,10.9c0.3-1.1,0.6-1.3,1-1.3h0.5
+					c0.1,0,0.2,0,0.2-0.2l0.1-0.5c0-0.1,0-0.2-0.2-0.2c-0.3,0-0.8,0.1-2.3,0.1c-1.9,0-2.6-0.1-3-0.1c-0.2,0-0.2,0-0.2,0.2l-0.1,0.5
+					c0,0.2,0,0.2,0.2,0.2h0.8c0.6,0,0.8,0.2,0.8,1c-0.1,1.3-1.3,3.5-3.9,3.5c-0.9,0-3.1-0.6-3.1-4.1c0-2.6,0.7-4.9,2-6.5
+					c1.5-2,3-2.4,4.4-2.4c2.8,0,3.8,2.3,3.5,4.1c0,0.1,0,0.2,0.1,0.2h0.3c0.1,0,0.2,0,0.2-0.1L73.5,1c0-0.1,0-0.2-0.1-0.2l-0.3-0.1
+					c-0.1,0-0.2,0-0.2,0.1c-0.1,0.5-0.3,0.7-0.5,0.7c-0.1,0-0.3,0-0.6-0.3c-0.4-0.3-1.6-1.1-3.8-1.1c-3,0-4.8,1.3-6,2.5
+					c-1.6,1.6-2.9,3.9-2.9,6.7c0,3.7,2,5.8,5,5.8c2.9,0,4.1-1.7,4.4-2.1h0.1c-0.8,3-1.2,4.7-1.4,5.7c-0.4,1.5-1,2.4-2.1,2.4
+					c-0.5,0-0.9-0.2-0.9-0.7c0-0.2,0-0.3,0.1-0.4s0.2-0.5,0.2-0.7s-0.1-0.9-0.9-0.9s-1.2,0.6-1.2,1.3c0,1,0.8,2,2.8,2
+					c1.6,0,3.2-1.4,3.7-2.6c0.3-0.6,0.7-1.8,0.9-2.6L71.1,10.9z M86.2,11c-0.1-0.1-0.2,0-0.3,0c-0.3,0.4-1.5,1.8-2,2.2
+					C83.3,13.7,82.7,14,82,14h-4.8l2.1-6.5h1.1c1.5,0,2.4,0.2,2.4,1.8c0,0.1,0,0.2,0.1,0.2h0.4c0.1,0,0.1,0,0.2-0.1
+					c0.1-0.8,0.8-3.5,1.1-4.3c0,0,0-0.1-0.1-0.1l-0.4-0.1c-0.1,0-0.1,0-0.2,0.1c-0.8,1.7-1.6,1.8-2.5,1.8h-1.8l1.8-5.6h3.3
+					c0.1,0,0.3,0,0.4,0.2l2.2,2.5C87.4,4,87.5,4.1,87.6,4l0.3-0.1C88,3.8,88,3.8,88,3.7l-0.6-2.9c-0.1-0.3-0.1-0.4-0.5-0.4
+					c-0.2,0-0.8,0-1.6,0c-0.9,0-2,0-3.6,0h-1.6c-0.5,0-1.2,0-1.8,0c-0.6,0-1.1,0-1.2,0c-0.2,0-0.2,0-0.3,0.2l-0.1,0.5
+					c0,0.1,0,0.2,0.1,0.2h0.7c0.6,0,1.4,0.3,1.1,1.5L75.3,13c-0.2,0.7-0.6,1.1-1.5,1.1h-0.7c-0.1,0-0.1,0-0.2,0.1l-0.1,0.6
+					c0,0.1,0,0.2,0.1,0.2s0.5,0,0.9,0c0.5,0,1.1,0,1.8,0h2.8c1.5,0,3,0,4.2,0s2.1,0,2.3,0c0.3,0,0.4,0,0.5-0.4l1.1-3.1
+					c0-0.2,0-0.2,0-0.2L86.2,11z M94.4,0.5c-2.2,0-3.3-0.2-3.7-0.3C90.5,0.1,90.5,0,90.4,0s-0.2,0.1-0.2,0.2c0,0.1-1.4,3.1-1.6,3.6
+					c0,0.1,0,0.2,0,0.2l0.3,0.2c0.1,0,0.2,0,0.3-0.1c0.5-0.6,1.6-1.8,2.4-2.4C92.1,1.3,93,1.2,95,1.2h0.6l-3.3,10.6
+					c-0.5,1.6-0.9,2.2-2.1,2.2h-0.6c-0.2,0-0.2,0-0.3,0.2v0.5c0,0.1,0,0.2,0.2,0.2s1.4-0.1,3.5-0.1c2,0,2.9,0.1,3.2,0.1
+					c0.2,0,0.2-0.1,0.3-0.2l0.1-0.4c0-0.1,0-0.2-0.1-0.2h-0.9c-1.1,0-1.3-0.5-0.9-1.8l3.4-10.9h0.4c1,0,2.5,0.2,3,0.6
+					c0.3,0.6,0.7,1.9,0.9,2.6c0.1,0.3,0.2,0.3,0.3,0.3l0.3-0.1c0.1,0,0.2-0.1,0.2-0.2c0-0.9,0.2-4,0.2-4.3c0-0.1-0.1-0.2-0.2-0.2
+					s-0.1,0-0.2,0.1c-0.4,0.2-1.2,0.4-3.1,0.4h-5.5V0.5z M116.6,6.4c0-3.9-2.4-6.3-5.8-6.3c-4.5,0-7.8,4.2-7.8,8.7
+					c0,1.9,0.6,3.6,1.9,4.9s3,1.4,3.9,1.4C113.6,15.2,116.6,10.7,116.6,6.4z M108.2,2.8c0.8-0.9,1.8-1.6,3.1-1.6c1.9,0,3,1.4,3,3.6
+					c0,4.6-2.8,9.4-6,9.4c-1.8,0-3.2-1.2-3.2-3.9C105.1,7.9,106.4,4.8,108.2,2.8z M122.9,2.4c0.2-0.9,0.5-1.1,1.1-1.1h0.3
+					c0.2,0,0.2-0.1,0.2-0.2l0.1-0.5c0-0.1,0-0.2-0.2-0.2c-0.3,0-1.1,0.1-2.4,0.1c-1.4,0-2.3-0.1-2.5-0.1s-0.2,0-0.3,0.2l-0.1,0.5
+					c0,0.2,0,0.2,0.2,0.2h0.5c0.5,0,0.6,0.4,0.5,1.1l-1.5,12c-0.1,0.6,0,0.9,0.3,0.9s0.6-0.3,0.8-0.6c0.8-0.9,6.6-9,6.8-9.3
+					c0.2-0.2,0.3-0.2,0.3,0l-0.6,9c0,0.5,0,0.8,0.4,0.8s0.6-0.3,0.9-0.7c0.9-1.1,3.7-5.3,4.3-6.3c0.5-0.9,3.7-6.2,3.9-6.5
+					c0.3-0.5,0.7-0.6,1.1-0.6h0.4c0.1,0,0.1,0,0.2-0.2l0.1-0.5c0-0.1,0-0.2-0.2-0.2c-0.3,0-0.9,0.1-2.1,0.1c-1.1,0-1.6-0.1-1.9-0.1
+					c-0.1,0-0.2,0-0.2,0.2l-0.1,0.5c0,0.2,0,0.2,0.2,0.2h0.3c0.6,0,0.7,0.6,0.5,1.1c-0.1,0.8-1.1,2.8-2.1,4.5c-0.4,0.7-2.5,4.2-3,4.7
+					c-0.2,0.3-0.3,0.2-0.3-0.2l1.1-8.9c0.1-0.8,0.3-1,0.7-1h0.3c0.2,0,0.2,0,0.3-0.2l0.1-0.5c0-0.1,0-0.2-0.2-0.2
+					c-0.3,0-0.8,0.1-2.1,0.1c-1.3,0-1.9-0.1-2.1-0.1s-0.2,0-0.3,0.1l-0.1,0.6c0,0.1,0,0.2,0.2,0.2h0.3c0.4,0,0.6,0.3,0.6,0.7
+					c0,0.5-0.3,1.3-0.8,2.1c-0.1,0.1-4.8,7-5,7.1c-0.2,0.3-0.4,0.2-0.3-0.1L122.9,2.4z M133.5,12.7c0,1.8,1.5,2.7,3,2.7
+					c3.1,0,5.1-2.4,6.2-4.4c1.1-1.9,2-4.7,2.5-7.4c0.1-0.3,0.2-0.3,0.2-0.1c1.1,4.2,3,9,5.4,12.2c1.3,1.7,4.1,5.1,8.4,5.1
+					c2.5,0,3.6-1.2,4-1.6s0.6-1.1,0.6-1.3c0-0.3-0.2-0.7-0.6-0.7c-0.4,0-0.7,0.4-0.9,1.4c-0.2,0.7-0.9,1.2-2,1.2c-3.7,0-6.9-4-8-5.8
+					c-0.2-0.4-0.6-0.8-0.2-2.4c1.4-6.2,3-8.4,4.5-9.5c0.7-0.5,1.1-0.6,1.5-0.6c0.3,0,0.7,0.2,0.8,0.5c0.2,0.3,0.5,0.6,0.9,0.6
+					c0.5,0,1.1-0.5,1.1-1.1c0-0.7-0.6-1.5-1.9-1.5c-0.9,0-1.9,0.2-3,1.1c-2.4,1.8-3.8,6-4.7,10.2c-0.1,0.4-0.2,0.6-0.3,0.3
+					c-1.2-1.9-3.2-7.4-3.9-10.6c-0.1-0.3-0.2-0.5-0.6-0.5c-3.9,0-6-0.2-7.6,0.9c-1,0.7-1.5,1.9-1.5,3c0,1,0.6,1.8,1.4,1.8
+					c0.7,0,1.1-0.5,1.1-0.9s-0.3-0.9-1-1c-0.5-0.1-0.6-0.6-0.6-0.9c0-0.5,0.8-1.1,1.7-1.4c1.2-0.4,2.4-0.4,3.8-0.4
+					c0.5,0,0.7,0.2,0.7,0.6c0,2.1-1.7,6.8-3.2,8.9c-0.9,1.3-2.7,2.9-4.7,2.9c-1.2,0-1.5-0.5-1.4-0.9c0.1-0.5,0.7-0.8,0.7-1.4
+					c0-0.7-0.5-1-1.1-1C134.3,11,133.5,11.6,133.5,12.7z M195.7,14.4c0.1,0.3,0.3,0.4,0.6,0.4c0.1,0,0.3-0.2,0.4-0.6l3.9-11.3
+					c0.4-1.2,0.9-1.7,1.4-1.7h0.6c0.1,0,0.2,0,0.2-0.2l0.1-0.4c0-0.2,0-0.3-0.2-0.3c-0.3,0-0.7,0.1-1.8,0.1c-1.5,0-2.2-0.1-2.4-0.1
+					c-0.1,0-0.2,0.1-0.2,0.2V1c0,0.2,0,0.2,0.2,0.2h0.6c0.7,0,0.9,0.7,0.3,2.4l-2.3,6.9c-0.2,0.5-0.3,0.6-0.4,0.3l-4.8-9.9
+					c-0.1-0.3-0.3-0.6-0.6-0.6c-2.5,0-3.4-0.1-3.6-0.1c-0.2,0-0.2,0.1-0.3,0.2L187.1,1c0,0.2,0,0.3,0.2,0.3h0.8c0.9,0,1.4,0.6,0.9,1.9
+					l-2.6,8.3c-0.6,1.9-1.2,2.6-2.1,2.6h-0.5c-0.1,0-0.2,0.1-0.2,0.2l-0.1,0.5c0,0.2,0,0.2,0.1,0.2c0.3,0,0.9-0.1,2.4-0.1
+					s2.4,0.1,2.6,0.1c0.2,0,0.2,0,0.3-0.2l0.1-0.5c0-0.1,0-0.2-0.2-0.2H188c-0.9,0-1-1-0.3-3.5l2.1-7.2c0-0.3,0.2-0.3,0.3,0L195.7,14.4z
+					M202.8,12.5c-0.3,1.1-0.4,1.5-1.7,1.5h-0.8c-0.1,0-0.2,0-0.2,0.2l-0.1,0.5c0,0.1,0,0.2,0.2,0.2c0.3,0,1.4-0.1,3.2-0.1
+					c2.2,0,3.2,0.1,3.4,0.1s0.2,0,0.3-0.2v-0.4c0-0.1,0-0.2-0.1-0.2h-0.8c-0.9,0-1.2-0.4-0.9-1.5l2.7-9.9c0.3-1.2,0.8-1.4,1.7-1.4h0.6
+					c0.2,0,0.2-0.1,0.2-0.2l0.1-0.4c0-0.2,0-0.3-0.3-0.3s-1.2,0.1-3,0.1c-1.7,0-2.9-0.1-3.1-0.1c-0.2,0-0.3,0-0.3,0.1l-0.1,0.6
+					c0,0.1,0,0.2,0.2,0.2h1c0.6,0,0.9,0.3,0.6,1.4L202.8,12.5z M214.3,11c-0.3,0.4-0.6,0.3-0.5-0.2l1.5-8.6c0.1-0.6,0.5-0.9,1.2-0.9h0.6
+					c0.2,0,0.2,0,0.2-0.2l0.1-0.5c0-0.2,0-0.2-0.2-0.2c-0.3,0-1.2,0.1-2.7,0.1c-1.8,0-2.7-0.1-3-0.1c-0.2,0-0.2,0-0.2,0.2l-0.2,0.5
+					c0,0.2,0,0.2,0.2,0.2h0.7c0.7,0,0.9,0.5,0.8,1.2l-1.7,12c-0.1,0.5,0,0.8,0.3,0.8s0.6-0.2,0.7-0.4l9.2-11.5c0.8-1.1,1.9-2.1,2.7-2.1
+					h0.5c0.1,0,0.2-0.1,0.2-0.2l0.1-0.5c0-0.1,0-0.2-0.2-0.2c-0.3,0-0.8,0.1-2.1,0.1c-1.2,0-1.9-0.1-2.2-0.1c-0.2,0-0.3,0-0.3,0.2
+					l-0.1,0.5c0,0.1,0,0.2,0.2,0.2h0.4c0.6,0,0.5,0.8-0.3,1.8L214.3,11z M234.6,11c-0.1-0.1-0.2,0-0.3,0c-0.3,0.4-1.5,1.8-2,2.2
+					c-0.6,0.5-1.2,0.8-1.9,0.8h-4.8l2.1-6.5h1.1c1.5,0,2.4,0.2,2.4,1.8c0,0.1,0,0.2,0.1,0.2h0.4c0.1,0,0.1,0,0.2-0.1
+					c0.1-0.8,0.8-3.5,1.1-4.3c0,0,0-0.1-0.1-0.1l-0.4-0.1c-0.1,0-0.1,0-0.2,0.1c-0.8,1.7-1.6,1.8-2.5,1.8H228l1.8-5.6h3.3
+					c0.1,0,0.3,0,0.4,0.2l2.2,2.5c0.1,0.1,0.2,0.2,0.3,0.1l0.3-0.1c0.1-0.1,0.1-0.1,0.1-0.2l-0.6-2.9c-0.1-0.3-0.1-0.4-0.5-0.4
+					c-0.2,0-0.8,0-1.6,0c-0.9,0-2,0-3.6,0h-1.5c-0.5,0-1.2,0-1.8,0s-1.1,0-1.2,0c-0.2,0-0.2,0-0.3,0.2l-0.1,0.5c0,0.1,0,0.2,0.1,0.2h0.7
+					c0.6,0,1.4,0.3,1.1,1.5L223.8,13c-0.2,0.7-0.6,1.1-1.5,1.1h-0.7c-0.1,0-0.1,0-0.2,0.1l-0.1,0.6c0,0.1,0,0.2,0.1,0.2s0.5,0,0.9,0
+					c0.5,0,1.1,0,1.8,0h2.8c1.5,0,3,0,4.2,0s2.1,0,2.3,0c0.3,0,0.4,0,0.5-0.4l1.1-3.1c0-0.2,0-0.2,0-0.2L234.6,11z M241.3,7.9
+					c0.6,0,1.5-0.1,2,1.1c0.3,0.5,2.1,4.7,2.4,5.2c0.3,0.5,0.4,0.7,0.6,0.7c0.3,0,0.7-0.1,2-0.1c1.2,0,1.5,0.1,1.7,0.1
+					c0.1,0,0.2-0.1,0.2-0.2v-0.4c0-0.1,0-0.2-0.1-0.2h-0.6c-0.8,0-1.3-0.3-1.9-1.2c-0.4-0.6-1.8-3.6-2-3.8c-0.2-0.4-0.6-1.1-1.2-1.2V7.8
+					c2.8-0.3,5.1-2,5.1-4.1c0-3-3.2-3.1-5.1-3.1c-0.6,0-2.8,0.1-5.1,0.1c-0.2,0-0.3,0-0.3,0.2l0.1,0.2c0,0.1,0,0.2,0.2,0.2h0.7
+					c0.7,0,0.9,0.4,0.6,1.1l-3.4,10.7c-0.2,0.5-0.6,1-1.1,1h-0.6c-0.2,0-0.2,0-0.2,0.2l-0.1,0.5c0,0.1,0,0.2,0.1,0.2
+					c0.3,0,1.1-0.1,2.6-0.1c1.8,0,2.8,0.1,3,0.1c0.1,0,0.2,0,0.3-0.2v-0.5c0-0.1,0-0.2-0.1-0.2h-0.9c-0.6,0-0.8-0.4-0.5-1.5L241.3,7.9z
+					M243.4,1.2c0.3,0,0.5,0,0.9,0c2.1,0,2.7,1.4,2.7,2.3c0,1.5-1,2.7-2.1,3.2c-1.5,0.6-2.6,0.5-3.4,0.5L243.4,1.2z M261.7,0.6
+					c0-0.1,0-0.1-0.2-0.1h-0.3c-0.2,0-0.2,0-0.2,0.1c-0.1,0.4-0.2,0.7-0.3,0.7c-0.1,0-0.2,0-0.3-0.1c-0.3-0.3-1.4-1-2.5-1
+					c-2.8,0-4,2.2-4,3.8c0,2.2,1.1,3.3,2.4,4.8c0.9,1,2,1.8,2,3.2c0,1.2-0.9,2.3-2.3,2.3c-1.3,0-3-1.5-2.4-4.5c0-0.1,0-0.2-0.1-0.2
+					l-0.3-0.1c-0.1,0-0.2,0-0.2,0.1l-1.6,4.7c0,0.2,0,0.2,0.1,0.2l0.3,0.1c0.1,0,0.2,0,0.2-0.1c0.2-0.3,0.4-0.6,0.5-0.8
+					c0.1-0.1,0.3-0.2,0.6,0c0.7,0.8,1.7,1.6,3,1.6c2.2,0,4.2-1.5,4.2-4.2c0-2.4-1.4-3.6-2.4-4.6S256,4.8,256,3.3c0-0.9,0.7-2.1,1.9-2.1
+					c2.2,0,2.4,2.6,2.3,3.4c0,0.1,0,0.2,0.2,0.2h0.4c0.1,0,0.1,0,0.2-0.1L261.7,0.6z M263.5,12.5c-0.3,1.1-0.4,1.5-1.7,1.5H261
+					c-0.1,0-0.2,0-0.2,0.2l-0.1,0.5c0,0.1,0,0.2,0.2,0.2c0.3,0,1.4-0.1,3.2-0.1c2.2,0,3.2,0.1,3.4,0.1c0.2,0,0.2,0,0.3-0.2v-0.4
+					c0-0.1,0-0.2-0.1-0.2h-0.8c-0.9,0-1.2-0.4-0.9-1.5l2.7-9.9c0.3-1.2,0.8-1.4,1.7-1.4h0.6c0.2,0,0.2-0.1,0.2-0.2l0.1-0.4
+					c0-0.2,0-0.3-0.3-0.3s-1.2,0.1-3,0.1c-1.7,0-2.9-0.1-3.1-0.1s-0.3,0-0.3,0.1l-0.1,0.6c0,0.1,0,0.2,0.2,0.2h1c0.6,0,0.9,0.3,0.6,1.4
+					L263.5,12.5z M276.9,0.5c-2.2,0-3.3-0.2-3.7-0.3C273,0.1,272.9,0,272.9,0c-0.1,0-0.2,0.1-0.2,0.2c0,0.1-1.4,3.1-1.6,3.6
+					c0,0.1,0,0.2,0,0.2l0.3,0.2c0.1,0,0.2,0,0.3-0.1c0.5-0.6,1.6-1.8,2.4-2.4c0.5-0.4,1.4-0.5,3.4-0.5h0.6l-3.3,10.6
+					c-0.5,1.6-0.9,2.2-2.1,2.2h-0.6c-0.2,0-0.2,0-0.3,0.2v0.5c0,0.1,0,0.2,0.2,0.2s1.4-0.1,3.5-0.1c2,0,2.9,0.1,3.2,0.1
+					c0.2,0,0.2-0.1,0.3-0.2l0.1-0.4c0-0.1,0-0.2-0.1-0.2h-0.9c-1.1,0-1.3-0.5-0.9-1.8l3.4-10.9h0.4c1,0,2.5,0.2,3,0.6
+					c0.3,0.6,0.7,1.9,0.9,2.6c0.1,0.3,0.2,0.3,0.3,0.3l0.3-0.1c0.1,0,0.2-0.1,0.2-0.2c0-0.9,0.2-4,0.2-4.3c0-0.1-0.1-0.2-0.2-0.2
+					s-0.1,0-0.2,0.1c-0.4,0.2-1.2,0.4-3.1,0.4h-5.5V0.5z M292.6,10.5c0.2-0.9,0.4-1.4,0.7-1.8c0.3-0.5,4.2-6,4.5-6.4
+					c0.4-0.6,0.9-0.9,1.6-0.9h0.4c0.1,0,0.2,0,0.2-0.2l0.1-0.4c0-0.1,0-0.2-0.2-0.2c-0.3,0-0.9,0.1-2.3,0.1c-1.2,0-2-0.1-2.3-0.1
+					c-0.2,0-0.3,0-0.3,0.2v0.5c0,0.1,0,0.2,0.1,0.2h0.5c0.7,0,1,0.3,0.7,1.1c-0.2,0.6-3.3,5.1-3.6,5.6c-0.2,0.3-0.3,0.3-0.4,0l-1.7-5.8
+					c-0.1-0.4-0.1-0.9,0.6-0.9h0.6c0.1,0,0.2,0,0.2-0.2V0.8c0-0.1,0-0.2-0.2-0.2c-0.3,0-1,0.1-2.8,0.1c-1.7,0-2.3-0.1-2.6-0.1
+					c-0.1,0-0.2,0-0.2,0.2l-0.1,0.3c0,0.1,0,0.2,0.2,0.2h0.5c0.7,0,1.2,0.3,1.3,0.8l2.2,6.6c0.1,0.3,0.1,0.8,0,1.1l-0.7,3.2
+					c-0.1,0.6-0.4,1.1-1.4,1.1h-0.5c-0.2,0-0.2,0.1-0.2,0.2l-0.1,0.5c0,0.2,0,0.2,0.2,0.2c0.3,0,0.9-0.1,2.8-0.1c1.7,0,2.4,0.1,2.7,0.1
+					c0.2,0,0.2-0.1,0.2-0.2l0.1-0.5c0-0.1,0-0.2-0.2-0.2h-0.5c-0.7,0-1-0.1-0.8-1.2L292.6,10.5z M172.8,3.3c0,0-5.2,4.2-3.5,9.5
+					c0,0,1.2,3.8,5.9,2.2c0,0,1.3-0.6,2.1-1.4s0.7,0,0.9,0.5c0.2,0.3,0.6,1.4,2.1,1.3s2.7-1.8,2.3-2.3c-0.3-0.4-0.8,0.5-1.1,0.8
+					c-0.4,0.2-1.2,0.3-1.4-0.8c-0.2-1.1,2.3-7.6,2.3-7.6s0.7-1.9,1.6-3.3c0.5-0.8,1-0.9,1.5-1.1c1.5-0.4,0.6-0.9,0.1-0.9
+					c-0.4,0-2.4-0.3-3.2,0.8s-4.3,10.1-4.3,10.1s-1.6,3.3-4.7,2.3c-3.1-1-2-5.3-1.5-6.4c0.3-0.6,1.8-3.3,3.7-5.7
+					c1.3-1.6-0.1-0.8-1.6-0.9c-1.5-0.1-5.1-0.9-6.6,0.2c-1.7,1.3-2.2,3.4-0.7,4.4s2.4-0.8,1.8-1.5c-0.6-0.7-0.7,0-1.5-0.1
+					c-0.6-0.1-0.5-1.6,1-1.8s3.7,0.3,5,0.3C174.3,2,172.8,3.3,172.8,3.3z"></path>
+                      </svg>
+                    </a>
+                                  </div>
+                <div class="nav-container">
+                                      <div class="cc--component-container cc--oa-unit-secondary-menu">
+                      <div class="c--component c--oa-unit-secondary-menu">
+                        <nav aria-label="Secondary">
+                            <ul>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22697">
+        <div class="menu-item-container">
+                      <a href="https://alumni.georgetown.edu/" target="" class="menu-item-text">Visit alumni site</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22698">
+        <div class="menu-item-container">
+                      <a href="https://calledtobe.georgetown.edu/" target="" class="menu-item-text">Visit campaign site</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22699">
+        <div class="menu-item-container">
+                      <a href="https://alumni.georgetown.edu/contact-us-form/" target="" class="menu-item-text">Contact us</a>
+
+                              </div>
+
+                      </li>
+      </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  
+                                      <div class="cc--component-container cc--oa-unit-main-menu">
+                      <div class="c--component c--oa-unit-main-menu">
+                        <nav aria-label="Main">
+                            <ul>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22403">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/about/" target="" class="menu-item-text">About</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22404">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/all-topics/" target="" class="menu-item-text">Topics</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22405">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/subscribe/" target="" class="menu-item-text">Subscribe</a>
+
+                              </div>
+
+                      </li>
+      </ul>
+                        </nav>
+                      </div>
+                    </div>
+                                    <div class="cc--component-container cc--oa-feature-menu">
+                    <div class="c--component c--oa-feature-menu">
+                                              <nav aria-label="Feature">
+                            <ul>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22381">
+        <div class="menu-item-container">
+                      <a href="https://secure.advancement.georgetown.edu/s/1686/18/giving.aspx?sid=1686&gid=4&pgid=3975&cid=5816&bledit=1&sort=1&unit=64&dids=615.616.617.618.144&appealcode=23UW004559)" target="" class="menu-item-text">Make a Gift</a>
+
+                              </div>
+
+                      </li>
+      </ul>
+                        </nav>
+                                          </div>
+                  </div>
+                      
+    
+
+
+
+<div
+        class="f--field f--search-button "
+                        >
+
+    
+      <button class="open-search" aria-haspopup="true">Open Search Form</button>
+
+</div><!-- f--field f--search-button -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Georgetown Today Return Link Slim -->
+          <div class="return-link-slim-container">
+            <div class="return-link-container">
+              <div class="return-link-flex-container">
+                <div class="return-link-svg"></div>
+                <a class="return-link"></a>
+              </div>
+            </div>
+          </div>
+          <!-- Georgetown Today Return Link Slim -->
+
+          <div class="header-bottom">
+            <div class="header-bottom-inner">
+                              <div class="f--field f--unit-logo">
+                                      <a href="https://feed.georgetown.edu"
+                      aria-label="THE-FEED-svg"
+                      rel="home"
+                      class="unit-logo">
+                      <img src="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/08/THE-FEED-svg.svg" alt="" />
+                    </a>
+                                  </div>
+              
+              <div class="desktop-main-menu">
+                                  <div class="cc--component-container cc--oa-unit-main-menu">
+                    <div class="c--component c--oa-unit-main-menu">
+                      <nav aria-label="Main Compact">
+                          <ul>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22403">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/about/" target="" class="menu-item-text">About</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22404">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/all-topics/" target="" class="menu-item-text">Topics</a>
+
+                              </div>
+
+                      </li>
+          <li class="menu-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-22405">
+        <div class="menu-item-container">
+                      <a href="https://feed.georgetown.edu/subscribe/" target="" class="menu-item-text">Subscribe</a>
+
+                              </div>
+
+                      </li>
+      </ul>
+                      </nav>
+                    </div>
+                  </div>
+                                <div class="cc--component-container cc--oa-feature-menu">
+                  <div class="c--component c--oa-feature-menu">
+                                          <nav aria-label="Feature Compact">
+                          <ul>
+          <li class="menu-item  menu-item menu-item-type-custom menu-item-object-custom menu-item-22381">
+        <div class="menu-item-container">
+                      <a href="https://secure.advancement.georgetown.edu/s/1686/18/giving.aspx?sid=1686&gid=4&pgid=3975&cid=5816&bledit=1&sort=1&unit=64&dids=615.616.617.618.144&appealcode=23UW004559)" target="" class="menu-item-text">Make a Gift</a>
+
+                              </div>
+
+                      </li>
+      </ul>
+                      </nav>
+                                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Georgetown Today Return Link -->
+          <div class="return-link-non-slim-container">
+            <div class="return-link-container">
+              <div class="return-link-flex-container">
+                <div class="return-link-svg"></div>
+                <a class="return-link"></a>
+              </div>
+            </div>
+          </div>
+          <!-- Georgetown Today Return Link -->
+
+                  </div>
+      </div>
+      </header>
+				
+				
+				<main id="content" class="content-wrapper">
+
+					<div class="wrapper ">
+
+						<div class="l--content">
+
+							<div class="content">
+
+								
+	<div class="tc--template-container tc--feed-post">
+
+		<div class="t--template t--feed-post">
+
+			<section class="content-top" aria-label="Content Top">
+							</section>
+			<div class="content-sidebar-main-wrapper" id=''>
+				<div class="content-sidebar-main-wrapper-inner">
+					<div class="content-sidebar-container">
+						<aside class="content-sidebar" aria-label="In-Page Links">
+							  <div class="sidebar">
+    <div class="title-sidebar">
+      <h3>
+        Posts from this week's roundup
+      </h3>
+    </div>
+    <div class="sidebar-sections">
+                                                                                                                  <div>
+              <div class="section-header featured">
+                <h4>
+                  Featured
+                </h4>
+              </div>
+                                                                    <div class="story">
+                          
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/changing-the-sticker-price-to-change-public-perception/"
+          aria-label="Changing the sticker price to change public perception"
+          target="_self">
+          Changing the sticker price to change public perception
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+                    </div>
+                                                                          </div>
+                                                                                                                                                                      <div>
+              <div class="section-header in-the-news">
+                <h4>
+                  In the News
+                </h4>
+              </div>
+                                                                    <div class="story">
+                          
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/measuring-the-class-ceiling-among-first-gen-college-graduates/"
+          aria-label="Measuring the ‘class ceiling’ among first-gen college graduates"
+          target="_self">
+          Measuring the ‘class ceiling’ among first-gen college graduates
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+                    </div>
+                                                                        <div class="story">
+                          
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/a-national-movement-to-support-and-elevate-first-generation-limited-income-college-students/"
+          aria-label="‘A national movement to support and elevate first-generation, limited-income college students’"
+          target="_self">
+          ‘A national movement to support and elevate first-generation, limited-income college students’
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+                    </div>
+                                                                          </div>
+                                                                                                                      <div>
+              <div class="section-header georgetown-news">
+                <h4>
+                  Georgetown News
+                </h4>
+              </div>
+                                                                    <div class="story">
+                          
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/expanded-tuition-support-for-military-connected-graduate-students/"
+          aria-label="Expanded tuition support for military-connected graduate students"
+          target="_self">
+          Expanded tuition support for military-connected graduate students
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+                    </div>
+                                                                          </div>
+                                                                                            <div>
+              <div class="section-header around-the-web">
+                <h4>
+                  Around the Web
+                </h4>
+              </div>
+                                                              <div class="story">
+                        
+    
+
+
+
+<div
+        class="f--field f--cta-title-subtitle "
+                        >
+
+    
+      <h3>
+          <a href="https://www.the74million.org/article/new-data-shows-drop-in-college-readiness-and-participation-among-young-adults/" target="">
+        <span class="cta-title">New data shows drop in college readiness, education participation</span><span class="cta-subtitle"> via The 74</span>
+      </a>
+      </h3>
+
+</div><!-- f--field f--cta-title-subtitle -->
+                  </div>
+                                  <div class="story">
+                        
+    
+
+
+
+<div
+        class="f--field f--cta-title-subtitle "
+                        >
+
+    
+      <h3>
+          <a href="https://www.insidehighered.com/news/student-success/health-wellness/2026/09/17/when-basic-needs-go-credit" target="">
+        <span class="cta-title">When basic needs go on credit</span><span class="cta-subtitle"> via Inside Higher Ed</span>
+      </a>
+      </h3>
+
+</div><!-- f--field f--cta-title-subtitle -->
+                  </div>
+                                  <div class="story">
+                        
+    
+
+
+
+<div
+        class="f--field f--cta-title-subtitle "
+                        >
+
+    
+      <h3>
+          <a href="https://www.insidehighered.com/news/student-success/college-experience/2026/09/15/4-ways-rethink-when-student-support-starts" target="">
+        <span class="cta-title">4 ways to rethink when student support starts</span><span class="cta-subtitle"> via Inside Higher Ed</span>
+      </a>
+      </h3>
+
+</div><!-- f--field f--cta-title-subtitle -->
+                  </div>
+                                  <div class="story">
+                        
+    
+
+
+
+<div
+        class="f--field f--cta-title-subtitle "
+                        >
+
+    
+      <h3>
+          <a href="https://edsource.org/2026/california-student-housing-costs/765946" target="">
+        <span class="cta-title">$400,000 per bed? Why it costs so much to build affordable student housing in California</span><span class="cta-subtitle"> via EdSource</span>
+      </a>
+      </h3>
+
+</div><!-- f--field f--cta-title-subtitle -->
+                  </div>
+                                  <div class="story">
+                        
+    
+
+
+
+<div
+        class="f--field f--cta-title-subtitle "
+                        >
+
+    
+      <h3>
+          <a href="https://www.theeduledger.com/institutions/article/15835829/hbcus-to-receive-174-million-federal-investment-amid-msi-funding-shift" target="">
+        <span class="cta-title">HBCUs to receive $174 million federal investment amid MSI funding shift</span><span class="cta-subtitle"> via The EDU Ledger</span>
+      </a>
+      </h3>
+
+</div><!-- f--field f--cta-title-subtitle -->
+                  </div>
+                                  <div class="story">
+                        
+    
+
+
+
+<div
+        class="f--field f--cta-title-subtitle "
+                        >
+
+    
+      <h3>
+          <a href="https://hechingerreport.org/proof-points-cuny-asap-earnings/" target="">
+        <span class="cta-title">More degrees but not higher earnings: Puzzling data from CUNY’s famed ASAP program</span><span class="cta-subtitle"> via The Hechinger Report</span>
+      </a>
+      </h3>
+
+</div><!-- f--field f--cta-title-subtitle -->
+                  </div>
+                                          </div>
+                            </div>
+  </div>
+						</aside>
+
+						<article class="content-main">
+							  <div class="eyebrow">
+    <div class="content">
+      <h4>
+        May 10, 2024
+      </h4>
+      <div class="tagline">
+        <p>
+          Access &amp; Affordability
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="article-container">
+    <div class="title-container">
+      <div class="entry-title-border"></div>
+      <h1 class="title">
+        Seeking more male students, colleges tailor outreach, programming
+      </h1>
+    </div>
+    <div class="content">
+      
+<p class="wp-block-paragraph">U.S. higher education institutions are working on long-term strategies to appeal to male students, as <a href="https://feed.georgetown.edu/access-affordability/declining-male-enrollment-has-left-many-schools-seeking-gender-parity/">fewer men apply to college</a>, <a href="https://feed.georgetown.edu/access-affordability/colleges-are-taking-action-as-fewer-men-enroll/">enroll</a>, and complete their degrees, according to <a href="https://hechingerreport.org/universities-and-colleges-search-for-ways-to-reverse-the-decline-in-the-ranks-of-male-students/"><em>The Hechinger Report</em></a>. Women continue to <a href="https://feed.georgetown.edu/access-affordability/women-increasingly-outnumber-men-at-u-s-colleges-but-why/">outnumber men</a> nearly two to one among the undergraduate student population (64% vs 36%), according to the Fall 2022 enrollment <a href="https://nces.ed.gov/collegenavigator/?q=university+of+vermont&amp;s=all&amp;id=231174#enrolmt">data</a> from the National Center for Education Statistics. There have been various, effective efforts to boost the number of women attending college, and men need similar outreach, experts say.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">“We’ve sent a really strong and positive message to girls and women. But we haven’t had similar messages for boys and men,” Richard Reeves, president of the American Institute for Boys and Men, tells <em>The Hechinger Report</em>. “We’ve now got to do a little bit of self-correction here and say, look, of course we want girls and women to continue to rise in the education system, but we don’t want to leave the boys and men behind.”</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Gender gap in postsecondary education</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Much of the gender gap in college enrollment and completion is driven by a decline in the percentage of male high school graduates attending four-year colleges and universities, says <a href="https://www.pewresearch.org/short-reads/2023/12/18/fewer-young-men-are-in-college-especially-at-4-year-schools/">Pew Research Center</a>. Men are also completing college at lower rates than women. Nationwide, as of 2017, the six-year college graduation rate for women (65.6%) was over seven percentage points higher than for men (58.4%), according to data from the <a href="https://nscresearchcenter.org/wp-content/uploads/Completions_Report_2023.pdf">National Student Clearinghouse Research Center</a>.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong>Related</strong>: <a href="https://feed.georgetown.edu/access-affordability/at-many-hbcus-men-represent-just-one-third-of-undergraduates/">At many HBCUs, men represent just one third of undergraduates</a> &gt;&nbsp;</p>
+</blockquote>
+
+
+
+<p class="wp-block-paragraph">The gender gap in national high school graduation rates is another source of declining college enrollment among male students. Men are <a href="https://www.brookings.edu/articles/the-unreported-gender-gap-in-high-school-graduation-rates">less likely</a> than women to finish high school in four years, and when they graduate, financial barriers remain a major obstacle to a postsecondary degree.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">However, personal preferences are also motivating male students to opt out of college, says the <a href="https://www.pewresearch.org/short-reads/2021/11/08/whats-behind-the-growing-gap-between-men-and-women-in-college-completion/">Pew Research Center</a>. Men are less likely than women to believe they need a degree to get the job, and more likely than women to say not wanting to attend college was a major reason why they chose not to. Men are also more likely than women to stop out of postsecondary programs to pursue career opportunities.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Strategies to increase male enrollment and retention</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Colleges looking to increase enrollment and completion among male students would be wise to seek input from male students who are successfully completing their degrees, Shaun Harper, founder and executive director of the University of Southern California Race and Equity Center, tells <em>The Hechinger Report</em>. “There’s a lot that we can learn from them that we could scale and adapt to everyone else,” says Harper.</p>
+
+
+
+<p class="wp-block-paragraph">To increase gender parity, some colleges are establishing outdoor academic programs, adding more men’s sports teams, and increasing visible signs of “school spiritedness,” which research says can be particularly appealing to male students. Based on focus group results showing that young men are interested in the outdoors, the University of Montana (UM) is sending emails tailored to prospective male college students that promote hunting class, a forestry program, and recreational opportunities; accepted students receive promotional materials that highlight outdoor activities and campus events, such as hiking, skiing, and country-and-western shows.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">The University of Vermont (UVM), meanwhile, recently held its first <a href="https://www.uvm.edu/news/story/teen-entrepreneur-wins-full-tuition-scholarship-university-vermont-debut-vermont-pitch">Vermont Pitch Challenge</a>, which invited high school entrepreneurs to compete for a full scholarship to UVM by submitting business proposals for potential startup companies to address financial barriers to college. Research had suggested that entrepreneurship programs would appeal to high school boys. Both UVM and UM say their efforts have increased male students’ interest and enrollment in their schools.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">UVM also is reaching out to male students of color by establishing a mentorship program that provides summer internships, networking events, and priority registration, while the University of Southern California Race and Equity Center is working to help community colleges recruit and retain Black and Latine men and other male students of color.</p>
+
+
+
+<p class="wp-block-paragraph">Speaking about the increased focus on male students, Kelly Nolin, UM’s director of undergraduate admissions, tells <em>The Hechinger Report</em>, “Ultimately all students want to know, ‘Am I going to fit in? Do I belong?’”</p>
+
+    </div>
+    <div class="article-foot">
+      <div class="sources-container">
+                  <h5 class="sources-title">
+            Sources
+          </h5>
+          <div class="sources">
+                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://hechingerreport.org/universities-and-colleges-search-for-ways-to-reverse-the-decline-in-the-ranks-of-male-students/"
+          aria-label="The Hechinger Report"
+          target="_blank">
+          The Hechinger Report
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+              ,&nbsp;                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://nces.ed.gov/collegenavigator/?q=university+of+vermont&s=all&id=231174#enrolmt"
+          aria-label="National Center for Education Statistics"
+          target="_blank">
+          National Center for Education Statistics
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+              ,&nbsp;                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://www.pewresearch.org/short-reads/2023/12/18/fewer-young-men-are-in-college-especially-at-4-year-schools/"
+          aria-label="Pew Research Center"
+          target="_blank">
+          Pew Research Center
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+              ,&nbsp;                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://nscresearchcenter.org/wp-content/uploads/Completions_Report_2023.pdf"
+          aria-label="National Student Clearinghouse Research Center"
+          target="_blank">
+          National Student Clearinghouse Research Center
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+              ,&nbsp;                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://www.brookings.edu/articles/the-unreported-gender-gap-in-high-school-graduation-rates"
+          aria-label="Brookings Institution"
+          target="_blank">
+          Brookings Institution
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+              ,&nbsp;                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://www.uvm.edu/news/story/teen-entrepreneur-wins-full-tuition-scholarship-university-vermont-debut-vermont-pitch"
+          aria-label="University of Vermont"
+          target="_blank">
+          University of Vermont
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+              ,&nbsp;                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://www.ecmcfoundation.org/what-we-do/initiatives/men-of-color-initiative"
+          aria-label="ECMC Foundation"
+          target="_blank">
+          ECMC Foundation
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+                                    </div>
+              </div>
+      <div class="topics-container">
+                  <h5 class="topics-title">
+            Topics
+          </h5>
+          <div class="topics">
+                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/topics/admissions/"
+          aria-label="Admissions"
+          target="_self">
+          Admissions
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+              ,&nbsp;                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/topics/diversity/"
+          aria-label="Diversity"
+          target="_self">
+          Diversity
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+              ,&nbsp;                              
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/topics/enrollment/"
+          aria-label="Enrollment"
+          target="_self">
+          Enrollment
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+                                    </div>
+              </div>
+      <div class="socials-container">
+        <h5>
+          Share
+        </h5>
+          
+    
+
+<div
+    class="cc--component-container cc--social-links  "
+
+  
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--social-links"
+        >
+
+          
+  <ul>
+          <li>
+            
+    
+
+
+
+<div
+        class="f--field f--social-link "
+                        >
+
+    
+    
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/" target="_blank" class="facebook" ><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><title>Facebook</title><path fill='#041E42' d='M23.5,5.5H6.6C6,5.5,5.5,6,5.5,6.6v16.9c0,0.6,0.5,1,1.1,1h9.1v-7.3h-2.5v-2.9h2.5v-2.1c0-2.5,1.5-3.8,3.7-3.8c0.7,0,1.5,0,2.2,0.1v2.6h-1.5c-1.2,0-1.4,0.6-1.4,1.4v1.8h2.8l-0.4,2.9h-2.5v7.3h4.9c0.6,0,1-0.5,1-1V6.6C24.5,6,24,5.5,23.5,5.5z'/></svg></a>
+
+
+</div><!-- f--field f--social-link -->
+      </li>
+          <li>
+            
+    
+
+
+
+<div
+        class="f--field f--social-link "
+                        >
+
+    
+    
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://feed.georgetown.edu/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/" target="_blank" class="linkedin" ><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><title>LinkedIn</title><path fill='#041E42' d='M24.5,20.9c0,2-1.6,3.6-3.6,3.6H9.1c-2,0-3.6-1.6-3.6-3.6V9.1c0-2,1.6-3.6,3.6-3.6h11.8c2,0,3.6,1.6,3.6,3.6V20.9z M9.9,8.7c-1,0-1.6,0.6-1.6,1.5c-0.1,0.9,0.5,1.5,1.5,1.5l0,0c1,0,1.6-0.6,1.6-1.5C11.4,9.3,10.8,8.7,9.9,8.7z M11.3,21.4v-8.6H8.5v8.6H11.3z M21.5,21.4v-4.9c0-2.6-1.4-3.8-3.3-3.8c-1.5,0-2.1,0.9-2.5,1.5l0,0v-1.2h-2.8c0,0,0,0.9,0,8.6h2.8v-4.9c0-0.2,0-0.5,0.1-0.7c0.1-0.5,0.6-1,1.5-1c1,0,1.5,0.7,1.5,2v4.6H21.5z'/></svg></a>
+
+
+</div><!-- f--field f--social-link -->
+      </li>
+      </ul>
+
+    </div><!-- c--component c--social-links -->
+
+</div><!-- cc--component-container cc--social-links -->
+      </div>
+    </div>
+    <div class="mobile-only">
+        
+    
+
+<section
+    class="cc--component-container cc--feed-stories  "
+
+  
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--feed-stories"
+        >
+
+              
+    
+
+
+
+<div
+        class="f--field f--section-title "
+                        >
+
+    
+    
+            <h2 >Next Up</h2>
+    
+</div><!-- f--field f--section-title -->
+  <div class="stories">
+          <div class="story">
+        <div class="rays"></div>
+            
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/changing-the-sticker-price-to-change-public-perception/"
+          aria-label="Changing the sticker price to change public perception"
+          target="_self">
+          Changing the sticker price to change public perception
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+      </div>
+          <div class="story">
+        <div class="rays"></div>
+            
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/measuring-the-class-ceiling-among-first-gen-college-graduates/"
+          aria-label="Measuring the ‘class ceiling’ among first-gen college graduates"
+          target="_self">
+          Measuring the ‘class ceiling’ among first-gen college graduates
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+      </div>
+          <div class="story">
+        <div class="rays"></div>
+            
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/a-national-movement-to-support-and-elevate-first-generation-limited-income-college-students/"
+          aria-label="‘A national movement to support and elevate first-generation, limited-income college students’"
+          target="_self">
+          ‘A national movement to support and elevate first-generation, limited-income college students’
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+      </div>
+      </div>
+
+    </div><!-- c--component c--feed-stories -->
+
+</section><!-- cc--component-container cc--feed-stories -->
+    </div>
+  </div>
+						</article>
+					</div>
+				</div>
+			</div>
+
+							<section class="content-bottom" aria-label="Content Bottom">
+					    
+    
+
+<section
+    class="cc--component-container cc--feed-stories  "
+
+  
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--feed-stories"
+        >
+
+              
+    
+
+
+
+<div
+        class="f--field f--section-title "
+                        >
+
+    
+    
+            <h2 >Next Up</h2>
+    
+</div><!-- f--field f--section-title -->
+  <div class="stories">
+          <div class="story">
+        <div class="rays"></div>
+            
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/changing-the-sticker-price-to-change-public-perception/"
+          aria-label="Changing the sticker price to change public perception"
+          target="_self">
+          Changing the sticker price to change public perception
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+      </div>
+          <div class="story">
+        <div class="rays"></div>
+            
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/measuring-the-class-ceiling-among-first-gen-college-graduates/"
+          aria-label="Measuring the ‘class ceiling’ among first-gen college graduates"
+          target="_self">
+          Measuring the ‘class ceiling’ among first-gen college graduates
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+      </div>
+          <div class="story">
+        <div class="rays"></div>
+            
+    
+
+
+
+<div
+        class="f--field f--cta-title "
+                        >
+
+    
+          <h3>
+              <a href="https://feed.georgetown.edu/access-affordability/a-national-movement-to-support-and-elevate-first-generation-limited-income-college-students/"
+          aria-label="‘A national movement to support and elevate first-generation, limited-income college students’"
+          target="_self">
+          ‘A national movement to support and elevate first-generation, limited-income college students’
+        </a>
+          </h3>
+  
+</div><!-- f--field f--cta-title -->
+      </div>
+      </div>
+
+    </div><!-- c--component c--feed-stories -->
+
+</section><!-- cc--component-container cc--feed-stories -->
+    
+    
+
+<section
+   id="feed-stories-promo"  class="cc--component-container cc--oa-email-form  "
+
+   aria-label="section of featured story links"
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--oa-email-form"
+        >
+
+            <div class="gravity-container  ">
+    
+                <div class='gf_browser_unknown gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div>
+                        <div class='gform_heading'>
+                            <h3 class="gform_title">Sign up for our biweekly email</h3>
+                            <p class='gform_description'>Sign up for our biweekly email to get the latest and most interesting news on access and affordability in higher education delivered directly to your inbox.</p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/access-affordability/seeking-more-male-students-colleges-tailor-outreach-programming/#gf_1' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_page_1_1' class='gform_page ' data-js='page-field-id-0' >
+					<div class='gform_page_fields'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><li id="field_1_5" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_5'>Instagram</label><div class='ginput_container'><input name='input_5' id='input_1_5' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_1_5'>This field is for validation purposes and should be left unchanged.</div></li><li id="field_1_1" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_1'>Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='email' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></li></ul>
+                    </div>
+                    <div class='gform-page-footer gform_page_footer top_label'>
+                         <input type='button' id='gform_next_button_1_3' class='gform_next_button gform-theme-button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='next' value='Continue'  /> 
+                    </div>
+                </div>
+                <div id='gform_page_1_2' class='gform_page' data-js='page-field-id-3' style='display:none;'>
+                    <div class='gform_page_fields'>
+                        <ul id='gform_fields_1_2' class='gform_fields top_label form_sublabel_below description_below validation_below'><li id="field_1_4" class="gfield gfield--type-name gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label gfield_label_before_complex' >Name<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_1_4'>
+                            
+                            <span id='input_1_4_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_4.3' id='input_1_4_3' value=''   aria-required='true'     />
+                                                    <label for='input_1_4_3' class='gform-field-label gform-field-label--type-sub '>First</label>
+                                                </span>
+                            
+                            <span id='input_1_4_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_4.6' id='input_1_4_6' value=''   aria-required='true'     />
+                                                    <label for='input_1_4_6' class='gform-field-label gform-field-label--type-sub '>Last</label>
+                                                </span>
+                            
+                        </div></li></ul></div>
+        <div class='gform-page-footer gform_page_footer top_label'><input type='submit' id='gform_previous_button_1' class='gform_previous_button gform-theme-button gform-theme-button--secondary button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='previous' value='Previous'  /> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Submit'  /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=1&amp;description=1&amp;tabindex=0&amp;theme=legacy&amp;styles=[]&amp;hash=65b213eb1ddcbb9dc089406ae98c4fd2' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='legacy' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjhhNzk4MjY1NmFiNTU3M2JmYmNjZTQzY2IwMmY4ZGEwIl0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='2' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+             </div></div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+
+
+  </div>
+
+    </div><!-- c--component c--oa-email-form -->
+
+</section><!-- cc--component-container cc--oa-email-form -->
+				</section>
+			
+		</div><!-- t--template t--feed-post -->
+
+	</div><!-- tc--template-container tc--feed-post -->
+
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</main>
+
+				
+					
+        
+          
+          
+  
+
+
+  
+
+
+      
+
+<div class="r--region r--footer">
+      
+    
+
+<footer
+   id="oa-simple-footer"  class="cc--component-container cc--oa-simple-footer bg-color-light-gray font-color-light-gray row-logo-bg-georgetown-blue "
+
+  
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--oa-simple-footer"
+        >
+
+          <div class="footer-container">
+    <div class="row row-logo">
+      <div class="oa-event-logo">
+              </div>
+      <div class="oa-logo">
+            
+    
+
+
+
+<div
+        class="f--field f--oa-logo bg-color-light-gray font-color-light-gray row-logo-bg-georgetown-blue "
+                        >
+
+    
+          <span class="oa-logo-svg"><img src="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/07/georgetown-university-advancement-footer-desktop.svg" alt="" /></span>
+  
+      <span class="oa-mobile-logo-svg"><img src="https://feed.georgetown.edu/wp-content/uploads/sites/38/2024/07/gu-advancement-footer-mobile.svg" alt="" /></span>
+  
+</div><!-- f--field f--oa-logo -->
+      </div>
+    </div>
+
+    <div class="row row-menu">
+        
+    
+
+<div
+    class="cc--component-container cc--oa-footer-social-menu bg-color-light-gray font-color-light-gray row-logo-bg-georgetown-blue "
+
+  
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--oa-footer-social-menu"
+        >
+
+              <ul aria-label="Georgetown University Social Media Links">
+              <li class="menu-item">
+          <a href="https://www.facebook.com/georgetownalumni" aria-label="Georgetown Alumni Facebook page"><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><title>Facebook</title><path fill='#041E42' d='M23.5,5.5H6.6C6,5.5,5.5,6,5.5,6.6v16.9c0,0.6,0.5,1,1.1,1h9.1v-7.3h-2.5v-2.9h2.5v-2.1c0-2.5,1.5-3.8,3.7-3.8c0.7,0,1.5,0,2.2,0.1v2.6h-1.5c-1.2,0-1.4,0.6-1.4,1.4v1.8h2.8l-0.4,2.9h-2.5v7.3h4.9c0.6,0,1-0.5,1-1V6.6C24.5,6,24,5.5,23.5,5.5z'/></svg></a>
+        </li>
+              <li class="menu-item">
+          <a href="https://twitter.com/GUAlumni" aria-label="Georgetown Alumni on Twitter"><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='-85 -40 668 600' enable-background='new 0 0 30 30' xml:space='preserve'><title>X</title><path fill='#041E42' d='M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z'></path></svg></a>
+        </li>
+              <li class="menu-item">
+          <a href="https://www.instagram.com/georgetownalumni/?hl=en" aria-label="Georgetown Alumni on Instagram"><svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><title>Instagram</title><path fill='#041E42' d='M15,5.5c-2.6,0-2.9,0-3.9,0.1c-1,0-1.7,0.2-2.3,0.4C8.2,6.2,7.6,6.6,7.1,7.1S6.2,8.2,6,8.8c-0.2,0.6-0.4,1.3-0.4,2.3c-0.1,1-0.1,1.3-0.1,3.9s0,2.9,0.1,3.9c0,1,0.2,1.7,0.4,2.3c0.2,0.6,0.6,1.2,1.1,1.7s1.1,0.9,1.7,1.1c0.6,0.2,1.3,0.4,2.3,0.4s1.3,0.1,3.9,0.1s2.9,0,3.9-0.1c1,0,1.7-0.2,2.3-0.4c0.6-0.2,1.2-0.6,1.7-1.1s0.9-1.1,1.1-1.7c0.2-0.6,0.4-1.3,0.4-2.3s0.1-1.3,0.1-3.9s0-2.9-0.1-3.9c0-1-0.2-1.7-0.4-2.3c-0.2-0.6-0.6-1.2-1.1-1.7S21.8,6.2,21.2,6c-0.6-0.2-1.3-0.4-2.3-0.4C17.9,5.5,17.6,5.5,15,5.5 M15,7.2c2.5,0,2.8,0,3.8,0.1c0.9,0,1.4,0.2,1.8,0.3C21,7.8,21.4,8,21.7,8.3s0.5,0.7,0.7,1.1c0.1,0.3,0.3,0.8,0.3,1.8s0.1,1.3,0.1,3.9c0,2.5,0,2.8-0.1,3.8c0,0.9-0.2,1.4-0.3,1.8c-0.2,0.4-0.4,0.8-0.7,1.1c-0.3,0.3-0.6,0.5-1.1,0.7c-0.3,0.1-0.8,0.3-1.8,0.3s-1.3,0.1-3.8,0.1s-2.8,0-3.8-0.1c-0.9,0-1.4-0.2-1.8-0.3c-0.4-0.2-0.8-0.4-1.1-0.7c-0.3-0.3-0.5-0.7-0.7-1.1c-0.1-0.3-0.3-0.8-0.3-1.8s-0.1-1.3-0.1-3.8s0-2.8,0.1-3.9c0-0.9,0.2-1.4,0.3-1.8C7.8,9,8,8.6,8.3,8.3C8.6,8,8.9,7.8,9.4,7.6c0.3-0.1,0.8-0.3,1.8-0.3C12.2,7.2,12.5,7.2,15,7.2M15,18.2c-1.7,0-3.2-1.4-3.2-3.2s1.4-3.2,3.2-3.2s3.2,1.4,3.2,3.2S16.7,18.2,15,18.2 M15,10.1c-2.7,0-4.9,2.2-4.9,4.9s2.2,4.9,4.9,4.9s4.9-2.2,4.9-4.9S17.7,10.1,15,10.1 M21.2,9.9c0,0.6-0.5,1.1-1.1,1.1c-0.6,0-1.1-0.5-1.1-1.1c0-0.6,0.5-1.1,1.1-1.1C20.7,8.8,21.2,9.3,21.2,9.9'/></svg></a>
+        </li>
+          </ul>
+  
+    </div><!-- c--component c--oa-footer-social-menu -->
+
+</div><!-- cc--component-container cc--oa-footer-social-menu -->
+
+        
+    
+
+<div
+    class="cc--component-container cc--oa-footer-terms-menu bg-color-light-gray font-color-light-gray row-logo-bg-georgetown-blue "
+
+  
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--oa-footer-terms-menu"
+        >
+
+          <ul>
+          <li class="menu-item"><a href="https://accessibility.georgetown.edu/"> Accessibility</a></li>
+          <li class="menu-item"><a href="http://www.georgetown.edu/copyright-information"> Copyright</a></li>
+          <li class="menu-item"><a href="http://www.georgetown.edu/privacy-policy"> Privacy</a></li>
+      </ul>
+
+    </div><!-- c--component c--oa-footer-terms-menu -->
+
+</div><!-- cc--component-container cc--oa-footer-terms-menu -->
+
+      <div class="cc--footer-contact">
+          
+    
+
+<div
+    class="cc--component-container cc--oa-footer-address bg-color-light-gray font-color-light-gray row-logo-bg-georgetown-blue "
+
+  
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--oa-footer-address"
+        >
+
+          
+    </div><!-- c--component c--oa-footer-address -->
+
+</div><!-- cc--component-container cc--oa-footer-address -->
+      </div>
+    </div>
+  </div>
+
+    </div><!-- c--component c--oa-simple-footer -->
+
+</footer><!-- cc--component-container cc--oa-simple-footer -->
+</div>
+
+          <div id="search-form" role="dialog" aria-expanded="false">
+              
+    
+
+<div
+    class="cc--component-container cc--oa-search-form  "
+
+  
+  
+  
+  
+  
+  
+  
+  >
+
+    <div class="c--component c--oa-search-form"
+        >
+
+          <div class="search-form-inner">
+    <form role="search" method="GET" action="https://feed.georgetown.edu/search/">
+      <label for="search">Search</label>
+      <div class="search-form-wrapper">
+          
+  
+
+<div class="fi--form-item fi--q ">
+  
+        <div class="search-input-wrapper">
+      <input
+        type="search"
+        name="q"
+        id="search"
+        autocomplete="off"
+        placeholder="Search the site"
+                    >
+    </div>
+
+</div>
+          
+  
+
+<div class="fi--form-item fi--form-item ">
+  <input type="submit" value="Search" class="button" name="button">
+</div>
+      </div>
+    </form>
+
+    <nav aria-label="Close Search button">
+      <button class="close">Close the Search Dialog</button>
+    </nav>
+  </div>
+
+    </div><!-- c--component c--oa-search-form -->
+
+</div><!-- cc--component-container cc--oa-search-form -->
+          </div>
+
+          <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/sites/38/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/georgetown/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script id="wp-dom-ready-js" src="https://feed.georgetown.edu/wp-includes/js/dist/dom-ready.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-hooks-js" src="https://feed.georgetown.edu/wp-includes/js/dist/hooks.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://feed.georgetown.edu/wp-includes/js/dist/i18n.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://feed.georgetown.edu/wp-includes/js/dist/a11y.js?ver=af934e5259bc51b8718e"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://feed.georgetown.edu/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=21e5a4db1670166692ac5745329bfc80"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"aa95059de9aaad627729f03f542d3a80"},"ajax":{"ajaxurl":"https://feed.georgetown.edu/wp-admin/admin-ajax.php","ajax_submission_nonce":"b9f763f582","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https://feed.georgetown.edu/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"55d3a99783"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://feed.georgetown.edu/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=8fa5e6390c795318e567cd2b080e169b"></script>
+<script id="gu-script-jquery-once-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/vendor/jquery.once.min.js?ver=1.24.53"></script>
+<script id="gu-script-what-input-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/vendor/what-input.min.js?ver=1.24.53"></script>
+<script id="gu-script-swiper-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/vendor/swiper.min.js?ver=1.24.53"></script>
+<script id="gu-script-inert-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/vendor/inert.min.js?ver=1.24.53"></script>
+<script id="gu-script-ally-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/vendor/ally.min.js?ver=1.24.53"></script>
+<script id="gu-script-sticky-sidebar-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/vendor/jquery.sticky-sidebar.min.js?ver=1.24.53"></script>
+<script id="gu-script-smooth-scroll-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/vendor/smooth-scroll.polyfills.min.js?ver=1.24.53"></script>
+<script id="gu-script-gumshoe-js-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/gumshoe.min.js?ver=1.24.53"></script>
+<script id="gu-script-dp-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/DP.js?ver=1.24.53"></script>
+<script id="gu-script-mobile-menu-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/mobileMenu.js?ver=1.24.53"></script>
+<script id="gu-script-main-menu-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/mainMenu.js?ver=1.24.53"></script>
+<script id="gu-script-search-form-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/searchForm.js?ver=1.24.53"></script>
+<script id="gu-script-back-to-top-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/backToTop.js?ver=1.24.53"></script>
+<script id="gu-script-sticky-sidebar-implementation-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/stickySidebar.js?ver=1.24.53"></script>
+<script id="gu-script-program-mobile-menu-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/programMobileMenu.js?ver=1.24.53"></script>
+<script id="gu-script-slim-nav-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/slimNav.js?ver=1.24.53"></script>
+<script id="gu-script-smooth-scroll-anchor-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/smoothScroll.js?ver=1.24.53"></script>
+<script id="gu-script-jquery-unveil-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/jquery.unveil.js?ver=1.24.53"></script>
+<script id="gu-script-alert-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/js/alert.js?ver=1.24.53"></script>
+<script id="gu-script-oa-auto-responsive-nav-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/oaAutoResponsiveNavigation.js?ver=1.24.53"></script>
+<script id="gu-script-gf-filter-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/gravityFormFilter.js?ver=1.24.53"></script>
+<script id="gu-script-img-lazy-load-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/lazyLoad.js?ver=1.24.53"></script>
+<script id="addtoany-js" src="https://static.addtoany.com/menu/page.js?ver=7.0.2"></script>
+<script id="gu-script-oa-return-link-js" src="https://feed.georgetown.edu/wp-content/themes/georgetown/pattern_lab/source/js/oaReturnLink.js?ver=7.0.2"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"wpemoji":"https://feed.georgetown.edu/wp-includes/js/wp-emoji.js?ver=7.0.2","twemoji":"https://feed.georgetown.edu/wp-includes/js/twemoji.js?ver=7.0.2"}}
+</script>
+<script type="module">
+/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
+
+/* eslint-env es6 */
+
+// Note: This is loaded as a script module, so there is no need for an IIFE to prevent pollution of the global scope.
+
+/**
+ * Emoji Settings as exported in PHP via _print_emoji_detection_script().
+ * @typedef WPEmojiSettings
+ * @type {object}
+ * @property {?object} source
+ * @property {?string} source.concatemoji
+ * @property {?string} source.twemoji
+ * @property {?string} source.wpemoji
+ */
+
+const settings = /** @type {WPEmojiSettings} */ (
+	JSON.parse( document.getElementById( 'wp-emoji-settings' ).textContent )
+);
+
+// For compatibility with other scripts that read from this global, in particular wp-includes/js/wp-emoji.js (source file: js/_enqueues/wp/emoji.js).
+window._wpemojiSettings = settings;
+
+/**
+ * Support tests.
+ * @typedef SupportTests
+ * @type {object}
+ * @property {?boolean} flag
+ * @property {?boolean} emoji
+ */
+
+const sessionStorageKey = 'wpEmojiSettingsSupports';
+const tests = [ 'flag', 'emoji' ];
+
+/**
+ * Checks whether the browser supports offloading to a Worker.
+ *
+ * @since 6.3.0
+ *
+ * @private
+ *
+ * @returns {boolean}
+ */
+function supportsWorkerOffloading() {
+	return (
+		typeof Worker !== 'undefined' &&
+		typeof OffscreenCanvas !== 'undefined' &&
+		typeof URL !== 'undefined' &&
+		URL.createObjectURL &&
+		typeof Blob !== 'undefined'
+	);
+}
+
+/**
+ * @typedef SessionSupportTests
+ * @type {object}
+ * @property {number} timestamp
+ * @property {SupportTests} supportTests
+ */
+
+/**
+ * Get support tests from session.
+ *
+ * @since 6.3.0
+ *
+ * @private
+ *
+ * @returns {?SupportTests} Support tests, or null if not set or older than 1 week.
+ */
+function getSessionSupportTests() {
+	try {
+		/** @type {SessionSupportTests} */
+		const item = JSON.parse(
+			sessionStorage.getItem( sessionStorageKey )
+		);
+		if (
+			typeof item === 'object' &&
+			typeof item.timestamp === 'number' &&
+			new Date().valueOf() < item.timestamp + 604800 && // Note: Number is a week in seconds.
+			typeof item.supportTests === 'object'
+		) {
+			return item.supportTests;
+		}
+	} catch ( e ) {}
+	return null;
+}
+
+/**
+ * Persist the supports in session storage.
+ *
+ * @since 6.3.0
+ *
+ * @private
+ *
+ * @param {SupportTests} supportTests Support tests.
+ */
+function setSessionSupportTests( supportTests ) {
+	try {
+		/** @type {SessionSupportTests} */
+		const item = {
+			supportTests: supportTests,
+			timestamp: new Date().valueOf()
+		};
+
+		sessionStorage.setItem(
+			sessionStorageKey,
+			JSON.stringify( item )
+		);
+	} catch ( e ) {}
+}
+
+/**
+ * Checks if two sets of Emoji characters render the same visually.
+ *
+ * This is used to determine if the browser is rendering an emoji with multiple data points
+ * correctly. set1 is the emoji in the correct form, using a zero-width joiner. set2 is the emoji
+ * in the incorrect form, using a zero-width space. If the two sets render the same, then the browser
+ * does not support the emoji correctly.
+ *
+ * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+ * scope. Everything must be passed by parameters.
+ *
+ * @since 4.9.0
+ *
+ * @private
+ *
+ * @param {CanvasRenderingContext2D} context 2D Context.
+ * @param {string} set1 Set of Emoji to test.
+ * @param {string} set2 Set of Emoji to test.
+ *
+ * @return {boolean} True if the two sets render the same.
+ */
+function emojiSetsRenderIdentically( context, set1, set2 ) {
+	// Cleanup from previous test.
+	context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+	context.fillText( set1, 0, 0 );
+	const rendered1 = new Uint32Array(
+		context.getImageData(
+			0,
+			0,
+			context.canvas.width,
+			context.canvas.height
+		).data
+	);
+
+	// Cleanup from previous test.
+	context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+	context.fillText( set2, 0, 0 );
+	const rendered2 = new Uint32Array(
+		context.getImageData(
+			0,
+			0,
+			context.canvas.width,
+			context.canvas.height
+		).data
+	);
+
+	return rendered1.every( ( rendered2Data, index ) => {
+		return rendered2Data === rendered2[ index ];
+	} );
+}
+
+/**
+ * Checks if the center point of a single emoji is empty.
+ *
+ * This is used to determine if the browser is rendering an emoji with a single data point
+ * correctly. The center point of an incorrectly rendered emoji will be empty. A correctly
+ * rendered emoji will have a non-zero value at the center point.
+ *
+ * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+ * scope. Everything must be passed by parameters.
+ *
+ * @since 6.8.2
+ *
+ * @private
+ *
+ * @param {CanvasRenderingContext2D} context 2D Context.
+ * @param {string} emoji Emoji to test.
+ *
+ * @return {boolean} True if the center point is empty.
+ */
+function emojiRendersEmptyCenterPoint( context, emoji ) {
+	// Cleanup from previous test.
+	context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+	context.fillText( emoji, 0, 0 );
+
+	// Test if the center point (16, 16) is empty (0,0,0,0).
+	const centerPoint = context.getImageData(16, 16, 1, 1);
+	for ( let i = 0; i < centerPoint.data.length; i++ ) {
+		if ( centerPoint.data[ i ] !== 0 ) {
+			// Stop checking the moment it's known not to be empty.
+			return false;
+		}
+	}
+
+	return true;
+}
+
+/**
+ * Determines if the browser properly renders Emoji that Twemoji can supplement.
+ *
+ * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+ * scope. Everything must be passed by parameters.
+ *
+ * @since 4.2.0
+ *
+ * @private
+ *
+ * @param {CanvasRenderingContext2D} context 2D Context.
+ * @param {string} type Whether to test for support of "flag" or "emoji".
+ * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+ * @param {Function} emojiRendersEmptyCenterPoint Reference to emojiRendersEmptyCenterPoint function, needed due to minification.
+ *
+ * @return {boolean} True if the browser can render emoji, false if it cannot.
+ */
+function browserSupportsEmoji( context, type, emojiSetsRenderIdentically, emojiRendersEmptyCenterPoint ) {
+	let isIdentical;
+
+	switch ( type ) {
+		case 'flag':
+			/*
+			 * Test for Transgender flag compatibility. Added in Unicode 13.
+			 *
+			 * To test for support, we try to render it, and compare the rendering to how it would look if
+			 * the browser doesn't render it correctly (white flag emoji + transgender symbol).
+			 */
+			isIdentical = emojiSetsRenderIdentically(
+				context,
+				'\uD83C\uDFF3\uFE0F\u200D\u26A7\uFE0F', // as a zero-width joiner sequence
+				'\uD83C\uDFF3\uFE0F\u200B\u26A7\uFE0F' // separated by a zero-width space
+			);
+
+			if ( isIdentical ) {
+				return false;
+			}
+
+			/*
+			 * Test for Sark flag compatibility. This is the least supported of the letter locale flags,
+			 * so gives us an easy test for full support.
+			 *
+			 * To test for support, we try to render it, and compare the rendering to how it would look if
+			 * the browser doesn't render it correctly ([C] + [Q]).
+			 */
+			isIdentical = emojiSetsRenderIdentically(
+				context,
+				'\uD83C\uDDE8\uD83C\uDDF6', // as the sequence of two code points
+				'\uD83C\uDDE8\u200B\uD83C\uDDF6' // as the two code points separated by a zero-width space
+			);
+
+			if ( isIdentical ) {
+				return false;
+			}
+
+			/*
+			 * Test for English flag compatibility. England is a country in the United Kingdom, it
+			 * does not have a two letter locale code but rather a five letter sub-division code.
+			 *
+			 * To test for support, we try to render it, and compare the rendering to how it would look if
+			 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+			 */
+			isIdentical = emojiSetsRenderIdentically(
+				context,
+				// as the flag sequence
+				'\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F',
+				// with each code point separated by a zero-width space
+				'\uD83C\uDFF4\u200B\uDB40\uDC67\u200B\uDB40\uDC62\u200B\uDB40\uDC65\u200B\uDB40\uDC6E\u200B\uDB40\uDC67\u200B\uDB40\uDC7F'
+			);
+
+			return ! isIdentical;
+		case 'emoji':
+			/*
+			 * Is there a large, hairy, humanoid mythical creature living in the browser?
+			 *
+			 * To test for Emoji 17.0 support, try to render a new emoji: Hairy Creature.
+			 *
+			 * The hairy creature emoji is a single code point emoji. Testing for browser
+			 * support required testing the center point of the emoji to see if it is empty.
+			 *
+			 * 0xD83E 0x1FAC8 (\uD83E\u1FAC8) == 🫈 Hairy creature.
+			 *
+			 * When updating this test, please ensure that the emoji is either a single code point
+			 * or switch to using the emojiSetsRenderIdentically function and testing with a zero-width
+			 * joiner vs a zero-width space.
+			 */
+			const notSupported = emojiRendersEmptyCenterPoint( context, '\uD83E\u1FAC8' );
+			return ! notSupported;
+	}
+
+	return false;
+}
+
+/**
+ * Checks emoji support tests.
+ *
+ * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+ * scope. Everything must be passed by parameters.
+ *
+ * @since 6.3.0
+ *
+ * @private
+ *
+ * @param {string[]} tests Tests.
+ * @param {Function} browserSupportsEmoji Reference to browserSupportsEmoji function, needed due to minification.
+ * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+ * @param {Function} emojiRendersEmptyCenterPoint Reference to emojiRendersEmptyCenterPoint function, needed due to minification.
+ *
+ * @return {SupportTests} Support tests.
+ */
+function testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically, emojiRendersEmptyCenterPoint ) {
+	let canvas;
+	if (
+		typeof WorkerGlobalScope !== 'undefined' &&
+		self instanceof WorkerGlobalScope
+	) {
+		canvas = new OffscreenCanvas( 300, 150 ); // Dimensions are default for HTMLCanvasElement.
+	} else {
+		canvas = document.createElement( 'canvas' );
+	}
+
+	const context = canvas.getContext( '2d', { willReadFrequently: true } );
+
+	/*
+	 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+	 * it doesn't work when the font is bolder than 500 weight. So, we
+	 * check for bold rendering support to avoid invisible emoji in Chrome.
+	 */
+	context.textBaseline = 'top';
+	context.font = '600 32px Arial';
+
+	const supports = {};
+	tests.forEach( ( test ) => {
+		supports[ test ] = browserSupportsEmoji( context, test, emojiSetsRenderIdentically, emojiRendersEmptyCenterPoint );
+	} );
+	return supports;
+}
+
+/**
+ * Adds a script to the head of the document.
+ *
+ * @ignore
+ *
+ * @since 4.2.0
+ *
+ * @param {string} src The url where the script is located.
+ *
+ * @return {void}
+ */
+function addScript( src ) {
+	const script = document.createElement( 'script' );
+	script.src = src;
+	script.defer = true;
+	document.head.appendChild( script );
+}
+
+settings.supports = {
+	everything: true,
+	everythingExceptFlag: true
+};
+
+// Obtain the emoji support from the browser, asynchronously when possible.
+new Promise( ( resolve ) => {
+	let supportTests = getSessionSupportTests();
+	if ( supportTests ) {
+		resolve( supportTests );
+		return;
+	}
+
+	if ( supportsWorkerOffloading() ) {
+		try {
+			// Note that the functions are being passed as arguments due to minification.
+			const workerScript =
+				'postMessage(' +
+				testEmojiSupports.toString() +
+				'(' +
+				[
+					JSON.stringify( tests ),
+					browserSupportsEmoji.toString(),
+					emojiSetsRenderIdentically.toString(),
+					emojiRendersEmptyCenterPoint.toString()
+				].join( ',' ) +
+				'));';
+			const blob = new Blob( [ workerScript ], {
+				type: 'text/javascript'
+			} );
+			const worker = new Worker( URL.createObjectURL( blob ), { name: 'wpTestEmojiSupports' } );
+			worker.onmessage = ( event ) => {
+				supportTests = event.data;
+				setSessionSupportTests( supportTests );
+				worker.terminate();
+				resolve( supportTests );
+			};
+			return;
+		} catch ( e ) {}
+	}
+
+	supportTests = testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically, emojiRendersEmptyCenterPoint );
+	setSessionSupportTests( supportTests );
+	resolve( supportTests );
+} )
+	// Once the browser emoji support has been obtained from the session, finalize the settings.
+	.then( ( supportTests ) => {
+		/*
+		 * Tests the browser support for flag emojis and other emojis, and adjusts the
+		 * support settings accordingly.
+		 */
+		for ( const test in supportTests ) {
+			settings.supports[ test ] = supportTests[ test ];
+
+			settings.supports.everything =
+				settings.supports.everything && settings.supports[ test ];
+
+			if ( 'flag' !== test ) {
+				settings.supports.everythingExceptFlag =
+					settings.supports.everythingExceptFlag &&
+					settings.supports[ test ];
+			}
+		}
+
+		settings.supports.everythingExceptFlag =
+			settings.supports.everythingExceptFlag &&
+			! settings.supports.flag;
+
+		// When the browser can not render everything we need to load a polyfill.
+		if ( ! settings.supports.everything ) {
+			const src = settings.source || {};
+
+			if ( src.concatemoji ) {
+				addScript( src.concatemoji );
+			} else if ( src.wpemoji && src.twemoji ) {
+				addScript( src.twemoji );
+				addScript( src.wpemoji );
+			}
+		}
+	} );
+//# sourceURL=https://feed.georgetown.edu/wp-includes/js/wp-emoji-loader.js
+</script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+
+
+        
+			</div>
+
+		</div>
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"d1f427facd","applicationID":"477534951","transactionName":"bwNaZhNZXEUCWhZaXFZJeVEVUV1YTEoLXVRUAw==","queueTime":0,"applicationTime":735,"atts":"Q0RZEFtDT0s=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+</html>

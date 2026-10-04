@@ -1,0 +1,28 @@
+{
+  "source_id": "f738451ab7946b42ebc6",
+  "normalized_url": "https://rudermanfoundation.org/white_papers/media-coverage-of-law-enforcement-use-of-force-and-disability",
+  "fetch_timestamp_utc": "2026-10-04T02:52:03.193667+00:00",
+  "registrable_domain": "rudermanfoundation.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://rudermanfoundation.org/white_papers/media-coverage-of-law-enforcement-use-of-force-and-disability/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 92774,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f738451ab7946b42ebc6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f738451ab7946b42ebc6.txt",
+  "text_chars": 5209,
+  "text_words": 803,
+  "extraction_status": "success",
+  "page_title": "Media coverage of law enforcement use of force and disability",
+  "page_author": null,
+  "page_date": "2017-08-23",
+  "site_name": "Ruderman Family Foundation",
+  "canonical_url": "https://rudermanfoundation.org/white_papers/media-coverage-of-law-enforcement-use-of-force-and-disability/"
+}

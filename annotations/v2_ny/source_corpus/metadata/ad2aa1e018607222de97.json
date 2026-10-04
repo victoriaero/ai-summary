@@ -1,0 +1,28 @@
+{
+  "source_id": "ad2aa1e018607222de97",
+  "normalized_url": "https://repositori.upf.edu/server/api/core/bitstreams/a9956810-a5fa-43c6-8ed3-ba32a1d77eb3/content",
+  "fetch_timestamp_utc": "2026-10-04T02:46:34.986251+00:00",
+  "registrable_domain": "upf.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://repositori.upf.edu/server/api/core/bitstreams/a9956810-a5fa-43c6-8ed3-ba32a1d77eb3/content",
+  "headers": {
+    "Content-Type": "application/pdf;charset=UTF-8"
+  },
+  "content_type": "application/pdf;charset=UTF-8",
+  "downloaded_bytes": 646435,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/ad2aa1e018607222de97.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/ad2aa1e018607222de97.txt",
+  "text_chars": 72681,
+  "text_words": 8927,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

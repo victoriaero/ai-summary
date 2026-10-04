@@ -1,0 +1,28 @@
+{
+  "source_id": "fc1b74f597b0241a8f8d",
+  "normalized_url": "https://hiplatina.com/snap-benefits-latine-community",
+  "fetch_timestamp_utc": "2026-10-04T02:52:19.047594+00:00",
+  "registrable_domain": "hiplatina.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hiplatina.com/snap-benefits-latine-community/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 150584,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/fc1b74f597b0241a8f8d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/fc1b74f597b0241a8f8d.txt",
+  "text_chars": 5303,
+  "text_words": 840,
+  "extraction_status": "success",
+  "page_title": "How cuts to SNAP Benefits Affected the Latine Community - HipLatina",
+  "page_author": "Karla Montalvan",
+  "page_date": "2025-11-18",
+  "site_name": "HipLatina",
+  "canonical_url": "https://hiplatina.com/snap-benefits-latine-community/"
+}

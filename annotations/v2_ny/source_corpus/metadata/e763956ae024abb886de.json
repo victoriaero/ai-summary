@@ -1,0 +1,28 @@
+{
+  "source_id": "e763956ae024abb886de",
+  "normalized_url": "https://researchforaction.org/research-resources/k-12/unequal-access-to-educational-opportunity-in-the-united-states",
+  "fetch_timestamp_utc": "2026-10-04T02:50:59.725114+00:00",
+  "registrable_domain": "researchforaction.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.researchforaction.org/research-resources/k-12/unequal-access-to-educational-opportunity-in-the-united-states/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 104855,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e763956ae024abb886de.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e763956ae024abb886de.txt",
+  "text_chars": 1810,
+  "text_words": 278,
+  "extraction_status": "success",
+  "page_title": "Unequal Access to Educational Opportunity in the United States - Research for Action",
+  "page_author": "Anna Shaw-Amoah; David Lapp",
+  "page_date": "2022-10-06",
+  "site_name": "Research for Action",
+  "canonical_url": "https://www.researchforaction.org/research-resources/k-12/unequal-access-to-educational-opportunity-in-the-united-states/"
+}

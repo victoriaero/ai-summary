@@ -1,0 +1,20 @@
+{
+  "source_id": "1de646775400355ce27b",
+  "normalized_url": "https://nationaldisabilitycenter.org/resources/the-current-status-of-accessibility-in-american-higher-education",
+  "fetch_timestamp_utc": "2026-10-04T02:34:58.715177+00:00",
+  "registrable_domain": "nationaldisabilitycenter.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 504,
+  "final_url": "https://nationaldisabilitycenter.org/resources/the-current-status-of-accessibility-in-american-higher-education/",
+  "headers": {
+    "Content-Type": "text/plain; charset=UTF-8"
+  },
+  "content_type": "text/plain; charset=UTF-8",
+  "downloaded_bytes": 16,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "e30d3062e0bbbfdecd26",
+  "normalized_url": "https://experian.com/blogs/ask-experian/women-and-credit",
+  "fetch_timestamp_utc": "2026-10-04T02:50:40.774933+00:00",
+  "registrable_domain": "experian.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.experian.com/blogs/ask-experian/women-and-credit",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 227533,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e30d3062e0bbbfdecd26.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e30d3062e0bbbfdecd26.txt",
+  "text_chars": 10452,
+  "text_words": 1724,
+  "extraction_status": "success",
+  "page_title": "Women and Credit 2020: What the Past Looked Like, What the Future Holds - Experian",
+  "page_author": "Brianna McGurran",
+  "page_date": "2020-02-28",
+  "site_name": "Experian",
+  "canonical_url": "https://www.experian.com/blogs/ask-experian/women-and-credit/"
+}

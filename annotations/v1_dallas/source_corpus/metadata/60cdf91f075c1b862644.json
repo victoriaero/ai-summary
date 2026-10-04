@@ -1,0 +1,25 @@
+{
+  "source_id": "60cdf91f075c1b862644",
+  "normalized_url": "https://repositories.lib.utexas.edu/bitstreams/85e53ec5-7e1a-473b-855c-98f3f0bf5694/download",
+  "fetch_timestamp_utc": "2026-09-29T19:27:07.511394+00:00",
+  "registrable_domain": "utexas.edu",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://repositories.lib.utexas.edu/bitstreams/85e53ec5-7e1a-473b-855c-98f3f0bf5694/download",
+  "headers": {
+    "Server": "CloudFront",
+    "Date": "Tue, 29 Sep 2026 19:27:10 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "919",
+    "Connection": "keep-alive",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 87ee4dc3b28a26181cafbde91a44f8c4.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "GIG52-P2",
+    "X-Amz-Cf-Id": "9feQ8Pui9wXsjeViu8ikRrYJJjC-1JzJUi1b3jKZeakJ5CQbW6jZmA=="
+  },
+  "downloaded_bytes": 919,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

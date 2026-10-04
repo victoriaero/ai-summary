@@ -1,0 +1,28 @@
+{
+  "source_id": "06e704b2cceffeac24f0",
+  "normalized_url": "http://opwdd.ny.gov/",
+  "fetch_timestamp_utc": "2026-10-04T03:31:13.962945+00:00",
+  "registrable_domain": "ny.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://opwdd.ny.gov/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 53440,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/06e704b2cceffeac24f0.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/06e704b2cceffeac24f0.txt",
+  "text_chars": 2233,
+  "text_words": 223,
+  "extraction_status": "success",
+  "page_title": "Office for People With Developmental Disabilities",
+  "page_author": null,
+  "page_date": "2026-09-30",
+  "site_name": "Office for People With Developmental Disabilities",
+  "canonical_url": "https://opwdd.ny.gov/"
+}

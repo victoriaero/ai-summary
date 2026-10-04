@@ -1,0 +1,28 @@
+{
+  "source_id": "65e0b44f593efeec3e29",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/publications/fehb-changes-trans-workers",
+  "fetch_timestamp_utc": "2026-10-04T03:38:17.862940+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/publications/fehb-changes-trans-workers/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 141051,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/65e0b44f593efeec3e29.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/65e0b44f593efeec3e29.txt",
+  "text_chars": 5771,
+  "text_words": 892,
+  "extraction_status": "success",
+  "page_title": "The Impact of Changes to the Federal Employee Health Benefits Program on Transgender People",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2026-07-31",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/publications/fehb-changes-trans-workers/"
+}

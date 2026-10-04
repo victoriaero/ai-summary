@@ -1,0 +1,28 @@
+{
+  "source_id": "7f16464421be81c16123",
+  "normalized_url": "https://sentencingproject.org/fact-sheet/incarcerated-women-and-girls",
+  "fetch_timestamp_utc": "2026-10-04T02:42:38.197686+00:00",
+  "registrable_domain": "sentencingproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sentencingproject.org/fact-sheet/incarcerated-women-and-girls/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 105687,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7f16464421be81c16123.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7f16464421be81c16123.txt",
+  "text_chars": 9681,
+  "text_words": 1575,
+  "extraction_status": "success",
+  "page_title": "Incarcerated Women and Girls – The Sentencing Project",
+  "page_author": "Kristen M Budd; Ph D; Dinesh Napal; Joshua Rovner",
+  "page_date": "2025-12-04",
+  "site_name": "The Sentencing Project",
+  "canonical_url": "https://www.sentencingproject.org/fact-sheet/incarcerated-women-and-girls/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "cfac0b7c1daa05d5c865",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11196069",
+  "fetch_timestamp_utc": "2026-10-04T03:46:17.331554+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11196069/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 195124,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/cfac0b7c1daa05d5c865.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/cfac0b7c1daa05d5c865.txt",
+  "text_chars": 31550,
+  "text_words": 5444,
+  "extraction_status": "success",
+  "page_title": "Police and Transgender and Gender Diverse People in the United States: A Brief Note on Interaction, Harassment, and Violence",
+  "page_author": "Madeline R Stenersen; Kathryn Thomas; Sherry McKee",
+  "page_date": "2022-02-08",
+  "site_name": "Journal of interpersonal violence",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11196069/"
+}

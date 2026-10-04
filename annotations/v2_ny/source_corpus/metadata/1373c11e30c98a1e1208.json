@@ -1,0 +1,28 @@
+{
+  "source_id": "1373c11e30c98a1e1208",
+  "normalized_url": "https://corwin-connect.com/2014/10/bullying-students-with-disabilities",
+  "fetch_timestamp_utc": "2026-10-04T02:34:04.606805+00:00",
+  "registrable_domain": "corwin-connect.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://corwin-connect.com/2014/10/bullying-students-with-disabilities/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 184550,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1373c11e30c98a1e1208.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1373c11e30c98a1e1208.txt",
+  "text_chars": 4374,
+  "text_words": 717,
+  "extraction_status": "success",
+  "page_title": "Bullying and Students With Disabilities - Corwin Connect",
+  "page_author": "Barry McNamara",
+  "page_date": "2014-10-28",
+  "site_name": "Corwin Connect",
+  "canonical_url": "https://corwin-connect.com/2014/10/bullying-students-with-disabilities/"
+}

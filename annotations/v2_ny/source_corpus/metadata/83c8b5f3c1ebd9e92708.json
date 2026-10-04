@@ -1,0 +1,28 @@
+{
+  "source_id": "83c8b5f3c1ebd9e92708",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10834057",
+  "fetch_timestamp_utc": "2026-10-04T02:43:08.355423+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10834057/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 128870,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/83c8b5f3c1ebd9e92708.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/83c8b5f3c1ebd9e92708.txt",
+  "text_chars": 17908,
+  "text_words": 2517,
+  "extraction_status": "success",
+  "page_title": "Work-related sexual and gender harassment: conceptual challenges and the need for evidence-based prevention",
+  "page_author": "Ida EH Madsen; Maj Britt D Nielsen",
+  "page_date": "2023-09-29",
+  "site_name": "Scandinavian Journal of Work, Environment & Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10834057/"
+}

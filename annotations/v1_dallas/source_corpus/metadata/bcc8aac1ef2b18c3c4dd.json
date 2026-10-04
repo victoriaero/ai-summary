@@ -1,0 +1,32 @@
+{
+  "source_id": "bcc8aac1ef2b18c3c4dd",
+  "normalized_url": "https://texascjc.org/out-sight",
+  "fetch_timestamp_utc": "2026-09-29T19:37:12.632065+00:00",
+  "registrable_domain": "texascjc.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://texascjc.org/out-sight",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:37:17 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Accept-Encoding",
+    "etag": "W/\"6a98b880-34\"",
+    "host-header": "8441280b0c35cbc1147f8ba998a563a7",
+    "x-proxy-cache-info": "DT:1",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4BsIeiYKK77rIywdRjzePk0up30syqpPpcvReQ62CCwTx4FPZ%2FNmvRaidojw%2F7jEWUTKNoxn6NVvV80URLNQdI1%2FstA%2FjrrcMqfCc8DV1Wb6xaZ17ktrDN5Vjn9A2%2FBPnBApy79Td5Ab4Po%3D\"}]}",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Server-Timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=8,cfOrigin;dur=787",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a42d710a4cab19cb-GIG",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "downloaded_bytes": 52,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

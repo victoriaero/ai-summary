@@ -1,0 +1,22 @@
+{
+  "source_id": "08e7fe424045d750afb9",
+  "normalized_url": "https://ed.gov/laws-and-policy/civil-rights-laws/harassment-bullying-and-retaliation/racial-incidents-and-harassment-against-students",
+  "fetch_timestamp_utc": "2026-09-29T19:18:34.154197+00:00",
+  "registrable_domain": "ed.gov",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.ed.gov/laws-and-policy/civil-rights-laws/harassment-bullying-and-retaliation/racial-incidents-and-harassment-against-students",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:18:37 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "11751",
+    "Connection": "close",
+    "x-azure-ref": "20260929T191837Z-r19966d79fdhj8hmhC1CPQusu000000023x0000000002f6n",
+    "X-Cache": "CONFIG_NOCACHE"
+  },
+  "downloaded_bytes": 11751,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

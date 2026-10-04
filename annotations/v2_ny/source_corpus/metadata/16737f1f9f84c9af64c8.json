@@ -1,0 +1,20 @@
+{
+  "source_id": "16737f1f9f84c9af64c8",
+  "normalized_url": "https://epi.org/publication/chasing-the-dream-of-equity",
+  "fetch_timestamp_utc": "2026-10-04T02:34:22.062654+00:00",
+  "registrable_domain": "epi.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://epi.org/publication/chasing-the-dream-of-equity",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5864,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

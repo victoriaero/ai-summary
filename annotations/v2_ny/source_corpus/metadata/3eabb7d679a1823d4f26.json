@@ -1,0 +1,28 @@
+{
+  "source_id": "3eabb7d679a1823d4f26",
+  "normalized_url": "https://futureofhousing.aarp.org/systemic-barriers",
+  "fetch_timestamp_utc": "2026-10-04T02:37:27.543290+00:00",
+  "registrable_domain": "aarp.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://futureofhousing.aarp.org/systemic-barriers/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 690633,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/3eabb7d679a1823d4f26.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/3eabb7d679a1823d4f26.txt",
+  "text_chars": 1455,
+  "text_words": 206,
+  "extraction_status": "success",
+  "page_title": "Systemic Barriers",
+  "page_author": "AARP",
+  "page_date": "2022-11-01",
+  "site_name": "futureofhousing.aarp.org",
+  "canonical_url": "https://futureofhousing.aarp.org/systemic-barriers/"
+}

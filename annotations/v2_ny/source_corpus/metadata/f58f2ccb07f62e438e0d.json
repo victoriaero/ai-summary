@@ -1,0 +1,28 @@
+{
+  "source_id": "f58f2ccb07f62e438e0d",
+  "normalized_url": "https://vera.org/news/mass-incarceration-is-a-public-health-crisis",
+  "fetch_timestamp_utc": "2026-10-04T02:51:52.549270+00:00",
+  "registrable_domain": "vera.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.vera.org/news/mass-incarceration-is-a-public-health-crisis",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 83229,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f58f2ccb07f62e438e0d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f58f2ccb07f62e438e0d.txt",
+  "text_chars": 5785,
+  "text_words": 854,
+  "extraction_status": "success",
+  "page_title": "Mass Incarceration Is a Public Health Crisis",
+  "page_author": "Nazish Dholakia Senior Writer",
+  "page_date": "2025-06-17",
+  "site_name": "Vera Institute of Justice",
+  "canonical_url": "https://www.vera.org/news/mass-incarceration-is-a-public-health-crisis"
+}

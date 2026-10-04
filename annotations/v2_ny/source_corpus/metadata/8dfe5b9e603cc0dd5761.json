@@ -1,0 +1,28 @@
+{
+  "source_id": "8dfe5b9e603cc0dd5761",
+  "normalized_url": "https://washingtonblade.com/2026/09/29/hrc-report-lgbtq-students-face-far-greater-challenges-in-non-supportive-states",
+  "fetch_timestamp_utc": "2026-10-04T02:43:53.648404+00:00",
+  "registrable_domain": "washingtonblade.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.washingtonblade.com/2026/09/29/hrc-report-lgbtq-students-face-far-greater-challenges-in-non-supportive-states/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 429864,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/8dfe5b9e603cc0dd5761.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/8dfe5b9e603cc0dd5761.txt",
+  "text_chars": 19637,
+  "text_words": 3031,
+  "extraction_status": "success",
+  "page_title": "HRC report: LGBTQ students face ‘far greater challenges’ in non-supportive states",
+  "page_author": "Lou Chibbaro Jr",
+  "page_date": "2026-09-29",
+  "site_name": "Washington Blade: LGBTQ News, Politics, LGBTQ Rights, Gay News",
+  "canonical_url": "https://www.washingtonblade.com/2026/09/29/hrc-report-lgbtq-students-face-far-greater-challenges-in-non-supportive-states/"
+}

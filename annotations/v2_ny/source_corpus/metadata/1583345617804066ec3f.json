@@ -1,0 +1,28 @@
+{
+  "source_id": "1583345617804066ec3f",
+  "normalized_url": "https://hrlibrary.umn.edu/svaw/harassment/explore/3causes.htm",
+  "fetch_timestamp_utc": "2026-10-04T02:34:17.163197+00:00",
+  "registrable_domain": "umn.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://hrlibrary.umn.edu/svaw/harassment/explore/3causes.htm",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 18376,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1583345617804066ec3f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1583345617804066ec3f.txt",
+  "text_chars": 6366,
+  "text_words": 1011,
+  "extraction_status": "success",
+  "page_title": "Sexual Harassment",
+  "page_author": null,
+  "page_date": "2023-02-01",
+  "site_name": "hrlibrary.umn.edu",
+  "canonical_url": "https://hrlibrary.umn.edu/svaw/harassment/explore/3causes.htm"
+}

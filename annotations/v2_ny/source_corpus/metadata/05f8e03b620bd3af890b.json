@@ -1,0 +1,28 @@
+{
+  "source_id": "05f8e03b620bd3af890b",
+  "normalized_url": "https://scarleteen.com/read/identity/understanding-lgbtq-youth-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T02:32:50.001713+00:00",
+  "registrable_domain": "scarleteen.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.scarleteen.com/read/identity/understanding-lgbtq-youth-homelessness",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 75752,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/05f8e03b620bd3af890b.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/05f8e03b620bd3af890b.txt",
+  "text_chars": 7051,
+  "text_words": 1146,
+  "extraction_status": "success",
+  "page_title": "Understanding LGBTQ+ Youth Homelessness",
+  "page_author": "Sassafras Patterdale",
+  "page_date": "2025-05-05",
+  "site_name": "Scarleteen",
+  "canonical_url": "https://www.scarleteen.com/read/identity/understanding-lgbtq-youth-homelessness"
+}

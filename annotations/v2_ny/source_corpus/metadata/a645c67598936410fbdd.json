@@ -1,0 +1,20 @@
+{
+  "source_id": "a645c67598936410fbdd",
+  "normalized_url": "https://tandfonline.com/doi/abs/10.1080/26379112.2024.2357996",
+  "fetch_timestamp_utc": "2026-10-04T02:45:59.767024+00:00",
+  "registrable_domain": "tandfonline.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://tandfonline.com/doi/abs/10.1080/26379112.2024.2357996",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5780,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

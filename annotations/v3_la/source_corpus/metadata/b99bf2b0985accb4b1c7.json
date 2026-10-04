@@ -1,0 +1,28 @@
+{
+  "source_id": "b99bf2b0985accb4b1c7",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/press/law-enforcement-lgbtq-interactions",
+  "fetch_timestamp_utc": "2026-10-04T03:44:41.723007+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/press/law-enforcement-lgbtq-interactions/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 104311,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b99bf2b0985accb4b1c7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b99bf2b0985accb4b1c7.txt",
+  "text_chars": 3513,
+  "text_words": 512,
+  "extraction_status": "success",
+  "page_title": "New study documents pervasive and ongoing mistreatment of LGBTQ people by law enforcement",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2025-11-20",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/press/law-enforcement-lgbtq-interactions/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "0bdf997cb9fa5ae03b86",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11089913",
+  "fetch_timestamp_utc": "2026-10-04T02:33:30.804607+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11089913/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 206305,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0bdf997cb9fa5ae03b86.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0bdf997cb9fa5ae03b86.txt",
+  "text_chars": 52265,
+  "text_words": 7489,
+  "extraction_status": "success",
+  "page_title": "Financial inclusion for people with disability: a scoping review",
+  "page_author": "Louise Puli; Natasha Layton; Diane Bell; Abu Zafar Shahriar",
+  "page_date": "2024-05-10",
+  "site_name": "Global Health Action",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11089913/"
+}

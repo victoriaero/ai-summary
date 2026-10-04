@@ -1,0 +1,28 @@
+{
+  "source_id": "80ef5546326880e40115",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9322545",
+  "fetch_timestamp_utc": "2026-10-04T02:42:51.624257+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9322545/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 245227,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/80ef5546326880e40115.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/80ef5546326880e40115.txt",
+  "text_chars": 66949,
+  "text_words": 10252,
+  "extraction_status": "success",
+  "page_title": "Men's help‐seeking and engagement with general practice: An integrative review",
+  "page_author": "Ruth Mursa; Christopher Patterson; Elizabeth Halcomb",
+  "page_date": "2022-04-05",
+  "site_name": "Journal of Advanced Nursing",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9322545/"
+}

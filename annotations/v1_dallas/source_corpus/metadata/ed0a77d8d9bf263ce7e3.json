@@ -1,0 +1,28 @@
+{
+  "source_id": "ed0a77d8d9bf263ce7e3",
+  "normalized_url": "https://pewresearch.org/science/2022/06/14/hispanic-americans-experiences-with-health-care",
+  "fetch_timestamp_utc": "2026-09-29T19:41:28.900488+00:00",
+  "registrable_domain": "pewresearch.org",
+  "success": false,
+  "status": "downloaded",
+  "http_status": 403,
+  "final_url": "https://www.pewresearch.org/science/2022/06/14/hispanic-americans-experiences-with-health-care/",
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 29 Sep 2026 19:41:33 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "_hcc=Yzk5YzRhZjI3ODNhOTVlYzlmNWVlYzMwYThjYWM5ZDM4NDQ0OWJiYjcxZWE4ZTVmNGY4ZDgzMTY0ODVmMGNhMw==:MTUwLjE2NC4yMDMuMTYzfDE3OTA3MTA4OTN8U2VeVWBxb0RIaV1vTFJ3REF7VFBJaHpiaWlOaU5jTFp8MQ==; Max-Age=30; Path=/",
+    "Content-Encoding": "gzip",
+    "cache-control": "no-cache, must-revalidate, max-age=0, no-store",
+    "x-cache": "BYPASS",
+    "x-rq": "gru2 0 30 9980",
+    "Strict-Transport-Security": "max-age=31536000;includeSubdomains;preload"
+  },
+  "downloaded_bytes": 4215,
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

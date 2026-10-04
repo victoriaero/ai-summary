@@ -1,0 +1,28 @@
+{
+  "source_id": "c92e31c335f926a63c42",
+  "normalized_url": "https://nn4youth.org/learn/lgbtq-homeless-youth",
+  "fetch_timestamp_utc": "2026-10-04T03:45:49.460129+00:00",
+  "registrable_domain": "nn4youth.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nn4youth.org/learn/lgbtq-homeless-youth/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 165852,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c92e31c335f926a63c42.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c92e31c335f926a63c42.txt",
+  "text_chars": 3215,
+  "text_words": 467,
+  "extraction_status": "success",
+  "page_title": "LGBTQ+ Youth Homelessness - National Network for Youth",
+  "page_author": "Kaila Craw",
+  "page_date": "2026-04-29",
+  "site_name": "National Network for Youth",
+  "canonical_url": "https://nn4youth.org/learn/lgbtq-homeless-youth/"
+}

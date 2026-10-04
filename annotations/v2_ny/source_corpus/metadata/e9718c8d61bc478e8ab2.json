@@ -1,0 +1,28 @@
+{
+  "source_id": "e9718c8d61bc478e8ab2",
+  "normalized_url": "https://apps.urban.org/features/latino-criminal-justice-data",
+  "fetch_timestamp_utc": "2026-10-04T02:51:09.942352+00:00",
+  "registrable_domain": "urban.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://apps.urban.org/features/latino-criminal-justice-data/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 18042,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e9718c8d61bc478e8ab2.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e9718c8d61bc478e8ab2.txt",
+  "text_chars": 129,
+  "text_words": 21,
+  "extraction_status": "success",
+  "page_title": "The Alarming Lack of Data on Latinos in the Criminal Justice System",
+  "page_author": null,
+  "page_date": "2016-12-14",
+  "site_name": "Urbaninstitute",
+  "canonical_url": "http://urbn.is/cjdata"
+}

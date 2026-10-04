@@ -1,0 +1,28 @@
+{
+  "source_id": "7f2addd648e20c608504",
+  "normalized_url": "https://chicagobooth.edu/review/racial-bias-hiring",
+  "fetch_timestamp_utc": "2026-10-04T02:42:41.281557+00:00",
+  "registrable_domain": "chicagobooth.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.chicagobooth.edu/review/racial-bias-hiring",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 72517,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7f2addd648e20c608504.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7f2addd648e20c608504.txt",
+  "text_chars": 9660,
+  "text_words": 1467,
+  "extraction_status": "success",
+  "page_title": "From 2003: Racial Bias in Hiring",
+  "page_author": null,
+  "page_date": "2003-03-01",
+  "site_name": "The University of Chicago Booth School of Business",
+  "canonical_url": "https://www.chicagobooth.edu/review/racial-bias-hiring"
+}

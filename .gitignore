@@ -4,3 +4,6 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 .DS_Store
+results_old/hedging_ny_dallas/matched_claim_candidates.csv
+results_old/claim_extraction_literal_v2/microsoft-phi-4/v1_dallas/matched_claim_candidates.csv
+results_old/claim_extraction_literal_v2/microsoft-phi-4/v2_ny/matched_claim_candidates.csv

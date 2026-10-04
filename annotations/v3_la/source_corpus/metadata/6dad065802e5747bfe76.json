@@ -1,0 +1,28 @@
+{
+  "source_id": "6dad065802e5747bfe76",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12691752",
+  "fetch_timestamp_utc": "2026-10-04T03:38:57.495474+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12691752/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 368260,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/6dad065802e5747bfe76.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/6dad065802e5747bfe76.txt",
+  "text_chars": 106363,
+  "text_words": 15279,
+  "extraction_status": "success",
+  "page_title": "Homophobic Bullying Among Adolescents: Prevalence, Associations with Emotional Factors, Psychopathological Symptoms, and Predictors",
+  "page_author": "Maite Garaigordobil; Juan Pablo Mollo-Torrico; Mónica Rodríguez-Enríquez",
+  "page_date": "2025-12-01",
+  "site_name": "Healthcare",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12691752/"
+}

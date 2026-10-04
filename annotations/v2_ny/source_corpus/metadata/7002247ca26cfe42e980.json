@@ -1,0 +1,28 @@
+{
+  "source_id": "7002247ca26cfe42e980",
+  "normalized_url": "https://theconversation.com/the-social-determinants-of-justice-8-factors-that-increase-your-risk-of-imprisonment-203661",
+  "fetch_timestamp_utc": "2026-10-04T02:41:37.859683+00:00",
+  "registrable_domain": "theconversation.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://theconversation.com/the-social-determinants-of-justice-8-factors-that-increase-your-risk-of-imprisonment-203661",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 177897,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7002247ca26cfe42e980.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7002247ca26cfe42e980.txt",
+  "text_chars": 6281,
+  "text_words": 996,
+  "extraction_status": "success",
+  "page_title": "The social determinants of justice: 8 factors that increase your risk of imprisonment",
+  "page_author": "Eileen Baldry; Ruth McCausland",
+  "page_date": "2023-04-17",
+  "site_name": "The Conversation",
+  "canonical_url": "https://theconversation.com/the-social-determinants-of-justice-8-factors-that-increase-your-risk-of-imprisonment-203661"
+}

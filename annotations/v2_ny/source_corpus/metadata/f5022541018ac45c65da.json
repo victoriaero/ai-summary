@@ -1,0 +1,28 @@
+{
+  "source_id": "f5022541018ac45c65da",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10431638",
+  "fetch_timestamp_utc": "2026-10-04T02:51:50.865370+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10431638/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 222478,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f5022541018ac45c65da.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f5022541018ac45c65da.txt",
+  "text_chars": 67133,
+  "text_words": 9798,
+  "extraction_status": "success",
+  "page_title": "“If he has education, there will not be any problem”: Factors affecting access to education for children with disabilities in Tamil Nadu, India",
+  "page_author": "Kumudha Aruldas; Lena Morgon Banks; Guru Nagarajan; Reeba Roshan; Jabaselvi Johnson; David Musendo; Isaac Arpudharangam; Judd L Walson; Tom Shakespeare; Sitara S R Ajjampur",
+  "page_date": "2023-08-16",
+  "site_name": "PLOS ONE",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10431638/"
+}

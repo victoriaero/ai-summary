@@ -1,0 +1,28 @@
+{
+  "source_id": "445b1654611dba81028e",
+  "normalized_url": "https://womensworldbanking.org/insights/womens-financial-inclusion-through-movable-collateral-three-case-studies",
+  "fetch_timestamp_utc": "2026-10-04T02:37:58.189599+00:00",
+  "registrable_domain": "womensworldbanking.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.womensworldbanking.org/insights/womens-financial-inclusion-through-movable-collateral-three-case-studies/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 179220,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/445b1654611dba81028e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/445b1654611dba81028e.txt",
+  "text_chars": 2448,
+  "text_words": 374,
+  "extraction_status": "success",
+  "page_title": "Financial Inclusion through Movable Collateral",
+  "page_author": "Women's World Banking",
+  "page_date": "2022-08-29",
+  "site_name": "Women's World Banking",
+  "canonical_url": "https://www.womensworldbanking.org/insights/womens-financial-inclusion-through-movable-collateral-three-case-studies/"
+}

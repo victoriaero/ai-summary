@@ -1,0 +1,28 @@
+{
+  "source_id": "71133d110608e33dbf60",
+  "normalized_url": "https://kff.org/womens-health-policy/womens-health-insurance-coverage",
+  "fetch_timestamp_utc": "2026-10-04T03:39:12.174125+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/womens-health-policy/womens-health-insurance-coverage/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 168564,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/71133d110608e33dbf60.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/71133d110608e33dbf60.txt",
+  "text_chars": 12190,
+  "text_words": 1943,
+  "extraction_status": "success",
+  "page_title": "Women's Health Insurance Coverage | KFF",
+  "page_author": "Kffaeronw",
+  "page_date": "2026-06-09",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/womens-health-policy/womens-health-insurance-coverage/"
+}

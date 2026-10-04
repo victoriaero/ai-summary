@@ -1,0 +1,5 @@
+metric_1,metric_2,n,spearman_rho,p_value
+dense_distance_raw,dense_distance_subject_normalized,252,0.9419532485529368,1.699706720628474e-120
+dense_distance_subject_normalized,tfidf_distance_subject_normalized,252,0.6039339723732587,1.940234551133313e-26
+dense_distance_subject_normalized,symmetric_sentence_distance,252,0.793754775739879,6.6102008434763235e-56
+dense_distance_subject_normalized,generic_coverage_distance,252,0.6344552150892009,8.646001429803897e-30

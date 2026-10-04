@@ -1,0 +1,28 @@
+{
+  "source_id": "fe42ab0966b745db0060",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3375851",
+  "fetch_timestamp_utc": "2026-10-04T02:52:29.599079+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3375851/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 303529,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/fe42ab0966b745db0060.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/fe42ab0966b745db0060.txt",
+  "text_chars": 71733,
+  "text_words": 12217,
+  "extraction_status": "success",
+  "page_title": "Low Income Families’ Utilization of the Federal “Safety Net”: Individual and State-Level Predictors of TANF and Food Stamp Receipt",
+  "page_author": "Kelly M Purtell; Elizabeth T Gershoff; J Lawrence Aber",
+  "page_date": "2012-04-01",
+  "site_name": "Children and youth services review",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3375851/"
+}

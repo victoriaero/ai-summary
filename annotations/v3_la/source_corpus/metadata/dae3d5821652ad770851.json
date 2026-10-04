@@ -1,0 +1,28 @@
+{
+  "source_id": "dae3d5821652ad770851",
+  "normalized_url": "https://hrw.org/report/2016/12/07/walking-through-hailstorm/discrimination-against-lgbt-youth-us-schools",
+  "fetch_timestamp_utc": "2026-10-04T03:47:01.600732+00:00",
+  "registrable_domain": "hrw.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hrw.org/report/2016/12/07/walking-through-hailstorm/discrimination-against-lgbt-youth-us-schools",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 529274,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/dae3d5821652ad770851.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/dae3d5821652ad770851.txt",
+  "text_chars": 173060,
+  "text_words": 27464,
+  "extraction_status": "success",
+  "page_title": "“Like Walking Through a Hailstorm”",
+  "page_author": "Ryan Thoreson",
+  "page_date": "2016-12-07",
+  "site_name": "Human Rights Watch",
+  "canonical_url": "https://www.hrw.org/report/2016/12/07/walking-through-hailstorm/discrimination-against-lgbt-youth-us-schools"
+}

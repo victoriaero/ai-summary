@@ -1,0 +1,28 @@
+{
+  "source_id": "de477ec7b006fabcc3e9",
+  "normalized_url": "https://aeaweb.org/articles?id=10.1257%2Fjep.20231394",
+  "fetch_timestamp_utc": "2026-10-04T02:50:10.080684+00:00",
+  "registrable_domain": "aeaweb.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.aeaweb.org/articles?id=10.1257%2Fjep.20231394",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 30355,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/de477ec7b006fabcc3e9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/de477ec7b006fabcc3e9.txt",
+  "text_chars": 1958,
+  "text_words": 264,
+  "extraction_status": "success",
+  "page_title": "Administrative Burdens in the Social Safety Net",
+  "page_author": "Herd; Pamela; Moynihan; Donald",
+  "page_date": "2025-02-03",
+  "site_name": "Journal of Economic Perspectives",
+  "canonical_url": "https://www.aeaweb.org/articles?id=10.1257%2Fjep.20231394"
+}

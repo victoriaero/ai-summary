@@ -1,0 +1,28 @@
+{
+  "source_id": "aba5aaadb3c4dde65ec6",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9127679",
+  "fetch_timestamp_utc": "2026-10-04T02:46:29.321461+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9127679/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 222354,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/aba5aaadb3c4dde65ec6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/aba5aaadb3c4dde65ec6.txt",
+  "text_chars": 65302,
+  "text_words": 9484,
+  "extraction_status": "success",
+  "page_title": "The intersection of welfare stigma, state contexts and health among mothers receiving public assistance benefits",
+  "page_author": "Jessica Lapham; Melissa L Martinson",
+  "page_date": "2022-05-09",
+  "site_name": "SSM - Population Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9127679/"
+}

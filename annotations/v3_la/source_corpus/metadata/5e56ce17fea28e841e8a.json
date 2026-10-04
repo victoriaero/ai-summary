@@ -1,0 +1,28 @@
+{
+  "source_id": "5e56ce17fea28e841e8a",
+  "normalized_url": "https://youtube.com/watch?t=68&v=_X1Yd5UFUvk",
+  "fetch_timestamp_utc": "2026-10-04T03:37:43.456829+00:00",
+  "registrable_domain": "youtube.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.youtube.com/watch?t=68&v=_X1Yd5UFUvk",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1183609,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/5e56ce17fea28e841e8a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/5e56ce17fea28e841e8a.txt",
+  "text_chars": 146,
+  "text_words": 23,
+  "extraction_status": "success",
+  "page_title": "Report finds racial disparities in police use of force",
+  "page_author": null,
+  "page_date": "2016-07-09",
+  "site_name": "YouTube",
+  "canonical_url": "https://www.youtube.com/watch?v=_X1Yd5UFUvk"
+}

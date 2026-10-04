@@ -1,0 +1,28 @@
+{
+  "source_id": "0a9e77ed7f943047ef46",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7346414",
+  "fetch_timestamp_utc": "2026-10-04T02:33:19.314847+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7346414/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 307512,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0a9e77ed7f943047ef46.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0a9e77ed7f943047ef46.txt",
+  "text_chars": 102736,
+  "text_words": 15057,
+  "extraction_status": "success",
+  "page_title": "The safety of health care for ethnic minority patients: a systematic review",
+  "page_author": "Ashfaq Chauhan; Merrilyn Walton; Elizabeth Manias; Ramesh Lahiru Walpola; Holly Seale; Monika Latanik; Desiree Leone; Stephen Mears; Reema Harrison",
+  "page_date": "2020-07-08",
+  "site_name": "International Journal for Equity in Health",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7346414/"
+}

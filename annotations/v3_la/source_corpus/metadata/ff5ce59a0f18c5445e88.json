@@ -1,0 +1,20 @@
+{
+  "source_id": "ff5ce59a0f18c5445e88",
+  "normalized_url": "https://stopbullying.gov/blog/2015/10/13/overcoming-perceived-differences-prevent-bullying",
+  "fetch_timestamp_utc": "2026-10-04T03:49:50.046016+00:00",
+  "registrable_domain": "stopbullying.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.stopbullying.gov/blog/2015/10/13/overcoming-perceived-differences-prevent-bullying",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 471,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

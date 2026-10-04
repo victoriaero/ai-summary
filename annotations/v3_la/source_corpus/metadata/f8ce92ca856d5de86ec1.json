@@ -1,0 +1,28 @@
+{
+  "source_id": "f8ce92ca856d5de86ec1",
+  "normalized_url": "https://meditopia.com/en/forwork/articles/disability-discrimination-in-the-workplace",
+  "fetch_timestamp_utc": "2026-10-04T03:49:26.752405+00:00",
+  "registrable_domain": "meditopia.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://meditopia.com/en/forwork/articles/disability-discrimination-in-the-workplace",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 129038,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f8ce92ca856d5de86ec1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f8ce92ca856d5de86ec1.txt",
+  "text_chars": 14944,
+  "text_words": 2044,
+  "extraction_status": "success",
+  "page_title": "Understanding and Preventing Disability Discrimination in the Workplace - Meditopia for Work",
+  "page_author": "Daniela D Franco; Social Psychologist",
+  "page_date": "2025-06-13",
+  "site_name": "Meditopia",
+  "canonical_url": "https://meditopia.com/en/forwork/articles/disability-discrimination-in-the-workplace"
+}

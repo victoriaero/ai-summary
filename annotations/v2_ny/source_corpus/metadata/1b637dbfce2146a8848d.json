@@ -1,0 +1,28 @@
+{
+  "source_id": "1b637dbfce2146a8848d",
+  "normalized_url": "https://theconversation.com/white-men-who-have-been-mistreated-at-work-are-more-likely-to-notice-and-report-harassment-new-research-234528",
+  "fetch_timestamp_utc": "2026-10-04T02:34:48.608920+00:00",
+  "registrable_domain": "theconversation.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://theconversation.com/white-men-who-have-been-mistreated-at-work-are-more-likely-to-notice-and-report-harassment-new-research-234528",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 175539,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/1b637dbfce2146a8848d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/1b637dbfce2146a8848d.txt",
+  "text_chars": 3655,
+  "text_words": 595,
+  "extraction_status": "success",
+  "page_title": "White men who have been mistreated at work are more likely to notice and report harassment − new research",
+  "page_author": "Erin A Cech",
+  "page_date": "2024-08-07",
+  "site_name": "The Conversation",
+  "canonical_url": "https://theconversation.com/white-men-who-have-been-mistreated-at-work-are-more-likely-to-notice-and-report-harassment-new-research-234528"
+}

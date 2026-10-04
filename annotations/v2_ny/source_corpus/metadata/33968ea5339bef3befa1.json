@@ -1,0 +1,28 @@
+{
+  "source_id": "33968ea5339bef3befa1",
+  "normalized_url": "https://nlc.org/article/2022/10/28/barriers-existing-practices-recommendations-in-housing-for-hispanic-latinx-latinoa-residents",
+  "fetch_timestamp_utc": "2026-10-04T02:36:31.934745+00:00",
+  "registrable_domain": "nlc.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nlc.org/article/2022/10/28/barriers-existing-practices-recommendations-in-housing-for-hispanic-latinx-latinoa-residents",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 145053,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/33968ea5339bef3befa1.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/33968ea5339bef3befa1.txt",
+  "text_chars": 10387,
+  "text_words": 1411,
+  "extraction_status": "success",
+  "page_title": "Barriers, Existing Practices & Recommendations in Housing for Hispanic, Latinx/Latino(a)* Residents",
+  "page_author": "About the Authors",
+  "page_date": "2022-10-28",
+  "site_name": "National League of Cities",
+  "canonical_url": "https://www.nlc.org/article/2022/10/28/barriers-existing-practices-recommendations-in-housing-for-hispanic-latinx-latinoa-residents/"
+}

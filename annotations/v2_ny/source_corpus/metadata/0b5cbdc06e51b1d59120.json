@@ -1,0 +1,28 @@
+{
+  "source_id": "0b5cbdc06e51b1d59120",
+  "normalized_url": "https://la.myneighborhooddata.org/2021/07/latino-representation-in-the-criminal-justice-system",
+  "fetch_timestamp_utc": "2026-10-04T02:33:27.203004+00:00",
+  "registrable_domain": "myneighborhooddata.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://la.myneighborhooddata.org/2021/07/latino-representation-in-the-criminal-justice-system/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 172610,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/0b5cbdc06e51b1d59120.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/0b5cbdc06e51b1d59120.txt",
+  "text_chars": 8832,
+  "text_words": 1344,
+  "extraction_status": "success",
+  "page_title": "Latino Representation in the Criminal Justice System",
+  "page_author": "Aileen Qin",
+  "page_date": "2026-01-01",
+  "site_name": "la.myneighborhooddata.org",
+  "canonical_url": "https://la.myneighborhooddata.org/2021/07/latino-representation-in-the-criminal-justice-system/"
+}

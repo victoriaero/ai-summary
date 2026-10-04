@@ -1,0 +1,28 @@
+{
+  "source_id": "7b79548a363fff99a19e",
+  "normalized_url": "https://kff.org/racial-equity-and-health-policy/health-coverage-by-race-and-ethnicity",
+  "fetch_timestamp_utc": "2026-10-04T02:42:28.944242+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/racial-equity-and-health-policy/health-coverage-by-race-and-ethnicity/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 155360,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/7b79548a363fff99a19e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/7b79548a363fff99a19e.txt",
+  "text_chars": 14624,
+  "text_words": 2258,
+  "extraction_status": "success",
+  "page_title": "Health Coverage by Race and Ethnicity, 2010-2024 | KFF",
+  "page_author": "Latoya Hill; Samantha Artiga; Anthony Damico",
+  "page_date": "2026-05-04",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/racial-equity-and-health-policy/health-coverage-by-race-and-ethnicity/"
+}

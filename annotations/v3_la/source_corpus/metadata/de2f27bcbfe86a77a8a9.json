@@ -1,0 +1,28 @@
+{
+  "source_id": "de2f27bcbfe86a77a8a9",
+  "normalized_url": "https://cgap.org/research/publication/gender-intentional-credit-scoring",
+  "fetch_timestamp_utc": "2026-10-04T03:47:21.364014+00:00",
+  "registrable_domain": "cgap.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cgap.org/research/publication/gender-intentional-credit-scoring",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 67359,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/de2f27bcbfe86a77a8a9.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/de2f27bcbfe86a77a8a9.txt",
+  "text_chars": 3973,
+  "text_words": 601,
+  "extraction_status": "success",
+  "page_title": "Gender-Intentional Credit Scoring",
+  "page_author": "Authors Maria Fernandez Vidal Senior Financial Sector Specialist Dean Caire Credit Scoring Specialist",
+  "page_date": "2026-09-29",
+  "site_name": "CGAP",
+  "canonical_url": "https://www.cgap.org/research/publication/gender-intentional-credit-scoring"
+}

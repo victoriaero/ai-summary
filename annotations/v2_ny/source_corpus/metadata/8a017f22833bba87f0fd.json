@@ -1,0 +1,28 @@
+{
+  "source_id": "8a017f22833bba87f0fd",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4524744",
+  "fetch_timestamp_utc": "2026-10-04T02:43:41.304910+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4524744/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 363174,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/8a017f22833bba87f0fd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/8a017f22833bba87f0fd.txt",
+  "text_chars": 91520,
+  "text_words": 15143,
+  "extraction_status": "success",
+  "page_title": "Understanding the Educational Attainment of Sexual Minority Women and Men*",
+  "page_author": "Stefanie Mollborn; Bethany Everett",
+  "page_date": "2015-04-30",
+  "site_name": "Research in social stratification and mobility",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4524744/"
+}

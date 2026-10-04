@@ -1,0 +1,28 @@
+{
+  "source_id": "99c69d53668c6423d6d7",
+  "normalized_url": "https://covenanthouse.org/homeless-issues/lgbtq-youth",
+  "fetch_timestamp_utc": "2026-10-04T02:44:56.835542+00:00",
+  "registrable_domain": "covenanthouse.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.covenanthouse.org/homeless-issues/lgbtq-youth",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 117106,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/99c69d53668c6423d6d7.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/99c69d53668c6423d6d7.txt",
+  "text_chars": 4743,
+  "text_words": 742,
+  "extraction_status": "success",
+  "page_title": "LGBTQ+ Young People Face Higher Risks of Homelessness",
+  "page_author": null,
+  "page_date": "2026-01-01",
+  "site_name": "Covenant House",
+  "canonical_url": "https://www.covenanthouse.org/homeless-issues/lgbtq-youth"
+}

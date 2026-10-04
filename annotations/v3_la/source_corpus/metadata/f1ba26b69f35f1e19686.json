@@ -1,0 +1,28 @@
+{
+  "source_id": "f1ba26b69f35f1e19686",
+  "normalized_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10251765",
+  "fetch_timestamp_utc": "2026-10-04T03:48:57.400810+00:00",
+  "registrable_domain": "nih.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10251765/",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 242237,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/f1ba26b69f35f1e19686.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/f1ba26b69f35f1e19686.txt",
+  "text_chars": 50937,
+  "text_words": 7246,
+  "extraction_status": "success",
+  "page_title": "Association of Affirming Care with Chronic Disease and Preventive Care Outcomes among Lesbian, Gay, Bisexual, Transgender, and Queer Older Adults",
+  "page_author": "Tara McKay; Nathaniel M Tran; Harry Barbee; Judy K Min",
+  "page_date": "2022-11-29",
+  "site_name": "American journal of preventive medicine",
+  "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10251765/"
+}

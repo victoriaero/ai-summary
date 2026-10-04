@@ -1,0 +1,20 @@
+{
+  "source_id": "4317517a5dfe1bafba33",
+  "normalized_url": "https://un.org/womenwatch/daw/public/WorldSurvey2009.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:37:50.868758+00:00",
+  "registrable_domain": "un.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 404,
+  "final_url": "https://maintenance.un.org/womenwatch/daw/public/WorldSurvey2009.pdf",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 357,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "24ffeef294948986a2a5",
+  "normalized_url": "https://sentencingproject.org/reports/mass-incarceration-trends",
+  "fetch_timestamp_utc": "2026-10-04T02:35:40.221162+00:00",
+  "registrable_domain": "sentencingproject.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.sentencingproject.org/reports/mass-incarceration-trends/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 153154,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/24ffeef294948986a2a5.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/24ffeef294948986a2a5.txt",
+  "text_chars": 29018,
+  "text_words": 4468,
+  "extraction_status": "success",
+  "page_title": "Mass Incarceration Trends – The Sentencing Project",
+  "page_author": "Ashley Nellis; Sabrina C Pearce",
+  "page_date": "2026-04-09",
+  "site_name": "The Sentencing Project",
+  "canonical_url": "https://www.sentencingproject.org/reports/mass-incarceration-trends/"
+}

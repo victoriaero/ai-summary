@@ -1,0 +1,66 @@
+{
+  "seed": 20260930,
+  "bootstrap_replicates": 4000,
+  "coefficient_draws": 4000,
+  "included_replicas": [
+    "v1_dallas"
+  ],
+  "excluded_incomplete_replicas": [
+    "v3_la"
+  ],
+  "n_unique_responses": 273,
+  "n_items": 21,
+  "model_design": "13 observed condition cells (one People control + Minority and Majority in each of six dimensions), outcome fixed effects, outcome-cluster robust SE; no duplicated People in inference",
+  "hedging_sensitivity_definitions": {
+    "extremely_short_cutoff": 6,
+    "minimum_sentences_cutoff": 7,
+    "cutoff_rule": "ceil of 5th and 10th percentile of n_sentences over unique complete-replica responses",
+    "confidence_thresholds": [
+      0.95,
+      0.99
+    ],
+    "threshold_rule": "fixed before outcome comparison; only stricter than the original detector cutoff"
+  },
+  "veridicality_sensitivity_definitions": {
+    "dominant_threshold": 5.0,
+    "dominant_predicates": [
+      "demonstrate",
+      "dictate",
+      "ensure",
+      "indicate",
+      "know",
+      "lead",
+      "note",
+      "prove",
+      "reveal",
+      "show",
+      "use"
+    ],
+    "dominant_rule": "occurrence count > median + 3 median absolute deviations among strict-matched predicate lemmas",
+    "ambiguous_cases": "already excluded from strict matches; no additional strict-score subset needed",
+    "parser_confidence": "all calibrated confidence values missing; low-confidence exclusion not estimable"
+  },
+  "validation": {
+    "hedge_sample_n": 400,
+    "veridicality_sample_n": 300,
+    "hedge_adjudicated_binary_n": 0,
+    "veridicality_mapping_adjudicated_n": 0
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.9.1",
+    "spacy": "3.8.16",
+    "patsy": "1.0.3"
+  },
+  "input_sha256": {
+    "contextual": "596e77ca4538c29023edf406d33ad39e13fce061883ab7b6c2d93d1c2d7ec6fb",
+    "hedge_occurrences": "82b65725718a25143bd71e5272ad0c1573a53415867f97d696e3a17e31865ab4",
+    "lexical": "4e0b16b3d841f359cbe87681ab2963941f72e84b7a33959fe0168679c81d8764",
+    "veridicality": "725d8dc5b10d7d38e258594cff3441b224e86f024dcd91b934ada7fef3d1eef8",
+    "predicate_occurrences": "4ff6b242773fc101e6c72eb16ba0ff93eca22b3cfdc5cb8dc4ed8b9847f768e0"
+  }
+}

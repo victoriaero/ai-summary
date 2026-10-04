@@ -1,0 +1,28 @@
+{
+  "source_id": "c6d4ef26f2b276716b56",
+  "normalized_url": "https://nelp.org/insights-research/why-women-need-a-stronger-unemployment-insurance-system",
+  "fetch_timestamp_utc": "2026-10-04T03:45:35.243058+00:00",
+  "registrable_domain": "nelp.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nelp.org/insights-research/why-women-need-a-stronger-unemployment-insurance-system/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 118336,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/c6d4ef26f2b276716b56.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/c6d4ef26f2b276716b56.txt",
+  "text_chars": 51598,
+  "text_words": 7067,
+  "extraction_status": "success",
+  "page_title": "Why Women Need a Stronger Unemployment Insurance System - National Employment Law Project",
+  "page_author": "Amy Traub",
+  "page_date": "2026-05-13",
+  "site_name": "National Employment Law Project",
+  "canonical_url": "https://www.nelp.org/insights-research/why-women-need-a-stronger-unemployment-insurance-system/"
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "232adb63d9c78d29d59b",
+  "normalized_url": "https://journals.sagepub.com/doi/10.1177/21533687251314137",
+  "fetch_timestamp_utc": "2026-10-04T02:35:29.491066+00:00",
+  "registrable_domain": "sagepub.com",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://journals.sagepub.com/doi/10.1177/21533687251314137",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5762,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

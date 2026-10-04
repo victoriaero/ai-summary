@@ -1,0 +1,28 @@
+{
+  "source_id": "5f81f7a6454265b56f58",
+  "normalized_url": "https://frac.org/blog/usda-improves-equitable-snap-access-for-lgbtqia",
+  "fetch_timestamp_utc": "2026-10-04T02:40:12.036042+00:00",
+  "registrable_domain": "frac.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://frac.org/blog/usda-improves-equitable-snap-access-for-lgbtqia",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 89808,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5f81f7a6454265b56f58.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5f81f7a6454265b56f58.txt",
+  "text_chars": 3414,
+  "text_words": 497,
+  "extraction_status": "success",
+  "page_title": "USDA Improves Equitable SNAP Access for LGBTQIA+, Advocates Can Help Combat Disparities in Hunger and Food Access - Food Research & Action Center",
+  "page_author": "Andrew Cheyne; SNAP Deputy Director",
+  "page_date": "2022-05-20",
+  "site_name": "Food Research & Action Center",
+  "canonical_url": "https://frac.org/blog/usda-improves-equitable-snap-access-for-lgbtqia"
+}

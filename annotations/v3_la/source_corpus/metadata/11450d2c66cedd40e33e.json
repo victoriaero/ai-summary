@@ -1,0 +1,28 @@
+{
+  "source_id": "11450d2c66cedd40e33e",
+  "normalized_url": "https://nacacnet.org/resources/barriers-to-successfully-financing-a-college-education/student-access-to-college-counseling",
+  "fetch_timestamp_utc": "2026-10-04T03:32:03.774518+00:00",
+  "registrable_domain": "nacacnet.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nacacnet.org/resources/barriers-to-successfully-financing-a-college-education/student-access-to-college-counseling/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 250653,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/11450d2c66cedd40e33e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/11450d2c66cedd40e33e.txt",
+  "text_chars": 6468,
+  "text_words": 925,
+  "extraction_status": "success",
+  "page_title": "Student Access to College Counseling - National Association for College Admission Counseling (NACAC)",
+  "page_author": "Michelle Lucas",
+  "page_date": "2022-10-07",
+  "site_name": "National Association for College Admission Counseling (NACAC)",
+  "canonical_url": "https://www.nacacnet.org/resources/barriers-to-successfully-financing-a-college-education/student-access-to-college-counseling/"
+}

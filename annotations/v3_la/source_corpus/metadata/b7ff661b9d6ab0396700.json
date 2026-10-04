@@ -1,0 +1,28 @@
+{
+  "source_id": "b7ff661b9d6ab0396700",
+  "normalized_url": "https://unitedwaynca.org/blog/causes-of-homelessness",
+  "fetch_timestamp_utc": "2026-10-04T03:44:34.838321+00:00",
+  "registrable_domain": "unitedwaynca.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://unitedwaynca.org/blog/causes-of-homelessness/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 161089,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b7ff661b9d6ab0396700.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b7ff661b9d6ab0396700.txt",
+  "text_chars": 12110,
+  "text_words": 1678,
+  "extraction_status": "success",
+  "page_title": "Leading Causes of Homelessness: Identifying & Bringing Hope",
+  "page_author": "United Way NCA",
+  "page_date": "2026-06-22",
+  "site_name": "United Way of the National Capital Area",
+  "canonical_url": "https://unitedwaynca.org/blog/causes-of-homelessness/"
+}

@@ -1,0 +1,28 @@
+{
+  "source_id": "dc6bb918e51085766cbe",
+  "normalized_url": "https://ebsco.com/research-starters/womens-studies-and-feminism/gender-and-welfare-policy",
+  "fetch_timestamp_utc": "2026-10-04T03:47:10.952972+00:00",
+  "registrable_domain": "ebsco.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ebsco.com/research-starters/womens-studies-and-feminism/gender-and-welfare-policy",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 192429,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/dc6bb918e51085766cbe.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/dc6bb918e51085766cbe.txt",
+  "text_chars": 42896,
+  "text_words": 6287,
+  "extraction_status": "success",
+  "page_title": "Gender and Welfare Policy | Women's Studies and Feminism | Research Starters | EBSCOhost",
+  "page_author": null,
+  "page_date": "2021-02-15",
+  "site_name": "EBSCO",
+  "canonical_url": "https://www.ebsco.com/"
+}

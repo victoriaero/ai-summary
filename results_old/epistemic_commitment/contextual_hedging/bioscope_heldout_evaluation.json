@@ -1,0 +1,19 @@
+{
+  "token_precision": 0.7105561861520999,
+  "token_recall": 0.6673773987206824,
+  "token_f1": 0.6882902693787796,
+  "cue_span_precision": 0.7188365650969529,
+  "cue_span_recall": 0.6520100502512562,
+  "cue_span_f1": 0.6837944664031621,
+  "sentence_accuracy": 0.9188732394366197,
+  "sentence_f1": 0.765089722675367,
+  "n_sentences": 3550,
+  "threshold": 0.9000000000000002,
+  "split_seed": 20260930,
+  "split_unit": "BioScope document",
+  "split_sizes": {
+    "train": 14229,
+    "validation": 3145,
+    "test": 3550
+  }
+}

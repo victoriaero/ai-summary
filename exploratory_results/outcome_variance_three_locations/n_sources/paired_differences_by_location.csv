@@ -1,0 +1,379 @@
+location,dimension,domain,outcome,outcome_id,majority,minority,paired_difference,outcome_dimension
+dallas,Disability,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,4,11,7,Credit & Financial Services :: Access to banking services || Disability
+dallas,Disability,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,3,5,2,Credit & Financial Services :: Access to credit || Disability
+dallas,Disability,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,4,7,3,Credit & Financial Services :: Credit/loan approval || Disability
+dallas,Disability,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,9,8,-1,Criminal Justice :: Arrest / detention by police || Disability
+dallas,Disability,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,0,9,9,Criminal Justice :: Incarceration || Disability
+dallas,Disability,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,4,7,3,Criminal Justice :: Police use of force || Disability
+dallas,Disability,Education,College access/admission,Education :: College access/admission,0,9,9,Education :: College access/admission || Disability
+dallas,Disability,Education,Educational opportunity/access,Education :: Educational opportunity/access,3,10,7,Education :: Educational opportunity/access || Disability
+dallas,Disability,Education,Harassment/bullying,Education :: Harassment/bullying,6,9,3,Education :: Harassment/bullying || Disability
+dallas,Disability,Employment,Career advancement,Employment :: Career advancement,0,10,10,Employment :: Career advancement || Disability
+dallas,Disability,Employment,Hiring,Employment :: Hiring,3,12,9,Employment :: Hiring || Disability
+dallas,Disability,Employment,Workplace harassment,Employment :: Workplace harassment,2,8,6,Employment :: Workplace harassment || Disability
+dallas,Disability,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,5,10,5,Government Benefits :: Access to government benefits || Disability
+dallas,Disability,Government Benefits,Application/approval,Government Benefits :: Application/approval,13,10,-3,Government Benefits :: Application/approval || Disability
+dallas,Disability,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,5,17,12,Government Benefits :: Benefit retention / renewal || Disability
+dallas,Disability,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,7,7,0,Healthcare :: Insurance coverage || Disability
+dallas,Disability,Healthcare,Patient safety,Healthcare :: Patient safety,4,10,6,Healthcare :: Patient safety || Disability
+dallas,Disability,Healthcare,Preventive care,Healthcare :: Preventive care,5,10,5,Healthcare :: Preventive care || Disability
+dallas,Disability,Housing,Access to housing,Housing :: Access to housing,11,5,-6,Housing :: Access to housing || Disability
+dallas,Disability,Housing,Homelessness,Housing :: Homelessness,8,9,1,Housing :: Homelessness || Disability
+dallas,Disability,Housing,Housing stability,Housing :: Housing stability,6,8,2,Housing :: Housing stability || Disability
+dallas,Ethnicity,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,4,9,5,Credit & Financial Services :: Access to banking services || Ethnicity
+dallas,Ethnicity,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,3,13,10,Credit & Financial Services :: Access to credit || Ethnicity
+dallas,Ethnicity,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,4,12,8,Credit & Financial Services :: Credit/loan approval || Ethnicity
+dallas,Ethnicity,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,5,9,4,Criminal Justice :: Arrest / detention by police || Ethnicity
+dallas,Ethnicity,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,3,6,3,Criminal Justice :: Incarceration || Ethnicity
+dallas,Ethnicity,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,6,6,0,Criminal Justice :: Police use of force || Ethnicity
+dallas,Ethnicity,Education,College access/admission,Education :: College access/admission,16,10,-6,Education :: College access/admission || Ethnicity
+dallas,Ethnicity,Education,Educational opportunity/access,Education :: Educational opportunity/access,2,9,7,Education :: Educational opportunity/access || Ethnicity
+dallas,Ethnicity,Education,Harassment/bullying,Education :: Harassment/bullying,8,8,0,Education :: Harassment/bullying || Ethnicity
+dallas,Ethnicity,Employment,Career advancement,Employment :: Career advancement,5,10,5,Employment :: Career advancement || Ethnicity
+dallas,Ethnicity,Employment,Hiring,Employment :: Hiring,0,12,12,Employment :: Hiring || Ethnicity
+dallas,Ethnicity,Employment,Workplace harassment,Employment :: Workplace harassment,4,12,8,Employment :: Workplace harassment || Ethnicity
+dallas,Ethnicity,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,6,8,2,Government Benefits :: Access to government benefits || Ethnicity
+dallas,Ethnicity,Government Benefits,Application/approval,Government Benefits :: Application/approval,6,13,7,Government Benefits :: Application/approval || Ethnicity
+dallas,Ethnicity,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,14,14,0,Government Benefits :: Benefit retention / renewal || Ethnicity
+dallas,Ethnicity,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,7,6,-1,Healthcare :: Insurance coverage || Ethnicity
+dallas,Ethnicity,Healthcare,Patient safety,Healthcare :: Patient safety,4,12,8,Healthcare :: Patient safety || Ethnicity
+dallas,Ethnicity,Healthcare,Preventive care,Healthcare :: Preventive care,4,9,5,Healthcare :: Preventive care || Ethnicity
+dallas,Ethnicity,Housing,Access to housing,Housing :: Access to housing,6,8,2,Housing :: Access to housing || Ethnicity
+dallas,Ethnicity,Housing,Homelessness,Housing :: Homelessness,5,8,3,Housing :: Homelessness || Ethnicity
+dallas,Ethnicity,Housing,Housing stability,Housing :: Housing stability,7,10,3,Housing :: Housing stability || Ethnicity
+dallas,Gender,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,7,9,2,Credit & Financial Services :: Access to banking services || Gender
+dallas,Gender,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,7,8,1,Credit & Financial Services :: Access to credit || Gender
+dallas,Gender,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,9,10,1,Credit & Financial Services :: Credit/loan approval || Gender
+dallas,Gender,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,8,9,1,Criminal Justice :: Arrest / detention by police || Gender
+dallas,Gender,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,11,9,-2,Criminal Justice :: Incarceration || Gender
+dallas,Gender,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,7,6,-1,Criminal Justice :: Police use of force || Gender
+dallas,Gender,Education,College access/admission,Education :: College access/admission,9,6,-3,Education :: College access/admission || Gender
+dallas,Gender,Education,Educational opportunity/access,Education :: Educational opportunity/access,7,4,-3,Education :: Educational opportunity/access || Gender
+dallas,Gender,Education,Harassment/bullying,Education :: Harassment/bullying,10,7,-3,Education :: Harassment/bullying || Gender
+dallas,Gender,Employment,Career advancement,Employment :: Career advancement,6,9,3,Employment :: Career advancement || Gender
+dallas,Gender,Employment,Hiring,Employment :: Hiring,5,4,-1,Employment :: Hiring || Gender
+dallas,Gender,Employment,Workplace harassment,Employment :: Workplace harassment,4,6,2,Employment :: Workplace harassment || Gender
+dallas,Gender,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,6,7,1,Government Benefits :: Access to government benefits || Gender
+dallas,Gender,Government Benefits,Application/approval,Government Benefits :: Application/approval,9,16,7,Government Benefits :: Application/approval || Gender
+dallas,Gender,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,5,7,2,Government Benefits :: Benefit retention / renewal || Gender
+dallas,Gender,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,8,9,1,Healthcare :: Insurance coverage || Gender
+dallas,Gender,Healthcare,Patient safety,Healthcare :: Patient safety,3,9,6,Healthcare :: Patient safety || Gender
+dallas,Gender,Healthcare,Preventive care,Healthcare :: Preventive care,4,5,1,Healthcare :: Preventive care || Gender
+dallas,Gender,Housing,Access to housing,Housing :: Access to housing,3,12,9,Housing :: Access to housing || Gender
+dallas,Gender,Housing,Homelessness,Housing :: Homelessness,10,6,-4,Housing :: Homelessness || Gender
+dallas,Gender,Housing,Housing stability,Housing :: Housing stability,10,11,1,Housing :: Housing stability || Gender
+dallas,Gender Identity,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,8,7,-1,Credit & Financial Services :: Access to banking services || Gender Identity
+dallas,Gender Identity,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,8,8,0,Credit & Financial Services :: Access to credit || Gender Identity
+dallas,Gender Identity,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,0,6,6,Credit & Financial Services :: Credit/loan approval || Gender Identity
+dallas,Gender Identity,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,12,6,-6,Criminal Justice :: Arrest / detention by police || Gender Identity
+dallas,Gender Identity,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,3,7,4,Criminal Justice :: Incarceration || Gender Identity
+dallas,Gender Identity,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,8,8,0,Criminal Justice :: Police use of force || Gender Identity
+dallas,Gender Identity,Education,College access/admission,Education :: College access/admission,0,17,17,Education :: College access/admission || Gender Identity
+dallas,Gender Identity,Education,Educational opportunity/access,Education :: Educational opportunity/access,14,9,-5,Education :: Educational opportunity/access || Gender Identity
+dallas,Gender Identity,Education,Harassment/bullying,Education :: Harassment/bullying,14,6,-8,Education :: Harassment/bullying || Gender Identity
+dallas,Gender Identity,Employment,Career advancement,Employment :: Career advancement,10,7,-3,Employment :: Career advancement || Gender Identity
+dallas,Gender Identity,Employment,Hiring,Employment :: Hiring,7,6,-1,Employment :: Hiring || Gender Identity
+dallas,Gender Identity,Employment,Workplace harassment,Employment :: Workplace harassment,5,9,4,Employment :: Workplace harassment || Gender Identity
+dallas,Gender Identity,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,10,7,-3,Government Benefits :: Access to government benefits || Gender Identity
+dallas,Gender Identity,Government Benefits,Application/approval,Government Benefits :: Application/approval,11,14,3,Government Benefits :: Application/approval || Gender Identity
+dallas,Gender Identity,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,16,16,0,Government Benefits :: Benefit retention / renewal || Gender Identity
+dallas,Gender Identity,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,7,5,-2,Healthcare :: Insurance coverage || Gender Identity
+dallas,Gender Identity,Healthcare,Patient safety,Healthcare :: Patient safety,4,10,6,Healthcare :: Patient safety || Gender Identity
+dallas,Gender Identity,Healthcare,Preventive care,Healthcare :: Preventive care,0,9,9,Healthcare :: Preventive care || Gender Identity
+dallas,Gender Identity,Housing,Access to housing,Housing :: Access to housing,7,11,4,Housing :: Access to housing || Gender Identity
+dallas,Gender Identity,Housing,Homelessness,Housing :: Homelessness,11,13,2,Housing :: Homelessness || Gender Identity
+dallas,Gender Identity,Housing,Housing stability,Housing :: Housing stability,3,13,10,Housing :: Housing stability || Gender Identity
+dallas,Race,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,6,10,4,Credit & Financial Services :: Access to banking services || Race
+dallas,Race,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,7,13,6,Credit & Financial Services :: Access to credit || Race
+dallas,Race,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,4,12,8,Credit & Financial Services :: Credit/loan approval || Race
+dallas,Race,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,6,9,3,Criminal Justice :: Arrest / detention by police || Race
+dallas,Race,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,3,8,5,Criminal Justice :: Incarceration || Race
+dallas,Race,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,3,7,4,Criminal Justice :: Police use of force || Race
+dallas,Race,Education,College access/admission,Education :: College access/admission,6,12,6,Education :: College access/admission || Race
+dallas,Race,Education,Educational opportunity/access,Education :: Educational opportunity/access,5,9,4,Education :: Educational opportunity/access || Race
+dallas,Race,Education,Harassment/bullying,Education :: Harassment/bullying,4,13,9,Education :: Harassment/bullying || Race
+dallas,Race,Employment,Career advancement,Employment :: Career advancement,5,9,4,Employment :: Career advancement || Race
+dallas,Race,Employment,Hiring,Employment :: Hiring,4,10,6,Employment :: Hiring || Race
+dallas,Race,Employment,Workplace harassment,Employment :: Workplace harassment,5,11,6,Employment :: Workplace harassment || Race
+dallas,Race,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,5,8,3,Government Benefits :: Access to government benefits || Race
+dallas,Race,Government Benefits,Application/approval,Government Benefits :: Application/approval,15,6,-9,Government Benefits :: Application/approval || Race
+dallas,Race,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,8,15,7,Government Benefits :: Benefit retention / renewal || Race
+dallas,Race,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,5,7,2,Healthcare :: Insurance coverage || Race
+dallas,Race,Healthcare,Patient safety,Healthcare :: Patient safety,5,9,4,Healthcare :: Patient safety || Race
+dallas,Race,Healthcare,Preventive care,Healthcare :: Preventive care,5,6,1,Healthcare :: Preventive care || Race
+dallas,Race,Housing,Access to housing,Housing :: Access to housing,6,12,6,Housing :: Access to housing || Race
+dallas,Race,Housing,Homelessness,Housing :: Homelessness,5,12,7,Housing :: Homelessness || Race
+dallas,Race,Housing,Housing stability,Housing :: Housing stability,9,8,-1,Housing :: Housing stability || Race
+dallas,Sexual Orientation,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,9,6,-3,Credit & Financial Services :: Access to banking services || Sexual Orientation
+dallas,Sexual Orientation,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,9,8,-1,Credit & Financial Services :: Access to credit || Sexual Orientation
+dallas,Sexual Orientation,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,4,5,1,Credit & Financial Services :: Credit/loan approval || Sexual Orientation
+dallas,Sexual Orientation,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,16,7,-9,Criminal Justice :: Arrest / detention by police || Sexual Orientation
+dallas,Sexual Orientation,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,5,10,5,Criminal Justice :: Incarceration || Sexual Orientation
+dallas,Sexual Orientation,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,7,7,0,Criminal Justice :: Police use of force || Sexual Orientation
+dallas,Sexual Orientation,Education,College access/admission,Education :: College access/admission,0,7,7,Education :: College access/admission || Sexual Orientation
+dallas,Sexual Orientation,Education,Educational opportunity/access,Education :: Educational opportunity/access,10,11,1,Education :: Educational opportunity/access || Sexual Orientation
+dallas,Sexual Orientation,Education,Harassment/bullying,Education :: Harassment/bullying,17,10,-7,Education :: Harassment/bullying || Sexual Orientation
+dallas,Sexual Orientation,Employment,Career advancement,Employment :: Career advancement,6,6,0,Employment :: Career advancement || Sexual Orientation
+dallas,Sexual Orientation,Employment,Hiring,Employment :: Hiring,0,4,4,Employment :: Hiring || Sexual Orientation
+dallas,Sexual Orientation,Employment,Workplace harassment,Employment :: Workplace harassment,8,9,1,Employment :: Workplace harassment || Sexual Orientation
+dallas,Sexual Orientation,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,6,9,3,Government Benefits :: Access to government benefits || Sexual Orientation
+dallas,Sexual Orientation,Government Benefits,Application/approval,Government Benefits :: Application/approval,0,6,6,Government Benefits :: Application/approval || Sexual Orientation
+dallas,Sexual Orientation,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,10,12,2,Government Benefits :: Benefit retention / renewal || Sexual Orientation
+dallas,Sexual Orientation,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,7,13,6,Healthcare :: Insurance coverage || Sexual Orientation
+dallas,Sexual Orientation,Healthcare,Patient safety,Healthcare :: Patient safety,7,10,3,Healthcare :: Patient safety || Sexual Orientation
+dallas,Sexual Orientation,Healthcare,Preventive care,Healthcare :: Preventive care,10,8,-2,Healthcare :: Preventive care || Sexual Orientation
+dallas,Sexual Orientation,Housing,Access to housing,Housing :: Access to housing,8,10,2,Housing :: Access to housing || Sexual Orientation
+dallas,Sexual Orientation,Housing,Homelessness,Housing :: Homelessness,9,9,0,Housing :: Homelessness || Sexual Orientation
+dallas,Sexual Orientation,Housing,Housing stability,Housing :: Housing stability,5,9,4,Housing :: Housing stability || Sexual Orientation
+la,Disability,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,7,11,4,Credit & Financial Services :: Access to banking services || Disability
+la,Disability,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,3,7,4,Credit & Financial Services :: Access to credit || Disability
+la,Disability,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,3,11,8,Credit & Financial Services :: Credit/loan approval || Disability
+la,Disability,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,1,7,6,Criminal Justice :: Arrest / detention by police || Disability
+la,Disability,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,7,9,2,Criminal Justice :: Incarceration || Disability
+la,Disability,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,4,9,5,Criminal Justice :: Police use of force || Disability
+la,Disability,Education,College access/admission,Education :: College access/admission,2,10,8,Education :: College access/admission || Disability
+la,Disability,Education,Educational opportunity/access,Education :: Educational opportunity/access,7,13,6,Education :: Educational opportunity/access || Disability
+la,Disability,Education,Harassment/bullying,Education :: Harassment/bullying,1,9,8,Education :: Harassment/bullying || Disability
+la,Disability,Employment,Career advancement,Employment :: Career advancement,0,8,8,Employment :: Career advancement || Disability
+la,Disability,Employment,Hiring,Employment :: Hiring,3,10,7,Employment :: Hiring || Disability
+la,Disability,Employment,Workplace harassment,Employment :: Workplace harassment,2,10,8,Employment :: Workplace harassment || Disability
+la,Disability,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,7,8,1,Government Benefits :: Access to government benefits || Disability
+la,Disability,Government Benefits,Application/approval,Government Benefits :: Application/approval,0,7,7,Government Benefits :: Application/approval || Disability
+la,Disability,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,16,13,-3,Government Benefits :: Benefit retention / renewal || Disability
+la,Disability,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,3,10,7,Healthcare :: Insurance coverage || Disability
+la,Disability,Healthcare,Patient safety,Healthcare :: Patient safety,6,7,1,Healthcare :: Patient safety || Disability
+la,Disability,Healthcare,Preventive care,Healthcare :: Preventive care,3,10,7,Healthcare :: Preventive care || Disability
+la,Disability,Housing,Access to housing,Housing :: Access to housing,8,10,2,Housing :: Access to housing || Disability
+la,Disability,Housing,Homelessness,Housing :: Homelessness,10,8,-2,Housing :: Homelessness || Disability
+la,Disability,Housing,Housing stability,Housing :: Housing stability,7,7,0,Housing :: Housing stability || Disability
+la,Ethnicity,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,3,10,7,Credit & Financial Services :: Access to banking services || Ethnicity
+la,Ethnicity,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,5,11,6,Credit & Financial Services :: Access to credit || Ethnicity
+la,Ethnicity,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,4,12,8,Credit & Financial Services :: Credit/loan approval || Ethnicity
+la,Ethnicity,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,6,5,-1,Criminal Justice :: Arrest / detention by police || Ethnicity
+la,Ethnicity,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,7,10,3,Criminal Justice :: Incarceration || Ethnicity
+la,Ethnicity,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,4,7,3,Criminal Justice :: Police use of force || Ethnicity
+la,Ethnicity,Education,College access/admission,Education :: College access/admission,10,11,1,Education :: College access/admission || Ethnicity
+la,Ethnicity,Education,Educational opportunity/access,Education :: Educational opportunity/access,2,7,5,Education :: Educational opportunity/access || Ethnicity
+la,Ethnicity,Education,Harassment/bullying,Education :: Harassment/bullying,9,6,-3,Education :: Harassment/bullying || Ethnicity
+la,Ethnicity,Employment,Career advancement,Employment :: Career advancement,7,9,2,Employment :: Career advancement || Ethnicity
+la,Ethnicity,Employment,Hiring,Employment :: Hiring,8,9,1,Employment :: Hiring || Ethnicity
+la,Ethnicity,Employment,Workplace harassment,Employment :: Workplace harassment,3,9,6,Employment :: Workplace harassment || Ethnicity
+la,Ethnicity,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,6,6,0,Government Benefits :: Access to government benefits || Ethnicity
+la,Ethnicity,Government Benefits,Application/approval,Government Benefits :: Application/approval,6,9,3,Government Benefits :: Application/approval || Ethnicity
+la,Ethnicity,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,22,11,-11,Government Benefits :: Benefit retention / renewal || Ethnicity
+la,Ethnicity,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,5,6,1,Healthcare :: Insurance coverage || Ethnicity
+la,Ethnicity,Healthcare,Patient safety,Healthcare :: Patient safety,6,6,0,Healthcare :: Patient safety || Ethnicity
+la,Ethnicity,Healthcare,Preventive care,Healthcare :: Preventive care,11,10,-1,Healthcare :: Preventive care || Ethnicity
+la,Ethnicity,Housing,Access to housing,Housing :: Access to housing,6,11,5,Housing :: Access to housing || Ethnicity
+la,Ethnicity,Housing,Homelessness,Housing :: Homelessness,5,8,3,Housing :: Homelessness || Ethnicity
+la,Ethnicity,Housing,Housing stability,Housing :: Housing stability,8,11,3,Housing :: Housing stability || Ethnicity
+la,Gender,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,9,12,3,Credit & Financial Services :: Access to banking services || Gender
+la,Gender,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,3,10,7,Credit & Financial Services :: Access to credit || Gender
+la,Gender,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,5,10,5,Credit & Financial Services :: Credit/loan approval || Gender
+la,Gender,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,8,8,0,Criminal Justice :: Arrest / detention by police || Gender
+la,Gender,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,8,10,2,Criminal Justice :: Incarceration || Gender
+la,Gender,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,9,8,-1,Criminal Justice :: Police use of force || Gender
+la,Gender,Education,College access/admission,Education :: College access/admission,8,13,5,Education :: College access/admission || Gender
+la,Gender,Education,Educational opportunity/access,Education :: Educational opportunity/access,4,9,5,Education :: Educational opportunity/access || Gender
+la,Gender,Education,Harassment/bullying,Education :: Harassment/bullying,8,5,-3,Education :: Harassment/bullying || Gender
+la,Gender,Employment,Career advancement,Employment :: Career advancement,5,9,4,Employment :: Career advancement || Gender
+la,Gender,Employment,Hiring,Employment :: Hiring,8,9,1,Employment :: Hiring || Gender
+la,Gender,Employment,Workplace harassment,Employment :: Workplace harassment,6,6,0,Employment :: Workplace harassment || Gender
+la,Gender,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,4,6,2,Government Benefits :: Access to government benefits || Gender
+la,Gender,Government Benefits,Application/approval,Government Benefits :: Application/approval,7,21,14,Government Benefits :: Application/approval || Gender
+la,Gender,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,12,17,5,Government Benefits :: Benefit retention / renewal || Gender
+la,Gender,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,10,9,-1,Healthcare :: Insurance coverage || Gender
+la,Gender,Healthcare,Patient safety,Healthcare :: Patient safety,7,4,-3,Healthcare :: Patient safety || Gender
+la,Gender,Healthcare,Preventive care,Healthcare :: Preventive care,4,5,1,Healthcare :: Preventive care || Gender
+la,Gender,Housing,Access to housing,Housing :: Access to housing,6,10,4,Housing :: Access to housing || Gender
+la,Gender,Housing,Homelessness,Housing :: Homelessness,9,9,0,Housing :: Homelessness || Gender
+la,Gender,Housing,Housing stability,Housing :: Housing stability,10,8,-2,Housing :: Housing stability || Gender
+la,Gender Identity,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,7,5,-2,Credit & Financial Services :: Access to banking services || Gender Identity
+la,Gender Identity,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,8,5,-3,Credit & Financial Services :: Access to credit || Gender Identity
+la,Gender Identity,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,5,9,4,Credit & Financial Services :: Credit/loan approval || Gender Identity
+la,Gender Identity,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,20,8,-12,Criminal Justice :: Arrest / detention by police || Gender Identity
+la,Gender Identity,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,4,7,3,Criminal Justice :: Incarceration || Gender Identity
+la,Gender Identity,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,4,19,15,Criminal Justice :: Police use of force || Gender Identity
+la,Gender Identity,Education,College access/admission,Education :: College access/admission,0,17,17,Education :: College access/admission || Gender Identity
+la,Gender Identity,Education,Educational opportunity/access,Education :: Educational opportunity/access,12,11,-1,Education :: Educational opportunity/access || Gender Identity
+la,Gender Identity,Education,Harassment/bullying,Education :: Harassment/bullying,10,8,-2,Education :: Harassment/bullying || Gender Identity
+la,Gender Identity,Employment,Career advancement,Employment :: Career advancement,0,11,11,Employment :: Career advancement || Gender Identity
+la,Gender Identity,Employment,Hiring,Employment :: Hiring,0,11,11,Employment :: Hiring || Gender Identity
+la,Gender Identity,Employment,Workplace harassment,Employment :: Workplace harassment,4,10,6,Employment :: Workplace harassment || Gender Identity
+la,Gender Identity,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,13,9,-4,Government Benefits :: Access to government benefits || Gender Identity
+la,Gender Identity,Government Benefits,Application/approval,Government Benefits :: Application/approval,12,14,2,Government Benefits :: Application/approval || Gender Identity
+la,Gender Identity,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,10,13,3,Government Benefits :: Benefit retention / renewal || Gender Identity
+la,Gender Identity,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,0,7,7,Healthcare :: Insurance coverage || Gender Identity
+la,Gender Identity,Healthcare,Patient safety,Healthcare :: Patient safety,4,13,9,Healthcare :: Patient safety || Gender Identity
+la,Gender Identity,Healthcare,Preventive care,Healthcare :: Preventive care,3,8,5,Healthcare :: Preventive care || Gender Identity
+la,Gender Identity,Housing,Access to housing,Housing :: Access to housing,4,12,8,Housing :: Access to housing || Gender Identity
+la,Gender Identity,Housing,Homelessness,Housing :: Homelessness,8,10,2,Housing :: Homelessness || Gender Identity
+la,Gender Identity,Housing,Housing stability,Housing :: Housing stability,4,10,6,Housing :: Housing stability || Gender Identity
+la,Race,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,7,9,2,Credit & Financial Services :: Access to banking services || Race
+la,Race,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,9,8,-1,Credit & Financial Services :: Access to credit || Race
+la,Race,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,6,13,7,Credit & Financial Services :: Credit/loan approval || Race
+la,Race,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,1,3,2,Criminal Justice :: Arrest / detention by police || Race
+la,Race,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,3,7,4,Criminal Justice :: Incarceration || Race
+la,Race,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,5,8,3,Criminal Justice :: Police use of force || Race
+la,Race,Education,College access/admission,Education :: College access/admission,5,8,3,Education :: College access/admission || Race
+la,Race,Education,Educational opportunity/access,Education :: Educational opportunity/access,6,13,7,Education :: Educational opportunity/access || Race
+la,Race,Education,Harassment/bullying,Education :: Harassment/bullying,4,20,16,Education :: Harassment/bullying || Race
+la,Race,Employment,Career advancement,Employment :: Career advancement,5,7,2,Employment :: Career advancement || Race
+la,Race,Employment,Hiring,Employment :: Hiring,4,10,6,Employment :: Hiring || Race
+la,Race,Employment,Workplace harassment,Employment :: Workplace harassment,4,6,2,Employment :: Workplace harassment || Race
+la,Race,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,6,7,1,Government Benefits :: Access to government benefits || Race
+la,Race,Government Benefits,Application/approval,Government Benefits :: Application/approval,10,16,6,Government Benefits :: Application/approval || Race
+la,Race,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,9,11,2,Government Benefits :: Benefit retention / renewal || Race
+la,Race,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,5,9,4,Healthcare :: Insurance coverage || Race
+la,Race,Healthcare,Patient safety,Healthcare :: Patient safety,3,8,5,Healthcare :: Patient safety || Race
+la,Race,Healthcare,Preventive care,Healthcare :: Preventive care,4,10,6,Healthcare :: Preventive care || Race
+la,Race,Housing,Access to housing,Housing :: Access to housing,0,13,13,Housing :: Access to housing || Race
+la,Race,Housing,Homelessness,Housing :: Homelessness,6,8,2,Housing :: Homelessness || Race
+la,Race,Housing,Housing stability,Housing :: Housing stability,7,7,0,Housing :: Housing stability || Race
+la,Sexual Orientation,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,10,10,0,Credit & Financial Services :: Access to banking services || Sexual Orientation
+la,Sexual Orientation,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,7,9,2,Credit & Financial Services :: Access to credit || Sexual Orientation
+la,Sexual Orientation,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,6,10,4,Credit & Financial Services :: Credit/loan approval || Sexual Orientation
+la,Sexual Orientation,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,20,8,-12,Criminal Justice :: Arrest / detention by police || Sexual Orientation
+la,Sexual Orientation,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,3,5,2,Criminal Justice :: Incarceration || Sexual Orientation
+la,Sexual Orientation,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,5,5,0,Criminal Justice :: Police use of force || Sexual Orientation
+la,Sexual Orientation,Education,College access/admission,Education :: College access/admission,15,8,-7,Education :: College access/admission || Sexual Orientation
+la,Sexual Orientation,Education,Educational opportunity/access,Education :: Educational opportunity/access,12,6,-6,Education :: Educational opportunity/access || Sexual Orientation
+la,Sexual Orientation,Education,Harassment/bullying,Education :: Harassment/bullying,19,10,-9,Education :: Harassment/bullying || Sexual Orientation
+la,Sexual Orientation,Employment,Career advancement,Employment :: Career advancement,5,11,6,Employment :: Career advancement || Sexual Orientation
+la,Sexual Orientation,Employment,Hiring,Employment :: Hiring,0,6,6,Employment :: Hiring || Sexual Orientation
+la,Sexual Orientation,Employment,Workplace harassment,Employment :: Workplace harassment,12,6,-6,Employment :: Workplace harassment || Sexual Orientation
+la,Sexual Orientation,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,7,6,-1,Government Benefits :: Access to government benefits || Sexual Orientation
+la,Sexual Orientation,Government Benefits,Application/approval,Government Benefits :: Application/approval,0,15,15,Government Benefits :: Application/approval || Sexual Orientation
+la,Sexual Orientation,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,6,15,9,Government Benefits :: Benefit retention / renewal || Sexual Orientation
+la,Sexual Orientation,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,4,9,5,Healthcare :: Insurance coverage || Sexual Orientation
+la,Sexual Orientation,Healthcare,Patient safety,Healthcare :: Patient safety,7,9,2,Healthcare :: Patient safety || Sexual Orientation
+la,Sexual Orientation,Healthcare,Preventive care,Healthcare :: Preventive care,8,13,5,Healthcare :: Preventive care || Sexual Orientation
+la,Sexual Orientation,Housing,Access to housing,Housing :: Access to housing,5,7,2,Housing :: Access to housing || Sexual Orientation
+la,Sexual Orientation,Housing,Homelessness,Housing :: Homelessness,6,10,4,Housing :: Homelessness || Sexual Orientation
+la,Sexual Orientation,Housing,Housing stability,Housing :: Housing stability,7,7,0,Housing :: Housing stability || Sexual Orientation
+ny,Disability,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,2,12,10,Credit & Financial Services :: Access to banking services || Disability
+ny,Disability,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,7,9,2,Credit & Financial Services :: Access to credit || Disability
+ny,Disability,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,3,5,2,Credit & Financial Services :: Credit/loan approval || Disability
+ny,Disability,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,0,5,5,Criminal Justice :: Arrest / detention by police || Disability
+ny,Disability,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,3,11,8,Criminal Justice :: Incarceration || Disability
+ny,Disability,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,13,8,-5,Criminal Justice :: Police use of force || Disability
+ny,Disability,Education,College access/admission,Education :: College access/admission,1,12,11,Education :: College access/admission || Disability
+ny,Disability,Education,Educational opportunity/access,Education :: Educational opportunity/access,6,13,7,Education :: Educational opportunity/access || Disability
+ny,Disability,Education,Harassment/bullying,Education :: Harassment/bullying,1,6,5,Education :: Harassment/bullying || Disability
+ny,Disability,Employment,Career advancement,Employment :: Career advancement,0,7,7,Employment :: Career advancement || Disability
+ny,Disability,Employment,Hiring,Employment :: Hiring,7,7,0,Employment :: Hiring || Disability
+ny,Disability,Employment,Workplace harassment,Employment :: Workplace harassment,2,8,6,Employment :: Workplace harassment || Disability
+ny,Disability,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,8,7,-1,Government Benefits :: Access to government benefits || Disability
+ny,Disability,Government Benefits,Application/approval,Government Benefits :: Application/approval,6,9,3,Government Benefits :: Application/approval || Disability
+ny,Disability,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,16,14,-2,Government Benefits :: Benefit retention / renewal || Disability
+ny,Disability,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,5,7,2,Healthcare :: Insurance coverage || Disability
+ny,Disability,Healthcare,Patient safety,Healthcare :: Patient safety,6,13,7,Healthcare :: Patient safety || Disability
+ny,Disability,Healthcare,Preventive care,Healthcare :: Preventive care,10,8,-2,Healthcare :: Preventive care || Disability
+ny,Disability,Housing,Access to housing,Housing :: Access to housing,10,9,-1,Housing :: Access to housing || Disability
+ny,Disability,Housing,Homelessness,Housing :: Homelessness,8,10,2,Housing :: Homelessness || Disability
+ny,Disability,Housing,Housing stability,Housing :: Housing stability,6,11,5,Housing :: Housing stability || Disability
+ny,Ethnicity,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,4,7,3,Credit & Financial Services :: Access to banking services || Ethnicity
+ny,Ethnicity,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,3,7,4,Credit & Financial Services :: Access to credit || Ethnicity
+ny,Ethnicity,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,7,9,2,Credit & Financial Services :: Credit/loan approval || Ethnicity
+ny,Ethnicity,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,6,5,-1,Criminal Justice :: Arrest / detention by police || Ethnicity
+ny,Ethnicity,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,5,9,4,Criminal Justice :: Incarceration || Ethnicity
+ny,Ethnicity,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,7,6,-1,Criminal Justice :: Police use of force || Ethnicity
+ny,Ethnicity,Education,College access/admission,Education :: College access/admission,16,8,-8,Education :: College access/admission || Ethnicity
+ny,Ethnicity,Education,Educational opportunity/access,Education :: Educational opportunity/access,6,9,3,Education :: Educational opportunity/access || Ethnicity
+ny,Ethnicity,Education,Harassment/bullying,Education :: Harassment/bullying,6,5,-1,Education :: Harassment/bullying || Ethnicity
+ny,Ethnicity,Employment,Career advancement,Employment :: Career advancement,2,6,4,Employment :: Career advancement || Ethnicity
+ny,Ethnicity,Employment,Hiring,Employment :: Hiring,15,7,-8,Employment :: Hiring || Ethnicity
+ny,Ethnicity,Employment,Workplace harassment,Employment :: Workplace harassment,2,7,5,Employment :: Workplace harassment || Ethnicity
+ny,Ethnicity,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,8,7,-1,Government Benefits :: Access to government benefits || Ethnicity
+ny,Ethnicity,Government Benefits,Application/approval,Government Benefits :: Application/approval,6,15,9,Government Benefits :: Application/approval || Ethnicity
+ny,Ethnicity,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,17,18,1,Government Benefits :: Benefit retention / renewal || Ethnicity
+ny,Ethnicity,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,6,4,-2,Healthcare :: Insurance coverage || Ethnicity
+ny,Ethnicity,Healthcare,Patient safety,Healthcare :: Patient safety,4,10,6,Healthcare :: Patient safety || Ethnicity
+ny,Ethnicity,Healthcare,Preventive care,Healthcare :: Preventive care,3,7,4,Healthcare :: Preventive care || Ethnicity
+ny,Ethnicity,Housing,Access to housing,Housing :: Access to housing,5,10,5,Housing :: Access to housing || Ethnicity
+ny,Ethnicity,Housing,Homelessness,Housing :: Homelessness,5,9,4,Housing :: Homelessness || Ethnicity
+ny,Ethnicity,Housing,Housing stability,Housing :: Housing stability,6,8,2,Housing :: Housing stability || Ethnicity
+ny,Gender,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,10,11,1,Credit & Financial Services :: Access to banking services || Gender
+ny,Gender,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,4,6,2,Credit & Financial Services :: Access to credit || Gender
+ny,Gender,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,9,12,3,Credit & Financial Services :: Credit/loan approval || Gender
+ny,Gender,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,7,7,0,Criminal Justice :: Arrest / detention by police || Gender
+ny,Gender,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,9,11,2,Criminal Justice :: Incarceration || Gender
+ny,Gender,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,7,9,2,Criminal Justice :: Police use of force || Gender
+ny,Gender,Education,College access/admission,Education :: College access/admission,10,13,3,Education :: College access/admission || Gender
+ny,Gender,Education,Educational opportunity/access,Education :: Educational opportunity/access,7,7,0,Education :: Educational opportunity/access || Gender
+ny,Gender,Education,Harassment/bullying,Education :: Harassment/bullying,8,7,-1,Education :: Harassment/bullying || Gender
+ny,Gender,Employment,Career advancement,Employment :: Career advancement,3,7,4,Employment :: Career advancement || Gender
+ny,Gender,Employment,Hiring,Employment :: Hiring,8,8,0,Employment :: Hiring || Gender
+ny,Gender,Employment,Workplace harassment,Employment :: Workplace harassment,9,8,-1,Employment :: Workplace harassment || Gender
+ny,Gender,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,8,8,0,Government Benefits :: Access to government benefits || Gender
+ny,Gender,Government Benefits,Application/approval,Government Benefits :: Application/approval,7,13,6,Government Benefits :: Application/approval || Gender
+ny,Gender,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,3,19,16,Government Benefits :: Benefit retention / renewal || Gender
+ny,Gender,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,7,6,-1,Healthcare :: Insurance coverage || Gender
+ny,Gender,Healthcare,Patient safety,Healthcare :: Patient safety,12,5,-7,Healthcare :: Patient safety || Gender
+ny,Gender,Healthcare,Preventive care,Healthcare :: Preventive care,6,4,-2,Healthcare :: Preventive care || Gender
+ny,Gender,Housing,Access to housing,Housing :: Access to housing,9,10,1,Housing :: Access to housing || Gender
+ny,Gender,Housing,Homelessness,Housing :: Homelessness,9,11,2,Housing :: Homelessness || Gender
+ny,Gender,Housing,Housing stability,Housing :: Housing stability,7,12,5,Housing :: Housing stability || Gender
+ny,Gender Identity,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,10,8,-2,Credit & Financial Services :: Access to banking services || Gender Identity
+ny,Gender Identity,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,9,8,-1,Credit & Financial Services :: Access to credit || Gender Identity
+ny,Gender Identity,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,0,8,8,Credit & Financial Services :: Credit/loan approval || Gender Identity
+ny,Gender Identity,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,20,8,-12,Criminal Justice :: Arrest / detention by police || Gender Identity
+ny,Gender Identity,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,3,7,4,Criminal Justice :: Incarceration || Gender Identity
+ny,Gender Identity,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,6,8,2,Criminal Justice :: Police use of force || Gender Identity
+ny,Gender Identity,Education,College access/admission,Education :: College access/admission,14,16,2,Education :: College access/admission || Gender Identity
+ny,Gender Identity,Education,Educational opportunity/access,Education :: Educational opportunity/access,7,10,3,Education :: Educational opportunity/access || Gender Identity
+ny,Gender Identity,Education,Harassment/bullying,Education :: Harassment/bullying,9,16,7,Education :: Harassment/bullying || Gender Identity
+ny,Gender Identity,Employment,Career advancement,Employment :: Career advancement,15,7,-8,Employment :: Career advancement || Gender Identity
+ny,Gender Identity,Employment,Hiring,Employment :: Hiring,4,6,2,Employment :: Hiring || Gender Identity
+ny,Gender Identity,Employment,Workplace harassment,Employment :: Workplace harassment,3,11,8,Employment :: Workplace harassment || Gender Identity
+ny,Gender Identity,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,10,8,-2,Government Benefits :: Access to government benefits || Gender Identity
+ny,Gender Identity,Government Benefits,Application/approval,Government Benefits :: Application/approval,13,17,4,Government Benefits :: Application/approval || Gender Identity
+ny,Gender Identity,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,14,16,2,Government Benefits :: Benefit retention / renewal || Gender Identity
+ny,Gender Identity,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,2,6,4,Healthcare :: Insurance coverage || Gender Identity
+ny,Gender Identity,Healthcare,Patient safety,Healthcare :: Patient safety,1,10,9,Healthcare :: Patient safety || Gender Identity
+ny,Gender Identity,Healthcare,Preventive care,Healthcare :: Preventive care,2,8,6,Healthcare :: Preventive care || Gender Identity
+ny,Gender Identity,Housing,Access to housing,Housing :: Access to housing,4,8,4,Housing :: Access to housing || Gender Identity
+ny,Gender Identity,Housing,Homelessness,Housing :: Homelessness,5,9,4,Housing :: Homelessness || Gender Identity
+ny,Gender Identity,Housing,Housing stability,Housing :: Housing stability,6,11,5,Housing :: Housing stability || Gender Identity
+ny,Race,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,8,7,-1,Credit & Financial Services :: Access to banking services || Race
+ny,Race,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,7,12,5,Credit & Financial Services :: Access to credit || Race
+ny,Race,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,8,12,4,Credit & Financial Services :: Credit/loan approval || Race
+ny,Race,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,6,6,0,Criminal Justice :: Arrest / detention by police || Race
+ny,Race,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,6,9,3,Criminal Justice :: Incarceration || Race
+ny,Race,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,5,7,2,Criminal Justice :: Police use of force || Race
+ny,Race,Education,College access/admission,Education :: College access/admission,5,4,-1,Education :: College access/admission || Race
+ny,Race,Education,Educational opportunity/access,Education :: Educational opportunity/access,6,12,6,Education :: Educational opportunity/access || Race
+ny,Race,Education,Harassment/bullying,Education :: Harassment/bullying,3,14,11,Education :: Harassment/bullying || Race
+ny,Race,Employment,Career advancement,Employment :: Career advancement,4,10,6,Employment :: Career advancement || Race
+ny,Race,Employment,Hiring,Employment :: Hiring,6,8,2,Employment :: Hiring || Race
+ny,Race,Employment,Workplace harassment,Employment :: Workplace harassment,8,8,0,Employment :: Workplace harassment || Race
+ny,Race,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,6,11,5,Government Benefits :: Access to government benefits || Race
+ny,Race,Government Benefits,Application/approval,Government Benefits :: Application/approval,10,9,-1,Government Benefits :: Application/approval || Race
+ny,Race,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,12,12,0,Government Benefits :: Benefit retention / renewal || Race
+ny,Race,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,6,6,0,Healthcare :: Insurance coverage || Race
+ny,Race,Healthcare,Patient safety,Healthcare :: Patient safety,9,8,-1,Healthcare :: Patient safety || Race
+ny,Race,Healthcare,Preventive care,Healthcare :: Preventive care,5,10,5,Healthcare :: Preventive care || Race
+ny,Race,Housing,Access to housing,Housing :: Access to housing,5,11,6,Housing :: Access to housing || Race
+ny,Race,Housing,Homelessness,Housing :: Homelessness,7,9,2,Housing :: Homelessness || Race
+ny,Race,Housing,Housing stability,Housing :: Housing stability,3,11,8,Housing :: Housing stability || Race
+ny,Sexual Orientation,Credit & Financial Services,Access to banking services,Credit & Financial Services :: Access to banking services,4,9,5,Credit & Financial Services :: Access to banking services || Sexual Orientation
+ny,Sexual Orientation,Credit & Financial Services,Access to credit,Credit & Financial Services :: Access to credit,4,9,5,Credit & Financial Services :: Access to credit || Sexual Orientation
+ny,Sexual Orientation,Credit & Financial Services,Credit/loan approval,Credit & Financial Services :: Credit/loan approval,7,12,5,Credit & Financial Services :: Credit/loan approval || Sexual Orientation
+ny,Sexual Orientation,Criminal Justice,Arrest / detention by police,Criminal Justice :: Arrest / detention by police,17,20,3,Criminal Justice :: Arrest / detention by police || Sexual Orientation
+ny,Sexual Orientation,Criminal Justice,Incarceration,Criminal Justice :: Incarceration,3,8,5,Criminal Justice :: Incarceration || Sexual Orientation
+ny,Sexual Orientation,Criminal Justice,Police use of force,Criminal Justice :: Police use of force,15,11,-4,Criminal Justice :: Police use of force || Sexual Orientation
+ny,Sexual Orientation,Education,College access/admission,Education :: College access/admission,20,9,-11,Education :: College access/admission || Sexual Orientation
+ny,Sexual Orientation,Education,Educational opportunity/access,Education :: Educational opportunity/access,8,9,1,Education :: Educational opportunity/access || Sexual Orientation
+ny,Sexual Orientation,Education,Harassment/bullying,Education :: Harassment/bullying,16,11,-5,Education :: Harassment/bullying || Sexual Orientation
+ny,Sexual Orientation,Employment,Career advancement,Employment :: Career advancement,6,9,3,Employment :: Career advancement || Sexual Orientation
+ny,Sexual Orientation,Employment,Hiring,Employment :: Hiring,0,6,6,Employment :: Hiring || Sexual Orientation
+ny,Sexual Orientation,Employment,Workplace harassment,Employment :: Workplace harassment,16,9,-7,Employment :: Workplace harassment || Sexual Orientation
+ny,Sexual Orientation,Government Benefits,Access to government benefits,Government Benefits :: Access to government benefits,7,7,0,Government Benefits :: Access to government benefits || Sexual Orientation
+ny,Sexual Orientation,Government Benefits,Application/approval,Government Benefits :: Application/approval,6,3,-3,Government Benefits :: Application/approval || Sexual Orientation
+ny,Sexual Orientation,Government Benefits,Benefit retention / renewal,Government Benefits :: Benefit retention / renewal,16,12,-4,Government Benefits :: Benefit retention / renewal || Sexual Orientation
+ny,Sexual Orientation,Healthcare,Insurance coverage,Healthcare :: Insurance coverage,6,7,1,Healthcare :: Insurance coverage || Sexual Orientation
+ny,Sexual Orientation,Healthcare,Patient safety,Healthcare :: Patient safety,5,9,4,Healthcare :: Patient safety || Sexual Orientation
+ny,Sexual Orientation,Healthcare,Preventive care,Healthcare :: Preventive care,7,9,2,Healthcare :: Preventive care || Sexual Orientation
+ny,Sexual Orientation,Housing,Access to housing,Housing :: Access to housing,5,10,5,Housing :: Access to housing || Sexual Orientation
+ny,Sexual Orientation,Housing,Homelessness,Housing :: Homelessness,8,10,2,Housing :: Homelessness || Sexual Orientation
+ny,Sexual Orientation,Housing,Housing stability,Housing :: Housing stability,8,6,-2,Housing :: Housing stability || Sexual Orientation

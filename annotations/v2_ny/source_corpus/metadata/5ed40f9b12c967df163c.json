@@ -1,0 +1,28 @@
+{
+  "source_id": "5ed40f9b12c967df163c",
+  "normalized_url": "https://nationalacademies.org/read/9719/chapter/8",
+  "fetch_timestamp_utc": "2026-10-04T02:40:07.329836+00:00",
+  "registrable_domain": "nationalacademies.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.nationalacademies.org/read/9719/chapter/8",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 705285,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/5ed40f9b12c967df163c.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/5ed40f9b12c967df163c.txt",
+  "text_chars": 54239,
+  "text_words": 6550,
+  "extraction_status": "success",
+  "page_title": "Read",
+  "page_author": null,
+  "page_date": "2001-01-25",
+  "site_name": "The National Academies Press",
+  "canonical_url": "https://www.nationalacademies.org/read/9719/chapter/8"
+}

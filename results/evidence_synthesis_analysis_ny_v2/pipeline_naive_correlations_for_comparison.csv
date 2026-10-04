@@ -1,0 +1,7 @@
+metric_x,metric_y,n,spearman_rho_naive,p_naive
+url_jaccard_distance,dense_distance_subject_normalized,252,0.23179917675315778,0.00020555597766372337
+domain_jaccard_distance,dense_distance_subject_normalized,252,0.31191541309737286,4.3372577295652617e-07
+url_jaccard_distance,evidence_semantic_gap_source_balanced,240,-0.12101222494935636,0.06123285368274713
+domain_jaccard_distance,evidence_semantic_gap_source_balanced,240,-0.03913992591501305,0.546230171438515
+evidence_semantic_gap_source_balanced,dense_distance_subject_normalized,240,-0.04361186826160175,0.5013132989052497
+answer_support_semantic_gap,dense_distance_subject_normalized,240,-0.07648309866490736,0.2378352642193446

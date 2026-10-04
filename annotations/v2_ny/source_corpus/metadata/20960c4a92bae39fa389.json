@@ -1,0 +1,28 @@
+{
+  "source_id": "20960c4a92bae39fa389",
+  "normalized_url": "https://ivywise.com/ivywise-knowledgebase/the-truth-about-the-gender-gap-on-college-campuses",
+  "fetch_timestamp_utc": "2026-10-04T02:35:13.745436+00:00",
+  "registrable_domain": "ivywise.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ivywise.com/ivywise-knowledgebase/the-truth-about-the-gender-gap-on-college-campuses/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 131497,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/20960c4a92bae39fa389.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/20960c4a92bae39fa389.txt",
+  "text_chars": 4284,
+  "text_words": 663,
+  "extraction_status": "success",
+  "page_title": "The Truth About the Gender Gap on College Campuses",
+  "page_author": "Karyn Johnson",
+  "page_date": "2016-02-11",
+  "site_name": "IvyWise",
+  "canonical_url": "https://www.ivywise.com/ivywise-knowledgebase/the-truth-about-the-gender-gap-on-college-campuses/"
+}

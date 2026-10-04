@@ -1,0 +1,28 @@
+{
+  "source_id": "e0c65d4f69652e22eb99",
+  "normalized_url": "https://ahcstaff.com/nursing-best-practices-caring-for-disabled-patients",
+  "fetch_timestamp_utc": "2026-10-04T02:50:28.577089+00:00",
+  "registrable_domain": "ahcstaff.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.ahcstaff.com/nursing-best-practices-caring-for-disabled-patients/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 70351,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e0c65d4f69652e22eb99.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e0c65d4f69652e22eb99.txt",
+  "text_chars": 4880,
+  "text_words": 681,
+  "extraction_status": "success",
+  "page_title": "Nursing Best Practices: Caring for Disabled Patients - Accountable Healthcare",
+  "page_author": "Duy Ton",
+  "page_date": "2023-07-28",
+  "site_name": "Accountable Healthcare",
+  "canonical_url": "https://www.ahcstaff.com/nursing-best-practices-caring-for-disabled-patients/"
+}

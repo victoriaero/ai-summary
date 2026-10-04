@@ -1,0 +1,28 @@
+{
+  "source_id": "e4c343dbfd5521214647",
+  "normalized_url": "https://kff.org/affordable-care-act/health-care-access-and-coverage-for-the-lesbian-gay-bisexual-and-transgender-lgbt-community-in-the-united-states-opportunities-and-challenges-in-a-new-era",
+  "fetch_timestamp_utc": "2026-10-04T02:50:49.675528+00:00",
+  "registrable_domain": "kff.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.kff.org/affordable-care-act/health-care-access-and-coverage-for-the-lesbian-gay-bisexual-and-transgender-lgbt-community-in-the-united-states-opportunities-and-challenges-in-a-new-era/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 119746,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e4c343dbfd5521214647.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e4c343dbfd5521214647.txt",
+  "text_chars": 8914,
+  "text_words": 1372,
+  "extraction_status": "success",
+  "page_title": "Health Care Access and Coverage for the Lesbian, Gay, Bisexual, and Transgender (LGBT) Community in the United States: Opportunities and Challenges in a New Era | KFF",
+  "page_author": "Jennifer Kates; Usha Ranji",
+  "page_date": "2014-02-21",
+  "site_name": "KFF - The independent source for health policy research, polling, and news",
+  "canonical_url": "https://www.kff.org/affordable-care-act/health-care-access-and-coverage-for-the-lesbian-gay-bisexual-and-transgender-lgbt-community-in-the-united-states-opportunities-and-challenges-in-a-new-era/"
+}

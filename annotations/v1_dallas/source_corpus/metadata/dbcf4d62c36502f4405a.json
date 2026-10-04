@@ -1,0 +1,33 @@
+{
+  "source_id": "dbcf4d62c36502f4405a",
+  "normalized_url": "https://lawnow.org/bullying-of-2slgbtqia-students-the-impacts-and-what-educators-can-do-about-it",
+  "fetch_timestamp_utc": "2026-09-29T19:39:56.907056+00:00",
+  "registrable_domain": "lawnow.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.lawnow.org/bullying-of-2slgbtqia-students-the-impacts-and-what-educators-can-do-about-it/",
+  "headers": {
+    "Date": "Tue, 29 Sep 2026 19:40:01 GMT",
+    "Server": "Apache",
+    "Link": "<https://www.lawnow.org/wp-json/>; rel=\"https://api.w.org/\", <https://www.lawnow.org/wp-json/wp/v2/posts/23899>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://www.lawnow.org/?p=23899>; rel=shortlink",
+    "Upgrade": "h2,h2c",
+    "Connection": "Upgrade, Keep-Alive",
+    "Keep-Alive": "timeout=5, max=100",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "downloaded_bytes": 75028,
+  "content_kind": "html",
+  "content_type": "text/html; charset=UTF-8",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/raw/dbcf4d62c36502f4405a.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v1_dallas/source_corpus/text/dbcf4d62c36502f4405a.txt",
+  "text_chars": 7403,
+  "text_words": 1105,
+  "extraction_status": "success",
+  "page_title": "Bullying of 2SLGBTQIA+ Students: The impacts and what educators can do about it",
+  "page_author": "Rin Lawrence",
+  "page_date": "2023-02-15",
+  "site_name": "Bullying of 2SLGBTQIA+ Students: The impacts and what educators can do about it - LawNow Magazine",
+  "canonical_url": "https://www.lawnow.org/bullying-of-2slgbtqia-students-the-impacts-and-what-educators-can-do-about-it/"
+}

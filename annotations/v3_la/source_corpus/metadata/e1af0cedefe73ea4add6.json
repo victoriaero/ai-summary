@@ -1,0 +1,28 @@
+{
+  "source_id": "e1af0cedefe73ea4add6",
+  "normalized_url": "https://centerforhealthjournalism.org/our-work/reporting/hidden-harms-racial-bullying",
+  "fetch_timestamp_utc": "2026-10-04T03:47:38.004161+00:00",
+  "registrable_domain": "centerforhealthjournalism.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://centerforhealthjournalism.org/our-work/reporting/hidden-harms-racial-bullying",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 66790,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/e1af0cedefe73ea4add6.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/e1af0cedefe73ea4add6.txt",
+  "text_chars": 13915,
+  "text_words": 2164,
+  "extraction_status": "success",
+  "page_title": "The Hidden Harms of Racial Bullying",
+  "page_author": "Image by CHJ Fellow Deidre McPhillips",
+  "page_date": "2019-05-23",
+  "site_name": "USC Center for Health Journalism",
+  "canonical_url": "https://centerforhealthjournalism.org/our-work/reporting/hidden-harms-racial-bullying"
+}

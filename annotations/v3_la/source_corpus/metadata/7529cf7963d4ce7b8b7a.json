@@ -1,0 +1,15 @@
+{
+  "source_id": "7529cf7963d4ce7b8b7a",
+  "normalized_url": "https://diversityglobal.com/web/Article.aspx?id=Striving-for-Hispanic-and-Latino-Inclusion-in-the-Work-Environment-4840",
+  "fetch_timestamp_utc": "2026-10-04T03:39:31.458388+00:00",
+  "registrable_domain": "diversityglobal.com",
+  "success": false,
+  "status": "hard_timeout",
+  "curl_returncode": 28,
+  "http_status": 0,
+  "final_url": "https://diversityglobal.com/web/Article.aspx?id=Striving-for-Hispanic-and-Latino-Inclusion-in-the-Work-Environment-4840",
+  "error": "curl: (28) Failed to connect to diversityglobal.com port 443 after 8002 ms: Timeout was reached\ncurl: (28) Failed to connect to diversityglobal.com port 443 after 8002 ms: Timeout was reached",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

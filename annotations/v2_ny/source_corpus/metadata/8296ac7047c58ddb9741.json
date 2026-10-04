@@ -1,0 +1,28 @@
+{
+  "source_id": "8296ac7047c58ddb9741",
+  "normalized_url": "https://mitsloan.mit.edu/ideas-made-to-matter/to-keep-employees-focus-career-advancement",
+  "fetch_timestamp_utc": "2026-10-04T02:42:57.218085+00:00",
+  "registrable_domain": "mit.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://mitsloan.mit.edu/ideas-made-to-matter/to-keep-employees-focus-career-advancement",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 71116,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/8296ac7047c58ddb9741.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/8296ac7047c58ddb9741.txt",
+  "text_chars": 6876,
+  "text_words": 1054,
+  "extraction_status": "success",
+  "page_title": "To keep employees, focus on career advancement | MIT Sloan",
+  "page_author": "Kara Baskin",
+  "page_date": "2023-06-13",
+  "site_name": "MIT Sloan School of Management",
+  "canonical_url": "https://mitsloan.mit.edu/ideas-made-to-matter/to-keep-employees-focus-career-advancement"
+}

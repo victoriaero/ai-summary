@@ -1,0 +1,28 @@
+{
+  "source_id": "94b009446c3bcaf5e39f",
+  "normalized_url": "https://journeyfront.com/blog/increasing-gender-diversity-starts-with-the-hiring-process",
+  "fetch_timestamp_utc": "2026-10-04T03:41:54.105761+00:00",
+  "registrable_domain": "journeyfront.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.journeyfront.com/blog/increasing-gender-diversity-starts-with-the-hiring-process",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 98866,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/94b009446c3bcaf5e39f.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/94b009446c3bcaf5e39f.txt",
+  "text_chars": 4898,
+  "text_words": 793,
+  "extraction_status": "success",
+  "page_title": "3 Ways to Increase Gender Diversity in Hiring",
+  "page_author": "Angela Carmack",
+  "page_date": "2026-03-12",
+  "site_name": "Journeyfront",
+  "canonical_url": "https://www.journeyfront.com/blog/increasing-gender-diversity-starts-with-the-hiring-process"
+}

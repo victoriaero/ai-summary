@@ -1,0 +1,28 @@
+{
+  "source_id": "b17c4f8a463fe477f43d",
+  "normalized_url": "https://cms.gov/priorities/innovation/key-concepts/preventive-care",
+  "fetch_timestamp_utc": "2026-10-04T02:46:53.246175+00:00",
+  "registrable_domain": "cms.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cms.gov/priorities/innovation/key-concepts/preventive-care",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 198289,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/b17c4f8a463fe477f43d.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/b17c4f8a463fe477f43d.txt",
+  "text_chars": 4298,
+  "text_words": 637,
+  "extraction_status": "success",
+  "page_title": "Preventive Care",
+  "page_author": null,
+  "page_date": "2025-06-02",
+  "site_name": "cms.gov",
+  "canonical_url": "https://www.cms.gov/priorities/innovation/key-concepts/preventive-care"
+}

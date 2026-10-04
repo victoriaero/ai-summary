@@ -1,0 +1,134 @@
+{
+  "bioscope": {
+    "version": "1.0",
+    "source_url": "https://rgai.inf.u-szeged.hu/sites/rgai.sed.hu/files/bioscope.zip",
+    "archive_sha256": "b20b525506f783ab9c120548ac4022ab587bf7cc419beaf759f7253f0cf0b1d1",
+    "annotated_speculation_spans_by_file": {
+      "abstracts.xml": 2694,
+      "full_papers.xml": 682,
+      "clinical_records_anon.xml": 1137
+    },
+    "lexicon_rows": 200,
+    "unique_normalized_cues": 192
+  },
+  "megaveridicality": {
+    "version": "2.1",
+    "source_url": "https://megaattitude.io/projects/mega-veridicality/mega-veridicality-v2.1.zip",
+    "archive_sha256": "1442ef1f0da66b4965f6d289966bd6240082ce0959c56584b4224ec00eb82219",
+    "normalized_tuples": 3938,
+    "predicates": 773,
+    "frames": [
+      "NP Ved NP to VP[+eventive]",
+      "NP Ved NP to VP[-eventive]",
+      "NP Ved for NP to VP",
+      "NP Ved that S",
+      "NP Ved to VP[+eventive]",
+      "NP Ved to VP[-eventive]",
+      "NP was Ved that S",
+      "NP was Ved to VP[+eventive]",
+      "NP was Ved to VP[-eventive]"
+    ],
+    "score_column": "veridicalitynorm",
+    "unambiguous_inflected_surface_mappings": 1336,
+    "ambiguous_inflected_surfaces_excluded": {
+      "found": [
+        "find",
+        "find_out"
+      ],
+      "figure": [
+        "figure",
+        "figure_out"
+      ],
+      "figured": [
+        "figure",
+        "figure_out"
+      ],
+      "make": [
+        "make",
+        "make_out"
+      ],
+      "made": [
+        "make",
+        "make_out"
+      ],
+      "find": [
+        "find",
+        "find_out"
+      ],
+      "happen": [
+        "expect",
+        "happen",
+        "plan"
+      ],
+      "sign": [
+        "sign",
+        "sign_on",
+        "sign_up"
+      ],
+      "signed": [
+        "sign",
+        "sign_on",
+        "sign_up"
+      ],
+      "reasoned": [
+        "reason",
+        "reason_out"
+      ],
+      "started": [
+        "start",
+        "start_off"
+      ],
+      "start": [
+        "start",
+        "start_off"
+      ],
+      "came": [
+        "come",
+        "come_around",
+        "come_out"
+      ],
+      "come": [
+        "come",
+        "come_around",
+        "come_out"
+      ],
+      "set": [
+        "set",
+        "set_about",
+        "set_out"
+      ],
+      "reason": [
+        "reason",
+        "reason_out"
+      ]
+    }
+  },
+  "dependency_parser": {
+    "library": "spaCy",
+    "spacy_version": "3.8.16",
+    "model": "en_core_web_sm",
+    "model_version": "3.8.0",
+    "language": "en"
+  },
+  "collections": {
+    "files_discovered": 819,
+    "responses_analyzed": 294,
+    "replicas": [
+      {
+        "replica_id": "v1_dallas",
+        "files": 273,
+        "nonempty": 273
+      },
+      {
+        "replica_id": "v2_ny",
+        "files": 273,
+        "nonempty": 0
+      },
+      {
+        "replica_id": "v3_la",
+        "files": 273,
+        "nonempty": 21
+      }
+    ]
+  }
+}

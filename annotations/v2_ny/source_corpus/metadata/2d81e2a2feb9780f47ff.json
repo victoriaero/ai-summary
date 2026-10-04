@@ -1,0 +1,28 @@
+{
+  "source_id": "2d81e2a2feb9780f47ff",
+  "normalized_url": "https://hispanicresearchcenter.org/research-resources/how-hispanic-parents-perceive-their-need-and-eligibility-for-public-assistance",
+  "fetch_timestamp_utc": "2026-10-04T02:36:05.055933+00:00",
+  "registrable_domain": "hispanicresearchcenter.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.hispanicresearchcenter.org/research-resources/how-hispanic-parents-perceive-their-need-and-eligibility-for-public-assistance/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 260983,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2d81e2a2feb9780f47ff.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2d81e2a2feb9780f47ff.txt",
+  "text_chars": 1080,
+  "text_words": 147,
+  "extraction_status": "success",
+  "page_title": "How Hispanic Parents Perceive Their Need and Eligibility for Public Assistance - Hispanic Research Center",
+  "page_author": "Authors",
+  "page_date": "2025-09-29",
+  "site_name": "Hispanic Research Center",
+  "canonical_url": "https://www.hispanicresearchcenter.org/research-resources/how-hispanic-parents-perceive-their-need-and-eligibility-for-public-assistance/"
+}

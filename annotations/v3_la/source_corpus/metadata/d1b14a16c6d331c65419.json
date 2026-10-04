@@ -1,0 +1,28 @@
+{
+  "source_id": "d1b14a16c6d331c65419",
+  "normalized_url": "https://bostonbar.org/journal/transgender-student-admissions-the-challenge-of-defining-gender-in-a-gender-fluid-world",
+  "fetch_timestamp_utc": "2026-10-04T03:46:28.117181+00:00",
+  "registrable_domain": "bostonbar.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://bostonbar.org/journal/transgender-student-admissions-the-challenge-of-defining-gender-in-a-gender-fluid-world/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 110165,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/d1b14a16c6d331c65419.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/d1b14a16c6d331c65419.txt",
+  "text_chars": 18251,
+  "text_words": 2619,
+  "extraction_status": "success",
+  "page_title": "Transgender Student Admissions: The Challenge of Defining Gender in a Gender Fluid World - Boston Bar Association",
+  "page_author": null,
+  "page_date": "2022-06-07",
+  "site_name": "Boston Bar Association",
+  "canonical_url": "https://bostonbar.org/journal/transgender-student-admissions-the-challenge-of-defining-gender-in-a-gender-fluid-world/"
+}

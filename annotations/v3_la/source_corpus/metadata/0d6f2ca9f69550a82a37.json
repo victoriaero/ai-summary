@@ -1,0 +1,28 @@
+{
+  "source_id": "0d6f2ca9f69550a82a37",
+  "normalized_url": "https://cnbc.com/2022/06/21/transgender-people-still-face-a-significant-wage-gap-in-the-us.html",
+  "fetch_timestamp_utc": "2026-10-04T03:31:49.852609+00:00",
+  "registrable_domain": "cnbc.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cnbc.com/2022/06/21/transgender-people-still-face-a-significant-wage-gap-in-the-us.html",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 672073,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/0d6f2ca9f69550a82a37.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/0d6f2ca9f69550a82a37.txt",
+  "text_chars": 6737,
+  "text_words": 1036,
+  "extraction_status": "success",
+  "page_title": "Transgender people still face a sizeable wage and employment gap in the U.S.—how companies can help",
+  "page_author": "Morgan Smith",
+  "page_date": "2022-06-21",
+  "site_name": "CNBC",
+  "canonical_url": "https://www.cnbc.com/2022/06/21/transgender-people-still-face-a-significant-wage-gap-in-the-us.html"
+}

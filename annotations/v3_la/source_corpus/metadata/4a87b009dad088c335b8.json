@@ -1,0 +1,28 @@
+{
+  "source_id": "4a87b009dad088c335b8",
+  "normalized_url": "https://library.hbs.edu/working-knowledge/breaking-through-the-self-doubt-that-keeps-talented-women-from-leading",
+  "fetch_timestamp_utc": "2026-10-04T03:36:14.854617+00:00",
+  "registrable_domain": "hbs.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.library.hbs.edu/working-knowledge/breaking-through-the-self-doubt-that-keeps-talented-women-from-leading",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 477024,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/4a87b009dad088c335b8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/4a87b009dad088c335b8.txt",
+  "text_chars": 9352,
+  "text_words": 1450,
+  "extraction_status": "success",
+  "page_title": "Breaking Through the Self-Doubt That Keeps Talented Women from Leading | Working Knowledge",
+  "page_author": "Kara Baskin",
+  "page_date": "2024-02-13",
+  "site_name": "Harvard Business School",
+  "canonical_url": "https://www.library.hbs.edu/working-knowledge/breaking-through-the-self-doubt-that-keeps-talented-women-from-leading"
+}

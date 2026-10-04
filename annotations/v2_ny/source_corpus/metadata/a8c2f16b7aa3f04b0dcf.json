@@ -1,0 +1,28 @@
+{
+  "source_id": "a8c2f16b7aa3f04b0dcf",
+  "normalized_url": "https://huduser.gov/PORTAL/Publications/PDF/hisp_homeown8.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:46:17.935360+00:00",
+  "registrable_domain": "huduser.gov",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 202,
+  "final_url": "https://huduser.gov/PORTAL/Publications/PDF/hisp_homeown8.pdf",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 2407,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/a8c2f16b7aa3f04b0dcf.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/a8c2f16b7aa3f04b0dcf.txt",
+  "text_chars": 157,
+  "text_words": 26,
+  "extraction_status": "success",
+  "page_title": "JavaScript is disabled",
+  "page_author": null,
+  "page_date": null,
+  "site_name": "huduser.gov",
+  "canonical_url": "https://huduser.gov/PORTAL/Publications/PDF/hisp_homeown8.pdf"
+}

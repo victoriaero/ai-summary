@@ -1,0 +1,28 @@
+{
+  "source_id": "bfb13fb39d38d8475379",
+  "normalized_url": "https://williamsinstitute.law.ucla.edu/publications/higher-ed-people-of-color",
+  "fetch_timestamp_utc": "2026-10-04T03:45:06.274173+00:00",
+  "registrable_domain": "ucla.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://williamsinstitute.law.ucla.edu/publications/higher-ed-people-of-color/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 129555,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/bfb13fb39d38d8475379.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/bfb13fb39d38d8475379.txt",
+  "text_chars": 10452,
+  "text_words": 1284,
+  "extraction_status": "success",
+  "page_title": "Educational Experiences of LGBTQ People of Color",
+  "page_author": "Loyal; Thisisloyal Com",
+  "page_date": "2023-02-23",
+  "site_name": "The Williams Institute at UCLA School of Law",
+  "canonical_url": "https://williamsinstitute.law.ucla.edu/publications/higher-ed-people-of-color/"
+}

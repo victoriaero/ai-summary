@@ -1,0 +1,28 @@
+{
+  "source_id": "b6194642598ae5b8fe8a",
+  "normalized_url": "https://cjcj.org/media/import/documents/latina_exposure.pdf",
+  "fetch_timestamp_utc": "2026-10-04T03:44:22.525091+00:00",
+  "registrable_domain": "cjcj.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.cjcj.org/media/import/documents/latina_exposure.pdf",
+  "headers": {
+    "Content-Type": "application/pdf"
+  },
+  "content_type": "application/pdf",
+  "downloaded_bytes": 154904,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "pdf",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/b6194642598ae5b8fe8a.pdf",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/b6194642598ae5b8fe8a.txt",
+  "text_chars": 46237,
+  "text_words": 6732,
+  "extraction_status": "success",
+  "page_title": null,
+  "page_author": null,
+  "page_date": null,
+  "site_name": null,
+  "canonical_url": null
+}

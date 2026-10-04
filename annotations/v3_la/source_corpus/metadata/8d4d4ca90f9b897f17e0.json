@@ -1,0 +1,16 @@
+{
+  "source_id": "8d4d4ca90f9b897f17e0",
+  "normalized_url": "https://stlouisfed.org/community-development/publications/access-credit-financial-services-bridge-financial-well-being/low-moderate-income-interact-institutions-access-financial-services",
+  "fetch_timestamp_utc": "2026-10-04T03:41:28.438390+00:00",
+  "registrable_domain": "stlouisfed.org",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 92,
+  "http_status": 0,
+  "final_url": "https://stlouisfed.org/community-development/publications/access-credit-financial-services-bridge-financial-well-being/low-moderate-income-interact-institutions-access-financial-services",
+  "content_type": "",
+  "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

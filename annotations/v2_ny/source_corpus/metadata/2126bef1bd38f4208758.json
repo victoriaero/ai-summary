@@ -1,0 +1,28 @@
+{
+  "source_id": "2126bef1bd38f4208758",
+  "normalized_url": "https://finance.yahoo.com/news/race-impacts-credit-history-effect-110039095.html",
+  "fetch_timestamp_utc": "2026-10-04T02:35:20.934155+00:00",
+  "registrable_domain": "yahoo.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://finance.yahoo.com/news/race-impacts-credit-history-effect-110039095.html",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 1253704,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/2126bef1bd38f4208758.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/2126bef1bd38f4208758.txt",
+  "text_chars": 2680,
+  "text_words": 405,
+  "extraction_status": "success",
+  "page_title": "How race impacts credit: the history and effect on lending practices",
+  "page_author": "Ashley Parks",
+  "page_date": "2023-08-11",
+  "site_name": "Yahoo! Finance",
+  "canonical_url": "https://finance.yahoo.com/news/race-impacts-credit-history-effect-110039095.html"
+}

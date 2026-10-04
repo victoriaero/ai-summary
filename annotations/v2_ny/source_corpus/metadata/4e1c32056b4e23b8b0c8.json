@@ -1,0 +1,28 @@
+{
+  "source_id": "4e1c32056b4e23b8b0c8",
+  "normalized_url": "https://prisonpolicy.org/reports/pie2024women.html",
+  "fetch_timestamp_utc": "2026-10-04T02:38:47.506782+00:00",
+  "registrable_domain": "prisonpolicy.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.prisonpolicy.org/reports/pie2024women.html",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 114037,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/4e1c32056b4e23b8b0c8.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/4e1c32056b4e23b8b0c8.txt",
+  "text_chars": 53276,
+  "text_words": 8614,
+  "extraction_status": "success",
+  "page_title": "Women's Mass Incarceration: The Whole Pie 2024",
+  "page_author": "Prison Policy Initiative; Aleks Kajstura; Wendy Sawyer",
+  "page_date": "2022-06-30",
+  "site_name": "PrisonPolicy",
+  "canonical_url": "https://www.prisonpolicy.org/reports/pie2024women.html"
+}

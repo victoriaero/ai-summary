@@ -1,0 +1,28 @@
+{
+  "source_id": "cbe46fa6d95b06ea199e",
+  "normalized_url": "https://insidehighered.com/news/student-success/health-wellness/2024/08/27/how-institutional-practices-can-impact-lgbtq",
+  "fetch_timestamp_utc": "2026-10-04T02:48:47.058325+00:00",
+  "registrable_domain": "insidehighered.com",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.insidehighered.com/news/student-success/health-wellness/2024/08/27/how-institutional-practices-can-impact-lgbtq",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 154018,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/cbe46fa6d95b06ea199e.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/cbe46fa6d95b06ea199e.txt",
+  "text_chars": 5252,
+  "text_words": 791,
+  "extraction_status": "success",
+  "page_title": "How institutional practices can impact LGBTQ+ students",
+  "page_author": "Ashley Mowreader",
+  "page_date": "2024-08-27",
+  "site_name": "Inside Higher Ed | Higher Education News, Events and Jobs",
+  "canonical_url": "https://www.insidehighered.com/news/student-success/health-wellness/2024/08/27/how-institutional-practices-can-impact-lgbtq"
+}

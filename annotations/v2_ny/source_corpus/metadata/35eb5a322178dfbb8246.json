@@ -1,0 +1,20 @@
+{
+  "source_id": "35eb5a322178dfbb8246",
+  "normalized_url": "https://pnas.org/doi/10.1073/pnas.1903592116",
+  "fetch_timestamp_utc": "2026-10-04T02:36:41.586363+00:00",
+  "registrable_domain": "pnas.org",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://pnas.org/doi/10.1073/pnas.1903592116",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 5701,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

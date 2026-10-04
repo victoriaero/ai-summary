@@ -1,0 +1,16 @@
+{
+  "source_id": "eb536516942e3c316472",
+  "normalized_url": "https://ussc.gov/sites/default/files/pdf/research-and-publications/research-publications/2023/20231114_Demographic-Differences.pdf",
+  "fetch_timestamp_utc": "2026-10-04T02:51:19.960234+00:00",
+  "registrable_domain": "ussc.gov",
+  "success": false,
+  "status": "curl_error",
+  "curl_returncode": 6,
+  "http_status": 0,
+  "final_url": "https://ussc.gov/sites/default/files/pdf/research-and-publications/research-publications/2023/20231114_Demographic-Differences.pdf",
+  "content_type": "",
+  "error": "curl: (6) Could not resolve host: ussc.gov\ncurl: (6) Could not resolve host: ussc.gov",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

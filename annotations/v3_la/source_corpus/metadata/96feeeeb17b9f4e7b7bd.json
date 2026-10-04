@@ -1,0 +1,28 @@
+{
+  "source_id": "96feeeeb17b9f4e7b7bd",
+  "normalized_url": "https://stanfordlawreview.org/print/article/policing-under-disability-law",
+  "fetch_timestamp_utc": "2026-10-04T03:42:04.427516+00:00",
+  "registrable_domain": "stanfordlawreview.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.stanfordlawreview.org/print/article/policing-under-disability-law/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 73906,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/96feeeeb17b9f4e7b7bd.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/96feeeeb17b9f4e7b7bd.txt",
+  "text_chars": 4719,
+  "text_words": 704,
+  "extraction_status": "success",
+  "page_title": "Policing Under Disability Law | Stanford Law Review",
+  "page_author": "Stanford Law Review; Jamelia N Morgan",
+  "page_date": "2021-06-29",
+  "site_name": "Stanford Law Review",
+  "canonical_url": "https://www.stanfordlawreview.org/print/article/policing-under-disability-law/"
+}

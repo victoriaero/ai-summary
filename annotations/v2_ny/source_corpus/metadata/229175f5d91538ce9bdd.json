@@ -1,0 +1,20 @@
+{
+  "source_id": "229175f5d91538ce9bdd",
+  "normalized_url": "https://jec.senate.gov/public/index.cfm/democrats/2022/8/new-jec-report-finds-barriers-to-financial-inclusion-cause-widespread-economic-harm",
+  "fetch_timestamp_utc": "2026-10-04T02:35:24.905312+00:00",
+  "registrable_domain": "senate.gov",
+  "success": false,
+  "status": "http_error",
+  "http_status": 403,
+  "final_url": "https://www.jec.senate.gov/public/index.cfm/democrats/2022/8/new-jec-report-finds-barriers-to-financial-inclusion-cause-widespread-economic-harm",
+  "headers": {
+    "Content-Type": "text/html"
+  },
+  "content_type": "text/html",
+  "downloaded_bytes": 599,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "extraction_status": "not_extracted",
+  "text_chars": 0,
+  "text_words": 0
+}

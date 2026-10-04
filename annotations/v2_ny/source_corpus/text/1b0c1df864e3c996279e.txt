@@ -1,0 +1,7040 @@
+1 
+ 
+The Rainbow of Credit: 
+Same-sex Mortgage Discrimination and Two-sided Spillover Effect * 
+ 
+Lei Gao                                         Hua Sun 
+College of Business                       College of Business 
+Iowa State University                    Iowa State University 
+lgao@iastate.edu                             hsun@iastate.edu 
+(515) 294-7860                             (515) 294-8112 
+ 
+April 2017 
+ 
+Abstract 
+ 
+Using the Home Mortgage Disclosure Act (HMDA) national data from 1990 to 2015, we propose a 
+method to identify potentially homosexual borrowers without requiring any self-disclosure on sexual 
+orientation.  Augmenting the HMDA data with the classical 1990 Boston Fed data and Fannie Mae 
+Loan Performance data, we test whether their perceived homosexual status affects the approval, cost, 
+and performance of the mortgages for which they apply. The results reveal that, in contrast with 
+otherwise comparable loan applicants, the average approval rate for potentially homosexual applicants 
+is about 3% to 8% lower. Furthermore, conditional on being approved, their financing cost is about 
+0.02% to 0.2% higher. This is equivalent to an annual total of $8.6 million to $86 million in additional 
+interest/fees paid by same-sex borrowers nationwide. Meanwhile, we find no evidence that 
+homosexual status is associated with higher default risk.  Finally, we document evidence of a two-
+sided spillover effect. That is, holding other factors constant, when a neighborhood’s same-sex 
+population increases, although same-sex applicants still experience lower approval rate and higher 
+financing cost, the treatment discrepancy between same-sex and straight applicants narrows from both 
+sides.   
+Key words: Credit Rationing, Discrimination, Mortgage, LGBT 
+JEL Class: G21, J1 
+                                                          
+ 
+
+
+2 
+ 
+1.  Introduction 
+In the U.S, owning a home has long been associated with achieving the American Dream. 
+Based on the U.S. Bureau of the Census, as of 2016, the national homeownership rate is 63.7%, despite 
+the decline since its peak value of 69.2% in 2004. One important vehicle that makes it possible for 
+Americans to become homeowners is through a mortgage. As of 2016, the total U.S. residential loan 
+balance is $11.45 trillion,1 in contrast to $19.98 trillion2 of the national debt at the same time.  Due to 
+the heavy involvement of and reliance on U.S households on the mortgage market, an economically 
+sound and fair lending mechanism is crucial to sustaining and promoting the welfare of society.  
+One disturbing concern in the credit market is the likely practice by some lenders of 
+denying loans to selected groups of people for non-economic reasons. Since the influential seminal 
+work of Black et al. (1978), many researchers have studied lending discrimination based on skin color, 
+gender, and race over the last four decades. For instance, minority lending discrimination has been 
+extensively studied in consumer markets, such as the mortgage market (Ladd, 1982; Munnell et al., 
+1996; Ross and Yinger, 2002; Cheng et al., 2011; Bayer et al., 2016), rental housing market (Ahmed 
+and Hammarstedt, 2008; Ahmed et al., 2008), and auto loan market (Ayres, 1991; Ayres and Siegelman, 
+1995; Goldberg, 1996; Morton et al., 2003).  
+The above studies on discrimination are echoed by many high-profile cases reported to the 
+general public. For example, there have been numerous lawsuits alleging discrimination by auto loan 
+lenders (and the affiliated auto manufactures, if any) against minority borrowers for overcharging them on 
+interests. Most of these bias suits ended with multi-million dollar settlements. An incomplete list of the auto 
+loan minority bias suit settlements includes GM (1989), Nissan (2003), Ford (2006), Ally (2013), 
+Honda (2015), and Toyota (2016)3.    
+       Potentially discriminatory practices are also found in the labor market. In 2009, Walmart agreed 
+to an $11.7 million settlement in response to an accusation of denying jobs to female applicants from 
+                                                          
+1 Source: Federal Reserve (https://www.federalreserve.gov/econresdata/releases/mortoutstand/current.htm). 
+2 Source: U.S. Department of the Treasury (https://treasurydirect.gov/govt/reports/pd/pd_debttothepenny.htm). 
+3 Sources: GM (1989) http://articles.latimes.com/1989-09-06/business/fi-1773_1_gm-suit-settlement; Nissan (2003) 
+http://www.nytimes.com/2003/02/21/business/nissan-settles-bias-suit-by-minority-buyers.html; Ford (2006) 
+http://articles.latimes.com/2006/nov/09/business/fi-ford9; Ally (2013) 
+https://dealbook.nytimes.com/2013/12/20/ally-in-98-million-settlement-on-bias-in-auto-loans; Honda (2015) 
+https://www.bloomberg.com/news/articles/2015-07-14/honda-finance-unit-agrees-to-pay-25-million-in-u-s-loan-case; 
+Toyota (2016) http://www.latimes.com/business/la-fi-toyota-settlement-20160202-story.html.  
+
+
+3 
+ 
+1998 through February 2005.4 Costco also settled an $8 million bias suit in 2013 for the claim of 
+discriminating against women in promotions to management jobs.5 
+        Despite the ample archival evidence on discrimination regarding race and gender in consumer 
+and labor markets, fewer cases of potential discrimination on sexual orientation have been reported. 
+According to Washington Blade, a popular LGBT news outlet, it was not until 2016 that the U.S. 
+Equal Employment Opportunity Commission (EEOC) reached its first settlement in history in an 
+anti-gay bias case, 6 which was against Pallet Companies for firing a lesbian employee after she 
+complained about being harassed by her supervisor due to her sexual orientation.7  
+                Motived by the huge stake that U.S. households have on the mortgage market and the lack 
+of systematic investigations on sexual orientation-based discrimination, this paper examines potential 
+lending discrimination on homosexual mortgage applicants. Although the federal Fair Housing Act 
+(FHA) of 1968 and the Equal Credit Opportunity Act (ECOA) of 1974 prohibit any lending 
+discrimination based on a borrower’s race, gender, marital status, religion, and so on, they do not 
+specifically include sexual orientation as a prohibited basis. To the best of the authors’ knowledge, 
+there is no previous academic study examining whether mortgage lenders systematically provide less 
+access to credit (e.g., higher denial rates) or unfavorable terms (e.g., charging higher interest) for 
+lesbian, gay, bisexual, and transgender (LGBT) borrowers, possibly due to the difficulty of identifying 
+these types of borrowers. 8 Accompanying the wake of human rights equality for the LGBT 
+community in recent decades, study of this specific topic of mortgage lending discrimination for 
+LGBT borrowers is very timely. 
+          Our study begins by investigating whether mortgage lenders are more likely to deny applicants 
+who are potentially homosexual than other applicants with similar backgrounds. Following past 
+research, such as Munnell et al.’s (1996) Boston Fed study and Ross and Yinger (2002), we first apply 
+the settings similar to previously studied racial- and gender-based discrimination to our research 
+question. This way, our results are as robust as those from previous literature and the discrimination 
+level is contextualized. We start our test with a national sample of data from the Home Mortgage 
+                                                          
+4 See https://www.eeoc.gov/eeoc/newsroom/release/3-1-10.cfm. 
+5 See http://www.sfgate.com/nation/article/Costco-to-pay-8-million-to-settle-gender-bias-5083273.php. 
+6 See http://www.washingtonblade.com/2016/06/29/eeoc-reaches-first-ever-settlement-anti-gay-discrimination-case/.  
+7 Walmart also settled a bias suit with a $7.5 million in 2016, after being claimed for denied spousal health insurance 
+benefits to same-sex employees between 2011 and 2013. See 
+http://money.cnn.com/2016/12/02/news/companies/walmart-discrimination-settlement/. 
+8 Sexual orientation disclosure is not required for mortgage applications. 
+
+
+4 
+ 
+Disclosure Act (HMDA) from 1990 to 2015, and we confirm the homosexual discrimination results 
+within the large dataset. What is more, the longer period and wider scope of the national level data 
+allows us to study the trend of homosexual mortgage discrimination over time and geographic 
+variation. We find that the pattern of potential lending discrimination is persistent over time. 
+          However, due to the limited coverage of borrower information in HMDA, it misses some 
+important information such as a borrower’s credit worthiness, employment history, and other factors. 
+As a result, we cross-validate our findings by using the classical Boston Fed dataset, which includes an 
+extensive list of property, neighborhood, borrower, and lender characteristics for a random sample of 
+borrowers in Boston in 1990. Our results are qualitatively consistent and quantitatively stronger when 
+we use the Boston Fed data, indicating the lack of borrower’s characteristic controls in HMDA data 
+is unlikely to bias us toward finding a pseudo discrimination pattern. Instead, much the opposite seems 
+to be true. That is, HMDA estimation without extensive controls on borrower’s characteristics seems 
+to provide a conservative lower bound on the magnitude of lending discrimination to same-sex 
+borrowers.  
+Overall, when compared with otherwise similar loan applicants, we find the gross approval 
+rate for potentially homosexual applicants to be from 3% (HMDA) to 8% (Boston Fed) lower. The 
+results based on the Boston Fed data further show that homosexual applicants are about 73.12% more 
+likely to be denied a mortgage application than heterosexual applicants with similar characteristics. In 
+contrast, using the same data and a similar methodology, Munnell et al.’s (1996) find that compared 
+to similar white applicants, minority applicants are about 40% more likely to be denied a mortgage. 
+        However, studying loan approval rates alone does not establish a complete, convincing case for 
+lending discrimination. As Gary Becker points out in his 1993 Nobel Prize speech, while commenting 
+on minority lending discrimination, “If banks discriminate against minority applicants, they should 
+earn greater profits on the loans actually made to them than on those to whites.” Inspired by this 
+observation, we further merge the HMDA data with Fannie Mae Single-Family Loan Performance 
+data, which provides us more information on borrower characteristics, mortgage terms, and 
+performance. Our results show that, after controlling for a list of loan and borrower characteristics, 
+lenders charge 0.02% to 0.2% higher interest expenses to potentially homosexual borrowers. Based 
+on our inferred loan balance of $43 billion from same-sex borrowers in the U.S., this is equivalent to 
+about $8.6 million to $86 million more interest/fees paid by homosexual borrowers nationwide every 
+
+
+5 
+ 
+year. Finally, we find no evidence that borrowers’ homosexual status is associated with higher default 
+risk. 
+         Another striking finding from this study is a two-sided spillover effect. We use a county’s (or 
+tract’s) percentage of same-sex population each year as a proxy for the friendliness of the 
+neighborhood to LGBT people. Compared to neighborhoods of low LGBT presence and ceteris 
+paribus, same-sex loan applicants living in more LGBT-friendly neighborhood are treated less 
+“unfairly,” as evidenced by lower approval rate drop and narrower financing cost markup. Surprisingly, 
+hetero-sex loan applicants living in more LGBT-friendly neighborhood are treated more “unfairly,” 
+as their loan approval rates decline and financing costs increase.  
+          Over the course of this study, we make several contributions to discrimination study literature. 
+First, we find significant evidence that there is discrimination against LGBT group mortgage 
+applications, and we quantify the degree of the discrimination. This important mortgage loan 
+discrimination problem has been overlooked in the existing literature and has led to erroneous 
+assumptions on the financial equality among groups based upon their sexual orientation.  Hence our 
+study fills in the gap by testing same-sex applicants to shed light on the existence and degree of lending 
+discrimination against the homosexual group.  
+        Second, our findings have strong implications for policy makers. There is no term in federal fair 
+lending laws that explicitly forbids mortgage discrimination based on sexual orientation.  We provide 
+empirical evidence that the buyers’ perceived homosexuality is an under-investigated factor in 
+monitoring creditors’ lending practices.  
+        Last but not least, using the free and publicly available HMDA data, we propose a straightforward 
+method to identify potentially homosexual borrowers (households) without self-disclosure 
+requirement. As shown in section 4.1, when we compare our measured state-level percentage of 
+homosexual borrowers with the 2012 Gallup survey on the adult LGBT population percentage, the 
+correlation is remarkably high at 0.76. A further demonstration using Washington D.C data shows 
+that, up to the tract level, our measure accurately matches the LGBT population percentage survey 
+released by the U.S. Bureau of Census. As HMDA data is compiled and released annually, we can 
+construct accurate measures of LGBT population distribution across the country every year, in 
+contrast to 10-year release of similar information from the census data. Although this study focuses 
+on lending discrimination against homosexual borrowers, our method suggests that researchers can 
+
+
+6 
+ 
+also merge HMDA with other data sets, such as the Panel Study of Income Dynamics (PSID), to 
+study a wider range of topics regarding LGBT society at the individual level that can be otherwise 
+difficult to identify.  
+We proceed as follows: in section 2, we provide literature background on mortgage lending, 
+discrimination in credit and labor markets, and relevant regulations; in sections 3 and 4, we describe 
+the data and our research design; in section 5, we summarize our results; and in section 6, we offer 
+conclusions. 
+2. Literature Review and Hypothesis Development 
+          Though the federal Fair Housing Act (FHA) of 1968 and Equal Credit Opportunity Act (ECOA) 
+of 1974 are in place to regulate lenders against discriminations, researchers have found strong evidence 
+of lending discriminations against gender, racial, or ethnic groups. Using Boston Fed data, Munnell et 
+al. (1996) reveal that minority applicants face significant discrimination on lending approval decisions. 
+Colman (2000), using National Survey of Small Business (NSBF) data, finds that female applicants are 
+more likely to be asked to pledge collateral and pay high interest rates than males. Cavalluzoo et al. 
+(2002) finds that with a lack of lender competition, female-owned businesses tend to be denied credit 
+applications more often than businesses owned by males. Such gender-based discrimination evidence 
+has also been documented internationally; Bellucci et al. (2010) and Alesian et al. (2013) both report 
+supportive evidence that banks discriminate against female credit applicants in Italy. In field studies, 
+Hanson et al. (2015) finds that lenders offer more information and assistance in response to borrower 
+inquiries and are more likely to follow up on initial contact from white borrowers. 
+In contrast, existing literature is silent about lending discrimination based on sexual orientation. 
+We suspect this is mostly because of a data availability issue. Unlike gender, race, etc., a loan applicant’s 
+sexual orientation is not required to be disclosed and hence is impossible to be measured directly.  
+           Despite the vacuum in literature on lending discrimination by sexual orientation, there is some 
+research in other markets/fields on LGBT community that may shed light on the possible existence 
+of such discrimination in mortgage market. Using experimental data of faked resumes with listed 
+sexual orientation, Weichselbaumer (2003) shows that lesbians are less likely to be hired. Using 
+questionnaires to 119 LGBT students, Schneider and Dimmito (2010) find that majority of the 
+respondents experienced anti-LGBT discrimination in the past.  Almeida et al. (2009) use survey data 
+
+
+7 
+ 
+to show LGBT youth experience more depression, higher tendency to self-harm, or to commit suicide. 
+The authors find that perceived discrimination is a significant contributor to the observed pattern.  
+         The LGBT community faces discrimination in many different aspects for complex historical 
+reasons. Notably, in the United States, the majority of citizens support the legal recognition of same-
+sex marriage in the recent decade.9 This support has increased steadily for more than a decade, and 
+has consistently remained above 50% in opinion polls since 2010.10 However, there is significant 
+opposition to same-sex marriage in different groups and states. This homophobia is especially 
+associated with conservatives, many members of the Tea Party movement, people with religious 
+beliefs conflicting with homosexuality, people who attend religious services at least weekly, some 
+members of the Republican Party, and many people living in the Southern United States and the Bible 
+Belt. On June 26, 2015, the U.S. Supreme Court held, in Obergefell v. Hodges, that the Fourteenth 
+Amendment requires states to offer same-sex marriage and recognize same-sex marriages performed 
+elsewhere in the country, and that state-level bans on same-sex marriage are unconstitutional. 
+However, officials of fourteen counties in three states were still unwilling to issue licenses to same-sex 
+couples as of October 2015.11 
+          Due to the significant opposition to same-sex marriage, we should not be surprised to find 
+discrimination against homosexual couples in mortgage applications. However, little research is 
+available on this topic in academia. This paper attempts to fill the void. In particular, we construct a 
+reliable proxy for homosexual orientation based on publicly available dataset to shed light on this 
+important topic. Overall, anecdotal evidence and other results suggest lending discrimination against 
+homosexuals is very likely to exist, and this hypothesis is the precise focus of this study. 
+3. Data 
+The Home Mortgage Disclosure Act (HMDA), a federal law enacted in 1975, requires certain 
+financial institutions to provide mortgage data to the public. HMDA data covers information such as 
+the applicant’s race, gender, income, loan purpose, loan approval, and so on.12 We collect HMDA 
+                                                          
+9 http://www.pewforum.org/2016/05/12/changing-attitudes-on-gay-marriage/  
+10 http://www.gallup.com/poll/162398/sex-marriage-support-solidifies-above.aspx  
+11Alabama judges use segregation-era law to avoid gay marriage 
+http://www.al.com/news/index.ssf/2015/10/alabama_judges_use_segregation.html#incart_river_home , and 
+https://ballotpedia.org/Local_government_responses_to_Obergefell_v._Hodges#tab=Alabama  
+12 The details of the data can be found at the FDIC website (https://www.fdic.gov/regulations/laws/rules/6500-
+3030.html#6500hmda1975).   
+
+
+8 
+ 
+national data from 1990 to 2015. The data from 1990 to 2012 is available from the National Archives’ 
+website. HMDA national data from 2013 to 2015 is likewise available from Federal Financial 
+Institutions Examination Council's (FFIEC) website. We also collect the matching census data from 
+these sources.   
+One significant limitation of the original HMDA data is their omission of important 
+information on loan applicants, which is crucial to lenders’ approval decisions and to any credible 
+investigation of lending discrimination.13 In response, in 1990, the Federal Reserve Bank of Boston 
+conducted a survey of a sample of lenders in Boston Metropolitan Statistical Area (MSA) and collected 
+detailed information on the borrowers’ financial and credit strength, employment, other demographic 
+and property characteristics. The data were later used by Munnell et al. (1996) to generate the famous 
+Boston Fed Study, which is classic research on minority lending discrimination. The Boston Fed data 
+was made public by the authors and have since been used by numerous researchers.     
+        Although our major loan analysis findings are derived from HMDA national data, we cross-
+validate our results by using Boston Fed data. Because the public use version of the Boston Fed data 
+does not include lender identification information, Ross and Yinger (2002) merge it with the HMDA 
+data, and correct some coding errors in the original data. The details of the merging process are 
+available in the data appendix of Ross and Yinger (2002).14 The adjusted sample size from Boston Fed 
+data is 2,316. To be consistent with the Boston Fed study and to facilitate understanding of the degree 
+of homosexual discrimination compared to other discrimination found in earlier literature, for HMDA 
+data we follow Munnell et al. (1996) by omitting incomplete or withdrawn loan applications. We also 
+omit all observations from borrowers who have missing values for the variables we use in this analysis; 
+see Table 1 for a complete list of these variables. Furthermore, as identifying same-sex borrowers 
+requires gender information for both the main applicant and co-applicant, we drop observations that 
+have only the main applicant on record for ease of comparison.15 Because our HMDA data covers 
+1990 to 2015 and is for the whole nation––a very large sample size––we draw a 20% random sampling 
+                                                          
+13 Lenders with information advantage practice price discrimination by charging high prices in residential mortgage 
+market, see Gan and Riddiough  (2008). 
+14 The cleanup version of the Boston Fed data is downloadable from John Yinger’s website 
+(http://faculty.maxwell.syr.edu/jyinger/datasets/index.html). 
+15 In an earlier draft, we also include the main applicant only observations and add a dummy control, and the findings are 
+similar. The results are available upon request.   
+
+
+9 
+ 
+from the full data. The total number of observations that we use for loan approval analysis from 
+HMDA national data is 28,988,939. 
+         To investigate loan costs and performances, we merge HMDA’s full sample with Fannie Mae 
+Loan Performance data. This public-use Fannie Mae data includes all 30-year, fully amortizing, full 
+documentation, single-family, conventional fixed-rate mortgages that Fannie Mae purchased since 
+2000. In addition to the loan performance record, the Fannie Mae data provide crucial information 
+that is not reported in HMDA, such as borrowers’ credit scores, contractual interest rates, loan-to-
+value ratios, debt-to-income ratios, and mortgage insurance premiums, if any, etc. Regarding the 
+HMDA data, since 2004, HMDA has included additional information on approved loan characteristics, 
+such as property type (e.g., single-family, manufactured homes, etc.), lien status (first, second, or non-
+secured), and rate spread. To take advantage of the expanded information in HMDA, we use 2004 as 
+the starting point for our cost and performance analysis. When merging this data with Fannie Mae 
+data, we keep all HMDA approval records regarding conventional loans that are secured by a first lien 
+and are sold to Fannie Mae. We then merge these observations with Fannie Mae data based on the 
+common variables available.16 To minimize matching errors, we only retain the matched pairs that are 
+unique from both ends. As all identified same-sex applicants from HMDA have a co-applicant present 
+by construction, to make a meaningful comparison, we only keep the merged non-same-sex applicants 
+that also have a co-applicant on record. After the merge, we omit the unusual observations that have 
+loan-to-value ratios over 80% but lack any mortgage insurance policy. 17 Finally, we drop the 
+observations that are missing information on any baseline control variables in the loan performance 
+analysis. The list of the variables in the baseline analysis is found in model 1 of Table 10. Our final 
+sample in the cost and performance analysis consists of 425,239 loans acquired by Fannie Mae since 
+2004.  
+        A list of the key variables used in this study is reported in Table 1.           
+[Insert Table 1 Here] 
+      The summary statistics is reported in Table 2. 
+                                                          
+16 We merge by state, MSA, county, year, loan amount, loan purpose (e.g. purchase, refinancing, etc), owner-occupancy, 
+property type, and the presence of co-borrower. County information is inferred from Fannie Mae data via the first three 
+digits of the reported zip codes.  
+17 It accounts for less than 0.005% of the matched observations.  
+
+
+10 
+ 
+[Insert Table 2 Here] 
+ 
+4. Research Design 
+4.1 Identifying potentially homosexual loan applicants  
+Because sexual orientation is not a required disclosure item, it is impossible to identify 
+homosexual loan applicants directly from the available data. A fair concern, therefore, is how to 
+attribute any findings to homosexual discrimination if we cannot identify homosexual applicants. 
+However, the definition of “discrimination” from the Cambridge Dictionaries Online is, “discrimination is 
+treatment or consideration of, or making a distinction in favor of or against, a person or thing based 
+on the group, class, or category to which that person or thing is perceived to belong to rather than on 
+individual merit.”  Hence, it is the external perception, instead of the authenticity of an identity, which 
+matters in discrimination identification. Fortunately, measuring such perception is possible. Almeida 
+(2009) actually finds it is very likely perceived discrimination is a contributor to emotional distress 
+among LGBT 9th–12th grade students. To comply with the FHA and ECOA, disclosing gender 
+information of the applicant and the co-applicant, if available, is mandatory. Therefore, based on 
+HMDA data, whenever we observe a joint presence of a loan applicant and co-applicant with the same 
+gender, we identify them as a potential pair of homosexual applicants, and assign one on a dummy 
+variable called “same-sex.” 
+          To verify we propose a sensible identification strategy for identifying homosexual loan 
+applicants, for each state in 2012, we calculate the percentage of same-sex pairs out of all identifiable 
+applicant-pairs from the full HMDA dataset and compare this percentage with the Gallup estimate of 
+state-level adult LGBT population percentage of the same year. 18 The correlation between our 
+measure and the Gallup LGBT estimate is 0.76. We plot this data in Figure 1a below. Given the 
+remarkably high correlation between these two aggregate estimates, we are confident that our measure 
+covers a significant portion of homosexual loan applicants.  
+[Insert Figure 1a Here] 
+                                                          
+18 See http://www.gallup.com/poll/160517/lgbt-percentage-highest-lowest-north-dakota.aspx.  
+
+
+11 
+ 
+As the HMDA dataset allows us to map each observation up to the census tract level, we 
+further choose Washington D.C. and calculate the percentage of same-sex applicants in each census 
+tract, using post 2010 data. We then compare our measure with a well-known LGBT population survey 
+from the Williams institute at UCLA which is based on recent 2010 U.S census data, and common 
+sense with news and other anecdotal evidence on LGBT communities in Washington D.C. For 
+example, Logan Circle and DuPont Circle areas are considered as the neighborhoods with the highest 
+gay population.19 We include the survey results of the Williams Institute in Figure 1b, and we plot the 
+heat map of our estimated same-sex percentage in Figure 1c.  We can see our measure is consistent 
+with both the Williams institute survey and anecdotal evidence that the commonly perceived same-
+sex neighborhoods are the Logan Circle and DuPont Circle areas.  
+[Insert Figure 1b Here] 
+ 
+ 
+[Insert Figure 1c Here] 
+However, we acknowledge our measure has its flaws. For example, it is certainly possible that 
+some of the identified pairs in our sample are merely family members. As a result, in section 5.3, a 
+series of robustness checks are conducted to address the concern of potential measurement errors.           
+4.2 Model development 
+          There is a vast literature for studies on lending discrimination, although the literature focuses 
+primarily on racial-based discrimination. Ross and Yinger (2002) provide a comprehensive review on 
+this literature. As pointed out by Ross and Yinger (2002), the key challenge facing scholars as they try 
+to understand lending discrimination is that different lenders may use different underwriting standards. 
+As a result, it is possible that at the individual lender level, there is a common underwriting standard 
+for everybody and, therefore, no “discrimination”. However, due to the fact that applicants might be 
+sorted disproportionally to different lenders, the sorting might lead to the case that certain types of 
+applicants are more (or less) likely to have their applications approved. 
+To address this concern, we follow the methodology used by Ross and Yinger (2002) by 
+examining several kinds of variations of lenders’ underwriting models. The logit model, seen in 
+                                                          
+19 See https://www.borderstan.com/2012/05/30/the-winner-is-dcs-gay-neighborhood/.  
+
+
+12 
+ 
+equation 1, is the baseline model in which we assume all lenders share a common underwriting model. 
+The details on variable definitions can be found at Table 1.  
+𝐴𝑝𝑝𝑟𝑜𝑣𝑒= 𝛽0 + 𝛽1𝑆𝑎𝑚𝑒‐ 𝑆𝑒𝑥 + 𝛽2𝑀𝑎𝑙𝑒+ 𝛽3𝑅𝑎𝑐𝑒𝐷𝑢𝑚𝑚𝑦+ 𝛽4𝑂𝑐𝑐𝑢𝑝𝑖𝑒𝑑+ 𝛽5𝐿𝑇𝐼
++ 𝛽6 log
+𝐼𝑛𝑐𝑜𝑚𝑒+ 𝛽7𝑝𝑢𝑟𝑝𝑜𝑠𝑒𝐷𝑢𝑚𝑚𝑦+ 𝛽8𝑙𝑜𝑎𝑛𝑇𝑦𝑝𝑒𝐷𝑢𝑚𝑚𝑦
++ 𝛽9𝐷𝑒𝑚𝑜𝑔𝑟𝑎𝑝ℎ𝑖𝑐𝐶𝑡𝑟𝑙+ 𝐹. 𝐸. +𝜖 
+1 
+To examine the potential spillover effect, we further expand our analysis from equation 1 by 
+adding  LG_𝐶𝑜𝑢𝑛𝑡𝑦𝑃𝑐𝑡 and 𝑆𝑎𝑚𝑒‐ 𝑆𝑒𝑥 × LG_𝐶𝑜𝑢𝑛𝑡𝑦𝑃𝑐𝑡 interaction term, as well as various 
+lender/state fixed effects to account for varied lenders’ underwriting models in a simple, systematic 
+way. 
+With the additional characteristics from the Boston Fed data, we next add a comprehensive 
+list of variables that measure loan applicants’ financial, employment, educational, and demographic 
+backgrounds. This model is shown in equation 2. Similar to equation 1, we do not include 
+the LG_𝑇𝑟𝑎𝑐𝑡𝑃𝑐𝑡  dummy in the baseline equations: 
+𝐴𝑝𝑝𝑟𝑜𝑣𝑒= 𝛽0 + 𝛽1𝑆𝑎𝑚𝑒‐ 𝑆𝑒𝑥+ 𝛽2𝑀𝑖𝑛𝑜𝑟𝑖𝑡𝑦+ 𝛽3𝐻𝐸𝑇𝐼+ 𝛽4𝑇𝐷𝑇𝐼+ 𝛽5𝑁𝑒𝑡𝑊𝑜𝑟𝑡ℎ
++ 𝛽6𝑃𝑟𝑒𝑑𝑖𝑐𝑡𝑒𝑑 𝑈𝑛𝑒𝑚𝑝+ 𝛽7𝑆𝑒𝑙𝑓‐ 𝑒𝑚𝑝𝑙𝑜𝑦𝑒𝑑+ 𝛽8𝑃𝑀𝐼 𝐷𝑒𝑛𝑖𝑎𝑙
++ 𝛽9𝑀𝑢𝑙𝑡𝑖 𝐹𝑎𝑚𝑖𝑙𝑦+ 𝛽10𝐹𝑖𝑥𝑒𝑑 𝑅𝑎𝑡𝑒+ 𝛽11𝑆𝑝𝑒𝑐𝑖𝑎𝑙 𝑃𝑟𝑜𝑔𝑟𝑎𝑚+ 𝛽12𝐿𝑜𝑎𝑛 𝑇𝑒𝑟𝑚
++ 𝛽13𝐺𝑖𝑓𝑡+ 𝛽14𝐶𝑜‐ 𝑎𝑝𝑝𝑙𝑖𝑐𝑎𝑛𝑡+ 𝛽15𝐶𝑜𝑠𝑖𝑔𝑛𝑒𝑟+ 𝛽16𝐴𝑡 𝑙𝑒𝑎𝑠𝑡 50 + 𝛽17𝑀𝑎𝑙𝑒
++ 𝛽18𝑀𝑎𝑟𝑟𝑖𝑒𝑑+ 𝛽19𝑂𝑐𝑐𝑢𝑝𝑖𝑒𝑑+ 𝛽20𝑃𝑜𝑜𝑟 𝑇𝑟𝑎𝑐𝑡+ 𝛽21𝐵𝑎𝑛𝑘𝑟𝑢𝑝𝑐𝑦
++ 𝛽22𝐶𝑟𝑒𝑑𝑖𝑡 𝐻𝑖𝑠𝑡𝑜𝑟𝑦+ 𝛽23𝐿𝑇𝑉+ 𝛽24𝑆ℎ𝑜𝑟𝑡 𝑊𝑜𝑟𝑘 𝐸𝑥𝑝. +𝛽25𝐻𝑖𝑔ℎ 𝑆𝑐ℎ𝑜𝑜𝑙
++ 𝛽26𝐷𝑒𝑝𝑒𝑛𝑑𝑒𝑛𝑡𝑠+ 𝑂𝑡ℎ𝑒𝑟 𝐶𝑜𝑛𝑡𝑟𝑜𝑙𝑠+ 𝐹. 𝐸. +𝜖 
+2 
+In addition to the lender/state fixed effects and the added control variables regarding 
+applicants’ characteristics, we further allow for variations in underwriting based on loan terms. That 
+is, we allow lenders to put different underwriting weights on various loan and borrower characteristics 
+depending upon the nature of the loan.  Ross and Yinger (2002) provide a clear example that 
+demonstrates the importance of controlling for this type of variation: 
+
+
+13 
+ 
+Consider, for example, a lender that specializes in high LTV loans and a common 
+underwriting process in which the weight placed on the debt-to-income ratio is higher 
+for loans with a high LTV. Under these circumstances, this lender will appear to place 
+a higher weight on the debt to income ratio than do other lenders, even though this is 
+not the case. (p. 194) 
+In order to combat this potential problem, we first identify a list of key underwriting variables 
+(i.e., house expense-to-income ratio, total debt expense-to-income ratio, loan-to-value ratio, 
+bankruptcy history, and borrower’s consumer and mortgage credit history). We then construct pair-
+wise interaction terms for these variables and add them into our model.  
+As discussed in Ross and Yinger (2002), if lenders indeed differ on their underwriting 
+standards, and these variations are legitimate reflections of their perceived business necessity (hence, 
+not indicative of discrimination), these variations should reflect either differences in the applications 
+lenders receive or differences in lenders’ past experiences. As a result, conformation that potential 
+“discrimination” in loan approval disappears after accounting for the link between a lender’s 
+underwriting standards and their portfolio will satisfy a necessary condition for the business’ necessity 
+defense (Ross and Yinger, 2002). To address this and to further control for lender underwriting 
+standard variations, we identify a list of key lender portfolio variables, which Ross and Yinger (2002) 
+also use. These variables are the percentage of conventional loans sold to the secondary market, 
+average loan size, average applicant’s income, and average loan-to-income ratio; we also included the 
+pair-wise interactions of the previously identified key underwriting variables and the lender portfolio 
+variables. The resulting model is our most comprehensive model using Boston Fed data. 
+At this point, we have formed models to test the likelihood of loan approval for same-sex 
+borrowers, controlling for other social economics features. To ensure convincing findings on lending 
+discrimination, we go one step further to check the loan cost and performance for approved applicants, 
+because if same-sex borrowers are not discriminated against due to perceptions of their homosexual 
+orientation, we should not expect any significant difference from the average cost and loan 
+performance for the approved loans. However, if discrimination is found within the results, aside from 
+individual deviations due to fundamental economic reasons, we should expect that same-sex 
+borrowers’ loans are more profitable because same-sex borrowers are more qualified for the loans 
+with comparable terms. Other evidence of discrimination might be if, in business practice, same-sex 
+
+
+14 
+ 
+borrowers are charged extra fees to get a similar loan. We test the following situations for approved 
+loans: the loan spread disclosure, the rate spread, the contractual rate, and the likelihood of a default.  
+ After 2004, a rate spread for a loan must be reported if it is above a certain threshold as 
+defined by HMDA. Between January 2004 and September 2010, a loan’s rate spread is defined as the 
+difference between the APR on a loan and the prevalent rate on treasury securities of comparable 
+maturity. HMDA mandates disclosure of rate spread if it is at least 3%, for a loan secured by a first 
+lien. To check if it is more likely that same-sex borrowers experience a higher spread than hetero-sex 
+borrowers, meaning same-sex borrowers probably pay higher interest, we define a dummy variable as 
+set to 1 if a loan has a reported spread, and 0 otherwise. We run the following logit model as in 
+equation 3.  
+𝐷𝑖𝑠𝑐𝑙𝑜𝑠𝑢𝑟𝑒= 𝛽0 + 𝛽1𝑆𝑎𝑚𝑒‐ 𝑆𝑒𝑥+ 𝛽2𝑀𝑎𝑙𝑒+ 𝛽3𝐻𝑖𝑠𝑝𝑎𝑛𝑖𝑐+ 𝛽4𝐵𝑙𝑎𝑐𝑘+ 𝛽5𝐴𝑠𝑖𝑎𝑛
++ 𝛽6𝑂𝑡ℎ𝑒𝑟𝑟𝑎𝑐𝑒+ 𝛽7𝑂𝑟𝑖𝑔𝑛𝑎𝑙 𝐿𝑜𝑎𝑛 𝑡𝑜 𝑉𝑎𝑙𝑢𝑒+ 𝛽8 log
+𝐼𝑛𝑐𝑜𝑚𝑒
++ 𝛽9𝐵𝑜𝑟𝑟𝑜𝑤𝑒𝑟 𝑆𝑐𝑜𝑟𝑒+ 𝛽10𝐶𝑜‐ 𝐵𝑜𝑟𝑟𝑜𝑤𝑒𝑟 𝑆𝑐𝑜𝑟𝑒+ 𝛽11𝐹𝑖𝑟𝑠𝑡 𝑇𝑖𝑚𝑒
++ 𝛽12𝑁𝑢𝑚𝑢𝑛𝑖𝑡+ 𝛽13𝑀𝑜𝑟𝑡𝑔𝑎𝑔𝑒 𝐼𝑛𝑠𝑢𝑟𝑎𝑛𝑐𝑒𝑝𝑐𝑡+ 𝛽14𝐿𝑜𝑎𝑛_𝑃𝑢𝑟𝑝
++ 𝛽15𝑂𝑐𝑐𝑢𝑝𝑎𝑛𝑐𝑦 𝑆𝑡𝑎𝑡𝑢𝑠+ 𝑂𝑡ℎ𝑒𝑟 𝐶𝑜𝑛𝑡𝑟𝑜𝑙𝑠+ 𝐹. 𝐸. +𝜖 
+3  
+Alternatively, we can test the rate spread directly by regressing the rate spread on loan and 
+borrower characteristics as the following Tobit model in equation 4. 
+𝑅𝑎𝑡𝑒𝑆𝑝𝑟𝑒𝑎𝑑= 𝛽0 + 𝛽1𝑆𝑎𝑚𝑒‐ 𝑆𝑒𝑥+ 𝛽2𝑀𝑎𝑙𝑒+ 𝛽3𝐻𝑖𝑠𝑝𝑎𝑛𝑖𝑐+ 𝛽4𝐵𝑙𝑎𝑐𝑘+ 𝛽5𝐴𝑠𝑖𝑎𝑛
++ 𝛽6𝑂𝑡ℎ𝑒𝑟𝑟𝑎𝑐𝑒+ 𝛽7𝑂𝑟𝑖𝑔𝑛𝑎𝑙 𝐿𝑜𝑎𝑛 𝑡𝑜 𝑉𝑎𝑙𝑢𝑒+ 𝛽8 log
+𝐼𝑛𝑐𝑜𝑚𝑒
++ 𝛽9𝐵𝑜𝑟𝑟𝑜𝑤𝑒𝑟 𝑆𝑐𝑜𝑟𝑒+ 𝛽10𝐶𝑜‐ 𝐵𝑜𝑟𝑟𝑜𝑤𝑒𝑟 𝑆𝑐𝑜𝑟𝑒+ 𝛽11𝐹𝑖𝑟𝑠𝑡 𝑇𝑖𝑚𝑒
++ 𝛽12𝑁𝑢𝑚𝑢𝑛𝑖𝑡+ 𝛽13𝑀𝑜𝑟𝑡𝑔𝑎𝑔𝑒 𝐼𝑛𝑠𝑢𝑟𝑎𝑛𝑐𝑒𝑝𝑐𝑡+ 𝛽14𝐿𝑜𝑎𝑛_𝑃𝑢𝑟𝑝
++ 𝛽15𝑂𝑐𝑐𝑢𝑝𝑎𝑛𝑐𝑦 𝑆𝑡𝑎𝑡𝑢𝑠+ 𝑂𝑡ℎ𝑒𝑟 𝐶𝑜𝑛𝑡𝑟𝑜𝑙𝑠+ 𝐹. 𝐸. +𝜖 
+4 
+Although the Tobit model handles censored data better, the extremely high rate of censoring 
+might concern econometricians, given the strong normality assumption that the model makes. We use 
+data from Fannie Mae to further analyze the original contractual rate using equation 5. 
+
+
+15 
+ 
+𝐶𝑡𝑟𝑡𝑅𝑎𝑡𝑒= 𝛽0 + 𝛽1𝑆𝑎𝑚𝑒‐ 𝑆𝑒𝑥+ 𝛽2𝑀𝑎𝑙𝑒+ 𝛽3𝐻𝑖𝑠𝑝𝑎𝑛𝑖𝑐+ 𝛽4𝐵𝑙𝑎𝑐𝑘+ 𝛽5𝐴𝑠𝑖𝑎𝑛
++ 𝛽6𝑂𝑡ℎ𝑒𝑟𝑟𝑎𝑐𝑒+ 𝛽7𝑂𝑟𝑖𝑔𝑛𝑎𝑙 𝐿𝑜𝑎𝑛 𝑡𝑜 𝑉𝑎𝑙𝑢𝑒+ 𝛽8 log
+𝐼𝑛𝑐𝑜𝑚𝑒
++ 𝛽9𝐵𝑜𝑟𝑟𝑜𝑤𝑒𝑟 𝑆𝑐𝑜𝑟𝑒+ 𝛽10𝐶𝑜‐ 𝐵𝑜𝑟𝑟𝑜𝑤𝑒𝑟 𝑆𝑐𝑜𝑟𝑒+ 𝛽11𝐹𝑖𝑟𝑠𝑡 𝑇𝑖𝑚𝑒
++ 𝛽12𝑁𝑢𝑚𝑢𝑛𝑖𝑡+ 𝛽13𝑀𝑜𝑟𝑡𝑔𝑎𝑔𝑒 𝐼𝑛𝑠𝑢𝑟𝑎𝑛𝑐𝑒𝑝𝑐𝑡+ 𝛽14𝐿𝑜𝑎𝑛_𝑃𝑢𝑟𝑝
++ 𝛽15𝑂𝑐𝑐𝑢𝑝𝑎𝑛𝑐𝑦 𝑆𝑡𝑎𝑡𝑢𝑠+ 𝑂𝑡ℎ𝑒𝑟 𝐶𝑜𝑛𝑡𝑟𝑜𝑙𝑠+ 𝐹. 𝐸. +𝜖 
+5 
+ 
+After checking the contractual rates, we check the likelihood of a default on the loans for 
+same-sex borrowers with the following logit model in equation 6.  
+𝐷𝑒𝑓𝑎𝑢𝑙𝑡= 𝛽0 + 𝛽1𝑆𝑎𝑚𝑒‐ 𝑆𝑒𝑥+ 𝛽2𝑀𝑎𝑙𝑒+ 𝛽3𝐻𝑖𝑠𝑝𝑎𝑛𝑖𝑐+ 𝛽4𝐵𝑙𝑎𝑐𝑘+ 𝛽5𝐴𝑠𝑖𝑎𝑛
++ 𝛽6𝑂𝑡ℎ𝑒𝑟𝑟𝑎𝑐𝑒+ 𝛽7𝑂𝑟𝑖𝑔𝑛𝑎𝑙 𝐿𝑜𝑎𝑛 𝑡𝑜 𝑉𝑎𝑙𝑢𝑒+ 𝛽8 log
+𝐼𝑛𝑐𝑜𝑚𝑒
++ 𝛽9𝐵𝑜𝑟𝑟𝑜𝑤𝑒𝑟 𝑆𝑐𝑜𝑟𝑒+ 𝛽10𝐶𝑜‐ 𝐵𝑜𝑟𝑟𝑜𝑤𝑒𝑟 𝑆𝑐𝑜𝑟𝑒+ 𝛽11𝐹𝑖𝑟𝑠𝑡 𝑇𝑖𝑚𝑒
++ 𝛽12𝑁𝑢𝑚𝑢𝑛𝑖𝑡+ 𝛽13𝑀𝑜𝑟𝑡𝑔𝑎𝑔𝑒 𝐼𝑛𝑠𝑢𝑟𝑎𝑛𝑐𝑒𝑝𝑐𝑡+ 𝛽14𝐿𝑜𝑎𝑛_𝑃𝑢𝑟𝑝
++ 𝛽15𝑂𝑐𝑐𝑢𝑝𝑎𝑛𝑐𝑦 𝑆𝑡𝑎𝑡𝑢𝑠+ 𝑂𝑡ℎ𝑒𝑟 𝐶𝑜𝑛𝑡𝑟𝑜𝑙𝑠+ 𝐹. 𝐸. +𝜖 
+6 
+Finally, conditional on the loans that are already in default, we employ a Cox proportional 
+hazard model on the duration before the default to check if it same-sex borrowers tend to default later 
+than other comparable borrowers. Making more mortgage payments still mean less risk to the banks 
+when we compare two defaults.  
+5. Results 
+5.1 Loan approval decision 
+5.1.1 Main results with HMDA data 
+We first use the 20% random sample of HMDA data from 1990 to 2015 to test lending 
+discrimination on sexual orientation. Before we conduct the loan approval analysis, we calculate the 
+raw distribution of hetero and same-sex applicants based on different loan types and programs. The 
+results are reported in Table 3.  
+Table 3 reveals that applications filed by same-sex borrowers account for 4.03% of the total 
+received. However, based on the approved loans, this percentage drops to 3.75%. Given the total 
+
+
+16 
+ 
+residential loan balance of $11.45 trillion as of 2016, we infer that about $43 billion are borrowed by 
+same-sex applicants. The raw approval rate for hetero-sex applicants is 82.74%, in contrast to only 
+76.82% for same-sex applicants. The lower approval rate for same-sex applicants is persistent among 
+various loan purposes and programs, although the margins are smaller for government sponsored 
+programs.  
+[Insert Table 3 Here] 
+  The lower raw approval rate is not enough to establish a case of potentially unfair treatment 
+to same-sex applicants, as we do not control for other confounding factors that affect lender’s 
+approval decision. As a result, we follow equation 1 in section 4.2 and run a serious of logit and linear 
+probability models with available controls from the HMDA and census data. We report the results in 
+Table 4. Column (1) reports the baseline results. The coefficient for same-sex applicants is -0.147 (at 
+1% level of significance), which indicates that the log odds are 14.7 % lower for homosexual applicants 
+to be approved for a mortgage loan after controlling for a whole set of basic mortgage loan control 
+variables, such as property type, natural log of applicants’ income, loan purpose, and so on. We also 
+find that the coefficients for minorities are negative and significant: Hispanic (-0.390), Black (-0.809), 
+and Asian (-0.172), which are qualitatively consistent with previous studies, such as Munnell et al. 
+(1996). The coefficient for county level market share of each lender (Lendershare_County), measured 
+yearly, is positive but insignificant. Hence the relative size of lenders in local market does not play a 
+significant role on their approval decision.  
+          A consumer’s mortgage lending approval and interest rates are impacted by neighborhoods. 
+Bayer, Ferreira, and Ross (2016) find the cohort of the most recent purchase or refinancing is 
+influential in predicting defaults. Before the subprime mortgage crisis, lenders targeted geographic 
+areas with historically low rates of home ownership where loan sellers identified many underserved 
+consumers. In Column (3), we include county-level percentages of same-sex applicants each year 
+(LG_countypct), and its interaction with same-sex dummy as control variables, and the results become 
+more negative for the main effects; we also report the average marginal effect in Column (4). The 
+same-sex coefficient is -0.312, at a 1% significance level. The margin coefficient of -0.042 suggests 
+that, relative to an otherwise similar hetero-sex applicant, the approval rate for a same-sex applicant is 
+4.2% lower on average. The coefficient of LG_Countypct is -0.0619, at 1% significance level. Its 
+margin of -0.08 indicates that, when the share of a county’s same-sex population increases by 1%, the 
+loan approval rate to hetero-sex applicants reside in that county drops by 0.8%.  The interaction term 
+
+
+17 
+ 
+between same-sex dummy and LG_Countypct is 0.0343, at 1% significance level. The corresponding 
+margin of 0.005 suggests that homosexual applicants’ loan approval rate is increased by 0.5% if they 
+choose to live in a county that has 1% higher same-sex population. It appears that in more LGBT 
+presented neighborhoods, same-sex applicants are treated less unfavorably, in contrast to higher loan 
+rejection rates for straight applicants. This finding hence suggests a two-sided spillover effect when a 
+county’s LGBT population density changes.   
+         As we control for the census tract demographics plus county and year fixed effects, our findings 
+in Column (3) are unlikely to be driven by the unobserved county-specific economic characteristics. 
+This is further confirmed in Column (5), where we run a linear probability model with additional 
+lender*county fixed effect plus other controls in Column (3). A nice feature of the linear probability 
+model is the simple probabilistic interpretation on coefficients. The findings are qualitatively 
+unchanged from Column (3). We again find significant evidence of lower approval rate for same-sex 
+applicants, and the two-sided spillover effect as discussed above. In Column (6), we go one step further 
+to include lender*county*year fixed effect. Under this specification, we can no longer estimate the 
+spillover effect from LG_Countypct, but the other findings are otherwise consistent with earlier 
+columns.  
+ [Insert Table 4 Here] 
+5.1.2 Main results for the Boston Fed data 
+Due to lack of some important control variables on loan and borrower characteristics, HMDA 
+data may suffer from biased estimates. Therefore, we further tested the Boston Fed data for sexual 
+orientation discrimination. The results are reported in Table 5. 
+Table 5, Column (1) is the baseline result for which we assumed all lenders share a common 
+underwriting model. Its coefficient for same-sex is -1.159 (with a standard error of 0.404), which 
+indicates homosexual applicants are much less likely to be approved for a mortgage loan application 
+after controlling for a rich set of variables from the Boston Fed data. 
+Because of the much narrower geographic coverage, we calculate the percentage of same-sex 
+applicant at the census tract level (LG_Tractpct) using HMDA data in 1990, and include it in column 
+
+
+18 
+ 
+(2).20  The result is about the same for the same-sex coefficient. We then introduce lender fixed effects 
+to allow different lenders to vary in a simple, systematic way, and report the results in Column (3). 
+The coefficient is actually lower than the coefficient of Column (1); it is -1.190 with a standard error 
+of 0.415. 
+In Column (4), in addition to lender fixed effect, we also include variations in underwriting 
+based on loan terms. That is, the model allows lenders to put different underwriting weights on various 
+loan and borrower characteristics, depending upon the nature of the loan. Ross and Yinger (2002) 
+provide a clear example to demonstrate the importance of controlling this type of variation. We first 
+identify a list of key underwriting variables (i.e., house expense to income ratio, total debt expense to 
+income ratio, loan to value ratio, bankruptcy history, and borrowers’ consumer and mortgage credit 
+history). We then construct pair-wise interaction terms for these variables, and add them into our 
+model. After controlling for these variables, the approval rates further decrease, with a coefficient of 
+-1.296 (standard error 0.487). 
+Column (5) is the result for our final attempt to control for variations on lenders’ underwriting 
+standards. We also report its average marginal effect in Column (6). To address the problem, we 
+identify a list of key lender portfolio variables, including the percentage of conventional loans sold to 
+secondary market, average loan size, average applicant’s income, and average loan-to-income ratio. 
+We also include the pair-wise interactions of the previously identified key underwriting variables and 
+the lender portfolio variables. This model is our most comprehensive model. The coefficients for 
+same-sex, however, fall even further than those of our previous tests (-1.285 with a standard error of 
+0.544). Its margin of -0.084 suggests that, ceteris paribus, the loan approval rate for homosexual 
+applicant is 8.4% lower than straight applicant on average. Consistent with HMDA based findings 
+from Table 4, we again find strong evidence of the negative spillover effect in more LGBT dense 
+neighborhoods. The margin for LG_Tractpct is -0.002, suggesting that when the same-sex population 
+percentage in a census tract increases by 1%, the straight applicant’s loan approval rate declines by 
+0.2%.  
+[Insert Table 5 Here] 
+                                                          
+20 Due to the small sample size with only 56 same-sex applicants, we do not add the interaction term between same-sex 
+dummy and LG_Tractpct.  
+
+
+19 
+ 
+It is important to clarify that we have a limited focus in this analysis. It abstracts from 
+discrimination that may occur in different areas of the economy. For example, if homosexual 
+individuals are subject to discrimination in labor markets (see Weichselbaumer, 2003), they will have 
+lower incomes and their higher denial ratio may actually reflect higher obligation ratios, greater loan-
+to-value ratios, or poorer credit histories. We did not try to study these discriminations. However, our 
+results are robust, even when controlled for these social economic characteristics. Similarly, if 
+homosexual couples are discouraged from moving into predominantly heterosexual areas, they will 
+limit their search to neighborhoods sanctioned for homosexual families. These neighborhoods tend 
+to be older central cities with high-density housing, and high-density housing might be associated with 
+higher denial rates (see Black et al. [2002] for some potential reasons that why gay men like cities like 
+San Francisco). Given the extensive controls of borrower’s characteristics, census tract demographics, 
+and county and lender fixed effects, it is unlikely our findings related to same-sex applicants are 
+spuriously driven by the above factors.  
+5.1.3 Robustness check  
+          One concern for the main findings is that the results might be driven by observations of early 
+years or a few extreme years. We run the regressions year by year using the full sample of national 
+HMDA data and report the estimates and confidence interval in Figure 2.  The pattern of lower 
+approval rate to same-sex applicants is persistent over time, except in 1996 and 2000, in which the 
+coefficient is not significant from zero at 5%. Surprisingly, the extent of discrimination seems 
+unmitigated in the last decade, when the Democratic Party is in power.   
+[Insert Figure 2 Here] 
+To rule out other explanations of the results such as the potentially inaccurate proxy for sexual 
+orientation and estimation bias, we conduct a robustness check on both the HMDA and Boston Fed 
+data. Table 6 reports the robustness check on the HMDA national data. Although it is very rare that 
+fathers and sons or brothers/sisters will buy a house together, we still need to rule out such cases to 
+check if our results hold. We further restrict our sample for same-sex co-applicants to different races. 
+The results are essentially the same. For Column (1), the same-sex coefficient is -0.159 at 1% 
+significant level, which is essentially the same as Column (1) of Table 4. 
+[Insert Table 6 Here] 
+
+
+20 
+ 
+         In Table 7, we address the concern that same-sex borrowers are more likely to live in multi-
+family units than single-family units, and are more likely to have a cosigner than not. We restrict our 
+sample to applicants for single-family units without a cosigner. The results are still similar to those 
+results without the constraints (i.e., the results in Table 5). The Table 7 Column (1) same-sex 
+coefficient is -1.525 at 1% significant level, which is very similar to Column (1) of Table 5. The 
+following four columns are also very similar.  
+[Insert Table 7 Here] 
+          To address the concern that same-sex mortgage applicants are younger on average, and to rule 
+out potential parent-kid pairs, we restrict our Boston Fed sample to applicants over 50 years old and 
+with no dependents. The finding of lower approval rate is even stronger when we compare them to 
+the same-sex coefficients in Table 8. The Column (1) same-sex coefficient is -2.196 (standard error 
+0.708). The coefficients in the other four columns are also lower than corresponding coefficients in 
+Table 5. 
+[Insert Table 8 Here] 
+          Finally, following a process first suggested by Munnell et al. (1996), we first run a full logit 
+regression (Logit (5) in table 5, but excluding same-sex as control variable, with Boston Fed Data) 
+on non-same-sex observations.  Then for the same-sex applicants, we plug in their attributes to the 
+model pretending they are hetero-sexual, and compare the average predicted denial probability with 
+the actual denial rate observed in data. Compared to otherwise similar non-same-sex applicants, 
+same-sex applicant are 73.12% more likely to be rejected. The results are reported in Table 9. 
+[Insert Table 9 Here] 
+5.2 Mortgage cost  
+     Measuring mortgage costs to borrowers can be tricky. One obvious choice is to use the 
+contractual rate. Nevertheless, we shall be aware that the contractual rate is often not an accurate 
+measure of the effective borrowing cost. Unlike annual percentage rate (APR), the contractual rate 
+ignores the impact of loan fees and other closing costs charged by lender. As a simple example, 
+consider a 30-year fixed rate mortgage for $200,000. Suppose a lender offers a 4.5% contractual rate 
+
+
+21 
+ 
+with two discount points.21 The terms observed from the merged HMDA-Fannie Mae data will have 
+loan amount of $200,000 and a contractual rate of 4.5%. The monthly mortgage payment is $1013.37. 
+Nevertheless, because of the two discount points, lenders will charge $4,000 fees upon closing. 
+Assuming the borrower chooses to amortize the fees over the loan term, the actual monthly payment 
+will be $1033.64, which is based on the principal value of $204,000. In another word, this borrower 
+only receives $200,000 from the lender, but her mortgage payment will be calculated as if she had 
+borrowed $204,000. The effective borrowing cost (hence the APR) is 4.67%, which is 0.17% higher 
+than its contractual rate. This example demonstrates why contractual rate often underestimates the 
+true financing cost when loan fees are present.  In practice, lenders tend to maintain “sticky” mortgage 
+rates and use loan fees and points to achieve the desired yield. Brueggeman and Fisher (2016) offer an 
+excellent discussion on why lenders often prefer to use loan fee, rather than contractual rate, to adjust 
+yield. Because APR measures the effective borrowing cost more accurately than contractual rates, we 
+first conduct our mortgage cost analysis using APR measure in the next subsection.   
+5.2.1 Rate spread analysis 
+         Under HMDA, since 2004, a rate spread for a loan must be reported if it is above a certain 
+threshold. Between January 2004 and September 2010, the rate spread is defined as the difference 
+between the APR on a loan and the prevalent rate for treasury securities of comparable maturity. 
+HMDA mandates disclosure of such rate spread if it is at least 3% for a loan secured by a first lien. 
+Due to this high threshold, only 3.89% of the loans in our usable sample have reported rate spreads. 
+Since October 2010, HMDA changed its definition of rate spread as the difference between a loan’s 
+APR and a survey-based estimate of prevalent APR (instead of treasure rate) for comparable loans. 
+Given this new definition, disclosure is required if a rate spread is above 1.5%. The new disclosure 
+threshold is even higher than before, as only 1.01% of the loans in our sample are above this threshold, 
+and hence, have reported spreads.  
+      Because only loans with APRs well above average have disclosed rate spreads, we define a dummy 
+variable called “Disclosure,” which is set to 1 if a loan has a reported spread, and 0 otherwise. We 
+then run a logit model by controlling an extensive set of loan and borrower characteristics. The results 
+are reported in Table 10. Model 1 reports the baseline result, and we gradually add LG_Countypct, its 
+interaction with same-sex dummy, and more fixed effects in subsequent models. We find consistently 
+                                                          
+21 One point means a 1% upfront charge of a loan discount fee, applicable to the contractual loan amount.  
+
+
+22 
+ 
+across models that, compared with loans that are otherwise similar, loans granted to same-sex 
+borrowers are more likely to have a reported rate spread. The same-sex coefficient in Model 3 is 0.112 
+(standard error 0.00411), which suggests that, holding other factors constant, same-sex borrowers are 
+more likely to have a loan with a reported rate spread, and thus, a higher APR.  
+[Insert Table 10 Here] 
+As an alternative test for higher APRs for same-sex borrowers, we regress the rate spread 
+directly on loan and borrower characteristics. One restriction, as discussed above, is that our sample 
+is censored below by the threshold that triggers the rate spread disclosure. We therefore adopt a Tobit 
+model to address the data censoring issue. Due to the 2010 change to the reporting threshold and the 
+definition of rate spread, we split our sample into periods before and after 2010,22 and report the Tobit 
+regression results in Table 11. Models 1 and 4 correspond to the baseline model for pre- and post-
+2010 periods separately, and Models 3 and 6 are full models after controlling the interaction terms 
+between same-sex and county level same-sex percentage variable, and additional fixed effects for the 
+corresponding periods. We find significant evidence that same-sex borrowers are charged higher rate 
+spreads. For example, the coefficient of same-sex borrowers for the full model before 2010 (Model 3) 
+is 0.202 at a 1% significance level, which implies that, compared with otherwise similar borrowers, the 
+base group same-sex borrowers, on average, pay 0.202% more on their mortgages, which is both 
+statistically and economically significant. The same coefficient for post-2010 (Model 6) is smaller at 
+0.111, although it is still highly significant. However, we read this result with great caution; as for the 
+post-2010 period, due to the higher reporting threshold, the rate spread information of almost 99% 
+of the observations are censored out. This leaves us with only 115 reported rate spreads from same-
+sex borrowers out of 237,197 total observations and, thus, with little information to extract.  
+[Insert Table 11 Here] 
+5.2.2 Contractual rate analysis 
+Although the Tobit model is suitable to handle censored data, the extremely high censoring 
+rate in our sample and the strong normality assumption made by the Tobit model can still be of 
+                                                          
+22 Here we drop the loans originated in the last quarter of 2009 as it is the transitional period of the changing reporting 
+rules.  
+
+
+23 
+ 
+concern. In response, in this section we examine the original contractual rate, which is available for all 
+observations thanks to Fannie Mae data.  
+           With the caveat that contractual rate tends to be sticky and usually underestimates the effective 
+financing cost, we report the OLS regression results using it as our cost measure in Table 12. The 
+model specifications are otherwise identical to Table 11. As the changing disclosure rule is no longer 
+relevant, we first report the full sample result in Columns (1) to (3). Then, to facilitate comparison 
+with Table 11, we break our sample into the same pre and post 2010 periods in Columns (4) and (5). 
+The findings from contractual rate are qualitatively consistent with the previous APR based rate spread 
+analysis. For example, in Colum (1), the coefficient for same-sex is 0.0195 (standard error 0.00298), 
+which suggests same-sex borrowers on average pay 1.95 more basis points on contractual rate 
+compared with otherwise similar hetero-sex borrowers. The pattern is persistent across different sub-
+periods, hence suggesting that overpricing to same-sex borrowers is a common business practice. 
+Finally, the larger coefficient for same-sex after 2010 in Column (5) echoes the trend of increasing 
+approval discrimination to same-sex applicants since 2004, as shown in Figure 2.   
+   As far as the spillover effects, the coefficient for LG_Countypct is at least 10% significant 
+across all model specifications, suggesting some evidence on rate markup to straight borrowers living 
+in more LGBT dense counties. On the other hand, for same-sex borrowers living in these counties, 
+there is evidence that rate markup for them tend to decline. Overall, consistent with loan approval 
+analysis, we are able to find evidence of two-sided spillover effect on financing costs as well.  
+[Insert Table 12 Here] 
+5.3 Mortgage default 
+Our findings so far suggest same-sex borrowers are more likely to be rejected when they apply 
+for loans, and, conditional on being approved, lenders tend to charge them higher financing costs, 
+primarily through upfront fees. Although we have controlled for an extensive list of characteristics on 
+both borrowers and their loans, it may still be plausible that there could be some unobserved 
+characteristics that cause same-sex borrowers riskier and, therefore, more likely to default. In this case, 
+the higher APRs charged to same-sex borrowers could simply reflect the premium of their higher 
+default risk. To investigate whether the higher financing costs to same-sex borrowers can be justified 
+by the risk premium and, hence, a reflection of financial necessity, we look at the loan performance 
+using our merged HMDA-Fannie Mae samples.   
+
+
+24 
+ 
+We first estimate logit models for the mortgage defaults. The dependent variable is a dummy 
+variable indicating when a mortgage becomes delinquent for at least 60 days within 5 years since its 
+origination date. As the most recent performance updates in our data were from the end of 2015, we 
+restrict our sample to loans originated before 2010 in order to generate a five-year observation window. 
+The results are shown in Table 13.  Model 1 is our baseline model. In Model 2 we add LG_Countypct. 
+In Model 3, we add the interaction between same-sex and the LG_Countypct. Although there is no 
+reason to associate subsequent loan performance with the original lender after loan characteristics are 
+controlled, we still include the annually measured lender’s county-level market share measured yearly 
+and lender fixed effects in model 4. The coefficient of same-sex borrowers across all four models is 
+highly insignificant. Hence we feel comfortable saying that same-sex status exhibits no greater risk of 
+default.  
+[Insert Table 13 Here] 
+Finally, we investigate loan performance conditioning on loans that have experienced default. 
+In particular, for all loans that have a record of at least 60 days’ delinquency, we measure how long it 
+has been since origination before they are in default. We then run a Cox proportional hazard model 
+on the duration before default with a standard list of control variables. Our model specifications are 
+identical to the previous logit analysis on default. The results are reported in Table 14. Interestingly, 
+the coefficient for the same-sex is negative, although insignificant. A negative coefficient implies that, 
+conditional on the loan’s already default status, same-sex borrowers tend to postpone default from 
+happening more often than non-same-sex borrowers. Obviously, conditional on loans being in default, 
+lenders prefer to see default happening later than sooner. The lack of significance makes it 
+unwarranted to claim that same-sex borrowers perform better. However, we shall not forget that our 
+control of financing cost, i.e., contractual rate, is likely to underestimate the true cost markup for same-
+sex borrowers. It is obvious from Table 14 that financing cost exhibits a significant impact on 
+triggering default. So once again, there is certainly no evidence that same-sex borrowers are riskier for 
+lenders, and the findings from the duration model weakly suggest that it may be the opposite if we 
+have better measures on borrowers’ financing costs.  
+[Insert Table 14 Here] 
+5.4 The types of lending discrimination 
+
+
+25 
+ 
+We present evidence that, compared with otherwise similar loan applicants, same-sex 
+borrowers are more likely to have their applications turned down by lenders and, conditional on being 
+approved, they tend to be charged with higher interest rates. One issue that is yet to be investigated is 
+the type of lending discrimination that our findings reveal. The courts implementing the federal fair 
+lending laws broadly recognize two types of lending discrimination evidence: disparate treatment and 
+disparate impact.23 
+Evidence on disparate treatment can be established by showing that during the lending 
+practice, lenders explicitly use either prohibitory factors (overt evidence) or factors that are not 
+justified by legitimate nondiscriminatory factors (comparative evidence).  
+Disparate impact, on the other hand, happens when a lender applies a factor “neutral” policy 
+to all credit applicants, but the policy or practice disproportionately excludes or burdens certain group 
+of people on a prohibited basis. One example, provided by the Federal Fair Lending Regulations and 
+Statutes Overview,24 states, “A lender’s policy is to deny loan applications for single-family residences 
+for less than $60,000. The policy has been in effect for ten years. This minimum loan amount policy 
+is shown to disproportionately exclude potential minority applicants from consideration because of 
+their income levels or the value of the houses in the areas in which they live.” This type of 
+discrimination is much harder to prove because, at the lender level of the decision model, 
+discriminatory factor coefficients, such as sexuality or minority status, will be insignificant. Practically, 
+the courts will then determine whether the policy or practice can be justified by “business necessity.” 
+To begin to address this issue of discrimination type, we first examine whether same-sex 
+applicants are distributed unevenly in lenders’ customer pools, which can potentially lead to disparate 
+impact. In particular, using HMDA 20% data, we computed the proportion of same-sex applicants 
+within each lender-state pair. We then regressed the proportion based on lenders’ overall size ranking 
+in percentile and average loan characteristics for each lender, plus the state fixed effects. Please note 
+that our definition of a “lender,” which is identified by a unique combination of  HMDA respondent 
+ID and agency code, is somewhat narrower in scope due to data; because HMDA allows affiliated 
+subsidiaries to use different respondent IDs, it is possible that multiple identified lenders actually 
+belong to one parental financial institution. This is especially relevant for large financial institutions. 
+                                                          
+23 See Ross and Yinger (2002) for a comprehensive discussion on this matter. 
+24 https://www.federalreserve.gov/boarddocs/supmanual/cch/fair_lend_over.pdf. 
+
+
+26 
+ 
+Based on a report25 from Mortgage Bankers Association (MBA), for 2010, 8,124 “lenders” reported 
+data to HMDA. After adjusting for their parent companies, the list was narrowed down to 6,700 
+financial institutions.  
+We report the results in Table 15. The overall findings do provide evidence for disproportional 
+clustering. It seems that same-sex applicants are more likely to choose lenders that also have a bigger 
+share of minority applicants. Furthermore, the summary statistics in Table 2 reveal that same-sex 
+applicants tend to have higher loan-to-income ratios (LTI). Hence, it is no surprise to see from Table 
+15 that same-sex applicants are more likely to choose a lender who is willing to offer larger LTI loans. 
+Another notable difference from the summary statistics is that same-sex applicants tend to have higher 
+income. Interestingly, Table 15 shows that same-sex borrowers are more likely to apply for a loan 
+from a lender whose average customer has lower income. Shopping this way, the comparative income 
+advantage for same-sex borrowers becomes bigger, which could strengthen their profiles in competing 
+for a loan. Finally, there is no evidence that lender size matters when same-sex borrowers decide from 
+whom to borrow.  
+[Insert Table 15 Here] 
+  
+Next, to distinguish disparate treatment from disparate impact, we re-run the loan approval 
+and credit cost regression at the lender level. A significant coefficient for our key variable, “same-sex,” 
+would support the conclusion of disparate treatment; an insignificant coefficient would suggest either 
+no discrimination from that lender, or it can be subject to potential disparate impact investigation. To 
+minimize the noise from the many small lenders, and for economic significance, we restrict our 
+attention to the top 100 lenders identified in the merged HMDA-Fannie Mae data when we run the 
+lender level OLS regression on mortgage cost in section 5.2. For the same lenders, we also refer back 
+to the HMDA 20% sample and run the lender-level loan approval linear probability regression for all 
+loans those lenders processed. Our model specifications are similar to the models used in Table 4 
+(Column 5) and Table 12 (Column 1), with the exception that we now use state fixed effect to maintain 
+the degree of freedom. Because now we run lender-level regressions, we also remove all lender-related 
+fixed effects. Given our primary interest on the coefficient of “same-sex,” we plot its values for all top 
+100 lenders in Figure 3, in which lender size 1 is the largest.  
+                                                          
+25 http://apps.mba.org/files/Research/HMDAFAQ.pdf. 
+
+
+27 
+ 
+[Insert Figure 3 Here] 
+We find significant evidence that many lenders internally treat “same-sex” status unfavorably. 
+This is particularly true when lenders come to loan approval decisions. With respect to the mortgage 
+cost, although we see fewer lenders “overcharge” same-sex borrowers on their interest rates upon 
+approval, the incidence of this kind of business practice is still noticeable, especially among large 
+lenders on the market.  
+Finally, for lenders with either 10% insignificant or unexpected signs on the “same-sex” 
+coefficient, we pool them together to investigate whether unfavorable outcomes to same-sex 
+borrowers emerge again. We adopt the full models used in Table 4 (Model 4) and Table 12 (Model 1). 
+Although the results do not appear here to save space, for the coefficient on “same-sex,” we again 
+find negative 1% significant result in the loan approval model and positive 1% significant result in the 
+mortgage rate model. Hence, for lenders who pass the individual disparately treatment test, there is 
+collective evidence that same-sex borrowers are subject to unfavorable credit outcomes. This suggests 
+that there is also potential disparate impact, due to the disproportional clustering of same-sex loan 
+applicants among lenders.  
+6. Conclusion 
+ 
+This study examines avenues through which differential treatment could affect same-sex 
+applicants’ access to credit and opportunities for homeownership. The results indicate that 
+homosexual mortgage applicants in the United States are more likely to be turned down than other 
+applicants with similar characteristics. Following traditional approaches of estimating mortgage loan 
+discrimination based on race, we study two samples—one from national loan applications from 
+HMDA originating between 1990 and 2015, and one from classical Boston Fed loan application data 
+with more extensive borrower characteristics in 1990. The results provide empirical evidence of 
+lending discrimination concerning sexual orientation in U.S. loan applications. Homosexual applicants 
+are 73.12% more likely than otherwise similar straight applicants to be denied a loan.  
+We further check the cost and performance of the approved loans, and we find lenders tend 
+to charge higher financing costs to homosexual borrowers, primarily through upfront fees. After we 
+merge the HMDA data with Fannie Mae data, we find no evidence that same-sex borrowers exhibit 
+more risk of default.  
+
+
+28 
+ 
+         Our analysis also provides evidence of a two-sided spillover effect. That is, holding other factors 
+constant, when a neighborhood’s same-sex population increases, although same-sex applicants still 
+experience lower approval rate and higher financing cost, the treatment discrepancy between same-
+sex and straight applicants narrows from both sides.   
+Our research might suffer from omitted variable bias. For example, the original HMDA data 
+suggest that differential treatment by sexual orientation is occurring in the mortgage market. There 
+might be important confounding variables related to both loan approval and sexual orientation that 
+are missing from the HMDA data. To cross-validate the reliability of our findings, we employ Boston 
+Fed data that cover in detail on lenders’ information set, including essentially all of the information 
+the lenders use in their decision-making process, and find that sexual orientation still played a 
+significant role in mortgage lending decisions. 
+Furthermore, our investigation on mortgage performance doesn’t find that homosexual 
+applicants default more often, or that their defaults are costlier to lenders. Given the absence of hard 
+evidence suggesting sexual orientation may be a reliable signal for loan performance, this suggests that 
+a serious discrimination problem may exist in the mortgage market. As a result, our findings have 
+strong policy implications. Lenders, LGBT community groups, and regulators must work together to 
+guarantee homosexual applicants are treated fairly. 
+ 
+ 
+
+
+29 
+ 
+References 
+Ahmed A M, Hammarstedt M. “Discrimination in the Rental Housing Market: A Field Experiment 
+on the Internet.” Journal of Urban Economics, 64 no. 2 362-372. (2008). 
+Ahmed, Ali M., Lina Andersson, and Mats Hammarstedt. “Are Lesbians Discriminated Against in the 
+Rental Housing Market? Evidence from a Correspondence Testing Experiment.” Journal of 
+Housing Economics 17, no. 3. 234-238. (2008). 
+Alesina, Alberto F., Francesca Lotti, and Paolo Emilio Mistrulli. “Do Women Pay More for Credit? 
+Evidence from Italy.” Journal of the European Economic Association 11, no. s1 45-66. (2013). 
+Almeida, Joanna, et al. "Emotional Distress among LGBT Youth: The Influence of Perceived 
+Discrimination Based on Sexual Orientation." Journal of Youth and Adolescence 38.7 1001-
+1014. (2009). 
+Ayres, Ian. “Fair Driving: Gender and Race Discrimination in Retail Car Negotiations.” Harvard Law 
+Review 817-872. (1991). 
+Bayer, Patrick, Fernando Ferreira and Stephen L. Ross. The Vulnerability of Minority Homeowners 
+in the Housing Boom and Bust. American Economic Journal: Economic Policy, 8 (1), 1-30. 
+(2016). 
+Bayer, Patrick, Fernando Ferreira, and Stephen L. Ross. What Drives Racial and Ethnic Differences 
+in High Cost Mortgages? The Role of High Risk Lenders. Review of Financial Studies, 
+forthcoming. (2017) 
+Becker, Gary. “Nobel Lecture: The Economic Way of Looking at Behavior.” Journal of Political 
+Economy, 101 No 3. 385-409. (1993). 
+
+
+30 
+ 
+Bellucci, Andrea, Alexander Borisov, and Alberto Zazzaro. “Does Gender Matter in Bank–Firm 
+Relationships? Evidence from Small Business Lending.” Journal of Banking & Finance 34, no. 
+12 2968-2984. (2010). 
+Black, Dan, et al. "Why do Gay Men Live in San Francisco?." Journal of Urban Economics 51.1 54-
+76. (2002). 
+Black, Harold, Robert L. Schweitzer, and Lewis Mandell. "Discrimination in Mortgage Lending." The 
+American Economic Review 68, no. 2 186-191. (1978). 
+Brueggeman W B, Fisher J D. “Real Estate Finance & Investments”. McGraw-Hill/Irwin, 2016. 
+Cavalluzzo, Ken S., John D. Wolken, and Linda C. Cavalluzzo. “Competition, Small Business 
+Financing, and Discrimination: Evidence from a New Survey.” Journal of Business 641-679. 
+(2002). 
+Cheng, Ping, Zhenguo Lin, and Yingchun Liu. “Racial Discrepancy in Mortgage Interest Rates.” The 
+Journal of Real Estate Finance and Economics 1-20. (2014). 
+Coleman, Susan. "Access to capital and terms of credit: A comparison of men-and women-owned 
+small businesses." Journal of Small Business Management 38.3. 37. (2000). 
+Demyanyk, Yuliya and Otto Van Hemert. Understanding the Subprime Mortgage Crisis. Review of 
+Financial Studies, 24 (6) 1848-1880. (2011). 
+Gan, Jie, and Timothy J. Riddiough. "Monopoly and Information Advantage in the Residential 
+Mortgage Market." Review of Financial Studies 21 (6) 2677-2703. (2008). 
+Goldberg, Pinelopi Koujianou. “Dealer Price Discrimination in New Car Purchases: Evidence from 
+the Consumer Expenditure Survey.” Journal of Political Economy 622-654. (1996). 
+
+
+31 
+ 
+Hanson, A., Hawley, Z., Martin, H., & Liu, B. Discrimination in mortgage lending: Evidence from a 
+correspondence experiment. Journal of Urban Economics, 92, 48-65. (2016). 
+Kau, James B., Donald C. Keenan, Walter J. Muller III, and James F. Epperson. “The Valuation at 
+Origination of Fixed-Rate Mortgages with Default and Prepayment.” The Journal of Real 
+Estate Finance and Economics 11, no. 1 5-36. (1995). 
+Ladd, Helen F. “Equal Credit Opportunity: Women and Mortgage Credit.” The American Economic 
+Review 166-170. (1982). 
+Morton, Fiona Scott, Florian Zettelmeyer, and Jorge Silva-Risso. “Consumer Information and 
+Discrimination: Does the Internet Affect the Pricing of New Cars to Women and Minorities?” 
+Quantitative Marketing and Economics 1, no. 1 65-92. (2003). 
+Munnell, Alicia H., Geoffrey MB Tootell, Lynn E. Browne, and James McEneaney. "Mortgage lending 
+in Boston: Interpreting HMDA data." The American Economic Review 25-53. (1996). 
+Ross S, Yinger J. The Color of Credit. Cambridge, Mass: The MIT Press. (2002). 
+Schneider, Margaret S., and Anne Dimito. "Factors Influencing the Career and Academic Choices of 
+Lesbian, Gay, Bisexual, and Transgender People." Journal of Homosexuality 57.10 1355-1369. 
+(2010). 
+Weichselbaumer, Doris. “Sexual Orientation Discrimination in Hiring.” Labour Economics 10.6 629-
+642. (2003). 
+Zhang, Yan. “Fair Lending Analysis of Mortgage Pricing: Does Underwriting Matter?” The Journal 
+of Real Estate Finance and Economics 46, no. 1 131-151. (2013). 
+ 
+
+
+32 
+ 
+Table 1: Variable Definitions 
+Part A: Loan information 
+Variable Name 
+Meaning 
+Used at 
+Approve 
+Dummy if loan application is approved 
+HMDA&Boston 
+Fed 
+Occupied 
+Dummy if Occupied as a principal dwelling 
+HMDA&Boston 
+Fed 
+Loan Amount 
+Loan Amount on contract 
+HMDA 
+Loan Purpose 
+1: Home purchase 2: Home Improvement 3: Refinancing 
+HMDA 
+Loan Type 
+1: Conventional 2: FHA 3: VA 4: FSA/RHS 
+HMDA 
+Loan to Income 
+Loan to Income Ratio 
+HMDA 
+PMI Denial 
+Dummy if applicant applied PMI and was denied 
+Boston Fed 
+LTV 
+Loan to Value Ratio 
+Boston Fed 
+High LTV 
+Dummy if LTV is above 1 
+Boston Fed 
+Extreme LTV 
+Dummy if LTV is above 2 
+Boston Fed 
+Loan Term 
+Term in years 
+Boston Fed 
+Fixed Rate 
+Fixed rate mortgage dummy 
+Boston Fed 
+Multi-family 
+Dummy for multi-family unit 
+Boston Fed 
+Special Program 
+Dummy for special program loan 
+Boston Fed 
+Lendershare_County 
+Lenders’ market share in a county 
+HMDA 
+ 
+Part B: Borrower information 
+Variable Name 
+Meaning 
+Used at 
+Same-Sex 
+Dummy, equals 1 if applicant and co-applicant are of the same sex 
+HMDA&Boston 
+Fed 
+Annual Income 
+Total annual income (applicant + co-applicant) 
+HMDA&Boston 
+Fed 
+Co-applicant 
+Dummy if co-applicant is present 
+HMDA&Boston 
+Fed 
+LG_CountyPct 
+Percentage of Same Sex borrowers in a county 
+HMDA 
+LG_TractPct 
+Percentage of Same Sex borrowers in a tract 
+HMDA 
+Male 
+Dummy for Male Applicant 
+HMDA 
+Black 
+Dummy for Black applicant 
+HMDA 
+Hispanic 
+Dummy for Hispanic/Latino applicant 
+HMDA 
+Asian 
+Dummy for Asian applicant 
+HMDA 
+Other race 
+Dummy for other minority applicant 
+HMDA 
+Minority 
+Dummy for all minority applicant 
+Boston Fed 
+HETI 
+Housing expense-to-income ratio 
+Boston Fed 
+TDTI 
+Total debt expense-to-income ratio 
+Boston Fed 
+Net Worth 
+Net worth of applicant (in thousands) 
+Boston Fed 
+Cosigner 
+Dummy for Cosigner (other than co-applicant) 
+Boston Fed 
+Married 
+Dummy if applicant is married 
+Boston Fed 
+Consumer Credit 
+History 
+Applicant’s consumer credit history 
+(See Boston Fed study for definition) 
+Boston Fed 
+Mortgage Credit 
+History 
+Applicant’s mortgage credit history 
+(See Boston Fed study for definition) 
+Boston Fed 
+Bankruptcy 
+Dummy if applicant has public recorded bankruptcy 
+Boston Fed 
+Gift 
+Dummy for  gift is used in down payment 
+Boston Fed 
+Predicted Unemp 
+Predicted unemployment probability for applicant 
+(See Boston Fed Study) 
+Boston Fed 
+Short Work 
+Experience 
+Dummy if applicant has less than two year’s job experience 
+Boston Fed 
+Self-employed 
+Dummy if applicant is self-employed 
+Boston Fed 
+At Least 50 
+Dummy if applicant is over 50 
+Boston Fed 
+High School 
+Dummy if applicant has finished at least high school 
+Boston Fed 
+public records 
+ 
+Boston Fed 
+
+
+33 
+ 
+Dependent 
+# of dependent of applicant 
+Boston Fed 
+ 
+Part C:  Census tract information 
+Variable Name 
+Meaning 
+Used at 
+Poor Tract 
+Dummy for poor tract (income below area median) 
+HMDA&Boston 
+Fed 
+Minority Tract 
+Dummy if tract has over 30% Minority 
+HMDA&Boston 
+Fed 
+LnPOP_tract 
+Log of total population in tract 
+HMDA 
+FMI_tract 
+Median family income in tract 
+HMDA 
+Unit/Pop 
+# of Occupied units per capital in tract 
+HMDA 
+Age_tract 
+Median age of residents in tract 
+HMDA 
+Houseage_tract 
+Median house age in tract 
+HMDA 
+Male_tract 
+Proportion of male in tract 
+HMDA 
+LnHV_tract 
+Log  of median house vale in tract 
+HMDA 
+ 
+Part D: Lender’s mortgage portfolio information (all in 1990) 
+Variable Name 
+Meaning 
+Used at 
+CONVshare 
+Percent of conventional loans sold at secondary market by lender 
+Boston Fed 
+Loansize_lender 
+Average loan size made by lender 
+Boston Fed 
+Income_lender 
+Average applicant’s income by lender 
+Boston Fed 
+LTI_lender 
+Average loan to income ratio by lender 
+Boston Fed 
+ 
+ 
+ 
+Part E: Loan Cost and performance information 
+Variable Name 
+Meaning 
+Used at 
+Original rate 
+Original Interest Rate 
+Fannie Mae 
+Original Loan to 
+value 
+Original Combined Loan-to-Value 
+Fannie Mae 
+Income 
+Log Income 
+Fannie Mae 
+Borrower Score 
+Borrower Credit Score 
+Fannie Mae 
+Co-Borrower Score 
+Co-Borrower Credit Score 
+Fannie Mae 
+First Time 
+First-Time Home Buyer Indicator 
+Fannie Mae 
+Num_unit 
+Number of Units,  
+Fannie Mae 
+Mortgage 
+Insurance_pct 
+Mortgage Insurance Percentage,  
+Fannie Mae 
+Loan_purp 
+Loan Purpose,  
+Fannie Mae 
+Occupancy Status 
+Occupancy Status 
+Fannie Mae 
+ 
+ 
+ 
+Debt to Income 
+Debt-to-income Ratio 
+Fannie Mae 
+ 
+ 
+
+
+34 
+ 
+Table 2: Summary Statistics for Key Variables (Mean, Std) 
+Variables 
+Full Sample 
+(STD) 
+Same-sex=0 
+(STD) 
+Same-sex=1 
+(STD) 
+Two Sample t test 
+(p-level) 
+Approve 
+(HMDA) 
+0.8250 
+(0.3800) 
+08274 
+(0.3779) 
+0.7682 
+(0.4220) 
+*** 
+(0.0000) 
+Same-Sex 
+(HMDA) 
+0.0403 
+(0.1966) 
+N/A 
+N/A 
+N/A 
+LG_CountyPct 
+(HMDA) 
+4.1523 
+(1.8226) 
+4.1177 
+(1.7914) 
+4.9746 
+(2.3030) 
+*** 
+(0.0000) 
+Lendershare_County 
+(HMDA) 
+3.7578 
+(4.8558) 
+3.7690 
+(4.8642) 
+3.4903 
+(4.6414) 
+*** 
+(0.0000) 
+Loan to Income 
+(HMDA) 
+1.8523 
+(1.2774) 
+1.8514 
+(1.2717) 
+1.8747 
+(1.4065) 
+*** 
+(0.0000) 
+Loan Amount ( $000s) 
+(HMDA) 
+159.3674 
+ (165.2771) 
+159.6204 
+(165.6286) 
+153.3385  
+(156.5490) 
+*** 
+(0.0000) 
+Annual Income ($000s) 
+(HMDA) 
+97.7372 
+(125.5848) 
+97.4595 
+(123.2398) 
+104.3517 
+(172.1206) 
+*** 
+(0.0000) 
+Occupied 
+(HMDA) 
+0.9233 
+(0.2661) 
+0.9250 
+(0.2634) 
+0.8834 
+(0.3209) 
+*** 
+(0.0000) 
+Approve 
+(Boston Fed) 
+0.8549 
+(0.3523) 
+0.8567 
+(0.3505) 
+0.7971 
+(0.4051) 
+ 
+(0.1663) 
+Income ($000s) 
+(Boston Fed) 
+76.1072 
+(67.3506) 
+75.9923  
+(67.4778) 
+79.8398  
+(63.4164) 
+ 
+(0.6403) 
+HEI 
+(Boston Fed) 
+25.2734 
+ (9.7264) 
+25.3116 
+(9.7274) 
+24.0310 
+(9.6804) 
+ 
+(0.2815) 
+TDTI 
+(Boston Fed) 
+33.1560  
+(11.0951) 
+33.1569  
+(10.9940) 
+33.1274 
+(14.0955) 
+ 
+(0.9826) 
+Net Worth ($000s) 
+(Boston Fed) 
+0.2298 
+(0.9873) 
+0.2311 
+(0.9999) 
+0.1863 
+(0.3972) 
+ 
+(0.7105) 
+Predicted Unemp 
+(Boston Fed) 
+3.7876 
+(2.0366) 
+3.7853 
+(2.0342) 
+3.8623 
+(2.1279) 
+ 
+(0.7571) 
+Self Employed 
+(Boston Fed) 
+0.1231 
+(0.3286) 
+0.1246 
+(0.3304) 
+0.0725 
+(0.2612) 
+ 
+(0.1942) 
+LTV 
+(Boston Fed) 
+0.7653 
+(0.2807) 
+0.7650 
+(0.2827) 
+0.7773 
+(0.2063) 
+ 
+(0.7194) 
+PMI Denial (Boston 
+Fed) 
+0.0194 
+(0.1381) 
+0.0200 
+(0.1401) 
+0 
+(0) 
+ 
+(0.2354) 
+Multi-family 
+(Boston Fed) 
+0.1403 
+(0.3474) 
+0.1366 
+(0.3435) 
+0.2609 
+(0.4423) 
+*** 
+(0.0034) 
+Fixed Rate  
+(Boston Fed) 
+0.6576 
+(0.4746) 
+0.6573 
+(0.4747) 
+0.6667 
+(0.4749) 
+ 
+(0.8720) 
+Special Program 
+(Boston Fed) 
+0.1718 
+(0.3773) 
+0.1700 
+(0.3757) 
+0.2319 
+(0.4251) 
+ 
+(0.1797) 
+Loan Term 
+(Boston Fed) 
+28.7244 
+(5.1376) 
+28.7694 
+(5.0478) 
+27.2899 
+(7.4065) 
+** 
+(0.0185) 
+Gift 
+(Boston Fed) 
+0.1861 
+(0.3893) 
+0.1918 
+(0.3938) 
+0 
+(0) 
+*** 
+(0.0001) 
+Cosigner 
+(Boston Fed) 
+0.0358 
+(0.1859) 
+0.0338 
+(0.1808) 
+0.1014 
+(0.3041) 
+*** 
+(0.0029) 
+At Least 50 
+(Boston Fed) 
+0.4642 
+(0.4988) 
+0.4747 
+(0.4993) 
+0.2174 
+(0.4155) 
+*** 
+(0.0000) 
+Male 
+(Boston Fed) 
+0.7794 
+(0.4148) 
+0.7859 
+(0.4103) 
+0.5652 
+(0.4994) 
+*** 
+(0.0000) 
+Married 
+(Boston Fed) 
+0.5920 
+(0.4916) 
+0.6101 
+(0.4878) 
+0 
+(0) 
+*** 
+(0.0000) 
+Occupied 
+(Boston Fed) 
+0.9598 
+(0.1964) 
+0.9595 
+(0.1972) 
+0.9710 
+(0.1690) 
+ 
+(0.6315) 
+Bankruptcy 
+(Boston Fed) 
+0.0812 
+(0.2732) 
+0.0801 
+(0.2715) 
+0.1159 
+(0.3225) 
+ 
+(0.2832) 
+Mortgage Credit History 
+(Boston Fed) 
+1.7453 
+(0.5330) 
+1.7468 
+(0.5350) 
+1.6957 
+(0.4635) 
+ 
+(0.4327) 
+Consumer Credit 
+History 
+2.1706 
+(1.7161) 
+2.1709 
+(1.7151) 
+2.1594 
+(1.7625) 
+ 
+(0.9546) 
+
+
+35 
+ 
+(Boston Fed) 
+High School 
+(Boston Fed) 
+0.7409 
+(0.4382) 
+0.7414 
+(0.4379) 
+0.7246 
+(0.4500) 
+ 
+(0.7539) 
+Short Work Experience 
+(Boston Fed) 
+0.0885 
+(0.2841) 
+0.0859 
+(0.2803) 
+0.1739 
+(0.3818) 
+** 
+(0.0112) 
+ Dependent 
+(Boston Fed) 
+0.7845 
+(1.1114) 
+0.8042 
+(1.1193) 
+0.1449 
+(0.4933) 
+*** 
+(0.0000) 
+Original Loan-to-Value 
+(Fannie Mae) 
+74.2732 
+(15.6316) 
+74.3010 
+(15.6324) 
+73.6033 
+(15.5973) 
+*** 
+(0.0000) 
+Borrower Score 
+(Fannie Mae) 
+753.8248 
+(48.4005) 
+753.9804 
+(48.3368) 
+750.0820 
+(49.7632) 
+*** 
+(0.0000) 
+Co-Borrower Score 
+(Fannie Mae) 
+756.3145 
+(47.9988) 
+756.3955  
+(47.9335) 
+754.3646 
+(49.5047) 
+*** 
+(0.0000) 
+First Time 
+(Fannie Mae) 
+0.1169 
+(0.3213) 
+01144 
+(0.3182) 
+0.1774 
+(0.3820) 
+*** 
+(0.0000) 
+Num_unit 
+(Fannie Mae) 
+1.0778 
+(0.3798) 
+1.0738 
+(0.3706) 
+1.1740 
+(0.5487) 
+*** 
+(0.0000) 
+Mortgage Insurance_pct  
+(Fannie Mae) 
+5.5181 
+(10.7624) 
+5.5490 
+(10.7870) 
+4.7733 
+(10.1243) 
+*** 
+(0.0000) 
+ 
+ 
+ 
+ 
+ 
+
+
+36 
+ 
+Table 3: Loan Applications Sort by Purpose and Program 
+Panel A. Loan Applications sort by Purpose 
+# of Received Applicants 
+Same-Sex 
+Purchase 
+Improvement 
+Refinancing 
+ 
+Row Total 
+ 
+ 
+No 
+10,372,452 
+(94.57%) 
+2,453,051 
+(96.51%) 
+14,995,533 
+(96.88%) 
+27,821,036 
+(95.97%) 
+ 
+Yes 
+595,487 
+(5.43%) 
+88,833 
+(3.49%) 
+483,583 
+(3.12%) 
+1,167,903 
+(4.03%) 
+ 
+Column Total 
+10,967,939 
+(37.83%) 
+2,541,884 
+(8.77%) 
+15,479,116 
+(53.40%) 
+28,988,939 
+(100%) 
+# of Approved Applications 
+Same-Sex 
+Purchase 
+Improvement 
+Refinancing 
+ 
+Row Total 
+ 
+ 
+No 
+9,005,866  
+(94.95%) 
+1,814,448  
+(97.10%) 
+12,197,951  
+(97.10%) 
+23,018,265 
+(96.25%) 
+ 
+Yes 
+479,279  
+(5.05%) 
+54,218 
+(2.90%) 
+363,702  
+(2.90%) 
+897,199 
+(3.75%) 
+ 
+Column Total 
+9,485,145 
+(39.66%) 
+1,868,666 
+(7.81%) 
+12,561,653 
+(52.53%) 
+23,915,464 
+(100%) 
+Raw Approval Rate 
+Same-sex 
+Purchase 
+Improvement 
+Refinancing 
+ 
+Row Total 
+ 
+ 
+No 
+86.82% 
+73.97% 
+81.34% 
+82.74% 
+ 
+Yes 
+80.48% 
+61.03% 
+75.21% 
+76.82% 
+ 
+Panel B: Loan Applications sort by Loan Program 
+# of Received Applications 
+Same-Sex 
+Conventional 
+FHA 
+VA 
+ 
+Row Total 
+ 
+ 
+No 
+25,116,803 
+(96.22%) 
+1,931,534 
+(91.95% ) 
+685,816 
+(98.75%) 
+27,821,036 
+(95.97%) 
+ 
+Yes 
+987,633 
+(3.78%) 
+169,101 
+(8.05%) 
+8,698 
+(1.25%) 
+1,167,903 
+(4.03%) 
+ 
+Column Total 
+26,104,436 
+(90.05%) 
+2,100,635 
+(7.25%) 
+694,514 
+(2.40%) 
+28,988,939 
+(100%) 
+# of Approved Applications 
+Same-Sex 
+Conventional 
+FHA 
+VA 
+ 
+ 
+No 
+20,729,860  
+(96.52%) 
+1,619,381 
+(92.00% ) 
+595,654 
+ (98.80%) 
+23,018,265 
+(96.25%) 
+ 
+Yes 
+747,153  
+(3.48%) 
+140,847  
+(8.00%) 
+7,211  
+(1.20%) 
+897,199 
+(3.75%) 
+ 
+Column Total 
+21,477,013 
+(89.80%) 
+1,760,228 
+(7.36%) 
+602,865 
+(2.52%) 
+23,915,464 
+(100%) 
+Raw Approval Rate 
+Same-Sex 
+Conventional 
+FHA 
+VA 
+ 
+ 
+No 
+82.53% 
+83.84% 
+86.85% 
+82.74% 
+ 
+Yes 
+75.65% 
+83.08% 
+82.90% 
+76.82% 
+Note: calculated based on 20% HMDA national data.
+
+
+37 
+ 
+ 
+Table 4: HMDA National 20% Result (1990-2015) 
+ 
+Logit  
+(1) 
+Logit  
+(2) 
+Logit  
+(3) 
+Average 
+Marginal  
+Effect 
+Linear 
+Probability 
+(4) 
+Linear 
+Probability 
+(5) 
+ 
+Approve 
+Approve 
+Approve 
+Logit (3) 
+Approve 
+Approve 
+Same-Sex 
+-0.147*** 
+-0.140*** 
+-0.312*** 
+-0.042 
+-0.0300*** 
+-0.0296*** 
+ 
+(0.0243) 
+(0.0245) 
+(0.0281) 
+ 
+(0.00248) 
+(0.00218) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LG_CountyPct 
+ 
+-0.0593*** 
+-0.0619*** 
+-0.008 
+-0.00223*** 
+N/A 
+ 
+ 
+(0.00942) 
+(0.00953) 
+ 
+(0.000515) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Same*LG_CountyPct 
+ 
+ 
+0.0343*** 
+0.005 
+0.00136*** 
+0.000939*** 
+ 
+ 
+ 
+(0.00523) 
+ 
+(0.000424) 
+(0.000256) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lendershare_County 
+0.00935 
+0.00945 
+0.00942 
+0.001 
+0.00164* 
+N/A 
+ 
+(0.00959) 
+(0.00936) 
+(0.00936) 
+ 
+(0.000870) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LTI 
+-0.0631*** 
+-0.0629*** 
+-0.0630*** 
+-0.008 
+-0.0188*** 
+-0.0213*** 
+ 
+(0.0166) 
+(0.0166) 
+(0.0166) 
+ 
+(0.00103) 
+(0.00119) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+0.458*** 
+0.457*** 
+0.457*** 
+0.061 
+0.0290*** 
+0.0223*** 
+ 
+(0.0513) 
+(0.0510) 
+(0.0509) 
+ 
+(0.00299) 
+(0.00314) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Male 
+0.431*** 
+0.430*** 
+0.429*** 
+0.057 
+0.0325*** 
+0.0285*** 
+ 
+(0.0231) 
+(0.0231) 
+(0.0231) 
+ 
+(0.00186) 
+(0.00170) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Occupied 
+0.0198 
+0.0191 
+0.0185 
+0.003 
+0.0274*** 
+0.0299*** 
+ 
+(0.0480) 
+(0.0479) 
+(0.0479) 
+ 
+(0.00304) 
+(0.00308) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hispanic 
+-0.390*** 
+-0.389*** 
+-0.389*** 
+-0.052 
+-0.0503*** 
+-0.0500*** 
+ 
+(0.0218) 
+(0.0218) 
+(0.0218) 
+ 
+(0.00442) 
+(0.00449) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Black 
+-0.809*** 
+-0.805*** 
+-0.806*** 
+-0.107 
+-0.0934*** 
+-0.0908*** 
+ 
+(0.0219) 
+(0.0223) 
+(0.0222) 
+ 
+(0.00320) 
+(0.00304) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Asian 
+-0.172*** 
+-0.172*** 
+-0.172*** 
+-0.023 
+-0.0210*** 
+-0.0222*** 
+ 
+(0.0213) 
+(0.0214) 
+(0.0214) 
+ 
+(0.00141) 
+(0.00168) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Other race 
+-0.624*** 
+-0.624*** 
+-0.624*** 
+-0.083 
+-0.0581*** 
+-0.0506*** 
+ 
+(0.0621) 
+(0.0621) 
+(0.0621) 
+ 
+(0.00531) 
+(0.00299) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Purpose: Improvement 
+-0.793*** 
+-0.798*** 
+-0.798*** 
+-0.111 
+-0.0825*** 
+-0.0789*** 
+ 
+(0.114) 
+(0.113) 
+(0.113) 
+ 
+(0.0151) 
+(0.0133) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Purpose: Refinancing 
+-0.479*** 
+-0.482*** 
+-0.482*** 
+-0.061 
+-0.0337*** 
+-0.0305*** 
+ 
+(0.101) 
+(0.1000) 
+(0.0999) 
+ 
+(0.00486) 
+(0.00459) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Type: FHA 
+0.272*** 
+0.270*** 
+0.270*** 
+0.034 
+-0.00755 
+-0.0136*** 
+ 
+(0.0787) 
+(0.0782) 
+(0.0781) 
+ 
+(0.00485) 
+(0.00418) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Type: VA 
+0.308*** 
+0.303*** 
+0.302*** 
+0.038 
+0.00947** 
+0.00339 
+ 
+(0.112) 
+(0.112) 
+(0.112) 
+ 
+(0.00439) 
+(0.00405) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Type: FSA/RHS 
+0.326*** 
+0.322*** 
+0.322*** 
+0.040 
+-0.00723 
+-0.0140 
+ 
+(0.110) 
+(0.109) 
+(0.109) 
+ 
+(0.0108) 
+(0.0109) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Census Tract Demographic 
+Controls   
+Y 
+Y 
+Y 
+ 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+County Fixed Effect 
+Y 
+Y 
+Y 
+ 
+N 
+N 
+
+
+38 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Year Fixed Effect 
+Y 
+Y 
+Y 
+ 
+Y 
+N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender*County Fixed 
+Effect 
+N 
+N 
+N 
+ 
+Y 
+N 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender*County*Year Fixed 
+Effect 
+N 
+N 
+N 
+ 
+N 
+Y 
+Constant 
+-3.344*** 
+-3.074*** 
+-3.054*** 
+ 
+0.320*** 
+0.329*** 
+ 
+(0.562) 
+(0.526) 
+(0.524) 
+ 
+(0.0392) 
+(0.0256) 
+N 
+28988939 
+28988939 
+28988939 
+ 
+28988939 
+28988939 
+Adj. R2 
+ 
+ 
+ 
+ 
+0.200 
+0.251 
+Model 1: logit with basic control variables only. 
+Model 2: model 1 plus lg_countypct. 
+Model 3: model 2 plus samsex and lg_county pct interaction effect. 
+Model 4: model 2 plus samsex and lg_county pct interaction effect and with lender * county fixed effects. 
+Model 5: linear probability model with model 2 plus lender*state*year fixed effects. 
+Note: standard errors in parentheses is robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+
+
+39 
+ 
+Table 5: Result Using Boston Fed Data 
+ 
+Logit 
+(1) 
+Logit 
+(2) 
+Logit 
+(3) 
+Logit 
+(4) 
+Logit 
+(5) 
+Average 
+Marginal  
+Effect 
+ 
+Approve 
+Approve 
+Approve 
+Approve 
+Approve 
+Logit (5) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Same-Sex 
+-1.159*** 
+-1.030*** 
+-1.190*** 
+-1.296*** 
+-1.285** 
+-0.084 
+ 
+(0.404) 
+(0.394) 
+(0.415) 
+(0.487) 
+(0.544) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LG_Tractpct 
+ 
+-0.0245 
+-0.0254 
+-0.0295* 
+-0.0330** 
+-0.002 
+ 
+ 
+(0.0159) 
+(0.0170) 
+(0.0167) 
+(0.0151) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Minority 
+-0.506** 
+-0.500** 
+-0.525** 
+-0.381 
+-0.377 
+-0.025 
+ 
+(0.204) 
+(0.205) 
+(0.253) 
+(0.284) 
+(0.279) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Co-applicant 
+0.576* 
+0.552* 
+0.589* 
+0.639* 
+0.634* 
+0.042 
+ 
+(0.302) 
+(0.304) 
+(0.344) 
+(0.371) 
+(0.363) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+HETI 
+0.000194 
+0.000536 
+-0.00268 
+-0.0251 
+0.122 
+0.002 
+ 
+(0.0126) 
+(0.0126) 
+(0.0153) 
+(0.108) 
+(0.186) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TDTI 
+-0.0603*** 
+-0.0604*** 
+-0.0750*** 
+0.0370 
+0.0899 
+-0.006 
+ 
+(0.0167) 
+(0.0167) 
+(0.0203) 
+(0.0758) 
+(0.144) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Net worth 
+-0.0721 
+-0.0761* 
+-0.0638 
+-0.0546 
+-0.00239 
+0.000 
+ 
+(0.0458) 
+(0.0462) 
+(0.0560) 
+(0.0647) 
+(0.0721) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Predicted Unemp 
+-0.0740** 
+-0.0726* 
+-0.0583 
+-0.0538 
+-0.0450 
+-0.003 
+ 
+(0.0374) 
+(0.0387) 
+(0.0464) 
+(0.0468) 
+(0.0493) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Self-employed 
+-0.475** 
+-0.491** 
+-0.831*** 
+-0.889*** 
+-1.014*** 
+-0.066 
+ 
+(0.203) 
+(0.206) 
+(0.225) 
+(0.236) 
+(0.254) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LTV 
+-0.541 
+-0.521 
+-0.618 
+4.783** 
+-14.21** 
+-0.221 
+ 
+(0.380) 
+(0.370) 
+(0.434) 
+(2.116) 
+(6.487) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Denied PMI 
+-5.267*** 
+-5.262*** 
+-5.684*** 
+-5.815*** 
+-5.918*** 
+-0.388 
+ 
+(0.660) 
+(0.654) 
+(0.821) 
+(0.873) 
+(0.878) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Multi-Family 
+-0.427* 
+-0.398* 
+-0.450* 
+-0.344 
+-0.310 
+-0.020 
+ 
+(0.222) 
+(0.217) 
+(0.268) 
+(0.282) 
+(0.279) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fixed Rate 
+-0.158 
+-0.173 
+-0.229 
+-0.322 
+-0.414 
+-0.027 
+ 
+(0.213) 
+(0.217) 
+(0.288) 
+(0.298) 
+(0.315) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Special Program 
+0.599** 
+0.589** 
+0.878*** 
+0.873** 
+0.978** 
+0.064 
+ 
+(0.271) 
+(0.258) 
+(0.334) 
+(0.362) 
+(0.415) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan Term 
+-0.00857 
+-0.00907 
+0.000221 
+-0.0000882 
+0.0111 
+0.001 
+ 
+(0.0200) 
+(0.0201) 
+(0.0240) 
+(0.0239) 
+(0.0271) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gift 
+-0.0292 
+-0.0292 
+-0.0784 
+-0.217 
+-0.175 
+-0.011 
+ 
+(0.226) 
+(0.225) 
+(0.259) 
+(0.270) 
+(0.264) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cosigner 
+0.745* 
+0.698* 
+0.710 
+0.656 
+0.449 
+0.029 
+ 
+(0.397) 
+(0.394) 
+(0.477) 
+(0.477) 
+(0.451) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Age 
+-0.272 
+-0.275 
+-0.194 
+-0.259 
+-0.225 
+-0.015 
+ 
+(0.181) 
+(0.180) 
+(0.193) 
+(0.212) 
+(0.227) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Male 
+-0.338* 
+-0.347* 
+-0.313 
+-0.250 
+-0.187 
+-0.012 
+ 
+(0.187) 
+(0.188) 
+(0.205) 
+(0.199) 
+(0.202) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+40 
+ 
+Married 
+-0.0429 
+-0.0384 
+0.0585 
+0.0379 
+-0.00339 
+0.000 
+ 
+(0.229) 
+(0.231) 
+(0.269) 
+(0.276) 
+(0.279) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Owner Occupied 
+1.073*** 
+1.054*** 
+1.152*** 
+0.985** 
+0.869** 
+0.057 
+ 
+(0.297) 
+(0.297) 
+(0.382) 
+(0.460) 
+(0.429) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+-0.194 
+-0.252 
+-0.340 
+-0.439* 
+-0.481* 
+-0.032 
+ 
+(0.222) 
+(0.223) 
+(0.251) 
+(0.254) 
+(0.270) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Minority tract 
+-0.370 
+-0.342 
+-0.282 
+-0.459 
+-0.389 
+-0.025 
+ 
+(0.279) 
+(0.272) 
+(0.289) 
+(0.286) 
+(0.291) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Public Records 
+-1.338*** 
+-1.335*** 
+-1.498*** 
+-3.117 
+0.617 
+-0.076 
+ 
+(0.218) 
+(0.218) 
+(0.261) 
+(2.776) 
+(3.560) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mortgage payments 
+-0.441*** 
+-0.439*** 
+-0.421*** 
+1.407* 
+2.637 
+-0.029 
+ 
+(0.139) 
+(0.138) 
+(0.154) 
+(0.819) 
+(1.932) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Consumer payments 
+-0.351*** 
+-0.354*** 
+-0.416*** 
+0.112 
+-0.583 
+-0.028 
+ 
+(0.0320) 
+(0.0313) 
+(0.0367) 
+(0.334) 
+(0.652) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+High LTV 
+-2.694*** 
+-2.724*** 
+-3.121*** 
+-2.735*** 
+-2.859*** 
+-0.187 
+ 
+(0.389) 
+(0.407) 
+(0.740) 
+(0.723) 
+(0.812) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Extreme LTV 
+2.658 
+2.706 
+3.383* 
+4.382*** 
+4.018* 
+0.263 
+ 
+(1.940) 
+(1.917) 
+(1.999) 
+(1.589) 
+(2.303) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Short Work Experience 
+0.103 
+0.131 
+-0.0211 
+0.160 
+0.210 
+0.014 
+ 
+(0.282) 
+(0.287) 
+(0.333) 
+(0.346) 
+(0.327) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+High School 
+-0.00529 
+0.00688 
+0.233 
+0.279 
+0.273 
+0.018 
+ 
+(0.205) 
+(0.203) 
+(0.217) 
+(0.216) 
+(0.218) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dependents 
+-0.0632 
+-0.0642 
+-0.0960 
+-0.0883 
+-0.0930 
+-0.006 
+ 
+(0.0796) 
+(0.0802) 
+(0.0910) 
+(0.0837) 
+(0.0794) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+County Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender Fixed Effect 
+N 
+N 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Underwriting 
+Variable Interactions 
+N 
+N 
+N 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Underwriting 
+Variable And Lender 
+Portfolio Interactions 
+N 
+N 
+N 
+N 
+Y 
+ 
+Constant 
+6.689*** 
+6.859*** 
+24.16*** 
+18.69*** 
+22.62*** 
+ 
+ 
+(1.221) 
+(1.260) 
+(1.859) 
+(2.332) 
+(3.015) 
+ 
+N 
+2316 
+2316 
+2316 
+2316 
+2316 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Model 1: logit with basic control variables and county fixed effects. 
+Model 2: logit is model 1 plus lg_countypct. 
+Model 3: logit with lender and county fixed effect.   
+Model 4: logit with lender and county fixed effect, key lending variable interactions.   
+Model 5: logit with lender and county fixed effect, key lending variable interactions, and key underwriting variable and 
+lender portfolio interactions.   
+Standard errors in parentheses is robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+
+
+41 
+ 
+Table 6: Robustness Check with HMDA National Data (1990-2015) 
+ 
+Logit  
+(1) 
+Logit  
+(2) 
+Logit  
+(3) 
+Linear 
+Probability (4) 
+Linear 
+Probability (5) 
+ 
+Approve 
+Approve 
+Approve 
+Approve 
+Approve 
+ 
+ 
+ 
+ 
+ 
+ 
+Same-Sex 
+-0.159*** 
+-0.146*** 
+-0.410*** 
+-0.0341*** 
+-0.0253*** 
+ 
+(0.0498) 
+(0.0507) 
+(0.0838) 
+(0.00843) 
+(0.00652) 
+ 
+ 
+ 
+ 
+ 
+ 
+LG_Countypct 
+ 
+-0.0607*** 
+-0.0611*** 
+-0.00212*** 
+N/A 
+ 
+ 
+(0.00960) 
+(0.00961) 
+(0.000513) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Same * LG_County 
+ 
+ 
+0.0498*** 
+0.00301** 
+0.000819 
+ 
+ 
+ 
+(0.0137) 
+(0.00140) 
+(0.000898) 
+ 
+ 
+ 
+ 
+ 
+ 
+Lendershare_County 
+0.00978 
+0.00986 
+0.00985 
+0.00167** 
+N/A 
+ 
+(0.00960) 
+(0.00936) 
+(0.00936) 
+(0.000849) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LTI 
+-0.0661*** 
+-0.0659*** 
+-0.0659*** 
+-0.0191*** 
+-0.0216*** 
+ 
+(0.0167) 
+(0.0167) 
+(0.0167) 
+(0.00103) 
+(0.00120) 
+ 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+0.459*** 
+0.459*** 
+0.459*** 
+0.0286*** 
+0.0219*** 
+ 
+(0.0518) 
+(0.0515) 
+(0.0515) 
+(0.00298) 
+(0.00314) 
+ 
+ 
+ 
+ 
+ 
+ 
+Male 
+0.469*** 
+0.468*** 
+0.468*** 
+0.0362*** 
+0.0321*** 
+ 
+(0.0236) 
+(0.0235) 
+(0.0235) 
+(0.00205) 
+(0.00189) 
+ 
+ 
+ 
+ 
+ 
+ 
+Occupied 
+0.0233 
+0.0226 
+0.0225 
+0.0276*** 
+0.0301*** 
+ 
+(0.0483) 
+(0.0483) 
+(0.0483) 
+(0.00307) 
+(0.00311) 
+ 
+ 
+ 
+ 
+ 
+ 
+Hispanic 
+-0.387*** 
+-0.386*** 
+-0.386*** 
+-0.0497*** 
+-0.0494*** 
+ 
+(0.0214) 
+(0.0215) 
+(0.0215) 
+(0.00438) 
+(0.00447) 
+ 
+ 
+ 
+ 
+ 
+ 
+Black 
+-0.818*** 
+-0.815*** 
+-0.815*** 
+-0.0931*** 
+-0.0905*** 
+ 
+(0.0216) 
+(0.0220) 
+(0.0220) 
+(0.00320) 
+(0.00307) 
+ 
+ 
+ 
+ 
+ 
+ 
+Asian 
+-0.166*** 
+-0.166*** 
+-0.166*** 
+-0.0202*** 
+-0.0215*** 
+ 
+(0.0211) 
+(0.0211) 
+(0.0211) 
+(0.00141) 
+(0.00169) 
+ 
+ 
+ 
+ 
+ 
+ 
+Other race 
+-0.630*** 
+-0.629*** 
+-0.629*** 
+-0.0580*** 
+-0.0504*** 
+ 
+(0.0629) 
+(0.0629) 
+(0.0629) 
+(0.00533) 
+(0.00305) 
+ 
+ 
+ 
+ 
+ 
+ 
+Purpose: Improvement 
+-0.797*** 
+-0.802*** 
+-0.802*** 
+-0.0816*** 
+-0.0780*** 
+ 
+(0.115) 
+(0.114) 
+(0.114) 
+(0.0148) 
+(0.0131) 
+ 
+ 
+ 
+ 
+ 
+ 
+Purpose: Refinancing 
+-0.490*** 
+-0.493*** 
+-0.492*** 
+-0.0339*** 
+-0.0308*** 
+ 
+(0.102) 
+(0.101) 
+(0.101) 
+(0.00484) 
+(0.00459) 
+ 
+ 
+ 
+ 
+ 
+ 
+Type: FHA 
+0.248*** 
+0.246*** 
+0.246*** 
+-0.00895* 
+-0.0148*** 
+ 
+(0.0789) 
+(0.0784) 
+(0.0784) 
+(0.00482) 
+(0.00418) 
+ 
+ 
+ 
+ 
+ 
+ 
+Type: VA 
+0.302*** 
+0.297*** 
+0.297*** 
+0.00938** 
+0.00336 
+ 
+(0.113) 
+(0.112) 
+(0.112) 
+(0.00439) 
+(0.00406) 
+ 
+ 
+ 
+ 
+ 
+ 
+Type: FSA/RHS 
+0.313*** 
+0.309*** 
+0.308*** 
+-0.00774 
+-0.0143 
+ 
+(0.111) 
+(0.110) 
+(0.110) 
+(0.0110) 
+(0.0110) 
+ 
+ 
+ 
+ 
+ 
+ 
+Census Tract 
+Demographic Controls 
+Y 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+County Fixed Effect 
+Y 
+Y 
+Y 
+N 
+N 
+ 
+ 
+ 
+ 
+ 
+ 
+Year Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+N 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+42 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender*County Fixed 
+Effect 
+N 
+N 
+N 
+Y 
+N 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender*County*Year 
+Fixed Effect 
+N 
+N 
+N 
+N 
+Y 
+Constant 
+-3.344*** 
+-3.074*** 
+-3.054*** 
+0.320*** 
+0.329*** 
+ 
+(0.562) 
+(0.526) 
+(0.524) 
+(0.0392) 
+(0.0256) 
+N 
+28988939 
+28988939 
+28988939 
+28988939 
+28988939 
+Adj. R2 
+ 
+ 
+ 
+0.200 
+0.251 
+In this table, to rule out dad-son or brothers like same-sex pairs, we restrict same sex==1 only if race~=co applicant race. 
+And then we re-run the regressions similar to table 4. 
+Standard errors in parentheses is robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+
+
+43 
+ 
+Table 7: Robustness Check With Boston Fed Data: A 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+ 
+Approve 
+Approve 
+Approve 
+Approve 
+Approve 
+ 
+ 
+ 
+ 
+ 
+ 
+Same-sex 
+-1.525*** 
+-1.409*** 
+-1.682*** 
+-1.872*** 
+-1.714** 
+ 
+(0.466) 
+(0.465) 
+(0.502) 
+(0.601) 
+(0.687) 
+ 
+ 
+ 
+ 
+ 
+ 
+LG_Tractpct 
+ 
+-0.0177 
+-0.0254* 
+-0.0279* 
+-0.0244 
+ 
+ 
+(0.0151) 
+(0.0152) 
+(0.0155) 
+(0.0160) 
+ 
+ 
+ 
+ 
+ 
+ 
+Minority 
+-0.540** 
+-0.536** 
+-0.529* 
+-0.358 
+-0.291 
+ 
+(0.222) 
+(0.224) 
+(0.281) 
+(0.298) 
+(0.306) 
+ 
+ 
+ 
+ 
+ 
+ 
+Co-applicant 
+0.819** 
+0.800** 
+0.903** 
+0.966** 
+1.039** 
+ 
+(0.361) 
+(0.365) 
+(0.427) 
+(0.456) 
+(0.423) 
+ 
+ 
+ 
+ 
+ 
+ 
+HETI 
+-0.0107 
+-0.00997 
+-0.0127 
+-0.0405 
+-0.0877 
+ 
+(0.0148) 
+(0.0148) 
+(0.0193) 
+(0.125) 
+(0.180) 
+ 
+ 
+ 
+ 
+ 
+ 
+TDTI 
+-0.0494*** 
+-0.0499*** 
+-0.0674*** 
+0.0120 
+0.195 
+ 
+(0.0175) 
+(0.0177) 
+(0.0220) 
+(0.0763) 
+(0.146) 
+ 
+ 
+ 
+ 
+ 
+ 
+Net worth 
+-0.0562 
+-0.0598 
+-0.0371 
+-0.0446 
+0.00514 
+ 
+(0.0551) 
+(0.0556) 
+(0.0636) 
+(0.0811) 
+(0.0833) 
+ 
+ 
+ 
+ 
+ 
+ 
+Predicted Unemp 
+-0.0806* 
+-0.0805* 
+-0.0640 
+-0.0483 
+-0.0344 
+ 
+(0.0434) 
+(0.0432) 
+(0.0518) 
+(0.0528) 
+(0.0489) 
+ 
+ 
+ 
+ 
+ 
+ 
+Self-employed 
+-0.465** 
+-0.479** 
+-0.879*** 
+-0.969*** 
+-1.032*** 
+ 
+(0.228) 
+(0.229) 
+(0.264) 
+(0.275) 
+(0.300) 
+ 
+ 
+ 
+ 
+ 
+ 
+LTV 
+-0.697 
+-0.690 
+-0.946 
+3.655 
+-10.47 
+ 
+(0.845) 
+(0.835) 
+(0.878) 
+(2.803) 
+(9.059) 
+ 
+ 
+ 
+ 
+ 
+ 
+Denied PMI 
+-5.158*** 
+-5.139*** 
+-5.396*** 
+-5.449*** 
+-5.874*** 
+ 
+(0.741) 
+(0.732) 
+(0.912) 
+(0.971) 
+(0.964) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fixed Rate 
+-0.123 
+-0.134 
+-0.259 
+-0.347 
+-0.499 
+ 
+(0.232) 
+(0.234) 
+(0.296) 
+(0.292) 
+(0.308) 
+ 
+ 
+ 
+ 
+ 
+ 
+Special 
+0.649** 
+0.629** 
+0.757* 
+0.753* 
+0.836** 
+ 
+(0.276) 
+(0.264) 
+(0.395) 
+(0.407) 
+(0.415) 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan term 
+-0.0141 
+-0.0144 
+-0.0194 
+-0.0208 
+-0.0155 
+ 
+(0.0235) 
+(0.0237) 
+(0.0289) 
+(0.0316) 
+(0.0307) 
+ 
+ 
+ 
+ 
+ 
+ 
+Gift 
+0.0200 
+0.0174 
+0.00254 
+-0.110 
+-0.0425 
+ 
+(0.220) 
+(0.219) 
+(0.233) 
+(0.238) 
+(0.256) 
+ 
+ 
+ 
+ 
+ 
+ 
+Age 
+-0.335 
+-0.334 
+-0.212 
+-0.308 
+-0.244 
+ 
+(0.208) 
+(0.211) 
+(0.243) 
+(0.270) 
+(0.290) 
+ 
+ 
+ 
+ 
+ 
+ 
+Male 
+-0.644*** 
+-0.640*** 
+-0.600** 
+-0.600** 
+-0.542** 
+ 
+(0.226) 
+(0.224) 
+(0.262) 
+(0.260) 
+(0.241) 
+ 
+ 
+ 
+ 
+ 
+ 
+Married 
+-0.123 
+-0.126 
+-0.0717 
+-0.138 
+-0.116 
+ 
+(0.264) 
+(0.263) 
+(0.305) 
+(0.326) 
+(0.348) 
+ 
+ 
+ 
+ 
+ 
+ 
+Owner Occupied 
+1.375*** 
+1.348*** 
+1.430*** 
+1.265** 
+1.162** 
+ 
+(0.355) 
+(0.360) 
+(0.469) 
+(0.508) 
+(0.459) 
+ 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+-0.429* 
+-0.478** 
+-0.660** 
+-0.724** 
+-0.829** 
+
+
+44 
+ 
+ 
+(0.239) 
+(0.244) 
+(0.267) 
+(0.294) 
+(0.337) 
+ 
+ 
+ 
+ 
+ 
+ 
+Minority tract 
+-0.565* 
+-0.548* 
+-0.362 
+-0.612 
+-0.622 
+ 
+(0.306) 
+(0.307) 
+(0.330) 
+(0.402) 
+(0.476) 
+ 
+ 
+ 
+ 
+ 
+ 
+Public Records 
+-1.332*** 
+-1.334*** 
+-1.574*** 
+-1.802 
+5.448 
+ 
+(0.250) 
+(0.252) 
+(0.285) 
+(2.965) 
+(4.645) 
+ 
+ 
+ 
+ 
+ 
+ 
+Mortgage 
+payments 
+-0.375** 
+-0.374** 
+-0.411** 
+1.465 
+7.375*** 
+ 
+(0.163) 
+(0.164) 
+(0.185) 
+(0.953) 
+(2.440) 
+ 
+ 
+ 
+ 
+ 
+ 
+Consumer 
+payments 
+-0.356*** 
+-0.357*** 
+-0.432*** 
+-0.152 
+-2.069** 
+ 
+(0.0410) 
+(0.0407) 
+(0.0517) 
+(0.388) 
+(0.857) 
+ 
+ 
+ 
+ 
+ 
+ 
+High LTV 
+-2.485*** 
+-2.496*** 
+-2.752*** 
+-2.251*** 
+-2.071*** 
+ 
+(0.517) 
+(0.515) 
+(0.930) 
+(0.775) 
+(0.642) 
+ 
+ 
+ 
+ 
+ 
+ 
+Extreme LTV 
+2.238 
+2.263 
+2.913 
+3.428* 
+4.087* 
+ 
+(1.872) 
+(1.811) 
+(2.466) 
+(1.792) 
+(2.356) 
+ 
+ 
+ 
+ 
+ 
+ 
+Short Work 
+Experience 
+0.0309 
+0.0305 
+-0.187 
+-0.0210 
+0.0237 
+ 
+(0.389) 
+(0.390) 
+(0.456) 
+(0.465) 
+(0.436) 
+ 
+ 
+ 
+ 
+ 
+ 
+High School 
+0.117 
+0.125 
+0.449** 
+0.433** 
+0.512** 
+ 
+(0.200) 
+(0.202) 
+(0.203) 
+(0.199) 
+(0.207) 
+ 
+ 
+ 
+ 
+ 
+ 
+Dependents 
+-0.00222 
+-0.00180 
+-0.0392 
+-0.0344 
+-0.0388 
+ 
+(0.105) 
+(0.105) 
+(0.119) 
+(0.106) 
+(0.101) 
+ 
+ 
+ 
+ 
+ 
+ 
+County Fixed 
+Effect 
+Y 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender Fixed 
+Effect 
+N 
+N 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Underwriting 
+Variable 
+Interactions 
+N 
+N 
+N 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Underwriting 
+Variable And 
+Lender Portfolio 
+Interactions 
+N 
+N 
+N 
+N 
+Y 
+Constant 
+6.948*** 
+7.106*** 
+24.79*** 
+22.48*** 
+23.65*** 
+ 
+(1.493) 
+(1.540) 
+(2.102) 
+(2.826) 
+(3.252) 
+N 
+1935 
+1935 
+1935 
+1935 
+1935 
+ 
+ 
+ 
+ 
+ 
+ 
+To address the concern that same-sex borrowers have more presence in multi-family units, and are more likely to have a 
+cosigner, we now restrict our sample to those applicants for single-family units and without cosigner. Standard errors in 
+parentheses, and they are robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+
+
+45 
+ 
+Table 8: Robustness Check With Boston Fed Data: B 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+ 
+Approve 
+Approve 
+Approve 
+Approve 
+Approve 
+ 
+ 
+ 
+ 
+ 
+ 
+Same-sex 
+-2.196*** 
+-1.963*** 
+-2.152* 
+-2.546** 
+-2.810** 
+ 
+(0.708) 
+(0.755) 
+(1.099) 
+(1.045) 
+(1.165) 
+ 
+ 
+ 
+ 
+ 
+ 
+LG_Tractpct 
+ 
+-0.0296* 
+-0.0281 
+-0.0323 
+-0.0494* 
+ 
+ 
+(0.0175) 
+(0.0226) 
+(0.0221) 
+(0.0258) 
+ 
+ 
+ 
+ 
+ 
+ 
+Minority 
+-0.286 
+-0.274 
+-0.436 
+-0.284 
+-0.0333 
+ 
+(0.269) 
+(0.263) 
+(0.334) 
+(0.386) 
+(0.474) 
+ 
+ 
+ 
+ 
+ 
+ 
+Co-applicant 
+0.466 
+0.443 
+0.710* 
+0.583 
+0.803 
+ 
+(0.388) 
+(0.387) 
+(0.427) 
+(0.497) 
+(0.489) 
+ 
+ 
+ 
+ 
+ 
+ 
+HETI 
+-0.0121 
+-0.0118 
+-0.0144 
+-0.160 
+-0.655** 
+ 
+(0.0156) 
+(0.0155) 
+(0.0181) 
+(0.146) 
+(0.283) 
+ 
+ 
+ 
+ 
+ 
+ 
+TDTI 
+-0.0510** 
+-0.0513** 
+-0.0866*** 
+-0.0162 
+0.848*** 
+ 
+(0.0228) 
+(0.0228) 
+(0.0308) 
+(0.0996) 
+(0.241) 
+ 
+ 
+ 
+ 
+ 
+ 
+Net worth 
+0.0908 
+0.0918 
+0.205 
+0.332 
+0.512* 
+ 
+(0.152) 
+(0.147) 
+(0.254) 
+(0.262) 
+(0.294) 
+ 
+ 
+ 
+ 
+ 
+ 
+Predicted Unemp 
+-0.0773 
+-0.0721 
+-0.0188 
+-0.0235 
+0.0419 
+ 
+(0.0601) 
+(0.0609) 
+(0.0728) 
+(0.0818) 
+(0.0981) 
+ 
+ 
+ 
+ 
+ 
+ 
+Self-employed 
+-0.411 
+-0.430 
+-1.012** 
+-1.339*** 
+-1.658*** 
+ 
+(0.295) 
+(0.301) 
+(0.413) 
+(0.373) 
+(0.465) 
+ 
+ 
+ 
+ 
+ 
+ 
+LTV 
+0.0465 
+0.0604 
+-1.244 
+2.695 
+-52.04** 
+ 
+(0.399) 
+(0.389) 
+(1.143) 
+(5.077) 
+(22.54) 
+ 
+ 
+ 
+ 
+ 
+ 
+Denied PMI 
+-17.57*** 
+-17.56*** 
+-34.74*** 
+-36.01*** 
+-40.24*** 
+ 
+(0.606) 
+(0.601) 
+(1.541) 
+(2.236) 
+(7.512) 
+ 
+ 
+ 
+ 
+ 
+ 
+Multi family 
+-0.549 
+-0.515 
+-0.443 
+-0.249 
+-0.490 
+ 
+(0.345) 
+(0.342) 
+(0.458) 
+(0.512) 
+(0.524) 
+ 
+ 
+ 
+ 
+ 
+ 
+Fixed Rate 
+0.300 
+0.291 
+0.169 
+0.0625 
+-0.117 
+ 
+(0.238) 
+(0.242) 
+(0.361) 
+(0.393) 
+(0.443) 
+ 
+ 
+ 
+ 
+ 
+ 
+Special 
+0.312 
+0.302 
+1.108** 
+1.117** 
+1.096 
+ 
+(0.399) 
+(0.389) 
+(0.484) 
+(0.566) 
+(0.719) 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan term 
+-0.0122 
+-0.0136 
+0.0255 
+0.0119 
+0.00987 
+ 
+(0.0245) 
+(0.0249) 
+(0.0422) 
+(0.0403) 
+(0.0448) 
+ 
+ 
+ 
+ 
+ 
+ 
+Gift 
+-0.323 
+-0.330 
+-0.159 
+-0.300 
+-0.374 
+ 
+(0.342) 
+(0.336) 
+(0.410) 
+(0.470) 
+(0.566) 
+ 
+ 
+ 
+ 
+ 
+ 
+Cosigner 
+1.218** 
+1.143** 
+2.021** 
+1.929** 
+2.051* 
+ 
+(0.521) 
+(0.522) 
+(0.942) 
+(0.820) 
+(1.067) 
+ 
+ 
+ 
+ 
+ 
+ 
+Age 
+0 
+0 
+0 
+0 
+0 
+ 
+(.) 
+(.) 
+(.) 
+(.) 
+(.) 
+ 
+ 
+ 
+ 
+ 
+ 
+Male 
+-0.757*** 
+-0.817*** 
+-1.133*** 
+-1.032*** 
+-1.150*** 
+ 
+(0.281) 
+(0.284) 
+(0.348) 
+(0.358) 
+(0.426) 
+ 
+ 
+ 
+ 
+ 
+ 
+Married 
+0.0295 
+0.0445 
+0.235 
+0.287 
+-0.0426 
+ 
+(0.347) 
+(0.350) 
+(0.489) 
+(0.530) 
+(0.563) 
+
+
+46 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Owner Occupied 
+0.333 
+0.282 
+0.522 
+0.385 
+0.104 
+ 
+(0.439) 
+(0.432) 
+(0.634) 
+(0.726) 
+(0.583) 
+ 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+-0.568* 
+-0.679** 
+-0.884** 
+-0.983** 
+-1.362** 
+ 
+(0.291) 
+(0.288) 
+(0.419) 
+(0.467) 
+(0.580) 
+ 
+ 
+ 
+ 
+ 
+ 
+Minority tract 
+-0.984*** 
+-0.983*** 
+-1.251*** 
+-1.564*** 
+-1.975*** 
+ 
+(0.333) 
+(0.326) 
+(0.393) 
+(0.483) 
+(0.546) 
+ 
+ 
+ 
+ 
+ 
+ 
+Public Records 
+-1.092*** 
+-1.091*** 
+-1.198*** 
+-2.149 
+26.35** 
+ 
+(0.294) 
+(0.294) 
+(0.434) 
+(4.040) 
+(12.82) 
+ 
+ 
+ 
+ 
+ 
+ 
+Mortgage payments 
+-0.371** 
+-0.369** 
+-0.408* 
+1.678 
+7.574* 
+ 
+(0.178) 
+(0.177) 
+(0.240) 
+(1.347) 
+(4.227) 
+ 
+ 
+ 
+ 
+ 
+ 
+Consumer payments 
+-0.349*** 
+-0.349*** 
+-0.468*** 
+0.292 
+-0.172 
+ 
+(0.0442) 
+(0.0442) 
+(0.0606) 
+(0.540) 
+(1.711) 
+ 
+ 
+ 
+ 
+ 
+ 
+High LTV 
+-2.502*** 
+-2.596*** 
+-1.863* 
+-1.940* 
+-1.904 
+ 
+(0.585) 
+(0.583) 
+(1.083) 
+(1.088) 
+(1.461) 
+ 
+ 
+ 
+ 
+ 
+ 
+Extreme LTV 
+0.916 
+1.074 
+-13.12*** 
+-12.59*** 
+-10.95 
+ 
+(1.729) 
+(1.686) 
+(1.630) 
+(2.686) 
+(.) 
+ 
+ 
+ 
+ 
+ 
+ 
+Short Work Experience 
+0.395 
+0.358 
+0.333 
+0.513 
+0.551 
+ 
+(0.540) 
+(0.551) 
+(0.626) 
+(0.794) 
+(1.026) 
+ 
+ 
+ 
+ 
+ 
+ 
+High School 
+-0.221 
+-0.201 
+0.241 
+0.299 
+0.255 
+ 
+(0.311) 
+(0.311) 
+(0.417) 
+(0.449) 
+(0.434) 
+ 
+ 
+ 
+ 
+ 
+ 
+Dependents 
+-0.0495 
+-0.0551 
+-0.0902 
+-0.0796 
+-0.133 
+ 
+(0.0932) 
+(0.0950) 
+(0.119) 
+(0.121) 
+(0.144) 
+ 
+ 
+ 
+ 
+ 
+ 
+County Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender Fixed Effect 
+N 
+N 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Underwriting Variable 
+Interactions 
+N 
+N 
+N 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+Key Underwriting Variable 
+And Lender Portfolio 
+Interactions 
+N 
+N 
+N 
+N 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+Constant 
+8.205*** 
+8.541*** 
+25.94*** 
+23.40 
+28.39*** 
+ 
+(1.690) 
+(1.745) 
+(2.895) 
+(2539.9) 
+(5.422) 
+N 
+1072 
+1072 
+1072 
+1072 
+1072 
+ 
+ 
+ 
+ 
+ 
+ 
+To address the concern that same-sex borrowers are younger, and the possible dad-son pairs, here we restrict sample to be 
+over 50 years and with no dependent. And re-run regressions similar to table 5. 
+Standard errors in parentheses, and they are robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+ 
+ 
+
+
+47 
+ 
+ 
+Table 9: Plug In Same-Sex Attributes to Non-Same-sex Regression. 
+Boston Fed Data 
+Characteristics And Experience 
+Rates 
+Actual Denial Rate For Same-Sex Borrowers In Sample (N=69) 
+20.29% 
+Predicted Denial Rate For Same-Sex Borrowers With Their Characteristics But 
+Non-Same-sex Experience 
+11.72% 
+Odds Ratio 
+1.7312 
+Our treatment here is similar to Munnell et al., (1996). We first run a full logit regression (Logit (5) in table 5, but excluding 
+Same-sex as control variable) on non-same-sex observations.  Then for the same-sex applicants, we plug in their attributes 
+to the model, and compare the average predicted denial probability with the actual denial rate observed in data. Compared 
+to otherwise similar non-same-sex applicants, same-sex applicant are 73.12% more likely to be rejected! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+48 
+ 
+Table 10: High Rate Spread Disclosure 
+ 
+(1) 
+(2) 
+(3) 
+ 
+Premium_Report 
+Premium_Report 
+Premium_Report 
+Same-sex 
+0.00702*** 
+0.00708*** 
+0.0112*** 
+ 
+(0.00205) 
+(0.00205) 
+(0.00411) 
+ 
+ 
+ 
+ 
+LG_Countypct 
+ 
+-0.000398 
+-0.000343 
+ 
+ 
+(0.000314) 
+(0.000307) 
+ 
+ 
+ 
+ 
+Same * LG_County 
+ 
+ 
+-0.000801 
+ 
+ 
+ 
+(0.000557) 
+ 
+ 
+ 
+ 
+Lendershare_County 
+0.000922* 
+0.000916* 
+0.000917* 
+ 
+(0.000483) 
+(0.000483) 
+(0.000483) 
+ 
+ 
+ 
+ 
+Male 
+-0.00437*** 
+-0.00439*** 
+-0.00437*** 
+ 
+(0.000956) 
+(0.000959) 
+(0.000960) 
+ 
+ 
+ 
+ 
+LTV 
+-0.0000642** 
+-0.0000656** 
+-0.0000654** 
+ 
+(0.0000326) 
+(0.0000328) 
+(0.0000328) 
+ 
+ 
+ 
+ 
+Log Income 
+-0.00922*** 
+-0.00920*** 
+-0.00920*** 
+ 
+(0.000970) 
+(0.000967) 
+(0.000967) 
+ 
+ 
+ 
+ 
+Borrower Score 
+-0.000112*** 
+-0.000112*** 
+-0.000112*** 
+ 
+(0.0000134) 
+(0.0000134) 
+(0.0000135) 
+ 
+ 
+ 
+ 
+Co-borrower Score 
+-0.0000782*** 
+-0.0000782*** 
+-0.0000783*** 
+ 
+(0.0000114) 
+(0.0000114) 
+(0.0000114) 
+ 
+ 
+ 
+ 
+First Time 
+-0.00468** 
+-0.00462** 
+-0.00463** 
+ 
+(0.00205) 
+(0.00204) 
+(0.00204) 
+ 
+ 
+ 
+ 
+Num_Unit 
+-0.00303*** 
+-0.00299*** 
+-0.00298*** 
+ 
+(0.00109) 
+(0.00109) 
+(0.00109) 
+ 
+ 
+ 
+ 
+Mortgage insurance_Pct 
+0.00132*** 
+0.00132*** 
+0.00132*** 
+ 
+(0.000250) 
+(0.000250) 
+(0.000250) 
+ 
+ 
+ 
+ 
+Hispanic 
+0.0132*** 
+0.0133*** 
+0.0133*** 
+ 
+(0.00188) 
+(0.00189) 
+(0.00189) 
+ 
+ 
+ 
+ 
+Black 
+0.0400*** 
+0.0402*** 
+0.0402*** 
+ 
+(0.00412) 
+(0.00413) 
+(0.00413) 
+ 
+ 
+ 
+ 
+Asian 
+-0.00344*** 
+-0.00335*** 
+-0.00335*** 
+ 
+(0.00110) 
+(0.00109) 
+(0.00109) 
+ 
+ 
+ 
+ 
+Other race 
+0.00422 
+0.00424 
+0.00424 
+ 
+(0.00303) 
+(0.00303) 
+(0.00303) 
+ 
+ 
+ 
+ 
+Loan Purpose 
+-0.00830*** 
+-0.00831*** 
+-0.00831*** 
+ 
+(0.00233) 
+(0.00233) 
+(0.00233) 
+ 
+ 
+ 
+ 
+Loan Occupancy 
+0.0350*** 
+0.0350*** 
+0.0350*** 
+ 
+(0.00497) 
+(0.00497) 
+(0.00497) 
+ 
+ 
+ 
+ 
+Census Tract Demographic 
+Controls 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+Loan Month Fixed Effect 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+Lender*County Fixed Effect 
+Y 
+Y 
+Y 
+
+
+49 
+ 
+ 
+ 
+ 
+ 
+Constant 
+0.526*** 
+0.524*** 
+0.523*** 
+ 
+(0.0520) 
+(0.0514) 
+(0.0514) 
+N 
+425239 
+425239 
+425239 
+Adj. R2 
+0.078 
+0.078 
+0.078 
+Standard errors in parentheses are robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+
+
+50 
+ 
+Table 11: Tobit Regression on Rate Spread  
+ 
+Model 1 
+(Pre-2010) 
+Model 2 
+(Pre-2010) 
+Model 3 
+(Pre-2010) 
+Model 4 
+(Post-2010) 
+Model 5 
+(Post-2010) 
+Model 6 
+(Post-2010) 
+ 
+Rate Spread 
+Rate Spread 
+Rate Spread 
+Rate Spread 
+Rate Spread 
+Rate Spread 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Same-sex 
+0.176*** 
+0.177*** 
+0.202*** 
+0.0388*** 
+0.0397*** 
+0.111*** 
+ 
+(0.0113) 
+(0.0113) 
+(0.0158) 
+(0.00944) 
+(0.00947) 
+(0.0142) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LG_Countypct 
+ 
+-0.00367 
+-0.00320 
+ 
+-0.00394 
+-0.00276 
+ 
+ 
+(0.00425) 
+(0.00426) 
+ 
+(0.00334) 
+(0.00334) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Same*LG_County 
+ 
+ 
+-0.00505* 
+ 
+ 
+-0.0159*** 
+ 
+ 
+ 
+(0.00273) 
+ 
+ 
+(0.00278) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lendershare_County 
+0.0430*** 
+0.0429*** 
+0.0429*** 
+-0.00195** 
+-0.00204** 
+-0.00199** 
+ 
+(0.00161) 
+(0.00161) 
+(0.00161) 
+(0.000974) 
+(0.000975) 
+(0.000975) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Male 
+-0.155*** 
+-0.155*** 
+-0.155*** 
+-0.0295** 
+-0.0297** 
+-0.0295** 
+ 
+(0.0208) 
+(0.0208) 
+(0.0208) 
+(0.0148) 
+(0.0148) 
+(0.0148) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LTV 
+-0.00180*** 
+-0.00182*** 
+-0.00182*** 
+0.00326*** 
+0.00324*** 
+0.00325*** 
+ 
+(0.000279) 
+(0.000280) 
+(0.000280) 
+(0.000197) 
+(0.000197) 
+(0.000197) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+-0.296*** 
+-0.295*** 
+-0.295*** 
+-0.167*** 
+-0.167*** 
+-0.167*** 
+ 
+(0.00515) 
+(0.00516) 
+(0.00517) 
+(0.00365) 
+(0.00366) 
+(0.00366) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Borrower score 
+-0.00164*** 
+-0.00164*** 
+-0.00164*** 
+-0.00294*** 
+-0.00294*** 
+-0.00293*** 
+ 
+(0.0000322) 
+(0.0000323) 
+(0.0000323) 
+(0.0000229) 
+(0.0000229) 
+(0.0000229) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Co-borrower Score 
+-0.000830*** 
+-0.000831*** 
+-0.000831*** 
+-0.00274*** 
+-0.00274*** 
+-0.00274*** 
+ 
+(0.0000321) 
+(0.0000322) 
+(0.0000322) 
+(0.0000228) 
+(0.0000229) 
+(0.0000229) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+First Time 
+-0.165*** 
+-0.164*** 
+-0.164*** 
+0.160*** 
+0.160*** 
+0.160*** 
+ 
+(0.0154) 
+(0.0154) 
+(0.0154) 
+(0.00983) 
+(0.00990) 
+(0.00991) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Num_Units 
+-0.0446** 
+-0.0441** 
+-0.0440** 
+-0.0530*** 
+-0.0527*** 
+-0.0525*** 
+ 
+(0.0176) 
+(0.0176) 
+(0.0176) 
+(0.0132) 
+(0.0133) 
+(0.0133) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mortgage 
+Insurance_Pct.  
+0.0246*** 
+0.0246*** 
+0.0246*** 
+0.0148*** 
+0.0148*** 
+0.0148*** 
+ 
+(0.000531) 
+(0.000532) 
+(0.000532) 
+(0.000369) 
+(0.000369) 
+(0.000369) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hispanic 
+0.201*** 
+0.202*** 
+0.202*** 
+0.107*** 
+0.107*** 
+0.107*** 
+ 
+(0.0118) 
+(0.0119) 
+(0.0119) 
+(0.00926) 
+(0.00930) 
+(0.00929) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Black 
+0.509*** 
+0.511*** 
+0.511*** 
+0.240*** 
+0.242*** 
+0.242*** 
+ 
+(0.0133) 
+(0.0134) 
+(0.0134) 
+(0.01000) 
+(0.0100) 
+(0.0100) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Asian 
+-0.164*** 
+-0.163*** 
+-0.163*** 
+-0.00934 
+-0.00833 
+-0.00805 
+ 
+(0.0107) 
+(0.0107) 
+(0.0107) 
+(0.0103) 
+(0.0103) 
+(0.0103) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Other race 
+0.152*** 
+0.152*** 
+0.152*** 
+0.0676*** 
+0.0675*** 
+0.0679*** 
+ 
+(0.0137) 
+(0.0137) 
+(0.0137) 
+(0.00937) 
+(0.00938) 
+(0.00937) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan purpose 
+-0.320*** 
+-0.320*** 
+-0.320*** 
+0.0743*** 
+0.0741*** 
+0.0740*** 
+ 
+(0.0192) 
+(0.0192) 
+(0.0192) 
+(0.0135) 
+(0.0136) 
+(0.0136) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan Occupancy 
+0.649*** 
+0.649*** 
+0.649*** 
+0.615*** 
+0.615*** 
+0.614*** 
+ 
+(0.0146) 
+(0.0146) 
+(0.0146) 
+(0.0150) 
+(0.0150) 
+(0.0150) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Census Tract 
+Demographic 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+
+
+51 
+ 
+Controls 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan Month Fixed 
+Effect 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender*County 
+Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Constant 
+5.354*** 
+5.318*** 
+5.273*** 
+4.513*** 
+4.496*** 
+4.520*** 
+ 
+(0.0239) 
+(0.0240) 
+(0.0240) 
+(0.0170) 
+(0.0170) 
+(0.0170) 
+Sigma 
+ 
+ 
+ 
+ 
+ 
+ 
+Constant 
+1.143*** 
+1.143*** 
+1.143*** 
+0.710*** 
+0.710*** 
+0.710*** 
+ 
+(0.0108) 
+(0.0109) 
+(0.0109) 
+(0.00707) 
+(0.00710) 
+(0.00709) 
+N 
+181460 
+181460 
+181460 
+237197 
+237197 
+237197 
+Adj. R2 
+ 
+ 
+ 
+ 
+ 
+ 
+Standard errors in parentheses are robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+ 
+ 
+
+
+52 
+ 
+Table 12: Linear Regression on Contractual Rate  
+ 
+Ols 1 
+(Full Sample) 
+Ols 2 
+(Full Sample) 
+Ols 3 
+(Full Sample) 
+Ols 4 
+(Pre 2010) 
+Ols 5 
+(Post 2010) 
+ 
+Contractual 
+Rate 
+Contractual 
+Rate 
+Contractual 
+Rate 
+Contractual 
+Rate 
+Contractual 
+Rate 
+Same-sex 
+0.0195*** 
+0.0193*** 
+0.0285*** 
+0.0182** 
+0.0302*** 
+ 
+(0.00298) 
+(0.00297) 
+(0.00526) 
+(0.00872) 
+(0.00613) 
+ 
+ 
+ 
+ 
+ 
+ 
+LG_Countypct 
+ 
+0.00130* 
+0.00142* 
+0.00282** 
+0.00171** 
+ 
+ 
+(0.000775) 
+(0.000766) 
+(0.00134) 
+(0.000799) 
+ 
+ 
+ 
+ 
+ 
+ 
+Same * LG_County 
+ 
+ 
+-0.00182** 
+0.000860 
+-0.00271** 
+ 
+ 
+ 
+(0.000875) 
+(0.00134) 
+(0.00107) 
+ 
+ 
+ 
+ 
+ 
+ 
+Lendershare_County 
+-0.000940 
+-0.000921 
+-0.000919 
+-0.00202 
+0.00104 
+ 
+(0.000851) 
+(0.000852) 
+(0.000852) 
+(0.00154) 
+(0.00110) 
+ 
+ 
+ 
+ 
+ 
+ 
+Male 
+-0.00433*** 
+-0.00425*** 
+-0.00419*** 
+-0.00118 
+-0.00686*** 
+ 
+(0.00162) 
+(0.00162) 
+(0.00162) 
+(0.00208) 
+(0.00216) 
+ 
+ 
+ 
+ 
+ 
+ 
+LTV 
+0.00165*** 
+0.00165*** 
+0.00165*** 
+0.000847*** 
+0.00242*** 
+ 
+(0.000104) 
+(0.000103) 
+(0.000103) 
+(0.000124) 
+(0.000100) 
+ 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+-0.0597*** 
+-0.0598*** 
+-0.0598*** 
+-0.0642*** 
+-0.0556*** 
+ 
+(0.00166) 
+(0.00166) 
+(0.00166) 
+(0.00328) 
+(0.00218) 
+ 
+ 
+ 
+ 
+ 
+ 
+Borrower score 
+-0.00115*** 
+-0.00115*** 
+-0.00115*** 
+-0.000889*** 
+-0.00146*** 
+ 
+(0.0000450) 
+(0.0000450) 
+(0.0000450) 
+(0.0000565) 
+(0.0000258) 
+ 
+ 
+ 
+ 
+ 
+ 
+Co-borrower Score 
+-0.000846*** 
+-0.000846*** 
+-0.000846*** 
+-0.000596*** 
+-0.00120*** 
+ 
+(0.0000452) 
+(0.0000452) 
+(0.0000452) 
+(0.0000433) 
+(0.0000255) 
+ 
+ 
+ 
+ 
+ 
+ 
+First Time 
+-0.00377 
+-0.00396 
+-0.00396 
+-0.00757 
+-0.00346 
+ 
+(0.00346) 
+(0.00346) 
+(0.00346) 
+(0.00476) 
+(0.00393) 
+ 
+ 
+ 
+ 
+ 
+ 
+Num_Units 
+0.0657*** 
+0.0656*** 
+0.0656*** 
+0.0427*** 
+0.0822*** 
+ 
+(0.00453) 
+(0.00454) 
+(0.00454) 
+(0.00727) 
+(0.00331) 
+ 
+ 
+ 
+ 
+ 
+ 
+Mortgage Insurance_Pct  
+0.00114*** 
+0.00114*** 
+0.00114*** 
+0.00377*** 
+-0.000701*** 
+ 
+(0.000348) 
+(0.000348) 
+(0.000348) 
+(0.000446) 
+(0.000130) 
+ 
+ 
+ 
+ 
+ 
+ 
+Hispanic 
+0.0110*** 
+0.0107*** 
+0.0107*** 
+-0.00759 
+0.0226*** 
+ 
+(0.00337) 
+(0.00337) 
+(0.00337) 
+(0.00474) 
+(0.00416) 
+ 
+ 
+ 
+ 
+ 
+ 
+Black 
+0.0199*** 
+0.0194*** 
+0.0194*** 
+0.0139** 
+0.0261*** 
+ 
+(0.00386) 
+(0.00387) 
+(0.00387) 
+(0.00646) 
+(0.00476) 
+ 
+ 
+ 
+ 
+ 
+ 
+Asian 
+-0.00502* 
+-0.00531** 
+-0.00531** 
+-0.00595 
+-0.00639* 
+ 
+(0.00270) 
+(0.00266) 
+(0.00266) 
+(0.00390) 
+(0.00341) 
+ 
+ 
+ 
+ 
+ 
+ 
+Other race 
+0.00384 
+0.00376 
+0.00375 
+0.00645 
+0.000738 
+ 
+(0.00731) 
+(0.00730) 
+(0.00730) 
+(0.0116) 
+(0.00877) 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan purpose 
+0.0318*** 
+0.0319*** 
+0.0319*** 
+0.0121 
+0.0500*** 
+ 
+(0.00668) 
+(0.00668) 
+(0.00668) 
+(0.00811) 
+(0.00853) 
+ 
+ 
+ 
+ 
+ 
+ 
+Occupancy 
+0.305*** 
+0.305*** 
+0.305*** 
+0.324*** 
+0.284*** 
+ 
+(0.00705) 
+(0.00704) 
+(0.00704) 
+(0.0117) 
+(0.00481) 
+ 
+ 
+ 
+ 
+ 
+ 
+Census Tract Demographic 
+Controls 
+Y 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan Month Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+Y 
+
+
+53 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lender*County Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+Y 
+Constant 
+8.288*** 
+8.297*** 
+8.295*** 
+8.587*** 
+7.637*** 
+ 
+(0.0662) 
+(0.0652) 
+(0.0651) 
+(0.125) 
+(0.0768) 
+N 
+425239 
+425239 
+425239 
+181460 
+237197 
+Adj. R2 
+0.909 
+0.909 
+0.909 
+0.748 
+0.744 
+Standard errors in parentheses are robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+ 
+
+
+54 
+ 
+Table 13: Logit Model on Mortgage Default 
+ 
+Logit (1) 
+Logit (2) 
+Logit (3) 
+Logit (4) 
+ 
+Default 
+Default 
+Default 
+Default 
+ 
+ 
+ 
+ 
+ 
+Same-Sex 
+-0.000850 
+-0.000253 
+0.0735 
+0.0612 
+ 
+(0.0548) 
+(0.0550) 
+(0.149) 
+(0.146) 
+ 
+ 
+ 
+ 
+ 
+LG_Countypct 
+ 
+-0.0157 
+-0.0150 
+-0.0102 
+ 
+ 
+(0.0377) 
+(0.0382) 
+(0.0366) 
+ 
+ 
+ 
+ 
+ 
+Same*LG_County 
+ 
+ 
+-0.0137 
+-0.0132 
+ 
+ 
+ 
+(0.0291) 
+(0.0281) 
+ 
+ 
+ 
+ 
+ 
+Contractual Rate 
+0.388*** 
+0.388*** 
+0.388*** 
+0.369*** 
+ 
+(0.0294) 
+(0.0294) 
+(0.0294) 
+(0.0296) 
+ 
+ 
+ 
+ 
+ 
+Lendershare_County 
+ 
+ 
+ 
+-0.0235*** 
+ 
+ 
+ 
+ 
+(0.00483) 
+ 
+ 
+ 
+ 
+ 
+Male 
+-0.0112 
+-0.0113 
+-0.0110 
+-0.0132 
+ 
+(0.0287) 
+(0.0287) 
+(0.0287) 
+(0.0290) 
+ 
+ 
+ 
+ 
+ 
+LTV 
+0.0368*** 
+0.0368*** 
+0.0368*** 
+0.0366*** 
+ 
+(0.00145) 
+(0.00146) 
+(0.00146) 
+(0.00148) 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+-0.214*** 
+-0.214*** 
+-0.214*** 
+-0.213*** 
+ 
+(0.0242) 
+(0.0243) 
+(0.0243) 
+(0.0249) 
+ 
+ 
+ 
+ 
+ 
+Borrower score 
+-0.00940*** 
+-0.00940*** 
+-0.00940*** 
+-0.00943*** 
+ 
+(0.000296) 
+(0.000296) 
+(0.000295) 
+(0.000298) 
+ 
+ 
+ 
+ 
+ 
+Co-borrower Score 
+-0.00716*** 
+-0.00716*** 
+-0.00716*** 
+-0.00728*** 
+ 
+(0.000259) 
+(0.000259) 
+(0.000259) 
+(0.000260) 
+ 
+ 
+ 
+ 
+ 
+First Time 
+-0.259*** 
+-0.259*** 
+-0.259*** 
+-0.262*** 
+ 
+(0.0463) 
+(0.0462) 
+(0.0460) 
+(0.0461) 
+ 
+ 
+ 
+ 
+ 
+Num_Units 
+0.128*** 
+0.128*** 
+0.128*** 
+0.132*** 
+ 
+(0.0307) 
+(0.0307) 
+(0.0307) 
+(0.0311) 
+ 
+ 
+ 
+ 
+ 
+Mortgage Insurance_Pct  
+0.00218* 
+0.00217 
+0.00216 
+0.00243* 
+ 
+(0.00132) 
+(0.00132) 
+(0.00132) 
+(0.00135) 
+ 
+ 
+ 
+ 
+ 
+Hispanic 
+0.177*** 
+0.176*** 
+0.176*** 
+0.179*** 
+ 
+(0.0427) 
+(0.0427) 
+(0.0427) 
+(0.0434) 
+ 
+ 
+ 
+ 
+ 
+Black 
+0.208*** 
+0.208*** 
+0.208*** 
+0.209*** 
+ 
+(0.0482) 
+(0.0482) 
+(0.0482) 
+(0.0484) 
+ 
+ 
+ 
+ 
+ 
+Asian 
+0.00729 
+0.00746 
+0.00757 
+0.0132 
+ 
+(0.0590) 
+(0.0590) 
+(0.0589) 
+(0.0592) 
+ 
+ 
+ 
+ 
+ 
+Other race 
+0.181 
+0.181 
+0.180 
+0.189* 
+ 
+(0.111) 
+(0.111) 
+(0.111) 
+(0.112) 
+ 
+ 
+ 
+ 
+ 
+Loan purpose 
+0.538*** 
+0.538*** 
+0.538*** 
+0.524*** 
+ 
+(0.0254) 
+(0.0254) 
+(0.0254) 
+(0.0260) 
+ 
+ 
+ 
+ 
+ 
+Occupancy 
+-0.0153 
+-0.0154 
+-0.0157 
+-0.0233 
+ 
+(0.0373) 
+(0.0372) 
+(0.0375) 
+(0.0380) 
+ 
+ 
+ 
+ 
+ 
+Census Tract 
+Demographic Controls 
+Y 
+Y 
+Y 
+Y 
+
+
+55 
+ 
+ 
+ 
+ 
+ 
+ 
+Loan Month Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+County Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+Lender Fixed Effect 
+N 
+N 
+N 
+Y 
+ 
+ 
+ 
+ 
+ 
+Constant 
+5.965*** 
+6.017*** 
+6.006*** 
+7.113*** 
+ 
+(0.836) 
+(0.868) 
+(0.875) 
+(1.062) 
+N 
+214934 
+214934 
+214934 
+214934 
+ 
+ 
+ 
+ 
+ 
+Standard errors in parentheses are robust and clustered at MSA level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+ 
+
+
+56 
+ 
+Table 14: Cox Proportional Hazard Model on Duration before Default 
+ 
+Hazard (1) 
+Hazard (2) 
+Hazard (3) 
+Hazard (4) 
+ 
+Duration 
+Duration 
+Duration 
+Duration 
+Same-sex 
+-0.0581 
+-0.0580 
+-0.132 
+-0.131 
+ 
+(0.0417) 
+(0.0417) 
+(0.105) 
+(0.105) 
+ 
+ 
+ 
+ 
+ 
+LG_Countypct 
+ 
+-0.0276 
+-0.0282 
+-0.0205 
+ 
+ 
+(0.0332) 
+(0.0332) 
+(0.0354) 
+ 
+ 
+ 
+ 
+ 
+Same * LG_County 
+ 
+ 
+0.0139 
+0.0145 
+ 
+ 
+ 
+(0.0186) 
+(0.0185) 
+ 
+ 
+ 
+ 
+ 
+Lendershare_County 
+ 
+ 
+ 
+-0.00417 
+ 
+ 
+ 
+ 
+(0.00433) 
+ 
+ 
+ 
+ 
+ 
+Contractual Rate 
+0.160*** 
+0.160*** 
+0.160*** 
+0.147*** 
+ 
+(0.0232) 
+(0.0232) 
+(0.0232) 
+(0.0251) 
+ 
+ 
+ 
+ 
+ 
+Male 
+-0.00176 
+-0.00175 
+-0.00181 
+0.00382 
+ 
+(0.0246) 
+(0.0246) 
+(0.0246) 
+(0.0257) 
+ 
+ 
+ 
+ 
+ 
+LTV 
+0.00499*** 
+0.00498*** 
+0.00497*** 
+0.00483*** 
+ 
+(0.00112) 
+(0.00112) 
+(0.00112) 
+(0.00121) 
+ 
+ 
+ 
+ 
+ 
+Log Income 
+0.0649*** 
+0.0650*** 
+0.0652*** 
+0.0652*** 
+ 
+(0.0179) 
+(0.0179) 
+(0.0179) 
+(0.0188) 
+ 
+ 
+ 
+ 
+ 
+Borrower score 
+-0.00161*** 
+-0.00161*** 
+-0.00161*** 
+-0.00171*** 
+ 
+(0.000234) 
+(0.000235) 
+(0.000235) 
+(0.000256) 
+ 
+ 
+ 
+ 
+ 
+Co-borrower Score 
+-0.00118*** 
+-0.00118*** 
+-0.00118*** 
+-0.00128*** 
+ 
+(0.000259) 
+(0.000257) 
+(0.000256) 
+(0.000265) 
+ 
+ 
+ 
+ 
+ 
+First Time 
+-0.101*** 
+-0.101*** 
+-0.101*** 
+-0.105*** 
+ 
+(0.0326) 
+(0.0325) 
+(0.0325) 
+(0.0345) 
+ 
+ 
+ 
+ 
+ 
+Num_Units 
+-0.0254 
+-0.0258 
+-0.0263 
+-0.0347 
+ 
+(0.0273) 
+(0.0271) 
+(0.0272) 
+(0.0283) 
+ 
+ 
+ 
+ 
+ 
+Mortgage Insurance_Pct  
+0.000249 
+0.000258 
+0.000278 
+0.000337 
+ 
+(0.00104) 
+(0.00104) 
+(0.00104) 
+(0.00112) 
+ 
+ 
+ 
+ 
+ 
+Hispanic 
+0.0607* 
+0.0603* 
+0.0603* 
+0.0567 
+ 
+(0.0334) 
+(0.0332) 
+(0.0332) 
+(0.0352) 
+ 
+ 
+ 
+ 
+ 
+Black 
+-0.0259 
+-0.0252 
+-0.0254 
+-0.0310 
+ 
+(0.0378) 
+(0.0376) 
+(0.0376) 
+(0.0382) 
+ 
+ 
+ 
+ 
+ 
+Asian 
+0.0156 
+0.0140 
+0.0134 
+0.0248 
+ 
+(0.0626) 
+(0.0631) 
+(0.0628) 
+(0.0633) 
+ 
+ 
+ 
+ 
+ 
+Other race 
+-0.0348 
+-0.0319 
+-0.0317 
+-0.0345 
+ 
+(0.123) 
+(0.122) 
+(0.122) 
+(0.116) 
+ 
+ 
+ 
+ 
+ 
+Loan purpose 
+0.0610*** 
+0.0612*** 
+0.0614*** 
+0.0542*** 
+ 
+(0.0198) 
+(0.0198) 
+(0.0198) 
+(0.0201) 
+ 
+ 
+ 
+ 
+ 
+Occupancy 
+-0.127*** 
+-0.127*** 
+-0.127*** 
+-0.117*** 
+ 
+(0.0256) 
+(0.0257) 
+(0.0258) 
+(0.0284) 
+ 
+ 
+ 
+ 
+ 
+Census Tract Demographic 
+Controls 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+
+
+57 
+ 
+Loan Month Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+County Fixed Effect 
+Y 
+Y 
+Y 
+Y 
+ 
+ 
+ 
+ 
+ 
+Lender Fixed Effect 
+N 
+N 
+N 
+Y 
+ 
+ 
+ 
+ 
+ 
+N 
+17137 
+17137 
+17137 
+17137 
+ 
+ 
+ 
+ 
+ 
+Standard errors in parentheses are robust and clustered at MSA level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+ 
+
+
+58 
+ 
+Table 15: OLS Model On the Same-Sex Percentage across Lenders 
+ 
+(1) 
+(2) 
+ 
+Same_Pct 
+Same_Pct 
+Lendersize_100pct 
+-0.00287 
+-0.00511 
+ 
+(0.00362) 
+(0.00352) 
+ 
+ 
+ 
+Male_Pct 
+-0.116*** 
+-0.117*** 
+ 
+(0.0208) 
+(0.0209) 
+ 
+ 
+ 
+Hispan_Pct 
+0.0184** 
+0.0180** 
+ 
+(0.00842) 
+(0.00884) 
+ 
+ 
+ 
+Black_Pct 
+0.0539*** 
+0.0429*** 
+ 
+(0.0131) 
+(0.0132) 
+ 
+ 
+ 
+Asian_Pct 
+0.0269*** 
+0.0194* 
+ 
+(0.0102) 
+(0.0105) 
+ 
+ 
+ 
+Otherrace_Pct 
+0.0844 
+0.0856 
+ 
+(0.0595) 
+(0.0595) 
+ 
+ 
+ 
+Occup_Pct 
+-0.116*** 
+-0.122*** 
+ 
+(0.0216) 
+(0.0219) 
+ 
+ 
+ 
+Lti_Avg 
+0.562** 
+0.553** 
+ 
+(0.244) 
+(0.248) 
+ 
+ 
+ 
+Lincome_Avg 
+-1.919*** 
+-2.230*** 
+ 
+(0.537) 
+(0.541) 
+ 
+ 
+ 
+State Fixed Effect 
+N 
+Y 
+ 
+ 
+ 
+Constant 
+31.59*** 
+33.56*** 
+ 
+(4.953) 
+(4.939) 
+N 
+112206 
+112206 
+Adj. R2 
+0.021 
+0.031 
+Standard errors in parentheses are robust and clustered at lender level 
+* P < 0.1, ** P < 0.05, *** P < 0.01 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+59 
+ 
+Figure 1a: Percentage of State Level Same-sex Borrowers and Gallup 2012 LGBT Estimate 
+ 
+ 
+ 
+Gallup estimate can be found at http://www.gallup.com/poll/160517/lgbt-percentage-highest-lowest-north-dakota.aspx 
+
+
+60 
+ 
+Figure 1b: The Williams Institute 2010 DC Same-sex Couples Estimate (Based on Census Data) 
+ 
+The Williams Institute http://williamsinstitute.law.ucla.edu/ 
+
+
+61 
+ 
+Figure 1c: The Heat Map of DC Same-sex Borrowers (Based on HMDA Implied) 
+ 
+
+
+62 
+ 
+ 
+Figure 2: Graph of the “same-sex” Coefficient and Associated 5% Confidence Interval using HMDA 100% National Data 
+from 1990 to 2015 
+ 
+ 
+
+
+63 
+ 
+Figure 3: Graph of the “same-sex” Coefficient from Lender Level Loan Approval and Cost Regressions

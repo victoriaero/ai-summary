@@ -1,0 +1,28 @@
+{
+  "source_id": "af48addc4a4c7bb68600",
+  "normalized_url": "https://endhomelessness.org/blog/homelessness-and-black-history-poverty-and-income",
+  "fetch_timestamp_utc": "2026-10-04T03:44:05.468419+00:00",
+  "registrable_domain": "endhomelessness.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://endhomelessness.org/blog/homelessness-and-black-history-poverty-and-income",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 336313,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/raw/af48addc4a4c7bb68600.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v3_la/source_corpus/text/af48addc4a4c7bb68600.txt",
+  "text_chars": 3890,
+  "text_words": 609,
+  "extraction_status": "success",
+  "page_title": "Homelessness and Black History: Poverty and Income",
+  "page_author": "NAEH",
+  "page_date": "2025-02-21",
+  "site_name": "National Alliance to End Homelessness",
+  "canonical_url": "https://endhomelessness.org/blog/homelessness-and-black-history-poverty-and-income/"
+}

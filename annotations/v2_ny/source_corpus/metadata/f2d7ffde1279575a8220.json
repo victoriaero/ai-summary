@@ -1,0 +1,28 @@
+{
+  "source_id": "f2d7ffde1279575a8220",
+  "normalized_url": "https://nsuworks.nova.edu/fse_etd/1194",
+  "fetch_timestamp_utc": "2026-10-04T02:51:44.743777+00:00",
+  "registrable_domain": "nova.edu",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://nsuworks.nova.edu/fse_etd/1194/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 44410,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/f2d7ffde1279575a8220.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/f2d7ffde1279575a8220.txt",
+  "text_chars": 3948,
+  "text_words": 520,
+  "extraction_status": "success",
+  "page_title": "Predicting Use of Force: An Intersectional Analysis of Age, Race and Gender",
+  "page_author": "India L Hall",
+  "page_date": "2026-08-05",
+  "site_name": "NSUWorks",
+  "canonical_url": "https://nsuworks.nova.edu/fse_etd/1194"
+}

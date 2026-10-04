@@ -1,0 +1,28 @@
+{
+  "source_id": "e9a242209192007679de",
+  "normalized_url": "https://justice.gc.ca/socjs-esjp/en/women-femmes/ao-ad",
+  "fetch_timestamp_utc": "2026-10-04T02:51:13.612611+00:00",
+  "registrable_domain": "justice.gc.ca",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://justice.gc.ca/socjs-esjp/en/women-femmes/ao-ad",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "content_type": "text/html; charset=utf-8",
+  "downloaded_bytes": 35543,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/e9a242209192007679de.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/e9a242209192007679de.txt",
+  "text_chars": 5777,
+  "text_words": 816,
+  "extraction_status": "success",
+  "page_title": "Content page - Web Experience Toolkit",
+  "page_author": "French name; Nom en français de l'auteur du contenu",
+  "page_date": "2025-11-25",
+  "site_name": "justice.gc.ca",
+  "canonical_url": "https://justice.gc.ca/socjs-esjp/en/women-femmes/ao-ad"
+}

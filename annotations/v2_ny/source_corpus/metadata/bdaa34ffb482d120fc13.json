@@ -1,0 +1,28 @@
+{
+  "source_id": "bdaa34ffb482d120fc13",
+  "normalized_url": "https://employerscouncil.org/resources/examination-gender-bias-hiring",
+  "fetch_timestamp_utc": "2026-10-04T02:47:48.378062+00:00",
+  "registrable_domain": "employerscouncil.org",
+  "success": true,
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://www.employerscouncil.org/resources/examination-gender-bias-hiring/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "content_type": "text/html; charset=UTF-8",
+  "downloaded_bytes": 92248,
+  "curl_returncode": 0,
+  "curl_stderr": "",
+  "content_kind": "html",
+  "raw_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/raw/bdaa34ffb482d120fc13.html",
+  "text_path": "/scratch/victoria.estanislau/ai-summary/annotations/v2_ny/source_corpus/text/bdaa34ffb482d120fc13.txt",
+  "text_chars": 3139,
+  "text_words": 473,
+  "extraction_status": "success",
+  "page_title": "An Examination of Gender Bias in Hiring - Employers Council",
+  "page_author": "Employers Council Staff",
+  "page_date": "2018-04-30",
+  "site_name": "Employers Council",
+  "canonical_url": "https://www.employerscouncil.org/resources/examination-gender-bias-hiring/"
+}
